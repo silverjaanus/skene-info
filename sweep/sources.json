@@ -1,0 +1,27 @@
+{
+ "juhis": "Nädalane FB/IG sweep: käi lehed läbi Chrome'iga, otsi uusi üritusi/reliise/merch-droppe. Võrdle data/data.json vastu. Uued kirjed -> data/manual.json (alati allikaviitega). Punk ainult koos muu žanriga. Blocklist: data/blocklist.json.",
+ "fb": [
+  {"nimi": "Barbar / Barbar Feast", "url": "https://www.facebook.com/barbarestonia/events", "tyyp": "promootor"},
+  {"nimi": "Damn.Loud Agency", "url": "https://www.facebook.com/damnloudagency/events", "tyyp": "promootor", "nb": "URL kontrollida esimesel sweep'il"},
+  {"nimi": "Secret Face Productions", "url": "https://www.facebook.com/profile.php?id=61562829254036", "tyyp": "promootor", "nb": "all things extreme; Baltic Prosection tour 26"},
+  {"nimi": "Sügis Productions", "url": "https://www.facebook.com/sygisproductions/events", "tyyp": "promootor", "nb": "URL kontrollida"},
+  {"nimi": "Onodrim", "url": "https://www.facebook.com/onodrimprod/events", "tyyp": "promootor", "nb": "URL kontrollida"},
+  {"nimi": "Kolga Mõisa Kontsert", "url": "https://www.facebook.com/kolgamoisakontsert/events", "tyyp": "promootor", "nb": "URL kontrollida"},
+  {"nimi": "The Krypt", "url": "https://www.facebook.com/thekrypttallinn/events", "tyyp": "venue", "nb": "REST API annab 0, FB on primaarne"},
+  {"nimi": "Tapper", "url": "https://www.facebook.com/rockclubtapper/events", "tyyp": "venue", "nb": "tapper.ee/events on 404"},
+  {"nimi": "Linna Bar", "url": "https://www.facebook.com/linnabaar/events", "tyyp": "venue", "nb": "URL kontrollida"},
+  {"nimi": "Heavy Music Estonia", "url": "https://www.facebook.com/heavymusicestonia/events", "tyyp": "kogukond"},
+  {"nimi": "Mahtra Records", "url": "https://www.facebook.com/mahtrarecords", "tyyp": "label", "nb": "reliisid; Bandcamp serverist blokitud"},
+  {"nimi": "Nailboard Rock Shop", "url": "https://www.facebook.com/nailboardshop", "tyyp": "pood", "nb": "merch; WooCommerce 'viimati saabunud' ka olemas"}
+ ],
+ "ig": [
+  {"nimi": "@damn.loud", "url": "https://www.instagram.com/damn.loud/"},
+  {"nimi": "@sugisextremefest", "url": "https://www.instagram.com/sugisextremefest/", "nb": "staatus kontrollida"},
+  {"nimi": "@tuum.baar", "url": "https://www.instagram.com/tuum.baar/", "nb": "venue-staatus kontrollida"}
+ ],
+ "js_saidid_chrome_kihis": [
+  {"nimi": "Tourmotor", "url": "https://tourmotor.net", "nb": "DIY/väikelinnade platvorm"},
+  {"nimi": "Fienta otsing", "url": "https://fienta.com/et?q=metal", "nb": "ka: doom, black, hardcore; API võimalus jaluses"},
+  {"nimi": "Bandsintown Tallinn metal", "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia", "nb": "Cloudflare blokib serverit"}
+ ]
+}
