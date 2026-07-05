@@ -1,9 +1,10 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/:path*",
+      "src": "/(.*)",
       "has": [{ "type": "host", "value": "rap.skene.info" }],
-      "destination": "/rap/:path*"
-    }
+      "dest": "/rap/$1"
+    },
+    { "handle": "filesystem" }
   ]
 }
