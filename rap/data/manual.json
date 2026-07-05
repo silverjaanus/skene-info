@@ -1,0 +1,45 @@
+[
+ {
+  "d": "2026-07-10",
+  "d2": "11.07",
+  "t": "festival",
+  "n": "Beach Grind 2026",
+  "a": "+ Vini Vici, Wilkinson, Hospital 30: Metrik, P Money jt",
+  "b": ["Tommy Cash", "NOËP", "Sadu"],
+  "v": "Pärnu rand",
+  "c": "mujal",
+  "g": ["hip-hop", "dnb", "electro"],
+  "sn": "beachgrind.ee",
+  "su": "https://beachgrind.ee/",
+  "pu": "https://beachgrind.ee/"
+ },
+ {
+  "d": "2026-08-14",
+  "d2": "15.08",
+  "t": "festival",
+  "n": "Eesti Hip Hop Festival 2026",
+  "a": "artistid selgumisel",
+  "b": [],
+  "v": "Elva",
+  "c": "mujal",
+  "g": ["hip-hop", "räpp"],
+  "sn": "eestihiphopfestival.ee",
+  "su": "https://eestihiphopfestival.ee/",
+  "pu": "https://eestihiphopfestival.ee/"
+ },
+ {
+  "d": "2027-08-13",
+  "d2": "14.08",
+  "t": "festival",
+  "n": "Tartu Punch 2027",
+  "b": [],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": ["hip-hop", "räpp"],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/tartu-punch-2027/",
+  "on_": "paavli.ee",
+  "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
+  "pu": "https://piletitasku.ee/et/event/10014"
+ }
+]
