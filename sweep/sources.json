@@ -2,25 +2,44 @@
  "juhis": "Nädalane FB/IG sweep: käi lehed läbi Chrome'iga, otsi uusi üritusi/reliise/merch-droppe. Võrdle data/data.json vastu. Uued kirjed -> data/manual.json (alati allikaviitega). Punk ainult koos muu žanriga. Blocklist: data/blocklist.json.",
  "fb": [
   {"nimi": "Barbar / Barbar Feast", "url": "https://www.facebook.com/barbarestonia/events", "tyyp": "promootor"},
-  {"nimi": "Damn.Loud Agency", "url": "https://www.facebook.com/damnloudagency/events", "tyyp": "promootor", "nb": "URL kontrollida esimesel sweep'il"},
-  {"nimi": "Secret Face Productions", "url": "https://www.facebook.com/profile.php?id=61562829254036", "tyyp": "promootor", "nb": "all things extreme; Baltic Prosection tour 26"},
-  {"nimi": "Sügis Productions", "url": "https://www.facebook.com/sygisproductions/events", "tyyp": "promootor", "nb": "URL kontrollida"},
-  {"nimi": "Onodrim", "url": "https://www.facebook.com/onodrimprod/events", "tyyp": "promootor", "nb": "URL kontrollida"},
-  {"nimi": "Kolga Mõisa Kontsert", "url": "https://www.facebook.com/kolgamoisakontsert/events", "tyyp": "promootor", "nb": "URL kontrollida"},
-  {"nimi": "The Krypt", "url": "https://www.facebook.com/thekrypttallinn/events", "tyyp": "venue", "nb": "REST API annab 0, FB on primaarne"},
-  {"nimi": "Tapper", "url": "https://www.facebook.com/rockclubtapper/events", "tyyp": "venue", "nb": "tapper.ee/events on 404"},
-  {"nimi": "Linna Bar", "url": "https://www.facebook.com/linnabaar/events", "tyyp": "venue", "nb": "URL kontrollida"},
-  {"nimi": "Heavy Music Estonia", "url": "https://www.facebook.com/heavymusicestonia/events", "tyyp": "kogukond"},
+  {"nimi": "Damn.Loud Agency", "url": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL kinnitatud 05.07.2026; NB! osa üritusi Vilniuses (LOFTAS) - ainult Eesti omad"},
+  {"nimi": "Secret Face Productions", "url": "https://www.facebook.com/profile.php?id=61562829254036&sk=events", "tyyp": "promootor", "nb": "all things extreme; üritused Kotka Kultuurimajas (Ööbiku 1a); punk/crust-kahtlusega bill'id kontrollida ükshaaval"},
+  {"nimi": "Sügis Productions", "url": "https://www.facebook.com/sugisproductions/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL parandatud 05.07.2026 (sugis, mitte sygis); IG @sugis_productions; Sügis Extreme Fest IV dets 2026"},
+  {"nimi": "Onodrim", "url": "", "tyyp": "promootor", "nb": "EI LEITUD 05.07.2026: onodrimprod ei tööta, FB lehe-otsing ei anna Eesti promootorit - Silveril õige URL täpsustada"},
+  {"nimi": "Kolga Mõisa Kontsert", "url": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL kinnitatud 05.07.2026"},
+  {"nimi": "The Krypt", "url": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "URL parandatud 05.07.2026 (thekrypt.tallinn); REST API annab 0, FB on primaarne"},
+  {"nimi": "Tapper", "url": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events", "tyyp": "venue", "nb": "URL kinnitatud 05.07.2026; tapper.ee/events on 404"},
+  {"nimi": "Linna Bar", "url": "", "tyyp": "venue", "nb": "EI LEITUD 05.07.2026: linnabaar ei tööta, FB otsing ei anna - kirjed tulevad Bandsintownist"},
+  {"nimi": "Heavy Music Estonia", "url": "", "tyyp": "kogukond", "nb": "EI LEITUD 05.07.2026: heavymusicestonia ei tööta, FB otsing ei anna - heavymusic.ee RSS on automaatkihis olemas"},
   {"nimi": "Mahtra Records", "url": "https://www.facebook.com/mahtrarecords", "tyyp": "label", "nb": "reliisid; Bandcamp serverist blokitud"},
   {"nimi": "Nailboard Rock Shop", "url": "https://www.facebook.com/nailboardshop", "tyyp": "pood", "nb": "merch; WooCommerce 'viimati saabunud' ka olemas"}
  ],
  "ig": [
   {"nimi": "@damn.loud", "url": "https://www.instagram.com/damn.loud/"},
-  {"nimi": "@sugisextremefest", "url": "https://www.instagram.com/sugisextremefest/", "nb": "staatus kontrollida"},
-  {"nimi": "@tuum.baar", "url": "https://www.instagram.com/tuum.baar/", "nb": "venue-staatus kontrollida"}
+  {"nimi": "@sugisextremefest", "url": "https://www.instagram.com/sugisextremefest/", "nb": "AKTIIVNE: bio ütleb 4. väljaanne dets 2026 @ The Krypt (2-päevane)"},
+  {"nimi": "@tuum.baar", "url": "https://www.instagram.com/tuum.baar/", "nb": "kinnitatud 05.07.2026: Tartu metal/rock baar (Lai 30), aga vaid 10 postitust, viimased 2025 - hõre allikas"}
  ],
+ "rap": {
+  "nb": "rap.skene.info jaoks: uued kirjed -> rap/data/manual.json. Punk-reegel siin EI kehti; ainult Eesti skeene.",
+  "fb": [
+   {"nimi": "Eesti Hip Hop Festival", "url": "https://www.facebook.com/eestihiphopfestival/events", "tyyp": "festival"},
+   {"nimi": "Uus Laine", "url": "https://www.facebook.com/uuslaine/events", "tyyp": "venue", "nb": "Check One Two peod; URL kontrollida"},
+   {"nimi": "Sveta Baar", "url": "https://www.facebook.com/svetabaar/events", "tyyp": "venue", "nb": "URL kontrollida"},
+   {"nimi": "Beach Grind", "url": "https://www.facebook.com/beachgrind/events", "tyyp": "festival", "nb": "URL kontrollida"}
+  ],
+  "ig": [
+   {"nimi": "@eestihiphopfestival", "url": "https://www.instagram.com/eestihiphopfestival/"},
+   {"nimi": "@tommycashworld", "url": "https://www.instagram.com/tommycashworld/", "nb": "artist"},
+   {"nimi": "@nublu", "url": "https://www.instagram.com/nublu/", "nb": "artist; URL kontrollida"}
+  ],
+  "js_saidid": [
+   {"nimi": "Piletilevi muusika", "url": "https://www.piletilevi.ee/piletid/muusika", "nb": "JS + API 403 serverist; filtreeri räpp/hip-hop käsitsi"},
+   {"nimi": "Fienta räpp-otsing", "url": "https://fienta.com/et?q=r%C3%A4pp", "nb": "ka: hip-hop, rap"},
+   {"nimi": "hiphop.ee", "url": "https://www.hiphop.ee/", "nb": "webzine, RSS /feed/, postitused hõredad aga elus (viimane 03.2026); reliisid+peod"}
+  ]
+ },
  "js_saidid_chrome_kihis": [
-  {"nimi": "Tourmotor", "url": "https://tourmotor.net", "nb": "DIY/väikelinnade platvorm"},
+  {"nimi": "Tourmotor", "url": "https://tourmotor.net", "nb": "DIY/väikelinnade platvorm; 05.07.2026 seisuga aktiivseid tulevasi üritusi polnud"},
   {"nimi": "Fienta otsing", "url": "https://fienta.com/et?q=metal", "nb": "ka: doom, black, hardcore; API võimalus jaluses"},
   {"nimi": "Bandsintown Tallinn metal", "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia", "nb": "Cloudflare blokib serverit"}
  ]

@@ -57,6 +57,24 @@
   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia"
  },
  {
+  "d": "2026-07-12",
+  "t": "kontsert",
+  "n": "SFP esitleb: Ecotage + Ethetric + Shatter Me Whole",
+  "b": [
+   "Ecotage",
+   "Ethetric",
+   "Shatter Me Whole"
+  ],
+  "v": "Kotka Kultuurimaja",
+  "c": "Tallinn",
+  "g": [
+   "grind",
+   "hardcore"
+  ],
+  "sn": "Secret Face FB",
+  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
+ },
+ {
   "d": "2026-07-15",
   "d2": "17.07",
   "t": "kontsert",
@@ -101,6 +119,25 @@
   "on_": "fest.kabliku.com",
   "ou": "https://fest.kabliku.com/",
   "pu": "https://fest.kabliku.com/"
+ },
+ {
+  "d": "2026-07-22",
+  "t": "kontsert",
+  "n": "SFP esitleb: Sewer Altar + Koni + Gangrenated + E.X.E.X.",
+  "b": [
+   "Sewer Altar",
+   "Koni",
+   "Gangrenated",
+   "E.X.E.X."
+  ],
+  "v": "Kotka Kultuurimaja",
+  "c": "Tallinn",
+  "g": [
+   "death",
+   "grind"
+  ],
+  "sn": "Secret Face FB",
+  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
  },
  {
   "d": "2026-07-24",
@@ -170,6 +207,26 @@
   "pu": "https://www.piletitasku.ee/et/custompage/4371"
  },
  {
+  "d": "2026-08-05",
+  "d2": "15.08",
+  "t": "kontsert",
+  "n": "C-JAM & MAD «Metallica» tuur, II osa",
+  "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08",
+  "b": [
+   "C-JAM"
+  ],
+  "v": "tuur",
+  "c": "mujal",
+  "g": [
+   "tribute",
+   "heavy"
+  ],
+  "sn": "Kolga Mõisa Kontserdi FB",
+  "su": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
+  "on_": "Kolga Mõisa Kontsert",
+  "ou": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events"
+ },
+ {
   "d": "2026-08-08",
   "t": "klubi",
   "n": "BFTV: Beats From The Vault",
@@ -185,6 +242,25 @@
   ],
   "sn": "bftv.ee",
   "su": "https://bftv.ee/"
+ },
+ {
+  "d": "2026-08-21",
+  "t": "kontsert",
+  "n": "Barbatos + Beatrix + külaline",
+  "b": [
+   "Barbatos",
+   "Beatrix"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "thrash"
+  ],
+  "sn": "Sügis Productionsi FB",
+  "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
+  "on_": "The Krypt FB",
+  "ou": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events"
  },
  {
   "d": "2026-08-28",
@@ -217,6 +293,26 @@
   "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park"
  },
  {
+  "d": "2026-08-30",
+  "t": "kontsert",
+  "n": "Nothing + Hammok",
+  "b": [
+   "Nothing",
+   "Hammok"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "shoegaze",
+   "post"
+  ],
+  "sn": "Damn.Loudi FB",
+  "su": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
+  "on_": "Damn.Loud",
+  "ou": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
+  "pu": "https://fienta.com/et/nothing-paavli-tallinn"
+ },
+ {
   "d": "2026-09-04",
   "t": "kontsert",
   "n": "Fear Factory + Crystal Lake + Hate",
@@ -240,7 +336,10 @@
   "t": "kontsert",
   "n": "Under the New Moon: Vermilia",
   "b": [
-   "Vermilia"
+   "Vermilia",
+   "Aether",
+   "Pagansarv",
+   "Bestia"
   ],
   "v": "Rockclub Tapper",
   "c": "Tallinn",
@@ -465,6 +564,23 @@
   "su": "https://metalstorm.net/events/event.php?event_id=235376"
  },
  {
+  "d": "2026-12-11",
+  "tba": 1,
+  "t": "festival",
+  "n": "Sügis Extreme Fest IV (detsember, kuupäev täpsustamisel)",
+  "a": "4. väljaanne, 2-päevane ekstreemmuusika festival",
+  "b": [],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "death",
+   "black",
+   "grind"
+  ],
+  "sn": "IG @sugisextremefest",
+  "su": "https://www.instagram.com/sugisextremefest/"
+ },
+ {
   "d": "2026-12-19",
   "t": "kontsert",
   "n": "Týr + Twilight Force + Dragonland + Vanaheim",
@@ -497,6 +613,21 @@
   ],
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108443665-catch-your-breath-at-helitehas"
+ },
+ {
+  "d": "2027-02-18",
+  "t": "kontsert",
+  "n": "Arankai",
+  "b": [
+   "Arankai"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "metal"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108594783-arankai-at-paavli-kultuurivabrik"
  },
  {
   "d": "2027-02-28",
@@ -532,6 +663,25 @@
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=235453"
+ },
+ {
+  "d": "2027-04-18",
+  "t": "kontsert",
+  "n": "Paavli.Live: Tramhaus",
+  "b": [
+   "Tramhaus"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "post-hardcore",
+   "shoegaze"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et/tramhaus-tallinn-paavli",
+  "on_": "paavli.ee",
+  "ou": "https://paavli.ee/sundmused/",
+  "pu": "https://fienta.com/et/tramhaus-tallinn-paavli"
  },
  {
   "d": "2027-05-07",
