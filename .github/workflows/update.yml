@@ -1,0 +1,25 @@
+name: Andmekorje
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # iga paev 04:30 UTC (07:30 Eesti suveajal)
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Korje
+        run: python scripts/fetch.py
+      - name: Commit kui muutus
+        run: |
+          git config user.name "skene-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/data.json
+          git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git push)

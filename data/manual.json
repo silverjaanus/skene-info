@@ -1,0 +1,618 @@
+[
+ {
+  "d": "2026-06-28",
+  "t": "kontsert",
+  "n": "Blood Incantation + Nate Mercereau",
+  "b": [
+   "Blood Incantation",
+   "Nate Mercereau"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "death"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+  "on_": "paavli.ee",
+  "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/"
+ },
+ {
+  "d": "2026-07-01",
+  "t": "kontsert",
+  "n": "Õllesummer: Metsatöll",
+  "b": [
+   "Metsatöll"
+  ],
+  "v": "Tallinna Lauluväljak",
+  "c": "Tallinn",
+  "g": [
+   "folk",
+   "pagan"
+  ],
+  "sn": "metsatoll.ee",
+  "su": "https://www.metsatoll.ee/en/gigs/"
+ },
+ {
+  "d": "2026-07-03",
+  "d2": "04.07",
+  "t": "festival",
+  "n": "Hard Rock Laager 2026",
+  "a": "+20 bändi",
+  "b": [
+   "Pain",
+   "Vader",
+   "Eivør",
+   "Metsatöll"
+  ],
+  "v": "Vana-Vigala",
+  "c": "mujal",
+  "g": [
+   "death",
+   "industrial",
+   "folk",
+   "pagan"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia"
+ },
+ {
+  "d": "2026-07-15",
+  "d2": "17.07",
+  "t": "kontsert",
+  "n": "C-JAM & MAD «Metallica» tuur",
+  "a": "Saka mõis, Kuressaare kuursaal, Tori kirik",
+  "b": [
+   "C-JAM"
+  ],
+  "v": "tuur",
+  "c": "mujal",
+  "g": [
+   "tribute",
+   "heavy"
+  ],
+  "sn": "Barbari FB",
+  "su": "https://www.facebook.com/barbarestonia/events",
+  "on_": "Kolga Mõisa Kontsert",
+  "ou": "https://www.facebook.com/barbarestonia/events"
+ },
+ {
+  "d": "2026-07-17",
+  "d2": "19.07",
+  "t": "festival",
+  "n": "Käbliku Beer Camp & Rock'n'Roll",
+  "b": [
+   "Primordial",
+   "Mars Red Sky",
+   "Monkey3",
+   "Yoth Iria",
+   "Truckthor"
+  ],
+  "v": "Käbliku Pruulikoda",
+  "c": "mujal",
+  "g": [
+   "pagan",
+   "black",
+   "stoner",
+   "psych"
+  ],
+  "sn": "Songkick",
+  "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
+  "on_": "fest.kabliku.com",
+  "ou": "https://fest.kabliku.com/",
+  "pu": "https://fest.kabliku.com/"
+ },
+ {
+  "d": "2026-07-24",
+  "t": "kontsert",
+  "n": "Kosmikud XXV : Tharaphita XXX",
+  "b": [
+   "Kosmikud",
+   "Tharaphita"
+  ],
+  "v": "Kolga mõis",
+  "c": "mujal",
+  "g": [
+   "pagan",
+   "black",
+   "rokk"
+  ],
+  "sn": "Barbari FB",
+  "su": "https://www.facebook.com/barbarestonia/events",
+  "on_": "Kolga Mõisa Kontsert",
+  "ou": "https://www.facebook.com/barbarestonia/events"
+ },
+ {
+  "d": "2026-07-25",
+  "t": "kontsert",
+  "n": "Arch Enemy",
+  "b": [
+   "Arch Enemy"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "melodeath",
+   "death"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=231989",
+  "on_": "helitehas.ee",
+  "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/"
+ },
+ {
+  "d": "2026-07-31",
+  "d2": "02.08",
+  "t": "festival",
+  "n": "Tallinn Rock Festival",
+  "a": "+ P.O.D., White Lies jt",
+  "b": [
+   "Scorpions",
+   "Sepultura",
+   "Godsmack",
+   "Hatebreed",
+   "Goresoerd",
+   "Kannabinõid"
+  ],
+  "v": "Unibet Arena kvartal",
+  "c": "Tallinn",
+  "g": [
+   "heavy",
+   "death",
+   "groove",
+   "hardcore",
+   "stoner"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=228776",
+  "on_": "tallinnrockfestival.ee",
+  "ou": "https://tallinnrockfestival.ee/",
+  "pu": "https://www.piletitasku.ee/et/custompage/4371"
+ },
+ {
+  "d": "2026-08-08",
+  "t": "klubi",
+  "n": "BFTV: Beats From The Vault",
+  "a": "residendid 4-got-10, Dirt Vessel, Tamhiis, Cly/Suva, Numbskull",
+  "b": [],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "ebm",
+   "dark electro",
+   "darkwave",
+   "industrial"
+  ],
+  "sn": "bftv.ee",
+  "su": "https://bftv.ee/"
+ },
+ {
+  "d": "2026-08-28",
+  "t": "kontsert",
+  "n": "Caliber Orders",
+  "b": [
+   "Caliber Orders"
+  ],
+  "v": "Linna Bar",
+  "c": "Tallinn",
+  "g": [
+   "metal"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna"
+ },
+ {
+  "d": "2026-08-29",
+  "t": "kontsert",
+  "n": "Ampest @ Tabasalu Päev",
+  "b": [
+   "Ampest"
+  ],
+  "v": "Tabasalu Tui park",
+  "c": "mujal",
+  "g": [
+   "metal"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park"
+ },
+ {
+  "d": "2026-09-04",
+  "t": "kontsert",
+  "n": "Fear Factory + Crystal Lake + Hate",
+  "b": [
+   "Fear Factory",
+   "Crystal Lake",
+   "Hate"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "industrial",
+   "death",
+   "metalcore"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=233011"
+ },
+ {
+  "d": "2026-09-12",
+  "t": "kontsert",
+  "n": "Under the New Moon: Vermilia",
+  "b": [
+   "Vermilia"
+  ],
+  "v": "Rockclub Tapper",
+  "c": "Tallinn",
+  "g": [
+   "pagan",
+   "black"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
+  "on_": "tapper.ee",
+  "ou": "https://www.tapper.ee/events/"
+ },
+ {
+  "d": "2026-09-12",
+  "t": "kontsert",
+  "n": "Freakangel + PsycHolies",
+  "b": [
+   "Freakangel",
+   "PsycHolies"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "industrial"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108591058-freakangel-at-the-krypt",
+  "on_": "thekrypt.ee",
+  "ou": "https://www.thekrypt.ee/events"
+ },
+ {
+  "d": "2026-09-19",
+  "t": "kontsert",
+  "n": "Bedless Bones + Martin Dupont",
+  "b": [
+   "Bedless Bones",
+   "Martin Dupont"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "darkwave",
+   "ebm"
+  ],
+  "sn": "bedlessbones.com",
+  "su": "https://www.bedlessbones.com/shows"
+ },
+ {
+  "d": "2026-10-04",
+  "t": "kontsert",
+  "n": "Dead By April + CyHra",
+  "b": [
+   "Dead By April",
+   "CyHra"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "metalcore",
+   "melodeath"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=236269"
+ },
+ {
+  "d": "2026-10-12",
+  "t": "kontsert",
+  "n": "Hardcore Superstar",
+  "b": [
+   "Hardcore Superstar"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "heavy",
+   "rokk"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108428390-hardcore-superstar-at-helitehas"
+ },
+ {
+  "d": "2026-10-16",
+  "t": "kontsert",
+  "n": "Wardruna",
+  "b": [
+   "Wardruna"
+  ],
+  "v": "Alexela Kontserdimaja",
+  "c": "Tallinn",
+  "g": [
+   "folk",
+   "rituaal"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=228103"
+ },
+ {
+  "d": "2026-10-27",
+  "t": "kontsert",
+  "n": "Amon Amarth + Soilwork + Orbit Culture",
+  "b": [
+   "Amon Amarth",
+   "Soilwork",
+   "Orbit Culture"
+  ],
+  "v": "Unibet Arena",
+  "c": "Tallinn",
+  "g": [
+   "melodeath",
+   "death"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=228078"
+ },
+ {
+  "d": "2026-10-31",
+  "tba": 1,
+  "t": "festival",
+  "n": "Tarbariitus (kuupäev täpsustamisel)",
+  "b": [
+   "Burial Moon",
+   "Sisyphean",
+   "Loathfinder",
+   "Moonstruck",
+   "Indren"
+  ],
+  "v": "Klubi Rock & Roll",
+  "c": "Tartu",
+  "g": [
+   "black",
+   "doom"
+  ],
+  "sn": "pergerus.eu",
+  "su": "https://pergerus.eu/tarbariitus",
+  "pu": "https://fienta.com/tarbariitus-3"
+ },
+ {
+  "d": "2026-11-11",
+  "t": "kontsert",
+  "n": "The Obsessed",
+  "b": [
+   "The Obsessed"
+  ],
+  "v": "Von Krahl",
+  "c": "Tallinn",
+  "g": [
+   "doom"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=233881"
+ },
+ {
+  "d": "2026-11-17",
+  "t": "kontsert",
+  "n": "Napalm Death + Master + Brat",
+  "b": [
+   "Napalm Death",
+   "Master",
+   "Brat"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "grind",
+   "death"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=234103"
+ },
+ {
+  "d": "2026-11-30",
+  "t": "kontsert",
+  "n": "Chelsea Wolfe",
+  "b": [
+   "Chelsea Wolfe"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "darkwave",
+   "doom"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108569164-chelsea-wolfe-at-helitehas"
+ },
+ {
+  "d": "2026-12-01",
+  "t": "kontsert",
+  "n": "Master Boot Record + Fulci + Arottenbit",
+  "b": [
+   "Master Boot Record",
+   "Fulci",
+   "Arottenbit"
+  ],
+  "v": "Rockclub Tapper",
+  "c": "Tallinn",
+  "g": [
+   "industrial",
+   "synth"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=232956",
+  "on_": "tapper.ee",
+  "ou": "https://www.tapper.ee/events/"
+ },
+ {
+  "d": "2026-12-11",
+  "t": "kontsert",
+  "n": "The Ocean + Psychonaut + Pothamus",
+  "b": [
+   "The Ocean",
+   "Psychonaut",
+   "Pothamus"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "post",
+   "sludge"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=235376"
+ },
+ {
+  "d": "2026-12-19",
+  "t": "kontsert",
+  "n": "Týr + Twilight Force + Dragonland + Vanaheim",
+  "b": [
+   "Týr",
+   "Twilight Force",
+   "Dragonland",
+   "Vanaheim"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "folk",
+   "power"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=235450"
+ },
+ {
+  "d": "2027-02-14",
+  "t": "kontsert",
+  "n": "Catch Your Breath",
+  "b": [
+   "Catch Your Breath"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "alt-metal"
+  ],
+  "sn": "Bandsintown",
+  "su": "https://www.bandsintown.com/e/108443665-catch-your-breath-at-helitehas"
+ },
+ {
+  "d": "2027-02-28",
+  "t": "kontsert",
+  "n": "Whitechapel + Sylosis + 200 Stab Wounds + Tribal Gaze",
+  "b": [
+   "Whitechapel",
+   "Sylosis",
+   "200 Stab Wounds",
+   "Tribal Gaze"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "deathcore",
+   "death",
+   "thrash"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=232554"
+ },
+ {
+  "d": "2027-04-20",
+  "t": "kontsert",
+  "n": "Tarja: Frisson tuur",
+  "b": [
+   "Tarja"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "sümfooniline"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=235453"
+ },
+ {
+  "d": "2027-05-07",
+  "t": "kontsert",
+  "n": "Sabaton",
+  "b": [
+   "Sabaton"
+  ],
+  "v": "Unibet Arena",
+  "c": "Tallinn",
+  "g": [
+   "power",
+   "heavy"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=235199"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-05",
+  "t": "reliis",
+  "n": "Must Missa — «Live in Tallinn»",
+  "a": "Mahtra Recordsi uusim väljalase",
+  "b": [
+   "Must Missa"
+  ],
+  "v": "Mahtra Records",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "thrash"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://mahtrarecords.bandcamp.com/music"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-05",
+  "t": "reliis",
+  "n": "Ohvrikivi — «Karidel»",
+  "a": "Mahtra Records",
+  "b": [
+   "Ohvrikivi"
+  ],
+  "v": "Mahtra Records",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "pagan"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://mahtrarecords.bandcamp.com/music"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-05",
+  "t": "reliis",
+  "n": "Urduk — «Pimedus saabugu»",
+  "a": "Mahtra Records",
+  "b": [
+   "Urduk"
+  ],
+  "v": "Mahtra Records",
+  "c": "mujal",
+  "g": [
+   "black"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://mahtrarecords.bandcamp.com/music"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-05",
+  "t": "merch",
+  "n": "Nailboard Rock Shop — uued saabumised",
+  "a": "vinüülid, CD-d, särgid, embleemid — uueneb pidevalt",
+  "b": [],
+  "v": "Tulika 19, Tallinn",
+  "c": "Tallinn",
+  "g": [],
+  "sn": "nailboard.org",
+  "su": "https://nailboard.org/tootekategooria/viimati-saabunud/"
+ }
+]
