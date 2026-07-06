@@ -35,12 +35,26 @@
   "js_saidid": [
    {"nimi": "Piletilevi muusika", "url": "https://www.piletilevi.ee/piletid/muusika", "nb": "JS + API 403 serverist; filtreeri räpp/hip-hop käsitsi"},
    {"nimi": "Fienta räpp-otsing", "url": "https://fienta.com/et?q=r%C3%A4pp", "nb": "ka: hip-hop, rap"},
-   {"nimi": "hiphop.ee", "url": "https://www.hiphop.ee/", "nb": "webzine, RSS /feed/, postitused hõredad aga elus (viimane 03.2026); reliisid+peod"}
+   {"nimi": "hiphop.ee", "url": "https://www.hiphop.ee/", "nb": "webzine, RSS /feed/, postitused hõredad aga elus (viimane 03.2026); reliisid+peod"},
+   {"nimi": "Tartu Punch (ametlik sait)", "url": "https://tartupunch.com/et/avaleht-eesti/", "nb": "lisatud 06.07.2026, esimeses sweepis vahele jäänud; festival ise juba manual.json-is (allikas seni paavli.ee), aga ametlik sait annab täpsema lineup/kuupäeva info"}
   ]
  },
  "js_saidid_chrome_kihis": [
   {"nimi": "Tourmotor", "url": "https://tourmotor.net", "nb": "DIY/väikelinnade platvorm; 05.07.2026 seisuga aktiivseid tulevasi üritusi polnud"},
   {"nimi": "Fienta otsing", "url": "https://fienta.com/et?q=metal", "nb": "ka: doom, black, hardcore; API võimalus jaluses"},
   {"nimi": "Bandsintown Tallinn metal", "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia", "nb": "Cloudflare blokib serverit"}
- ]
+ ],
+ "yldised_agregaatorid": {
+  "nb": "Žanri-agnostilised linna-/piletiplatvormid, kasulikud nii metal- kui rap-poolele. Leitud 06.07.2026 Tartu Rock Fest 2026 kaudu (Silveri Insta soovitus) - kõik allolevad lingid viitasid samale üritusele, sellepärast salvestatud allikatena, mitte 8 eraldi kirjena.",
+  "sites": [
+   {"nimi": "tuleb.ee", "url": "https://tuleb.ee", "nb": "Eesti üritusteplatvorm; nt tuleb.ee/events/tartu-rock-fest-2026"},
+   {"nimi": "Somo", "url": "https://somo.social", "nb": "sotsiaalne üritusteplatvorm; nt somo.social/en/e/tartu-rock-fest-2026-710"},
+   {"nimi": "Allevents.in", "url": "https://allevents.in", "nb": "rahvusvaheline agregaator, Eesti/Tartu alamlehed olemas"},
+   {"nimi": "Kluub.ee", "url": "https://www.kluub.ee", "nb": "linnapõhine üritusteplatvorm"},
+   {"nimi": "Onlinepilet.ee", "url": "https://onlinepilet.ee", "nb": "piletimüük"},
+   {"nimi": "Kultuuriaken (Tartu linn)", "url": "https://kultuuriaken.tartu.ee", "nb": "Tartu linna ametlik kultuurikalender - potentsiaalselt hea üldallikas kõigile Tartu üritustele, mitte ainult sellele festivalile"},
+   {"nimi": "Piletimaailm", "url": "https://www.piletimaailm.com", "nb": "piletimüük; korraldaja timeline nt piletimaailm.com/organizers/timeline/341 - varem registreerimata"},
+   {"nimi": "Piletilevi", "url": "https://www.piletilevi.ee", "nb": "seni ainult rap-sektsioonis registreeritud (js_saidid all) ja seal JS+API 403 serverist; series-lehed nt piletilevi.ee/series/F72OXZFHHH kasulikud korraldaja jälgimiseks Chrome-sweepis"}
+  ]
+ }
 }
