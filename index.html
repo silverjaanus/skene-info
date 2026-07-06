@@ -165,10 +165,15 @@ const E_FALLBACK = [
  {rel:1,d:"2026-07-05",t:"reliis",n:"Must Missa — «Live in Tallinn»",a:"Mahtra Recordsi uusim väljalase",b:["Must Missa"],v:"Mahtra Records",c:"Tallinn",g:["black","thrash"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
  {rel:1,d:"2026-07-05",t:"reliis",n:"Ohvrikivi — «Karidel»",a:"Mahtra Records",b:["Ohvrikivi"],v:"Mahtra Records",c:"Tallinn",g:["black","pagan"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
  {rel:1,d:"2026-07-05",t:"reliis",n:"Urduk — «Pimedus saabugu»",a:"Mahtra Records",b:["Urduk"],v:"Mahtra Records",c:"mujal",g:["black"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
- {rel:1,d:"2026-07-05",t:"merch",n:"Nailboard Rock Shop — uued saabumised",a:"vinüülid, CD-d, särgid, embleemid — uueneb pidevalt",b:[],v:"Tulika 19, Tallinn",c:"Tallinn",g:[],sn:"nailboard.org",su:"https://nailboard.org/tootekategooria/viimati-saabunud/"}
+ {rel:1,d:"2026-07-05",t:"merch",n:"Nailboard Rock Shop — uued saabumised",a:"vinüülid, CD-d, särgid, embleemid — uueneb pidevalt",b:[],v:"Tulika 19, Tallinn",c:"Tallinn",g:[],sn:"nailboard.org",su:"https://nailboard.org/tootekategooria/viimati-saabunud/"},
+ {d:"2026-07-29",d2:"01.08",t:"festival",n:"Beyond the Gates",a:"ekstreem-metal (black/doom); Emperor, Testament, Electric Wizard, Blood Incantation, Marduk jt",b:["Emperor","Testament","Electric Wizard","Blood Incantation","Marduk"],v:"Grieghallen / USF Verftet",c:"Põhjamaad",linn:"Bergen, Norra",g:["black","doom","extreme"],sn:"Beyond the Gates",su:"https://www.beyondthegates.no/"},
+ {d:"2026-07-29",d2:"01.08",t:"festival",n:"Wacken Open Air",a:"35. juubeliaastapäev, 150+ bändi; Def Leppard, Judas Priest, Iron Maiden, Sepultura (viimane tuur) jt",b:["Def Leppard","Judas Priest","Iron Maiden","Sepultura","Arch Enemy"],v:"Wacken (põld)",c:"Euroopa",linn:"Wacken, Saksamaa",g:["heavy","death","thrash","power"],sn:"Wacken Open Air",su:"https://www.wacken.com/en/"},
+ {d:"2026-08-05",d2:"08.08",t:"festival",n:"Brutal Assault",a:"Josefovi kindluses; Body Count, Periphery, Primus, Wardruna, Cradle of Filth jt",b:["Body Count","Periphery","Primus","Wardruna","Cradle of Filth"],v:"Pevnost Josefov",c:"Euroopa",linn:"Jaroměř, Tšehhi",g:["death","black","thrash","doom"],sn:"Brutal Assault",su:"https://brutalassault.cz/en"},
+ {d:"2026-08-08",d2:"09.08",t:"festival",n:"M'era Luna",a:"gooti/dark-electro festival; Rammstein, Within Temptation, Front Line Assembly, Combichrist, Hocico jt",b:["Rammstein","Within Temptation","Front Line Assembly","Combichrist"],v:"Flugplatz Hildesheim-Drispenstedt",c:"Euroopa",linn:"Hildesheim, Saksamaa",g:["dark electro","ebm","gothic","industrial"],sn:"M'era Luna",su:"https://meraluna.de/en/"},
+ {d:"2026-08-12",d2:"15.08",t:"festival",n:"Summer Breeze",a:"üks Saksamaa suurfestivalidest, 50+ bändi; Hatebreed jt",b:["Hatebreed"],v:"Dinkelsbühli lennuväli",c:"Euroopa",linn:"Dinkelsbühl, Saksamaa",g:["metal","hardcore"],sn:"Summer Breeze",su:"https://www.summer-breeze.de/en/"}
 ];
 const TYPES=[["kõik",null],["kontserdid","kontsert"],["festivalid","festival"],["klubiõhtud","klubi"],["reliisid","reliis"],["merch","merch"]];
-const CITIES=[["kõik",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["mujal Eesti","mujal"]];
+const CITIES=[["kõik",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["mujal Eesti","mujal"],["Baltikum","Baltikum"],["Põhjamaad","Põhjamaad"],["Euroopa","Euroopa"]];
 const KUUNIMED={ "01":"jaanuar","02":"veebruar","03":"märts","04":"aprill","05":"mai","06":"juuni","07":"juuli","08":"august","09":"september","10":"oktoober","11":"november","12":"detsember"};
 let st={type:null,tag:null,city:null,past:false,kuu:null};
 function tags(){const s=new Set();E.forEach(e=>e.g.forEach(g=>s.add(g)));return[...s].sort();}
@@ -223,7 +228,7 @@ function render(){
         <div class="gtags">${e.g.map(g=>`<button class="gt${st.tag===g?" on":""}" onclick="setTag('${g}')">${g}</button>`).join("")}</div>
         ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
-      <div class="loc"><span class="venue">${e.v}</span>${e.c==="mujal"?"":e.c}<div class="lnks">${lnks}</div></div>
+      <div class="loc"><span class="venue">${e.v}</span>${e.linn?e.linn:(e.c==="mujal"?"":e.c)}<div class="lnks">${lnks}</div></div>
     </div>`;
   }).join("");
 }

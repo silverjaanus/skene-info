@@ -131,7 +131,9 @@ SOURCES = [("metalstorm", src_metalstorm), ("krypt", src_krypt),
 def main():
     manual = json.loads((ROOT / "data" / "manual.json").read_text(encoding="utf-8"))
     blockfile = ROOT / "data" / "blocklist.json"
-    block = {(b["d"], slug(b["n"])) for b in json.loads(blockfile.read_text(encoding="utf-8"))} if blockfile.exists() else set()
+    blockraw = json.loads(blockfile.read_text(encoding="utf-8")) if blockfile.exists() else []
+    block = {(b["d"], slug(b["n"])) for b in blockraw if "d" in b}
+    block_names = {slug(b["n"]) for b in blockraw if "d" not in b}  # daatumita = blokeeri nimi igal kuupaeval
     auto, log = [], []
     for name, fn in SOURCES:
         try:
@@ -152,7 +154,7 @@ def main():
         if e["d"] < TODAY:
             continue
         k = (e["d"], slug(e["n"]))
-        if k in seen_auto or k in block:
+        if k in seen_auto or k in block or slug(e["n"]) in block_names:
             continue
         dup = False
         for (d, n, bs) in known:
