@@ -56,5 +56,31 @@
    {"nimi": "Piletimaailm", "url": "https://www.piletimaailm.com", "nb": "piletimüük; korraldaja timeline nt piletimaailm.com/organizers/timeline/341 - varem registreerimata"},
    {"nimi": "Piletilevi", "url": "https://www.piletilevi.ee", "nb": "seni ainult rap-sektsioonis registreeritud (js_saidid all) ja seal JS+API 403 serverist; series-lehed nt piletilevi.ee/series/F72OXZFHHH kasulikud korraldaja jälgimiseks Chrome-sweepis"}
   ]
+ },
+ "rahvusvaheline": {
+  "nb": "Lisatud 06.07.2026 (Silveri otsus). Kehtib AINULT peasaidile (skene.info metal/dark-electro) - rap.skene.info jääb Eesti-keskseks. Ulatus: ainult suursündmused (suurfestivalid + suurte bändide/agentuuride tuurid), mitte täiskate nagu Eestil. Järjekord: Baltikum -> Põhjamaad -> Euroopa. Traffic-eetika kehtib ka siin (viita ametlikule allikale).",
+  "baltikum": [
+   {"nimi": "Kilkim Žaibu", "riik": "Leedu", "url": "https://kilkimzaibu.com/en", "nb": "Balti kultuuri + ekstreemmuusika festival (black/death/thrash + folkloor), 2026 25.-27.06"},
+   {"nimi": "Devilstone", "riik": "Leedu", "url": "https://devilstone.net/home-en/", "nb": "alt-rock/metal festival Anykščiai's; sait seisma jäänud 2023 juures (viimane kinnitatud edition) - kontrollida, kas 2026 toimub"},
+   {"nimi": "Melnā Piektdiena", "riik": "Läti", "url": "https://www.melnapiektdiena.lv", "fb": "https://www.facebook.com/melnapiektdiena/", "nb": "Läti suurim metal/rock/alternatiivklubi Riias - enamik suuremaid rahvusvahelisi metal-kontserte käib siit läbi"}
+  ],
+  "pohjamaad": [
+   {"nimi": "Tuska Open Air", "riik": "Soome", "url": "https://tuska.fi/en/", "nb": "Põhja-Euroopa suurim metalfestival, Helsingi, 2026 26.-28.06, 40+ bändi"},
+   {"nimi": "Steelfest Open Air", "riik": "Soome", "url": "https://steelfest.fi/pages/steelfest-2026", "nb": "ekstreem-metal (black/death), Hyvinkää, 2026 14.-16.05"},
+   {"nimi": "Copenhell", "riik": "Taani", "url": "https://copenhell.dk/en/front-page/", "nb": "Taani suurim metalfestival, Kopenhaagen, 2026 17.-20.06"},
+   {"nimi": "Sweden Rock Festival", "riik": "Rootsi", "url": "https://swedenrock.com/en/", "nb": "hard/classic rock rõhuga, Sölvesborg, ~35k külastajat/päev"},
+   {"nimi": "Tons of Rock", "riik": "Norra", "url": "https://www.tonsofrock.no/en", "nb": "Skandinaavia suurim rock/metal festival, Oslo, 2026 24.-27.06"},
+   {"nimi": "Beyond the Gates", "riik": "Norra", "url": "https://www.beyondthegates.no/", "nb": "ekstreem/black metal, Bergen, 2026 29.07.-01.08"},
+   {"nimi": "Inferno Metal Festival", "riik": "Norra", "url": "https://infernofestival.no/", "nb": "ekstreem-metal, Oslo, toimub lihavõtete paiku (2026 02.-05.04)"}
+  ],
+  "euroopa": [
+   {"nimi": "Wacken Open Air", "riik": "Saksamaa", "url": "https://www.wacken.com/en/", "nb": "maailma suurim/tuntuim metalfestival, 2026 29.07.-01.08 (35. juubel), 80k+ külastajat"},
+   {"nimi": "Hellfest", "riik": "Prantsusmaa", "url": "https://www.hellfest.fr", "nb": "Euroopa suurim metalfestival (Clisson), kõik alažanrid, ~180k külastajat"},
+   {"nimi": "Graspop Metal Meeting", "riik": "Belgia", "url": "https://www.graspop.be", "nb": "üks Belgia suurfestivalidest, sarnane Download'iga"},
+   {"nimi": "Summer Breeze", "riik": "Saksamaa", "url": "http://www.summer-breeze.de", "nb": "üks Saksamaa neljast suurfestivalist (koos Wacken/Party.San/Rock Hard)"},
+   {"nimi": "Brutal Assault", "riik": "Tšehhi", "url": "https://www.brutalassault.cz", "nb": "death/black/thrash/doom, Josefovi kindluses"},
+   {"nimi": "Wave-Gotik-Treffen", "riik": "Saksamaa", "url": "https://www.wave-gotik-treffen.de/english/", "nb": "maailma suurim gooti festival (EBM/darkwave/gootirock/gootmetal) - sobib dark-electro žanriga; Leipzig, 2026 22.-25.05"},
+   {"nimi": "M'era Luna", "riik": "Saksamaa", "url": "https://meraluna.de/en/", "nb": "suur gooti/dark-electro/industrial festival - sobib dark-electro žanriga; Hildesheim, 2026 08.-09.08"}
+  ]
  }
 }
