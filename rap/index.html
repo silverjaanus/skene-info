@@ -69,6 +69,8 @@ aside{position:sticky;top:16px;padding-top:16px}
 .lnks .a2{color:var(--sinine)}
 .lnks .a3{color:var(--tyrkiis);font-weight:700;border:1.5px solid var(--tyrkiis);padding:1px 7px}
 .lnks .a3:hover{background:var(--tyrkiis);color:var(--paber)}
+.lnks .a4{color:var(--hall)}
+.lnks .a4:hover{color:var(--tint)}
 .lnks a:hover{text-decoration:underline}
 .lnks .a3:hover{text-decoration:none}
 .cform{display:flex;flex-direction:column;gap:7px;margin-top:8px}
@@ -111,7 +113,7 @@ aside{position:sticky;top:16px;padding-top:16px}
     <p class="kuu-t">Kalender</p>
     <div class="kuud" id="kuud"></div>
     <p class="kuu-t" style="margin-top:28px">Kontakt</p>
-    <form class="cform" action="https://formsubmit.co/bcd4c98221951d7dc07469127e717433" method="POST">
+    <form class="cform" action="https://formsubmit.co/skene.info@agentmail.to" method="POST">
       <input type="hidden" name="_subject" value="rap.skene.info kontaktivorm">
       <input type="text" name="nimi" placeholder="nimi / artist" required>
       <input type="email" name="email" placeholder="e-post" required>
@@ -148,7 +150,7 @@ const E_FALLBACK = [
 const TYPES=[["kõik",null],["kontserdid","kontsert"],["festivalid","festival"],["klubiõhtud","klubi"],["reliisid","reliis"],["merch","merch"]];
 const CITIES=[["kõik",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["mujal Eesti","mujal"]];
 const KUUNIMED={ "01":"jaanuar","02":"veebruar","03":"märts","04":"aprill","05":"mai","06":"juuni","07":"juuli","08":"august","09":"september","10":"oktoober","11":"november","12":"detsember"};
-let st={type:null,tag:null,city:null,past:false,kuu:null};
+let st={type:null,tags:new Set(),city:null,past:false,kuu:null};
 function tags(){const s=new Set();E.forEach(e=>e.g.forEach(g=>s.add(g)));return[...s].sort();}
 function enc(x){return encodeURIComponent(x);}
 const IC={
@@ -161,6 +163,34 @@ function band(b){return `<span class="bd"><span>${b}</span><span class="ic">
  <a href="https://music.youtube.com/search?q=${enc(b)}" target="_blank" rel="noopener" title="${b} YT Musicus">${IC.ym}</a>
  <a href="https://www.youtube.com/results?search_query=${enc(b)}" target="_blank" rel="noopener" title="${b} YouTube'is">${IC.yt}</a>
 </span></span>`;}
+function pad2(n){return String(n).padStart(2,"0");}
+function dOnly(str){return new Date(str+"T00:00");}
+function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
+function ymd(d){return d.getFullYear()+pad2(d.getMonth()+1)+pad2(d.getDate());}
+function endDate(e){
+  const start=dOnly(e.d);
+  if(e.d2){
+    const p=e.d2.split(".");
+    let end=new Date(start.getFullYear(),parseInt(p[1],10)-1,parseInt(p[0],10));
+    if(end<start)end.setFullYear(end.getFullYear()+1);
+    return addDays(end,1);
+  }
+  return addDays(start,1);
+}
+function calLinks(e){
+  if(e.rel||e.tba)return "";
+  const isFb=(u)=>u&&u.indexOf("facebook.com")!==-1;
+  if(isFb(e.su)||isFb(e.ou))return "";
+  const start=dOnly(e.d),end=endDate(e);
+  const loc=(e.v||"")+(e.linn?", "+e.linn:"");
+  const gurl="https://www.google.com/calendar/render?action=TEMPLATE&text="+enc(e.n)
+    +"&dates="+ymd(start)+"/"+ymd(end)+"&location="+enc(loc)+"&details="+enc("Allikas: "+(e.su||""));
+  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:"+e.n
+    +"\nDTSTART;VALUE=DATE:"+ymd(start)+"\nDTEND;VALUE=DATE:"+ymd(end)
+    +"\nLOCATION:"+loc+"\nDESCRIPTION:"+(e.su||"")+"\nEND:VEVENT\nEND:VCALENDAR";
+  const icsUri="data:text/calendar;charset=utf-8,"+enc(ics);
+  return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">+ GOOGLE KALENDER</a> <a class="a4" href="${icsUri}" download="skene-event.ics">+ APPLE/ICS</a>`;
+}
 function fmt(e){
   if(e.rel)return"uus";
   if(e.tba)return"TBA";
@@ -172,7 +202,7 @@ function fmt(e){
 function render(){
   let rows=E.filter(e=>{
     if(st.type&&e.t!==st.type)return false;
-    if(st.tag&&!e.g.includes(st.tag))return false;
+    if(st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
     const past=!e.rel&&!e.tba&&e.d<TODAY;
@@ -181,7 +211,7 @@ function render(){
   }).sort((a,b)=>a.d.localeCompare(b.d));
   document.getElementById("count").textContent=rows.length+" kirjet"
     +(st.kuu?" · "+KUUNIMED[st.kuu.slice(5)]+" "+st.kuu.slice(0,4):"")
-    +(st.tag?" · žanr: "+st.tag:"")+(st.type?" · "+st.type:"");
+    +(st.tags.size?" · žanr: "+[...st.tags].join("+"):"")+(st.type?" · "+st.type:"");
   document.getElementById("list").innerHTML=rows.map(e=>{
     const past=!e.rel&&!e.tba&&e.d<TODAY;
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
@@ -193,12 +223,14 @@ function render(){
       if(e.ou)lnks+=`<br><a class="a2" href="${e.ou}" target="_blank" rel="noopener">korraldaja: ${e.on_} ↗</a>`;
     }
     if(e.pu)lnks+=`<br><a class="a3" href="${e.pu}" target="_blank" rel="noopener">PILETID ↗</a>`;
+    const cal=calLinks(e);
+    if(cal)lnks+=`<br>${cal}`;
     return `<div class="row${past?" past":""}">
       <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${e.t}</span>${past?'<br><span class="laebi">LÄBI</span>':""}</div>
       <div>
         <p class="tit"><a href="${e.ou||e.su}" target="_blank" rel="noopener">${e.n}</a></p>
         ${e.a?`<p class="sub">${e.a}</p>`:""}
-        <div class="gtags">${e.g.map(g=>`<button class="gt${st.tag===g?" on":""}" onclick="setTag('${g}')">${g}</button>`).join("")}</div>
+        <div class="gtags">${e.g.map(g=>`<button class="gt${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join("")}</div>
         ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
       <div class="loc"><span class="venue">${e.v}</span>${e.c==="mujal"?"":e.c}<div class="lnks">${lnks}</div></div>
@@ -218,11 +250,16 @@ function kuud(){
     ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" onclick="setF('kuu','${k}')">${KUUNIMED[k.slice(5)]} ${k.slice(0,4)} <small>${m[k]}</small></button>`).join("");
 }
 function setF(k,v){st[k]=v;refresh();}
-function setTag(g){st.tag=(st.tag===g?null:g);refresh();}
+function setTag(g){
+  if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);
+  refresh();
+}
+function clearTags(){st.tags=new Set();refresh();}
 function refresh(){
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
-  document.getElementById("f-tag").innerHTML=[["kõik žanrid",null],...tags().map(g=>[g,g])].map(([lbl,val])=>
-    `<button class="chip${st.tag===val?" on":""}" onclick="setF('tag',${val===null?"null":`'${val}'`})">${lbl}</button>`).join(" ");
+  document.getElementById("f-tag").innerHTML=
+    `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">kõik žanrid</button> `+
+    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
   document.getElementById("f-past").className="chip"+(st.past?" on":"");
   kuud();render();
 }

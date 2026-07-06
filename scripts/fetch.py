@@ -18,8 +18,11 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info korje; +https://www.ske
 # zhanrifilter segazhanrilistele venue'dele (paavli, helitehas)
 KEYW = re.compile(
     r"metal|doom|death|black|thrash|grind|sludge|stoner|hardcore|metalcore|"
-    r"deathcore|industrial|ebm|darkwave|gothic|goth\b|noise|drone|post-punk",
+    r"deathcore|industrial|ebm|darkwave|gothic|goth\b|noise|drone|post-punk|punk",
     re.I)
+# NB: 'rock' ja hargnematu 'core' teadlikult VÄLJAS - liiga hägused segažanri
+# venue'de (paavli/helitehas) automaatfiltris (nt "score" sisaldab "core").
+# Manuaalses kureerimises (manual.json 'g' väli) on rock/core siiski lubatud sildid.
 
 def get(url, timeout=25):
     req = urllib.request.Request(url, headers=UA)

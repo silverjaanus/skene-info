@@ -69,7 +69,7 @@
   "c": "Tallinn",
   "g": [
    "grind",
-   "hardcore"
+   "core"
   ],
   "sn": "Secret Face FB",
   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
@@ -79,14 +79,13 @@
   "d2": "17.07",
   "t": "kontsert",
   "n": "C-JAM & MAD «Metallica» tuur",
-  "a": "Saka mõis, Kuressaare kuursaal, Tori kirik",
+  "a": "Saka mõis, Kuressaare kuursaal, Tori kirik (tribuutprojekt)",
   "b": [
    "C-JAM"
   ],
   "v": "tuur",
   "c": "mujal",
   "g": [
-   "tribute",
    "heavy"
   ],
   "sn": "Barbari FB",
@@ -111,8 +110,7 @@
   "g": [
    "pagan",
    "black",
-   "stoner",
-   "psych"
+   "stoner"
   ],
   "sn": "Songkick",
   "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
@@ -152,8 +150,7 @@
   "v": "Kotka Kultuurimaja",
   "c": "Tallinn",
   "g": [
-   "crust",
-   "d-beat",
+   "punk",
    "sludge"
   ],
   "sn": "Secret Face FB",
@@ -174,7 +171,7 @@
   "g": [
    "pagan",
    "black",
-   "rokk"
+   "rock"
   ],
   "sn": "Barbari FB",
   "su": "https://www.facebook.com/barbarestonia/events",
@@ -191,7 +188,7 @@
   "v": "Helitehas",
   "c": "Tallinn",
   "g": [
-   "melodeath",
+   "melodic",
    "death"
   ],
   "sn": "Metal Storm",
@@ -218,8 +215,8 @@
   "g": [
    "heavy",
    "death",
-   "groove",
-   "hardcore",
+   "metal",
+   "core",
    "stoner"
   ],
   "sn": "Metal Storm",
@@ -233,14 +230,13 @@
   "d2": "15.08",
   "t": "kontsert",
   "n": "C-JAM & MAD «Metallica» tuur, II osa",
-  "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08",
+  "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08 (tribuutprojekt)",
   "b": [
    "C-JAM"
   ],
   "v": "tuur",
   "c": "mujal",
   "g": [
-   "tribute",
    "heavy"
   ],
   "sn": "Kolga Mõisa Kontserdi FB",
@@ -258,7 +254,8 @@
   "c": "Tallinn",
   "g": [
    "ebm",
-   "dark electro",
+   "dark",
+   "electro",
    "darkwave",
    "industrial"
   ],
@@ -348,7 +345,8 @@
   "g": [
    "industrial",
    "death",
-   "metalcore"
+   "metal",
+   "core"
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=233011"
@@ -420,8 +418,10 @@
   "v": "Helitehas",
   "c": "Tallinn",
   "g": [
-   "metalcore",
-   "melodeath"
+   "metal",
+   "core",
+   "melodic",
+   "death"
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=236269"
@@ -437,7 +437,7 @@
   "c": "Tallinn",
   "g": [
    "heavy",
-   "rokk"
+   "rock"
   ],
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108428390-hardcore-superstar-at-helitehas"
@@ -452,8 +452,7 @@
   "v": "Alexela Kontserdimaja",
   "c": "Tallinn",
   "g": [
-   "folk",
-   "rituaal"
+   "folk"
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=228103"
@@ -470,7 +469,7 @@
   "v": "Unibet Arena",
   "c": "Tallinn",
   "g": [
-   "melodeath",
+   "melodic",
    "death"
   ],
   "sn": "Metal Storm",
@@ -560,7 +559,7 @@
   "c": "Tallinn",
   "g": [
    "industrial",
-   "synth"
+   "electro"
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=232956",
@@ -631,7 +630,8 @@
   "v": "Helitehas",
   "c": "Tallinn",
   "g": [
-   "alt-metal"
+   "alt",
+   "metal"
   ],
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108443665-catch-your-breath-at-helitehas"
@@ -664,8 +664,8 @@
   "v": "Helitehas",
   "c": "Tallinn",
   "g": [
-   "deathcore",
    "death",
+   "core",
    "thrash"
   ],
   "sn": "Metal Storm",
@@ -681,7 +681,7 @@
   "v": "Helitehas",
   "c": "Tallinn",
   "g": [
-   "sümfooniline"
+   "symphonic"
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=235453"
@@ -696,7 +696,8 @@
   "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
   "g": [
-   "post-hardcore",
+   "post",
+   "core",
    "shoegaze"
   ],
   "sn": "Fienta",
@@ -793,11 +794,21 @@
   "t": "festival",
   "n": "Beyond the Gates",
   "a": "ekstreem-metal (black/doom); Emperor, Testament, Electric Wizard, Blood Incantation, Marduk jt",
-  "b": ["Emperor", "Testament", "Electric Wizard", "Blood Incantation", "Marduk"],
+  "b": [
+   "Emperor",
+   "Testament",
+   "Electric Wizard",
+   "Blood Incantation",
+   "Marduk"
+  ],
   "v": "Grieghallen / USF Verftet",
   "c": "Põhjamaad",
   "linn": "Bergen, Norra",
-  "g": ["black", "doom", "extreme"],
+  "g": [
+   "black",
+   "doom",
+   "extreme"
+  ],
   "sn": "Beyond the Gates",
   "su": "https://www.beyondthegates.no/"
  },
@@ -807,11 +818,22 @@
   "t": "festival",
   "n": "Wacken Open Air",
   "a": "35. juubeliaastapäev, 150+ bändi; Def Leppard, Judas Priest, Iron Maiden, Sepultura (viimane tuur) jt",
-  "b": ["Def Leppard", "Judas Priest", "Iron Maiden", "Sepultura", "Arch Enemy"],
+  "b": [
+   "Def Leppard",
+   "Judas Priest",
+   "Iron Maiden",
+   "Sepultura",
+   "Arch Enemy"
+  ],
   "v": "Wacken (põld)",
   "c": "Euroopa",
   "linn": "Wacken, Saksamaa",
-  "g": ["heavy", "death", "thrash", "power"],
+  "g": [
+   "heavy",
+   "death",
+   "thrash",
+   "power"
+  ],
   "sn": "Wacken Open Air",
   "su": "https://www.wacken.com/en/"
  },
@@ -821,11 +843,22 @@
   "t": "festival",
   "n": "Brutal Assault",
   "a": "Josefovi kindluses; Body Count, Periphery, Primus, Wardruna, Cradle of Filth jt",
-  "b": ["Body Count", "Periphery", "Primus", "Wardruna", "Cradle of Filth"],
+  "b": [
+   "Body Count",
+   "Periphery",
+   "Primus",
+   "Wardruna",
+   "Cradle of Filth"
+  ],
   "v": "Pevnost Josefov",
   "c": "Euroopa",
   "linn": "Jaroměř, Tšehhi",
-  "g": ["death", "black", "thrash", "doom"],
+  "g": [
+   "death",
+   "black",
+   "thrash",
+   "doom"
+  ],
   "sn": "Brutal Assault",
   "su": "https://brutalassault.cz/en"
  },
@@ -835,11 +868,22 @@
   "t": "festival",
   "n": "M'era Luna",
   "a": "gooti/dark-electro festival; Rammstein, Within Temptation, Front Line Assembly, Combichrist, Hocico jt",
-  "b": ["Rammstein", "Within Temptation", "Front Line Assembly", "Combichrist"],
+  "b": [
+   "Rammstein",
+   "Within Temptation",
+   "Front Line Assembly",
+   "Combichrist"
+  ],
   "v": "Flugplatz Hildesheim-Drispenstedt",
   "c": "Euroopa",
   "linn": "Hildesheim, Saksamaa",
-  "g": ["dark electro", "ebm", "gothic", "industrial"],
+  "g": [
+   "dark",
+   "electro",
+   "ebm",
+   "goth",
+   "industrial"
+  ],
   "sn": "M'era Luna",
   "su": "https://meraluna.de/en/"
  },
@@ -849,12 +893,34 @@
   "t": "festival",
   "n": "Summer Breeze",
   "a": "üks Saksamaa suurfestivalidest, 50+ bändi; Hatebreed jt",
-  "b": ["Hatebreed"],
+  "b": [
+   "Hatebreed"
+  ],
   "v": "Dinkelsbühli lennuväli",
   "c": "Euroopa",
   "linn": "Dinkelsbühl, Saksamaa",
-  "g": ["metal", "hardcore"],
+  "g": [
+   "metal",
+   "core"
+  ],
   "sn": "Summer Breeze",
   "su": "https://www.summer-breeze.de/en/"
+ },
+ {
+  "tba": 1,
+  "d": "2026-09-01",
+  "t": "kontsert",
+  "n": "Molbo + Homebroke",
+  "b": [
+   "Molbo",
+   "Homebroke"
+  ],
+  "v": "Laine Live",
+  "c": "mujal",
+  "g": [
+   "metal"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://laine.bar"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "juhis": "Nädalane FB/IG sweep: käi lehed läbi Chrome'iga, otsi uusi üritusi/reliise/merch-droppe. Võrdle data/data.json vastu. Uued kirjed -> data/manual.json (alati allikaviitega). Punk ainult koos muu žanriga. Blocklist: data/blocklist.json.",
+ "juhis": "Nädalane FB/IG sweep: käi lehed läbi Chrome'iga, otsi uusi üritusi/reliise/merch-droppe. Võrdle data/data.json vastu. Uued kirjed -> data/manual.json (alati allikaviitega). 06.07.2026: ulatus laienes KOGU kitarripõhisele muusikale - rock ja punk on nüüd samuti sees, punk ei vaja enam paarilist žanri. Blocklist: data/blocklist.json.",
  "fb": [
   {"nimi": "Barbar / Barbar Feast", "url": "https://www.facebook.com/barbarestonia/events", "tyyp": "promootor"},
   {"nimi": "Damn.Loud Agency", "url": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL kinnitatud 05.07.2026; NB! osa üritusi Vilniuses (LOFTAS) - ainult Eesti omad"},
@@ -81,6 +81,29 @@
    {"nimi": "Brutal Assault", "riik": "Tšehhi", "url": "https://www.brutalassault.cz", "nb": "death/black/thrash/doom, Josefovi kindluses"},
    {"nimi": "Wave-Gotik-Treffen", "riik": "Saksamaa", "url": "https://www.wave-gotik-treffen.de/english/", "nb": "maailma suurim gooti festival (EBM/darkwave/gootirock/gootmetal) - sobib dark-electro žanriga; Leipzig, 2026 22.-25.05"},
    {"nimi": "M'era Luna", "riik": "Saksamaa", "url": "https://meraluna.de/en/", "nb": "suur gooti/dark-electro/industrial festival - sobib dark-electro žanriga; Hildesheim, 2026 08.-09.08"}
+  ]
+ },
+ "rock_punk_uued": {
+  "nb": "Lisatud 06.07.2026 - ulatuse laienemine rock/punk peale. Uurimustöö tehtud, kontrollimata allikad markeeritud.",
+  "sites": [
+   {"nimi": "Ülase12", "url": "https://www.facebook.com/ulase12", "tyyp": "venue/DIY", "nb": "juba nimekirjas venue'na, aga tegelikult KESKNE DIY punk/hardcore/anarhistlik keskus Tallinnas - monitoori eraldi tähelepanuga"},
+   {"nimi": "Beyond Tartu", "url": "https://beyondtartu.bandcamp.com/", "tyyp": "label", "nb": "aktiivne Tartu crust/hardcore label Bandcampis (Kuritarvitaja, Paranarkar, Keskkool jt)"},
+   {"nimi": "Hell (klubi, Tartu)", "url": "https://www.facebook.com/punknrollhell/", "tyyp": "venue", "nb": "punk/rock, Tiigi 76a; KONTROLLIDA kas eraldi 'Klubi Rock & Roll (Tartu)' olemasolevast nimekirjast - vôivad kattuda"},
+   {"nimi": "Rock & Roll Heaven (Tartu)", "url": "https://www.facebook.com/rollheaven/", "tyyp": "venue", "nb": "sama aadress/maja mis Hell; KONTROLLIDA dubleerimist 'Klubi Rock & Roll' vastu"},
+   {"nimi": "Genialistide Klubi (Tartu)", "url": "https://www.facebook.com/GenKlubi/", "tyyp": "venue", "nb": "subkultuurimaja, ~400 üritust/aastas, laiem kui punk aga sobib rock/punk ulatusega"},
+   {"nimi": "Punk & Rock Festival Estonia", "url": "https://www.facebook.com/punkrockfestival/", "tyyp": "festival", "nb": "Raadi mõisapark, Tartu; 2026 väljaanne KINNITAMATA otsingu seisuga - kontrolli FB otse"},
+   {"nimi": "Tartu Rock Fest 2026", "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/", "tyyp": "festival", "nb": "10.-11.07.2026, Tartu Laululava, korraldaja Tartu Kontsert; VARASEMALT BLOKEERITUD 'mitte metal' pärast - blocklistist eemaldatud 06.07.2026 ulatuse laienemise tõttu"},
+   {"nimi": "Saund (Hiiumaa)", "url": "https://saund.ee/", "tyyp": "festival", "nb": "peamiselt elektrooniline/eksperimentaalne, aga 2026 (23.-25.07) punk/alt-rock laval Ülase12 kureerituna"}
+  ]
+ },
+ "bandcamp_otsing": {
+  "nb": "Lisatud 06.07.2026. bandcamp.com/discover toetab Eesti (geoname 453733) + žanri kombineerimist, aga Cloudflare blokeerib serveripäringud - AINULT Chrome-sweepi kihis kasutatav, mitte fetch.py-s.",
+  "urls": [
+   {"zanr": "metal", "url": "https://bandcamp.com/discover?g=metal&gn=453733"},
+   {"zanr": "punk", "url": "https://bandcamp.com/discover?g=punk&gn=453733"},
+   {"zanr": "rock", "url": "https://bandcamp.com/discover?g=rock&gn=453733"},
+   {"zanr": "industrial/dark-electro", "url": "https://bandcamp.com/discover?g=industrial&gn=453733"},
+   {"zanr": "black metal (alažanri näide)", "url": "https://bandcamp.com/discover/black-metal?gn=453733"}
   ]
  }
 }

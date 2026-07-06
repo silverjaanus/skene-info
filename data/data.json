@@ -1,7 +1,7 @@
 {
  "updated": "2026-07-06",
  "log": [
-  "metalstorm: 16",
+  "metalstorm: 17",
   "krypt: 0",
   "paavli: 0",
   "helitehas: 0"
@@ -143,7 +143,7 @@
    "c": "Tallinn",
    "g": [
     "grind",
-    "hardcore"
+    "core"
    ],
    "sn": "Secret Face FB",
    "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
@@ -153,14 +153,13 @@
    "d2": "17.07",
    "t": "kontsert",
    "n": "C-JAM & MAD «Metallica» tuur",
-   "a": "Saka mõis, Kuressaare kuursaal, Tori kirik",
+   "a": "Saka mõis, Kuressaare kuursaal, Tori kirik (tribuutprojekt)",
    "b": [
     "C-JAM"
    ],
    "v": "tuur",
    "c": "mujal",
    "g": [
-    "tribute",
     "heavy"
    ],
    "sn": "Barbari FB",
@@ -185,14 +184,28 @@
    "g": [
     "pagan",
     "black",
-    "stoner",
-    "psych"
+    "stoner"
    ],
    "sn": "Songkick",
    "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
    "on_": "fest.kabliku.com",
    "ou": "https://fest.kabliku.com/",
    "pu": "https://fest.kabliku.com/"
+  },
+  {
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "The Exploited",
+   "b": [
+    "The Exploited"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=235404"
   },
   {
    "d": "2026-07-22",
@@ -226,8 +239,7 @@
    "v": "Kotka Kultuurimaja",
    "c": "Tallinn",
    "g": [
-    "crust",
-    "d-beat",
+    "punk",
     "sludge"
    ],
    "sn": "Secret Face FB",
@@ -248,7 +260,7 @@
    "g": [
     "pagan",
     "black",
-    "rokk"
+    "rock"
    ],
    "sn": "Barbari FB",
    "su": "https://www.facebook.com/barbarestonia/events",
@@ -265,7 +277,7 @@
    "v": "Helitehas",
    "c": "Tallinn",
    "g": [
-    "melodeath",
+    "melodic",
     "death"
    ],
    "sn": "Metal Storm",
@@ -341,8 +353,8 @@
    "g": [
     "heavy",
     "death",
-    "groove",
-    "hardcore",
+    "metal",
+    "core",
     "stoner"
    ],
    "sn": "Metal Storm",
@@ -356,14 +368,13 @@
    "d2": "15.08",
    "t": "kontsert",
    "n": "C-JAM & MAD «Metallica» tuur, II osa",
-   "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08",
+   "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08 (tribuutprojekt)",
    "b": [
     "C-JAM"
    ],
    "v": "tuur",
    "c": "mujal",
    "g": [
-    "tribute",
     "heavy"
    ],
    "sn": "Kolga Mõisa Kontserdi FB",
@@ -406,7 +417,8 @@
    "c": "Tallinn",
    "g": [
     "ebm",
-    "dark electro",
+    "dark",
+    "electro",
     "darkwave",
     "industrial"
    ],
@@ -429,9 +441,10 @@
    "c": "Euroopa",
    "linn": "Hildesheim, Saksamaa",
    "g": [
-    "dark electro",
+    "dark",
+    "electro",
     "ebm",
-    "gothic",
+    "goth",
     "industrial"
    ],
    "sn": "M'era Luna",
@@ -451,7 +464,7 @@
    "linn": "Dinkelsbühl, Saksamaa",
    "g": [
     "metal",
-    "hardcore"
+    "core"
    ],
    "sn": "Summer Breeze",
    "su": "https://www.summer-breeze.de/en/"
@@ -526,6 +539,23 @@
    "pu": "https://fienta.com/et/nothing-paavli-tallinn"
   },
   {
+   "tba": 1,
+   "d": "2026-09-01",
+   "t": "kontsert",
+   "n": "Molbo + Homebroke",
+   "b": [
+    "Molbo",
+    "Homebroke"
+   ],
+   "v": "Laine Live",
+   "c": "mujal",
+   "g": [
+    "metal"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://laine.bar"
+  },
+  {
    "d": "2026-09-04",
    "t": "kontsert",
    "n": "Fear Factory + Crystal Lake + Hate",
@@ -539,7 +569,8 @@
    "g": [
     "industrial",
     "death",
-    "metalcore"
+    "metal",
+    "core"
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=233011"
@@ -611,8 +642,10 @@
    "v": "Helitehas",
    "c": "Tallinn",
    "g": [
-    "metalcore",
-    "melodeath"
+    "metal",
+    "core",
+    "melodic",
+    "death"
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=236269"
@@ -628,7 +661,7 @@
    "c": "Tallinn",
    "g": [
     "heavy",
-    "rokk"
+    "rock"
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108428390-hardcore-superstar-at-helitehas"
@@ -643,8 +676,7 @@
    "v": "Alexela Kontserdimaja",
    "c": "Tallinn",
    "g": [
-    "folk",
-    "rituaal"
+    "folk"
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=228103"
@@ -661,7 +693,7 @@
    "v": "Unibet Arena",
    "c": "Tallinn",
    "g": [
-    "melodeath",
+    "melodic",
     "death"
    ],
    "sn": "Metal Storm",
@@ -767,7 +799,7 @@
    "c": "Tallinn",
    "g": [
     "industrial",
-    "synth"
+    "electro"
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=232956",
@@ -838,7 +870,8 @@
    "v": "Helitehas",
    "c": "Tallinn",
    "g": [
-    "alt-metal"
+    "alt",
+    "metal"
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108443665-catch-your-breath-at-helitehas"
@@ -871,8 +904,8 @@
    "v": "Helitehas",
    "c": "Tallinn",
    "g": [
-    "deathcore",
     "death",
+    "core",
     "thrash"
    ],
    "sn": "Metal Storm",
@@ -888,7 +921,8 @@
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
    "g": [
-    "post-hardcore",
+    "post",
+    "core",
     "shoegaze"
    ],
    "sn": "Fienta",
@@ -907,7 +941,7 @@
    "v": "Helitehas",
    "c": "Tallinn",
    "g": [
-    "sümfooniline"
+    "symphonic"
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235453"
