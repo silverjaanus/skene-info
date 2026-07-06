@@ -116,7 +116,8 @@
   "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
   "on_": "fest.kabliku.com",
   "ou": "https://fest.kabliku.com/",
-  "pu": "https://fest.kabliku.com/"
+  "pu": "https://fest.kabliku.com/",
+  "hind": {"praegu": "69€ (+3.70€ teenustasu)", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-07-22",
@@ -223,7 +224,8 @@
   "su": "https://metalstorm.net/events/event.php?event_id=228776",
   "on_": "tallinnrockfestival.ee",
   "ou": "https://tallinnrockfestival.ee/",
-  "pu": "https://www.piletitasku.ee/et/custompage/4371"
+  "pu": "https://www.piletitasku.ee/et/custompage/4371",
+  "nb": "hinnaklassid kontrollimata - Piletitasku leht on JS-põhine/serveripäringule suletud, tuleb käsitsi kontrollida enne hinna lisamist"
  },
  {
   "d": "2026-08-05",
@@ -495,7 +497,8 @@
   ],
   "sn": "pergerus.eu",
   "su": "https://pergerus.eu/tarbariitus",
-  "pu": "https://fienta.com/tarbariitus-3"
+  "pu": "https://fienta.com/tarbariitus-3",
+  "hind": {"praegu": "21€ / 39€ / 60€", "mark": "kolm hinnaklassi mahu järgi (Youth Inferno / Black Standard / Supporter of the Rite), mitte kuupäeva järgi - eelmüük kuni 08.10.2026", "allikas": "fienta.com, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-11-11",
@@ -810,7 +813,8 @@
    "extreme"
   ],
   "sn": "Beyond the Gates",
-  "su": "https://www.beyondthegates.no/"
+  "su": "https://www.beyondthegates.no/",
+  "nb": "hinnaklassid kontrollimata - müük käib Ticketmaster Norway kaudu, hinnatabel JS-põhine"
  },
  {
   "d": "2026-07-29",
@@ -835,7 +839,8 @@
    "power"
   ],
   "sn": "Wacken Open Air",
-  "su": "https://www.wacken.com/en/"
+  "su": "https://www.wacken.com/en/",
+  "hind": {"praegu": "349€ (+2€ teenustasu)", "mark": "\"Louder\" - viimane hinnaklass, \"Faster\" ja \"Harder\" juba läbi müüdud", "allikas": "wacken.com, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-08-05",
@@ -860,7 +865,8 @@
    "doom"
   ],
   "sn": "Brutal Assault",
-  "su": "https://brutalassault.cz/en"
+  "su": "https://brutalassault.cz/en",
+  "hind": {"praegu": "225€", "mark": "\"viimane väljaanne\" - viimane hinnaklass, 27.05.2026 seisuga 92% müüdud", "allikas": "brutalassault.cz, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-08-08",
@@ -885,7 +891,8 @@
    "industrial"
   ],
   "sn": "M'era Luna",
-  "su": "https://meraluna.de/en/"
+  "su": "https://meraluna.de/en/",
+  "nb": "hinnaklassid kontrollimata 2026 kohta - varasematel aastatel 4 taset (666/Half Moon/Full Moon/Blood Moon), pileti pood JS-põhine"
  },
  {
   "d": "2026-08-12",
@@ -904,7 +911,8 @@
    "core"
   ],
   "sn": "Summer Breeze",
-  "su": "https://www.summer-breeze.de/en/"
+  "su": "https://www.summer-breeze.de/en/",
+  "hind": {"praegu": "ainult päevapiletid", "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval", "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"}
  },
  {
   "tba": 1,

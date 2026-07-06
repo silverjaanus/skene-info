@@ -71,6 +71,8 @@ aside{position:sticky;top:16px;padding-top:16px}
 .lnks .a3:hover{background:var(--paatina);color:var(--paber)}
 .lnks .a4{color:var(--hall)}
 .lnks .a4:hover{color:var(--tint)}
+.lnks .price{color:var(--hall);display:block;margin-top:2px}
+.lnks .price b{color:var(--tint)}
 .lnks a:hover{text-decoration:underline}
 .lnks .a3:hover{text-decoration:none}
 .cform{display:flex;flex-direction:column;gap:7px;margin-top:8px}
@@ -133,6 +135,7 @@ aside{position:sticky;top:16px;padding-top:16px}
         <a href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
         <a href="https://www.facebook.com/profile.php?id=61591366185684" target="_blank" rel="noopener">FACEBOOK ↗</a>
         <a href="https://rap.skene.info/">RÄPP: RAP.SKENE ↗</a>
+        <a href="/changelog.html">UUENDUSED</a>
       </div>
       <p class="ethos">Skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.</p>
     </div>
@@ -213,6 +216,12 @@ function endDate(e){
   }
   return addDays(start,1);
 }
+function priceLine(e){
+  if(!e.hind)return "";
+  const h=e.hind;
+  if(h.kuni&&h.jargmine)return `<span class="price">Hind: <b>${h.praegu}</b> kuni ${h.kuni}, pärast <b>${h.jargmine}</b></span>`;
+  return `<span class="price">Hind: <b>${h.praegu}</b>${h.mark?" — "+h.mark:""}</span>`;
+}
 function calLinks(e){
   if(e.rel||e.tba)return "";
   const isFb=(u)=>u&&u.indexOf("facebook.com")!==-1;
@@ -259,6 +268,7 @@ function render(){
       if(e.ou)lnks+=`<br><a class="a2" href="${e.ou}" target="_blank" rel="noopener">korraldaja: ${e.on_} ↗</a>`;
     }
     if(e.pu)lnks+=`<br><a class="a3" href="${e.pu}" target="_blank" rel="noopener">PILETID ↗</a>`;
+    if(e.hind)lnks+=`<br>${priceLine(e)}`;
     const cal=calLinks(e);
     if(cal)lnks+=`<br>${cal}`;
     return `<div class="row${past?" past":""}">
