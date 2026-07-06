@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05",
+ "updated": "2026-07-06",
  "entries": [
   {
    "d": "2026-07-10",
@@ -7,10 +7,18 @@
    "t": "festival",
    "n": "Beach Grind 2026",
    "a": "+ Vini Vici, Wilkinson, Hospital 30: Metrik, P Money jt",
-   "b": ["Tommy Cash", "NOËP", "Sadu"],
+   "b": [
+    "Tommy Cash",
+    "NOËP",
+    "Sadu"
+   ],
    "v": "Pärnu rand",
    "c": "mujal",
-   "g": ["hip-hop", "dnb", "electro"],
+   "g": [
+    "hip-hop",
+    "dnb",
+    "electro"
+   ],
    "sn": "beachgrind.ee",
    "su": "https://beachgrind.ee/",
    "pu": "https://beachgrind.ee/"
@@ -24,7 +32,10 @@
    "b": [],
    "v": "Elva",
    "c": "mujal",
-   "g": ["hip-hop", "räpp"],
+   "g": [
+    "hip-hop",
+    "räpp"
+   ],
    "sn": "eestihiphopfestival.ee",
    "su": "https://eestihiphopfestival.ee/",
    "pu": "https://eestihiphopfestival.ee/"
@@ -37,7 +48,10 @@
    "b": [],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
-   "g": ["hip-hop", "räpp"],
+   "g": [
+    "hip-hop",
+    "räpp"
+   ],
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/tartu-punch-2027/",
    "on_": "paavli.ee",
