@@ -117,7 +117,7 @@
   "on_": "fest.kabliku.com",
   "ou": "https://fest.kabliku.com/",
   "pu": "https://fest.kabliku.com/",
-  "hind": {"praegu": "69€ (+3.70€ teenustasu)", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
+  "hind": {"praegu": "72.70€", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda (koos teenustasuga)", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-07-22",
@@ -840,7 +840,7 @@
   ],
   "sn": "Wacken Open Air",
   "su": "https://www.wacken.com/en/",
-  "hind": {"praegu": "349€ (+2€ teenustasu)", "mark": "\"Louder\" - viimane hinnaklass, \"Faster\" ja \"Harder\" juba läbi müüdud", "allikas": "wacken.com, kontrollitud 06.07.2026"}
+  "hind": {"praegu": "351€", "mark": "\"Louder\" - viimane hinnaklass (koos teenustasuga), \"Faster\" ja \"Harder\" juba läbi müüdud", "allikas": "wacken.com, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-08-05",
