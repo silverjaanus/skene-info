@@ -92,7 +92,10 @@
    "core"
   ],
   "sn": "Secret Face FB",
-  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
+  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1375338867849271/",
+  "hind": {"praegu": "10€ / 7€ (õpilased, alaealised)", "mark": "uksehind, ainult sularaha; uksed 17.00, muusika 18.00", "allikas": "Facebook event, kontrollitud 07.07.2026"}
  },
  {
   "d": "2026-07-15",
