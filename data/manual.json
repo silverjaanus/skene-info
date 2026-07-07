@@ -244,7 +244,8 @@
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=231989",
   "on_": "helitehas.ee",
-  "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/"
+  "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/",
+  "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026"
  },
  {
   "d": "2026-07-31",
@@ -577,7 +578,9 @@
    "death"
   ],
   "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=234103"
+  "su": "https://metalstorm.net/events/event.php?event_id=234103",
+  "pu": "https://fienta.com/et/napalm-death-tallinn",
+  "hind": {"praegu": "45€ / 49€ (Late Bird)", "mark": "Early Bird 39€ välja müüdud; Supporter 65€; algus 19.00", "allikas": "Fienta, kontrollitud 07.07.2026"}
  },
  {
   "d": "2026-11-30",
@@ -1000,5 +1003,43 @@
   "su": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
   "pu": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
   "hind": {"praegu": "CHF 129.50 (3-päeva pilet)", "mark": "uksed 16.00, algus 17.00; sleepover/camper piletid kohapeal", "allikas": "z-7.ch, kontrollitud 07.07.2026"}
+ },
+ {
+  "d": "2026-09-19",
+  "t": "kontsert",
+  "n": "Psychoterror + Pedigree + Apparatus & Apparata",
+  "a": "Üks õhtu, kolm Eesti kooslust legendaarses Kinomajas",
+  "b": [
+   "Psychoterror",
+   "Pedigree",
+   "Apparatus & Apparata"
+  ],
+  "v": "KuKu Klubi",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "industrial",
+   "ebm"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/1044621274573907/",
+  "pu": "https://www.piletitasku.ee/et/event/10039"
+ },
+ {
+  "tba": 1,
+  "d": "2027-02-04",
+  "d2": "06.02",
+  "t": "festival",
+  "n": "Howls of Winter 2027",
+  "a": "Black Revalia talvine black-metal festival (XIV); koht ja kava täpsustamisel",
+  "b": [],
+  "v": "TBA",
+  "c": "Tallinn",
+  "g": [
+   "black"
+  ],
+  "sn": "howlsofwinter.eu",
+  "su": "https://howlsofwinter.eu/",
+  "nb": "Piletid: eelmüük septembris 2026, hinnad TBA; kava veel avaldamata"
  }
 ]

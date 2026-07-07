@@ -338,7 +338,8 @@
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=231989",
    "on_": "helitehas.ee",
-   "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/"
+   "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/",
+   "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026"
   },
   {
    "d": "2026-07-29",
@@ -702,6 +703,27 @@
    "su": "https://www.bedlessbones.com/shows"
   },
   {
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Psychoterror + Pedigree + Apparatus & Apparata",
+   "a": "Üks õhtu, kolm Eesti kooslust legendaarses Kinomajas",
+   "b": [
+    "Psychoterror",
+    "Pedigree",
+    "Apparatus & Apparata"
+   ],
+   "v": "KuKu Klubi",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "industrial",
+    "ebm"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1044621274573907/",
+   "pu": "https://www.piletitasku.ee/et/event/10039"
+  },
+  {
    "d": "2026-10-02",
    "d2": "04.10",
    "t": "festival",
@@ -859,7 +881,13 @@
     "death"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=234103"
+   "su": "https://metalstorm.net/events/event.php?event_id=234103",
+   "pu": "https://fienta.com/et/napalm-death-tallinn",
+   "hind": {
+    "praegu": "45€ / 49€ (Late Bird)",
+    "mark": "Early Bird 39€ välja müüdud; Supporter 65€; algus 19.00",
+    "allikas": "Fienta, kontrollitud 07.07.2026"
+   }
   },
   {
    "d": "2026-11-26",
@@ -964,6 +992,23 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235450"
+  },
+  {
+   "tba": 1,
+   "d": "2027-02-04",
+   "d2": "06.02",
+   "t": "festival",
+   "n": "Howls of Winter 2027",
+   "a": "Black Revalia talvine black-metal festival (XIV); koht ja kava täpsustamisel",
+   "b": [],
+   "v": "TBA",
+   "c": "Tallinn",
+   "g": [
+    "black"
+   ],
+   "sn": "howlsofwinter.eu",
+   "su": "https://howlsofwinter.eu/",
+   "nb": "Piletid: eelmüük septembris 2026, hinnad TBA; kava veel avaldamata"
   },
   {
    "d": "2027-02-14",
