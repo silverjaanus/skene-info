@@ -96,11 +96,10 @@ aside{position:sticky;top:16px;padding-top:16px}
 .cform button{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:var(--tint);color:var(--paber);padding:6px 8px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
 .cform button:hover{background:var(--telliskivi);border-color:var(--telliskivi)}
 .cform .hint{font-family:var(--mono);font-size:10.5px;color:var(--hall);line-height:1.5}
-.igcard{display:flex;align-items:center;justify-content:space-between;gap:14px 20px;flex-wrap:wrap;border:2px solid var(--tint);padding:12px 16px;margin-bottom:16px}
-.igcard .igt{font-size:14px;color:var(--tint);max-width:560px;line-height:1.4}
-.igcard .igt b{color:var(--telliskivi)}
-.igcard a.igbtn{font-family:var(--mono);font-size:13px;white-space:nowrap;border:1.5px solid var(--telliskivi);background:var(--telliskivi);color:var(--paber);padding:8px 14px;text-decoration:none;text-transform:uppercase;letter-spacing:.5px}
-.igcard a.igbtn:hover{background:var(--tint);border-color:var(--tint)}
+.igtxt{font-size:12.5px;color:var(--hall);line-height:1.5;margin:4px 0 8px}
+.igtxt b{color:var(--telliskivi)}
+.igbtn{display:block;text-align:center;font-family:var(--mono);font-size:12px;border:1.5px solid var(--telliskivi);background:var(--telliskivi);color:var(--paber);padding:8px 10px;text-decoration:none;text-transform:uppercase;letter-spacing:.5px}
+.igbtn:hover{background:var(--tint);border-color:var(--tint)}
 .footer{border-top:3px solid var(--tint);margin-top:34px;padding:18px 2px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
 .ethos{font-size:12.5px;color:var(--hall);max-width:440px}
 @media(max-width:900px){
@@ -151,12 +150,11 @@ aside{position:sticky;top:16px;padding-top:16px}
       <button type="submit">Saada</button>
       <p class="hint">Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.</p>
     </form>
+    <p class="kuu-t" style="margin-top:28px">Instagram</p>
+    <p class="igtxt">Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.</p>
+    <a class="igbtn" href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener">Jälgi Instagramis ↗</a>
   </aside>
   <div class="content">
-    <div class="igcard">
-      <p class="igt"><b>Jälgi Instagramis.</b> Postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest — otse su feedi.</p>
-      <a class="igbtn" href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener">Jälgi @skene.info ↗</a>
-    </div>
     <div class="frow"><span class="flabel">Tüüp</span><span id="f-type"></span></div>
     <div class="frow"><span class="flabel">Žanr</span><span id="f-tag"></span></div>
     <div class="frow"><span class="flabel">Koht</span><span id="f-city"></span>
