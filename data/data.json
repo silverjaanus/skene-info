@@ -227,17 +227,28 @@
   {
    "d": "2026-07-18",
    "t": "kontsert",
-   "n": "The Exploited",
+   "n": "The Exploited (UK) + Antinorm + Skoone + Huiabella Fantastica",
+   "a": "Vabaõhukontsert; Damn.Loud Agency esitleb — tänavapungi teerajajad",
    "b": [
-    "The Exploited"
+    "The Exploited",
+    "Antinorm",
+    "Skoone",
+    "Huiabella Fantastica"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
    "g": [
-    "metal"
+    "punk",
+    "core"
    ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=235404"
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1122766619570935",
+   "pu": "https://fienta.com/et/the-exploited-tallinn-paavli",
+   "hind": {
+    "praegu": "39€ / 30€ (noor)",
+    "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00",
+    "allikas": "Fienta, kontrollitud 07.07.2026"
+   }
   },
   {
    "d": "2026-07-22",

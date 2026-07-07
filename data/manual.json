@@ -143,6 +143,28 @@
   "hind": {"praegu": "72.70€", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
  },
  {
+  "d": "2026-07-18",
+  "t": "kontsert",
+  "n": "The Exploited (UK) + Antinorm + Skoone + Huiabella Fantastica",
+  "a": "Vabaõhukontsert; Damn.Loud Agency esitleb — tänavapungi teerajajad",
+  "b": [
+   "The Exploited",
+   "Antinorm",
+   "Skoone",
+   "Huiabella Fantastica"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "core"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/1122766619570935",
+  "pu": "https://fienta.com/et/the-exploited-tallinn-paavli",
+  "hind": {"praegu": "39€ / 30€ (noor)", "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00", "allikas": "Fienta, kontrollitud 07.07.2026"}
+ },
+ {
   "d": "2026-07-22",
   "t": "kontsert",
   "n": "SFP esitleb: Sewer Altar + Koni + Gangrenated + E.X.E.X.",
