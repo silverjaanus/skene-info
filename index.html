@@ -87,6 +87,9 @@ aside{position:sticky;top:16px;padding-top:16px}
 .lnks a:hover{text-decoration:underline}
 .lnks .a3:hover{text-decoration:none}
 .cform{display:flex;flex-direction:column;gap:7px;margin-top:8px}
+.cform{display:flex;flex-direction:column;gap:8px}
+.cform label{font-family:var(--mono);font-size:10.5px;color:var(--hall);text-transform:uppercase;letter-spacing:.4px;margin-bottom:-4px}
+.cform label .req{color:var(--telliskivi)}
 .cform input,.cform textarea{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:transparent;color:var(--tint);padding:6px 8px;border-radius:0;width:100%}
 .cform input::placeholder,.cform textarea::placeholder{color:var(--hall)}
 .cform textarea{resize:vertical}
@@ -126,11 +129,22 @@ aside{position:sticky;top:16px;padding-top:16px}
     <p class="kuu-t" style="margin-top:28px">Kontakt</p>
     <form class="cform" action="https://formsubmit.co/59ae763970bb7bdcb747578c067afe36" method="POST">
       <input type="hidden" name="_subject" value="skene.info kontaktivorm">
-      <input type="text" name="nimi" placeholder="nimi / bänd" required>
-      <input type="email" name="email" placeholder="e-post" required>
-      <textarea name="sonum" rows="4" placeholder="üritus, reliis, merch-drop, vihje…" required></textarea>
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" style="display:none">
+      <label>Sinu nimi <span class="req">*</span></label>
+      <input type="text" name="Sinu nimi" placeholder="sinu enda nimi (mitte bändi/ürituse nimi)" required>
+      <label>Sinu e-post</label>
+      <input type="email" name="email" placeholder="et saaksime vastata (valikuline)">
+      <label>Ürituse / reliisi nimi <span class="req">*</span></label>
+      <input type="text" name="Üritus / reliis" placeholder="nt Pedigree + Psychoterror @ KuKu Klubi" required>
+      <label>Kuupäev ja koht</label>
+      <input type="text" name="Kuupäev ja koht" placeholder="nt 19.09.2026, KuKu Klubi, Tallinn">
+      <label>Link kontrollimiseks <span class="req">*</span></label>
+      <input type="url" name="Link" placeholder="https://… FB event, pilet või koduleht" required>
+      <label>Lisainfo</label>
+      <textarea name="Lisainfo" rows="3" placeholder="žanr, bändid, muu…"></textarea>
       <button type="submit">Saada</button>
-      <p class="hint">Korraldad, annad välja, müüd? Anna teada — paneme kirja.</p>
+      <p class="hint">Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.</p>
     </form>
   </aside>
   <div class="content">
