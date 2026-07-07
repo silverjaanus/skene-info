@@ -57,6 +57,26 @@
   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia"
  },
  {
+  "d": "2026-07-09",
+  "t": "kontsert",
+  "n": "Laine Live: Molbo + Homebroke",
+  "a": "MOLBO (NO) + Homebroke (EE)",
+  "b": [
+   "Molbo",
+   "Homebroke"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "post-punk"
+  ],
+  "sn": "uuslaine.com",
+  "su": "https://uuslaine.com/",
+  "on_": "Uus Laine FB",
+  "ou": "https://www.facebook.com/uuslaine/events"
+ },
+ {
   "d": "2026-07-12",
   "t": "kontsert",
   "n": "SFP esitleb: Ecotage + Ethetric + Shatter Me Whole",
@@ -478,10 +498,10 @@
   "su": "https://metalstorm.net/events/event.php?event_id=228078"
  },
  {
-  "d": "2026-10-31",
-  "tba": 1,
+  "d": "2026-10-09",
+  "d2": "10.10",
   "t": "festival",
-  "n": "Tarbariitus (kuupäev täpsustamisel)",
+  "n": "Tarbariitus",
   "b": [
    "Burial Moon",
    "Sisyphean",
