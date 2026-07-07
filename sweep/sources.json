@@ -9,6 +9,8 @@
   {"nimi": "Kolga Mõisa Kontsert", "url": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL kinnitatud 05.07.2026"},
   {"nimi": "The Krypt", "url": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "URL parandatud 05.07.2026 (thekrypt.tallinn); REST API annab 0, FB on primaarne"},
   {"nimi": "Tapper", "url": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events", "tyyp": "venue", "nb": "URL kinnitatud 05.07.2026; tapper.ee/events on 404"},
+  {"nimi": "Helitehas", "url": "https://www.facebook.com/helitehas/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 07.07.2026; suur klubi (Madara 22a), palju scope'is shows (Arch Enemy, Fear Factory, Dead By April, Chelsea Wolfe, Tyr, Whitechapel, Tarja jt); piletid Piletilevis. NB: fetch.py src_helitehas skrębib helitehas.ee-d aga annab praegu 0 - Chrome-sweep peab katma. Üksik-lehed helitehas.ee/facebook-event/<slug>/ annavad Piletilevi lingi (pu)"},
+  {"nimi": "Kinomaja / KuKu Klubi", "url": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE", "tyyp": "venue", "nb": "lisatud 07.07.2026; KuKu Klubi (Kinomaja, Uus 3, Tallinn); nt Psychoterror + Pedigree + Apparatus & Apparata 19.09.2026"},
   {"nimi": "Linna Bar", "url": "", "tyyp": "venue", "nb": "EI LEITUD 05.07.2026: linnabaar ei tööta, FB otsing ei anna - kirjed tulevad Bandsintownist"},
   {"nimi": "Heavy Music Estonia", "url": "", "tyyp": "kogukond", "nb": "EI LEITUD 05.07.2026: heavymusicestonia ei tööta, FB otsing ei anna - heavymusic.ee RSS on automaatkihis olemas"},
   {"nimi": "Mahtra Records", "url": "https://www.facebook.com/mahtrarecords", "tyyp": "label", "nb": "reliisid; Bandcamp serverist blokitud"},
