@@ -691,6 +691,38 @@
    "su": "https://www.bedlessbones.com/shows"
   },
   {
+   "d": "2026-10-02",
+   "d2": "04.10",
+   "t": "festival",
+   "n": "Up In Smoke Festival 2026",
+   "a": "Šveitsi raskeim indoor-festival (stoner/doom/psych); laval Eesti bänd Kannabinõid (L 03.10). Ka Zeal & Ardor, 1000mods, Ufomammut, Slomosa, Tito & Tarantula jt",
+   "b": [
+    "Kannabinõid",
+    "Zeal & Ardor",
+    "1000mods",
+    "Ufomammut",
+    "Slomosa",
+    "Belzebong",
+    "Tito & Tarantula"
+   ],
+   "v": "Konzertfabrik Z7",
+   "c": "Euroopa",
+   "linn": "Pratteln, Šveits",
+   "g": [
+    "stoner",
+    "doom",
+    "psych"
+   ],
+   "sn": "Z7 Konzertfabrik",
+   "su": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
+   "pu": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
+   "hind": {
+    "praegu": "CHF 129.50 (3-päeva pilet)",
+    "mark": "uksed 16.00, algus 17.00; sleepover/camper piletid kohapeal",
+    "allikas": "z-7.ch, kontrollitud 07.07.2026"
+   }
+  },
+  {
    "d": "2026-10-04",
    "t": "kontsert",
    "n": "Dead By April + CyHra",
