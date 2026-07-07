@@ -342,6 +342,28 @@
    "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026"
   },
   {
+   "d": "2026-07-26",
+   "t": "kontsert",
+   "n": "SFP esitleb: Amputated Genitals + Diarrhectomy + Arestor + Shatter Me Whole",
+   "b": [
+    "Amputated Genitals (COL)",
+    "Diarrhectomy (FIN)",
+    "Arestor",
+    "Shatter Me Whole"
+   ],
+   "g": [
+    "death",
+    "extreme"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/3912418972226121",
+   "nb": "brutal death / slam; uksed 18.00, uksehind (täpsustada FB eventilt); kontrollitud 07.07.2026"
+  },
+  {
    "d": "2026-07-29",
    "d2": "01.08",
    "t": "festival",
@@ -425,6 +447,25 @@
    "ou": "https://tallinnrockfestival.ee/",
    "pu": "https://www.piletitasku.ee/et/custompage/4371",
    "nb": "hinnaklassid kontrollimata - Piletitasku leht on JS-põhine/serveripäringule suletud, tuleb käsitsi kontrollida enne hinna lisamist"
+  },
+  {
+   "d": "2026-08-01",
+   "t": "kontsert",
+   "n": "Gogol Bordello",
+   "b": [
+    "Gogol Bordello"
+   ],
+   "g": [
+    "punk",
+    "folk"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "sn": "Helitehas FB",
+   "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/785734627786593",
+   "nb": "gypsy punk; korraldaja M.P.3; piletid Piletilevis (link lisada); kontrollitud 07.07.2026"
   },
   {
    "d": "2026-08-05",
@@ -562,6 +603,27 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1999147140962621/",
    "pu": "https://fienta.com/et/barbatos-thekrypt-tallinn"
+  },
+  {
+   "d": "2026-08-27",
+   "t": "kontsert",
+   "n": "SFP esitleb: Suntrace + Präänikud + Shakabrah!",
+   "b": [
+    "Suntrace (FIN)",
+    "Präänikud",
+    "Shakabrah! (FIN)"
+   ],
+   "g": [
+    "punk",
+    "melodic"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2153404468537125",
+   "nb": "Soome melo-punk/emo bändide balti tuur; uksed 19.00; kontrollitud 07.07.2026"
   },
   {
    "d": "2026-08-28",

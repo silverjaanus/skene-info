@@ -24,6 +24,27 @@
    "pu": "https://beachgrind.ee/"
   },
   {
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "G5 & Pulse: Triibupasta + Prodigyboys + Valk",
+   "b": [
+    "Triibupasta",
+    "Prodigyboys",
+    "Valk"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "hip-hop"
+   ],
+   "sn": "Helitehas FB",
+   "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1360094812731353",
+   "nb": "korraldaja Pulse Events; piletid Piletilevis; kontrollitud 07.07.2026"
+  },
+  {
    "d": "2026-07-24",
    "d2": "25.07",
    "t": "festival",
@@ -48,8 +69,20 @@
    "d2": "15.08",
    "t": "festival",
    "n": "Eesti Hip Hop Festival 2026",
-   "a": "artistid selgumisel",
-   "b": [],
+   "a": "20. juubel; esinejate nimekiri täieneb",
+   "b": [
+    "Nublu",
+    "Säm",
+    "Reket",
+    "A-Rühm",
+    "Pitsa",
+    "Beebilõust",
+    "Hanf Kung",
+    "Bad Art",
+    "5Loops",
+    "RLV Massive",
+    "Noizmakaz"
+   ],
    "v": "Elva",
    "c": "mujal",
    "g": [
@@ -58,6 +91,8 @@
    ],
    "sn": "eestihiphopfestival.ee",
    "su": "https://eestihiphopfestival.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1255908596517597",
    "pu": "https://eestihiphopfestival.ee/"
   },
   {
