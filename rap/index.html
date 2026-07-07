@@ -19,7 +19,7 @@ a{color:inherit}
 header{padding:26px 24px 0;max-width:1280px;margin:0 auto}
 .masthead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;border-bottom:3px solid var(--tint);padding-bottom:14px}
 .brand{display:flex;align-items:center;gap:14px;min-width:0}
-#brandLogo{display:block;height:clamp(38px,6vw,60px);width:auto;aspect-ratio:1;flex:none}
+#brandLogo{display:block;height:clamp(27px,4.3vw,43px);width:auto;aspect-ratio:1;flex:none}
 #brandLogo .fr,#brandLogo .pl,#brandLogo .sk,#brandLogo .inf{fill:var(--tint)}
 #brandLogo .bg{fill:none}
 #brandLogo.v2 .pl{fill:#E4322B}
@@ -254,10 +254,14 @@ function chips(el,items,key){
 }
 function kuud(){
   const m={};
-  E.filter(e=>!e.rel).forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
+  const vis=E.filter(e=>{
+    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    return st.past||!past;
+  });
+  vis.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
   const ks=Object.keys(m).sort().filter(k=>k>=TODAY.slice(0,7));
   document.getElementById("kuud").innerHTML=
-    `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">kõik kuud <small>${E.filter(e=>!e.rel).length}</small></button>`+
+    `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">kõik kuud <small>${vis.length}</small></button>`+
     ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" onclick="setF('kuu','${k}')">${KUUNIMED[k.slice(5)]} ${k.slice(0,4)} <small>${m[k]}</small></button>`).join("");
 }
 function setF(k,v){st[k]=v;refresh();}
