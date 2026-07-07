@@ -117,7 +117,7 @@
   "on_": "fest.kabliku.com",
   "ou": "https://fest.kabliku.com/",
   "pu": "https://fest.kabliku.com/",
-  "hind": {"praegu": "72.70€", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda (koos teenustasuga)", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
+  "hind": {"praegu": "72.70€", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-07-22",
@@ -175,9 +175,9 @@
    "rock"
   ],
   "sn": "Barbari FB",
-  "su": "https://www.facebook.com/barbarestonia/events",
+  "su": "https://www.facebook.com/events/4306050719668339",
   "on_": "Kolga Mõisa Kontsert",
-  "ou": "https://www.facebook.com/barbarestonia/events"
+  "ou": "https://www.facebook.com/events/4306050719668339"
  },
  {
   "d": "2026-07-25",
@@ -840,7 +840,7 @@
   ],
   "sn": "Wacken Open Air",
   "su": "https://www.wacken.com/en/",
-  "hind": {"praegu": "351€", "mark": "\"Louder\" - viimane hinnaklass (koos teenustasuga), \"Faster\" ja \"Harder\" juba läbi müüdud", "allikas": "wacken.com, kontrollitud 06.07.2026"}
+  "hind": {"praegu": "351€", "mark": "\"Louder\" - viimane hinnaklass, \"Faster\" ja \"Harder\" juba läbi müüdud", "allikas": "wacken.com, kontrollitud 06.07.2026"}
  },
  {
   "d": "2026-08-05",
