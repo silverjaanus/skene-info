@@ -14,7 +14,8 @@
   {"nimi": "Linna Bar", "url": "", "tyyp": "venue", "nb": "EI LEITUD 05.07.2026: linnabaar ei tööta, FB otsing ei anna - kirjed tulevad Bandsintownist"},
   {"nimi": "Heavy Music Estonia", "url": "", "tyyp": "kogukond", "nb": "EI LEITUD 05.07.2026: heavymusicestonia ei tööta, FB otsing ei anna - heavymusic.ee RSS on automaatkihis olemas"},
   {"nimi": "Mahtra Records", "url": "https://www.facebook.com/mahtrarecords", "tyyp": "label", "nb": "reliisid; Bandcamp serverist blokitud"},
-  {"nimi": "Nailboard Rock Shop", "url": "https://www.facebook.com/nailboardshop", "tyyp": "pood", "nb": "merch; WooCommerce 'viimati saabunud' ka olemas"}
+  {"nimi": "Nailboard Rock Shop", "url": "https://www.facebook.com/nailboardshop", "tyyp": "pood", "nb": "merch; WooCommerce 'viimati saabunud' ka olemas"},
+  {"nimi": "Black Revalia / Howls of Winter", "url": "https://howlsofwinter.eu/", "tyyp": "festival", "nb": "lisatud 07.07.2026; Tallinna talvine black-metal festival (Howls of Winter XIV, 04-06.02.2027); praegu koosseis+piletid TBA (eelmüük sept 2026); korraldaja Black Revalia, info@blackrevalia.eu, FB otsi 'Black Revalia'. Jälgi ka poolikute kirjete ülekontrollis (samm 2b)"}
  ],
  "ig": [
   {"nimi": "@damn.loud", "url": "https://www.instagram.com/damn.loud/"},
