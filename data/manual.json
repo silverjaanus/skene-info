@@ -159,7 +159,10 @@
    "grind"
   ],
   "sn": "Secret Face FB",
-  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
+  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1939366306773298/",
+  "hind": {"praegu": "10€ / 7€ (õpilased, alaealised)", "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 19.30", "allikas": "Facebook event, kontrollitud 07.07.2026"}
  },
  {
   "d": "2026-07-23",
@@ -179,8 +182,9 @@
   ],
   "sn": "Secret Face FB",
   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-  "on_": "Secret Face Productions",
-  "ou": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1535064547976191/",
+  "hind": {"praegu": "10€ / 7€ (õpilased, alaealised)", "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 20.00", "allikas": "Facebook event, kontrollitud 07.07.2026"}
  },
  {
   "d": "2026-07-24",
@@ -303,8 +307,9 @@
   ],
   "sn": "Sügis Productionsi FB",
   "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
-  "on_": "The Krypt FB",
-  "ou": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events"
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1999147140962621/",
+  "pu": "https://fienta.com/et/barbatos-thekrypt-tallinn"
  },
  {
   "d": "2026-08-28",
@@ -352,8 +357,8 @@
   ],
   "sn": "Damn.Loudi FB",
   "su": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
-  "on_": "Damn.Loud",
-  "ou": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/nothing-paavli-tallinn",
   "pu": "https://fienta.com/et/nothing-paavli-tallinn"
  },
  {
@@ -393,9 +398,7 @@
    "black"
   ],
   "sn": "Bandsintown",
-  "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
-  "on_": "tapper.ee",
-  "ou": "https://www.tapper.ee/events/"
+  "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper"
  },
  {
   "d": "2026-09-12",
@@ -411,9 +414,7 @@
    "industrial"
   ],
   "sn": "Bandsintown",
-  "su": "https://www.bandsintown.com/e/108591058-freakangel-at-the-krypt",
-  "on_": "thekrypt.ee",
-  "ou": "https://www.thekrypt.ee/events"
+  "su": "https://www.bandsintown.com/e/108591058-freakangel-at-the-krypt"
  },
  {
   "d": "2026-09-19",
@@ -588,9 +589,7 @@
    "electro"
   ],
   "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=232956",
-  "on_": "tapper.ee",
-  "ou": "https://www.tapper.ee/events/"
+  "su": "https://metalstorm.net/events/event.php?event_id=232956"
  },
  {
   "d": "2026-12-11",
@@ -728,8 +727,6 @@
   ],
   "sn": "Fienta",
   "su": "https://fienta.com/et/tramhaus-tallinn-paavli",
-  "on_": "paavli.ee",
-  "ou": "https://paavli.ee/sundmused/",
   "pu": "https://fienta.com/et/tramhaus-tallinn-paavli"
  },
  {
