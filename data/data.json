@@ -1,7 +1,7 @@
 {
- "updated": "2026-07-07",
+ "updated": "2026-07-08",
  "log": [
-  "metalstorm: 17",
+  "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
   "krypt: 0",
   "paavli: 0",
   "helitehas: 0"
@@ -994,22 +994,6 @@
     "mark": "Early Bird 39€ välja müüdud; Supporter 65€; algus 19.00",
     "allikas": "Fienta, kontrollitud 07.07.2026"
    }
-  },
-  {
-   "d": "2026-11-26",
-   "t": "kontsert",
-   "n": "Wyatt E.",
-   "b": [
-    "Wyatt E.",
-    "Five The Hierophant"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=236314"
   },
   {
    "d": "2026-11-30",
