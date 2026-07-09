@@ -375,6 +375,22 @@
   "pu": "https://fienta.com/et/barbatos-thekrypt-tallinn"
  },
  {
+  "d": "2026-08-21",
+  "d2": "22.08",
+  "t": "festival",
+  "n": "Ülase Fest '26",
+  "a": "kahepäevane DIY-festival Ülase12-s; koosseis TBA (open call bändidele)",
+  "v": "Ülase 12",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "alt"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/1999285581007306",
+  "nb": "koosseis kinnitamata (open call) - kontrolli lineup enne kui usaldad žanri"
+ },
+ {
   "d": "2026-08-28",
   "t": "kontsert",
   "n": "Caliber Orders",
@@ -388,6 +404,25 @@
   ],
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna"
+ },
+ {
+  "d": "2026-08-28",
+  "t": "kontsert",
+  "n": "MODEL CITIZEN + I AM BOB + DJ Valter Nõmm",
+  "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB + DJ Valter Nõmm",
+  "b": [
+   "Model Citizen",
+   "I AM BOB"
+  ],
+  "v": "Burger Box",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/1063635092993606",
+  "hind": {"praegu": "tasuta"}
  },
  {
   "d": "2026-08-29",
