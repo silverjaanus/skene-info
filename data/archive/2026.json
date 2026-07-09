@@ -1,0 +1,82 @@
+{
+ "year": 2026,
+ "entries": [
+  {
+   "d": "2026-06-28",
+   "t": "kontsert",
+   "n": "Blood Incantation + Nate Mercereau",
+   "b": [
+    "Blood Incantation",
+    "Nate Mercereau"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "death"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+   "on_": "paavli.ee",
+   "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/"
+  },
+  {
+   "d": "2026-07-01",
+   "t": "kontsert",
+   "n": "Õllesummer: Metsatöll",
+   "b": [
+    "Metsatöll"
+   ],
+   "v": "Tallinna Lauluväljak",
+   "c": "Tallinn",
+   "g": [
+    "folk",
+    "pagan"
+   ],
+   "sn": "metsatoll.ee",
+   "su": "https://www.metsatoll.ee/en/gigs/"
+  },
+  {
+   "d": "2026-07-03",
+   "d2": "04.07",
+   "t": "festival",
+   "n": "Hard Rock Laager 2026",
+   "a": "+20 bändi",
+   "b": [
+    "Pain",
+    "Vader",
+    "Eivør",
+    "Metsatöll"
+   ],
+   "v": "Vana-Vigala",
+   "c": "mujal",
+   "g": [
+    "death",
+    "industrial",
+    "folk",
+    "pagan"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia"
+  },
+  {
+   "d": "2026-07-06",
+   "t": "kontsert",
+   "n": "Laine Live: Molbo + Homebroke",
+   "a": "MOLBO (NO) + Homebroke (EE)",
+   "b": [
+    "Molbo",
+    "Homebroke"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "post-punk"
+   ],
+   "sn": "uuslaine.com",
+   "su": "https://uuslaine.com/",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-live-molbo"
+  }
+ ]
+}

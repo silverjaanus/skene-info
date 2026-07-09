@@ -1,0 +1,236 @@
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RAP.SKENE.INFO — Arhiiv</title>
+<meta name="description" content="rap.skene.info arhiiv — möödunud üritused ja reliisid.">
+<meta name="robots" content="noindex">
+<script defer src="/_vercel/insights/script.js"></script>
+<style>
+:root{
+  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
+  --telliskivi:#93392C; --ploom:#4E4275; --sinep:#A8811F; --paatina:#2C5B54;
+  --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.45}
+a{color:inherit}
+header{padding:26px 24px 0;max-width:1280px;margin:0 auto}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;border-bottom:3px solid var(--tint);padding-bottom:14px}
+.brand{display:flex;align-items:baseline;gap:14px;min-width:0}
+h1{font-size:clamp(38px,6vw,60px);line-height:.92;letter-spacing:-2px;text-transform:uppercase;font-weight:700}
+h1 a{text-decoration:none}
+h1 .info{color:var(--telliskivi)}
+.arch-badge{font-family:var(--mono);font-size:13px;letter-spacing:2px;color:var(--paber);background:var(--tint);padding:3px 9px;text-transform:uppercase}
+.tagline{font-family:var(--mono);font-size:13px;color:var(--hall);max-width:340px;text-align:right}
+.mast-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;max-width:340px}
+.author{font-family:var(--mono);font-size:11px;color:var(--hall);text-align:right}
+.author a{color:var(--telliskivi);text-decoration:none;border-bottom:1px solid transparent}
+.author a:hover{border-bottom-color:var(--telliskivi)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px 40px;display:grid;grid-template-columns:190px 1fr;gap:28px;align-items:start}
+aside{position:sticky;top:16px;padding-top:16px}
+.kuu-t{font-family:var(--mono);font-size:11px;color:var(--hall);text-transform:uppercase;margin-bottom:8px}
+.kuu{display:block;width:100%;text-align:left;font-family:var(--mono);font-size:13px;border:0;border-left:3px solid transparent;background:transparent;color:var(--tint);padding:5px 8px;cursor:pointer}
+.kuu:hover{border-left-color:var(--joon)}
+.kuu.on{border-left-color:var(--telliskivi);font-weight:700}
+.kuu small{color:var(--hall);float:right}
+.content{padding-top:16px}
+.frow{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:9px;align-items:center}
+.flabel{font-family:var(--mono);font-size:11px;color:var(--hall);min-width:56px;text-transform:uppercase}
+.chip{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:transparent;color:var(--tint);padding:4px 11px;cursor:pointer;border-radius:0}
+.chip:hover,.chip.on{background:var(--tint);color:var(--paber)}
+.count{font-family:var(--mono);font-size:12px;color:var(--hall);padding:12px 0 2px;border-top:1px solid var(--joon);margin-top:10px}
+.row{border-bottom:1px solid var(--joon);padding:15px 2px;display:grid;grid-template-columns:92px 1fr 230px;gap:16px}
+.row:first-of-type{border-top:2.5px solid var(--tint)}
+.pv{font-family:var(--mono);font-size:16px;font-weight:700;white-space:nowrap}
+.pv small{display:block;font-weight:400;font-size:11px;color:var(--hall);margin:2px 0 6px}
+.tag{font-family:var(--mono);font-size:10px;color:var(--paber);padding:2px 6px;display:inline-block;text-transform:uppercase;letter-spacing:.4px}
+.t-kontsert{background:var(--telliskivi)} .t-festival{background:var(--sinep);color:var(--tint)}
+.t-klubi{background:var(--ploom)} .t-reliis{background:var(--paatina)} .t-merch{background:var(--paatina)}
+.tit{font-size:18px;font-weight:700}
+.tit a{text-decoration:none;border-bottom:1.5px solid transparent}
+.tit a:hover{border-bottom-color:var(--telliskivi)}
+.sub{font-size:13.5px;color:var(--hall);margin-top:2px}
+.gtags{margin-top:6px;display:flex;flex-wrap:wrap;gap:5px}
+.gt{font-family:var(--mono);font-size:11px;border:1px solid var(--joon);color:var(--hall);padding:1px 7px;cursor:pointer;background:transparent;border-radius:0}
+.gt:hover,.gt.on{border-color:var(--tint);color:var(--tint)}
+.gt.on{border-width:2px;font-weight:700}
+.lineup{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 18px}
+.bd{display:inline-flex;align-items:center;gap:7px;font-size:14px}
+.bd .ic{display:inline-flex;gap:6px;align-items:center}
+.bd a{display:inline-flex;opacity:.85}
+.bd a:hover{opacity:1}
+.bd svg{width:17px;height:17px;display:block}
+.loc{text-align:right;font-size:13.5px;color:var(--hall)}
+.loc .venue{color:var(--tint);font-weight:700;display:block;font-size:14.5px}
+.lnks{font-family:var(--mono);font-size:11px;margin-top:6px;line-height:1.9}
+.lnks a{text-decoration:none;display:inline-block}
+.lnks .a1{color:var(--hall)} .lnks .a1:hover{color:var(--tint)}
+.lnks .a2{color:var(--telliskivi)}
+.lnks .a3{color:var(--paatina);font-weight:700;border:1.5px solid var(--paatina);padding:1px 7px}
+.lnks .a3:hover{background:var(--paatina);color:var(--paber)}
+.lnks .price{color:var(--hall);display:block;margin-top:2px}
+.lnks .price b{color:var(--tint)}
+.lnks a:hover{text-decoration:underline}
+.lnks .a3:hover{text-decoration:none}
+.igbtn{display:block;text-align:center;font-family:var(--mono);font-size:12px;border:1.5px solid var(--tint);background:transparent;color:var(--tint);padding:8px 10px;text-decoration:none;text-transform:uppercase;letter-spacing:.5px}
+.igbtn:hover{background:var(--tint);color:var(--paber)}
+.footer{border-top:3px solid var(--tint);margin-top:34px;padding:18px 2px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
+.ethos{font-size:12.5px;color:var(--hall);max-width:440px}
+.empty{font-family:var(--mono);font-size:13px;color:var(--hall);padding:30px 2px}
+@media(max-width:900px){
+  .wrap{grid-template-columns:1fr}
+  aside{position:static;padding-top:12px}
+  .kuud{display:flex;flex-wrap:wrap;gap:4px}
+  .kuu{width:auto;border:1px solid var(--joon);border-left:3px solid transparent}
+  .kuu small{float:none;margin-left:7px}
+  .row{grid-template-columns:80px 1fr}
+  .loc{grid-column:1/3;text-align:left}
+  .tagline{text-align:left}
+  .mast-right{align-items:flex-start}
+  .author{text-align:left}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="masthead">
+    <div class="brand"><h1><a href="index.html">Rap<span class="info">.skene</span></a></h1><span class="arch-badge">Arhiiv</span></div>
+    <div class="mast-right">
+      <p class="tagline">Möödunud räpi-üritused ja reliisid.<br>Tagasivaade skeenele.</p>
+      <p class="author"><a href="index.html">← tagasi live-kalendrisse</a></p>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+  <aside>
+    <p class="kuu-t">Aasta</p>
+    <div class="kuud" id="aastad"></div>
+    <p class="kuu-t" style="margin-top:22px">Kuu</p>
+    <div class="kuud" id="kuud"></div>
+    <p class="kuu-t" style="margin-top:28px">Muu</p>
+    <a class="igbtn" href="index.html">← Live-kalender</a>
+  </aside>
+  <div class="content">
+    <div class="frow"><span class="flabel">Tüüp</span><span id="f-type"></span></div>
+    <div class="frow"><span class="flabel">Žanr</span><span id="f-tag"></span></div>
+    <div class="frow"><span class="flabel">Koht</span><span id="f-city"></span></div>
+    <p class="count" id="count"></p>
+    <div id="list"></div>
+    <div class="footer">
+      <div style="font-family:var(--mono);font-size:12.5px;display:flex;gap:16px">
+        <a href="index.html">← RÄPI LIVE-KALENDER</a>
+        <a href="https://www.skene.info/">SKENE (metal/rock) ↗</a>
+      </div>
+      <p class="ethos">Arhiiv koondab kõik, mis on saidil olnud — miski ei kao. Iga kirje viitab endiselt algallikale.</p>
+    </div>
+  </div>
+</div>
+<script>
+const KUUNIMED={ "01":"jaanuar","02":"veebruar","03":"märts","04":"aprill","05":"mai","06":"juuni","07":"juuli","08":"august","09":"september","10":"oktoober","11":"november","12":"detsember"};
+const TYPES=[["kõik",null],["kontserdid","kontsert"],["festivalid","festival"],["klubiõhtud","klubi"],["reliisid","reliis"],["merch","merch"]];
+const CITIES=[["kõik",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["mujal Eesti","mujal"]];
+let YEARS=[], CACHE={}, E=[];
+let st={year:null,kuu:null,type:null,tags:new Set(),city:null};
+function enc(x){return encodeURIComponent(x);}
+const IC={
+ sp:'<svg viewBox="0 0 24 24" aria-label="Spotify"><circle cx="12" cy="12" r="11" fill="#1DB954"/><path d="M6.5 9.6c3.6-1.1 7.6-.7 10.6 1" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M7 12.6c3-.9 6.3-.5 8.8.9" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M7.5 15.4c2.4-.7 5-.4 7 .7" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg>',
+ ym:'<svg viewBox="0 0 24 24" aria-label="YouTube Music"><circle cx="12" cy="12" r="11" fill="#FF0000"/><circle cx="12" cy="12" r="6.5" stroke="#fff" stroke-width="1.4" fill="none"/><path d="M10.3 9.5l5 2.5-5 2.5z" fill="#fff"/></svg>',
+ yt:'<svg viewBox="0 0 24 24" aria-label="YouTube"><rect x="1.5" y="5" width="21" height="14" rx="3.5" fill="#FF0000"/><path d="M10 9l5.5 3L10 15z" fill="#fff"/></svg>'
+};
+function band(b){return `<span class="bd"><span>${b}</span><span class="ic">
+ <a href="https://open.spotify.com/search/${enc(b)}" target="_blank" rel="noopener" title="${b} Spotifys">${IC.sp}</a>
+ <a href="https://music.youtube.com/search?q=${enc(b)}" target="_blank" rel="noopener" title="${b} YT Musicus">${IC.ym}</a>
+ <a href="https://www.youtube.com/results?search_query=${enc(b)}" target="_blank" rel="noopener" title="${b} YouTube'is">${IC.yt}</a>
+</span></span>`;}
+function priceLine(e){
+  if(!e.hind)return "";
+  const h=e.hind;
+  if(h.kuni&&h.jargmine)return `<span class="price">Hind: <b>${h.praegu}</b> kuni ${h.kuni}, pärast <b>${h.jargmine}</b></span>`;
+  return `<span class="price">Hind: <b>${h.praegu}</b>${h.mark?" — "+h.mark:""}</span>`;
+}
+function fmt(e){
+  if(e.tba)return"TBA";
+  const dt=new Date(e.d+"T00:00");
+  let s=String(dt.getDate()).padStart(2,"0")+"."+String(dt.getMonth()+1).padStart(2,"0");
+  if(e.d2)s+="–<br>"+e.d2;
+  return s;
+}
+function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}
+function aastad(){
+  document.getElementById("aastad").innerHTML=YEARS.map(y=>
+    `<button class="kuu${st.year===y.year?" on":""}" onclick="setYear(${y.year})">${y.year} <small>${y.count}</small></button>`).join("");
+}
+function kuud(){
+  const m={};
+  E.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
+  const ks=Object.keys(m).sort().reverse();
+  document.getElementById("kuud").innerHTML=
+    `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">kõik kuud <small>${E.length}</small></button>`+
+    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" onclick="setF('kuu','${k}')">${KUUNIMED[k.slice(5)]} <small>${m[k]}</small></button>`).join("");
+}
+function render(){
+  let rows=E.filter(e=>{
+    if(st.type&&e.t!==st.type)return false;
+    if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
+    if(st.city&&e.c!==st.city)return false;
+    if(st.kuu&&!e.d.startsWith(st.kuu))return false;
+    return true;
+  }).sort((a,b)=>b.d.localeCompare(a.d));
+  document.getElementById("count").textContent=rows.length+" kirjet"+(st.year?" · "+st.year:"")
+    +(st.kuu?" · "+KUUNIMED[st.kuu.slice(5)]:"")
+    +(st.tags.size?" · žanr: "+[...st.tags].join("+"):"")+(st.type?" · "+st.type:"");
+  if(!rows.length){document.getElementById("list").innerHTML='<p class="empty">Selles vaates pole kirjeid.</p>';return;}
+  document.getElementById("list").innerHTML=rows.map(e=>{
+    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
+    const sameSrc=e.ou&&(e.ou===e.su);
+    let lnks="";
+    if(sameSrc){lnks=`<a class="a2" href="${e.ou}" target="_blank" rel="noopener">korraldaja: ${e.on_||e.sn} ↗</a>`;}
+    else{
+      lnks=`<a class="a1" href="${e.su}" target="_blank" rel="noopener">allikas: ${e.sn} ↗</a>`;
+      if(e.ou)lnks+=`<br><a class="a2" href="${e.ou}" target="_blank" rel="noopener">korraldaja: ${e.on_} ↗</a>`;
+    }
+    if(e.pu)lnks+=`<br><a class="a3" href="${e.pu}" target="_blank" rel="noopener">PILETID ↗</a>`;
+    if(e.hind)lnks+=`<br>${priceLine(e)}`;
+    return `<div class="row">
+      <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${e.t}</span></div>
+      <div>
+        <p class="tit"><a href="${e.ou||e.su}" target="_blank" rel="noopener">${e.n}</a></p>
+        ${e.a?`<p class="sub">${e.a}</p>`:""}
+        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join("")}</div>
+        ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
+      </div>
+      <div class="loc"><span class="venue">${e.v}</span>${e.linn?e.linn:(e.c==="mujal"?"":e.c)}<div class="lnks">${lnks}</div></div>
+    </div>`;
+  }).join("");
+}
+function chips(el,items,key){
+  document.getElementById(el).innerHTML=items.map(([lbl,val])=>
+    `<button class="chip${st[key]===val?" on":""}" onclick="setF('${key}',${val===null?"null":`'${val}'`})">${lbl}</button>`).join(" ");
+}
+function setF(k,v){st[k]=v;refresh();}
+function setTag(g){if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);refresh();}
+function clearTags(){st.tags=new Set();refresh();}
+function refresh(){
+  chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
+  document.getElementById("f-tag").innerHTML=
+    `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">kõik žanrid</button> `+
+    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
+  aastad();kuud();render();
+}
+function setYear(y){
+  st.year=y;st.kuu=null;
+  if(CACHE[y]){E=CACHE[y];refresh();return;}
+  fetch("data/archive/"+y+".json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{
+    CACHE[y]=j.entries||[];E=CACHE[y];refresh();
+  }).catch(()=>{E=[];refresh();});
+}
+fetch("data/archive/years.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{
+  YEARS=j.years||[];
+  if(YEARS.length){setYear(YEARS[0].year);}
+  else{E=[];refresh();document.getElementById("list").innerHTML='<p class="empty">Arhiiv on veel tühi — siia kogunevad üritused ja reliisid pärast nende toimumist/aegumist.</p>';}
+}).catch(()=>{document.getElementById("list").innerHTML='<p class="empty">Arhiivi ei õnnestunud laadida.</p>';});
+</script>
+</body>
+</html>

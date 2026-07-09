@@ -14,6 +14,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TODAY = date.today().isoformat()
 UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info korje; +https://www.skene.info)"}
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from archive_split import split_and_write
 
 # zhanrifilter segazhanrilistele venue'dele (paavli, helitehas)
 KEYW = re.compile(
@@ -171,12 +173,10 @@ def main():
             merged.append(e)
             seen_auto.add(k)
 
-    merged.sort(key=lambda e: e["d"])
-    out = {"updated": TODAY, "log": log, "entries": merged}
-    (ROOT / "data" / "data.json").write_text(
-        json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    n_cur, n_arch = split_and_write(ROOT / "data", merged, log=log,
+                                    block=block, block_names=block_names)
     print("; ".join(log))
-    print(f"manual {len(manual)} + auto uusi {len(merged) - len(manual)} = {len(merged)}")
+    print(f"manual {len(manual)} + auto = {len(merged)}; data.json {n_cur}, arhiiv {n_arch}")
 
 if __name__ == "__main__":
     main()

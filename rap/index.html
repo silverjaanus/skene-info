@@ -152,7 +152,7 @@ aside{position:sticky;top:16px;padding-top:16px}
     <div class="frow"><span class="flabel">Tüüp</span><span id="f-type"></span></div>
     <div class="frow"><span class="flabel">Žanr</span><span id="f-tag"></span></div>
     <div class="frow"><span class="flabel">Koht</span><span id="f-city"></span>
-      <button class="chip" id="f-past" style="margin-left:auto">näita vanu</button>
+      <a class="chip" href="arhiiv.html" style="margin-left:auto;text-decoration:none">→ Arhiiv</a>
     </div>
     <p class="count" id="count"></p>
     <div id="list"></div>
@@ -216,8 +216,13 @@ function calLinks(e){
   const icsUri="data:text/calendar;charset=utf-8,"+enc(ics);
   return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">+ GOOGLE KALENDER</a> <a class="a4" href="${icsUri}" download="skene-event.ics">+ APPLE/ICS</a>`;
 }
+function featured(e){
+  if(!e.rel||!e.lisatud)return false;
+  const diff=(dOnly(TODAY)-dOnly(e.lisatud))/86400000;
+  return diff>=0&&diff<=30;
+}
 function fmt(e){
-  if(e.rel)return"uus";
+  if(featured(e))return"uus";
   if(e.tba)return"TBA";
   const dt=new Date(e.d+"T00:00");
   let s=String(dt.getDate()).padStart(2,"0")+"."+String(dt.getMonth()+1).padStart(2,"0");
@@ -230,15 +235,20 @@ function render(){
     if(st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
-    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
     if(!st.past&&past)return false;
     return true;
-  }).sort((a,b)=>a.d.localeCompare(b.d));
+  }).sort((a,b)=>{
+    const fa=featured(a),fb=featured(b);
+    if(fa!==fb)return fa?-1:1;
+    if(fa&&fb)return (b.lisatud||"").localeCompare(a.lisatud||"");
+    return a.d.localeCompare(b.d);
+  });
   document.getElementById("count").textContent=rows.length+" kirjet"
     +(st.kuu?" · "+KUUNIMED[st.kuu.slice(5)]+" "+st.kuu.slice(0,4):"")
     +(st.tags.size?" · žanr: "+[...st.tags].join("+"):"")+(st.type?" · "+st.type:"");
   document.getElementById("list").innerHTML=rows.map(e=>{
-    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
@@ -269,7 +279,7 @@ function chips(el,items,key){
 function kuud(){
   const m={};
   const vis=E.filter(e=>{
-    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
     return st.past||!past;
   });
   vis.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
@@ -289,10 +299,8 @@ function refresh(){
   document.getElementById("f-tag").innerHTML=
     `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">kõik žanrid</button> `+
     tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
-  document.getElementById("f-past").className="chip"+(st.past?" on":"");
   kuud();render();
 }
-document.getElementById("f-past").onclick=()=>{st.past=!st.past;refresh();};
 E=E_FALLBACK;refresh();
 fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;refresh();}).catch(()=>{});
 </script>

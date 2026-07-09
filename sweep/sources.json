@@ -91,7 +91,7 @@
  "rock_punk_uued": {
   "nb": "Lisatud 06.07.2026 - ulatuse laienemine rock/punk peale. Uurimustöö tehtud, kontrollimata allikad markeeritud.",
   "sites": [
-   {"nimi": "Ülase12", "url": "https://www.facebook.com/ulase12", "tyyp": "venue/DIY", "nb": "juba nimekirjas venue'na, aga tegelikult KESKNE DIY punk/hardcore/anarhistlik keskus Tallinnas - monitoori eraldi tähelepanuga"},
+   {"nimi": "Ülase12", "url": "https://www.facebook.com/anemon12tln/events", "tyyp": "venue/DIY", "nb": "KESKNE DIY punk/hardcore/anarhistlik keskus Tallinnas - monitoori eraldi tähelepanuga. URL parandatud 09.07.2026: vana ulase12 surnud ('content isn't available') -> FB-leht 'Anemon12' (@anemon12tln), sotsiaalkeskus Ülase 12; kinnitatud live-üritustega (nt Ülase Fest '26)"},
    {"nimi": "Beyond Tartu", "url": "https://beyondtartu.bandcamp.com/", "tyyp": "label", "nb": "aktiivne Tartu crust/hardcore label Bandcampis (Kuritarvitaja, Paranarkar, Keskkool jt)"},
    {"nimi": "Hell (klubi, Tartu)", "url": "https://www.facebook.com/punknrollhell/", "tyyp": "venue", "nb": "punk/rock, Tiigi 76a; KONTROLLIDA kas eraldi 'Klubi Rock & Roll (Tartu)' olemasolevast nimekirjast - vôivad kattuda"},
    {"nimi": "Rock & Roll Heaven (Tartu)", "url": "https://www.facebook.com/rollheaven/", "tyyp": "venue", "nb": "sama aadress/maja mis Hell; KONTROLLIDA dubleerimist 'Klubi Rock & Roll' vastu"},

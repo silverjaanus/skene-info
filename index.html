@@ -158,7 +158,7 @@ aside{position:sticky;top:16px;padding-top:16px}
     <div class="frow"><span class="flabel">Tüüp</span><span id="f-type"></span></div>
     <div class="frow"><span class="flabel">Žanr</span><span id="f-tag"></span></div>
     <div class="frow"><span class="flabel">Koht</span><span id="f-city"></span>
-      <button class="chip" id="f-past" style="margin-left:auto">näita vanu</button>
+      <a class="chip" href="/arhiiv.html" style="margin-left:auto;text-decoration:none">→ Arhiiv</a>
     </div>
     <p class="count" id="count"></p>
     <div id="list"></div>
@@ -208,10 +208,10 @@ const E_FALLBACK = [
  {d:"2027-02-28",t:"kontsert",n:"Whitechapel + Sylosis + 200 Stab Wounds + Tribal Gaze",b:["Whitechapel","Sylosis","200 Stab Wounds","Tribal Gaze"],v:"Helitehas",c:"Tallinn",g:["deathcore","death","thrash"],sn:"Metal Storm",su:"https://metalstorm.net/events/event.php?event_id=232554"},
  {d:"2027-04-20",t:"kontsert",n:"Tarja: Frisson tuur",b:["Tarja"],v:"Helitehas",c:"Tallinn",g:["sümfooniline"],sn:"Metal Storm",su:"https://metalstorm.net/events/event.php?event_id=235453"},
  {d:"2027-05-07",t:"kontsert",n:"Sabaton",b:["Sabaton"],v:"Unibet Arena",c:"Tallinn",g:["power","heavy"],sn:"Metal Storm",su:"https://metalstorm.net/events/event.php?event_id=235199"},
- {rel:1,d:"2026-07-05",t:"reliis",n:"Must Missa — «Live in Tallinn»",a:"Mahtra Recordsi uusim väljalase",b:["Must Missa"],v:"Mahtra Records",c:"Tallinn",g:["black","thrash"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
- {rel:1,d:"2026-07-05",t:"reliis",n:"Ohvrikivi — «Karidel»",a:"Mahtra Records",b:["Ohvrikivi"],v:"Mahtra Records",c:"Tallinn",g:["black","pagan"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
- {rel:1,d:"2026-07-05",t:"reliis",n:"Urduk — «Pimedus saabugu»",a:"Mahtra Records",b:["Urduk"],v:"Mahtra Records",c:"mujal",g:["black"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
- {rel:1,d:"2026-07-05",t:"merch",n:"Nailboard Rock Shop — uued saabumised",a:"vinüülid, CD-d, särgid, embleemid — uueneb pidevalt",b:[],v:"Tulika 19, Tallinn",c:"Tallinn",g:[],sn:"nailboard.org",su:"https://nailboard.org/tootekategooria/viimati-saabunud/"},
+ {rel:1,d:"2024-06-22",lisatud:"2026-07-05",t:"reliis",n:"Must Missa — «Live in Tallinn»",a:"Mahtra Recordsi uusim väljalase",b:["Must Missa"],v:"Mahtra Records",c:"Tallinn",g:["black","thrash"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
+ {rel:1,d:"2023-12-18",lisatud:"2026-07-05",t:"reliis",n:"Ohvrikivi — «Karidel»",a:"Mahtra Records",b:["Ohvrikivi"],v:"Mahtra Records",c:"Tallinn",g:["black","pagan"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
+ {rel:1,d:"2023-10-01",lisatud:"2026-07-05",t:"reliis",n:"Urduk — «Pimedus saabugu»",a:"Mahtra Records",b:["Urduk"],v:"Mahtra Records",c:"mujal",g:["black"],sn:"Bandcamp",su:"https://mahtrarecords.bandcamp.com/music"},
+ {rel:1,d:"2026-07-05",lisatud:"2026-07-05",t:"merch",n:"Nailboard Rock Shop — uued saabumised",a:"vinüülid, CD-d, särgid, embleemid — uueneb pidevalt",b:[],v:"Tulika 19, Tallinn",c:"Tallinn",g:[],sn:"nailboard.org",su:"https://nailboard.org/tootekategooria/viimati-saabunud/"},
  {d:"2026-07-29",d2:"01.08",t:"festival",n:"Beyond the Gates",a:"ekstreem-metal (black/doom); Emperor, Testament, Electric Wizard, Blood Incantation, Marduk jt",b:["Emperor","Testament","Electric Wizard","Blood Incantation","Marduk"],v:"Grieghallen / USF Verftet",c:"Põhjamaad",linn:"Bergen, Norra",g:["black","doom","extreme"],sn:"Beyond the Gates",su:"https://www.beyondthegates.no/"},
  {d:"2026-07-29",d2:"01.08",t:"festival",n:"Wacken Open Air",a:"35. juubeliaastapäev, 150+ bändi; Def Leppard, Judas Priest, Iron Maiden, Sepultura (viimane tuur) jt",b:["Def Leppard","Judas Priest","Iron Maiden","Sepultura","Arch Enemy"],v:"Wacken (põld)",c:"Euroopa",linn:"Wacken, Saksamaa",g:["heavy","death","thrash","power"],sn:"Wacken Open Air",su:"https://www.wacken.com/en/"},
  {d:"2026-08-05",d2:"08.08",t:"festival",n:"Brutal Assault",a:"Josefovi kindluses; Body Count, Periphery, Primus, Wardruna, Cradle of Filth jt",b:["Body Count","Periphery","Primus","Wardruna","Cradle of Filth"],v:"Pevnost Josefov",c:"Euroopa",linn:"Jaroměř, Tšehhi",g:["death","black","thrash","doom"],sn:"Brutal Assault",su:"https://brutalassault.cz/en"},
@@ -268,8 +268,13 @@ function calLinks(e){
   const icsUri="data:text/calendar;charset=utf-8,"+enc(ics);
   return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">+ GOOGLE KALENDER</a> <a class="a4" href="${icsUri}" download="skene-event.ics">+ APPLE/ICS</a>`;
 }
+function featured(e){
+  if(!e.rel||!e.lisatud)return false;
+  const diff=(dOnly(TODAY)-dOnly(e.lisatud))/86400000;
+  return diff>=0&&diff<=30;
+}
 function fmt(e){
-  if(e.rel)return"uus";
+  if(featured(e))return"uus";
   if(e.tba)return"TBA";
   const dt=new Date(e.d+"T00:00");
   let s=String(dt.getDate()).padStart(2,"0")+"."+String(dt.getMonth()+1).padStart(2,"0");
@@ -282,15 +287,20 @@ function render(){
     if(st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
-    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
     if(!st.past&&past)return false;
     return true;
-  }).sort((a,b)=>a.d.localeCompare(b.d));
+  }).sort((a,b)=>{
+    const fa=featured(a),fb=featured(b);
+    if(fa!==fb)return fa?-1:1;
+    if(fa&&fb)return (b.lisatud||"").localeCompare(a.lisatud||"");
+    return a.d.localeCompare(b.d);
+  });
   document.getElementById("count").textContent=rows.length+" kirjet"
     +(st.kuu?" · "+KUUNIMED[st.kuu.slice(5)]+" "+st.kuu.slice(0,4):"")
     +(st.tags.size?" · žanr: "+[...st.tags].join("+"):"")+(st.type?" · "+st.type:"");
   document.getElementById("list").innerHTML=rows.map(e=>{
-    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
@@ -322,7 +332,7 @@ function chips(el,items,key){
 function kuud(){
   const m={};
   const vis=E.filter(e=>{
-    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
     return st.past||!past;
   });
   vis.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
@@ -342,10 +352,8 @@ function refresh(){
   document.getElementById("f-tag").innerHTML=
     `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">kõik žanrid</button> `+
     tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
-  document.getElementById("f-past").className="chip"+(st.past?" on":"");
   kuud();render();
 }
-document.getElementById("f-past").onclick=()=>{st.past=!st.past;refresh();};
 E=E_FALLBACK;refresh();
 fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;refresh();}).catch(()=>{});
 </script>

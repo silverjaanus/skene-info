@@ -1,72 +1,47 @@
 {
  "updated": "2026-07-09",
- "log": [
-  "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
-  "krypt: 0",
-  "paavli: 0",
-  "helitehas: 0"
- ],
  "entries": [
   {
-   "d": "2026-06-28",
-   "t": "kontsert",
-   "n": "Blood Incantation + Nate Mercereau",
+   "rel": 1,
+   "d": "2023-10-01",
+   "lisatud": "2026-07-05",
+   "t": "reliis",
+   "n": "Urduk — «Pimedus saabugu»",
+   "a": "Mahtra Records",
    "b": [
-    "Blood Incantation",
-    "Nate Mercereau"
+    "Urduk"
    ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "death"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
-   "on_": "paavli.ee",
-   "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/"
-  },
-  {
-   "d": "2026-07-01",
-   "t": "kontsert",
-   "n": "Õllesummer: Metsatöll",
-   "b": [
-    "Metsatöll"
-   ],
-   "v": "Tallinna Lauluväljak",
-   "c": "Tallinn",
-   "g": [
-    "folk",
-    "pagan"
-   ],
-   "sn": "metsatoll.ee",
-   "su": "https://www.metsatoll.ee/en/gigs/"
-  },
-  {
-   "d": "2026-07-03",
-   "d2": "04.07",
-   "t": "festival",
-   "n": "Hard Rock Laager 2026",
-   "a": "+20 bändi",
-   "b": [
-    "Pain",
-    "Vader",
-    "Eivør",
-    "Metsatöll"
-   ],
-   "v": "Vana-Vigala",
+   "v": "Mahtra Records",
    "c": "mujal",
    "g": [
-    "death",
-    "industrial",
-    "folk",
-    "pagan"
+    "black"
    ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia"
+   "sn": "Bandcamp",
+   "su": "https://mahtrarecords.bandcamp.com/music"
   },
   {
    "rel": 1,
-   "d": "2026-07-05",
+   "d": "2023-12-18",
+   "lisatud": "2026-07-05",
+   "t": "reliis",
+   "n": "Ohvrikivi — «Karidel»",
+   "a": "Mahtra Records",
+   "b": [
+    "Ohvrikivi"
+   ],
+   "v": "Mahtra Records",
+   "c": "Tallinn",
+   "g": [
+    "black",
+    "pagan"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://mahtrarecords.bandcamp.com/music"
+  },
+  {
+   "rel": 1,
+   "d": "2024-06-22",
+   "lisatud": "2026-07-05",
    "t": "reliis",
    "n": "Must Missa — «Live in Tallinn»",
    "a": "Mahtra Recordsi uusim väljalase",
@@ -85,41 +60,7 @@
   {
    "rel": 1,
    "d": "2026-07-05",
-   "t": "reliis",
-   "n": "Ohvrikivi — «Karidel»",
-   "a": "Mahtra Records",
-   "b": [
-    "Ohvrikivi"
-   ],
-   "v": "Mahtra Records",
-   "c": "Tallinn",
-   "g": [
-    "black",
-    "pagan"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/music"
-  },
-  {
-   "rel": 1,
-   "d": "2026-07-05",
-   "t": "reliis",
-   "n": "Urduk — «Pimedus saabugu»",
-   "a": "Mahtra Records",
-   "b": [
-    "Urduk"
-   ],
-   "v": "Mahtra Records",
-   "c": "mujal",
-   "g": [
-    "black"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/music"
-  },
-  {
-   "rel": 1,
-   "d": "2026-07-05",
+   "lisatud": "2026-07-05",
    "t": "merch",
    "n": "Nailboard Rock Shop — uued saabumised",
    "a": "vinüülid, CD-d, särgid, embleemid — uueneb pidevalt",
@@ -129,26 +70,6 @@
    "g": [],
    "sn": "nailboard.org",
    "su": "https://nailboard.org/tootekategooria/viimati-saabunud/"
-  },
-  {
-   "d": "2026-07-06",
-   "t": "kontsert",
-   "n": "Laine Live: Molbo + Homebroke",
-   "a": "MOLBO (NO) + Homebroke (EE)",
-   "b": [
-    "Molbo",
-    "Homebroke"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "post-punk"
-   ],
-   "sn": "uuslaine.com",
-   "su": "https://uuslaine.com/",
-   "on_": "Fienta",
-   "ou": "https://fienta.com/et/laine-live-molbo"
   },
   {
    "d": "2026-07-10",
@@ -1153,6 +1074,22 @@
    "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026"
   },
   {
+   "d": "2026-11-26",
+   "t": "kontsert",
+   "n": "Wyatt E.",
+   "b": [
+    "Wyatt E.",
+    "Five The Hierophant"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=236314"
+  },
+  {
    "d": "2026-11-30",
    "t": "kontsert",
    "n": "Chelsea Wolfe",
@@ -1388,5 +1325,11 @@
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235199"
   }
+ ],
+ "log": [
+  "metalstorm: 17",
+  "krypt: 0",
+  "paavli: 0",
+  "helitehas: 0"
  ]
 }

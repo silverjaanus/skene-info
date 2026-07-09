@@ -820,7 +820,8 @@
  },
  {
   "rel": 1,
-  "d": "2026-07-05",
+  "d": "2024-06-22",
+  "lisatud": "2026-07-05",
   "t": "reliis",
   "n": "Must Missa — «Live in Tallinn»",
   "a": "Mahtra Recordsi uusim väljalase",
@@ -838,7 +839,8 @@
  },
  {
   "rel": 1,
-  "d": "2026-07-05",
+  "d": "2023-12-18",
+  "lisatud": "2026-07-05",
   "t": "reliis",
   "n": "Ohvrikivi — «Karidel»",
   "a": "Mahtra Records",
@@ -856,7 +858,8 @@
  },
  {
   "rel": 1,
-  "d": "2026-07-05",
+  "d": "2023-10-01",
+  "lisatud": "2026-07-05",
   "t": "reliis",
   "n": "Urduk — «Pimedus saabugu»",
   "a": "Mahtra Records",
@@ -874,6 +877,7 @@
  {
   "rel": 1,
   "d": "2026-07-05",
+  "lisatud": "2026-07-05",
   "t": "merch",
   "n": "Nailboard Rock Shop — uued saabumised",
   "a": "vinüülid, CD-d, särgid, embleemid — uueneb pidevalt",

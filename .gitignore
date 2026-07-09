@@ -4,3 +4,4 @@ SKENE-*.md
 postitused/
 skene-cover-*.png
 skene-profiilipilt-*.png
+scripts/__pycache__/
