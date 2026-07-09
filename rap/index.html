@@ -104,6 +104,8 @@ aside{position:sticky;top:16px;padding-top:16px}
 .cform button{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:var(--tint);color:var(--paber);padding:6px 8px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
 .cform button:hover{background:var(--sinine);border-color:var(--sinine)}
 .cform .hint{font-family:var(--mono);font-size:10.5px;color:var(--hall);line-height:1.5}
+.cform .fdone{font-family:var(--mono);font-size:12.5px;color:var(--tint);line-height:1.55;padding:6px 0}
+.cform .ferr{font-family:var(--mono);font-size:11px;color:var(--roosa);line-height:1.5;margin-top:2px}
 .sister{font-family:var(--mono);font-size:12px;margin-top:26px;border:1.5px solid var(--tint);padding:8px 10px;display:block;text-decoration:none;text-align:center}
 .sister:hover{background:var(--tint);color:var(--paber)}
 .footer{border-top:3px solid var(--tint);margin-top:34px;padding:18px 2px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
@@ -148,10 +150,11 @@ aside{position:sticky;top:16px;padding-top:16px}
     <p class="kuu-t" data-i18n="cal_head">Kalender</p>
     <div class="kuud" id="kuud"></div>
     <p class="kuu-t" style="margin-top:28px" data-i18n="contact_head">Kontakt</p>
-    <form class="cform" action="https://formsubmit.co/59ae763970bb7bdcb747578c067afe36" method="POST" onsubmit="return fixLink(this)">
-      <input type="hidden" name="_subject" value="rap.skene.info kontaktivorm">
-      <input type="hidden" name="_template" value="table">
-      <input type="text" name="_honey" style="display:none">
+    <form class="cform" action="https://api.web3forms.com/submit" method="POST" onsubmit="return sendForm(event,this)">
+      <input type="hidden" name="access_key" value="40a0710b-066a-4434-96b7-7c51fe1e13c4">
+      <input type="hidden" name="subject" value="rap.skene.info kontaktivorm">
+      <input type="hidden" name="from_name" value="rap.skene.info kontaktivorm">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
       <label><span data-i18n="f_name">Sinu nimi</span> <span class="req">*</span></label>
       <input type="text" name="Sinu nimi" data-i18n-ph="ph_name" placeholder="sinu enda nimi (mitte artisti/ürituse nimi)" required>
       <label data-i18n="f_email">Sinu e-post</label>
@@ -201,6 +204,7 @@ const I18N={
   f_date:"Kuupäev ja koht", ph_date:"nt 19.09.2026, klubi, Tallinn",
   f_link:"Link kontrollimiseks", ph_link:"nt facebook.com/… , pilet või www.koduleht.ee",
   f_extra:"Lisainfo", ph_extra:"žanr, artistid, muu…", f_send:"Saada",
+  f_sent:"Aitäh! Sisend on saadetud — vaatan selle üle ja lisan, kui sobib.", f_senderr:"Saatmine ebaõnnestus. Proovi hetke pärast uuesti.",
   f_hint:"Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.",
   f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv",
   ethos:"Rap.skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
@@ -226,6 +230,7 @@ const I18N={
   f_date:"Date and place", ph_date:"e.g. 19.09.2026, club, Tallinn",
   f_link:"Link to verify", ph_link:"e.g. facebook.com/… , ticket or www.site.ee",
   f_extra:"More info", ph_extra:"genre, artists, other…", f_send:"Send",
+  f_sent:"Thanks! Your submission was sent — I'll review it and add it if it fits.", f_senderr:"Sending failed. Please try again in a moment.",
   f_hint:"Adding an event, release or merch drop? Write <b>your</b> name and contact plus the event info — and <b>be sure to include a link</b> so we can verify it.",
   f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive",
   ethos:"Rap.skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
@@ -255,6 +260,25 @@ function applyI18n(){
 }
 function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();refresh();}
 function fixLink(f){try{var el=f.querySelector('[name="Link"]');if(el&&el.value.trim()&&!/^https?:\/\//i.test(el.value.trim())){el.value='https://'+el.value.trim();}}catch(e){}return true;}
+function showFerr(f,msg){var e=f.querySelector('.ferr');if(!e){e=document.createElement('p');e.className='ferr';f.appendChild(e);}e.textContent=msg;}
+function postJson(url,data){return fetch(url,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(function(r){return r.json();});}
+var FS_FALLBACK="https://formsubmit.co/ajax/59ae763970bb7bdcb747578c067afe36";
+function sendForm(ev,f){
+  ev.preventDefault();fixLink(f);
+  var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
+  var old=f.querySelector('.ferr');if(old)old.remove();
+  var data=new FormData(f);
+  var ok=function(){f.innerHTML='<p class="fdone">'+t('f_sent')+'</p>';};
+  var fail=function(){if(btn)btn.disabled=false;showFerr(f,t('f_senderr'));};
+  postJson('https://api.web3forms.com/submit',data)
+    .then(function(j){if(j&&j.success){ok();}else{throw 0;}})
+    .catch(function(){
+      postJson(FS_FALLBACK,data)
+        .then(function(j){if(j&&(j.success===true||j.success==='true')){ok();}else{fail();}})
+        .catch(fail);
+    });
+  return false;
+}
 const E_FALLBACK = [
  {d:"2026-07-10",d2:"11.07",t:"festival",n:"Beach Grind 2026",a:"+ Vini Vici, Wilkinson, Hospital 30: Metrik, P Money jt",b:["Tommy Cash","NOËP","Sadu"],v:"Pärnu rand",c:"mujal",g:["hip-hop","dnb","electro"],sn:"beachgrind.ee",su:"https://beachgrind.ee/",pu:"https://beachgrind.ee/"},
  {d:"2026-08-14",d2:"15.08",t:"festival",n:"Eesti Hip Hop Festival 2026",a:"artistid selgumisel",b:[],v:"Elva",c:"mujal",g:["hip-hop","räpp"],sn:"eestihiphopfestival.ee",su:"https://eestihiphopfestival.ee/",pu:"https://eestihiphopfestival.ee/"},

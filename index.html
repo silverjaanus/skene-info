@@ -106,6 +106,8 @@ aside{position:sticky;top:16px;padding-top:16px}
 .cform button{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:var(--tint);color:var(--paber);padding:6px 8px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
 .cform button:hover{background:var(--telliskivi);border-color:var(--telliskivi)}
 .cform .hint{font-family:var(--mono);font-size:10.5px;color:var(--hall);line-height:1.5}
+.cform .fdone{font-family:var(--mono);font-size:12.5px;color:var(--tint);line-height:1.55;padding:6px 0}
+.cform .ferr{font-family:var(--mono);font-size:11px;color:var(--telliskivi);line-height:1.5;margin-top:2px}
 .igtxt{font-size:12.5px;color:var(--hall);line-height:1.5;margin:4px 0 8px}
 .igtxt b{color:var(--telliskivi)}
 .igbtn{display:block;text-align:center;font-family:var(--mono);font-size:12px;border:1.5px solid var(--telliskivi);background:var(--telliskivi);color:var(--paber);padding:8px 10px;text-decoration:none;text-transform:uppercase;letter-spacing:.5px}
@@ -152,10 +154,11 @@ aside{position:sticky;top:16px;padding-top:16px}
     <p class="kuu-t" data-i18n="cal_head">Kalender</p>
     <div class="kuud" id="kuud"></div>
     <p class="kuu-t" style="margin-top:28px" data-i18n="contact_head">Kontakt</p>
-    <form class="cform" action="https://formsubmit.co/59ae763970bb7bdcb747578c067afe36" method="POST" onsubmit="return fixLink(this)">
-      <input type="hidden" name="_subject" value="skene.info kontaktivorm">
-      <input type="hidden" name="_template" value="table">
-      <input type="text" name="_honey" style="display:none">
+    <form class="cform" action="https://api.web3forms.com/submit" method="POST" onsubmit="return sendForm(event,this)">
+      <input type="hidden" name="access_key" value="40a0710b-066a-4434-96b7-7c51fe1e13c4">
+      <input type="hidden" name="subject" value="skene.info kontaktivorm">
+      <input type="hidden" name="from_name" value="skene.info kontaktivorm">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
       <label><span data-i18n="f_name">Sinu nimi</span> <span class="req">*</span></label>
       <input type="text" name="Sinu nimi" data-i18n-ph="ph_name" placeholder="sinu enda nimi (mitte bändi/ürituse nimi)" required>
       <label data-i18n="f_email">Sinu e-post</label>
@@ -208,6 +211,7 @@ const I18N={
   f_date:"Kuupäev ja koht", ph_date:"nt 19.09.2026, KuKu Klubi, Tallinn",
   f_link:"Link kontrollimiseks", ph_link:"nt facebook.com/… , pilet või www.koduleht.ee",
   f_extra:"Lisainfo", ph_extra:"žanr, bändid, muu…", f_send:"Saada",
+  f_sent:"Aitäh! Sisend on saadetud — vaatan selle üle ja lisan, kui sobib.", f_senderr:"Saatmine ebaõnnestus. Proovi hetke pärast uuesti.",
   f_hint:"Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.",
   ig_head:"Instagram",
   ig_txt:"Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.",
@@ -236,6 +240,7 @@ const I18N={
   f_date:"Date and place", ph_date:"e.g. 19.09.2026, KuKu Klubi, Tallinn",
   f_link:"Link to verify", ph_link:"e.g. facebook.com/… , ticket or www.site.ee",
   f_extra:"More info", ph_extra:"genre, bands, other…", f_send:"Send",
+  f_sent:"Thanks! Your submission was sent — I'll review it and add it if it fits.", f_senderr:"Sending failed. Please try again in a moment.",
   f_hint:"Adding an event, release or merch drop? Write <b>your</b> name and contact plus the event info — and <b>be sure to include a link</b> so we can verify it.",
   ig_head:"Instagram",
   ig_txt:"Follow <b>@skene.info</b> — every week I post a round-up of the coming week's events and releases.",
@@ -268,6 +273,26 @@ function applyI18n(){
 }
 function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();refresh();}
 function fixLink(f){try{var el=f.querySelector('[name="Link"]');if(el&&el.value.trim()&&!/^https?:\/\//i.test(el.value.trim())){el.value='https://'+el.value.trim();}}catch(e){}return true;}
+function showFerr(f,msg){var e=f.querySelector('.ferr');if(!e){e=document.createElement('p');e.className='ferr';f.appendChild(e);}e.textContent=msg;}
+function postJson(url,data){return fetch(url,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(function(r){return r.json();});}
+// esmane: Web3Forms; kui ebaõnnestub, fallback: FormSubmit (mõlemad → skene.info@agentmail.to)
+var FS_FALLBACK="https://formsubmit.co/ajax/59ae763970bb7bdcb747578c067afe36";
+function sendForm(ev,f){
+  ev.preventDefault();fixLink(f);
+  var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
+  var old=f.querySelector('.ferr');if(old)old.remove();
+  var data=new FormData(f);
+  var ok=function(){f.innerHTML='<p class="fdone">'+t('f_sent')+'</p>';};
+  var fail=function(){if(btn)btn.disabled=false;showFerr(f,t('f_senderr'));};
+  postJson('https://api.web3forms.com/submit',data)
+    .then(function(j){if(j&&j.success){ok();}else{throw 0;}})
+    .catch(function(){
+      postJson(FS_FALLBACK,data)
+        .then(function(j){if(j&&(j.success===true||j.success==='true')){ok();}else{fail();}})
+        .catch(fail);
+    });
+  return false;
+}
 // varufail: kui data.json ei lae (nt vana cache), naitame sisseehitatud seisu
 const E_FALLBACK = [
  {d:"2026-06-28",t:"kontsert",n:"Blood Incantation + Nate Mercereau",b:["Blood Incantation","Nate Mercereau"],v:"Paavli Kultuurivabrik",c:"Tallinn",g:["death"],sn:"Metal Storm",su:"https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",on_:"paavli.ee",ou:"https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/"},
