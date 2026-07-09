@@ -178,6 +178,14 @@ def main():
     print("; ".join(log))
     print(f"manual {len(manual)} + auto = {len(merged)}; data.json {n_cur}, arhiiv {n_arch}")
 
+    # avalik allikate leht (guarditud: viga siin ei murra korjet)
+    try:
+        import build_sources
+        nm, nr = build_sources.build()
+        print(f"allikad: peasait {nm}, rap {nr}")
+    except Exception as ex:
+        print(f"build_sources vahele jaetud: {type(ex).__name__}: {ex}")
+
 if __name__ == "__main__":
     main()
 # EOF

@@ -1,0 +1,48 @@
+{
+ "updated": "2026-07-09",
+ "groups": [
+  {
+   "nimi": "Festivalid",
+   "items": [
+    {
+     "n": "Beach Grind",
+     "u": "https://www.facebook.com/beachgrind/events"
+    },
+    {
+     "n": "Eesti Hip Hop Festival",
+     "u": "https://www.facebook.com/eestihiphopfestival/events"
+    }
+   ]
+  },
+  {
+   "nimi": "Kohad",
+   "items": [
+    {
+     "n": "Sveta Baar",
+     "u": "https://www.facebook.com/svetabaar/events"
+    },
+    {
+     "n": "Uus Laine",
+     "u": "https://www.facebook.com/uuslaine/events"
+    }
+   ]
+  },
+  {
+   "nimi": "Instagram / artistid",
+   "items": [
+    {
+     "n": "@eestihiphopfestival",
+     "u": "https://www.instagram.com/eestihiphopfestival/"
+    },
+    {
+     "n": "@nublu",
+     "u": "https://www.instagram.com/nublu/"
+    },
+    {
+     "n": "@tommycashworld",
+     "u": "https://www.instagram.com/tommycashworld/"
+    }
+   ]
+  }
+ ]
+}

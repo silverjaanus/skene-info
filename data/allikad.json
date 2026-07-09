@@ -1,0 +1,207 @@
+{
+ "updated": "2026-07-09",
+ "groups": [
+  {
+   "nimi": "Korraldajad",
+   "items": [
+    {
+     "n": "Barbar / Barbar Feast",
+     "u": "https://www.facebook.com/barbarestonia/events"
+    },
+    {
+     "n": "Damn.Loud Agency",
+     "u": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events"
+    },
+    {
+     "n": "Kolga Mõisa Kontsert",
+     "u": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events"
+    },
+    {
+     "n": "Secret Face Productions",
+     "u": "https://www.facebook.com/profile.php?id=61562829254036&sk=events"
+    },
+    {
+     "n": "Sügis Productions",
+     "u": "https://www.facebook.com/sugisproductions/upcoming_hosted_events"
+    }
+   ]
+  },
+  {
+   "nimi": "Kohad",
+   "items": [
+    {
+     "n": "Genialistide Klubi (Tartu)",
+     "u": "https://www.facebook.com/GenKlubi/"
+    },
+    {
+     "n": "Helitehas",
+     "u": "https://www.facebook.com/helitehas/upcoming_hosted_events"
+    },
+    {
+     "n": "Hell (klubi, Tartu)",
+     "u": "https://www.facebook.com/punknrollhell/"
+    },
+    {
+     "n": "Kinomaja / KuKu Klubi",
+     "u": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE"
+    },
+    {
+     "n": "Konservatoorium",
+     "u": "https://www.facebook.com/konservatoorium/events?locale=et_EE"
+    },
+    {
+     "n": "Pubi Juudas",
+     "u": "https://www.facebook.com/pubijuudas/events?locale=et_EE"
+    },
+    {
+     "n": "Rock & Roll Heaven (Tartu)",
+     "u": "https://www.facebook.com/rollheaven/"
+    },
+    {
+     "n": "Tapper",
+     "u": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events"
+    },
+    {
+     "n": "The Krypt",
+     "u": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events"
+    },
+    {
+     "n": "Ülase12",
+     "u": "https://www.facebook.com/anemon12tln/events"
+    }
+   ]
+  },
+  {
+   "nimi": "Festivalid",
+   "items": [
+    {
+     "n": "Black Revalia / Howls of Winter",
+     "u": "https://howlsofwinter.eu/"
+    },
+    {
+     "n": "Punk & Rock Festival Estonia",
+     "u": "https://www.facebook.com/punkrockfestival/"
+    },
+    {
+     "n": "Saund (Hiiumaa)",
+     "u": "https://saund.ee/"
+    },
+    {
+     "n": "Tartu Rock Fest 2026",
+     "u": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/"
+    }
+   ]
+  },
+  {
+   "nimi": "Plaadifirmad ja poed",
+   "items": [
+    {
+     "n": "Beyond Tartu",
+     "u": "https://beyondtartu.bandcamp.com/"
+    },
+    {
+     "n": "Helinihe",
+     "u": "https://www.facebook.com/profile.php?id=61589881223213&sk=events"
+    },
+    {
+     "n": "Mahtra Records",
+     "u": "https://www.facebook.com/mahtrarecords"
+    },
+    {
+     "n": "Nailboard Rock Shop",
+     "u": "https://www.facebook.com/nailboardshop"
+    }
+   ]
+  },
+  {
+   "nimi": "Instagram",
+   "items": [
+    {
+     "n": "@damn.loud",
+     "u": "https://www.instagram.com/damn.loud/"
+    },
+    {
+     "n": "@sugisextremefest",
+     "u": "https://www.instagram.com/sugisextremefest/"
+    },
+    {
+     "n": "@tuum.baar",
+     "u": "https://www.instagram.com/tuum.baar/"
+    }
+   ]
+  },
+  {
+   "nimi": "Rahvusvahelised festivalid",
+   "items": [
+    {
+     "n": "Beyond the Gates (Norra)",
+     "u": "https://www.beyondthegates.no/"
+    },
+    {
+     "n": "Brutal Assault (Tšehhi)",
+     "u": "https://www.brutalassault.cz"
+    },
+    {
+     "n": "Copenhell (Taani)",
+     "u": "https://copenhell.dk/en/front-page/"
+    },
+    {
+     "n": "Devilstone (Leedu)",
+     "u": "https://devilstone.net/home-en/"
+    },
+    {
+     "n": "Graspop Metal Meeting (Belgia)",
+     "u": "https://www.graspop.be"
+    },
+    {
+     "n": "Hellfest (Prantsusmaa)",
+     "u": "https://www.hellfest.fr"
+    },
+    {
+     "n": "Inferno Metal Festival (Norra)",
+     "u": "https://infernofestival.no/"
+    },
+    {
+     "n": "Kilkim Žaibu (Leedu)",
+     "u": "https://kilkimzaibu.com/en"
+    },
+    {
+     "n": "M'era Luna (Saksamaa)",
+     "u": "https://meraluna.de/en/"
+    },
+    {
+     "n": "Melnā Piektdiena (Läti)",
+     "u": "https://www.melnapiektdiena.lv"
+    },
+    {
+     "n": "Steelfest Open Air (Soome)",
+     "u": "https://steelfest.fi/pages/steelfest-2026"
+    },
+    {
+     "n": "Summer Breeze (Saksamaa)",
+     "u": "http://www.summer-breeze.de"
+    },
+    {
+     "n": "Sweden Rock Festival (Rootsi)",
+     "u": "https://swedenrock.com/en/"
+    },
+    {
+     "n": "Tons of Rock (Norra)",
+     "u": "https://www.tonsofrock.no/en"
+    },
+    {
+     "n": "Tuska Open Air (Soome)",
+     "u": "https://tuska.fi/en/"
+    },
+    {
+     "n": "Wacken Open Air (Saksamaa)",
+     "u": "https://www.wacken.com/en/"
+    },
+    {
+     "n": "Wave-Gotik-Treffen (Saksamaa)",
+     "u": "https://www.wave-gotik-treffen.de/english/"
+    }
+   ]
+  }
+ ]
+}
