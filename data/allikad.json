@@ -9,6 +9,10 @@
      "u": "https://www.facebook.com/barbarestonia/events"
     },
     {
+     "n": "Bloodbath Events",
+     "u": "https://www.facebook.com/BloodBathFest/upcoming_hosted_events"
+    },
+    {
      "n": "Damn.Loud Agency",
      "u": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events"
     },
@@ -23,12 +27,36 @@
     {
      "n": "Sügis Productions",
      "u": "https://www.facebook.com/sugisproductions/upcoming_hosted_events"
+    },
+    {
+     "n": "Urban Culture Entertainment",
+     "u": "https://www.facebook.com/urbancultureent/upcoming_hosted_events"
     }
    ]
   },
   {
    "nimi": "Kohad",
    "items": [
+    {
+     "n": "300 (klubi)",
+     "u": "https://www.facebook.com/300klubi/upcoming_hosted_events"
+    },
+    {
+     "n": "Black Magic",
+     "u": "https://www.facebook.com/BlackMagicEstonia/upcoming_hosted_events"
+    },
+    {
+     "n": "Festivali maja (Võru)",
+     "u": "https://www.facebook.com/festivalimaja/upcoming_hosted_events"
+    },
+    {
+     "n": "Fort Bar",
+     "u": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events"
+    },
+    {
+     "n": "Garaaz (Pärnu)",
+     "u": "https://www.facebook.com/profile.php?id=100085253592671&sk=events"
+    },
     {
      "n": "Genialistide Klubi (Tartu)",
      "u": "https://www.facebook.com/GenKlubi/"
@@ -42,12 +70,24 @@
      "u": "https://www.facebook.com/punknrollhell/"
     },
     {
+     "n": "Kidrakuur",
+     "u": "https://www.facebook.com/Kidrakuur/upcoming_hosted_events"
+    },
+    {
      "n": "Kinomaja / KuKu Klubi",
      "u": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE"
     },
     {
      "n": "Konservatoorium",
      "u": "https://www.facebook.com/konservatoorium/events?locale=et_EE"
+    },
+    {
+     "n": "Kroks (Tartu)",
+     "u": "https://www.facebook.com/liiva.kroks/upcoming_hosted_events"
+    },
+    {
+     "n": "Kära Kants (Rakvere)",
+     "u": "https://www.facebook.com/groups/112392415448166/"
     },
     {
      "n": "Pubi Juudas",
@@ -58,12 +98,36 @@
      "u": "https://www.facebook.com/rollheaven/"
     },
     {
+     "n": "Stedingu Kelder (Võru)",
+     "u": "https://www.facebook.com/stedingukelder/upcoming_hosted_events"
+    },
+    {
      "n": "Tapper",
      "u": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events"
     },
     {
      "n": "The Krypt",
      "u": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events"
+    },
+    {
+     "n": "Underground (Põlva)",
+     "u": "https://www.kultuurikeskus.ee/underground/"
+    },
+    {
+     "n": "Underground / UGrokibaar (Tartu)",
+     "u": "https://www.facebook.com/UGrokibaar/upcoming_hosted_events"
+    },
+    {
+     "n": "Valga Rokiklubi",
+     "u": "https://www.rockiklubi.ee/"
+    },
+    {
+     "n": "Winkel",
+     "u": "https://www.facebook.com/ehewinkel/upcoming_hosted_events"
+    },
+    {
+     "n": "Wunderbaar (Pärnu)",
+     "u": "https://wbar.ee/"
     },
     {
      "n": "Ülase12",
@@ -75,8 +139,20 @@
    "nimi": "Festivalid",
    "items": [
     {
+     "n": "Aprillikivi",
+     "u": "https://www.facebook.com/aprillikivi/upcoming_hosted_events"
+    },
+    {
      "n": "Black Revalia / Howls of Winter",
      "u": "https://howlsofwinter.eu/"
+    },
+    {
+     "n": "Hard Rock Laager",
+     "u": "https://hardrocklaager.ee/"
+    },
+    {
+     "n": "Käbliku Beer camp & Rock'n Roll",
+     "u": "https://fest.kabliku.com/"
     },
     {
      "n": "Punk & Rock Festival Estonia",
@@ -85,6 +161,10 @@
     {
      "n": "Saund (Hiiumaa)",
      "u": "https://saund.ee/"
+    },
+    {
+     "n": "Tarbariitus",
+     "u": "https://pergerus.eu/et/tarbariitus/"
     },
     {
      "n": "Tartu Rock Fest 2026",
