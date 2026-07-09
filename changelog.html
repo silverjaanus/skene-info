@@ -19,7 +19,11 @@ a{color:var(--telliskivi)}
 header{border-bottom:3px solid var(--tint);padding-bottom:14px;margin-bottom:28px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px}
 h1{font-size:clamp(28px,5vw,42px);line-height:.95;letter-spacing:-1px;text-transform:uppercase;font-weight:700}
 h1 .info{color:var(--telliskivi)}
+.hright{display:flex;align-items:center;gap:14px}
 .back{font-family:var(--mono);font-size:12.5px;text-decoration:none}
+.langsw{display:flex;border:1.5px solid var(--joon);flex:none}
+.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hall);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.langsw button.on{background:var(--tint);color:var(--paber)}
 .entry{border-bottom:1px solid var(--joon);padding:18px 0}
 .entry:first-of-type{border-top:2px solid var(--tint)}
 .d{font-family:var(--mono);font-size:12px;color:var(--hall);text-transform:uppercase}
@@ -28,75 +32,134 @@ h1 .info{color:var(--telliskivi)}
 .desc ul{margin:6px 0 0 20px}
 .desc li{margin-bottom:3px}
 .footer{margin-top:40px;font-family:var(--mono);font-size:12px;color:var(--hall)}
+html[lang="en"] .only-et{display:none}
+html[lang="et"] .only-en{display:none}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Uuendused<span class="info">.</span></h1>
-    <a class="back" href="/">← TAGASI SKENE.INFO</a>
+    <h1><span data-i18n="h1">Uuendused</span><span class="info">.</span></h1>
+    <div class="hright">
+      <a class="back" href="/" data-i18n="back">← TAGASI SKENE.INFO</a>
+      <div class="langsw" role="group" aria-label="Keel / Language">
+        <button type="button" data-lang="et" onclick="setLang('et')">ET</button>
+        <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+    </div>
   </header>
 
-  <div class="entry">
-    <p class="d">09.07.2026</p>
-    <p class="t">Ingliskeelne versioon ja uuendatud päis</p>
-    <div class="desc">
-      <ul>
+  <div class="only-et">
+    <div class="entry">
+      <p class="d">09.07.2026</p>
+      <p class="t">Ingliskeelne versioon ja uuendatud päis</p>
+      <div class="desc"><ul>
         <li>Kogu liidese saab nüüd inglise keelde lülitada — <b>ET/EN</b> nupp päises. Ürituste info (nimed, kohad, žanrid) jääb eestikeelseks.</li>
         <li>Instagram, Facebook ja Uuendused kolisid jalusest päisesse, et oleksid kohe nähtaval.</li>
         <li>Pika nimekirja lõppu tekkis <b>„üles"</b> nupp, et ei peaks tagasi kerima.</li>
-      </ul>
+      </ul></div>
     </div>
-  </div>
-
-  <div class="entry">
-    <p class="d">09.07.2026</p>
-    <p class="t">Arhiiv ja reliiside uus elutsükkel</p>
-    <div class="desc">
-      <ul>
+    <div class="entry">
+      <p class="d">09.07.2026</p>
+      <p class="t">Arhiiv ja reliiside uus elutsükkel</p>
+      <div class="desc"><ul>
         <li>Uus <a href="/arhiiv.html">arhiivileht</a>: möödunud üritused, reliisid ja merch koonduvad siia, sirvitavad aasta ja kuu kaupa. Midagi ei kustutata.</li>
         <li>Reliisid ja merch püsivad „uus" sildiga esiplaanil 30 päeva, seejärel liiguvad oma väljalastekuupäevale ja lõpuks arhiivi.</li>
-      </ul>
+      </ul></div>
     </div>
-  </div>
-
-  <div class="entry">
-    <p class="d">06.–09.07.2026</p>
-    <p class="t">Uued allikad</p>
-    <div class="desc">
-      <ul>
+    <div class="entry">
+      <p class="d">06.–09.07.2026</p>
+      <p class="t">Uued allikad</p>
+      <div class="desc"><ul>
         <li>Sait käib nüüd läbi rohkem kohti: Konservatoorium (Viljandi), Pubi Juudas (Tõrva), Genialistide Klubi (Tartu), Tartu linna kultuurikalender ja piletimüügiplatvormid.</li>
         <li>Reliiside jaoks jälgitakse ka bändide ja plaadifirmade Bandcamp-lehti.</li>
         <li>Iga ürituse juures näidatakse võimalusel otsest pileti- ja hinnainfot.</li>
-      </ul>
+      </ul></div>
     </div>
-  </div>
-
-  <div class="entry">
-    <p class="d">06.07.2026</p>
-    <p class="t">Ulatus laienes rock ja punk peale</p>
-    <div class="desc">
-      <ul>
+    <div class="entry">
+      <p class="d">06.07.2026</p>
+      <p class="t">Ulatus laienes rock ja punk peale</p>
+      <div class="desc"><ul>
         <li>Žanrid said uue, vabalt kombineeritava süsteemi — vali korraga mitu silti (nt "death" + "core"), liitkategooriaid enam eraldi ei ole.</li>
         <li>Iga ürituse juures nüüd kalendrinupp — lisa otse Google Calendarisse või laadi alla .ics fail Apple Calendari jaoks.</li>
         <li>Festivalidel, kus on avalik hinnaklassiinfo, näidatakse praegust piletihinda.</li>
-      </ul>
+      </ul></div>
     </div>
-  </div>
-
-  <div class="entry">
-    <p class="d">05.–06.07.2026</p>
-    <p class="t">Sait läks laivi</p>
-    <div class="desc">
-      <ul>
+    <div class="entry">
+      <p class="d">05.–06.07.2026</p>
+      <p class="t">Sait läks laivi</p>
+      <div class="desc"><ul>
         <li>Kontserdid, festivalid, reliisid ja merch ühest kohast — filtreeritav tüübi, žanri ja koha järgi.</li>
         <li>Sõsarsait rap.skene.info Eesti räpi/hip-hopi jaoks.</li>
         <li>Geograafia laienes lisaks Eestile ka Baltikumi/Põhjamaade/Euroopa suurfestivalidele ja -tuuridele.</li>
-      </ul>
+      </ul></div>
     </div>
+    <p class="footer">Siia jõuab uus funktsionaalsus, mitte iga väiksem parandus.</p>
   </div>
 
-  <p class="footer">Siia jõuab uus funktsionaalsus, mitte iga väiksem parandus.</p>
+  <div class="only-en">
+    <div class="entry">
+      <p class="d">09.07.2026</p>
+      <p class="t">English version and updated header</p>
+      <div class="desc"><ul>
+        <li>The whole interface can now be switched to English — the <b>ET/EN</b> button in the header. Event info (names, places, genres) stays in Estonian.</li>
+        <li>Instagram, Facebook and Updates moved from the footer up to the header, so they're visible right away.</li>
+        <li>A <b>„back to top"</b> button was added at the end of long lists, so you don't have to scroll back.</li>
+      </ul></div>
+    </div>
+    <div class="entry">
+      <p class="d">09.07.2026</p>
+      <p class="t">Archive and a new release lifecycle</p>
+      <div class="desc"><ul>
+        <li>New <a href="/arhiiv.html">archive page</a>: past events, releases and merch collect here, browsable by year and month. Nothing is deleted.</li>
+        <li>Releases and merch stay up front with a „new" tag for 30 days, then move to their release date and finally to the archive.</li>
+      </ul></div>
+    </div>
+    <div class="entry">
+      <p class="d">06.–09.07.2026</p>
+      <p class="t">New sources</p>
+      <div class="desc"><ul>
+        <li>The site now checks more places: Konservatoorium (Viljandi), Pubi Juudas (Tõrva), Genialistide Klubi (Tartu), the City of Tartu culture calendar and ticket platforms.</li>
+        <li>For releases, bands' and labels' Bandcamp pages are also tracked.</li>
+        <li>Where available, direct ticket and price info is shown for each event.</li>
+      </ul></div>
+    </div>
+    <div class="entry">
+      <p class="d">06.07.2026</p>
+      <p class="t">Scope expanded to rock and punk</p>
+      <div class="desc"><ul>
+        <li>Genres got a new, freely combinable system — pick several tags at once (e.g. "death" + "core"); combined categories are no longer separate.</li>
+        <li>Each event now has a calendar button — add it straight to Google Calendar or download an .ics file for Apple Calendar.</li>
+        <li>For festivals with public pricing tiers, the current ticket price is shown.</li>
+      </ul></div>
+    </div>
+    <div class="entry">
+      <p class="d">05.–06.07.2026</p>
+      <p class="t">The site went live</p>
+      <div class="desc"><ul>
+        <li>Concerts, festivals, releases and merch in one place — filterable by type, genre and place.</li>
+        <li>Sister site rap.skene.info for Estonian rap/hip-hop.</li>
+        <li>Geography expanded beyond Estonia to major Baltic/Nordic/European festivals and tours.</li>
+      </ul></div>
+    </div>
+    <p class="footer">Only new functionality lands here, not every small fix.</p>
+  </div>
 </div>
+<script>
+var I18N={
+ et:{title:"Uuendused — SKENE.INFO", h1:"Uuendused", back:"← TAGASI SKENE.INFO"},
+ en:{title:"Updates — SKENE.INFO", h1:"Updates", back:"← BACK TO SKENE.INFO"}
+};
+var LANG=(function(){try{return localStorage.getItem('skene_lang')||'et';}catch(e){return 'et';}})();
+function t(k){var d=I18N[LANG]||I18N.et;return d[k]!==undefined?d[k]:(I18N.et[k]!==undefined?I18N.et[k]:k);}
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(function(el){el.textContent=t(el.getAttribute('data-i18n'));});
+  document.title=t('title');
+  document.documentElement.setAttribute('lang',LANG);
+  document.querySelectorAll('.langsw button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===LANG);});
+}
+function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();}
+applyI18n();
+</script>
 </body>
 </html>
