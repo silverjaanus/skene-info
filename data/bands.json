@@ -1,0 +1,592 @@
+{
+ "updated": "2026-07-09",
+ "bands": {
+  "200 Stab Wounds": {
+   "sp": "https://open.spotify.com/artist/6DH6xC3RoN7L7sGlJ60LKv",
+   "yt": true
+  },
+  "AJO (FIN)": {},
+  "Aether": {
+   "sp": "https://open.spotify.com/artist/2vOmV1yGHtwY93p98hfZky",
+   "bc": "https://aether-band.bandcamp.com/",
+   "yt": true,
+   "note": "Poola melodeath (mitte Eesti)"
+  },
+  "Airbourne": {
+   "sp": "https://open.spotify.com/artist/6urzdpGY5yUimWZsgJUoTb",
+   "yt": true
+  },
+  "Amon Amarth": {
+   "sp": "https://open.spotify.com/artist/3pulcT2wt7FEG10lQlqDJL",
+   "yt": true
+  },
+  "Ampest": {
+   "sp": "https://open.spotify.com/artist/0YW52DtIM3o6xM45ExaoYw",
+   "bc": "https://antsudmetalproject.bandcamp.com/",
+   "yt": true,
+   "note": "end. Antsud Metal Project"
+  },
+  "Amputated Genitals (COL)": {
+   "sp": "https://open.spotify.com/artist/2rqVu92gIDVkB2ar7Hjcne",
+   "bc": "https://amputatedgenitals.bandcamp.com/",
+   "yt": true
+  },
+  "Antinorm": {
+   "sp": "https://open.spotify.com/artist/17CmDNElXBZuh3gdhSYgFs",
+   "bc": "https://antinorm.bandcamp.com/",
+   "yt": true,
+   "note": "Saksa punk (DE), kinnitatud Fienta"
+  },
+  "Apparatus & Apparata": {
+   "bc": "https://apparatusapparata.bandcamp.com/"
+  },
+  "Arankai": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Arch Enemy": {
+   "sp": "https://open.spotify.com/artist/0DCw6lHkzh9t7f8Hb4Z0Sx",
+   "yt": true
+  },
+  "Arestor": {
+   "sp": "https://open.spotify.com/artist/08lmUo8JMhLaHvE2TzsuwN",
+   "bc": "https://arestor.bandcamp.com/",
+   "yt": true
+  },
+  "Arottenbit": {
+   "sp": "https://open.spotify.com/artist/2taLyeYeGGr5YuXFfldiWa",
+   "bc": "https://arottenbit2029.bandcamp.com/",
+   "yt": true
+  },
+  "Artifer": {
+   "sp": "https://open.spotify.com/artist/5DZaSqMnJ9V5KDQVZhns5n",
+   "bc": "https://artifer.bandcamp.com/",
+   "yt": true
+  },
+  "Barbatos": {
+   "bc": "https://barbatos-japan.bandcamp.com/",
+   "yt": true,
+   "note": "Jaapani black/punk (Abigail)"
+  },
+  "Beatrix": {
+   "bc": "https://beatrixblackthrash.bandcamp.com/",
+   "yt": true,
+   "note": "Soome black/thrash"
+  },
+  "Bedless Bones": {
+   "sp": "https://open.spotify.com/artist/0lUq5d4UJLbjXonBRf2zgF",
+   "bc": "https://bedlessbones.bandcamp.com/",
+   "yt": true
+  },
+  "Bestia": {
+   "sp": "https://open.spotify.com/artist/1DvYzllGpoyKb82t0jIZAB",
+   "bc": "https://bestia-ee.bandcamp.com/",
+   "yt": true
+  },
+  "Bloody Falls (FIN)": {
+   "sp": "https://open.spotify.com/artist/70aIXAYbZd48wRhXJfa39r",
+   "yt": true
+  },
+  "Brat": {
+   "sp": "https://open.spotify.com/artist/1kfSVYNmjmYsdWjEQ6fnQF",
+   "bc": "https://brat504.bandcamp.com/",
+   "yt": true,
+   "note": "New Orleansi deathgrind"
+  },
+  "Burial Moon": {
+   "bc": "https://burialmoon.bandcamp.com/",
+   "yt": true
+  },
+  "C-JAM": {
+   "yt": true,
+   "note": "Eesti tšellokvartett, ainult YouTube"
+  },
+  "Caliber Orders": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Catch Your Breath": {
+   "sp": "https://open.spotify.com/artist/2fqPOGxG12nEERj8YG7p22",
+   "yt": true
+  },
+  "Chelsea Wolfe": {
+   "sp": "https://open.spotify.com/artist/6ZK2nrW8aCTg8Bid7I7N10",
+   "bc": "https://chelseawolfe.bandcamp.com/",
+   "yt": true
+  },
+  "Crystal Lake": {
+   "sp": "https://open.spotify.com/artist/0A7d0PJxaLO7CGI94ht6PX",
+   "yt": true
+  },
+  "CyHra": {
+   "sp": "https://open.spotify.com/artist/6tkhw6PSVw7b2M7h5fLBLE",
+   "yt": true
+  },
+  "DND": {
+   "yt": true,
+   "note": "Eesti bänd (Dead Next Door); platvormilinke ei kinnitatud"
+  },
+  "Dead By April": {
+   "sp": "https://open.spotify.com/artist/2otRZcOVNcmdkZ5nEoogy6",
+   "yt": true
+  },
+  "Diarrhectomy (FIN)": {
+   "note": "goregrind, platvormidel puudub"
+  },
+  "Dragonland": {
+   "sp": "https://open.spotify.com/artist/5qwH9gKvchSfuv8V6pBU71",
+   "bc": "https://dragonland.bandcamp.com/",
+   "yt": true
+  },
+  "Dramamama": {
+   "sp": "https://open.spotify.com/artist/3wkLoc9LoGIfDR7UktYgbR",
+   "bc": "https://dramamama.bandcamp.com/",
+   "yt": true
+  },
+  "E.X.E.X.": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Ecotage": {
+   "bc": "https://ecotagehc.bandcamp.com",
+   "yt": true,
+   "note": "Soome vegan-HC, kinnitatud tuurigraafik"
+  },
+  "EiK": {
+   "sp": "https://open.spotify.com/artist/3U0NdaCegcpzmmrIFradRB",
+   "bc": "https://eikluuletab.bandcamp.com",
+   "yt": true
+  },
+  "Elephants from Neptune": {
+   "sp": "https://open.spotify.com/artist/6Kiva1MOQBNwTQQRZyyQtC",
+   "bc": "https://elephantsfromneptune.bandcamp.com",
+   "yt": true
+  },
+  "Ethetric": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Exanity": {
+   "sp": "https://open.spotify.com/artist/2oVHB6nFRPLk5sR8QgB1xZ",
+   "yt": true
+  },
+  "Fear Factory": {
+   "sp": "https://open.spotify.com/artist/74Hj7BmnUXyx2udrIEIKwX",
+   "yt": true
+  },
+  "Five The Hierophant": {
+   "sp": "https://open.spotify.com/artist/7BLGm3lPTk4EeSEIQ4Uc6A",
+   "bc": "https://five-the-hierophant.bandcamp.com",
+   "yt": true
+  },
+  "Freakangel": {
+   "sp": "https://open.spotify.com/artist/0hzKupAbz8hUjefShrBl3l",
+   "bc": "https://freakangel.bandcamp.com",
+   "yt": true
+  },
+  "Fulci": {
+   "sp": "https://open.spotify.com/artist/5rK5iEoGaC5LtoBCiXpCet",
+   "bc": "https://fulcicult.bandcamp.com",
+   "yt": true
+  },
+  "Gangrenated": {
+   "bc": "https://gangrenated.bandcamp.com",
+   "yt": true
+  },
+  "Godsmack": {
+   "sp": "https://open.spotify.com/artist/6gZq1Q6bdOxsUPUG1TaFbF",
+   "yt": true
+  },
+  "Gogol Bordello": {
+   "sp": "https://open.spotify.com/artist/2SVw939fwuqSobLjF8u78b",
+   "yt": true
+  },
+  "Goresoerd": {
+   "sp": "https://open.spotify.com/artist/6NdZxzh7mv5n8MZry6xpxQ",
+   "bc": "https://goresoerd.bandcamp.com",
+   "yt": true
+  },
+  "Hammok": {
+   "sp": "https://open.spotify.com/artist/5R1AfWkXVaAraHY3Tk9bMY",
+   "bc": "https://hammokband.bandcamp.com",
+   "yt": true,
+   "note": "Norra hardcore (Oslo)"
+  },
+  "Hardcore Superstar": {
+   "sp": "https://open.spotify.com/artist/57b3sKD9pGilMb2QlMqArq",
+   "yt": true
+  },
+  "Hate": {
+   "sp": "https://open.spotify.com/artist/13XggX75z0Hk0VNvOuTJoB",
+   "yt": true,
+   "note": "Poola death metal"
+  },
+  "Hatebreed": {
+   "sp": "https://open.spotify.com/artist/17Mb968quDHpjCkIyq30QV",
+   "yt": true
+  },
+  "Homebroke": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Huiabella Fantastica": {
+   "bc": "https://huiabellafantastica.bandcamp.com",
+   "yt": true
+  },
+  "I AM BOB": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Indren": {
+   "note": "ei leitud; samanimeline Itaalia bänd on teine"
+  },
+  "Intrascendence (CL)": {
+   "sp": "https://open.spotify.com/artist/7p8iuNk9SgEnvNs8sHgFxH",
+   "yt": true
+  },
+  "Kaibald": {
+   "sp": "https://open.spotify.com/artist/6oOzW2dzC7EPZLj7v2BhyF",
+   "yt": true
+  },
+  "Kannabinõid": {
+   "sp": "https://open.spotify.com/artist/4X6NltspgOGX4HaFCeLwOv",
+   "bc": "https://kannabinoid.bandcamp.com",
+   "yt": true
+  },
+  "Kondimootor": {
+   "yt": true,
+   "note": "Tartu garage-rock; ainult YouTube"
+  },
+  "Koni": {
+   "bc": "https://koni.bandcamp.com",
+   "note": "Eesti death/grind (Haapsalu)"
+  },
+  "Kosmikud": {
+   "sp": "https://open.spotify.com/artist/1OjUIn4gI3FFaL7X9xosbH",
+   "yt": true
+  },
+  "Lavina (Serbia)": {
+   "sp": "https://open.spotify.com/artist/2a1W5RyJCm4GugnlqckLw3",
+   "bc": "https://lavinaband.bandcamp.com",
+   "yt": true
+  },
+  "Loathfinder": {
+   "sp": "https://open.spotify.com/artist/36iqNhP5nn1rlJIXEaTZCw",
+   "bc": "https://loathfinder.bandcamp.com",
+   "yt": true,
+   "note": "Poola doom/death"
+  },
+  "Mandarones": {
+   "bc": "https://mandarones.bandcamp.com",
+   "yt": true
+  },
+  "Mars Red Sky": {
+   "sp": "https://open.spotify.com/artist/1vrCjYU0zXNXvLobueUTvQ",
+   "bc": "https://marsredsky.bandcamp.com",
+   "yt": true
+  },
+  "Martin Dupont": {
+   "sp": "https://open.spotify.com/artist/0VluRa9xSnSeZYfYoy9q15",
+   "bc": "https://martindupont.bandcamp.com",
+   "yt": true
+  },
+  "Master": {
+   "sp": "https://open.spotify.com/artist/2nEopdTfDVIY9e2UipMKNj",
+   "bc": "https://master.bandcamp.com",
+   "yt": true,
+   "note": "Speckmanni Master, kinnitatud tuur"
+  },
+  "Master Boot Record": {
+   "sp": "https://open.spotify.com/artist/77s5NAGQbxu8oLstaqSwHE",
+   "bc": "https://masterbootrecord.bandcamp.com",
+   "yt": true
+  },
+  "Merwis": {
+   "sp": "https://open.spotify.com/artist/6cZ0OoXwuuz1rTmyyMZs6V",
+   "yt": true
+  },
+  "Model Citizen": {
+   "bc": "https://mdlctzn.bandcamp.com"
+  },
+  "Molbo": {
+   "sp": "https://open.spotify.com/artist/55tIRb7QPxsAe5BPScbGIP",
+   "bc": "https://molbo.bandcamp.com/",
+   "yt": true,
+   "note": "Norra punk (NO), kinnitatud Laine Live"
+  },
+  "Monkey3": {
+   "sp": "https://open.spotify.com/artist/31GFg2x20JkksUlQxN9BMe",
+   "bc": "https://monkey-3.bandcamp.com/",
+   "yt": true
+  },
+  "Moonstruck": {
+   "note": "ei leitud; samanimelised Soome/Hollandi bändid on teised"
+  },
+  "Must Missa": {
+   "bc": "https://mahtrarecords.bandcamp.com/",
+   "note": "ainult Mahtra Recordsi Bandcampis"
+  },
+  "Napalm Death": {
+   "sp": "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+   "ym": "https://music.youtube.com/channel/UCgmLobCGRg2x6iShDcDRwQA",
+   "bc": "https://napalmdeath.bandcamp.com/",
+   "yt": true
+  },
+  "Nothing": {
+   "sp": "https://open.spotify.com/artist/60mqEPQp1eNjuwt1Z4yL4J",
+   "bc": "https://nothing.bandcamp.com",
+   "yt": true,
+   "note": "Philadelphia shoegaze"
+  },
+  "Numento (FIN)": {
+   "sp": "https://open.spotify.com/artist/3t5HzeySOZvzNSEpvDiA5M",
+   "bc": "https://numento.bandcamp.com",
+   "yt": true
+  },
+  "Ohvrikivi": {
+   "bc": "https://mahtrarecords.bandcamp.com/",
+   "note": "ainult Mahtra Recordsi Bandcampis"
+  },
+  "Orbit Culture": {
+   "sp": "https://open.spotify.com/artist/7k29FbDq69ju2fe6zTskxY",
+   "ym": "https://music.youtube.com/channel/UCUVTuUnzbPzBTDeFJP3BSpw",
+   "bc": "https://orbitculture.bandcamp.com",
+   "yt": true
+  },
+  "Pagansarv": {
+   "sp": "https://open.spotify.com/artist/0svjXwAiIIlsVfpdkAFIUn",
+   "bc": "https://pagansarv.bandcamp.com",
+   "yt": true
+  },
+  "Pedigree": {
+   "sp": "https://open.spotify.com/artist/28GlxLtB8MLJFpmDircxTL",
+   "bc": "https://pedigree.bandcamp.com",
+   "yt": true
+  },
+  "Pothamus": {
+   "sp": "https://open.spotify.com/artist/3oKgJ6083BjtllXxDN3TD5",
+   "bc": "https://pothamus.bandcamp.com",
+   "yt": true
+  },
+  "Primordial": {
+   "sp": "https://open.spotify.com/artist/0BZr6WHaejNA63uhZZZZek",
+   "bc": "https://primordialofficial.bandcamp.com",
+   "yt": true
+  },
+  "Profithysteri": {
+   "bc": "https://profithysteri.bandcamp.com",
+   "yt": true
+  },
+  "Pronoias (CL)": {
+   "sp": "https://open.spotify.com/artist/6XI2DK7JksrmqZR77xmQQv",
+   "bc": "https://pronoiametal.bandcamp.com",
+   "yt": true
+  },
+  "Präänikud": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "PsycHolies": {
+   "sp": "https://open.spotify.com/artist/15cFju4T9kIzKeMwrj93xR",
+   "bc": "https://psycholiesofficial.bandcamp.com",
+   "yt": true,
+   "note": "Itaalia industrial/goth, kinnitatud Freakangeli remix"
+  },
+  "Psychonaut": {
+   "sp": "https://open.spotify.com/artist/604HhRLmc5DXNS221XKm3a",
+   "bc": "https://psychonautband.bandcamp.com",
+   "yt": true
+  },
+  "Psychoterror": {
+   "sp": "https://open.spotify.com/artist/1zcJfWF7Hghg6FpOSytIe4",
+   "bc": "https://psychoterror.bandcamp.com",
+   "yt": true
+  },
+  "Põhja Konn": {
+   "sp": "https://open.spotify.com/artist/2m2yTerNWZRtSEEoKpoqMU",
+   "bc": "https://pohjakonn.bandcamp.com",
+   "yt": true
+  },
+  "Pühak": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Raev": {
+   "sp": "https://open.spotify.com/artist/6tIETzPHnm4opeO97HZaGI",
+   "yt": true,
+   "note": "Pärnumaa thrash"
+  },
+  "Sabaton": {
+   "sp": "https://open.spotify.com/artist/3o2dn2O0FCVsWDFSh8qxgG",
+   "yt": true
+  },
+  "Scorpions": {
+   "sp": "https://open.spotify.com/artist/27T030eWyCQRmDyuvr1kxY",
+   "yt": true
+  },
+  "Sepultura": {
+   "sp": "https://open.spotify.com/artist/6JW8wliOEwaDZ231ZY7cf4",
+   "yt": true
+  },
+  "Sewer Altar": {
+   "bc": "https://seweraltar.bandcamp.com",
+   "yt": true,
+   "note": "Soome (Turku) deathgrind"
+  },
+  "Shakabrah! (FIN)": {
+   "sp": "https://open.spotify.com/artist/2wckINRDlr3s9GqOVv7po4",
+   "bc": "https://shakabrahiguess.bandcamp.com/",
+   "yt": true
+  },
+  "Shatter Me Whole": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Sibyl Vane": {
+   "sp": "https://open.spotify.com/artist/05L6VMY7Cbr5TvxqeDoREh",
+   "bc": "https://sibylvaneband.bandcamp.com",
+   "yt": true
+  },
+  "Singer Vinger": {
+   "sp": "https://open.spotify.com/artist/7oVK4GPSUPl2PwX2muVJvg",
+   "yt": true
+  },
+  "Sisyphean": {
+   "sp": "https://open.spotify.com/artist/0Xy7774MgfGvyRPGJZVABN",
+   "bc": "https://sisyphean.bandcamp.com",
+   "yt": true
+  },
+  "Skoone": {
+   "sp": "https://open.spotify.com/artist/4A0Xe5DVwofNBC7e16LDQu",
+   "ym": "https://music.youtube.com/channel/UC03yTe_dyne3N-ppOJ-fC7A",
+   "bc": "https://skoone.bandcamp.com",
+   "yt": true
+  },
+  "Soda Effect": {
+   "sp": "https://open.spotify.com/artist/0QYo7fOx30hvSihtzywGia",
+   "bc": "https://sodaeffect.bandcamp.com",
+   "yt": true
+  },
+  "Soilwork": {
+   "sp": "https://open.spotify.com/artist/7wqP36o9lqWteOCxBnXlwx",
+   "ym": "https://music.youtube.com/channel/UCSoeQDNTK-Avu9dtUTjfheQ",
+   "yt": true
+  },
+  "Stepdog": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Sugar Rody": {
+   "sp": "https://open.spotify.com/artist/7xLQmYQIWG7OlUSlElL0nJ",
+   "bc": "https://cravetapes.bandcamp.com/album/the-night",
+   "yt": true
+  },
+  "Suntrace (FIN)": {
+   "sp": "https://open.spotify.com/artist/6KMN3h4vT4b9rUooKYNMLT",
+   "bc": "https://suntrace.bandcamp.com",
+   "yt": true
+  },
+  "Sylosis": {
+   "sp": "https://open.spotify.com/artist/2RiGIRDi4GoJpDbjDnPVJl",
+   "ym": "https://music.youtube.com/channel/UChmRfFrxabJc55fFrfVSltA",
+   "bc": "https://sylosis.bandcamp.com",
+   "yt": true
+  },
+  "Tarja": {
+   "sp": "https://open.spotify.com/artist/5IRFMGI8aEtZdN07OYrBZc",
+   "ym": "https://music.youtube.com/channel/UCYWGPvcAl6q2I80wvK4N4JQ",
+   "yt": true
+  },
+  "Tharaphita": {
+   "sp": "https://open.spotify.com/artist/0ltIzYmeagD1z2iys79zS9",
+   "bc": "https://tharaphita.bandcamp.com",
+   "yt": true
+  },
+  "The Exploited": {
+   "sp": "https://open.spotify.com/artist/6NB4b8lltHCjOhW7vQZkAy",
+   "ym": "https://music.youtube.com/channel/UCaBb_AI7Ox6Z4SaE7D_BErQ",
+   "yt": true
+  },
+  "The Nocturnal Affair": {
+   "sp": "https://open.spotify.com/artist/6KnbHeKAsKzHiDmoteShni",
+   "ym": "https://music.youtube.com/channel/UCSsq8kQe7E8RiJBSartEKeg",
+   "bc": "https://thenocturnalaffair.bandcamp.com",
+   "yt": true
+  },
+  "The Obsessed": {
+   "sp": "https://open.spotify.com/artist/4YumqLcvnU9DW31AkzaviJ",
+   "ym": "https://music.youtube.com/channel/UC84s1HUcNaji2s7AH7NUOwA",
+   "yt": true
+  },
+  "The Ocean": {
+   "sp": "https://open.spotify.com/artist/6fuALtryzj4cq7vkglKLxq",
+   "ym": "https://music.youtube.com/channel/UCtxWs6alpw08oFCopgn_-Vw",
+   "bc": "https://theocean.bandcamp.com",
+   "yt": true
+  },
+  "The Tuberkuloited": {
+   "sp": "https://open.spotify.com/artist/2Lat3ksUz9ChsGsD9LtFd9",
+   "ym": "https://music.youtube.com/channel/UCrMi2J8nsTDCd9S9tQAF4-A",
+   "yt": true
+  },
+  "Thousand Hands": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Tramhaus": {
+   "sp": "https://open.spotify.com/artist/5HXrUfoDwofY8lehLNIykB",
+   "bc": "https://tramhaus.bandcamp.com",
+   "yt": true
+  },
+  "Tribal Gaze": {
+   "sp": "https://open.spotify.com/artist/0pm9kmowFxxE4hWYM04MxH",
+   "bc": "https://tribalgazetx.bandcamp.com",
+   "yt": true
+  },
+  "Truckthor": {
+   "sp": "https://open.spotify.com/artist/4vKw06tRNaATwLE42115zo",
+   "bc": "https://truckthor.bandcamp.com",
+   "yt": true
+  },
+  "Twilight Force": {
+   "sp": "https://open.spotify.com/artist/0tO6ALWmduAbneXoHmnl2T",
+   "bc": "https://twilightforceofficial.bandcamp.com",
+   "yt": true
+  },
+  "Týr": {
+   "sp": "https://open.spotify.com/artist/6TmGNPW2oDM5uaXBILozGa",
+   "bc": "https://tyrband.bandcamp.com",
+   "yt": true
+  },
+  "Urduk": {
+   "bc": "https://mahtrarecords.bandcamp.com/album/pimedus-saabugu",
+   "note": "ainult Mahtra Recordsi Bandcampis"
+  },
+  "Vanaheim": {
+   "sp": "https://open.spotify.com/artist/0EwL1mEhMTG9sylwYdOTU7",
+   "bc": "https://vanaheim.bandcamp.com",
+   "yt": true
+  },
+  "Vennaskond": {
+   "sp": "https://open.spotify.com/artist/4SENxns1ygWdzNSNbBkaXZ",
+   "yt": true
+  },
+  "Vermilia": {
+   "sp": "https://open.spotify.com/artist/7lNaiNaI2CNeEhFg7iSPRm",
+   "bc": "https://vermiliaofficial.bandcamp.com",
+   "yt": true
+  },
+  "Wardruna": {
+   "sp": "https://open.spotify.com/artist/0NJ6wlOAsAJ1PN4VRdTPKA",
+   "bc": "https://wardruna.bandcamp.com",
+   "yt": true
+  },
+  "Whitechapel": {
+   "sp": "https://open.spotify.com/artist/5274obTQJjzjyycRyJlfml",
+   "bc": "https://whitechapelmetal.bandcamp.com",
+   "yt": true
+  },
+  "Wyatt E.": {
+   "sp": "https://open.spotify.com/artist/70x6QVPo3xBIDNkxzkngdh",
+   "bc": "https://wyattdoom.bandcamp.com",
+   "yt": true
+  },
+  "Yoth Iria": {
+   "sp": "https://open.spotify.com/artist/3tcBc9lN5ncBG7KNTKB1o1",
+   "bc": "https://yothiria.bandcamp.com",
+   "yt": true
+  },
+  "metropol": {
+   "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  }
+ }
+}

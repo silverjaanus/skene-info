@@ -1,0 +1,81 @@
+{
+ "updated": "2026-07-09",
+ "bands": {
+  "5Loops": {
+   "sp": "https://open.spotify.com/artist/7r7OmypatU4eVdcsohr2tm",
+   "bc": "https://5loops.bandcamp.com/",
+   "yt": true
+  },
+  "A-Rühm": {
+   "sp": "https://open.spotify.com/artist/3DgUiHsB7oqgbuDnNji7J6",
+   "yt": true
+  },
+  "Bad Art": {
+   "sp": "https://open.spotify.com/artist/52SqmhjaRLgunWAv704zsp",
+   "yt": true
+  },
+  "Beebilõust": {
+   "sp": "https://open.spotify.com/artist/3PqYOfpDhHZcYxHw4gnJHS",
+   "yt": true
+  },
+  "Hanf Kung": {
+   "sp": "https://open.spotify.com/artist/1cdrq7pqddPQ03yHCQDe5o",
+   "ym": "https://music.youtube.com/channel/UC9AFcGkVxQup_LOYGZ1coew",
+   "bc": "https://hanfkung.bandcamp.com",
+   "yt": true
+  },
+  "NOËP": {
+   "sp": "https://open.spotify.com/artist/0SjnenkLIpqRE9SUzogeOp",
+   "yt": true
+  },
+  "Noizmakaz": {
+   "sp": "https://open.spotify.com/artist/3gFJwTp3NriVMF3ypVdQ9D",
+   "bc": "https://noizmakaz.bandcamp.com/",
+   "yt": true
+  },
+  "Nublu": {
+   "sp": "https://open.spotify.com/artist/2cNMMulo6S2a0tHrwX2s6i",
+   "yt": true
+  },
+  "Pitsa": {
+   "sp": "https://open.spotify.com/artist/5rr7mN0kRk6dsm1DVwRBFx",
+   "yt": true
+  },
+  "Prodigyboys": {
+   "sp": "https://open.spotify.com/artist/31iPwhyJeGRard5sLii6qf",
+   "yt": true
+  },
+  "RLV Massive": {
+   "sp": "https://open.spotify.com/artist/6v1jlXi9JGG6bUi8pkHAvf",
+   "bc": "https://lejalgenes.bandcamp.com/album/illcd056-rlv-massive-teine-vool",
+   "yt": true
+  },
+  "Reket": {
+   "sp": "https://open.spotify.com/artist/4vnAcwsYeJD9QcQsowEuKN",
+   "yt": true
+  },
+  "Sadu": {
+   "sp": "https://open.spotify.com/artist/15lwjkERMR7PNuyja5wX5K",
+   "yt": true,
+   "note": "kinnitatud saduband.ee kontserdileht"
+  },
+  "Säm": {
+   "sp": "https://open.spotify.com/artist/6kvEy25jX5e1RtdFn1Eo3X",
+   "ym": "https://music.youtube.com/channel/UCG4ikNPwVxj_PvMUvRbqJiA",
+   "yt": true
+  },
+  "Tommy Cash": {
+   "sp": "https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK",
+   "ym": "https://music.youtube.com/channel/UCr92AKSfMI-quMa2UGcvWvg",
+   "yt": true
+  },
+  "Triibupasta": {
+   "sp": "https://open.spotify.com/artist/2a8z7MVhEtvZXFbgEE9ihL",
+   "yt": true
+  },
+  "Valk": {
+   "yt": true,
+   "note": "Eesti räppar; Spotify 'Valk' on teine (power metal)"
+  }
+ }
+}

@@ -217,7 +217,7 @@ const I18N={
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   cal_google:"+ GOOGLE KALENDER", cal_apple:"+ APPLE/ICS",
-  on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is",
+  on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
   months:["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"]
  },
  en:{
@@ -243,7 +243,7 @@ const I18N={
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   cal_google:"+ GOOGLE CALENDAR", cal_apple:"+ APPLE/ICS",
-  on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube",
+  on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
   months:["January","February","March","April","May","June","July","August","September","October","November","December"]
  }
 };
@@ -293,13 +293,25 @@ function enc(x){return encodeURIComponent(x);}
 const IC={
  sp:'<svg viewBox="0 0 24 24" aria-label="Spotify"><circle cx="12" cy="12" r="11" fill="#1DB954"/><path d="M6.5 9.6c3.6-1.1 7.6-.7 10.6 1" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M7 12.6c3-.9 6.3-.5 8.8.9" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M7.5 15.4c2.4-.7 5-.4 7 .7" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg>',
  ym:'<svg viewBox="0 0 24 24" aria-label="YouTube Music"><circle cx="12" cy="12" r="11" fill="#FF0000"/><circle cx="12" cy="12" r="6.5" stroke="#fff" stroke-width="1.4" fill="none"/><path d="M10.3 9.5l5 2.5-5 2.5z" fill="#fff"/></svg>',
- yt:'<svg viewBox="0 0 24 24" aria-label="YouTube"><rect x="1.5" y="5" width="21" height="14" rx="3.5" fill="#FF0000"/><path d="M10 9l5.5 3L10 15z" fill="#fff"/></svg>'
+ yt:'<svg viewBox="0 0 24 24" aria-label="YouTube"><rect x="1.5" y="5" width="21" height="14" rx="3.5" fill="#FF0000"/><path d="M10 9l5.5 3L10 15z" fill="#fff"/></svg>',
+ bc:'<svg viewBox="0 0 24 24" aria-label="Bandcamp"><circle cx="12" cy="12" r="11" fill="#629AA9"/><path d="M6.4 15.4l4.4-6.8h6.8l-4.4 6.8z" fill="#fff"/></svg>'
 };
-function band(b){return `<span class="bd"><span>${b}</span><span class="ic">
- <a href="https://open.spotify.com/search/${enc(b)}" target="_blank" rel="noopener" title="${b} ${t('on_spotify')}">${IC.sp}</a>
- <a href="https://music.youtube.com/search?q=${enc(b)}" target="_blank" rel="noopener" title="${b} ${t('on_ytm')}">${IC.ym}</a>
- <a href="https://www.youtube.com/results?search_query=${enc(b)}" target="_blank" rel="noopener" title="${b} ${t('on_yt')}">${IC.yt}</a>
-</span></span>`;}
+let BANDS={};
+function bandIco(u,ic,tk,b){return `<a href="${u}" target="_blank" rel="noopener" title="${b} ${t(tk)}">${ic}</a> `;}
+function band(b){
+ const v=BANDS[b];let ics="";
+ if(v){
+  if(v.sp)ics+=bandIco(v.sp,IC.sp,'on_spotify',b);
+  if(v.ym)ics+=bandIco(v.ym,IC.ym,'on_ytm',b);
+  if(v.yt)ics+=bandIco(typeof v.yt==="string"?v.yt:"https://www.youtube.com/results?search_query="+enc(b),IC.yt,'on_yt',b);
+  if(v.bc)ics+=bandIco(v.bc,IC.bc,'on_bc',b);
+ }else{
+  ics=bandIco("https://open.spotify.com/search/"+enc(b),IC.sp,'on_spotify',b)
+   +bandIco("https://music.youtube.com/search?q="+enc(b),IC.ym,'on_ytm',b)
+   +bandIco("https://www.youtube.com/results?search_query="+enc(b),IC.yt,'on_yt',b);
+ }
+ return `<span class="bd"><span>${b}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
+}
 function pad2(n){return String(n).padStart(2,"0");}
 function dOnly(str){return new Date(str+"T00:00");}
 function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
@@ -415,6 +427,7 @@ function refresh(){
 }
 applyI18n();E=E_FALLBACK;refresh();
 fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;refresh();}).catch(()=>{});
+fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
 (function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
 </script>
 </body>

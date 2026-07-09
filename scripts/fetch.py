@@ -35,6 +35,18 @@ def slug(s):
     s = unicodedata.normalize("NFKD", s.lower())
     return re.sub(r"[^a-z0-9]+", "", s)
 
+def warn_unknown_bands(data_dir, entries):
+    """bands.json hooldus: teata bandidest, keda verifitseeritud linkide failis veel pole."""
+    try:
+        bf = data_dir / "bands.json"
+        known = set(json.loads(bf.read_text(encoding="utf-8")).get("bands", {})) if bf.exists() else set()
+        names = {b for e in entries for b in e.get("b", []) if b}
+        missing = sorted(names - known)
+        if missing:
+            print(f"bands.json-ist puudub {len(missing)}: " + ", ".join(missing))
+    except Exception as ex:
+        print(f"bands-kontroll vahele jaetud: {type(ex).__name__}: {ex}")
+
 # ---------------- allikad ----------------
 
 def src_metalstorm():
@@ -177,6 +189,7 @@ def main():
                                     block=block, block_names=block_names)
     print("; ".join(log))
     print(f"manual {len(manual)} + auto = {len(merged)}; data.json {n_cur}, arhiiv {n_arch}")
+    warn_unknown_bands(ROOT / "data", merged)
 
     # avalik allikate leht (guarditud: viga siin ei murra korjet)
     try:

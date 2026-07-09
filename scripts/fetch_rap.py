@@ -32,6 +32,11 @@ def main():
                   if (e["d"], slug(e["n"])) not in block and slug(e["n"]) not in block_names]
     n_cur, n_arch = split_and_write(RAP, manual, block=block, block_names=block_names)
     print(f"rap: data.json {n_cur}, arhiiv {n_arch}")
+    try:
+        from fetch import warn_unknown_bands
+        warn_unknown_bands(RAP, manual)
+    except Exception as ex:
+        print(f"bands-kontroll vahele jaetud: {type(ex).__name__}: {ex}")
 
 
 if __name__ == "__main__":
