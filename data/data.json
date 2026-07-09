@@ -1,7 +1,7 @@
 {
- "updated": "2026-07-08",
+ "updated": "2026-07-09",
  "log": [
-  "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
+  "metalstorm: 17",
   "krypt: 0",
   "paavli: 0",
   "helitehas: 0"
@@ -269,6 +269,29 @@
    }
   },
   {
+   "d": "2026-07-17",
+   "t": "kontsert",
+   "n": "SFP esitleb: AJO (FIN) + Mandarones + Homebroke",
+   "a": "Turu (FIN) post-psych-alt-grunge rokkarite AJO esimene Eesti kontsert (Eesti minituur)",
+   "b": [
+    "AJO (FIN)",
+    "Mandarones",
+    "Homebroke"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "post",
+    "alt"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2122441515321908/",
+   "nb": "uksed 19.00, muusika kuni 23.00; FB asukohaväli näitab ekslikult Tsirguliina/Valga, tegelik koht Kotka Kultuurimaja Tallinn (pealkiri+kirjeldus); uksehind FB eventilt; kontrollitud 09.07.2026"
+  },
+  {
    "d": "2026-07-18",
    "t": "kontsert",
    "n": "The Exploited (UK) + Antinorm + Skoone + Huiabella Fantastica",
@@ -293,6 +316,29 @@
     "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00",
     "allikas": "Fienta, kontrollitud 07.07.2026"
    }
+  },
+  {
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "SFP esitleb: AJO (FIN) + metropol",
+   "a": "AJO Eesti minituuri teine kontsert Viljandis",
+   "b": [
+    "AJO (FIN)",
+    "metropol"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "rock",
+    "post",
+    "alt"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2987434444793647/",
+   "nb": "Koidu 13a, Viljandi; algus 20.00; uksehind FB eventilt; kontrollitud 09.07.2026"
   },
   {
    "d": "2026-07-22",
@@ -509,7 +555,8 @@
    "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/785734627786593",
-   "nb": "gypsy punk; korraldaja M.P.3; piletid Piletilevis (link lisada); kontrollitud 07.07.2026"
+   "pu": "https://www.piletilevi.ee/piletid/STG5MS57M5/gogol-bordello",
+   "nb": "gypsy punk; korraldaja M.P.3; kontrollitud 09.07.2026"
   },
   {
    "d": "2026-08-05",
@@ -629,6 +676,32 @@
    }
   },
   {
+   "d": "2026-08-13",
+   "t": "kontsert",
+   "n": "Intrascendence (CL) + Pronoias (CL)",
+   "a": "Tšiili metal'i õhtu — modernne progressiivne metal (Metal from the end of the world); sissepääs tasuta",
+   "b": [
+    "Intrascendence (CL)",
+    "Pronoias (CL)"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "metal",
+    "melodic"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/26934925886202649",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/26934925886202649",
+   "hind": {
+    "praegu": "Tasuta",
+    "mark": "sissepääs tasuta; algus 20.00",
+    "allikas": "Facebook event (Pronoias + Konservatoorium), kontrollitud 09.07.2026"
+   }
+  },
+  {
    "d": "2026-08-21",
    "t": "kontsert",
    "n": "Barbatos + Beatrix + külaline",
@@ -700,6 +773,27 @@
    "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park"
   },
   {
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Airbourne",
+   "a": "Austraalia hard rocki bänd, Gutsy-tuur — esimest korda Eestis",
+   "b": [
+    "Airbourne"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "heavy"
+   ],
+   "sn": "Live Nation Estonia FB",
+   "su": "https://www.facebook.com/events/883197287964317",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/883197287964317",
+   "pu": "https://www.piletilevi.ee/piletid/VD37QERUVT/airbourne",
+   "nb": "algus 19.00; korraldajad Live Nation Estonia + Helitehas; kontrollitud 09.07.2026"
+  },
+  {
    "d": "2026-08-30",
    "t": "kontsert",
    "n": "Nothing + Hammok",
@@ -739,11 +833,12 @@
   {
    "d": "2026-09-04",
    "t": "kontsert",
-   "n": "Fear Factory + Crystal Lake + Hate",
+   "n": "Fear Factory + Crystal Lake + Hate + The Nocturnal Affair",
    "b": [
     "Fear Factory",
     "Crystal Lake",
-    "Hate"
+    "Hate",
+    "The Nocturnal Affair"
    ],
    "v": "Helitehas",
    "c": "Tallinn",
@@ -778,18 +873,25 @@
   {
    "d": "2026-09-12",
    "t": "kontsert",
-   "n": "Freakangel + PsycHolies",
+   "n": "Freakangel + PsycHolies + Sugar Rody",
+   "a": "Balti tuur — industrial metal, dark electro, EBM, synthwave (PsycHolies IT)",
    "b": [
     "Freakangel",
-    "PsycHolies"
+    "PsycHolies",
+    "Sugar Rody"
    ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
-    "industrial"
+    "industrial",
+    "ebm",
+    "electro",
+    "darkwave"
    ],
    "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108591058-freakangel-at-the-krypt"
+   "su": "https://www.bandsintown.com/e/108591058-freakangel-at-the-krypt",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1065529219140534/"
   },
   {
    "d": "2026-09-19",
@@ -939,6 +1041,39 @@
    "su": "https://metalstorm.net/events/event.php?event_id=228103"
   },
   {
+   "d": "2026-10-17",
+   "t": "festival",
+   "n": "Sindi Rock 2026",
+   "a": "Eesti vanim rockfestival (aastast 1969); peaesineja Kosmikud, The Tuberkuloited 35, Sibyl Vane (album VORTEX), EiK, Raev",
+   "b": [
+    "Kosmikud",
+    "The Tuberkuloited",
+    "Sibyl Vane",
+    "EiK",
+    "Raev"
+   ],
+   "v": "Sindi Seltsimaja",
+   "c": "mujal",
+   "linn": "Sindi",
+   "g": [
+    "rock",
+    "alt",
+    "punk",
+    "metal",
+    "thrash"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/sindirock2026",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/sindirock2026",
+   "pu": "https://fienta.com/et/sindirock2026",
+   "hind": {
+    "praegu": "26€ (varajane) / 31€ (eelmüük) / 35€ (uksel)",
+    "mark": "eelmüük kuni 16.10; toetajapilet 50€; õpilane/pensionär/puue 26€; uksed 18.00, esimene bänd 19.00",
+    "allikas": "Fienta (Tori Valla Kultuurikeskus), kontrollitud 09.07.2026"
+   }
+  },
+  {
    "d": "2026-10-27",
    "t": "kontsert",
    "n": "Amon Amarth + Soilwork + Orbit Culture",
@@ -996,6 +1131,44 @@
    }
   },
   {
+   "d": "2026-11-20",
+   "d2": "28.11",
+   "t": "kontsert",
+   "n": "Kosmikud «Pulmad ja matused 20»",
+   "a": "Läbilöögialbumi 20. juubelituur: Pubi Juudas (Tõrva) 20.11, Genialistide Klubi (Tartu) 27.11 + lisakontsert 28.11",
+   "b": [
+    "Kosmikud"
+   ],
+   "v": "tuur",
+   "c": "mujal",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1701428730898843",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1701428730898843",
+   "pu": "https://www.piletilevi.ee/piletid/CVAQM4IDVN/kosmikud-pulmad-ja-matused-20",
+   "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026"
+  },
+  {
+   "d": "2026-11-26",
+   "t": "kontsert",
+   "n": "Wyatt E.",
+   "b": [
+    "Wyatt E.",
+    "Five The Hierophant"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=236314"
+  },
+  {
    "d": "2026-11-30",
    "t": "kontsert",
    "n": "Chelsea Wolfe",
@@ -1028,6 +1201,37 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=232956"
+  },
+  {
+   "d": "2026-12-04",
+   "t": "kontsert",
+   "n": "Storm Over Tallinn",
+   "a": "Ühe õhtu modern-metal mini-festival (Death Agency): Lavina (Serbia) peaesineja, Bloody Falls (FIN), Numento (FIN), Ampest (EE)",
+   "b": [
+    "Lavina (Serbia)",
+    "Bloody Falls (FIN)",
+    "Numento (FIN)",
+    "Ampest"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "melodic",
+    "death",
+    "black",
+    "folk"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/storm-over-tallinn",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/storm-over-tallinn",
+   "pu": "https://fienta.com/et/storm-over-tallinn",
+   "hind": {
+    "praegu": "20€ (Early Bird) / 25€ (eelmüük) / 30€ (uksel)",
+    "mark": "Early Bird kuni 15.09.2026; uksed 19.00",
+    "allikas": "Fienta (Death Agency), kontrollitud 09.07.2026"
+   }
   },
   {
    "d": "2026-12-11",
