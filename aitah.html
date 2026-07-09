@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tellimus kinnitatud — skene.info</title>
+<meta name="robots" content="noindex">
+<script defer src="/_vercel/insights/script.js"></script>
+<style>
+:root{
+  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
+  --telliskivi:#93392C; --paatina:#2C5B54;
+  --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.55;min-height:100vh}
+a{color:inherit}
+header{padding:26px 24px 0;max-width:720px;margin:0 auto}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;border-bottom:3px solid var(--tint);padding-bottom:14px}
+.brand{font-size:clamp(26px,5vw,38px);line-height:.92;letter-spacing:-1.5px;text-transform:uppercase;font-weight:700;text-decoration:none}
+.brand .info{color:var(--telliskivi)}
+.topnav{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:8px 18px;padding:10px 0 12px;font-family:var(--mono);font-size:12.5px}
+.langsw{display:flex;border:1.5px solid var(--joon);flex:none}
+.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hall);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.langsw button.on{background:var(--tint);color:var(--paber)}
+main{max-width:720px;margin:0 auto;padding:40px 24px 60px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--paatina);margin-bottom:10px}
+h1{font-size:clamp(32px,6vw,50px);line-height:1;letter-spacing:-1px;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+p{margin:0 0 14px;max-width:60ch;font-size:16.5px}
+.btn{display:inline-block;margin-top:10px;background:var(--tint);color:var(--paber);font-family:var(--mono);font-size:13px;text-transform:uppercase;letter-spacing:.5px;text-decoration:none;padding:12px 20px}
+.btn:hover{background:var(--telliskivi)}
+.fine{font-family:var(--mono);font-size:12px;color:var(--hall);margin-top:26px;line-height:1.6}
+.fine a{color:var(--tint)}
+</style>
+</head>
+<body>
+<header>
+  <div class="masthead">
+    <a class="brand" href="/">Skene<span class="info">.info</span></a>
+  </div>
+  <nav class="topnav">
+    <div class="langsw" role="group" aria-label="Keel / Language">
+      <button type="button" data-lang="et" onclick="setLang('et')">ET</button>
+      <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <p class="eyebrow" data-i18n="a_eyebrow">Uudiskiri</p>
+  <h1 data-i18n="a_title">Tellimus kinnitatud</h1>
+  <p data-i18n="a_lead">Aitäh! Su e-posti aadress on kinnitatud ja oled nüüd skene.info nädalakirja tellija.</p>
+  <p data-i18n="a_next">Mis edasi: saadame korra nädalas kokkuvõtte uutest üritustest, reliisidest ja merch-dropidest. Esimene kiri jõuab kohale järgmisel saatmispäeval.</p>
+  <a class="btn" href="/" data-i18n="a_btn">→ Tagasi skene.info-sse</a>
+  <p class="fine" data-i18n-html="a_fine">Igas kirjas on loobumislink — saad igal ajal tellimuse lõpetada. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
+</main>
+<script>
+const I18N={
+ et:{
+  page_title:"Tellimus kinnitatud — skene.info",
+  a_eyebrow:"Uudiskiri",
+  a_title:"Tellimus kinnitatud",
+  a_lead:"Aitäh! Su e-posti aadress on kinnitatud ja oled nüüd skene.info nädalakirja tellija.",
+  a_next:"Mis edasi: saadame korra nädalas kokkuvõtte uutest üritustest, reliisidest ja merch-dropidest. Esimene kiri jõuab kohale järgmisel saatmispäeval.",
+  a_btn:"→ Tagasi skene.info-sse",
+  a_fine:"Igas kirjas on loobumislink — saad igal ajal tellimuse lõpetada. Vt <a href=\"/privaatsus.html\">privaatsust</a>."
+ },
+ en:{
+  page_title:"Subscription confirmed — skene.info",
+  a_eyebrow:"Newsletter",
+  a_title:"Subscription confirmed",
+  a_lead:"Thanks! Your email address is confirmed and you're now subscribed to the skene.info weekly newsletter.",
+  a_next:"What's next: once a week we send a round-up of new events, releases and merch drops. Your first email arrives on the next send day.",
+  a_btn:"→ Back to skene.info",
+  a_fine:"Every email has an unsubscribe link — you can stop anytime. See our <a href=\"/privaatsus.html\">privacy notice</a>."
+ }
+};
+let LANG=(function(){try{return localStorage.getItem('skene_lang')||'et';}catch(e){return 'et';}})();
+function t(k){var d=I18N[LANG]||I18N.et;return d[k]!==undefined?d[k]:(I18N.et[k]!==undefined?I18N.et[k]:k);}
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(function(el){el.textContent=t(el.getAttribute('data-i18n'));});
+  document.querySelectorAll('[data-i18n-html]').forEach(function(el){el.innerHTML=t(el.getAttribute('data-i18n-html'));});
+  document.title=t('page_title');
+  document.documentElement.setAttribute('lang',LANG);
+  document.querySelectorAll('.langsw button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===LANG);});
+}
+function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();}
+applyI18n();
+</script>
+</body>
+</html>

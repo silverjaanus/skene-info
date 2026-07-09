@@ -175,6 +175,13 @@ aside{position:sticky;top:16px;padding-top:16px}
       <button type="submit" data-i18n="f_send">Saada</button>
       <p class="hint" data-i18n-html="f_hint">Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.</p>
     </form>
+    <p class="kuu-t" style="margin-top:48px" data-i18n="nl_head">Uudiskiri</p>
+    <p class="igtxt" data-i18n="nl_lead">Korra nädalas kokkuvõte skene.info uutest üritustest, reliisidest ja merch-dropidest. Ei mingit spämmi.</p>
+    <form class="cform nlform" onsubmit="return subscribeNl(event,this)">
+      <input type="email" name="email" required data-i18n-ph="nl_ph" placeholder="sinu@email.ee" autocomplete="email">
+      <button type="submit" data-i18n="nl_btn">Telli nädalakiri →</button>
+      <p class="hint" data-i18n-html="nl_fine">Tellides nõustud, et saadame sulle ühe kirja nädalas. Kinnitad tellimuse e-posti teel ja saad igal ajal loobuda. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
+    </form>
     <p class="kuu-t" style="margin-top:48px" data-i18n="ig_head">Instagram</p>
     <p class="igtxt" data-i18n-html="ig_txt">Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.</p>
     <a class="igbtn" href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener" data-i18n="ig_btn">Jälgi Instagramis ↗</a>
@@ -217,6 +224,13 @@ const I18N={
   ig_head:"Instagram",
   ig_txt:"Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.",
   ig_btn:"Jälgi Instagramis ↗",
+  nl_head:"Uudiskiri",
+  nl_lead:"Korra nädalas kokkuvõte skene.info uutest üritustest, reliisidest ja merch-dropidest. Ei mingit spämmi.",
+  nl_ph:"sinu@email.ee",
+  nl_btn:"Telli nädalakiri →",
+  nl_fine:"Tellides nõustud, et saadame sulle ühe kirja nädalas. Kinnitad tellimuse e-posti teel ja saad igal ajal loobuda. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
+  nl_done:"Aitäh! Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia.",
+  nl_err:"Registreerimine ebaõnnestus. Proovi hetke pärast uuesti.",
   f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv",
   ethos:"Skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
   totop:"Üles",
@@ -246,6 +260,13 @@ const I18N={
   ig_head:"Instagram",
   ig_txt:"Follow <b>@skene.info</b> — every week I post a round-up of the coming week's events and releases.",
   ig_btn:"Follow on Instagram ↗",
+  nl_head:"Newsletter",
+  nl_lead:"Once a week, a round-up of new skene.info events, releases and merch drops. No spam.",
+  nl_ph:"you@email.com",
+  nl_btn:"Subscribe →",
+  nl_fine:"By subscribing you agree to receive one email a week. You confirm by e-mail and can unsubscribe anytime. See our <a href=\"/privaatsus.html\">privacy notice</a>.",
+  nl_done:"Thanks! We've sent you a confirmation email — click the link in it to complete your subscription.",
+  nl_err:"Subscription failed. Please try again in a moment.",
   f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive",
   ethos:"Skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
   totop:"Top",
@@ -292,6 +313,25 @@ function sendForm(ev,f){
         .then(function(j){if(j&&(j.success===true||j.success==='true')){ok();}else{fail();}})
         .catch(fail);
     });
+  return false;
+}
+// uudiskirja tellimine (MailerLite JSONP, serverita/CORS-ita)
+var ML_SUBSCRIBE="https://assets.mailerlite.com/jsonp/2500383/forms/192538337521698456/subscribe";
+function subscribeNl(ev,f){
+  ev.preventDefault();
+  var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
+  var old=f.querySelector('.ferr');if(old)old.remove();
+  var email=(f.querySelector('input[name=email]')||{}).value||'';
+  var done=false, cb='mlcb_'+Date.now();
+  var s=document.createElement('script');
+  var cleanup=function(){try{delete window[cb];}catch(e){window[cb]=undefined;}if(s.parentNode)s.parentNode.removeChild(s);};
+  var ok=function(){if(done)return;done=true;cleanup();f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
+  var fail=function(){if(done)return;done=true;cleanup();if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
+  window[cb]=function(resp){if(resp&&resp.success===false){fail();}else{ok();}};
+  s.src=ML_SUBSCRIBE+'?callback='+cb+'&fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&ml-submit=1&anticsrf=true';
+  s.onerror=function(){fail();};
+  document.head.appendChild(s);
+  setTimeout(function(){ok();},9000);
   return false;
 }
 // varufail: kui data.json ei lae (nt vana cache), naitame sisseehitatud seisu

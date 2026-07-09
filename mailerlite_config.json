@@ -1,0 +1,17 @@
+{
+  "api_base": "https://connect.mailerlite.com/api",
+  "from_name": "skene.info",
+  "from_email": "uudiskiri@skene.info",
+  "subject": {
+    "et": "skene.info nädalakiri — {range}",
+    "en": "skene.info weekly — {range}"
+  },
+  "segments": {
+    "et": "REPLACE_WITH_SEGMENT_ID_ET",
+    "en": "REPLACE_WITH_SEGMENT_ID_EN"
+  },
+  "groups": {
+    "et": null,
+    "en": null
+  }
+}

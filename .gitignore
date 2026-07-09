@@ -6,3 +6,11 @@ postitused/
 skene-cover-*.png
 skene-profiilipilt-*.png
 scripts/__pycache__/
+
+# saladused — API-tokenid jms, ei tohi KUNAGI avalikku reposse sattuda
+mailerlite_token.txt
+*token*.txt
+*.token
+.env
+.env.*
+secrets/
