@@ -315,23 +315,19 @@ function sendForm(ev,f){
     });
   return false;
 }
-// uudiskirja tellimine (MailerLite JSONP, serverita/CORS-ita)
+// uudiskirja tellimine (MailerLite, fetch POST — JSONP GET annab 503)
 var ML_SUBSCRIBE="https://assets.mailerlite.com/jsonp/2500383/forms/192538337521698456/subscribe";
 function subscribeNl(ev,f){
   ev.preventDefault();
   var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
   var old=f.querySelector('.ferr');if(old)old.remove();
   var email=(f.querySelector('input[name=email]')||{}).value||'';
-  var done=false, cb='mlcb_'+Date.now();
-  var s=document.createElement('script');
-  var cleanup=function(){try{delete window[cb];}catch(e){window[cb]=undefined;}if(s.parentNode)s.parentNode.removeChild(s);};
-  var ok=function(){if(done)return;done=true;cleanup();f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
-  var fail=function(){if(done)return;done=true;cleanup();if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
-  window[cb]=function(resp){if(resp&&resp.success===false){fail();}else{ok();}};
-  s.src=ML_SUBSCRIBE+'?callback='+cb+'&fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&ml-submit=1&anticsrf=true';
-  s.onerror=function(){fail();};
-  document.head.appendChild(s);
-  setTimeout(function(){ok();},9000);
+  var ok=function(){f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
+  var fail=function(){if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
+  fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&ml-submit=1&anticsrf=true'})
+    .then(function(r){return r.json();})
+    .then(function(resp){if(resp&&resp.success===false){fail();}else{ok();}})
+    .catch(function(){fail();});
   return false;
 }
 // varufail: kui data.json ei lae (nt vana cache), naitame sisseehitatud seisu
