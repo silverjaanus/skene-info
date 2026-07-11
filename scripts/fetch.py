@@ -47,6 +47,39 @@ def warn_unknown_bands(data_dir, entries):
     except Exception as ex:
         print(f"bands-kontroll vahele jaetud: {type(ex).__name__}: {ex}")
 
+# Zanri META-vastendus — peab olema syncis index.html/arhiiv.html GENRE_META-ga!
+# Modifikaatorid (heavy, stoner, melodic, symphonic, extreme, post, psych, shoegaze) metat ei anna.
+GENRE_META = {
+    "metal": ["metal"], "death": ["metal"], "black": ["metal"], "thrash": ["metal"],
+    "doom": ["metal"], "sludge": ["metal"], "power": ["metal"], "pagan": ["metal"],
+    "punk": ["punk"], "post-punk": ["punk"],
+    "core": ["core"], "grind": ["core"],
+    "rock": ["rock"], "folk": ["folk"], "alt": ["alt"],
+    "dark": ["dark"], "industrial": ["dark"], "ebm": ["dark"], "darkwave": ["dark"],
+    "goth": ["dark"], "electro": ["dark"],
+    "rokk": ["rock"], "gothic": ["dark"], "dark electro": ["dark"], "synth": ["dark"],
+    "hardcore": ["core"], "metalcore": ["metal", "core"], "deathcore": ["metal", "core"],
+    "melodeath": ["metal"], "groove": ["metal"], "alt-metal": ["metal"], "rituaal": ["folk"],
+}
+
+def warn_meta_fallback(entries):
+    """Meta-filtri hooldus: teata kirjetest, mis kukuvad fallback-alt'i (yhestki sildist ei tule
+    metat) voi on ilma zanrisiltideta — Silver vaatab nadalasweep'i kokkuvottes yle."""
+    try:
+        fallback, tagless = [], []
+        for e in entries:
+            g = e.get("g", [])
+            if not g:
+                tagless.append(e)
+            elif not any(GENRE_META.get(x) for x in g):
+                fallback.append(e)
+        for e in fallback:
+            print(f"META-FALLBACK (kuvatakse alt all): {e.get('d','?')} {e.get('n','?')} — sildid {e.get('g')}")
+        if tagless:
+            print(f"ilma zanrisiltideta {len(tagless)}: " + ", ".join(e.get("n", "?") for e in tagless))
+    except Exception as ex:
+        print(f"meta-kontroll vahele jaetud: {type(ex).__name__}: {ex}")
+
 # ---------------- allikad ----------------
 
 def src_metalstorm():
@@ -190,6 +223,7 @@ def main():
     print("; ".join(log))
     print(f"manual {len(manual)} + auto = {len(merged)}; data.json {n_cur}, arhiiv {n_arch}")
     warn_unknown_bands(ROOT / "data", merged)
+    warn_meta_fallback(merged)
 
     # avalik allikate leht (guarditud: viga siin ei murra korjet)
     try:

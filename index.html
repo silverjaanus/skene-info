@@ -374,8 +374,29 @@ const E_FALLBACK = [
 ];
 const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"]];
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"],["c_baltikum","Baltikum"],["c_pohjamaad","Põhjamaad"],["c_euroopa","Euroopa"]];
-let st={type:null,tags:new Set(),city:null,past:false,kuu:null};
-function tags(){const s=new Set();E.forEach(e=>e.g.forEach(g=>s.add(g)));return[...s].sort();}
+// Žanri META-filtrid: 7 katusekategooriat filtri reas; kirje kaardil jäävad täpsed sildid.
+// Vastendus toortag → meta(d). Modifikaatorid (heavy, stoner, melodic, symphonic, extreme, post,
+// psych, shoegaze) metat EI anna — meta tuleb kirje juursildist (nt heavy+rock→rock, heavy+power→metal).
+// FALLBACK: kirje, mille ühestki sildist ei tule metat, kuvatakse alt'i all (100% katvus tundmatute
+// siltide korral); ILMA siltideta kirjed (nt merch) käituvad nagu enne. Vt HANDOVER.md "UI-ÜMBEREHITUS".
+const METAS=["metal","punk","core","rock","alt","dark","folk"];
+const GENRE_META={
+ metal:["metal"],death:["metal"],black:["metal"],thrash:["metal"],doom:["metal"],sludge:["metal"],power:["metal"],pagan:["metal"],
+ punk:["punk"],"post-punk":["punk"],
+ core:["core"],grind:["core"],
+ rock:["rock"],folk:["folk"],alt:["alt"],
+ dark:["dark"],industrial:["dark"],ebm:["dark"],darkwave:["dark"],goth:["dark"],electro:["dark"],
+ /* legacy/varusildid (E_FALLBACK + vanad andmed): */
+ rokk:["rock"],gothic:["dark"],"dark electro":["dark"],synth:["dark"],hardcore:["core"],
+ metalcore:["metal","core"],deathcore:["metal","core"],melodeath:["metal"],groove:["metal"],"alt-metal":["metal"],rituaal:["folk"]
+};
+function entryMetas(e){
+ const g=e.g||[];const s=new Set();
+ g.forEach(x=>(GENRE_META[x]||[]).forEach(m=>s.add(m)));
+ if(g.length&&!s.size)s.add("alt");
+ return s;
+}
+let st={type:null,metas:new Set(),tags:new Set(),city:null,past:false,kuu:null};
 function enc(x){return encodeURIComponent(x);}
 const IC={
  sp:'<svg viewBox="0 0 24 24" aria-label="Spotify"><circle cx="12" cy="12" r="11" fill="#1DB954"/><path d="M6.5 9.6c3.6-1.1 7.6-.7 10.6 1" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M7 12.6c3-.9 6.3-.5 8.8.9" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M7.5 15.4c2.4-.7 5-.4 7 .7" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg>',
@@ -449,6 +470,7 @@ function fmt(e){
 function render(){
   let rows=E.filter(e=>{
     if(st.type&&e.t!==st.type)return false;
+    if(st.metas.size){const em=entryMetas(e);if(![...st.metas].every(m=>em.has(m)))return false;}
     if(st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
@@ -463,7 +485,7 @@ function render(){
   });
   document.getElementById("count").textContent=rows.length+" "+t('entries')
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
-    +(st.tags.size?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
+    +((st.metas.size||st.tags.size)?" · "+t('genre_c')+" "+[...st.metas,...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
   document.getElementById("list").innerHTML=rows.map(e=>{
     const past=!featured(e)&&!e.tba&&e.d<TODAY;
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
@@ -511,12 +533,16 @@ function setTag(g){
   if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);
   refresh();
 }
-function clearTags(){st.tags=new Set();refresh();}
+function setMeta(m){
+  if(st.metas.has(m))st.metas.delete(m);else st.metas.add(m);
+  refresh();
+}
+function clearTags(){st.metas=new Set();st.tags=new Set();refresh();}
 function refresh(){
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
-    `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
-    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
+    `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
+    METAS.map(m=>`<button class="chip${st.metas.has(m)?" on":""}" onclick="setMeta('${m}')">${m}</button>`).join(" ");
   kuud();render();
 }
 applyI18n();E=E_FALLBACK;refresh();
