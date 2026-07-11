@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-09",
+ "updated": "2026-07-11",
  "bands": {
   "5Loops": {
    "sp": "https://open.spotify.com/artist/7r7OmypatU4eVdcsohr2tm",
@@ -76,6 +76,11 @@
   "Valk": {
    "yt": true,
    "note": "Eesti räppar; Spotify 'Valk' on teine (power metal)"
+  },
+  "Yas Lo": {
+   "sp": "https://open.spotify.com/artist/4pS4RzivHtTj3e3vJdFwgF",
+   "yt": true,
+   "note": "DJ/produtsent (Tallinn); SoundCloud: https://soundcloud.com/djyaslo"
   }
  }
 }

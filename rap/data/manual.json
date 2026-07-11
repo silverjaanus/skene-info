@@ -87,5 +87,20 @@
   "on_": "tuleb.ee",
   "ou": "https://tuleb.ee/events/reket-live-band",
   "hind": {"praegu": "30€ (tava) / 27€ (sooduspilet) / 80€ (perepilet)", "mark": "kontserdipäeval kõigile 35€, perepilet 90€; hinnad koos teenustasuga", "allikas": "tuleb.ee, kontrollitud 11.07.2026"}
+ },
+ {
+  "d": "2026-07-11",
+  "t": "kontsert",
+  "n": "RNB & Chill with Yas Lo",
+  "a": "Afro Chill liikumise eestvedaja Yas Lo DJ-set; RnB & hip-hop; algus 21.00",
+  "b": ["Yas Lo"],
+  "v": "Legendaarne Raadiobaar",
+  "c": "Tallinn",
+  "g": ["hip-hop"],
+  "sn": "kontaktivorm",
+  "su": "https://www.facebook.com/LegendaarneRaadio/events/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1030974412917492",
+  "nb": "kontaktivormi kaudu (Janno Sooäär / Legendaarne); kontrollitud FB eventi ja korraldaja lehe vastu 11.07.2026; pileti/hinnainfot ei leitud"
  }
 ]
