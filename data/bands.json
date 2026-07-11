@@ -82,6 +82,10 @@
    "bc": "https://bestia-ee.bandcamp.com/",
    "yt": true
   },
+  "Blisterous": {
+   "bc": "https://blisterous-fin.bandcamp.com/",
+   "note": "Soome goregrind (Joensuu); BC-link FB eventist 11.07.2026"
+  },
   "Bloody Falls (FIN)": {
    "sp": "https://open.spotify.com/artist/70aIXAYbZd48wRhXJfa39r",
    "yt": true
@@ -233,6 +237,10 @@
   },
   "Indren": {
    "note": "ei leitud; samanimeline Itaalia bänd on teine"
+  },
+  "Industry": {
+   "bc": "https://industryinternational.bandcamp.com/",
+   "note": "Berliini DIY-punk; BC-link Fienta event-lehelt 11.07.2026"
   },
   "Intrascendence (CL)": {
    "sp": "https://open.spotify.com/artist/7p8iuNk9SgEnvNs8sHgFxH",
@@ -574,6 +582,10 @@
    "sp": "https://open.spotify.com/artist/5274obTQJjzjyycRyJlfml",
    "bc": "https://whitechapelmetal.bandcamp.com",
    "yt": true
+  },
+  "Wracaj Bo Ciemno": {
+   "bc": "https://wracajbociemno.bandcamp.com/",
+   "note": "Poola noise pop; BC-link FB eventist 11.07.2026"
   },
   "Wyatt E.": {
    "sp": "https://open.spotify.com/artist/70x6QVPo3xBIDNkxzkngdh",

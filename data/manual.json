@@ -584,7 +584,8 @@
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108591058-freakangel-at-the-krypt",
   "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1065529219140534/"
+  "ou": "https://www.facebook.com/events/1065529219140534/",
+  "pu": "https://fienta.com/et/freakangel-guests-thekrypt"
  },
  {
   "d": "2026-09-19",
@@ -742,8 +743,10 @@
   "b": [
    "Napalm Death",
    "Master",
-   "Brat"
+   "Brat",
+   "Goatburner"
   ],
+  "a": "+ Goatburner (FIN); lineup täienes 11.07.2026 (Damn.Loud FB)",
   "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
   "g": [
@@ -758,9 +761,11 @@
  {
   "d": "2026-11-30",
   "t": "kontsert",
-  "n": "Chelsea Wolfe",
+  "n": "Chelsea Wolfe + A.A Williams",
+  "a": "+ A.A Williams (UK); lineup täienes 11.07.2026 (Damn.Loud FB)",
   "b": [
-   "Chelsea Wolfe"
+   "Chelsea Wolfe",
+   "A.A Williams"
   ],
   "v": "Helitehas",
   "c": "Tallinn",
@@ -1448,5 +1453,237 @@
   "ou": "https://fienta.com/et/storm-over-tallinn",
   "pu": "https://fienta.com/et/storm-over-tallinn",
   "hind": {"praegu": "20€ (Early Bird) / 25€ (eelmüük) / 30€ (uksel)", "mark": "Early Bird kuni 15.09.2026; uksed 19.00", "allikas": "Fienta (Death Agency), kontrollitud 09.07.2026"}
+ },
+ {
+  "d": "2026-07-11",
+  "t": "kontsert",
+  "n": "ABCDEFGHIJKLWNOPQRSTUVMÕÄÖÜXY @ Ülase 12",
+  "a": "tähestiku-teemaline DIY-õhtu; laval mh Atentaat (crustgrind); täislineup FB eventis",
+  "b": [
+   "Atentaat"
+  ],
+  "v": "Ülase 12",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "grind"
+  ],
+  "sn": "Anemon12 FB",
+  "su": "https://www.facebook.com/anemon12tln/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1325978722451255/",
+  "nb": "lineup osaliselt FB kirjelduses peidus (See more); lisatud 11.07.2026"
+ },
+ {
+  "d": "2026-07-17",
+  "t": "kontsert",
+  "n": "The Tuberkuloited 35: Rakvere",
+  "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee; kell 18.00",
+  "b": [
+   "The Tuberkuloited",
+   "Vennaskond",
+   "Sõpruse Puiestee"
+  ],
+  "v": "Rakvere Vallimägi",
+  "c": "mujal",
+  "linn": "Rakvere",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/2027042781412811/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2027042781412811/",
+  "pu": "https://www.piletitasku.ee/et/event/9528"
+ },
+ {
+  "d": "2026-07-18",
+  "t": "kontsert",
+  "n": "Singer Vinger live Ammende Villa aias",
+  "a": "Eesti punk-rocki lipulaev Pärnus vabas õhus",
+  "b": [
+   "Singer Vinger"
+  ],
+  "v": "Villa Ammende",
+  "c": "mujal",
+  "linn": "Pärnu",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/2132298354211092/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2132298354211092/",
+  "pu": "https://www.piletitasku.ee/et/event/9350"
+ },
+ {
+  "d": "2026-07-19",
+  "t": "kontsert",
+  "n": "Project Dekadenz + Yakubutsu + Fern Flower",
+  "a": "suveõhtu DIY-klubis Hell (Tiigi 76a)",
+  "b": [
+   "Project Dekadenz",
+   "Yakubutsu",
+   "Fern Flower"
+  ],
+  "v": "Hell",
+  "c": "Tartu",
+  "g": [
+   "alt",
+   "punk"
+  ],
+  "sn": "Hell, Tartu FB",
+  "su": "https://www.facebook.com/punknrollhell/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1158843837316570/",
+  "nb": "žanrid täpsustamata (DIY subkultuuriklubi õhtu); algus 17.00; lisatud 11.07.2026"
+ },
+ {
+  "d": "2026-07-25",
+  "t": "kontsert",
+  "n": "Poola emod Ülases: Wracaj Bo Ciemno (PL) jt",
+  "a": "Poola noise-pop/emo külalised + kohalik toetus; täislineup FB eventis",
+  "b": [
+   "Wracaj Bo Ciemno"
+  ],
+  "v": "Ülase 12",
+  "c": "Tallinn",
+  "g": [
+   "alt",
+   "punk"
+  ],
+  "sn": "Anemon12 FB",
+  "su": "https://www.facebook.com/anemon12tln/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1571475057869484/",
+  "nb": "lineup osaliselt FB kirjelduses peidus; algus 18.00; lisatud 11.07.2026"
+ },
+ {
+  "d": "2026-07-27",
+  "t": "kontsert",
+  "n": "Laine Live: Industry (DE) + Model Citizen",
+  "a": "Berliini DIY-punk (Amebix/Killing Joke vaimus) + Eesti noise rock; algus 19.00",
+  "b": [
+   "Industry",
+   "Model Citizen"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "post-punk"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/936894902043640/",
+  "pu": "https://fienta.com/et/laine-live-industry"
+ },
+ {
+  "d": "2026-07-30",
+  "t": "kontsert",
+  "n": "Underground Laine: Motelli Skronkle (FIN) + Irwin Art Projekt + Hot Kommunist",
+  "a": "Boiling Baltia 2026: Soome kultuslik noise/avangard-rühm Motelli Skronkle (est 1983) esmakordselt Eestis; algus 19.00",
+  "b": [
+   "Motelli Skronkle",
+   "Irwin Art Projekt",
+   "Hot Kommunist"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "alt",
+   "punk"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2799696610387934/"
+ },
+ {
+  "d": "2026-08-07",
+  "t": "kontsert",
+  "n": "Hot Kommunist (EST/FIN) @ Kära Kants",
+  "a": "jazz-punk-prog trio (est 1996); kell 22.00",
+  "b": [
+   "Hot Kommunist"
+  ],
+  "v": "Kära Kants",
+  "c": "mujal",
+  "linn": "Rakvere",
+  "g": [
+   "punk",
+   "alt"
+  ],
+  "sn": "Kära Kantsi FB grupp",
+  "su": "https://www.facebook.com/groups/112392415448166/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/950881911040505/",
+  "hind": {"praegu": "5€ / 6€", "mark": "uksehind sularahas: 5€ Kära Kantsi liige / 6€ tavaline", "allikas": "Facebook event, kontrollitud 11.07.2026"}
+ },
+ {
+  "d": "2026-08-07",
+  "t": "kontsert",
+  "n": "Baltic Prosecution: Blisterous (FIN) + Gangrenated + Kättemaksucvntor",
+  "a": "goregrind/grind õhtu DIY-klubis Hell; algus 18.00",
+  "b": [
+   "Blisterous",
+   "Gangrenated",
+   "Kättemaksucvntor"
+  ],
+  "v": "Hell",
+  "c": "Tartu",
+  "g": [
+   "grind",
+   "death"
+  ],
+  "sn": "Hell, Tartu FB",
+  "su": "https://www.facebook.com/punknrollhell/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1583551966711930/"
+ },
+ {
+  "d": "2026-08-14",
+  "t": "kontsert",
+  "n": "The Tuberkuloited 35: Pärnu",
+  "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee",
+  "b": [
+   "The Tuberkuloited",
+   "Vennaskond",
+   "Sõpruse Puiestee"
+  ],
+  "v": "Villa Ammende",
+  "c": "mujal",
+  "linn": "Pärnu",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/931197572850690/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/931197572850690/",
+  "pu": "https://www.piletitasku.ee/et/event/9529"
+ },
+ {
+  "d": "2026-09-11",
+  "d2": "12.09",
+  "t": "festival",
+  "n": "Punk & Rock Insidefest 2026",
+  "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a); bändidele avatud registreerimisvorm, lineup TBA",
+  "b": [],
+  "v": "Klubi Rock & Roll",
+  "c": "Tartu",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Punk & Rock festival Estonia FB",
+  "su": "https://www.facebook.com/punkrockfestival/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1468527551938865/",
+  "nb": "koosseis kinnitamata (open call) - kontrolli lineup hiljem; lisatud 11.07.2026"
  }
 ]

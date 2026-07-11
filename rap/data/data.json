@@ -2,6 +2,31 @@
  "updated": "2026-07-11",
  "entries": [
   {
+   "d": "2026-07-16",
+   "t": "kontsert",
+   "n": "Reket + LIVE bänd",
+   "a": "Reket esmakordselt Luke mõisapargis eksklusiivse live-bändiga; uksed 19.00, algus 20.00; vabas õhus",
+   "b": [
+    "Reket"
+   ],
+   "v": "Luke mõis",
+   "c": "mujal",
+   "linn": "Nõo vald, Tartumaa",
+   "g": [
+    "räpp",
+    "hip-hop"
+   ],
+   "sn": "lukemois.ee",
+   "su": "https://lukemois.ee/",
+   "on_": "tuleb.ee",
+   "ou": "https://tuleb.ee/events/reket-live-band",
+   "hind": {
+    "praegu": "30€ (tava) / 27€ (sooduspilet) / 80€ (perepilet)",
+    "mark": "kontserdipäeval kõigile 35€, perepilet 90€; hinnad koos teenustasuga",
+    "allikas": "tuleb.ee, kontrollitud 11.07.2026"
+   }
+  },
+  {
    "d": "2026-07-18",
    "t": "kontsert",
    "n": "G5 & Pulse: Triibupasta + Prodigyboys + Valk",
