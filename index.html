@@ -126,6 +126,14 @@ aside{position:sticky;top:16px;padding-top:16px}
   .mast-right{align-items:flex-start}
   .author{text-align:left}
 }
+/* kontaktivorm accordion + listingu-alune plokk (uudiskiri+IG) */
+.cdet summary{cursor:pointer;list-style:none}
+.cdet summary::-webkit-details-marker{display:none}
+.cdet summary::after{content:" ▾"}
+.cdet[open] summary::after{content:" ▴"}
+.below{margin-top:64px}
+.below .cform,.below .igbtn{max-width:360px}
+.below .igbtn{display:block}
 </style>
 </head>
 <body>
@@ -141,8 +149,9 @@ aside{position:sticky;top:16px;padding-top:16px}
     <div class="nav-links">
       <a href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
       <a href="https://www.facebook.com/profile.php?id=61591366185684" target="_blank" rel="noopener">FACEBOOK ↗</a>
-      <a href="/changelog.html" data-i18n="nav_updates">UUENDUSED</a>
       <a href="/allikad.html" data-i18n="nav_sources">ALLIKAD</a>
+      <a href="/changelog.html" data-i18n="nav_updates">UUENDUSED</a>
+      <a href="/arhiiv.html" data-i18n="nav_archive">ARHIIV</a>
     </div>
     <div class="langsw" role="group" aria-label="Keel / Language">
       <button type="button" data-lang="et" onclick="setLang('et')">ET</button>
@@ -154,7 +163,8 @@ aside{position:sticky;top:16px;padding-top:16px}
   <aside>
     <p class="kuu-t" data-i18n="cal_head">Kalender</p>
     <div class="kuud" id="kuud"></div>
-    <p class="kuu-t" style="margin-top:28px" data-i18n="contact_head">Kontakt</p>
+    <details class="cdet" style="margin-top:28px">
+    <summary class="kuu-t" data-i18n="contact_sum">+ Lisa üritus, reliis või merch</summary>
     <form class="cform" action="https://api.web3forms.com/submit" method="POST" onsubmit="return sendForm(event,this)">
       <input type="hidden" name="access_key" value="40a0710b-066a-4434-96b7-7c51fe1e13c4">
       <input type="hidden" name="subject" value="skene.info kontaktivorm">
@@ -175,25 +185,32 @@ aside{position:sticky;top:16px;padding-top:16px}
       <button type="submit" data-i18n="f_send">Saada</button>
       <p class="hint" data-i18n-html="f_hint">Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.</p>
     </form>
-    <p class="kuu-t" style="margin-top:48px" data-i18n="nl_head">Uudiskiri</p>
-    <p class="igtxt" data-i18n="nl_lead">Korra nädalas kokkuvõte skene.info uutest üritustest, reliisidest ja merch-dropidest. Ei mingit spämmi.</p>
+    </details>
+    <p class="kuu-t" style="margin-top:32px" data-i18n="nl_head">Uudiskiri</p>
     <form class="cform nlform" onsubmit="return subscribeNl(event,this)">
       <input type="email" name="email" required data-i18n-ph="nl_ph" placeholder="sinu@email.ee" autocomplete="email">
       <button type="submit" data-i18n="nl_btn">Telli nädalakiri →</button>
-      <p class="hint" data-i18n-html="nl_fine">Tellides nõustud, et saadame sulle ühe kirja nädalas. Kinnitad tellimuse e-posti teel ja saad igal ajal loobuda. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
+      <p class="hint" data-i18n-html="nl_fine_short">1 kiri nädalas, loobud igal ajal. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
     </form>
-    <p class="kuu-t" style="margin-top:48px" data-i18n="ig_head">Instagram</p>
-    <p class="igtxt" data-i18n-html="ig_txt">Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.</p>
-    <a class="igbtn" href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener" data-i18n="ig_btn">Jälgi Instagramis ↗</a>
   </aside>
   <div class="content">
     <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
     <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
-    <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span>
-      <a class="chip" href="/arhiiv.html" style="margin-left:auto;text-decoration:none" data-i18n="archive_link">→ Arhiiv</a>
-    </div>
+    <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
     <p class="count" id="count"></p>
     <div id="list"></div>
+    <div class="below">
+      <p class="kuu-t" data-i18n="nl_head">Uudiskiri</p>
+      <p class="igtxt" data-i18n="nl_lead">Korra nädalas kokkuvõte skene.info uutest üritustest, reliisidest ja merch-dropidest. Ei mingit spämmi.</p>
+      <form class="cform nlform" onsubmit="return subscribeNl(event,this)">
+        <input type="email" name="email" required data-i18n-ph="nl_ph" placeholder="sinu@email.ee" autocomplete="email">
+        <button type="submit" data-i18n="nl_btn">Telli nädalakiri →</button>
+        <p class="hint" data-i18n-html="nl_fine">Tellides nõustud, et saadame sulle ühe kirja nädalas. Kinnitad tellimuse e-posti teel ja saad igal ajal loobuda. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
+      </form>
+      <p class="kuu-t" style="margin-top:40px" data-i18n="ig_head">Instagram</p>
+      <p class="igtxt" data-i18n-html="ig_txt">Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.</p>
+      <a class="igbtn" href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener" data-i18n="ig_btn">Jälgi Instagramis ↗</a>
+    </div>
     <div class="footer">
       <div style="font-family:var(--mono);font-size:12.5px;display:flex;gap:16px;flex-wrap:wrap">
         <a href="https://rap.skene.info/">RÄPP: RAP.SKENE ↗</a>
@@ -231,10 +248,12 @@ const I18N={
   nl_fine:"Tellides nõustud, et saadame sulle ühe kirja nädalas. Kinnitad tellimuse e-posti teel ja saad igal ajal loobuda. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
   nl_done:"Aitäh! Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui olid juba tellija, siis uut kirja ei tule.",
   nl_err:"Registreerimine ebaõnnestus. Proovi hetke pärast uuesti.",
-  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv",
+  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv", nav_archive:"ARHIIV",
+  contact_sum:"+ Lisa üritus, reliis või merch",
+  nl_fine_short:"1 kiri nädalas, loobud igal ajal. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
   ethos:"Skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
   totop:"Üles",
-  t_all:"kõik", t_kontsert:"kontserdid", t_festival:"festivalid", t_klubi:"klubiõhtud", t_reliis:"reliisid", t_merch:"merch",
+  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch",
   c_all:"kõik", c_mujal:"mujal Eesti", c_baltikum:"Baltikum", c_pohjamaad:"Põhjamaad", c_euroopa:"Euroopa",
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch",
@@ -267,10 +286,12 @@ const I18N={
   nl_fine:"By subscribing you agree to receive one email a week. You confirm by e-mail and can unsubscribe anytime. See our <a href=\"/privaatsus.html\">privacy notice</a>.",
   nl_done:"Thanks! We've sent you a confirmation email — click the link in it to complete your subscription. If you were already subscribed, no new email will be sent.",
   nl_err:"Subscription failed. Please try again in a moment.",
-  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive",
+  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive", nav_archive:"ARCHIVE",
+  contact_sum:"+ Add an event, release or merch",
+  nl_fine_short:"One email a week, unsubscribe anytime. See <a href=\"/privaatsus.html\">privacy</a>.",
   ethos:"Skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
   totop:"Top",
-  t_all:"all", t_kontsert:"concerts", t_festival:"festivals", t_klubi:"club nights", t_reliis:"releases", t_merch:"merch",
+  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch",
   c_all:"all", c_mujal:"elsewhere in Estonia", c_baltikum:"Baltics", c_pohjamaad:"Nordics", c_euroopa:"Europe",
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch",

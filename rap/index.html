@@ -122,6 +122,11 @@ aside{position:sticky;top:16px;padding-top:16px}
   .mast-right{align-items:flex-start}
   .author{text-align:left}
 }
+/* kontaktivorm accordion */
+.cdet summary{cursor:pointer;list-style:none}
+.cdet summary::-webkit-details-marker{display:none}
+.cdet summary::after{content:" ▾"}
+.cdet[open] summary::after{content:" ▴"}
 </style>
 </head>
 <body>
@@ -137,8 +142,9 @@ aside{position:sticky;top:16px;padding-top:16px}
     <div class="nav-links">
       <a href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
       <a href="https://www.facebook.com/profile.php?id=61591366185684" target="_blank" rel="noopener">FACEBOOK ↗</a>
-      <a href="https://www.skene.info/changelog.html" data-i18n="nav_updates">UUENDUSED</a>
       <a href="allikad.html" data-i18n="nav_sources">ALLIKAD</a>
+      <a href="https://www.skene.info/changelog.html" data-i18n="nav_updates">UUENDUSED</a>
+      <a href="arhiiv.html" data-i18n="nav_archive">ARHIIV</a>
     </div>
     <div class="langsw" role="group" aria-label="Keel / Language">
       <button type="button" data-lang="et" onclick="setLang('et')">ET</button>
@@ -150,7 +156,8 @@ aside{position:sticky;top:16px;padding-top:16px}
   <aside>
     <p class="kuu-t" data-i18n="cal_head">Kalender</p>
     <div class="kuud" id="kuud"></div>
-    <p class="kuu-t" style="margin-top:28px" data-i18n="contact_head">Kontakt</p>
+    <details class="cdet" style="margin-top:28px">
+    <summary class="kuu-t" data-i18n="contact_sum">+ Lisa üritus, reliis või merch</summary>
     <form class="cform" action="https://api.web3forms.com/submit" method="POST" onsubmit="return sendForm(event,this)">
       <input type="hidden" name="access_key" value="40a0710b-066a-4434-96b7-7c51fe1e13c4">
       <input type="hidden" name="subject" value="rap.skene.info kontaktivorm">
@@ -171,14 +178,13 @@ aside{position:sticky;top:16px;padding-top:16px}
       <button type="submit" data-i18n="f_send">Saada</button>
       <p class="hint" data-i18n-html="f_hint">Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.</p>
     </form>
+    </details>
     <a class="sister" href="https://www.skene.info/">METAL → SKENE.INFO</a>
   </aside>
   <div class="content">
     <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
     <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
-    <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span>
-      <a class="chip" href="arhiiv.html" style="margin-left:auto;text-decoration:none" data-i18n="archive_link">→ Arhiiv</a>
-    </div>
+    <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
     <p class="count" id="count"></p>
     <div id="list"></div>
     <div class="footer">
@@ -207,10 +213,11 @@ const I18N={
   f_extra:"Lisainfo", ph_extra:"žanr, artistid, muu…", f_send:"Saada",
   f_sent:"Aitäh! Sisend on saadetud — vaatan selle üle ja lisan, kui sobib.", f_senderr:"Saatmine ebaõnnestus. Proovi hetke pärast uuesti.",
   f_hint:"Lisad ürituse, reliisi või merch-drop'i? Kirjuta <b>oma</b> nimi ja kontakt ning ürituse info — ja <b>kindlasti link</b>, et saaksime üle kontrollida.",
-  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv",
+  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv", nav_archive:"ARHIIV",
+  contact_sum:"+ Lisa üritus, reliis või merch",
   ethos:"Rap.skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
   totop:"Üles",
-  t_all:"kõik", t_kontsert:"kontserdid", t_festival:"festivalid", t_klubi:"klubiõhtud", t_reliis:"reliisid", t_merch:"merch",
+  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch",
   c_all:"kõik", c_mujal:"mujal Eesti",
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch",
@@ -233,10 +240,11 @@ const I18N={
   f_extra:"More info", ph_extra:"genre, artists, other…", f_send:"Send",
   f_sent:"Thanks! Your submission was sent — I'll review it and add it if it fits.", f_senderr:"Sending failed. Please try again in a moment.",
   f_hint:"Adding an event, release or merch drop? Write <b>your</b> name and contact plus the event info — and <b>be sure to include a link</b> so we can verify it.",
-  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive",
+  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive", nav_archive:"ARCHIVE",
+  contact_sum:"+ Add an event, release or merch",
   ethos:"Rap.skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
   totop:"Top",
-  t_all:"all", t_kontsert:"concerts", t_festival:"festivals", t_klubi:"club nights", t_reliis:"releases", t_merch:"merch",
+  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch",
   c_all:"all", c_mujal:"elsewhere in Estonia",
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch",
