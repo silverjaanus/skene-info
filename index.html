@@ -134,6 +134,11 @@ aside{position:sticky;top:16px;padding-top:16px}
 .below{margin-top:64px}
 .below .cform,.below .igbtn{max-width:360px}
 .below .igbtn{display:block}
+/* grid-blowout fix: pikk murdmatu sõna (nt üritusenimi) ei tohi veergu laiemaks venitada */
+.wrap>*{min-width:0}
+.row>*{min-width:0}
+.tit{overflow-wrap:anywhere}
+.lnks{overflow-wrap:anywhere}
 </style>
 </head>
 <body>
