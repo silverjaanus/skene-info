@@ -77,6 +77,50 @@
    "su": "https://uuslaine.com/",
    "on_": "Fienta",
    "ou": "https://fienta.com/et/laine-live-molbo"
+  },
+  {
+   "d": "2026-07-10",
+   "d2": "11.07",
+   "t": "festival",
+   "n": "Tartu Rock Fest 2026",
+   "a": "2 lava, 16 bändi",
+   "b": [
+    "Vennaskond",
+    "Singer Vinger",
+    "Kosmikud",
+    "The Tuberkuloited",
+    "Elephants from Neptune",
+    "Dramamama",
+    "Põhja Konn",
+    "DND",
+    "Raev",
+    "Stepdog",
+    "Kondimootor",
+    "Kaibald",
+    "Merwis",
+    "Artifer",
+    "Exanity",
+    "Soda Effect"
+   ],
+   "v": "Tartu Laululava",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "punk",
+    "alt",
+    "metal",
+    "thrash"
+   ],
+   "sn": "Facebook",
+   "su": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "on_": "Tartu Kontsert",
+   "ou": "https://onlinepilet.ee/tartu-rock-fest-2026/",
+   "pu": "https://onlinepilet.ee/toode/tartu-rock-fest-2-paeva/",
+   "hind": {
+    "praegu": "87€ (2 päeva) / 47€ (1 päev)",
+    "mark": "perepilet 120€; eelmüük, kohapeal kallim; Piletilevi 49–127€",
+    "allikas": "onlinepilet.ee (Tartu Kontsert), kontrollitud 07.07.2026"
+   }
   }
  ]
 }

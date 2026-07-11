@@ -183,6 +183,47 @@
   "hind": {"praegu": "72.70€", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
  },
  {
+  "d": "2026-07-17",
+  "t": "klubi",
+  "n": "Bat Sounds @ TOLM",
+  "a": "residendid Dajek, Le Petit Chat, Naked Reagan, Darth Typo + külalised Cly/suva ja Pikkauch",
+  "b": [],
+  "v": "TOLM",
+  "c": "Tartu",
+  "g": [
+   "darkwave",
+   "goth",
+   "ebm",
+   "dark",
+   "electro"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://www.facebook.com/events/1745558169975455/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1745558169975455/",
+  "hind": {"praegu": "10€", "mark": "uksel, sularahas või kaardiga; kell 23.00–08.00", "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"}
+ },
+ {
+  "d": "2026-07-17",
+  "t": "klubi",
+  "n": "BFTV 28: DJ 4-got-10 all-nighter",
+  "a": "Beats From The Vault 28. sünnipäev — 360 minutit tumedaid rütme (Body Techno, EBM, Post-Industrial, Ritual Techno, Dark-Electro, Rhythmic Noise)",
+  "b": [],
+  "v": "IDA Radio",
+  "c": "Tallinn",
+  "g": [
+   "ebm",
+   "industrial",
+   "dark",
+   "electro"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://www.facebook.com/events/1440160684588061",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1440160684588061",
+  "hind": {"praegu": "5€", "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00", "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"}
+ },
+ {
   "d": "2026-07-18",
   "t": "kontsert",
   "n": "The Exploited (UK) + Antinorm + Skoone + Huiabella Fantastica",
@@ -203,6 +244,29 @@
   "su": "https://www.facebook.com/events/1122766619570935",
   "pu": "https://fienta.com/et/the-exploited-tallinn-paavli",
   "hind": {"praegu": "39€ / 30€ (noor)", "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00", "allikas": "Fienta, kontrollitud 07.07.2026"}
+ },
+ {
+  "d": "2026-07-21",
+  "t": "kontsert",
+  "n": "Hez (Panama) + Hävitus + Korralagedus + Volta",
+  "a": "hardcore punk: Hez (PA) + Tallinna omad; uksed 19.00",
+  "b": [
+   "Hez",
+   "Hävitus",
+   "Korralagedus",
+   "Volta"
+  ],
+  "v": "Ülase 12",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "core"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://www.facebook.com/events/1275986611278256",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1275986611278256",
+  "hind": {"praegu": "10€ / 7€ (õpilased)", "mark": "uksehind (\"support\"); uksed 19.00", "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"}
  },
  {
   "d": "2026-07-22",
@@ -588,6 +652,32 @@
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=228103"
+ },
+ {
+  "d": "2026-10-17",
+  "t": "festival",
+  "n": "Sindi Rock 2026",
+  "a": "Eesti vanim rockfestival aastast 1969; uksed 18.00, esimene bänd 19.00",
+  "b": [
+   "Kosmikud",
+   "The Tuberkuloited",
+   "Sibyl Vane",
+   "EiK",
+   "Raev"
+  ],
+  "v": "Sindi Seltsimaja",
+  "c": "mujal",
+  "g": [
+   "rock",
+   "alt",
+   "metal"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://fienta.com/et/sindirock2026",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/sindirock2026",
+  "pu": "https://fienta.com/et/sindirock2026",
+  "hind": {"praegu": "26€ (varajane, limiteeritud) / 31€ (eelmüük) / 35€ (uksel)", "mark": "toetajapilet 50€; õpilane/pensionär/puudega 26€; eelmüük kuni 16.10", "allikas": "Fienta, kontrollitud 11.07.2026"}
  },
  {
   "d": "2026-10-27",
