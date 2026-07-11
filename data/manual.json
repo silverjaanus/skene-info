@@ -164,10 +164,25 @@
   "n": "Käbliku Beer Camp & Rock'n'Roll",
   "b": [
    "Primordial",
+   "Henge",
+   "Yoth Iria",
    "Mars Red Sky",
    "Monkey3",
-   "Yoth Iria",
-   "Truckthor"
+   "Antsud Metal Project",
+   "Aednikud",
+   "Oranzas brivdienas",
+   "Biisti Pohh",
+   "Bloodfeather",
+   "Truckthor",
+   "Death Kommander",
+   "Robotorr",
+   "Pagansarv",
+   "Elukas",
+   "Project Dekadenz",
+   "Puberteet",
+   "AITÄH EMA!",
+   "Valm Ja Orav",
+   "Aapo Ilves"
   ],
   "v": "Käbliku Pruulikoda",
   "c": "mujal",
@@ -180,7 +195,7 @@
   "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
   "on_": "fest.kabliku.com",
   "ou": "https://fest.kabliku.com/",
-  "pu": "https://fest.kabliku.com/",
+  "pu": "https://www.ticketer.ee/kabliku-beer-camp-rocknroll/",
   "hind": {"praegu": "72.70€", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
  },
  {
@@ -222,6 +237,7 @@
   "su": "https://www.facebook.com/events/1440160684588061",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1440160684588061",
+  "yu": "https://www.youtube.com/beatsfromthevault",
   "hind": {"praegu": "5€", "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00", "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"}
  },
  {
@@ -418,7 +434,8 @@
    "industrial"
   ],
   "sn": "bftv.ee",
-  "su": "https://bftv.ee/"
+  "su": "https://bftv.ee/",
+  "yu": "https://www.youtube.com/beatsfromthevault"
  },
  {
   "d": "2026-08-21",

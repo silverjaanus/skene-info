@@ -527,6 +527,7 @@ function render(){
       if(e.ou)lnks+=`<br><a class="a2" href="${e.ou}" target="_blank" rel="noopener">${t('organizer')} ${e.on_} ↗</a>`;
     }
     if(e.pu)lnks+=`<br><a class="a3" href="${e.pu}" target="_blank" rel="noopener">${t('tickets')}</a>`;
+    if(e.yu)lnks+=`<br><a class="a2" href="${e.yu}" target="_blank" rel="noopener">YouTube ↗</a>`;
     if(e.hind)lnks+=`<br>${priceLine(e)}`;
     const cal=calLinks(e);
     if(cal)lnks+=`<br>${cal}`;

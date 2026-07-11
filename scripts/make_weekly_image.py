@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-make_weekly_image.py -- genereerib skene.info nadalapildi (metal-pool).
+make_weekly_image.py -- genereerib skene.info nadalapildi(d) (metal-pool).
 
 Loeb data/data.json, filtreerib tuleva E-P nadala Eesti uritused + reliisid,
-renderdab 1080x1350 JPG saidi varvipaletiga, logo nurgas juhuslikus variandis.
+renderdab 1080x1350 JPG(d) saidi varvipaletiga, logo nurgas juhuslikus variandis.
+
+MITU PILTI (IG karussell): kui koik kirjed uhele pildile ei mahu, tehakse
+jargmised lehed samas stiilis: nadal-<kuupaev>.jpg, nadal-<kuupaev>-2.jpg jne
+(kuni MAX_PAGES lehte; Instagrami karusselli piir on 10 slaidi).
+Lehekyljenumber (nt 2/3) kuvatakse alapealkirja real, kui lehti on >1.
 
 Kasutus:
   python scripts/make_weekly_image.py                      # tulev E-P nadal
@@ -15,7 +20,9 @@ Kasutus:
 Reeglid (vt PROJEKT.md):
   - Ainult Eesti: c in {Tallinn, Tartu, mujal}. Rahvusvahelised jaavad valja.
   - Hinda EI leiutata: kui 'hind' puudub, jaetakse hinnarida ara.
-  - Mahupiir: kuni MAX_ROWS kirjet; ulejaak -> "+N veel skene.info-s".
+  - Mahupiir lehe kohta: kuni MAX_ROWS kirjet; ulejaak -> jargmine leht.
+    Kui ka MAX_PAGES lehte ei mahuta koike (ebatoenaoline), viimasele lehele
+    rida "+N veel skene.info-s".
 """
 import argparse, json, os, random, sys, datetime as dt
 
@@ -45,6 +52,12 @@ KUUD_GEN = {1:"jaanuar",2:"veebruar",3:"marts",4:"aprill",5:"mai",6:"juuni",
 W, H = 1080, 1350
 MARGIN = 64
 MAX_ROWS = 7
+MAX_PAGES = 10   # Instagrami karusselli piir
+
+X_DATE = MARGIN
+X_BODY = MARGIN + 148
+X_END = W - MARGIN
+BODY_W = X_END - X_BODY
 
 def _font(cands, size):
     for p in cands:
@@ -138,24 +151,60 @@ def price_text(e):
     if not h:
         return None
     p = (h.get("praegu") or "").strip()
-    for sep in [";", " \u2014 ", " - ", " / ", ",", " ("]:
+    for sep in [";", " — ", " - ", " / ", ",", " ("]:
         if sep in p:
             p = p.split(sep)[0].strip()
     if not p:
         return None
     if h.get("kuni") and h.get("jargmine"):
-        return f"{p} \u2192 {h['jargmine']}"
+        return f"{p} → {h['jargmine']}"
     return p
 
-def render(entries, ws, we, logo_dir, out_path):
-    fonts = load_fonts()
+# ---- lehe geomeetria (jagatud mootmise ja renderdamise vahel) ----
+FOOT_H = 120
+SUB_Y = 82 + 84 + 88
+TOP = SUB_Y + 46
+START_Y = TOP + 8
+ROW_LIMIT = (H - FOOT_H) - 16
+
+def measure(d, fonts, e):
+    """Uhe kirje rea korgus + ettearvutatud kujundus (font, pealkirjaread, bandid)."""
+    tf = fonts["title"] if len(e.get("n", "")) < 40 else fonts["title_s"]
+    tlines = wrap(d, e.get("n", ""), tf, BODY_W, 2)
+    bands = " · ".join(e.get("b", [])) if e.get("b") else e.get("a", "")
+    h = 30 + len(tlines) * (tf.size + 3)
+    if bands:
+        h += fonts["bands"].size + 8
+    h += fonts["venue"].size + 6
+    return max(h, 70) + 16, tf, tlines, bands
+
+def paginate(d, fonts, entries):
+    """Jaga kirjed lehtedeks: igal lehel kuni MAX_ROWS kirjet, mis korguselt mahuvad."""
+    pages, cur, used = [], [], 0
+    for e in entries:
+        rh, tf, tlines, bands = measure(d, fonts, e)
+        if cur and (len(cur) >= MAX_ROWS or START_Y + used + rh > ROW_LIMIT):
+            pages.append(cur)
+            cur, used = [], 0
+        cur.append([e, rh, tf, tlines, bands])
+        used += rh
+    if cur:
+        pages.append(cur)
+    return pages
+
+def pick_logo(logo_dir):
+    variants = ["v1", "v2", "v5", "v8", "v9", "v10"]
+    random.shuffle(variants)
+    for v in variants:
+        p = os.path.join(logo_dir, f"{v}.png")
+        if os.path.exists(p):
+            return p
+    return None
+
+def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
+                fonts, overflow=0):
     img = Image.new("RGB", (W, H), PABER)
     d = ImageDraw.Draw(img)
-
-    x_date = MARGIN
-    x_body = MARGIN + 148
-    x_end = W - MARGIN
-    body_w = x_end - x_body
 
     # ---- pais ----
     d.text((MARGIN, 48), "SKENE.INFO  ·  EESTI ALTERNATIIV", font=fonts["eyebrow"], fill=HALL)
@@ -165,86 +214,54 @@ def render(entries, ws, we, logo_dir, out_path):
         rng = f"{ws.day}.–{we.day}. {KUUD_GEN[ws.month]} {we.year}"
     else:
         rng = f"{ws.day}. {KUUD_GEN[ws.month]} – {we.day}. {KUUD_GEN[we.month]} {we.year}"
-    n = len(entries)
-    sub = f"{rng}  ·  {n} kirje" + ("" if n == 1 else "t")
-    sub_y = 82 + 84 + 88
-    d.text((MARGIN, sub_y), sub, font=fonts["sub"], fill=TELLISKIVI)
+    sub = f"{rng}  ·  {total_n} kirje" + ("" if total_n == 1 else "t")
+    if n_pages > 1:
+        sub += f"  ·  {page_no}/{n_pages}"
+    d.text((MARGIN, SUB_Y), sub, font=fonts["sub"], fill=TELLISKIVI)
 
-    # ---- logo nurka (juhuslik variant) ----
-    variants = ["v1", "v2", "v5", "v8", "v9", "v10"]
-    random.shuffle(variants)
-    for v in variants:
-        p = os.path.join(logo_dir, f"{v}.png")
-        if os.path.exists(p):
-            logo = Image.open(p).convert("RGBA").resize((128, 128), Image.LANCZOS)
-            img.paste(logo, (W - MARGIN - 128, 52), logo)
-            break
+    # ---- logo nurka (sama variant koigil lehtedel) ----
+    if logo_path:
+        logo = Image.open(logo_path).convert("RGBA").resize((128, 128), Image.LANCZOS)
+        img.paste(logo, (W - MARGIN - 128, 52), logo)
 
-    top = sub_y + 46
-    d.line([(MARGIN, top), (W - MARGIN, top)], fill=TINT, width=3)
+    d.line([(MARGIN, TOP), (W - MARGIN, TOP)], fill=TINT, width=3)
 
-    # ---- reakorguse mootmine ----
-    def measure(e):
-        tf = fonts["title"] if len(e.get("n", "")) < 40 else fonts["title_s"]
-        tlines = wrap(d, e.get("n", ""), tf, body_w, 2)
-        bands = " · ".join(e.get("b", [])) if e.get("b") else e.get("a", "")
-        h = 30 + len(tlines) * (tf.size + 3)
-        if bands:
-            h += fonts["bands"].size + 8
-        h += fonts["venue"].size + 6
-        return max(h, 70) + 16, tf, tlines, bands
-
-    foot_h = 120
-    row_limit = (H - foot_h) - 16
-    start_y = top + 8
-
-    # vali mahtuvad read (jata overflow-reale ruumi)
-    picks = []
-    used = 0
-    for i, e in enumerate(entries):
-        rh, tf, tlines, bands = measure(e)
-        remaining = len(entries) - i
-        reserve = 40 if remaining > 1 else 0
-        if len(picks) >= MAX_ROWS or start_y + used + rh > row_limit - reserve:
-            break
-        picks.append([e, rh, tf, tlines, bands])
-        used += rh
-    overflow = len(entries) - len(picks)
+    used = sum(r[1] for r in rows)
 
     # jaota vaba ruum ridade vahele (tasakaal, kui pole overflow'i)
-    slack = row_limit - (start_y + used)
+    slack = ROW_LIMIT - (START_Y + used)
     gap = 0
-    if overflow == 0 and len(picks) > 0 and slack > 0:
-        gap = min(slack / len(picks), 46)
+    if overflow == 0 and len(rows) > 0 and slack > 0:
+        gap = min(slack / len(rows), 46)
 
     WDAY = ["E", "T", "K", "N", "R", "L", "P"]
-    y = start_y
-    for e, rh, tf, tlines, bands in picks:
+    y = START_Y
+    for e, rh, tf, tlines, bands in rows:
         ry = int(y + gap * 0.35)
         s, en = event_span(e)
         col = TYPE_COLOR.get(e.get("t"), HALL)
 
-        d.text((x_date, ry + 2), f"{s.day:02d}.{s.month:02d}", font=fonts["date"], fill=TINT)
+        d.text((X_DATE, ry + 2), f"{s.day:02d}.{s.month:02d}", font=fonts["date"], fill=TINT)
         if e.get("t") in ("reliis", "merch") or e.get("rel"):
-            d.text((x_date, ry + 44), e.get("t", "reliis"), font=fonts["wday"], fill=col)
+            d.text((X_DATE, ry + 44), e.get("t", "reliis"), font=fonts["wday"], fill=col)
         else:
             wl = WDAY[s.weekday()]
             if e.get("d2"):
                 wl += f" – {en.day:02d}.{en.month:02d}"
-            d.text((x_date, ry + 44), wl, font=fonts["wday"], fill=HALL)
+            d.text((X_DATE, ry + 44), wl, font=fonts["wday"], fill=HALL)
 
         lbl = TYPE_LABEL.get(e.get("t"), e.get("t", "").upper())
         tw2 = d.textlength(lbl, font=fonts["tag"])
-        d.rectangle([x_body, ry, x_body + tw2 + 16, ry + 25], fill=col)
-        d.text((x_body + 8, ry + 3), lbl, font=fonts["tag"],
+        d.rectangle([X_BODY, ry, X_BODY + tw2 + 16, ry + 25], fill=col)
+        d.text((X_BODY + 8, ry + 3), lbl, font=fonts["tag"],
                fill=(PABER if col != SINEP else TINT))
 
         ty = ry + 32
         for ln in tlines:
-            d.text((x_body, ty), ln, font=tf, fill=TINT)
+            d.text((X_BODY, ty), ln, font=tf, fill=TINT)
             ty += tf.size + 3
         if bands:
-            d.text((x_body, ty + 2), ellip(d, bands, fonts["bands"], body_w),
+            d.text((X_BODY, ty + 2), ellip(d, bands, fonts["bands"], BODY_W),
                    font=fonts["bands"], fill=HALL)
             ty += fonts["bands"].size + 8
 
@@ -256,22 +273,22 @@ def render(entries, ws, we, logo_dir, out_path):
         pw = 0
         if pt:
             ptt = ("Pilet: " + pt) if e.get("t") not in ("reliis", "merch") else pt
-            ptt = ellip(d, ptt, fonts["price"], int(body_w * 0.5))  # hind max pool laiust
+            ptt = ellip(d, ptt, fonts["price"], int(BODY_W * 0.5))  # hind max pool laiust
             pw = d.textlength(ptt, font=fonts["price"])
-        d.text((x_body, ty + 2), ellip(d, loc, fonts["venue"], body_w - (pw + 24 if pw else 0)),
+        d.text((X_BODY, ty + 2), ellip(d, loc, fonts["venue"], BODY_W - (pw + 24 if pw else 0)),
                font=fonts["venue"], fill=TINT)
         if ptt:
-            d.text((x_end - pw, ty + 4), ptt, font=fonts["price"], fill=PAATINA)
+            d.text((X_END - pw, ty + 4), ptt, font=fonts["price"], fill=PAATINA)
 
         y += rh + gap
         d.line([(MARGIN, int(y) - 11), (W - MARGIN, int(y) - 11)], fill=JOON, width=1)
 
     if overflow > 0:
-        d.text((x_body, int(y) + 8), f"+ veel {overflow} üritust — vaata skene.info",
+        d.text((X_BODY, int(y) + 8), f"+ veel {overflow} üritust — vaata skene.info",
                font=fonts["more"], fill=TELLISKIVI)
 
     # ---- footer ----
-    fy = H - foot_h
+    fy = H - FOOT_H
     d.rectangle([0, fy, W, H], fill=TINT)
     d.text((MARGIN, fy + 28), "skene.info", font=fonts["foot_b"], fill=PABER)
     d.text((MARGIN, fy + 70), "üritused · reliisid · merch", font=fonts["foot_r"], fill=JOON)
@@ -283,7 +300,14 @@ def render(entries, ws, we, logo_dir, out_path):
            font=fonts["foot_r"], fill=JOON)
 
     img.save(out_path, "JPEG", quality=90)
-    return out_path, len(picks), overflow
+    return out_path
+
+def page_path(base_out, i):
+    """1. leht = base_out; jargmised -2, -3 jne enne laiendit."""
+    if i == 1:
+        return base_out
+    root, ext = os.path.splitext(base_out)
+    return f"{root}-{i}{ext}"
 
 def main():
     ap = argparse.ArgumentParser()
@@ -315,9 +339,37 @@ def main():
     if not sel:
         print(f"Aken {ws}..{we}: 0 Eesti kirjet - pilti ei tehtud.")
         return
-    path, shown, overflow = render(sel, ws, we, args.logo_dir, out)
-    print(f"OK: {path}  ({shown} pildil" + (f", +{overflow} ule aare" if overflow else "")
-          + f"; aken {ws}..{we})")
+
+    fonts = load_fonts()
+    d0 = ImageDraw.Draw(Image.new("RGB", (W, H), PABER))  # ainult mootmiseks
+    pages = paginate(d0, fonts, sel)
+
+    overflow = 0
+    if len(pages) > MAX_PAGES:
+        cut = pages[MAX_PAGES:]
+        overflow = sum(len(p) for p in cut)
+        pages = pages[:MAX_PAGES]
+        # viimasele lehele peab "+N veel" rida ara mahtuma
+        last = pages[-1]
+        while last and START_Y + sum(r[1] for r in last) > ROW_LIMIT - 50:
+            overflow += 1
+            last.pop()
+
+    logo_path = pick_logo(args.logo_dir)
+    n_pages = len(pages)
+    paths = []
+    for i, rows in enumerate(pages, start=1):
+        p = render_page(rows, ws, we, len(sel), i, n_pages, logo_path,
+                        page_path(out, i), fonts,
+                        overflow=(overflow if i == n_pages else 0))
+        paths.append(p)
+
+    shown = sum(len(p_) for p_ in pages)
+    print(f"OK: {shown} kirjet {n_pages} pildil"
+          + (f", +{overflow} ule aare" if overflow else "")
+          + f"; aken {ws}..{we}")
+    for p in paths:
+        print(f"  {p}")
 
 if __name__ == "__main__":
     main()
