@@ -85,6 +85,7 @@
    {"nimi": "Kluub.ee", "url": "https://www.kluub.ee", "nb": "linnapõhine üritusteplatvorm"},
    {"nimi": "Onlinepilet.ee", "url": "https://onlinepilet.ee", "nb": "piletimüük"},
    {"nimi": "Kultuuriaken (Tartu linn)", "url": "https://kultuuriaken.tartu.ee", "nb": "Tartu linna ametlik kultuurikalender - potentsiaalselt hea üldallikas kõigile Tartu üritustele, mitte ainult sellele festivalile"},
+   {"nimi": "GateMe (Eesti)", "url": "https://gateme.com/et/Estonia/", "nb": "lisatud 11.07.2026 (Silveri soov): piletiplatvorm, Eesti klubi-/kontserdiüritused; JS-renderdus, käi läbi Chrome-kihis; žanri-agnostiline - filtreeri skoop"},
    {"nimi": "Piletimaailm", "url": "https://www.piletimaailm.com", "nb": "piletimüük; korraldaja timeline nt piletimaailm.com/organizers/timeline/341 - varem registreerimata"},
    {"nimi": "Piletilevi", "url": "https://www.piletilevi.ee", "nb": "seni ainult rap-sektsioonis registreeritud (js_saidid all) ja seal JS+API 403 serverist; series-lehed nt piletilevi.ee/series/F72OXZFHHH kasulikud korraldaja jälgimiseks Chrome-sweepis"}
   ]

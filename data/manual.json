@@ -78,6 +78,26 @@
  },
  {
   "d": "2026-07-10",
+  "t": "kontsert",
+  "n": "Tallinn Indie Shuffle: Around the Sun + Cottonmoth + The Camera",
+  "b": [
+   "Around the Sun",
+   "Cottonmoth",
+   "The Camera"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "alt",
+   "rock"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/events/1752234862578425/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1752234862578425/"
+ },
+ {
+  "d": "2026-07-10",
   "d2": "11.07",
   "t": "festival",
   "n": "Tartu Rock Fest 2026",
