@@ -56,6 +56,8 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .content{padding-top:16px}
 .frow{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:9px;align-items:center}
 .flabel{font-family:var(--mono);font-size:11px;color:var(--hall);min-width:56px;text-transform:uppercase}
+.qin{font-family:var(--mono);font-size:12px;padding:5px 9px;border:1.5px solid var(--hall);background:transparent;color:inherit;min-width:220px}
+.qin:focus{outline:none;border-color:var(--tint)}
 .chip{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:transparent;color:var(--tint);padding:4px 11px;cursor:pointer;border-radius:0}
 .chip:hover,.chip.on{background:var(--tint);color:var(--paber)}
 .count{font-family:var(--mono);font-size:12px;color:var(--hall);padding:12px 0 2px;border-top:1px solid var(--joon);margin-top:10px}
@@ -92,6 +94,8 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .lnks .a3:hover{background:var(--tyrkiis);color:var(--paber)}
 .lnks .a4{color:var(--hall)}
 .lnks .a4:hover{color:var(--tint)}
+.lnks .rep{color:var(--hall);opacity:.75}
+.lnks .rep:hover{color:var(--tint);opacity:1}
 .lnks a:hover{text-decoration:underline}
 .lnks .a3:hover{text-decoration:none}
 .cform{display:flex;flex-direction:column;gap:7px;margin-top:8px}
@@ -193,6 +197,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
     <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
     <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
+    <div class="frow"><span class="flabel" data-i18n="f_q_l">Otsi</span><input id="f-q" class="qin" type="search" oninput="setQ(this.value)" data-i18n-ph="ph_q" placeholder="artist, koht, üritus…"></div>
     <p class="count" id="count"></p>
     <div id="list"></div>
     <div class="footer">
@@ -231,6 +236,8 @@ const I18N={
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
+  report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
+  f_q_l:"Otsi", ph_q:"artist, koht, üritus…",
   cal_google:"+ GOOGLE KALENDER", cal_apple:"+ APPLE/ICS",
   on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
   months:["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"]
@@ -258,6 +265,8 @@ const I18N={
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
+  report_err:"✎ report an error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
+  f_q_l:"Search", ph_q:"artist, venue, event…",
   cal_google:"+ GOOGLE CALENDAR", cal_apple:"+ APPLE/ICS",
   on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
   months:["January","February","March","April","May","June","July","August","September","October","November","December"]
@@ -303,7 +312,7 @@ const E_FALLBACK = [
 ];
 const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"]];
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
-let st={type:null,tags:new Set(),city:null,past:false,kuu:null};
+let st={type:null,tags:new Set(),city:null,past:false,kuu:null,q:""};
 function tags(){const s=new Set();E.forEach(e=>e.g.forEach(g=>s.add(g)));return[...s].sort();}
 function enc(x){return encodeURIComponent(x);}
 const IC={
@@ -369,8 +378,31 @@ function fmt(e){
   if(e.d2)s+="–<br>"+e.d2;
   return s;
 }
+function norm(s){return (s||"").toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+function matchQ(e){
+  if(!st.q)return true;
+  const hay=norm([e.n,e.a,e.v,e.linn,e.c,(e.b||[]).join(" "),(e.g||[]).join(" ")].join(" | "));
+  return st.q.split(/\s+/).every(w=>hay.includes(w));
+}
+function setQ(v){st.q=norm(v.trim());render();}
+let RROWS=[];
+function suggestEdit(i){
+  const e=RROWS[i];if(!e)return false;
+  const det=document.querySelector('.cdet');if(!det)return false;
+  det.open=true;
+  const f=det.querySelector('form');
+  f.querySelector('[name="Uritus / reliis"]').value=e.n;
+  f.querySelector('[name="Kuupaev ja koht"]').value=e.d+(e.d2?"–"+e.d2:"")+(e.v?", "+e.v:"")+(e.linn?", "+e.linn:(e.c&&e.c!=="mujal"?", "+e.c:""));
+  f.querySelector('[name="Link"]').value=e.ou||e.su||"";
+  const li=f.querySelector('[name="Lisainfo"]');
+  li.value=t('report_prefix');
+  det.scrollIntoView({behavior:'smooth',block:'start'});
+  setTimeout(function(){li.focus();li.setSelectionRange(li.value.length,li.value.length);},450);
+  return false;
+}
 function render(){
   let rows=E.filter(e=>{
+    if(!matchQ(e))return false;
     if(st.type&&e.t!==st.type)return false;
     if(st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
@@ -387,7 +419,8 @@ function render(){
   document.getElementById("count").textContent=rows.length+" "+t('entries')
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
     +(st.tags.size?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
-  document.getElementById("list").innerHTML=rows.map(e=>{
+  RROWS=rows;
+  document.getElementById("list").innerHTML=rows.map((e,i)=>{
     const past=!featured(e)&&!e.tba&&e.d<TODAY;
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
@@ -401,6 +434,7 @@ function render(){
     if(e.yu)lnks+=`<br><a class="a2" href="${e.yu}" target="_blank" rel="noopener">YouTube ↗</a>`;
     const cal=calLinks(e);
     if(cal)lnks+=`<br>${cal}`;
+    lnks+=`<br><a class="rep" href="#" onclick="return suggestEdit(${i})">${t('report_err')}</a>`;
     return `<div class="row${past?" past":""}">
       <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<br><span class="laebi">'+t('lbl_past')+'</span>':""}</div>
       <div>

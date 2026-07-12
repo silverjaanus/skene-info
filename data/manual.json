@@ -1619,6 +1619,33 @@
   "pu": "https://www.piletitasku.ee/et/event/9350"
  },
  {
+  "d": "2026-07-18",
+  "t": "kontsert",
+  "n": "Mihkli laada simman: Vennaskond + Flyers",
+  "a": "Mihkli laat 36 õhtune simman; algus 20.00",
+  "b": [
+   "Vennaskond",
+   "Flyers"
+  ],
+  "v": "Mihkli laadaplats",
+  "c": "mujal",
+  "linn": "Mihkli (Pärnumaa)",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://mihklilaat.ee/kulastajale/programm/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/887538427114767",
+  "pu": "https://fienta.com/et/mihkli-laat-187892",
+  "hind": {
+   "praegu": "12€ eelmüük / 15€ laadapäeval",
+   "mark": "kohapeal 20€; laps kuni 10 a tasuta; simman algab 20.00",
+   "allikas": "Fienta, kontrollitud 12.07.2026"
+  }
+ },
+ {
   "d": "2026-07-19",
   "t": "kontsert",
   "n": "Project Dekadenz + Yakubutsu + Fern Flower",
