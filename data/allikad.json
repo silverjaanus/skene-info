@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11",
+ "updated": "2026-07-12",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -181,6 +181,10 @@
     {
      "n": "Tartu Rock Fest 2026",
      "u": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/"
+    },
+    {
+     "n": "Veriora Rock Stroganoff",
+     "u": "https://www.facebook.com/veriorarock.stroganoff/"
     }
    ]
   },

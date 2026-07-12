@@ -16,7 +16,7 @@
   {"nimi": "Linna Bar", "url": "", "tyyp": "venue", "nb": "EI LEITUD 05.07.2026: linnabaar ei tööta, FB otsing ei anna - kirjed tulevad Bandsintownist"},
   {"nimi": "Heavy Music Estonia", "url": "", "tyyp": "kogukond", "nb": "EI LEITUD 05.07.2026: heavymusicestonia ei tööta, FB otsing ei anna - heavymusic.ee RSS on automaatkihis olemas"},
   {"nimi": "Mahtra Records", "url": "https://www.facebook.com/mahtrarecords", "tyyp": "label", "nb": "reliisid; Bandcamp serverist blokitud"},
-  {"nimi": "Nailboard Rock Shop", "url": "https://www.facebook.com/nailboardshop", "tyyp": "pood", "nb": "merch; WooCommerce 'viimati saabunud' ka olemas"},
+  {"nimi": "Nailboard Rock Shop", "url": "https://www.facebook.com/nailboardshop", "tyyp": "pood", "nb": "merch; WooCommerce 'viimati saabunud' ka olemas; FB URL andis 12.07.2026 'content isn't available' - kontrolli handle või kasuta nailboard.org"},
   {"nimi": "Helinihe", "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events", "tyyp": "pood/kultuuripunkt", "nb": "lisatud 09.07.2026 (Silver); Nõmme turg, plaadipood + kultuuripunkt; underground, seotud Trash Can Dance labeliga; jälgi nii üritusi kui reliise/merchi"},
   {"nimi": "Black Revalia / Howls of Winter", "url": "https://howlsofwinter.eu/", "tyyp": "festival", "nb": "lisatud 07.07.2026; Tallinna talvine black-metal festival (Howls of Winter XIV, 04-06.02.2027); praegu koosseis+piletid TBA (eelmüük sept 2026); korraldaja Black Revalia, info@blackrevalia.eu, FB otsi 'Black Revalia'. Jälgi ka poolikute kirjete ülekontrollis (samm 2b)"},
   {"nimi": "Kidrakuur", "url": "https://www.facebook.com/Kidrakuur/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); URL SURNUD 11.07.2026 ('content isn't available') - Silveril õige handle täpsustada"},
@@ -126,17 +126,18 @@
    {"nimi": "Genialistide Klubi (Tartu)", "url": "https://www.facebook.com/GenKlubi/", "tyyp": "venue", "nb": "subkultuurimaja, ~400 üritust/aastas, laiem kui punk aga sobib rock/punk ulatusega"},
    {"nimi": "Punk & Rock Festival Estonia", "url": "https://www.facebook.com/punkrockfestival/", "tyyp": "festival", "nb": "Raadi mõisapark, Tartu; 2026 väljaanne KINNITAMATA otsingu seisuga - kontrolli FB otse"},
    {"nimi": "Tartu Rock Fest 2026", "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/", "tyyp": "festival", "nb": "10.-11.07.2026, Tartu Laululava, korraldaja Tartu Kontsert; VARASEMALT BLOKEERITUD 'mitte metal' pärast - blocklistist eemaldatud 06.07.2026 ulatuse laienemise tõttu"},
-   {"nimi": "Saund (Hiiumaa)", "url": "https://saund.ee/", "tyyp": "festival", "nb": "peamiselt elektrooniline/eksperimentaalne, aga 2026 (23.-25.07) punk/alt-rock laval Ülase12 kureerituna"}
+   {"nimi": "Saund (Hiiumaa)", "url": "https://saund.ee/", "tyyp": "festival", "nb": "peamiselt elektrooniline/eksperimentaalne, aga 2026 (23.-25.07) punk/alt-rock laval Ülase12 kureerituna; 12.07.2026: lineup saidi tekstist endiselt kättesaamatu (JS/pildid), jäetud välja"},
+   {"nimi": "Veriora Rock Stroganoff", "url": "https://www.facebook.com/veriorarock.stroganoff/", "tyyp": "festival", "nb": "lisatud 12.07.2026 (leid FB suggested-events kaudu): Räpina valla suverokipidu Veriora järve ääres 14.08.2026, korraldaja Veriora Raudvara (heavy-punk); teine allikas kultuur.rapina.ee; lineup+pilet TBA - jälgi poolikute kirjete ülekontrollis"}
   ]
  },
  "bandcamp_otsing": {
-  "nb": "Lisatud 06.07.2026. KATKI 11.07.2026: bandcamp.com/discover?g=..&gn=453733 suunab nüüd geneerilisele /discover lehele (geoname-parameeter kaob, tulemused globaalsed) - vajab uut lähenemist (nt tag-lehed bandcamp.com/tag/estonia?g=metal). Cloudflare blokeerib serveripäringud - AINULT Chrome-kihis.",
+  "nb": "Lisatud 06.07.2026. PARANDATUD 12.07.2026: uus töötav formaat on tag-kombinatsioon bandcamp.com/discover/estonia?tags=<zanr>&s=new (sorteering 'new'; NB: 's=new' järjestus paistab olevat üleslaadimise, mitte release-kuupäeva järgi - kontrolli release-kuupäev alati albumi lehelt). Cloudflare blokeerib serveripäringud - AINULT Chrome-kihis.",
   "urls": [
-   {"zanr": "metal", "url": "https://bandcamp.com/discover?g=metal&gn=453733"},
-   {"zanr": "punk", "url": "https://bandcamp.com/discover?g=punk&gn=453733"},
-   {"zanr": "rock", "url": "https://bandcamp.com/discover?g=rock&gn=453733"},
-   {"zanr": "industrial/dark-electro", "url": "https://bandcamp.com/discover?g=industrial&gn=453733"},
-   {"zanr": "black metal (alažanri näide)", "url": "https://bandcamp.com/discover/black-metal?gn=453733"}
+   {"zanr": "metal", "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new"},
+   {"zanr": "punk", "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new"},
+   {"zanr": "rock", "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new"},
+   {"zanr": "industrial/dark-electro", "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new"},
+   {"zanr": "black metal (alažanri näide)", "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new"}
   ]
  }
 }

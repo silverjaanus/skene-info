@@ -441,8 +441,8 @@
  {
   "d": "2026-08-08",
   "t": "klubi",
-  "n": "BFTV: Beats From The Vault",
-  "a": "line-up soon",
+  "n": "BFTV: Beats From The Vault — Dark Souls Meeting",
+  "a": "Back to HALL! Kolm saali (Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile); line-up soon",
   "b": [],
   "v": "HALL",
   "c": "Tallinn",
@@ -455,6 +455,9 @@
   ],
   "sn": "bftv.ee",
   "su": "https://bftv.ee/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2213429046145152/",
+  "pu": "https://bftv.ee/",
   "yu": "https://www.youtube.com/beatsfromthevault"
  },
  {
@@ -1725,5 +1728,43 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1468527551938865/",
   "nb": "koosseis kinnitamata (open call) - kontrolli lineup hiljem; lisatud 11.07.2026"
+ },
+ {
+  "tba": 1,
+  "d": "2026-08-14",
+  "t": "festival",
+  "n": "Veriora Rock Stroganoff 2026",
+  "a": "Räpina valla suverokipidu Veriora järve ääres; kell 17.00–01.00; koosseis ja piletiinfo täpsustamisel",
+  "b": [],
+  "v": "Veriora laululava",
+  "c": "mujal",
+  "linn": "Veriora",
+  "g": [
+   "rock"
+  ],
+  "sn": "kultuur.rapina.ee",
+  "su": "https://kultuur.rapina.ee/event/veriora-rock-stroganoff-2026-veriora-jarve-aares/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2523939991376969/",
+  "nb": "lineup TBA, piletiinfo 'täpsustamisel' (kultuur.rapina.ee); korraldaja Veriora Raudvara (heavy-punk bänd); kuupäev+koht kinnitatud 2 allikaga 12.07.2026"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-01",
+  "lisatud": "2026-07-12",
+  "t": "reliis",
+  "n": "Korjus — «I»",
+  "a": "atmosfääriline black metal / blackgaze / post-metal; 4 lugu, 28 min; salvestatud jaan–juuni 2026",
+  "b": [
+   "Korjus"
+  ],
+  "v": "Bandcamp",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "post"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://korjus.bandcamp.com/album/i"
  }
 ]
