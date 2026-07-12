@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-09",
+ "updated": "2026-07-12",
  "bands": {
   "200 Stab Wounds": {
    "sp": "https://open.spotify.com/artist/6DH6xC3RoN7L7sGlJ60LKv",
@@ -82,6 +82,12 @@
    "bc": "https://bestia-ee.bandcamp.com/",
    "yt": true
   },
+  "Black Raptus": {
+   "sp": "https://open.spotify.com/artist/0waMr3oerUUmjVjXouR4Wl",
+   "bc": "https://blackraptus.bandcamp.com",
+   "yt": true,
+   "note": "Itaalia black metal"
+  },
   "Blisterous": {
    "bc": "https://blisterous-fin.bandcamp.com/",
    "note": "Soome goregrind (Joensuu); BC-link FB eventist 11.07.2026"
@@ -144,6 +150,12 @@
    "sp": "https://open.spotify.com/artist/3wkLoc9LoGIfDR7UktYgbR",
    "bc": "https://dramamama.bandcamp.com/",
    "yt": true
+  },
+  "Drengskapur": {
+   "sp": "https://open.spotify.com/artist/77nIjNQiTUUk0THiorNDwC",
+   "bc": "https://drengskapur.bandcamp.com",
+   "yt": true,
+   "note": "Saksa black metal (Berliin)"
   },
   "E.X.E.X.": {
    "note": "ei leitud üheltki platvormilt (09.07.2026)"
@@ -224,6 +236,12 @@
   "Hatebreed": {
    "sp": "https://open.spotify.com/artist/17Mb968quDHpjCkIyq30QV",
    "yt": true
+  },
+  "Herald": {
+   "sp": "https://open.spotify.com/artist/4HBkflAK9r8MZP57QarafA",
+   "bc": "https://heraldmetal.bandcamp.com",
+   "yt": true,
+   "note": "Eesti heavy metal (herald.ee)"
   },
   "Homebroke": {
    "note": "ei leitud üheltki platvormilt (09.07.2026)"
@@ -334,6 +352,11 @@
    "bc": "https://napalmdeath.bandcamp.com/",
    "yt": true
   },
+  "Nevesis": {
+   "sp": "https://open.spotify.com/artist/2NTjPJ570DUgMGb3Devahn",
+   "bc": "https://nevesis.bandcamp.com",
+   "yt": true
+  },
   "Nothing": {
    "sp": "https://open.spotify.com/artist/60mqEPQp1eNjuwt1Z4yL4J",
    "bc": "https://nothing.bandcamp.com",
@@ -345,6 +368,12 @@
    "bc": "https://numento.bandcamp.com",
    "yt": true
   },
+  "Odium Humani Generis": {
+   "sp": "https://open.spotify.com/artist/2AddxutXZuIOQeP8zHtUdM",
+   "bc": "https://ohgofficial.bandcamp.com",
+   "yt": true,
+   "note": "Poola black metal"
+  },
   "Ohvrikivi": {
    "bc": "https://mahtrarecords.bandcamp.com/",
    "note": "ainult Mahtra Recordsi Bandcampis"
@@ -353,6 +382,10 @@
    "sp": "https://open.spotify.com/artist/7k29FbDq69ju2fe6zTskxY",
    "ym": "https://music.youtube.com/channel/UCUVTuUnzbPzBTDeFJP3BSpw",
    "bc": "https://orbitculture.bandcamp.com",
+   "yt": true
+  },
+  "P.O.D.": {
+   "sp": "https://open.spotify.com/artist/6KO6G41BBLTDNYOLefWTMU",
    "yt": true
   },
   "Pagansarv": {
@@ -555,6 +588,12 @@
    "bc": "https://tyrband.bandcamp.com",
    "yt": true
   },
+  "Unholy Obscurity": {
+   "sp": "https://open.spotify.com/artist/2QQ8jf91IFkUOMTUeMu8Nf",
+   "bc": "https://unholyobscurity.bandcamp.com",
+   "yt": true,
+   "note": "Austria black metal"
+  },
   "Urduk": {
    "bc": "https://mahtrarecords.bandcamp.com/album/pimedus-saabugu",
    "note": "ainult Mahtra Recordsi Bandcampis"
@@ -578,6 +617,11 @@
    "bc": "https://wardruna.bandcamp.com",
    "yt": true
   },
+  "White Lies": {
+   "sp": "https://open.spotify.com/artist/6ssXMmc5EOUrauZxirM910",
+   "yt": true,
+   "note": "UK post-punk/indie"
+  },
   "Whitechapel": {
    "sp": "https://open.spotify.com/artist/5274obTQJjzjyycRyJlfml",
    "bc": "https://whitechapelmetal.bandcamp.com",
@@ -595,6 +639,11 @@
   "Yoth Iria": {
    "sp": "https://open.spotify.com/artist/3tcBc9lN5ncBG7KNTKB1o1",
    "bc": "https://yothiria.bandcamp.com",
+   "yt": true
+  },
+  "Ziegenhorn": {
+   "sp": "https://open.spotify.com/artist/2f07PM9i751yLhxwLOsEWm",
+   "bc": "https://ziegenhorn.bandcamp.com",
    "yt": true
   },
   "metropol": {
