@@ -630,14 +630,18 @@
    "d2": "02.08",
    "t": "festival",
    "n": "Tallinn Rock Festival",
-   "a": "+ P.O.D., White Lies jt",
    "b": [
-    "Scorpions",
     "Sepultura",
+    "Scorpions",
     "Godsmack",
+    "P.O.D.",
+    "White Lies",
     "Hatebreed",
     "Goresoerd",
-    "Kannabinõid"
+    "Herald",
+    "Kannabinõid",
+    "Nevesis",
+    "Pedigree"
    ],
    "v": "Unibet Arena kvartal",
    "c": "Tallinn",
@@ -1259,7 +1263,12 @@
     "Sisyphean",
     "Loathfinder",
     "Moonstruck",
-    "Indren"
+    "Indren",
+    "Unholy Obscurity",
+    "Drengskapur",
+    "Ziegenhorn",
+    "Odium Humani Generis",
+    "Black Raptus"
    ],
    "v": "Klubi Rock & Roll",
    "c": "Tartu",
@@ -1311,7 +1320,7 @@
    "d": "2026-10-17",
    "t": "festival",
    "n": "Sindi Rock 2026",
-   "a": "Eesti vanim rockfestival aastast 1969; uksed 18.00, esimene bänd 19.00",
+   "a": "Eesti vanim rockfestival (aastast 1969); peaesineja Kosmikud, The Tuberkuloited 35, Sibyl Vane (album VORTEX), EiK, Raev",
    "b": [
     "Kosmikud",
     "The Tuberkuloited",
@@ -1321,20 +1330,23 @@
    ],
    "v": "Sindi Seltsimaja",
    "c": "mujal",
+   "linn": "Sindi",
    "g": [
     "rock",
     "alt",
-    "metal"
+    "punk",
+    "metal",
+    "thrash"
    ],
-   "sn": "kontaktivorm",
+   "sn": "Fienta",
    "su": "https://fienta.com/et/sindirock2026",
    "on_": "Fienta",
    "ou": "https://fienta.com/et/sindirock2026",
    "pu": "https://fienta.com/et/sindirock2026",
    "hind": {
-    "praegu": "26€ (varajane, limiteeritud) / 31€ (eelmüük) / 35€ (uksel)",
-    "mark": "toetajapilet 50€; õpilane/pensionär/puudega 26€; eelmüük kuni 16.10",
-    "allikas": "Fienta, kontrollitud 11.07.2026"
+    "praegu": "26€ (varajane) / 31€ (eelmüük) / 35€ (uksel)",
+    "mark": "eelmüük kuni 16.10; toetajapilet 50€; õpilane/pensionär/puue 26€; uksed 18.00, esimene bänd 19.00",
+    "allikas": "Fienta (Tori Valla Kultuurikeskus), kontrollitud 12.07.2026"
    }
   },
   {
