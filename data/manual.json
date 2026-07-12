@@ -134,7 +134,11 @@
   "on_": "Tartu Kontsert",
   "ou": "https://onlinepilet.ee/tartu-rock-fest-2026/",
   "pu": "https://onlinepilet.ee/toode/tartu-rock-fest-2-paeva/",
-  "hind": {"praegu": "87€ (2 päeva) / 47€ (1 päev)", "mark": "perepilet 120€; eelmüük, kohapeal kallim; Piletilevi 49–127€", "allikas": "onlinepilet.ee (Tartu Kontsert), kontrollitud 07.07.2026"}
+  "hind": {
+   "praegu": "87€ (2 päeva) / 47€ (1 päev)",
+   "mark": "perepilet 120€; eelmüük, kohapeal kallim; Piletilevi 49–127€",
+   "allikas": "onlinepilet.ee (Tartu Kontsert), kontrollitud 07.07.2026"
+  }
  },
  {
   "d": "2026-07-12",
@@ -155,7 +159,11 @@
   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1375338867849271/",
-  "hind": {"praegu": "10€ / 7€ (õpilased, alaealised)", "mark": "uksehind, ainult sularaha; uksed 17.00, muusika 18.00", "allikas": "Facebook event, kontrollitud 07.07.2026"}
+  "hind": {
+   "praegu": "10€ / 7€ (õpilased, alaealised)",
+   "mark": "uksehind, ainult sularaha; uksed 17.00, muusika 18.00",
+   "allikas": "Facebook event, kontrollitud 07.07.2026"
+  }
  },
  {
   "d": "2026-07-15",
@@ -166,7 +174,7 @@
   "b": [
    "C-JAM"
   ],
-  "v": "tuur",
+  "v": "Saka mõis / Kuressaare kuursaal / Tori kirik",
   "c": "mujal",
   "g": [
    "heavy",
@@ -216,7 +224,11 @@
   "on_": "fest.kabliku.com",
   "ou": "https://fest.kabliku.com/",
   "pu": "https://www.ticketer.ee/kabliku-beer-camp-rocknroll/",
-  "hind": {"praegu": "72.70€", "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda", "allikas": "ticketer.ee, kontrollitud 06.07.2026"}
+  "hind": {
+   "praegu": "72.70€",
+   "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda",
+   "allikas": "ticketer.ee, kontrollitud 06.07.2026"
+  }
  },
  {
   "d": "2026-07-17",
@@ -237,7 +249,11 @@
   "su": "https://www.facebook.com/events/1745558169975455/",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1745558169975455/",
-  "hind": {"praegu": "10€", "mark": "uksel, sularahas või kaardiga; kell 23.00–08.00", "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"}
+  "hind": {
+   "praegu": "10€",
+   "mark": "uksel, sularahas või kaardiga; kell 23.00–08.00",
+   "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+  }
  },
  {
   "d": "2026-07-17",
@@ -258,7 +274,11 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1440160684588061",
   "yu": "https://www.youtube.com/beatsfromthevault",
-  "hind": {"praegu": "5€", "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00", "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"}
+  "hind": {
+   "praegu": "5€",
+   "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00",
+   "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+  }
  },
  {
   "d": "2026-07-18",
@@ -280,7 +300,11 @@
   "sn": "Facebook event",
   "su": "https://www.facebook.com/events/1122766619570935",
   "pu": "https://fienta.com/et/the-exploited-tallinn-paavli",
-  "hind": {"praegu": "39€ / 30€ (noor)", "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00", "allikas": "Fienta, kontrollitud 07.07.2026"}
+  "hind": {
+   "praegu": "39€ / 30€ (noor)",
+   "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00",
+   "allikas": "Fienta, kontrollitud 07.07.2026"
+  }
  },
  {
   "d": "2026-07-21",
@@ -303,7 +327,11 @@
   "su": "https://www.facebook.com/events/1275986611278256",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1275986611278256",
-  "hind": {"praegu": "10€ / 7€ (õpilased)", "mark": "uksehind (\"support\"); uksed 19.00", "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"}
+  "hind": {
+   "praegu": "10€ / 7€ (õpilased)",
+   "mark": "uksehind (\"support\"); uksed 19.00",
+   "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+  }
  },
  {
   "d": "2026-07-22",
@@ -325,7 +353,11 @@
   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1939366306773298/",
-  "hind": {"praegu": "10€ / 7€ (õpilased, alaealised)", "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 19.30", "allikas": "Facebook event, kontrollitud 07.07.2026"}
+  "hind": {
+   "praegu": "10€ / 7€ (õpilased, alaealised)",
+   "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 19.30",
+   "allikas": "Facebook event, kontrollitud 07.07.2026"
+  }
  },
  {
   "d": "2026-07-23",
@@ -347,7 +379,11 @@
   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1535064547976191/",
-  "hind": {"praegu": "10€ / 7€ (õpilased, alaealised)", "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 20.00", "allikas": "Facebook event, kontrollitud 07.07.2026"}
+  "hind": {
+   "praegu": "10€ / 7€ (õpilased, alaealised)",
+   "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 20.00",
+   "allikas": "Facebook event, kontrollitud 07.07.2026"
+  }
  },
  {
   "d": "2026-07-24",
@@ -427,7 +463,7 @@
   "b": [
    "C-JAM"
   ],
-  "v": "tuur",
+  "v": "Padise klooster / Antoniuse õu (Tartu) / Suuremõisa loss / Kolga mõis",
   "c": "mujal",
   "g": [
    "heavy",
@@ -528,7 +564,9 @@
   ],
   "sn": "Facebook event",
   "su": "https://www.facebook.com/events/1063635092993606",
-  "hind": {"praegu": "tasuta"}
+  "hind": {
+   "praegu": "tasuta"
+  }
  },
  {
   "d": "2026-08-29",
@@ -720,7 +758,11 @@
   "on_": "Fienta",
   "ou": "https://fienta.com/et/sindirock2026",
   "pu": "https://fienta.com/et/sindirock2026",
-  "hind": {"praegu": "26€ (varajane, limiteeritud) / 31€ (eelmüük) / 35€ (uksel)", "mark": "toetajapilet 50€; õpilane/pensionär/puudega 26€; eelmüük kuni 16.10", "allikas": "Fienta, kontrollitud 11.07.2026"}
+  "hind": {
+   "praegu": "26€ (varajane, limiteeritud) / 31€ (eelmüük) / 35€ (uksel)",
+   "mark": "toetajapilet 50€; õpilane/pensionär/puudega 26€; eelmüük kuni 16.10",
+   "allikas": "Fienta, kontrollitud 11.07.2026"
+  }
  },
  {
   "d": "2026-10-27",
@@ -761,7 +803,11 @@
   "sn": "pergerus.eu",
   "su": "https://pergerus.eu/tarbariitus",
   "pu": "https://fienta.com/tarbariitus-3",
-  "hind": {"praegu": "21€ / 39€ / 60€", "mark": "kolm hinnaklassi mahu järgi (Youth Inferno / Black Standard / Supporter of the Rite), mitte kuupäeva järgi - eelmüük kuni 08.10.2026", "allikas": "fienta.com, kontrollitud 06.07.2026"}
+  "hind": {
+   "praegu": "21€ / 39€ / 60€",
+   "mark": "kolm hinnaklassi mahu järgi (Youth Inferno / Black Standard / Supporter of the Rite), mitte kuupäeva järgi - eelmüük kuni 08.10.2026",
+   "allikas": "fienta.com, kontrollitud 06.07.2026"
+  }
  },
  {
   "d": "2026-11-11",
@@ -798,7 +844,11 @@
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=234103",
   "pu": "https://fienta.com/et/napalm-death-tallinn",
-  "hind": {"praegu": "45€ / 49€ (Late Bird)", "mark": "Early Bird 39€ välja müüdud; Supporter 65€; algus 19.00", "allikas": "Fienta, kontrollitud 07.07.2026"}
+  "hind": {
+   "praegu": "45€ / 49€ (Late Bird)",
+   "mark": "Early Bird 39€ välja müüdud; Supporter 65€; algus 19.00",
+   "allikas": "Fienta, kontrollitud 07.07.2026"
+  }
  },
  {
   "d": "2026-11-30",
@@ -1110,7 +1160,11 @@
   ],
   "sn": "Wacken Open Air",
   "su": "https://www.wacken.com/en/",
-  "hind": {"praegu": "351€", "mark": "\"Louder\" - viimane hinnaklass, \"Faster\" ja \"Harder\" juba läbi müüdud", "allikas": "wacken.com, kontrollitud 06.07.2026"}
+  "hind": {
+   "praegu": "351€",
+   "mark": "\"Louder\" - viimane hinnaklass, \"Faster\" ja \"Harder\" juba läbi müüdud",
+   "allikas": "wacken.com, kontrollitud 06.07.2026"
+  }
  },
  {
   "d": "2026-08-05",
@@ -1136,7 +1190,11 @@
   ],
   "sn": "Brutal Assault",
   "su": "https://brutalassault.cz/en",
-  "hind": {"praegu": "225€", "mark": "\"viimane väljaanne\" - viimane hinnaklass, 27.05.2026 seisuga 92% müüdud", "allikas": "brutalassault.cz, kontrollitud 06.07.2026"}
+  "hind": {
+   "praegu": "225€",
+   "mark": "\"viimane väljaanne\" - viimane hinnaklass, 27.05.2026 seisuga 92% müüdud",
+   "allikas": "brutalassault.cz, kontrollitud 06.07.2026"
+  }
  },
  {
   "d": "2026-08-08",
@@ -1182,7 +1240,11 @@
   ],
   "sn": "Summer Breeze",
   "su": "https://www.summer-breeze.de/en/",
-  "hind": {"praegu": "ainult päevapiletid", "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval", "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"}
+  "hind": {
+   "praegu": "ainult päevapiletid",
+   "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval",
+   "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"
+  }
  },
  {
   "tba": 1,
@@ -1227,7 +1289,11 @@
   "sn": "Z7 Konzertfabrik",
   "su": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
   "pu": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
-  "hind": {"praegu": "CHF 129.50 (3-päeva pilet)", "mark": "uksed 16.00, algus 17.00; sleepover/camper piletid kohapeal", "allikas": "z-7.ch, kontrollitud 07.07.2026"}
+  "hind": {
+   "praegu": "CHF 129.50 (3-päeva pilet)",
+   "mark": "uksed 16.00, algus 17.00; sleepover/camper piletid kohapeal",
+   "allikas": "z-7.ch, kontrollitud 07.07.2026"
+  }
  },
  {
   "d": "2026-09-19",
@@ -1396,7 +1462,11 @@
   "su": "https://www.facebook.com/events/26934925886202649",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/26934925886202649",
-  "hind": {"praegu": "Tasuta", "mark": "sissepääs tasuta; algus 20.00", "allikas": "Facebook event (Pronoias + Konservatoorium), kontrollitud 09.07.2026"}
+  "hind": {
+   "praegu": "Tasuta",
+   "mark": "sissepääs tasuta; algus 20.00",
+   "allikas": "Facebook event (Pronoias + Konservatoorium), kontrollitud 09.07.2026"
+  }
  },
  {
   "d": "2026-08-29",
@@ -1446,7 +1516,11 @@
   "on_": "Fienta",
   "ou": "https://fienta.com/et/sindirock2026",
   "pu": "https://fienta.com/et/sindirock2026",
-  "hind": {"praegu": "26€ (varajane) / 31€ (eelmüük) / 35€ (uksel)", "mark": "eelmüük kuni 16.10; toetajapilet 50€; õpilane/pensionär/puue 26€; uksed 18.00, esimene bänd 19.00", "allikas": "Fienta (Tori Valla Kultuurikeskus), kontrollitud 09.07.2026"}
+  "hind": {
+   "praegu": "26€ (varajane) / 31€ (eelmüük) / 35€ (uksel)",
+   "mark": "eelmüük kuni 16.10; toetajapilet 50€; õpilane/pensionär/puue 26€; uksed 18.00, esimene bänd 19.00",
+   "allikas": "Fienta (Tori Valla Kultuurikeskus), kontrollitud 09.07.2026"
+  }
  },
  {
   "d": "2026-11-20",
@@ -1495,7 +1569,11 @@
   "on_": "Fienta",
   "ou": "https://fienta.com/et/storm-over-tallinn",
   "pu": "https://fienta.com/et/storm-over-tallinn",
-  "hind": {"praegu": "20€ (Early Bird) / 25€ (eelmüük) / 30€ (uksel)", "mark": "Early Bird kuni 15.09.2026; uksed 19.00", "allikas": "Fienta (Death Agency), kontrollitud 09.07.2026"}
+  "hind": {
+   "praegu": "20€ (Early Bird) / 25€ (eelmüük) / 30€ (uksel)",
+   "mark": "Early Bird kuni 15.09.2026; uksed 19.00",
+   "allikas": "Fienta (Death Agency), kontrollitud 09.07.2026"
+  }
  },
  {
   "d": "2026-07-11",
@@ -1664,7 +1742,11 @@
   "su": "https://www.facebook.com/groups/112392415448166/events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/950881911040505/",
-  "hind": {"praegu": "5€ / 6€", "mark": "uksehind sularahas: 5€ Kära Kantsi liige / 6€ tavaline", "allikas": "Facebook event, kontrollitud 11.07.2026"}
+  "hind": {
+   "praegu": "5€ / 6€",
+   "mark": "uksehind sularahas: 5€ Kära Kantsi liige / 6€ tavaline",
+   "allikas": "Facebook event, kontrollitud 11.07.2026"
+  }
  },
  {
   "d": "2026-08-07",
