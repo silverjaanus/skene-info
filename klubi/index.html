@@ -10,6 +10,7 @@
 :root{
   --paber:#F2EFF5; --tint:#17151A; --hall:#5A5462; --joon:#8E8798;
   --lilla:#6E45A8; --roosa:#C74E82; --tyrkiis:#1F7A8C; --oranz:#C96F1F;
+  --accent:#6E45A8;
   --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
   --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
 }
@@ -143,6 +144,30 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .row>*{min-width:0}
 .tit{overflow-wrap:anywhere}
 .lnks{overflow-wrap:anywhere}
+/* --- kalendrivaade (mini kuu-ruudustik, alternatiiv kuude loendile) --- */
+.calviewsw{display:flex;gap:4px;margin-bottom:12px}
+.calviewsw button{font-family:var(--mono);font-size:10.5px;border:1.5px solid var(--joon);background:transparent;color:var(--hall);padding:3px 8px;cursor:pointer;text-transform:uppercase;letter-spacing:.4px}
+.calviewsw button:hover{color:var(--tint)}
+.calviewsw button.on{background:var(--tint);color:var(--paber);border-color:var(--tint)}
+.calbox{margin-bottom:6px;max-width:280px}
+.calhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.calhead .cmon{font-size:14px;font-weight:700;text-transform:capitalize}
+.calhead button{background:transparent;border:1.5px solid transparent;cursor:pointer;color:var(--hall);font-size:17px;line-height:1;padding:1px 7px;font-family:var(--mono)}
+.calhead button:hover{color:var(--tint);border-color:var(--joon)}
+.calgrid{display:grid;grid-template-columns:16px repeat(7,1fr);row-gap:1px;font-family:var(--mono)}
+.caldow{font-size:9.5px;color:var(--hall);text-align:center;padding:2px 0;font-weight:700}
+.calwk{font-size:9px;color:var(--joon);text-align:center;align-self:center}
+.calcell{position:relative;aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:11.5px;color:var(--tint)}
+.calcell.out{color:var(--joon);opacity:.45}
+.calcell.ev{cursor:pointer}
+.calcell .dnum{display:flex;align-items:center;justify-content:center;width:23px;height:23px;border-radius:50%;transition:filter .1s}
+.calcell.ev .dnum{background:var(--accent);color:var(--paber);font-weight:700}
+.calcell.ev:hover .dnum{filter:brightness(1.12)}
+.calcell.today .dnum{background:transparent;color:var(--tint);font-weight:700;box-shadow:0 0 0 1.6px var(--tint) inset}
+.calcell.today.ev .dnum{background:var(--accent);color:var(--paber)}
+.calcell.sel .dnum{box-shadow:0 0 0 2px var(--tint)}
+.calclear{font-family:var(--mono);font-size:10.5px;color:var(--hall);background:transparent;border:0;cursor:pointer;padding:6px 2px 0;text-decoration:underline}
+.calclear:hover{color:var(--accent)}
 </style>
 </head>
 <body>
@@ -173,7 +198,11 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 </header>
 <div class="wrap">
   <aside>
-    <p class="kuu-t" data-i18n="cal_head">Kalender</p>
+    <div class="calviewsw" role="group" aria-label="Kalendrivaade">
+      <button type="button" id="vw-cal" onclick="setCalView('cal')" data-i18n="view_cal">▦ Kalender</button>
+      <button type="button" id="vw-months" onclick="setCalView('months')" data-i18n="view_months">☰ Kuud</button>
+    </div>
+    <div class="calbox" id="cal"></div>
     <div class="kuud" id="kuud"></div>
     <details class="cdet" style="margin-top:28px">
     <summary class="kuu-t" data-i18n="contact_sum">+ Lisa üritus, reliis või merch</summary>
@@ -229,7 +258,9 @@ const I18N={
   title:"KLUBI.SKENE.INFO — üritused, merch ja reliisid ühest kohast",
   tagline:"Üritused, merch ja reliisid ühest kohast. Eesti alternatiiv.",
   author_by:"Autor:", nav_updates:"UUENDUSED", nav_sources:"ALLIKAD",
-  cal_head:"Kalender", contact_head:"Kontakt",
+  cal_head:"Kalender",
+  view_cal:"▦ Kalender", view_months:"☰ Kuud", cal_clear:"× tühista päevavalik",
+  dow:["E","T","K","N","R","L","P"], contact_head:"Kontakt",
   f_name:"Sinu nimi", ph_name:"sinu enda nimi (mitte artisti/ürituse nimi)",
   f_email:"Sinu e-post", ph_email:"et saaksime vastata (valikuline)",
   f_event:"Ürituse / reliisi nimi", ph_event:"nt artist + soojendus @ klubi",
@@ -259,7 +290,9 @@ const I18N={
   title:"KLUBI.SKENE.INFO — Estonian alternative club culture: events & releases",
   tagline:"Events, merch and releases in one place. Estonian alternative scene.",
   author_by:"By:", nav_updates:"UPDATES", nav_sources:"SOURCES",
-  cal_head:"Calendar", contact_head:"Contact",
+  cal_head:"Calendar",
+  view_cal:"▦ Calendar", view_months:"☰ Months", cal_clear:"× clear day",
+  dow:["M","T","W","T","F","S","S"], contact_head:"Contact",
   f_name:"Your name", ph_name:"your own name (not the artist/event name)",
   f_email:"Your e-mail", ph_email:"so we can reply (optional)",
   f_event:"Event / release name", ph_event:"e.g. artist + support @ club",
@@ -326,7 +359,9 @@ const E_FALLBACK = [
 ];
 const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"]];
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
-let st={type:null,tags:new Set(),city:null,past:false,kuu:null,q:""};
+let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:""};
+let calView=(function(){try{return localStorage.getItem('skene_calview')||'cal';}catch(e){return 'cal';}})();
+let calYM={y:new Date().getFullYear(),m:new Date().getMonth()};
 function tags(){const s=new Set();E.forEach(e=>e.g.forEach(g=>s.add(g)));return[...s].sort();}
 function enc(x){return encodeURIComponent(x);}
 const IC={
@@ -421,6 +456,7 @@ function render(){
     if(st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
+    if(st.day&&!covers(e,st.day))return false;
     const past=!featured(e)&&!e.tba&&e.d<TODAY;
     if(!st.past&&past)return false;
     return true;
@@ -431,6 +467,7 @@ function render(){
     return a.d.localeCompare(b.d);
   });
   document.getElementById("count").textContent=rows.length+" "+t('entries')
+    +(st.day?" · "+st.day.slice(8,10)+"."+st.day.slice(5,7)+"."+st.day.slice(0,4):"")
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
     +(st.tags.size?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
   RROWS=rows;
@@ -477,7 +514,72 @@ function kuud(){
     `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">${t('all_months')} <small>${vis.length}</small></button>`+
     ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" onclick="setF('kuu','${k}')">${monthName(k.slice(5))} ${k.slice(0,4)} <small>${m[k]}</small></button>`).join("");
 }
-function setF(k,v){st[k]=v;refresh();}
+// --- KALENDRIVAADE ---
+function covers(e,isoStr){const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);}
+function calBase(){
+  return E.filter(e=>{
+    if(!matchQ(e))return false;
+    if(st.type&&e.t!==st.type)return false;
+    if(st.tags.size&&![...st.tags].every(g=>(e.g||[]).includes(g)))return false;
+    if(st.city&&e.c!==st.city)return false;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    if(!st.past&&past)return false;
+    return true;
+  });
+}
+function isoWeek(d){
+  const dt=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate()));
+  const day=(dt.getUTCDay()+6)%7;dt.setUTCDate(dt.getUTCDate()-day+3);
+  const firstThu=new Date(Date.UTC(dt.getUTCFullYear(),0,4));
+  const fday=(firstThu.getUTCDay()+6)%7;firstThu.setUTCDate(firstThu.getUTCDate()-fday+3);
+  return 1+Math.round((dt-firstThu)/(7*86400000));
+}
+function renderCal(){
+  const box=document.getElementById('cal');if(!box)return;
+  const y=calYM.y,m=calYM.m;
+  const first=new Date(y,m,1);
+  const startDow=(first.getDay()+6)%7;
+  const gridStart=new Date(y,m,1-startDow);
+  const daysInMonth=new Date(y,m+1,0).getDate();
+  const lastDow=(new Date(y,m,daysInMonth).getDay()+6)%7;
+  const totalCells=startDow+daysInMonth+(6-lastDow);
+  const base=calBase();
+  const dows=(I18N[LANG]||I18N.et).dow;
+  let html='<div class="calhead"><button type="button" aria-label="eelmine kuu" onclick="calNav(-1)">‹</button>'
+    +'<span class="cmon">'+monthName(pad2(m+1))+' '+y+'</span>'
+    +'<button type="button" aria-label="järgmine kuu" onclick="calNav(1)">›</button></div>';
+  html+='<div class="calgrid"><span class="calwk"></span>';
+  for(let i=0;i<7;i++)html+='<span class="caldow">'+dows[i]+'</span>';
+  let cur=new Date(gridStart);
+  for(let c=0;c<totalCells;c++){
+    if(c%7===0)html+='<span class="calwk">'+isoWeek(cur)+'</span>';
+    const cm=cur.getMonth(),cd=cur.getDate();
+    const isoStr=cur.getFullYear()+'-'+pad2(cm+1)+'-'+pad2(cd);
+    const out=(cm!==m);
+    const isToday=(isoStr===TODAY);
+    const hasEv=(isoStr>=TODAY)&&base.some(e=>covers(e,isoStr));
+    const sel=(st.day===isoStr);
+    const cls='calcell'+(out?' out':'')+(isToday?' today':'')+(hasEv?' ev':'')+(sel?' sel':'');
+    const click=hasEv?" onclick=\"pickDay('"+isoStr+"')\"":"";
+    html+='<span class="'+cls+'"'+click+'><span class="dnum">'+cd+'</span></span>';
+    cur=addDays(cur,1);
+  }
+  html+='</div>';
+  if(st.day)html+='<button type="button" class="calclear" onclick="pickDay(\''+st.day+'\')">'+t('cal_clear')+'</button>';
+  box.innerHTML=html;
+}
+function calNav(delta){let m=calYM.m+delta,y=calYM.y;if(m<0){m=11;y--;}if(m>11){m=0;y++;}calYM={y:y,m:m};renderCal();}
+function pickDay(isoStr){st.day=(st.day===isoStr)?null:isoStr;if(st.day)st.kuu=null;refresh();}
+function applyCalView(){
+  const c=document.getElementById('cal'),k=document.getElementById('kuud');
+  if(c)c.style.display=(calView==='cal')?'':'none';
+  if(k)k.style.display=(calView==='months')?'':'none';
+  const a=document.getElementById('vw-cal'),b=document.getElementById('vw-months');
+  if(a)a.classList.toggle('on',calView==='cal');
+  if(b)b.classList.toggle('on',calView==='months');
+}
+function setCalView(v){calView=v;try{localStorage.setItem('skene_calview',v);}catch(e){}if(v==='months')st.day=null;applyCalView();refresh();}
+function setF(k,v){st[k]=v;if(k==='kuu')st.day=null;refresh();}
 function setTag(g){
   if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);
   refresh();
@@ -488,9 +590,9 @@ function refresh(){
   document.getElementById("f-tag").innerHTML=
     `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
     tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
-  kuud();render();
+  kuud();renderCal();render();
 }
-applyI18n();E=E_FALLBACK;refresh();
+applyI18n();applyCalView();E=E_FALLBACK;refresh();
 fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;refresh();}).catch(()=>{});
 fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
 (function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
