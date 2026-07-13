@@ -66,10 +66,6 @@
      "u": "https://www.facebook.com/GenKlubi/"
     },
     {
-     "n": "HALL (Tallinn)",
-     "u": "https://www.facebook.com/halltallinn/upcoming_hosted_events"
-    },
-    {
      "n": "Helitehas",
      "u": "https://www.facebook.com/helitehas/upcoming_hosted_events"
     },
@@ -296,15 +292,6 @@
     {
      "n": "Wave-Gotik-Treffen (Saksamaa)",
      "u": "https://www.wave-gotik-treffen.de/english/"
-    }
-   ]
-  },
-  {
-   "nimi": "Muud",
-   "items": [
-    {
-     "n": "Beats From The Vault (BFTV)",
-     "u": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events"
     }
    ]
   }

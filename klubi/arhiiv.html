@@ -2,14 +2,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RAP.SKENE.INFO — Arhiiv</title>
-<meta name="description" content="rap.skene.info arhiiv — möödunud üritused ja reliisid.">
+<title>KLUBI.SKENE.INFO — Arhiiv</title>
+<meta name="description" content="klubi.skene.info arhiiv — möödunud üritused ja reliisid.">
 <meta name="robots" content="noindex">
 <script defer src="/_vercel/insights/script.js"></script>
 <style>
 :root{
-  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
-  --telliskivi:#93392C; --ploom:#4E4275; --sinep:#A8811F; --paatina:#2C5B54;
+  --paber:#F2EFF5; --tint:#17151A; --hall:#5A5462; --joon:#8E8798;
+  --telliskivi:#6E45A8; --ploom:#4E4275; --sinep:#A8811F; --paatina:#2C5B54;
   --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
   --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
 }
@@ -21,7 +21,7 @@ header{padding:26px 24px 0;max-width:1280px;margin:0 auto}
 .brand-wrap{display:flex;flex-direction:column;min-width:0}
 .subnav{display:flex;gap:14px;font-family:var(--mono);font-size:12.5px;margin-top:7px}
 .subnav a{color:var(--hall);text-decoration:none}
-.subnav a:hover{color:var(--sinine)}
+.subnav a:hover{color:var(--lilla)}
 .brand{display:flex;align-items:baseline;gap:14px;min-width:0}
 h1{font-size:clamp(38px,6vw,60px);line-height:.92;letter-spacing:-2px;text-transform:uppercase;font-weight:700}
 h1 a{text-decoration:none}
@@ -115,9 +115,9 @@ aside{position:sticky;top:16px;padding-top:16px}
 <body>
 <header>
   <div class="masthead">
-    <div class="brand-wrap"><div class="brand"><h1><a href="index.html"><span class="info">Rap</span>.skene</a></h1><span class="arch-badge" data-i18n="arch_badge">Arhiiv</span></div><p class="subnav"><a href="https://www.skene.info/">metal.skene</a> <a href="https://klubi.skene.info/">klubi.skene</a></p></div>
+    <div class="brand-wrap"><div class="brand"><h1><a href="index.html"><span class="info">Klubi</span>.skene</a></h1><span class="arch-badge" data-i18n="arch_badge">Arhiiv</span></div><p class="subnav"><a href="https://www.skene.info/">metal.skene</a> <a href="https://rap.skene.info/">rap.skene</a></p></div>
     <div class="mast-right">
-      <p class="tagline" data-i18n-html="tagline">Möödunud räpi-üritused ja reliisid.<br>Tagasivaade skeenele.</p>
+      <p class="tagline" data-i18n-html="tagline">Möödunud klubi-üritused ja reliisid.<br>Tagasivaade skeenele.</p>
       <p class="author"><a href="index.html" data-i18n="author_back">← tagasi live-kalendrisse</a></p>
     </div>
   </div>
@@ -152,7 +152,7 @@ aside{position:sticky;top:16px;padding-top:16px}
     <div id="list"></div>
     <div class="footer">
       <div style="font-family:var(--mono);font-size:12.5px;display:flex;gap:16px;flex-wrap:wrap">
-        <a href="index.html" data-i18n="foot_live">← RÄPI LIVE-KALENDER</a>
+        <a href="index.html" data-i18n="foot_live">← KLUBI LIVE-KALENDER</a>
         <a href="https://www.skene.info/">SKENE (metal/rock) ↗</a>
       </div>
       <p class="ethos" data-i18n="ethos_arch">Arhiiv koondab kõik, mis on saidil olnud — miski ei kao. Iga kirje viitab endiselt algallikale.</p>
@@ -163,11 +163,11 @@ aside{position:sticky;top:16px;padding-top:16px}
 <script>
 const I18N={
  et:{
-  title:"RAP.SKENE.INFO — Arhiiv", arch_badge:"Arhiiv",
-  tagline:"Möödunud räpi-üritused ja reliisid.<br>Tagasivaade skeenele.",
+  title:"KLUBI.SKENE.INFO — Arhiiv", arch_badge:"Arhiiv",
+  tagline:"Möödunud klubi-üritused ja reliisid.<br>Tagasivaade skeenele.",
   author_back:"← tagasi live-kalendrisse", nav_updates:"UUENDUSED", nav_sources:"ALLIKAD",
   a_year:"Aasta", a_month:"Kuu", a_other:"Muu", live_cal:"← Live-kalender",
-  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", foot_live:"← RÄPI LIVE-KALENDER", nav_archive:"ARHIIV",
+  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", foot_live:"← KLUBI LIVE-KALENDER", nav_archive:"ARHIIV",
   ethos_arch:"Arhiiv koondab kõik, mis on saidil olnud — miski ei kao. Iga kirje viitab endiselt algallikale.",
   totop:"Üles",
   t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch",
@@ -182,11 +182,11 @@ const I18N={
   months:["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"]
  },
  en:{
-  title:"RAP.SKENE.INFO — Archive", arch_badge:"Archive",
-  tagline:"Past rap events and releases.<br>A look back at the scene.",
+  title:"KLUBI.SKENE.INFO — Archive", arch_badge:"Archive",
+  tagline:"Past club events and releases.<br>A look back at the scene.",
   author_back:"← back to live calendar", nav_updates:"UPDATES", nav_sources:"SOURCES",
   a_year:"Year", a_month:"Month", a_other:"Other", live_cal:"← Live calendar",
-  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", foot_live:"← RAP LIVE CALENDAR", nav_archive:"ARCHIVE",
+  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", foot_live:"← CLUB LIVE CALENDAR", nav_archive:"ARCHIVE",
   ethos_arch:"The archive keeps everything that's ever been on the site — nothing disappears. Every listing still links to its source.",
   totop:"Top",
   t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch",

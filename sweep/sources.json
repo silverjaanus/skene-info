@@ -40,8 +40,6 @@
   {"nimi": "Käbliku Beer camp & Rock'n Roll", "url": "https://fest.kabliku.com/", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); õlle- ja rokipidu Põlvamaal"},
   {"nimi": "Aprillikivi", "url": "https://www.facebook.com/aprillikivi/upcoming_hosted_events", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna raskemuusika festival aprillis; URL kontrollida sweepis"},
   {"nimi": "Tarbariitus", "url": "https://pergerus.eu/et/tarbariitus/", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); sügisene metal-festival Tartus; korraldaja Pergerus"},
-  {"nimi": "Beats From The Vault (BFTV)", "url": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events", "tyyp": "peosari", "nb": "lisatud 11.07.2026 (kirje 08.08.2026 oli manual.json-is ilma jälgitava allikata); dark-electro/EBM/industrial peosari alates 1998, toimub üle kuu; bftv.ee on JS-renderdatud (serveri-fetch tühi) - FB primaarne; kirje peegeldab ürituse lehte: kuni seal on 'line-up soon', on ka saidil nii - kui DJd selguvad, uuenda kirje (nimed a-välja ja b-väljale)"},
-  {"nimi": "HALL (Tallinn)", "url": "https://www.facebook.com/halltallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 11.07.2026; Noblessneri klubi (Peetri 6, hall.vision), põhiliselt tehno - võta AINULT skoobis üritused (dark-electro/EBM/industrial, nt BFTV); URL kontrollida sweepis"},
   {"nimi": "Uus Laine (metal/punk pool)", "url": "https://www.facebook.com/uuslaine/events", "tyyp": "venue", "nb": "lisatud 11.07.2026: Laine Live sari toob regulaarselt skoobis underground-bände (Industry DE, Motelli Skronkle FIN, Model Citizen); leht oli seni ainult rap-sektsioonis - filtreeri DJ/klubiõhtud välja"},
   {"nimi": "Hetk (promootor)", "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited", "tyyp": "promootor", "nb": "lisatud 11.07.2026: korraldab The Tuberkuloited 35 juubelikontserte (Rakvere 17.07, Pärnu 14.08); FB handle täpsustada - praegu leitav ürituste otsinguga"}
  ],
@@ -138,6 +136,28 @@
    {"zanr": "rock", "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new"},
    {"zanr": "industrial/dark-electro", "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new"},
    {"zanr": "black metal (alažanri näide)", "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new"}
+  ]
+ },
+ "klubi": {
+  "nb": "klubi.skene.info allikad - alternatiivne klubikultuur: techno/house/dnb/bass/eksperimentaal + dark-electro klubiohtud (BFTV jt). Peavoolu kommertsklubid EI kuulu skoopi. Pohiallikas Resident Advisor.",
+  "fb": [
+   {"nimi": "Beats From The Vault (BFTV)", "url": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events", "tyyp": "peosari", "nb": "kolis metal-poolelt 13.07.2026; dark-electro/EBM/industrial peosari alates 1998, toimub ule kuu; bftv.ee on JS-renderdatud - FB primaarne"},
+   {"nimi": "HALL (Tallinn)", "url": "https://www.facebook.com/halltallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "kolis metal-poolelt 13.07.2026; Noblessneri klubi (Peetri 6), tehno/house/klubiohtud - nuud KOGU programm skoobis"}
+  ],
+  "ig": [],
+  "js_saidid": [
+   {"nimi": "Resident Advisor - Eesti", "url": "https://ra.co/events/ee/all", "tyyp": "kogukond", "nb": "POHIALLIKAS; kasuta ?startDate=YYYY-MM-DD parameetrit nadalate kaupa, muidu naitab ainult esimesed"},
+   {"nimi": "HUNGR (Shelter)", "url": "https://ra.co/clubs/235784", "tyyp": "venue", "nb": "Shelter / Sub u Dub / Safara; piletid Fientas o/17855"},
+   {"nimi": "Paavli Kultuurivabrik", "url": "https://fienta.com/o/17595", "tyyp": "venue", "nb": "klubiohtud (Selecta jt); MOD samas kvartalis (Paavli 9)"},
+   {"nimi": "Uus Laine", "url": "https://fienta.com/et/o/17330", "tyyp": "venue", "nb": "Laine Klubioo / Label Night sarjad"},
+   {"nimi": "Shelter (Fienta)", "url": "https://fienta.com/et/o/17855", "tyyp": "promootor"},
+   {"nimi": "Tolm (Tartu)", "url": "https://tolm.club/", "tyyp": "venue", "nb": "tulevased uritused + FB-event lingid otse lehel"},
+   {"nimi": "Kultuuriklubi Tempel (Parnu)", "url": "https://ra.co/clubs/151795", "tyyp": "venue", "nb": "Tjuun In (dnb/jungle) sari"},
+   {"nimi": "D3", "url": "https://www.d-3.ee/events/", "tyyp": "venue"},
+   {"nimi": "Kauplus Aasia", "url": "https://ra.co/clubs/147536", "tyyp": "venue"},
+   {"nimi": "Genialistide Klubi (Tartu)", "url": "https://genklubi.ee/events/", "tyyp": "venue", "nb": "harva klubiohtud"},
+   {"nimi": "I Land Sound", "url": "https://ilandsound.ee/en/", "tyyp": "festival", "nb": "iga-aastane festival Illiku laiul"},
+   {"nimi": "AllEvents Tallinn (raves)", "url": "https://allevents.in/tallinn/raves", "tyyp": "kogukond", "nb": "agregaator - vajab ALATI teist kinnitust"}
   ]
  }
 }

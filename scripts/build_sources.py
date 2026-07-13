@@ -23,10 +23,12 @@ GROUP = {
     "pood/kultuuripunkt": "Plaadifirmad ja poed",
     "kogukond": "Kogukond",
     "artist": "Artistid",
+    "peosari": "Korraldajad",
 }
 ORDER_MAIN = ["Korraldajad", "Kohad", "Festivalid", "Plaadifirmad ja poed",
               "Kogukond", "Instagram", "Rahvusvahelised festivalid", "Muud"]
 ORDER_RAP = ["Festivalid", "Kohad", "Korraldajad", "Instagram / artistid", "Muud"]
+ORDER_KLUBI = ["Kohad", "Korraldajad", "Festivalid", "Kogukond", "Instagram", "Muud"]
 
 
 def _ok(url):
@@ -79,17 +81,30 @@ def build():
     for e in rd.get("ig", []):
         _add(rap, "Instagram / artistid", e.get("nimi", ""), e.get("url", ""))
 
+    klubi = {}
+    kd = data.get("klubi", {})
+    for e in kd.get("fb", []):
+        _add(klubi, GROUP.get(e.get("tyyp", ""), "Muud"), e.get("nimi", ""), e.get("url", ""))
+    for e in kd.get("js_saidid", []):
+        _add(klubi, GROUP.get(e.get("tyyp", ""), "Muud"), e.get("nimi", ""), e.get("url", ""))
+    for e in kd.get("ig", []):
+        _add(klubi, "Instagram", e.get("nimi", ""), e.get("url", ""))
+
     today = date.today().isoformat()
-    g_main, g_rap = _pack(main, ORDER_MAIN), _pack(rap, ORDER_RAP)
+    g_main, g_rap, g_klubi = _pack(main, ORDER_MAIN), _pack(rap, ORDER_RAP), _pack(klubi, ORDER_KLUBI)
     (ROOT / "data" / "allikad.json").write_text(
         json.dumps({"updated": today, "groups": g_main}, ensure_ascii=False, indent=1),
         encoding="utf-8")
     (ROOT / "rap" / "data" / "allikad.json").write_text(
         json.dumps({"updated": today, "groups": g_rap}, ensure_ascii=False, indent=1),
         encoding="utf-8")
-    return sum(len(g["items"]) for g in g_main), sum(len(g["items"]) for g in g_rap)
+    (ROOT / "klubi" / "data" / "allikad.json").write_text(
+        json.dumps({"updated": today, "groups": g_klubi}, ensure_ascii=False, indent=1),
+        encoding="utf-8")
+    return (sum(len(g["items"]) for g in g_main), sum(len(g["items"]) for g in g_rap),
+            sum(len(g["items"]) for g in g_klubi))
 
 
 if __name__ == "__main__":
-    nm, nr = build()
-    print(f"allikad: peasait {nm}, rap {nr}")
+    nm, nr, nk = build()
+    print(f"allikad: peasait {nm}, rap {nr}, klubi {nk}")

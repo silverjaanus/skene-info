@@ -161,6 +161,31 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1325978722451255/",
    "nb": "lineup osaliselt FB kirjelduses peidus (See more); lisatud 11.07.2026"
+  },
+  {
+   "d": "2026-07-12",
+   "t": "kontsert",
+   "n": "SFP esitleb: Ecotage + Ethetric + Shatter Me Whole",
+   "b": [
+    "Ecotage",
+    "Ethetric",
+    "Shatter Me Whole"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "grind",
+    "core"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1375338867849271/",
+   "hind": {
+    "praegu": "10€ / 7€ (õpilased, alaealised)",
+    "mark": "uksehind, ainult sularaha; uksed 17.00, muusika 18.00",
+    "allikas": "Facebook event, kontrollitud 07.07.2026"
+   }
   }
  ]
 }

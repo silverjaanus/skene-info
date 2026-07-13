@@ -1,0 +1,81 @@
+{
+ "updated": "2026-07-13",
+ "groups": [
+  {
+   "nimi": "Kohad",
+   "items": [
+    {
+     "n": "D3",
+     "u": "https://www.d-3.ee/events/"
+    },
+    {
+     "n": "Genialistide Klubi (Tartu)",
+     "u": "https://genklubi.ee/events/"
+    },
+    {
+     "n": "HALL (Tallinn)",
+     "u": "https://www.facebook.com/halltallinn/upcoming_hosted_events"
+    },
+    {
+     "n": "HUNGR (Shelter)",
+     "u": "https://ra.co/clubs/235784"
+    },
+    {
+     "n": "Kauplus Aasia",
+     "u": "https://ra.co/clubs/147536"
+    },
+    {
+     "n": "Kultuuriklubi Tempel (Parnu)",
+     "u": "https://ra.co/clubs/151795"
+    },
+    {
+     "n": "Paavli Kultuurivabrik",
+     "u": "https://fienta.com/o/17595"
+    },
+    {
+     "n": "Tolm (Tartu)",
+     "u": "https://tolm.club/"
+    },
+    {
+     "n": "Uus Laine",
+     "u": "https://fienta.com/et/o/17330"
+    }
+   ]
+  },
+  {
+   "nimi": "Korraldajad",
+   "items": [
+    {
+     "n": "Beats From The Vault (BFTV)",
+     "u": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events"
+    },
+    {
+     "n": "Shelter (Fienta)",
+     "u": "https://fienta.com/et/o/17855"
+    }
+   ]
+  },
+  {
+   "nimi": "Festivalid",
+   "items": [
+    {
+     "n": "I Land Sound",
+     "u": "https://ilandsound.ee/en/"
+    }
+   ]
+  },
+  {
+   "nimi": "Kogukond",
+   "items": [
+    {
+     "n": "AllEvents Tallinn (raves)",
+     "u": "https://allevents.in/tallinn/raves"
+    },
+    {
+     "n": "Resident Advisor - Eesti",
+     "u": "https://ra.co/events/ee/all"
+    }
+   ]
+  }
+ ]
+}

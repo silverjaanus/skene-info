@@ -2,9 +2,26 @@
   "routes": [
     {
       "src": "/(.*)",
-      "has": [{ "type": "host", "value": "rap.skene.info" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "rap.skene.info"
+        }
+      ],
       "dest": "/rap/$1"
     },
-    { "handle": "filesystem" }
+    {
+      "src": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "klubi.skene.info"
+        }
+      ],
+      "dest": "/klubi/$1"
+    },
+    {
+      "handle": "filesystem"
+    }
   ]
 }

@@ -1,0 +1,341 @@
+{
+ "updated": "2026-07-13",
+ "entries": [
+  {
+   "d": "2026-07-16",
+   "d2": "19.07",
+   "t": "festival",
+   "n": "I Land Sound 2026",
+   "a": "elamusfestival Illiku laiul; Lee Burridge, Cabanne, Silat Beksi, Pandhora, Rony Rex jt",
+   "b": [
+    "Lee Burridge",
+    "Cabanne",
+    "Nico Stojan",
+    "Silat Beksi",
+    "Pandhora",
+    "Rony Rex",
+    "E.LINA",
+    "Miroloja"
+   ],
+   "v": "Illiku laid, Orissaare",
+   "c": "mujal",
+   "g": [
+    "house",
+    "minimal"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2445948",
+   "on_": "ilandsound.ee",
+   "ou": "https://ilandsound.ee/en/",
+   "pu": "https://www.ticketer.ee/i-land-sound-2026/",
+   "hind": {
+    "praegu": "150€",
+    "mark": "pass",
+    "allikas": "ticketer.ee, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-17",
+   "t": "klubi",
+   "n": "Bat Sounds",
+   "a": "residendid Dajek, Le Petit Chat, Naked Reagan, Darth Typo, asheiK; külalised Cly/suva ja Pikkauch",
+   "b": [
+    "Cly/suva",
+    "Pikkauch"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "darkwave",
+    "dark"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1745558169975455/",
+   "hind": {
+    "praegu": "10€",
+    "allikas": "tolm.club, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-17",
+   "t": "klubi",
+   "n": "BFTV 28: DJ 4-got-10 all-nighter",
+   "a": "Beats From The Vault 28. sünnipäev — 360 minutit tumedaid rütme (Body Techno, EBM, Post-Industrial, Ritual Techno, Dark-Electro, Rhythmic Noise)",
+   "b": [],
+   "v": "IDA Radio",
+   "c": "Tallinn",
+   "g": [
+    "ebm",
+    "industrial",
+    "dark",
+    "electro"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1440160684588061",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1440160684588061",
+   "yu": "https://www.youtube.com/beatsfromthevault",
+   "hind": {
+    "praegu": "5€",
+    "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00",
+    "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-24",
+   "t": "klubi",
+   "n": "Swamp Zone: deep waters",
+   "a": "pehmem, hüpnootiline Swamp; visuaalid Kreat Minds",
+   "b": [
+    "Must Sebra",
+    "mrds",
+    "UUU"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "trance",
+    "psytrance"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2485621",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1539927941121734/",
+   "hind": {
+    "praegu": "10€",
+    "allikas": "tolm.club, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-25",
+   "t": "klubi",
+   "n": "Selecta: Aphrodite (UK)",
+   "a": "jump-up dnb legend; teine lava Our Era: Reunion (techno/breaks) — Smiler",
+   "b": [
+    "Aphrodite",
+    "Smiler"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "techno",
+    "breaks"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2467990",
+   "on_": "GateMe",
+   "ou": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
+   "pu": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
+   "hind": {
+    "praegu": "30€",
+    "mark": "late bird",
+    "allikas": "GateMe, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-08-08",
+   "t": "klubi",
+   "n": "Sub û Dub: Priori (CA)",
+   "a": "+ Softspot (live), Nikolajev — dub-mõjuline süvatehno",
+   "b": [
+    "Priori",
+    "Softspot",
+    "Nikolajev"
+   ],
+   "v": "HUNGR",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "dub",
+    "bass"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2485052",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/sub-u-dub-priori",
+   "pu": "https://fienta.com/et/sub-u-dub-priori",
+   "hind": {
+    "praegu": "10€",
+    "mark": "earlybird",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-08-08",
+   "t": "klubi",
+   "n": "BFTV: Beats From The Vault — Dark Souls Meeting",
+   "a": "Back to HALL! Kolm saali (Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile); line-up soon",
+   "b": [],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "ebm",
+    "dark",
+    "electro",
+    "darkwave",
+    "industrial"
+   ],
+   "sn": "bftv.ee",
+   "su": "https://bftv.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2213429046145152/",
+   "pu": "https://bftv.ee/",
+   "yu": "https://www.youtube.com/beatsfromthevault"
+  },
+  {
+   "d": "2026-08-21",
+   "d2": "23.08",
+   "t": "festival",
+   "n": "Safara Festival",
+   "a": "Shelter x Jokkoo Collective (Barcelona) — kaks ööd afro-elektroonikat, live'id ja töötoad",
+   "b": [],
+   "nb": "täisprogramm selgumisel",
+   "v": "HUNGR",
+   "c": "Tallinn",
+   "g": [
+    "afro",
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2473978",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/safara-festival",
+   "pu": "https://fienta.com/et/safara-festival",
+   "hind": {
+    "praegu": "15€",
+    "mark": "earlybird 2 öö pass",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-08-21",
+   "t": "klubi",
+   "n": "TRIPLOOP invites Kai Galactic (JP)",
+   "a": "hüpnootiline techno; Tokyo labeli DAYBREAK asutaja",
+   "b": [
+    "Kai Galactic",
+    "Brenna Ryan",
+    "Rästas"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2483537",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/triploop-invites-kai-galactic",
+   "pu": "https://fienta.com/et/triploop-invites-kai-galactic",
+   "hind": {
+    "praegu": "10€",
+    "kuni": "07.08",
+    "jargmine": "15€",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "Laine Klubiöö: DJ Plead (AU)",
+   "a": "SUMAC labeli kaasasutaja — bass, house, broken beat, dub",
+   "b": [
+    "DJ Plead",
+    "shbxsz"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "house",
+    "dub"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2398883",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-klubioo-dj-plead-aus",
+   "pu": "https://fienta.com/et/laine-klubioo-dj-plead-aus",
+   "hind": {
+    "praegu": "7.50–15€",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "KONTRAST with Mija — HALL x SVE x culture unseen",
+   "a": "KONTRAST-i 1. sünnipäev; Saturation stage: Unknown Horizon, JoJo; Vibrancy stage: Mija, Qslap, Nora",
+   "b": [
+    "Mija",
+    "Unknown Horizon",
+    "JoJo",
+    "Qslap",
+    "Nora"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2398214",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen",
+   "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen/"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Laine Label Night: Alma Negra (CH)",
+   "a": "Šveitsi vennaduo — disco ja house salsa, samba ja afro-kariibi rütmidega",
+   "b": [
+    "Alma Negra"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "disco",
+    "afro",
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2485453",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-label-night-alma-negra",
+   "pu": "https://fienta.com/et/laine-label-night-alma-negra",
+   "hind": {
+    "praegu": "8–12€",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-09-05",
+   "t": "klubi",
+   "n": "Scorched Earth: Skee Mask",
+   "a": "uue ööseeria avaüritus; + animaTek (live), Tanel, noa",
+   "b": [
+    "Skee Mask"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "bass",
+    "ambient"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2467032",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/scorched-earth-skee-mask",
+   "pu": "https://fienta.com/et/scorched-earth-skee-mask",
+   "hind": {
+    "praegu": "15–20€",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
+  }
+ ]
+}

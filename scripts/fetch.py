@@ -228,8 +228,8 @@ def main():
     # avalik allikate leht (guarditud: viga siin ei murra korjet)
     try:
         import build_sources
-        nm, nr = build_sources.build()
-        print(f"allikad: peasait {nm}, rap {nr}")
+        nm, nr, nk = build_sources.build()
+        print(f"allikad: peasait {nm}, rap {nr}, klubi {nk}")
     except Exception as ex:
         print(f"build_sources vahele jaetud: {type(ex).__name__}: {ex}")
 
