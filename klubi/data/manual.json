@@ -61,7 +61,9 @@
   "t": "klubi",
   "n": "BFTV 28: DJ 4-got-10 all-nighter",
   "a": "Beats From The Vault 28. sünnipäev — 360 minutit tumedaid rütme (Body Techno, EBM, Post-Industrial, Ritual Techno, Dark-Electro, Rhythmic Noise)",
-  "b": [],
+  "b": [
+   "DJ 4-got-10"
+  ],
   "v": "IDA Radio",
   "c": "Tallinn",
   "g": [
@@ -165,8 +167,12 @@
   "d": "2026-08-08",
   "t": "klubi",
   "n": "BFTV: Beats From The Vault — Dark Souls Meeting",
-  "a": "Back to HALL! Kolm saali (Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile); line-up soon",
-  "b": [],
+  "a": "Back to HALL! Kolm saali (Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile); peaesineja SMFORMA (ES) live + DJd",
+  "b": [
+   "SMFORMA",
+   "Cly/Suva",
+   "DJ 4-got-10"
+  ],
   "v": "HALL",
   "c": "Tallinn",
   "g": [
@@ -377,7 +383,30 @@
   "t": "festival",
   "n": "TRESKI FEST 2026",
   "a": "Treski suvefestival Setomaal (5. sünnipäev) — muusika, kultuur ja loodus; Planeet dnb-poolel",
-  "b": [],
+  "b": [
+   "Daniel Levi",
+   "A-rühm",
+   "Inga",
+   "Dj Breleri",
+   "Planeet",
+   "Zetod & Verska Naase",
+   "nublu",
+   "Arg Part",
+   "Curly Strings",
+   "Eva-Lotta Vunder & Madis Meister",
+   "Koer",
+   "Haldi & ans Flamingo",
+   "maria kallastu",
+   "KRŸS",
+   "Gram-Of-Fun",
+   "South of Savoy",
+   "Tõnu Tubli",
+   "Koikson_Tärn_Mölder",
+   "Henessi Schmidt",
+   "Sten-Olle",
+   "Iberi",
+   "Kukerpillid"
+  ],
   "nb": "lai kultuuriprogramm; klubi-skoobis elektroonika/dnb-osa (Planeet jt); täislineup + piletid piletikeskuses",
   "v": "Suur-Treski, Silla talu, Setomaa",
   "c": "mujal",
@@ -395,9 +424,12 @@
   "d": "2026-08-15",
   "t": "klubi",
   "n": "BREAKWAVE 2026",
-  "a": "Drum & Bass pidu Valgerannas — bass kuni päikesetõusuni (21–04); host Valgeranna Muusikatall & Planeet",
-  "b": [],
-  "nb": "täislineup selgumisel (FB-üritus)",
+  "a": "Drum & Bass pidu Valgerannas — bass kuni päikesetõusuni (21–04); Planeet special guest",
+  "b": [
+   "Hüpnoos",
+   "Planeet",
+   "Subbwell"
+  ],
   "v": "Valgeranna Muusikatall, Audru",
   "c": "mujal",
   "g": [
