@@ -129,13 +129,19 @@
   ]
  },
  "bandcamp_otsing": {
-  "nb": "Lisatud 06.07.2026. PARANDATUD 12.07.2026: uus töötav formaat on tag-kombinatsioon bandcamp.com/discover/estonia?tags=<zanr>&s=new (sorteering 'new'; NB: 's=new' järjestus paistab olevat üleslaadimise, mitte release-kuupäeva järgi - kontrolli release-kuupäev alati albumi lehelt). Cloudflare blokeerib serveripäringud - AINULT Chrome-kihis.",
+  "nb": "Lisatud 06.07.2026. PARANDATUD 12.07.2026: uus töötav formaat on tag-kombinatsioon bandcamp.com/discover/estonia?tags=<zanr>&s=new (sorteering 'new'; NB: 's=new' järjestus paistab olevat üleslaadimise, mitte release-kuupäeva järgi - kontrolli release-kuupäev alati albumi lehelt). Cloudflare blokeerib serveripäringud - AINULT Chrome-kihis. 13.07.2026: laienes kõigile 3 saidile - `sait` väli (www/rap/klubi) on vihje, millise saidi reliise oodata; LÕPLIKU alamdomeeni otsustab ikka žanripõhine loogika/classify (industrial metal -> www, electro-industrial -> klubi).",
   "urls": [
-   {"zanr": "metal", "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new"},
-   {"zanr": "punk", "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new"},
-   {"zanr": "rock", "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new"},
-   {"zanr": "industrial/dark-electro", "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new"},
-   {"zanr": "black metal (alažanri näide)", "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new"}
+   {"zanr": "metal", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new"},
+   {"zanr": "punk", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new"},
+   {"zanr": "rock", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new"},
+   {"zanr": "black metal (alažanri näide)", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new"},
+   {"zanr": "industrial/dark-electro", "sait": "www või klubi (žanripõhine)", "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new"},
+   {"zanr": "hip-hop", "sait": "rap", "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new"},
+   {"zanr": "rap", "sait": "rap", "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new"},
+   {"zanr": "techno", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new"},
+   {"zanr": "house", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=house&s=new"},
+   {"zanr": "electronic", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new"},
+   {"zanr": "experimental", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new"}
   ]
  },
  "klubi": {
