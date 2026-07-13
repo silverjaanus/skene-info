@@ -109,6 +109,25 @@
    }
   },
   {
+   "d": "2026-07-24",
+   "t": "klubi",
+   "n": "R 24.07 / PLANEET",
+   "a": "Club RED ööpidu Viljandis; peaesineja Planeet (dnb/bass)",
+   "b": [
+    "Planeet"
+   ],
+   "v": "Club RED, Viljandi",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1555267646003388/"
+  },
+  {
    "d": "2026-07-25",
    "t": "klubi",
    "n": "Selecta: Aphrodite (UK)",
@@ -134,6 +153,26 @@
     "mark": "late bird",
     "allikas": "GateMe, kontrollitud 13.07.2026"
    }
+  },
+  {
+   "d": "2026-08-07",
+   "d2": "09.08",
+   "t": "festival",
+   "n": "TRESKI FEST 2026",
+   "a": "Treski suvefestival Setomaal (5. sünnipäev) — muusika, kultuur ja loodus; Planeet dnb-poolel",
+   "b": [],
+   "nb": "lai kultuuriprogramm; klubi-skoobis elektroonika/dnb-osa (Planeet jt); täislineup + piletid piletikeskuses",
+   "v": "Suur-Treski, Silla talu, Setomaa",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "electro"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "treski.ee",
+   "ou": "https://treski.ee/festival",
+   "pu": "https://piletikeskus.ee/et/e/hl03ia"
   },
   {
    "d": "2026-08-08",
@@ -184,6 +223,24 @@
    "ou": "https://www.facebook.com/events/2213429046145152/",
    "pu": "https://bftv.ee/",
    "yu": "https://www.youtube.com/beatsfromthevault"
+  },
+  {
+   "d": "2026-08-15",
+   "t": "klubi",
+   "n": "BREAKWAVE 2026",
+   "a": "Drum & Bass pidu Valgerannas — bass kuni päikesetõusuni (21–04); host Valgeranna Muusikatall & Planeet",
+   "b": [],
+   "nb": "täislineup selgumisel (FB-üritus)",
+   "v": "Valgeranna Muusikatall, Audru",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4067900526836481/"
   },
   {
    "d": "2026-08-21",
@@ -238,6 +295,26 @@
    }
   },
   {
+   "d": "2026-08-21",
+   "t": "kontsert",
+   "n": "Netsky (BEL)",
+   "a": "Belgia elektroonilise muusika (dnb) tipptegija Hundipea Kakaolaos",
+   "b": [
+    "Netsky"
+   ],
+   "v": "Hundipea Kakaoladu",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "electro"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "hundipea.ee",
+   "ou": "https://hundipea.ee/en/event/netsky-bel-hundipea-kakaoladu/",
+   "pu": "https://www.piletilevi.ee/en/venues/21-61-9418/hundipea-kakaoladu-tallinn"
+  },
+  {
    "d": "2026-08-28",
    "t": "klubi",
    "n": "Laine Klubiöö: DJ Plead (AU)",
@@ -261,6 +338,47 @@
    "hind": {
     "praegu": "7.50–15€",
     "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-09-03",
+   "d2": "06.09",
+   "t": "festival",
+   "n": "Station Narva 2026",
+   "a": "Narva muusika- ja linnafestival; muusikaprogramm 4.–5.09 Narva Muuseumis (Hermanni linnus) + ööpeod Ro-Ro kultuuriklubis",
+   "b": [
+    "Tricky",
+    "GusGus",
+    "SADU",
+    "MALLA",
+    "ALIKA",
+    "boipepperoni",
+    "EiK",
+    "Elizabete Balčus",
+    "La Fazani",
+    "Luurel Varas",
+    "mariin k.",
+    "Mihkel Kuusk",
+    "Planeet",
+    "Skoone"
+   ],
+   "v": "Narva Muuseum + Art Club Ro-Ro",
+   "c": "mujal",
+   "g": [
+    "electro",
+    "house",
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "stationnarva.ee",
+   "ou": "https://www.stationnarva.ee/",
+   "pu": "https://www.piletilevi.ee/series/F3WNFTCFRE/station-narva-2026",
+   "hind": {
+    "praegu": "59€",
+    "mark": "festivalipass, soodushind kuni 10.08; päevapilet 39€",
+    "allikas": "stationnarva.ee, kontrollitud 13.07.2026"
    }
   },
   {

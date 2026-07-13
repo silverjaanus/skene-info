@@ -142,7 +142,9 @@
   "nb": "klubi.skene.info allikad - alternatiivne klubikultuur: techno/house/dnb/bass/eksperimentaal + dark-electro klubiohtud (BFTV jt). Peavoolu kommertsklubid EI kuulu skoopi. Pohiallikas Resident Advisor.",
   "fb": [
    {"nimi": "Beats From The Vault (BFTV)", "url": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events", "tyyp": "peosari", "nb": "kolis metal-poolelt 13.07.2026; dark-electro/EBM/industrial peosari alates 1998, toimub ule kuu; bftv.ee on JS-renderdatud - FB primaarne"},
-   {"nimi": "HALL (Tallinn)", "url": "https://www.facebook.com/halltallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "kolis metal-poolelt 13.07.2026; Noblessneri klubi (Peetri 6), tehno/house/klubiohtud - nuud KOGU programm skoobis"}
+   {"nimi": "HALL (Tallinn)", "url": "https://www.facebook.com/halltallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "kolis metal-poolelt 13.07.2026; Noblessneri klubi (Peetri 6), tehno/house/klubiohtud - nuud KOGU programm skoobis"},
+   {"nimi": "Planeet (Audio Planeet)", "url": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events", "tyyp": "artist/peosari", "nb": "lisatud 13.07.2026 (Silver); DnB/bass producer-DJ (planeet.dnb), 5K jalgijat; upcoming_hosted_events = uritused kus esineb/host (Club RED Viljandi, Treski Fest, Breakwave, Netsky@Hundipea jne) - filtreeri Eesti skoop"},
+   {"nimi": "Artur Laats", "url": "https://www.facebook.com/Arturlaats/upcoming_hosted_events", "tyyp": "artist", "nb": "lisatud 13.07.2026 (Silver); ISIKUPROFIIL (mitte leht), seotud HALL/hall.vision, soundcloud.com/arturlaats; 13.07.2026 upcoming events tuhi - hore allikas"}
   ],
   "ig": [],
   "js_saidid": [
