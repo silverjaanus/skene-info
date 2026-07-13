@@ -130,9 +130,12 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .footer{border-top:3px solid var(--tint);margin-top:34px;padding:18px 2px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
 .ethos{font-size:12.5px;color:var(--hall);max-width:440px}
 @media(max-width:900px){
-  .wrap{grid-template-columns:1fr}
-  aside{position:static;padding-top:12px;max-height:none;overflow:visible}
+  .wrap{grid-template-columns:1fr;gap:12px}
+  aside{position:static;padding-top:4px;max-height:none;overflow:visible}
+  .topnav{padding-bottom:4px}
   .cdet summary{font-weight:700;color:var(--tint)}
+  .content{padding-top:2px}
+  .content .frow{display:none}
   .kuud{display:flex;flex-wrap:wrap;gap:4px}
   .kuu{width:auto;border:1px solid var(--joon);border-left:3px solid transparent}
   .kuu small{float:none;margin-left:7px}
@@ -145,7 +148,9 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 /* kontaktivorm accordion + listingu-alune plokk (uudiskiri+IG) */
 .cdet summary{cursor:pointer;list-style:none}
 .cdet summary::-webkit-details-marker{display:none}
+.cdet summary::before{content:"▾ "}
 .cdet summary::after{content:" ▾"}
+.cdet[open] summary::before{content:"▴ "}
 .cdet[open] summary::after{content:" ▴"}
 .below{margin-top:64px}
 .below .cform,.below .igbtn{max-width:360px}
@@ -179,6 +184,12 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .calcell.sel .dnum{box-shadow:0 0 0 2px var(--tint)} /* valitud päev: tume äärering */
 .calclear{font-family:var(--mono);font-size:10.5px;color:var(--hall);background:transparent;border:0;cursor:pointer;padding:6px 2px 0;text-decoration:underline}
 .calclear:hover{color:var(--accent)}
+@media(max-width:900px){
+  /* mobiilis: kalender täislaiuseks + madalamad read (peab olema PÄRAST baas-.calbox/.calcell reegleid, muidu allika-järjekord kirjutab üle) */
+  .calbox{max-width:none}
+  .calgrid{column-gap:2px}
+  .calcell{aspect-ratio:auto;height:32px}
+}
 </style>
 </head>
 <body>
@@ -216,7 +227,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     <div class="calbox" id="cal"></div>
     <div class="kuud" id="kuud"></div>
     <details class="cdet" style="margin-top:28px">
-    <summary class="kuu-t" data-i18n="contact_sum">+ Lisa üritus, reliis või merch</summary>
+    <summary class="kuu-t" data-i18n="contact_sum">Lisa üritus, reliis või merch</summary>
     <form class="cform" action="https://api.web3forms.com/submit" method="POST" onsubmit="return sendForm(event,this)">
       <input type="hidden" name="access_key" value="40a0710b-066a-4434-96b7-7c51fe1e13c4">
       <input type="hidden" name="subject" value="skene.info kontaktivorm">
@@ -240,14 +251,16 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       <p class="hint" data-i18n-html="f_hint">Kirjuta oma nimi, kontakt ja ürituse info. <b>Kindlasti link</b>, et saaksime üle kontrollida.</p>
     </form>
     </details>
-    <script>/* desktopil (lai ekraan) on kontaktivorm vaikimisi lahti, kitsal kinni */
-    if(matchMedia('(min-width:901px)').matches)document.querySelector('.cdet').open=true;</script>
-    <p class="kuu-t" style="margin-top:32px" data-i18n="nl_head">Uudiskiri</p>
+    <details class="cdet nldet" style="margin-top:28px">
+    <summary class="kuu-t" data-i18n="nl_sum">Telli uudiskiri</summary>
     <form class="cform nlform" onsubmit="return subscribeNl(event,this)">
       <input type="email" name="email" required data-i18n-ph="nl_ph" placeholder="sinu@email.ee" autocomplete="email">
       <button type="submit" data-i18n="nl_btn">Telli nädalakiri →</button>
       <p class="hint" data-i18n-html="nl_fine_short">1 kiri nädalas, loobuda võid alati. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
     </form>
+    </details>
+    <script>/* desktopil (lai ekraan) on accordionid vaikimisi lahti, kitsal kinni */
+    if(matchMedia('(min-width:901px)').matches)document.querySelectorAll('aside .cdet').forEach(function(d){d.open=true;});</script>
   </aside>
   <div class="content">
     <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
@@ -256,14 +269,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     <p class="count" id="count"></p>
     <div id="list"></div>
     <div class="below">
-      <p class="kuu-t" data-i18n="nl_head">Uudiskiri</p>
-      <p class="igtxt" data-i18n="nl_lead">Korra nädalas kokkuvõte skene.info uutest üritustest, reliisidest ja merch-dropidest. Ei mingit spämmi.</p>
-      <form class="cform nlform" onsubmit="return subscribeNl(event,this)">
-        <input type="email" name="email" required data-i18n-ph="nl_ph" placeholder="sinu@email.ee" autocomplete="email">
-        <button type="submit" data-i18n="nl_btn">Telli nädalakiri →</button>
-        <p class="hint" data-i18n-html="nl_fine">1 kiri nädalas, loobuda võid alati. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
-      </form>
-      <p class="kuu-t" style="margin-top:40px" data-i18n="ig_head">Instagram</p>
+      <p class="kuu-t" data-i18n="ig_head">Instagram</p>
       <p class="igtxt" data-i18n-html="ig_txt">Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.</p>
       <a class="igbtn" href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener" data-i18n="ig_btn">Jälgi Instagramis ↗</a>
     </div>
@@ -301,7 +307,7 @@ const I18N={
   ig_head:"Instagram",
   ig_txt:"Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.",
   ig_btn:"Jälgi Instagramis ↗",
-  nl_head:"Uudiskiri",
+  nl_head:"Uudiskiri", nl_sum:"Telli uudiskiri",
   nl_lead:"Korra nädalas kokkuvõte skene.info uutest üritustest, reliisidest ja merch-dropidest. Ei mingit spämmi.",
   nl_ph:"sinu@email.ee",
   nl_btn:"Telli nädalakiri →",
@@ -309,7 +315,7 @@ const I18N={
   nl_done:"Aitäh! Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui olid juba tellija, siis uut kirja ei tule.",
   nl_err:"Registreerimine ebaõnnestus. Proovi hetke pärast uuesti.",
   f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv", nav_archive:"ARHIIV",
-  contact_sum:"+ Lisa üritus, reliis või merch",
+  contact_sum:"Lisa üritus, reliis või merch",
   nl_fine_short:"1 kiri nädalas, loobuda võid alati. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
   ethos:"Skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
   totop:"Üles",
@@ -344,7 +350,7 @@ const I18N={
   ig_head:"Instagram",
   ig_txt:"Follow <b>@skene.info</b> — every week I post a round-up of the coming week's events and releases.",
   ig_btn:"Follow on Instagram ↗",
-  nl_head:"Newsletter",
+  nl_head:"Newsletter", nl_sum:"Subscribe to newsletter",
   nl_lead:"Once a week, a round-up of new skene.info events, releases and merch drops. No spam.",
   nl_ph:"you@email.com",
   nl_btn:"Subscribe →",
@@ -352,7 +358,7 @@ const I18N={
   nl_done:"Thanks! We've sent you a confirmation email — click the link in it to complete your subscription. If you were already subscribed, no new email will be sent.",
   nl_err:"Subscription failed. Please try again in a moment.",
   f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive", nav_archive:"ARCHIVE",
-  contact_sum:"+ Add an event, release or merch",
+  contact_sum:"Add an event, release or merch",
   nl_fine_short:"One email a week, unsubscribe anytime. See <a href=\"/privaatsus.html\">privacy</a>.",
   ethos:"Skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
   totop:"Top",
