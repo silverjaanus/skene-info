@@ -1,0 +1,2143 @@
+{
+  "artists": {
+    "1000mods": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "psychedelic",
+        "doom",
+        "rock",
+        "heavy rock",
+        "desert rock",
+        "doom metal",
+        "stoner metal",
+        "stoner rock"
+      ]
+    },
+    "200 Stab Wounds": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death metal"
+      ]
+    },
+    "5Loops": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "A-Rühm": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "hiphop"
+      ]
+    },
+    "A.A Williams": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "soundtrack",
+        "classical",
+        "jazz",
+        "american",
+        "orchestral",
+        "game",
+        "conductor",
+        "video game"
+      ]
+    },
+    "AITÄH EMA!": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "AJO": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Aapo Ilves": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "singer",
+        "songwriter"
+      ]
+    },
+    "Aednikud": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Aether": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "downtempo",
+        "soundtrack",
+        "drum and bass",
+        "dubstep",
+        "chillout",
+        "ambient",
+        "lo-fi"
+      ]
+    },
+    "Airbourne": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "heavy metal",
+        "hard rock",
+        "classic rock",
+        "rock and indie",
+        "australian rock"
+      ]
+    },
+    "Alma Negra": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic"
+      ]
+    },
+    "Amon Amarth": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "swedish",
+        "melodic death metal",
+        "metal",
+        "death metal",
+        "sweden",
+        "viking metal",
+        "viking lyrics",
+        "viking"
+      ]
+    },
+    "Ampest": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Amputated Genitals": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "brutal death metal"
+      ]
+    },
+    "Antinorm": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Antsud Metal Project": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Aphrodite": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "drum and bass",
+        "jungle",
+        "hip hop rnb and dance hall"
+      ]
+    },
+    "Apparatus & Apparata": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "trance",
+        "electronic",
+        "soundtrack",
+        "classical",
+        "pop",
+        "special purpose artist",
+        "jungle"
+      ]
+    },
+    "Arankai": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Arch Enemy": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "swedish",
+        "melodic death metal",
+        "metal",
+        "death metal",
+        "female vocalists",
+        "female vocals",
+        "symphonic metal",
+        "female fronted metal"
+      ]
+    },
+    "Arestor": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Arottenbit": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "chiptune"
+      ]
+    },
+    "Bad Art": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "trance",
+        "electronic",
+        "soundtrack",
+        "classical",
+        "pop",
+        "special purpose artist",
+        "jungle"
+      ]
+    },
+    "Barbatos": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "black metal",
+        "thrash metal",
+        "punk",
+        "japanese hardcore",
+        "hardcore punk",
+        "speed metal",
+        "metal"
+      ]
+    },
+    "Beatrix": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Bedless Bones": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "coldwave",
+        "dark",
+        "female vocals",
+        "gothic",
+        "post-punk",
+        "synth",
+        "techno"
+      ]
+    },
+    "Beebilõust": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Belzebong": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "stoner rock",
+        "doom",
+        "stoner metal",
+        "stoner",
+        "awesomename"
+      ]
+    },
+    "Bestia": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "black metal",
+        "pagan black metal",
+        "epic pagan black metal"
+      ]
+    },
+    "Biisti Pohh": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Black Raptus": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "germany",
+        "punk"
+      ]
+    },
+    "Blisterous": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Blood Incantation": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "american",
+        "death metal"
+      ]
+    },
+    "Bloodfeather": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Bloody Falls": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "melodic death metal"
+      ]
+    },
+    "Body Count": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "jazz",
+        "american",
+        "swing",
+        "big band",
+        "vocal jazz",
+        "piano blues",
+        "classic pop and rock",
+        "2008 universal fire victim"
+      ]
+    },
+    "Brat": {
+      "checked": "2026-07-13",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "rap",
+        "hip hop",
+        "southern hip hop",
+        "pop rap",
+        "neo soul",
+        "hip hop soul",
+        "pop soul",
+        "sxsw"
+      ]
+    },
+    "Brenna Ryan": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "american",
+        "singer-songwriter",
+        "indie rock",
+        "country",
+        "folk rock",
+        "americana"
+      ]
+    },
+    "Burial Moon": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "C-JAM": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "american",
+        "seattle",
+        "grunge",
+        "hard rock",
+        "usa",
+        "indie rock"
+      ]
+    },
+    "Cabanne": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Caliber Orders": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Catch Your Breath": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "nu metal"
+      ]
+    },
+    "Chelsea Wolfe": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "doom metal",
+        "singer-songwriter",
+        "dark wave",
+        "darkwave",
+        "gothic rock",
+        "ethereal wave"
+      ]
+    },
+    "Cly/suva": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Combichrist": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "industrial",
+        "ebm",
+        "harsh ebm",
+        "aggrotech",
+        "industrial metal",
+        "electro-industrial"
+      ]
+    },
+    "Cradle of Filth": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "black metal",
+        "gothic metal",
+        "british",
+        "symphonic black metal",
+        "extreme symphonic metal",
+        "extreme gothic metal",
+        "gothic black metal"
+      ]
+    },
+    "Crystal Lake": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "progressive rock",
+        "70s",
+        "80s",
+        "90s",
+        "british",
+        "uk",
+        "folk rock"
+      ]
+    },
+    "CyHra": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "groove metal"
+      ]
+    },
+    "DJ Plead": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "pop",
+        "dubstep",
+        "dance",
+        "house",
+        "bass",
+        "deep house",
+        "techno"
+      ]
+    },
+    "Dead By April": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "alternative metal",
+        "metalcore",
+        "melodic metalcore",
+        "electronicore",
+        "melodic death metal"
+      ]
+    },
+    "Death Kommander": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death metal",
+        "bolt thrower worship"
+      ]
+    },
+    "Def Leppard": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "80s",
+        "heavy metal",
+        "metal",
+        "british",
+        "uk",
+        "hard rock"
+      ]
+    },
+    "Diarrhectomy": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Dragonland": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "power metal",
+        "symphonic metal",
+        "swedish",
+        "symphonic power metal"
+      ]
+    },
+    "Drengskapur": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "black metal",
+        "paganism",
+        "nature"
+      ]
+    },
+    "E.LINA": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "E.X.E.X.": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "EiK": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Electric Wizard": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "stoner metal",
+        "nazi",
+        "stoner-doom metal",
+        "metal",
+        "heavy psych",
+        "doom metal",
+        "traditional doom metal",
+        "death doom metal"
+      ]
+    },
+    "Elukas": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Emperor": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "norwegian",
+        "progressive metal",
+        "metal",
+        "black metal",
+        "melodic black metal",
+        "symphonic metal",
+        "symphonic black metal",
+        "symphonic extreme metal"
+      ]
+    },
+    "Fear Factory": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "industrial",
+        "heavy metal",
+        "industrial metal",
+        "thrash metal",
+        "metal",
+        "american",
+        "death metal",
+        "nu metal"
+      ]
+    },
+    "Fern Flower": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Flyers": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "pub rock",
+        "glam",
+        "classic pop and rock"
+      ]
+    },
+    "Freakangel": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "aggrotech",
+        "industrial metal"
+      ]
+    },
+    "Front Line Assembly": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "industrial",
+        "industrial rock",
+        "industrial metal",
+        "metal",
+        "ebm",
+        "electronica",
+        "breakbeat"
+      ]
+    },
+    "Fulci": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death metal",
+        "brutal death metal"
+      ]
+    },
+    "Gangrenated": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death metal",
+        "goregrind"
+      ]
+    },
+    "Goatburner": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "powerviolence",
+        "death metal",
+        "sludge metal",
+        "metal"
+      ]
+    },
+    "Godsmack": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "heavy metal",
+        "metal",
+        "hard rock",
+        "nu metal",
+        "post-grunge",
+        "1990s"
+      ]
+    },
+    "Gogol Bordello": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "punk",
+        "punk rock",
+        "folk rock",
+        "world",
+        "dub",
+        "latin rock",
+        "polka"
+      ]
+    },
+    "Goresoerd": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death metal",
+        "groove metal",
+        "deathschool",
+        "grindcore",
+        "estonian music",
+        "estonia",
+        "goresoerd",
+        "estonian metal"
+      ]
+    },
+    "Hammok": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Hanf Kung": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Hardcore Superstar": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "hard rock",
+        "glam metal",
+        "heavy metal"
+      ]
+    },
+    "Hate": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "death metal",
+        "black metal",
+        "blackened death metal"
+      ]
+    },
+    "Hatebreed": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "hardcore",
+        "metal",
+        "metalcore",
+        "hardcore punk",
+        "groove metal",
+        "beatdown hardcore"
+      ]
+    },
+    "Henge": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "nom",
+        "goo",
+        "cosmic dross",
+        "zpor",
+        "grok",
+        "xenopsych"
+      ]
+    },
+    "Herald": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Hez": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Homebroke": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Hot Kommunist": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Huiabella Fantastica": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Hävitus": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "I AM BOB": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "jazz",
+        "folk",
+        "american",
+        "blues",
+        "singer-songwriter",
+        "country",
+        "folk rock"
+      ]
+    },
+    "Indren": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Industry": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Intrascendence": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Iron Maiden": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "heavy metal",
+        "progressive metal",
+        "metal",
+        "british",
+        "seen live",
+        "uk",
+        "hard rock"
+      ]
+    },
+    "Irwin Art Projekt": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "JoJo": {
+      "checked": "2026-07-13",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "pop",
+        "hip hop",
+        "soul",
+        "pop and chart",
+        "united states",
+        "teen pop",
+        "r&b",
+        "contemporary r&b"
+      ]
+    },
+    "Judas Priest": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "heavy metal",
+        "metal",
+        "british",
+        "hard rock",
+        "nwobhm",
+        "groove metal",
+        "classic pop and rock",
+        "reino unido"
+      ]
+    },
+    "Kai Galactic": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "funk",
+        "jam band",
+        "acid jazz",
+        "jazz-funk",
+        "hip hop rnb and dance hall"
+      ]
+    },
+    "Kannabinõid": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "doom",
+        "estonian metal",
+        "sludge",
+        "sludge metal",
+        "stoner",
+        "stoner doom",
+        "drone"
+      ]
+    },
+    "Koni": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Korjus": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "soprano"
+      ]
+    },
+    "Korralagedus": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Kosmikud": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock"
+      ]
+    },
+    "Kättemaksucvntor": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Lavina (Serbia)": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Lee Burridge": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "minimal",
+        "deep house",
+        "breakbeat",
+        "electronic dance music"
+      ]
+    },
+    "Loathfinder": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Mandarones": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Marduk": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "black metal",
+        "war",
+        "marit bergman"
+      ]
+    },
+    "Mars Red Sky": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Martin Dupont": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "gothic",
+        "1980s",
+        "electronic",
+        "rock",
+        "french",
+        "goth",
+        "minimal synth",
+        "minimal wave"
+      ]
+    },
+    "Master": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "thrash metal",
+        "metal",
+        "death metal"
+      ]
+    },
+    "Master Boot Record": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "industrial metal",
+        "metal",
+        "electro-industrial",
+        "awesome",
+        "chiptune",
+        "electronic metal",
+        "synthwave"
+      ]
+    },
+    "Mija": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "edm",
+        "hardgroove techno"
+      ]
+    },
+    "Miroloja": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Model Citizen": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "southern rock"
+      ]
+    },
+    "Molbo": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Monkey3": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "instrumental",
+        "space rock",
+        "stoner rock",
+        "psychedelic rock"
+      ]
+    },
+    "Moonstruck": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Motelli Skronkle": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Must Missa": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "black metal",
+        "thrash metal"
+      ]
+    },
+    "Must Sebra": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Napalm Death": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "industrial metal",
+        "metal",
+        "death metal",
+        "british",
+        "uk",
+        "crust punk",
+        "grindcore",
+        "english"
+      ]
+    },
+    "Nevesis": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "hard rock",
+        "stoner rock"
+      ]
+    },
+    "Nico Stojan": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Nikolajev": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Noizmakaz": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Nora": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "pop",
+        "ballad",
+        "opm"
+      ]
+    },
+    "Nothing": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "alternative rock",
+        "shoegaze",
+        "post-punk",
+        "indie rock",
+        "indie",
+        "dream pop"
+      ]
+    },
+    "Nublu": {
+      "checked": "2026-07-13",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "hip hop"
+      ]
+    },
+    "Numento": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "melodic death metal",
+        "progressive"
+      ]
+    },
+    "Odium Humani Generis": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Ohvrikivi": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Oranzas brivdienas": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Orbit Culture": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "melodic death metal",
+        "death metal",
+        "groove metal"
+      ]
+    },
+    "P.O.D.": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "metal",
+        "nu metal",
+        "new metal",
+        "alternative metal",
+        "rapcore",
+        "christian rock"
+      ]
+    },
+    "Pagansarv": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Pandhora": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "organic house",
+        "livetronica",
+        "deep house",
+        "progressive house",
+        "deep progressive",
+        "deep psychedelia",
+        "folktronica"
+      ]
+    },
+    "Pedigree": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Periphery": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "progressive metal",
+        "metalcore",
+        "alternative metal",
+        "technical metal",
+        "djent",
+        "math metal",
+        "progressive metalcore"
+      ]
+    },
+    "Pikkauch": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Pitsa": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Pothamus": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "post-rock",
+        "shoegaze",
+        "metal",
+        "doom",
+        "alternative",
+        "post-metal",
+        "sludge",
+        "tribal"
+      ]
+    },
+    "Primordial": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "black metal",
+        "pagan black metal",
+        "pagan metal",
+        "doom metal",
+        "metal",
+        "celtic metal",
+        "celtic",
+        "blackened folk metal"
+      ]
+    },
+    "Primus": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "american",
+        "usa",
+        "funk rock",
+        "américain",
+        "funk metal",
+        "primus"
+      ]
+    },
+    "Priori": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Prodigyboys": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Profithysteri": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "punk",
+        "hulepønk 2026"
+      ]
+    },
+    "Project Dekadenz": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "punk",
+        "germany"
+      ]
+    },
+    "Pronoias": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Präänikud": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "PsycHolies": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Psychonaut": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "progressive metal",
+        "metal",
+        "post-metal",
+        "vyrzukhisuc-artiest"
+      ]
+    },
+    "Psychoterror": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "punk"
+      ]
+    },
+    "Puberteet": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Pühak": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Qslap": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "RLV Massive": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Raev": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Rammstein": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "industrial",
+        "heavy metal",
+        "industrial rock",
+        "german",
+        "industrial metal",
+        "metal",
+        "gothic metal"
+      ]
+    },
+    "Reket": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Robotorr": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Rony Rex": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "psychedelic pop",
+        "british",
+        "uk",
+        "psychedelic rock",
+        "glam rock",
+        "psychedelic folk",
+        "english",
+        "rock"
+      ]
+    },
+    "Rästas": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Sabaton": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "heavy metal",
+        "swedish",
+        "metal",
+        "sweden",
+        "power metal",
+        "speed metal",
+        "history",
+        "pop metal"
+      ]
+    },
+    "Scorpions": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "progressive rock",
+        "70s",
+        "hairmetal",
+        "80s",
+        "heavy metal",
+        "krautrock",
+        "german"
+      ]
+    },
+    "Sepultura": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "heavy metal",
+        "thrash metal",
+        "metal",
+        "death metal",
+        "brazilian",
+        "brasil",
+        "alternative metal",
+        "groove metal"
+      ]
+    },
+    "Sewer Altar": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "hardcore",
+        "death metal"
+      ]
+    },
+    "Shakabrah!": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Shatter Me Whole": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Sibyl Vane": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Silat Beksi": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Singer Vinger": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock"
+      ]
+    },
+    "Sisyphean": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "atmospheric black metal",
+        "black death metal",
+        "black metal",
+        "death metal",
+        "metal"
+      ]
+    },
+    "Skee Mask": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "jungle",
+        "ambient",
+        "house",
+        "idm",
+        "techno",
+        "breakbeat",
+        "breaks"
+      ]
+    },
+    "Skoone": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Slomosa": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "metal",
+        "stoner rock",
+        "heavy rock",
+        "desert rock",
+        "fres festival 2026"
+      ]
+    },
+    "Smiler": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Softspot": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Soilwork": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "swedish",
+        "melodic death metal",
+        "metal",
+        "death metal",
+        "swedish death metal",
+        "sweden",
+        "melodic/death-metal"
+      ]
+    },
+    "Sugar Rody": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Suntrace": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Sylosis": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "thrash metal",
+        "death metal",
+        "progressive metal",
+        "metalcore"
+      ]
+    },
+    "Säm": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "vocal",
+        "soul",
+        "gospel",
+        "southern soul",
+        "vocal jazz",
+        "rhythm and blues",
+        "soul and reggae",
+        "pop soul"
+      ]
+    },
+    "Sõpruse Puiestee": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Tarja": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "heavy metal",
+        "metal",
+        "crossover",
+        "power metal",
+        "symphonic metal",
+        "symphonic rock",
+        "tarja",
+        "finlandia"
+      ]
+    },
+    "Testament": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "80s",
+        "heavy metal",
+        "90s",
+        "thrash metal",
+        "metal",
+        "american",
+        "death metal",
+        "speed metal"
+      ]
+    },
+    "Tharaphita": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "black metal"
+      ]
+    },
+    "The Exploited": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "hardcore",
+        "punk",
+        "thrash metal",
+        "metal",
+        "punk rock",
+        "hardcore punk",
+        "thrash",
+        "uk82"
+      ]
+    },
+    "The Nocturnal Affair": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "The Obsessed": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "heavy metal",
+        "metal",
+        "doom metal",
+        "hard rock",
+        "doom",
+        "stoner metal"
+      ]
+    },
+    "The Ocean": {
+      "checked": "2026-07-13",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "pop",
+        "british",
+        "uk",
+        "soul",
+        "disco",
+        "dance-pop",
+        "adult contemporary",
+        "english"
+      ]
+    },
+    "The Tuberkuloited": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock"
+      ]
+    },
+    "Thousand Hands": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Tito & Tarantula": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "blues",
+        "hard rock",
+        "blues rock",
+        "southern rock",
+        "garage rock",
+        "latin rock"
+      ]
+    },
+    "Tommy Cash": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "folk",
+        "american",
+        "blues",
+        "singer-songwriter",
+        "rockabilly",
+        "country",
+        "americana"
+      ]
+    },
+    "Tramhaus": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Tribal Gaze": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death metal"
+      ]
+    },
+    "Triibupasta": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Truckthor": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Twilight Force": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "power metal",
+        "symphonic metal",
+        "symphonic power metal"
+      ]
+    },
+    "Týr": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "progressive metal",
+        "metal",
+        "power metal",
+        "folk metal",
+        "runic script",
+        "viking metal",
+        "faroe islands",
+        "faroese"
+      ]
+    },
+    "UUU": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Ufomammut": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "heavy psych",
+        "stoner doom metal",
+        "psychedelic",
+        "stoner metal",
+        "doom metal"
+      ]
+    },
+    "Unholy Obscurity": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Unknown Horizon": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "soundtrack",
+        "classical",
+        "special purpose artist",
+        "fixme",
+        "ambient",
+        "bogus artist",
+        "software company as artist",
+        "meta artist"
+      ]
+    },
+    "Urduk": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Valk": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Valm Ja Orav": {
+      "checked": "2026-07-13",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "hip hop",
+        "gangsta rap",
+        "pop rap",
+        "hip hop rnb and dance hall",
+        "east coast hip hop",
+        "hardcore hip hop"
+      ]
+    },
+    "Vanaheim": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Vennaskond": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "punk",
+        "punk rock",
+        "eesti"
+      ]
+    },
+    "Vermilia": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "black metal",
+        "pagan metal",
+        "atmospheric black metal",
+        "nature",
+        "folk black metal",
+        "pagan black metal",
+        "paganism",
+        "epic black metal"
+      ]
+    },
+    "Volta": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "progressive rock",
+        "experimental",
+        "hard rock",
+        "alternative",
+        "art rock",
+        "neo-progressive rock"
+      ]
+    },
+    "Wardruna": {
+      "checked": "2026-07-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "ambient",
+        "folk",
+        "celtic",
+        "folk metal",
+        "neofolk",
+        "scandinavian",
+        "international",
+        "medieval"
+      ]
+    },
+    "White Lies": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "indie rock",
+        "synth-pop",
+        "post-punk revival"
+      ]
+    },
+    "Whitechapel": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "progressive metal",
+        "metal",
+        "american",
+        "christian",
+        "alternative metal",
+        "deathcore",
+        "jesus mary chain",
+        "corruption"
+      ]
+    },
+    "Within Temptation": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "gothic metal",
+        "dutch",
+        "symphonic metal",
+        "symphonic rock",
+        "female fronted",
+        "holanda"
+      ]
+    },
+    "Wracaj Bo Ciemno": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Yakubutsu": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Yoth Iria": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "black metal"
+      ]
+    },
+    "Zeal & Ardor": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "melodic death metal",
+        "progressive metal",
+        "metal",
+        "blues",
+        "swiss",
+        "black metal",
+        "experimental",
+        "seen live"
+      ]
+    },
+    "Ziegenhorn": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "metropol": {
+      "checked": "2026-07-13",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "hard rock",
+        "romanian",
+        "romanian band",
+        "rock"
+      ]
+    },
+    "mrds": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "shbxsz": {
+      "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    }
+  },
+  "updated": "2026-07-13"
+}

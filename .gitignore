@@ -14,3 +14,8 @@ mailerlite_token.txt
 .env
 .env.*
 secrets/
+
+# classify.py — võti ja jooksvad raportid
+scripts/lastfm_api_key.txt
+sweep/classify_report.md
+sweep/classify_run.log
