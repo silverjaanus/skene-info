@@ -122,9 +122,12 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .footer{border-top:3px solid var(--tint);margin-top:34px;padding:18px 2px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
 .ethos{font-size:12.5px;color:var(--hall);max-width:440px}
 @media(max-width:900px){
-  .wrap{grid-template-columns:1fr}
-  aside{position:static;padding-top:12px;max-height:none;overflow:visible}
+  .wrap{grid-template-columns:1fr;gap:12px}
+  aside{position:static;padding-top:4px;max-height:none;overflow:visible}
+  .topnav{padding-bottom:4px}
   .cdet summary{font-weight:700;color:var(--tint)}
+  .content{padding-top:2px}
+  .content .frow{display:none}
   .kuud{display:flex;flex-wrap:wrap;gap:4px}
   .kuu{width:auto;border:1px solid var(--joon);border-left:3px solid transparent}
   .kuu small{float:none;margin-left:7px}
@@ -137,7 +140,9 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 /* kontaktivorm accordion */
 .cdet summary{cursor:pointer;list-style:none}
 .cdet summary::-webkit-details-marker{display:none}
+.cdet summary::before{content:"▾ "}
 .cdet summary::after{content:" ▾"}
+.cdet[open] summary::before{content:"▴ "}
 .cdet[open] summary::after{content:" ▴"}
 /* grid-blowout fix: pikk murdmatu sõna (nt üritusenimi) ei tohi veergu laiemaks venitada */
 .wrap>*{min-width:0}
@@ -168,6 +173,12 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .calcell.sel .dnum{box-shadow:0 0 0 2px var(--tint)}
 .calclear{font-family:var(--mono);font-size:10.5px;color:var(--hall);background:transparent;border:0;cursor:pointer;padding:6px 2px 0;text-decoration:underline}
 .calclear:hover{color:var(--accent)}
+@media(max-width:900px){
+  /* mobiilis: kalender täislaiuseks + madalamad read (PÄRAST baas-.calbox/.calcell reegleid) */
+  .calbox{max-width:none}
+  .calgrid{column-gap:2px}
+  .calcell{aspect-ratio:auto;height:32px}
+}
 </style>
 </head>
 <body>
@@ -205,7 +216,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     <div class="calbox" id="cal"></div>
     <div class="kuud" id="kuud"></div>
     <details class="cdet" style="margin-top:28px">
-    <summary class="kuu-t" data-i18n="contact_sum">+ Lisa üritus, reliis või merch</summary>
+    <summary class="kuu-t" data-i18n="contact_sum">Lisa üritus, reliis või merch</summary>
     <form class="cform" action="https://api.web3forms.com/submit" method="POST" onsubmit="return sendForm(event,this)">
       <input type="hidden" name="access_key" value="40a0710b-066a-4434-96b7-7c51fe1e13c4">
       <input type="hidden" name="subject" value="klubi.skene.info kontaktivorm">
@@ -271,7 +282,7 @@ const I18N={
   f_sent:"Aitäh! Sisend on saadetud — vaatan selle üle ja lisan, kui sobib.", f_senderr:"Saatmine ebaõnnestus. Proovi hetke pärast uuesti.",
   f_hint:"Kirjuta oma nimi, kontakt ja ürituse info. <b>Kindlasti link</b>, et saaksime üle kontrollida.",
   f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv", nav_archive:"ARHIIV",
-  contact_sum:"+ Lisa üritus, reliis või merch",
+  contact_sum:"Lisa üritus, reliis või merch",
   ethos:"Klubi.skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
   totop:"Üles",
   t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch",
@@ -303,7 +314,7 @@ const I18N={
   f_sent:"Thanks! Your submission was sent — I'll review it and add it if it fits.", f_senderr:"Sending failed. Please try again in a moment.",
   f_hint:"Write your name, contact and the event info. <b>Be sure to include a link</b> so we can verify it.",
   f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive", nav_archive:"ARCHIVE",
-  contact_sum:"+ Add an event, release or merch",
+  contact_sum:"Add an event, release or merch",
   ethos:"Klubi.skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
   totop:"Top",
   t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch",
