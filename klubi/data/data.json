@@ -130,6 +130,35 @@
    "ou": "https://www.facebook.com/events/1555267646003388/"
   },
   {
+   "d": "2026-07-24",
+   "t": "klubi",
+   "n": "Tjuun In: Makoto (JP)",
+   "a": "jaapani soulful drum & bass produtsent Makoto (LTJ Bukemi Progression Sessions kooli klassik) Tjuun In sarjas; 22.00–02.00",
+   "b": [
+    "Makoto",
+    "L.Eazy",
+    "QBA",
+    "To-Sha",
+    "MC Slin"
+   ],
+   "v": "Kultuuriklubi Tempel",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2476778",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2476778",
+   "pu": "https://ra.co/events/2476778",
+   "hind": {
+    "praegu": "10.90€",
+    "mark": "sisaldab RA teenustasu; 18+",
+    "allikas": "Resident Advisor, kontrollitud 13.07.2026"
+   }
+  },
+  {
    "d": "2026-07-25",
    "t": "klubi",
    "n": "Selecta: Aphrodite (UK)",
@@ -276,12 +305,26 @@
   },
   {
    "d": "2026-08-21",
-   "d2": "23.08",
+   "d2": "22.08",
    "t": "festival",
    "n": "Safara Festival",
    "a": "Shelter x Jokkoo Collective (Barcelona) — kaks ööd afro-elektroonikat, live'id ja töötoad",
-   "b": [],
-   "nb": "täisprogramm selgumisel",
+   "b": [
+    "NEXUS (ES)",
+    "Pasaporteman (ES)",
+    "Opoku (ES)",
+    "Exploited Body (FI)",
+    "Dharma Doom",
+    "Kxster",
+    "TNTC (ES)",
+    "Baba Sy (ES)",
+    "Bamba (ES)",
+    "Mookie (AU)",
+    "Shah Rud",
+    "Wondering O",
+    "Romanss"
+   ],
+   "nb": "lineup avaldatud Resident Advisoril 13.07.2026 (veel täieneb, more tba); kaks ööd 21.–22.08",
    "v": "HUNGR",
    "c": "Tallinn",
    "g": [

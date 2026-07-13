@@ -76,6 +76,24 @@
      "u": "https://ra.co/events/ee/all"
     }
    ]
+  },
+  {
+   "nimi": "Muud",
+   "items": [
+    {
+     "n": "Planeet (Audio Planeet)",
+     "u": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events"
+    }
+   ]
+  },
+  {
+   "nimi": "Artistid",
+   "items": [
+    {
+     "n": "Artur Laats",
+     "u": "https://www.facebook.com/Arturlaats/upcoming_hosted_events"
+    }
+   ]
   }
  ]
 }
