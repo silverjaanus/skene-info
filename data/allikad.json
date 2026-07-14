@@ -5,6 +5,10 @@
    "nimi": "Korraldajad",
    "items": [
     {
+     "n": "Baltic Live Agency",
+     "u": "https://www.facebook.com/balticliveagency/upcoming_hosted_events"
+    },
+    {
      "n": "Barbar / Barbar Feast",
      "u": "https://www.facebook.com/barbarestonia/events"
     },
@@ -23,6 +27,10 @@
     {
      "n": "Kolga Mõisa Kontsert",
      "u": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events"
+    },
+    {
+     "n": "L Tips Agency Estonia",
+     "u": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events"
     },
     {
      "n": "Secret Face Productions",

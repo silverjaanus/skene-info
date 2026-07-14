@@ -1790,5 +1790,56 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1706413267228257/",
   "nb": "3-päevane festival (20.08 18:00 – 23.08 03:00); korraldajad Art of Mosh + Uus Laine; koosseis osaline, veel täieneb; pilet TBA; lisatud 13.07.2026"
+ },
+ {
+  "d": "2026-07-20",
+  "t": "kontsert",
+  "n": "Lenny Kravitz (USA)",
+  "b": [
+   "Lenny Kravitz"
+  ],
+  "v": "Unibet Arena",
+  "c": "Tallinn",
+  "g": [
+   "rock"
+  ],
+  "sn": "Baltic Live Agency",
+  "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/832943499451786/",
+  "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
+  "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency"
+ },
+ {
+  "d": "2026-07-31",
+  "d2": "01.08",
+  "t": "festival",
+  "n": "Võnge x Tõrva Tule-Päevad",
+  "a": "kahepäevane alt/pop-festival (Punch Club x Tõrva Tule-Päevad); R 31.07: SADU, Frankie Animal, kiki, Duo Ruut, Leslie Da Bass, Tomás del Real (CL/EE), Town Flesh jt; L 01.08: Angus, Ko Shin Moon (FR), Reket, EiK, Echolove, Markus Lehtsalu jt",
+  "b": [
+   "SADU",
+   "Frankie Animal",
+   "Duo Ruut",
+   "Angus",
+   "Reket"
+  ],
+  "v": "Tõrva keskväljak",
+  "c": "mujal",
+  "g": [
+   "alt",
+   "rock",
+   "folk"
+  ],
+  "sn": "Facebook event",
+  "su": "https://www.facebook.com/events/2228856570966470/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2228856570966470/",
+  "pu": "https://piletikeskus.ee/et/e/mme7vd",
+  "hind": {
+   "praegu": "18.50€",
+   "mark": "pass (2 päeva); kuni 105.60€",
+   "allikas": "Piletikeskus, kontrollitud 14.07.2026"
+  },
+  "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Võnge/ACOUSSION MTÜ; King No-One (UK) FB kaaskorraldaja"
  }
 ]

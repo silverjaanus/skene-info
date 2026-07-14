@@ -41,7 +41,9 @@
   {"nimi": "Aprillikivi", "url": "https://www.facebook.com/aprillikivi/upcoming_hosted_events", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna raskemuusika festival aprillis; URL kontrollida sweepis"},
   {"nimi": "Tarbariitus", "url": "https://pergerus.eu/et/tarbariitus/", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); sügisene metal-festival Tartus; korraldaja Pergerus"},
   {"nimi": "Uus Laine (metal/punk pool)", "url": "https://www.facebook.com/uuslaine/events", "tyyp": "venue", "nb": "lisatud 11.07.2026: Laine Live sari toob regulaarselt skoobis underground-bände (Industry DE, Motelli Skronkle FIN, Model Citizen); leht oli seni ainult rap-sektsioonis - filtreeri DJ/klubiõhtud välja"},
-  {"nimi": "Hetk (promootor)", "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited", "tyyp": "promootor", "nb": "lisatud 11.07.2026: korraldab The Tuberkuloited 35 juubelikontserte (Rakvere 17.07, Pärnu 14.08); FB handle täpsustada - praegu leitav ürituste otsinguga"}
+  {"nimi": "Hetk (promootor)", "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited", "tyyp": "promootor", "nb": "lisatud 11.07.2026: korraldab The Tuberkuloited 35 juubelikontserte (Rakvere 17.07, Pärnu 14.08); FB handle täpsustada - praegu leitav ürituste otsinguga"},
+  {"nimi": "Baltic Live Agency", "url": "https://www.facebook.com/balticliveagency/upcoming_hosted_events", "tyyp": "promootor", "nb": "lisatud 14.07.2026 (Silveri leid: Lenny Kravitz 20.07 Unibet Arena): suursündmuste promootor, toob regulaarselt skoobis metal/rock nimesid (Arch Enemy, Amon Amarth+Soilwork, Dead by April, Hardcore Superstar @ Helitehas/Unibet Arena) - peamiselt www; filtreeri mainstream pop (nt Moments Festival) välja"},
+  {"nimi": "L Tips Agency Estonia", "url": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events", "tyyp": "promootor", "nb": "lisatud 14.07.2026 (Silveri leid: Moby+Austra 06.08 Tartu Laululava -> klubi): Baltikumi kontserdipromootor, toob dark/goth/elektroonika suurnimesid (The Cure, OMD, Moby) - žanripõhine saidivalik (The Cure -> www, Moby/OMD -> klubi); NB osa üritusi Vilnius/Riia - ainult Eesti omad"}
  ],
  "ig": [
   {"nimi": "@damn.loud", "url": "https://www.instagram.com/damn.loud/"},
@@ -55,7 +57,8 @@
    {"nimi": "Uus Laine", "url": "https://www.facebook.com/uuslaine/events", "tyyp": "venue", "nb": "Check One Two peod; URL kontrollida"},
    {"nimi": "Sveta Baar", "url": "https://www.facebook.com/svetabaar/events", "tyyp": "venue", "nb": "URL kontrollida"},
    {"nimi": "Beach Grind", "url": "https://www.facebook.com/beachgrind/events", "tyyp": "festival", "nb": "URL SURNUD 11.07.2026 ('content isn't available'); 2026 festival (10.-11.07) igatahes möödas - õige handle täpsustada enne 2027"},
-   {"nimi": "Luke mõis", "url": "https://lukemois.ee/", "tyyp": "venue", "nb": "lisatud 11.07.2026 (Reket + LIVE bänd 16.07.2026 leid tuleb.ee kaudu); mõisapargi suvekontserdid, aeg-ajalt räpp-nimed"}
+   {"nimi": "Luke mõis", "url": "https://lukemois.ee/", "tyyp": "venue", "nb": "lisatud 11.07.2026 (Reket + LIVE bänd 16.07.2026 leid tuleb.ee kaudu); mõisapargi suvekontserdid, aeg-ajalt räpp-nimed"},
+   {"nimi": "Legendaarne (Raadio/Baar/Records)", "url": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events", "tyyp": "venue/label", "nb": "lisatud 14.07.2026 (Silver): hip-hop-fookusega Legendaarne Records + Raadio + Baar (Tallinn); hostib räpp/RnB/bashment üritusi (DJ Trigga, Pluuto LIVE, Back 2 Bashment)"}
   ],
   "ig": [
    {"nimi": "@eestihiphopfestival", "url": "https://www.instagram.com/eestihiphopfestival/"},
