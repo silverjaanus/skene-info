@@ -46,6 +46,10 @@ TYPE_COLOR = {"kontsert": TELLISKIVI, "festival": SINEP, "klubi": PLOOM,
 TYPE_LABEL = {"kontsert": "KONTSERT", "festival": "FESTIVAL", "klubi": "KLUBI",
               "reliis": "UUS RELIIS", "merch": "MERCH"}
 EESTI = {"Tallinn", "Tartu", "mujal"}
+# kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat karussellis
+CAT_COLOR = {"metal": (0x93,0x39,0x2C), "rap": (0x2E,0x5E,0xAA), "klubi": (0x6E,0x45,0xA8)}
+CAT_LABEL_IMG = {"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"}
+CAT_ORDER = ["metal","rap","klubi"]
 KUUD_GEN = {1:"jaanuar",2:"veebruar",3:"marts",4:"aprill",5:"mai",6:"juuni",
             7:"juuli",8:"august",9:"september",10:"oktoober",11:"november",12:"detsember"}
 
@@ -239,7 +243,7 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
     for e, rh, tf, tlines, bands in rows:
         ry = int(y + gap * 0.35)
         s, en = event_span(e)
-        col = TYPE_COLOR.get(e.get("t"), HALL)
+        col = CAT_COLOR.get(e.get("_cat"), HALL)
 
         d.text((X_DATE, ry + 2), f"{s.day:02d}.{s.month:02d}", font=fonts["date"], fill=TINT)
         if e.get("t") in ("reliis", "merch") or e.get("rel"):
@@ -250,11 +254,10 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
                 wl += f" – {en.day:02d}.{en.month:02d}"
             d.text((X_DATE, ry + 44), wl, font=fonts["wday"], fill=HALL)
 
-        lbl = TYPE_LABEL.get(e.get("t"), e.get("t", "").upper())
+        lbl = CAT_LABEL_IMG.get(e.get("_cat"), e.get("_cat", "").upper())
         tw2 = d.textlength(lbl, font=fonts["tag"])
         d.rectangle([X_BODY, ry, X_BODY + tw2 + 16, ry + 25], fill=col)
-        d.text((X_BODY + 8, ry + 3), lbl, font=fonts["tag"],
-               fill=(PABER if col != SINEP else TINT))
+        d.text((X_BODY + 8, ry + 3), lbl, font=fonts["tag"], fill=PABER)
 
         ty = ry + 32
         for ln in tlines:
@@ -313,7 +316,8 @@ def main():
     ap = argparse.ArgumentParser()
     here = os.path.dirname(os.path.abspath(__file__))
     root = os.path.dirname(here)
-    ap.add_argument("--data", default=os.path.join(root, "data", "data.json"))
+    ap.add_argument("--data", default=None, help="(vana) uks metal data.json; vaikimisi loeb koik 3 kategooriat repost")
+    ap.add_argument("--repo", default=root, help="repo juur (loeb data/, rap/data/, klubi/data/)")
     ap.add_argument("--logo-dir", default=os.path.join(here, "assets", "logo"))
     ap.add_argument("--out", default=None)
     ap.add_argument("--date", default=None)
@@ -328,11 +332,22 @@ def main():
     else:
         ws, we = this_and_next_week(ref)
 
-    with open(args.data, encoding="utf-8") as f:
-        data = json.load(f)
-    entries = data.get("entries", [])
-    sel = [e for e in entries if e.get("c") in EESTI and in_window(e, ws, we)]
-    sel.sort(key=lambda e: (e["d"], e.get("t", "")))
+    def _load(path, cat, acc):
+        if not os.path.exists(path):
+            return
+        dd = json.load(open(path, encoding="utf-8"))
+        for e in dd.get("entries", []):
+            if e.get("c") in EESTI and in_window(e, ws, we):
+                ee = dict(e); ee["_cat"] = cat; acc.append(ee)
+    sel = []
+    if args.data:
+        _load(args.data, "metal", sel)            # vana kaitumine: uks fail = metal
+    else:
+        rp = args.repo
+        _load(os.path.join(rp, "data", "data.json"), "metal", sel)
+        _load(os.path.join(rp, "rap", "data", "data.json"), "rap", sel)
+        _load(os.path.join(rp, "klubi", "data", "data.json"), "klubi", sel)
+    sel.sort(key=lambda e: (e["d"], CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
 
     out = args.out or os.path.join(root, "postitused", f"nadal-{ws.isoformat()}.jpg")
     os.makedirs(os.path.dirname(out), exist_ok=True)
