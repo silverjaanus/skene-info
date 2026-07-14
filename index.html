@@ -123,6 +123,10 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .cform .hint{font-family:var(--mono);font-size:10.5px;color:var(--hall);line-height:1.5}
 .cform .fdone{font-family:var(--mono);font-size:12.5px;color:var(--tint);line-height:1.55;padding:6px 0}
 .cform .ferr{font-family:var(--mono);font-size:11px;color:var(--telliskivi);line-height:1.5;margin-top:2px}
+.nlcat-h{font-family:var(--mono);font-size:10.5px;color:var(--hall);text-transform:uppercase;letter-spacing:.4px;margin-top:2px}
+.nlcats{display:flex;flex-direction:column;gap:4px}
+.nlcats label{font-family:var(--mono);font-size:12px;color:var(--tint);display:flex;align-items:center;gap:7px;cursor:pointer}
+.nlcats input{width:auto;margin:0;flex:none}
 .igtxt{font-size:12.5px;color:var(--hall);line-height:1.5;margin:4px 0 8px}
 .igtxt b{color:var(--telliskivi)}
 .igbtn{display:block;text-align:center;font-family:var(--mono);font-size:12px;border:1.5px solid var(--telliskivi);background:var(--telliskivi);color:var(--paber);padding:8px 10px;text-decoration:none;text-transform:uppercase;letter-spacing:.5px}
@@ -135,7 +139,6 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
   .topnav{padding-bottom:4px}
   .cdet summary{font-weight:700;color:var(--tint)}
   .content{padding-top:2px}
-  .content .frow{display:none}
   .kuud{display:flex;flex-wrap:wrap;gap:4px}
   .kuu{width:auto;border:1px solid var(--joon);border-left:3px solid transparent}
   .kuu small{float:none;margin-left:7px}
@@ -152,6 +155,19 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .cdet summary::after{content:" ▾"}
 .cdet[open] summary::before{content:"▴ "}
 .cdet[open] summary::after{content:" ▴"}
+/* filtririba päises: otsingu kõrval "Filtrid" toggle, chipid täislaiuses all */
+.filters{flex-basis:100%;width:100%;margin-top:6px}
+.filters .frow{margin-bottom:7px}
+.ftog{display:none} /* toggle ainult mobiilis; desktopil filtrid alati nähtaval */
+@media(max-width:900px){
+  .ftog{display:inline-flex;align-items:center;font-family:var(--mono);font-size:12px;border:1.5px solid var(--joon);background:transparent;color:var(--hall);padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.4px;flex:none}
+  .ftog::after{content:"▾";margin-left:4px}
+  .ftog[aria-expanded="true"]::after{content:"▴"}
+  .topnav .nav-right{flex-wrap:nowrap}
+  .navq{flex:1;min-width:0}
+  .filters{display:none}
+  .filters.open{display:block}
+}
 .below{margin-top:64px}
 .below .cform,.below .igbtn{max-width:360px}
 .below .igbtn{display:block}
@@ -211,10 +227,16 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     </div>
     <div class="nav-right">
       <input id="f-q" class="qin navq" type="search" oninput="setQ(this.value)" data-i18n-ph="ph_q" placeholder="Otsi: bänd, koht, üritus…">
+      <button type="button" class="ftog" id="ftog" aria-expanded="false" onclick="toggleFilters()" data-i18n="f_filters">Filtrid</button>
       <div class="langsw" role="group" aria-label="Keel / Language">
         <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
         <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
       </div>
+    </div>
+    <div class="filters" id="filters">
+      <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
+      <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
+      <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
     </div>
   </nav>
 </header>
@@ -255,17 +277,21 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     <summary class="kuu-t" data-i18n="nl_sum">Telli uudiskiri</summary>
     <form class="cform nlform" onsubmit="return subscribeNl(event,this)">
       <input type="email" name="email" required data-i18n-ph="nl_ph" placeholder="sinu@email.ee" autocomplete="email">
+      <p class="nlcat-h" data-i18n="nl_cat_h">Mida saata? (kõik ühes kirjas)</p>
+      <div class="nlcats">
+        <label><input type="checkbox" name="cat" value="metal" checked> <span data-i18n="nl_cat_metal">Metal / rock / punk</span></label>
+        <label><input type="checkbox" name="cat" value="rap"> <span data-i18n="nl_cat_rap">Räpp</span></label>
+        <label><input type="checkbox" name="cat" value="klubi"> <span data-i18n="nl_cat_klubi">Klubi</span></label>
+      </div>
       <button type="submit" data-i18n="nl_btn">Telli nädalakiri →</button>
       <p class="hint" data-i18n-html="nl_fine_short">1 kiri nädalas, loobuda võid alati. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
     </form>
     </details>
     <script>/* desktopil (lai ekraan) on accordionid vaikimisi lahti, kitsal kinni */
-    if(matchMedia('(min-width:901px)').matches)document.querySelectorAll('aside .cdet').forEach(function(d){d.open=true;});</script>
+    if(matchMedia('(min-width:901px)').matches)document.querySelectorAll('aside .cdet').forEach(function(d){d.open=true;});
+    function toggleFilters(){var f=document.getElementById('filters');if(!f)return;var o=f.classList.toggle('open');var b=document.getElementById('ftog');if(b)b.setAttribute('aria-expanded',o?'true':'false');}</script>
   </aside>
   <div class="content">
-    <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
-    <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
-    <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
     <p class="count" id="count"></p>
     <div id="list"></div>
     <div class="below">
@@ -308,13 +334,14 @@ const I18N={
   ig_txt:"Jälgi <b>@skene.info</b> — postitan igal nädalal kokkuvõtte uue nädala üritustest ja reliisidest.",
   ig_btn:"Jälgi Instagramis ↗",
   nl_head:"Uudiskiri", nl_sum:"Telli uudiskiri",
+  nl_cat_h:"Mida saata? (kõik ühes kirjas)", nl_cat_metal:"Metal / rock / punk", nl_cat_rap:"Räpp", nl_cat_klubi:"Klubi",
   nl_lead:"Korra nädalas kokkuvõte skene.info uutest üritustest, reliisidest ja merch-dropidest. Ei mingit spämmi.",
   nl_ph:"sinu@email.ee",
   nl_btn:"Telli nädalakiri →",
   nl_fine:"1 kiri nädalas, loobuda võid alati. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
   nl_done:"Aitäh! Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui olid juba tellija, siis uut kirja ei tule.",
   nl_err:"Registreerimine ebaõnnestus. Proovi hetke pärast uuesti.",
-  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", archive_link:"→ Arhiiv", nav_archive:"ARHIIV",
+  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", f_filters:"Filtrid", archive_link:"→ Arhiiv", nav_archive:"ARHIIV",
   contact_sum:"Lisa üritus, reliis või merch",
   nl_fine_short:"1 kiri nädalas, loobuda võid alati. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
   ethos:"Skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
@@ -351,13 +378,14 @@ const I18N={
   ig_txt:"Follow <b>@skene.info</b> — every week I post a round-up of the coming week's events and releases.",
   ig_btn:"Follow on Instagram ↗",
   nl_head:"Newsletter", nl_sum:"Subscribe to newsletter",
+  nl_cat_h:"What to send? (all in one email)", nl_cat_metal:"Metal / rock / punk", nl_cat_rap:"Rap", nl_cat_klubi:"Club",
   nl_lead:"Once a week, a round-up of new skene.info events, releases and merch drops. No spam.",
   nl_ph:"you@email.com",
   nl_btn:"Subscribe →",
   nl_fine:"By subscribing you agree to receive one email a week. You confirm by e-mail and can unsubscribe anytime. See our <a href=\"/privaatsus.html\">privacy notice</a>.",
   nl_done:"Thanks! We've sent you a confirmation email — click the link in it to complete your subscription. If you were already subscribed, no new email will be sent.",
   nl_err:"Subscription failed. Please try again in a moment.",
-  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", archive_link:"→ Archive", nav_archive:"ARCHIVE",
+  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", f_filters:"Filters", archive_link:"→ Archive", nav_archive:"ARCHIVE",
   contact_sum:"Add an event, release or merch",
   nl_fine_short:"One email a week, unsubscribe anytime. See <a href=\"/privaatsus.html\">privacy</a>.",
   ethos:"Skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
@@ -411,14 +439,17 @@ function sendForm(ev,f){
 }
 // uudiskirja tellimine (MailerLite, fetch POST — JSONP GET annab 503)
 var ML_SUBSCRIBE="https://assets.mailerlite.com/jsonp/2500383/forms/192538337521698456/subscribe";
+var SITE_CAT="metal";
 function subscribeNl(ev,f){
   ev.preventDefault();
   var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
   var old=f.querySelector('.ferr');if(old)old.remove();
   var email=(f.querySelector('input[name=email]')||{}).value||'';
+  var cats=[].slice.call(f.querySelectorAll('input[name=cat]:checked')).map(function(c){return c.value;});
+  if(!cats.length)cats=[SITE_CAT];
   var ok=function(){f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
   var fail=function(){if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
-  fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&ml-submit=1&anticsrf=true'})
+  fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&fields%5Bgrupid%5D='+encodeURIComponent(cats.join(','))+'&ml-submit=1&anticsrf=true'})
     .then(function(r){return r.json();})
     .then(function(resp){if(resp&&resp.success===false){fail();}else{ok();}})
     .catch(function(){fail();});

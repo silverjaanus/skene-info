@@ -24,6 +24,12 @@ KAART="#FBFAF5"
 TELLISKIVI="#93392C"; PLOOM="#4E4275"; SINEP="#A8811F"; PAATINA="#2C5B54"
 TYPE_COLOR={"kontsert":TELLISKIVI,"festival":SINEP,"klubi":PLOOM,"reliis":PAATINA,"merch":PAATINA}
 EESTI={"Tallinn","Tartu","mujal"}
+# kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat, tuup jaab tekstina
+CAT_COLOR={"metal":"#93392C","rap":"#2E5EAA","klubi":"#6E45A8"}
+CAT_LABEL={"et":{"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"},"en":{"metal":"METAL","rap":"RAP","klubi":"CLUB"}}
+CAT_ORDER=["metal","rap","klubi"]
+# MailerLite eelistuste/loobumise link (grupid subscriber-managed); kinnita ML manage-tag
+MANAGE_LINK="{$unsubscribe}"
 # Multi-uudiskirja cross-promo ("Sa tellid ainult metal-uudiskirja...") on praegu VÄLJAS.
 # Lisa uuesti (kirja LÕPPU) kui rap/kino/dj saidid on päriselt tööle läinud → True.
 SHOW_CROSS_PROMO=False
@@ -107,11 +113,13 @@ def price_text(e):
 def title_link(e):
     return e.get("ou") or e.get("su") or ""
 
-def event_row(e, L):
+def event_row(e, L, lang="et"):
     s,en=event_span(e)
     t=e.get("t","")
-    col=TYPE_COLOR.get(t,HALL)
-    label=L["type"].get(t,t.upper())
+    cat=e.get("_cat","metal")
+    col=CAT_COLOR.get(cat,HALL)
+    label=CAT_LABEL.get(lang,CAT_LABEL["et"]).get(cat,cat.upper())
+    typetext=L["type"].get(t,t.upper())
     is_rel = t in ("reliis","merch") or e.get("rel")
     datebig=f"{s.day:02d}.{s.month:02d}"
     if is_rel:
@@ -119,10 +127,11 @@ def event_row(e, L):
     else:
         wl=L["wday"][s.weekday()]
         if e.get("d2"): wl+=f"&ndash;{en.day:02d}.{en.month:02d}"
-    tagfg = TINT if col==SINEP else "#FFFFFF"
-    tag=(f'<span style="display:inline-block;background:{col};color:{tagfg};'
+    tag=(f'<span style="display:inline-block;background:{col};color:#FFFFFF;'
          f'font:700 11px/1.4 \'Courier New\',monospace;letter-spacing:.5px;'
-         f'padding:2px 7px;">{label}</span>')
+         f'padding:2px 7px;">{label}</span>'
+         f'<span style="font:400 11px/1.4 \'Courier New\',monospace;color:{HALL};'
+         f'margin-left:8px;text-transform:uppercase;letter-spacing:.4px;">{typetext}</span>')
     name=esc(e.get("n",""))
     link=title_link(e)
     if link:
@@ -162,20 +171,34 @@ def daterange(ws,we,L):
         return f"{ws.day}.&ndash;{we.day}. {M[ws.month]} {we.year}"
     return f"{ws.day}. {M[ws.month]} &ndash; {we.day}. {M[we.month]} {we.year}"
 
-def build_html(entries, ws, we, lang):
+def build_html(entries, ws, we, lang, cats):
     L=I18N[lang]
-    rows="".join(event_row(e, L) for e in entries)
+    rows="".join(event_row(e, L, lang) for e in entries)
     n=len(entries); krje=L["entry_1"] if n==1 else L["entry_n"]
     rng=daterange(ws,we,L)
+    missing=[c for c in CAT_ORDER if c not in cats]
     promo_html=""
-    if SHOW_CROSS_PROMO:
-        promo_html=f"""  <!-- multi-teema cross-promo (kirja lopus; sees kui uued saidid valmis) -->
+    if missing:
+        CL=CAT_LABEL.get(lang,CAT_LABEL["et"])
+        have_txt=", ".join(CL[c] for c in cats if c in CL)
+        miss_txt=", ".join(CL[c] for c in missing)
+        if lang=="et":
+            ph="Telli juurde teisi teemasid"
+            pb=(f"Sinu kirjas on praegu <b>{have_txt}</b>. Saad juurde tellida <b>{miss_txt}</b> "
+                f"&mdash; kõik tuleb ühes kirjas nädalas, iga teema saab eraldi välja lülitada.")
+            pbtn="Halda eelistusi &rarr;"
+        else:
+            ph="Add more topics"
+            pb=(f"Right now your email covers <b>{have_txt}</b>. You can add <b>{miss_txt}</b> "
+                f"&mdash; everything arrives in one weekly email and each topic can be switched off.")
+            pbtn="Manage preferences &rarr;"
+        promo_html=f"""  <!-- lisa-teemade plokk (dunaamiline: naitab puuduvaid kategooriaid) -->
   <tr><td style="padding:8px 28px 22px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PABER};border:1px dashed {JOON};">
       <tr><td style="padding:16px 18px;">
-        <div style="font:700 14px/1.4 Arial,Helvetica,sans-serif;color:{TINT};">{L['promo_h']}</div>
-        <div style="font:400 13px/1.5 Arial,Helvetica,sans-serif;color:{HALL};margin:4px 0 12px;">{L['promo_b']}</div>
-        <a href="{SITE_URL}" style="display:inline-block;background:{TINT};color:{PABER};font:700 13px/1 Arial,Helvetica,sans-serif;text-decoration:none;padding:11px 18px;">{L['promo_btn']}</a>
+        <div style="font:700 14px/1.4 Arial,Helvetica,sans-serif;color:{TINT};">{ph}</div>
+        <div style="font:400 13px/1.5 Arial,Helvetica,sans-serif;color:{HALL};margin:4px 0 12px;">{pb}</div>
+        <a href="{MANAGE_LINK}" style="display:inline-block;background:{TINT};color:{PABER};font:700 13px/1 Arial,Helvetica,sans-serif;text-decoration:none;padding:11px 18px;">{pbtn}</a>
       </td></tr>
     </table>
   </td></tr>"""
@@ -209,7 +232,7 @@ def build_html(entries, ws, we, lang):
     <div style="font:800 18px/1 Arial,Helvetica,sans-serif;color:{PABER};">skene.info</div>
     <div style="font:400 12px/1.5 'Courier New',monospace;color:{JOON};margin:6px 0 0;">{L['foot_tag']}</div>
     <div style="font:400 12px/1.6 Arial,Helvetica,sans-serif;color:{JOON};margin:12px 0 0;">
-      <a href="https://www.skene.info/privaatsus.html" style="color:{PABER};">{L['foot_prefs']}</a> &nbsp;·&nbsp;
+      <a href="{MANAGE_LINK}" style="color:{PABER};">{L['foot_prefs']}</a> &nbsp;·&nbsp;
       <a href="{{$unsubscribe}}" style="color:{PABER};">{L['foot_unsub']}</a>
     </div>
     <div style="font:400 11px/1.5 Arial,Helvetica,sans-serif;color:{HALL};margin:10px 0 0;">{L['foot_why']}</div>
@@ -269,48 +292,70 @@ def load_token(path):
     with open(path, encoding="utf-8") as f:
         return f.read().strip()
 
+def load_sources(repo, ws, we):
+    srcs={"metal":os.path.join(repo,"data","data.json"),
+          "rap":os.path.join(repo,"rap","data","data.json"),
+          "klubi":os.path.join(repo,"klubi","data","data.json")}
+    out=[]
+    for cat,path in srcs.items():
+        if not os.path.exists(path): continue
+        data=json.load(open(path, encoding="utf-8"))
+        for e in data.get("entries",[]):
+            if e.get("c") in EESTI and in_window(e,ws,we):
+                ee=dict(e); ee["_cat"]=cat; out.append(ee)
+    return out
+
+def gen_combo(all_ev, cats, ws, we, base):
+    sel=[e for e in all_ev if e.get("_cat") in cats]
+    sel.sort(key=lambda e:(e["d"], CAT_ORDER.index(e.get("_cat","metal")), e.get("t","")))
+    tag="+".join(cats)
+    outs={}
+    for lang in ("et","en"):
+        h=build_html(sel, ws, we, lang, cats)
+        path=f"{base}-{tag}.{lang}.html"
+        with open(path,"w",encoding="utf-8") as f:
+            f.write(h)
+        outs[lang]=h
+        print(f"OK {path}  ({len(sel)} kirjet; kategooriad {tag})")
+    return outs
+
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--data", required=True)
-    ap.add_argument("--out", required=True, help="baasnimi; toodab <out>.et.html ja <out>.en.html")
+    ap.add_argument("--repo", help="repo juur (loeb data/, rap/data/, klubi/data/)")
+    ap.add_argument("--data", help="(vana teekond) uks metal data.json")
+    ap.add_argument("--cats", help="komadega kategooriad kirja, nt metal,klubi; vaikimisi naidiskombod")
+    ap.add_argument("--out", required=True, help="baasnimi; toodab <out>-<kombo>.et/.en.html")
     ap.add_argument("--date", default=None)
-    ap.add_argument("--send", action="store_true", help="saada MailerLite'i API kaudu (muidu ainult failid)")
-    ap.add_argument("--dry-run", action="store_true", help="--send-iga: naita mida saadaks, aga ara saada")
-    ap.add_argument("--token-file", default="mailerlite_token.txt")
     ap.add_argument("--config", default="mailerlite_config.json")
     args=ap.parse_args()
+
+    global MANAGE_LINK
+    if os.path.exists(args.config):
+        try:
+            MANAGE_LINK=json.load(open(args.config, encoding="utf-8")).get("manage_link", MANAGE_LINK)
+        except Exception:
+            pass
 
     ref=parse_d(args.date) if args.date else dt.date.today()
     ws,we=this_and_next_week(ref)
 
-    with open(args.data, encoding="utf-8") as f:
-        data=json.load(f)
-    entries=data.get("entries",[])
-    sel=[e for e in entries if e.get("c") in EESTI and in_window(e,ws,we)]
-    sel.sort(key=lambda e:(e["d"], e.get("t","")))
+    if args.repo:
+        all_ev=load_sources(args.repo, ws, we)
+    elif args.data:
+        data=json.load(open(args.data, encoding="utf-8"))
+        all_ev=[dict(e, _cat="metal") for e in data.get("entries",[])
+                if e.get("c") in EESTI and in_window(e,ws,we)]
+    else:
+        raise SystemExit("Anna --repo (soovitatav) voi --data")
 
     base=args.out[:-5] if args.out.endswith(".html") else args.out
-    outputs={}
-    for lang in ("et","en"):
-        htmlout=build_html(sel, ws, we, lang)
-        path=f"{base}.{lang}.html"
-        with open(path,"w",encoding="utf-8") as f:
-            f.write(htmlout)
-        outputs[lang]=htmlout
-        print(f"OK: {path}  ({len(sel)} kirjet; aken {ws}..{we})")
-    for e in sel:
-        print("  -", e["d"], e.get("t"), "|", e.get("n","")[:50])
-
-    if args.send:
-        token=load_token(args.token_file)
-        with open(args.config, encoding="utf-8") as f:
-            cfg=json.load(f)
-        print("Saatmine (MailerLite API)%s:" % (" [DRY-RUN]" if args.dry_run else ""))
-        for lang in ("et","en"):
-            try:
-                send_campaign(lang, outputs[lang], cfg, token, ws, we, dry_run=args.dry_run)
-            except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError) as ex:
-                print(f"  [VIGA {lang}] {ex}", file=sys.stderr)
+    if args.cats:
+        combos=[[c.strip() for c in args.cats.split(",") if c.strip() in CAT_ORDER]]
+    else:
+        combos=[["metal"],["rap"],["klubi"],["metal","rap","klubi"]]
+    for cats in combos:
+        if cats: gen_combo(all_ev, cats, ws, we, base)
+    print("MARKUS: kombinatsioonisaatmine kaib bucket-gruppidega (eraldi samm, ainult Silveri kasul).")
 
 if __name__=="__main__":
     main()
