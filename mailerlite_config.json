@@ -15,5 +15,6 @@
     "rap": "192956907302946513",
     "klubi": "192956907404658437"
   },
-  "field_lang": "keel"
+  "field_lang": "keel",
+  "manage_link": "{$preferences}"
 }

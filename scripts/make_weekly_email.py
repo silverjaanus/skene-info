@@ -29,7 +29,7 @@ CAT_COLOR={"metal":"#93392C","rap":"#2E5EAA","klubi":"#6E45A8"}
 CAT_LABEL={"et":{"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"},"en":{"metal":"METAL","rap":"RAP","klubi":"CLUB"}}
 CAT_ORDER=["metal","rap","klubi"]
 # MailerLite eelistuste/loobumise link (grupid subscriber-managed); kinnita ML manage-tag
-MANAGE_LINK="{$unsubscribe}"
+MANAGE_LINK="{$preferences}"
 # Multi-uudiskirja cross-promo ("Sa tellid ainult metal-uudiskirja...") on praegu VÄLJAS.
 # Lisa uuesti (kirja LÕPPU) kui rap/kino/dj saidid on päriselt tööle läinud → True.
 SHOW_CROSS_PROMO=False
