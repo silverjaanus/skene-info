@@ -166,6 +166,15 @@
         "brutal death metal"
       ]
     },
+    "Angus": {
+      "checked": "2026-07-15",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "heavy metal",
+        "power metal"
+      ]
+    },
     "Antinorm": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -248,6 +257,28 @@
       "src": "musicbrainz",
       "tags": [
         "chiptune"
+      ]
+    },
+    "Around the Sun": {
+      "checked": "2026-07-15",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonian estonia",
+        "estonia"
+      ]
+    },
+    "Austra": {
+      "checked": "2026-07-15",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "electronic",
+        "female vocalists",
+        "experimental",
+        "canadian",
+        "synthpop",
+        "electronica"
       ]
     },
     "Baba Sy": {
@@ -520,6 +551,12 @@
         "electro-industrial"
       ]
     },
+    "Cottonmoth": {
+      "checked": "2026-07-15",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Cradle of Filth": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -692,6 +729,15 @@
         "nature"
       ]
     },
+    "Duo Ruut": {
+      "checked": "2026-07-15",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "folk",
+        "estonian"
+      ]
+    },
     "E.LINA": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -805,6 +851,18 @@
         "pub rock",
         "glam",
         "classic pop and rock"
+      ]
+    },
+    "Frankie Animal": {
+      "checked": "2026-07-15",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "indie rock",
+        "rock",
+        "female vocalists",
+        "indie",
+        "estonian"
       ]
     },
     "Freakangel": {
@@ -1301,6 +1359,18 @@
         "electronic dance music"
       ]
     },
+    "Lenny Kravitz": {
+      "checked": "2026-07-15",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "rock",
+        "funk",
+        "alternative",
+        "alternative rock",
+        "pop"
+      ]
+    },
     "Loathfinder": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -1347,6 +1417,18 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Manna": {
+      "checked": "2026-07-15",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "finnish",
+        "female vocalists",
+        "pop",
+        "ambient",
+        "reggae"
+      ]
     },
     "Marduk": {
       "checked": "2026-07-13",
@@ -1426,6 +1508,18 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Moby": {
+      "checked": "2026-07-15",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "electronic",
+        "ambient",
+        "chillout",
+        "alternative",
+        "electronica"
+      ]
     },
     "Model Citizen": {
       "checked": "2026-07-13",
@@ -1564,6 +1658,17 @@
         "opm"
       ]
     },
+    "Norest Souls": {
+      "checked": "2026-07-15",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "reggae",
+        "roots reggae",
+        "rocksteady",
+        "pop reggae"
+      ]
+    },
     "Nothing": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -1688,6 +1793,12 @@
         "math metal",
         "progressive metalcore"
       ]
+    },
+    "Pihikamber": {
+      "checked": "2026-07-15",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Pikkauch": {
       "checked": "2026-07-13",
@@ -1875,6 +1986,14 @@
         "industrial metal",
         "metal",
         "gothic metal"
+      ]
+    },
+    "Raul Ojamaa": {
+      "checked": "2026-07-15",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonia"
       ]
     },
     "Reket": {
@@ -2117,6 +2236,12 @@
       "src": "none",
       "tags": []
     },
+    "Stefania Boiko": {
+      "checked": "2026-07-15",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Sten-Olle": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -2128,6 +2253,21 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Such a Vain Endeavour": {
+      "checked": "2026-07-15",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "surf",
+        "punk",
+        "indie",
+        "alternative",
+        "lofi",
+        "experimental",
+        "comedy",
+        "garage"
+      ]
     },
     "Sugar Rody": {
       "checked": "2026-07-13",
@@ -2172,6 +2312,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Süki": {
+      "checked": "2026-07-15",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "emo",
+        "screamo"
+      ]
     },
     "TNTC": {
       "checked": "2026-07-13",
@@ -2276,6 +2425,12 @@
     },
     "Thousand Hands": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Tiny Sequoia": {
+      "checked": "2026-07-15",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -2620,11 +2775,43 @@
       "src": "none",
       "tags": []
     },
+    "alabama": {
+      "checked": "2026-07-15",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "country",
+        "southern rock",
+        "alabama",
+        "classic country"
+      ]
+    },
     "boipepperoni": {
       "checked": "2026-07-13",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "brett": {
+      "checked": "2026-07-15",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "synthpop",
+        "new wave",
+        "indie rock",
+        "indie pop",
+        "retro electro"
+      ]
+    },
+    "cask": {
+      "checked": "2026-07-15",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drone",
+        "ambient"
+      ]
     },
     "maria kallastu": {
       "checked": "2026-07-13",
@@ -2698,5 +2885,5 @@
       ]
     }
   },
-  "updated": "2026-07-13"
+  "updated": "2026-07-15"
 }
