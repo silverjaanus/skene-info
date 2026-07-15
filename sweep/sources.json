@@ -55,7 +55,7 @@
   "fb": [
    {"nimi": "Eesti Hip Hop Festival", "url": "https://www.facebook.com/eestihiphopfestival/events", "tyyp": "festival"},
    {"nimi": "Uus Laine", "url": "https://www.facebook.com/uuslaine/events", "tyyp": "venue", "nb": "Check One Two peod; URL kontrollida"},
-   {"nimi": "Sveta Baar", "url": "https://www.facebook.com/svetabaar/events", "tyyp": "venue", "nb": "URL kontrollida"},
+   {"nimi": "Sveta Baar", "url": "", "tyyp": "venue", "nb": "SULETUD 01.01.2024 (Telliskivi, gentrifikatsioon + majanduskriis) - EI OLE enam allikas, võib eemaldada; url tühi -> avalikul lehel ei kuvata"},
    {"nimi": "Beach Grind", "url": "https://www.facebook.com/beachgrind/events", "tyyp": "festival", "nb": "URL SURNUD 11.07.2026 ('content isn't available'); 2026 festival (10.-11.07) igatahes möödas - õige handle täpsustada enne 2027"},
    {"nimi": "Luke mõis", "url": "https://lukemois.ee/", "tyyp": "venue", "nb": "lisatud 11.07.2026 (Reket + LIVE bänd 16.07.2026 leid tuleb.ee kaudu); mõisapargi suvekontserdid, aeg-ajalt räpp-nimed"},
    {"nimi": "Legendaarne (Raadio/Baar/Records)", "url": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events", "tyyp": "venue/label", "nb": "lisatud 14.07.2026 (Silver): hip-hop-fookusega Legendaarne Records + Raadio + Baar (Tallinn); hostib räpp/RnB/bashment üritusi (DJ Trigga, Pluuto LIVE, Back 2 Bashment)"}
@@ -68,12 +68,12 @@
   "js_saidid": [
    {"nimi": "Piletilevi muusika", "url": "https://www.piletilevi.ee/piletid/muusika", "nb": "JS + API 403 serverist; filtreeri räpp/hip-hop käsitsi"},
    {"nimi": "Fienta räpp-otsing", "url": "https://fienta.com/et?q=r%C3%A4pp", "nb": "ka: hip-hop, rap"},
-   {"nimi": "hiphop.ee", "url": "https://www.hiphop.ee/", "nb": "webzine, RSS /feed/, postitused hõredad aga elus (viimane 03.2026); reliisid+peod"},
-   {"nimi": "chainz.ee", "url": "https://chainz.ee/", "nb": "lisatud 15.07.2026; AKTIIVNE Eesti hiphopi meediaplatvorm + kogukond - koondab uudised/saated/reliisid/üritused; ka Chainz Fest 2026 (suvi, uus formaat); tugevaim uus räpp-allikas"},
-   {"nimi": "esthiphop.ee", "url": "https://esthiphop.ee/", "nb": "lisatud 15.07.2026; hiphop/räppmuusika portaal - uudised + reliisid; kontrolli värskust sweepis"},
+   {"nimi": "hiphop.ee", "url": "https://www.hiphop.ee/", "tyyp": "meedia", "nb": "webzine, RSS /feed/, postitused hõredad aga elus (viimane 03.2026); reliisid+peod"},
+   {"nimi": "chainz.ee", "url": "https://chainz.ee/", "tyyp": "meedia", "nb": "lisatud 15.07.2026; AKTIIVNE Eesti hiphopi meediaplatvorm + kogukond - koondab uudised/saated/reliisid/üritused; ka Chainz Fest 2026 (suvi, uus formaat); tugevaim uus räpp-allikas"},
+   {"nimi": "esthiphop.ee", "url": "https://esthiphop.ee/", "tyyp": "meedia", "nb": "lisatud 15.07.2026; hiphop/räppmuusika portaal - uudised + reliisid; kontrolli värskust sweepis"},
    {"nimi": "ehh.ee", "url": "https://ehh.ee/", "nb": "lisatud 15.07.2026 (Silveri soov); Eesti hiphopi vanim portaal (2000ndatest), teatas tegevuse lõpetamisest 2015 - LEGACY/HÕRE; domeen elab veel + kannab mõnda üritusinfot, aga ära eelda värsket voogu"},
    {"nimi": "Eesti Hip Hop Festival (ametlik sait)", "url": "https://eestihiphopfestival.ee/", "nb": "lisatud 15.07.2026; 20. juubel 14.-15.08.2026 Elvas; FB @eestihiphopfestival juba fb-all, ametlik sait annab lineup/ajakava täpsemalt"},
-   {"nimi": "Tartu Punch (ametlik sait)", "url": "https://tartupunch.com/et/avaleht-eesti/", "nb": "lisatud 06.07.2026, esimeses sweepis vahele jäänud; festival ise juba manual.json-is (allikas seni paavli.ee), aga ametlik sait annab täpsema lineup/kuupäeva info"}
+   {"nimi": "Tartu Punch (ametlik sait)", "url": "https://tartupunch.com/et/avaleht-eesti/", "tyyp": "festival", "nb": "lisatud 06.07.2026, esimeses sweepis vahele jäänud; festival ise juba manual.json-is (allikas seni paavli.ee), aga ametlik sait annab täpsema lineup/kuupäeva info"}
   ]
  },
  "js_saidid_chrome_kihis": [

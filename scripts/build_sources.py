@@ -24,10 +24,12 @@ GROUP = {
     "kogukond": "Kogukond",
     "artist": "Artistid",
     "peosari": "Korraldajad",
+    "meedia": "Meedia / kogukond",
 }
 ORDER_MAIN = ["Korraldajad", "Kohad", "Festivalid", "Plaadifirmad ja poed",
               "Kogukond", "Instagram", "Rahvusvahelised festivalid", "Muud"]
-ORDER_RAP = ["Festivalid", "Kohad", "Korraldajad", "Instagram / artistid", "Muud"]
+ORDER_RAP = ["Festivalid", "Kohad", "Korraldajad", "Meedia / kogukond",
+             "Instagram / artistid", "Muud"]
 ORDER_KLUBI = ["Kohad", "Korraldajad", "Festivalid", "Kogukond", "Instagram", "Muud"]
 
 
@@ -80,6 +82,9 @@ def build():
         _add(rap, GROUP.get(e.get("tyyp", ""), "Muud"), e.get("nimi", ""), e.get("url", ""))
     for e in rd.get("ig", []):
         _add(rap, "Instagram / artistid", e.get("nimi", ""), e.get("url", ""))
+    for e in rd.get("js_saidid", []):  # ainult tyybiga (meedia/festival) - agregaatorid jaavad avalikult valja
+        if e.get("tyyp"):
+            _add(rap, GROUP.get(e["tyyp"], "Muud"), e.get("nimi", ""), e.get("url", ""))
 
     klubi = {}
     kd = data.get("klubi", {})

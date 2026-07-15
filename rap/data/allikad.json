@@ -11,6 +11,10 @@
     {
      "n": "Eesti Hip Hop Festival",
      "u": "https://www.facebook.com/eestihiphopfestival/events"
+    },
+    {
+     "n": "Tartu Punch (ametlik sait)",
+     "u": "https://tartupunch.com/et/avaleht-eesti/"
     }
    ]
   },
@@ -22,12 +26,25 @@
      "u": "https://lukemois.ee/"
     },
     {
-     "n": "Sveta Baar",
-     "u": "https://www.facebook.com/svetabaar/events"
-    },
-    {
      "n": "Uus Laine",
      "u": "https://www.facebook.com/uuslaine/events"
+    }
+   ]
+  },
+  {
+   "nimi": "Meedia / kogukond",
+   "items": [
+    {
+     "n": "chainz.ee",
+     "u": "https://chainz.ee/"
+    },
+    {
+     "n": "esthiphop.ee",
+     "u": "https://esthiphop.ee/"
+    },
+    {
+     "n": "hiphop.ee",
+     "u": "https://www.hiphop.ee/"
     }
    ]
   },
