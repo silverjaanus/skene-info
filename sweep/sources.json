@@ -69,6 +69,10 @@
    {"nimi": "Piletilevi muusika", "url": "https://www.piletilevi.ee/piletid/muusika", "nb": "JS + API 403 serverist; filtreeri räpp/hip-hop käsitsi"},
    {"nimi": "Fienta räpp-otsing", "url": "https://fienta.com/et?q=r%C3%A4pp", "nb": "ka: hip-hop, rap"},
    {"nimi": "hiphop.ee", "url": "https://www.hiphop.ee/", "nb": "webzine, RSS /feed/, postitused hõredad aga elus (viimane 03.2026); reliisid+peod"},
+   {"nimi": "chainz.ee", "url": "https://chainz.ee/", "nb": "lisatud 15.07.2026; AKTIIVNE Eesti hiphopi meediaplatvorm + kogukond - koondab uudised/saated/reliisid/üritused; ka Chainz Fest 2026 (suvi, uus formaat); tugevaim uus räpp-allikas"},
+   {"nimi": "esthiphop.ee", "url": "https://esthiphop.ee/", "nb": "lisatud 15.07.2026; hiphop/räppmuusika portaal - uudised + reliisid; kontrolli värskust sweepis"},
+   {"nimi": "ehh.ee", "url": "https://ehh.ee/", "nb": "lisatud 15.07.2026 (Silveri soov); Eesti hiphopi vanim portaal (2000ndatest), teatas tegevuse lõpetamisest 2015 - LEGACY/HÕRE; domeen elab veel + kannab mõnda üritusinfot, aga ära eelda värsket voogu"},
+   {"nimi": "Eesti Hip Hop Festival (ametlik sait)", "url": "https://eestihiphopfestival.ee/", "nb": "lisatud 15.07.2026; 20. juubel 14.-15.08.2026 Elvas; FB @eestihiphopfestival juba fb-all, ametlik sait annab lineup/ajakava täpsemalt"},
    {"nimi": "Tartu Punch (ametlik sait)", "url": "https://tartupunch.com/et/avaleht-eesti/", "nb": "lisatud 06.07.2026, esimeses sweepis vahele jäänud; festival ise juba manual.json-is (allikas seni paavli.ee), aga ametlik sait annab täpsema lineup/kuupäeva info"}
   ]
  },
