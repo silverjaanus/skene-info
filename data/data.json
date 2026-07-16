@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15",
+ "updated": "2026-07-16",
  "entries": [
   {
    "rel": 1,
@@ -89,26 +89,6 @@
    "g": [],
    "sn": "nailboard.org",
    "su": "https://nailboard.org/tootekategooria/viimati-saabunud/"
-  },
-  {
-   "d": "2026-07-15",
-   "d2": "17.07",
-   "t": "kontsert",
-   "n": "C-JAM & MAD «Metallica» tuur",
-   "a": "Saka mõis, Kuressaare kuursaal, Tori kirik (tribuutprojekt)",
-   "b": [
-    "C-JAM"
-   ],
-   "v": "Saka mõis / Kuressaare kuursaal / Tori kirik",
-   "c": "mujal",
-   "g": [
-    "heavy",
-    "metal"
-   ],
-   "sn": "Barbari FB",
-   "su": "https://www.facebook.com/barbarestonia/events",
-   "on_": "Kolga Mõisa Kontsert",
-   "ou": "https://www.facebook.com/barbarestonia/events"
   },
   {
    "d": "2026-07-17",
@@ -971,6 +951,36 @@
    "nb": "koosseis kinnitamata (open call) - kontrolli lineup enne kui usaldad žanri"
   },
   {
+   "d": "2026-08-21",
+   "t": "kontsert",
+   "n": "BARBATOS (JPN) + BEATRIX (FIN) + guest",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/barbatos-jpn-beatrix-fin-guest/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
+  },
+  {
+   "d": "2026-08-22",
+   "t": "kontsert",
+   "n": "𝐌𝐞𝐭𝐚𝐥 𝐒𝐚𝐭𝐮𝐫𝐝𝐚𝐲: NARASANTI + INNERSPELL",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%90%8c%f0%9d%90%9e%f0%9d%90%ad%f0%9d%90%9a%f0%9d%90%a5-%f0%9d%90%92%f0%9d%90%9a%f0%9d%90%ad%f0%9d%90%ae%f0%9d%90%ab%f0%9d%90%9d%f0%9d%90%9a%f0%9d%90%b2-narasanti-innerspell/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
+  },
+  {
    "d": "2026-08-27",
    "t": "kontsert",
    "n": "SFP esitleb: Suntrace + Präänikud + Shakabrah!",
@@ -1182,6 +1192,21 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1065529219140534/",
    "pu": "https://fienta.com/et/freakangel-guests-thekrypt"
+  },
+  {
+   "d": "2026-09-12",
+   "t": "kontsert",
+   "n": "FREAKANGEL (EE) + PSYCHOLIES (IT) + SUGAR RODY (EE)",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/freakangel-ee-psycholies-it-sugar-rody-ee/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "d": "2026-09-19",
@@ -1674,7 +1699,7 @@
  ],
  "log": [
   "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
-  "krypt: 0",
+  "krypt: 3",
   "paavli: 0",
   "helitehas: 0"
  ]
