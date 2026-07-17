@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16",
+ "updated": "2026-07-17",
  "groups": [
   {
    "nimi": "Kohad",
@@ -21,6 +21,10 @@
      "u": "https://ra.co/clubs/235784"
     },
     {
+     "n": "Kaks Tuba (Rapla)",
+     "u": "https://www.facebook.com/kakstuba/events"
+    },
+    {
      "n": "Kauplus Aasia",
      "u": "https://ra.co/clubs/147536"
     },
@@ -39,6 +43,10 @@
     {
      "n": "Uus Laine",
      "u": "https://fienta.com/et/o/17330"
+    },
+    {
+     "n": "VMPR / Valgemetsa projektiruum",
+     "u": "https://vmpr.ee/"
     }
    ]
   },
