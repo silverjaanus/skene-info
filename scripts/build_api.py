@@ -107,6 +107,15 @@ def build():
     archive.sort(key=lambda e: (e.get("d", ""), e.get("n", "")))
     _write(API / "events.json", "tulevased + varsked kirjed", events)
     _write(API / "archive.json", "arhiiv (moodunud kirjed)", archive)
+
+    # Koond-events.json koopiad alamdomeenidele. Vercel routes suunab
+    # rap.skene.info/api/* -> /rap/api/*, seega saidi enda otsing (index.html)
+    # laeb "api/events.json" relatiivselt oma kaustast. Sama sisu koigil kolmel.
+    for sub in ("rap", "klubi"):
+        subapi = ROOT / sub / "api"
+        subapi.mkdir(parents=True, exist_ok=True)
+        _write(subapi / "events.json", "tulevased + varsked kirjed", events)
+
     return len(events), len(archive)
 
 

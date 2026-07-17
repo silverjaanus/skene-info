@@ -446,6 +446,12 @@ const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal",
 let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:""};
 let calView=(function(){try{return localStorage.getItem('skene_calview')||'cal';}catch(e){return 'cal';}})();
 let calYM={y:new Date().getFullYear(),m:new Date().getMonth()};
+// Domeeniülene otsing: SELF = see sait; ALLX = kõigi 3 saidi koondkirjed (api/events.json).
+const SELF="rap";
+const SITE_LBL={www:"METAL",rap:"RÄPP",klubi:"KLUBI"};
+const SITE_URL={www:"https://www.skene.info/",rap:"https://rap.skene.info/",klubi:"https://klubi.skene.info/"};
+const SITE_BG={www:"#93392C",rap:"#2E5EAA",klubi:"#6E45A8"};
+let ALLX=[];
 function tags(){const s=new Set();E.forEach(e=>e.g.forEach(g=>s.add(g)));return[...s].sort();}
 function enc(x){return encodeURIComponent(x);}
 const IC={
@@ -534,10 +540,13 @@ function suggestEdit(i){
   return false;
 }
 function render(){
-  let rows=E.filter(e=>{
+  const q=st.q;
+  // Otsingul (q täidetud) segavaade kõigist 3 domeenist (ALLX); muidu ainult see sait (E).
+  const base=q?(ALLX.length?ALLX:E):E;
+  let rows=base.filter(e=>{
     if(!matchQ(e))return false;
     if(st.type&&e.t!==st.type)return false;
-    if(st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
+    if(!q&&st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
@@ -553,7 +562,7 @@ function render(){
   document.getElementById("count").textContent=rows.length+" "+t('entries')
     +(st.day?" · "+st.day.slice(8,10)+"."+st.day.slice(5,7)+"."+st.day.slice(0,4):"")
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
-    +(st.tags.size?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
+    +((!st.q&&st.tags.size)?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
   RROWS=rows;
   document.getElementById("list").innerHTML=rows.map((e,i)=>{
     const past=!featured(e)&&!e.tba&&e.d<TODAY;
@@ -571,7 +580,7 @@ function render(){
     if(cal)lnks+=`<br>${cal}`;
     lnks+=`<br><a class="rep" href="#" onclick="return suggestEdit(${i})">${t('report_err')}</a>`;
     return `<div class="row${past?" past":""}">
-      <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<br><span class="laebi">'+t('lbl_past')+'</span>':""}</div>
+      <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span>${st.q?`<br><a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${past?'<br><span class="laebi">'+t('lbl_past')+'</span>':""}</div>
       <div>
         <p class="tit"><a href="${e.ou||e.su}" target="_blank" rel="noopener">${e.n}</a></p>
         ${e.a?`<p class="sub">${e.a}</p>`:""}
@@ -679,6 +688,7 @@ function refresh(){
 applyI18n();applyCalView();E=E_FALLBACK;refresh();
 fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;refresh();}).catch(()=>{});
 fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
+fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];if(st.q)render();}).catch(()=>{});
 (function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
 </script>
 </body>
