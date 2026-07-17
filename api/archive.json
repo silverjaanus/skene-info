@@ -1,0 +1,277 @@
+{
+ "updated": "2026-07-17",
+ "_meta": {
+  "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
+  "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
+  "uueneb": "iga paev ~07:30 EET (andmekorje) + nadalane sweep (P oosel)",
+  "urls": {
+   "events": "https://www.skene.info/api/events.json",
+   "archive": "https://www.skene.info/api/archive.json"
+  },
+  "kontakt": "kontaktivorm www.skene.info sidebaris",
+  "fields": {
+   "sait": "alamdomeen: www (metal/rock/punk, www.skene.info) | rap (Eesti hip-hop, rap.skene.info) | klubi (elektrooniline klubikultuur, klubi.skene.info)",
+   "d": "alguskuupaev ISO (AAAA-KK-PP); reliisil valjalaskekuupaev",
+   "d2": "loppkuupaev 'PP.KK' (ainult mitmepaevastel)",
+   "t": "tyyp: kontsert | festival | klubi | reliis | merch",
+   "n": "nimi",
+   "a": "kirjeldus (ET)",
+   "b": "esinejad/bandid (list)",
+   "v": "toimumiskoht (venue)",
+   "c": "linnakategooria: Tallinn | Tartu | mujal | valisriikide puhul riik/regioon",
+   "linn": "tapsem linn (kui c=mujal)",
+   "g": "zanrisildid (list)",
+   "sn": "avastusallika nimi",
+   "su": "avastusallika URL",
+   "on_": "urituse ametliku allika nimi",
+   "ou": "urituse ametlik URL (nt FB event)",
+   "pu": "piletimyygi URL",
+   "yu": "urituse/sarja YouTube URL",
+   "hind": "hinnaobjekt: praegu, mark, kuni, jargmine, allikas",
+   "rel": "1 = reliisi/merchi kirje (naidatakse 'uus' 30 paeva alates 'lisatud')",
+   "lisatud": "saidile lisamise kuupaev (reliisidel, 'uus' 30 paeva)",
+   "tba": "1 = koosseis/detailid alles tapsustamisel",
+   "nb": "vabatekstiline markus"
+  }
+ },
+ "count": 10,
+ "entries": [
+  {
+   "sait": "www",
+   "d": "2026-06-28",
+   "t": "kontsert",
+   "n": "Blood Incantation + Nate Mercereau",
+   "b": [
+    "Blood Incantation",
+    "Nate Mercereau"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "death"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+   "on_": "paavli.ee",
+   "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-01",
+   "t": "kontsert",
+   "n": "Õllesummer: Metsatöll",
+   "b": [
+    "Metsatöll"
+   ],
+   "v": "Tallinna Lauluväljak",
+   "c": "Tallinn",
+   "g": [
+    "folk",
+    "pagan"
+   ],
+   "sn": "metsatoll.ee",
+   "su": "https://www.metsatoll.ee/en/gigs/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-03",
+   "d2": "04.07",
+   "t": "festival",
+   "n": "Hard Rock Laager 2026",
+   "a": "+20 bändi",
+   "b": [
+    "Pain",
+    "Vader",
+    "Eivør",
+    "Metsatöll"
+   ],
+   "v": "Vana-Vigala",
+   "c": "mujal",
+   "g": [
+    "death",
+    "industrial",
+    "folk",
+    "pagan"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-06",
+   "t": "kontsert",
+   "n": "Laine Live: Molbo + Homebroke",
+   "a": "MOLBO (NO) + Homebroke (EE)",
+   "b": [
+    "Molbo",
+    "Homebroke"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "post-punk"
+   ],
+   "sn": "uuslaine.com",
+   "su": "https://uuslaine.com/",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-live-molbo"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-07-10",
+   "d2": "11.07",
+   "t": "festival",
+   "n": "Beach Grind 2026",
+   "a": "+ Vini Vici, Wilkinson, Hospital 30: Metrik, P Money jt",
+   "b": [
+    "Tommy Cash",
+    "NOËP",
+    "Sadu"
+   ],
+   "v": "Pärnu rand",
+   "c": "mujal",
+   "g": [
+    "hip-hop",
+    "dnb",
+    "electro"
+   ],
+   "sn": "beachgrind.ee",
+   "su": "https://beachgrind.ee/",
+   "pu": "https://beachgrind.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-10",
+   "t": "kontsert",
+   "n": "Tallinn Indie Shuffle: Around the Sun + Cottonmoth + The Camera",
+   "b": [
+    "Around the Sun",
+    "Cottonmoth",
+    "The Camera"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/events/1752234862578425/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1752234862578425/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-10",
+   "d2": "11.07",
+   "t": "festival",
+   "n": "Tartu Rock Fest 2026",
+   "a": "2 lava, 16 bändi",
+   "b": [
+    "Vennaskond",
+    "Singer Vinger",
+    "Kosmikud",
+    "The Tuberkuloited",
+    "Elephants from Neptune",
+    "Dramamama",
+    "Põhja Konn",
+    "DND",
+    "Raev",
+    "Stepdog",
+    "Kondimootor",
+    "Kaibald",
+    "Merwis",
+    "Artifer",
+    "Exanity",
+    "Soda Effect"
+   ],
+   "v": "Tartu Laululava",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "punk",
+    "alt",
+    "metal",
+    "thrash"
+   ],
+   "sn": "Facebook",
+   "su": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "on_": "Tartu Kontsert",
+   "ou": "https://onlinepilet.ee/tartu-rock-fest-2026/",
+   "pu": "https://onlinepilet.ee/toode/tartu-rock-fest-2-paeva/",
+   "hind": {
+    "praegu": "87€ (2 päeva) / 47€ (1 päev)",
+    "mark": "perepilet 120€; eelmüük, kohapeal kallim; Piletilevi 49–127€",
+    "allikas": "onlinepilet.ee (Tartu Kontsert), kontrollitud 07.07.2026"
+   }
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-11",
+   "t": "kontsert",
+   "n": "ABCDEFGHIJKLWNOPQRSTUVMÕÄÖÜXY @ Ülase 12",
+   "a": "tähestiku-teemaline DIY-õhtu; laval mh Atentaat (crustgrind); täislineup FB eventis",
+   "b": [
+    "Atentaat"
+   ],
+   "v": "Ülase 12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "grind"
+   ],
+   "sn": "Anemon12 FB",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1325978722451255/",
+   "nb": "lineup osaliselt FB kirjelduses peidus (See more); lisatud 11.07.2026"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-07-11",
+   "t": "kontsert",
+   "n": "RNB & Chill with Yas Lo",
+   "a": "Afro Chill liikumise eestvedaja Yas Lo DJ-set; RnB & hip-hop; algus 21.00",
+   "b": [
+    "Yas Lo"
+   ],
+   "v": "Legendaarne Raadiobaar",
+   "c": "Tallinn",
+   "g": [
+    "hip-hop"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1030974412917492",
+   "nb": "kontaktivormi kaudu (Janno Sooäär / Legendaarne); kontrollitud FB eventi ja korraldaja lehe vastu 11.07.2026; pileti/hinnainfot ei leitud"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-12",
+   "t": "kontsert",
+   "n": "SFP esitleb: Ecotage + Ethetric + Shatter Me Whole",
+   "b": [
+    "Ecotage",
+    "Ethetric",
+    "Shatter Me Whole"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "grind",
+    "core"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1375338867849271/",
+   "hind": {
+    "praegu": "10€ / 7€ (õpilased, alaealised)",
+    "mark": "uksehind, ainult sularaha; uksed 17.00, muusika 18.00",
+    "allikas": "Facebook event, kontrollitud 07.07.2026"
+   }
+  }
+ ]
+}

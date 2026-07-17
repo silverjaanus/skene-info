@@ -35,6 +35,12 @@ def main():
         warn_unknown_bands(KLUBI, manual)
     except Exception as ex:
         print(f"bands-kontroll vahele jaetud: {type(ex).__name__}: {ex}")
+    try:
+        from build_api import build as build_api_build
+        n_ev, n_ar = build_api_build()
+        print(f"api: events {n_ev}, archive {n_ar}")
+    except Exception as ex:
+        print(f"build_api vahele jaetud: {type(ex).__name__}: {ex}")
 
 
 if __name__ == "__main__":

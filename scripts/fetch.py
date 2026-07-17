@@ -233,6 +233,14 @@ def main():
     except Exception as ex:
         print(f"build_sources vahele jaetud: {type(ex).__name__}: {ex}")
 
+    # avalik API (guarditud: viga siin ei murra korjet)
+    try:
+        import build_api
+        n_ev, n_ar = build_api.build()
+        print(f"api: events {n_ev}, archive {n_ar}")
+    except Exception as ex:
+        print(f"build_api vahele jaetud: {type(ex).__name__}: {ex}")
+
 if __name__ == "__main__":
     main()
 # EOF

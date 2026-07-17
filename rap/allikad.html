@@ -51,6 +51,14 @@ h1 .info{color:var(--sinine)}
   </header>
   <p class="intro" data-i18n="intro"></p>
   <div id="groups"></div>
+  <div class="grp" id="api">
+    <h2>API</h2>
+    <p class="intro" data-i18n="api_txt" style="margin:8px 0 10px"></p>
+    <ul>
+      <li><a href="https://www.skene.info/api/events.json" target="_blank" rel="noopener">api/events.json <span class="ext" data-i18n="api_ev"></span></a></li>
+      <li><a href="https://www.skene.info/api/archive.json" target="_blank" rel="noopener">api/archive.json <span class="ext" data-i18n="api_ar"></span></a></li>
+    </ul>
+  </div>
   <p class="footer"><span data-i18n="foot"></span></p>
   <p class="upd" id="upd"></p>
 </div>
@@ -58,10 +66,14 @@ h1 .info{color:var(--sinine)}
 var I18N={
  et:{title:"Allikad — RAP.SKENE.INFO", h1:"Allikad", back:"← TAGASI RAP.SKENE.INFO",
      intro:"Kohad, kust rap.skene.info Eesti räpi/hip-hopi üritusi ja reliise kokku kogub — festivalid, klubid, korraldajad ja artistid. Mine jälgi neid otse.",
-     foot:"Nimekiri täieneb automaatselt, kui sait uue allika üles leiab.", updated:"Uuendatud"},
+     foot:"Nimekiri täieneb automaatselt, kui sait uue allika üles leiab.", updated:"Uuendatud",
+     api_txt:"Kõigi kolme saidi (metal/räpp/klubi) kirjed on saadaval ka masinloetava JSON-ina — kategoriseeritud saidi, tüübi ja žanrite järgi, väljade kirjeldus failis endas (_meta). Uueneb iga päevaga koos saidiga. Kasutamine tasuta — palume viidata skene.info-le.",
+     api_ev:"— tulevased üritused ja värsked reliisid", api_ar:"— arhiiv (möödunud kirjed)"},
  en:{title:"Sources — RAP.SKENE.INFO", h1:"Sources", back:"← BACK TO RAP.SKENE.INFO",
      intro:"Where rap.skene.info gathers Estonian rap/hip-hop events and releases from — festivals, clubs, organisers and artists. Go follow them directly.",
-     foot:"This list updates automatically as new sources are found.", updated:"Updated"}
+     foot:"This list updates automatically as new sources are found.", updated:"Updated",
+     api_txt:"Entries from all three sites (metal/rap/club) are also available as machine-readable JSON — categorised by site, type and genre, field descriptions inside the file (_meta). Updates daily with the site. Free to use — please credit skene.info.",
+     api_ev:"— upcoming events and fresh releases", api_ar:"— archive (past entries)"}
 };
 var GRP_EN={"Korraldajad":"Organisers","Kohad":"Venues","Festivalid":"Festivals","Plaadifirmad ja poed":"Labels & shops","Kogukond":"Community","Instagram":"Instagram","Rahvusvahelised festivalid":"International festivals","Instagram / artistid":"Instagram / artists","Artistid":"Artists","Meedia / kogukond":"Media / community","Muud":"Other"};
 var LANG=(function(){try{return localStorage.getItem('skene_lang')||'et';}catch(e){return 'et';}})();

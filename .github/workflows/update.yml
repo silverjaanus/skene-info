@@ -24,5 +24,5 @@ jobs:
         run: |
           git config user.name "skene-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/data.json rap/data/data.json klubi/data/data.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json
+          git add data/data.json rap/data/data.json klubi/data/data.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json api/events.json api/archive.json
           git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git push)
