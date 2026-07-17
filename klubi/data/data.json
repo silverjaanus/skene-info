@@ -1,39 +1,6 @@
 {
- "updated": "2026-07-16",
+ "updated": "2026-07-17",
  "entries": [
-  {
-   "d": "2026-07-16",
-   "d2": "19.07",
-   "t": "festival",
-   "n": "I Land Sound 2026",
-   "a": "elamusfestival Illiku laiul; Lee Burridge, Cabanne, Silat Beksi, Pandhora, Rony Rex jt",
-   "b": [
-    "Lee Burridge",
-    "Cabanne",
-    "Nico Stojan",
-    "Silat Beksi",
-    "Pandhora",
-    "Rony Rex",
-    "E.LINA",
-    "Miroloja"
-   ],
-   "v": "Illiku laid, Orissaare",
-   "c": "mujal",
-   "g": [
-    "house",
-    "minimal"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2445948",
-   "on_": "ilandsound.ee",
-   "ou": "https://ilandsound.ee/en/",
-   "pu": "https://www.ticketer.ee/i-land-sound-2026/",
-   "hind": {
-    "praegu": "150€",
-    "mark": "pass",
-    "allikas": "ticketer.ee, kontrollitud 13.07.2026"
-   }
-  },
   {
    "d": "2026-07-17",
    "t": "klubi",
@@ -84,6 +51,37 @@
     "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00",
     "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
    }
+  },
+  {
+   "d": "2026-07-18",
+   "t": "klubi",
+   "n": "DNB Estonia x Dropzone: 360 Edition",
+   "a": "DNB Estonia ja Dropzone Recordings 360° trummi ja bassi reiviöö (koos Katlaruumiga, artistid esinevad rahva keskel); 22.00–05.00",
+   "b": [
+    "Netrom",
+    "Chulo",
+    "Woozie",
+    "Turik",
+    "Skram",
+    "Miq",
+    "G11"
+   ],
+   "v": "Kaks Tuba, Rapla",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1576783333939808/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1576783333939808/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "ukselt",
+    "allikas": "Facebook event, kontrollitud 17.07.2026"
+   },
+   "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
   },
   {
    "d": "2026-07-24",
@@ -325,6 +323,32 @@
    "ou": "https://www.facebook.com/events/2213429046145152/",
    "pu": "https://bftv.ee/",
    "yu": "https://www.youtube.com/beatsfromthevault"
+  },
+  {
+   "d": "2026-08-08",
+   "t": "kontsert",
+   "n": "Allikata Heli (DIY instruments special)",
+   "a": "elektroonilise muusika kontsertõhtu, sel aastal fookuses isevalmistatud instrumendid; algus 17.00, sissepääs annetusepõhine",
+   "b": [
+    "Zherbin",
+    "Tarmo Johannes",
+    "Fumantum",
+    "Alex Wulf",
+    "Underground Forest",
+    "A.M. Poogen"
+   ],
+   "v": "Valgemetsa projektiruum, Põlvamaa",
+   "c": "mujal",
+   "g": [
+    "ambient",
+    "industrial",
+    "electro"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/27291844013791272/",
+   "on_": "vmpr.ee",
+   "ou": "https://vmpr.ee/allikata-heli-2026/",
+   "nb": "kontaktivormi sisend (Villem Jahu); kinnitatud vmpr.ee ja FB ürituse vastu 17.07.2026 (L 8.08 kell 17, Valgemetsa projektiruum, Lõunaveere-kohvik, Põlvamaa); eksperimentaalne elektroonika / DIY-pillid, žanri järgi klubi; toetab Kulka"
   },
   {
    "d": "2026-08-14",
