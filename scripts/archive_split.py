@@ -35,9 +35,28 @@ def _featured(e):
     return 0 <= diff <= 30
 
 
+def _end_date(e):
+    """Ürituse lõppkuupäev ISO-formaadis: d2 ("PP.KK") kui olemas, muidu d.
+    Aastavahetust ületav d2 (nt d=30.12, d2=02.01) -> järgmine aasta.
+    Vigase d2 korral fallback d peale."""
+    d = e.get("d", "")
+    m = re.fullmatch(r"(\d{1,2})\.(\d{1,2})", e.get("d2") or "")
+    if not m or len(d) < 10:
+        return d
+    day, month = int(m.group(1)), int(m.group(2))
+    try:
+        end = date(int(d[:4]), month, day)
+        if end.isoformat() < d:
+            end = date(int(d[:4]) + 1, month, day)
+    except ValueError:
+        return d
+    return end.isoformat()
+
+
 def _is_current(e):
-    """Kuulub data.json-i (mitte arhiivi): tulevane, TBA või veel featured-aknas."""
-    return bool(e.get("tba")) or _featured(e) or e.get("d", "") >= TODAY
+    """Kuulub data.json-i (mitte arhiivi): tulevane VÕI VEEL KÄIMAS (d2 järgi),
+    TBA või veel featured-aknas. Mitmepäevane üritus püsib saidil lõpupäeva lõpuni."""
+    return bool(e.get("tba")) or _featured(e) or _end_date(e) >= TODAY
 
 
 def _load_entries(path):
@@ -99,7 +118,10 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
     (data_dir / "data.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # 5) Arhiiv aastate kaupa (akumuleeruv dedup-liit, värskem võidab)
+    # 5) Arhiiv aastate kaupa (akumuleeruv dedup-liit, värskem võidab).
+    # NB: current-kirjed eemaldatakse aastafailidest - muidu dubleeruks üritus,
+    # mis varem (nt vale is_current-loogikaga) arhiivi kolis, aga on taas aktiivne.
+    current_keys = {_key(e) for e in current}
     by_year = {}
     for e in archived:
         y = e.get("d", "")[:4]
@@ -113,6 +135,7 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
         merged = {_key(e): e for e in _load_entries(yfile)}
         for e in by_year.get(y, []):
             merged[_key(e)] = e
+        merged = {k: v for k, v in merged.items() if k not in current_keys}
         entries = sorted(merged.values(), key=lambda e: e.get("d", ""))
         yfile.write_text(json.dumps({"year": int(y), "entries": entries},
                                     ensure_ascii=False, indent=1), encoding="utf-8")

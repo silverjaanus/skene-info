@@ -92,6 +92,7 @@
    {"nimi": "Kultuuriaken (Tartu linn)", "url": "https://kultuuriaken.tartu.ee", "nb": "Tartu linna ametlik kultuurikalender - potentsiaalselt hea üldallikas kõigile Tartu üritustele, mitte ainult sellele festivalile"},
    {"nimi": "GateMe (Eesti)", "url": "https://gateme.com/et/Estonia/", "nb": "lisatud 11.07.2026 (Silveri soov): piletiplatvorm, Eesti klubi-/kontserdiüritused; JS-renderdus, käi läbi Chrome-kihis; žanri-agnostiline - filtreeri skoop"},
    {"nimi": "Piletimaailm", "url": "https://www.piletimaailm.com", "nb": "piletimüük; korraldaja timeline nt piletimaailm.com/organizers/timeline/341 - varem registreerimata"},
+   {"nimi": "Ticketer", "url": "https://www.ticketer.ee", "nb": "lisatud 17.07.2026 (I Land Soundi piletid siin, Piletilevi/Fienta ei kata): piletiplatvorm, kasutavad ka vaiksemad korraldajad (nt Spekter Komando/Kaks Tuba); JS-renderdus - Chrome-kihis, filtreeri skoop"},
    {"nimi": "Piletilevi", "url": "https://www.piletilevi.ee", "nb": "seni ainult rap-sektsioonis registreeritud (js_saidid all) ja seal JS+API 403 serverist; series-lehed nt piletilevi.ee/series/F72OXZFHHH kasulikud korraldaja jälgimiseks Chrome-sweepis"}
   ]
  },
@@ -168,6 +169,7 @@
    {"nimi": "Paavli Kultuurivabrik", "url": "https://fienta.com/o/17595", "tyyp": "venue", "nb": "klubiohtud (Selecta jt); MOD samas kvartalis (Paavli 9)"},
    {"nimi": "Uus Laine", "url": "https://fienta.com/et/o/17330", "tyyp": "venue", "nb": "Laine Klubioo / Label Night sarjad"},
    {"nimi": "Shelter (Fienta)", "url": "https://fienta.com/et/o/17855", "tyyp": "promootor"},
+   {"nimi": "Fienta klubi-otsing", "url": "https://fienta.com/et?q=techno", "tyyp": "otsing", "nb": "lisatud 17.07.2026; ka: dnb, house, rave, elektroonika - metal/rap-poolel olid Fienta märksõnaotsingud olemas, klubil seni puudusid"},
    {"nimi": "Tolm (Tartu)", "url": "https://tolm.club/", "tyyp": "venue", "nb": "tulevased uritused + FB-event lingid otse lehel"},
    {"nimi": "Kultuuriklubi Tempel (Parnu)", "url": "https://ra.co/clubs/151795", "tyyp": "venue", "nb": "Tjuun In (dnb/jungle) sari"},
    {"nimi": "D3", "url": "https://www.d-3.ee/events/", "tyyp": "venue"},
