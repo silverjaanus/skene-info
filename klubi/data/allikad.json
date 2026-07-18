@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-17",
+ "updated": "2026-07-18",
  "groups": [
   {
    "nimi": "Kohad",
@@ -88,6 +88,10 @@
   {
    "nimi": "Muud",
    "items": [
+    {
+     "n": "Fienta klubi-otsing",
+     "u": "https://fienta.com/et?q=techno"
+    },
     {
      "n": "Planeet (Audio Planeet)",
      "u": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events"

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-17",
+ "updated": "2026-07-18",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 10,
+ "count": 16,
  "entries": [
   {
    "sait": "www",
@@ -272,6 +272,154 @@
     "mark": "uksehind, ainult sularaha; uksed 17.00, muusika 18.00",
     "allikas": "Facebook event, kontrollitud 07.07.2026"
    }
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-15",
+   "d2": "17.07",
+   "t": "kontsert",
+   "n": "C-JAM & MAD «Metallica» tuur",
+   "a": "Saka mõis, Kuressaare kuursaal, Tori kirik (tribuutprojekt)",
+   "b": [
+    "C-JAM"
+   ],
+   "v": "Saka mõis / Kuressaare kuursaal / Tori kirik",
+   "c": "mujal",
+   "g": [
+    "heavy",
+    "metal"
+   ],
+   "sn": "Barbari FB",
+   "su": "https://www.facebook.com/barbarestonia/events",
+   "on_": "Kolga Mõisa Kontsert",
+   "ou": "https://www.facebook.com/barbarestonia/events"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-07-16",
+   "t": "kontsert",
+   "n": "Reket + LIVE bänd",
+   "a": "Reket esmakordselt Luke mõisapargis eksklusiivse live-bändiga; uksed 19.00, algus 20.00; vabas õhus",
+   "b": [
+    "Reket"
+   ],
+   "v": "Luke mõis",
+   "c": "mujal",
+   "linn": "Nõo vald, Tartumaa",
+   "g": [
+    "räpp",
+    "hip-hop"
+   ],
+   "sn": "lukemois.ee",
+   "su": "https://lukemois.ee/",
+   "on_": "tuleb.ee",
+   "ou": "https://tuleb.ee/events/reket-live-band",
+   "hind": {
+    "praegu": "30€ (tava) / 27€ (sooduspilet) / 80€ (perepilet)",
+    "mark": "kontserdipäeval kõigile 35€, perepilet 90€; hinnad koos teenustasuga",
+    "allikas": "tuleb.ee, kontrollitud 11.07.2026"
+   }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-07-17",
+   "t": "klubi",
+   "n": "BFTV 28: DJ 4-got-10 all-nighter",
+   "a": "Beats From The Vault 28. sünnipäev — 360 minutit tumedaid rütme (Body Techno, EBM, Post-Industrial, Ritual Techno, Dark-Electro, Rhythmic Noise)",
+   "b": [
+    "DJ 4-got-10"
+   ],
+   "v": "IDA Radio",
+   "c": "Tallinn",
+   "g": [
+    "ebm",
+    "industrial",
+    "dark",
+    "electro"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1440160684588061",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1440160684588061",
+   "yu": "https://www.youtube.com/beatsfromthevault",
+   "hind": {
+    "praegu": "5€",
+    "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00",
+    "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+   }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-07-17",
+   "t": "klubi",
+   "n": "Bat Sounds",
+   "a": "residendid Dajek, Le Petit Chat, Naked Reagan, Darth Typo, asheiK; külalised Cly/suva ja Pikkauch",
+   "b": [
+    "Cly/suva",
+    "Pikkauch"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "darkwave",
+    "dark"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1745558169975455/",
+   "hind": {
+    "praegu": "10€",
+    "allikas": "tolm.club, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-17",
+   "t": "kontsert",
+   "n": "SFP esitleb: AJO (FIN) + Mandarones + Homebroke",
+   "a": "Turu (FIN) post-psych-alt-grunge rokkarite AJO esimene Eesti kontsert (Eesti minituur)",
+   "b": [
+    "AJO (FIN)",
+    "Mandarones",
+    "Homebroke"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "post",
+    "alt"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2122441515321908/",
+   "nb": "uksed 19.00, muusika kuni 23.00; FB asukohaväli näitab ekslikult Tsirguliina/Valga, tegelik koht Kotka Kultuurimaja Tallinn (pealkiri+kirjeldus); uksehind FB eventilt; kontrollitud 09.07.2026"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-17",
+   "t": "kontsert",
+   "n": "The Tuberkuloited 35: Rakvere",
+   "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee; kell 18.00",
+   "b": [
+    "The Tuberkuloited",
+    "Vennaskond",
+    "Sõpruse Puiestee"
+   ],
+   "v": "Rakvere Vallimägi",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/2027042781412811/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2027042781412811/",
+   "pu": "https://www.piletitasku.ee/et/event/9528"
   }
  ]
 }
