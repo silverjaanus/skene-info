@@ -380,17 +380,32 @@
   "t": "festival",
   "n": "Tallinn Rock Festival",
   "b": [
-   "Sepultura",
    "Scorpions",
    "Godsmack",
-   "P.O.D.",
-   "White Lies",
+   "Sepultura",
    "Hatebreed",
+   "White Lies",
+   "P.O.D.",
+   "Above My Head",
+   "Black Sun",
+   "Bloodfeather",
+   "Dreams They Have Stolen",
+   "Echolove",
+   "Evestus",
    "Goresoerd",
    "Herald",
+   "Intrepid",
    "Kannabinõid",
+   "Khroma",
    "Nevesis",
-   "Pedigree"
+   "Pedigree",
+   "Pridian",
+   "Rivetskull",
+   "Robotorr",
+   "Royal Hunt",
+   "Sever",
+   "Star Crystal",
+   "Unsainted"
   ],
   "v": "Unibet Arena kvartal",
   "c": "Tallinn",
@@ -403,21 +418,22 @@
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=228776",
-  "on_": "tallinnrockfestival.ee",
-  "ou": "https://tallinnrockfestival.ee/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1197838468342376/",
   "pu": "https://www.piletitasku.ee/et/custompage/4371",
-  "nb": "hinnaklassid kontrollimata - Piletitasku leht on JS-põhine/serveripäringule suletud, tuleb käsitsi kontrollida enne hinna lisamist"
+  "nb": "täiskoosseis 26 bändi tallinnrockfestival.ee-lt (kontrollitud 19.07.2026); hinnaklassid Piletitaskus (GA/Priority/VIP/Ultra VIP, R istekohad Scorpionsile) - hind käsitsi kontrollimata",
+  "a": "3 päeva, 26 bändi 10 riigist; R 31.07 Scorpions, L 01.08 Godsmack + P.O.D., P 02.08 Sepultura (viimane kontsert Baltikumis) + Hatebreed"
  },
  {
   "d": "2026-08-05",
-  "d2": "15.08",
+  "d2": "23.08",
   "t": "kontsert",
   "n": "C-JAM & MAD «Metallica» tuur, II osa",
-  "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08 (tribuutprojekt)",
+  "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08, Kirna mõis (Türi) 23.08 kell 17 (tribuutprojekt)",
   "b": [
    "C-JAM"
   ],
-  "v": "Padise klooster / Antoniuse õu (Tartu) / Suuremõisa loss / Kolga mõis",
+  "v": "Padise klooster / Antoniuse õu (Tartu) / Suuremõisa loss / Kolga mõis / Kirna mõis",
   "c": "mujal",
   "g": [
    "heavy",
@@ -426,7 +442,8 @@
   "sn": "Kolga Mõisa Kontserdi FB",
   "su": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
   "on_": "Kolga Mõisa Kontsert",
-  "ou": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events"
+  "ou": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
+  "nb": "Kirna mõisa lisakuupäev 23.08 lisatud sweepis 19.07.2026 (Kolga Mõisa Kontsert FB + Barbar FB)"
  },
  {
   "d": "2026-08-21",
@@ -453,7 +470,7 @@
   "d2": "22.08",
   "t": "festival",
   "n": "Ülase Fest '26",
-  "a": "kahepäevane DIY-festival Ülase12-s; koosseis TBA (open call bändidele)",
+  "a": "kahepäevane DIY-festival Ülase12-s: 22 bändi + DJd + performance’id; toetus uksel 1 päev 20€ / 2 päeva 30€",
   "v": "Ülase 12",
   "c": "Tallinn",
   "g": [
@@ -462,7 +479,38 @@
   ],
   "sn": "Facebook event",
   "su": "https://www.facebook.com/events/1999285581007306",
-  "nb": "koosseis kinnitamata (open call) - kontrolli lineup enne kui usaldad žanri"
+  "nb": "täiskoosseis avaldatud FB eventis (kontrollitud 19.07.2026); varem open call/TBA",
+  "b": [
+   "Võru (DE)",
+   "Holocausts (DE)",
+   "Ognemöt",
+   "Tavas Mäsas Näsis (LV)",
+   "ZLO",
+   "Mörv (FI)",
+   "Vigri",
+   "Hävitus",
+   "Atentaat",
+   "Huiabella Fantastica",
+   "Konnahaldjas",
+   "Random Crashes (FI)",
+   "Korralagedus",
+   "Konventio (FI)",
+   "Mang Ont",
+   "Eldereater",
+   "Myteri (SWE)",
+   "Frost Pisse Elend (DE)",
+   "Süki (LV)",
+   "KAD VISS BEIDZAS (LV)",
+   "Spat (SCO)",
+   "halb päev"
+  ],
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1999285581007306",
+  "hind": {
+   "praegu": "20€ / 30€",
+   "mark": "toetus (support): 1 päev 20€, 2 päeva 30€; DJd: DREVTH, kadaverkklanusx x lik-ur-bum, Aubery, Vispel, Monknash, Starfall",
+   "allikas": "FB event, kontrollitud 19.07.2026"
+  }
  },
  {
   "d": "2026-08-28",
@@ -673,6 +721,8 @@
   "t": "festival",
   "n": "Tarbariitus",
   "b": [
+   "Tuisk",
+   "H8blst",
    "Burial Moon",
    "Sisyphean",
    "Loathfinder",
@@ -697,7 +747,9 @@
    "praegu": "21€ / 39€ / 60€",
    "mark": "kolm hinnaklassi mahu järgi (Youth Inferno / Black Standard / Supporter of the Rite), mitte kuupäeva järgi - eelmüük kuni 08.10.2026",
    "allikas": "fienta.com, kontrollitud 06.07.2026"
-  }
+  },
+  "a": "Tartu black metal festival; 12 bändi kinnitatud (sh Tuisk EST, H8blst LIT industrial black), rohkem tulekul",
+  "nb": "koosseis täienes 19.07.2026 sweepis (pergerus.eu: +Tuisk, +H8blst); rohkem bände tulekul"
  },
  {
   "d": "2026-11-11",
@@ -1061,13 +1113,13 @@
   "d2": "08.08",
   "t": "festival",
   "n": "Brutal Assault",
-  "a": "Josefovi kindluses; Body Count, Periphery, Primus, Wardruna, Cradle of Filth jt",
+  "a": "Josefovi kindluses; Body Count, Periphery, Primus, Wardruna, Satyricon jt",
   "b": [
    "Body Count",
    "Periphery",
    "Primus",
    "Wardruna",
-   "Cradle of Filth"
+   "Satyricon"
   ],
   "v": "Pevnost Josefov",
   "c": "Euroopa",
@@ -1084,7 +1136,8 @@
    "praegu": "225€",
    "mark": "\"viimane väljaanne\" - viimane hinnaklass, 27.05.2026 seisuga 92% müüdud",
    "allikas": "brutalassault.cz, kontrollitud 06.07.2026"
-  }
+  },
+  "nb": "Cradle of Filth tühistas (tehnilised põhjused), asendaja Satyricon (brutalassault.cz 16.07.2026)"
  },
  {
   "d": "2026-08-08",
@@ -1117,8 +1170,17 @@
   "d2": "15.08",
   "t": "festival",
   "n": "Summer Breeze",
-  "a": "üks Saksamaa suurfestivalidest, 50+ bändi; Hatebreed jt",
+  "a": "üks Saksamaa suurfestivalidest, 100+ bändi; Helloween, In Flames, Arch Enemy, Lamb of God, Saxon jt",
   "b": [
+   "Helloween",
+   "In Flames",
+   "Arch Enemy",
+   "Saxon",
+   "Lamb Of God",
+   "Testament",
+   "Amorphis",
+   "Paradise Lost",
+   "Airbourne",
    "Hatebreed"
   ],
   "v": "Dinkelsbühli lennuväli",
@@ -1726,7 +1788,13 @@
   "su": "https://www.facebook.com/punkrockfestival/",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1468527551938865/",
-  "nb": "koosseis kinnitamata (open call) - kontrolli lineup hiljem; lisatud 11.07.2026"
+  "nb": "koosseis kinnitamata (open call, vorm lahti); piletid Ticketeris; FB event hostid sh Nyrok City ja J.M.K.E; kontrollitud 19.07.2026",
+  "pu": "https://www.ticketer.ee/punk-rock-insidefest-2026/",
+  "hind": {
+   "praegu": "25€ / 30€",
+   "mark": "kahe päeva pass: varajane ärkaja 25€, festivalipass 30€ (+Ticketeri tehingutasu); uksed 18.00",
+   "allikas": "Ticketer (NYROK MTÜ), kontrollitud 19.07.2026"
+  }
  },
  {
   "tba": 1,
@@ -1828,13 +1896,32 @@
   "d2": "01.08",
   "t": "festival",
   "n": "Võnge x Tõrva Tule-Päevad",
-  "a": "kahepäevane alt/pop-festival (Punch Club x Tõrva Tule-Päevad); R 31.07: SADU, Frankie Animal, kiki, Duo Ruut, Leslie Da Bass, Tomás del Real (CL/EE), Town Flesh jt; L 01.08: Angus, Ko Shin Moon (FR), Reket, EiK, Echolove, Markus Lehtsalu jt",
+  "a": "kahepäevane alt/pop-festival (Võnge x Tõrva Tule-Päevad); täiskoosseis 24 esinejat (R 31.07 / L 01.08)",
   "b": [
    "SADU",
+   "King No-One (UK)",
    "Frankie Animal",
+   "kiki",
+   "Leslie Da Bass",
    "Duo Ruut",
+   "Kristjan Glück",
+   "Supervaikne",
+   "Tomás del Real (CL/EE)",
+   "Town Flesh",
+   "Pološywa",
+   "Smokeys",
    "Angus",
-   "Reket"
+   "Ko Shin Moon (FR)",
+   "EiK",
+   "Sten-Olle & Nii Edasi",
+   "Reket",
+   "Maris Pihlap",
+   "Echolove",
+   "Markus Lehtsalu",
+   "Reinis Jaunais & The Flamenco Thief (LV/UK)",
+   "Simone Minn",
+   "Kaido Kirikmäe",
+   "MavaLuna"
   ],
   "v": "Tõrva keskväljak",
   "c": "mujal",
@@ -1853,7 +1940,7 @@
    "mark": "pass (2 päeva); kuni 105.60€",
    "allikas": "Piletikeskus, kontrollitud 14.07.2026"
   },
-  "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Võnge/ACOUSSION MTÜ; King No-One (UK) FB kaaskorraldaja"
+  "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Võnge/ACOUSSION MTÜ; King No-One (UK) FB kaaskorraldaja; täiskoosseis FB eventist 19.07.2026"
  },
  {
   "d": "2026-08-03",
@@ -1893,5 +1980,237 @@
   "sn": "kontaktivorm",
   "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
   "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
+ },
+ {
+  "d": "2026-07-24",
+  "t": "kontsert",
+  "n": "Indie/Alternative Rock Evening: Manufaktuuri Kvartal + bluedrive + DINOZAVR",
+  "a": "Manufaktuuri Kvartal (EE) + bluedrive (FI) + DINOZAVR (LV); uksed 19.00",
+  "b": [
+   "Manufaktuuri Kvartal",
+   "bluedrive (FI)",
+   "DINOZAVR (LV)"
+  ],
+  "v": "Fort Bar",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "alt",
+   "indie"
+  ],
+  "sn": "Fort Bar FB",
+  "su": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/indie-alternative-rock-evening-with-manufaktuuri-kvartal-bluedrive-dinozavr",
+  "pu": "https://fienta.com/et/indie-alternative-rock-evening-with-manufaktuuri-kvartal-bluedrive-dinozavr",
+  "hind": {
+   "praegu": "10€",
+   "mark": "eelmüük Fientas; kahe inimese pilet 18€; uksel sula/kaart",
+   "allikas": "Fienta, kontrollitud 19.07.2026"
+  },
+  "nb": "lisatud sweepis 19.07.2026; žanr kinnitatud Fienta lehelt (indie/alt-rock)"
+ },
+ {
+  "d": "2026-07-24",
+  "t": "kontsert",
+  "n": "Pühak + VKS + Non Governmental Resolve",
+  "b": [
+   "Pühak",
+   "VKS",
+   "Non Governmental Resolve"
+  ],
+  "v": "Hell",
+  "c": "Tartu",
+  "g": [
+   "punk",
+   "core"
+  ],
+  "sn": "Hell, Tartu FB",
+  "su": "https://www.facebook.com/punknrollhell/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1005557088997331/",
+  "nb": "lisatud sweepis 19.07.2026 (Hell events); algus 19.00"
+ },
+ {
+  "d": "2026-08-07",
+  "t": "kontsert",
+  "n": "J.M.K.E 40 — Saartetuur: Saaremaa",
+  "a": "legendaarse punkbändi 40. juubeli saartetuur; algus 20.00",
+  "b": [
+   "J.M.K.E."
+  ],
+  "v": "Turja sadam",
+  "c": "mujal",
+  "linn": "Saaremaa",
+  "g": [
+   "punk"
+  ],
+  "sn": "Ticketer",
+  "su": "https://www.ticketer.ee/",
+  "on_": "Ticketer",
+  "ou": "https://www.ticketer.ee/jmke-40-saartetuur-saaremaa/",
+  "pu": "https://www.ticketer.ee/jmke-40-saartetuur-saaremaa/",
+  "hind": {
+   "praegu": "10€ / 15€",
+   "mark": "Hommikupunk 10€ / Õhtupunk 15€ (+tehingutasu); Superpunk 60€ (särk + signeeritud CD); korraldaja NYROK MTÜ",
+   "allikas": "Ticketer, kontrollitud 19.07.2026"
+  },
+  "nb": "lisatud sweepis 19.07.2026 (Ticketer)"
+ },
+ {
+  "d": "2026-08-15",
+  "t": "kontsert",
+  "n": "Batra (LV) + DSA + Häire",
+  "a": "+ support; algus 19.00",
+  "b": [
+   "Batra (LV)",
+   "DSA",
+   "Häire"
+  ],
+  "v": "Hell",
+  "c": "Tartu",
+  "g": [
+   "punk",
+   "core"
+  ],
+  "sn": "Hell, Tartu FB",
+  "su": "https://www.facebook.com/punknrollhell/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1689036142150759/",
+  "nb": "lisatud sweepis 19.07.2026 (Hell events)"
+ },
+ {
+  "d": "2026-08-15",
+  "t": "kontsert",
+  "n": "Valge Daami Rock 2026: The Tuberkuloited 35 + Elukas + O'Morales",
+  "a": "The Tuberkuloited 35. juubelikontsert Haapsalus; Elukas (EE) + O'Morales (LV); algus 18.00, alla 12a tasuta",
+  "b": [
+   "The Tuberkuloited",
+   "Elukas",
+   "O'Morales (LV)"
+  ],
+  "v": "Müristaja MC",
+  "c": "mujal",
+  "linn": "Haapsalu",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et?q=rock",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/valge-daami-rock-2026",
+  "pu": "https://fienta.com/et/valge-daami-rock-2026",
+  "nb": "lisatud sweepis 19.07.2026; korraldaja Müristaja MC (Sadama 30, Haapsalu); hind Fienta ostulehel (avalehel ei kuvatud) - kontrolli"
+ },
+ {
+  "d": "2026-08-29",
+  "t": "kontsert",
+  "n": "J.M.K.E 40 — Saartetuur: Hiiumaa",
+  "a": "legendaarse punkbändi 40. juubeli saartetuur; algus 20.00",
+  "b": [
+   "J.M.K.E."
+  ],
+  "v": "Viscosa Kultuuritehas",
+  "c": "mujal",
+  "linn": "Kõrgessaare, Hiiumaa",
+  "g": [
+   "punk"
+  ],
+  "sn": "Ticketer",
+  "su": "https://www.ticketer.ee/",
+  "on_": "Ticketer",
+  "ou": "https://www.ticketer.ee/jmke-40-saartetuur-hiiumaa/",
+  "pu": "https://www.ticketer.ee/jmke-40-saartetuur-hiiumaa/",
+  "hind": {
+   "praegu": "15€ / 20€",
+   "mark": "Hommikupunk 15€ / Õhtupunk 20€ (+tehingutasu); Superpunk 60€ (särk + signeeritud CD); korraldaja NYROK MTÜ",
+   "allikas": "Ticketer, kontrollitud 19.07.2026"
+  },
+  "nb": "lisatud sweepis 19.07.2026 (Ticketer)"
+ },
+ {
+  "d": "2026-08-09",
+  "t": "kontsert",
+  "n": "The Cure + Duo Ruut + Antti Paalanen",
+  "a": "The Cure esmakordselt Eestis; külalised Duo Ruut (EE) ja Antti Paalanen (FI); algus 19.00",
+  "b": [
+   "The Cure",
+   "Duo Ruut",
+   "Antti Paalanen (FI)"
+  ],
+  "v": "Unibet Arena kvartal",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "goth",
+   "post-punk"
+  ],
+  "sn": "L Tips Agency Estonia FB",
+  "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1928466314702496/",
+  "pu": "https://www.piletilevi.ee/piletid/C2QLJFKGYR/the-cure",
+  "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; 5,5K huvilist FB-s"
+ },
+ {
+  "d": "2026-09-24",
+  "t": "kontsert",
+  "n": "Baltic BS Tour: Memoira (FIN) + EGRES (FIN) + Portread",
+  "a": "Baltic Bloodstained Metal Tour; showtime 21.00; piletid uksel (hind TBA), ajakava TBA",
+  "b": [
+   "Memoira (FIN)",
+   "EGRES (FIN)",
+   "Portread"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "metal",
+   "symphonic",
+   "prog"
+  ],
+  "sn": "Sügis Productions FB",
+  "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1536748294619794/",
+  "nb": "lisatud sweepis 19.07.2026; korraldaja Bloodstained Metal + The Krypt; piletid uksel, hind veel avaldamata - jälgi 2b-s"
+ },
+ {
+  "d": "2026-07-16",
+  "t": "reliis",
+  "n": "Face Collector — «Demo»",
+  "a": "2-loone demo (blackened death metal / deathgrind); täisalbum tulekul 2027",
+  "b": [
+   "Face Collector"
+  ],
+  "v": "Bandcamp",
+  "c": "Tallinn",
+  "g": [
+   "death",
+   "black",
+   "grind"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://facecollector.bandcamp.com/album/demo",
+  "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)"
+ },
+ {
+  "d": "2026-07-17",
+  "t": "reliis",
+  "n": "Enditian — «Valdavalt tööstuslikud demod 2024-25»",
+  "a": "Tartu industrial-punk demokogumik",
+  "b": [
+   "Enditian"
+  ],
+  "v": "Bandcamp",
+  "c": "Tartu",
+  "g": [
+   "punk",
+   "industrial"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://endyendytyantyan.bandcamp.com/album/valdavalt-t-stuslikud-demod-2024-25",
+  "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 17.07.2026)"
  }
 ]

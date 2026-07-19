@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 22,
+ "count": 25,
  "entries": [
   {
    "sait": "www",
@@ -116,6 +116,26 @@
    "su": "https://uuslaine.com/",
    "on_": "Fienta",
    "ou": "https://fienta.com/et/laine-live-molbo"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-07-06",
+   "t": "reliis",
+   "n": "Oudeis — «Discrete Sensation»",
+   "a": "Tallinna rhythmic noise / industrial techno projekt",
+   "b": [
+    "Oudeis"
+   ],
+   "v": "Bandcamp",
+   "c": "Tallinn",
+   "g": [
+    "industrial",
+    "techno",
+    "noise"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://oudeis.bandcamp.com/album/discrete-sensation",
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)"
   },
   {
    "sait": "rap",
@@ -295,6 +315,26 @@
    "ou": "https://www.facebook.com/barbarestonia/events"
   },
   {
+   "sait": "www",
+   "d": "2026-07-16",
+   "t": "reliis",
+   "n": "Face Collector — «Demo»",
+   "a": "2-loone demo (blackened death metal / deathgrind); täisalbum tulekul 2027",
+   "b": [
+    "Face Collector"
+   ],
+   "v": "Bandcamp",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "black",
+    "grind"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://facecollector.bandcamp.com/album/demo",
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)"
+  },
+  {
    "sait": "rap",
    "d": "2026-07-16",
    "t": "kontsert",
@@ -372,6 +412,25 @@
     "praegu": "10€",
     "allikas": "tolm.club, kontrollitud 13.07.2026"
    }
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-17",
+   "t": "reliis",
+   "n": "Enditian — «Valdavalt tööstuslikud demod 2024-25»",
+   "a": "Tartu industrial-punk demokogumik",
+   "b": [
+    "Enditian"
+   ],
+   "v": "Bandcamp",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "industrial"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://endyendytyantyan.bandcamp.com/album/valdavalt-t-stuslikud-demod-2024-25",
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 17.07.2026)"
   },
   {
    "sait": "www",

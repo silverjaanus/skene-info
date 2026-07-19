@@ -5,10 +5,18 @@
   "t": "festival",
   "n": "Beach Grind 2026",
   "a": "+ Vini Vici, Wilkinson, Hospital 30: Metrik, P Money jt",
-  "b": ["Tommy Cash", "NOËP", "Sadu"],
+  "b": [
+   "Tommy Cash",
+   "NOËP",
+   "Sadu"
+  ],
   "v": "Pärnu rand",
   "c": "mujal",
-  "g": ["hip-hop", "dnb", "electro"],
+  "g": [
+   "hip-hop",
+   "dnb",
+   "electro"
+  ],
   "sn": "beachgrind.ee",
   "su": "https://beachgrind.ee/",
   "pu": "https://beachgrind.ee/"
@@ -19,10 +27,25 @@
   "t": "festival",
   "n": "Eesti Hip Hop Festival 2026",
   "a": "20. juubel; esinejate nimekiri täieneb",
-  "b": ["Nublu", "Säm", "Reket", "A-Rühm", "Pitsa", "Beebilõust", "Hanf Kung", "Bad Art", "5Loops", "RLV Massive", "Noizmakaz"],
+  "b": [
+   "Nublu",
+   "Säm",
+   "Reket",
+   "A-Rühm",
+   "Pitsa",
+   "Beebilõust",
+   "Hanf Kung",
+   "Bad Art",
+   "5Loops",
+   "RLV Massive",
+   "Noizmakaz"
+  ],
   "v": "Elva",
   "c": "mujal",
-  "g": ["hip-hop", "räpp"],
+  "g": [
+   "hip-hop",
+   "räpp"
+  ],
   "sn": "eestihiphopfestival.ee",
   "su": "https://eestihiphopfestival.ee/",
   "on_": "Facebook event",
@@ -37,7 +60,10 @@
   "b": [],
   "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
-  "g": ["hip-hop", "räpp"],
+  "g": [
+   "hip-hop",
+   "räpp"
+  ],
   "sn": "paavli.ee",
   "su": "https://paavli.ee/sundmused/tartu-punch-2027/",
   "on_": "paavli.ee",
@@ -50,10 +76,16 @@
   "t": "festival",
   "n": "Võsu Rannafestival 2026",
   "a": "15. juubel; Säm esineb 25.07 koos Tommy Cash, Hunt, Qotid, 35MAFFIA jt-ga; 24.07 laval nublu, Sadu, Terminaator jt",
-  "b": ["Säm", "Tommy Cash"],
+  "b": [
+   "Säm",
+   "Tommy Cash"
+  ],
   "v": "Võsu rand",
   "c": "mujal",
-  "g": ["räpp", "hip-hop"],
+  "g": [
+   "räpp",
+   "hip-hop"
+  ],
   "sn": "vosufestival.ee",
   "su": "https://vosufestival.ee/",
   "pu": "https://www.piletilevi.ee/series/6ECQIASEVC/vosu-rannafestival-2026"
@@ -62,10 +94,17 @@
   "d": "2026-07-18",
   "t": "kontsert",
   "n": "G5 & Pulse: Triibupasta + Prodigyboys + Valk",
-  "b": ["Triibupasta", "Prodigyboys", "Valk"],
+  "b": [
+   "Triibupasta",
+   "Prodigyboys",
+   "Valk"
+  ],
   "v": "Helitehas",
   "c": "Tallinn",
-  "g": ["räpp", "hip-hop"],
+  "g": [
+   "räpp",
+   "hip-hop"
+  ],
   "sn": "Helitehas FB",
   "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
   "on_": "Facebook event",
@@ -77,30 +116,87 @@
   "t": "kontsert",
   "n": "Reket + LIVE bänd",
   "a": "Reket esmakordselt Luke mõisapargis eksklusiivse live-bändiga; uksed 19.00, algus 20.00; vabas õhus",
-  "b": ["Reket"],
+  "b": [
+   "Reket"
+  ],
   "v": "Luke mõis",
   "c": "mujal",
   "linn": "Nõo vald, Tartumaa",
-  "g": ["räpp", "hip-hop"],
+  "g": [
+   "räpp",
+   "hip-hop"
+  ],
   "sn": "lukemois.ee",
   "su": "https://lukemois.ee/",
   "on_": "tuleb.ee",
   "ou": "https://tuleb.ee/events/reket-live-band",
-  "hind": {"praegu": "30€ (tava) / 27€ (sooduspilet) / 80€ (perepilet)", "mark": "kontserdipäeval kõigile 35€, perepilet 90€; hinnad koos teenustasuga", "allikas": "tuleb.ee, kontrollitud 11.07.2026"}
+  "hind": {
+   "praegu": "30€ (tava) / 27€ (sooduspilet) / 80€ (perepilet)",
+   "mark": "kontserdipäeval kõigile 35€, perepilet 90€; hinnad koos teenustasuga",
+   "allikas": "tuleb.ee, kontrollitud 11.07.2026"
+  }
  },
  {
   "d": "2026-07-11",
   "t": "kontsert",
   "n": "RNB & Chill with Yas Lo",
   "a": "Afro Chill liikumise eestvedaja Yas Lo DJ-set; RnB & hip-hop; algus 21.00",
-  "b": ["Yas Lo"],
+  "b": [
+   "Yas Lo"
+  ],
   "v": "Legendaarne Raadiobaar",
   "c": "Tallinn",
-  "g": ["hip-hop"],
+  "g": [
+   "hip-hop"
+  ],
   "sn": "kontaktivorm",
   "su": "https://www.facebook.com/LegendaarneRaadio/events/",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1030974412917492",
   "nb": "kontaktivormi kaudu (Janno Sooäär / Legendaarne); kontrollitud FB eventi ja korraldaja lehe vastu 11.07.2026; pileti/hinnainfot ei leitud"
+ },
+ {
+  "d": "2026-07-24",
+  "t": "kontsert",
+  "n": "Pluuto · LIVE @ Legendaarne Raadiobaar",
+  "a": "live-instrumentidega erikontsert; algus 19.00",
+  "b": [
+   "Pluuto"
+  ],
+  "v": "Legendaarne Raadiobaar (Krulli 2b)",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "rnb"
+  ],
+  "sn": "Legendaarne Raadio FB",
+  "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1508865627701552/",
+  "pu": "https://sviby.com/short-url/pkez4r",
+  "nb": "lisatud sweepis 19.07.2026; korraldaja HELYX x Legendaarne; pilet Sviby kaudu"
+ },
+ {
+  "d": "2026-08-22",
+  "t": "klubi",
+  "n": "Back 2 Bashment",
+  "a": "Bashment FM: reggae/dancehall/heavy bass; kell 22-04",
+  "b": [
+   "Bashment FM DJd",
+   "Tarrvi Laamann"
+  ],
+  "v": "Legendaarne (Krulli 2b)",
+  "c": "Tallinn",
+  "g": [
+   "dancehall",
+   "reggae",
+   "bass"
+  ],
+  "sn": "Legendaarne Raadio FB",
+  "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1378621834167563/",
+  "pu": "https://fienta.com/et/back-2-bashment",
+  "nb": "lisatud sweepis 19.07.2026; Bashment FM sari aastast 1998"
  }
 ]

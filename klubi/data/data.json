@@ -302,6 +302,52 @@
    "nb": "kontaktivormi sisend (Villem Jahu); kinnitatud vmpr.ee ja FB ürituse vastu 17.07.2026 (L 8.08 kell 17, Valgemetsa projektiruum, Lõunaveere-kohvik, Põlvamaa); eksperimentaalne elektroonika / DIY-pillid, žanri järgi klubi; toetab Kulka"
   },
   {
+   "d": "2026-08-12",
+   "t": "kontsert",
+   "n": "AIGEL + 3H Company",
+   "a": "topelt-headline live: AIGEL (dark electronics, industrial tekstuurid; «Pyyala», «Tatarin») + 3H Company (eksperimentaalne räpp/IDM, ex-2H Company); uksed 19.00, show 20.00",
+   "b": [
+    "AIGEL",
+    "3H Company"
+   ],
+   "v": "Club Privé",
+   "c": "Tallinn",
+   "g": [
+    "electro",
+    "experimental",
+    "dark",
+    "hip-hop"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/ee/all",
+   "on_": "RA event",
+   "ou": "https://ra.co/events/2472198",
+   "pu": "https://ra.co/events/2472198",
+   "nb": "lisatud sweepis 19.07.2026; promootorid Crunch Tapes + Positive Transmitter, RA Tickets; varem (15.07) välja jäetud ühe allika tõttu - nüüd RA event + piletid"
+  },
+  {
+   "d": "2026-08-13",
+   "t": "kontsert",
+   "n": "Paavli.Live: múm (IS)",
+   "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00",
+   "b": [
+    "múm (IS)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro",
+    "ambient"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/mum-tallinn",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/mum-tallinn",
+   "pu": "https://fienta.com/et/mum-tallinn",
+   "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist)"
+  },
+  {
    "d": "2026-08-14",
    "d2": "16.08",
    "tba": 1,
@@ -456,6 +502,48 @@
    }
   },
   {
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "KAJA: Kumu REIV x HALL",
+   "a": "Kumu 20. sünnipäeva eriprogramm: kaasaegne kunst + elektrooniline muusika, koostöös klubiga HALL; kell 20-05",
+   "b": [],
+   "v": "Kumu Kunstimuuseum",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "electro"
+   ],
+   "sn": "HALL FB",
+   "su": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4076046486018776/",
+   "pu": "https://gateme.com/et/kumu/103865-kaja-kumu-reiv-x-hall",
+   "tba": 1,
+   "nb": "lisatud sweepis 19.07.2026; lineup veel avaldamata (tba) - jälgi 2b-s; 1,9K huvilist"
+  },
+  {
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "OMD (Orchestral Manoeuvres in the Dark)",
+   "a": "sünt-popi klassikud esmakordselt Eestis; Pirita kloostri varemed, algus 19.00 (tuleb.ee: 20.00)",
+   "b": [
+    "OMD"
+   ],
+   "v": "Pirita klooster",
+   "c": "Tallinn",
+   "g": [
+    "synth-pop",
+    "new wave",
+    "electro"
+   ],
+   "sn": "L Tips Agency Estonia FB",
+   "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/844301218463658/",
+   "pu": "https://bit.ly/OMDTallinn",
+   "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; piletilink = korraldaja lühilink (bit.ly -> Piletilevi); žanripõhiselt klubi-poolel (Moby/OMD pretsedent)"
+  },
+  {
    "d": "2026-09-03",
    "d2": "06.09",
    "t": "festival",
@@ -546,6 +634,32 @@
    }
   },
   {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "REDSHIFT invites Alex Wilcox (US)",
+   "a": "punk-techno; Alex Wilcox esmakordselt Eestis (hübriidsett live-vokaaliga); Paul Lepasson (SÜNK) + REDSHIFT residendid; viimane REDSHIFT Tolmus (maja läheb lammutamisele); kell 23-08; 18+",
+   "b": [
+    "Alex Wilcox (US)",
+    "Paul Lepasson"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "techno"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "RA event",
+   "ou": "https://ra.co/events/2492230",
+   "pu": "https://fienta.com/et/redshift-invites-alex-wilcox",
+   "hind": {
+    "praegu": "15€",
+    "mark": "RA järgi; 18+",
+    "allikas": "RA, kontrollitud 19.07.2026"
+   },
+   "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)"
+  },
+  {
    "d": "2026-09-05",
    "t": "klubi",
    "n": "Scorched Earth: Skee Mask",
@@ -571,6 +685,28 @@
    }
   },
   {
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "HELLINN: Cross-Border Edition",
+   "a": "4 kollektiivi Eestist ja Soomest, high-energy/hard techno & schranz: In Furcht (DE) x QSLAP (EE) x Medina (BR); HALL x Gridmoth x ARTICLE6; algus 23.59",
+   "b": [
+    "In Furcht (DE)",
+    "QSLAP",
+    "Medina (BR)"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "hard"
+   ],
+   "sn": "HALL FB",
+   "su": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/876184442221379/",
+   "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav"
+  },
+  {
    "d": "2026-09-19",
    "t": "kontsert",
    "n": "Bedless Bones + Martin Dupont",
@@ -586,6 +722,27 @@
    ],
    "sn": "bedlessbones.com",
    "su": "https://www.bedlessbones.com/shows"
+  },
+  {
+   "d": "2026-10-09",
+   "t": "klubi",
+   "n": "Laine Klubiöö: Yung Singh (UK)",
+   "b": [
+    "Yung Singh (UK)",
+    "shbxsz"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "bass",
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/ee/all",
+   "on_": "RA event",
+   "ou": "https://ra.co/events/2475984",
+   "nb": "lisatud sweepis 19.07.2026; Laine Klubiöö sari; pilet ilmub eeldatavasti Fientasse (o/17330)"
   },
   {
    "d": "2026-10-17",

@@ -22,6 +22,27 @@
    "pu": "https://www.piletilevi.ee/series/6ECQIASEVC/vosu-rannafestival-2026"
   },
   {
+   "d": "2026-07-24",
+   "t": "kontsert",
+   "n": "Pluuto · LIVE @ Legendaarne Raadiobaar",
+   "a": "live-instrumentidega erikontsert; algus 19.00",
+   "b": [
+    "Pluuto"
+   ],
+   "v": "Legendaarne Raadiobaar (Krulli 2b)",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "rnb"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1508865627701552/",
+   "pu": "https://sviby.com/short-url/pkez4r",
+   "nb": "lisatud sweepis 19.07.2026; korraldaja HELYX x Legendaarne; pilet Sviby kaudu"
+  },
+  {
    "d": "2026-08-14",
    "d2": "15.08",
    "t": "festival",
@@ -51,6 +72,29 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1255908596517597",
    "pu": "https://eestihiphopfestival.ee/"
+  },
+  {
+   "d": "2026-08-22",
+   "t": "klubi",
+   "n": "Back 2 Bashment",
+   "a": "Bashment FM: reggae/dancehall/heavy bass; kell 22-04",
+   "b": [
+    "Bashment FM DJd",
+    "Tarrvi Laamann"
+   ],
+   "v": "Legendaarne (Krulli 2b)",
+   "c": "Tallinn",
+   "g": [
+    "dancehall",
+    "reggae",
+    "bass"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1378621834167563/",
+   "pu": "https://fienta.com/et/back-2-bashment",
+   "nb": "lisatud sweepis 19.07.2026; Bashment FM sari aastast 1998"
   },
   {
    "d": "2027-08-13",
