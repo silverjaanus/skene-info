@@ -91,7 +91,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .pv small{display:block;font-weight:400;font-size:11px;color:var(--hall);margin:2px 0 6px}
 .tag{font-family:var(--mono);font-size:10px;color:var(--paber);padding:2px 6px;display:inline-block;text-transform:uppercase;letter-spacing:.4px}
 .t-kontsert{background:var(--telliskivi)} .t-festival{background:var(--sinep);color:var(--tint)}
-.t-klubi{background:var(--ploom)} .t-reliis{background:var(--paatina)} .t-merch{background:var(--paatina)}
+.t-klubi{background:var(--ploom)} .t-reliis{background:var(--paatina)} .t-merch{background:var(--paatina)} .t-muu{background:var(--paatina)}
 .laebi{font-family:var(--mono);font-size:10px;border:1.5px solid var(--tint);padding:1px 5px;letter-spacing:1px;display:inline-block;margin-top:4px}
 .tit{font-size:18px;font-weight:700}
 .tit a{text-decoration:none;border-bottom:1.5px solid transparent}
@@ -358,10 +358,10 @@ const I18N={
   nl_fine_short:"1 kiri nädalas, loobuda võid alati. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
   ethos:"Skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
   totop:"Üles",
-  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch",
+  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch", t_muu:"muu",
   c_all:"kõik", c_mujal:"mujal Eesti", c_baltikum:"Baltikum", c_pohjamaad:"Põhjamaad", c_euroopa:"Euroopa",
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
-  tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch",
+  tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
@@ -402,10 +402,10 @@ const I18N={
   nl_fine_short:"One email a week, unsubscribe anytime. See <a href=\"/privaatsus.html\">privacy</a>.",
   ethos:"Skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
   totop:"Top",
-  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch",
+  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch", t_muu:"other",
   c_all:"all", c_mujal:"elsewhere in Estonia", c_baltikum:"Baltics", c_pohjamaad:"Nordics", c_euroopa:"Europe",
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
-  tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch",
+  tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
@@ -509,7 +509,7 @@ const E_FALLBACK = [
  {d:"2026-08-08",d2:"09.08",t:"festival",n:"M'era Luna",a:"gooti/dark-electro festival; Rammstein, Within Temptation, Front Line Assembly, Combichrist, Hocico jt",b:["Rammstein","Within Temptation","Front Line Assembly","Combichrist"],v:"Flugplatz Hildesheim-Drispenstedt",c:"Euroopa",linn:"Hildesheim, Saksamaa",g:["dark electro","ebm","gothic","industrial"],sn:"M'era Luna",su:"https://meraluna.de/en/"},
  {d:"2026-08-12",d2:"15.08",t:"festival",n:"Summer Breeze",a:"üks Saksamaa suurfestivalidest, 50+ bändi; Hatebreed jt",b:["Hatebreed"],v:"Dinkelsbühli lennuväli",c:"Euroopa",linn:"Dinkelsbühl, Saksamaa",g:["metal","hardcore"],sn:"Summer Breeze",su:"https://www.summer-breeze.de/en/"}
 ];
-const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"]];
+const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"],["t_muu","muu"]];
 // KOHT: Eesti kohad alati nähtaval; Baltikum/Põhjamaad/Euroopa "+" nupu taga (laieneb klikil)
 const CITIES_MAIN=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
 const CITIES_MORE=[["c_baltikum","Baltikum"],["c_pohjamaad","Põhjamaad"],["c_euroopa","Euroopa"]];
@@ -667,7 +667,7 @@ function render(){
   RROWS=rows;
   document.getElementById("list").innerHTML=rows.map((e,i)=>{
     const past=!featured(e)&&!e.tba&&e.d<TODAY;
-    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
+    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
     if(sameSrc){lnks=`<a class="a2" href="${e.ou}" target="_blank" rel="noopener">${t('organizer')} ${e.on_||e.sn} ↗</a>`;}

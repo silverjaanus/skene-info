@@ -186,6 +186,169 @@
     "mark": "uksehind, ainult sularaha; uksed 17.00, muusika 18.00",
     "allikas": "Facebook event, kontrollitud 07.07.2026"
    }
+  },
+  {
+   "d": "2026-07-15",
+   "d2": "17.07",
+   "t": "kontsert",
+   "n": "C-JAM & MAD «Metallica» tuur",
+   "a": "Saka mõis, Kuressaare kuursaal, Tori kirik (tribuutprojekt)",
+   "b": [
+    "C-JAM"
+   ],
+   "v": "Saka mõis / Kuressaare kuursaal / Tori kirik",
+   "c": "mujal",
+   "g": [
+    "heavy",
+    "metal"
+   ],
+   "sn": "Barbari FB",
+   "su": "https://www.facebook.com/barbarestonia/events",
+   "on_": "Kolga Mõisa Kontsert",
+   "ou": "https://www.facebook.com/barbarestonia/events"
+  },
+  {
+   "d": "2026-07-17",
+   "t": "kontsert",
+   "n": "SFP esitleb: AJO (FIN) + Mandarones + Homebroke",
+   "a": "Turu (FIN) post-psych-alt-grunge rokkarite AJO esimene Eesti kontsert (Eesti minituur)",
+   "b": [
+    "AJO (FIN)",
+    "Mandarones",
+    "Homebroke"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "post",
+    "alt"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2122441515321908/",
+   "nb": "uksed 19.00, muusika kuni 23.00; FB asukohaväli näitab ekslikult Tsirguliina/Valga, tegelik koht Kotka Kultuurimaja Tallinn (pealkiri+kirjeldus); uksehind FB eventilt; kontrollitud 09.07.2026"
+  },
+  {
+   "d": "2026-07-17",
+   "t": "kontsert",
+   "n": "The Tuberkuloited 35: Rakvere",
+   "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee; kell 18.00",
+   "b": [
+    "The Tuberkuloited",
+    "Vennaskond",
+    "Sõpruse Puiestee"
+   ],
+   "v": "Rakvere Vallimägi",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/2027042781412811/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2027042781412811/",
+   "pu": "https://www.piletitasku.ee/et/event/9528"
+  },
+  {
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "The Exploited (UK) + Antinorm + Skoone + Huiabella Fantastica",
+   "a": "Vabaõhukontsert; Damn.Loud Agency esitleb — tänavapungi teerajajad",
+   "b": [
+    "The Exploited",
+    "Antinorm",
+    "Skoone",
+    "Huiabella Fantastica"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1122766619570935",
+   "pu": "https://fienta.com/et/the-exploited-tallinn-paavli",
+   "hind": {
+    "praegu": "39€ / 30€ (noor)",
+    "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00",
+    "allikas": "Fienta, kontrollitud 07.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "SFP esitleb: AJO (FIN) + metropol",
+   "a": "AJO Eesti minituuri teine kontsert Viljandis",
+   "b": [
+    "AJO (FIN)",
+    "metropol"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "rock",
+    "post",
+    "alt"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2987434444793647/",
+   "nb": "Koidu 13a, Viljandi; algus 20.00; uksehind FB eventilt; kontrollitud 09.07.2026"
+  },
+  {
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "Singer Vinger live Ammende Villa aias",
+   "a": "Eesti punk-rocki lipulaev Pärnus vabas õhus",
+   "b": [
+    "Singer Vinger"
+   ],
+   "v": "Villa Ammende",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/2132298354211092/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2132298354211092/",
+   "pu": "https://www.piletitasku.ee/et/event/9350"
+  },
+  {
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "Mihkli laada simman: Vennaskond + Flyers",
+   "a": "Mihkli laat 36 õhtune simman; algus 20.00",
+   "b": [
+    "Vennaskond",
+    "Flyers"
+   ],
+   "v": "Mihkli laadaplats",
+   "c": "mujal",
+   "linn": "Mihkli (Pärnumaa)",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://mihklilaat.ee/kulastajale/programm/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/887538427114767",
+   "pu": "https://fienta.com/et/mihkli-laat-187892",
+   "hind": {
+    "praegu": "12€ eelmüük / 15€ laadapäeval",
+    "mark": "kohapeal 20€; laps kuni 10 a tasuta; simman algab 20.00",
+    "allikas": "Fienta, kontrollitud 12.07.2026"
+   }
   }
  ]
 }

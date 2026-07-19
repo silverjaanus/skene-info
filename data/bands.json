@@ -1,9 +1,13 @@
 {
- "updated": "2026-07-12",
+ "updated": "2026-07-19",
  "bands": {
   "200 Stab Wounds": {
    "sp": "https://open.spotify.com/artist/6DH6xC3RoN7L7sGlJ60LKv",
    "yt": true
+  },
+  "Face Collector": {
+   "yt": true,
+   "note": "uus Eesti deathgrind; ainult YouTube (@facecollectorband), kinnitatud oEmbed 19.07.2026"
   },
   "AJO (FIN)": {},
   "Aether": {

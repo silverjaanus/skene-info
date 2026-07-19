@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 104,
+ "count": 102,
  "entries": [
   {
    "sait": "www",
@@ -166,6 +166,28 @@
   },
   {
    "sait": "www",
+   "rel": 1,
+   "d": "2026-07-17",
+   "lisatud": "2026-07-19",
+   "t": "reliis",
+   "n": "Face Collector — «Already Dead» (video)",
+   "a": "uue Eesti deathgrind-bändi esimene muusikavideo",
+   "b": [
+    "Face Collector"
+   ],
+   "v": "YouTube",
+   "c": "Eesti",
+   "g": [
+    "metal",
+    "death",
+    "grind"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
+   "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
+  },
+  {
+   "sait": "www",
    "d": "2026-07-17",
    "d2": "19.07",
    "t": "festival",
@@ -231,107 +253,6 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1360094812731353",
    "nb": "korraldaja Pulse Events; piletid Piletilevis; kontrollitud 07.07.2026"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-18",
-   "t": "kontsert",
-   "n": "Mihkli laada simman: Vennaskond + Flyers",
-   "a": "Mihkli laat 36 õhtune simman; algus 20.00",
-   "b": [
-    "Vennaskond",
-    "Flyers"
-   ],
-   "v": "Mihkli laadaplats",
-   "c": "mujal",
-   "linn": "Mihkli (Pärnumaa)",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://mihklilaat.ee/kulastajale/programm/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/887538427114767",
-   "pu": "https://fienta.com/et/mihkli-laat-187892",
-   "hind": {
-    "praegu": "12€ eelmüük / 15€ laadapäeval",
-    "mark": "kohapeal 20€; laps kuni 10 a tasuta; simman algab 20.00",
-    "allikas": "Fienta, kontrollitud 12.07.2026"
-   }
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-18",
-   "t": "kontsert",
-   "n": "SFP esitleb: AJO (FIN) + metropol",
-   "a": "AJO Eesti minituuri teine kontsert Viljandis",
-   "b": [
-    "AJO (FIN)",
-    "metropol"
-   ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
-   "g": [
-    "rock",
-    "post",
-    "alt"
-   ],
-   "sn": "Secret Face FB",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2987434444793647/",
-   "nb": "Koidu 13a, Viljandi; algus 20.00; uksehind FB eventilt; kontrollitud 09.07.2026"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-18",
-   "t": "kontsert",
-   "n": "Singer Vinger live Ammende Villa aias",
-   "a": "Eesti punk-rocki lipulaev Pärnus vabas õhus",
-   "b": [
-    "Singer Vinger"
-   ],
-   "v": "Villa Ammende",
-   "c": "mujal",
-   "linn": "Pärnu",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/2132298354211092/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2132298354211092/",
-   "pu": "https://www.piletitasku.ee/et/event/9350"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-18",
-   "t": "kontsert",
-   "n": "The Exploited (UK) + Antinorm + Skoone + Huiabella Fantastica",
-   "a": "Vabaõhukontsert; Damn.Loud Agency esitleb — tänavapungi teerajajad",
-   "b": [
-    "The Exploited",
-    "Antinorm",
-    "Skoone",
-    "Huiabella Fantastica"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "core"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/1122766619570935",
-   "pu": "https://fienta.com/et/the-exploited-tallinn-paavli",
-   "hind": {
-    "praegu": "39€ / 30€ (noor)",
-    "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00",
-    "allikas": "Fienta, kontrollitud 07.07.2026"
-   }
   },
   {
    "sait": "www",
@@ -880,6 +801,25 @@
    "ou": "https://www.facebook.com/events/785734627786593",
    "pu": "https://www.piletilevi.ee/piletid/STG5MS57M5/gogol-bordello",
    "nb": "gypsy punk; korraldaja M.P.3; kontrollitud 09.07.2026"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-03",
+   "t": "muu",
+   "n": "Giidituur «Kolmnurk»",
+   "a": "vabaõhuessee pungi, kirjanduse ja LGBT+ kogukonna ühenduslülidest; giid Airi Triisberg; kell 17; Vanalinna Päevade ja Baltic Pride 2026 programmis",
+   "b": [],
+   "v": "Vabaduse väljak 10",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/et/kolmnurk-189716",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/kolmnurk-189716",
+   "pu": "https://fienta.com/et/kolmnurk-189716",
+   "nb": "kontaktivormi sisend (Airi Triisberg, saadetud 2×); kinnitatud Fienta vastu 19.07.2026 (korraldaja Ostra MTÜ); Silveri otsus 19.07: lisada uue tüübiga 'muu' — pole kontsert, reliis ega merch"
   },
   {
    "sait": "www",
