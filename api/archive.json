@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 20,
+ "count": 22,
  "entries": [
   {
    "sait": "www",
@@ -295,6 +295,32 @@
    "ou": "https://www.facebook.com/barbarestonia/events"
   },
   {
+   "sait": "rap",
+   "d": "2026-07-16",
+   "t": "kontsert",
+   "n": "Reket + LIVE bänd",
+   "a": "Reket esmakordselt Luke mõisapargis eksklusiivse live-bändiga; uksed 19.00, algus 20.00; vabas õhus",
+   "b": [
+    "Reket"
+   ],
+   "v": "Luke mõis",
+   "c": "mujal",
+   "linn": "Nõo vald, Tartumaa",
+   "g": [
+    "räpp",
+    "hip-hop"
+   ],
+   "sn": "lukemois.ee",
+   "su": "https://lukemois.ee/",
+   "on_": "tuleb.ee",
+   "ou": "https://tuleb.ee/events/reket-live-band",
+   "hind": {
+    "praegu": "30€ (tava) / 27€ (sooduspilet) / 80€ (perepilet)",
+    "mark": "kontserdipäeval kõigile 35€, perepilet 90€; hinnad koos teenustasuga",
+    "allikas": "tuleb.ee, kontrollitud 11.07.2026"
+   }
+  },
+  {
    "sait": "klubi",
    "d": "2026-07-17",
    "t": "klubi",
@@ -426,6 +452,28 @@
     "allikas": "Facebook event, kontrollitud 17.07.2026"
    },
    "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-07-18",
+   "t": "kontsert",
+   "n": "G5 & Pulse: Triibupasta + Prodigyboys + Valk",
+   "b": [
+    "Triibupasta",
+    "Prodigyboys",
+    "Valk"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "hip-hop"
+   ],
+   "sn": "Helitehas FB",
+   "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1360094812731353",
+   "nb": "korraldaja Pulse Events; piletid Piletilevis; kontrollitud 07.07.2026"
   },
   {
    "sait": "www",
