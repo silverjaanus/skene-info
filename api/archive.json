@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
- "updated": "2026-07-18",
-=======
  "updated": "2026-07-19",
->>>>>>> Stashed changes
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -38,11 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
-<<<<<<< Updated upstream
- "count": 16,
-=======
  "count": 13,
->>>>>>> Stashed changes
  "entries": [
   {
    "sait": "www",
@@ -282,56 +274,6 @@
    }
   },
   {
-<<<<<<< Updated upstream
-   "sait": "www",
-   "d": "2026-07-15",
-   "d2": "17.07",
-   "t": "kontsert",
-   "n": "C-JAM & MAD «Metallica» tuur",
-   "a": "Saka mõis, Kuressaare kuursaal, Tori kirik (tribuutprojekt)",
-   "b": [
-    "C-JAM"
-   ],
-   "v": "Saka mõis / Kuressaare kuursaal / Tori kirik",
-   "c": "mujal",
-   "g": [
-    "heavy",
-    "metal"
-   ],
-   "sn": "Barbari FB",
-   "su": "https://www.facebook.com/barbarestonia/events",
-   "on_": "Kolga Mõisa Kontsert",
-   "ou": "https://www.facebook.com/barbarestonia/events"
-  },
-  {
-   "sait": "rap",
-   "d": "2026-07-16",
-   "t": "kontsert",
-   "n": "Reket + LIVE bänd",
-   "a": "Reket esmakordselt Luke mõisapargis eksklusiivse live-bändiga; uksed 19.00, algus 20.00; vabas õhus",
-   "b": [
-    "Reket"
-   ],
-   "v": "Luke mõis",
-   "c": "mujal",
-   "linn": "Nõo vald, Tartumaa",
-   "g": [
-    "räpp",
-    "hip-hop"
-   ],
-   "sn": "lukemois.ee",
-   "su": "https://lukemois.ee/",
-   "on_": "tuleb.ee",
-   "ou": "https://tuleb.ee/events/reket-live-band",
-   "hind": {
-    "praegu": "30€ (tava) / 27€ (sooduspilet) / 80€ (perepilet)",
-    "mark": "kontserdipäeval kõigile 35€, perepilet 90€; hinnad koos teenustasuga",
-    "allikas": "tuleb.ee, kontrollitud 11.07.2026"
-   }
-  },
-  {
-=======
->>>>>>> Stashed changes
    "sait": "klubi",
    "d": "2026-07-17",
    "t": "klubi",
@@ -385,54 +327,6 @@
    }
   },
   {
-<<<<<<< Updated upstream
-   "sait": "www",
-   "d": "2026-07-17",
-   "t": "kontsert",
-   "n": "SFP esitleb: AJO (FIN) + Mandarones + Homebroke",
-   "a": "Turu (FIN) post-psych-alt-grunge rokkarite AJO esimene Eesti kontsert (Eesti minituur)",
-   "b": [
-    "AJO (FIN)",
-    "Mandarones",
-    "Homebroke"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "post",
-    "alt"
-   ],
-   "sn": "Secret Face FB",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2122441515321908/",
-   "nb": "uksed 19.00, muusika kuni 23.00; FB asukohaväli näitab ekslikult Tsirguliina/Valga, tegelik koht Kotka Kultuurimaja Tallinn (pealkiri+kirjeldus); uksehind FB eventilt; kontrollitud 09.07.2026"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-17",
-   "t": "kontsert",
-   "n": "The Tuberkuloited 35: Rakvere",
-   "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee; kell 18.00",
-   "b": [
-    "The Tuberkuloited",
-    "Vennaskond",
-    "Sõpruse Puiestee"
-   ],
-   "v": "Rakvere Vallimägi",
-   "c": "mujal",
-   "linn": "Rakvere",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/2027042781412811/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2027042781412811/",
-   "pu": "https://www.piletitasku.ee/et/event/9528"
-=======
    "sait": "klubi",
    "d": "2026-07-18",
    "t": "klubi",
@@ -463,7 +357,6 @@
     "allikas": "Facebook event, kontrollitud 17.07.2026"
    },
    "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
->>>>>>> Stashed changes
   }
  ]
 }

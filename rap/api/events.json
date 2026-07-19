@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
- "updated": "2026-07-18",
-=======
  "updated": "2026-07-19",
->>>>>>> Stashed changes
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -38,11 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
-<<<<<<< Updated upstream
- "count": 103,
-=======
- "count": 106,
->>>>>>> Stashed changes
+ "count": 104,
  "entries": [
   {
    "sait": "www",
@@ -217,87 +209,6 @@
     "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda",
     "allikas": "ticketer.ee, kontrollitud 06.07.2026"
    }
-  },
-  {
-<<<<<<< Updated upstream
-   "sait": "klubi",
-   "d": "2026-07-18",
-   "t": "klubi",
-   "n": "DNB Estonia x Dropzone: 360 Edition",
-   "a": "DNB Estonia ja Dropzone Recordings 360° trummi ja bassi reiviöö (koos Katlaruumiga, artistid esinevad rahva keskel); 22.00–05.00",
-   "b": [
-    "Netrom",
-    "Chulo",
-    "Woozie",
-    "Turik",
-    "Skram",
-    "Miq",
-    "G11"
-   ],
-   "v": "Kaks Tuba, Rapla",
-   "c": "mujal",
-   "g": [
-    "dnb",
-    "bass"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://www.facebook.com/events/1576783333939808/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1576783333939808/",
-   "hind": {
-    "praegu": "10€",
-    "mark": "ukselt",
-    "allikas": "Facebook event, kontrollitud 17.07.2026"
-   },
-   "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
-=======
-   "sait": "www",
-   "d": "2026-07-17",
-   "t": "kontsert",
-   "n": "SFP esitleb: AJO (FIN) + Mandarones + Homebroke",
-   "a": "Turu (FIN) post-psych-alt-grunge rokkarite AJO esimene Eesti kontsert (Eesti minituur)",
-   "b": [
-    "AJO (FIN)",
-    "Mandarones",
-    "Homebroke"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "post",
-    "alt"
-   ],
-   "sn": "Secret Face FB",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2122441515321908/",
-   "nb": "uksed 19.00, muusika kuni 23.00; FB asukohaväli näitab ekslikult Tsirguliina/Valga, tegelik koht Kotka Kultuurimaja Tallinn (pealkiri+kirjeldus); uksehind FB eventilt; kontrollitud 09.07.2026"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-17",
-   "t": "kontsert",
-   "n": "The Tuberkuloited 35: Rakvere",
-   "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee; kell 18.00",
-   "b": [
-    "The Tuberkuloited",
-    "Vennaskond",
-    "Sõpruse Puiestee"
-   ],
-   "v": "Rakvere Vallimägi",
-   "c": "mujal",
-   "linn": "Rakvere",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/2027042781412811/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2027042781412811/",
-   "pu": "https://www.piletitasku.ee/et/event/9528"
->>>>>>> Stashed changes
   },
   {
    "sait": "rap",
