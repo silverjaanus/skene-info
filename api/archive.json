@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
  "updated": "2026-07-18",
+=======
+ "updated": "2026-07-19",
+>>>>>>> Stashed changes
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +38,11 @@
    "nb": "vabatekstiline markus"
   }
  },
+<<<<<<< Updated upstream
  "count": 16,
+=======
+ "count": 13,
+>>>>>>> Stashed changes
  "entries": [
   {
    "sait": "www",
@@ -274,6 +282,7 @@
    }
   },
   {
+<<<<<<< Updated upstream
    "sait": "www",
    "d": "2026-07-15",
    "d2": "17.07",
@@ -321,6 +330,8 @@
    }
   },
   {
+=======
+>>>>>>> Stashed changes
    "sait": "klubi",
    "d": "2026-07-17",
    "t": "klubi",
@@ -374,6 +385,7 @@
    }
   },
   {
+<<<<<<< Updated upstream
    "sait": "www",
    "d": "2026-07-17",
    "t": "kontsert",
@@ -420,6 +432,38 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2027042781412811/",
    "pu": "https://www.piletitasku.ee/et/event/9528"
+=======
+   "sait": "klubi",
+   "d": "2026-07-18",
+   "t": "klubi",
+   "n": "DNB Estonia x Dropzone: 360 Edition",
+   "a": "DNB Estonia ja Dropzone Recordings 360° trummi ja bassi reiviöö (koos Katlaruumiga, artistid esinevad rahva keskel); 22.00–05.00",
+   "b": [
+    "Netrom",
+    "Chulo",
+    "Woozie",
+    "Turik",
+    "Skram",
+    "Miq",
+    "G11"
+   ],
+   "v": "Kaks Tuba, Rapla",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1576783333939808/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1576783333939808/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "ukselt",
+    "allikas": "Facebook event, kontrollitud 17.07.2026"
+   },
+   "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
+>>>>>>> Stashed changes
   }
  ]
 }

@@ -1,4 +1,87 @@
 {
  "year": 2026,
- "entries": []
+ "entries": [
+  {
+   "d": "2026-07-17",
+   "t": "klubi",
+   "n": "Bat Sounds",
+   "a": "residendid Dajek, Le Petit Chat, Naked Reagan, Darth Typo, asheiK; külalised Cly/suva ja Pikkauch",
+   "b": [
+    "Cly/suva",
+    "Pikkauch"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "darkwave",
+    "dark"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1745558169975455/",
+   "hind": {
+    "praegu": "10€",
+    "allikas": "tolm.club, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-17",
+   "t": "klubi",
+   "n": "BFTV 28: DJ 4-got-10 all-nighter",
+   "a": "Beats From The Vault 28. sünnipäev — 360 minutit tumedaid rütme (Body Techno, EBM, Post-Industrial, Ritual Techno, Dark-Electro, Rhythmic Noise)",
+   "b": [
+    "DJ 4-got-10"
+   ],
+   "v": "IDA Radio",
+   "c": "Tallinn",
+   "g": [
+    "ebm",
+    "industrial",
+    "dark",
+    "electro"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1440160684588061",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1440160684588061",
+   "yu": "https://www.youtube.com/beatsfromthevault",
+   "hind": {
+    "praegu": "5€",
+    "mark": "BFTV liikmekaardiga tasuta; kell 22.00–04.00",
+    "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-18",
+   "t": "klubi",
+   "n": "DNB Estonia x Dropzone: 360 Edition",
+   "a": "DNB Estonia ja Dropzone Recordings 360° trummi ja bassi reiviöö (koos Katlaruumiga, artistid esinevad rahva keskel); 22.00–05.00",
+   "b": [
+    "Netrom",
+    "Chulo",
+    "Woozie",
+    "Turik",
+    "Skram",
+    "Miq",
+    "G11"
+   ],
+   "v": "Kaks Tuba, Rapla",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1576783333939808/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1576783333939808/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "ukselt",
+    "allikas": "Facebook event, kontrollitud 17.07.2026"
+   },
+   "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
+  }
+ ]
 }
