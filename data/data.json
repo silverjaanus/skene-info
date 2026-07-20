@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19",
+ "updated": "2026-07-20",
  "entries": [
   {
    "rel": 1,
@@ -91,51 +91,6 @@
    "su": "https://nailboard.org/tootekategooria/viimati-saabunud/"
   },
   {
-   "d": "2026-07-17",
-   "d2": "19.07",
-   "t": "festival",
-   "n": "Käbliku Beer Camp & Rock'n'Roll",
-   "b": [
-    "Primordial",
-    "Henge",
-    "Yoth Iria",
-    "Mars Red Sky",
-    "Monkey3",
-    "Antsud Metal Project",
-    "Aednikud",
-    "Oranzas brivdienas",
-    "Biisti Pohh",
-    "Bloodfeather",
-    "Truckthor",
-    "Death Kommander",
-    "Robotorr",
-    "Pagansarv",
-    "Elukas",
-    "Project Dekadenz",
-    "Puberteet",
-    "AITÄH EMA!",
-    "Valm Ja Orav",
-    "Aapo Ilves"
-   ],
-   "v": "Käbliku Pruulikoda",
-   "c": "mujal",
-   "g": [
-    "pagan",
-    "black",
-    "stoner"
-   ],
-   "sn": "Songkick",
-   "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
-   "on_": "fest.kabliku.com",
-   "ou": "https://fest.kabliku.com/",
-   "pu": "https://www.ticketer.ee/kabliku-beer-camp-rocknroll/",
-   "hind": {
-    "praegu": "72.70€",
-    "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda",
-    "allikas": "ticketer.ee, kontrollitud 06.07.2026"
-   }
-  },
-  {
    "rel": 1,
    "d": "2026-07-17",
    "lisatud": "2026-07-19",
@@ -155,28 +110,6 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
-  },
-  {
-   "d": "2026-07-19",
-   "t": "kontsert",
-   "n": "Project Dekadenz + Yakubutsu + Fern Flower",
-   "a": "suveõhtu DIY-klubis Hell (Tiigi 76a)",
-   "b": [
-    "Project Dekadenz",
-    "Yakubutsu",
-    "Fern Flower"
-   ],
-   "v": "Hell",
-   "c": "Tartu",
-   "g": [
-    "alt",
-    "punk"
-   ],
-   "sn": "Hell, Tartu FB",
-   "su": "https://www.facebook.com/punknrollhell/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1158843837316570/",
-   "nb": "žanrid täpsustamata (DIY subkultuuriklubi õhtu); algus 17.00; lisatud 11.07.2026"
   },
   {
    "d": "2026-07-20",
@@ -1877,7 +1810,7 @@
  ],
  "log": [
   "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
-  "krypt: 3",
+  "krypt: 0",
   "paavli: 0",
   "helitehas: 0"
  ]

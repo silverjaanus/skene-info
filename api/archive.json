@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19",
+ "updated": "2026-07-20",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 25,
+ "count": 28,
  "entries": [
   {
    "sait": "www",
@@ -335,6 +335,40 @@
    "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)"
   },
   {
+   "sait": "klubi",
+   "d": "2026-07-16",
+   "d2": "19.07",
+   "t": "festival",
+   "n": "I Land Sound 2026",
+   "a": "elamusfestival Illiku laiul; Lee Burridge, Cabanne, Silat Beksi, Pandhora, Rony Rex jt",
+   "b": [
+    "Lee Burridge",
+    "Cabanne",
+    "Nico Stojan",
+    "Silat Beksi",
+    "Pandhora",
+    "Rony Rex",
+    "E.LINA",
+    "Miroloja"
+   ],
+   "v": "Illiku laid, Orissaare",
+   "c": "mujal",
+   "g": [
+    "house",
+    "minimal"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2445948",
+   "on_": "ilandsound.ee",
+   "ou": "https://ilandsound.ee/en/",
+   "pu": "https://www.ticketer.ee/i-land-sound-2026/",
+   "hind": {
+    "praegu": "150€",
+    "mark": "pass",
+    "allikas": "ticketer.ee, kontrollitud 13.07.2026"
+   }
+  },
+  {
    "sait": "rap",
    "d": "2026-07-16",
    "t": "kontsert",
@@ -431,6 +465,52 @@
    "sn": "Bandcamp",
    "su": "https://endyendytyantyan.bandcamp.com/album/valdavalt-t-stuslikud-demod-2024-25",
    "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 17.07.2026)"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-17",
+   "d2": "19.07",
+   "t": "festival",
+   "n": "Käbliku Beer Camp & Rock'n'Roll",
+   "b": [
+    "Primordial",
+    "Henge",
+    "Yoth Iria",
+    "Mars Red Sky",
+    "Monkey3",
+    "Antsud Metal Project",
+    "Aednikud",
+    "Oranzas brivdienas",
+    "Biisti Pohh",
+    "Bloodfeather",
+    "Truckthor",
+    "Death Kommander",
+    "Robotorr",
+    "Pagansarv",
+    "Elukas",
+    "Project Dekadenz",
+    "Puberteet",
+    "AITÄH EMA!",
+    "Valm Ja Orav",
+    "Aapo Ilves"
+   ],
+   "v": "Käbliku Pruulikoda",
+   "c": "mujal",
+   "g": [
+    "pagan",
+    "black",
+    "stoner"
+   ],
+   "sn": "Songkick",
+   "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
+   "on_": "fest.kabliku.com",
+   "ou": "https://fest.kabliku.com/",
+   "pu": "https://www.ticketer.ee/kabliku-beer-camp-rocknroll/",
+   "hind": {
+    "praegu": "72.70€",
+    "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda",
+    "allikas": "ticketer.ee, kontrollitud 06.07.2026"
+   }
   },
   {
    "sait": "www",
@@ -634,6 +714,29 @@
     "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00",
     "allikas": "Fienta, kontrollitud 07.07.2026"
    }
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-19",
+   "t": "kontsert",
+   "n": "Project Dekadenz + Yakubutsu + Fern Flower",
+   "a": "suveõhtu DIY-klubis Hell (Tiigi 76a)",
+   "b": [
+    "Project Dekadenz",
+    "Yakubutsu",
+    "Fern Flower"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "alt",
+    "punk"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1158843837316570/",
+   "nb": "žanrid täpsustamata (DIY subkultuuriklubi õhtu); algus 17.00; lisatud 11.07.2026"
   }
  ]
 }
