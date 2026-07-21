@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20",
+ "updated": "2026-07-21",
  "entries": [
   {
    "rel": 1,
@@ -110,25 +110,6 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
-  },
-  {
-   "d": "2026-07-20",
-   "t": "kontsert",
-   "n": "Lenny Kravitz (USA)",
-   "b": [
-    "Lenny Kravitz"
-   ],
-   "v": "Unibet Arena",
-   "c": "Tallinn",
-   "g": [
-    "rock"
-   ],
-   "sn": "Baltic Live Agency",
-   "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/832943499451786/",
-   "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
-   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency"
   },
   {
    "d": "2026-07-21",
@@ -1810,7 +1791,7 @@
  ],
  "log": [
   "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
-  "krypt: 0",
+  "krypt: 3",
   "paavli: 0",
   "helitehas: 0"
  ]

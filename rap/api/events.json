@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20",
+ "updated": "2026-07-21",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 115,
+ "count": 114,
  "entries": [
   {
    "sait": "www",
@@ -151,26 +151,6 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-20",
-   "t": "kontsert",
-   "n": "Lenny Kravitz (USA)",
-   "b": [
-    "Lenny Kravitz"
-   ],
-   "v": "Unibet Arena",
-   "c": "Tallinn",
-   "g": [
-    "rock"
-   ],
-   "sn": "Baltic Live Agency",
-   "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/832943499451786/",
-   "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
-   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency"
   },
   {
    "sait": "www",

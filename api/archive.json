@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20",
+ "updated": "2026-07-21",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 28,
+ "count": 29,
  "entries": [
   {
    "sait": "www",
@@ -737,6 +737,26 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1158843837316570/",
    "nb": "žanrid täpsustamata (DIY subkultuuriklubi õhtu); algus 17.00; lisatud 11.07.2026"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-20",
+   "t": "kontsert",
+   "n": "Lenny Kravitz (USA)",
+   "b": [
+    "Lenny Kravitz"
+   ],
+   "v": "Unibet Arena",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "Baltic Live Agency",
+   "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/832943499451786/",
+   "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
+   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency"
   }
  ]
 }
