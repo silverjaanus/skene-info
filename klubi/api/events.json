@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21",
+ "updated": "2026-07-22",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 114,
+ "count": 113,
  "entries": [
   {
    "sait": "www",
@@ -151,34 +151,6 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-21",
-   "t": "kontsert",
-   "n": "Hez (Panama) + Hävitus + Korralagedus + Volta",
-   "a": "hardcore punk: Hez (PA) + Tallinna omad; uksed 19.00",
-   "b": [
-    "Hez",
-    "Hävitus",
-    "Korralagedus",
-    "Volta"
-   ],
-   "v": "Ülase 12",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "core"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://www.facebook.com/events/1275986611278256",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1275986611278256",
-   "hind": {
-    "praegu": "10€ / 7€ (õpilased)",
-    "mark": "uksehind (\"support\"); uksed 19.00",
-    "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
-   }
   },
   {
    "sait": "www",
