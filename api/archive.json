@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-22",
+ "updated": "2026-07-23",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 30,
+ "count": 31,
  "entries": [
   {
    "sait": "www",
@@ -784,6 +784,33 @@
     "praegu": "10€ / 7€ (õpilased)",
     "mark": "uksehind (\"support\"); uksed 19.00",
     "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+   }
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-22",
+   "t": "kontsert",
+   "n": "SFP esitleb: Sewer Altar + Koni + Gangrenated + E.X.E.X.",
+   "b": [
+    "Sewer Altar",
+    "Koni",
+    "Gangrenated",
+    "E.X.E.X."
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "grind"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1939366306773298/",
+   "hind": {
+    "praegu": "10€ / 7€ (õpilased, alaealised)",
+    "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 19.30",
+    "allikas": "Facebook event, kontrollitud 07.07.2026"
    }
   }
  ]
