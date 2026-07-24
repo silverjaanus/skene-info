@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23",
+ "updated": "2026-07-24",
  "entries": [
   {
    "rel": 1,
@@ -110,32 +110,6 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
-  },
-  {
-   "d": "2026-07-23",
-   "t": "kontsert",
-   "n": "SFP esitleb: Profithysteri + Pühak + Thousand Hands",
-   "a": "Profithysteri (SWE) esimene Baltikumi live; Pühak — Eesti ainuke klarnetiga sludge metal bänd",
-   "b": [
-    "Profithysteri",
-    "Pühak",
-    "Thousand Hands"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "sludge"
-   ],
-   "sn": "Secret Face FB",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1535064547976191/",
-   "hind": {
-    "praegu": "10€ / 7€ (õpilased, alaealised)",
-    "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 20.00",
-    "allikas": "Facebook event, kontrollitud 07.07.2026"
-   }
   },
   {
    "d": "2026-07-24",
