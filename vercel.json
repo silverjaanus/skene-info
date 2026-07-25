@@ -1,4 +1,8 @@
 {
+  "builds": [
+    { "src": "api/eelistused.js", "use": "@vercel/node" },
+    { "src": "**/*", "use": "@vercel/static" }
+  ],
   "routes": [
     {
       "src": "/(.*)",
