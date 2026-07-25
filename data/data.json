@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-24",
+ "updated": "2026-07-25",
  "entries": [
   {
    "rel": 1,
@@ -110,76 +110,6 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
-  },
-  {
-   "d": "2026-07-24",
-   "t": "kontsert",
-   "n": "Kosmikud XXV : Tharaphita XXX",
-   "b": [
-    "Kosmikud",
-    "Tharaphita"
-   ],
-   "v": "Kolga mõis",
-   "c": "mujal",
-   "g": [
-    "pagan",
-    "black",
-    "rock"
-   ],
-   "sn": "Barbari FB",
-   "su": "https://www.facebook.com/events/4306050719668339",
-   "on_": "Kolga Mõisa Kontsert",
-   "ou": "https://www.facebook.com/events/4306050719668339"
-  },
-  {
-   "d": "2026-07-24",
-   "t": "kontsert",
-   "n": "Indie/Alternative Rock Evening: Manufaktuuri Kvartal + bluedrive + DINOZAVR",
-   "a": "Manufaktuuri Kvartal (EE) + bluedrive (FI) + DINOZAVR (LV); uksed 19.00",
-   "b": [
-    "Manufaktuuri Kvartal",
-    "bluedrive (FI)",
-    "DINOZAVR (LV)"
-   ],
-   "v": "Fort Bar",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "alt",
-    "indie"
-   ],
-   "sn": "Fort Bar FB",
-   "su": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events",
-   "on_": "Fienta",
-   "ou": "https://fienta.com/et/indie-alternative-rock-evening-with-manufaktuuri-kvartal-bluedrive-dinozavr",
-   "pu": "https://fienta.com/et/indie-alternative-rock-evening-with-manufaktuuri-kvartal-bluedrive-dinozavr",
-   "hind": {
-    "praegu": "10€",
-    "mark": "eelmüük Fientas; kahe inimese pilet 18€; uksel sula/kaart",
-    "allikas": "Fienta, kontrollitud 19.07.2026"
-   },
-   "nb": "lisatud sweepis 19.07.2026; žanr kinnitatud Fienta lehelt (indie/alt-rock)"
-  },
-  {
-   "d": "2026-07-24",
-   "t": "kontsert",
-   "n": "Pühak + VKS + Non Governmental Resolve",
-   "b": [
-    "Pühak",
-    "VKS",
-    "Non Governmental Resolve"
-   ],
-   "v": "Hell",
-   "c": "Tartu",
-   "g": [
-    "punk",
-    "core"
-   ],
-   "sn": "Hell, Tartu FB",
-   "su": "https://www.facebook.com/punknrollhell/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1005557088997331/",
-   "nb": "lisatud sweepis 19.07.2026 (Hell events); algus 19.00"
   },
   {
    "d": "2026-07-25",
