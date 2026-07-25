@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 105,
+ "count": 104,
  "entries": [
   {
    "sait": "www",
@@ -953,11 +953,27 @@
    "sait": "klubi",
    "d": "2026-08-14",
    "d2": "16.08",
-   "tba": 1,
    "t": "festival",
    "n": "Dark Side of the Moon 2026",
-   "a": "HALL-i iga-aastane klubifestival (9. väljaanne) — kolm ööd Noblessneris (Peetri 6); koosseis ja piletid täpsustamisel",
-   "b": [],
+   "a": "HALL-i iga-aastane klubifestival (9. väljaanne) — kolm ööd Noblessneris (Peetri 6)",
+   "b": [
+    "Unai Trotti",
+    "Laurine",
+    "Steffi",
+    "Blasha & Allatt",
+    "Hicham (FR)",
+    "Jeku",
+    "Ojelma",
+    "Nikolajev",
+    "Charch",
+    "Micaela Saraceno",
+    "Arto",
+    "Pavliuk",
+    "Artur Lääts",
+    "Katja Adrikova",
+    "FAKIGN",
+    "Brett Rästas"
+   ],
    "v": "HALL",
    "c": "Tallinn",
    "g": [
@@ -965,11 +981,11 @@
     "house",
     "electro"
    ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/24443143705338081/",
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/ee/all",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/24443143705338081/",
-   "nb": "HALL-i lipulaev-klubifestival, 9. väljaanne; N 14.08 23:00 – P 16.08 22:00; koosseis+piletid TBA (event admin HALL); allikas korraldaja enda FB-teade (RA-l 15.07.2026 veel pole); lisatud 15.07.2026"
+   "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade"
   },
   {
    "sait": "rap",
@@ -1160,22 +1176,6 @@
    "sait": "www",
    "d": "2026-08-21",
    "t": "kontsert",
-   "n": "BARBATOS (JPN) + BEATRIX (FIN) + guest",
-   "b": [],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/barbatos-jpn-beatrix-fin-guest/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-21",
-   "t": "kontsert",
    "n": "Barbatos + Beatrix + külaline",
    "b": [
     "Barbatos",
@@ -1358,17 +1358,25 @@
    "sait": "www",
    "d": "2026-08-22",
    "t": "kontsert",
-   "n": "𝐌𝐞𝐭𝐚𝐥 𝐒𝐚𝐭𝐮𝐫𝐝𝐚𝐲: NARASANTI + INNERSPELL",
-   "b": [],
+   "n": "Metal Saturday: Narasanti + Innerspell",
+   "a": "Modern metal õhtu — uksed 20:00, algus 22:00, 00:00 vaba sissepääs + afterparty",
+   "b": [
+    "Narasanti",
+    "Innerspell"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
-    "metal"
+    "metalcore",
+    "nu-metal",
+    "djent"
    ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/%f0%9d%90%8c%f0%9d%90%9e%f0%9d%90%ad%f0%9d%90%9a%f0%9d%90%a5-%f0%9d%90%92%f0%9d%90%9a%f0%9d%90%ad%f0%9d%90%ae%f0%9d%90%ab%f0%9d%90%9d%f0%9d%90%9a%f0%9d%90%b2-narasanti-innerspell/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
+   "sn": "Fienta",
+   "su": "https://fienta.com/et?q=metal",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/narasanti-innerspell-thekrypt",
+   "pu": "https://fienta.com/et/narasanti-innerspell-thekrypt",
+   "nb": "lisatud sweepis 25.07.2026; korraldaja Sügis Productions / The Krypt (Pärnu mnt 19)"
   },
   {
    "sait": "www",
@@ -1461,7 +1469,7 @@
    "d": "2026-08-28",
    "t": "kontsert",
    "n": "MODEL CITIZEN + I AM BOB + DJ Valter Nõmm",
-   "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB + DJ Valter Nõmm",
+   "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB (krautrock/post-punk, Tallinn) + DJ Valter Nõmm",
    "b": [
     "Model Citizen",
     "I AM BOB"
@@ -1482,17 +1490,25 @@
    "sait": "www",
    "d": "2026-08-28",
    "t": "kontsert",
-   "n": "Metallica &#038; AC/DC 𝐧𝐢𝐠𝐡𝐭: PATAREI + COVERAGE",
-   "b": [],
+   "n": "Metallica & AC/DC night: Patarei + Coverage",
+   "a": "Tribüütõhtu — Patarei (Metallica) + Coverage (AC/DC); algus 21:00",
+   "b": [
+    "Patarei",
+    "Coverage"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
-    "metal"
+    "metal",
+    "hard rock",
+    "tribüüt"
    ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/metallica-ac-dc-%f0%9d%90%a7%f0%9d%90%a2%f0%9d%90%a0%f0%9d%90%a1%f0%9d%90%ad-patarei-coverage/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
+   "sn": "Fienta",
+   "su": "https://fienta.com/et?q=metal",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/patarei-coverage-thekrypt",
+   "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
+   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions"
   },
   {
    "sait": "www",
@@ -1586,17 +1602,25 @@
    "sait": "www",
    "d": "2026-08-29",
    "t": "kontsert",
-   "n": "TOOL &#038; NINE INCH NAILS night: Fool + Hate Machine",
-   "b": [],
+   "n": "TOOL & Nine Inch Nails night: Fool + Hate Machine (FIN)",
+   "a": "Soome tribüütbändid — Fool (Tool) + Hate Machine (NIN); uksed 20:00, algus 22:00",
+   "b": [
+    "Fool",
+    "Hate Machine"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
-    "metal"
+    "prog",
+    "industrial",
+    "tribüüt"
    ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/tool-nine-inch-nails-night-fool-hate-machine-2/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
+   "sn": "Fienta",
+   "su": "https://fienta.com/et?q=metal",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+   "pu": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions"
   },
   {
    "sait": "www",
@@ -1858,22 +1882,6 @@
    "sait": "www",
    "d": "2026-09-12",
    "t": "kontsert",
-   "n": "FREAKANGEL (EE) + PSYCHOLIES (IT) + SUGAR RODY (EE)",
-   "b": [],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/freakangel-ee-psycholies-it-sugar-rody-ee/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-12",
-   "t": "kontsert",
    "n": "Freakangel + PsycHolies + Sugar Rody",
    "a": "Balti tuur — industrial metal, dark electro, EBM, synthwave (PsycHolies IT)",
    "b": [
@@ -1913,7 +1921,11 @@
     "black"
    ],
    "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper"
+   "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
+   "pu": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
+   "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale)"
   },
   {
    "sait": "klubi",
@@ -2286,6 +2298,23 @@
    "ou": "https://www.facebook.com/events/1701428730898843",
    "pu": "https://www.piletilevi.ee/piletid/CVAQM4IDVN/kosmikud-pulmad-ja-matused-20",
    "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-26",
+   "t": "kontsert",
+   "n": "Wyatt E.",
+   "b": [
+    "Wyatt E.",
+    "Five The Hierophant"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=236314"
   },
   {
    "sait": "www",

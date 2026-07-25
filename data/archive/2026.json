@@ -2,6 +2,25 @@
  "year": 2026,
  "entries": [
   {
+   "d": "2026-06-10",
+   "t": "reliis",
+   "n": "I Am Bob — «I Am Bob - EP»",
+   "a": "Tallinna trio 4-loone debüüt-demo-EP; krautrock / post-punk / stoner rock",
+   "b": [
+    "I AM BOB"
+   ],
+   "v": "Bandcamp",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "stoner",
+    "post"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://iambob.bandcamp.com/album/i-am-bob-ep",
+   "nb": "lisatud kontaktivormi veaparanduse põhjal 25.07.2026 (ilmus 10.06.2026)"
+  },
+  {
    "d": "2026-06-28",
    "t": "kontsert",
    "n": "Blood Incantation + Nate Mercereau",
@@ -291,6 +310,51 @@
    "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 17.07.2026)"
   },
   {
+   "d": "2026-07-17",
+   "d2": "19.07",
+   "t": "festival",
+   "n": "Käbliku Beer Camp & Rock'n'Roll",
+   "b": [
+    "Primordial",
+    "Henge",
+    "Yoth Iria",
+    "Mars Red Sky",
+    "Monkey3",
+    "Antsud Metal Project",
+    "Aednikud",
+    "Oranzas brivdienas",
+    "Biisti Pohh",
+    "Bloodfeather",
+    "Truckthor",
+    "Death Kommander",
+    "Robotorr",
+    "Pagansarv",
+    "Elukas",
+    "Project Dekadenz",
+    "Puberteet",
+    "AITÄH EMA!",
+    "Valm Ja Orav",
+    "Aapo Ilves"
+   ],
+   "v": "Käbliku Pruulikoda",
+   "c": "mujal",
+   "g": [
+    "pagan",
+    "black",
+    "stoner"
+   ],
+   "sn": "Songkick",
+   "su": "https://www.songkick.com/festivals/3343518-kabliku-beer-camp-rocknroll",
+   "on_": "fest.kabliku.com",
+   "ou": "https://fest.kabliku.com/",
+   "pu": "https://www.ticketer.ee/kabliku-beer-camp-rocknroll/",
+   "hind": {
+    "praegu": "72.70€",
+    "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda",
+    "allikas": "ticketer.ee, kontrollitud 06.07.2026"
+   }
+  },
+  {
    "d": "2026-07-18",
    "t": "kontsert",
    "n": "The Exploited (UK) + Antinorm + Skoone + Huiabella Fantastica",
@@ -386,6 +450,196 @@
     "mark": "kohapeal 20€; laps kuni 10 a tasuta; simman algab 20.00",
     "allikas": "Fienta, kontrollitud 12.07.2026"
    }
+  },
+  {
+   "d": "2026-07-19",
+   "t": "kontsert",
+   "n": "Project Dekadenz + Yakubutsu + Fern Flower",
+   "a": "suveõhtu DIY-klubis Hell (Tiigi 76a)",
+   "b": [
+    "Project Dekadenz",
+    "Yakubutsu",
+    "Fern Flower"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "alt",
+    "punk"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1158843837316570/",
+   "nb": "žanrid täpsustamata (DIY subkultuuriklubi õhtu); algus 17.00; lisatud 11.07.2026"
+  },
+  {
+   "d": "2026-07-20",
+   "t": "kontsert",
+   "n": "Lenny Kravitz (USA)",
+   "b": [
+    "Lenny Kravitz"
+   ],
+   "v": "Unibet Arena",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "Baltic Live Agency",
+   "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/832943499451786/",
+   "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
+   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency"
+  },
+  {
+   "d": "2026-07-21",
+   "t": "kontsert",
+   "n": "Hez (Panama) + Hävitus + Korralagedus + Volta",
+   "a": "hardcore punk: Hez (PA) + Tallinna omad; uksed 19.00",
+   "b": [
+    "Hez",
+    "Hävitus",
+    "Korralagedus",
+    "Volta"
+   ],
+   "v": "Ülase 12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1275986611278256",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1275986611278256",
+   "hind": {
+    "praegu": "10€ / 7€ (õpilased)",
+    "mark": "uksehind (\"support\"); uksed 19.00",
+    "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-22",
+   "t": "kontsert",
+   "n": "SFP esitleb: Sewer Altar + Koni + Gangrenated + E.X.E.X.",
+   "b": [
+    "Sewer Altar",
+    "Koni",
+    "Gangrenated",
+    "E.X.E.X."
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "grind"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1939366306773298/",
+   "hind": {
+    "praegu": "10€ / 7€ (õpilased, alaealised)",
+    "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 19.30",
+    "allikas": "Facebook event, kontrollitud 07.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-23",
+   "t": "kontsert",
+   "n": "SFP esitleb: Profithysteri + Pühak + Thousand Hands",
+   "a": "Profithysteri (SWE) esimene Baltikumi live; Pühak — Eesti ainuke klarnetiga sludge metal bänd",
+   "b": [
+    "Profithysteri",
+    "Pühak",
+    "Thousand Hands"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "sludge"
+   ],
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1535064547976191/",
+   "hind": {
+    "praegu": "10€ / 7€ (õpilased, alaealised)",
+    "mark": "uksehind, ainult sularaha; uksed 19.00, muusika 20.00",
+    "allikas": "Facebook event, kontrollitud 07.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-24",
+   "t": "kontsert",
+   "n": "Kosmikud XXV : Tharaphita XXX",
+   "b": [
+    "Kosmikud",
+    "Tharaphita"
+   ],
+   "v": "Kolga mõis",
+   "c": "mujal",
+   "g": [
+    "pagan",
+    "black",
+    "rock"
+   ],
+   "sn": "Barbari FB",
+   "su": "https://www.facebook.com/events/4306050719668339",
+   "on_": "Kolga Mõisa Kontsert",
+   "ou": "https://www.facebook.com/events/4306050719668339"
+  },
+  {
+   "d": "2026-07-24",
+   "t": "kontsert",
+   "n": "Indie/Alternative Rock Evening: Manufaktuuri Kvartal + bluedrive + DINOZAVR",
+   "a": "Manufaktuuri Kvartal (EE) + bluedrive (FI) + DINOZAVR (LV); uksed 19.00",
+   "b": [
+    "Manufaktuuri Kvartal",
+    "bluedrive (FI)",
+    "DINOZAVR (LV)"
+   ],
+   "v": "Fort Bar",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt",
+    "indie"
+   ],
+   "sn": "Fort Bar FB",
+   "su": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/indie-alternative-rock-evening-with-manufaktuuri-kvartal-bluedrive-dinozavr",
+   "pu": "https://fienta.com/et/indie-alternative-rock-evening-with-manufaktuuri-kvartal-bluedrive-dinozavr",
+   "hind": {
+    "praegu": "10€",
+    "mark": "eelmüük Fientas; kahe inimese pilet 18€; uksel sula/kaart",
+    "allikas": "Fienta, kontrollitud 19.07.2026"
+   },
+   "nb": "lisatud sweepis 19.07.2026; žanr kinnitatud Fienta lehelt (indie/alt-rock)"
+  },
+  {
+   "d": "2026-07-24",
+   "t": "kontsert",
+   "n": "Pühak + VKS + Non Governmental Resolve",
+   "b": [
+    "Pühak",
+    "VKS",
+    "Non Governmental Resolve"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1005557088997331/",
+   "nb": "lisatud sweepis 19.07.2026 (Hell events); algus 19.00"
   }
  ]
 }

@@ -7,7 +7,7 @@ Kihid:
 Dedup: sama kuupaev + kattuv nimi/band => manual voidab.
 Iga allikas on try/except sees - uhe allika kukkumine ei murra korjet.
 """
-import json, re, sys, unicodedata, urllib.parse, urllib.request
+import html, json, re, sys, unicodedata, urllib.parse, urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -32,7 +32,7 @@ def get(url, timeout=25):
         return r.read().decode("utf-8", "replace")
 
 def slug(s):
-    s = unicodedata.normalize("NFKD", s.lower())
+    s = unicodedata.normalize("NFKD", s).lower()
     return re.sub(r"[^a-z0-9]+", "", s)
 
 def warn_unknown_bands(data_dir, entries):
@@ -128,6 +128,7 @@ def src_krypt():
                 if isinstance(title, dict):
                     title = title.get("rendered", "")
                 title = re.sub(r"<[^>]+>", "", title).strip()
+                title = html.unescape(unicodedata.normalize("NFKC", title)).strip()
                 if not start or not title:
                     continue
                 out.append({"d": start, "t": "kontsert", "n": title, "b": [],
@@ -198,7 +199,7 @@ def main():
         return {slug(b) for b in e.get("b", []) if b}
 
     merged = list(manual)
-    known = [(e["d"], slug(e["n"]), key_bands(e)) for e in manual]
+    known = [(e["d"], slug(e["n"]), key_bands(e), slug(e.get("v","") or "")) for e in manual]
     seen_auto = set()
     for e in auto:
         if e["d"] < TODAY:
@@ -207,11 +208,11 @@ def main():
         if k in seen_auto or k in block or slug(e["n"]) in block_names:
             continue
         dup = False
-        for (d, n, bs) in known:
+        for (d, n, bs, vs) in known:
             if d != e["d"]:
                 continue
-            en, ebs = slug(e["n"]), key_bands(e)
-            if en in n or n in en or (bs & ebs):
+            en, ebs, evs = slug(e["n"]), key_bands(e), slug(e.get("v","") or "")
+            if en in n or n in en or (bs & ebs) or (evs and evs == vs):
                 dup = True
                 break
         if not dup:

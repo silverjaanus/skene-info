@@ -16,7 +16,7 @@ TODAY = date.today().isoformat()
 
 
 def _slug(s):
-    s = unicodedata.normalize("NFKD", s.lower())
+    s = unicodedata.normalize("NFKD", s).lower()
     return re.sub(r"[^a-z0-9]+", "", s)
 
 

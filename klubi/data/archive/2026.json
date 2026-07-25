@@ -21,6 +21,39 @@
    "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)"
   },
   {
+   "d": "2026-07-16",
+   "d2": "19.07",
+   "t": "festival",
+   "n": "I Land Sound 2026",
+   "a": "elamusfestival Illiku laiul; Lee Burridge, Cabanne, Silat Beksi, Pandhora, Rony Rex jt",
+   "b": [
+    "Lee Burridge",
+    "Cabanne",
+    "Nico Stojan",
+    "Silat Beksi",
+    "Pandhora",
+    "Rony Rex",
+    "E.LINA",
+    "Miroloja"
+   ],
+   "v": "Illiku laid, Orissaare",
+   "c": "mujal",
+   "g": [
+    "house",
+    "minimal"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2445948",
+   "on_": "ilandsound.ee",
+   "ou": "https://ilandsound.ee/en/",
+   "pu": "https://www.ticketer.ee/i-land-sound-2026/",
+   "hind": {
+    "praegu": "150€",
+    "mark": "pass",
+    "allikas": "ticketer.ee, kontrollitud 13.07.2026"
+   }
+  },
+  {
    "d": "2026-07-17",
    "t": "klubi",
    "n": "Bat Sounds",
@@ -101,6 +134,101 @@
     "allikas": "Facebook event, kontrollitud 17.07.2026"
    },
    "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
+  },
+  {
+   "d": "2026-07-24",
+   "t": "klubi",
+   "n": "Swamp Zone: deep waters",
+   "a": "pehmem, hüpnootiline Swamp; visuaalid Kreat Minds",
+   "b": [
+    "Must Sebra",
+    "mrds",
+    "UUU"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "trance",
+    "psytrance"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2485621",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1539927941121734/",
+   "hind": {
+    "praegu": "10€",
+    "allikas": "tolm.club, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-24",
+   "t": "klubi",
+   "n": "R 24.07 / PLANEET",
+   "a": "Club RED ööpidu Viljandis; peaesineja Planeet (dnb/bass)",
+   "b": [
+    "Planeet"
+   ],
+   "v": "Club RED, Viljandi",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1555267646003388/"
+  },
+  {
+   "d": "2026-07-24",
+   "t": "klubi",
+   "n": "Tjuun In: Makoto (JP)",
+   "a": "jaapani soulful drum & bass produtsent Makoto (LTJ Bukemi Progression Sessions kooli klassik) Tjuun In sarjas; 22.00–02.00",
+   "b": [
+    "Makoto",
+    "L.Eazy",
+    "QBA",
+    "To-Sha",
+    "MC Slin"
+   ],
+   "v": "Kultuuriklubi Tempel",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2476778",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2476778",
+   "pu": "https://ra.co/events/2476778",
+   "hind": {
+    "praegu": "10.90€",
+    "mark": "sisaldab RA teenustasu; 18+",
+    "allikas": "Resident Advisor, kontrollitud 13.07.2026"
+   }
+  },
+  {
+   "d": "2026-07-24",
+   "t": "klubi",
+   "n": "Bar IDA: KUMA",
+   "a": "house, techno ja progressive dance; KUMA laiendab KAUGE festivali ülemise korruse energiat püsivasse klubiformaati; 20.00–04.00",
+   "b": [
+    "alabama",
+    "brett",
+    "cask"
+   ],
+   "v": "IDA Radio",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/4443048625954660/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4443048625954660/",
+   "nb": "kontaktivormi sisend (Brett-Peter Rästas), esitatud skene.info vormi kaudu aga žanri järgi klubi; kontrollitud FB ürituse vastu 14.07.2026 (R 24.07, Bar IDA, Telliskivi 60a/5); korraldajad IDA Radio ja KUMA"
   }
  ]
 }
