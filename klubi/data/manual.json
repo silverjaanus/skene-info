@@ -787,9 +787,14 @@
   "su": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/4076046486018776/",
-  "pu": "https://gateme.com/et/kumu/103865-kaja-kumu-reiv-x-hall",
+  "pu": "https://gateme.com/et/kumu/103865-kaja-kumu-reiv-x-hall/",
   "tba": 1,
-  "nb": "lisatud sweepis 19.07.2026; lineup veel avaldamata (tba) - jälgi 2b-s; 1,9K huvilist"
+  "nb": "lisatud sweepis 19.07.2026; lineup veel avaldamata (tba) - jälgi 2b-s; 1,9K huvilist | 25.07.2026: pu+hind GateMe-st; koosseis endiselt avaldamata",
+  "hind": {
+   "praegu": "26€ / 35€",
+   "mark": "JärelKaja eelmüük 26€, VastuKaja uksel 35€; soodsaim Kaja-pilet 17€ on välja müüdud",
+   "allikas": "GateMe (MTÜ Klubi on kultuur), kontrollitud 25.07.2026"
+  }
  },
  {
   "d": "2026-08-29",
@@ -900,5 +905,31 @@
   "sn": "Bandcamp",
   "su": "https://oudeis.bandcamp.com/album/discrete-sensation",
   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)"
+ },
+ {
+  "d": "2026-08-08",
+  "t": "klubi",
+  "n": "Beats From The Vault: Dark Souls Meeting — SMFORMA (ES) live",
+  "a": "BFTV dark-electro/EBM/industrial öö HALLis; SMFORMA (ES) live; Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile; algus 22.00",
+  "b": [
+   "SMFORMA (ES)",
+   "Cly/Suva",
+   "4-got-10"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "ebm",
+   "dark",
+   "industrial",
+   "electro",
+   "techno"
+  ],
+  "sn": "Beats From The Vault FB",
+  "su": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2213429046145152/",
+  "pu": "https://www.bftv.ee",
+  "nb": "leitud sweepis 25.07.2026; kinnitatud BFTV FB event + HALL FB ürituste nimekiri"
  }
 ]

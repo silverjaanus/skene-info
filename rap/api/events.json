@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 104,
+ "count": 113,
  "entries": [
   {
    "sait": "www",
@@ -151,6 +151,25 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-21",
+   "lisatud": "2026-07-25",
+   "t": "reliis",
+   "n": "Kantri Guidu Bänd — «Lappa Kotte»",
+   "a": "42 min; Eesti rock/punk; ilmus Bandcampis 21.07.2026",
+   "b": [
+    "Kantri Guidu Bänd"
+   ],
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://bandcamp.com/discover/estonia+punk?s=new",
+   "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt"
   },
   {
    "sait": "rap",
@@ -365,6 +384,29 @@
    "su": "https://www.facebook.com/uuslaine/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2799696610387934/"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-07-31",
+   "t": "kontsert",
+   "n": "SKIZØ ja benakanister plaadiesitlus",
+   "a": "kahe albumi esitlus — SKIZØ täispikk soolodebüüt «NEETUD ÜHISKOND VOL.2» ja benakanistri «KROOMITUD»; label 963 Records; kell 21.00–02.00",
+   "b": [
+    "SKIZØ",
+    "benakanister"
+   ],
+   "v": "Legendaarne Raadio",
+   "c": "Tallinn",
+   "g": [
+    "hiphop",
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2179740245926404/",
+   "pu": "https://fienta.com/et/skizoe-ja-benakanister-plaadiesitlus",
+   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta"
   },
   {
    "sait": "www",
@@ -760,6 +802,33 @@
    "yu": "https://www.youtube.com/beatsfromthevault"
   },
   {
+   "sait": "klubi",
+   "d": "2026-08-08",
+   "t": "klubi",
+   "n": "Beats From The Vault: Dark Souls Meeting — SMFORMA (ES) live",
+   "a": "BFTV dark-electro/EBM/industrial öö HALLis; SMFORMA (ES) live; Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile; algus 22.00",
+   "b": [
+    "SMFORMA (ES)",
+    "Cly/Suva",
+    "4-got-10"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "ebm",
+    "dark",
+    "industrial",
+    "electro",
+    "techno"
+   ],
+   "sn": "Beats From The Vault FB",
+   "su": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2213429046145152/",
+   "pu": "https://www.bftv.ee",
+   "nb": "leitud sweepis 25.07.2026; kinnitatud BFTV FB event + HALL FB ürituste nimekiri"
+  },
+  {
    "sait": "www",
    "d": "2026-08-08",
    "d2": "09.08",
@@ -1018,6 +1087,30 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1255908596517597",
    "pu": "https://eestihiphopfestival.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-14",
+   "t": "kontsert",
+   "n": "Horror Vacui (ITA) + Pettunud Kodanik",
+   "a": "80ndate gooti ja post-punk horror-esteetikas; Itaalia post-punk legendid Kotka Kultuurimajas, toetajaks Tartu Pettunud Kodanik; kell 20.00",
+   "b": [
+    "Horror Vacui (ITA)",
+    "Pettunud Kodanik"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "post-punk",
+    "dark",
+    "rock"
+   ],
+   "sn": "Kotka Kultuurimaja FB",
+   "su": "https://www.facebook.com/events/997807159746188/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/997807159746188/",
+   "nb": "leitud sweepis 25.07.2026; hostid Kotka Kultuurimaja + Pettunud Kodanik + Horror Vacui; piletiinfo FB-s puudub"
   },
   {
    "sait": "www",
@@ -1433,9 +1526,14 @@
    "su": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/4076046486018776/",
-   "pu": "https://gateme.com/et/kumu/103865-kaja-kumu-reiv-x-hall",
+   "pu": "https://gateme.com/et/kumu/103865-kaja-kumu-reiv-x-hall/",
    "tba": 1,
-   "nb": "lisatud sweepis 19.07.2026; lineup veel avaldamata (tba) - jälgi 2b-s; 1,9K huvilist"
+   "nb": "lisatud sweepis 19.07.2026; lineup veel avaldamata (tba) - jälgi 2b-s; 1,9K huvilist | 25.07.2026: pu+hind GateMe-st; koosseis endiselt avaldamata",
+   "hind": {
+    "praegu": "26€ / 35€",
+    "mark": "JärelKaja eelmüük 26€, VastuKaja uksel 35€; soodsaim Kaja-pilet 17€ on välja müüdud",
+    "allikas": "GateMe (MTÜ Klubi on kultuur), kontrollitud 25.07.2026"
+   }
   },
   {
    "sait": "klubi",
@@ -1517,7 +1615,8 @@
    "n": "Airbourne",
    "a": "Austraalia hard rocki bänd, Gutsy-tuur — esimest korda Eestis",
    "b": [
-    "Airbourne"
+    "Airbourne",
+    "Elephants From Neptune"
    ],
    "v": "Helitehas",
    "c": "Tallinn",
@@ -1530,7 +1629,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/883197287964317",
    "pu": "https://www.piletilevi.ee/piletid/VD37QERUVT/airbourne",
-   "nb": "algus 19.00; korraldajad Live Nation Estonia + Helitehas; kontrollitud 09.07.2026"
+   "nb": "algus 19.00; korraldajad Live Nation Estonia + Helitehas; kontrollitud 09.07.2026 | 25.07.2026: soojendaja Elephants From Neptune lisatud (Helitehas FB)"
   },
   {
    "sait": "www",
@@ -1804,6 +1903,30 @@
    "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)"
   },
   {
+   "sait": "www",
+   "d": "2026-09-05",
+   "t": "kontsert",
+   "n": "Heavy Saturday: Permanent Blue + Violetscape",
+   "a": "kaks Eesti alternatiiv- ja raskemuusika bändi The Kryptis; uksed 20.00, bändid 22.00, kell 00.00 tasuta aftekas",
+   "b": [
+    "Permanent Blue",
+    "Violetscape"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "prog",
+    "alt"
+   ],
+   "sn": "Sügis Productions FB",
+   "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1517057606835718/",
+   "pu": "https://fienta.com/et/permanentblue-violetscape-thekrypt",
+   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta; Permanent Blue võitis 2024 Heavy Music Band Battle'i"
+  },
+  {
    "sait": "klubi",
    "d": "2026-09-05",
    "t": "klubi",
@@ -2026,6 +2149,26 @@
   },
   {
    "sait": "www",
+   "tba": 1,
+   "d": "2026-10-03",
+   "t": "festival",
+   "n": "Raskemuusika Esitluspäev 6",
+   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev Tapperis; bändidele avatud registreerimine (raskemuusika.ee), koosseis selgumisel",
+   "b": [],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "rock"
+   ],
+   "sn": "Rockclub Tapper FB",
+   "su": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/27546912968307481/",
+   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper; lineup TBA (registreerimine www.raskemuusika.ee); FB kellaaeg 05.00 on ilmselt vale/placeholder"
+  },
+  {
+   "sait": "www",
    "d": "2026-10-04",
    "t": "kontsert",
    "n": "Dead By April + CyHra",
@@ -2235,6 +2378,30 @@
   },
   {
    "sait": "www",
+   "d": "2026-11-07",
+   "t": "kontsert",
+   "n": "Metal Saturday: Surrogoat + Dead Shape Figure (FI)",
+   "a": "uksed 20.00, bändid 22.00, kell 00.00 tasuta aftekas",
+   "b": [
+    "Surrogoat",
+    "Dead Shape Figure (FI)"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death",
+    "black"
+   ],
+   "sn": "Sügis Productions FB",
+   "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1600512088086457/",
+   "pu": "https://fienta.com/et/deadshapefigure-surrogoat-thekrypt",
+   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta otsing"
+  },
+  {
+   "sait": "www",
    "d": "2026-11-11",
    "t": "kontsert",
    "n": "The Obsessed",
@@ -2298,6 +2465,29 @@
    "ou": "https://www.facebook.com/events/1701428730898843",
    "pu": "https://www.piletilevi.ee/piletid/CVAQM4IDVN/kosmikud-pulmad-ja-matused-20",
    "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-20",
+   "t": "kontsert",
+   "n": "Mustasch (SWE)",
+   "a": "Rootsi hard rock'i üks jõulisemaid nimesid, Ralf Gyllenhammari juhtimisel; kaks Grammist, läbimurdealbum «Latest Version of the Truth» (2007); uus album lubatud 2026; algus 19.00",
+   "b": [
+    "Mustasch"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "heavy",
+    "stoner"
+   ],
+   "sn": "Baltic Live Agency FB",
+   "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1413551483860652/",
+   "pu": "https://www.piletilevi.ee/piletid/3EJHJLGL23/mustasch-swe",
+   "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht"
   },
   {
    "sait": "www",
@@ -2385,6 +2575,39 @@
     "mark": "Early Bird kuni 15.09.2026; uksed 19.00",
     "allikas": "Fienta (Death Agency), kontrollitud 09.07.2026"
    }
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-04",
+   "t": "festival",
+   "n": "Storm Over Tallinn Metal Festival",
+   "a": "ühekordne modern metal klubifestival — Serbia, Soome ja Eesti; uksed 19.00; korraldaja Death Agency (FI)",
+   "b": [
+    "LAVINA (SRB)",
+    "Bloody Falls (FIN)",
+    "Numento (FIN)",
+    "Ampest"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "melodic",
+    "death",
+    "prog",
+    "folk"
+   ],
+   "sn": "Rockclub Tapper FB",
+   "su": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2563054657487003/",
+   "pu": "https://fienta.com/storm-over-tallinn",
+   "hind": {
+    "praegu": "20€ / 25€ / 30€",
+    "mark": "varajane lind 20€ (kuni 15.09.2026), tavaeelmüük 25€, uksel 30€ (kui jagub)",
+    "allikas": "Fienta (Death Agency), kontrollitud 25.07.2026"
+   },
+   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta täislineup"
   },
   {
    "sait": "www",

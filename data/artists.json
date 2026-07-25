@@ -32,6 +32,12 @@
         "rap"
       ]
     },
+    "4-got-10": {
+      "checked": "2026-07-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "5Loops": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -833,6 +839,17 @@
         "melodic death metal"
       ]
     },
+    "Dead Shape Figure": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "thrash metal",
+        "finnish",
+        "death metal",
+        "melodic death metal"
+      ]
+    },
     "Death Kommander": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -992,6 +1009,17 @@
         "doom metal",
         "traditional doom metal",
         "death doom metal"
+      ]
+    },
+    "Elephants From Neptune": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "alternative rock",
+        "rock",
+        "estonian",
+        "all"
       ]
     },
     "Elizabete Balčus": {
@@ -1415,6 +1443,18 @@
       "src": "none",
       "tags": []
     },
+    "Horror Vacui": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "post-punk",
+        "deathrock",
+        "gothic rock",
+        "goth",
+        "post punk"
+      ]
+    },
     "Hot Kommunist": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -1659,6 +1699,12 @@
         "drone"
       ]
     },
+    "Kantri Guidu Bänd": {
+      "checked": "2026-07-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Katja Adrikova": {
       "checked": "2026-07-25",
       "domain": "unclear",
@@ -1798,6 +1844,17 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "LAVINA": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "progressive metal",
+        "metal",
+        "eurovision",
+        "rock"
+      ]
     },
     "La Fazani": {
       "checked": "2026-07-13",
@@ -2150,6 +2207,19 @@
       "src": "none",
       "tags": []
     },
+    "Mustasch": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "stoner rock",
+        "hard rock",
+        "swedish",
+        "rock",
+        "heavy metal",
+        "metal"
+      ]
+    },
     "Myteri": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -2449,6 +2519,28 @@
         "djent",
         "math metal",
         "progressive metalcore"
+      ]
+    },
+    "Permanent Blue": {
+      "checked": "2026-07-25",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "pop",
+        "british",
+        "uk",
+        "english",
+        "boy band",
+        "pop and chart",
+        "contemporary r&b"
+      ]
+    },
+    "Pettunud Kodanik": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "post-punk"
       ]
     },
     "Pihikamber": {
@@ -2798,6 +2890,12 @@
         "estonia"
       ]
     },
+    "SKIZØ": {
+      "checked": "2026-07-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "SMFORMA": {
       "checked": "2026-07-13",
       "domain": "klubi",
@@ -3118,6 +3216,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Surrogoat": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "death metal"
+      ]
     },
     "Sylosis": {
       "checked": "2026-07-13",
@@ -3590,6 +3697,16 @@
         "icelandic"
       ]
     },
+    "Violetscape": {
+      "checked": "2026-07-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "alternative",
+        "rock",
+        "alternative rock"
+      ]
+    },
     "Volta": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3761,6 +3878,12 @@
         "alabama",
         "classic country"
       ]
+    },
+    "benakanister": {
+      "checked": "2026-07-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "bluedrive": {
       "checked": "2026-07-19",
