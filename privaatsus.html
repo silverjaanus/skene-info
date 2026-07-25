@@ -69,6 +69,7 @@ a.inline:hover{background:var(--telliskivi);color:var(--paber)}
     <li data-i18n-html="p_c1"><b>Sinu e-posti aadress</b> — et saaksime uudiskirja saata.</li>
     <li data-i18n-html="p_c2"><b>Keele-eelistus</b> (eesti või inglise) — et saaksime kirja õiges keeles.</li>
     <li data-i18n-html="p_c3"><b>Nõusoleku aeg ja tehniline logi</b> (nt liitumise ajatempel) — et saaksime tõendada, et tellimus toimus sinu nõusolekul.</li>
+    <li data-i18n-html="p_c4"><b>Valitud teemad</b> (metal, räpp, klubi) — et kiri sisaldaks ainult neid teemasid, mida sa tellisid.</li>
   </ul>
   <p data-i18n="p_collect2">Me ei küsi ega salvesta su nime, telefoni ega muid andmeid. Uudiskirjas võib meiliteenus mõõta, kas kiri avati või linki klõpsati — see aitab hoida sisu asjakohase. Sa ei pea seda lubama, et kirja lugeda.</p>
 
@@ -80,6 +81,9 @@ a.inline:hover{background:var(--telliskivi);color:var(--paber)}
 
   <h2 data-i18n="p_h_share">Jagamine ja säilitamine</h2>
   <p data-i18n="p_share">Me ei müü ega jaga su e-posti kolmandatele osapooltele. Ainus töötleja on eespool nimetatud MailerLite. Säilitame su aadressi seni, kuni oled uudiskirja tellija; kui loobud, eemaldatakse su aadress nimekirjast.</p>
+
+  <h2 data-i18n="p_h_prefs">Teemade haldamine</h2>
+  <p data-i18n-html="p_prefs">Iga uudiskirja jaluses on <b>eelistuste link</b>, mis viib skene.info lehele, kus saad linnukestega valida, millised teemad su kirjas on — muudatus jõustub kohe ja järgmine kiri tuleb uute valikutega. Link sisaldab su e-posti aadressi ja lühikest kontrollkoodi, mis on arvutatud ainult meile teadaoleva võtmega: ilma selle koodita ei saa keegi su eelistusi vaadata ega muuta. Kui võtad kõik linnukesed maha, lõpeb kirjade saatmine, aga aadress jääb nimekirja — päriseks loobumiseks kasuta jaluse loobumislinki.</p>
 
   <h2 data-i18n="p_h_unsub">Loobumine ja sinu õigused</h2>
   <p data-i18n-html="p_unsub">Iga uudiskirja jaluses on <b>loobumislink</b> — üks klõps ja tellimus lõpeb. Sul on ka õigus näha, parandada või kustutada oma andmeid ja need välja võtta. Selleks kasuta loobumislinki või kirjuta meile saidi <a class="inline" href="/">kontaktivormi</a> kaudu. Kui arvad, et su andmeid on töödeldud valesti, on sul õigus pöörduda Andmekaitse Inspektsiooni poole (aki.ee).</p>
@@ -97,7 +101,7 @@ const I18N={
   page_title:"Privaatsus — skene.info",
   nav_home:"← TAGASI",
   p_title:"Privaatsus",
-  p_updated:"Viimati uuendatud:", p_date:"9. juuli 2026",
+  p_updated:"Viimati uuendatud:", p_date:"25. juuli 2026",
   p_lead:"See leht selgitab, mida skene.info uudiskirjaga liitudes sinu kohta kogutakse ja kuidas neid andmeid töödeldakse. Lühidalt: kogume ainult su e-posti aadressi ega jaga seda kellegagi.",
   p_h_controller:"Vastutav töötleja",
   p_controller:"skene.info on väike, mittekommertslik Eesti alternatiivmuusika koondsait, mida haldab eraisikuna Silver Jaanus. Andmekaitse-küsimustega saad ühendust võtta saidi <a class=\"inline\" href=\"/\">kontaktivormi</a> kaudu.",
@@ -106,6 +110,9 @@ const I18N={
   p_c1:"<b>Sinu e-posti aadress</b> — et saaksime uudiskirja saata.",
   p_c2:"<b>Keele-eelistus</b> (eesti või inglise) — et saaksime kirja õiges keeles.",
   p_c3:"<b>Nõusoleku aeg ja tehniline logi</b> (nt liitumise ajatempel) — et saaksime tõendada, et tellimus toimus sinu nõusolekul.",
+  p_c4:"<b>Valitud teemad</b> (metal, räpp, klubi) — et kiri sisaldaks ainult neid teemasid, mida sa tellisid.",
+  p_h_prefs:"Teemade haldamine",
+  p_prefs:"Iga uudiskirja jaluses on <b>eelistuste link</b>, mis viib skene.info lehele, kus saad linnukestega valida, millised teemad su kirjas on — muudatus jõustub kohe ja järgmine kiri tuleb uute valikutega. Link sisaldab su e-posti aadressi ja lühikest kontrollkoodi, mis on arvutatud ainult meile teadaoleva võtmega: ilma selle koodita ei saa keegi su eelistusi vaadata ega muuta. Kui võtad kõik linnukesed maha, lõpeb kirjade saatmine, aga aadress jääb nimekirja — päriseks loobumiseks kasuta jaluse loobumislinki.",
   p_collect2:"Me ei küsi ega salvesta su nime, telefoni ega muid andmeid. Uudiskirjas võib meiliteenus mõõta, kas kiri avati või linki klõpsati — see aitab hoida sisu asjakohase. Sa ei pea seda lubama, et kirja lugeda.",
   p_h_basis:"Õiguslik alus ja topelt-opt-in",
   p_basis:"Töötleme su e-posti sinu <b>nõusoleku alusel</b> (GDPR art 6 lg 1 p a). Kasutame <b>topelt-opt-in</b>-i: pärast liitumist saadame kinnituskirja ja lisame su nimekirja alles siis, kui klõpsad selles oleval kinnituslingil. Nii on tagatud, et keegi ei saa sind kellegi teise eest tellida.",
@@ -123,7 +130,7 @@ const I18N={
   page_title:"Privacy — skene.info",
   nav_home:"← BACK",
   p_title:"Privacy",
-  p_updated:"Last updated:", p_date:"9 July 2026",
+  p_updated:"Last updated:", p_date:"25 July 2026",
   p_lead:"This page explains what we collect about you when you subscribe to the skene.info newsletter and how that data is handled. In short: we collect only your email address and never share it.",
   p_h_controller:"Data controller",
   p_controller:"skene.info is a small, non-commercial Estonian alternative-music aggregator run by Silver Jaanus as a private individual. For data-protection questions, reach us via the site's <a class=\"inline\" href=\"/\">contact form</a>.",
@@ -132,6 +139,9 @@ const I18N={
   p_c1:"<b>Your email address</b> — so we can send you the newsletter.",
   p_c2:"<b>Language preference</b> (Estonian or English) — so we send the email in the right language.",
   p_c3:"<b>Consent time and a technical log</b> (e.g. the subscription timestamp) — so we can prove the subscription was made with your consent.",
+  p_c4:"<b>Your topic selection</b> (metal, rap, club) — so the email only covers the topics you asked for.",
+  p_h_prefs:"Managing your topics",
+  p_prefs:"Every newsletter footer has a <b>preferences link</b> to a page on skene.info where you tick which topics your email covers — the change takes effect immediately and your next email follows the new selection. The link contains your email address and a short verification code computed with a key only we hold: without that code nobody can view or change your preferences. If you untick everything the emails stop, but your address stays on the list — to leave for good, use the unsubscribe link in the footer.",
   p_collect2:"We do not ask for or store your name, phone number or any other data. The email service may measure whether a newsletter was opened or a link clicked — this helps keep the content relevant. You don't have to allow this to read the email.",
   p_h_basis:"Legal basis and double opt-in",
   p_basis:"We process your email on the basis of your <b>consent</b> (GDPR Art. 6(1)(a)). We use <b>double opt-in</b>: after you sign up we send a confirmation email and only add you to the list once you click the confirmation link. This ensures nobody can subscribe you on someone else's behalf.",
