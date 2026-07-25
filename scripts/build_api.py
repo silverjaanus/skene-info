@@ -18,7 +18,12 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-API = ROOT / "api"
+# NB: peakataloogi failid elavad kaustas feed/, MITTE api/ -- niipea kui juurkausta
+# api/ sisse tekkis Verceli funktsioon (api/eelistused.js), peitis Vercel kogu selle
+# kausta staatilisest valjundist ja /api/events.json andis 404. Avalikud URLid on
+# endised: vercel.json routes suunab /api/events.json -> /feed/events.json.
+# Alamsaitide (rap/, klubi/) api-kaustad on puutumata -- piirang kehtib ainult juurkaustale.
+API = ROOT / "feed"
 
 SITES = [
     ("www", ROOT / "data"),
