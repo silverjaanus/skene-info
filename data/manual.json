@@ -531,7 +531,7 @@
   "d": "2026-08-28",
   "t": "kontsert",
   "n": "MODEL CITIZEN + I AM BOB + DJ Valter Nõmm",
-  "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB + DJ Valter Nõmm",
+  "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB (krautrock/post-punk, Tallinn) + DJ Valter Nõmm",
   "b": [
    "Model Citizen",
    "I AM BOB"
@@ -621,7 +621,11 @@
    "black"
   ],
   "sn": "Bandsintown",
-  "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper"
+  "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
+  "pu": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
+  "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale)"
  },
  {
   "d": "2026-09-12",
@@ -2212,5 +2216,93 @@
   "sn": "Bandcamp",
   "su": "https://endyendytyantyan.bandcamp.com/album/valdavalt-t-stuslikud-demod-2024-25",
   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 17.07.2026)"
+ },
+ {
+  "d": "2026-06-10",
+  "t": "reliis",
+  "n": "I Am Bob — «I Am Bob - EP»",
+  "a": "Tallinna trio 4-loone debüüt-demo-EP; krautrock / post-punk / stoner rock",
+  "b": [
+   "I AM BOB"
+  ],
+  "v": "Bandcamp",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "stoner",
+   "post"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://iambob.bandcamp.com/album/i-am-bob-ep",
+  "nb": "lisatud kontaktivormi veaparanduse põhjal 25.07.2026 (ilmus 10.06.2026)"
+ },
+ {
+  "d": "2026-08-22",
+  "t": "kontsert",
+  "n": "Metal Saturday: Narasanti + Innerspell",
+  "a": "Modern metal õhtu — uksed 20:00, algus 22:00, 00:00 vaba sissepääs + afterparty",
+  "b": [
+   "Narasanti",
+   "Innerspell"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "metalcore",
+   "nu-metal",
+   "djent"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et?q=metal",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/narasanti-innerspell-thekrypt",
+  "pu": "https://fienta.com/et/narasanti-innerspell-thekrypt",
+  "nb": "lisatud sweepis 25.07.2026; korraldaja Sügis Productions / The Krypt (Pärnu mnt 19)"
+ },
+ {
+  "d": "2026-08-28",
+  "t": "kontsert",
+  "n": "Metallica & AC/DC night: Patarei + Coverage",
+  "a": "Tribüütõhtu — Patarei (Metallica) + Coverage (AC/DC); algus 21:00",
+  "b": [
+   "Patarei",
+   "Coverage"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "metal",
+   "hard rock",
+   "tribüüt"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et?q=metal",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/patarei-coverage-thekrypt",
+  "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
+  "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions"
+ },
+ {
+  "d": "2026-08-29",
+  "t": "kontsert",
+  "n": "TOOL & Nine Inch Nails night: Fool + Hate Machine (FIN)",
+  "a": "Soome tribüütbändid — Fool (Tool) + Hate Machine (NIN); uksed 20:00, algus 22:00",
+  "b": [
+   "Fool",
+   "Hate Machine"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "prog",
+   "industrial",
+   "tribüüt"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et?q=metal",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+  "pu": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+  "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions"
  }
 ]
