@@ -16,5 +16,6 @@
     "klubi": "192956907404658437"
   },
   "field_lang": "keel",
-  "manage_link": "{$preferences}"
+  "field_token": "tok",
+  "manage_link": "https://www.skene.info/eelistused.html?e={$email}&amp;t={$tok}"
 }
