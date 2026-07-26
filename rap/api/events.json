@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 120,
+ "count": 118,
  "entries": [
   {
    "sait": "www",
@@ -747,33 +747,6 @@
    "on_": "vmpr.ee",
    "ou": "https://vmpr.ee/allikata-heli-2026/",
    "nb": "kontaktivormi sisend (Villem Jahu); kinnitatud vmpr.ee ja FB ürituse vastu 17.07.2026 (L 8.08 kell 17, Valgemetsa projektiruum, Lõunaveere-kohvik, Põlvamaa); eksperimentaalne elektroonika / DIY-pillid, žanri järgi klubi; toetab Kulka"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-08",
-   "t": "klubi",
-   "n": "BFTV: Beats From The Vault — Dark Souls Meeting",
-   "a": "Back to HALL! Kolm saali (Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile); peaesineja SMFORMA (ES) live + DJd",
-   "b": [
-    "SMFORMA",
-    "Cly/Suva",
-    "DJ 4-got-10"
-   ],
-   "v": "HALL",
-   "c": "Tallinn",
-   "g": [
-    "ebm",
-    "dark",
-    "electro",
-    "darkwave",
-    "industrial"
-   ],
-   "sn": "bftv.ee",
-   "su": "https://bftv.ee/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2213429046145152/",
-   "pu": "https://bftv.ee/",
-   "yu": "https://www.youtube.com/beatsfromthevault"
   },
   {
    "sait": "klubi",
@@ -1931,32 +1904,6 @@
    "on_": "Fienta",
    "ou": "https://fienta.com/1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen",
    "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen/"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "Laine Label Night: Alma Negra (CH)",
-   "a": "Šveitsi vennaduo — disco ja house salsa, samba ja afro-kariibi rütmidega",
-   "b": [
-    "Alma Negra"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "disco",
-    "afro",
-    "house"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2485453",
-   "on_": "Fienta",
-   "ou": "https://fienta.com/et/laine-label-night-alma-negra",
-   "pu": "https://fienta.com/et/laine-label-night-alma-negra",
-   "hind": {
-    "praegu": "8–12€",
-    "allikas": "Fienta, kontrollitud 13.07.2026"
-   }
   },
   {
    "sait": "klubi",
