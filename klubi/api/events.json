@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 125,
+ "count": 126,
  "entries": [
   {
    "sait": "www",
@@ -2157,6 +2157,42 @@
    "ou": "https://fienta.com/et/laine-live-luge-ca",
    "pu": "https://fienta.com/et/laine-live-luge-ca",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-11",
+   "d2": "12.09",
+   "t": "festival",
+   "n": "Fuzz Salvation 2026",
+   "a": "Alternatiivrokk-festival 4. korda; 9 esinejat kahel ohtul, ka eksperimentaalne tantsumuusika (Idiot Dance Music)",
+   "b": [
+    "Embus",
+    "Giuseppe Perverdi Big Band",
+    "Kalli Talonpoika & The Sunshine Band",
+    "Phlox",
+    "Model Citizen",
+    "PX Band",
+    "Fuzzolini",
+    "From Grotto",
+    "Idiot Dance Music"
+   ],
+   "v": "Von Krahli kohvik",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fb.me/e/5GPBPtWLw",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/fuzz-salvation-2026",
+   "pu": "https://fienta.com/et/fuzz-salvation-2026",
+   "hind": {
+    "praegu": "30 EUR (2 paeva) / 15 EUR (1 paev)",
+    "mark": "early bird 25 EUR (2 paeva); support 40 EUR",
+    "allikas": "kontaktivorm + Fienta, kontrollitud 26.07.2026"
+   },
+   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta."
   },
   {
    "sait": "klubi",
