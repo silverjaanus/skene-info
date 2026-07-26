@@ -126,8 +126,6 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2467990",
-  "on_": "GateMe",
-  "ou": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
   "pu": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
   "hind": {
    "praegu": "30€",
@@ -155,8 +153,6 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2485052",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/sub-u-dub-priori",
   "pu": "https://fienta.com/et/sub-u-dub-priori",
   "hind": {
    "praegu": "10€",
@@ -223,8 +219,6 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2473978",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/safara-festival",
   "pu": "https://fienta.com/et/safara-festival",
   "hind": {
    "praegu": "15€",
@@ -249,8 +243,6 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2483537",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/triploop-invites-kai-galactic",
   "pu": "https://fienta.com/et/triploop-invites-kai-galactic",
   "hind": {
    "praegu": "10€",
@@ -277,8 +269,6 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2398883",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/laine-klubioo-dj-plead-aus",
   "pu": "https://fienta.com/et/laine-klubioo-dj-plead-aus",
   "hind": {
    "praegu": "7.50–15€",
@@ -305,8 +295,6 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2398214",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen",
   "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen/"
  },
  {
@@ -326,8 +314,6 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2467032",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/scorched-earth-skee-mask",
   "pu": "https://fienta.com/et/scorched-earth-skee-mask",
   "hind": {
    "praegu": "15–20€",
@@ -745,8 +731,6 @@
   ],
   "sn": "Fienta",
   "su": "https://fienta.com/et/mum-tallinn",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/mum-tallinn",
   "pu": "https://fienta.com/et/mum-tallinn",
   "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist)"
  },
@@ -1011,9 +995,7 @@
    "electro"
   ],
   "sn": "Fienta (Paavli Kultuurivabrik)",
-  "su": "https://fienta.com/o/17595",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/paavli-club-festival-2026",
+  "su": "https://fienta.com/paavli-club-festival-2026",
   "pu": "https://fienta.com/paavli-club-festival-2026",
   "nb": "leitud sweepis 26.07.2026; täiskoosseis Fienta ürituselehelt (2 päeva); toetab Liveurope"
  },
@@ -1063,9 +1045,7 @@
    "club"
   ],
   "sn": "Fienta (Uus Laine)",
-  "su": "https://fienta.com/et/o/17330",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/laine-klubioo-mi-el-uk",
+  "su": "https://fienta.com/et/laine-klubioo-mi-el-uk",
   "pu": "https://fienta.com/et/laine-klubioo-mi-el-uk",
   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
  },
@@ -1085,9 +1065,7 @@
    "afro"
   ],
   "sn": "Fienta (Uus Laine)",
-  "su": "https://fienta.com/et/o/17330",
-  "on_": "Fienta",
-  "ou": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
+  "su": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
   "pu": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
  },

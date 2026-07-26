@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="et">
 <head>
 <meta charset="utf-8">
@@ -5,6 +6,7 @@
 <title>KLUBI.SKENE.INFO — Arhiiv</title>
 <meta name="description" content="klubi.skene.info arhiiv — möödunud üritused ja reliisid.">
 <meta name="robots" content="noindex">
+<link rel="canonical" href="https://klubi.skene.info/arhiiv.html">
 <script defer src="/_vercel/insights/script.js"></script>
 <style>
 :root{
@@ -219,6 +221,8 @@ const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal",
 let YEARS=[], CACHE={}, E=[];
 let st={year:null,kuu:null,type:null,tags:new Set(),city:null};
 function enc(x){return encodeURIComponent(x);}
+const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+const surl=u=>/^https?:\/\//i.test(String(u??""))?esc(u):"";
 const IC={
  sp:'<svg viewBox="0 0 24 24" aria-label="Spotify"><circle cx="12" cy="12" r="11" fill="#1DB954"/><path d="M6.5 9.6c3.6-1.1 7.6-.7 10.6 1" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M7 12.6c3-.9 6.3-.5 8.8.9" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M7.5 15.4c2.4-.7 5-.4 7 .7" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg>',
  ym:'<svg viewBox="0 0 24 24" aria-label="YouTube Music"><circle cx="12" cy="12" r="11" fill="#FF0000"/><circle cx="12" cy="12" r="6.5" stroke="#fff" stroke-width="1.4" fill="none"/><path d="M10.3 9.5l5 2.5-5 2.5z" fill="#fff"/></svg>',
@@ -226,7 +230,7 @@ const IC={
  bc:'<svg viewBox="0 0 24 24" aria-label="Bandcamp"><circle cx="12" cy="12" r="11" fill="#629AA9"/><path d="M6.4 15.4l4.4-6.8h6.8l-4.4 6.8z" fill="#fff"/></svg>'
 };
 let BANDS={};
-function bandIco(u,ic,tk,b){return `<a href="${u}" target="_blank" rel="noopener" title="${b} ${t(tk)}">${ic}</a> `;}
+function bandIco(u,ic,tk,b){return `<a href="${surl(u)}" target="_blank" rel="noopener" title="${esc(b)} ${t(tk)}">${ic}</a> `;}
 function band(b){
  const v=BANDS[b];let ics="";
  if(v){
@@ -239,25 +243,25 @@ function band(b){
    +bandIco("https://music.youtube.com/search?q="+enc(b),IC.ym,'on_ytm',b)
    +bandIco("https://www.youtube.com/results?search_query="+enc(b),IC.yt,'on_yt',b);
  }
- return `<span class="bd"><span>${b}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
+ return `<span class="bd"><span>${esc(b)}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
 }
 function priceLine(e){
   if(!e.hind)return "";
   const h=e.hind;
-  if(h.kuni&&h.jargmine)return `<span class="price">${t('price')} <b>${h.praegu}</b> ${t('price_until')} ${h.kuni}, ${t('price_after')} <b>${h.jargmine}</b></span>`;
-  return `<span class="price">${t('price')} <b>${h.praegu}</b>${h.mark?" — "+h.mark:""}</span>`;
+  if(h.kuni&&h.jargmine)return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b> ${t('price_until')} ${esc(h.kuni)}, ${t('price_after')} <b>${esc(h.jargmine)}</b></span>`;
+  return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b>${h.mark?" — "+esc(h.mark):""}</span>`;
 }
 function fmt(e){
   if(e.tba)return"TBA";
   const dt=new Date(e.d+"T00:00");
   let s=String(dt.getDate()).padStart(2,"0")+"."+String(dt.getMonth()+1).padStart(2,"0");
-  if(e.d2)s+="–<br>"+e.d2;
+  if(e.d2)s+="–<br>"+esc(e.d2);
   return s;
 }
 function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}
 function aastad(){
   document.getElementById("aastad").innerHTML=YEARS.map(y=>
-    `<button class="kuu${st.year===y.year?" on":""}" onclick="setYear(${y.year})">${y.year} <small>${y.count}</small></button>`).join("");
+    `<button class="kuu${st.year===y.year?" on":""}" data-y="${esc(y.year)}" onclick="setYear(+this.dataset.y)">${esc(y.year)} <small>${esc(y.count)}</small></button>`).join("");
 }
 function kuud(){
   const m={};
@@ -265,7 +269,7 @@ function kuud(){
   const ks=Object.keys(m).sort().reverse();
   document.getElementById("kuud").innerHTML=
     `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">${t('all_months')} <small>${E.length}</small></button>`+
-    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" onclick="setF('kuu','${k}')">${monthName(k.slice(5))} <small>${m[k]}</small></button>`).join("");
+    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" data-k="${esc(k)}" onclick="setF('kuu',this.dataset.k)">${monthName(k.slice(5))} <small>${m[k]}</small></button>`).join("");
 }
 function render(){
   let rows=E.filter(e=>{
@@ -283,23 +287,23 @@ function render(){
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
-    if(sameSrc){lnks=`<a class="a2" href="${e.ou}" target="_blank" rel="noopener">${t('organizer')} ${e.on_||e.sn} ↗</a>`;}
+    if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_||e.sn)} ↗</a>`;}
     else{
-      lnks=`<a class="a1" href="${e.su}" target="_blank" rel="noopener">${t('source')} ${e.sn} ↗</a>`;
-      if(e.ou)lnks+=`<br><a class="a2" href="${e.ou}" target="_blank" rel="noopener">${t('organizer')} ${e.on_} ↗</a>`;
+      lnks=`<a class="a1" href="${surl(e.su)}" target="_blank" rel="noopener">${t('source')} ${esc(e.sn)} ↗</a>`;
+      if(e.ou)lnks+=`<br><a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_)} ↗</a>`;
     }
-    if(e.pu)lnks+=`<br><a class="a3" href="${e.pu}" target="_blank" rel="noopener">${t('tickets')}</a>`;
-    if(e.yu)lnks+=`<br><a class="a2" href="${e.yu}" target="_blank" rel="noopener">YouTube ↗</a>`;
+    if(e.pu)lnks+=`<br><a class="a3" href="${surl(e.pu)}" target="_blank" rel="noopener">${t('tickets')}</a>`;
+    if(e.yu)lnks+=`<br><a class="a2" href="${surl(e.yu)}" target="_blank" rel="noopener">YouTube ↗</a>`;
     if(e.hind)lnks+=`<br>${priceLine(e)}`;
     return `<div class="row">
-      <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span></div>
+      <div class="pv">${fmt(e)}<small>${esc(e.d.slice(0,4))}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span></div>
       <div>
-        <p class="tit"><a href="${e.ou||e.su}" target="_blank" rel="noopener">${e.n}</a></p>
-        ${e.a?`<p class="sub">${e.a}</p>`:""}
-        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join("")}</div>
+        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
+        ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
+        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
-      <div class="loc"><span class="venue">${e.v}</span>${e.linn?e.linn:(e.c==="mujal"?"":e.c)}<div class="lnks">${lnks}</div></div>
+      <div class="loc"><span class="venue">${esc(e.v)}</span>${e.linn?esc(e.linn):(e.c==="mujal"?"":esc(e.c))}<div class="lnks">${lnks}</div></div>
     </div>`;
   }).join("");
 }
@@ -314,7 +318,7 @@ function refresh(){
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
     `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
-    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
+    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
   aastad();kuud();render();
 }
 function setYear(y){
