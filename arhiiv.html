@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="et">
 <head>
 <meta charset="utf-8">
@@ -280,7 +281,7 @@ function fmt(e){
 }
 function aastad(){
   document.getElementById("aastad").innerHTML=YEARS.map(y=>
-    `<button class="kuu${st.year===y.year?" on":""}" onclick="setYear(${y.year})">${y.year} <small>${y.count}</small></button>`).join("");
+    `<button class="kuu${st.year===y.year?" on":""}" data-y="${esc(y.year)}" onclick="setYear(+this.dataset.y)">${esc(y.year)} <small>${esc(y.count)}</small></button>`).join("");
 }
 function kuud(){
   const m={};
@@ -288,7 +289,7 @@ function kuud(){
   const ks=Object.keys(m).sort().reverse();
   document.getElementById("kuud").innerHTML=
     `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">${t('all_months')} <small>${E.length}</small></button>`+
-    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" onclick="setF('kuu','${k}')">${monthName(k.slice(5))} <small>${m[k]}</small></button>`).join("");
+    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" data-k="${esc(k)}" onclick="setF('kuu',this.dataset.k)">${monthName(k.slice(5))} <small>${m[k]}</small></button>`).join("");
 }
 function render(){
   let rows=E.filter(e=>{
@@ -316,14 +317,14 @@ function render(){
     if(e.yu)lnks+=`<br><a class="a2" href="${surl(e.yu)}" target="_blank" rel="noopener">YouTube ↗</a>`;
     if(e.hind)lnks+=`<br>${priceLine(e)}`;
     return `<div class="row">
-      <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span></div>
+      <div class="pv">${fmt(e)}<small>${esc(e.d.slice(0,4))}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span></div>
       <div>
-        <p class="tit"><a href="${e.ou||e.su}" target="_blank" rel="noopener">${e.n}</a></p>
-        ${e.a?`<p class="sub">${e.a}</p>`:""}
-        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join("")}</div>
+        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
+        ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
+        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
-      <div class="loc"><span class="venue">${e.v}</span>${e.linn?e.linn:(e.c==="mujal"?"":e.c)}<div class="lnks">${lnks}</div></div>
+      <div class="loc"><span class="venue">${esc(e.v)}</span>${e.linn?esc(e.linn):(e.c==="mujal"?"":esc(e.c))}<div class="lnks">${lnks}</div></div>
     </div>`;
   }).join("");
 }

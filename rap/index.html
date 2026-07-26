@@ -452,7 +452,7 @@ const SITE_LBL={www:"METAL",rap:"RÄPP",klubi:"KLUBI"};
 const SITE_URL={www:"https://www.skene.info/",rap:"https://rap.skene.info/",klubi:"https://klubi.skene.info/"};
 const SITE_BG={www:"#93392C",rap:"#2E5EAA",klubi:"#6E45A8"};
 let ALLX=[];
-function tags(){const s=new Set();E.forEach(e=>e.g.forEach(g=>s.add(g)));return[...s].sort();}
+function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}
 function enc(x){return encodeURIComponent(x);}
 const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 const surl=u=>/^https?:\/\//i.test(String(u??""))?esc(u):"";
@@ -548,7 +548,7 @@ function render(){
   let rows=base.filter(e=>{
     if(!matchQ(e))return false;
     if(st.type&&e.t!==st.type)return false;
-    if(!q&&st.tags.size&&![...st.tags].every(t=>e.g.includes(t)))return false;
+    if(!q&&st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
@@ -582,14 +582,14 @@ function render(){
     if(cal)lnks+=`<br>${cal}`;
     lnks+=`<br><a class="rep" href="#" onclick="return suggestEdit(${i})">${t('report_err')}</a>`;
     return `<div class="row${past?" past":""}">
-      <div class="pv">${fmt(e)}<small>${e.d.slice(0,4)}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span>${st.q?`<br><a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${past?'<br><span class="laebi">'+t('lbl_past')+'</span>':""}</div>
+      <div class="pv">${fmt(e)}<small>${esc(e.d.slice(0,4))}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span>${st.q?`<br><a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${past?'<br><span class="laebi">'+t('lbl_past')+'</span>':""}</div>
       <div>
-        <p class="tit"><a href="${e.ou||e.su}" target="_blank" rel="noopener">${e.n}</a></p>
-        ${e.a?`<p class="sub">${e.a}</p>`:""}
-        <div class="gtags">${e.g.map(g=>`<button class="gt${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join("")}</div>
+        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
+        ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
+        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
-      <div class="loc"><span class="venue">${e.v}</span>${e.c==="mujal"?"":e.c}<div class="lnks">${lnks}</div></div>
+      <div class="loc"><span class="venue">${esc(e.v)}</span>${e.c==="mujal"?"":esc(e.c)}<div class="lnks">${lnks}</div></div>
     </div>`;
   }).join("");
 }
@@ -607,7 +607,7 @@ function kuud(){
   const ks=Object.keys(m).sort().filter(k=>k>=TODAY.slice(0,7));
   document.getElementById("kuud").innerHTML=
     `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">${t('all_months')} <small>${vis.length}</small></button>`+
-    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" onclick="setF('kuu','${k}')">${monthName(k.slice(5))} ${k.slice(0,4)} <small>${m[k]}</small></button>`).join("");
+    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" data-k="${esc(k)}" onclick="setF('kuu',this.dataset.k)">${monthName(k.slice(5))} ${esc(k.slice(0,4))} <small>${m[k]}</small></button>`).join("");
 }
 // --- KALENDRIVAADE ---
 function covers(e,isoStr){const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);}
@@ -684,7 +684,7 @@ function refresh(){
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
     `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
-    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" onclick="setTag('${g}')">${g}</button>`).join(" ");
+    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
   kuud();renderCal();render();
 }
 applyI18n();applyCalView();E=E_FALLBACK;refresh();

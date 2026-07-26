@@ -5,6 +5,11 @@ on:
     - cron: "30 4 * * *"   # iga paev 04:30 UTC (07:30 Eesti suveajal)
   workflow_dispatch: {}
 
+# valdi topeltjooks: cron + kasitsi dispatch ei tohi korraga joosta
+concurrency:
+  group: andmekorje
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -15,14 +20,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Korje
-        run: |
-          python scripts/fetch.py
-          python scripts/fetch_rap.py
-          python scripts/fetch_klubi.py
+      # eraldi sammud: uhe saidi korje kukkumine ei jata teisi tegemata
+      - name: Korje metal
+        continue-on-error: true
+        run: python scripts/fetch.py
+      - name: Korje rap
+        continue-on-error: true
+        run: python scripts/fetch_rap.py
+      - name: Korje klubi
+        continue-on-error: true
+        run: python scripts/fetch_klubi.py
       - name: Commit kui muutus
         run: |
           git config user.name "skene-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/data.json rap/data/data.json klubi/data/data.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json klubi/api/events.json
-          git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git push)
+          git add data/data.json rap/data/data.json klubi/data/data.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json klubi/api/events.json data/archive rap/data/archive klubi/data/archive
+          git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git pull --rebase origin main && git push)
