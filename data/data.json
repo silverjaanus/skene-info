@@ -59,6 +59,24 @@
   },
   {
    "rel": 1,
+   "d": "2026-06-23",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "Kättemaksucuntor — «Eradicktetiivid»",
+   "a": "16-looline album; salvestas ja miksis Animoz; koosseis Uku (vokaal), Andrey (kitarr), Tuudur (bass), Sander (löökpillid)",
+   "b": [
+    "Kättemaksucuntor"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "grind"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://k2ttemaksucuntor.bandcamp.com/album/eradicktetiivid",
+   "nb": "lisatud 26.07.2026 Rada7.ee uudiskirja (23.07.2026) põhjal; kuupäev kinnitatud Bandcampi realt 'released 23 June 2026'. Žanrimäärang tuleb uudiskirjast ('käteka austajatele, aga ka grindi vms lainel surfijatele') — Bandcampil žanrisilte pole, täpsustada sweepis."
+  },
+  {
+   "rel": 1,
    "d": "2026-07-01",
    "lisatud": "2026-07-12",
    "t": "reliis",
@@ -559,12 +577,12 @@
   {
    "d": "2026-08-07",
    "t": "kontsert",
-   "n": "Baltic Prosecution: Blisterous (FIN) + Gangrenated + Kättemaksucvntor",
+   "n": "Baltic Prosecution: Blisterous (FIN) + Gangrenated + Kättemaksucuntor",
    "a": "goregrind/grind õhtu DIY-klubis Hell; algus 18.00",
    "b": [
     "Blisterous",
     "Gangrenated",
-    "Kättemaksucvntor"
+    "Kättemaksucuntor"
    ],
    "v": "Hell",
    "c": "Tartu",
@@ -575,7 +593,8 @@
    "sn": "Hell, Tartu FB",
    "su": "https://www.facebook.com/punknrollhell/events",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1583551966711930/"
+   "ou": "https://www.facebook.com/events/1583551966711930/",
+   "nb": "bändinimi ühtlustatud 26.07.2026 Bandcampi kirjapildiga (Kättemaksucuntor); FB-s stiliseeritud 'Kättemaksucvntor'"
   },
   {
    "d": "2026-08-07",
