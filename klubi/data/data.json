@@ -1,32 +1,31 @@
 {
- "updated": "2026-07-25",
+ "updated": "2026-07-26",
  "entries": [
   {
-   "d": "2026-07-25",
+   "d": "2026-08-01",
    "t": "klubi",
-   "n": "Selecta: Aphrodite (UK)",
-   "a": "jump-up dnb legend; teine lava Our Era: Reunion (techno/breaks) — Smiler",
+   "n": "Healer Records: Katja Adrikova / Kiimsask / Squash",
+   "a": "Healer Recordsi suvine residentuur Tšungelis; tasuta sissepääs kogu päev ja öö; 17.00–03.00, 21+, heli Lambda Labs",
    "b": [
-    "Aphrodite",
-    "Smiler"
+    "Katja Adrikova",
+    "Kiimsask",
+    "Squash"
    ],
-   "v": "Paavli Kultuurivabrik",
+   "v": "Tšungel",
    "c": "Tallinn",
    "g": [
-    "dnb",
-    "techno",
-    "breaks"
+    "house"
    ],
    "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2467990",
-   "on_": "GateMe",
-   "ou": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
-   "pu": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
+   "su": "https://ra.co/events/2496237",
+   "on_": "tsungel.ee",
+   "ou": "https://tsungel.ee/",
    "hind": {
-    "praegu": "30€",
-    "mark": "late bird",
-    "allikas": "GateMe, kontrollitud 13.07.2026"
-   }
+    "praegu": "tasuta",
+    "mark": "21+",
+    "allikas": "RA + tsungel.ee, kontrollitud 26.07.2026"
+   },
+   "nb": "leitud sweepis 26.07.2026; UUS VENUE Tšungel (Kopli 1, Balti jaam) — suvine välilävaga baar/DJ-venue, elektrooniline muusika, K–L"
   },
   {
    "d": "2026-08-06",
@@ -94,6 +93,42 @@
    "pu": "https://piletikeskus.ee/et/e/hl03ia"
   },
   {
+   "d": "2026-08-07",
+   "d2": "08.08",
+   "t": "festival",
+   "n": "Paavli.Club Festival 2026",
+   "a": "kaasaegse klubimuusika festival Paavli Kultuurivabrikus — glitch popist ja ambient-trance'ist tehno ja UK bassini; Garden Stage heli Balta Chill",
+   "b": [
+    "Oli XL (SE)",
+    "Druz x Ra",
+    "Metabora",
+    "Metruhaze",
+    "SFISTIKATED (PT)",
+    "Tapes (UK)",
+    "Verraco (CO)",
+    "Merely x Niko Demus (SE/FI)",
+    "2K88 (PL)",
+    "celestica x Tanel",
+    "Krenz (PL)",
+    "Shion"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "bass",
+    "ambient",
+    "trance",
+    "electro"
+   ],
+   "sn": "Fienta (Paavli Kultuurivabrik)",
+   "su": "https://fienta.com/o/17595",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/paavli-club-festival-2026",
+   "pu": "https://fienta.com/paavli-club-festival-2026",
+   "nb": "leitud sweepis 26.07.2026; täiskoosseis Fienta ürituselehelt (2 päeva); toetab Liveurope"
+  },
+  {
    "d": "2026-08-08",
    "t": "klubi",
    "n": "Sub û Dub: Priori (CA)",
@@ -101,7 +136,8 @@
    "b": [
     "Priori",
     "Softspot",
-    "Nikolajev"
+    "Nikolajev",
+    "Dharma Doom"
    ],
    "v": "HUNGR",
    "c": "Tallinn",
@@ -119,33 +155,36 @@
     "praegu": "10€",
     "mark": "earlybird",
     "allikas": "Fienta, kontrollitud 13.07.2026"
-   }
+   },
+   "nb": "koosseis täiendatud 26.07.2026 (RA lineup: Priori, Nikolajev, Dharma Doom)"
   },
   {
    "d": "2026-08-08",
    "t": "klubi",
-   "n": "BFTV: Beats From The Vault — Dark Souls Meeting",
-   "a": "Back to HALL! Kolm saali (Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile); peaesineja SMFORMA (ES) live + DJd",
+   "n": "Beats From The Vault: Dark Souls Meeting — SMFORMA (ES) live",
+   "a": "BFTV dark-electro/EBM/industrial öö HALLis; SMFORMA (ES) live; Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile; algus 22.00",
    "b": [
-    "SMFORMA",
+    "SMFORMA (ES)",
     "Cly/Suva",
-    "DJ 4-got-10"
+    "4-got-10"
    ],
    "v": "HALL",
    "c": "Tallinn",
    "g": [
     "ebm",
     "dark",
+    "industrial",
     "electro",
     "darkwave",
-    "industrial"
+    "techno"
    ],
    "sn": "bftv.ee",
    "su": "https://bftv.ee/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2213429046145152/",
    "pu": "https://bftv.ee/",
-   "yu": "https://www.youtube.com/beatsfromthevault"
+   "yu": "https://www.youtube.com/beatsfromthevault",
+   "nb": "duplikaatkirjed liidetud sweepis 26.07.2026 (sama FB event 2213429046145152); kinnitatud BFTV FB + HALL FB ürituste nimekiri"
   },
   {
    "d": "2026-08-08",
@@ -176,28 +215,56 @@
   {
    "d": "2026-08-08",
    "t": "klubi",
-   "n": "Beats From The Vault: Dark Souls Meeting — SMFORMA (ES) live",
-   "a": "BFTV dark-electro/EBM/industrial öö HALLis; SMFORMA (ES) live; Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile; algus 22.00",
+   "n": "FEDO (Tripsy/Samm) @ Tšungel",
+   "a": "house, minimal, groove kogu öö; 17.00 Couch Session (Ainar, Kosoc, Iowa), 22.00 Fedo; tasuta sissepääs, 21+",
    "b": [
-    "SMFORMA (ES)",
+    "Fedo (UA)",
+    "Ainar",
+    "Kosoc",
+    "Iowa"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "minimal"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2495147",
+   "on_": "tsungel.ee",
+   "ou": "https://tsungel.ee/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "21+",
+    "allikas": "RA + tsungel.ee, kontrollitud 26.07.2026"
+   },
+   "nb": "leitud sweepis 26.07.2026 (RA + tsungel.ee)"
+  },
+  {
+   "d": "2026-08-08",
+   "t": "klubi",
+   "n": "BFTV: Beats From The Vault — Dark Souls Meeting",
+   "a": "Back to HALL! Kolm saali (Kabel + Krematoorium = MESILA; Külmkamber pühendatud The Cure'ile); peaesineja SMFORMA (ES) live + DJd",
+   "b": [
+    "SMFORMA",
     "Cly/Suva",
-    "4-got-10"
+    "DJ 4-got-10"
    ],
    "v": "HALL",
    "c": "Tallinn",
    "g": [
     "ebm",
     "dark",
-    "industrial",
     "electro",
-    "techno"
+    "darkwave",
+    "industrial"
    ],
-   "sn": "Beats From The Vault FB",
-   "su": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events",
+   "sn": "bftv.ee",
+   "su": "https://bftv.ee/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2213429046145152/",
-   "pu": "https://www.bftv.ee",
-   "nb": "leitud sweepis 25.07.2026; kinnitatud BFTV FB event + HALL FB ürituste nimekiri"
+   "pu": "https://bftv.ee/",
+   "yu": "https://www.youtube.com/beatsfromthevault"
   },
   {
    "d": "2026-08-12",
@@ -281,6 +348,36 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/24443143705338081/",
    "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade"
+  },
+  {
+   "d": "2026-08-14",
+   "t": "klubi",
+   "n": "Masta Blasta",
+   "a": "Masta Blasta viimane õhtu TOLMi ruumides; külalisteks vasall club (laurel 2 & Luurel Varas, Tallinn) — hägune, dub-raske bass",
+   "b": [
+    "vasall club (laurel 2 & Luurel Varas)",
+    "Kässar",
+    "Konsap",
+    "Habur",
+    "Cärol"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "bass",
+    "dub",
+    "garage",
+    "breaks"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/902202516273043/",
+   "hind": {
+    "praegu": "10€",
+    "allikas": "tolm.club, kontrollitud 26.07.2026"
+   },
+   "nb": "leitud sweepis 26.07.2026 (tolm.club + FB event)"
   },
   {
    "d": "2026-08-15",
@@ -388,6 +485,27 @@
    "on_": "hundipea.ee",
    "ou": "https://hundipea.ee/en/event/netsky-bel-hundipea-kakaoladu/",
    "pu": "https://www.piletilevi.ee/en/venues/21-61-9418/hundipea-kakaoladu-tallinn"
+  },
+  {
+   "d": "2026-08-22",
+   "t": "klubi",
+   "n": "Healer Records: Pätt / Squash / West Coast Swingaz",
+   "a": "Healer Recordsi suveresidentuuri järgmine õhtu Tšungelis",
+   "b": [
+    "Pätt",
+    "Squash",
+    "West Coast Swingaz"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/clubs/265290",
+   "on_": "RA event",
+   "ou": "https://ra.co/events/2496240",
+   "nb": "leitud sweepis 26.07.2026; kinnitatud RA ürituse- ja venue-lehel (Tšungel)"
   },
   {
    "d": "2026-08-28",
@@ -530,31 +648,6 @@
   {
    "d": "2026-09-04",
    "t": "klubi",
-   "n": "Laine Label Night: Alma Negra (CH)",
-   "a": "Šveitsi vennaduo — disco ja house salsa, samba ja afro-kariibi rütmidega",
-   "b": [
-    "Alma Negra"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "disco",
-    "afro",
-    "house"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2485453",
-   "on_": "Fienta",
-   "ou": "https://fienta.com/et/laine-label-night-alma-negra",
-   "pu": "https://fienta.com/et/laine-label-night-alma-negra",
-   "hind": {
-    "praegu": "8–12€",
-    "allikas": "Fienta, kontrollitud 13.07.2026"
-   }
-  },
-  {
-   "d": "2026-09-04",
-   "t": "klubi",
    "n": "REDSHIFT invites Alex Wilcox (US)",
    "a": "punk-techno; Alex Wilcox esmakordselt Eestis (hübriidsett live-vokaaliga); Paul Lepasson (SÜNK) + REDSHIFT residendid; viimane REDSHIFT Tolmus (maja läheb lammutamisele); kell 23-08; 18+",
    "b": [
@@ -577,6 +670,31 @@
     "allikas": "RA, kontrollitud 19.07.2026"
    },
    "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Laine Label Night: Alma Negra (CH)",
+   "a": "Šveitsi vennaduo — disco ja house salsa, samba ja afro-kariibi rütmidega",
+   "b": [
+    "Alma Negra"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "disco",
+    "afro",
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2485453",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-label-night-alma-negra",
+   "pu": "https://fienta.com/et/laine-label-night-alma-negra",
+   "hind": {
+    "praegu": "8–12€",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   }
   },
   {
    "d": "2026-09-05",
@@ -643,6 +761,26 @@
    "su": "https://www.bedlessbones.com/shows"
   },
   {
+   "d": "2026-09-19",
+   "t": "klubi",
+   "n": "Healer Records: Charch / Squash",
+   "a": "Healer Recordsi suveresidentuuri lõpetav õhtu Tšungelis",
+   "b": [
+    "Charch",
+    "Squash"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/clubs/265290",
+   "on_": "RA event",
+   "ou": "https://ra.co/events/2496243",
+   "nb": "leitud sweepis 26.07.2026; kinnitatud RA ürituse- ja venue-lehel (Tšungel)"
+  },
+  {
    "d": "2026-10-09",
    "t": "klubi",
    "n": "Laine Klubiöö: Yung Singh (UK)",
@@ -661,7 +799,8 @@
    "su": "https://ra.co/events/ee/all",
    "on_": "RA event",
    "ou": "https://ra.co/events/2475984",
-   "nb": "lisatud sweepis 19.07.2026; Laine Klubiöö sari; pilet ilmub eeldatavasti Fientasse (o/17330)"
+   "nb": "lisatud sweepis 19.07.2026; pilet leitud Fientast 26.07.2026",
+   "pu": "https://fienta.com/et/laine-klubioo-yung-singh"
   },
   {
    "d": "2026-10-17",
@@ -704,6 +843,50 @@
    "ou": "https://www.piletitasku.ee/et/event/9392",
    "pu": "https://www.piletitasku.ee/et/event/9392",
    "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "klubi",
+   "n": "Laine Klubiöö: mi-el (UK)",
+   "a": "NTS-i resident; lauldud helimaastikest kaasaegse bassi, electro ja avangardse elektroonikani; Pulling Threads (London) eestvedaja",
+   "b": [
+    "mi-el (UK)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "electro",
+    "club"
+   ],
+   "sn": "Fienta (Uus Laine)",
+   "su": "https://fienta.com/et/o/17330",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-klubioo-mi-el-uk",
+   "pu": "https://fienta.com/et/laine-klubioo-mi-el-uk",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
+  },
+  {
+   "d": "2026-12-11",
+   "t": "klubi",
+   "n": "Laine Klubiöö: State OFFF (NL/ZW)",
+   "a": "Zimbabwes sündinud, Amsterdamis tegutsev produtsent — gqom, baile funk ja globaalsed klubihääled; Mixmagi „Top 25 Artists to Watch 2025“",
+   "b": [
+    "State OFFF (NL/ZW)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "bass",
+    "afro"
+   ],
+   "sn": "Fienta (Uus Laine)",
+   "su": "https://fienta.com/et/o/17330",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
+   "pu": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
   }
  ]
 }

@@ -23,6 +23,17 @@
         "death metal"
       ]
     },
+    "2K88": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "jungle",
+        "electronic",
+        "dubstep",
+        "hip hop"
+      ]
+    },
     "3H Company": {
       "checked": "2026-07-19",
       "domain": "rap",
@@ -155,6 +166,14 @@
         "chillout",
         "ambient",
         "lo-fi"
+      ]
+    },
+    "Ainar": {
+      "checked": "2026-07-26",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "dancecore"
       ]
     },
     "Airbourne": {
@@ -779,6 +798,12 @@
         "groove metal"
       ]
     },
+    "Cärol": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "DINOZAVR": {
       "checked": "2026-07-19",
       "domain": "unknown",
@@ -938,6 +963,12 @@
         "paganism",
         "nature"
       ]
+    },
+    "Druz x Ra": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Duo Ruut": {
       "checked": "2026-07-15",
@@ -1109,6 +1140,15 @@
         "nu metal"
       ]
     },
+    "Fedo": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "house",
+        "minimal"
+      ]
+    },
     "Fern Flower": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -1207,6 +1247,17 @@
         "goregrind"
       ]
     },
+    "Geordie Greep": {
+      "checked": "2026-07-26",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "progressive rock",
+        "art rock",
+        "jazz-rock",
+        "avant-prog"
+      ]
+    },
     "Goatburner": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -1246,6 +1297,17 @@
         "dub",
         "latin rock",
         "polka"
+      ]
+    },
+    "Gong": {
+      "checked": "2026-07-26",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "progressive rock",
+        "psychedelic rock",
+        "space rock",
+        "psychedelic"
       ]
     },
     "Goresoerd": {
@@ -1293,6 +1355,12 @@
     },
     "H8blst": {
       "checked": "2026-07-19",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Habur": {
+      "checked": "2026-07-26",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -1576,6 +1644,20 @@
         "death metal"
       ]
     },
+    "Iowa": {
+      "checked": "2026-07-26",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "indie",
+        "pop",
+        "female vocalists",
+        "indie rock",
+        "russian",
+        "belarus",
+        "belarusian"
+      ]
+    },
     "Iron Maiden": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -1724,6 +1806,12 @@
         "dubstep"
       ]
     },
+    "Kiimsask": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "King No-One": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -1776,6 +1864,12 @@
       "src": "none",
       "tags": []
     },
+    "Konsap": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Konventio": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -1806,6 +1900,23 @@
         "rock"
       ]
     },
+    "Kosoc": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Krenz": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "breakbeat",
+        "dubstep",
+        "illbient",
+        "electronic"
+      ]
+    },
     "Kristjan Glück": {
       "checked": "2026-07-19",
       "domain": "unclear",
@@ -1829,6 +1940,12 @@
     },
     "Kxster": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Kässar": {
+      "checked": "2026-07-26",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -1928,6 +2045,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Luge": {
+      "checked": "2026-07-26",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "math rock",
+        "no wave"
+      ]
     },
     "Luurel Varas": {
       "checked": "2026-07-13",
@@ -2101,6 +2227,24 @@
         "female fronted metal",
         "gothic"
       ]
+    },
+    "Merely x Niko Demus (SE/FI)": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Metabora": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Metruhaze": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Micaela Saraceno": {
       "checked": "2026-07-25",
@@ -2409,6 +2553,17 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Oli XL": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "idm",
+        "experimental",
+        "deconstructed club",
+        "ambient"
+      ]
     },
     "Opoku": {
       "checked": "2026-07-13",
@@ -2735,6 +2890,12 @@
       "src": "none",
       "tags": []
     },
+    "Pätt": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Pühak": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -2890,6 +3051,12 @@
         "estonia"
       ]
     },
+    "SFISTIKATED": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "SKIZØ": {
       "checked": "2026-07-25",
       "domain": "unknown",
@@ -3014,6 +3181,16 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Shion": {
+      "checked": "2026-07-26",
+      "domain": "rap",
+      "src": "lastfm",
+      "tags": [
+        "j-urban",
+        "j-pop",
+        "j-hip hop"
+      ]
     },
     "Sibyl Vane": {
       "checked": "2026-07-13",
@@ -3141,6 +3318,15 @@
         "hardcore"
       ]
     },
+    "Squash": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drum and bass",
+        "dancehall"
+      ]
+    },
     "Star Crystal": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -3148,6 +3334,12 @@
       "tags": [
         "rock"
       ]
+    },
+    "State OFFF (NL/ZW)": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Stefania Boiko": {
       "checked": "2026-07-15",
@@ -3272,6 +3464,16 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Tapes": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "dub",
+        "8-bit",
+        "dubstep"
+      ]
     },
     "Tarja": {
       "checked": "2026-07-13",
@@ -3689,6 +3891,17 @@
         "epic black metal"
       ]
     },
+    "Verraco": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "techno",
+        "idm",
+        "colombia",
+        "electronic"
+      ]
+    },
     "Vigri": {
       "checked": "2026-07-19",
       "domain": "unclear",
@@ -3742,6 +3955,12 @@
         "international",
         "medieval"
       ]
+    },
+    "West Coast Swingaz": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "White Lies": {
       "checked": "2026-07-13",
@@ -3918,6 +4137,21 @@
         "ambient"
       ]
     },
+    "celestica x Tanel": {
+      "checked": "2026-07-26",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "soundtrack",
+        "classical",
+        "special purpose artist",
+        "fixme",
+        "ambient",
+        "bogus artist",
+        "software company as artist",
+        "meta artist"
+      ]
+    },
     "halb päev": {
       "checked": "2026-07-19",
       "domain": "unknown",
@@ -3974,6 +4208,16 @@
         "rock"
       ]
     },
+    "mi-el": {
+      "checked": "2026-07-26",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "blues",
+        "latin"
+      ]
+    },
     "mrds": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -4019,7 +4263,13 @@
         "synth pop",
         "estonia"
       ]
+    },
+    "vasall club (laurel 2 & Luurel Varas)": {
+      "checked": "2026-07-26",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     }
   },
-  "updated": "2026-07-25"
+  "updated": "2026-07-26"
 }

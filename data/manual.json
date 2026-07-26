@@ -2465,5 +2465,73 @@
   "sn": "Bandcamp",
   "su": "https://bandcamp.com/discover/estonia+punk?s=new",
   "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt"
+ },
+ {
+  "d": "2026-08-16",
+  "t": "kontsert",
+  "n": "Paavli.Live: Geordie Greep (UK)",
+  "a": "Briti rokkansambli Black Midi endine frontmees; eksperimentaalne rokk, debuütsooloalbum „The New Sound“",
+  "b": [
+   "Geordie Greep (UK)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "eksperimentaal",
+   "alternatiiv"
+  ],
+  "sn": "Fienta (Paavli Kultuurivabrik)",
+  "su": "https://fienta.com/o/17595",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/geordie-greep-paavli",
+  "pu": "https://fienta.com/geordie-greep-paavli",
+  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases"
+ },
+ {
+  "d": "2026-09-06",
+  "t": "kontsert",
+  "n": "Laine Live: Luge (CA)",
+  "a": "Toronto kvartett — žanrieitav noise/post-punk, keerukad grooved ja kitarrimüra; on soojendanud Lightning Bolti, Otoboke Beaveri ja Tropical Fuck Stormi",
+  "b": [
+   "Luge (CA)"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "noise",
+   "alternatiiv",
+   "rock"
+  ],
+  "sn": "Fienta (Uus Laine)",
+  "su": "https://fienta.com/et/o/17330",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/et/laine-live-luge-ca",
+  "pu": "https://fienta.com/et/laine-live-luge-ca",
+  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
+ },
+ {
+  "d": "2026-11-15",
+  "t": "kontsert",
+  "n": "Paavli.Live: Gong (UK)",
+  "a": "1969. aastal Daevid Alleni loodud psühhedeelse ja eksperimentaalse roki kollektiiv",
+  "b": [
+   "Gong (UK)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "psych",
+   "prog",
+   "eksperimentaal"
+  ],
+  "sn": "Fienta (Paavli Kultuurivabrik)",
+  "su": "https://fienta.com/o/17595",
+  "on_": "Fienta",
+  "ou": "https://fienta.com/gong-tallinn",
+  "pu": "https://fienta.com/gong-tallinn",
+  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
  }
 ]

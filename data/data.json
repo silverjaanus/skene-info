@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25",
+ "updated": "2026-07-26",
  "entries": [
   {
    "rel": 1,
@@ -128,45 +128,6 @@
    "sn": "Bandcamp",
    "su": "https://bandcamp.com/discover/estonia+punk?s=new",
    "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt"
-  },
-  {
-   "d": "2026-07-25",
-   "t": "kontsert",
-   "n": "Arch Enemy",
-   "b": [
-    "Arch Enemy"
-   ],
-   "v": "Helitehas",
-   "c": "Tallinn",
-   "g": [
-    "melodic",
-    "death"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=231989",
-   "on_": "helitehas.ee",
-   "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/",
-   "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026"
-  },
-  {
-   "d": "2026-07-25",
-   "t": "kontsert",
-   "n": "Poola emod Ülases: Wracaj Bo Ciemno (PL) jt",
-   "a": "Poola noise-pop/emo külalised + kohalik toetus; täislineup FB eventis",
-   "b": [
-    "Wracaj Bo Ciemno"
-   ],
-   "v": "Ülase 12",
-   "c": "Tallinn",
-   "g": [
-    "alt",
-    "punk"
-   ],
-   "sn": "Anemon12 FB",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1571475057869484/",
-   "nb": "lineup osaliselt FB kirjelduses peidus; algus 18.00; lisatud 11.07.2026"
   },
   {
    "d": "2026-07-26",
@@ -771,6 +732,28 @@
    "nb": "lisatud sweepis 19.07.2026; korraldaja Müristaja MC (Sadama 30, Haapsalu); hind Fienta ostulehel (avalehel ei kuvatud) - kontrolli"
   },
   {
+   "d": "2026-08-16",
+   "t": "kontsert",
+   "n": "Paavli.Live: Geordie Greep (UK)",
+   "a": "Briti rokkansambli Black Midi endine frontmees; eksperimentaalne rokk, debuütsooloalbum „The New Sound“",
+   "b": [
+    "Geordie Greep (UK)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "eksperimentaal",
+    "alternatiiv"
+   ],
+   "sn": "Fienta (Paavli Kultuurivabrik)",
+   "su": "https://fienta.com/o/17595",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/geordie-greep-paavli",
+   "pu": "https://fienta.com/geordie-greep-paavli",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases"
+  },
+  {
    "d": "2026-08-20",
    "d2": "23.08",
    "t": "festival",
@@ -1146,6 +1129,29 @@
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta; Permanent Blue võitis 2024 Heavy Music Band Battle'i"
   },
   {
+   "d": "2026-09-06",
+   "t": "kontsert",
+   "n": "Laine Live: Luge (CA)",
+   "a": "Toronto kvartett — žanrieitav noise/post-punk, keerukad grooved ja kitarrimüra; on soojendanud Lightning Bolti, Otoboke Beaveri ja Tropical Fuck Stormi",
+   "b": [
+    "Luge (CA)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "noise",
+    "alternatiiv",
+    "rock"
+   ],
+   "sn": "Fienta (Uus Laine)",
+   "su": "https://fienta.com/et/o/17330",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/laine-live-luge-ca",
+   "pu": "https://fienta.com/et/laine-live-luge-ca",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
+  },
+  {
    "d": "2026-09-11",
    "d2": "12.09",
    "t": "festival",
@@ -1486,6 +1492,29 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=233881"
+  },
+  {
+   "d": "2026-11-15",
+   "t": "kontsert",
+   "n": "Paavli.Live: Gong (UK)",
+   "a": "1969. aastal Daevid Alleni loodud psühhedeelse ja eksperimentaalse roki kollektiiv",
+   "b": [
+    "Gong (UK)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "psych",
+    "prog",
+    "eksperimentaal"
+   ],
+   "sn": "Fienta (Paavli Kultuurivabrik)",
+   "su": "https://fienta.com/o/17595",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/gong-tallinn",
+   "pu": "https://fienta.com/gong-tallinn",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)"
   },
   {
    "d": "2026-11-17",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25",
+ "updated": "2026-07-26",
  "groups": [
   {
    "nimi": "Kohad",
@@ -39,6 +39,10 @@
     {
      "n": "Tolm (Tartu)",
      "u": "https://tolm.club/"
+    },
+    {
+     "n": "Tšungel (Tallinn)",
+     "u": "https://ra.co/clubs/265290"
     },
     {
      "n": "Uus Laine",

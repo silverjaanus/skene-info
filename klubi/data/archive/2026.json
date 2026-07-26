@@ -229,6 +229,33 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/4443048625954660/",
    "nb": "kontaktivormi sisend (Brett-Peter Rästas), esitatud skene.info vormi kaudu aga žanri järgi klubi; kontrollitud FB ürituse vastu 14.07.2026 (R 24.07, Bar IDA, Telliskivi 60a/5); korraldajad IDA Radio ja KUMA"
+  },
+  {
+   "d": "2026-07-25",
+   "t": "klubi",
+   "n": "Selecta: Aphrodite (UK)",
+   "a": "jump-up dnb legend; teine lava Our Era: Reunion (techno/breaks) — Smiler",
+   "b": [
+    "Aphrodite",
+    "Smiler"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "techno",
+    "breaks"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2467990",
+   "on_": "GateMe",
+   "ou": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
+   "pu": "https://gateme.com/et/paavli-kultuurivabrik/103672-selecta-aphrodite-uk-tallinn/",
+   "hind": {
+    "praegu": "30€",
+    "mark": "late bird",
+    "allikas": "GateMe, kontrollitud 13.07.2026"
+   }
   }
  ]
 }
