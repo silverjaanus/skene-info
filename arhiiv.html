@@ -222,12 +222,13 @@ const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"],["c_baltikum","Baltikum"],["c_pohjamaad","Põhjamaad"],["c_euroopa","Euroopa"]];
 let YEARS=[], CACHE={}, E=[];
 // Žanri META-filtrid — sama vastendus kui index.html-is (vt sealne kommentaar + HANDOVER.md "UI-ÜMBEREHITUS").
-const METAS=["metal","punk","core","rock","alt","dark","folk"];
+const METAS=["metal","punk","core","rock","bluus","alt","dark","folk"];
 const GENRE_META={
  metal:["metal"],death:["metal"],black:["metal"],thrash:["metal"],doom:["metal"],sludge:["metal"],power:["metal"],pagan:["metal"],
  punk:["punk"],"post-punk":["punk"],
  core:["core"],grind:["core"],
  rock:["rock"],folk:["folk"],alt:["alt"],
+ bluus:["bluus"],bluusrock:["bluus","rock"],"blues rock":["bluus","rock"],
  dark:["dark"],industrial:["dark"],ebm:["dark"],darkwave:["dark"],goth:["dark"],electro:["dark"],
  rokk:["rock"],gothic:["dark"],"dark electro":["dark"],synth:["dark"],hardcore:["core"],
  metalcore:["metal","core"],deathcore:["metal","core"],melodeath:["metal"],groove:["metal"],"alt-metal":["metal"],rituaal:["folk"]

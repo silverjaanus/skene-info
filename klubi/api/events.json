@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 119,
+ "count": 123,
  "entries": [
   {
    "sait": "www",
@@ -301,6 +301,23 @@
    "sait": "www",
    "d": "2026-07-30",
    "t": "kontsert",
+   "n": "Roots Session X: Trainman Blues",
+   "a": "Trainman Blues (IE/DK); algus 20:00",
+   "b": [
+    "Trainman Blues"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "bluus"
+   ],
+   "sn": "Kidrakuur (FB)",
+   "su": "https://www.facebook.com/events/2142728216515425/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-30",
+   "t": "kontsert",
    "n": "Underground Laine: Motelli Skronkle (FIN) + Irwin Art Projekt + Hot Kommunist",
    "a": "Boiling Baltia 2026: Soome kultuslik noise/avangard-rühm Motelli Skronkle (est 1983) esmakordselt Eestis; algus 19.00",
    "b": [
@@ -318,6 +335,60 @@
    "su": "https://www.facebook.com/uuslaine/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2799696610387934/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-31",
+   "d2": "02.08",
+   "t": "festival",
+   "n": "Augustibluus 2026",
+   "a": "36 esinejat; Eric Sardinas (US), Toby Lee (UK), Will Wilde (UK), Gunhild Carling (SE) jt",
+   "b": [
+    "Eric Sardinas",
+    "Toby Lee",
+    "Gunhild Carling & The Carling Family",
+    "Sean \"Mack\" McDonald",
+    "Estonian Voices Meet The Blues Brothers",
+    "Mike Wheeler/Highway",
+    "Skyler Saufley Band",
+    "Will Wilde",
+    "Andres Roots 50",
+    "BLUULE: Mihkel Raud, Brad Jurjens, Georg Merilo",
+    "Trainman Blues",
+    "Julian Burdock",
+    "Mr Black & Blues",
+    "LBB Organ Trio",
+    "Enrico Cipollini",
+    "Tomi Leino Trio",
+    "Micke & Lefty feat. Chef",
+    "Anton Hultquist Trio",
+    "Panic Groove Sound Machine",
+    "T-40 feat. Carlos Ukareda",
+    "The Rude Grooves",
+    "HarvestON",
+    "Kaibald",
+    "Error of Principle",
+    "Mitridacium Band",
+    "Kelli Uustani, Ain Agan, Paul Daniel",
+    "The Tomahawck Brothers",
+    "Toomas Lunge & Crosswood",
+    "Howlin' Wolf Tribute",
+    "Porkuni Bluusbänd",
+    "Vello Jurtom & AllJam",
+    "Rene Paul",
+    "DJ Robert Linna",
+    "DJ Tom Lilienthal",
+    "Absolute \"Too Many Roberts\"",
+    "Emil Rutiku viktoriin"
+   ],
+   "v": "Haapsalu",
+   "c": "mujal",
+   "g": [
+    "bluus"
+   ],
+   "sn": "augustibluus.ee",
+   "su": "https://augustibluus.ee/esinejad/",
+   "pu": "https://www.piletilevi.ee/piletid/S7TPOTRXYI/augustibluus-2026"
   },
   {
    "sait": "rap",
@@ -1958,6 +2029,20 @@
   },
   {
    "sait": "www",
+   "d": "2026-09-04",
+   "t": "kontsert",
+   "n": "Songs Of The Dead",
+   "a": "muusikud bändidest Hunta, Mört ja Cosmic Cowboys mängivad lahkunud lauljate lugusid; uksed 21:00, live 22:00, pilet 10 € (ainult sularaha)",
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "Kidrakuur (FB)",
+   "su": "https://www.facebook.com/events/1567937774772357/"
+  },
+  {
+   "sait": "www",
    "d": "2026-09-05",
    "t": "kontsert",
    "n": "Heavy Saturday: Permanent Blue + Violetscape",
@@ -2815,6 +2900,24 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235376"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-12",
+   "t": "kontsert",
+   "n": "hubris. (CH): Album Release Tour '26",
+   "a": "Šveitsi post-rock; algus 21:00",
+   "b": [
+    "hubris."
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "rock"
+   ],
+   "sn": "Kidrakuur (FB)",
+   "su": "https://www.facebook.com/events/2053170258639309/"
   },
   {
    "sait": "www",

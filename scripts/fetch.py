@@ -55,6 +55,7 @@ GENRE_META = {
     "punk": ["punk"], "post-punk": ["punk"],
     "core": ["core"], "grind": ["core"],
     "rock": ["rock"], "folk": ["folk"], "alt": ["alt"],
+    "bluus": ["bluus"], "bluusrock": ["bluus", "rock"], "blues rock": ["bluus", "rock"],
     "dark": ["dark"], "industrial": ["dark"], "ebm": ["dark"], "darkwave": ["dark"],
     "goth": ["dark"], "electro": ["dark"],
     "rokk": ["rock"], "gothic": ["dark"], "dark electro": ["dark"], "synth": ["dark"],
