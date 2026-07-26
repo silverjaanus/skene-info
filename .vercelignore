@@ -3,5 +3,8 @@
 templates/
 scripts/
 sweep/
+# ei sisalda saladusi (ainult grupi-/segmendi-ID-d) ega ole runtime'is vaja:
+# api/eelistused.js hoiab ID-sid koodis, HTML-id ei loe seda faili
+mailerlite_config.json
 README.md
 LICENSE
