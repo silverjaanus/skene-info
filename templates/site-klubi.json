@@ -1,0 +1,129 @@
+{
+ "S001": {
+  "f": "snippets/klubi/S001.html"
+ },
+ "S002": {
+  "f": "snippets/klubi/S002.html"
+ },
+ "S003": {
+  "f": "snippets/klubi/S003.html"
+ },
+ "S004": {
+  "f": "snippets/klubi/S004.html"
+ },
+ "S005": ".subnav a:hover{color:var(--lilla)}\r\n",
+ "S006": "h1 .info{color:var(--lilla)}\r\n",
+ "S007": {
+  "f": "snippets/klubi/S007.html"
+ },
+ "S008": ".topnav .nav-links a:hover{color:var(--lilla)}\r\n",
+ "S009": ".kuu.on{border-left-color:var(--lilla);font-weight:700}\r\n",
+ "S010": {
+  "f": "snippets/klubi/S010.html"
+ },
+ "S011": ".tit a:hover{border-bottom-color:var(--lilla)}\r\n",
+ "S012": {
+  "f": "snippets/klubi/S012.html"
+ },
+ "S013": "",
+ "S014": ".cform label .req{color:var(--accent)}\r\n",
+ "S015": ".cform button:hover{background:var(--lilla);border-color:var(--lilla)}\r\n",
+ "S016": ".cform .ferr{font-family:var(--mono);font-size:11px;color:var(--roosa);line-height:1.5;margin-top:2px}\r\n",
+ "S017": {
+  "f": "snippets/klubi/S017.html"
+ },
+ "S018": "/* kontaktivorm accordion */\r\n",
+ "S019": "",
+ "S020": ".calcell.ev .dnum{background:var(--accent);color:var(--paber);font-weight:700}\r\n",
+ "S021": {
+  "f": "snippets/klubi/S021.html"
+ },
+ "S022": "  /* mobiilis: kalender täislaiuseks + madalamad read (PÄRAST baas-.calbox/.calcell reegleid) */\r\n",
+ "S023": {
+  "f": "snippets/klubi/S023.html"
+ },
+ "S024": {
+  "f": "snippets/klubi/S024.html"
+ },
+ "S025": "      <input id=\"f-q\" class=\"qin navq\" type=\"search\" aria-label=\"Otsi üritusi\" oninput=\"setQ(this.value)\" data-i18n-ph=\"ph_q\" placeholder=\"Otsi: artist, koht, üritus…\">\r\n",
+ "S026": {
+  "f": "snippets/klubi/S026.html"
+ },
+ "S027": "      <input type=\"text\" name=\"Sinu nimi\" data-i18n-ph=\"ph_name\" placeholder=\"sinu enda nimi (mitte artisti/ürituse nimi)\" required>\r\n",
+ "S028": "      <input type=\"text\" name=\"Uritus / reliis\" data-i18n-ph=\"ph_event\" placeholder=\"nt artist + soojendus @ klubi\" required>\r\n",
+ "S029": "      <input type=\"text\" name=\"Kuupaev ja koht\" data-i18n-ph=\"ph_date\" placeholder=\"nt 19.09.2026, klubi, Tallinn\">\r\n",
+ "S030": "      <input type=\"text\" name=\"Zanrid\" data-i18n-ph=\"ph_genre\" placeholder=\"koma vahele, nt techno,\">\r\n",
+ "S031": "      <textarea name=\"Lisainfo\" rows=\"3\" data-i18n-ph=\"ph_extra\" placeholder=\"artistid, muu…\"></textarea>\r\n",
+ "S032": {
+  "f": "snippets/klubi/S032.html"
+ },
+ "S033": "      <p class=\"hint\" data-i18n-html=\"nl_fine_short\">1 kiri nädalas, loobuda võid alati. Vt <a href=\"https://www.skene.info/privaatsus.html\">privaatsust</a>.</p>\r\n",
+ "S034": "    <script>/* desktopil accordionid vaikimisi lahti, kitsal kinni */\r\n",
+ "S035": {
+  "f": "snippets/klubi/S035.html"
+ },
+ "S036": "",
+ "S037": {
+  "f": "snippets/klubi/S037.html"
+ },
+ "S038": {
+  "f": "snippets/klubi/S038.html"
+ },
+ "S039": "",
+ "S040": "  title:\"KLUBI.SKENE.INFO — üritused, merch ja reliisid ühest kohast\",\r\n",
+ "S041": "  cal_head:\"Kalender\",\r\n",
+ "S042": {
+  "f": "snippets/klubi/S042.html"
+ },
+ "S043": {
+  "f": "snippets/klubi/S043.html"
+ },
+ "S044": "  f_extra:\"Lisainfo\", ph_extra:\"artistid, muu…\", f_send:\"Saada\",\r\n",
+ "S045": {
+  "f": "snippets/klubi/S045.html"
+ },
+ "S046": "  ethos:\"Klubi.skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.\",\r\n",
+ "S047": "  c_all:\"kõik\", c_mujal:\"mujal Eesti\",\r\n",
+ "S048": "  f_q_l:\"Otsi\", ph_q:\"Otsi: artist, koht, üritus…\",\r\n",
+ "S049": "  title:\"KLUBI.SKENE.INFO — Estonian alternative club culture: events & releases\",\r\n",
+ "S050": "  cal_head:\"Calendar\",\r\n",
+ "S051": {
+  "f": "snippets/klubi/S051.html"
+ },
+ "S052": {
+  "f": "snippets/klubi/S052.html"
+ },
+ "S053": "  f_extra:\"More info\", ph_extra:\"artists, other…\", f_send:\"Send\",\r\n",
+ "S054": {
+  "f": "snippets/klubi/S054.html"
+ },
+ "S055": "  ethos:\"Klubi.skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.\",\r\n",
+ "S056": "  c_all:\"all\", c_mujal:\"elsewhere in Estonia\",\r\n",
+ "S057": "  f_q_l:\"Search\", ph_q:\"Search: artist, venue, event…\",\r\n",
+ "S058": "",
+ "S059": "",
+ "S060": {
+  "f": "snippets/klubi/S060.html"
+ },
+ "S061": {
+  "f": "snippets/klubi/S061.html"
+ },
+ "S062": "let calYM={y:new Date().getFullYear(),m:new Date().getMonth()};\r\n",
+ "S063": "const SELF=\"klubi\";\r\n",
+ "S064": "function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}\r\n",
+ "S065": "",
+ "S066": "",
+ "S067": "    if(!q&&st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;\r\n",
+ "S068": "    +((!st.q&&st.tags.size)?\" · \"+t('genre_c')+\" \"+[...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\r\n",
+ "S069": "",
+ "S070": "      <div class=\"loc\"><span class=\"venue\">${esc(e.v)}</span>${e.c===\"mujal\"?\"\":esc(e.c)}<div class=\"lnks\">${lnks}</div></div>\r\n",
+ "S071": "",
+ "S072": "function calBase(){\r\n",
+ "S073": "",
+ "S074": "  const startDow=(first.getDay()+6)%7;\r\n",
+ "S075": "function clearTags(){st.tags=new Set();refresh();}\r\n",
+ "S076": "  chips(\"f-type\",TYPES,\"type\");chips(\"f-city\",CITIES,\"city\");\r\n",
+ "S077": {
+  "f": "snippets/klubi/S077.html"
+ }
+}

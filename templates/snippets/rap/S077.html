@@ -1,0 +1,2 @@
+    `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
+    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");

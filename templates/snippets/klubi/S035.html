@@ -1,0 +1,17 @@
+    var ML_SUBSCRIBE="https://assets.mailerlite.com/jsonp/2500383/forms/192538337521698456/subscribe";
+    var SITE_CAT="klubi";
+    function subscribeNl(ev,f){
+      ev.preventDefault();
+      var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
+      var old=f.querySelector('.ferr');if(old)old.remove();
+      var email=(f.querySelector('input[name=email]')||{}).value||'';
+      var cats=[].slice.call(f.querySelectorAll('input[name=cat]:checked')).map(function(c){return c.value;});
+      if(!cats.length)cats=[SITE_CAT];
+      var ok=function(){f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
+      var fail=function(){if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
+      fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&fields%5Bgrupid%5D='+encodeURIComponent(cats.join(','))+'&ml-submit=1&anticsrf=true'})
+        .then(function(r){if(!r.ok)throw 0;return r.json();})
+        .then(function(resp){if(resp&&resp.success===false){fail();}else{ok();}})
+        .catch(function(){fail();});
+      return false;
+    }

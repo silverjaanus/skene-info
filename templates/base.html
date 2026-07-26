@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{S001}}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SKENE.INFO">
+{{S002}}
+<meta property="og:image" content="https://www.skene.info/icons/cover.png">
+<meta property="og:image:width" content="1640">
+<meta property="og:image:height" content="624">
+<meta name="twitter:card" content="summary_large_image">
+{{S003}}
+<script defer src="/_vercel/insights/script.js"></script>
+<style>
+:root{
+{{S004}}
+  --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.45}
+a{color:inherit}
+header{padding:26px 24px 0;max-width:1280px;margin:0 auto}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;border-bottom:3px solid var(--tint);padding-bottom:14px}
+.brand-wrap{display:flex;flex-direction:column;min-width:0}
+.subnav{display:flex;gap:14px;font-family:var(--mono);font-size:12.5px;margin-top:7px}
+.subnav a{color:var(--hall);text-decoration:none;font-weight:700}
+{{S005}}
+.brand{display:flex;align-items:center;gap:14px;min-width:0}
+#brandLogo{display:block;height:clamp(31.5px,4.97vw,49.7px);width:auto;aspect-ratio:1;flex:none}
+#brandLogo .fr,#brandLogo .pl,#brandLogo .sk,#brandLogo .inf{fill:var(--tint)}
+#brandLogo .bg{fill:none}
+#brandLogo.v2 .pl{fill:#E4322B}
+#brandLogo.v5 .inf{fill:#E4322B}
+#brandLogo.v8 .fr,#brandLogo.v8 .pl{fill:#E4322B}
+#brandLogo.v9 .inf{fill:#9A9A9A}
+#brandLogo.v10 .bg{fill:#111}
+#brandLogo.v10 .fr,#brandLogo.v10 .sk,#brandLogo.v10 .inf{fill:#fff}
+#brandLogo.v10 .pl{fill:#C6F000}
+#brandLogo.v11 .pl{fill:#2E5EAA}
+#brandLogo.v12 .inf{fill:#2E5EAA}
+#brandLogo.v13 .fr,#brandLogo.v13 .sk,#brandLogo.v13 .inf,#brandLogo.v13 .pl{fill:#2E5EAA}
+#brandLogo.v14 .bg{fill:#111}
+#brandLogo.v14 .fr,#brandLogo.v14 .sk{fill:#fff}
+#brandLogo.v14 .inf,#brandLogo.v14 .pl{fill:#2E5EAA}
+#brandLogo.v15 .pl{fill:#6E45A8}
+#brandLogo.v16 .inf{fill:#6E45A8}
+#brandLogo.v17 .fr,#brandLogo.v17 .sk,#brandLogo.v17 .inf,#brandLogo.v17 .pl{fill:#6E45A8}
+#brandLogo.v18 .bg{fill:#111}
+#brandLogo.v18 .fr,#brandLogo.v18 .sk{fill:#fff}
+#brandLogo.v18 .inf,#brandLogo.v18 .pl{fill:#6E45A8}
+h1{font-size:clamp(38px,6vw,60px);line-height:.92;letter-spacing:-2px;text-transform:uppercase;font-weight:700}
+{{S006}}
+.tagline{font-family:var(--mono);font-size:13px;color:var(--hall);max-width:560px;text-align:right}
+.mast-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;max-width:560px}
+.author{font-family:var(--mono);font-size:11px;color:var(--hall);text-align:right}
+{{S007}}
+.topnav{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 18px;padding:10px 0 12px;font-family:var(--mono);font-size:12.5px}
+.topnav .nav-links{display:flex;flex-wrap:wrap;gap:8px 16px}
+.topnav .nav-links a{text-decoration:none;color:var(--tint)}
+{{S008}}
+.topnav .nav-right{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.topnav .navq{min-width:190px;padding:3px 8px;font-size:12px;border-color:var(--joon)}
+.langsw{display:flex;border:1.5px solid var(--joon);flex:none}
+.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hall);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.langsw button.on{background:var(--tint);color:var(--paber)}
+#toTop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border:2px solid var(--tint);background:var(--paber);color:var(--tint);font-size:21px;line-height:1;cursor:pointer;display:none;align-items:center;justify-content:center;z-index:50;box-shadow:2px 2px 0 var(--tint)}
+#toTop:hover{background:var(--tint);color:var(--paber)}
+#toTop.show{display:flex}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px 40px;display:grid;grid-template-columns:190px 1fr;gap:28px;align-items:start}
+aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);overflow-y:auto;scrollbar-width:thin}
+.kuu-t{font-family:var(--mono);font-size:11px;color:var(--hall);text-transform:uppercase;margin-bottom:8px}
+.kuu{display:block;width:100%;text-align:left;font-family:var(--mono);font-size:13px;border:0;border-left:3px solid transparent;background:transparent;color:var(--tint);padding:5px 8px;cursor:pointer}
+.kuu:hover{border-left-color:var(--joon)}
+{{S009}}
+.kuu small{color:var(--hall);float:right}
+.content{padding-top:16px}
+.frow{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:9px;align-items:center}
+.flabel{font-family:var(--mono);font-size:11px;color:var(--hall);min-width:56px;text-transform:uppercase}
+.qin{font-family:var(--mono);font-size:12px;padding:5px 9px;border:1.5px solid var(--hall);background:transparent;color:inherit;min-width:220px}
+.qin:focus{outline:none;border-color:var(--tint)}
+.chip{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:transparent;color:var(--tint);padding:4px 11px;cursor:pointer;border-radius:0}
+.chip:hover,.chip.on{background:var(--tint);color:var(--paber)}
+.count{font-family:var(--mono);font-size:12px;color:var(--hall);padding:12px 0 2px;border-top:1px solid var(--joon);margin-top:10px}
+.row{border-bottom:1px solid var(--joon);padding:15px 2px;display:grid;grid-template-columns:92px 1fr 230px;gap:16px}
+.row:first-of-type{border-top:2.5px solid var(--tint)}
+.row.past{opacity:.55}
+.pv{font-family:var(--mono);font-size:16px;font-weight:700;white-space:nowrap}
+.pv small{display:block;font-weight:400;font-size:11px;color:var(--hall);margin:2px 0 6px}
+.tag{font-family:var(--mono);font-size:10px;color:var(--paber);padding:2px 6px;display:inline-block;text-transform:uppercase;letter-spacing:.4px}
+{{S010}}
+.laebi{font-family:var(--mono);font-size:10px;border:1.5px solid var(--tint);padding:1px 5px;letter-spacing:1px;display:inline-block;margin-top:4px}
+.tit{font-size:18px;font-weight:700}
+.tit a{text-decoration:none;border-bottom:1.5px solid transparent}
+{{S011}}
+.sub{font-size:13.5px;color:var(--hall);margin-top:2px}
+.gtags{margin-top:6px;display:flex;flex-wrap:wrap;gap:5px}
+.gt{font-family:var(--mono);font-size:11px;border:1px solid var(--joon);color:var(--hall);padding:1px 7px;cursor:pointer;background:transparent;border-radius:0}
+.gt:hover,.gt.on{border-color:var(--tint);color:var(--tint)}
+.gt.on{border-width:2px;font-weight:700}
+.lineup{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 18px}
+.bd{display:inline-flex;align-items:center;gap:7px;font-size:14px}
+.bd .ic{display:inline-flex;gap:6px;align-items:center}
+.bd a{display:inline-flex;opacity:.85}
+.bd a:hover{opacity:1}
+.bd svg{width:17px;height:17px;display:block}
+.loc{text-align:right;font-size:13.5px;color:var(--hall)}
+.loc .venue{color:var(--tint);font-weight:700;display:block;font-size:14.5px}
+.lnks{font-family:var(--mono);font-size:11px;margin-top:6px;line-height:1.9}
+.lnks a{text-decoration:none;display:inline-block}
+.lnks .a1{color:var(--hall)} .lnks .a1:hover{color:var(--tint)}
+{{S012}}
+.lnks .a4{color:var(--hall)}
+.lnks .a4:hover{color:var(--tint)}
+.lnks .rep{color:var(--hall);opacity:.75}
+.lnks .rep:hover{color:var(--tint);opacity:1}
+{{S013}}
+.lnks a:hover{text-decoration:underline}
+.lnks .a3:hover{text-decoration:none}
+.cform{display:flex;flex-direction:column;gap:7px;margin-top:8px}
+.cform{display:flex;flex-direction:column;gap:8px}
+.cform label{font-family:var(--mono);font-size:10.5px;color:var(--hall);text-transform:uppercase;letter-spacing:.4px;margin-bottom:-4px}
+{{S014}}
+.cform input,.cform textarea{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:transparent;color:var(--tint);padding:6px 8px;border-radius:0;width:100%}
+.cform input::placeholder,.cform textarea::placeholder{color:var(--hall)}
+.cform textarea{resize:vertical}
+.cform button{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:var(--tint);color:var(--paber);padding:6px 8px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+{{S015}}
+.cform .hint{font-family:var(--mono);font-size:10.5px;color:var(--hall);line-height:1.5}
+.cform .fdone{font-family:var(--mono);font-size:12.5px;color:var(--tint);line-height:1.55;padding:6px 0}
+{{S016}}
+.nlcat-h{font-family:var(--mono);font-size:10.5px;color:var(--hall);text-transform:uppercase;letter-spacing:.4px;margin-top:2px}
+.nlcats{display:flex;flex-direction:column;gap:4px}
+.nlcats label{font-family:var(--mono);font-size:12px;color:var(--tint);display:flex;align-items:center;gap:7px;cursor:pointer}
+.nlcats input{width:auto;margin:0;flex:none}
+{{S017}}
+.footer{border-top:3px solid var(--tint);margin-top:34px;padding:18px 2px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
+.ethos{font-size:12.5px;color:var(--hall);max-width:440px}
+@media(max-width:900px){
+  .wrap{grid-template-columns:1fr;gap:12px}
+  aside{position:static;padding-top:4px;max-height:none;overflow:visible}
+  .topnav{padding-bottom:4px}
+  .cdet summary{font-weight:700;color:var(--tint)}
+  .content{padding-top:2px}
+  .kuud{display:flex;flex-wrap:wrap;gap:4px}
+  .kuu{width:auto;border:1px solid var(--joon);border-left:3px solid transparent}
+  .kuu small{float:none;margin-left:7px}
+  .row{grid-template-columns:80px 1fr}
+  .loc{grid-column:1/3;text-align:left}
+  .tagline{text-align:left}
+  .mast-right{align-items:flex-start}
+  .author{text-align:left}
+}
+{{S018}}
+.cdet summary{cursor:pointer;list-style:none}
+.cdet summary::-webkit-details-marker{display:none}
+.cdet summary::before{content:"▾ "}
+.cdet summary::after{content:" ▾"}
+.cdet[open] summary::before{content:"▴ "}
+.cdet[open] summary::after{content:" ▴"}
+/* filtririba päises: otsingu kõrval "Filtrid" toggle, chipid täislaiuses all */
+.filters{flex-basis:100%;width:100%;margin-top:6px}
+.filters .frow{margin-bottom:7px}
+.ftog{display:none} /* toggle ainult mobiilis; desktopil filtrid alati nähtaval */
+@media(max-width:900px){
+  .ftog{display:inline-flex;align-items:center;font-family:var(--mono);font-size:12px;border:1.5px solid var(--joon);background:transparent;color:var(--hall);padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.4px;flex:none}
+  .ftog::after{content:"▾";margin-left:4px}
+  .ftog[aria-expanded="true"]::after{content:"▴"}
+  .topnav .nav-right{flex-wrap:nowrap}
+  .navq{flex:1;min-width:0}
+  .filters{display:none}
+  .filters.open{display:block}
+}
+{{S019}}
+/* grid-blowout fix: pikk murdmatu sõna (nt üritusenimi) ei tohi veergu laiemaks venitada */
+.wrap>*{min-width:0}
+.row>*{min-width:0}
+.tit{overflow-wrap:anywhere}
+.lnks{overflow-wrap:anywhere}
+/* --- kalendrivaade (mini kuu-ruudustik, alternatiiv kuude loendile) --- */
+.calviewsw{display:flex;gap:4px;margin-bottom:12px}
+.calviewsw button{font-family:var(--mono);font-size:10.5px;border:1.5px solid var(--joon);background:transparent;color:var(--hall);padding:3px 8px;cursor:pointer;text-transform:uppercase;letter-spacing:.4px}
+.calviewsw button:hover{color:var(--tint)}
+.calviewsw button.on{background:var(--tint);color:var(--paber);border-color:var(--tint)}
+.calbox{margin-bottom:6px;max-width:280px}
+.calhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.calhead .cmon{font-size:14px;font-weight:700;text-transform:capitalize}
+.calhead button{background:transparent;border:1.5px solid transparent;cursor:pointer;color:var(--hall);font-size:17px;line-height:1;padding:1px 7px;font-family:var(--mono)}
+.calhead button:hover{color:var(--tint);border-color:var(--joon)}
+.calgrid{display:grid;grid-template-columns:16px repeat(7,1fr);row-gap:1px;font-family:var(--mono)}
+.caldow{font-size:9.5px;color:var(--hall);text-align:center;padding:2px 0;font-weight:700}
+.calwk{font-size:9px;color:var(--joon);text-align:center;align-self:center}
+.calcell{position:relative;aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:11.5px;color:var(--tint)}
+.calcell.out{color:var(--joon);opacity:.45}
+.calcell.ev{cursor:pointer}
+.calcell .dnum{display:flex;align-items:center;justify-content:center;width:23px;height:23px;border-radius:50%;transition:filter .1s}
+{{S020}}
+.calcell.ev:hover .dnum{filter:brightness(1.12)}
+{{S021}}
+.calclear{font-family:var(--mono);font-size:10.5px;color:var(--hall);background:transparent;border:0;cursor:pointer;padding:6px 2px 0;text-decoration:underline}
+.calclear:hover{color:var(--accent)}
+@media(max-width:900px){
+{{S022}}
+  .calbox{max-width:none}
+  .calgrid{column-gap:2px}
+  .calcell{aspect-ratio:auto;height:32px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="masthead">
+{{S023}}
+    <div class="mast-right">
+      <p class="tagline" data-i18n-html="tagline">Üritused, merch ja reliisid ühest kohast. Eesti alternatiiv.</p>
+      <p class="author"><span data-i18n="author_by">Autor:</span> <a href="https://silverjaanus.com" target="_blank" rel="noopener">silverjaanus.com</a></p>
+    </div>
+  </div>
+  <nav class="topnav">
+    <div class="nav-links">
+      <a href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
+      <a href="https://www.facebook.com/profile.php?id=61591366185684" target="_blank" rel="noopener">FACEBOOK ↗</a>
+{{S024}}
+    </div>
+    <div class="nav-right">
+{{S025}}
+      <button type="button" class="ftog" id="ftog" aria-expanded="false" onclick="toggleFilters()" data-i18n="f_filters">Filtrid</button>
+      <div class="langsw" role="group" aria-label="Keel / Language">
+        <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
+        <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+    </div>
+    <div class="filters" id="filters">
+      <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
+      <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
+      <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
+    </div>
+  </nav>
+</header>
+<div class="wrap">
+  <aside>
+    <div class="calviewsw" role="group" aria-label="Kalendrivaade">
+      <button type="button" id="vw-cal" onclick="setCalView('cal')" data-i18n="view_cal">▦ Kalender</button>
+      <button type="button" id="vw-months" onclick="setCalView('months')" data-i18n="view_months">☰ Kuud</button>
+    </div>
+    <div class="calbox" id="cal"></div>
+    <div class="kuud" id="kuud"></div>
+    <details class="cdet" style="margin-top:28px">
+    <summary class="kuu-t" data-i18n="contact_sum">Lisa üritus, reliis või merch</summary>
+    <form class="cform" action="https://api.web3forms.com/submit" method="POST" onsubmit="return sendForm(event,this)">
+      <input type="hidden" name="access_key" value="40a0710b-066a-4434-96b7-7c51fe1e13c4">
+{{S026}}
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+      <label><span data-i18n="f_name">Sinu nimi</span> <span class="req">*</span></label>
+{{S027}}
+      <label data-i18n="f_email">Sinu e-post</label>
+      <input type="email" name="email" data-i18n-ph="ph_email" placeholder="et saaksime vastata (valikuline)">
+      <label><span data-i18n="f_event">Ürituse / reliisi nimi</span> <span class="req">*</span></label>
+{{S028}}
+      <label data-i18n="f_date">Kuupäev ja koht</label>
+{{S029}}
+      <label data-i18n="f_genre">Žanr(id)</label>
+{{S030}}
+      <label><span data-i18n="f_link">Link kontrollimiseks</span> <span class="req">*</span></label>
+      <input type="text" inputmode="url" name="Link" data-i18n-ph="ph_link" placeholder="nt facebook.com/… , pilet või www.koduleht.ee" required>
+      <label data-i18n="f_extra">Lisainfo</label>
+{{S031}}
+      <button type="submit" data-i18n="f_send">Saada</button>
+      <p class="hint" data-i18n-html="f_hint">Kirjuta oma nimi, kontakt ja ürituse info. <b>Kindlasti link</b>, et saaksime üle kontrollida.</p>
+    </form>
+    </details>
+    <details class="cdet nldet" style="margin-top:28px">
+    <summary class="kuu-t" data-i18n="nl_sum">Telli uudiskiri</summary>
+    <form class="cform nlform" onsubmit="return subscribeNl(event,this)">
+      <input type="email" name="email" required data-i18n-ph="nl_ph" placeholder="sinu@email.ee" autocomplete="email">
+      <p class="nlcat-h" data-i18n="nl_cat_h">Mida saata? (kõik ühes kirjas)</p>
+      <div class="nlcats">
+{{S032}}
+      </div>
+      <button type="submit" data-i18n="nl_btn">Telli nädalakiri →</button>
+{{S033}}
+    </form>
+    </details>
+{{S034}}
+    if(matchMedia('(min-width:901px)').matches)document.querySelectorAll('aside .cdet').forEach(function(d){d.open=true;});
+{{S035}}
+    function toggleFilters(){var f=document.getElementById('filters');if(!f)return;var o=f.classList.toggle('open');var b=document.getElementById('ftog');if(b)b.setAttribute('aria-expanded',o?'true':'false');}</script>
+  </aside>
+  <div class="content">
+    <p class="count" id="count"></p>
+    <div id="list"></div>
+{{S036}}
+    <div class="footer">
+      <div style="font-family:var(--mono);font-size:12.5px;display:flex;gap:16px;flex-wrap:wrap">
+{{S037}}
+      </div>
+{{S038}}
+    </div>
+  </div>
+</div>
+<button id="toTop" type="button" data-i18n-title="totop" title="Üles" aria-label="Üles" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<script>
+const _d=new Date(), TODAY=_d.getFullYear()+"-"+String(_d.getMonth()+1).padStart(2,"0")+"-"+String(_d.getDate()).padStart(2,"0");
+let E = [];
+{{S039}}
+const I18N={
+ et:{
+{{S040}}
+  tagline:"Üritused, merch ja reliisid ühest kohast. Eesti alternatiiv.",
+  author_by:"Autor:", nav_updates:"UUENDUSED", nav_sources:"ALLIKAD",
+{{S041}}
+  view_cal:"▦ Kalender", view_months:"☰ Kuud", cal_clear:"× tühista päevavalik",
+{{S042}}
+  f_email:"Sinu e-post", ph_email:"et saaksime vastata (valikuline)",
+{{S043}}
+  f_link:"Link kontrollimiseks", ph_link:"nt facebook.com/… , pilet või www.koduleht.ee",
+{{S044}}
+  f_sent:"Aitäh! Sisend on saadetud — vaatan selle üle ja lisan, kui sobib.", f_senderr:"Saatmine ebaõnnestus. Proovi hetke pärast uuesti.",
+  f_hint:"Kirjuta oma nimi, kontakt ja ürituse info. <b>Kindlasti link</b>, et saaksime üle kontrollida.",
+{{S045}}
+  nl_done:"Aitäh! Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui olid juba tellija, siis uut kirja ei tule.",
+  nl_err:"Registreerimine ebaõnnestus. Proovi hetke pärast uuesti.",
+{{S046}}
+  totop:"Üles",
+  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch", t_muu:"muu",
+{{S047}}
+  entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
+  tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
+  lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
+  organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
+  report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
+{{S048}}
+  cal_google:"+ GOOGLE KALENDER", cal_apple:"+ APPLE/ICS",
+  on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
+  months:["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"]
+ },
+ en:{
+{{S049}}
+  tagline:"Events, merch and releases in one place. Estonian alternative scene.",
+  author_by:"By:", nav_updates:"UPDATES", nav_sources:"SOURCES",
+{{S050}}
+  view_cal:"▦ Calendar", view_months:"☰ Months", cal_clear:"× clear day",
+{{S051}}
+  f_email:"Your e-mail", ph_email:"so we can reply (optional)",
+{{S052}}
+  f_link:"Link to verify", ph_link:"e.g. facebook.com/… , ticket or www.site.ee",
+{{S053}}
+  f_sent:"Thanks! Your submission was sent — I'll review it and add it if it fits.", f_senderr:"Sending failed. Please try again in a moment.",
+  f_hint:"Write your name, contact and the event info. <b>Be sure to include a link</b> so we can verify it.",
+{{S054}}
+  nl_done:"Thanks! We've sent you a confirmation email — click the link in it to complete your subscription. If you were already subscribed, no new email will be sent.",
+  nl_err:"Subscription failed. Please try again in a moment.",
+{{S055}}
+  totop:"Top",
+  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch", t_muu:"other",
+{{S056}}
+  entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
+  tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
+  lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
+  organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
+  report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
+{{S057}}
+  cal_google:"+ GOOGLE CALENDAR", cal_apple:"+ APPLE/ICS",
+  on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
+  months:["January","February","March","April","May","June","July","August","September","October","November","December"]
+ }
+};
+let LANG=(function(){try{return localStorage.getItem('skene_lang')||'et';}catch(e){return 'et';}})();
+function t(k){var d=I18N[LANG]||I18N.et;if(d[k]!==undefined)return d[k];if(I18N.et[k]!==undefined)return I18N.et[k];return k;}
+function monthName(mm){return (I18N[LANG]||I18N.et).months[parseInt(mm,10)-1];}
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(function(el){el.textContent=t(el.getAttribute('data-i18n'));});
+  document.querySelectorAll('[data-i18n-html]').forEach(function(el){el.innerHTML=t(el.getAttribute('data-i18n-html'));});
+  document.querySelectorAll('[data-i18n-ph]').forEach(function(el){el.setAttribute('placeholder',t(el.getAttribute('data-i18n-ph')));});
+  document.querySelectorAll('[data-i18n-title]').forEach(function(el){var v=t(el.getAttribute('data-i18n-title'));el.setAttribute('title',v);el.setAttribute('aria-label',v);});
+  document.title=t('title');
+  document.documentElement.setAttribute('lang',LANG);
+  document.querySelectorAll('.langsw button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===LANG);});
+}
+function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();refresh();}
+function fixLink(f){try{var el=f.querySelector('[name="Link"]');if(el&&el.value.trim()&&!/^https?:\/\//i.test(el.value.trim())){el.value='https://'+el.value.trim();}}catch(e){}return true;}
+function showFerr(f,msg){var e=f.querySelector('.ferr');if(!e){e=document.createElement('p');e.className='ferr';f.appendChild(e);}e.textContent=msg;}
+function postJson(url,data){return fetch(url,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(function(r){return r.json();});}
+{{S058}}
+var FS_FALLBACK="https://formsubmit.co/ajax/59ae763970bb7bdcb747578c067afe36";
+function sendForm(ev,f){
+  ev.preventDefault();fixLink(f);
+  var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
+  var old=f.querySelector('.ferr');if(old)old.remove();
+  var data=new FormData(f);
+  var ok=function(){f.innerHTML='<p class="fdone">'+t('f_sent')+'</p>';};
+  var fail=function(){if(btn)btn.disabled=false;showFerr(f,t('f_senderr'));};
+  postJson('https://api.web3forms.com/submit',data)
+    .then(function(j){if(j&&j.success){ok();}else{throw 0;}})
+    .catch(function(){
+      postJson(FS_FALLBACK,data)
+        .then(function(j){if(j&&(j.success===true||j.success==='true')){ok();}else{fail();}})
+        .catch(fail);
+    });
+  return false;
+}
+{{S059}}
+const E_FALLBACK = [
+{{S060}}
+];
+const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"],["t_muu","muu"]];
+{{S061}}
+let calView=(function(){try{return localStorage.getItem('skene_calview')||'cal';}catch(e){return 'cal';}})();
+{{S062}}
+// Domeeniülene otsing: SELF = see sait; ALLX = kõigi 3 saidi koondkirjed (api/events.json).
+{{S063}}
+const SITE_LBL={www:"METAL",rap:"RÄPP",klubi:"KLUBI"};
+const SITE_URL={www:"https://www.skene.info/",rap:"https://rap.skene.info/",klubi:"https://klubi.skene.info/"};
+const SITE_BG={www:"#93392C",rap:"#2E5EAA",klubi:"#6E45A8"};
+let ALLX=[];
+{{S064}}
+function enc(x){return encodeURIComponent(x);}
+const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+const surl=u=>/^https?:\/\//i.test(String(u??""))?esc(u):"";
+const IC={
+ sp:'<svg viewBox="0 0 24 24" aria-label="Spotify"><circle cx="12" cy="12" r="11" fill="#1DB954"/><path d="M6.5 9.6c3.6-1.1 7.6-.7 10.6 1" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M7 12.6c3-.9 6.3-.5 8.8.9" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M7.5 15.4c2.4-.7 5-.4 7 .7" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg>',
+ ym:'<svg viewBox="0 0 24 24" aria-label="YouTube Music"><circle cx="12" cy="12" r="11" fill="#FF0000"/><circle cx="12" cy="12" r="6.5" stroke="#fff" stroke-width="1.4" fill="none"/><path d="M10.3 9.5l5 2.5-5 2.5z" fill="#fff"/></svg>',
+ yt:'<svg viewBox="0 0 24 24" aria-label="YouTube"><rect x="1.5" y="5" width="21" height="14" rx="3.5" fill="#FF0000"/><path d="M10 9l5.5 3L10 15z" fill="#fff"/></svg>',
+ bc:'<svg viewBox="0 0 24 24" aria-label="Bandcamp"><circle cx="12" cy="12" r="11" fill="#629AA9"/><path d="M6.4 15.4l4.4-6.8h6.8l-4.4 6.8z" fill="#fff"/></svg>'
+};
+let BANDS={};
+function bandIco(u,ic,tk,b){return `<a href="${surl(u)}" target="_blank" rel="noopener" title="${esc(b)} ${t(tk)}">${ic}</a> `;}
+function band(b){
+ const v=BANDS[b];let ics="";
+ if(v){
+  if(v.sp)ics+=bandIco(v.sp,IC.sp,'on_spotify',b);
+  if(v.ym)ics+=bandIco(v.ym,IC.ym,'on_ytm',b);
+  if(v.yt)ics+=bandIco(typeof v.yt==="string"?v.yt:"https://www.youtube.com/results?search_query="+enc(b),IC.yt,'on_yt',b);
+  if(v.bc)ics+=bandIco(v.bc,IC.bc,'on_bc',b);
+ }else{
+  ics=bandIco("https://open.spotify.com/search/"+enc(b),IC.sp,'on_spotify',b)
+   +bandIco("https://music.youtube.com/search?q="+enc(b),IC.ym,'on_ytm',b)
+   +bandIco("https://www.youtube.com/results?search_query="+enc(b),IC.yt,'on_yt',b);
+ }
+ return `<span class="bd"><span>${esc(b)}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
+}
+function pad2(n){return String(n).padStart(2,"0");}
+function dOnly(str){return new Date(str+"T00:00");}
+function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
+function ymd(d){return d.getFullYear()+pad2(d.getMonth()+1)+pad2(d.getDate());}
+function endDate(e){
+  const start=dOnly(e.d);
+  if(e.d2){
+    const p=e.d2.split(".");
+    let end=new Date(start.getFullYear(),parseInt(p[1],10)-1,parseInt(p[0],10));
+    if(end<start)end.setFullYear(end.getFullYear()+1);
+    return addDays(end,1);
+  }
+  return addDays(start,1);
+{{S065}}
+}
+function calLinks(e){
+  if(e.rel||e.tba)return "";
+  const isFb=(u)=>u&&u.indexOf("facebook.com")!==-1;
+  if(isFb(e.su)||isFb(e.ou))return "";
+  const start=dOnly(e.d),end=endDate(e);
+  const loc=(e.v||"")+(e.linn?", "+e.linn:"");
+  const gurl="https://www.google.com/calendar/render?action=TEMPLATE&text="+enc(e.n)
+    +"&dates="+ymd(start)+"/"+ymd(end)+"&location="+enc(loc)+"&details="+enc("Allikas: "+(e.su||""));
+  const icsEsc=s=>String(s??"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");
+  const uid=(String(e.n).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"event")+"-"+e.d+"@skene.info";
+  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//skene.info//ET\nBEGIN:VEVENT\nUID:"+uid+"\nSUMMARY:"+icsEsc(e.n)
+    +"\nDTSTART;VALUE=DATE:"+ymd(start)+"\nDTEND;VALUE=DATE:"+ymd(end)
+    +"\nLOCATION:"+icsEsc(loc)+"\nDESCRIPTION:"+icsEsc(e.su||"")+"\nEND:VEVENT\nEND:VCALENDAR";
+  const icsUri="data:text/calendar;charset=utf-8,"+enc(ics);
+  return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">${t('cal_google')}</a> <a class="a4" href="${icsUri}" download="skene-event.ics">${t('cal_apple')}</a>`;
+}
+function featured(e){
+  if(!e.rel||!e.lisatud)return false;
+  const diff=(dOnly(TODAY)-dOnly(e.lisatud))/86400000;
+  return diff>=0&&diff<=30;
+}
+function fmt(e){
+  if(featured(e))return t('lbl_new');
+  if(e.tba)return t('lbl_tba');
+  const dt=new Date(e.d+"T00:00");
+  let s=String(dt.getDate()).padStart(2,"0")+"."+String(dt.getMonth()+1).padStart(2,"0");
+  if(e.d2)s+="–<br>"+esc(e.d2);
+  return s;
+}
+function norm(s){return (s||"").toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+function matchQ(e){
+  if(!st.q)return true;
+  const hay=norm([e.n,e.a,e.v,e.linn,e.c,(e.b||[]).join(" "),(e.g||[]).join(" ")].join(" | "));
+  return st.q.split(/\s+/).every(w=>hay.includes(w));
+}
+function setQ(v){st.q=norm(v.trim());render();}
+let RROWS=[];
+function suggestEdit(i){
+  const e=RROWS[i];if(!e)return false;
+  const det=document.querySelector('.cdet');if(!det)return false;
+  det.open=true;
+  const f=det.querySelector('form');
+  if(!f||!f.querySelector('[name="Uritus / reliis"]')||!f.querySelector('[name="Kuupaev ja koht"]')||!f.querySelector('[name="Link"]')||!f.querySelector('[name="Lisainfo"]')){det.scrollIntoView({behavior:'smooth',block:'start'});return false;}
+  f.querySelector('[name="Uritus / reliis"]').value=e.n;
+  f.querySelector('[name="Kuupaev ja koht"]').value=e.d+(e.d2?"–"+e.d2:"")+(e.v?", "+e.v:"")+(e.linn?", "+e.linn:(e.c&&e.c!=="mujal"?", "+e.c:""));
+  f.querySelector('[name="Link"]').value=e.ou||e.su||"";
+  const li=f.querySelector('[name="Lisainfo"]');
+  li.value=t('report_prefix');
+  det.scrollIntoView({behavior:'smooth',block:'start'});
+  setTimeout(function(){li.focus();li.setSelectionRange(li.value.length,li.value.length);},450);
+  return false;
+}
+function render(){
+  const q=st.q;
+  // Otsingul (q täidetud) segavaade kõigist 3 domeenist (ALLX); muidu ainult see sait (E).
+{{S066}}
+  const base=q?(ALLX.length?ALLX:E):E;
+  let rows=base.filter(e=>{
+    if(!matchQ(e))return false;
+    if(st.type&&e.t!==st.type)return false;
+{{S067}}
+    if(st.city&&e.c!==st.city)return false;
+    if(st.kuu&&!e.d.startsWith(st.kuu))return false;
+    if(st.day&&!covers(e,st.day))return false;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    if(!st.past&&past)return false;
+    return true;
+  }).sort((a,b)=>{
+    const fa=featured(a),fb=featured(b);
+    if(fa!==fb)return fa?-1:1;
+    if(fa&&fb)return (b.lisatud||"").localeCompare(a.lisatud||"");
+    return a.d.localeCompare(b.d);
+  });
+  document.getElementById("count").textContent=rows.length+" "+t('entries')
+    +(st.day?" · "+st.day.slice(8,10)+"."+st.day.slice(5,7)+"."+st.day.slice(0,4):"")
+    +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
+{{S068}}
+  RROWS=rows;
+  document.getElementById("list").innerHTML=rows.map((e,i)=>{
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
+    const sameSrc=e.ou&&(e.ou===e.su);
+    let lnks="";
+    if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_||e.sn)} ↗</a>`;}
+    else{
+      lnks=`<a class="a1" href="${surl(e.su)}" target="_blank" rel="noopener">${t('source')} ${esc(e.sn)} ↗</a>`;
+      if(e.ou)lnks+=`<br><a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_)} ↗</a>`;
+    }
+    if(e.pu)lnks+=`<br><a class="a3" href="${surl(e.pu)}" target="_blank" rel="noopener">${t('tickets')}</a>`;
+    if(e.yu)lnks+=`<br><a class="a2" href="${surl(e.yu)}" target="_blank" rel="noopener">YouTube ↗</a>`;
+{{S069}}
+    const cal=calLinks(e);
+    if(cal)lnks+=`<br>${cal}`;
+    lnks+=`<br><a class="rep" href="#" onclick="return suggestEdit(${i})">${t('report_err')}</a>`;
+    return `<div class="row${past?" past":""}">
+      <div class="pv">${fmt(e)}<small>${esc(e.d.slice(0,4))}</small><span class="tag ${tc}">${t('tag_'+e.t)}</span>${st.q?`<br><a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${past?'<br><span class="laebi">'+t('lbl_past')+'</span>':""}</div>
+      <div>
+        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
+        ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
+        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
+        ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
+      </div>
+{{S070}}
+    </div>`;
+  }).join("");
+}
+function chips(el,items,key){
+  document.getElementById(el).innerHTML=items.map(([lbl,val])=>
+    `<button class="chip${st[key]===val?" on":""}" onclick="setF('${key}',${val===null?"null":`'${val}'`})">${t(lbl)}</button>`).join(" ");
+{{S071}}
+}
+function kuud(){
+  const m={};
+  const vis=E.filter(e=>{
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    return st.past||!past;
+  });
+  vis.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
+  const ks=Object.keys(m).sort().filter(k=>k>=TODAY.slice(0,7));
+  document.getElementById("kuud").innerHTML=
+    `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">${t('all_months')} <small>${vis.length}</small></button>`+
+    ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" data-k="${esc(k)}" onclick="setF('kuu',this.dataset.k)">${monthName(k.slice(5))} ${esc(k.slice(0,4))} <small>${m[k]}</small></button>`).join("");
+}
+// --- KALENDRIVAADE ---
+function covers(e,isoStr){const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);}
+{{S072}}
+  return E.filter(e=>{
+    if(!matchQ(e))return false;
+    if(st.type&&e.t!==st.type)return false;
+{{S073}}
+    if(st.tags.size&&![...st.tags].every(g=>(e.g||[]).includes(g)))return false;
+    if(st.city&&e.c!==st.city)return false;
+    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    if(!st.past&&past)return false;
+    return true;
+  });
+}
+function isoWeek(d){
+  const dt=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate()));
+  const day=(dt.getUTCDay()+6)%7;dt.setUTCDate(dt.getUTCDate()-day+3);
+  const firstThu=new Date(Date.UTC(dt.getUTCFullYear(),0,4));
+  const fday=(firstThu.getUTCDay()+6)%7;firstThu.setUTCDate(firstThu.getUTCDate()-fday+3);
+  return 1+Math.round((dt-firstThu)/(7*86400000));
+}
+function renderCal(){
+  const box=document.getElementById('cal');if(!box)return;
+  const y=calYM.y,m=calYM.m;
+  const first=new Date(y,m,1);
+{{S074}}
+  const gridStart=new Date(y,m,1-startDow);
+  const daysInMonth=new Date(y,m+1,0).getDate();
+  const lastDow=(new Date(y,m,daysInMonth).getDay()+6)%7;
+  const totalCells=startDow+daysInMonth+(6-lastDow);
+  const base=calBase();
+  const dows=(I18N[LANG]||I18N.et).dow;
+  let html='<div class="calhead"><button type="button" aria-label="eelmine kuu" onclick="calNav(-1)">‹</button>'
+    +'<span class="cmon">'+monthName(pad2(m+1))+' '+y+'</span>'
+    +'<button type="button" aria-label="järgmine kuu" onclick="calNav(1)">›</button></div>';
+  html+='<div class="calgrid"><span class="calwk"></span>';
+  for(let i=0;i<7;i++)html+='<span class="caldow">'+dows[i]+'</span>';
+  let cur=new Date(gridStart);
+  for(let c=0;c<totalCells;c++){
+    if(c%7===0)html+='<span class="calwk">'+isoWeek(cur)+'</span>';
+    const cm=cur.getMonth(),cd=cur.getDate();
+    const isoStr=cur.getFullYear()+'-'+pad2(cm+1)+'-'+pad2(cd);
+    const out=(cm!==m);
+    const isToday=(isoStr===TODAY);
+    const hasEv=(isoStr>=TODAY)&&base.some(e=>covers(e,isoStr));
+    const sel=(st.day===isoStr);
+    const cls='calcell'+(out?' out':'')+(isToday?' today':'')+(hasEv?' ev':'')+(sel?' sel':'');
+    const click=hasEv?" onclick=\"pickDay('"+isoStr+"')\"":"";
+    html+='<span class="'+cls+'"'+click+'><span class="dnum">'+cd+'</span></span>';
+    cur=addDays(cur,1);
+  }
+  html+='</div>';
+  if(st.day)html+='<button type="button" class="calclear" onclick="pickDay(\''+st.day+'\')">'+t('cal_clear')+'</button>';
+  box.innerHTML=html;
+}
+function calNav(delta){let m=calYM.m+delta,y=calYM.y;if(m<0){m=11;y--;}if(m>11){m=0;y++;}calYM={y:y,m:m};renderCal();}
+function pickDay(isoStr){st.day=(st.day===isoStr)?null:isoStr;if(st.day)st.kuu=null;refresh();}
+function applyCalView(){
+  const c=document.getElementById('cal'),k=document.getElementById('kuud');
+  if(c)c.style.display=(calView==='cal')?'':'none';
+  if(k)k.style.display=(calView==='months')?'':'none';
+  const a=document.getElementById('vw-cal'),b=document.getElementById('vw-months');
+  if(a)a.classList.toggle('on',calView==='cal');
+  if(b)b.classList.toggle('on',calView==='months');
+}
+function setCalView(v){calView=v;try{localStorage.setItem('skene_calview',v);}catch(e){}if(v==='months')st.day=null;applyCalView();refresh();}
+function setF(k,v){st[k]=v;if(k==='kuu')st.day=null;refresh();}
+function setTag(g){
+  if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);
+  refresh();
+}
+{{S075}}
+function refresh(){
+{{S076}}
+  document.getElementById("f-tag").innerHTML=
+{{S077}}
+  kuud();renderCal();render();
+}
+applyI18n();applyCalView();E=E_FALLBACK;refresh();
+fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;refresh();}).catch(()=>{});
+fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
+fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];if(st.q)render();}).catch(()=>{});
+(function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
+</script>
+</body>
+</html>

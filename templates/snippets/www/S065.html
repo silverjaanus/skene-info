@@ -1,0 +1,6 @@
+}
+function priceLine(e){
+  if(!e.hind)return "";
+  const h=e.hind;
+  if(h.kuni&&h.jargmine)return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b> ${t('price_until')} ${esc(h.kuni)}, ${t('price_after')} <b>${esc(h.jargmine)}</b></span>`;
+  return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b>${h.mark?" — "+esc(h.mark):""}</span>`;

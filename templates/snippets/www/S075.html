@@ -1,0 +1,5 @@
+function setMeta(m){
+  if(st.metas.has(m))st.metas.delete(m);else st.metas.add(m);
+  refresh();
+}
+function clearTags(){st.metas=new Set();st.tags=new Set();refresh();}
