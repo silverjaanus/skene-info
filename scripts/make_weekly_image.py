@@ -116,7 +116,11 @@ def this_and_next_week(ref):
     return ref, end
 
 def in_window(e, ws, we):
-    s, en = event_span(e)
+    try:
+        s, en = event_span(e)
+    except (KeyError, ValueError, TypeError):
+        print(f"HOIATUS: kirje vigase/puuduva kuupaevaga jaeti aknast valja: {e.get('n','?')} (d={e.get('d','?')!r})")
+        return False
     return s <= we and en >= ws
 
 def wrap(draw, text, font, maxw, max_lines):
@@ -347,7 +351,7 @@ def main():
         _load(os.path.join(rp, "data", "data.json"), "metal", sel)
         _load(os.path.join(rp, "rap", "data", "data.json"), "rap", sel)
         _load(os.path.join(rp, "klubi", "data", "data.json"), "klubi", sel)
-    sel.sort(key=lambda e: (e["d"], CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
+    sel.sort(key=lambda e: (e.get("d", ""), CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
 
     out = args.out or os.path.join(root, "postitused", f"nadal-{ws.isoformat()}.jpg")
     os.makedirs(os.path.dirname(out), exist_ok=True)

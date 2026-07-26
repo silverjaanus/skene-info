@@ -98,7 +98,11 @@ def this_and_next_week(ref):
     return ref, ref+dt.timedelta(days=(13-wd))
 
 def in_window(e,ws,we):
-    s,en=event_span(e)
+    try:
+        s,en=event_span(e)
+    except (KeyError, ValueError, TypeError):
+        print(f"HOIATUS: kirje vigase/puuduva kuupaevaga jaeti aknast valja: {e.get('n','?')} (d={e.get('d','?')!r})")
+        return False
     return s<=we and en>=ws
 
 def esc(s): return html.escape(s or "")
@@ -307,7 +311,7 @@ def load_sources(repo, ws, we):
 
 def gen_combo(all_ev, cats, ws, we, base):
     sel=[e for e in all_ev if e.get("_cat") in cats]
-    sel.sort(key=lambda e:(e["d"], CAT_ORDER.index(e.get("_cat","metal")), e.get("t","")))
+    sel.sort(key=lambda e:(e.get("d",""), CAT_ORDER.index(e.get("_cat","metal")), e.get("t","")))
     tag="+".join(cats)
     outs={}
     for lang in ("et","en"):

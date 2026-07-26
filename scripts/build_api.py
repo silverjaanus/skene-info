@@ -79,6 +79,7 @@ def _entries(path):
     try:
         j = json.loads(path.read_text(encoding="utf-8"))
     except Exception:
+        print(f"HOIATUS: {path} ei parsinud, kasutan tühja")
         return []
     if isinstance(j, dict):
         return j.get("entries", [])

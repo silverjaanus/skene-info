@@ -18,7 +18,7 @@ Kasutus:
       [--token-file mailerlite_token.txt] [--secret-file mailerlite_pref_token.txt]
       [--dry-run] [--init-secret] [--skip-tokens]
 """
-import argparse, hashlib, hmac, json, os, secrets, urllib.request, urllib.error
+import argparse, hashlib, hmac, json, os, secrets, time, urllib.request, urllib.error
 
 API = "https://connect.mailerlite.com/api"
 
@@ -35,6 +35,9 @@ def req(method, path, token, body=None):
             return resp.status, (json.loads(t) if t else {})
     except urllib.error.HTTPError as e:
         return e.code, {"error": e.read().decode()}
+    except urllib.error.URLError as e:
+        print("VORGUVIGA %s %s: %s" % (method, path, e.reason))
+        return 599, {"error": str(e.reason)}
 
 def list_active(token):
     subs, cursor = [], None
@@ -125,7 +128,6 @@ def main():
         if gid:
             # signup LISAB ainult kategooriaid (eemaldamine kaib /eelistused.html-il)
             desired = [c.strip() for c in str(gid).split(",") if c.strip() in cats]
-            upd["grupid"] = ""
         if fkey and secret:
             want = tok_for(secret, email)
             if (fields.get(fkey) or "") != want:
@@ -136,10 +138,23 @@ def main():
               % (email, gid or "", desired or "-", sorted(upd.keys())))
         if a.dry_run:
             changed += 1; continue
+        ok = True
         for c in desired:
-            req("POST", "/subscribers/%s/groups/%s" % (sid, groups[c]), token)
+            st, body = req("POST", "/subscribers/%s/groups/%s" % (sid, groups[c]), token)
+            if st >= 300:
+                ok = False
+                print("HOIATUS: %s grupi '%s' lisamine ebaonnestus (%s): %s" % (email, c, st, body))
+            time.sleep(0.6)
+        if desired:
+            if ok:
+                upd["grupid"] = ""
+            else:
+                print("HOIATUS: %s 'grupid' valja EI tuhjendata (jargmine sync proovib uuesti)" % email)
         if upd:
-            req("POST", "/subscribers", token, {"email": email, "fields": upd})
+            st, body = req("POST", "/subscribers", token, {"email": email, "fields": upd})
+            if st >= 300:
+                print("HOIATUS: %s valjade uuendamine ebaonnestus (%s): %s" % (email, st, body))
+            time.sleep(0.6)
         changed += 1
     print("Synced %d subscriber(s)." % changed)
 

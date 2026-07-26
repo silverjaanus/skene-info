@@ -183,9 +183,16 @@ SOURCES = [("metalstorm", src_metalstorm), ("krypt", src_krypt),
 def main():
     manual = json.loads((ROOT / "data" / "manual.json").read_text(encoding="utf-8"))
     blockfile = ROOT / "data" / "blocklist.json"
-    blockraw = json.loads(blockfile.read_text(encoding="utf-8")) if blockfile.exists() else []
-    block = {(b["d"], slug(b["n"])) for b in blockraw if "d" in b}
-    block_names = {slug(b["n"]) for b in blockraw if "d" not in b}  # daatumita = blokeeri nimi igal kuupaeval
+    if blockfile.exists():
+        blockraw = json.loads(blockfile.read_text(encoding="utf-8"))
+    else:
+        print(f"HOIATUS: blocklist.json puudub ({blockfile})")
+        blockraw = []
+    for b in blockraw:
+        if "n" not in b:
+            print(f"HOIATUS: blocklist.json kirje ilma n-ita: {b}")
+    block = {(b["d"], slug(b["n"])) for b in blockraw if "d" in b and "n" in b}
+    block_names = {slug(b["n"]) for b in blockraw if "d" not in b and "n" in b}  # daatumita = blokeeri nimi igal kuupaeval
     auto, log = [], []
     for name, fn in SOURCES:
         try:
@@ -199,8 +206,23 @@ def main():
     def key_bands(e):
         return {slug(b) for b in e.get("b", []) if b}
 
+    # blocklist kehtib ka manual.json-ile (nt kui kureeritud kirje osutub valeks/duplikaadiks)
+    manual_ok = []
+    for e in manual:
+        d, n = e.get("d", ""), e.get("n", "")
+        if (d, slug(n)) in block or slug(n) in block_names:
+            print(f"HOIATUS: manual.json kirje blokitud: {d} {n}")
+            continue
+        manual_ok.append(e)
+    manual = manual_ok
+
     merged = list(manual)
-    known = [(e["d"], slug(e["n"]), key_bands(e), slug(e.get("v","") or "")) for e in manual]
+    known = []
+    for e in manual:
+        if "d" not in e or "n" not in e:
+            print(f"HOIATUS: manual.json kirje ilma d/n-ita: {e}")
+            continue
+        known.append((e["d"], slug(e["n"]), key_bands(e), slug(e.get("v","") or "")))
     seen_auto = set()
     for e in auto:
         if e["d"] < TODAY:

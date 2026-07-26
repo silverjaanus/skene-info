@@ -546,6 +546,8 @@ const SITE_URL={www:"https://www.skene.info/",rap:"https://rap.skene.info/",klub
 const SITE_BG={www:"#93392C",rap:"#2E5EAA",klubi:"#6E45A8"};
 let ALLX=[];
 function enc(x){return encodeURIComponent(x);}
+const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+const surl=u=>/^https?:\/\//i.test(String(u??""))?esc(u):"";
 const IC={
  sp:'<svg viewBox="0 0 24 24" aria-label="Spotify"><circle cx="12" cy="12" r="11" fill="#1DB954"/><path d="M6.5 9.6c3.6-1.1 7.6-.7 10.6 1" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M7 12.6c3-.9 6.3-.5 8.8.9" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M7.5 15.4c2.4-.7 5-.4 7 .7" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg>',
  ym:'<svg viewBox="0 0 24 24" aria-label="YouTube Music"><circle cx="12" cy="12" r="11" fill="#FF0000"/><circle cx="12" cy="12" r="6.5" stroke="#fff" stroke-width="1.4" fill="none"/><path d="M10.3 9.5l5 2.5-5 2.5z" fill="#fff"/></svg>',
@@ -553,7 +555,7 @@ const IC={
  bc:'<svg viewBox="0 0 24 24" aria-label="Bandcamp"><circle cx="12" cy="12" r="11" fill="#629AA9"/><path d="M6.4 15.4l4.4-6.8h6.8l-4.4 6.8z" fill="#fff"/></svg>'
 };
 let BANDS={};
-function bandIco(u,ic,tk,b){return `<a href="${u}" target="_blank" rel="noopener" title="${b} ${t(tk)}">${ic}</a> `;}
+function bandIco(u,ic,tk,b){return `<a href="${surl(u)}" target="_blank" rel="noopener" title="${esc(b)} ${t(tk)}">${ic}</a> `;}
 function band(b){
  const v=BANDS[b];let ics="";
  if(v){
@@ -566,7 +568,7 @@ function band(b){
    +bandIco("https://music.youtube.com/search?q="+enc(b),IC.ym,'on_ytm',b)
    +bandIco("https://www.youtube.com/results?search_query="+enc(b),IC.yt,'on_yt',b);
  }
- return `<span class="bd"><span>${b}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
+ return `<span class="bd"><span>${esc(b)}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
 }
 function pad2(n){return String(n).padStart(2,"0");}
 function dOnly(str){return new Date(str+"T00:00");}
@@ -585,8 +587,8 @@ function endDate(e){
 function priceLine(e){
   if(!e.hind)return "";
   const h=e.hind;
-  if(h.kuni&&h.jargmine)return `<span class="price">${t('price')} <b>${h.praegu}</b> ${t('price_until')} ${h.kuni}, ${t('price_after')} <b>${h.jargmine}</b></span>`;
-  return `<span class="price">${t('price')} <b>${h.praegu}</b>${h.mark?" — "+h.mark:""}</span>`;
+  if(h.kuni&&h.jargmine)return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b> ${t('price_until')} ${esc(h.kuni)}, ${t('price_after')} <b>${esc(h.jargmine)}</b></span>`;
+  return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b>${h.mark?" — "+esc(h.mark):""}</span>`;
 }
 function calLinks(e){
   if(e.rel||e.tba)return "";
@@ -612,7 +614,7 @@ function fmt(e){
   if(e.tba)return t('lbl_tba');
   const dt=new Date(e.d+"T00:00");
   let s=String(dt.getDate()).padStart(2,"0")+"."+String(dt.getMonth()+1).padStart(2,"0");
-  if(e.d2)s+="–<br>"+e.d2;
+  if(e.d2)s+="–<br>"+esc(e.d2);
   return s;
 }
 function norm(s){return (s||"").toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
@@ -671,13 +673,13 @@ function render(){
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
-    if(sameSrc){lnks=`<a class="a2" href="${e.ou}" target="_blank" rel="noopener">${t('organizer')} ${e.on_||e.sn} ↗</a>`;}
+    if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_||e.sn)} ↗</a>`;}
     else{
-      lnks=`<a class="a1" href="${e.su}" target="_blank" rel="noopener">${t('source')} ${e.sn} ↗</a>`;
-      if(e.ou)lnks+=`<br><a class="a2" href="${e.ou}" target="_blank" rel="noopener">${t('organizer')} ${e.on_} ↗</a>`;
+      lnks=`<a class="a1" href="${surl(e.su)}" target="_blank" rel="noopener">${t('source')} ${esc(e.sn)} ↗</a>`;
+      if(e.ou)lnks+=`<br><a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_)} ↗</a>`;
     }
-    if(e.pu)lnks+=`<br><a class="a3" href="${e.pu}" target="_blank" rel="noopener">${t('tickets')}</a>`;
-    if(e.yu)lnks+=`<br><a class="a2" href="${e.yu}" target="_blank" rel="noopener">YouTube ↗</a>`;
+    if(e.pu)lnks+=`<br><a class="a3" href="${surl(e.pu)}" target="_blank" rel="noopener">${t('tickets')}</a>`;
+    if(e.yu)lnks+=`<br><a class="a2" href="${surl(e.yu)}" target="_blank" rel="noopener">YouTube ↗</a>`;
     if(e.hind)lnks+=`<br>${priceLine(e)}`;
     const cal=calLinks(e);
     if(cal)lnks+=`<br>${cal}`;

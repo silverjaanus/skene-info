@@ -6,7 +6,9 @@ Iga tellija pannakse tapselt UHTE 'send:<kombo>:<keel>' ambrisse tema kategooria
 gruppide (metal/rap/klubi) + keele jargi; iga ambri kohta luuakse UKS kampaania
 -> iga tellija saab TAPSELT UHE meili, mis sisaldab AINULT tema kategooriaid.
 
-Enne saatmist jookseb ml_sync_groups (grupid signup-valjast). --send ainult Silveri kasul.
+NB: see skript EI kaivita ml_sync_groups.py automaatselt - kaivita see KASITSI
+enne saatmist (grupid signup-valjast), muidu ei jou uute tellijate grupid
+ambritesse. --send ainult Silveri kasul.
 
 Kasutus:
   python scripts/send_weekly.py --repo . --dry-run    # naita ambrid + kirjed, ARA saada
@@ -31,6 +33,9 @@ def req(method, path, token, body=None):
             return resp.status, (json.loads(t) if t else {})
     except urllib.error.HTTPError as e:
         return e.code, {"error": e.read().decode()}
+    except urllib.error.URLError as e:
+        print("VORGUVIGA %s %s: %s" % (method, path, e.reason))
+        return 599, {"error": str(e.reason)}
 
 def paged(path, token):
     out, cursor = [], None
@@ -55,6 +60,8 @@ def ensure_group(name, token, gmap):
         return gmap[name]
     st, b = req("POST", "/groups", token, {"name": name})
     gid = (b.get("data") or {}).get("id")
+    if not (200 <= st < 300) or not gid:
+        raise RuntimeError("grupi '%s' loomine ebaonnestus (%s): %s" % (name, st, b))
     gmap[name] = gid
     return gid
 
@@ -85,6 +92,8 @@ def create_campaign(bucket_id, lang, html_content, subject, cfg, token):
     return cid
 
 def main():
+    print("MEELESPEA: kaivita enne saatmist kasitsi 'python scripts/ml_sync_groups.py' "
+          "(see skript seda automaatselt ei tee).")
     ap = argparse.ArgumentParser()
     here = os.path.dirname(os.path.abspath(__file__))
     ap.add_argument("--repo", default=os.path.dirname(here))

@@ -65,6 +65,7 @@ def _load_entries(path):
     try:
         j = json.loads(path.read_text(encoding="utf-8"))
     except Exception:
+        print(f"HOIATUS: {path} ei parsinud, kasutan tühja")
         return []
     if isinstance(j, dict):
         return j.get("entries", [])
@@ -132,7 +133,12 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
     years_reg = []
     for y in sorted(existing | set(by_year)):
         yfile = arch_dir / f"{y}.json"
-        merged = {_key(e): e for e in _load_entries(yfile)}
+        merged = {}
+        for e in _load_entries(yfile):
+            k = _key(e)
+            if k in block or _slug(e.get("n", "")) in block_names:
+                continue
+            merged[k] = e
         for e in by_year.get(y, []):
             merged[_key(e)] = e
         merged = {k: v for k, v in merged.items() if k not in current_keys}
