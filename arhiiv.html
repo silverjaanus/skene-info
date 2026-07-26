@@ -181,7 +181,7 @@ const I18N={
   c_all:"kõik", c_mujal:"mujal Eesti", c_baltikum:"Baltikum", c_pohjamaad:"Põhjamaad", c_euroopa:"Euroopa",
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
-  organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
+  organizer:"korraldaja:", listen:"kuula:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
   empty_view:"Selles vaates pole kirjeid.",
   empty_arch:"Arhiiv on veel tühi — siia kogunevad üritused, reliisid ja merch pärast nende toimumist/aegumist.",
@@ -200,7 +200,7 @@ const I18N={
   c_all:"all", c_mujal:"elsewhere in Estonia", c_baltikum:"Baltics", c_pohjamaad:"Nordics", c_euroopa:"Europe",
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
-  organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
+  organizer:"organiser:", listen:"listen:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
   empty_view:"No entries in this view.",
   empty_arch:"The archive is still empty — events, releases and merch collect here after they happen/expire.",
@@ -309,10 +309,12 @@ function render(){
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
-    if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_||e.sn)} ↗</a>`;}
+    // reliisil/merchil pole korraldajat - ou-link on kuulamis-/ostukoht
+    const olbl=t((e.t==="reliis"||e.t==="merch")?'listen':'organizer');
+    if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${olbl} ${esc(e.on_||e.sn)} ↗</a>`;}
     else{
       lnks=`<a class="a1" href="${surl(e.su)}" target="_blank" rel="noopener">${t('source')} ${esc(e.sn)} ↗</a>`;
-      if(e.ou)lnks+=`<br><a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_)} ↗</a>`;
+      if(e.ou)lnks+=`<br><a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${olbl} ${esc(e.on_)} ↗</a>`;
     }
     if(e.pu)lnks+=`<br><a class="a3" href="${surl(e.pu)}" target="_blank" rel="noopener">${t('tickets')}</a>`;
     if(e.yu)lnks+=`<br><a class="a2" href="${surl(e.yu)}" target="_blank" rel="noopener">YouTube ↗</a>`;
@@ -322,7 +324,7 @@ function render(){
       <div>
         <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
-        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
+        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
       <div class="loc"><span class="venue">${esc(e.v)}</span>${e.linn?esc(e.linn):(e.c==="mujal"?"":esc(e.c))}<div class="lnks">${lnks}</div></div>
@@ -331,7 +333,7 @@ function render(){
 }
 function chips(el,items,key){
   document.getElementById(el).innerHTML=items.map(([lbl,val])=>
-    `<button class="chip${st[key]===val?" on":""}" onclick="setF('${key}',${val===null?"null":`'${val}'`})">${t(lbl)}</button>`).join(" ");
+    `<button class="chip${st[key]===val?" on":""}" aria-pressed="${st[key]===val}" onclick="setF('${key}',${val===null?"null":`'${val}'`})">${t(lbl)}</button>`).join(" ");
 }
 function setF(k,v){st[k]=v;refresh();}
 function setTag(g){if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);refresh();}
@@ -340,8 +342,8 @@ function clearTags(){st.metas=new Set();st.tags=new Set();refresh();}
 function refresh(){
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
-    `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
-    METAS.map(m=>`<button class="chip${st.metas.has(m)?" on":""}" onclick="setMeta('${m}')">${m}</button>`).join(" ");
+    `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" aria-pressed="${st.metas.size===0&&st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
+    METAS.map(m=>`<button class="chip${st.metas.has(m)?" on":""}" aria-pressed="${st.metas.has(m)}" onclick="setMeta('${m}')">${m}</button>`).join(" ");
   aastad();kuud();render();
 }
 function setYear(y){

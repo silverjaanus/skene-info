@@ -1,15 +1,20 @@
 # -*- coding: utf-8 -*-
-"""Genereerib kolme saidi index.html failid uhest template'ist.
+"""Genereerib saitide HTML-lehed uhest template'ist (index, arhiiv, allikad x www/rap/klubi).
 
-  python scripts/build_pages.py           # kirjutab failid
-  python scripts/build_pages.py --check   # ainult vordleb, ei kirjuta
+  python scripts/build_pages.py            # kirjutab failid
+  python scripts/build_pages.py --check    # ainult vordleb, ei kirjuta (valjumiskood 1 kui erineb)
+  python scripts/build_pages.py index      # ainult uks lehepere
 
-Allikas: templates/base.html (uhine osa, pesad {{Snnn}}) + templates/site-<sait>.json
-(pesade vaartused; pikad vaartused viitavad failile templates/snippets/<sait>/Snnn.html).
+Allikas: templates/<leht>/base.html (uhine osa, pesad {{Snnn}}) + site-<sait>.json
+(pesade vaartused; pikad viitavad failile snippets/<sait>/Snnn.html).
 
-TAHTIS: muudatused tehakse TEMPLATE'i / konfi, MITTE index.html failidesse otse.
-Kui --check utleb ERINEB, on keegi index.html-i kasitsi muutnud - kanna see muudatus
-enne ulegenereerimist template'i, muidu see kaob. Vt templates/README.md.
+TAHTIS: muudatused tehakse TEMPLATE'i, MITTE genereeritud HTML-i. Kui --check utleb ERINEB,
+on keegi HTML-i kasitsi muutnud - kanna muudatus enne ulegenereerimist template'i.
+Vt templates/README.md.
+
+REAVAHETUSED: template hoiab alati LF-i. Valjund kirjutatakse selles konventsioonis, mis
+sihtfailis juba on (repos on CRLF ja LF segamini + core.autocrlf=true muudab neid kloonimisel).
+Nii ei anna --check valehairet teises kloonis ega teisel platvormil.
 """
 import hashlib
 import json
@@ -18,39 +23,59 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TPL = ROOT / "templates"
-OUT = {"www": ROOT / "index.html",
-       "rap": ROOT / "rap" / "index.html",
-       "klubi": ROOT / "klubi" / "index.html"}
+SAIDID = ("www", "rap", "klubi")
+LEHED = {
+    "index":   {"www": "index.html",   "rap": "rap/index.html",   "klubi": "klubi/index.html"},
+    "arhiiv":  {"www": "arhiiv.html",  "rap": "rap/arhiiv.html",  "klubi": "klubi/arhiiv.html"},
+    "allikad": {"www": "allikad.html", "rap": "rap/allikad.html", "klubi": "klubi/allikad.html"},
+}
 
 
-def rd(path):
-    """Loeb faili reavahetusi muutmata (baithaaval-identsus on siin kriitiline)."""
+def rd_lf(path):
+    """Loeb faili ja normaliseerib reavahetused LF-iks."""
+    with open(path, encoding="utf-8", newline="") as f:
+        return f.read().replace("\r\n", "\n")
+
+
+def rd_raw(path):
+    """Loeb faili baithaaval samamoodi nagu ta kettal on (vordluseks)."""
     with open(path, encoding="utf-8", newline="") as f:
         return f.read()
 
 
-def render(sait):
-    """Asendab base.html pesad selle saidi vaartustega ja tagastab valmis HTML-i."""
-    base = rd(TPL / "base.html")
-    with open(TPL / ("site-%s.json" % sait), encoding="utf-8") as f:
+def faili_reavahetus(path):
+    """Milline reavahetus sihtfailis juba on. Uue faili puhul LF."""
+    if not path.exists():
+        return "\n"
+    b = path.read_bytes()
+    crlf = b.count(b"\r\n")
+    lf = b.count(b"\n") - crlf
+    return "\r\n" if crlf > lf else "\n"
+
+
+def render(leht, sait, eol="\n"):
+    """Asendab base.html pesad selle saidi vaartustega."""
+    d = TPL / leht
+    out = rd_lf(d / "base.html")
+    with open(d / ("site-%s.json" % sait), encoding="utf-8") as f:
         cfg = json.load(f)
     for sid, val in cfg.items():
-        if isinstance(val, dict):          # {"f": "snippets/www/S007.html"}
-            val = rd(TPL / val["f"])
-        base = base.replace("{{%s}}\n" % sid, val)
-    if "{{S" in base:
-        jaak = [r for r in base.splitlines() if r.strip().startswith("{{S")]
-        sys.exit("VIGA (%s): taitmata pesa(d): %s" % (sait, ", ".join(jaak[:5])))
-    return base
+        if isinstance(val, dict):                      # {"f": "snippets/www/S007.html"}
+            val = rd_lf(d / val["f"])
+        out = out.replace("{{%s}}\n" % sid, val.replace("\r\n", "\n"))
+    if "{{S" in out:
+        jaak = [r.strip() for r in out.splitlines() if r.strip().startswith("{{S")]
+        sys.exit("VIGA (%s/%s): taitmata pesa(d): %s" % (leht, sait, ", ".join(jaak[:5])))
+    return out.replace("\n", eol) if eol != "\n" else out
 
 
 def esimene_erinevus(a, b):
-    """Tagastab inimloetava viite esimesele erinevusele (rida ja veerg)."""
+    """Inimloetav viide esimesele erinevusele."""
     ar, br = a.splitlines(), b.splitlines()
     for i in range(min(len(ar), len(br))):
         if ar[i] != br[i]:
-            veerg = next((j for j in range(min(len(ar[i]), len(br[i])))
-                          if ar[i][j] != br[i][j]), min(len(ar[i]), len(br[i])))
+            n = min(len(ar[i]), len(br[i]))
+            veerg = next((j for j in range(n) if ar[i][j] != br[i][j]), n)
             return "rida %d, veerg %d" % (i + 1, veerg + 1)
     if len(ar) != len(br):
         return "ridade arv erineb (%d vs %d)" % (len(ar), len(br))
@@ -58,27 +83,29 @@ def esimene_erinevus(a, b):
 
 
 def main():
+    argv = [a for a in sys.argv[1:] if not a.startswith("-")]
     check = "--check" in sys.argv
+    lehed = argv or list(LEHED)
+    tundmatu = [l for l in lehed if l not in LEHED]
+    if tundmatu:
+        sys.exit("Tundmatu leht: %s (valikud: %s)" % (", ".join(tundmatu), ", ".join(LEHED)))
     vigu = 0
-    for sait, path in OUT.items():
-        uus = render(sait)
-        vana = rd(path) if path.exists() else None
-        h_uus = hashlib.sha256(uus.encode("utf-8")).hexdigest()[:12]
-        h_vana = hashlib.sha256(vana.encode("utf-8")).hexdigest()[:12] if vana is not None else "-"
-        sama = (uus == vana)
-        if check:
-            if sama:
-                print("OK      %-5s %s (%s)" % (sait, path.name, h_uus))
-            else:
+    for leht in lehed:
+        for sait in SAIDID:
+            path = ROOT / LEHED[leht][sait]
+            uus = render(leht, sait, faili_reavahetus(path))
+            vana = rd_raw(path) if path.exists() else None
+            h = hashlib.sha256(uus.encode("utf-8")).hexdigest()[:12]
+            silt = "%s/%s" % (leht, sait)
+            if uus == vana:
+                print(("OK      " if check else "muutmata ") + "%-14s %s" % (silt, h))
+            elif check:
                 vigu += 1
-                print("ERINEB  %-5s %s: template %s vs fail %s -> %s"
-                      % (sait, path.name, h_uus, h_vana, esimene_erinevus(uus, vana or "")))
-        elif sama:
-            print("muutmata %-5s %s" % (sait, path.name))
-        else:
-            with open(path, "w", encoding="utf-8", newline="") as f:
-                f.write(uus)
-            print("kirjutatud %-5s %s (%s)" % (sait, path.name, h_uus))
+                print("ERINEB  %-14s %s -> %s" % (silt, h, esimene_erinevus(uus, vana or "")))
+            else:
+                with open(path, "w", encoding="utf-8", newline="") as f:
+                    f.write(uus)
+                print("kirjutatud %-11s %s" % (silt, h))
     if check and vigu:
         print("\n%d fail(i) erineb. Kanna kasitsi tehtud muudatus template'i ENNE ulegenereerimist." % vigu)
         sys.exit(1)

@@ -1,0 +1,127 @@
+{
+ "S001": {
+  "f": "snippets/rap/S001.html"
+ },
+ "S002": {
+  "f": "snippets/rap/S002.html"
+ },
+ "S003": {
+  "f": "snippets/rap/S003.html"
+ },
+ "S004": {
+  "f": "snippets/rap/S004.html"
+ },
+ "S005": ".subnav a:hover{color:var(--sinine)}\n",
+ "S006": "h1 .info{color:var(--sinine)}\n",
+ "S007": {
+  "f": "snippets/rap/S007.html"
+ },
+ "S008": ".topnav .nav-links a:hover{color:var(--sinine)}\n",
+ "S009": ".kuu.on{border-left-color:var(--sinine);font-weight:700}\n",
+ "S010": {
+  "f": "snippets/rap/S010.html"
+ },
+ "S011": ".tit a:hover{border-bottom-color:var(--sinine)}\n",
+ "S012": {
+  "f": "snippets/rap/S012.html"
+ },
+ "S013": "",
+ "S014": ".cform label .req{color:var(--accent)}\n",
+ "S015": ".cform button:hover{background:var(--sinine);border-color:var(--sinine)}\n",
+ "S016": ".cform .ferr{font-family:var(--mono);font-size:11px;color:var(--roosa);line-height:1.5;margin-top:2px}\n",
+ "S017": {
+  "f": "snippets/rap/S017.html"
+ },
+ "S018": "/* kontaktivorm accordion */\n",
+ "S019": "",
+ "S020": ".calcell.ev .dnum{background:var(--accent);color:var(--paber);font-weight:700}\n",
+ "S021": {
+  "f": "snippets/rap/S021.html"
+ },
+ "S022": "  /* mobiilis: kalender täislaiuseks + madalamad read (PÄRAST baas-.calbox/.calcell reegleid) */\n",
+ "S023": {
+  "f": "snippets/rap/S023.html"
+ },
+ "S024": {
+  "f": "snippets/rap/S024.html"
+ },
+ "S025": "      <input id=\"f-q\" class=\"qin navq\" type=\"search\" aria-label=\"Otsi üritusi\" oninput=\"setQ(this.value)\" data-i18n-ph=\"ph_q\" placeholder=\"Otsi: artist, koht, üritus…\">\n",
+ "S026": {
+  "f": "snippets/rap/S026.html"
+ },
+ "S027": "      <input type=\"text\" name=\"Sinu nimi\" data-i18n-ph=\"ph_name\" placeholder=\"sinu enda nimi (mitte artisti/ürituse nimi)\" required>\n",
+ "S028": "      <input type=\"text\" name=\"Uritus / reliis\" data-i18n-ph=\"ph_event\" placeholder=\"nt artist + soojendus @ klubi\" required>\n",
+ "S029": "      <input type=\"text\" name=\"Kuupaev ja koht\" data-i18n-ph=\"ph_date\" placeholder=\"nt 19.09.2026, klubi, Tallinn\">\n",
+ "S030": "      <input type=\"text\" name=\"Zanrid\" data-i18n-ph=\"ph_genre\" placeholder=\"koma vahele, nt räpp,\">\n",
+ "S031": "      <textarea name=\"Lisainfo\" rows=\"3\" data-i18n-ph=\"ph_extra\" placeholder=\"artistid, muu…\"></textarea>\n",
+ "S032": {
+  "f": "snippets/rap/S032.html"
+ },
+ "S033": "      <p class=\"hint\" data-i18n-html=\"nl_fine_short\">1 kiri nädalas, loobuda võid alati. Vt <a href=\"https://www.skene.info/privaatsus.html\">privaatsust</a>.</p>\n",
+ "S034": "    <script>/* desktopil accordionid vaikimisi lahti, kitsal kinni */\n",
+ "S035": {
+  "f": "snippets/rap/S035.html"
+ },
+ "S036": "",
+ "S037": {
+  "f": "snippets/rap/S037.html"
+ },
+ "S038": "      <p class=\"ethos\" data-i18n=\"ethos\">Rap.skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.</p>\n",
+ "S039": "",
+ "S040": "  title:\"RAP.SKENE.INFO — üritused, merch ja reliisid ühest kohast\",\n",
+ "S041": "  cal_head:\"Kalender\",\n",
+ "S042": {
+  "f": "snippets/rap/S042.html"
+ },
+ "S043": {
+  "f": "snippets/rap/S043.html"
+ },
+ "S044": "  f_extra:\"Lisainfo\", ph_extra:\"artistid, muu…\", f_send:\"Saada\",\n",
+ "S045": {
+  "f": "snippets/rap/S045.html"
+ },
+ "S046": "  ethos:\"Rap.skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.\",\n",
+ "S047": "  c_all:\"kõik\", c_mujal:\"mujal Eesti\",\n",
+ "S048": "  f_q_l:\"Otsi\", ph_q:\"Otsi: artist, koht, üritus…\",\n",
+ "S049": "  title:\"RAP.SKENE.INFO — Estonian rap & hip-hop events, releases, merch\",\n",
+ "S050": "  cal_head:\"Calendar\",\n",
+ "S051": {
+  "f": "snippets/rap/S051.html"
+ },
+ "S052": {
+  "f": "snippets/rap/S052.html"
+ },
+ "S053": "  f_extra:\"More info\", ph_extra:\"artists, other…\", f_send:\"Send\",\n",
+ "S054": {
+  "f": "snippets/rap/S054.html"
+ },
+ "S055": "  ethos:\"Rap.skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.\",\n",
+ "S056": "  c_all:\"all\", c_mujal:\"elsewhere in Estonia\",\n",
+ "S057": "  f_q_l:\"Search\", ph_q:\"Search: artist, venue, event…\",\n",
+ "S058": "",
+ "S059": "",
+ "S060": {
+  "f": "snippets/rap/S060.html"
+ },
+ "S061": {
+  "f": "snippets/rap/S061.html"
+ },
+ "S062": "let calYM={y:new Date().getFullYear(),m:new Date().getMonth()};\n",
+ "S063": "const SELF=\"rap\";\n",
+ "S064": "function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}\n",
+ "S065": "",
+ "S066": "",
+ "S067": "    if(!q&&st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;\n",
+ "S068": "    +((!st.q&&st.tags.size)?\" · \"+t('genre_c')+\" \"+[...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\n",
+ "S069": "",
+ "S070": "      <div class=\"loc\"><span class=\"venue\">${esc(e.v)}</span>${e.c===\"mujal\"?\"\":esc(e.c)}<div class=\"lnks\">${lnks}</div></div>\n",
+ "S071": "",
+ "S072": "function calBase(){\n",
+ "S073": "",
+ "S074": "  const startDow=(first.getDay()+6)%7;\n",
+ "S075": "function clearTags(){st.tags=new Set();refresh();}\n",
+ "S076": "  chips(\"f-type\",TYPES,\"type\");chips(\"f-city\",CITIES,\"city\");\n",
+ "S077": {
+  "f": "snippets/rap/S077.html"
+ }
+}

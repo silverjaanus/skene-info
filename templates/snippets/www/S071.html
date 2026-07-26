@@ -1,9 +1,0 @@
-}
-function toggleCities(o){st.cityMore=o;if(!o&&CITIES_MORE.some(c=>c[1]===st.city))st.city=null;refresh();}
-function cityChips(){
-  const btn=([lbl,val])=>`<button class="chip${st.city===val?" on":""}" onclick="setF('city',${val===null?"null":`'${val}'`})">${t(lbl)}</button>`;
-  const open=st.cityMore||CITIES_MORE.some(c=>c[1]===st.city);
-  let h=CITIES_MAIN.map(btn).join(" ");
-  if(open)h+=" "+CITIES_MORE.map(btn).join(" ")+` <button class="chip" title="peida" aria-label="peida" onclick="toggleCities(false)">−</button>`;
-  else h+=` <button class="chip" title="Baltikum, Põhjamaad, Euroopa" aria-label="Baltikum, Põhjamaad, Euroopa" onclick="toggleCities(true)">+</button>`;
-  document.getElementById("f-city").innerHTML=h;

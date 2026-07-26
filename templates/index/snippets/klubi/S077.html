@@ -1,0 +1,2 @@
+    `<button class="chip${st.tags.size===0?" on":""}" aria-pressed="${st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
+    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");

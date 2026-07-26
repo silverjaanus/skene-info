@@ -1,0 +1,44 @@
+{
+ "S001": {
+  "f": "snippets/rap/S001.html"
+ },
+ "S002": "<link rel=\"canonical\" href=\"https://rap.skene.info/arhiiv.html\">\n",
+ "S003": {
+  "f": "snippets/rap/S003.html"
+ },
+ "S004": ".subnav a:hover{color:var(--sinine)}\n",
+ "S005": {
+  "f": "snippets/rap/S005.html"
+ },
+ "S006": {
+  "f": "snippets/rap/S006.html"
+ },
+ "S007": {
+  "f": "snippets/rap/S007.html"
+ },
+ "S008": "    <a class=\"igbtn\" href=\"index.html\" data-i18n=\"live_cal\">← Live-kalender</a>\n",
+ "S009": {
+  "f": "snippets/rap/S009.html"
+ },
+ "S010": {
+  "f": "snippets/rap/S010.html"
+ },
+ "S011": "  f_type_l:\"Tüüp\", f_tag_l:\"Žanr\", f_city_l:\"Koht\", foot_live:\"← RÄPI LIVE-KALENDER\", nav_archive:\"ARHIIV\",\n",
+ "S012": "  c_all:\"kõik\", c_mujal:\"mujal Eesti\",\n",
+ "S013": "  empty_arch:\"Arhiiv on veel tühi — siia kogunevad üritused ja reliisid pärast nende toimumist/aegumist.\",\n",
+ "S014": {
+  "f": "snippets/rap/S014.html"
+ },
+ "S015": "  f_type_l:\"Type\", f_tag_l:\"Genre\", f_city_l:\"Place\", foot_live:\"← RAP LIVE CALENDAR\", nav_archive:\"ARCHIVE\",\n",
+ "S016": "  c_all:\"all\", c_mujal:\"elsewhere in Estonia\",\n",
+ "S017": "  empty_arch:\"The archive is still empty — events and releases collect here after they happen/expire.\",\n",
+ "S018": "const CITIES=[[\"c_all\",null],[\"Tallinn\",\"Tallinn\"],[\"Tartu\",\"Tartu\"],[\"c_mujal\",\"mujal\"]];\n",
+ "S019": "let st={year:null,kuu:null,type:null,tags:new Set(),city:null};\n",
+ "S020": "function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}\n",
+ "S021": "",
+ "S022": "    +(st.tags.size?\" · \"+t('genre_c')+\" \"+[...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\n",
+ "S023": "function clearTags(){st.tags=new Set();refresh();}\n",
+ "S024": {
+  "f": "snippets/rap/S024.html"
+ }
+}

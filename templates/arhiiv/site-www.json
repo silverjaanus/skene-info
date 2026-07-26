@@ -1,0 +1,50 @@
+{
+ "S001": {
+  "f": "snippets/www/S001.html"
+ },
+ "S002": {
+  "f": "snippets/www/S002.html"
+ },
+ "S003": {
+  "f": "snippets/www/S003.html"
+ },
+ "S004": ".subnav a:hover{color:var(--telliskivi)}\n",
+ "S005": {
+  "f": "snippets/www/S005.html"
+ },
+ "S006": {
+  "f": "snippets/www/S006.html"
+ },
+ "S007": {
+  "f": "snippets/www/S007.html"
+ },
+ "S008": "    <a class=\"igbtn\" href=\"/\" data-i18n=\"live_cal\">← Live-kalender</a>\n",
+ "S009": {
+  "f": "snippets/www/S009.html"
+ },
+ "S010": {
+  "f": "snippets/www/S010.html"
+ },
+ "S011": "  f_type_l:\"Tüüp\", f_tag_l:\"Žanr\", f_city_l:\"Koht\", foot_live:\"← LIVE-KALENDER\", nav_archive:\"ARHIIV\",\n",
+ "S012": "  c_all:\"kõik\", c_mujal:\"mujal Eesti\", c_baltikum:\"Baltikum\", c_pohjamaad:\"Põhjamaad\", c_euroopa:\"Euroopa\",\n",
+ "S013": "  empty_arch:\"Arhiiv on veel tühi — siia kogunevad üritused, reliisid ja merch pärast nende toimumist/aegumist.\",\n",
+ "S014": {
+  "f": "snippets/www/S014.html"
+ },
+ "S015": "  f_type_l:\"Type\", f_tag_l:\"Genre\", f_city_l:\"Place\", foot_live:\"← LIVE CALENDAR\", nav_archive:\"ARCHIVE\",\n",
+ "S016": "  c_all:\"all\", c_mujal:\"elsewhere in Estonia\", c_baltikum:\"Baltics\", c_pohjamaad:\"Nordics\", c_euroopa:\"Europe\",\n",
+ "S017": "  empty_arch:\"The archive is still empty — events, releases and merch collect here after they happen/expire.\",\n",
+ "S018": "const CITIES=[[\"c_all\",null],[\"Tallinn\",\"Tallinn\"],[\"Tartu\",\"Tartu\"],[\"c_mujal\",\"mujal\"],[\"c_baltikum\",\"Baltikum\"],[\"c_pohjamaad\",\"Põhjamaad\"],[\"c_euroopa\",\"Euroopa\"]];\n",
+ "S019": {
+  "f": "snippets/www/S019.html"
+ },
+ "S020": "",
+ "S021": "    if(st.metas.size){const em=entryMetas(e);if(![...st.metas].every(m=>em.has(m)))return false;}\n",
+ "S022": "    +((st.metas.size||st.tags.size)?\" · \"+t('genre_c')+\" \"+[...st.metas,...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\n",
+ "S023": {
+  "f": "snippets/www/S023.html"
+ },
+ "S024": {
+  "f": "snippets/www/S024.html"
+ }
+}

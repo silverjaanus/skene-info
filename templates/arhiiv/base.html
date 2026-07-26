@@ -3,15 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RAP.SKENE.INFO — Arhiiv</title>
-<meta name="description" content="rap.skene.info arhiiv — möödunud üritused ja reliisid.">
+{{S001}}
 <meta name="robots" content="noindex">
-<link rel="canonical" href="https://rap.skene.info/arhiiv.html">
+{{S002}}
 <script defer src="/_vercel/insights/script.js"></script>
 <style>
 :root{
-  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
-  --telliskivi:#93392C; --ploom:#4E4275; --sinep:#A8811F; --paatina:#2C5B54; --sinine:#2E5EAA;
+{{S003}}
   --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
   --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
 }
@@ -23,7 +21,7 @@ header{padding:26px 24px 0;max-width:1280px;margin:0 auto}
 .brand-wrap{display:flex;flex-direction:column;min-width:0}
 .subnav{display:flex;gap:14px;font-family:var(--mono);font-size:12.5px;margin-top:7px}
 .subnav a{color:var(--hall);text-decoration:none;font-weight:700}
-.subnav a:hover{color:var(--sinine)}
+{{S004}}
 .brand{display:flex;align-items:baseline;gap:14px;min-width:0}
 h1{font-size:clamp(38px,6vw,60px);line-height:.92;letter-spacing:-2px;text-transform:uppercase;font-weight:700}
 h1 a{text-decoration:none}
@@ -117,19 +115,16 @@ aside{position:sticky;top:16px;padding-top:16px}
 <body>
 <header>
   <div class="masthead">
-    <div class="brand-wrap"><div class="brand"><h1><a href="index.html"><span class="info">Rap</span>.skene</a></h1><span class="arch-badge" data-i18n="arch_badge">Arhiiv</span></div><p class="subnav"><a href="https://www.skene.info/">METAL.SKENE</a> <a href="https://klubi.skene.info/">KLUBI.SKENE</a></p></div>
+{{S005}}
     <div class="mast-right">
-      <p class="tagline" data-i18n-html="tagline">Möödunud räpi-üritused ja reliisid.<br>Tagasivaade skeenele.</p>
-      <p class="author"><a href="index.html" data-i18n="author_back">← tagasi live-kalendrisse</a></p>
+{{S006}}
     </div>
   </div>
   <nav class="topnav">
     <div class="nav-links">
       <a href="https://www.instagram.com/skene.info/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
       <a href="https://www.facebook.com/profile.php?id=61591366185684" target="_blank" rel="noopener">FACEBOOK ↗</a>
-      <a href="allikad.html" data-i18n="nav_sources">ALLIKAD</a>
-      <a href="https://www.skene.info/changelog.html" data-i18n="nav_updates">UUENDUSED</a>
-      <a href="arhiiv.html" data-i18n="nav_archive">ARHIIV</a>
+{{S007}}
     </div>
     <div class="langsw" role="group" aria-label="Keel / Language">
       <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
@@ -144,7 +139,7 @@ aside{position:sticky;top:16px;padding-top:16px}
     <p class="kuu-t" style="margin-top:22px" data-i18n="a_month">Kuu</p>
     <div class="kuud" id="kuud"></div>
     <p class="kuu-t" style="margin-top:28px" data-i18n="a_other">Muu</p>
-    <a class="igbtn" href="index.html" data-i18n="live_cal">← Live-kalender</a>
+{{S008}}
   </aside>
   <div class="content">
     <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
@@ -154,9 +149,7 @@ aside{position:sticky;top:16px;padding-top:16px}
     <div id="list"></div>
     <div class="footer">
       <div style="font-family:var(--mono);font-size:12.5px;display:flex;gap:16px;flex-wrap:wrap">
-        <a href="index.html" data-i18n="foot_live">← RÄPI LIVE-KALENDER</a>
-        <a href="https://www.skene.info/">METAL.SKENE.INFO ↗</a>
-        <a href="https://klubi.skene.info/">KLUBI.SKENE.INFO ↗</a>
+{{S009}}
       </div>
       <p class="ethos" data-i18n="ethos_arch">Arhiiv koondab kõik, mis on saidil olnud — miski ei kao. Iga kirje viitab endiselt algallikale.</p>
     </div>
@@ -166,40 +159,38 @@ aside{position:sticky;top:16px;padding-top:16px}
 <script>
 const I18N={
  et:{
-  title:"RAP.SKENE.INFO — Arhiiv", arch_badge:"Arhiiv",
-  tagline:"Möödunud räpi-üritused ja reliisid.<br>Tagasivaade skeenele.",
+{{S010}}
   author_back:"← tagasi live-kalendrisse", nav_updates:"UUENDUSED", nav_sources:"ALLIKAD",
   a_year:"Aasta", a_month:"Kuu", a_other:"Muu", live_cal:"← Live-kalender",
-  f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", foot_live:"← RÄPI LIVE-KALENDER", nav_archive:"ARHIIV",
+{{S011}}
   ethos_arch:"Arhiiv koondab kõik, mis on saidil olnud — miski ei kao. Iga kirje viitab endiselt algallikale.",
   totop:"Üles",
   t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch", t_muu:"muu",
-  c_all:"kõik", c_mujal:"mujal Eesti",
+{{S012}}
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   organizer:"korraldaja:", listen:"kuula:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
   empty_view:"Selles vaates pole kirjeid.",
-  empty_arch:"Arhiiv on veel tühi — siia kogunevad üritused ja reliisid pärast nende toimumist/aegumist.",
+{{S013}}
   err_arch:"Arhiivi ei õnnestunud laadida.",
   months:["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"]
  },
  en:{
-  title:"RAP.SKENE.INFO — Archive", arch_badge:"Archive",
-  tagline:"Past rap events and releases.<br>A look back at the scene.",
+{{S014}}
   author_back:"← back to live calendar", nav_updates:"UPDATES", nav_sources:"SOURCES",
   a_year:"Year", a_month:"Month", a_other:"Other", live_cal:"← Live calendar",
-  f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", foot_live:"← RAP LIVE CALENDAR", nav_archive:"ARCHIVE",
+{{S015}}
   ethos_arch:"The archive keeps everything that's ever been on the site — nothing disappears. Every listing still links to its source.",
   totop:"Top",
   t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch", t_muu:"other",
-  c_all:"all", c_mujal:"elsewhere in Estonia",
+{{S016}}
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   organizer:"organiser:", listen:"listen:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
   empty_view:"No entries in this view.",
-  empty_arch:"The archive is still empty — events and releases collect here after they happen/expire.",
+{{S017}}
   err_arch:"Couldn't load the archive.",
   months:["January","February","March","April","May","June","July","August","September","October","November","December"]
  }
@@ -217,9 +208,9 @@ function applyI18n(){
 }
 function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();refresh();}
 const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"],["t_muu","muu"]];
-const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
+{{S018}}
 let YEARS=[], CACHE={}, E=[];
-let st={year:null,kuu:null,type:null,tags:new Set(),city:null};
+{{S019}}
 function enc(x){return encodeURIComponent(x);}
 const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 const surl=u=>/^https?:\/\//i.test(String(u??""))?esc(u):"";
@@ -258,7 +249,7 @@ function fmt(e){
   if(e.d2)s+="–<br>"+esc(e.d2);
   return s;
 }
-function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}
+{{S020}}
 function aastad(){
   document.getElementById("aastad").innerHTML=YEARS.map(y=>
     `<button class="kuu${st.year===y.year?" on":""}" data-y="${esc(y.year)}" onclick="setYear(+this.dataset.y)">${esc(y.year)} <small>${esc(y.count)}</small></button>`).join("");
@@ -274,6 +265,7 @@ function kuud(){
 function render(){
   let rows=E.filter(e=>{
     if(st.type&&e.t!==st.type)return false;
+{{S021}}
     if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
@@ -281,7 +273,7 @@ function render(){
   }).sort((a,b)=>b.d.localeCompare(a.d));
   document.getElementById("count").textContent=rows.length+" "+t('entries')+(st.year?" · "+st.year:"")
     +(st.kuu?" · "+monthName(st.kuu.slice(5)):"")
-    +(st.tags.size?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
+{{S022}}
   if(!rows.length){document.getElementById("list").innerHTML='<p class="empty">'+t('empty_view')+'</p>';return;}
   document.getElementById("list").innerHTML=rows.map(e=>{
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
@@ -315,12 +307,11 @@ function chips(el,items,key){
 }
 function setF(k,v){st[k]=v;refresh();}
 function setTag(g){if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);refresh();}
-function clearTags(){st.tags=new Set();refresh();}
+{{S023}}
 function refresh(){
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
-    `<button class="chip${st.tags.size===0?" on":""}" aria-pressed="${st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
-    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
+{{S024}}
   aastad();kuud();render();
 }
 function setYear(y){

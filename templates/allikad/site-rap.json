@@ -1,0 +1,24 @@
+{
+ "S001": {
+  "f": "snippets/rap/S001.html"
+ },
+ "S002": {
+  "f": "snippets/rap/S002.html"
+ },
+ "S003": {
+  "f": "snippets/rap/S003.html"
+ },
+ "S004": "h1 .info{color:var(--sinine)}\n",
+ "S005": ".intro{margin:0 0 20px;font-size:15px;color:#2b2e2c;max-width:62ch}\n",
+ "S006": ".grp li{padding:6px 0;border-bottom:1px solid #DCE1DE}\n",
+ "S007": "      <a class=\"back\" href=\"index.html\" data-i18n=\"back\">← TAGASI RAP.SKENE.INFO</a>\n",
+ "S008": {
+  "f": "snippets/rap/S008.html"
+ },
+ "S009": {
+  "f": "snippets/rap/S009.html"
+ },
+ "S010": {
+  "f": "snippets/rap/S010.html"
+ }
+}

@@ -1,2 +1,0 @@
-    `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
-    METAS.map(m=>`<button class="chip${st.metas.has(m)?" on":""}" onclick="setMeta('${m}')">${m}</button>`).join(" ");

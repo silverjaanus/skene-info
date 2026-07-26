@@ -370,7 +370,7 @@ const I18N={
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
-  organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
+  organizer:"korraldaja:", listen:"kuula:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
   f_q_l:"Otsi", ph_q:"Otsi: artist, koht, üritus…",
   cal_google:"+ GOOGLE KALENDER", cal_apple:"+ APPLE/ICS",
@@ -408,7 +408,7 @@ const I18N={
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
-  organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
+  organizer:"organiser:", listen:"listen:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
   f_q_l:"Search", ph_q:"Search: artist, venue, event…",
   cal_google:"+ GOOGLE CALENDAR", cal_apple:"+ APPLE/ICS",
@@ -587,10 +587,12 @@ function render(){
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
-    if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_||e.sn)} ↗</a>`;}
+    // reliisil/merchil pole korraldajat - ou-link on kuulamis-/ostukoht
+    const olbl=t((e.t==="reliis"||e.t==="merch")?'listen':'organizer');
+    if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${olbl} ${esc(e.on_||e.sn)} ↗</a>`;}
     else{
       lnks=`<a class="a1" href="${surl(e.su)}" target="_blank" rel="noopener">${t('source')} ${esc(e.sn)} ↗</a>`;
-      if(e.ou)lnks+=`<br><a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_)} ↗</a>`;
+      if(e.ou)lnks+=`<br><a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${olbl} ${esc(e.on_)} ↗</a>`;
     }
     if(e.pu)lnks+=`<br><a class="a3" href="${surl(e.pu)}" target="_blank" rel="noopener">${t('tickets')}</a>`;
     if(e.yu)lnks+=`<br><a class="a2" href="${surl(e.yu)}" target="_blank" rel="noopener">YouTube ↗</a>`;
@@ -602,7 +604,7 @@ function render(){
       <div>
         <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
-        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
+        <div class="gtags">${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
       <div class="loc"><span class="venue">${esc(e.v)}</span>${e.c==="mujal"?"":esc(e.c)}<div class="lnks">${lnks}</div></div>
@@ -611,7 +613,7 @@ function render(){
 }
 function chips(el,items,key){
   document.getElementById(el).innerHTML=items.map(([lbl,val])=>
-    `<button class="chip${st[key]===val?" on":""}" onclick="setF('${key}',${val===null?"null":`'${val}'`})">${t(lbl)}</button>`).join(" ");
+    `<button class="chip${st[key]===val?" on":""}" aria-pressed="${st[key]===val}" onclick="setF('${key}',${val===null?"null":`'${val}'`})">${t(lbl)}</button>`).join(" ");
 }
 function kuud(){
   const m={};
@@ -671,7 +673,9 @@ function renderCal(){
     const hasEv=(isoStr>=TODAY)&&base.some(e=>covers(e,isoStr));
     const sel=(st.day===isoStr);
     const cls='calcell'+(out?' out':'')+(isToday?' today':'')+(hasEv?' ev':'')+(sel?' sel':'');
-    const click=hasEv?" onclick=\"pickDay('"+isoStr+"')\"":"";
+    // klikitav paev peab olema ka klaviatuuriga kasutatav (Tab + Enter/tuhik)
+    const click=hasEv?" onclick=\"pickDay('"+isoStr+"')\" data-d=\""+isoStr+"\" role=\"button\" tabindex=\"0\""
+      +" aria-pressed=\""+(sel?"true":"false")+"\" aria-label=\""+cd+". "+monthName(pad2(cm+1))+" "+cur.getFullYear()+"\"":"";
     html+='<span class="'+cls+'"'+click+'><span class="dnum">'+cd+'</span></span>';
     cur=addDays(cur,1);
   }
@@ -681,6 +685,13 @@ function renderCal(){
 }
 function calNav(delta){let m=calYM.m+delta,y=calYM.y;if(m<0){m=11;y--;}if(m>11){m=0;y++;}calYM={y:y,m:m};renderCal();}
 function pickDay(isoStr){st.day=(st.day===isoStr)?null:isoStr;if(st.day)st.kuu=null;refresh();}
+// kalendripaeva valimine klaviatuuriga (delegeeritud, sest renderCal kirjutab sisu ule)
+document.addEventListener('keydown',function(ev){
+  if(ev.key!=='Enter'&&ev.key!==' ')return;
+  const el=ev.target&&ev.target.closest?ev.target.closest('.calcell[data-d]'):null;
+  if(!el)return;
+  ev.preventDefault();pickDay(el.getAttribute('data-d'));
+});
 function applyCalView(){
   const c=document.getElementById('cal'),k=document.getElementById('kuud');
   if(c)c.style.display=(calView==='cal')?'':'none';
@@ -699,12 +710,43 @@ function clearTags(){st.tags=new Set();refresh();}
 function refresh(){
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
-    `<button class="chip${st.tags.size===0?" on":""}" onclick="clearTags()">${t('all_genres')}</button> `+
-    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
+    `<button class="chip${st.tags.size===0?" on":""}" aria-pressed="${st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
+    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
   kuud();renderCal();render();
 }
+// Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)
+function injectLD(){
+  try{
+    let el=document.getElementById('ldjson');
+    if(!el){el=document.createElement('script');el.type='application/ld+json';el.id='ldjson';document.head.appendChild(el);}
+    const list=(E||[]).filter(e=>e.d&&!e.tba&&e.d>=TODAY&&e.t!=='reliis'&&e.t!=='merch').slice(0,30)
+      .map((e,i)=>{
+        const ev={"@type":"Event","name":e.n,"startDate":e.d,"eventStatus":"https://schema.org/EventScheduled"};
+        if(e.v)ev.location={"@type":"Place","name":e.v,"address":e.linn||e.c||"Eesti"};
+        const u=e.ou||e.su;if(u&&/^https?:\/\//i.test(u))ev.url=u;
+        if(e.a)ev.description=e.a;
+        if(e.pu&&/^https?:\/\//i.test(e.pu))ev.offers={"@type":"Offer","url":e.pu};
+        if(e.b&&e.b.length)ev.performer=e.b.slice(0,10).map(b=>({"@type":"MusicGroup","name":b}));
+        return {"@type":"ListItem","position":i+1,"item":ev};
+      });
+    el.textContent=JSON.stringify({"@context":"https://schema.org","@type":"ItemList","itemListElement":list});
+  }catch(err){}
+}
+// Kui data.json ei laadi, jaab ekraanile sisseehitatud varukoopia - utle seda ausalt valja
+function varuTeade(){
+  if(document.getElementById('varub'))return;
+  const l=document.getElementById('list');
+  if(!l||!l.parentNode)return;
+  const d=document.createElement('div');
+  d.id='varub';
+  d.style.cssText='margin:0 0 12px;padding:8px 10px;border-left:3px solid var(--accent);font-size:13px;opacity:.85';
+  d.textContent=(LANG==='en')
+    ? 'Could not load the current listing — showing a built-in backup copy, which may be out of date.'
+    : 'Värsket nimekirja ei õnnestunud laadida — näitan sisseehitatud varukoopiat, mis võib olla aegunud.';
+  l.parentNode.insertBefore(d,l);
+}
 applyI18n();applyCalView();E=E_FALLBACK;refresh();
-fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;refresh();}).catch(()=>{});
+fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;injectLD();refresh();}).catch(()=>{varuTeade();});
 fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
 fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];if(st.q)render();}).catch(()=>{});
 (function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
