@@ -1,0 +1,7 @@
+# Sisemised tookaustad — ei kuulu avalikku deploy'sse.
+# NB: data/, feed/, icons/, nadal/, rap/, klubi/, api/ ON vajalikud — ara lisa siia.
+templates/
+scripts/
+sweep/
+README.md
+LICENSE
