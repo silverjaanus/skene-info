@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 118,
+ "count": 119,
  "entries": [
   {
    "sait": "www",
@@ -151,6 +151,30 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-20",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "Tharaphita — «Öise taevaga üheks»",
+   "a": "täispikk album, 10 lugu, 47:20; esimene täispikk 12 aasta järel («Ülestõus», 2014); omakirjastus, digital",
+   "b": [
+    "Tharaphita"
+   ],
+   "g": [
+    "black",
+    "folk",
+    "pagan",
+    "death",
+    "metal"
+   ],
+   "sn": "Metal Archives",
+   "su": "https://www.metal-archives.com/albums/Tharaphita/%C3%96ise_taevaga_%C3%BCheks/1456585",
+   "on_": "Bandcamp",
+   "ou": "https://tharaphita.bandcamp.com/album/ise-taevaga-heks",
+   "nb": "lisatud 26.07.2026 Silveri märkuse peale; kinnitatud 2 allikaga — Metal Archives (release date 20.07.2026, kirje loodud samal päeval) + bändi enda FB-teade «12 pikka aastat on möödas...». NB Bandcampi credits-real seisab platseholderina «released January 1, 2026» — tegelik ilmumine 20.07.2026. Varasemad sweepid lugesid selle Bandcamp discoveris ekslikult vanaks reliisiks."
   },
   {
    "sait": "www",
