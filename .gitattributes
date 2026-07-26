@@ -1,0 +1,16 @@
+# Reavahetused. Repos on ajalooliselt CRLF ja LF segamini (core.autocrlf=true).
+# text=auto: git normaliseerib tekstifailid hoidlas LF-iks.
+* text=auto
+
+# Template-süsteem PEAB olema deterministlik igal masinal ja igas kloonis:
+# build_pages.py võrdleb genereeritud väljundit baithaaval, seega siin fikseeritud LF.
+templates/** text eol=lf
+scripts/*.py text eol=lf
+
+# Binaarid — git ei tohi neid puutuda.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.xlsx binary
+*.pdf binary

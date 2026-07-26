@@ -69,6 +69,43 @@ def render(leht, sait, eol="\n"):
     return out.replace("\n", eol) if eol != "\n" else out
 
 
+# --- varuandmestik (E_FALLBACK) -------------------------------------------------
+# Leht naitab seda ainult siis, kui data.json ei laadi. Sisu vananeb, seetottu saab
+# selle siit uuesti genereerida: python scripts/build_pages.py --fallback
+FALLBACK_PESA = "S060"                 # templates/index/snippets/<sait>/S060.html
+FALLBACK_MAX = 40
+VALJA_JARJEKORD = ["d", "d2", "t", "n", "a", "b", "v", "linn", "c", "g",
+                   "sn", "su", "on_", "ou", "pu", "yu", "hind", "hind2",
+                   "rel", "lisatud", "tba", "nb"]
+
+
+def js_kirje(e):
+    """Uks kirje JS-objekti literaalina (votmed ilma jutumarkideta, nagu senises failis)."""
+    osad = []
+    for k in VALJA_JARJEKORD:
+        if k in e and e[k] not in (None, "", [], {}):
+            osad.append("%s:%s" % (k, json.dumps(e[k], ensure_ascii=False)))
+    return " {%s}" % ",".join(osad)
+
+
+def uuenda_fallback():
+    """Kirjutab iga saidi varuandmestiku uuesti selle saidi data/data.json pealt."""
+    from datetime import date
+    tana = date.today().isoformat()
+    for leht_sait, suhtetee in (("www", "data/data.json"),
+                                ("rap", "rap/data/data.json"),
+                                ("klubi", "klubi/data/data.json")):
+        andmed = json.loads(rd_lf(ROOT / suhtetee))
+        kirjed = andmed["entries"] if isinstance(andmed, dict) else andmed
+        tulevased = sorted([e for e in kirjed if e.get("d", "") >= tana],
+                           key=lambda e: e.get("d", ""))[:FALLBACK_MAX]
+        sisu = ",\n".join(js_kirje(e) for e in tulevased) + "\n"
+        siht = TPL / "index" / "snippets" / leht_sait / ("%s.html" % FALLBACK_PESA)
+        with open(siht, "w", encoding="utf-8", newline="") as f:
+            f.write(sisu)
+        print("varuandmestik %-5s %d kirjet -> %s" % (leht_sait, len(tulevased), siht.name))
+
+
 def esimene_erinevus(a, b):
     """Inimloetav viide esimesele erinevusele."""
     ar, br = a.splitlines(), b.splitlines()
@@ -85,6 +122,10 @@ def esimene_erinevus(a, b):
 def main():
     argv = [a for a in sys.argv[1:] if not a.startswith("-")]
     check = "--check" in sys.argv
+    if "--fallback" in sys.argv:
+        uuenda_fallback()
+        if check:
+            sys.exit("--fallback ja --check koos ei ole moistlikud (fallback muudab template'i).")
     lehed = argv or list(LEHED)
     tundmatu = [l for l in lehed if l not in LEHED]
     if tundmatu:

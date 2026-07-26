@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19",
+ "updated": "2026-07-26",
  "bands": {
   "200 Stab Wounds": {
    "sp": "https://open.spotify.com/artist/6DH6xC3RoN7L7sGlJ60LKv",
@@ -653,6 +653,89 @@
   },
   "metropol": {
    "note": "ei leitud üheltki platvormilt (09.07.2026)"
+  },
+  "Cottonmoth": {
+   "sp": "https://open.spotify.com/artist/7J7gtGaguM4DShe5lxPYSD",
+   "ym": "https://music.youtube.com/channel/UCIpp4rmGufAnoOIQjCjX4Qw",
+   "yt": true,
+   "note": "Eesti (Tallinn), ART OF MOSH 2026; Bandcampi pole"
+  },
+  "Around the Sun": {
+   "sp": "https://open.spotify.com/artist/1n14UNDrkSaPU6CtpcTT1a",
+   "ym": "https://music.youtube.com/channel/UCcAD2zfrR0-OopB6KnuHNXA",
+   "yt": true,
+   "note": "Eesti indie rock; NB aroundthesun.bandcamp.com on USA bänd, mitte see"
+  },
+  "Stefania Boiko": {
+   "sp": "https://open.spotify.com/artist/1NBIFoao4Mei8G2bLwqKy7",
+   "ym": "https://music.youtube.com/channel/UCkEua8bTwpK2b6lYlEIRULQ",
+   "yt": true,
+   "note": "Eesti (Tallinn)"
+  },
+  "Pihikamber": {
+   "sp": "https://open.spotify.com/artist/1U7beECsPFNoIxjHntKY7i",
+   "ym": "https://music.youtube.com/channel/UC0bNOcm6MR8A_yqT7EM5f5w",
+   "yt": true,
+   "note": "Eesti (Tallinn-Tartu)"
+  },
+  "Süki (LV)": {
+   "sp": "https://open.spotify.com/artist/5cnv6mwC5TTM6DYANDHmO3",
+   "ym": "https://music.youtube.com/channel/UC6WGbFMtrsg1kK65Emu242w",
+   "bc": "https://sukib4nd.bandcamp.com",
+   "yt": true,
+   "note": "Riia; NB suki.bandcamp.com on vale artist"
+  },
+  "Manna": {
+   "sp": "https://open.spotify.com/artist/4oaUp3DvGH0y6x8iD72Srk",
+   "ym": "https://music.youtube.com/channel/UC-LE3Y_9WalAYkLf5jtHlpQ",
+   "bc": "https://mannatheartist.bandcamp.com",
+   "yt": true,
+   "note": "Eesti (Tallinn), @mannatheartist"
+  },
+  "Such a Vain Endeavour": {
+   "sp": "https://open.spotify.com/artist/6tg2DltbwJgS4dgP9v2cxc",
+   "ym": "https://music.youtube.com/channel/UC4mdW36pIczoAI37vXyodbQ",
+   "bc": "https://suchavainendeavour.bandcamp.com",
+   "yt": true,
+   "note": "Eesti (Tallinn), slacker rock"
+  },
+  "Zakroyyy (LV)": {
+   "sp": "https://open.spotify.com/artist/0qJ6ONnUecCfjarHWTRDFz",
+   "ym": "https://music.youtube.com/channel/UCO5H28VwvuboXGLIJbLN1gA",
+   "bc": "https://zakroyyy.bandcamp.com",
+   "yt": true,
+   "note": "Riia indie-punk"
+  },
+  "superkomfort": {
+   "sp": "https://open.spotify.com/artist/4BDMkaminPIl2lPHZWOmHg",
+   "ym": "https://music.youtube.com/channel/UCUOOkXP3EPAd59hrk34VttQ",
+   "bc": "https://superkomfort.bandcamp.com",
+   "yt": true,
+   "note": "Eesti (Tallinn)"
+  },
+  "SHAMORGA": {
+   "sp": "https://open.spotify.com/artist/7rSNmmrXiqW506O3V7kLvs",
+   "bc": "https://shamorga.bandcamp.com",
+   "yt": true,
+   "note": "Eesti black metal (Tallinn), Metal Archives kinnitab"
+  },
+  "Swarn": {
+   "sp": "https://open.spotify.com/artist/2ULoBIykTEMzn4BkRz66Ur",
+   "bc": "https://swarn.bandcamp.com",
+   "yt": true,
+   "note": "Eesti death metal (Tartu), Warhorn Records; NB Rootsis on samanimeline bänd"
+  },
+  "Surrogoat": {
+   "bc": "https://surrogoat.bandcamp.com",
+   "yt": true,
+   "note": "Eesti death metal (Ihamaru/Tartu); Spotify kinnitamata"
+  },
+  "Routine (UA/DE)": {
+   "sp": "https://open.spotify.com/artist/6KeCJyMDqwyvuafDV96aqA",
+   "ym": "https://music.youtube.com/channel/UCVp8KwBU6DbS8-e6xlrJxaw",
+   "bc": "https://routinekyiv.bandcamp.com",
+   "yt": true,
+   "note": "UA/DE (Kyiv -> Saksamaa), Artoffact Records"
   }
  }
 }
