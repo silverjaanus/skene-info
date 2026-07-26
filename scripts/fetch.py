@@ -8,14 +8,15 @@ Dedup: sama kuupaev + kattuv nimi/band => manual voidab.
 Iga allikas on try/except sees - uhe allika kukkumine ei murra korjet.
 """
 import html, json, re, sys, unicodedata, urllib.parse, urllib.request
-from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-TODAY = date.today().isoformat()
 UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info korje; +https://www.skene.info)"}
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from archive_split import split_and_write
+from common import slug, today_local, load_blocklist, is_blocked, warn_unknown_bands
+
+TODAY = today_local().isoformat()
 
 # zhanrifilter segazhanrilistele venue'dele (paavli, helitehas)
 KEYW = re.compile(
@@ -30,22 +31,6 @@ def get(url, timeout=25):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
-
-def slug(s):
-    s = unicodedata.normalize("NFKD", s).lower()
-    return re.sub(r"[^a-z0-9]+", "", s)
-
-def warn_unknown_bands(data_dir, entries):
-    """bands.json hooldus: teata bandidest, keda verifitseeritud linkide failis veel pole."""
-    try:
-        bf = data_dir / "bands.json"
-        known = set(json.loads(bf.read_text(encoding="utf-8")).get("bands", {})) if bf.exists() else set()
-        names = {b for e in entries for b in e.get("b", []) if b}
-        missing = sorted(names - known)
-        if missing:
-            print(f"bands.json-ist puudub {len(missing)}: " + ", ".join(missing))
-    except Exception as ex:
-        print(f"bands-kontroll vahele jaetud: {type(ex).__name__}: {ex}")
 
 # Zanri META-vastendus — peab olema syncis index.html/arhiiv.html GENRE_META-ga!
 # Modifikaatorid (heavy, stoner, melodic, symphonic, extreme, post, psych, shoegaze) metat ei anna.
@@ -182,17 +167,7 @@ SOURCES = [("metalstorm", src_metalstorm), ("krypt", src_krypt),
 
 def main():
     manual = json.loads((ROOT / "data" / "manual.json").read_text(encoding="utf-8"))
-    blockfile = ROOT / "data" / "blocklist.json"
-    if blockfile.exists():
-        blockraw = json.loads(blockfile.read_text(encoding="utf-8"))
-    else:
-        print(f"HOIATUS: blocklist.json puudub ({blockfile})")
-        blockraw = []
-    for b in blockraw:
-        if "n" not in b:
-            print(f"HOIATUS: blocklist.json kirje ilma n-ita: {b}")
-    block = {(b["d"], slug(b["n"])) for b in blockraw if "d" in b and "n" in b}
-    block_names = {slug(b["n"]) for b in blockraw if "d" not in b and "n" in b}  # daatumita = blokeeri nimi igal kuupaeval
+    block, block_names = load_blocklist(ROOT / "data" / "blocklist.json")
     auto, log = [], []
     for name, fn in SOURCES:
         try:
@@ -209,9 +184,8 @@ def main():
     # blocklist kehtib ka manual.json-ile (nt kui kureeritud kirje osutub valeks/duplikaadiks)
     manual_ok = []
     for e in manual:
-        d, n = e.get("d", ""), e.get("n", "")
-        if (d, slug(n)) in block or slug(n) in block_names:
-            print(f"HOIATUS: manual.json kirje blokitud: {d} {n}")
+        if is_blocked(e, block, block_names):
+            print(f"HOIATUS: manual.json kirje blokitud: {e.get('d','')} {e.get('n','')}")
             continue
         manual_ok.append(e)
     manual = manual_ok
@@ -228,7 +202,7 @@ def main():
         if e["d"] < TODAY:
             continue
         k = (e["d"], slug(e["n"]))
-        if k in seen_auto or k in block or slug(e["n"]) in block_names:
+        if k in seen_auto or is_blocked(e, block, block_names):
             continue
         dup = False
         for (d, n, bs, vs) in known:

@@ -149,6 +149,7 @@ var Q=new URLSearchParams(location.search);
 var EMAIL=(Q.get("e")||"").trim(), TOK=(Q.get("t")||"").trim();
 var LANG=(function(){try{return Q.get("l")||localStorage.getItem('skene_lang')||'et';}catch(e){return Q.get("l")||'et';}})();
 if(LANG!=='en'&&LANG!=='et')LANG='et';
+try{history.replaceState(null,"",location.pathname);}catch(e){}
 var LANG_LOCKED=false;
 function t(k){var d=I18N[LANG]||I18N.et;return d[k]!==undefined?d[k]:(I18N.et[k]!==undefined?I18N.et[k]:k);}
 function applyI18n(){

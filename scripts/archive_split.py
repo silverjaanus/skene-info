@@ -8,16 +8,15 @@ sisu ei kaotata, isegi kui algallikas (Metal Storm, Fienta jne) enam möödunud
 
 Kasutavad nii scripts/fetch.py kui scripts/fetch_rap.py.
 """
-import json, re, unicodedata
+import json, sys
 from datetime import date
 from pathlib import Path
 
-TODAY = date.today().isoformat()
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import (slug as _slug, load_entries as _load_entries,
+                    end_date as _end_date, is_blocked, today_local)
 
-
-def _slug(s):
-    s = unicodedata.normalize("NFKD", s).lower()
-    return re.sub(r"[^a-z0-9]+", "", s)
+TODAY = today_local().isoformat()
 
 
 def _key(e):
@@ -35,41 +34,10 @@ def _featured(e):
     return 0 <= diff <= 30
 
 
-def _end_date(e):
-    """Ürituse lõppkuupäev ISO-formaadis: d2 ("PP.KK") kui olemas, muidu d.
-    Aastavahetust ületav d2 (nt d=30.12, d2=02.01) -> järgmine aasta.
-    Vigase d2 korral fallback d peale."""
-    d = e.get("d", "")
-    m = re.fullmatch(r"(\d{1,2})\.(\d{1,2})", e.get("d2") or "")
-    if not m or len(d) < 10:
-        return d
-    day, month = int(m.group(1)), int(m.group(2))
-    try:
-        end = date(int(d[:4]), month, day)
-        if end.isoformat() < d:
-            end = date(int(d[:4]) + 1, month, day)
-    except ValueError:
-        return d
-    return end.isoformat()
-
-
 def _is_current(e):
     """Kuulub data.json-i (mitte arhiivi): tulevane VÕI VEEL KÄIMAS (d2 järgi),
     TBA või veel featured-aknas. Mitmepäevane üritus püsib saidil lõpupäeva lõpuni."""
     return bool(e.get("tba")) or _featured(e) or _end_date(e) >= TODAY
-
-
-def _load_entries(path):
-    if not path.exists():
-        return []
-    try:
-        j = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        print(f"HOIATUS: {path} ei parsinud, kasutan tühja")
-        return []
-    if isinstance(j, dict):
-        return j.get("entries", [])
-    return j if isinstance(j, list) else []
 
 
 def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
@@ -98,7 +66,7 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
             k = _key(e)
             if k in seen:
                 continue
-            if apply_block and (k in block or _slug(e["n"]) in block_names):
+            if apply_block and is_blocked(e, block, block_names):
                 continue
             seen.add(k)
             allentries.append(e)
@@ -136,7 +104,7 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
         merged = {}
         for e in _load_entries(yfile):
             k = _key(e)
-            if k in block or _slug(e.get("n", "")) in block_names:
+            if is_blocked(e, block, block_names):
                 continue
             merged[k] = e
         for e in by_year.get(y, []):

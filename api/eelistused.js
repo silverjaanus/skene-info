@@ -57,6 +57,7 @@ module.exports = async function handler(req, res) {
   res.setHeader("Cache-Control", "no-store");
   const isPost = req.method === "POST";
   if (!isPost && req.method !== "GET") {
+    res.setHeader("Allow", "GET, POST");
     return res.status(405).json({ ok: false, error: "method" });
   }
   if (!process.env.ML_TOKEN || !process.env.PREF_SECRET) {
@@ -90,7 +91,10 @@ module.exports = async function handler(req, res) {
     return res.status(200).json(out);
   }
 
-  const wanted = Array.isArray(body.groups) ? body.groups.map(String) : [];
+  if (!Array.isArray(body.groups)) {
+    return res.status(400).json({ ok: false, error: "groups", message: "groups peab olema massiiv, nt {\"groups\":[\"metal\"]}" });
+  }
+  const wanted = body.groups.map(String);
   const want = new Set(wanted.filter(function (c) { return CATS.indexOf(c) >= 0; }));
   const failed = [];
   for (const c of CATS) {

@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RAP.SKENE.INFO — üritused, merch ja reliisid ühest kohast</title>
 <meta name="description" content="Eesti räpp ja hip-hop: üritused, merch ja reliisid ühest kohast.">
+<link rel="canonical" href="https://rap.skene.info/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SKENE.INFO">
+<meta property="og:title" content="RAP.SKENE.INFO — üritused, merch ja reliisid ühest kohast">
+<meta property="og:description" content="Eesti räpp ja hip-hop: üritused, merch ja reliisid ühest kohast.">
+<meta property="og:url" content="https://rap.skene.info/">
+<meta property="og:image" content="https://www.skene.info/icons/cover.png">
+<meta property="og:image:width" content="1640">
+<meta property="og:image:height" content="624">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2E5EAA">
+<link rel="apple-touch-icon" href="https://www.skene.info/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.skene.info/icons/icon-192.png">
 <script defer src="/_vercel/insights/script.js"></script>
 <style>
 :root{
@@ -87,7 +100,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .pv small{display:block;font-weight:400;font-size:11px;color:var(--hall);margin:2px 0 6px}
 .tag{font-family:var(--mono);font-size:10px;color:var(--paber);padding:2px 6px;display:inline-block;text-transform:uppercase;letter-spacing:.4px}
 .t-kontsert{background:var(--sinine)} .t-festival{background:var(--roosa)}
-.t-klubi{background:var(--tyrkiis)} .t-reliis{background:var(--oranz)} .t-merch{background:var(--oranz)}
+.t-klubi{background:var(--tyrkiis)} .t-reliis{background:var(--oranz)} .t-merch{background:var(--oranz)} .t-muu{background:var(--accent)}
 .laebi{font-family:var(--mono);font-size:10px;border:1.5px solid var(--tint);padding:1px 5px;letter-spacing:1px;display:inline-block;margin-top:4px}
 .tit{font-size:18px;font-weight:700}
 .tit a{text-decoration:none;border-bottom:1.5px solid transparent}
@@ -227,7 +240,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       <a href="arhiiv.html" data-i18n="nav_archive">ARHIIV</a>
     </div>
     <div class="nav-right">
-      <input id="f-q" class="qin navq" type="search" oninput="setQ(this.value)" data-i18n-ph="ph_q" placeholder="Otsi: artist, koht, üritus…">
+      <input id="f-q" class="qin navq" type="search" aria-label="Otsi üritusi" oninput="setQ(this.value)" data-i18n-ph="ph_q" placeholder="Otsi: artist, koht, üritus…">
       <button type="button" class="ftog" id="ftog" aria-expanded="false" onclick="toggleFilters()" data-i18n="f_filters">Filtrid</button>
       <div class="langsw" role="group" aria-label="Keel / Language">
         <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
@@ -302,7 +315,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       var ok=function(){f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
       var fail=function(){if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
       fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&fields%5Bgrupid%5D='+encodeURIComponent(cats.join(','))+'&ml-submit=1&anticsrf=true'})
-        .then(function(r){return r.json();})
+        .then(function(r){if(!r.ok)throw 0;return r.json();})
         .then(function(resp){if(resp&&resp.success===false){fail();}else{ok();}})
         .catch(function(){fail();});
       return false;
@@ -323,7 +336,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 </div>
 <button id="toTop" type="button" data-i18n-title="totop" title="Üles" aria-label="Üles" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 <script>
-const TODAY = new Date().toISOString().slice(0,10);
+const _d=new Date(), TODAY=_d.getFullYear()+"-"+String(_d.getMonth()+1).padStart(2,"0")+"-"+String(_d.getDate()).padStart(2,"0");
 let E = [];
 const I18N={
  et:{
@@ -352,10 +365,10 @@ const I18N={
   nl_err:"Registreerimine ebaõnnestus. Proovi hetke pärast uuesti.",
   ethos:"Rap.skene.info ei müü pileteid ega korralda üritusi — iga kirje viitab korraldajale ja piletimüüjale. Toeta skeenet: osta pilet, osta plaat, mine kohale.",
   totop:"Üles",
-  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch",
+  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch", t_muu:"muu",
   c_all:"kõik", c_mujal:"mujal Eesti",
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
-  tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch",
+  tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
@@ -390,10 +403,10 @@ const I18N={
   nl_err:"Subscription failed. Please try again in a moment.",
   ethos:"Rap.skene.info doesn't sell tickets or organise events — every listing links to the organiser and ticket seller. Support the scene: buy a ticket, buy a record, show up.",
   totop:"Top",
-  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch",
+  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch", t_muu:"other",
   c_all:"all", c_mujal:"elsewhere in Estonia",
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
-  tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch",
+  tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
@@ -441,7 +454,7 @@ const E_FALLBACK = [
  {d:"2026-08-14",d2:"15.08",t:"festival",n:"Eesti Hip Hop Festival 2026",a:"artistid selgumisel",b:[],v:"Elva",c:"mujal",g:["hip-hop","räpp"],sn:"eestihiphopfestival.ee",su:"https://eestihiphopfestival.ee/",pu:"https://eestihiphopfestival.ee/"},
  {d:"2027-08-13",d2:"14.08",t:"festival",n:"Tartu Punch 2027",b:[],v:"Paavli Kultuurivabrik",c:"Tallinn",g:["hip-hop","räpp"],sn:"paavli.ee",su:"https://paavli.ee/sundmused/tartu-punch-2027/",on_:"paavli.ee",ou:"https://paavli.ee/sundmused/tartu-punch-2027/",pu:"https://piletitasku.ee/et/event/10014"}
 ];
-const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"]];
+const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"],["t_muu","muu"]];
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
 let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:""};
 let calView=(function(){try{return localStorage.getItem('skene_calview')||'cal';}catch(e){return 'cal';}})();
@@ -500,9 +513,11 @@ function calLinks(e){
   const loc=(e.v||"")+(e.linn?", "+e.linn:"");
   const gurl="https://www.google.com/calendar/render?action=TEMPLATE&text="+enc(e.n)
     +"&dates="+ymd(start)+"/"+ymd(end)+"&location="+enc(loc)+"&details="+enc("Allikas: "+(e.su||""));
-  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:"+e.n
+  const icsEsc=s=>String(s??"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");
+  const uid=(String(e.n).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"event")+"-"+e.d+"@skene.info";
+  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//skene.info//ET\nBEGIN:VEVENT\nUID:"+uid+"\nSUMMARY:"+icsEsc(e.n)
     +"\nDTSTART;VALUE=DATE:"+ymd(start)+"\nDTEND;VALUE=DATE:"+ymd(end)
-    +"\nLOCATION:"+loc+"\nDESCRIPTION:"+(e.su||"")+"\nEND:VEVENT\nEND:VCALENDAR";
+    +"\nLOCATION:"+icsEsc(loc)+"\nDESCRIPTION:"+icsEsc(e.su||"")+"\nEND:VEVENT\nEND:VCALENDAR";
   const icsUri="data:text/calendar;charset=utf-8,"+enc(ics);
   return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">${t('cal_google')}</a> <a class="a4" href="${icsUri}" download="skene-event.ics">${t('cal_apple')}</a>`;
 }
@@ -532,6 +547,7 @@ function suggestEdit(i){
   const det=document.querySelector('.cdet');if(!det)return false;
   det.open=true;
   const f=det.querySelector('form');
+  if(!f||!f.querySelector('[name="Uritus / reliis"]')||!f.querySelector('[name="Kuupaev ja koht"]')||!f.querySelector('[name="Link"]')||!f.querySelector('[name="Lisainfo"]')){det.scrollIntoView({behavior:'smooth',block:'start'});return false;}
   f.querySelector('[name="Uritus / reliis"]').value=e.n;
   f.querySelector('[name="Kuupaev ja koht"]').value=e.d+(e.d2?"–"+e.d2:"")+(e.v?", "+e.v:"")+(e.linn?", "+e.linn:(e.c&&e.c!=="mujal"?", "+e.c:""));
   f.querySelector('[name="Link"]').value=e.ou||e.su||"";
@@ -568,7 +584,7 @@ function render(){
   RROWS=rows;
   document.getElementById("list").innerHTML=rows.map((e,i)=>{
     const past=!featured(e)&&!e.tba&&e.d<TODAY;
-    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
+    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
     if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_||e.sn)} ↗</a>`;}

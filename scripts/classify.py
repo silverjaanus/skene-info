@@ -163,9 +163,18 @@ def lastfm_lookup(artist, api_key):
     return tags
 
 
+LUCENE_SPECIAL = set('+-&|!(){}[]^"~*?:\\/')
+
+
+def escape_lucene(s):
+    """Pageb MusicBrainzi Lucene-paringu erimargid (+ - && || ! ( ) { } [ ] ^ " ~ * ? : \\ /),
+    et erimarkidega artistinimi (nt "AC/DC", "Kill?") ei annaks vaikselt tuhja tulemust."""
+    return "".join(("\\" + ch if ch in LUCENE_SPECIAL else ch) for ch in s)
+
+
 def musicbrainz_lookup(artist):
     """MusicBrainz artist-otsing. Kasutab ainult esimest tulemust, kui score >= 90."""
-    query = "artist:" + artist
+    query = "artist:" + escape_lucene(artist)
     params = {"query": query, "fmt": "json", "limit": "1"}
     url = MUSICBRAINZ_URL + "?" + urllib.parse.urlencode(params)
     headers = {"User-Agent": MB_USER_AGENT}

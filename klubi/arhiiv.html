@@ -11,7 +11,7 @@
 <style>
 :root{
   --paber:#F2EFF5; --tint:#17151A; --hall:#5A5462; --joon:#8E8798;
-  --telliskivi:#6E45A8; --ploom:#4E4275; --sinep:#A8811F; --paatina:#2C5B54;
+  --telliskivi:#6E45A8; --ploom:#4E4275; --sinep:#A8811F; --paatina:#2C5B54; --lilla:#6E45A8;
   --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
   --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
 }
@@ -63,7 +63,7 @@ aside{position:sticky;top:16px;padding-top:16px}
 .pv small{display:block;font-weight:400;font-size:11px;color:var(--hall);margin:2px 0 6px}
 .tag{font-family:var(--mono);font-size:10px;color:var(--paber);padding:2px 6px;display:inline-block;text-transform:uppercase;letter-spacing:.4px}
 .t-kontsert{background:var(--telliskivi)} .t-festival{background:var(--sinep);color:var(--tint)}
-.t-klubi{background:var(--ploom)} .t-reliis{background:var(--paatina)} .t-merch{background:var(--paatina)}
+.t-klubi{background:var(--ploom)} .t-reliis{background:var(--paatina)} .t-merch{background:var(--paatina)} .t-muu{background:var(--paatina)}
 .tit{font-size:18px;font-weight:700}
 .tit a{text-decoration:none;border-bottom:1.5px solid transparent}
 .tit a:hover{border-bottom-color:var(--telliskivi)}
@@ -173,10 +173,10 @@ const I18N={
   f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", foot_live:"← KLUBI LIVE-KALENDER", nav_archive:"ARHIIV",
   ethos_arch:"Arhiiv koondab kõik, mis on saidil olnud — miski ei kao. Iga kirje viitab endiselt algallikale.",
   totop:"Üles",
-  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch",
+  t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch", t_muu:"muu",
   c_all:"kõik", c_mujal:"mujal Eesti",
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
-  tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch",
+  tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   organizer:"korraldaja:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
   empty_view:"Selles vaates pole kirjeid.",
@@ -192,10 +192,10 @@ const I18N={
   f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", foot_live:"← CLUB LIVE CALENDAR", nav_archive:"ARCHIVE",
   ethos_arch:"The archive keeps everything that's ever been on the site — nothing disappears. Every listing still links to its source.",
   totop:"Top",
-  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch",
+  t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch", t_muu:"other",
   c_all:"all", c_mujal:"elsewhere in Estonia",
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
-  tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch",
+  tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   organizer:"organiser:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
   empty_view:"No entries in this view.",
@@ -216,7 +216,7 @@ function applyI18n(){
   document.querySelectorAll('.langsw button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===LANG);});
 }
 function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();refresh();}
-const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"]];
+const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"],["t_muu","muu"]];
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
 let YEARS=[], CACHE={}, E=[];
 let st={year:null,kuu:null,type:null,tags:new Set(),city:null};
@@ -284,7 +284,7 @@ function render(){
     +(st.tags.size?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
   if(!rows.length){document.getElementById("list").innerHTML='<p class="empty">'+t('empty_view')+'</p>';return;}
   document.getElementById("list").innerHTML=rows.map(e=>{
-    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch"}[e.t];
+    const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
     if(sameSrc){lnks=`<a class="a2" href="${surl(e.ou)}" target="_blank" rel="noopener">${t('organizer')} ${esc(e.on_||e.sn)} ↗</a>`;}

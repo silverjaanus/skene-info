@@ -15,19 +15,20 @@ Kasutus:
   python make_weekly_email.py --data <data.json> --out <email> --send \\
       --token-file mailerlite_token.txt --config mailerlite_config.json
 """
-import argparse, json, os, sys, html, datetime as dt
+import argparse, json, os, sys, html
 import urllib.request, urllib.error
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week, in_window, today_local
 
 # ---- palett (index.html :root) ----
 PABER="#F3F0E7"; TINT="#1A1A1A"; HALL="#5A564C"; JOON="#8F8A7C"
 KAART="#FBFAF5"
 TELLISKIVI="#93392C"; PLOOM="#4E4275"; SINEP="#A8811F"; PAATINA="#2C5B54"
 TYPE_COLOR={"kontsert":TELLISKIVI,"festival":SINEP,"klubi":PLOOM,"reliis":PAATINA,"merch":PAATINA}
-EESTI={"Tallinn","Tartu","mujal"}
 # kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat, tuup jaab tekstina
 CAT_COLOR={"metal":"#93392C","rap":"#2E5EAA","klubi":"#6E45A8"}
 CAT_LABEL={"et":{"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"},"en":{"metal":"METAL","rap":"RAP","klubi":"CLUB"}}
-CAT_ORDER=["metal","rap","klubi"]
 # MailerLite eelistuste/loobumise link (grupid subscriber-managed); kinnita ML manage-tag
 MANAGE_LINK="{$preferences}"
 # Multi-uudiskirja cross-promo ("Sa tellid ainult metal-uudiskirja...") on praegu VÄLJAS.
@@ -82,28 +83,6 @@ I18N={
   "subject":"skene.info weekly &mdash; {range}",
  },
 }
-
-def parse_d(s): return dt.date.fromisoformat(s)
-
-def event_span(e):
-    start=parse_d(e["d"])
-    if e.get("d2"):
-        dd,mm=e["d2"].split("."); end=dt.date(start.year,int(mm),int(dd))
-        if end<start: end=dt.date(start.year+1,int(mm),int(dd))
-        return start,end
-    return start,start
-
-def this_and_next_week(ref):
-    wd=ref.weekday()
-    return ref, ref+dt.timedelta(days=(13-wd))
-
-def in_window(e,ws,we):
-    try:
-        s,en=event_span(e)
-    except (KeyError, ValueError, TypeError):
-        print(f"HOIATUS: kirje vigase/puuduva kuupaevaga jaeti aknast valja: {e.get('n','?')} (d={e.get('d','?')!r})")
-        return False
-    return s<=we and en>=ws
 
 def esc(s): return html.escape(s or "")
 
@@ -340,7 +319,7 @@ def main():
         except Exception:
             pass
 
-    ref=parse_d(args.date) if args.date else dt.date.today()
+    ref=parse_d(args.date) if args.date else today_local()
     ws,we=this_and_next_week(ref)
 
     if args.repo:

@@ -24,12 +24,15 @@ Reeglid (vt PROJEKT.md):
     Kui ka MAX_PAGES lehte ei mahuta koike (ebatoenaoline), viimasele lehele
     rida "+N veel skene.info-s".
 """
-import argparse, json, os, random, sys, datetime as dt
+import argparse, json, os, random, re, sys, datetime as dt
 
 try:
     from PIL import Image, ImageDraw, ImageFont
 except ImportError:
     sys.exit("Vajalik: pip install pillow")
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week, in_window, today_local
 
 # ---- palett (index.html :root) ----
 PABER      = (0xF3, 0xF0, 0xE7)
@@ -45,11 +48,9 @@ TYPE_COLOR = {"kontsert": TELLISKIVI, "festival": SINEP, "klubi": PLOOM,
               "reliis": PAATINA, "merch": PAATINA}
 TYPE_LABEL = {"kontsert": "KONTSERT", "festival": "FESTIVAL", "klubi": "KLUBI",
               "reliis": "UUS RELIIS", "merch": "MERCH"}
-EESTI = {"Tallinn", "Tartu", "mujal"}
 # kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat karussellis
 CAT_COLOR = {"metal": (0x93,0x39,0x2C), "rap": (0x2E,0x5E,0xAA), "klubi": (0x6E,0x45,0xA8)}
 CAT_LABEL_IMG = {"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"}
-CAT_ORDER = ["metal","rap","klubi"]
 KUUD_GEN = {1:"jaanuar",2:"veebruar",3:"marts",4:"aprill",5:"mai",6:"juuni",
             7:"juuli",8:"august",9:"september",10:"oktoober",11:"november",12:"detsember"}
 
@@ -95,33 +96,6 @@ def load_fonts():
             "bands": _font(MONO_R, 22), "venue": _font(SANS_B, 24),
             "price": _font(MONO_B, 22), "foot_b": _font(SANS_B, 29),
             "foot_r": _font(MONO_R, 21), "more": _font(SANS_B, 29)}
-
-def parse_d(s):
-    return dt.date.fromisoformat(s)
-
-def event_span(e):
-    start = parse_d(e["d"])
-    if e.get("d2"):
-        dd, mm = e["d2"].split(".")
-        end = dt.date(start.year, int(mm), int(dd))
-        if end < start:
-            end = dt.date(start.year + 1, int(mm), int(dd))
-        return start, end
-    return start, start
-
-def this_and_next_week(ref):
-    """See + jargmine nadal: tanasest kuni JARGMISE kalendrinadala pyhapaevani."""
-    wd = ref.weekday()  # E=0 ... P=6
-    end = ref + dt.timedelta(days=(13 - wd))  # selle nadala pyhapaev + 7
-    return ref, end
-
-def in_window(e, ws, we):
-    try:
-        s, en = event_span(e)
-    except (KeyError, ValueError, TypeError):
-        print(f"HOIATUS: kirje vigase/puuduva kuupaevaga jaeti aknast valja: {e.get('n','?')} (d={e.get('d','?')!r})")
-        return False
-    return s <= we and en >= ws
 
 def wrap(draw, text, font, maxw, max_lines):
     words = text.split()
@@ -316,6 +290,33 @@ def page_path(base_out, i):
     root, ext = os.path.splitext(base_out)
     return f"{root}-{i}{ext}"
 
+NADAL_JPG_RE = re.compile(r"^nadal-(\d{4}-\d{2}-\d{2})(?:-\d+)?\.jpg$")
+NADAL_MAX_AGE_DAYS = 28
+
+def cleanup_nadal_dir(repo_root):
+    """Kustutab nadal/ kaustast vanad nadalapildid (nadal-YYYY-MM-DD[-N].jpg),
+    mille failinime kuupaev on vanem kui NADAL_MAX_AGE_DAYS paeva. latest.json
+    ja postitused/ kaust jaavad puutumata; parsimatu failinimi jaetakse rahule."""
+    nadal_dir = os.path.join(repo_root, "nadal")
+    if not os.path.isdir(nadal_dir):
+        return
+    cutoff = today_local() - dt.timedelta(days=NADAL_MAX_AGE_DAYS)
+    for fn in sorted(os.listdir(nadal_dir)):
+        m = NADAL_JPG_RE.match(fn)
+        if not m:
+            continue
+        try:
+            fdate = parse_d(m.group(1))
+        except ValueError:
+            continue
+        if fdate < cutoff:
+            fp = os.path.join(nadal_dir, fn)
+            try:
+                os.remove(fp)
+                print(f"kustutatud: nadal/{fn}")
+            except OSError as ex:
+                print(f"HOIATUS: ei suutnud kustutada nadal/{fn}: {ex}")
+
 def main():
     ap = argparse.ArgumentParser()
     here = os.path.dirname(os.path.abspath(__file__))
@@ -329,7 +330,7 @@ def main():
     ap.add_argument("--days", type=int, default=7)
     args = ap.parse_args()
 
-    ref = parse_d(args.date) if args.date else dt.date.today()
+    ref = parse_d(args.date) if args.date else today_local()
     if args.frm:
         ws = parse_d(args.frm)
         we = ws + dt.timedelta(days=args.days - 1)
@@ -389,6 +390,9 @@ def main():
           + f"; aken {ws}..{we}")
     for p in paths:
         print(f"  {p}")
+
+    # nadal/ kausta vanade nadalapiltide auto-puhastus (postitused/ ja latest.json puutumata)
+    cleanup_nadal_dir(args.repo)
 
 if __name__ == "__main__":
     main()

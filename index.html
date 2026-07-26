@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SKENE.INFO — üritused, merch ja reliisid ühest kohast</title>
 <meta name="description" content="Eesti alternatiiv skene: üritused, merch ja reliisid ühest kohast.">
+<link rel="canonical" href="https://www.skene.info/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SKENE.INFO">
+<meta property="og:title" content="SKENE.INFO — üritused, merch ja reliisid ühest kohast">
+<meta property="og:description" content="Eesti alternatiiv skene: üritused, merch ja reliisid ühest kohast.">
+<meta property="og:url" content="https://www.skene.info/">
+<meta property="og:image" content="https://www.skene.info/icons/cover.png">
+<meta property="og:image:width" content="1640">
+<meta property="og:image:height" content="624">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F3F0E7">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
@@ -238,7 +248,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       <a href="/arhiiv.html" data-i18n="nav_archive">ARHIIV</a>
     </div>
     <div class="nav-right">
-      <input id="f-q" class="qin navq" type="search" oninput="setQ(this.value)" data-i18n-ph="ph_q" placeholder="Otsi: bänd, koht, üritus…">
+      <input id="f-q" class="qin navq" type="search" aria-label="Otsi üritusi" oninput="setQ(this.value)" data-i18n-ph="ph_q" placeholder="Otsi: bänd, koht, üritus…">
       <button type="button" class="ftog" id="ftog" aria-expanded="false" onclick="toggleFilters()" data-i18n="f_filters">Filtrid</button>
       <div class="langsw" role="group" aria-label="Keel / Language">
         <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
@@ -322,7 +332,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 </div>
 <button id="toTop" type="button" data-i18n-title="totop" title="Üles" aria-label="Üles" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 <script>
-const TODAY = new Date().toISOString().slice(0,10);
+const _d=new Date(), TODAY=_d.getFullYear()+"-"+String(_d.getMonth()+1).padStart(2,"0")+"-"+String(_d.getDate()).padStart(2,"0");
 let E = [];
 // --- i18n (ET/EN); ürituste ANDMED jäävad eesti keeles, tõlgitakse ainult liides ---
 const I18N={
@@ -462,7 +472,7 @@ function subscribeNl(ev,f){
   var ok=function(){f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
   var fail=function(){if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
   fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&fields%5Bgrupid%5D='+encodeURIComponent(cats.join(','))+'&ml-submit=1&anticsrf=true'})
-    .then(function(r){return r.json();})
+    .then(function(r){if(!r.ok)throw 0;return r.json();})
     .then(function(resp){if(resp&&resp.success===false){fail();}else{ok();}})
     .catch(function(){fail();});
   return false;
@@ -598,9 +608,11 @@ function calLinks(e){
   const loc=(e.v||"")+(e.linn?", "+e.linn:"");
   const gurl="https://www.google.com/calendar/render?action=TEMPLATE&text="+enc(e.n)
     +"&dates="+ymd(start)+"/"+ymd(end)+"&location="+enc(loc)+"&details="+enc("Allikas: "+(e.su||""));
-  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:"+e.n
+  const icsEsc=s=>String(s??"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");
+  const uid=(String(e.n).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"event")+"-"+e.d+"@skene.info";
+  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//skene.info//ET\nBEGIN:VEVENT\nUID:"+uid+"\nSUMMARY:"+icsEsc(e.n)
     +"\nDTSTART;VALUE=DATE:"+ymd(start)+"\nDTEND;VALUE=DATE:"+ymd(end)
-    +"\nLOCATION:"+loc+"\nDESCRIPTION:"+(e.su||"")+"\nEND:VEVENT\nEND:VCALENDAR";
+    +"\nLOCATION:"+icsEsc(loc)+"\nDESCRIPTION:"+icsEsc(e.su||"")+"\nEND:VEVENT\nEND:VCALENDAR";
   const icsUri="data:text/calendar;charset=utf-8,"+enc(ics);
   return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">${t('cal_google')}</a> <a class="a4" href="${icsUri}" download="skene-event.ics">${t('cal_apple')}</a>`;
 }
@@ -630,6 +642,7 @@ function suggestEdit(i){
   const det=document.querySelector('.cdet');if(!det)return false;
   det.open=true;
   const f=det.querySelector('form');
+  if(!f||!f.querySelector('[name="Uritus / reliis"]')||!f.querySelector('[name="Kuupaev ja koht"]')||!f.querySelector('[name="Link"]')||!f.querySelector('[name="Lisainfo"]')){det.scrollIntoView({behavior:'smooth',block:'start'});return false;}
   f.querySelector('[name="Uritus / reliis"]').value=e.n;
   f.querySelector('[name="Kuupaev ja koht"]').value=e.d+(e.d2?"–"+e.d2:"")+(e.v?", "+e.v:"")+(e.linn?", "+e.linn:(e.c&&e.c!=="mujal"?", "+e.c:""));
   f.querySelector('[name="Link"]').value=e.ou||e.su||"";

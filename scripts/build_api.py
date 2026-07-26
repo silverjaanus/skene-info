@@ -13,11 +13,12 @@ CORS-pais puudub teadlikult (vercel.json legacy 'routes' ei luba
 'headers' sektsiooni) - serveripoolne GET seda ei vaja; kui tekib
 brauseripohine tarbija, tuleb routes -> rewrites+headers migreerida.
 """
-import json
-from datetime import date
+import json, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import load_entries, today_local
 # NB: peakataloogi failid elavad kaustas feed/, MITTE api/ -- niipea kui juurkausta
 # api/ sisse tekkis Verceli funktsioon (api/eelistused.js), peitis Vercel kogu selle
 # kausta staatilisest valjundist ja /api/events.json andis 404. Avalikud URLid on
@@ -73,22 +74,9 @@ def _meta(sisu):
     }
 
 
-def _entries(path):
-    if not path.exists():
-        return []
-    try:
-        j = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        print(f"HOIATUS: {path} ei parsinud, kasutan tühja")
-        return []
-    if isinstance(j, dict):
-        return j.get("entries", [])
-    return j if isinstance(j, list) else []
-
-
 def _write(path, sisu, entries):
     out = {
-        "updated": date.today().isoformat(),
+        "updated": today_local().isoformat(),
         "_meta": _meta(sisu),
         "count": len(entries),
         "entries": entries,
@@ -102,12 +90,12 @@ def build():
     API.mkdir(exist_ok=True)
     events, archive = [], []
     for sait, ddir in SITES:
-        for e in _entries(ddir / "data.json"):
+        for e in load_entries(ddir / "data.json"):
             events.append({"sait": sait, **e})
         adir = ddir / "archive"
         if adir.exists():
             for f in sorted(adir.glob("[0-9][0-9][0-9][0-9].json")):
-                for e in _entries(f):
+                for e in load_entries(f):
                     archive.append({"sait": sait, **e})
     events.sort(key=lambda e: (e.get("d", ""), e.get("n", "")))
     archive.sort(key=lambda e: (e.get("d", ""), e.get("n", "")))
