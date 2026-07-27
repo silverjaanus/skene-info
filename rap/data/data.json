@@ -21,7 +21,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2179740245926404/",
    "pu": "https://fienta.com/et/skizoe-ja-benakanister-plaadiesitlus",
-   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta"
+   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta",
+   "img": "pildid/skizjabenakanisterplaadiesitlus.webp"
   },
   {
    "d": "2026-08-14",
@@ -75,7 +76,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1378621834167563/",
    "pu": "https://fienta.com/et/back-2-bashment",
-   "nb": "lisatud sweepis 19.07.2026; Bashment FM sari aastast 1998"
+   "nb": "lisatud sweepis 19.07.2026; Bashment FM sari aastast 1998",
+   "img": "pildid/back2bashment.webp"
   },
   {
    "d": "2027-08-13",
@@ -93,7 +95,8 @@
    "su": "https://paavli.ee/sundmused/tartu-punch-2027/",
    "on_": "paavli.ee",
    "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
-   "pu": "https://piletitasku.ee/et/event/10014"
+   "pu": "https://piletitasku.ee/et/event/10014",
+   "img": "pildid/tartupunch2027.webp"
   }
  ]
 }

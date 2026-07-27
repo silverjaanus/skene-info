@@ -10,7 +10,6 @@
     "Oudeis"
    ],
    "v": "Bandcamp",
-   "c": "Tallinn",
    "g": [
     "industrial",
     "techno",
@@ -18,7 +17,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://oudeis.bandcamp.com/album/discrete-sensation",
-   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)"
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)",
+   "img": "pildid/oudeisdiscretesensation.webp"
   },
   {
    "d": "2026-07-16",
@@ -51,7 +51,8 @@
     "praegu": "150€",
     "mark": "pass",
     "allikas": "ticketer.ee, kontrollitud 13.07.2026"
-   }
+   },
+   "img": "pildid/ilandsound2026.webp"
   },
   {
    "d": "2026-07-17",

@@ -46,7 +46,6 @@
     "I AM BOB"
    ],
    "v": "Bandcamp",
-   "c": "Tallinn",
    "g": [
     "rock",
     "stoner",
@@ -54,7 +53,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://iambob.bandcamp.com/album/i-am-bob-ep",
-   "nb": "lisatud kontaktivormi veaparanduse põhjal 25.07.2026 (ilmus 10.06.2026)"
+   "nb": "lisatud kontaktivormi veaparanduse põhjal 25.07.2026 (ilmus 10.06.2026)",
+   "img": "pildid/iambobiambobep.webp"
   },
   {
    "sait": "www",
@@ -73,7 +73,8 @@
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
    "on_": "paavli.ee",
-   "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/"
+   "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/",
+   "img": "pildid/bloodincantationnatemercereau.webp"
   },
   {
    "sait": "www",
@@ -90,7 +91,8 @@
     "pagan"
    ],
    "sn": "metsatoll.ee",
-   "su": "https://www.metsatoll.ee/en/gigs/"
+   "su": "https://www.metsatoll.ee/en/gigs/",
+   "img": "pildid/ollesummermetsatoll.webp"
   },
   {
    "sait": "www",
@@ -134,7 +136,8 @@
    ],
    "sn": "uuslaine.com",
    "su": "https://uuslaine.com/",
-   "pu": "https://fienta.com/et/laine-live-molbo"
+   "pu": "https://fienta.com/et/laine-live-molbo",
+   "img": "pildid/lainelivemolbohomebroke.webp"
   },
   {
    "sait": "klubi",
@@ -146,7 +149,6 @@
     "Oudeis"
    ],
    "v": "Bandcamp",
-   "c": "Tallinn",
    "g": [
     "industrial",
     "techno",
@@ -154,7 +156,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://oudeis.bandcamp.com/album/discrete-sensation",
-   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)"
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)",
+   "img": "pildid/oudeisdiscretesensation.webp"
   },
   {
    "sait": "rap",
@@ -177,7 +180,8 @@
    ],
    "sn": "beachgrind.ee",
    "su": "https://beachgrind.ee/",
-   "pu": "https://beachgrind.ee/"
+   "pu": "https://beachgrind.ee/",
+   "img": "pildid/beachgrind2026.webp"
   },
   {
    "sait": "www",
@@ -343,7 +347,6 @@
     "Face Collector"
    ],
    "v": "Bandcamp",
-   "c": "Tallinn",
    "g": [
     "death",
     "black",
@@ -351,7 +354,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://facecollector.bandcamp.com/album/demo",
-   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)"
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)",
+   "img": "pildid/facecollectordemo.webp"
   },
   {
    "sait": "klubi",
@@ -385,7 +389,8 @@
     "praegu": "150€",
     "mark": "pass",
     "allikas": "ticketer.ee, kontrollitud 13.07.2026"
-   }
+   },
+   "img": "pildid/ilandsound2026.webp"
   },
   {
    "sait": "rap",
@@ -476,7 +481,6 @@
     "Enditian"
    ],
    "v": "Bandcamp",
-   "c": "Tartu",
    "g": [
     "punk",
     "industrial"
@@ -529,7 +533,8 @@
     "praegu": "72.70€",
     "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda",
     "allikas": "ticketer.ee, kontrollitud 06.07.2026"
-   }
+   },
+   "img": "pildid/kablikubeercamprocknroll.webp"
   },
   {
    "sait": "www",
@@ -577,7 +582,8 @@
    "su": "https://www.facebook.com/events/2027042781412811/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2027042781412811/",
-   "pu": "https://www.piletitasku.ee/et/event/9528"
+   "pu": "https://www.piletitasku.ee/et/event/9528",
+   "img": "pildid/thetuberkuloited35rakvere.webp"
   },
   {
    "sait": "klubi",
@@ -659,7 +665,8 @@
     "praegu": "12€ eelmüük / 15€ laadapäeval",
     "mark": "kohapeal 20€; laps kuni 10 a tasuta; simman algab 20.00",
     "allikas": "Fienta, kontrollitud 12.07.2026"
-   }
+   },
+   "img": "pildid/mihklilaadasimmanvennaskondflyers.webp"
   },
   {
    "sait": "www",
@@ -705,7 +712,8 @@
    "su": "https://www.facebook.com/events/2132298354211092/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2132298354211092/",
-   "pu": "https://www.piletitasku.ee/et/event/9350"
+   "pu": "https://www.piletitasku.ee/et/event/9350",
+   "img": "pildid/singervingerliveammendevillaaias.webp"
   },
   {
    "sait": "www",
@@ -775,7 +783,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/832943499451786/",
    "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
-   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency"
+   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency",
+   "img": "pildid/lennykravitzusa.webp"
   },
   {
    "sait": "www",
@@ -951,7 +960,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1508865627701552/",
    "pu": "https://sviby.com/short-url/pkez4r",
-   "nb": "lisatud sweepis 19.07.2026; korraldaja HELYX x Legendaarne; pilet Sviby kaudu"
+   "nb": "lisatud sweepis 19.07.2026; korraldaja HELYX x Legendaarne; pilet Sviby kaudu",
+   "img": "pildid/pluutolivelegendaarneraadiobaar.webp"
   },
   {
    "sait": "www",
@@ -1070,7 +1080,8 @@
    ],
    "sn": "vosufestival.ee",
    "su": "https://vosufestival.ee/",
-   "pu": "https://www.piletilevi.ee/series/6ECQIASEVC/vosu-rannafestival-2026"
+   "pu": "https://www.piletilevi.ee/series/6ECQIASEVC/vosu-rannafestival-2026",
+   "img": "pildid/vosurannafestival2026.webp"
   },
   {
    "sait": "www",
@@ -1090,7 +1101,8 @@
    "su": "https://metalstorm.net/events/event.php?event_id=231989",
    "on_": "helitehas.ee",
    "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/",
-   "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026"
+   "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026",
+   "img": "pildid/archenemy.webp"
   },
   {
    "sait": "www",

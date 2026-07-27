@@ -6,6 +6,9 @@ postitused/
 skene-cover-*.png
 skene-profiilipilt-*.png
 scripts/__pycache__/
+# käsitsi salvestatud pisipiltide vahekaust — failid on ajutised, skript kustutab need ise
+pildid-sisend/*
+!pildid-sisend/LOEMIND.md
 
 # saladused — API-tokenid jms, ei tohi KUNAGI avalikku reposse sattuda
 mailerlite_token.txt

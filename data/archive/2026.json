@@ -10,7 +10,6 @@
     "I AM BOB"
    ],
    "v": "Bandcamp",
-   "c": "Tallinn",
    "g": [
     "rock",
     "stoner",
@@ -18,7 +17,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://iambob.bandcamp.com/album/i-am-bob-ep",
-   "nb": "lisatud kontaktivormi veaparanduse põhjal 25.07.2026 (ilmus 10.06.2026)"
+   "nb": "lisatud kontaktivormi veaparanduse põhjal 25.07.2026 (ilmus 10.06.2026)",
+   "img": "pildid/iambobiambobep.webp"
   },
   {
    "d": "2026-06-28",
@@ -36,7 +36,8 @@
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
    "on_": "paavli.ee",
-   "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/"
+   "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/",
+   "img": "pildid/bloodincantationnatemercereau.webp"
   },
   {
    "d": "2026-07-01",
@@ -52,7 +53,8 @@
     "pagan"
    ],
    "sn": "metsatoll.ee",
-   "su": "https://www.metsatoll.ee/en/gigs/"
+   "su": "https://www.metsatoll.ee/en/gigs/",
+   "img": "pildid/ollesummermetsatoll.webp"
   },
   {
    "d": "2026-07-03",
@@ -94,7 +96,8 @@
    ],
    "sn": "uuslaine.com",
    "su": "https://uuslaine.com/",
-   "pu": "https://fienta.com/et/laine-live-molbo"
+   "pu": "https://fienta.com/et/laine-live-molbo",
+   "img": "pildid/lainelivemolbohomebroke.webp"
   },
   {
    "d": "2026-07-10",
@@ -234,7 +237,6 @@
     "Face Collector"
    ],
    "v": "Bandcamp",
-   "c": "Tallinn",
    "g": [
     "death",
     "black",
@@ -242,7 +244,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://facecollector.bandcamp.com/album/demo",
-   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)"
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)",
+   "img": "pildid/facecollectordemo.webp"
   },
   {
    "d": "2026-07-17",
@@ -288,7 +291,8 @@
    "su": "https://www.facebook.com/events/2027042781412811/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2027042781412811/",
-   "pu": "https://www.piletitasku.ee/et/event/9528"
+   "pu": "https://www.piletitasku.ee/et/event/9528",
+   "img": "pildid/thetuberkuloited35rakvere.webp"
   },
   {
    "d": "2026-07-17",
@@ -299,7 +303,6 @@
     "Enditian"
    ],
    "v": "Bandcamp",
-   "c": "Tartu",
    "g": [
     "punk",
     "industrial"
@@ -351,7 +354,8 @@
     "praegu": "72.70€",
     "mark": "\"Hiline Käblik\" — viimane hinnaklass enne uksehinda",
     "allikas": "ticketer.ee, kontrollitud 06.07.2026"
-   }
+   },
+   "img": "pildid/kablikubeercamprocknroll.webp"
   },
   {
    "d": "2026-07-18",
@@ -421,7 +425,8 @@
    "su": "https://www.facebook.com/events/2132298354211092/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2132298354211092/",
-   "pu": "https://www.piletitasku.ee/et/event/9350"
+   "pu": "https://www.piletitasku.ee/et/event/9350",
+   "img": "pildid/singervingerliveammendevillaaias.webp"
   },
   {
    "d": "2026-07-18",
@@ -448,7 +453,8 @@
     "praegu": "12€ eelmüük / 15€ laadapäeval",
     "mark": "kohapeal 20€; laps kuni 10 a tasuta; simman algab 20.00",
     "allikas": "Fienta, kontrollitud 12.07.2026"
-   }
+   },
+   "img": "pildid/mihklilaadasimmanvennaskondflyers.webp"
   },
   {
    "d": "2026-07-19",
@@ -489,7 +495,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/832943499451786/",
    "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
-   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency"
+   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency",
+   "img": "pildid/lennykravitzusa.webp"
   },
   {
    "d": "2026-07-21",
@@ -655,7 +662,8 @@
    "su": "https://metalstorm.net/events/event.php?event_id=231989",
    "on_": "helitehas.ee",
    "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/",
-   "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026"
+   "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026",
+   "img": "pildid/archenemy.webp"
   },
   {
    "d": "2026-07-25",

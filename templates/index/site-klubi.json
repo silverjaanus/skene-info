@@ -116,7 +116,7 @@
  "S067": "    if(!q&&st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;\n",
  "S068": "    +((!st.q&&st.tags.size)?\" · \"+t('genre_c')+\" \"+[...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\n",
  "S069": "",
- "S070": "      <div class=\"loc\"><span class=\"venue\">${esc(e.v)}</span>${e.c===\"mujal\"?\"\":esc(e.c)}<div class=\"lnks\">${lnks}</div></div>\n",
+ "S070": "      <div class=\"loc\"><span class=\"venue\">${esc(e.v)}</span>${(e.t===\"reliis\"||e.t===\"merch\")?\"\":(e.c===\"mujal\"?\"\":esc(e.c))}<div class=\"lnks\">${lnks}</div></div>\n",
  "S071": "",
  "S072": "function calBase(){\n",
  "S073": "",
@@ -125,5 +125,8 @@
  "S076": "  chips(\"f-type\",TYPES,\"type\");chips(\"f-city\",CITIES,\"city\");\n",
  "S077": {
   "f": "snippets/klubi/S077.html"
+ },
+ "S078": {
+  "f": "snippets/klubi/S078.html"
  }
 }

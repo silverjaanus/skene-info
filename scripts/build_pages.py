@@ -74,7 +74,7 @@ def render(leht, sait, eol="\n"):
 # selle siit uuesti genereerida: python scripts/build_pages.py --fallback
 FALLBACK_PESA = "S060"                 # templates/index/snippets/<sait>/S060.html
 FALLBACK_MAX = 40
-VALJA_JARJEKORD = ["d", "d2", "t", "n", "a", "b", "v", "linn", "c", "g",
+VALJA_JARJEKORD = ["d", "d2", "t", "n", "a", "b", "v", "linn", "c", "g", "img",
                    "sn", "su", "on_", "ou", "pu", "yu", "hind", "hind2",
                    "rel", "lisatud", "tba", "nb"]
 

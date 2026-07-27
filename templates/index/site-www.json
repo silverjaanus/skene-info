@@ -64,9 +64,7 @@
  "S033": "      <p class=\"hint\" data-i18n-html=\"nl_fine_short\">1 kiri nädalas, loobuda võid alati. Vt <a href=\"/privaatsus.html\">privaatsust</a>.</p>\n",
  "S034": "    <script>/* desktopil (lai ekraan) on accordionid vaikimisi lahti, kitsal kinni */\n",
  "S035": "",
- "S036": {
-  "f": "snippets/www/S036.html"
- },
+ "S036": "",
  "S037": {
   "f": "snippets/www/S037.html"
  },
@@ -128,7 +126,7 @@
  },
  "S068": "    +((!st.q&&(st.metas.size||st.tags.size))?\" · \"+t('genre_c')+\" \"+[...st.metas,...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\n",
  "S069": "    if(e.hind)lnks+=`<br>${priceLine(e)}`;\n",
- "S070": "      <div class=\"loc\"><span class=\"venue\">${esc(e.v)}</span>${e.linn?esc(e.linn):(e.c===\"mujal\"?\"\":esc(e.c))}<div class=\"lnks\">${lnks}</div></div>\n",
+ "S070": "      <div class=\"loc\"><span class=\"venue\">${esc(e.v)}</span>${(e.t===\"reliis\"||e.t===\"merch\")?\"\":(e.linn?esc(e.linn):(e.c===\"mujal\"?\"\":esc(e.c)))}<div class=\"lnks\">${lnks}</div></div>\n",
  "S071": {
   "f": "snippets/www/S071.html"
  },
@@ -143,5 +141,8 @@
  "S076": "  chips(\"f-type\",TYPES,\"type\");cityChips();\n",
  "S077": {
   "f": "snippets/www/S077.html"
+ },
+ "S078": {
+  "f": "snippets/www/S078.html"
  }
 }

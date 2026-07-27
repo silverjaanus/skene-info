@@ -21,7 +21,8 @@
    ],
    "sn": "beachgrind.ee",
    "su": "https://beachgrind.ee/",
-   "pu": "https://beachgrind.ee/"
+   "pu": "https://beachgrind.ee/",
+   "img": "pildid/beachgrind2026.webp"
   },
   {
    "d": "2026-07-11",
@@ -107,7 +108,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1508865627701552/",
    "pu": "https://sviby.com/short-url/pkez4r",
-   "nb": "lisatud sweepis 19.07.2026; korraldaja HELYX x Legendaarne; pilet Sviby kaudu"
+   "nb": "lisatud sweepis 19.07.2026; korraldaja HELYX x Legendaarne; pilet Sviby kaudu",
+   "img": "pildid/pluutolivelegendaarneraadiobaar.webp"
   },
   {
    "d": "2026-07-24",
@@ -127,7 +129,8 @@
    ],
    "sn": "vosufestival.ee",
    "su": "https://vosufestival.ee/",
-   "pu": "https://www.piletilevi.ee/series/6ECQIASEVC/vosu-rannafestival-2026"
+   "pu": "https://www.piletilevi.ee/series/6ECQIASEVC/vosu-rannafestival-2026",
+   "img": "pildid/vosurannafestival2026.webp"
   }
  ]
 }
