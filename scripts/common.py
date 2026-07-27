@@ -16,9 +16,20 @@ today_local() zoneinfo ümber try/except -- Windowsi Python install ei
 pruugi Euroopa ajavööndite andmebaasi kaasa tuua, Actionsi ubuntu-image'il
 see alati on.
 """
-import json, re, unicodedata
+import json, re, sys, unicodedata
 from datetime import date, datetime, timedelta
 from pathlib import Path
+
+# Windowsi konsool on vaikimisi cp1252 -- iga hoiatus, mis sisaldab tapitahti voi
+# nt 'c' hacekiga, viskaks UnicodeEncodeError'i. 26.07.2026 leiti, et fetch_klubi.py
+# bandikontroll jai tapselt sel pohjusel VAIKSELT vahele ("bands-kontroll vahele
+# jaetud: UnicodeEncodeError"). fetch.py-l oli see juba olemas, teistel mitte ->
+# nuud saavad koik common'it importivad skriptid selle korraga.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 
 def slug(s):
