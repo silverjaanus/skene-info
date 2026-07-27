@@ -1439,6 +1439,40 @@
    "img": "pildid/freakangelpsycholiessugarrody.webp"
   },
   {
+   "d": "2026-09-16",
+   "d2": "19.09",
+   "t": "festival",
+   "n": "Reeperbahn Festival",
+   "a": "Euroopa suurim klubifestival Hamburgis; uus žanriprogramm 'Heavy Reeperbahn' (raskemuusika kontserdid, showcase'd, MoreCore Music Awards, konverents). Eesti raskemuusikat esindavad Intrepid (16.09 Baalsaalis), lisaks The Boondocks, YASMYN, Puuluup ja Boipepperoni",
+   "b": [
+    "Intrepid",
+    "The Boondocks",
+    "YASMYN",
+    "Puuluup",
+    "Boipepperoni"
+   ],
+   "v": "Reeperbahn (St. Pauli)",
+   "c": "mujal",
+   "linn": "Hamburg",
+   "g": [
+    "metal",
+    "rock",
+    "alt",
+    "core"
+   ],
+   "sn": "reeperbahnfestival.com",
+   "su": "https://www.reeperbahnfestival.com/en/spotlight-heavy-reeperbahn",
+   "on_": "Heavy Reeperbahn",
+   "ou": "https://www.reeperbahnfestival.com/en/spotlight-heavy-reeperbahn",
+   "pu": "https://tickets.infield.live/event/spotlight-on-heavy-reeperbahn-errtvb",
+   "hind": {
+    "praegu": "49€",
+    "mark": "'Spotlight On Heavy' pilet (raskemuusika programm); üldine festivalipilet on eraldi",
+    "allikas": "reeperbahnfestival.com, kontrollitud 27.07.2026"
+   },
+   "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel."
+  },
+  {
    "d": "2026-09-19",
    "t": "kontsert",
    "n": "Psychoterror + Pedigree + Apparatus & Apparata",
@@ -2119,6 +2153,34 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235199"
+  },
+  {
+   "d": "2027-06-10",
+   "d2": "12.06",
+   "t": "festival",
+   "n": "Mystic Festival",
+   "a": "Poola suurim metal-festival — 4 päeva, 5 lava, 90+ bändi Gdańskis. Eesti Bloodfeather + Sever koosseisus (Raskemuusikaliidu Mystic-showcase'i võitjad); peaesinejate seas mh Megadeth, Behemoth, Black Label Society, Anthrax, Mastodon, Saxon, Marduk, Blood Incantation",
+   "b": [
+    "Bloodfeather",
+    "Sever"
+   ],
+   "v": "Gdańsk Letnica",
+   "c": "mujal",
+   "linn": "Gdańsk",
+   "g": [
+    "metal",
+    "death",
+    "black",
+    "thrash",
+    "heavy",
+    "stoner"
+   ],
+   "sn": "mysticfestival.pl",
+   "su": "https://www.mysticfestival.pl/en/home/",
+   "on_": "mysticfestival.pl",
+   "ou": "https://www.mysticfestival.pl/en/home/",
+   "pu": "https://tickets.mysticfestival.pl/en",
+   "nb": "lisatud 27.07.2026 Silveri viitel (Raskemuusikaliidu uudiskiri: Eesti Bloodfeather + Sever võitsid showcase-kohad). Kuupäev + koht '10-12.06.2027 GDAŃSK LETNICA' loetud OTSE mysticfestival.pl kodulehe kehast + piletileht tickets.mysticfestival.pl viitab 2027-le. NB lehe meta-title on veel vana 2026-editsiooni peal (3-6.06.2026 Stocznia) — usaldada keha, mitte metat. Blind Bird piletid müügil (täpne hind kinnitamata). Täiskoosseis 90+ bändi lehel, siin ainult Eesti bändid + valik peaesinejaid."
   }
  ],
  "log": [
