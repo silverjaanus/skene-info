@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26",
+ "updated": "2026-07-27",
  "bands": {
   "200 Stab Wounds": {
    "sp": "https://open.spotify.com/artist/6DH6xC3RoN7L7sGlJ60LKv",
@@ -736,6 +736,15 @@
    "bc": "https://routinekyiv.bandcamp.com",
    "yt": true,
    "note": "UA/DE (Kyiv -> Saksamaa), Artoffact Records"
+  },
+  "NoRest Souls (LV)": {
+   "sp": "https://open.spotify.com/artist/6t9nNLy0siiAl3luLNJ39D",
+   "yt": true,
+   "note": "Läti; linktr.ee/NoRestSouls (Silver 27.07). Debüütalbum «Nightmares Of The Daylight». NB õige kirjapilt on NoRest Souls, mitte Norest."
+  },
+  "Tiny Sequoia (FIN)": {
+   "sp": "https://open.spotify.com/artist/3TU0GhHXrb7lPyuf1RBCMG",
+   "note": "Soome; linktr.ee/underwaterlifetiny (Silver 27.07). Väga uus artist (single «Underwater Life»); Bandcampi ega YouTube'i kanalit pole."
   }
  }
 }

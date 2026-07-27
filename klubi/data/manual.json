@@ -1090,5 +1090,24 @@
   "on_": "Bandcamp",
   "ou": "https://kiwanoid.bandcamp.com/album/ghost-nonius",
   "nb": "lisatud 26.07.2026 Rada7.ee uudiskirja (23.07.2026) põhjal; kinnitatud 2 allikaga — Bandcamp ('released 09 July 2026') + biit.me tooteleht (label Glitch Please, žanrisildid Estonian/Experimental/Glitch/IDM/Techno)"
+ },
+ {
+  "rel": 1,
+  "d": "2026-06-07",
+  "lisatud": "2026-07-27",
+  "t": "reliis",
+  "n": "Teknarik — «Launcher 2k26»",
+  "a": "2 lugu (originaal + extended mix); «dirty, uplifting hard trance anthem»; omakirjastus",
+  "b": [
+   "Teknarik"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "trance",
+   "hard trance"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://teknarik.bandcamp.com/album/teknarik-launcher-2k26",
+  "nb": "lisatud 27.07.2026 Silveri viite peale. Kuupäev loetud OTSE Bandcampi albumilehelt: 'released 07 June 2026'. Žanr hard trance -> elektrooniline baasžanr -> klubi (13.07 žanrireegel), MITTE metal. NB: Eesti päritolu tugineb AINULT Bandcampi artistilehe asukohaväljale ('Eesti') — teist allikat ei leidnud."
  }
 ]

@@ -139,6 +139,26 @@
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Bandcampi albumileht (6 lugu, artist Tartu, Eesti) + No Clean Singing kajastus 13.06.2026 (jarelikult ilmunud enne seda) + Metal Archives bandileht 3540457121. KUUPAEV (06.06.2026) tugineb Bandcampile ja on TEISE ALLIKAGA KINNITAMATA - vt Tharaphita oppetund, Bandcampi kuupaev voib olla platseholder. Labeli lehel on pealkiri kujul 'Corpsetraider', bandi enda Bandcampis 'CORPSETRADER'. NB Rootsis on samanimeline heavy/thrash band (MA 3540497163) - mitte sama."
   },
   {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-06-07",
+   "lisatud": "2026-07-27",
+   "t": "reliis",
+   "n": "Teknarik — «Launcher 2k26»",
+   "a": "2 lugu (originaal + extended mix); «dirty, uplifting hard trance anthem»; omakirjastus",
+   "b": [
+    "Teknarik"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "trance",
+    "hard trance"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://teknarik.bandcamp.com/album/teknarik-launcher-2k26",
+   "nb": "lisatud 27.07.2026 Silveri viite peale. Kuupäev loetud OTSE Bandcampi albumilehelt: 'released 07 June 2026'. Žanr hard trance -> elektrooniline baasžanr -> klubi (13.07 žanrireegel), MITTE metal. NB: Eesti päritolu tugineb AINULT Bandcampi artistilehe asukohaväljale ('Eesti') — teist allikat ei leidnud."
+  },
+  {
    "sait": "www",
    "rel": 1,
    "d": "2026-06-23",
@@ -302,29 +322,6 @@
    "su": "https://kantriguiduband.bandcamp.com/album/lappa-kotte",
    "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt. 26.07.2026: 'su' viitas discover-OTSINGULE, mitte albumile — parandatud albumi lehele (pealkirja link kasutab ou||su)",
    "v": "Bandcamp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-26",
-   "t": "kontsert",
-   "n": "SFP esitleb: Amputated Genitals + Diarrhectomy + Arestor + Shatter Me Whole",
-   "b": [
-    "Amputated Genitals (COL)",
-    "Diarrhectomy (FIN)",
-    "Arestor",
-    "Shatter Me Whole"
-   ],
-   "g": [
-    "death",
-    "extreme"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "sn": "Secret Face FB",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/3912418972226121",
-   "nb": "brutal death / slam; uksed 18.00, uksehind (täpsustada FB eventilt); kontrollitud 07.07.2026"
   },
   {
    "sait": "www",
@@ -1470,7 +1467,7 @@
     "Manna",
     "Koni",
     "Such a Vain Endeavour",
-    "Norest Souls (LV)",
+    "NoRest Souls (LV)",
     "Homebroke",
     "Tiny Sequoia (FIN)"
    ],
@@ -2875,7 +2872,10 @@
     "electro"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=232956"
+   "su": "https://metalstorm.net/events/event.php?event_id=232956",
+   "on_": "tapper.ee",
+   "ou": "https://www.tapper.ee/event/master-boot-record-ita-fulci-ita/",
+   "nb": "27.07.2026: korraldaja-lingiks Rockclub Tapperi enda ürituseleht (Silveri viide); allikas jääb Metal Storm."
   },
   {
    "sait": "www",
