@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-27",
+ "updated": "2026-07-28",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 131,
+ "count": 130,
  "entries": [
   {
    "sait": "www",
@@ -311,29 +311,6 @@
    "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt. 26.07.2026: 'su' viitas discover-OTSINGULE, mitte albumile — parandatud albumi lehele (pealkirja link kasutab ou||su)",
    "v": "Bandcamp",
    "img": "pildid/kantriguidubandlappakotte.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-27",
-   "t": "kontsert",
-   "n": "Laine Live: Industry (DE) + Model Citizen",
-   "a": "Berliini DIY-punk (Amebix/Killing Joke vaimus) + Eesti noise rock; algus 19.00",
-   "b": [
-    "Industry",
-    "Model Citizen"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "post-punk"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/936894902043640/",
-   "pu": "https://fienta.com/et/laine-live-industry",
-   "img": "pildid/laineliveindustrydemodelcitizen.webp"
   },
   {
    "sait": "www",
