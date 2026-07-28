@@ -167,4 +167,24 @@ def in_window(e, ws, we):
 # identsed make_weekly_email.py-s ja make_weekly_image.py-s.
 EESTI = {"Tallinn", "Tartu", "mujal"}
 CAT_ORDER = ["metal", "rap", "klubi"]
+
+
+def is_release(e):
+    """Kas kirje on reliis voi merch.
+
+    NB reliisidel ja merchil EI OLE asukohta (Silveri otsus 27.07.2026 --
+    `c`/`linn` eemaldati koigilt `t:"reliis"` kirjetelt), seega linnafilter
+    neile ei rakendu ega tohigi rakenduda.
+    """
+    return bool(e.get("rel")) or e.get("t") in ("reliis", "merch")
+
+
+def in_scope(e):
+    """Kas kirje kuulub nadalapilti / uudiskirja.
+
+    Eesti uritus (Tallinn/Tartu/mujal) VOI reliis/merch. Ilma reliisi-erandita
+    kaob iga reliis vaikselt valja, sest neil pole `c` valja -- see oli viga
+    28.07.2026-ni (leitud sweepis, vt HANDOVER sekts 3).
+    """
+    return e.get("c") in EESTI or is_release(e)
 # EOF

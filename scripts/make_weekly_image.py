@@ -32,7 +32,8 @@ except ImportError:
     sys.exit("Vajalik: pip install pillow")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week, in_window, today_local
+from common import (EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week,
+                    in_window, today_local, in_scope, is_release)
 
 # ---- palett (index.html :root) ----
 PABER      = (0xF3, 0xF0, 0xE7)
@@ -247,8 +248,14 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
             ty += fonts["bands"].size + 8
 
         venue = e.get("v", "")
-        linn = e.get("linn") or ("" if e.get("c") == "mujal" else e.get("c", ""))
-        loc = venue + (", " + linn if linn and linn.lower() not in venue.lower() else "")
+        if is_release(e):
+            # reliisil/merchil pole asukohta -- naita tuubisilti (+ platvormi, kui teada),
+            # muidu jaaks rida tuhjaks
+            silt = "UUS MERCH" if e.get("t") == "merch" else "UUS RELIIS"
+            loc = silt + (" · " + venue if venue else "")
+        else:
+            linn = e.get("linn") or ("" if e.get("c") == "mujal" else e.get("c", ""))
+            loc = venue + (", " + linn if linn and linn.lower() not in venue.lower() else "")
         pt = price_text(e)
         ptt = None
         pw = 0
@@ -342,7 +349,7 @@ def main():
             return
         dd = json.load(open(path, encoding="utf-8"))
         for e in dd.get("entries", []):
-            if e.get("c") in EESTI and in_window(e, ws, we):
+            if in_scope(e) and in_window(e, ws, we):
                 ee = dict(e); ee["_cat"] = cat; acc.append(ee)
     sel = []
     if args.data:

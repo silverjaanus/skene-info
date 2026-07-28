@@ -19,7 +19,8 @@ import argparse, json, os, sys, html
 import urllib.request, urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week, in_window, today_local
+from common import (EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week,
+                    in_window, today_local, in_scope, is_release)
 
 # ---- palett (index.html :root) ----
 PABER="#F3F0E7"; TINT="#1A1A1A"; HALL="#5A564C"; JOON="#8F8A7C"
@@ -284,7 +285,7 @@ def load_sources(repo, ws, we):
         if not os.path.exists(path): continue
         data=json.load(open(path, encoding="utf-8"))
         for e in data.get("entries",[]):
-            if e.get("c") in EESTI and in_window(e,ws,we):
+            if in_scope(e) and in_window(e,ws,we):
                 ee=dict(e); ee["_cat"]=cat; out.append(ee)
     return out
 
@@ -327,7 +328,7 @@ def main():
     elif args.data:
         data=json.load(open(args.data, encoding="utf-8"))
         all_ev=[dict(e, _cat="metal") for e in data.get("entries",[])
-                if e.get("c") in EESTI and in_window(e,ws,we)]
+                if in_scope(e) and in_window(e,ws,we)]
     else:
         raise SystemExit("Anna --repo (soovitatav) voi --data")
 
