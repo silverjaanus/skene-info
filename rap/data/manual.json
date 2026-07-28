@@ -45,7 +45,7 @@
    "5Loops",
    "RLV Massive",
    "Noizmakaz",
-   "Margiiela",
+   "margiiela",
    "SKIZØ & benakanister",
    "Bro Checks"
   ],
@@ -256,5 +256,48 @@
   "su": "https://open.spotify.com/album/6rT7XiGT74F1ZyqmlRmg2b",
   "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber.",
   "img": "pildid/brochecksentroopia.webp"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-21",
+  "lisatud": "2026-07-28",
+  "t": "reliis",
+  "n": "margiiela & Chillin — «Came Through»",
+  "a": "singel, mis juhatab sisse 7. augustil ilmuva ühise EP; produtsent Emildollaz (osalenud Billboard 200 esikohaalbumi loomisel)",
+  "b": [
+   "margiiela",
+   "Chillin"
+  ],
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Legendaarne Records",
+  "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
+  "nb": "leitud 28.07.2026 legendaarne.ee uudisvoost. Kinnitatud 2 allikaga: Legendaarne Records (label, 21.07.2026 'avaldasid täna') + ERR kultuuriportaali 'Uue muusika reede' 24.07.2026, kus margiielat nimetatakse 'Eesti alternatiivräpi esindajaks'. Kuupäev võetud labeli enda teatest (21.07); ERR kajastas seda oma reedeses nädalakokkuvõttes 24.07. KOLMAS kinnitus: Spotify singel 'Came Through' (2026), (c) Legendaarne Records",
+  "on_": "Spotify",
+  "ou": "https://open.spotify.com/album/1yxEc0PKqWvffhK0Mv9mNg",
+  "img": "pildid/margiielachillincamethrough.webp"
+ },
+ {
+  "rel": 1,
+  "tba": 1,
+  "d": "2026-08-07",
+  "lisatud": "2026-07-28",
+  "t": "reliis",
+  "n": "margiiela x Chillin — ühine EP (pealkiri avaldamata)",
+  "a": "kuuest loost koosnev ühine EP; esimene singel «Came Through» ilmus 21.07; margiiela sooloalbum tulekul sügisel",
+  "b": [
+   "margiiela",
+   "Chillin"
+  ],
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Legendaarne Records",
+  "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
+  "nb": "tulevane reliis, kuupäev kinnitatud 2 allikaga (Legendaarne Records 21.07.2026 + ERR kultuur 24.07.2026): 'ilmub 7. augustil, kuus lugu'. EP PEALKIRI ON VEEL AVALDAMATA (tba) - täienda, kui välja kuulutatakse",
+  "img": "pildid/margiielaxchillinuhineeppealkiriavaldamata.webp"
  }
 ]

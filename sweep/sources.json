@@ -9,7 +9,7 @@
   },
   {
    "nimi": "Damn.Loud Agency",
-   "url": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
+   "url": "https://www.facebook.com/we.are.too.damn.loud/events",
    "tyyp": "promootor",
    "nb": "URL kinnitatud 05.07.2026; NB! osa üritusi Vilniuses (LOFTAS) - ainult Eesti omad"
   },
@@ -21,7 +21,7 @@
   },
   {
    "nimi": "Sügis Productions",
-   "url": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
+   "url": "https://www.facebook.com/sugisproductions/events",
    "tyyp": "promootor",
    "nb": "URL parandatud 05.07.2026 (sugis, mitte sygis); IG @sugis_productions; Sügis Extreme Fest IV dets 2026"
   },
@@ -33,25 +33,25 @@
   },
   {
    "nimi": "Kolga Mõisa Kontsert",
-   "url": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
+   "url": "https://www.facebook.com/kolgamoisakontsert/events",
    "tyyp": "promootor",
    "nb": "URL kinnitatud 05.07.2026"
   },
   {
    "nimi": "The Krypt",
-   "url": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events",
+   "url": "https://www.facebook.com/thekrypt.tallinn/events",
    "tyyp": "venue",
    "nb": "URL parandatud 05.07.2026 (thekrypt.tallinn); REST API annab 0, FB on primaarne"
   },
   {
    "nimi": "Tapper",
-   "url": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
+   "url": "https://www.facebook.com/rockclubtapper/events",
    "tyyp": "venue",
    "nb": "URL kinnitatud 05.07.2026; tapper.ee/events on 404"
   },
   {
    "nimi": "Helitehas",
-   "url": "https://www.facebook.com/helitehas/upcoming_hosted_events",
+   "url": "https://www.facebook.com/helitehas/events",
    "tyyp": "venue",
    "nb": "lisatud 07.07.2026; suur klubi (Madara 22a), palju scope'is shows (Arch Enemy, Fear Factory, Dead By April, Chelsea Wolfe, Tyr, Whitechapel, Tarja jt); piletid Piletilevis. NB: fetch.py src_helitehas skrębib helitehas.ee-d aga annab praegu 0 - Chrome-sweep peab katma. Üksik-lehed helitehas.ee/facebook-event/<slug>/ annavad Piletilevi lingi (pu)"
   },
@@ -111,7 +111,7 @@
   },
   {
    "nimi": "Kidrakuur",
-   "url": "https://www.facebook.com/KidrakuurKultuuriklubi/upcoming_hosted_events",
+   "url": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
    "tyyp": "venue",
    "nb": "handle parandatud 26.07.2026: KidrakuurKultuuriklubi (vana /Kidrakuur oli surnud); Masina 1, Tallinn; kitarrikeskne kultuuriklubi - rock, post-rock, bluus/roots"
   },
@@ -123,13 +123,13 @@
   },
   {
    "nimi": "Fort Bar",
-   "url": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events",
+   "url": "https://www.facebook.com/fortbar.tallinn/events",
    "tyyp": "venue",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna väike kontsertpaik; URL kontrollida sweepis"
   },
   {
    "nimi": "Winkel",
-   "url": "https://www.facebook.com/ehewinkel/upcoming_hosted_events",
+   "url": "https://www.facebook.com/ehewinkel/events",
    "tyyp": "venue",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna kultuuriklubi; URL kontrollida sweepis"
   },
@@ -141,7 +141,7 @@
   },
   {
    "nimi": "300 (klubi)",
-   "url": "https://www.facebook.com/300klubi/upcoming_hosted_events",
+   "url": "https://www.facebook.com/300klubi/events",
    "tyyp": "venue",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); rokiklubi Tallinna vanalinnas; URL kontrollida sweepis"
   },
@@ -195,25 +195,25 @@
   },
   {
    "nimi": "Stedingu Kelder (Võru)",
-   "url": "https://www.facebook.com/stedingukelder/upcoming_hosted_events",
+   "url": "https://www.facebook.com/stedingukelder/events",
    "tyyp": "venue",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Võru elamusbaar Stedingu majas; URL kontrollida sweepis"
   },
   {
    "nimi": "Festivali maja (Võru)",
-   "url": "https://www.facebook.com/festivalimaja/upcoming_hosted_events",
+   "url": "https://www.facebook.com/festivalimaja/events",
    "tyyp": "venue",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); suurema mahutavusega kontserdi-/peosaal Võrus; URL kontrollida sweepis"
   },
   {
    "nimi": "Urban Culture Entertainment",
-   "url": "https://www.facebook.com/urbancultureent/upcoming_hosted_events",
+   "url": "https://www.facebook.com/urbancultureent/events",
    "tyyp": "promootor",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Tanya Korenika; urban-kallak, võib pigem rap.skene.info-le sobida; URL kontrollida sweepis"
   },
   {
    "nimi": "Bloodbath Events",
-   "url": "https://www.facebook.com/BloodBathFest/upcoming_hosted_events",
+   "url": "https://www.facebook.com/BloodBathFest/events",
    "tyyp": "promootor",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Christofer Nõmm, Kaur Pill; metal; URL kontrollida sweepis"
   },
@@ -231,7 +231,7 @@
   },
   {
    "nimi": "Aprillikivi",
-   "url": "https://www.facebook.com/aprillikivi/upcoming_hosted_events",
+   "url": "https://www.facebook.com/aprillikivi/events",
    "tyyp": "festival",
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna raskemuusika festival aprillis; URL kontrollida sweepis"
   },
@@ -255,13 +255,13 @@
   },
   {
    "nimi": "Baltic Live Agency",
-   "url": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+   "url": "https://www.facebook.com/balticliveagency/events",
    "tyyp": "promootor",
    "nb": "lisatud 14.07.2026 (Silveri leid: Lenny Kravitz 20.07 Unibet Arena): suursündmuste promootor, toob regulaarselt skoobis metal/rock nimesid (Arch Enemy, Amon Amarth+Soilwork, Dead by April, Hardcore Superstar @ Helitehas/Unibet Arena) - peamiselt www; filtreeri mainstream pop (nt Moments Festival) välja"
   },
   {
    "nimi": "L Tips Agency Estonia",
-   "url": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+   "url": "https://www.facebook.com/LTipsAgencyEstonia/events",
    "tyyp": "promootor",
    "nb": "lisatud 14.07.2026 (Silveri leid: Moby+Austra 06.08 Tartu Laululava -> klubi): Baltikumi kontserdipromootor, toob dark/goth/elektroonika suurnimesid (The Cure, OMD, Moby) - žanripõhine saidivalik (The Cure -> www, Moby/OMD -> klubi); NB osa üritusi Vilnius/Riia - ainult Eesti omad"
   },
@@ -301,7 +301,7 @@
   }
  ],
  "rap": {
-  "nb": "rap.skene.info jaoks: uued kirjed -> rap/data/manual.json. Punk-reegel siin EI kehti; ainult Eesti skeene.",
+  "nb": "rap.skene.info jaoks: uued kirjed -> rap/data/manual.json. Punk-reegel siin EI kehti; ainult Eesti skeene. | 28.07.2026 OPPETUND: legendaarne.ee (plaadifirma veebisait) puudus allikaloendist taielikult, kuigi FB-leht oli olemas - ja FB-leht ei kajasta reliise, ainult uritusi. REEGEL: kui allikaks on plaadifirma voi korraldaja, lisa NII FB-leht KUI veebisait; reliisid elavad saidil, uritused FB-s.",
   "fb": [
    {
     "nimi": "Eesti Hip Hop Festival",
@@ -334,15 +334,20 @@
    },
    {
     "nimi": "Legendaarne (Raadio/Baar/Records)",
-    "url": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+    "url": "https://www.facebook.com/LegendaarneRaadio/events",
     "tyyp": "venue/label",
-    "nb": "lisatud 14.07.2026 (Silver): hip-hop-fookusega Legendaarne Records + Raadio + Baar (Tallinn); hostib räpp/RnB/bashment üritusi (DJ Trigga, Pluuto LIVE, Back 2 Bashment)"
+    "nb": "28.07.2026: /upcoming_hosted_events andis TUHJA tulemi, /events tootab. Siin on urituste-kalender (Legendaarne Baar, Krulli 2b)"
    },
    {
     "nimi": "Rada7.ee (FB events)",
     "url": "https://www.facebook.com/rada7.ee/events",
     "tyyp": "meedia",
     "nb": "lisatud 26.07.2026; žanri-agnostiline events-tab, kajastab ka räppi (nt Pluuto LIVE Legendaarses); sama allikas peasaidi ja klubi sektsioonis"
+   },
+   {
+    "nimi": "Legendaarne Records (FB)",
+    "url": "https://www.facebook.com/legendaarne/events",
+    "nb": "lisatud 28.07.2026 Silveri viite peale. Labeli enda FB-leht; urituste-tab on hetkel ainult 'Past', aga jalgi"
    }
   ],
   "ig": [
@@ -362,6 +367,11 @@
    }
   ],
   "js_saidid": [
+   {
+    "nimi": "Legendaarne Records (veebisait)",
+    "url": "https://legendaarne.ee/",
+    "nb": "LISATUD 28.07.2026 - varem PUUDUS allikaloendist taielikult (Silveri leid). Eesti hip-hopi peamine plaadifirma: uudisvoog (esileht) = RELIISID, singlid, videod, merch; /category/albumid/ = albumite arhiiv; /pood/ = vinuul/CD/merch. Uudisvoog on VARSKEM kui albumite kategooria - loe ALATI esilehte. Sweepi lisandumine andis kohe 2 uut reliisi (margiiela x Chillin)."
+   },
    {
     "nimi": "Piletilevi muusika",
     "url": "https://www.piletilevi.ee/piletid/muusika",
@@ -722,25 +732,25 @@
   "fb": [
    {
     "nimi": "Beats From The Vault (BFTV)",
-    "url": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events",
+    "url": "https://www.facebook.com/beatsfromthevault/events",
     "tyyp": "peosari",
     "nb": "kolis metal-poolelt 13.07.2026; dark-electro/EBM/industrial peosari alates 1998, toimub ule kuu; bftv.ee on JS-renderdatud - FB primaarne"
    },
    {
     "nimi": "HALL (Tallinn)",
-    "url": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
+    "url": "https://www.facebook.com/halltallinn/events",
     "tyyp": "venue",
     "nb": "kolis metal-poolelt 13.07.2026; Noblessneri klubi (Peetri 6), tehno/house/klubiohtud - nuud KOGU programm skoobis"
    },
    {
     "nimi": "Planeet (Audio Planeet)",
-    "url": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+    "url": "https://www.facebook.com/AudioPlaneet/events",
     "tyyp": "artist/peosari",
     "nb": "lisatud 13.07.2026 (Silver); DnB/bass producer-DJ (planeet.dnb), 5K jalgijat; upcoming_hosted_events = uritused kus esineb/host (Club RED Viljandi, Treski Fest, Breakwave, Netsky@Hundipea jne) - filtreeri Eesti skoop"
    },
    {
     "nimi": "Artur Laats",
-    "url": "https://www.facebook.com/Arturlaats/upcoming_hosted_events",
+    "url": "https://www.facebook.com/Arturlaats/events",
     "tyyp": "artist",
     "nb": "lisatud 13.07.2026 (Silver); ISIKUPROFIIL (mitte leht), seotud HALL/hall.vision, soundcloud.com/arturlaats; 13.07.2026 upcoming events tuhi - hore allikas"
    },
