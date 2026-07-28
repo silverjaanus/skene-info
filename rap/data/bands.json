@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11",
+ "updated": "2026-07-28",
  "bands": {
   "5Loops": {
    "sp": "https://open.spotify.com/artist/7r7OmypatU4eVdcsohr2tm",
@@ -17,6 +17,9 @@
   "Beebilõust": {
    "sp": "https://open.spotify.com/artist/3PqYOfpDhHZcYxHw4gnJHS",
    "yt": true
+  },
+  "Bro Checks": {
+   "sp": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX"
   },
   "Hanf Kung": {
    "sp": "https://open.spotify.com/artist/1cdrq7pqddPQ03yHCQDe5o",
