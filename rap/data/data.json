@@ -18,7 +18,8 @@
    ],
    "sn": "Spotify",
    "su": "https://open.spotify.com/album/6rT7XiGT74F1ZyqmlRmg2b",
-   "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber."
+   "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber.",
+   "img": "pildid/brochecksentroopia.webp"
   },
   {
    "d": "2026-07-31",
@@ -48,19 +49,27 @@
    "d2": "15.08",
    "t": "festival",
    "n": "Eesti Hip Hop Festival 2026",
-   "a": "20. juubel; esinejate nimekiri täieneb",
+   "a": "20. juubelifestival; lisaks Peltareiv vol 5, tänavakoss, graffitijam, tantsuvõistlus, open mic ja huumoriklubi; esinejate nimekiri täieneb",
    "b": [
     "Nublu",
     "Säm",
     "Reket",
     "A-Rühm",
+    "Triibupasta",
+    "Clicherik & Mäx",
     "Pitsa",
     "Beebilõust",
     "Hanf Kung",
+    "Lotey",
+    "KiROT",
+    "Pluuto",
     "Bad Art",
     "5Loops",
     "RLV Massive",
-    "Noizmakaz"
+    "Noizmakaz",
+    "Margiiela",
+    "SKIZØ & benakanister",
+    "Bro Checks"
    ],
    "v": "Elva",
    "c": "mujal",
@@ -72,7 +81,8 @@
    "su": "https://eestihiphopfestival.ee/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1255908596517597",
-   "pu": "https://eestihiphopfestival.ee/"
+   "pu": "https://eestihiphopfestival.ee/",
+   "nb": "koosseis täienes 28.07.2026 sweepis 11 -> 19 nime (FB event 1255908596517597). Kuupäev 14.–15.08 kinnitatud eestihiphopfestival.ee-lt (FB näitab 14.–16.08 laagri tõttu)"
   },
   {
    "d": "2026-08-22",
@@ -115,7 +125,8 @@
    "on_": "paavli.ee",
    "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
    "pu": "https://piletitasku.ee/et/event/10014",
-   "img": "pildid/tartupunch2027.webp"
+   "img": "pildid/tartupunch2027.webp",
+   "nb": "⚠ 28.07.2026: KOHA-VASTURÄÄKIVUS — paavli.ee ürituseleht ütleb Paavli Kultuurivabrik (Tallinn), FB event ütleb Laulupeo pst 25, Tartu (Tartu Laululava). Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata; tartupunch.com näitab veel 2026. aasta editionit. Silveri otsustada"
   }
  ]
 }

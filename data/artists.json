@@ -1,5 +1,15 @@
 {
   "artists": {
+    "!!ii": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death by stomach cancer",
+        "broadway",
+        "musical"
+      ]
+    },
     "1000mods": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -132,6 +142,28 @@
         "latin reggae"
       ]
     },
+    "AMANITA": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "progressive rock",
+        "post-rock",
+        "metalcore"
+      ]
+    },
+    "AN3": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "AURORÆ LUMA": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Aapo Ilves": {
       "checked": "2026-07-13",
       "domain": "unclear",
@@ -146,6 +178,20 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Absolute \"Too Many Roberts\"": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "instrumental",
+        "jazz",
+        "jazz fusion",
+        "nu jazz",
+        "brass band",
+        "brass",
+        "brass house"
+      ]
     },
     "Aednikud": {
       "checked": "2026-07-13",
@@ -258,6 +304,21 @@
         "brutal death metal"
       ]
     },
+    "Andres Roots 50": {
+      "checked": "2026-07-28",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "rap",
+        "hip-hop",
+        "seen live",
+        "hip hop",
+        "southern hip hop",
+        "2000s",
+        "gangsta rap",
+        "pop rap"
+      ]
+    },
     "Angus": {
       "checked": "2026-07-15",
       "domain": "www",
@@ -272,6 +333,22 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Anton Hultquist Trio": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Antsud": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonian",
+        "folk",
+        "estonia"
+      ]
     },
     "Antsud Metal Project": {
       "checked": "2026-07-13",
@@ -336,6 +413,12 @@
         "symphonic metal",
         "female fronted metal"
       ]
+    },
+    "Aresto": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Arestor": {
       "checked": "2026-07-13",
@@ -407,6 +490,17 @@
         "canadian",
         "synthpop",
         "electronica"
+      ]
+    },
+    "BLUULE: Mihkel Raud, Brad Jurjens, Georg Merilo": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "guitarist",
+        "singer-songwriter",
+        "songwriter",
+        "singer"
       ]
     },
     "Baba Sy": {
@@ -593,6 +687,27 @@
         "2008 universal fire victim"
       ]
     },
+    "Boipepperoni": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Bombossa Brothers": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "american",
+        "blues",
+        "instrumental rock",
+        "psychedelic rock",
+        "blues rock",
+        "country rock",
+        "southern rock"
+      ]
+    },
     "Brat": {
       "checked": "2026-07-13",
       "domain": "rap",
@@ -629,11 +744,28 @@
       "src": "none",
       "tags": []
     },
+    "Bro Checks": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Burial Moon": {
       "checked": "2026-07-13",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Buzhold": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "post-rock",
+        "grunge",
+        "alt-rock",
+        "indie"
+      ]
     },
     "C-JAM": {
       "checked": "2026-07-13",
@@ -648,6 +780,14 @@
         "hard rock",
         "usa",
         "indie rock"
+      ]
+    },
+    "CRYPTIC": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "death metal"
       ]
     },
     "Cabanne": {
@@ -703,6 +843,17 @@
         "darkwave",
         "gothic rock",
         "ethereal wave"
+      ]
+    },
+    "Clicherik & Mäx": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "pop",
+        "estonian",
+        "eesti laul 2026"
       ]
     },
     "Cly/Suva": {
@@ -831,6 +982,36 @@
         "techno"
       ]
     },
+    "DJ Robert Linna": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "DJ Tom Lilienthal": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "dj",
+        "compilation"
+      ]
+    },
+    "DND": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "alternative rock",
+        "estonian"
+      ]
+    },
+    "DON NUKI": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "DSA": {
       "checked": "2026-07-19",
       "domain": "unclear",
@@ -897,6 +1078,25 @@
         "british",
         "uk",
         "hard rock"
+      ]
+    },
+    "Deformation": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "death metal"
+      ]
+    },
+    "Delta Heavy": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drum and bass",
+        "dubstep",
+        "electronic",
+        "neurofunk"
       ]
     },
     "Dharma Doom": {
@@ -1001,6 +1201,21 @@
         "symphonic metal"
       ]
     },
+    "ERØS": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "pop",
+        "italian",
+        "ballad",
+        "soft rock",
+        "adult contemporary",
+        "latin pop",
+        "italian pop"
+      ]
+    },
     "Echolove": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -1042,6 +1257,18 @@
         "death doom metal"
       ]
     },
+    "Elend": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "neoclassical",
+        "dark ambient",
+        "darkwave",
+        "gothic",
+        "ambient"
+      ]
+    },
     "Elephants From Neptune": {
       "checked": "2026-07-25",
       "domain": "www",
@@ -1071,6 +1298,18 @@
       "src": "none",
       "tags": []
     },
+    "Embus": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Emil Rutiku viktoriin": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Emperor": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -1084,6 +1323,46 @@
         "symphonic metal",
         "symphonic black metal",
         "symphonic extreme metal"
+      ]
+    },
+    "Enrico Cipollini": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Eric Sardinas": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "blues rock",
+        "blues",
+        "guitar virtuoso",
+        "slide guitar"
+      ]
+    },
+    "Error of Principle": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock"
+      ]
+    },
+    "Estonian Voices Meet The Blues Brothers": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "fictional",
+        "blues",
+        "soul",
+        "blues rock",
+        "film soundtrack",
+        "classic pop and rock",
+        "check it",
+        "rock & roll"
       ]
     },
     "Eva-Lotta Vunder & Madis Meister": {
@@ -1102,6 +1381,12 @@
         "industrial rock"
       ]
     },
+    "Exanity": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Exploited Body": {
       "checked": "2026-07-13",
       "domain": "klubi",
@@ -1113,11 +1398,26 @@
         "post-industrial"
       ]
     },
+    "F.K.S": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "FAKIGN": {
       "checked": "2026-07-25",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Faasinihe": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "punk"
+      ]
     },
     "Face Collector": {
       "checked": "2026-07-19",
@@ -1197,6 +1497,17 @@
         "industrial metal"
       ]
     },
+    "From Grotto": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "psychedelic rock",
+        "krautrock",
+        "progressive metal",
+        "experimental"
+      ]
+    },
     "Front Line Assembly": {
       "checked": "2026-07-13",
       "domain": "unclear",
@@ -1210,6 +1521,17 @@
         "ebm",
         "electronica",
         "breakbeat"
+      ]
+    },
+    "Frost": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "black metal",
+        "progressive rock",
+        "trip-hop",
+        "electronic"
       ]
     },
     "Frost Pisse Elend": {
@@ -1238,6 +1560,27 @@
         "ambient"
       ]
     },
+    "Fuzzolini": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "noise rock",
+        "alternative rock"
+      ]
+    },
+    "Galaktlan": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "ambient",
+        "idm",
+        "estonian",
+        "electronic",
+        "experimental"
+      ]
+    },
     "Gangrenated": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -1256,6 +1599,16 @@
         "art rock",
         "jazz-rock",
         "avant-prog"
+      ]
+    },
+    "Giuseppe Perverdi Big Band": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "hardcore pop",
+        "gypsy punk",
+        "listening now"
       ]
     },
     "Goatburner": {
@@ -1340,6 +1693,12 @@
         "europe 2022"
       ]
     },
+    "Gunhild Carling & The Carling Family": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "GusGus": {
       "checked": "2026-07-13",
       "domain": "klubi",
@@ -1358,6 +1717,17 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "HND": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonian",
+        "rock",
+        "alternative",
+        "eesti"
+      ]
     },
     "Habur": {
       "checked": "2026-07-26",
@@ -1397,6 +1767,12 @@
         "glam metal",
         "heavy metal"
       ]
+    },
+    "HarvestON": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Hate": {
       "checked": "2026-07-13",
@@ -1529,6 +1905,17 @@
       "src": "none",
       "tags": []
     },
+    "Howlin' Wolf Tribute": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "blues",
+        "chicago blues",
+        "delta blues",
+        "classic blues"
+      ]
+    },
     "Huiabella Fantastica": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -1579,6 +1966,18 @@
         "georgian",
         "funk_add_to_lidarr_batch_12"
       ]
+    },
+    "Idiot Dance Music": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Illusioon": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "In Flames": {
       "checked": "2026-07-19",
@@ -1679,6 +2078,17 @@
       "src": "none",
       "tags": []
     },
+    "J.M.K.E": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "punk",
+        "punk rock",
+        "estonian",
+        "estonian punk"
+      ]
+    },
     "J.M.K.E.": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -1731,11 +2141,28 @@
         "reino unido"
       ]
     },
+    "Julian Burdock": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "KAD VISS BEIDZAS": {
       "checked": "2026-07-19",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "KRULL": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "death metal",
+        "hard rock",
+        "metal",
+        "rock"
+      ]
     },
     "KRŸS": {
       "checked": "2026-07-13",
@@ -1746,6 +2173,12 @@
         "black metal",
         "german black metal"
       ]
+    },
+    "Kad Viss Beidzas": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Kai Galactic": {
       "checked": "2026-07-13",
@@ -1760,8 +2193,20 @@
         "hip hop rnb and dance hall"
       ]
     },
+    "Kaibald": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Kaido Kirikmäe": {
       "checked": "2026-07-19",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Kalli Talonpoika & The Sunshine Band": {
+      "checked": "2026-07-28",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -1787,6 +2232,15 @@
       "src": "none",
       "tags": []
     },
+    "Kaschalot": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "math rock",
+        "post-rock"
+      ]
+    },
     "Katja Adrikova": {
       "checked": "2026-07-25",
       "domain": "unclear",
@@ -1794,6 +2248,20 @@
       "tags": [
         "estonia"
       ]
+    },
+    "Kelli Uustani, Ain Agan, Paul Daniel": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "jazz fusion"
+      ]
+    },
+    "Kelson": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Khroma": {
       "checked": "2026-07-19",
@@ -1804,6 +2272,17 @@
         "industrial metal",
         "darkstep",
         "dubstep"
+      ]
+    },
+    "KiROT": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "crust punk",
+        "d-beat",
+        "hardcore punk"
       ]
     },
     "Kiimsask": {
@@ -1938,6 +2417,17 @@
         "country"
       ]
     },
+    "Kurjam": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "punk",
+        "eesti",
+        "garaazipunk",
+        "punk rock"
+      ]
+    },
     "Kxster": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -1950,8 +2440,20 @@
       "src": "none",
       "tags": []
     },
+    "Kättemaksucuntor": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Kättemaksucvntor": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Kõutsmees": {
+      "checked": "2026-07-28",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -1973,6 +2475,12 @@
         "rock"
       ]
     },
+    "LBB Organ Trio": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "La Fazani": {
       "checked": "2026-07-13",
       "domain": "unclear",
@@ -1992,6 +2500,18 @@
         "thrash metal",
         "metal",
         "death metal"
+      ]
+    },
+    "Lane 8": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "house",
+        "electronic",
+        "chillwave",
+        "deep house",
+        "melodic house"
       ]
     },
     "Laurine": {
@@ -2046,6 +2566,18 @@
       "src": "none",
       "tags": []
     },
+    "Lotey": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Lotte Jürjendal": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Luge": {
       "checked": "2026-07-26",
       "domain": "www",
@@ -2075,6 +2607,23 @@
     },
     "MC Slin": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "MINERVA": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "nu metal",
+        "alternative metal",
+        "nu-metal",
+        "progressive metal"
+      ]
+    },
+    "Mad Dreams": {
+      "checked": "2026-07-28",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -2132,6 +2681,14 @@
         "black metal",
         "war",
         "marit bergman"
+      ]
+    },
+    "Margiiela": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonian"
       ]
     },
     "Maris Pihlap": {
@@ -2217,6 +2774,15 @@
         "electronic"
       ]
     },
+    "Melrose Avenue": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "australian",
+        "metalcore"
+      ]
+    },
     "Memoira": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -2254,6 +2820,16 @@
         "estonia"
       ]
     },
+    "Micke & Lefty feat. Chef": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "country",
+        "honky tonk",
+        "2008 universal fire victim"
+      ]
+    },
     "Mihkel Kuusk": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -2270,11 +2846,52 @@
         "hardgroove techno"
       ]
     },
+    "Mike Wheeler/Highway": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "punk",
+        "punk rock",
+        "new wave",
+        "uk",
+        "power pop",
+        "northern irish",
+        "rock and indie",
+        "rough trade"
+      ]
+    },
+    "Milku & Wundermaster": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "trance",
+        "electronic",
+        "soundtrack",
+        "classical",
+        "pop",
+        "special purpose artist",
+        "jungle"
+      ]
+    },
     "Miroloja": {
       "checked": "2026-07-13",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Mitridacium Band": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "singer-songwriter",
+        "pop rock",
+        "heartland rock"
+      ]
     },
     "Moby": {
       "checked": "2026-07-15",
@@ -2336,6 +2953,15 @@
       "src": "none",
       "tags": []
     },
+    "Mr Black & Blues": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "blues",
+        "blues rock"
+      ]
+    },
     "Must Missa": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -2377,6 +3003,12 @@
     },
     "Mörv": {
       "checked": "2026-07-19",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "NEOONDREED": {
+      "checked": "2026-07-28",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -2445,6 +3077,16 @@
       "src": "none",
       "tags": []
     },
+    "NoRest Souls": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "punk",
+        "pop punk",
+        "skate punk"
+      ]
+    },
     "Noizmakaz": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -2507,6 +3149,12 @@
         "melodic death metal",
         "progressive"
       ]
+    },
+    "Nyrok City": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "O'Morales": {
       "checked": "2026-07-19",
@@ -2602,6 +3250,28 @@
         "christian rock"
       ]
     },
+    "PHANTASIA": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "new beat",
+        "psychedelic rock",
+        "techno",
+        "psychedelic",
+        "rave"
+      ]
+    },
+    "PX Band": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "indie pop",
+        "power pop",
+        "estonian"
+      ]
+    },
     "Pagansarv": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -2621,6 +3291,12 @@
         "deep psychedelia",
         "folktronica"
       ]
+    },
+    "Panic Groove Sound Machine": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Paradise Lost": {
       "checked": "2026-07-19",
@@ -2698,6 +3374,17 @@
         "post-punk"
       ]
     },
+    "Phlox": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "free jazz",
+        "jazz",
+        "experimental",
+        "fusion"
+      ]
+    },
     "Pihikamber": {
       "checked": "2026-07-15",
       "domain": "unknown",
@@ -2709,6 +3396,16 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Pisse": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "punk",
+        "punk rock",
+        "psychobilly"
+      ]
     },
     "Pitsa": {
       "checked": "2026-07-13",
@@ -2749,6 +3446,12 @@
         "europe 2023",
         "uus laul 2023"
       ]
+    },
+    "Porkuni Bluusbänd": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Portread": {
       "checked": "2026-07-19",
@@ -2890,6 +3593,22 @@
       "src": "none",
       "tags": []
     },
+    "Puuluup": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "folk",
+        "estonian",
+        "estonia"
+      ]
+    },
+    "Pyfel": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Pätt": {
       "checked": "2026-07-26",
       "domain": "unknown",
@@ -2918,11 +3637,31 @@
       "src": "none",
       "tags": []
     },
+    "Qaribou": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Qslap": {
       "checked": "2026-07-13",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "RA": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "goa",
+        "alternative rock",
+        "rock",
+        "hard rock",
+        "alternative",
+        "psytrance",
+        "goa trance"
+      ]
     },
     "RLV Massive": {
       "checked": "2026-07-13",
@@ -2977,6 +3716,12 @@
       "src": "none",
       "tags": []
     },
+    "Rene Paul": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Rivetskull": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -2987,6 +3732,12 @@
         "traditional heavy metal",
         "us metal"
       ]
+    },
+    "Robben Ford Trio": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Robotorr": {
       "checked": "2026-07-13",
@@ -3036,6 +3787,16 @@
         "heavy metal"
       ]
     },
+    "Räpina Jack": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonian",
+        "rock",
+        "estonia"
+      ]
+    },
     "Rästas": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -3057,8 +3818,20 @@
       "src": "none",
       "tags": []
     },
+    "SHAMORGA": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "SKIZØ": {
       "checked": "2026-07-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "SKIZØ & benakanister": {
+      "checked": "2026-07-28",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -3074,6 +3847,12 @@
         "hard beat",
         "industrial"
       ]
+    },
+    "SOUND2次元": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Sabaton": {
       "checked": "2026-07-13",
@@ -3126,6 +3905,12 @@
         "krautrock",
         "german"
       ]
+    },
+    "Sean \"Mack\" McDonald": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Sepultura": {
       "checked": "2026-07-13",
@@ -3235,6 +4020,17 @@
         "metal"
       ]
     },
+    "Sitaharakas": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonian",
+        "punk",
+        "baltic",
+        "european"
+      ]
+    },
     "Skee Mask": {
       "checked": "2026-07-13",
       "domain": "klubi",
@@ -3252,6 +4048,12 @@
     },
     "Skoone": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Skyler Saufley Band": {
+      "checked": "2026-07-28",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -3281,6 +4083,14 @@
       "src": "none",
       "tags": []
     },
+    "Soda Effect": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "grunge"
+      ]
+    },
     "Softspot": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -3300,6 +4110,12 @@
         "sweden",
         "melodic/death-metal"
       ]
+    },
+    "Songs Of The Dead": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "South of Savoy": {
       "checked": "2026-07-13",
@@ -3370,6 +4186,12 @@
       "src": "none",
       "tags": []
     },
+    "Stepdog": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Subbwell": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -3418,6 +4240,27 @@
         "death metal"
       ]
     },
+    "Svet Nureka": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "art rock",
+        "electronic",
+        "dark wave",
+        "synth-pop"
+      ]
+    },
+    "Swarn": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "death metal",
+        "estonia",
+        "blackened death metal"
+      ]
+    },
     "Sylosis": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3427,6 +4270,15 @@
         "death metal",
         "progressive metal",
         "metalcore"
+      ]
+    },
+    "SØREN": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "techno",
+        "ambient"
       ]
     },
     "Säm": {
@@ -3459,11 +4311,37 @@
         "screamo"
       ]
     },
+    "T-40 feat. Carlos Ukareda": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "TECHNOVIKING TF": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "THEX": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "TNTC": {
       "checked": "2026-07-13",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Tanel Mütt": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonia"
+      ]
     },
     "Tapes": {
       "checked": "2026-07-26",
@@ -3517,6 +4395,22 @@
       "src": "none",
       "tags": []
     },
+    "Tavas Māsas Nāsis": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "new wave",
+        "post-punk",
+        "latvia"
+      ]
+    },
+    "Teknarik": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Testament": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3538,6 +4432,17 @@
       "src": "musicbrainz",
       "tags": [
         "black metal"
+      ]
+    },
+    "The Boondocks": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "estonian",
+        "indie",
+        "electronic"
       ]
     },
     "The Cure": {
@@ -3601,6 +4506,58 @@
         "english"
       ]
     },
+    "The Rasmus": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "finnish",
+        "alternative"
+      ]
+    },
+    "The Rude Grooves": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "chillwave",
+        "electronic",
+        "trap",
+        "edm",
+        "psychedelic",
+        "chillstep",
+        "future bass",
+        "glitch"
+      ]
+    },
+    "The Rumjacks": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "celtic punk",
+        "punk",
+        "australian",
+        "celtic"
+      ]
+    },
+    "The Tomahawck Brothers": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "american",
+        "blues",
+        "instrumental rock",
+        "psychedelic rock",
+        "blues rock",
+        "country rock",
+        "southern rock"
+      ]
+    },
     "The Tuberkuloited": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3651,6 +4608,21 @@
         "uk"
       ]
     },
+    "Toby Lee": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "trance",
+        "rock"
+      ]
+    },
+    "Tomi Leino Trio": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Tommy Cash": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3672,6 +4644,12 @@
       "src": "none",
       "tags": []
     },
+    "Toomas Lunge & Crosswood": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Town Flesh": {
       "checked": "2026-07-19",
       "domain": "klubi",
@@ -3680,6 +4658,21 @@
         "electronic",
         "electronica",
         "witch house"
+      ]
+    },
+    "Trainman Blues": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "progressive rock",
+        "british",
+        "uk",
+        "progressive",
+        "psychedelic rock",
+        "art rock",
+        "baroque pop"
       ]
     },
     "Tramhaus": {
@@ -3737,6 +4730,12 @@
         "symphonic metal",
         "symphonic power metal"
       ]
+    },
+    "Typeline": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Tõnu Tubli": {
       "checked": "2026-07-13",
@@ -3866,6 +4865,12 @@
       "src": "none",
       "tags": []
     },
+    "Vello Jurtom & AllJam": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Vennaskond": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3875,6 +4880,12 @@
         "punk rock",
         "eesti"
       ]
+    },
+    "Veriora Raudvara": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Vermilia": {
       "checked": "2026-07-13",
@@ -3920,6 +4931,12 @@
         "alternative rock"
       ]
     },
+    "Vispel": {
+      "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Volta": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3937,6 +4954,12 @@
     },
     "Võru": {
       "checked": "2026-07-19",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "WIDZHIT": {
+      "checked": "2026-07-28",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -3989,6 +5012,16 @@
         "corruption"
       ]
     },
+    "Will Wilde": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "blues",
+        "blues harmonica",
+        "blues harp"
+      ]
+    },
     "Within Temptation": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -4014,6 +5047,17 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "YASMYN": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "rnb",
+        "urban",
+        "estonian"
+      ]
     },
     "Yakubutsu": {
       "checked": "2026-07-13",
@@ -4098,6 +5142,19 @@
         "classic country"
       ]
     },
+    "animaTek": {
+      "checked": "2026-07-28",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "spanish",
+        "techno",
+        "freie musik",
+        "all",
+        "spotify",
+        "offaudio"
+      ]
+    },
     "benakanister": {
       "checked": "2026-07-25",
       "domain": "unknown",
@@ -4152,11 +5209,32 @@
         "meta artist"
       ]
     },
+    "for example John": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "indie",
+        "rock",
+        "math rock",
+        "ambient"
+      ]
+    },
     "halb päev": {
       "checked": "2026-07-19",
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "hubris.": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "post-rock",
+        "ambient",
+        "instrumental"
+      ]
     },
     "kiki": {
       "checked": "2026-07-19",
@@ -4169,6 +5247,17 @@
         "electro",
         "bpitch control",
         "techno"
+      ]
+    },
+    "kiwanoid": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "experimental",
+        "electro",
+        "estonian",
+        "electropunk"
       ]
     },
     "maria kallastu": {
@@ -4236,6 +5325,21 @@
         "experimental"
       ]
     },
+    "no-a": {
+      "checked": "2026-07-28",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "special purpose artist",
+        "fixme",
+        "bogus artist",
+        "meta artist",
+        "non-music",
+        "nature",
+        "bogus",
+        "nature sounds"
+      ]
+    },
     "nublu": {
       "checked": "2026-07-13",
       "domain": "rap",
@@ -4264,6 +5368,19 @@
         "estonia"
       ]
     },
+    "toxic yuri": {
+      "checked": "2026-07-28",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "post rock",
+        "noise",
+        "midwest emo",
+        "shoegaze",
+        "dsbm",
+        "blackgaze"
+      ]
+    },
     "vasall club (laurel 2 & Luurel Varas)": {
       "checked": "2026-07-26",
       "domain": "unknown",
@@ -4271,5 +5388,5 @@
       "tags": []
     }
   },
-  "updated": "2026-07-26"
+  "updated": "2026-07-28"
 }

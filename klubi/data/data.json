@@ -23,6 +23,49 @@
   },
   {
    "rel": 1,
+   "d": "2026-06-18",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Luurel Varas — «Putukas»",
+   "a": "Tallinna bass / house / dub",
+   "b": [
+    "Luurel Varas"
+   ],
+   "g": [
+    "bass",
+    "house",
+    "techno",
+    "dub",
+    "ambient"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://luurelvaras.bandcamp.com/album/putukas",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/luurelvarasputukas.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-07-06",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Svet Nureka — «Serpentarium»",
+   "a": "ambient / new wave / synthpop",
+   "b": [
+    "Svet Nureka"
+   ],
+   "g": [
+    "ambient",
+    "experimental",
+    "electro",
+    "darkwave"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://svetnureka.bandcamp.com/album/serpentarium",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/svetnurekaserpentarium.webp"
+  },
+  {
+   "rel": 1,
    "d": "2026-07-09",
    "lisatud": "2026-07-26",
    "t": "reliis",
@@ -43,6 +86,27 @@
    "ou": "https://kiwanoid.bandcamp.com/album/ghost-nonius",
    "nb": "lisatud 26.07.2026 Rada7.ee uudiskirja (23.07.2026) põhjal; kinnitatud 2 allikaga — Bandcamp ('released 09 July 2026') + biit.me tooteleht (label Glitch Please, žanrisildid Estonian/Experimental/Glitch/IDM/Techno)",
    "img": "pildid/kiwanoidghostnonius.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-07-21",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Kelson — «Mordovia arena geolog»",
+   "a": "Kohtla-Järve eksperimentaal / drone / power electronics",
+   "b": [
+    "Kelson"
+   ],
+   "g": [
+    "experimental",
+    "industrial",
+    "dark",
+    "ambient"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://kelson1.bandcamp.com/album/mordovia-arena-geolog",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/kelsonmordoviaarenageolog.webp"
   },
   {
    "d": "2026-08-01",
@@ -70,6 +134,30 @@
    },
    "nb": "leitud sweepis 26.07.2026; UUS VENUE Tšungel (Kopli 1, Balti jaam) — suvine välilävaga baar/DJ-venue, elektrooniline muusika, K–L",
    "img": "pildid/healerrecordskatjaadrikovakiimsasksquash.webp"
+  },
+  {
+   "d": "2026-08-01",
+   "t": "klubi",
+   "n": "ÖÖLIBLIKAS vol. 6: F.K.S x WIDZHIT",
+   "b": [
+    "F.K.S",
+    "WIDZHIT"
+   ],
+   "v": "Kaks Tuba",
+   "c": "mujal",
+   "linn": "Rapla",
+   "g": [
+    "techno"
+   ],
+   "sn": "Kaks Tuba FB",
+   "su": "https://www.facebook.com/kakstuba/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1362036412535480",
+   "hind": {
+    "praegu": "5€",
+    "allikas": "FB event, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (Kaks Tuba venue-loend + ürituse enda FB-leht)"
   },
   {
    "d": "2026-08-06",
@@ -172,6 +260,69 @@
    "pu": "https://fienta.com/paavli-club-festival-2026",
    "nb": "leitud sweepis 26.07.2026; täiskoosseis Fienta ürituselehelt (2 päeva); toetab Liveurope",
    "img": "pildid/paavliclubfestival2026.webp"
+  },
+  {
+   "d": "2026-08-07",
+   "t": "kontsert",
+   "n": "Kiwanoid «Ghost Nonius» albumiesitlus",
+   "a": "vinüül-LP esitlus; lisaks Lotte Jürjendal, Galaktlan, Wondering O, !!ii; korraldajad Glitch Please + Rada7.ee",
+   "b": [
+    "kiwanoid",
+    "Lotte Jürjendal",
+    "Galaktlan",
+    "Wondering O",
+    "!!ii"
+   ],
+   "v": "Veetorni Aed (Telliskivi 59a)",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "ambient",
+    "electro",
+    "techno"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/912277671206602",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/912277671206602",
+   "pu": "https://fienta.com/et/kiwanoid-ghost-nonius-albumiesitlus-veetorni-aed-7-08",
+   "hind": {
+    "praegu": "10€ / 15€",
+    "mark": "eelmüük 10€, uksel 15€",
+    "allikas": "Fienta, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Sama albumi reliisikirje on klubi-poolel juba olemas (09.07.2026); DJ-koosseis oli lehel 'more TBA'",
+   "img": "pildid/kiwanoidghostnoniusalbumiesitlus.webp"
+  },
+  {
+   "d": "2026-08-07",
+   "t": "klubi",
+   "n": "ERØS INVITES: SECRET RAVE 3",
+   "b": [
+    "ERØS",
+    "THEX",
+    "CRYPTIC",
+    "KRULL"
+   ],
+   "v": "SULPS Baar",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "industrial",
+    "hard",
+    "acid"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/2825256874489164",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2825256874489164",
+   "pu": "https://gateme.com/event/103899",
+   "hind": {
+    "praegu": "5€ / 20€",
+    "mark": "Raver 5€, Support 20€",
+    "allikas": "GateMe, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (FB event + GateMe; asukoht oli FB-s 'secret', GateMe avaldas selle). Kaks esinejat veel TBA"
   },
   {
    "d": "2026-08-08",
@@ -399,6 +550,35 @@
    "nb": "leitud sweepis 26.07.2026 (tolm.club + FB event)"
   },
   {
+   "d": "2026-08-14",
+   "t": "klubi",
+   "n": "Psÿdja: OPEN AIR",
+   "b": [
+    "TECHNOVIKING TF",
+    "AN3",
+    "MINERVA",
+    "AMANITA"
+   ],
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "psytrance",
+    "trance"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et?q=techno",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1958081294852377",
+   "pu": "https://fienta.com/et/psydja-open-air",
+   "hind": {
+    "praegu": "5€ / 10€ / 15€",
+    "mark": "varajane lind 5€, eelmüük 10€, uksel 15€",
+    "allikas": "Fienta, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (Fienta + FB event); visuaalid ML Stringart, kehamaaling Lifeloverart",
+   "img": "pildid/psydjaopenair.webp"
+  },
+  {
    "d": "2026-08-15",
    "t": "klubi",
    "n": "BREAKWAVE 2026",
@@ -418,6 +598,37 @@
    "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/4067900526836481/"
+  },
+  {
+   "d": "2026-08-15",
+   "d2": "16.08",
+   "t": "klubi",
+   "n": "WAKE UP EVENT: SUME NIGHT",
+   "b": [
+    "NEOONDREED",
+    "AURORÆ LUMA",
+    "PHANTASIA",
+    "DON NUKI",
+    "RA",
+    "SØREN"
+   ],
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1570139137798183",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1570139137798183",
+   "pu": "https://fienta.com/et/wake-up-event-sume-night-at-veetorni-aed-15-08",
+   "hind": {
+    "praegu": "5€ / 7€",
+    "mark": "eelmüük 5€, uksel 7€",
+    "allikas": "Fienta, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta)",
+   "img": "pildid/wakeupeventsumenight.webp"
   },
   {
    "d": "2026-08-21",
@@ -440,7 +651,7 @@
     "Wondering O",
     "Romanss"
    ],
-   "nb": "lineup avaldatud Resident Advisoril 13.07.2026 (veel täieneb, more tba); kaks ööd 21.–22.08",
+   "nb": "lineup avaldatud RA-l 13.07.2026; 28.07.2026 sweep kontrollis üle — TÄISPROGRAMMI ENDISELT POLE ('more tba'), 13 nime on jätkuvalt aktuaalne seis. Korraldaja Shelter x Jokkoo Collective (Barcelona)",
    "v": "HUNGR",
    "c": "Tallinn",
    "g": [
@@ -451,9 +662,9 @@
    "su": "https://ra.co/events/2473978",
    "pu": "https://fienta.com/et/safara-festival",
    "hind": {
-    "praegu": "15€",
-    "mark": "earlybird 2 öö pass",
-    "allikas": "Fienta, kontrollitud 13.07.2026"
+    "praegu": "10–30€",
+    "mark": "hinnaklassid Fientas; R 23.00 – P 06.00",
+    "allikas": "Fienta + RA, kontrollitud 28.07.2026"
    },
    "img": "pildid/safarafestival.webp"
   },
@@ -481,7 +692,8 @@
     "jargmine": "15€",
     "allikas": "Fienta, kontrollitud 13.07.2026"
    },
-   "img": "pildid/triploopinviteskaigalacticjp.webp"
+   "img": "pildid/triploopinviteskaigalacticjp.webp",
+   "nb": " | 28.07.2026: RA venue-väli ütleb Paavli Kultuurivabrik, Fienta ütleb MOD — kirjes on MOD (Fienta = piletimüüja). Silveri kontrollida"
   },
   {
    "d": "2026-08-21",
@@ -568,7 +780,7 @@
    "ou": "https://www.facebook.com/events/4076046486018776/",
    "pu": "https://gateme.com/et/kumu/103865-kaja-kumu-reiv-x-hall/",
    "tba": 1,
-   "nb": "lisatud sweepis 19.07.2026; lineup veel avaldamata (tba) - jälgi 2b-s; 1,9K huvilist | 25.07.2026: pu+hind GateMe-st; koosseis endiselt avaldamata",
+   "nb": "lisatud sweepis 19.07.2026; lineup veel avaldamata (tba) - jälgi 2b-s; 1,9K huvilist | 25.07.2026: pu+hind GateMe-st; koosseis endiselt avaldamata | 28.07.2026 2b-kontroll: koosseis ENDISELT avaldamata; piletid ja hinnad väljas (GateMe), aeg 20.00–05.00 (päevane osa Kumu sisehoovis, öine autotunnelis)",
    "hind": {
     "praegu": "26€ / 35€",
     "mark": "JärelKaja eelmüük 26€, VastuKaja uksel 35€; soodsaim Kaja-pilet 17€ on välja müüdud",
@@ -596,6 +808,31 @@
    "ou": "https://www.facebook.com/events/844301218463658/",
    "pu": "https://bit.ly/OMDTallinn",
    "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; piletilink = korraldaja lühilink (bit.ly -> Piletilevi); žanripõhiselt klubi-poolel (Moby/OMD pretsedent)"
+  },
+  {
+   "d": "2026-08-29",
+   "d2": "30.08",
+   "t": "kontsert",
+   "n": "SOUND2次元: A Cyberdub Ambient Experience",
+   "a": "kaks õhtut: 29.08 Iglupark, 30.08 Botik; Tallinn Fringe Festivali programmis",
+   "b": [
+    "SOUND2次元"
+   ],
+   "v": "Iglupark (29.08) / Botik (30.08)",
+   "c": "Tallinn",
+   "g": [
+    "ambient",
+    "dub",
+    "techno",
+    "experimental"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et?q=techno",
+   "on_": "Fienta",
+   "ou": "https://fienta.com/et/s/sound2-a-cyberdub-ambient-experience",
+   "pu": "https://fienta.com/et/s/sound2-a-cyberdub-ambient-experience",
+   "nb": "lisatud sweepis 28.07.2026 (Fienta + Tallinn Fringe Festivali programm)",
+   "img": "pildid/sound2acyberdubambientexperience.webp"
   },
   {
    "d": "2026-09-03",
@@ -688,12 +925,45 @@
    "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)"
   },
   {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Extreme presents: Delta Heavy",
+   "a": "algus 21.00; ERMi ruumides",
+   "b": [
+    "Delta Heavy",
+    "Planeet",
+    "Milku & Wundermaster",
+    "Typeline"
+   ],
+   "v": "Eesti Rahva Muuseum",
+   "c": "Tartu",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Audio Planeet FB",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1574766077658978",
+   "pu": "https://www.ticketer.ee/extreme-presents-delta-heavy-planeet-eesti-rahva-muuseumis/",
+   "hind": {
+    "praegu": "24€",
+    "mark": "Regular Bird; Early Bird välja müüdud",
+    "allikas": "Ticketer, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (Planeet FB + FB event + Ticketer)",
+   "img": "pildid/extremepresentsdeltaheavy.webp"
+  },
+  {
    "d": "2026-09-05",
    "t": "klubi",
    "n": "Scorched Earth: Skee Mask",
    "a": "uue ööseeria avaüritus; + animaTek (live), Tanel, noa",
    "b": [
-    "Skee Mask"
+    "Skee Mask",
+    "animaTek",
+    "no-a",
+    "Tanel Mütt"
    ],
    "v": "HALL",
    "c": "Tallinn",
@@ -731,7 +1001,8 @@
    "su": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/876184442221379/",
-   "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav"
+   "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav | 28.07.2026: GateMe otselink lisatud",
+   "pu": "https://gateme.com/et/halltallinn/104001-hellinn-cross-border-edition-in-furchtde-x-qslapee-x-medinabr/"
   },
   {
    "d": "2026-09-19",
@@ -858,6 +1129,30 @@
    "pu": "https://fienta.com/et/laine-klubioo-mi-el-uk",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
    "img": "pildid/laineklubioomieluk.webp"
+  },
+  {
+   "d": "2026-11-21",
+   "t": "klubi",
+   "n": "Lane 8: Europe Tour",
+   "b": [
+    "Lane 8",
+    "Bombossa Brothers",
+    "Pyfel"
+   ],
+   "v": "Noblessneri Valukoda",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno",
+    "melodic"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1028764386206264",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1028764386206264",
+   "pu": "https://fienta.com/et/lane8",
+   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Piiripealne: suur nimi, aga baasžanr melodic/progressive house — sama loogika mis Netskyl",
+   "img": "pildid/lane8europetour.webp"
   },
   {
    "d": "2026-12-11",

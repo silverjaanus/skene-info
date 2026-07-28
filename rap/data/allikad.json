@@ -5,10 +5,6 @@
    "nimi": "Festivalid",
    "items": [
     {
-     "n": "Beach Grind",
-     "u": "https://www.facebook.com/beachgrind/events"
-    },
-    {
      "n": "Eesti Hip Hop Festival",
      "u": "https://www.facebook.com/eestihiphopfestival/events"
     },
@@ -60,10 +56,6 @@
      "u": "https://www.instagram.com/eestihiphopfestival/"
     },
     {
-     "n": "@nublu",
-     "u": "https://www.instagram.com/nublu/"
-    },
-    {
      "n": "@tommycashworld",
      "u": "https://www.instagram.com/tommycashworld/"
     }
@@ -75,6 +67,15 @@
     {
      "n": "Legendaarne (Raadio/Baar/Records)",
      "u": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events"
+    }
+   ]
+  },
+  {
+   "nimi": "Artistid",
+   "items": [
+    {
+     "n": "Bro Checks (Spotify)",
+     "u": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX"
     }
    ]
   }

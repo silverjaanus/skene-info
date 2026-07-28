@@ -2,190 +2,850 @@
  "pildisamm": "KOHUSTUSLIK SAMM (27.07.2026): iga kirje kohta, mille sa sweepis LISAD ja mille FB-ürituse lehel niikuinii käid, salvesta ürituse kaanepilt. Täpne kood, jooksutamise järjekord ja lõksud: loe fail sweep/SWEEP-PILDISAMM.md ja järgi seda. Lühidalt: ürituse FB-lehel jooksuta javascript_tool-iga kaanepildi-tõmbamise kood (filter '/t39.30808-6/', OffscreenCanvas 216 px, <a download>), tõsta failid Downloadsist kausta pildid-sisend/ (failinimi = kirje nime algus), seejärel 'python scripts/fetch_images.py' ENNE fetch.py-d. Kui kaanepilti ei leia, jäta kirje pildita - leht joonistab tüübimärgi ise.",
  "juhis": "Nädalane FB/IG sweep: käi lehed läbi Chrome'iga, otsi uusi üritusi/reliise/merch-droppe. Võrdle data/data.json vastu. Uued kirjed -> data/manual.json (alati allikaviitega). 06.07.2026: ulatus laienes KOGU kitarripõhisele muusikale - rock ja punk on nüüd samuti sees, punk ei vaja enam paarilist žanri. Blocklist: data/blocklist.json. REEGEL (11.07.2026): kui kirje tuleb ühekordse leiuna allikast, mida siin failis pole (kontaktivorm, juhuleid, agregaator), lisa selle korraldaja/venue allikas ALATI siia faili - muidu ei näe sweep kirje hilisemaid uuendusi (lineup TBA -> selgunud, pilet, hind). REEGEL (26.07.2026, Silveri parandus): piletimüügikoht (Fienta, Ticketer, Piletilevi, GateMe, Onlinepilet, Piletimaailm jt) EI TOHI KUNAGI olla kirje korraldaja - ehk mitte on_/ou väljal, sest frontend renderdab on_ sildiga 'korraldaja:'. Piletilink kuulub pu-sse (PILETID-nupp) ja tohib olla ka sn/su all (allikas: kust leiti/kontrolliti). on_/ou = korraldaja või ürituse OMA leht (FB event, venue/korraldaja koduleht, RA event); kui sellist pole, jäta on_/ou hoopis tühjaks (pealkiri lingib siis su peale). Sama kehtib kontaktivormist tulnud kirjetele. REEGEL (27.07.2026, Silveri otsus): POODIDE sortimendi/uute saabumiste kohta EI tehta kirjet. merch-tyypi kirje tehakse ainult KONKREETSE toote kohta (nimeline plaat, LP, kassett, sark, embleem) - 'uued saabumised' on liiga uduine ja tekitab muras. REEGEL (27.07.2026): labi muudud pileteid/hinnaklasse ei mainita - hind-valja 'mark' raagib ainult sellest, mida praegu saab osta.",
  "fb": [
-  {"nimi": "Barbar / Barbar Feast", "url": "https://www.facebook.com/barbarestonia/events", "tyyp": "promootor"},
-  {"nimi": "Damn.Loud Agency", "url": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL kinnitatud 05.07.2026; NB! osa üritusi Vilniuses (LOFTAS) - ainult Eesti omad"},
-  {"nimi": "Secret Face Productions", "url": "https://www.facebook.com/profile.php?id=61562829254036&sk=events", "tyyp": "promootor", "nb": "all things extreme; üritused Kotka Kultuurimajas (Ööbiku 1a); punk/crust-kahtlusega bill'id kontrollida ükshaaval"},
-  {"nimi": "Sügis Productions", "url": "https://www.facebook.com/sugisproductions/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL parandatud 05.07.2026 (sugis, mitte sygis); IG @sugis_productions; Sügis Extreme Fest IV dets 2026"},
-  {"nimi": "Onodrim", "url": "", "tyyp": "promootor", "nb": "EI LEITUD 05.07.2026: onodrimprod ei tööta, FB lehe-otsing ei anna Eesti promootorit - Silveril õige URL täpsustada"},
-  {"nimi": "Kolga Mõisa Kontsert", "url": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events", "tyyp": "promootor", "nb": "URL kinnitatud 05.07.2026"},
-  {"nimi": "The Krypt", "url": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "URL parandatud 05.07.2026 (thekrypt.tallinn); REST API annab 0, FB on primaarne"},
-  {"nimi": "Tapper", "url": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events", "tyyp": "venue", "nb": "URL kinnitatud 05.07.2026; tapper.ee/events on 404"},
-  {"nimi": "Helitehas", "url": "https://www.facebook.com/helitehas/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 07.07.2026; suur klubi (Madara 22a), palju scope'is shows (Arch Enemy, Fear Factory, Dead By April, Chelsea Wolfe, Tyr, Whitechapel, Tarja jt); piletid Piletilevis. NB: fetch.py src_helitehas skrębib helitehas.ee-d aga annab praegu 0 - Chrome-sweep peab katma. Üksik-lehed helitehas.ee/facebook-event/<slug>/ annavad Piletilevi lingi (pu)"},
-  {"nimi": "Kinomaja / KuKu Klubi", "url": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE", "tyyp": "venue", "nb": "lisatud 07.07.2026; KuKu Klubi (Kinomaja, Uus 3, Tallinn); nt Psychoterror + Pedigree + Apparatus & Apparata 19.09.2026"},
-  {"nimi": "Konservatoorium", "url": "https://www.facebook.com/konservatoorium/events?locale=et_EE", "tyyp": "venue", "nb": "lisatud 08.07.2026 (Silver); kontrolli asukoht/skoop sweepis"},
-  {"nimi": "Pubi Juudas", "url": "https://www.facebook.com/pubijuudas/events?locale=et_EE", "tyyp": "venue", "nb": "lisatud 08.07.2026 (Silver); kontrolli asukoht/skoop sweepis"},
-  {"nimi": "Linna Bar", "url": "", "tyyp": "venue", "nb": "EI LEITUD 05.07.2026: linnabaar ei tööta, FB otsing ei anna - kirjed tulevad Bandsintownist"},
-  {"nimi": "Heavy Music Estonia", "url": "", "tyyp": "kogukond", "nb": "EI LEITUD 05.07.2026: heavymusicestonia ei tööta, FB otsing ei anna - heavymusic.ee RSS on automaatkihis olemas"},
-  {"nimi": "Mahtra Records", "url": "https://www.facebook.com/mahtrarecords", "tyyp": "label", "nb": "reliisid; Bandcamp serverist blokitud"},
-  {"nimi": "Nailboard Rock Shop", "url": "", "tyyp": "pood", "nb": "ARHIVEERITUD 27.07.2026 (Silveri otsus): poodide 'uued saabumised' EI ole kirje - liiga uduine, tekitab müra. Merch-kirje tehakse AINULT konkreetse toote kohta (nimeline plaat, LP, särk, embleem), mitte poe sortimendi kohta. url tuhjaks -> ei ilmu ka avalikus allikate nimekirjas"},
-  {"nimi": "Helinihe", "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events", "tyyp": "pood/kultuuripunkt", "nb": "lisatud 09.07.2026 (Silver); Nõmme turg, plaadipood + kultuuripunkt; underground, seotud Trash Can Dance labeliga; jälgi nii üritusi kui reliise/merchi"},
-  {"nimi": "Black Revalia / Howls of Winter", "url": "https://howlsofwinter.eu/", "tyyp": "festival", "nb": "lisatud 07.07.2026; Tallinna talvine black-metal festival (Howls of Winter XIV, 04-06.02.2027); praegu koosseis+piletid TBA (eelmüük sept 2026); korraldaja Black Revalia, info@blackrevalia.eu, FB otsi 'Black Revalia'. Jälgi ka poolikute kirjete ülekontrollis (samm 2b)"},
-  {"nimi": "Kidrakuur", "url": "https://www.facebook.com/KidrakuurKultuuriklubi/upcoming_hosted_events", "tyyp": "venue", "nb": "handle parandatud 26.07.2026: KidrakuurKultuuriklubi (vana /Kidrakuur oli surnud); Masina 1, Tallinn; kitarrikeskne kultuuriklubi - rock, post-rock, bluus/roots"},
-  {"nimi": "Roots Session", "url": "https://www.facebook.com/profile.php?id=61589996739004", "tyyp": "promootor", "nb": "lisatud 26.07.2026 (Silver); bluusi/roots-sarja korraldaja, üritused Kidrakuuris (Roots Session X: Trainman Blues 30.07.2026)"},
-  {"nimi": "Fort Bar", "url": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna väike kontsertpaik; URL kontrollida sweepis"},
-  {"nimi": "Winkel", "url": "https://www.facebook.com/ehewinkel/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna kultuuriklubi; URL kontrollida sweepis"},
-  {"nimi": "Black Magic", "url": "https://www.facebook.com/BlackMagicEstonia/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); black metal kallakuga kultuuriklubi Kristiines - selgelt skoobis; URL SURNUD 11.07.2026 - õige handle täpsustada"},
-  {"nimi": "300 (klubi)", "url": "https://www.facebook.com/300klubi/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); rokiklubi Tallinna vanalinnas; URL kontrollida sweepis"},
-  {"nimi": "Underground / UGrokibaar (Tartu)", "url": "https://www.facebook.com/UGrokibaar/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); Tartu rokiklubi; ÄRA aja segamini Põlva Undergroundiga; URL SURNUD 11.07.2026 - õige handle täpsustada"},
-  {"nimi": "Kroks (Tartu)", "url": "https://www.facebook.com/liiva.kroks/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); NB 11.07.2026: tegu ISIKUPROFIILIGA (mitte lehega), events-tab tühi - väga hõre allikas"},
-  {"nimi": "Wunderbaar (Pärnu)", "url": "https://wunderbaar.ee/", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); Pärnu rokibaar; wbar.ee suunab wunderbaar.ee-le, ürituste-nimekiri saidil olemas (11.07.2026 skoobis midagi polnud)"},
-  {"nimi": "Garaaz (Pärnu)", "url": "https://www.facebook.com/profile.php?id=100085253592671&sk=events", "tyyp": "venue", "nb": "SULETUD: 'GARAAŽI MATUS' 29.05.2026, FB bio '19.04.2024-29.05.2026' - klubi tegevus lõppenud, võib allikatest eemaldada"},
-  {"nimi": "Art Club Ro-Ro (Narva)", "url": "", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); venekeelne underground Narvas; FB/otse-URL leidmata (heavymusic viitab siselehele) - Silveril täpsustada; url tühi -> avalikul lehel ei kuvata"},
-  {"nimi": "Kära Kants (Rakvere)", "url": "https://www.facebook.com/groups/112392415448166/", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); legendaarne Rakvere rokibaar; FB-GRUPP (mitte leht) - events-tab piiratud, kontrolli sweepis"},
-  {"nimi": "Valga Rokiklubi", "url": "https://www.rockiklubi.ee/", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); rokiklubi Valgas (ka prooviruum/stuudio); FB handle leidmata, sait rockiklubi.ee"},
-  {"nimi": "Underground (Põlva)", "url": "https://www.kultuurikeskus.ee/underground/", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); Põlva kultuurikeskuse kontsertklubi; ÄRA aja segamini Tartu UGrokibaariga"},
-  {"nimi": "Stedingu Kelder (Võru)", "url": "https://www.facebook.com/stedingukelder/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); Võru elamusbaar Stedingu majas; URL kontrollida sweepis"},
-  {"nimi": "Festivali maja (Võru)", "url": "https://www.facebook.com/festivalimaja/upcoming_hosted_events", "tyyp": "venue", "nb": "lisatud 09.07.2026 (heavymusic.ee); suurema mahutavusega kontserdi-/peosaal Võrus; URL kontrollida sweepis"},
-  {"nimi": "Urban Culture Entertainment", "url": "https://www.facebook.com/urbancultureent/upcoming_hosted_events", "tyyp": "promootor", "nb": "lisatud 09.07.2026 (heavymusic.ee); Tanya Korenika; urban-kallak, võib pigem rap.skene.info-le sobida; URL kontrollida sweepis"},
-  {"nimi": "Bloodbath Events", "url": "https://www.facebook.com/BloodBathFest/upcoming_hosted_events", "tyyp": "promootor", "nb": "lisatud 09.07.2026 (heavymusic.ee); Christofer Nõmm, Kaur Pill; metal; URL kontrollida sweepis"},
-  {"nimi": "Hard Rock Laager", "url": "https://hardrocklaager.ee/", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); Eesti suurim metal-festival Vana-Vigalas; leia FB events sweepis"},
-  {"nimi": "Käbliku Beer camp & Rock'n Roll", "url": "https://fest.kabliku.com/", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); õlle- ja rokipidu Põlvamaal"},
-  {"nimi": "Aprillikivi", "url": "https://www.facebook.com/aprillikivi/upcoming_hosted_events", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna raskemuusika festival aprillis; URL kontrollida sweepis"},
-  {"nimi": "Tarbariitus", "url": "https://pergerus.eu/et/tarbariitus/", "tyyp": "festival", "nb": "lisatud 09.07.2026 (heavymusic.ee); sügisene metal-festival Tartus; korraldaja Pergerus"},
-  {"nimi": "Uus Laine (metal/punk pool)", "url": "https://www.facebook.com/uuslaine/events", "tyyp": "venue", "nb": "lisatud 11.07.2026: Laine Live sari toob regulaarselt skoobis underground-bände (Industry DE, Motelli Skronkle FIN, Model Citizen); leht oli seni ainult rap-sektsioonis - filtreeri DJ/klubiõhtud välja"},
-  {"nimi": "Hetk (promootor)", "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited", "tyyp": "promootor", "nb": "lisatud 11.07.2026: korraldab The Tuberkuloited 35 juubelikontserte (Rakvere 17.07, Pärnu 14.08); FB handle täpsustada - praegu leitav ürituste otsinguga"},
-  {"nimi": "Baltic Live Agency", "url": "https://www.facebook.com/balticliveagency/upcoming_hosted_events", "tyyp": "promootor", "nb": "lisatud 14.07.2026 (Silveri leid: Lenny Kravitz 20.07 Unibet Arena): suursündmuste promootor, toob regulaarselt skoobis metal/rock nimesid (Arch Enemy, Amon Amarth+Soilwork, Dead by April, Hardcore Superstar @ Helitehas/Unibet Arena) - peamiselt www; filtreeri mainstream pop (nt Moments Festival) välja"},
-  {"nimi": "L Tips Agency Estonia", "url": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events", "tyyp": "promootor", "nb": "lisatud 14.07.2026 (Silveri leid: Moby+Austra 06.08 Tartu Laululava -> klubi): Baltikumi kontserdipromootor, toob dark/goth/elektroonika suurnimesid (The Cure, OMD, Moby) - žanripõhine saidivalik (The Cure -> www, Moby/OMD -> klubi); NB osa üritusi Vilnius/Riia - ainult Eesti omad"},
-  {"nimi": "Rada7.ee (FB events)", "url": "https://www.facebook.com/rada7.ee/events", "tyyp": "meedia", "nb": "lisatud 26.07.2026 (Rada7.ee uudiskirjast 23.07.2026): Eesti alternatiivmuusika portaal (1999-), toimetaja Ivo lisab events-tabi KÄSITSI laia ringi haakuvaid sündmusi - žanri-agnostiline, kehtib KÕIGILE 3 saidile (sama kirje ka rap- ja klubi-sektsioonis, et sweep neid ei unustaks). Tema enda hoiatus: FB 'add event' nupp on lehtedel juhuslikult olemas/puudu, seega ka tema nimekiri pole täielik - võrdle, ära kopeeri"},
-  {"nimi": "Rada7.ee uudiskiri", "url": "https://rada7.ee/", "tyyp": "meedia", "nb": "lisatud 26.07.2026: uudiskiri (uudiskiri@rada7.ee) tuleb nüüd skene.info@agentmail.to postkasti. Sisaldab uusi Eesti reliise Bandcamp-linkidega + nädala üritusi, kõigi 3 saidi žanrid segamini. TÖÖTLUS KÄIB IGAPÄEVASES inbox-check taskis (vt selle SKILL.md samme 2a/2b), MITTE nädalases sweepis. NB: uudiskirja mainimine = ÜKS allikas, kahe allika reegel kehtib edasi"},
-  {"nimi": "Fuzz Salvation / Valter Nõmm", "url": "https://fienta.com/et/o/29285", "tyyp": "festival", "nb": "lisatud 26.07.2026 (kontaktivorm): alternatiivrokk-festival, iga aasta uus toimumispaik (2026 Von Krahl, 11-12.09); korraldaja Valter Nõmm (valter.nomm@gmail.com), Fienta org 29285 - jälgi org-lehte, sest venue vahetub; FB event nt fb.me/e/5GPBPtWLw"}
+  {
+   "nimi": "Barbar / Barbar Feast",
+   "url": "https://www.facebook.com/barbarestonia/events",
+   "tyyp": "promootor"
+  },
+  {
+   "nimi": "Damn.Loud Agency",
+   "url": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
+   "tyyp": "promootor",
+   "nb": "URL kinnitatud 05.07.2026; NB! osa üritusi Vilniuses (LOFTAS) - ainult Eesti omad"
+  },
+  {
+   "nimi": "Secret Face Productions",
+   "url": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "tyyp": "promootor",
+   "nb": "all things extreme; üritused Kotka Kultuurimajas (Ööbiku 1a); punk/crust-kahtlusega bill'id kontrollida ükshaaval"
+  },
+  {
+   "nimi": "Sügis Productions",
+   "url": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
+   "tyyp": "promootor",
+   "nb": "URL parandatud 05.07.2026 (sugis, mitte sygis); IG @sugis_productions; Sügis Extreme Fest IV dets 2026"
+  },
+  {
+   "nimi": "Onodrim",
+   "url": "",
+   "tyyp": "promootor",
+   "nb": "EI LEITUD 05.07.2026: onodrimprod ei tööta, FB lehe-otsing ei anna Eesti promootorit - Silveril õige URL täpsustada"
+  },
+  {
+   "nimi": "Kolga Mõisa Kontsert",
+   "url": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
+   "tyyp": "promootor",
+   "nb": "URL kinnitatud 05.07.2026"
+  },
+  {
+   "nimi": "The Krypt",
+   "url": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "URL parandatud 05.07.2026 (thekrypt.tallinn); REST API annab 0, FB on primaarne"
+  },
+  {
+   "nimi": "Tapper",
+   "url": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "URL kinnitatud 05.07.2026; tapper.ee/events on 404"
+  },
+  {
+   "nimi": "Helitehas",
+   "url": "https://www.facebook.com/helitehas/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "lisatud 07.07.2026; suur klubi (Madara 22a), palju scope'is shows (Arch Enemy, Fear Factory, Dead By April, Chelsea Wolfe, Tyr, Whitechapel, Tarja jt); piletid Piletilevis. NB: fetch.py src_helitehas skrębib helitehas.ee-d aga annab praegu 0 - Chrome-sweep peab katma. Üksik-lehed helitehas.ee/facebook-event/<slug>/ annavad Piletilevi lingi (pu)"
+  },
+  {
+   "nimi": "Kinomaja / KuKu Klubi",
+   "url": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE",
+   "tyyp": "venue",
+   "nb": "28.07.2026: ainult past events; 21.11.2025 postitus \"Kinomaja Viimane Live\" - koht paistab live-tegevuse lopetanuks, aga KuKu Klubis toimub veel (Psychoterror 19.09). Jalgi"
+  },
+  {
+   "nimi": "Konservatoorium",
+   "url": "https://www.facebook.com/konservatoorium/events?locale=et_EE",
+   "tyyp": "venue",
+   "nb": "lisatud 08.07.2026 (Silver); kontrolli asukoht/skoop sweepis"
+  },
+  {
+   "nimi": "Pubi Juudas",
+   "url": "https://www.facebook.com/pubijuudas/events?locale=et_EE",
+   "tyyp": "venue",
+   "nb": "lisatud 08.07.2026 (Silver); kontrolli asukoht/skoop sweepis"
+  },
+  {
+   "nimi": "Linna Bar",
+   "url": "",
+   "tyyp": "venue",
+   "nb": "EI LEITUD 05.07.2026: linnabaar ei tööta, FB otsing ei anna - kirjed tulevad Bandsintownist"
+  },
+  {
+   "nimi": "Heavy Music Estonia",
+   "url": "",
+   "tyyp": "kogukond",
+   "nb": "EI LEITUD 05.07.2026: heavymusicestonia ei tööta, FB otsing ei anna - heavymusic.ee RSS on automaatkihis olemas"
+  },
+  {
+   "nimi": "Mahtra Records",
+   "url": "https://www.facebook.com/mahtrarecords",
+   "tyyp": "label",
+   "nb": "reliisid; Bandcamp serverist blokitud"
+  },
+  {
+   "nimi": "Nailboard Rock Shop",
+   "url": "",
+   "tyyp": "pood",
+   "nb": "ARHIVEERITUD 27.07.2026 (Silveri otsus): poodide 'uued saabumised' EI ole kirje - liiga uduine, tekitab müra. Merch-kirje tehakse AINULT konkreetse toote kohta (nimeline plaat, LP, särk, embleem), mitte poe sortimendi kohta. url tuhjaks -> ei ilmu ka avalikus allikate nimekirjas"
+  },
+  {
+   "nimi": "Helinihe",
+   "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "tyyp": "pood/kultuuripunkt",
+   "nb": "lisatud 09.07.2026 (Silver); Nõmme turg, plaadipood + kultuuripunkt; underground, seotud Trash Can Dance labeliga; jälgi nii üritusi kui reliise/merchi"
+  },
+  {
+   "nimi": "Black Revalia / Howls of Winter",
+   "url": "https://howlsofwinter.eu/",
+   "tyyp": "festival",
+   "nb": "lisatud 07.07.2026; Tallinna talvine black-metal festival (Howls of Winter XIV, 04-06.02.2027); praegu koosseis+piletid TBA (eelmüük sept 2026); korraldaja Black Revalia, info@blackrevalia.eu, FB otsi 'Black Revalia'. Jälgi ka poolikute kirjete ülekontrollis (samm 2b)"
+  },
+  {
+   "nimi": "Kidrakuur",
+   "url": "https://www.facebook.com/KidrakuurKultuuriklubi/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "handle parandatud 26.07.2026: KidrakuurKultuuriklubi (vana /Kidrakuur oli surnud); Masina 1, Tallinn; kitarrikeskne kultuuriklubi - rock, post-rock, bluus/roots"
+  },
+  {
+   "nimi": "Roots Session",
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "tyyp": "promootor",
+   "nb": "lisatud 26.07.2026 (Silver); bluusi/roots-sarja korraldaja, üritused Kidrakuuris (Roots Session X: Trainman Blues 30.07.2026)"
+  },
+  {
+   "nimi": "Fort Bar",
+   "url": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna väike kontsertpaik; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Winkel",
+   "url": "https://www.facebook.com/ehewinkel/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna kultuuriklubi; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Black Magic",
+   "url": "",
+   "tyyp": "venue",
+   "nb": "URL surnud 28.07.2026: facebook.com/BlackMagicEstonia annab \"content isn't available\" (ka ilma /events). Leht kustutatud voi umber nimetatud - oige handle vaja tuvastada"
+  },
+  {
+   "nimi": "300 (klubi)",
+   "url": "https://www.facebook.com/300klubi/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); rokiklubi Tallinna vanalinnas; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Underground / UGrokibaar (Tartu)",
+   "url": "",
+   "tyyp": "venue",
+   "nb": "URL surnud 28.07.2026: FB-leht kustutatud/peidetud, FB-otsing ei leia asenduslehte"
+  },
+  {
+   "nimi": "Kroks (Tartu)",
+   "url": "",
+   "tyyp": "venue",
+   "nb": "VALE URL 28.07.2026: liiva.kroks on ERAPROFIIL (682 sopra), mitte kohaleht; uritusi pole. Oige leht tuvastamata"
+  },
+  {
+   "nimi": "Wunderbaar (Pärnu)",
+   "url": "https://wunderbaar.ee/",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Pärnu rokibaar; wbar.ee suunab wunderbaar.ee-le, ürituste-nimekiri saidil olemas (11.07.2026 skoobis midagi polnud)"
+  },
+  {
+   "nimi": "Garaaz (Pärnu)",
+   "url": "",
+   "tyyp": "venue",
+   "nb": "KLUBI SULETUD 29.05.2026 (\"Garaazi matus\"); bios \"19.04.2024-29.05.2026\". Kinnitatud 28.07.2026 - allikas voib loendist kaduda"
+  },
+  {
+   "nimi": "Art Club Ro-Ro (Narva)",
+   "url": "",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); venekeelne underground Narvas; FB/otse-URL leidmata (heavymusic viitab siselehele) - Silveril täpsustada; url tühi -> avalikul lehel ei kuvata"
+  },
+  {
+   "nimi": "Kära Kants (Rakvere)",
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); legendaarne Rakvere rokibaar; FB-GRUPP (mitte leht) - events-tab piiratud, kontrolli sweepis"
+  },
+  {
+   "nimi": "Valga Rokiklubi",
+   "url": "https://www.rockiklubi.ee/",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); rokiklubi Valgas (ka prooviruum/stuudio); FB handle leidmata, sait rockiklubi.ee"
+  },
+  {
+   "nimi": "Underground (Põlva)",
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Põlva kultuurikeskuse kontsertklubi; ÄRA aja segamini Tartu UGrokibaariga"
+  },
+  {
+   "nimi": "Stedingu Kelder (Võru)",
+   "url": "https://www.facebook.com/stedingukelder/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Võru elamusbaar Stedingu majas; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Festivali maja (Võru)",
+   "url": "https://www.facebook.com/festivalimaja/upcoming_hosted_events",
+   "tyyp": "venue",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); suurema mahutavusega kontserdi-/peosaal Võrus; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Urban Culture Entertainment",
+   "url": "https://www.facebook.com/urbancultureent/upcoming_hosted_events",
+   "tyyp": "promootor",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Tanya Korenika; urban-kallak, võib pigem rap.skene.info-le sobida; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Bloodbath Events",
+   "url": "https://www.facebook.com/BloodBathFest/upcoming_hosted_events",
+   "tyyp": "promootor",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Christofer Nõmm, Kaur Pill; metal; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Hard Rock Laager",
+   "url": "https://hardrocklaager.ee/",
+   "tyyp": "festival",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Eesti suurim metal-festival Vana-Vigalas; leia FB events sweepis"
+  },
+  {
+   "nimi": "Käbliku Beer camp & Rock'n Roll",
+   "url": "https://fest.kabliku.com/",
+   "tyyp": "festival",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); õlle- ja rokipidu Põlvamaal"
+  },
+  {
+   "nimi": "Aprillikivi",
+   "url": "https://www.facebook.com/aprillikivi/upcoming_hosted_events",
+   "tyyp": "festival",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna raskemuusika festival aprillis; URL kontrollida sweepis"
+  },
+  {
+   "nimi": "Tarbariitus",
+   "url": "https://pergerus.eu/et/tarbariitus/",
+   "tyyp": "festival",
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); sügisene metal-festival Tartus; korraldaja Pergerus"
+  },
+  {
+   "nimi": "Uus Laine (metal/punk pool)",
+   "url": "https://www.facebook.com/uuslaine/events",
+   "tyyp": "venue",
+   "nb": "lisatud 11.07.2026: Laine Live sari toob regulaarselt skoobis underground-bände (Industry DE, Motelli Skronkle FIN, Model Citizen); leht oli seni ainult rap-sektsioonis - filtreeri DJ/klubiõhtud välja"
+  },
+  {
+   "nimi": "Hetk (promootor)",
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "tyyp": "promootor",
+   "nb": "lisatud 11.07.2026: korraldab The Tuberkuloited 35 juubelikontserte (Rakvere 17.07, Pärnu 14.08); FB handle täpsustada - praegu leitav ürituste otsinguga"
+  },
+  {
+   "nimi": "Baltic Live Agency",
+   "url": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+   "tyyp": "promootor",
+   "nb": "lisatud 14.07.2026 (Silveri leid: Lenny Kravitz 20.07 Unibet Arena): suursündmuste promootor, toob regulaarselt skoobis metal/rock nimesid (Arch Enemy, Amon Amarth+Soilwork, Dead by April, Hardcore Superstar @ Helitehas/Unibet Arena) - peamiselt www; filtreeri mainstream pop (nt Moments Festival) välja"
+  },
+  {
+   "nimi": "L Tips Agency Estonia",
+   "url": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+   "tyyp": "promootor",
+   "nb": "lisatud 14.07.2026 (Silveri leid: Moby+Austra 06.08 Tartu Laululava -> klubi): Baltikumi kontserdipromootor, toob dark/goth/elektroonika suurnimesid (The Cure, OMD, Moby) - žanripõhine saidivalik (The Cure -> www, Moby/OMD -> klubi); NB osa üritusi Vilnius/Riia - ainult Eesti omad"
+  },
+  {
+   "nimi": "Rada7.ee (FB events)",
+   "url": "https://www.facebook.com/rada7.ee/events",
+   "tyyp": "meedia",
+   "nb": "lisatud 26.07.2026 (Rada7.ee uudiskirjast 23.07.2026): Eesti alternatiivmuusika portaal (1999-), toimetaja Ivo lisab events-tabi KÄSITSI laia ringi haakuvaid sündmusi - žanri-agnostiline, kehtib KÕIGILE 3 saidile (sama kirje ka rap- ja klubi-sektsioonis, et sweep neid ei unustaks). Tema enda hoiatus: FB 'add event' nupp on lehtedel juhuslikult olemas/puudu, seega ka tema nimekiri pole täielik - võrdle, ära kopeeri"
+  },
+  {
+   "nimi": "Rada7.ee uudiskiri",
+   "url": "https://rada7.ee/",
+   "tyyp": "meedia",
+   "nb": "lisatud 26.07.2026: uudiskiri (uudiskiri@rada7.ee) tuleb nüüd skene.info@agentmail.to postkasti. Sisaldab uusi Eesti reliise Bandcamp-linkidega + nädala üritusi, kõigi 3 saidi žanrid segamini. TÖÖTLUS KÄIB IGAPÄEVASES inbox-check taskis (vt selle SKILL.md samme 2a/2b), MITTE nädalases sweepis. NB: uudiskirja mainimine = ÜKS allikas, kahe allika reegel kehtib edasi"
+  },
+  {
+   "nimi": "Fuzz Salvation / Valter Nõmm",
+   "url": "https://fienta.com/et/o/29285",
+   "tyyp": "festival",
+   "nb": "lisatud 26.07.2026 (kontaktivorm): alternatiivrokk-festival, iga aasta uus toimumispaik (2026 Von Krahl, 11-12.09); korraldaja Valter Nõmm (valter.nomm@gmail.com), Fienta org 29285 - jälgi org-lehte, sest venue vahetub; FB event nt fb.me/e/5GPBPtWLw"
+  }
  ],
  "ig": [
-  {"nimi": "@damn.loud", "url": "https://www.instagram.com/damn.loud/"},
-  {"nimi": "@sugisextremefest", "url": "https://www.instagram.com/sugisextremefest/", "nb": "AKTIIVNE: bio ütleb 4. väljaanne dets 2026 @ The Krypt (2-päevane)"},
-  {"nimi": "@tuum.baar", "url": "https://www.instagram.com/tuum.baar/", "nb": "kinnitatud 05.07.2026: Tartu metal/rock baar (Lai 30), aga vaid 10 postitust, viimased 2025 - hõre allikas"}
+  {
+   "nimi": "@damn.loud",
+   "url": "https://www.instagram.com/damn.loud/"
+  },
+  {
+   "nimi": "@sugisextremefest",
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "nb": "AKTIIVNE: bio ütleb 4. väljaanne dets 2026 @ The Krypt (2-päevane)"
+  },
+  {
+   "nimi": "@tuum.baar",
+   "url": "https://www.instagram.com/tuum.baar/",
+   "nb": "kinnitatud 05.07.2026: Tartu metal/rock baar (Lai 30), aga vaid 10 postitust, viimased 2025 - hõre allikas"
+  }
  ],
  "rap": {
   "nb": "rap.skene.info jaoks: uued kirjed -> rap/data/manual.json. Punk-reegel siin EI kehti; ainult Eesti skeene.",
   "fb": [
-   {"nimi": "Eesti Hip Hop Festival", "url": "https://www.facebook.com/eestihiphopfestival/events", "tyyp": "festival"},
-   {"nimi": "Uus Laine", "url": "https://www.facebook.com/uuslaine/events", "tyyp": "venue", "nb": "Check One Two peod; URL kontrollida"},
-   {"nimi": "Sveta Baar", "url": "", "tyyp": "venue", "nb": "SULETUD 01.01.2024 (Telliskivi, gentrifikatsioon + majanduskriis) - EI OLE enam allikas, võib eemaldada; url tühi -> avalikul lehel ei kuvata"},
-   {"nimi": "Beach Grind", "url": "https://www.facebook.com/beachgrind/events", "tyyp": "festival", "nb": "URL SURNUD 11.07.2026 ('content isn't available'); 2026 festival (10.-11.07) igatahes möödas - õige handle täpsustada enne 2027"},
-   {"nimi": "Luke mõis", "url": "https://lukemois.ee/", "tyyp": "venue", "nb": "lisatud 11.07.2026 (Reket + LIVE bänd 16.07.2026 leid tuleb.ee kaudu); mõisapargi suvekontserdid, aeg-ajalt räpp-nimed"},
-   {"nimi": "Legendaarne (Raadio/Baar/Records)", "url": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events", "tyyp": "venue/label", "nb": "lisatud 14.07.2026 (Silver): hip-hop-fookusega Legendaarne Records + Raadio + Baar (Tallinn); hostib räpp/RnB/bashment üritusi (DJ Trigga, Pluuto LIVE, Back 2 Bashment)"},
-   {"nimi": "Rada7.ee (FB events)", "url": "https://www.facebook.com/rada7.ee/events", "tyyp": "meedia", "nb": "lisatud 26.07.2026; žanri-agnostiline events-tab, kajastab ka räppi (nt Pluuto LIVE Legendaarses); sama allikas peasaidi ja klubi sektsioonis"}
+   {
+    "nimi": "Eesti Hip Hop Festival",
+    "url": "https://www.facebook.com/eestihiphopfestival/events",
+    "tyyp": "festival"
+   },
+   {
+    "nimi": "Uus Laine",
+    "url": "https://www.facebook.com/uuslaine/events",
+    "tyyp": "venue",
+    "nb": "Check One Two peod; URL kontrollida"
+   },
+   {
+    "nimi": "Sveta Baar",
+    "url": "",
+    "tyyp": "venue",
+    "nb": "SULETUD 01.01.2024 (Telliskivi, gentrifikatsioon + majanduskriis) - EI OLE enam allikas, võib eemaldada; url tühi -> avalikul lehel ei kuvata"
+   },
+   {
+    "nimi": "Beach Grind",
+    "url": "",
+    "tyyp": "festival",
+    "nb": "URL surnud 28.07.2026: FB-leht eemaldatud/privaatne"
+   },
+   {
+    "nimi": "Luke mõis",
+    "url": "https://lukemois.ee/",
+    "tyyp": "venue",
+    "nb": "28.07.2026: rappi lehel ei ole, ainult moisauritused - madal prioriteet"
+   },
+   {
+    "nimi": "Legendaarne (Raadio/Baar/Records)",
+    "url": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+    "tyyp": "venue/label",
+    "nb": "lisatud 14.07.2026 (Silver): hip-hop-fookusega Legendaarne Records + Raadio + Baar (Tallinn); hostib räpp/RnB/bashment üritusi (DJ Trigga, Pluuto LIVE, Back 2 Bashment)"
+   },
+   {
+    "nimi": "Rada7.ee (FB events)",
+    "url": "https://www.facebook.com/rada7.ee/events",
+    "tyyp": "meedia",
+    "nb": "lisatud 26.07.2026; žanri-agnostiline events-tab, kajastab ka räppi (nt Pluuto LIVE Legendaarses); sama allikas peasaidi ja klubi sektsioonis"
+   }
   ],
   "ig": [
-   {"nimi": "@eestihiphopfestival", "url": "https://www.instagram.com/eestihiphopfestival/"},
-   {"nimi": "@tommycashworld", "url": "https://www.instagram.com/tommycashworld/", "nb": "artist"},
-   {"nimi": "@nublu", "url": "https://www.instagram.com/nublu/", "nb": "VALE HANDLE (kinnitatud 11.07.2026): @nublu on privaatne eraisik; artisti õige IG handle täpsustada (nt @nblkllmvm vms) - Silveril kontrollida"}
+   {
+    "nimi": "@eestihiphopfestival",
+    "url": "https://www.instagram.com/eestihiphopfestival/"
+   },
+   {
+    "nimi": "@tommycashworld",
+    "url": "https://www.instagram.com/tommycashworld/",
+    "nb": "artist"
+   },
+   {
+    "nimi": "@nublu",
+    "url": "",
+    "nb": "VALE HANDLE - kinnitatud 28.07.2026: instagram.com/nublu on eraisiku privaatkonto (\"K.\", 78 jalgijat), MITTE rappar nublu. @nubluvibes ja @nublu404 ei eksisteeri. Oige handle tuvastamata"
+   }
   ],
   "js_saidid": [
-   {"nimi": "Piletilevi muusika", "url": "https://www.piletilevi.ee/piletid/muusika", "nb": "JS + API 403 serverist; filtreeri räpp/hip-hop käsitsi"},
-   {"nimi": "Fienta räpp-otsing", "url": "https://fienta.com/et?q=r%C3%A4pp", "nb": "ka: hip-hop, rap"},
-   {"nimi": "hiphop.ee", "url": "https://www.hiphop.ee/", "tyyp": "meedia", "nb": "webzine, RSS /feed/, postitused hõredad aga elus (viimane 03.2026); reliisid+peod"},
-   {"nimi": "chainz.ee", "url": "https://chainz.ee/", "tyyp": "meedia", "nb": "lisatud 15.07.2026; AKTIIVNE Eesti hiphopi meediaplatvorm + kogukond - koondab uudised/saated/reliisid/üritused; ka Chainz Fest 2026 (suvi, uus formaat); tugevaim uus räpp-allikas"},
-   {"nimi": "esthiphop.ee", "url": "https://esthiphop.ee/", "tyyp": "meedia", "nb": "lisatud 15.07.2026; hiphop/räppmuusika portaal - uudised + reliisid; kontrolli värskust sweepis"},
-   {"nimi": "ehh.ee", "url": "https://ehh.ee/", "nb": "lisatud 15.07.2026 (Silveri soov); Eesti hiphopi vanim portaal (2000ndatest), teatas tegevuse lõpetamisest 2015 - LEGACY/HÕRE; domeen elab veel + kannab mõnda üritusinfot, aga ära eelda värsket voogu"},
-   {"nimi": "Eesti Hip Hop Festival (ametlik sait)", "url": "https://eestihiphopfestival.ee/", "nb": "lisatud 15.07.2026; 20. juubel 14.-15.08.2026 Elvas; FB @eestihiphopfestival juba fb-all, ametlik sait annab lineup/ajakava täpsemalt"},
-   {"nimi": "Tartu Punch (ametlik sait)", "url": "https://tartupunch.com/et/avaleht-eesti/", "tyyp": "festival", "nb": "lisatud 06.07.2026, esimeses sweepis vahele jäänud; festival ise juba manual.json-is (allikas seni paavli.ee), aga ametlik sait annab täpsema lineup/kuupäeva info"},
-   {"nimi": "Bro Checks (Spotify)", "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX", "tyyp": "artist", "nb": "lisatud 28.07.2026 (Silveri FB-leid: album «Entroopia» 28.07.2026); underground-räppar, aktiivne 2004-2007 ja nüüd taas; ~17 kuulajat/kuu, meediakajastust pole - Spotify artistileht on ainus jälgitav voog. NB: žanrisilt kaudselt tuletatud, vt manual.json kirje 'nb'"}
+   {
+    "nimi": "Piletilevi muusika",
+    "url": "https://www.piletilevi.ee/piletid/muusika",
+    "nb": "JS + API 403 serverist; filtreeri räpp/hip-hop käsitsi"
+   },
+   {
+    "nimi": "Fienta räpp-otsing",
+    "url": "https://fienta.com/et?q=r%C3%A4pp",
+    "nb": "ka: hip-hop, rap"
+   },
+   {
+    "nimi": "hiphop.ee",
+    "url": "https://www.hiphop.ee/",
+    "tyyp": "meedia",
+    "nb": "SURNUD-POOLNE 28.07.2026: viimane sisu 03.2026, enne seda 2023"
+   },
+   {
+    "nimi": "chainz.ee",
+    "url": "https://chainz.ee/",
+    "tyyp": "meedia",
+    "nb": "lisatud 15.07.2026; AKTIIVNE Eesti hiphopi meediaplatvorm + kogukond - koondab uudised/saated/reliisid/üritused; ka Chainz Fest 2026 (suvi, uus formaat); tugevaim uus räpp-allikas"
+   },
+   {
+    "nimi": "esthiphop.ee",
+    "url": "https://esthiphop.ee/",
+    "tyyp": "meedia",
+    "nb": "SURNUD-POOLNE 28.07.2026: viimane uudis 01.2026"
+   },
+   {
+    "nimi": "ehh.ee",
+    "url": "https://ehh.ee/",
+    "nb": "SURNUD 28.07.2026: sait ise kirjutab \"oli kunagi\", viimane postitus 11.2025"
+   },
+   {
+    "nimi": "Eesti Hip Hop Festival (ametlik sait)",
+    "url": "https://eestihiphopfestival.ee/",
+    "nb": "lisatud 15.07.2026; 20. juubel 14.-15.08.2026 Elvas; FB @eestihiphopfestival juba fb-all, ametlik sait annab lineup/ajakava täpsemalt"
+   },
+   {
+    "nimi": "Tartu Punch (ametlik sait)",
+    "url": "https://tartupunch.com/et/avaleht-eesti/",
+    "tyyp": "festival",
+    "nb": "lisatud 06.07.2026, esimeses sweepis vahele jäänud; festival ise juba manual.json-is (allikas seni paavli.ee), aga ametlik sait annab täpsema lineup/kuupäeva info"
+   },
+   {
+    "nimi": "Bro Checks (Spotify)",
+    "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+    "tyyp": "artist",
+    "nb": "lisatud 28.07.2026 (Silveri FB-leid: album «Entroopia» 28.07.2026); underground-räppar, aktiivne 2004-2007 ja nüüd taas; ~17 kuulajat/kuu, meediakajastust pole - Spotify artistileht on ainus jälgitav voog. NB: žanrisilt kaudselt tuletatud, vt manual.json kirje 'nb'"
+   }
   ]
  },
  "js_saidid_chrome_kihis": [
-  {"nimi": "Tourmotor", "url": "https://tourmotor.net", "nb": "DIY/väikelinnade platvorm; 05.07.2026 seisuga aktiivseid tulevasi üritusi polnud"},
-  {"nimi": "Fienta otsing", "url": "https://fienta.com/et?q=metal", "nb": "ka: doom, black, hardcore; API võimalus jaluses"},
-  {"nimi": "Bandsintown Tallinn metal", "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia", "nb": "Cloudflare blokib serverit"}
+  {
+   "nimi": "Tourmotor",
+   "url": "https://tourmotor.net",
+   "nb": "DIY/väikelinnade platvorm; 05.07.2026 seisuga aktiivseid tulevasi üritusi polnud"
+  },
+  {
+   "nimi": "Fienta otsing",
+   "url": "https://fienta.com/et?q=metal",
+   "nb": "ka: doom, black, hardcore; API võimalus jaluses"
+  },
+  {
+   "nimi": "Bandsintown Tallinn metal",
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "nb": "Cloudflare blokib serverit"
+  }
  ],
  "yldised_agregaatorid": {
   "nb": "Žanri-agnostilised linna-/piletiplatvormid, kasulikud nii metal- kui rap-poolele. Leitud 06.07.2026 Tartu Rock Fest 2026 kaudu (Silveri Insta soovitus) - kõik allolevad lingid viitasid samale üritusele, sellepärast salvestatud allikatena, mitte 8 eraldi kirjena.",
   "sites": [
-   {"nimi": "tuleb.ee", "url": "https://tuleb.ee", "nb": "Eesti üritusteplatvorm; nt tuleb.ee/events/tartu-rock-fest-2026"},
-   {"nimi": "Somo", "url": "https://somo.social", "nb": "sotsiaalne üritusteplatvorm; nt somo.social/en/e/tartu-rock-fest-2026-710"},
-   {"nimi": "Allevents.in", "url": "https://allevents.in", "nb": "rahvusvaheline agregaator, Eesti/Tartu alamlehed olemas"},
-   {"nimi": "Kluub.ee", "url": "https://www.kluub.ee", "nb": "linnapõhine üritusteplatvorm"},
-   {"nimi": "Onlinepilet.ee", "url": "https://onlinepilet.ee", "nb": "piletimüük"},
-   {"nimi": "Kultuuriaken (Tartu linn)", "url": "https://kultuuriaken.tartu.ee", "nb": "Tartu linna ametlik kultuurikalender - potentsiaalselt hea üldallikas kõigile Tartu üritustele, mitte ainult sellele festivalile"},
-   {"nimi": "GateMe (Eesti)", "url": "https://gateme.com/et/Estonia/", "nb": "lisatud 11.07.2026 (Silveri soov): piletiplatvorm, Eesti klubi-/kontserdiüritused; JS-renderdus, käi läbi Chrome-kihis; žanri-agnostiline - filtreeri skoop"},
-   {"nimi": "Piletimaailm", "url": "https://www.piletimaailm.com", "nb": "piletimüük; korraldaja timeline nt piletimaailm.com/organizers/timeline/341 - varem registreerimata"},
-   {"nimi": "Ticketer", "url": "https://www.ticketer.ee", "nb": "lisatud 17.07.2026 (I Land Soundi piletid siin, Piletilevi/Fienta ei kata): piletiplatvorm, kasutavad ka vaiksemad korraldajad (nt Spekter Komando/Kaks Tuba); JS-renderdus - Chrome-kihis, filtreeri skoop"},
-   {"nimi": "Piletilevi", "url": "https://www.piletilevi.ee", "nb": "seni ainult rap-sektsioonis registreeritud (js_saidid all) ja seal JS+API 403 serverist; series-lehed nt piletilevi.ee/series/F72OXZFHHH kasulikud korraldaja jälgimiseks Chrome-sweepis"}
+   {
+    "nimi": "tuleb.ee",
+    "url": "https://tuleb.ee",
+    "nb": "28.07.2026: hooldusrezhiim (\"Naaseme peagi!\"), 5 uritust kokku"
+   },
+   {
+    "nimi": "Somo",
+    "url": "https://somo.social",
+    "nb": "sotsiaalne üritusteplatvorm; nt somo.social/en/e/tartu-rock-fest-2026-710"
+   },
+   {
+    "nimi": "Allevents.in",
+    "url": "https://allevents.in",
+    "nb": "rahvusvaheline agregaator, Eesti/Tartu alamlehed olemas"
+   },
+   {
+    "nimi": "Kluub.ee",
+    "url": "https://www.kluub.ee",
+    "nb": "linnapõhine üritusteplatvorm"
+   },
+   {
+    "nimi": "Onlinepilet.ee",
+    "url": "https://onlinepilet.ee",
+    "nb": "piletimüük"
+   },
+   {
+    "nimi": "Kultuuriaken (Tartu linn)",
+    "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+    "nb": "28.07.2026: oige tee on /et/syndmused (/sundmused ja /kontsert annavad 404)"
+   },
+   {
+    "nimi": "GateMe (Eesti)",
+    "url": "https://gateme.com/et/Estonia/",
+    "nb": "lisatud 11.07.2026 (Silveri soov): piletiplatvorm, Eesti klubi-/kontserdiüritused; JS-renderdus, käi läbi Chrome-kihis; žanri-agnostiline - filtreeri skoop"
+   },
+   {
+    "nimi": "Piletimaailm",
+    "url": "https://www.piletimaailm.com/categories/1-muusika",
+    "nb": "28.07.2026: tootav tee /categories/1-muusika (/kategooria/muusika = 404); sisu teater/klassika/rahvamuusika"
+   },
+   {
+    "nimi": "Ticketer",
+    "url": "https://www.ticketer.ee",
+    "nb": "lisatud 17.07.2026 (I Land Soundi piletid siin, Piletilevi/Fienta ei kata): piletiplatvorm, kasutavad ka vaiksemad korraldajad (nt Spekter Komando/Kaks Tuba); JS-renderdus - Chrome-kihis, filtreeri skoop"
+   },
+   {
+    "nimi": "Piletilevi",
+    "url": "https://www.piletilevi.ee/search?query=metal",
+    "nb": "TOOTAV OTSINGU-URL leitud 28.07.2026: /search?query=<termin>. EI TOOTA: /otsing?q= ja /piletid/muusika/rock-ja-metall (404). Zanri-alamkategooriaid EI OLE - kasuta otsingut (metal, punk, rock, rapp, techno)"
+   }
   ]
  },
  "rahvusvaheline": {
   "nb": "Lisatud 06.07.2026 (Silveri otsus). Kehtib AINULT peasaidile (skene.info metal/dark-electro) - rap.skene.info jääb Eesti-keskseks. Ulatus: ainult suursündmused (suurfestivalid + suurte bändide/agentuuride tuurid), mitte täiskate nagu Eestil. Järjekord: Baltikum -> Põhjamaad -> Euroopa. Traffic-eetika kehtib ka siin (viita ametlikule allikale).",
   "baltikum": [
-   {"nimi": "Kilkim Žaibu", "riik": "Leedu", "url": "https://kilkimzaibu.com/en", "nb": "Balti kultuuri + ekstreemmuusika festival (black/death/thrash + folkloor), 2026 25.-27.06"},
-   {"nimi": "Devilstone", "riik": "Leedu", "url": "https://devilstone.net/home-en/", "nb": "alt-rock/metal festival Anykščiai's; sait seisma jäänud 2023 juures (viimane kinnitatud edition) - kontrollida, kas 2026 toimub"},
-   {"nimi": "Melnā Piektdiena", "riik": "Läti", "url": "https://www.melnapiektdiena.lv", "fb": "https://www.facebook.com/melnapiektdiena/", "nb": "Läti suurim metal/rock/alternatiivklubi Riias - enamik suuremaid rahvusvahelisi metal-kontserte käib siit läbi"}
+   {
+    "nimi": "Kilkim Žaibu",
+    "riik": "Leedu",
+    "url": "https://kilkimzaibu.com/en",
+    "nb": "Balti kultuuri + ekstreemmuusika festival (black/death/thrash + folkloor), 2026 25.-27.06"
+   },
+   {
+    "nimi": "Devilstone",
+    "riik": "Leedu",
+    "url": "https://devilstone.net/home-en/",
+    "nb": "28.07.2026: sait uuendamata alates 2023, festivali staatus ebaselge - kaalu eemaldamist"
+   },
+   {
+    "nimi": "Melnā Piektdiena",
+    "riik": "Läti",
+    "url": "https://www.melnapiektdiena.lv",
+    "fb": "https://www.facebook.com/melnapiektdiena/",
+    "nb": "28.07.2026: redirectib klubi FB-lehele (Riia), tegu ei ole festivaliga - skoobist valjas"
+   }
   ],
   "pohjamaad": [
-   {"nimi": "Tuska Open Air", "riik": "Soome", "url": "https://tuska.fi/en/", "nb": "Põhja-Euroopa suurim metalfestival, Helsingi, 2026 26.-28.06, 40+ bändi"},
-   {"nimi": "Steelfest Open Air", "riik": "Soome", "url": "https://steelfest.fi/pages/steelfest-2026", "nb": "ekstreem-metal (black/death), Hyvinkää, 2026 14.-16.05"},
-   {"nimi": "Copenhell", "riik": "Taani", "url": "https://copenhell.dk/en/front-page/", "nb": "Taani suurim metalfestival, Kopenhaagen, 2026 17.-20.06"},
-   {"nimi": "Sweden Rock Festival", "riik": "Rootsi", "url": "https://swedenrock.com/en/", "nb": "hard/classic rock rõhuga, Sölvesborg, ~35k külastajat/päev"},
-   {"nimi": "Tons of Rock", "riik": "Norra", "url": "https://www.tonsofrock.no/en", "nb": "Skandinaavia suurim rock/metal festival, Oslo, 2026 24.-27.06"},
-   {"nimi": "Beyond the Gates", "riik": "Norra", "url": "https://www.beyondthegates.no/", "nb": "ekstreem/black metal, Bergen, 2026 29.07.-01.08"},
-   {"nimi": "Inferno Metal Festival", "riik": "Norra", "url": "https://infernofestival.no/", "nb": "ekstreem-metal, Oslo, toimub lihavõtete paiku (2026 02.-05.04)"}
+   {
+    "nimi": "Tuska Open Air",
+    "riik": "Soome",
+    "url": "https://tuska.fi/en/",
+    "nb": "Põhja-Euroopa suurim metalfestival, Helsingi, 2026 26.-28.06, 40+ bändi"
+   },
+   {
+    "nimi": "Steelfest Open Air",
+    "riik": "Soome",
+    "url": "https://steelfest.fi/pages/steelfest-2026",
+    "nb": "ekstreem-metal (black/death), Hyvinkää, 2026 14.-16.05"
+   },
+   {
+    "nimi": "Copenhell",
+    "riik": "Taani",
+    "url": "https://copenhell.dk/en/front-page/",
+    "nb": "Taani suurim metalfestival, Kopenhaagen, 2026 17.-20.06"
+   },
+   {
+    "nimi": "Sweden Rock Festival",
+    "riik": "Rootsi",
+    "url": "https://swedenrock.com/en/",
+    "nb": "hard/classic rock rõhuga, Sölvesborg, ~35k külastajat/päev"
+   },
+   {
+    "nimi": "Tons of Rock",
+    "riik": "Norra",
+    "url": "https://www.tonsofrock.no/en",
+    "nb": "Skandinaavia suurim rock/metal festival, Oslo, 2026 24.-27.06"
+   },
+   {
+    "nimi": "Beyond the Gates",
+    "riik": "Norra",
+    "url": "https://www.beyondthegates.no/",
+    "nb": "ekstreem/black metal, Bergen, 2026 29.07.-01.08"
+   },
+   {
+    "nimi": "Inferno Metal Festival",
+    "riik": "Norra",
+    "url": "https://infernofestival.no/",
+    "nb": "ekstreem-metal, Oslo, toimub lihavõtete paiku (2026 02.-05.04)"
+   }
   ],
   "euroopa": [
-   {"nimi": "Wacken Open Air", "riik": "Saksamaa", "url": "https://www.wacken.com/en/", "nb": "maailma suurim/tuntuim metalfestival, 2026 29.07.-01.08 (35. juubel), 80k+ külastajat"},
-   {"nimi": "Hellfest", "riik": "Prantsusmaa", "url": "https://www.hellfest.fr", "nb": "Euroopa suurim metalfestival (Clisson), kõik alažanrid, ~180k külastajat"},
-   {"nimi": "Graspop Metal Meeting", "riik": "Belgia", "url": "https://www.graspop.be", "nb": "üks Belgia suurfestivalidest, sarnane Download'iga"},
-   {"nimi": "Summer Breeze", "riik": "Saksamaa", "url": "http://www.summer-breeze.de", "nb": "üks Saksamaa neljast suurfestivalist (koos Wacken/Party.San/Rock Hard)"},
-   {"nimi": "Brutal Assault", "riik": "Tšehhi", "url": "https://www.brutalassault.cz", "nb": "death/black/thrash/doom, Josefovi kindluses"},
-   {"nimi": "Wave-Gotik-Treffen", "riik": "Saksamaa", "url": "https://www.wave-gotik-treffen.de/english/", "nb": "maailma suurim gooti festival (EBM/darkwave/gootirock/gootmetal) - sobib dark-electro žanriga; Leipzig, 2026 22.-25.05"},
-   {"nimi": "M'era Luna", "riik": "Saksamaa", "url": "https://meraluna.de/en/", "nb": "suur gooti/dark-electro/industrial festival - sobib dark-electro žanriga; Hildesheim, 2026 08.-09.08"}
+   {
+    "nimi": "Wacken Open Air",
+    "riik": "Saksamaa",
+    "url": "https://www.wacken.com/en/",
+    "nb": "maailma suurim/tuntuim metalfestival, 2026 29.07.-01.08 (35. juubel), 80k+ külastajat"
+   },
+   {
+    "nimi": "Hellfest",
+    "riik": "Prantsusmaa",
+    "url": "https://www.hellfest.fr",
+    "nb": "Euroopa suurim metalfestival (Clisson), kõik alažanrid, ~180k külastajat"
+   },
+   {
+    "nimi": "Graspop Metal Meeting",
+    "riik": "Belgia",
+    "url": "https://www.graspop.be",
+    "nb": "üks Belgia suurfestivalidest, sarnane Download'iga"
+   },
+   {
+    "nimi": "Summer Breeze",
+    "riik": "Saksamaa",
+    "url": "http://www.summer-breeze.de",
+    "nb": "üks Saksamaa neljast suurfestivalist (koos Wacken/Party.San/Rock Hard)"
+   },
+   {
+    "nimi": "Brutal Assault",
+    "riik": "Tšehhi",
+    "url": "https://www.brutalassault.cz",
+    "nb": "death/black/thrash/doom, Josefovi kindluses"
+   },
+   {
+    "nimi": "Wave-Gotik-Treffen",
+    "riik": "Saksamaa",
+    "url": "https://www.wave-gotik-treffen.de/english/",
+    "nb": "maailma suurim gooti festival (EBM/darkwave/gootirock/gootmetal) - sobib dark-electro žanriga; Leipzig, 2026 22.-25.05"
+   },
+   {
+    "nimi": "M'era Luna",
+    "riik": "Saksamaa",
+    "url": "https://meraluna.de/en/",
+    "nb": "suur gooti/dark-electro/industrial festival - sobib dark-electro žanriga; Hildesheim, 2026 08.-09.08"
+   }
   ]
  },
  "rock_punk_uued": {
   "nb": "Lisatud 06.07.2026 - ulatuse laienemine rock/punk peale. Uurimustöö tehtud, kontrollimata allikad markeeritud.",
   "sites": [
-   {"nimi": "Ülase12", "url": "https://www.facebook.com/anemon12tln/events", "tyyp": "venue/DIY", "nb": "KESKNE DIY punk/hardcore/anarhistlik keskus Tallinnas - monitoori eraldi tähelepanuga. URL parandatud 09.07.2026: vana ulase12 surnud ('content isn't available') -> FB-leht 'Anemon12' (@anemon12tln), sotsiaalkeskus Ülase 12; kinnitatud live-üritustega (nt Ülase Fest '26)"},
-   {"nimi": "Beyond Tartu", "url": "https://beyondtartu.bandcamp.com/", "tyyp": "label", "nb": "aktiivne Tartu crust/hardcore label Bandcampis (Kuritarvitaja, Paranarkar, Keskkool jt)"},
-   {"nimi": "Hell (klubi, Tartu)", "url": "https://www.facebook.com/punknrollhell/", "tyyp": "venue", "nb": "punk/rock, Tiigi 76a; KONTROLLIDA kas eraldi 'Klubi Rock & Roll (Tartu)' olemasolevast nimekirjast - vôivad kattuda"},
-   {"nimi": "Rock & Roll Heaven (Tartu)", "url": "https://www.facebook.com/rollheaven/", "tyyp": "venue", "nb": "sama aadress/maja mis Hell; KONTROLLIDA dubleerimist 'Klubi Rock & Roll' vastu"},
-   {"nimi": "Genialistide Klubi (Tartu)", "url": "https://www.facebook.com/GenKlubi/", "tyyp": "venue", "nb": "subkultuurimaja, ~400 üritust/aastas, laiem kui punk aga sobib rock/punk ulatusega"},
-   {"nimi": "Punk & Rock Festival Estonia", "url": "https://www.facebook.com/punkrockfestival/", "tyyp": "festival", "nb": "Raadi mõisapark, Tartu; 2026 väljaanne KINNITAMATA otsingu seisuga - kontrolli FB otse"},
-   {"nimi": "Tartu Rock Fest 2026", "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/", "tyyp": "festival", "nb": "10.-11.07.2026, Tartu Laululava, korraldaja Tartu Kontsert; VARASEMALT BLOKEERITUD 'mitte metal' pärast - blocklistist eemaldatud 06.07.2026 ulatuse laienemise tõttu"},
-   {"nimi": "Saund (Hiiumaa)", "url": "https://saund.ee/", "tyyp": "festival", "nb": "peamiselt elektrooniline/eksperimentaalne, aga 2026 (23.-25.07) punk/alt-rock laval Ülase12 kureerituna; 12.07.2026: lineup saidi tekstist endiselt kättesaamatu (JS/pildid), jäetud välja"},
-   {"nimi": "Veriora Rock Stroganoff", "url": "https://www.facebook.com/veriorarock.stroganoff/", "tyyp": "festival", "nb": "lisatud 12.07.2026 (leid FB suggested-events kaudu): Räpina valla suverokipidu Veriora järve ääres 14.08.2026, korraldaja Veriora Raudvara (heavy-punk); teine allikas kultuur.rapina.ee; lineup+pilet TBA - jälgi poolikute kirjete ülekontrollis"}
+   {
+    "nimi": "Ülase12",
+    "url": "https://www.facebook.com/anemon12tln/events",
+    "tyyp": "venue/DIY",
+    "nb": "KESKNE DIY punk/hardcore/anarhistlik keskus Tallinnas - monitoori eraldi tähelepanuga. URL parandatud 09.07.2026: vana ulase12 surnud ('content isn't available') -> FB-leht 'Anemon12' (@anemon12tln), sotsiaalkeskus Ülase 12; kinnitatud live-üritustega (nt Ülase Fest '26)"
+   },
+   {
+    "nimi": "Beyond Tartu",
+    "url": "https://beyondtartu.bandcamp.com/",
+    "tyyp": "label",
+    "nb": "28.07.2026: viimane reliis 19.12.2024 - madal prioriteet"
+   },
+   {
+    "nimi": "Hell (klubi, Tartu)",
+    "url": "https://www.facebook.com/punknrollhell/",
+    "tyyp": "venue",
+    "nb": "punk/rock, Tiigi 76a; KONTROLLIDA kas eraldi 'Klubi Rock & Roll (Tartu)' olemasolevast nimekirjast - vôivad kattuda"
+   },
+   {
+    "nimi": "Rock & Roll Heaven (Tartu)",
+    "url": "https://www.facebook.com/rollheaven/",
+    "tyyp": "venue",
+    "nb": "sama aadress/maja mis Hell; KONTROLLIDA dubleerimist 'Klubi Rock & Roll' vastu"
+   },
+   {
+    "nimi": "Genialistide Klubi (Tartu)",
+    "url": "https://www.facebook.com/GenKlubi/",
+    "tyyp": "venue",
+    "nb": "subkultuurimaja, ~400 üritust/aastas, laiem kui punk aga sobib rock/punk ulatusega"
+   },
+   {
+    "nimi": "Punk & Rock Festival Estonia",
+    "url": "https://www.facebook.com/punkrockfestival/",
+    "tyyp": "festival",
+    "nb": "Raadi mõisapark, Tartu; 2026 väljaanne KINNITAMATA otsingu seisuga - kontrolli FB otse"
+   },
+   {
+    "nimi": "Tartu Rock Fest 2026",
+    "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+    "tyyp": "festival",
+    "nb": "10.-11.07.2026, Tartu Laululava, korraldaja Tartu Kontsert; VARASEMALT BLOKEERITUD 'mitte metal' pärast - blocklistist eemaldatud 06.07.2026 ulatuse laienemise tõttu"
+   },
+   {
+    "nimi": "Saund (Hiiumaa)",
+    "url": "https://saund.ee/",
+    "tyyp": "festival",
+    "nb": "peamiselt elektrooniline/eksperimentaalne, aga 2026 (23.-25.07) punk/alt-rock laval Ülase12 kureerituna; 12.07.2026: lineup saidi tekstist endiselt kättesaamatu (JS/pildid), jäetud välja"
+   },
+   {
+    "nimi": "Veriora Rock Stroganoff",
+    "url": "https://www.facebook.com/veriorarock.stroganoff/",
+    "tyyp": "festival",
+    "nb": "lisatud 12.07.2026 (leid FB suggested-events kaudu): Räpina valla suverokipidu Veriora järve ääres 14.08.2026, korraldaja Veriora Raudvara (heavy-punk); teine allikas kultuur.rapina.ee; lineup+pilet TBA - jälgi poolikute kirjete ülekontrollis"
+   }
   ]
  },
  "bandcamp_otsing": {
-  "nb": "Lisatud 06.07.2026. PARANDATUD 12.07.2026: uus töötav formaat on tag-kombinatsioon bandcamp.com/discover/estonia?tags=<zanr>&s=new (sorteering 'new'; NB: 's=new' järjestus paistab olevat üleslaadimise, mitte release-kuupäeva järgi - kontrolli release-kuupäev alati albumi lehelt). HOIATUS 26.07.2026 (Tharaphita «Öise taevaga üheks»): Bandcampi credits-rea kuupäev EI OLE usaldusväärne üksi - bänd oli jätnud sinna platseholderi 'released January 1, 2026', kuigi album ilmus tegelikult 20.07.2026. Kaks varasemat sweepi lugesid kirje selle põhjal ekslikult vanaks ja jätsid lisamata. REEGEL: kui album ilmub 's=new' otsingus ette, AGA credits-kuupäev on kuude taga, kontrolli ALATI teine allikas (Metal Archives album-leht, bändi FB/IG teade) enne kui otsustad 'vana'. Ainult siis, kui teine allikas kinnitab vana kuupäeva, jäta välja. Cloudflare blokeerib serveripäringud - AINULT Chrome-kihis. 13.07.2026: laienes kõigile 3 saidile - `sait` väli (www/rap/klubi) on vihje, millise saidi reliise oodata; LÕPLIKU alamdomeeni otsustab ikka žanripõhine loogika/classify (industrial metal -> www, electro-industrial -> klubi).",
+  "nb": "Lisatud 06.07.2026. PARANDATUD 12.07.2026: uus töötav formaat on tag-kombinatsioon bandcamp.com/discover/estonia?tags=<zanr>&s=new (sorteering 'new'; NB: 's=new' järjestus paistab olevat üleslaadimise, mitte release-kuupäeva järgi - kontrolli release-kuupäev alati albumi lehelt). HOIATUS 26.07.2026 (Tharaphita «Öise taevaga üheks»): Bandcampi credits-rea kuupäev EI OLE usaldusväärne üksi - bänd oli jätnud sinna platseholderi 'released January 1, 2026', kuigi album ilmus tegelikult 20.07.2026. Kaks varasemat sweepi lugesid kirje selle põhjal ekslikult vanaks ja jätsid lisamata. REEGEL: kui album ilmub 's=new' otsingus ette, AGA credits-kuupäev on kuude taga, kontrolli ALATI teine allikas (Metal Archives album-leht, bändi FB/IG teade) enne kui otsustad 'vana'. Ainult siis, kui teine allikas kinnitab vana kuupäeva, jäta välja. Cloudflare blokeerib serveripäringud - AINULT Chrome-kihis. 13.07.2026: laienes kõigile 3 saidile - `sait` väli (www/rap/klubi) on vihje, millise saidi reliise oodata; LÕPLIKU alamdomeeni otsustab ikka žanripõhine loogika/classify (industrial metal -> www, electro-industrial -> klubi). | 28.07.2026: geoname-filter TOOTAB taas - discover/estonia?tags=<tag>&s=new redirectib kujule discover/estonia+<tag>?s=new ja annab oiged tulemused.",
   "urls": [
-   {"zanr": "metal", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new"},
-   {"zanr": "punk", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new"},
-   {"zanr": "rock", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new"},
-   {"zanr": "black metal (alažanri näide)", "sait": "www", "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new"},
-   {"zanr": "industrial/dark-electro", "sait": "www või klubi (žanripõhine)", "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new"},
-   {"zanr": "hip-hop", "sait": "rap", "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new"},
-   {"zanr": "rap", "sait": "rap", "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new"},
-   {"zanr": "techno", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new"},
-   {"zanr": "house", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=house&s=new"},
-   {"zanr": "electronic", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new"},
-   {"zanr": "experimental", "sait": "klubi", "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new"}
+   {
+    "zanr": "metal",
+    "sait": "www",
+    "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new"
+   },
+   {
+    "zanr": "punk",
+    "sait": "www",
+    "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new"
+   },
+   {
+    "zanr": "rock",
+    "sait": "www",
+    "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new"
+   },
+   {
+    "zanr": "black metal (alažanri näide)",
+    "sait": "www",
+    "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new"
+   },
+   {
+    "zanr": "industrial/dark-electro",
+    "sait": "www või klubi (žanripõhine)",
+    "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new"
+   },
+   {
+    "zanr": "hip-hop",
+    "sait": "rap",
+    "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new"
+   },
+   {
+    "zanr": "rap",
+    "sait": "rap",
+    "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new"
+   },
+   {
+    "zanr": "techno",
+    "sait": "klubi",
+    "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new"
+   },
+   {
+    "zanr": "house",
+    "sait": "klubi",
+    "url": "https://bandcamp.com/discover/estonia?tags=house&s=new"
+   },
+   {
+    "zanr": "electronic",
+    "sait": "klubi",
+    "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new"
+   },
+   {
+    "zanr": "experimental",
+    "sait": "klubi",
+    "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new"
+   }
   ]
  },
  "klubi": {
   "nb": "klubi.skene.info allikad - alternatiivne klubikultuur: techno/house/dnb/bass/eksperimentaal + dark-electro klubiohtud (BFTV jt). Peavoolu kommertsklubid EI kuulu skoopi. Pohiallikas Resident Advisor.",
   "fb": [
-   {"nimi": "Beats From The Vault (BFTV)", "url": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events", "tyyp": "peosari", "nb": "kolis metal-poolelt 13.07.2026; dark-electro/EBM/industrial peosari alates 1998, toimub ule kuu; bftv.ee on JS-renderdatud - FB primaarne"},
-   {"nimi": "HALL (Tallinn)", "url": "https://www.facebook.com/halltallinn/upcoming_hosted_events", "tyyp": "venue", "nb": "kolis metal-poolelt 13.07.2026; Noblessneri klubi (Peetri 6), tehno/house/klubiohtud - nuud KOGU programm skoobis"},
-   {"nimi": "Planeet (Audio Planeet)", "url": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events", "tyyp": "artist/peosari", "nb": "lisatud 13.07.2026 (Silver); DnB/bass producer-DJ (planeet.dnb), 5K jalgijat; upcoming_hosted_events = uritused kus esineb/host (Club RED Viljandi, Treski Fest, Breakwave, Netsky@Hundipea jne) - filtreeri Eesti skoop"},
-   {"nimi": "Artur Laats", "url": "https://www.facebook.com/Arturlaats/upcoming_hosted_events", "tyyp": "artist", "nb": "lisatud 13.07.2026 (Silver); ISIKUPROFIIL (mitte leht), seotud HALL/hall.vision, soundcloud.com/arturlaats; 13.07.2026 upcoming events tuhi - hore allikas"},
-   {"nimi": "Kaks Tuba (Rapla)", "url": "https://www.facebook.com/kakstuba/events", "tyyp": "venue", "nb": "lisatud 17.07.2026 (kontaktivormi sisend: DNB Estonia x Dropzone 18.07); klubi Raplas (Kauba 2), elektrooniline tantsumuusika + alternatiivkultuur; piletid osalt ticketer.ee (Spekter Komando OU)"},
-   {"nimi": "VMPR / Valgemetsa projektiruum", "url": "https://vmpr.ee/", "tyyp": "venue", "nb": "lisatud 17.07.2026 (kontaktivormi sisend: Allikata Heli 8.8); eksperimentaalse heli/kunsti projektiruum Valgemetsa kulas Polvamaal; FB leht 'VMPR'; uritused harvad aga skoobis (eksperimentaalelektroonika)"},
-   {"nimi": "Rada7.ee (FB events)", "url": "https://www.facebook.com/rada7.ee/events", "tyyp": "meedia", "nb": "lisatud 26.07.2026; zanri-agnostiline events-tab, kajastab ka klubi/bassimuusikat (nt Selekta/Aphrodite Paavlis, Tjuun In Templis, Recursive Kid Kivis); sama allikas peasaidi ja rap-sektsioonis"}
+   {
+    "nimi": "Beats From The Vault (BFTV)",
+    "url": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events",
+    "tyyp": "peosari",
+    "nb": "kolis metal-poolelt 13.07.2026; dark-electro/EBM/industrial peosari alates 1998, toimub ule kuu; bftv.ee on JS-renderdatud - FB primaarne"
+   },
+   {
+    "nimi": "HALL (Tallinn)",
+    "url": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
+    "tyyp": "venue",
+    "nb": "kolis metal-poolelt 13.07.2026; Noblessneri klubi (Peetri 6), tehno/house/klubiohtud - nuud KOGU programm skoobis"
+   },
+   {
+    "nimi": "Planeet (Audio Planeet)",
+    "url": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+    "tyyp": "artist/peosari",
+    "nb": "lisatud 13.07.2026 (Silver); DnB/bass producer-DJ (planeet.dnb), 5K jalgijat; upcoming_hosted_events = uritused kus esineb/host (Club RED Viljandi, Treski Fest, Breakwave, Netsky@Hundipea jne) - filtreeri Eesti skoop"
+   },
+   {
+    "nimi": "Artur Laats",
+    "url": "https://www.facebook.com/Arturlaats/upcoming_hosted_events",
+    "tyyp": "artist",
+    "nb": "lisatud 13.07.2026 (Silver); ISIKUPROFIIL (mitte leht), seotud HALL/hall.vision, soundcloud.com/arturlaats; 13.07.2026 upcoming events tuhi - hore allikas"
+   },
+   {
+    "nimi": "Kaks Tuba (Rapla)",
+    "url": "https://www.facebook.com/kakstuba/events",
+    "tyyp": "venue",
+    "nb": "lisatud 17.07.2026 (kontaktivormi sisend: DNB Estonia x Dropzone 18.07); klubi Raplas (Kauba 2), elektrooniline tantsumuusika + alternatiivkultuur; piletid osalt ticketer.ee (Spekter Komando OU)"
+   },
+   {
+    "nimi": "VMPR / Valgemetsa projektiruum",
+    "url": "https://vmpr.ee/",
+    "tyyp": "venue",
+    "nb": "lisatud 17.07.2026 (kontaktivormi sisend: Allikata Heli 8.8); eksperimentaalse heli/kunsti projektiruum Valgemetsa kulas Polvamaal; FB leht 'VMPR'; uritused harvad aga skoobis (eksperimentaalelektroonika)"
+   },
+   {
+    "nimi": "Rada7.ee (FB events)",
+    "url": "https://www.facebook.com/rada7.ee/events",
+    "tyyp": "meedia",
+    "nb": "lisatud 26.07.2026; zanri-agnostiline events-tab, kajastab ka klubi/bassimuusikat (nt Selekta/Aphrodite Paavlis, Tjuun In Templis, Recursive Kid Kivis); sama allikas peasaidi ja rap-sektsioonis"
+   }
   ],
   "ig": [],
   "js_saidid": [
-   {"nimi": "Resident Advisor - Eesti", "url": "https://ra.co/events/ee/all", "tyyp": "kogukond", "nb": "POHIALLIKAS; kasuta ?startDate=YYYY-MM-DD parameetrit nadalate kaupa, muidu naitab ainult esimesed"},
-   {"nimi": "HUNGR (Shelter)", "url": "https://ra.co/clubs/235784", "tyyp": "venue", "nb": "Shelter / Sub u Dub / Safara; piletid Fientas o/17855"},
-   {"nimi": "Paavli Kultuurivabrik", "url": "https://fienta.com/o/17595", "tyyp": "venue", "nb": "klubiohtud (Selecta jt); MOD samas kvartalis (Paavli 9)"},
-   {"nimi": "Uus Laine", "url": "https://fienta.com/et/o/17330", "tyyp": "venue", "nb": "Laine Klubioo / Label Night sarjad"},
-   {"nimi": "Shelter (Fienta)", "url": "https://fienta.com/et/o/17855", "tyyp": "promootor"},
-   {"nimi": "Fienta klubi-otsing", "url": "https://fienta.com/et?q=techno", "tyyp": "otsing", "nb": "lisatud 17.07.2026; ka: dnb, house, rave, elektroonika - metal/rap-poolel olid Fienta märksõnaotsingud olemas, klubil seni puudusid"},
-   {"nimi": "Tšungel (Tallinn)", "url": "https://ra.co/clubs/265290", "tyyp": "venue", "nb": "lisatud 26.07.2026 (sweepi leid): suvine välilava-baar Kopli 1 / Balti jaam, DJd K-L, ainult elektrooniline muusika, sissepääs tasuta + uksepoliitika; oma sait tsungel.ee näitab ainult paari lähimat üritust, RA venue-leht on täielikum; Healer Recordsi suveresidentuur"},
-   {"nimi": "Tolm (Tartu)", "url": "https://tolm.club/", "tyyp": "venue", "nb": "tulevased uritused + FB-event lingid otse lehel"},
-   {"nimi": "Kultuuriklubi Tempel (Parnu)", "url": "https://ra.co/clubs/151795", "tyyp": "venue", "nb": "Tjuun In (dnb/jungle) sari"},
-   {"nimi": "D3", "url": "https://www.d-3.ee/events/", "tyyp": "venue"},
-   {"nimi": "Kauplus Aasia", "url": "https://ra.co/clubs/147536", "tyyp": "venue"},
-   {"nimi": "Genialistide Klubi (Tartu)", "url": "https://genklubi.ee/events/", "tyyp": "venue", "nb": "harva klubiohtud"},
-   {"nimi": "I Land Sound", "url": "https://ilandsound.ee/en/", "tyyp": "festival", "nb": "iga-aastane festival Illiku laiul"},
-   {"nimi": "AllEvents Tallinn (raves)", "url": "https://allevents.in/tallinn/raves", "tyyp": "kogukond", "nb": "agregaator - vajab ALATI teist kinnitust"}
+   {
+    "nimi": "Resident Advisor - Eesti",
+    "url": "https://ra.co/events/ee/all",
+    "tyyp": "kogukond",
+    "nb": "POHIALLIKAS; kasuta ?startDate=YYYY-MM-DD parameetrit nadalate kaupa, muidu naitab ainult esimesed"
+   },
+   {
+    "nimi": "HUNGR (Shelter)",
+    "url": "https://ra.co/clubs/235784",
+    "tyyp": "venue",
+    "nb": "Shelter / Sub u Dub / Safara; piletid Fientas o/17855"
+   },
+   {
+    "nimi": "Paavli Kultuurivabrik",
+    "url": "https://fienta.com/o/17595",
+    "tyyp": "venue",
+    "nb": "klubiohtud (Selecta jt); MOD samas kvartalis (Paavli 9)"
+   },
+   {
+    "nimi": "Uus Laine",
+    "url": "https://fienta.com/et/o/17330",
+    "tyyp": "venue",
+    "nb": "Laine Klubioo / Label Night sarjad"
+   },
+   {
+    "nimi": "Shelter (Fienta)",
+    "url": "https://fienta.com/et/o/17855",
+    "tyyp": "promootor"
+   },
+   {
+    "nimi": "Fienta klubi-otsing",
+    "url": "https://fienta.com/et?q=techno",
+    "tyyp": "otsing",
+    "nb": "lisatud 17.07.2026; ka: dnb, house, rave, elektroonika - metal/rap-poolel olid Fienta märksõnaotsingud olemas, klubil seni puudusid"
+   },
+   {
+    "nimi": "Tšungel (Tallinn)",
+    "url": "https://ra.co/clubs/265290",
+    "tyyp": "venue",
+    "nb": "lisatud 26.07.2026 (sweepi leid): suvine välilava-baar Kopli 1 / Balti jaam, DJd K-L, ainult elektrooniline muusika, sissepääs tasuta + uksepoliitika; oma sait tsungel.ee näitab ainult paari lähimat üritust, RA venue-leht on täielikum; Healer Recordsi suveresidentuur"
+   },
+   {
+    "nimi": "Tolm (Tartu)",
+    "url": "https://tolm.club/",
+    "tyyp": "venue",
+    "nb": "tulevased uritused + FB-event lingid otse lehel"
+   },
+   {
+    "nimi": "Kultuuriklubi Tempel (Parnu)",
+    "url": "https://ra.co/clubs/151795",
+    "tyyp": "venue",
+    "nb": "Tjuun In (dnb/jungle) sari"
+   },
+   {
+    "nimi": "D3",
+    "url": "https://www.d-3.ee/events/",
+    "tyyp": "venue"
+   },
+   {
+    "nimi": "Kauplus Aasia",
+    "url": "https://ra.co/clubs/147536",
+    "tyyp": "venue"
+   },
+   {
+    "nimi": "Genialistide Klubi (Tartu)",
+    "url": "https://genklubi.ee/events/",
+    "tyyp": "venue",
+    "nb": "harva klubiohtud"
+   },
+   {
+    "nimi": "I Land Sound",
+    "url": "https://ilandsound.ee/en/",
+    "tyyp": "festival",
+    "nb": "iga-aastane festival Illiku laiul"
+   },
+   {
+    "nimi": "AllEvents Tallinn (raves)",
+    "url": "https://allevents.in/tallinn/raves",
+    "tyyp": "kogukond",
+    "nb": "agregaator - vajab ALATI teist kinnitust"
+   }
   ]
  }
 }
