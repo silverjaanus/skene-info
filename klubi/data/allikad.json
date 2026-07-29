@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-28",
+ "updated": "2026-07-29",
  "groups": [
   {
    "nimi": "Kohad",
@@ -14,7 +14,7 @@
     },
     {
      "n": "HALL (Tallinn)",
-     "u": "https://www.facebook.com/halltallinn/upcoming_hosted_events"
+     "u": "https://www.facebook.com/halltallinn/events"
     },
     {
      "n": "HUNGR (Shelter)",
@@ -59,7 +59,7 @@
    "items": [
     {
      "n": "Beats From The Vault (BFTV)",
-     "u": "https://www.facebook.com/beatsfromthevault/upcoming_hosted_events"
+     "u": "https://www.facebook.com/beatsfromthevault/events"
     },
     {
      "n": "Shelter (Fienta)",
@@ -98,7 +98,7 @@
     },
     {
      "n": "Planeet (Audio Planeet)",
-     "u": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events"
+     "u": "https://www.facebook.com/AudioPlaneet/events"
     }
    ]
   },
@@ -107,7 +107,7 @@
    "items": [
     {
      "n": "Artur Laats",
-     "u": "https://www.facebook.com/Arturlaats/upcoming_hosted_events"
+     "u": "https://www.facebook.com/Arturlaats/events"
     }
    ]
   },

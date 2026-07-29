@@ -1,12 +1,12 @@
 {
- "updated": "2026-07-28",
+ "updated": "2026-07-29",
  "groups": [
   {
    "nimi": "Korraldajad",
    "items": [
     {
      "n": "Baltic Live Agency",
-     "u": "https://www.facebook.com/balticliveagency/upcoming_hosted_events"
+     "u": "https://www.facebook.com/balticliveagency/events"
     },
     {
      "n": "Barbar / Barbar Feast",
@@ -14,11 +14,11 @@
     },
     {
      "n": "Bloodbath Events",
-     "u": "https://www.facebook.com/BloodBathFest/upcoming_hosted_events"
+     "u": "https://www.facebook.com/BloodBathFest/events"
     },
     {
      "n": "Damn.Loud Agency",
-     "u": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events"
+     "u": "https://www.facebook.com/we.are.too.damn.loud/events"
     },
     {
      "n": "Hetk (promootor)",
@@ -26,11 +26,11 @@
     },
     {
      "n": "Kolga Mõisa Kontsert",
-     "u": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events"
+     "u": "https://www.facebook.com/kolgamoisakontsert/events"
     },
     {
      "n": "L Tips Agency Estonia",
-     "u": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events"
+     "u": "https://www.facebook.com/LTipsAgencyEstonia/events"
     },
     {
      "n": "Roots Session",
@@ -42,11 +42,11 @@
     },
     {
      "n": "Sügis Productions",
-     "u": "https://www.facebook.com/sugisproductions/upcoming_hosted_events"
+     "u": "https://www.facebook.com/sugisproductions/events"
     },
     {
      "n": "Urban Culture Entertainment",
-     "u": "https://www.facebook.com/urbancultureent/upcoming_hosted_events"
+     "u": "https://www.facebook.com/urbancultureent/events"
     }
    ]
   },
@@ -55,15 +55,15 @@
    "items": [
     {
      "n": "300 (klubi)",
-     "u": "https://www.facebook.com/300klubi/upcoming_hosted_events"
+     "u": "https://www.facebook.com/300klubi/events"
     },
     {
      "n": "Festivali maja (Võru)",
-     "u": "https://www.facebook.com/festivalimaja/upcoming_hosted_events"
+     "u": "https://www.facebook.com/festivalimaja/events"
     },
     {
      "n": "Fort Bar",
-     "u": "https://www.facebook.com/fortbar.tallinn/upcoming_hosted_events"
+     "u": "https://www.facebook.com/fortbar.tallinn/events"
     },
     {
      "n": "Genialistide Klubi (Tartu)",
@@ -71,7 +71,7 @@
     },
     {
      "n": "Helitehas",
-     "u": "https://www.facebook.com/helitehas/upcoming_hosted_events"
+     "u": "https://www.facebook.com/helitehas/events"
     },
     {
      "n": "Hell (klubi, Tartu)",
@@ -79,7 +79,7 @@
     },
     {
      "n": "Kidrakuur",
-     "u": "https://www.facebook.com/KidrakuurKultuuriklubi/upcoming_hosted_events"
+     "u": "https://www.facebook.com/KidrakuurKultuuriklubi/events"
     },
     {
      "n": "Kinomaja / KuKu Klubi",
@@ -103,15 +103,15 @@
     },
     {
      "n": "Stedingu Kelder (Võru)",
-     "u": "https://www.facebook.com/stedingukelder/upcoming_hosted_events"
+     "u": "https://www.facebook.com/stedingukelder/events"
     },
     {
      "n": "Tapper",
-     "u": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events"
+     "u": "https://www.facebook.com/rockclubtapper/events"
     },
     {
      "n": "The Krypt",
-     "u": "https://www.facebook.com/thekrypt.tallinn/upcoming_hosted_events"
+     "u": "https://www.facebook.com/thekrypt.tallinn/events"
     },
     {
      "n": "Underground (Põlva)",
@@ -127,7 +127,7 @@
     },
     {
      "n": "Winkel",
-     "u": "https://www.facebook.com/ehewinkel/upcoming_hosted_events"
+     "u": "https://www.facebook.com/ehewinkel/events"
     },
     {
      "n": "Wunderbaar (Pärnu)",
@@ -144,7 +144,7 @@
    "items": [
     {
      "n": "Aprillikivi",
-     "u": "https://www.facebook.com/aprillikivi/upcoming_hosted_events"
+     "u": "https://www.facebook.com/aprillikivi/events"
     },
     {
      "n": "Black Revalia / Howls of Winter",

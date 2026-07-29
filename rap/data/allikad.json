@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-28",
+ "updated": "2026-07-29",
  "groups": [
   {
    "nimi": "Festivalid",
@@ -66,7 +66,11 @@
    "items": [
     {
      "n": "Legendaarne (Raadio/Baar/Records)",
-     "u": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events"
+     "u": "https://www.facebook.com/LegendaarneRaadio/events"
+    },
+    {
+     "n": "Legendaarne Records (FB)",
+     "u": "https://www.facebook.com/legendaarne/events"
     }
    ]
   },
