@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 163,
+ "count": 162,
  "entries": [
   {
    "sait": "www",
@@ -441,27 +441,6 @@
    "on_": "Spotify",
    "ou": "https://open.spotify.com/album/1yxEc0PKqWvffhK0Mv9mNg",
    "img": "pildid/margiielachillincamethrough.webp"
-  },
-  {
-   "sait": "www",
-   "rel": 1,
-   "d": "2026-07-21",
-   "lisatud": "2026-07-28",
-   "t": "reliis",
-   "n": "toxic yuri — «there once was a girl»",
-   "a": "post-metal / shoegaze / midwest emo",
-   "b": [
-    "toxic yuri"
-   ],
-   "g": [
-    "post",
-    "metal",
-    "alt"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://toxicyurimusic.bandcamp.com/album/there-once-was-a-girl",
-   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/toxicyurithereoncewasagirl.webp"
   },
   {
    "sait": "rap",
