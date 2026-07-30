@@ -1,1 +1,6 @@
-[]
+[
+ {
+  "b": "toxic yuri",
+  "nb": "ARTISTIBLOKK 30.07.2026 (Silveri otsus): artist ei soovi olla tehisaru abil koostatud kalendris. Blokeerib KOIK selle artisti kirjed koigil kuupaevadel (b-massiiv, nimi, nimega algav reliisipealkiri) - vt scripts/common.py is_blocked. Sama blokk on koigi kolme saidi blocklistis, et zanri-umberliigitus seda ei lohuks."
+ }
+]

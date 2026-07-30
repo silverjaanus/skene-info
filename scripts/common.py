@@ -69,30 +69,53 @@ def load_entries(path):
 
 
 def load_blocklist(path):
-    """Loeb blocklist.json. Tagastab (block, block_names):
-      block       = {(kuupäev, slug(nimi))} -- konkreetne kirje kindlal päeval
-      block_names = {slug(nimi)}            -- daatumita kirjed, blokeerivad
-                                                nime IGAL kuupäeval
-    Puuduv fail ja n-väljata kirjed toovad HOIATUS-printi, ei kraki."""
+    """Loeb blocklist.json. Tagastab (block, block_names, block_artists):
+      block         = {(kuupäev, slug(nimi))} -- konkreetne kirje kindlal päeval
+      block_names   = {slug(nimi)}            -- daatumita kirjed, blokeerivad
+                                                  nime IGAL kuupäeval
+      block_artists = {slug(artist)}          -- ARTISTIBLOKK: kirje kujul
+                                                  {"b": "artisti nimi"} blokeerib
+                                                  KÕIK selle artisti kirjed
+                                                  (nt artist ei soovi saidil olla)
+    Puuduv fail ja n/b-väljata kirjed toovad HOIATUS-printi, ei kraki."""
     path = Path(path)
     if not path.exists():
         print(f"HOIATUS: blocklist.json puudub ({path})")
-        return set(), set()
+        return set(), set(), set()
     raw = json.loads(path.read_text(encoding="utf-8"))
     for b in raw:
-        if "n" not in b:
-            print(f"HOIATUS: blocklist.json kirje ilma n-ita: {b}")
+        if "n" not in b and "b" not in b:
+            print(f"HOIATUS: blocklist.json kirje ilma n/b-ta: {b}")
     block = {(b["d"], slug(b["n"])) for b in raw if "d" in b and "n" in b}
     block_names = {slug(b["n"]) for b in raw if "d" not in b and "n" in b}
-    return block, block_names
+    block_artists = {slug(b["b"]) for b in raw if b.get("b")}
+    block_artists.discard("")
+    return block, block_names, block_artists
 
 
-def is_blocked(e, block, block_names):
-    """Kas kirje e on blokitud: (kuupäev, slug(nimi)) blockis või paljas
-    slug(nimi) block_names-is. Sama semantika kõigis kolmes fetchis ja
-    archive_split.py-s."""
+def is_blocked(e, block, block_names, block_artists=None):
+    """Kas kirje e on blokitud: (kuupäev, slug(nimi)) blockis, paljas
+    slug(nimi) block_names-is VÕI kirje kuulub blokitud artistile. Sama
+    semantika kõigis kolmes fetchis ja archive_split.py-s.
+
+    Artistiblokk pihta saab kolmel viisil: (1) artist on kirje `b`-massiivis,
+    (2) kirje nimi ON artisti nimi, (3) kirje nimi ALGAB artisti nimega ja
+    artisti slug on >= 8 tähemärki (reliisipealkirjad kujul
+    'toxic yuri — «there once was a girl»'; pikkusepiir hoiab ära juhusliku
+    pihtamise lühikeste nimede puhul)."""
     n = slug(e.get("n", ""))
-    return (e.get("d", ""), n) in block or n in block_names
+    if (e.get("d", ""), n) in block or n in block_names:
+        return True
+    if block_artists:
+        if n in block_artists:
+            return True
+        for b in (e.get("b") or []):
+            if slug(b) in block_artists:
+                return True
+        for a in block_artists:
+            if len(a) >= 8 and n.startswith(a):
+                return True
+    return False
 
 
 def end_date(e):

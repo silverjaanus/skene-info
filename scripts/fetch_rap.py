@@ -17,9 +17,10 @@ from common import load_blocklist, is_blocked, warn_unknown_bands
 
 def main():
     manual = json.loads((RAP / "manual.json").read_text(encoding="utf-8"))
-    block, block_names = load_blocklist(RAP / "blocklist.json")
-    manual = [e for e in manual if not is_blocked(e, block, block_names)]
-    n_cur, n_arch = split_and_write(RAP, manual, block=block, block_names=block_names)
+    block, block_names, block_artists = load_blocklist(RAP / "blocklist.json")
+    manual = [e for e in manual if not is_blocked(e, block, block_names, block_artists)]
+    n_cur, n_arch = split_and_write(RAP, manual, block=block, block_names=block_names,
+                                    block_artists=block_artists)
     print(f"rap: data.json {n_cur}, arhiiv {n_arch}")
     try:
         warn_unknown_bands(RAP, manual)

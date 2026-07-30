@@ -40,7 +40,8 @@ def _is_current(e):
     return bool(e.get("tba")) or _featured(e) or _end_date(e) >= TODAY
 
 
-def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
+def split_and_write(data_dir, fresh, log=None, block=None, block_names=None,
+                    block_artists=None):
     """data_dir: Path (nt ROOT/'data' või ROOT/'rap'/'data').
     fresh: sel korral kokku pandud kirjed (manual + värske auto).
     Tagastab (n_current, n_archive)."""
@@ -49,6 +50,7 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
     arch_dir.mkdir(exist_ok=True)
     block = block or set()
     block_names = block_names or set()
+    block_artists = block_artists or set()
 
     # 1) Eelnev seis: eelmine data.json + kõik olemasolevad arhiivifailid
     prev = _load_entries(data_dir / "data.json")
@@ -66,7 +68,7 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
             k = _key(e)
             if k in seen:
                 continue
-            if apply_block and is_blocked(e, block, block_names):
+            if apply_block and is_blocked(e, block, block_names, block_artists):
                 continue
             seen.add(k)
             allentries.append(e)
@@ -104,7 +106,7 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None):
         merged = {}
         for e in _load_entries(yfile):
             k = _key(e)
-            if is_blocked(e, block, block_names):
+            if is_blocked(e, block, block_names, block_artists):
                 continue
             merged[k] = e
         for e in by_year.get(y, []):

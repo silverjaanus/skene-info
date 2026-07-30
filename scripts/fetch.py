@@ -167,7 +167,7 @@ SOURCES = [("metalstorm", src_metalstorm), ("krypt", src_krypt),
 
 def main():
     manual = json.loads((ROOT / "data" / "manual.json").read_text(encoding="utf-8"))
-    block, block_names = load_blocklist(ROOT / "data" / "blocklist.json")
+    block, block_names, block_artists = load_blocklist(ROOT / "data" / "blocklist.json")
     auto, log = [], []
     for name, fn in SOURCES:
         try:
@@ -184,7 +184,7 @@ def main():
     # blocklist kehtib ka manual.json-ile (nt kui kureeritud kirje osutub valeks/duplikaadiks)
     manual_ok = []
     for e in manual:
-        if is_blocked(e, block, block_names):
+        if is_blocked(e, block, block_names, block_artists):
             print(f"HOIATUS: manual.json kirje blokitud: {e.get('d','')} {e.get('n','')}")
             continue
         manual_ok.append(e)
@@ -202,7 +202,7 @@ def main():
         if e["d"] < TODAY:
             continue
         k = (e["d"], slug(e["n"]))
-        if k in seen_auto or is_blocked(e, block, block_names):
+        if k in seen_auto or is_blocked(e, block, block_names, block_artists):
             continue
         dup = False
         for (d, n, bs, vs) in known:
@@ -217,7 +217,8 @@ def main():
             seen_auto.add(k)
 
     n_cur, n_arch = split_and_write(ROOT / "data", merged, log=log,
-                                    block=block, block_names=block_names)
+                                    block=block, block_names=block_names,
+                                    block_artists=block_artists)
     print("; ".join(log))
     print(f"manual {len(manual)} + auto = {len(merged)}; data.json {n_cur}, arhiiv {n_arch}")
     warn_unknown_bands(ROOT / "data", merged)

@@ -8,5 +8,9 @@
   "d": "2026-09-04",
   "n": "Laine Label Night: Alma Negra (CH)",
   "nb": "JÄÄB ÄRA — Fienta ürituse pealkiri 26.07.2026 seisuga 'Jääb ära | Laine Label Night: Alma Negra (CH)'. Eemaldatud manual.json-ist; blokk on vajalik, et kirje ei tuleks tagasi eelmisest data.json-ist."
+ },
+ {
+  "b": "toxic yuri",
+  "nb": "ARTISTIBLOKK 30.07.2026 (Silveri otsus): artist ei soovi olla tehisaru abil koostatud kalendris. Blokeerib KOIK selle artisti kirjed koigil kuupaevadel (b-massiiv, nimi, nimega algav reliisipealkiri) - vt scripts/common.py is_blocked. Sama blokk on koigi kolme saidi blocklistis, et zanri-umberliigitus seda ei lohuks."
  }
 ]
