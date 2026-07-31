@@ -3280,5 +3280,59 @@
   "on_": "Facebook event",
   "ou": "https://fb.me/e/7dEOELsgL",
   "nb": "kontaktivormi sisend (Ahto-Lembit Lehtmets, 28.07.2026); kinnitatud augustibluus.ee kava + European Blues Union vastu 29.07.2026 (festivali ametlik alaÃ¼ritus); Silveri otsus 29.07.2026: lisada tÃ¼Ã¼biga 'muu' (pole kontsert/reliis/merch). Å½anr segane (blues/metal/rock/jazz/country/electronic) – g-tagid on peasaidi skoobis olevad"
+ },
+ {
+  "d": "2026-07-31",
+  "t": "muu",
+  "n": "Maria Faust soolokontsert «Ööliblikas» + Gregor Kulla",
+  "a": "Maria Fausti uus soolokava on inspireeritud ööliblikate elust ja nende saatuslikust tõmbest kunstliku valguse poole; õhtu avab Gregor Kulla barokkoboel, sulandades muusika liikumisega performansiks. Uksed 20.00, kontsert 21.00",
+  "b": [
+   "Maria Faust",
+   "Gregor Kulla"
+  ],
+  "v": "Tartu Jaani kirik",
+  "c": "Tartu",
+  "g": [
+   "jazz",
+   "eksperimentaal"
+  ],
+  "sn": "Kultuuriaken",
+  "su": "https://kultuuriaken.tartu.ee/et/syndmus/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla?event=211079",
+  "pu": "https://fienta.com/et/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla-185380",
+  "hind": {
+   "praegu": "40€ / 45€",
+   "mark": "varajase ärkaja 29€ ja tavapilet 35€ välja müüdud; uksehinda pole avaldatud",
+   "allikas": "fienta.com, kontrollitud 31.07.2026"
+  },
+  "lisatud": "2026-07-31",
+  "nb": "lisatud 31.07.2026; Silveri otsus 31.07.2026: teha jazz-erand ja lisada tüübiga 'muu', avangardjazz/saksofon ei mahu ühegi saidi baasžanrisse. Kinnitatud 2 allikaga: Fienta ürituseleht + kultuuriaken.tartu.ee. Korraldaja Tammekindlus OÜ, oma veebilehte ei ole (on_/ou jäetud tühjaks). NB: kultuuriaken näitab seotud ürituste ribal ekslikult silti 'Tasuta' — sama lehe piletiplokk ütleb 29–45€. Ei ole Sacrum Facere, vaid soolokava (Sacrum Facere ORGAN samas kirikus oli 2020). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik."
+ },
+ {
+  "d": "2026-08-02",
+  "t": "muu",
+  "n": "Maria Faust soolokontsert «Ööliblikas» + Gregor Kulla",
+  "a": "Sama soolokava Tallinnas: «Ööliblikas» räägib muutustest, lõppudest ja traagikast võimalikult õrnal moel, keskmes armastuslaul. Ööklubis D3 avab õhtu Gregor Kulla barokkoboe ja performansiga. Uksed 19.00, kontsert 20.00",
+  "b": [
+   "Maria Faust",
+   "Gregor Kulla"
+  ],
+  "v": "D3",
+  "c": "Tallinn",
+  "g": [
+   "jazz",
+   "eksperimentaal"
+  ],
+  "sn": "d-3.ee",
+  "su": "https://www.d-3.ee/events/maria-faust-soolokontsert-ooliblikas/",
+  "on_": "d-3.ee",
+  "ou": "https://www.d-3.ee/events/maria-faust-soolokontsert-ooliblikas/",
+  "pu": "https://fienta.com/et/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla-185384",
+  "hind": {
+   "praegu": "40€ / 45€",
+   "mark": "varajase ärkaja 29€ ja tavapilet 35€ välja müüdud; uksehinda pole avaldatud",
+   "allikas": "fienta.com, kontrollitud 31.07.2026"
+  },
+  "lisatud": "2026-07-31",
+  "nb": "lisatud 31.07.2026; Silveri jazz-erand (vt 31.07 Tartu kirjet). Kinnitatud 2 allikaga: D3 oma ürituseleht + Fienta. Sama tuur/produktsioon kui 31.07 Tartus, sama korraldaja (Tammekindlus OÜ). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik."
  }
 ]
