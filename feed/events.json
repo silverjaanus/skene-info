@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-30",
+ "updated": "2026-07-31",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 162,
+ "count": 164,
  "entries": [
   {
    "sait": "www",
@@ -490,6 +490,29 @@
    "nb": "hinnaklassid kontrollimata - müük käib Ticketmaster Norway kaudu, hinnatabel JS-põhine"
   },
   {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-07-29",
+   "lisatud": "2026-07-31",
+   "t": "reliis",
+   "n": "Meisterjaan – „Mitteintelligentne tantsumuusika“",
+   "a": "elektrooniline lühialbum, 4 lugu; hardware-süntesaatoritel salvestatud jew's-harp / Detroidi-mõjuline techno",
+   "b": [
+    "Meisterjaan"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "techno",
+    "electro",
+    "experimental"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://meisterjaan.bandcamp.com/album/mitteintelligentne-tantsumuusika",
+   "on_": "Bandcamp",
+   "ou": "https://meisterjaan.bandcamp.com/album/mitteintelligentne-tantsumuusika",
+   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; kuupäev loetud OTSE Bandcampi albumilehelt ('released July 29, 2026', datePublished 29 Jul 2026 – date-trap kontrollitud). Kinnitatud 2 allikaga: Rada7 uudiskiri + Bandcamp (4 lugu, sh 'Uritab olla Detroidi ripoff'). Baasžanr elektrooniline (techno) → klubi. Pilti pole – leht joonistab tüübimärgi."
+  },
+  {
    "sait": "www",
    "d": "2026-07-29",
    "d2": "01.08",
@@ -900,6 +923,26 @@
    "on_": "Facebook event",
    "ou": "https://fb.me/e/7dEOELsgL",
    "nb": "kontaktivormi sisend (Ahto-Lembit Lehtmets, 28.07.2026); kinnitatud augustibluus.ee kava + European Blues Union vastu 29.07.2026 (festivali ametlik alaÃ¼ritus); Silveri otsus 29.07.2026: lisada tÃ¼Ã¼biga 'muu' (pole kontsert/reliis/merch). Å½anr segane (blues/metal/rock/jazz/country/electronic) – g-tagid on peasaidi skoobis olevad"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-02",
+   "t": "klubi",
+   "n": "Cabaret Volta suvepäev",
+   "a": "suvine kogunemine 14.00–23.00; eksperimentaalhelid / noise / ambient / improvisatsioon; kohalikud + väliskülalised",
+   "b": [],
+   "v": "Cabaret Volta",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "ambient",
+    "noise"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://www.facebook.com/events/1212020365333845/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1212020365333845/",
+   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; varem 1 allikaga ootel (HANDOVER sekts 4, allevents.in). Kinnitatud 2+ allikaga: Rada7 uudiskiri + FB event (pealkiri 'CABARET VOLTA SUVEPÄEV', 'Sunday 2 PM – 11 PM', Uus-Volta 5, Tallinn) + allevents.in. Eksperimentaal/noise baasžanr → klubi."
   },
   {
    "sait": "www",
