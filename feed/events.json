@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 164,
+ "count": 161,
  "entries": [
   {
    "sait": "www",
@@ -542,76 +542,6 @@
     "mark": "\"Louder\" - viimane hinnaklass",
     "allikas": "wacken.com, kontrollitud 06.07.2026"
    }
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-30",
-   "t": "kontsert",
-   "n": "Buzhold + for example John (POL) + Qaribou",
-   "a": "midwest emo / math rock ohtu Kotka Kultuurimajas; 19.00-23.00, piletid ainult uksel sularahas",
-   "b": [
-    "Buzhold",
-    "for example John",
-    "Qaribou"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "alt",
-    "rock",
-    "punk"
-   ],
-   "sn": "Rada7.ee FB",
-   "su": "https://www.facebook.com/rada7.ee/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/954597880962342",
-   "hind": {
-    "praegu": "8€ / 10€",
-    "mark": "8€ esimesel tunnil ja kuni 22-aastastele, muidu 10€; ainult sularaha uksel",
-    "allikas": "FB event, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026; leitud Rada7.ee FB-voost, kinnitatud urituse enda FB-lehelt (korraldajad Kotka Kultuurimaja + for example John + Buzhold)"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-30",
-   "t": "kontsert",
-   "n": "Roots Session X: Trainman Blues",
-   "a": "Trainman Blues (IE/DK); algus 20:00",
-   "b": [
-    "Trainman Blues"
-   ],
-   "v": "Kidrakuur",
-   "c": "Tallinn",
-   "g": [
-    "bluus"
-   ],
-   "sn": "Kidrakuur (FB)",
-   "su": "https://www.facebook.com/events/2142728216515425/",
-   "img": "pildid/rootssessionxtrainmanblues.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-30",
-   "t": "kontsert",
-   "n": "Underground Laine: Motelli Skronkle (FIN) + Irwin Art Projekt + Hot Kommunist",
-   "a": "Boiling Baltia 2026: Soome kultuslik noise/avangard-rühm Motelli Skronkle (est 1983) esmakordselt Eestis; algus 19.00",
-   "b": [
-    "Motelli Skronkle",
-    "Irwin Art Projekt",
-    "Hot Kommunist"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "alt",
-    "punk"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2799696610387934/",
-   "img": "pildid/undergroundlainemotelliskronklefinirwinartprojekthotkommunist.webp"
   },
   {
    "sait": "www",
