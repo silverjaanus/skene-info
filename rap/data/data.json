@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-31",
+ "updated": "2026-08-01",
  "entries": [
   {
    "rel": 1,
@@ -42,29 +42,6 @@
    "su": "https://open.spotify.com/album/6rT7XiGT74F1ZyqmlRmg2b",
    "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber.",
    "img": "pildid/brochecksentroopia.webp"
-  },
-  {
-   "d": "2026-07-31",
-   "t": "kontsert",
-   "n": "SKIZØ ja benakanister plaadiesitlus",
-   "a": "kahe albumi esitlus — SKIZØ täispikk soolodebüüt «NEETUD ÜHISKOND VOL.2» ja benakanistri «KROOMITUD»; label 963 Records; kell 21.00–02.00",
-   "b": [
-    "SKIZØ",
-    "benakanister"
-   ],
-   "v": "Legendaarne Raadio",
-   "c": "Tallinn",
-   "g": [
-    "hiphop",
-    "räpp"
-   ],
-   "sn": "Legendaarne Raadio FB",
-   "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2179740245926404/",
-   "pu": "https://fienta.com/et/skizoe-ja-benakanister-plaadiesitlus",
-   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta",
-   "img": "pildid/skizjabenakanisterplaadiesitlus.webp"
   },
   {
    "rel": 1,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-31",
+ "updated": "2026-08-01",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 169,
+ "count": 166,
  "entries": [
   {
    "sait": "www",
@@ -598,114 +598,6 @@
    "pu": "https://www.piletilevi.ee/piletid/S7TPOTRXYI/augustibluus-2026",
    "img_src": "https://www.piletilevi.ee/piletid/S7TPOTRXYI/augustibluus-2026-festivalipass",
    "img": "pildid/augustibluus2026.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-07-31",
-   "t": "klubi",
-   "n": "Good Times Roll",
-   "a": "Suvine GTR kohtub Tartuga ja paneb juulile punkti — bassline, garage, 4x4, jungle ja dnb; 22.00–04.00",
-   "b": [
-    "DJ Kalev K"
-   ],
-   "v": "Kivi Baar",
-   "c": "Tartu",
-   "g": [
-    "bass",
-    "garage",
-    "dnb",
-    "jungle"
-   ],
-   "sn": "kluub.ee",
-   "su": "https://www.kluub.ee/en/events/tartu/2806c394-8edc-4d70-a908-579b190098af",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/828411520239553",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "kluub.ee, kontrollitud 31.07.2026"
-   },
-   "lisatud": "2026-07-31",
-   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: kluub.ee ürituseleht + FB event viide. Žanrid on korraldaja oma sõnastus. NB: kivibaar.ee on aegunud ja suunab võõrale värbamisdomeenile — korraldaja kanal on IG @baarikivi, seetõttu on ou-väljal FB event."
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-31",
-   "t": "muu",
-   "n": "Maria Faust soolokontsert «Ööliblikas» + Gregor Kulla",
-   "a": "Maria Fausti uus soolokava on inspireeritud ööliblikate elust ja nende saatuslikust tõmbest kunstliku valguse poole; õhtu avab Gregor Kulla barokkoboel, sulandades muusika liikumisega performansiks. Uksed 20.00, kontsert 21.00",
-   "b": [
-    "Maria Faust",
-    "Gregor Kulla"
-   ],
-   "v": "Tartu Jaani kirik",
-   "c": "Tartu",
-   "g": [
-    "jazz",
-    "eksperimentaal"
-   ],
-   "sn": "Kultuuriaken",
-   "su": "https://kultuuriaken.tartu.ee/et/syndmus/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla?event=211079",
-   "pu": "https://fienta.com/et/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla-185380",
-   "hind": {
-    "praegu": "40€ / 45€",
-    "mark": "varajase ärkaja 29€ ja tavapilet 35€ välja müüdud; uksehinda pole avaldatud",
-    "allikas": "fienta.com, kontrollitud 31.07.2026"
-   },
-   "lisatud": "2026-07-31",
-   "nb": "lisatud 31.07.2026; Silveri otsus 31.07.2026: teha jazz-erand ja lisada tüübiga 'muu', avangardjazz/saksofon ei mahu ühegi saidi baasžanrisse. Kinnitatud 2 allikaga: Fienta ürituseleht + kultuuriaken.tartu.ee. Korraldaja Tammekindlus OÜ, oma veebilehte ei ole (on_/ou jäetud tühjaks). NB: kultuuriaken näitab seotud ürituste ribal ekslikult silti 'Tasuta' — sama lehe piletiplokk ütleb 29–45€. Ei ole Sacrum Facere, vaid soolokava (Sacrum Facere ORGAN samas kirikus oli 2020). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik."
-  },
-  {
-   "sait": "rap",
-   "d": "2026-07-31",
-   "t": "kontsert",
-   "n": "SKIZØ ja benakanister plaadiesitlus",
-   "a": "kahe albumi esitlus — SKIZØ täispikk soolodebüüt «NEETUD ÜHISKOND VOL.2» ja benakanistri «KROOMITUD»; label 963 Records; kell 21.00–02.00",
-   "b": [
-    "SKIZØ",
-    "benakanister"
-   ],
-   "v": "Legendaarne Raadio",
-   "c": "Tallinn",
-   "g": [
-    "hiphop",
-    "räpp"
-   ],
-   "sn": "Legendaarne Raadio FB",
-   "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2179740245926404/",
-   "pu": "https://fienta.com/et/skizoe-ja-benakanister-plaadiesitlus",
-   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta",
-   "img": "pildid/skizjabenakanisterplaadiesitlus.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-07-31",
-   "t": "klubi",
-   "n": "Signaal: Denis Punch + Pikkauch",
-   "a": "Denis Punch, Pikkauch, Mysty ja Kulon TOLMu Funktion-One süsteemi taga; algus 23.00",
-   "b": [
-    "Denis Punch",
-    "Pikkauch",
-    "Mysty",
-    "Kulon"
-   ],
-   "v": "Tolm",
-   "c": "Tartu",
-   "g": [
-    "techno"
-   ],
-   "sn": "tolm.club",
-   "su": "https://tolm.club/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1020296560866127",
-   "hind": {
-    "praegu": "10€",
-    "mark": "uksel, sularaha või kaart; eelmüüki ei ole",
-    "allikas": "tolm.club, kontrollitud 31.07.2026"
-   },
-   "lisatud": "2026-07-31",
-   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus 31.07.2026: samanädalased tasuta/odavad peod lisatakse, kuigi aeguvad 1–2 päevaga. Kinnitatud 2 allikaga: tolm.club + kluub.ee. Žanrisilt 'techno' on kuraatori määrang — ei tolm.club ega kluub.ee ei anna sellele üritusele žanrisilte. kluub.ee näitab lõpuajaks '01.08 20:00', mis on ilmne trükiviga (tõenäoliselt 08:00) — lõpuaega ei kinnitatud, d2 jäetud lisamata."
   },
   {
    "sait": "www",
@@ -2747,6 +2639,22 @@
     "allikas": "Piletilevi, kontrollitud 28.07.2026"
    },
    "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-04",
+   "t": "kontsert",
+   "n": "Hainz (Kosmikud) akustilise kavaga TASUTA",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/hainz-kosmikud-akustilise-kavaga-tasuta/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "sait": "klubi",
