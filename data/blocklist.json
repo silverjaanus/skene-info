@@ -1,5 +1,15 @@
 [
  {
+  "d": "2026-08-09",
+  "n": "Plaaditurg: TOUR DE PLAAT 2026",
+  "nb": "VANA KUUPAEV: kirje algas 09.08-st, uhendamisel sai alguseks 02.08 (Haapsalu). Kuna archive_split votis on (d, nimi), jai vana 09.08 koopia eelmisest data.json-ist alles. Blokk kustutab vana; alles on 02.08-30.08 kirje dd-valjaga."
+ },
+ {
+  "d": "2026-08-02",
+  "n": "Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)",
+  "nb": "UHENDATUD 02.08.2026 (Silveri leid): see oli sarja TOUR DE PLAAT 2026 esimene kuupaev ja tekitas otsingus duplikaadi kirjega 'Plaaditurg: TOUR DE PLAAT 2026'. Koik neli kuupaeva (02.08 Haapsalu, 09.08 Keskturg, 16.08 Nomme, 30.08 Krulli) on nuud uhes kirjes 'dd'-valjaga. Haapsalu FB event fb.me/e/7dEOELsgL on sailitatud selle kirje nb-vallas."
+ },
+ {
   "d": "2026-09-04",
   "n": "Hainz (Kosmikud) akustilise kavaga TASUTA",
   "nb": "DUPLIKAAT 02.08.2026: sama uritus oli saidil TOPELT - kureeritud manual.json kirje 'HAINZ (Kosmikud) akustilise kavaga' (The Krypt FB, koos kirjelduse, bandi ja hinnaga) + thekrypt.ee auto-variant veidi eri nimega. Alles jaab KUREERITUD kirje; see blokk kustutab auto-variandi, mis oli eelmisest data.json-ist sailinud. Juurpohjus parandatud scripts/fetch.py-s: auto-vs-auto dedup kasutas ainult tapset (d, nimi) votit, nuud kaib sama hagus reegel mis manual-vs-auto."

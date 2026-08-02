@@ -1544,26 +1544,31 @@
   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
  },
  {
-  "d": "2026-08-09",
+  "d": "2026-08-02",
   "d2": "30.08",
   "dd": [
+   "2026-08-02",
    "2026-08-09",
    "2026-08-16",
    "2026-08-30"
   ],
-  "t": "festival",
+  "t": "muu",
   "n": "Plaaditurg: TOUR DE PLAAT 2026",
-  "a": "Plaaditurg esimest korda tuuril — plaadipoed ja -müüjad kogunevad turglema: 09.08 Tallinna Keskturg, 16.08 Nõmme Turg, 30.08 Krulli kvartal (12.00–16.00, koos Kalamaja Loometuruga). Sarja avas 02.08 Augustibluus",
+  "a": "Plaaditurg esimest korda tuuril — plaadipoed, plaadifirmad, artistid ja plaadikogujad: 02.08 Augustibluus / Promenaadi Tantsupaviljon (Haapsalu, kell 11), 09.08 Tallinna Keskturg, 16.08 Nõmme Turg, 30.08 Krulli kvartal (12.00–16.00, koos Kalamaja Loometuruga)",
+  "b": [],
   "v": "tuur",
   "c": "Tallinn",
+  "linn": "Haapsalu · Tallinn",
   "g": [
+   "rock",
+   "metal",
    "alt"
   ],
   "sn": "MuusikaPlaneet",
   "su": "https://muusikaplaneet.ee/2026/07/30/plaaditurg26/",
   "on_": "Plaaditurg FB",
   "ou": "https://www.facebook.com/plaaditurg",
-  "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. Kirjetüüp 't' on 'festival', sest turu/laada tüüpi süsteemis ei ole; kui vaja, tasub kaaluda eraldi tüüpi. Kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co."
+  "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. | 02.08.2026 ÜHENDATUD: eraldi kirje 'Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)' 02.08 Haapsalus oli SAMA sarja esimene kuupäev ja tekitas otsingus duplikaadi (Silveri leid) — see on nüüd siin sees, vana kirje kustutatud + blokitud. Haapsalu kuupäeva FB event: https://fb.me/e/7dEOELsgL (allikas: kontaktivorm, Ahto-Lembit Lehtmets 28.07.2026; kinnitatud augustibluus.ee kava vastu 29.07.2026). Ülejäänud kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co. | Kirjetüüp on 'muu' — VARASEM VIGA: kirjutasin, et turu/laada tüüpi süsteemis ei ole, tegelikult 'muu' oli olemas ja just selle kirje jaoks kasutusel."
  },
  {
   "d": "2026-10-15",
@@ -3482,25 +3487,6 @@
   "ou": "https://www.tonsofrock.no/en",
   "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA",
   "img": "pildid/tonsofrock2027.webp"
- },
- {
-  "d": "2026-08-02",
-  "t": "muu",
-  "n": "Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)",
-  "a": "kodumaine muusikakandjate turg – plaadipoed, plaadifirmad, artistid ja plaadikogujad; kell 11 Promenaadi Tantsupaviljonis; kolmandat korda Augustibluusi festivali raames",
-  "b": [],
-  "v": "Promenaadi Tantsupaviljon",
-  "c": "Haapsalu",
-  "g": [
-   "bluus",
-   "rock",
-   "metal"
-  ],
-  "sn": "kontaktivorm",
-  "su": "https://fb.me/e/7dEOELsgL",
-  "on_": "Facebook event",
-  "ou": "https://fb.me/e/7dEOELsgL",
-  "nb": "kontaktivormi sisend (Ahto-Lembit Lehtmets, 28.07.2026); kinnitatud augustibluus.ee kava + European Blues Union vastu 29.07.2026 (festivali ametlik alaÃ¼ritus); Silveri otsus 29.07.2026: lisada tÃ¼Ã¼biga 'muu' (pole kontsert/reliis/merch). Å½anr segane (blues/metal/rock/jazz/country/electronic) – g-tagid on peasaidi skoobis olevad"
  },
  {
   "d": "2026-07-31",

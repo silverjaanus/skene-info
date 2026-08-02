@@ -83,6 +83,38 @@ def leia_dupid(kirjed):
     return hits
 
 
+def leia_sarjad(kirjed):
+    """Kahtlus ULE KUUPAEVADE: uhe kirje nimi sisaldub taielikult teise omas.
+    Nii jaab vahele sama sari kahes kirjes eri kuupaevadega - naiteks
+    'Plaaditurg: TOUR DE PLAAT 2026' vs 'Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)'
+    (Silveri leid 02.08.2026, leia_dupid ei puudnud, sest kuupaevad erinesid).
+    Lavend 14 tahemarki hoiab lyhikeste nimede juhusliku kattumise eemal."""
+    hits = []
+    for i in range(len(kirjed)):
+        for j in range(i + 1, len(kirjed)):
+            a, b = kirjed[i], kirjed[j]
+            if a.get("d") == b.get("d"):
+                continue  # need puuab juba leia_dupid
+            # reliis + sama nimega kontsert (albumiesitlus) EI ole duplikaat
+            if (a.get("t") == "reliis") != (b.get("t") == "reliis"):
+                continue
+            na, nb = slug(a.get("n", "")), slug(b.get("n", ""))
+            if len(na) < 14 or len(nb) < 14:
+                continue
+            if na == nb:
+                # Sama nimi + eri kuupaev on tugev margk sellest, et kellegi 'd' muudeti
+                # ja vana koopia jai eelmisest data.json-ist alles (vt archive_split).
+                # AGA sama band voib paris elus mangida kahel jarjestikusel paeval eri
+                # kohtades (Sudden Lights 29.10 Fotografiska + 30.10 Genialistide) -
+                # seega margi ainult siis, kui ka KOHT on sama voi puudub.
+                va2, vb2 = slug(a.get("v", "") or ""), slug(b.get("v", "") or "")
+                if va2 == vb2 or not va2 or not vb2:
+                    hits.append(("SAMA NIMI + sama koht, eri kuupaev - tonaoliselt 'd' muudeti", a, b))
+            elif na in nb or nb in na:
+                hits.append(("sama sari, eri kuupaev", a, b))
+    return hits
+
+
 def leia_kadunud(sait, kaust):
     """manual.json-ist puuduvad, aga data.json-is olevad KURATEERITUD kirjed.
     Need on tavaliselt eelmisest data.json-ist sailinud kummitused (vt archive_split)."""
@@ -107,7 +139,7 @@ def main():
         data = load(kaust / "data.json")
         print(f"\n=== {sait} ({len(data)} kirjet data.json-is) ===")
 
-        hits = leia_dupid(data)
+        hits = leia_dupid(data) + leia_sarjad(data)
         if hits:
             vigu += len(hits)
             print(f"  KAHTLASI DUPLIKAATE: {len(hits)}")
