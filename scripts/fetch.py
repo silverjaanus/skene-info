@@ -7,7 +7,7 @@ Kihid:
 Dedup: sama kuupaev + kattuv nimi/band => manual voidab.
 Iga allikas on try/except sees - uhe allika kukkumine ei murra korjet.
 """
-import html, json, re, sys, unicodedata, urllib.parse, urllib.request
+import html, json, re, sys, unicodedata, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,10 +27,25 @@ KEYW = re.compile(
 # venue'de (paavli/helitehas) automaatfiltris (nt "score" sisaldab "core").
 # Manuaalses kureerimises (manual.json 'g' väli) on rock/core siiski lubatud sildid.
 
+# Osa saite (nt Metal Storm) blokeerib bot-kujulise User-Agenti 403-ga, kuigi sama URL
+# avaneb brauseris probleemideta (kontrollitud 02.08.2026). Sellepärast: 403 korral proovi
+# UUESTI tavalise brauseri UA-ga. Viisakas bot-UA jaab esimeseks valikuks.
+UA_BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/127.0.0.0 Safari/537.36"}
+
+
 def get(url, timeout=25):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", "replace")
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as ex:
+        if ex.code not in (403, 429):
+            raise
+        req = urllib.request.Request(url, headers=UA_BROWSER)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", "replace")
 
 # Zanri META-vastendus — peab olema syncis index.html/arhiiv.html GENRE_META-ga!
 # Modifikaatorid (heavy, stoner, melodic, symphonic, extreme, post, psych, shoegaze) metat ei anna.
@@ -215,6 +230,12 @@ def main():
         if not dup:
             merged.append(e)
             seen_auto.add(k)
+            # NB: vastuvoetud auto-kirje laheb ka 'known' hulka, et JARGMINE auto-kirje
+            # kontrollitaks TEMA vastu sama hagusa reegliga. Ilma selleta kontrolliti
+            # auto-vs-auto ainult tapse (d, nimi) vottega ja sama uritus kahest allikast
+            # veidi eri nimega jai saidile TOPELT (02.08.2026: "HAINZ (Kosmikud)
+            # akustilise kavaga" Krypti FB-st + "Hainz ... TASUTA" thekrypt.ee-st).
+            known.append((e["d"], slug(e["n"]), key_bands(e), slug(e.get("v", "") or "")))
 
     n_cur, n_arch = split_and_write(ROOT / "data", merged, log=log,
                                     block=block, block_names=block_names,

@@ -641,7 +641,14 @@ function kuud(){
     ks.map(k=>`<button class="kuu${st.kuu===k?" on":""}" data-k="${esc(k)}" onclick="setF('kuu',this.dataset.k)">${monthName(k.slice(5))} ${esc(k.slice(0,4))} <small>${m[k]}</small></button>`).join("");
 }
 // --- KALENDRIVAADE ---
-function covers(e,isoStr){const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);}
+// 'dd' = valikuline massiiv KONKREETSEID kuupaevi ISO-kujul ["2026-08-09","2026-08-16",...].
+// Kasuta tuuri puhul, kus kuupaevade vahel on augud (Placebo, Kosmikud, Plaaditurg): siis katab
+// kirje kalendris AINULT need paevad. Kui 'dd' puudub, kehtib vana d..d2 vahemik, mis on oige
+// jarjestikuse urituse jaoks (festival 11.-12.09). 'd'/'d2' jaavad alles kuvatava vahemiku jaoks.
+function covers(e,isoStr){
+  if(Array.isArray(e.dd)&&e.dd.length)return e.dd.indexOf(isoStr)!==-1;
+  const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);
+}
 {{S072}}
   return E.filter(e=>{
     if(!matchQ(e))return false;
