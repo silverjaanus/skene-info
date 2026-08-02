@@ -2389,7 +2389,8 @@
     "metal"
    ],
    "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna"
+   "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna",
+   "img": "pildid/caliberorders.webp"
   },
   {
    "sait": "klubi",
@@ -2526,7 +2527,8 @@
     "metal"
    ],
    "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park"
+   "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park",
+   "img": "pildid/ampesttabasalupaev.webp"
   },
   {
    "sait": "www",
@@ -2767,7 +2769,8 @@
     "mark": "+ agenditasu; alates 7. eluaastast, alla 16 täiskasvanuga",
     "allikas": "Piletilevi, kontrollitud 28.07.2026"
    },
-   "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud"
+   "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud",
+   "img": "pildid/fearfactorycrystallakehatethenocturnalaffair.webp"
   },
   {
    "sait": "www",
@@ -3664,7 +3667,8 @@
     "folk"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=228103"
+   "su": "https://metalstorm.net/events/event.php?event_id=228103",
+   "img": "pildid/wardruna.webp"
   },
   {
    "sait": "klubi",
@@ -4221,7 +4225,8 @@
     "power"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=235450"
+   "su": "https://metalstorm.net/events/event.php?event_id=235450",
+   "img": "pildid/tyrtwilightforcedragonlandvanaheim.webp"
   },
   {
    "sait": "www",
@@ -4240,14 +4245,15 @@
     "alt"
    ],
    "sn": "Piletilevi",
-   "su": "https://www.piletilevi.ee/piletid/jazz-sabbath",
+   "su": "https://www.piletilevi.ee/piletid/C2K2WTEPPE/jazz-sabbath",
    "on_": "vorukannel.ee",
    "ou": "https://vorukannel.ee/",
    "hind": {
     "praegu": "23–35 €",
     "allikas": "vorukannel.ee + Piletilevi, kontrollitud 02.08.2026"
    },
-   "nb": "lisatud 02.08.2026 Silveri otsusel ('läheb sisse'). Žanrisilt 'jazz' annab META-FALLBACKi ehk kirje kuvatakse 'alt' all — see on teadlik. Repertuaar on Black Sabbath, esitus jazz."
+   "nb": "lisatud 02.08.2026 Silveri otsusel ('läheb sisse'). Žanrisilt 'jazz' annab META-FALLBACKi ehk kirje kuvatakse 'alt' all — see on teadlik. Repertuaar on Black Sabbath, esitus jazz.",
+   "img": "pildid/jazzsabbathuk.webp"
   },
   {
    "sait": "www",
@@ -4343,7 +4349,8 @@
     "thrash"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=232554"
+   "su": "https://metalstorm.net/events/event.php?event_id=232554",
+   "img": "pildid/whitechapelsylosis200stabwoundstribalgaze.webp"
   },
   {
    "sait": "klubi",
@@ -4427,7 +4434,8 @@
     "metal"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=235453"
+   "su": "https://metalstorm.net/events/event.php?event_id=235453",
+   "img": "pildid/tarjafrissontuur.webp"
   },
   {
    "sait": "www",
@@ -4444,7 +4452,8 @@
     "heavy"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=235199"
+   "su": "https://metalstorm.net/events/event.php?event_id=235199",
+   "img": "pildid/sabaton.webp"
   },
   {
    "sait": "www",
@@ -4496,7 +4505,8 @@
    "on_": "mysticfestival.pl",
    "ou": "https://www.mysticfestival.pl/en/home/",
    "pu": "https://tickets.mysticfestival.pl/en",
-   "nb": "lisatud 27.07.2026 Silveri viitel (Raskemuusikaliidu uudiskiri: Eesti Bloodfeather + Sever võitsid showcase-kohad). Kuupäev + koht '10-12.06.2027 GDAŃSK LETNICA' loetud OTSE mysticfestival.pl kodulehe kehast + piletileht tickets.mysticfestival.pl viitab 2027-le. NB lehe meta-title on veel vana 2026-editsiooni peal (3-6.06.2026 Stocznia) — usaldada keha, mitte metat. Blind Bird piletid müügil (täpne hind kinnitamata). Täiskoosseis 90+ bändi lehel, siin ainult Eesti bändid + valik peaesinejaid."
+   "nb": "lisatud 27.07.2026 Silveri viitel (Raskemuusikaliidu uudiskiri: Eesti Bloodfeather + Sever võitsid showcase-kohad). Kuupäev + koht '10-12.06.2027 GDAŃSK LETNICA' loetud OTSE mysticfestival.pl kodulehe kehast + piletileht tickets.mysticfestival.pl viitab 2027-le. NB lehe meta-title on veel vana 2026-editsiooni peal (3-6.06.2026 Stocznia) — usaldada keha, mitte metat. Blind Bird piletid müügil (täpne hind kinnitamata). Täiskoosseis 90+ bändi lehel, siin ainult Eesti bändid + valik peaesinejaid. 02.08.2026: 'img' teadlikult tühi — lehe og:image on panga (Pekao) sponsorlogo, mitte festivali pilt.",
+   "img": ""
   },
   {
    "sait": "www",

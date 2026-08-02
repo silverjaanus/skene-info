@@ -133,14 +133,16 @@
   ],
   "sn": "Facebook",
   "su": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
-  "on_": "Tartu Kontsert",
-  "ou": "https://onlinepilet.ee/tartu-rock-fest-2026/",
-  "pu": "https://onlinepilet.ee/toode/tartu-rock-fest-2-paeva/",
+  "on_": "Piletilevi",
+  "ou": "https://www.piletilevi.ee/en/series/F72OXZFHHH/tartu-rock-fest-2026",
+  "pu": "https://www.piletilevi.ee/piletid/M3ZRTXJSN3/tartu-rock-fest-2026-2-paeva-pilet",
   "hind": {
    "praegu": "87€ (2 päeva) / 47€ (1 päev)",
    "mark": "perepilet 120€; eelmüük, kohapeal kallim; Piletilevi 49–127€",
    "allikas": "onlinepilet.ee (Tartu Kontsert), kontrollitud 07.07.2026"
-  }
+  },
+  "nb": "02.08.2026: mõlemad onlinepilet.ee lingid (korraldaja leht + piletileht) annavad 404 — asendatud Piletilevi omadega, mis on kontrollitud elus. Korraldaja on jätkuvalt Tartu Kontsert, aga neil pole töötavat ürituselehte.",
+  "img": "pildid/tarturockfest2026.webp"
  },
  {
   "d": "2026-07-12",
@@ -541,7 +543,8 @@
    "metal"
   ],
   "sn": "Bandsintown",
-  "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna"
+  "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna",
+  "img": "pildid/caliberorders.webp"
  },
  {
   "d": "2026-08-28",
@@ -577,7 +580,8 @@
    "metal"
   ],
   "sn": "Bandsintown",
-  "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park"
+  "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park",
+  "img": "pildid/ampesttabasalupaev.webp"
  },
  {
   "d": "2026-08-30",
@@ -627,7 +631,8 @@
    "mark": "+ agenditasu; alates 7. eluaastast, alla 16 täiskasvanuga",
    "allikas": "Piletilevi, kontrollitud 28.07.2026"
   },
-  "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud"
+  "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud",
+  "img": "pildid/fearfactorycrystallakehatethenocturnalaffair.webp"
  },
  {
   "d": "2026-09-12",
@@ -725,7 +730,8 @@
    "folk"
   ],
   "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=228103"
+  "su": "https://metalstorm.net/events/event.php?event_id=228103",
+  "img": "pildid/wardruna.webp"
  },
  {
   "d": "2026-10-27",
@@ -920,7 +926,8 @@
    "power"
   ],
   "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=235450"
+  "su": "https://metalstorm.net/events/event.php?event_id=235450",
+  "img": "pildid/tyrtwilightforcedragonlandvanaheim.webp"
  },
  {
   "d": "2027-02-14",
@@ -976,7 +983,8 @@
    "thrash"
   ],
   "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=232554"
+  "su": "https://metalstorm.net/events/event.php?event_id=232554",
+  "img": "pildid/whitechapelsylosis200stabwoundstribalgaze.webp"
  },
  {
   "d": "2027-04-20",
@@ -992,7 +1000,8 @@
    "metal"
   ],
   "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=235453"
+  "su": "https://metalstorm.net/events/event.php?event_id=235453",
+  "img": "pildid/tarjafrissontuur.webp"
  },
  {
   "d": "2027-04-18",
@@ -1027,7 +1036,8 @@
    "heavy"
   ],
   "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=235199"
+  "su": "https://metalstorm.net/events/event.php?event_id=235199",
+  "img": "pildid/sabaton.webp"
  },
  {
   "rel": 1,
@@ -1655,14 +1665,15 @@
    "alt"
   ],
   "sn": "Piletilevi",
-  "su": "https://www.piletilevi.ee/piletid/jazz-sabbath",
+  "su": "https://www.piletilevi.ee/piletid/C2K2WTEPPE/jazz-sabbath",
   "on_": "vorukannel.ee",
   "ou": "https://vorukannel.ee/",
   "hind": {
    "praegu": "23–35 €",
    "allikas": "vorukannel.ee + Piletilevi, kontrollitud 02.08.2026"
   },
-  "nb": "lisatud 02.08.2026 Silveri otsusel ('läheb sisse'). Žanrisilt 'jazz' annab META-FALLBACKi ehk kirje kuvatakse 'alt' all — see on teadlik. Repertuaar on Black Sabbath, esitus jazz."
+  "nb": "lisatud 02.08.2026 Silveri otsusel ('läheb sisse'). Žanrisilt 'jazz' annab META-FALLBACKi ehk kirje kuvatakse 'alt' all — see on teadlik. Repertuaar on Black Sabbath, esitus jazz.",
+  "img": "pildid/jazzsabbathuk.webp"
  },
  {
   "rel": 1,
@@ -3120,7 +3131,8 @@
   "on_": "mysticfestival.pl",
   "ou": "https://www.mysticfestival.pl/en/home/",
   "pu": "https://tickets.mysticfestival.pl/en",
-  "nb": "lisatud 27.07.2026 Silveri viitel (Raskemuusikaliidu uudiskiri: Eesti Bloodfeather + Sever võitsid showcase-kohad). Kuupäev + koht '10-12.06.2027 GDAŃSK LETNICA' loetud OTSE mysticfestival.pl kodulehe kehast + piletileht tickets.mysticfestival.pl viitab 2027-le. NB lehe meta-title on veel vana 2026-editsiooni peal (3-6.06.2026 Stocznia) — usaldada keha, mitte metat. Blind Bird piletid müügil (täpne hind kinnitamata). Täiskoosseis 90+ bändi lehel, siin ainult Eesti bändid + valik peaesinejaid."
+  "nb": "lisatud 27.07.2026 Silveri viitel (Raskemuusikaliidu uudiskiri: Eesti Bloodfeather + Sever võitsid showcase-kohad). Kuupäev + koht '10-12.06.2027 GDAŃSK LETNICA' loetud OTSE mysticfestival.pl kodulehe kehast + piletileht tickets.mysticfestival.pl viitab 2027-le. NB lehe meta-title on veel vana 2026-editsiooni peal (3-6.06.2026 Stocznia) — usaldada keha, mitte metat. Blind Bird piletid müügil (täpne hind kinnitamata). Täiskoosseis 90+ bändi lehel, siin ainult Eesti bändid + valik peaesinejaid. 02.08.2026: 'img' teadlikult tühi — lehe og:image on panga (Pekao) sponsorlogo, mitte festivali pilt.",
+  "img": ""
  },
  {
   "d": "2026-07-30",

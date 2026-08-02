@@ -7,7 +7,7 @@ Kihid:
 Dedup: sama kuupaev + kattuv nimi/band => manual voidab.
 Iga allikas on try/except sees - uhe allika kukkumine ei murra korjet.
 """
-import html, json, re, sys, unicodedata, urllib.error, urllib.parse, urllib.request
+import html, json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,25 +27,38 @@ KEYW = re.compile(
 # venue'de (paavli/helitehas) automaatfiltris (nt "score" sisaldab "core").
 # Manuaalses kureerimises (manual.json 'g' väli) on rock/core siiski lubatud sildid.
 
-# Osa saite (nt Metal Storm) blokeerib bot-kujulise User-Agenti 403-ga, kuigi sama URL
-# avaneb brauseris probleemideta (kontrollitud 02.08.2026). Sellepärast: 403 korral proovi
-# UUESTI tavalise brauseri UA-ga. Viisakas bot-UA jaab esimeseks valikuks.
+# Metal Storm annab 403 JUHUSLIKULT, mitte User-Agenti jargi (mooedetud 02.08.2026:
+# sama URL, 6 paringut kummagi paisekomplektiga 4 s vahedega -> bot-UA sai labi 2/6,
+# taielik brauseri-paisekomplekt 1/6, labikukkumised laibisegamini). See tahendab, et
+# UA VAHETAMINE EI OLE LAHENDUS - see on lihtsalt teine tainguvise. Ainus, mis toimib,
+# on KORDAMINE pausiga: 403 korral proovi mitu korda, UA-sid vaheldumisi.
 UA_BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                             "AppleWebKit/537.36 (KHTML, like Gecko) "
-                            "Chrome/127.0.0.0 Safari/537.36"}
+                            "Chrome/139.0.0.0 Safari/537.36",
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+              "Accept-Language": "et-EE,et;q=0.9,en-US;q=0.8,en;q=0.7"}
+# Metal Stormi NIMEKIRJA leht (events.php?...) on tunduvalt karmimalt blokitud kui uksikute
+# urituste lehed - 5 katsest ei piisanud (kontrollitud 02.08.2026). Korje kaib korra oos,
+# seega ~1,5 min ootamist halvimal juhul on odavam kui kaotatud allikas.
+KATSEID = 8                       # kokku katseid 403/429 korral
+PAUSID = (3, 5, 8, 12, 15, 20, 25)  # sekundit katsete vahel
 
 
 def get(url, timeout=25):
-    try:
-        req = urllib.request.Request(url, headers=UA)
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.read().decode("utf-8", "replace")
-    except urllib.error.HTTPError as ex:
-        if ex.code not in (403, 429):
-            raise
-        req = urllib.request.Request(url, headers=UA_BROWSER)
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.read().decode("utf-8", "replace")
+    viimane = None
+    for katse in range(KATSEID):
+        paised = UA if katse % 2 == 0 else UA_BROWSER
+        try:
+            req = urllib.request.Request(url, headers=paised)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as ex:
+            if ex.code not in (403, 429):
+                raise
+            viimane = ex
+            if katse < KATSEID - 1:
+                time.sleep(PAUSID[min(katse, len(PAUSID) - 1)])
+    raise viimane
 
 # Zanri META-vastendus — peab olema syncis index.html/arhiiv.html GENRE_META-ga!
 # Modifikaatorid (heavy, stoner, melodic, symphonic, extreme, post, psych, shoegaze) metat ei anna.

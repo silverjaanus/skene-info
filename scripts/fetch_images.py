@@ -9,10 +9,11 @@
 Loogika (Silveri otsus 27.07.2026):
   * pilt otsitakse kirje su/ou/pu lehe <meta og:image> pealt, esimene tootav voidab;
   * FACEBOOKI EI kusita (robotid blokitud, URL-id aeguvad, tingimused ei luba);
-  * pilti EI kasutata, kui see on LAI banner (laius/korgus > 1.6) voi alla 300 px -
+  * pilti EI kasutata, kui see on LAI banner (laius/korgus > 2.0) voi alla 200 px -
     laia bannerit ei saa ruuduks karpida ilma teksti lohkumata, sellised kirjed
     jaavad genereeritud tuubimargi peale (frontend joonistab selle ise);
-  * alles jaav pilt skaleeritakse laiuseni 216 px (3x kuvasuurus) ja salvestatakse
+  * alles jaav pilt skaleeritakse laiuseni 216 px (3x kuvasuurus), MITTE ules -
+    vaiksem originaal salvestatakse oma suuruses; salvestatakse
     WebP-na <sait>/pildid/<slug>.webp; kirjesse laheb suhteline tee "pildid/<slug>.webp".
 
 Kirje valjad: "img" = suhteline tee. Kui tahad kirjelt pildi ara votta ja hoida
@@ -21,6 +22,7 @@ seda ka jargmisel korjel eemal, pane "img": "" (tuhi string = teadlik keeld).
 import json
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -37,6 +39,13 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info pildikorje; +https://www.skene.info)"}
+UA_BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/139.0.0.0 Safari/537.36",
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+              "Accept-Language": "et-EE,et;q=0.9,en-US;q=0.8,en;q=0.7"}
+KATSEID = 5                 # kokku katseid 403/429 korral (vt get())
+PAUSID = (3, 5, 8, 12)      # sekundit katsete vahel
 SAIDID = {
     "www":   ROOT / "data",
     "rap":   ROOT / "rap" / "data",
@@ -51,8 +60,14 @@ LAIUS = 216                 # 3x kuvasuurus (72 px)
 # Pilti EI KARBITA kunagi (frontendil on korgus auto) - seega lai banner ei lohu, ta on
 # lihtsalt madal riba. Piir on ainult seal, kus riba muutub liiga oheseks, et midagi naha.
 MAX_SUHE = 2.0              # laiem kui see -> jaab tuubimargi peale
-MIN_KULG = 300              # liiga vaike originaal ei anna teravat pilti
+# 200 px on ikka veel ~2,8x kuvasuurus (72 px), seega teravusega on korras. Piir oli
+# varem 300, mis viskas kaotsi kogu Metal Stormi plakativaramu (nende og:image on
+# alati tapselt 200x200). Silveri otsus 02.08.2026: 200 px pilt on parem kui tuubimark.
+MIN_KULG = 200              # liiga vaike originaal ei anna teravat pilti
 KEELATUD_HOST = ("facebook.com", "fb.me", "fbcdn.net", "instagram.com", "cdninstagram.com")
+# Uldpildid, mis EI OLE kirje oma: kui leht ei paku uritusepilti, annab og:image saidi
+# enda logo voi sponsori banneri. Need on ara tuntavad URL-i jargi.
+KEELATUD_PILT = ("metalstorm.net/images/fb_icon",)
 
 OG = re.compile(
     r'<meta[^>]+(?:property|name)=["\'](?:og:image(?::secure_url)?|twitter:image)["\'][^>]*>',
@@ -66,9 +81,36 @@ def keelatud(url):
 
 
 def get(url, timeout=20):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    """403/429 korral proovi mitu korda, UA-sid vaheldumisi.
+
+    Metal Storm annab 403 JUHUSLIKULT (mooedetud 02.08.2026: sama URL, 6 paringut
+    kummagi paisekomplektiga -> bot-UA labi 2/6, brauseri oma 1/6, labikukkumised
+    laibisegamini). UA vahetamine uksi ei aita; ainus toimiv on kordamine pausiga.
+    """
+    viimane = None
+    for katse in range(KATSEID):
+        paised = UA if katse % 2 == 0 else UA_BROWSER
+        try:
+            req = urllib.request.Request(url, headers=paised)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as ex:
+            if ex.code not in (403, 429):
+                raise
+            viimane = ex
+            if katse < KATSEID - 1:
+                time.sleep(PAUSID[min(katse, len(PAUSID) - 1)])
+    raise viimane
+
+
+def og_image_htmlist(toores, lehe_url):
+    """Sama, aga juba alla laetud baitidest - hoiab kokku teise paringu."""
+    html = toores.decode("utf-8", "replace")
+    for tag in OG.findall(html):
+        m = SISU.search(tag)
+        if m:
+            return urllib.parse.urljoin(lehe_url, m.group(1).strip()), None
+    return None, "og:image puudub"
 
 
 def og_image(lehe_url):
@@ -97,7 +139,8 @@ def sobib(im, kontrolli_suurust=True):
 
 def salvesta(im, sihtfail):
     w, h = im.size
-    uus = (LAIUS, max(1, int(round(h * LAIUS / float(w)))))
+    laius = min(LAIUS, w)       # ARA suurenda originaali - 200 px pilt jaaks uduseks
+    uus = (laius, max(1, int(round(h * laius / float(w)))))
     im = im.convert("RGB").resize(uus, Image.LANCZOS)
     sihtfail.parent.mkdir(parents=True, exist_ok=True)
     im.save(sihtfail, "WEBP", quality=80, method=5)
@@ -118,15 +161,23 @@ def kirje_lehed(e):
 
 
 def pilt_urlist(url):
-    """Proovib URL-i kaepealt pildina; kui see on leht, otsib og:image."""
+    """Proovib URL-i kaepealt pildina; kui see on leht, otsib og:image.
+
+    Leht laetakse ainult UKS kord (varem kaks: pildikatse + og:image otsing).
+    """
     try:
         toores = get(url)
+    except Exception as ex:
+        return None, "%s: %s" % (type(ex).__name__, ex)
+    try:
         return Image.open(BytesIO(toores)), None
     except Exception:
         pass
-    pilt_url, pohjus = og_image(url)
+    pilt_url, pohjus = og_image_htmlist(toores, url)
     if not pilt_url:
         return None, pohjus
+    if any(k in pilt_url.lower() for k in KEELATUD_PILT):
+        return None, "og:image on saidi uldlogo, mitte kirje pilt"
     return Image.open(BytesIO(get(pilt_url))), None
 
 
