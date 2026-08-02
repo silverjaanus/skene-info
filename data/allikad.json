@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01",
+ "updated": "2026-08-02",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -167,6 +167,10 @@
      "u": "https://www.facebook.com/punkrockfestival/"
     },
     {
+     "n": "Pühaste Pruulikoda / Õllepidu",
+     "u": "https://puhastebeer.com/ollepidu"
+    },
+    {
      "n": "Saund (Hiiumaa)",
      "u": "https://saund.ee/"
     },
@@ -263,7 +267,7 @@
     },
     {
      "n": "Steelfest Open Air (Soome)",
-     "u": "https://steelfest.fi/pages/steelfest-2026"
+     "u": "https://steelfest.fi/"
     },
     {
      "n": "Summer Breeze (Saksamaa)",

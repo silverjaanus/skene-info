@@ -730,6 +730,61 @@
    "img": "pildid/laineliveindustrydemodelcitizen.webp"
   },
   {
+   "d": "2026-07-29",
+   "d2": "01.08",
+   "t": "festival",
+   "n": "Beyond the Gates",
+   "a": "ekstreem-metal (black/doom); Emperor, Testament, Electric Wizard, Blood Incantation, Marduk jt",
+   "b": [
+    "Emperor",
+    "Testament",
+    "Electric Wizard",
+    "Blood Incantation",
+    "Marduk"
+   ],
+   "v": "Grieghallen / USF Verftet",
+   "c": "Põhjamaad",
+   "linn": "Bergen, Norra",
+   "g": [
+    "black",
+    "doom",
+    "extreme"
+   ],
+   "sn": "Beyond the Gates",
+   "su": "https://www.beyondthegates.no/",
+   "nb": "hinnaklassid kontrollimata - müük käib Ticketmaster Norway kaudu, hinnatabel JS-põhine"
+  },
+  {
+   "d": "2026-07-29",
+   "d2": "01.08",
+   "t": "festival",
+   "n": "Wacken Open Air",
+   "a": "35. juubeliaastapäev, 150+ bändi; Def Leppard, Judas Priest, Iron Maiden, Sepultura (viimane tuur) jt",
+   "b": [
+    "Def Leppard",
+    "Judas Priest",
+    "Iron Maiden",
+    "Sepultura",
+    "Arch Enemy"
+   ],
+   "v": "Wacken (põld)",
+   "c": "Euroopa",
+   "linn": "Wacken, Saksamaa",
+   "g": [
+    "heavy",
+    "death",
+    "thrash",
+    "power"
+   ],
+   "sn": "Wacken Open Air",
+   "su": "https://www.wacken.com/en/",
+   "hind": {
+    "praegu": "351€",
+    "mark": "\"Louder\" - viimane hinnaklass",
+    "allikas": "wacken.com, kontrollitud 06.07.2026"
+   }
+  },
+  {
    "d": "2026-07-30",
    "t": "kontsert",
    "n": "Underground Laine: Motelli Skronkle (FIN) + Irwin Art Projekt + Hot Kommunist",
@@ -821,6 +876,109 @@
    },
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026; Silveri otsus 31.07.2026: teha jazz-erand ja lisada tüübiga 'muu', avangardjazz/saksofon ei mahu ühegi saidi baasžanrisse. Kinnitatud 2 allikaga: Fienta ürituseleht + kultuuriaken.tartu.ee. Korraldaja Tammekindlus OÜ, oma veebilehte ei ole (on_/ou jäetud tühjaks). NB: kultuuriaken näitab seotud ürituste ribal ekslikult silti 'Tasuta' — sama lehe piletiplokk ütleb 29–45€. Ei ole Sacrum Facere, vaid soolokava (Sacrum Facere ORGAN samas kirikus oli 2020). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik."
+  },
+  {
+   "d": "2026-07-31",
+   "d2": "01.08",
+   "t": "festival",
+   "n": "Võnge x Tõrva Tule-Päevad",
+   "a": "kahepäevane alt/pop-festival (Võnge x Tõrva Tule-Päevad); täiskoosseis 24 esinejat (R 31.07 / L 01.08)",
+   "b": [
+    "SADU",
+    "King No-One (UK)",
+    "Frankie Animal",
+    "kiki",
+    "Leslie Da Bass",
+    "Duo Ruut",
+    "Kristjan Glück",
+    "Supervaikne",
+    "Tomás del Real (CL/EE)",
+    "Town Flesh",
+    "Pološywa",
+    "Smokeys",
+    "Angus",
+    "Ko Shin Moon (FR)",
+    "EiK",
+    "Sten-Olle & Nii Edasi",
+    "Reket",
+    "Maris Pihlap",
+    "Echolove",
+    "Markus Lehtsalu",
+    "Reinis Jaunais & The Flamenco Thief (LV/UK)",
+    "Simone Minn",
+    "Kaido Kirikmäe",
+    "MavaLuna"
+   ],
+   "v": "Tõrva keskväljak",
+   "c": "mujal",
+   "g": [
+    "alt",
+    "rock",
+    "folk"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/2228856570966470/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2228856570966470/",
+   "pu": "https://piletikeskus.ee/et/e/mme7vd",
+   "hind": {
+    "praegu": "18.50€",
+    "mark": "pass (2 päeva); kuni 105.60€",
+    "allikas": "Piletikeskus, kontrollitud 14.07.2026"
+   },
+   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Võnge/ACOUSSION MTÜ; King No-One (UK) FB kaaskorraldaja; täiskoosseis FB eventist 19.07.2026",
+   "img_src": "https://piletikeskus.ee/et/o/vongefestival",
+   "img": "pildid/vongextorvatulepaevad.webp"
+  },
+  {
+   "d": "2026-08-01",
+   "t": "kontsert",
+   "n": "Gogol Bordello",
+   "b": [
+    "Gogol Bordello"
+   ],
+   "g": [
+    "punk",
+    "folk"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "sn": "Helitehas FB",
+   "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/785734627786593",
+   "pu": "https://www.piletilevi.ee/piletid/STG5MS57M5/gogol-bordello",
+   "nb": "gypsy punk; korraldaja M.P.3; kontrollitud 09.07.2026",
+   "img": "pildid/gogolbordello.webp"
+  },
+  {
+   "d": "2026-08-01",
+   "t": "kontsert",
+   "n": "Art-punk õhtu: Motelli Skronkle (FIN) + Hot Kommunist + Faasinihe",
+   "a": "uksed 20.00; 21.00 Faasinihe, 22.00 Hot Kommunist, 23.00 Motelli Skronkle",
+   "b": [
+    "Motelli Skronkle",
+    "Hot Kommunist",
+    "Faasinihe"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "punk",
+    "alt",
+    "rock"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1010213552008102",
+   "hind": {
+    "praegu": "10€ / 13€",
+    "mark": "10€ sularahas, 13€ kaardiga; uksemuuk, piletimuujat pole",
+    "allikas": "FB event, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel osaliselt: venue events-loend + urituse enda leht (molemad FB). Kaudne kinnitus: Motelli Skronkle ja Hot Kommunist on samal nadalal juba kinnitatud Eesti-tuuril (30.07 Uus Laine, 07.08 Kara Kants)"
   }
  ]
 }

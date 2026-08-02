@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01",
+ "updated": "2026-08-02",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 166,
+ "count": 178,
  "entries": [
   {
    "sait": "www",
@@ -98,6 +98,26 @@
   {
    "sait": "www",
    "rel": 1,
+   "d": "2026-05-16",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Konfliktor — «Diivanil elatud elu»",
+   "a": "Tallinna punk / indie rock, 14 min",
+   "b": [
+    "Konfliktor"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://konfliktor.bandcamp.com/album/diivanil-elatud-elu",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover); release-kuupäev ainult albumilehelt (Tharaphita-reegel: kui ilmneb hilisem tegelik kuupäev, paranda)"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
    "d": "2026-05-29",
    "lisatud": "2026-07-26",
    "t": "reliis",
@@ -115,6 +135,25 @@
    "su": "https://surrogoat.bandcamp.com/album/consumed-by-the-wrath-of-time-2",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Kuupaev loetud OTSE Bandcampi albumilehelt: 'released 29 May 2026'. Band: Louna-Eesti (Ihamaru), alustas 1999 Tartus; Metal Archives + MusicBrainz kinnitavad Eesti paritolu. NB album-URL nouab loppu '-2', ilma selleta 404.",
    "img": "pildid/surrogoatconsumedbythewrathoftime.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-05-30",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Postiljon — «Hoovikontsert»",
+   "a": "Tallinna punk rock",
+   "b": [
+    "Postiljon"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://postiljon.bandcamp.com/album/hoovikontsert",
+   "nb": "lisatud sweepis 02.08.2026; oli 26.07 sweepis ootel (kuupäev kinnitamata) — albumileht ütleb released May 30, 2026"
   },
   {
    "sait": "www",
@@ -464,32 +503,6 @@
    "img": "pildid/brochecksentroopia.webp"
   },
   {
-   "sait": "www",
-   "d": "2026-07-29",
-   "d2": "01.08",
-   "t": "festival",
-   "n": "Beyond the Gates",
-   "a": "ekstreem-metal (black/doom); Emperor, Testament, Electric Wizard, Blood Incantation, Marduk jt",
-   "b": [
-    "Emperor",
-    "Testament",
-    "Electric Wizard",
-    "Blood Incantation",
-    "Marduk"
-   ],
-   "v": "Grieghallen / USF Verftet",
-   "c": "Põhjamaad",
-   "linn": "Bergen, Norra",
-   "g": [
-    "black",
-    "doom",
-    "extreme"
-   ],
-   "sn": "Beyond the Gates",
-   "su": "https://www.beyondthegates.no/",
-   "nb": "hinnaklassid kontrollimata - müük käib Ticketmaster Norway kaudu, hinnatabel JS-põhine"
-  },
-  {
    "sait": "klubi",
    "rel": 1,
    "d": "2026-07-29",
@@ -514,34 +527,23 @@
   },
   {
    "sait": "www",
+   "rel": 1,
    "d": "2026-07-29",
-   "d2": "01.08",
-   "t": "festival",
-   "n": "Wacken Open Air",
-   "a": "35. juubeliaastapäev, 150+ bändi; Def Leppard, Judas Priest, Iron Maiden, Sepultura (viimane tuur) jt",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "kaisuloom — «kaisuloom»",
+   "a": "black metal / blackgaze / DSBM, 2 lugu (15 min)",
    "b": [
-    "Def Leppard",
-    "Judas Priest",
-    "Iron Maiden",
-    "Sepultura",
-    "Arch Enemy"
+    "kaisuloom"
    ],
-   "v": "Wacken (põld)",
-   "c": "Euroopa",
-   "linn": "Wacken, Saksamaa",
+   "v": "Bandcamp",
    "g": [
-    "heavy",
-    "death",
-    "thrash",
-    "power"
+    "black",
+    "metal"
    ],
-   "sn": "Wacken Open Air",
-   "su": "https://www.wacken.com/en/",
-   "hind": {
-    "praegu": "351€",
-    "mark": "\"Louder\" - viimane hinnaklass",
-    "allikas": "wacken.com, kontrollitud 06.07.2026"
-   }
+   "sn": "Bandcamp",
+   "su": "https://kaisuloom.bandcamp.com/album/kaisuloom",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+metal, s=new esimene)"
   },
   {
    "sait": "www",
@@ -601,6 +603,66 @@
   },
   {
    "sait": "www",
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Avemaria — «Kuidas vabaneda üleliigsetest hammastest»",
+   "a": "Tallinna punk / art-rock / post-punk",
+   "b": [
+    "Avemaria"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://avemariasituatsioon.bandcamp.com/album/kuidas-vabaneda-leliigsetest-hammastest",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Enditian — «Kütidkorilased EP»",
+   "a": "Tartu crust punk / powerviolence",
+   "b": [
+    "Enditian"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk",
+    "hardcore"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://endyendytyantyan.bandcamp.com/album/k-tidkorilased-ep",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)"
+  },
+  {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "SKURM — «VIBE (EP)»",
+   "a": "IDM / electro / ambient-tehno EP",
+   "b": [
+    "SKURM"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "idm",
+    "electro",
+    "techno"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://skurm1.bandcamp.com/album/vibe-ep",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+techno, s=new esimene)"
+  },
+  {
+   "sait": "www",
    "d": "2026-07-31",
    "d2": "02.08",
    "t": "festival",
@@ -652,254 +714,44 @@
    "img": "pildid/tallinnrockfestival.webp"
   },
   {
-   "sait": "www",
-   "d": "2026-07-31",
-   "d2": "01.08",
-   "t": "festival",
-   "n": "Võnge x Tõrva Tule-Päevad",
-   "a": "kahepäevane alt/pop-festival (Võnge x Tõrva Tule-Päevad); täiskoosseis 24 esinejat (R 31.07 / L 01.08)",
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-08-01",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "DEFFER — «ARCHIVE // 01»",
+   "a": "SYNGE SOUNDSYSTEMi väljalase: dark dub / dubstep / EBM",
    "b": [
-    "SADU",
-    "King No-One (UK)",
-    "Frankie Animal",
-    "kiki",
-    "Leslie Da Bass",
-    "Duo Ruut",
-    "Kristjan Glück",
-    "Supervaikne",
-    "Tomás del Real (CL/EE)",
-    "Town Flesh",
-    "Pološywa",
-    "Smokeys",
-    "Angus",
-    "Ko Shin Moon (FR)",
-    "EiK",
-    "Sten-Olle & Nii Edasi",
-    "Reket",
-    "Maris Pihlap",
-    "Echolove",
-    "Markus Lehtsalu",
-    "Reinis Jaunais & The Flamenco Thief (LV/UK)",
-    "Simone Minn",
-    "Kaido Kirikmäe",
-    "MavaLuna"
+    "DEFFER"
    ],
-   "v": "Tõrva keskväljak",
-   "c": "mujal",
+   "v": "Bandcamp",
    "g": [
-    "alt",
-    "rock",
-    "folk"
+    "dub",
+    "dubstep",
+    "ebm"
    ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/2228856570966470/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2228856570966470/",
-   "pu": "https://piletikeskus.ee/et/e/mme7vd",
-   "hind": {
-    "praegu": "18.50€",
-    "mark": "pass (2 päeva); kuni 105.60€",
-    "allikas": "Piletikeskus, kontrollitud 14.07.2026"
-   },
-   "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Võnge/ACOUSSION MTÜ; King No-One (UK) FB kaaskorraldaja; täiskoosseis FB eventist 19.07.2026",
-   "img_src": "https://piletikeskus.ee/et/o/vongefestival",
-   "img": "pildid/vongextorvatulepaevad.webp"
+   "sn": "Bandcamp",
+   "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)"
   },
   {
    "sait": "www",
+   "rel": 1,
    "d": "2026-08-01",
-   "t": "kontsert",
-   "n": "Art-punk õhtu: Motelli Skronkle (FIN) + Hot Kommunist + Faasinihe",
-   "a": "uksed 20.00; 21.00 Faasinihe, 22.00 Hot Kommunist, 23.00 Motelli Skronkle",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Seanus — «Seanus»",
+   "a": "Tallinna noise rock / sludge / stoner",
    "b": [
-    "Motelli Skronkle",
-    "Hot Kommunist",
-    "Faasinihe"
+    "Seanus"
    ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
+   "v": "Bandcamp",
    "g": [
-    "punk",
-    "alt",
     "rock"
    ],
-   "sn": "Konservatoorium FB",
-   "su": "https://www.facebook.com/konservatoorium/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1010213552008102",
-   "hind": {
-    "praegu": "10€ / 13€",
-    "mark": "10€ sularahas, 13€ kaardiga; uksemuuk, piletimuujat pole",
-    "allikas": "FB event, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel osaliselt: venue events-loend + urituse enda leht (molemad FB). Kaudne kinnitus: Motelli Skronkle ja Hot Kommunist on samal nadalal juba kinnitatud Eesti-tuuril (30.07 Uus Laine, 07.08 Kara Kants)"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-01",
-   "t": "klubi",
-   "n": "Dark Side of the Moon warmup party",
-   "a": "Viimane soojendus enne Dark Side of the Moon festivali — algab õues, kuni valgust jätkub, ja liigub õhtu edenedes sisse; iga baarist ostetud jook annab loosis osalemise võimaluse festivalipiletite ja merch'i peale. Uksed 23.00, 18+",
-   "b": [
-    "micaxsan",
-    "CLUB RATS",
-    "L.Lukyann",
-    "SASSBASS",
-    "Pikkauch"
-   ],
-   "v": "Fonoteek",
-   "c": "Tallinn",
-   "g": [
-    "techno",
-    "house",
-    "electro"
-   ],
-   "sn": "fonoteek.ee",
-   "su": "https://fonoteek.ee/event/dark-side-of-the-moon-warmup-party/",
-   "on_": "fonoteek.ee",
-   "ou": "https://fonoteek.ee/event/dark-side-of-the-moon-warmup-party/",
-   "hind": {
-    "praegu": "tasuta",
-    "mark": "18+",
-    "allikas": "fonoteek.ee, kontrollitud 31.07.2026"
-   },
-   "lisatud": "2026-07-31",
-   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: Rada7 uudiskiri + fonoteek.ee oma ürituseleht (line-up, tasuta sissepääs, 18+, uksed 23.00). Žanrisildid on kuraatori määrang — korraldaja ei kasuta lehel ühtki žanrisõna; tuletatud DSM 2026 festivali kirjest. DSM 2026 festival ise on 14.–16.08.2026 HALLis ja olemasolev festivalikirje on juba korrektne (d 2026-08-14, d2 16.08)."
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-01",
-   "t": "kontsert",
-   "n": "Gogol Bordello",
-   "b": [
-    "Gogol Bordello"
-   ],
-   "g": [
-    "punk",
-    "folk"
-   ],
-   "v": "Helitehas",
-   "c": "Tallinn",
-   "sn": "Helitehas FB",
-   "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/785734627786593",
-   "pu": "https://www.piletilevi.ee/piletid/STG5MS57M5/gogol-bordello",
-   "nb": "gypsy punk; korraldaja M.P.3; kontrollitud 09.07.2026",
-   "img": "pildid/gogolbordello.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-01",
-   "t": "klubi",
-   "n": "Healer Records: Katja Adrikova / Kiimsask / Squash",
-   "a": "Healer Recordsi suvine residentuur Tšungelis; tasuta sissepääs kogu päev ja öö; 17.00–03.00, 21+, heli Lambda Labs",
-   "b": [
-    "Katja Adrikova",
-    "Kiimsask",
-    "Squash"
-   ],
-   "v": "Tšungel",
-   "c": "Tallinn",
-   "g": [
-    "house"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2496237",
-   "on_": "tsungel.ee",
-   "ou": "https://tsungel.ee/",
-   "hind": {
-    "praegu": "tasuta",
-    "mark": "21+",
-    "allikas": "RA + tsungel.ee, kontrollitud 26.07.2026"
-   },
-   "nb": "leitud sweepis 26.07.2026; UUS VENUE Tšungel (Kopli 1, Balti jaam) — suvine välilävaga baar/DJ-venue, elektrooniline muusika, K–L",
-   "img": "pildid/healerrecordskatjaadrikovakiimsasksquash.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-01",
-   "t": "klubi",
-   "n": "NEOONDREED x Fok Yee",
-   "a": "NEOONDREED ja Fok Yee öö läbi kestev pidu; 23.00–05.00, sissepääs tasuta",
-   "b": [
-    "NEOONDREED",
-    "Fok Yee"
-   ],
-   "v": "Kivi Baar",
-   "c": "Tartu",
-   "g": [
-    "hard",
-    "techno",
-    "dnb"
-   ],
-   "sn": "kluub.ee",
-   "su": "https://www.kluub.ee/en/events/tartu/466f269e-ec7d-4545-b5d3-2885705dd0f1",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1020991117444525",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "kluub.ee, kontrollitud 31.07.2026"
-   },
-   "lisatud": "2026-07-31",
-   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: kluub.ee ürituseleht + FB event viide. Žanrisildid hard techno/techno/dnb on kluub.ee omad. Korraldaja avaldab ainult inglise keeles — eestikeelne kirjeldus on kuraatori sõnastus."
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-01",
-   "t": "klubi",
-   "n": "tolm:club: Darth Typo + Paul Lepasson + Soma b2b Artzoy + Selver",
-   "a": "TOLM võtab ette tantsupõranda kogu laiuse — öö algab tundmatutes nurkades ja leiab lõpuks kiire, groovika hoo; 23.00–08.00",
-   "b": [
-    "Darth Typo",
-    "Paul Lepasson",
-    "Soma",
-    "Artzoy",
-    "Selver"
-   ],
-   "v": "Tolm",
-   "c": "Tartu",
-   "g": [
-    "techno",
-    "house"
-   ],
-   "sn": "tolm.club",
-   "su": "https://tolm.club/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1056026606794751",
-   "hind": {
-    "praegu": "10€",
-    "mark": "uksel, sularaha või kaart; eelmüüki ei ole",
-    "allikas": "tolm.club, kontrollitud 31.07.2026"
-   },
-   "lisatud": "2026-07-31",
-   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste pidude kohta. Kinnitatud 2 allikaga: tolm.club + kluub.ee. Žanrisildid techno/house on kluub.ee klassifikatsioon, mitte korraldaja oma. Kirjeldus on tõlgitud korraldaja ingliskeelsest tekstist."
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-01",
-   "t": "klubi",
-   "n": "ÖÖLIBLIKAS vol. 6: F.K.S x WIDZHIT",
-   "b": [
-    "F.K.S",
-    "WIDZHIT"
-   ],
-   "v": "Kaks Tuba",
-   "c": "mujal",
-   "linn": "Rapla",
-   "g": [
-    "techno"
-   ],
-   "sn": "Kaks Tuba FB",
-   "su": "https://www.facebook.com/kakstuba/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1362036412535480",
-   "hind": {
-    "praegu": "5€",
-    "allikas": "FB event, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026 (Kaks Tuba venue-loend + ürituse enda FB-leht)"
+   "sn": "Bandcamp",
+   "su": "https://seanus.bandcamp.com/album/seanus",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+rock, s=new esimene)"
   },
   {
    "sait": "www",
@@ -1065,6 +917,32 @@
    "pu": "https://www.piletilevi.ee/piletid/2DAYCP7RNV/moby",
    "nb": "lisatud 14.07.2026 (Silveri leid); Moby «Play» 25. juubelituur; korraldaja L Tips Agency Estonia",
    "img": "pildid/mobyaustraraulojamaa.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-06",
+   "t": "klubi",
+   "n": "klmn @ Tšungel",
+   "a": "Eesti underground-tantsumuusika hinnatud selector, üle kümne aasta plaadimängu. Kell 21.00–02.00, tasuta sissepääs (uksepoliitika)",
+   "b": [
+    "klmn"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/clubs/265290",
+   "on_": "Tšungel",
+   "ou": "https://tsungel.ee/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee"
   },
   {
    "sait": "www",
@@ -1311,6 +1189,31 @@
   },
   {
    "sait": "klubi",
+   "d": "2026-08-07",
+   "t": "klubi",
+   "n": "micaxsan Summer Fiesta",
+   "a": "Žanrivaba extended shift + üllatuskülalised puldis. Kell 22.00–03.00, tasuta sissepääs, 21+",
+   "b": [
+    "micaxsan"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/clubs/265290",
+   "on_": "Tšungel",
+   "ou": "https://tsungel.ee/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee"
+  },
+  {
+   "sait": "klubi",
    "d": "2026-08-08",
    "t": "kontsert",
    "n": "Allikata Heli (DIY instruments special)",
@@ -1472,6 +1375,30 @@
    },
    "nb": "koosseis täiendatud 26.07.2026 (RA lineup: Priori, Nikolajev, Dharma Doom)",
    "img": "pildid/subudubpriorica.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-09",
+   "t": "kontsert",
+   "n": "Blisterous (FIN) + Gangrenated + Hirmuvalitseja",
+   "a": "Õhtu täis mädanenud death metalit — Blisterous'i ja Gangrenatedi balti mini-tuuri viimane peatus (07.08 sama tuur Hellis Tartus); kohalik toetus Hirmuvalitseja. Algus 18.00, ajakava TBA",
+   "b": [
+    "Blisterous",
+    "Gangrenated",
+    "Hirmuvalitseja"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Secret Face Productions FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2287490378730502/",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; piletiinfot pole avaldatud; sama mini-tuuri Tartu peatus (07.08, Hell) oli juba andmetes"
   },
   {
    "sait": "www",
@@ -2225,6 +2152,33 @@
    "sait": "www",
    "d": "2026-08-27",
    "t": "kontsert",
+   "n": "Remembering Ozzy — tribute to Black Sabbath, Ozzy Osbourne & The Pretty Reckless",
+   "a": "Live-tribuut: Black Sabbathi / Ozzy soolokarjääri hitid (Aleksander Silvese koosseis) + The Pretty Reckless (ansambel Amplituud). Kell 19.00, tasuta sissepääs",
+   "b": [
+    "Aleksander Silvese koosseis",
+    "Amplituud"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "metal"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2248809569274082/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; korraldaja Uus Laine + Aleksander Silves (event kahe hostiga)"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-27",
+   "t": "kontsert",
    "n": "SFP esitleb: Suntrace + Präänikud + Shakabrah!",
    "b": [
     "Suntrace (FIN)",
@@ -2644,6 +2598,31 @@
    "sait": "www",
    "d": "2026-09-04",
    "t": "kontsert",
+   "n": "HAINZ (Kosmikud) akustilise kavaga",
+   "a": "Kosmikute laulja Meelis 'Hainz' Hainsoo akustiline kava. Kell 20.00, tasuta sissepääs",
+   "b": [
+    "HAINZ"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "The Krypt FB",
+   "su": "https://www.facebook.com/thekrypt.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1356360360018147/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud The Krypt FB + Sügis Productions FB events-tabid"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-04",
+   "t": "kontsert",
    "n": "Hainz (Kosmikud) akustilise kavaga TASUTA",
    "b": [],
    "v": "The Krypt",
@@ -2786,6 +2765,36 @@
   },
   {
    "sait": "www",
+   "d": "2026-09-05",
+   "t": "festival",
+   "n": "Õllepidu 2026",
+   "a": "Pühaste pruulikoja 10. sünnipäeva õllefestival: 35 pruulikoda Eestist ja välismaalt + bändid. Väravad 14.00; sissepääs kontserdile tasuta, õllede degusteerimiseks eraldi piletid",
+   "b": [
+    "Karmid Torud",
+    "DND",
+    "Elephants From Neptune",
+    "The Crosslegs"
+   ],
+   "v": "Pühaste Pruulikoda (Tähe 133c)",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "Tourmotor",
+   "su": "https://tourmotor.net",
+   "on_": "Ametlik leht",
+   "ou": "https://puhastebeer.com/ollepidu",
+   "hind": {
+    "praegu": "kontsert tasuta",
+    "mark": "õllepilet eelmüügis 18€ / kohapeal 24€ (sis. peoklaas + 6 žetooni); VIP 75€/88€",
+    "allikas": "puhastebeer.com, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566"
+  },
+  {
+   "sait": "www",
    "d": "2026-09-06",
    "t": "kontsert",
    "n": "Laine Live: Luge (CA)",
@@ -2921,6 +2930,30 @@
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-lov-raider/",
    "on_": "thekrypt.ee",
    "ou": "https://www.thekrypt.ee/events"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Vaip Events: Counterstrike (CZ/RSA)",
+   "a": "DnB-legend Counterstrike (Algorythm Recordings; 100+ reliisi mh Ram, PRSPCT, Let It Roll) taas Tallinnas + kohalikud DJ-d. Uksed 23.00–05.00, 18+",
+   "b": [
+    "Counterstrike"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Paavli programm",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "pu": "https://fienta.com/et/counterstrike",
+   "hind": {
+    "praegu": "eelmüük Fientas, uksel 25€",
+    "allikas": "Fienta, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events (FB eventi ei leidnud, ou tühi)"
   },
   {
    "sait": "www",
@@ -3095,6 +3128,31 @@
    "nb": "lisatud sweepis 19.07.2026; korraldaja Bloodstained Metal + The Krypt; piletid uksel, hind veel avaldamata - jälgi 2b-s"
   },
   {
+   "sait": "klubi",
+   "d": "2026-09-25",
+   "t": "klubi",
+   "n": "Sonic Impact: Sournois (PL) + LEM (PL)",
+   "a": "Deep/hüpnootiline techno — kaks külalist Poolast + kohalik toetus Tut Toze (live) ja Pikkauch. Kell 23.00",
+   "b": [
+    "Sournois",
+    "LEM",
+    "Tut Toze",
+    "Pikkauch"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL FB",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1066880019331712/",
+   "pu": "https://gateme.com/halltallinn/104060-sonic-impact",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud HALL FB event + GateMe piletileht"
+  },
+  {
    "sait": "www",
    "d": "2026-09-25",
    "t": "kontsert",
@@ -3185,6 +3243,29 @@
     "allikas": "z-7.ch, kontrollitud 07.07.2026"
    },
    "img": "pildid/upinsmokefestival2026.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "Batushka (PL)",
+   "a": "Damn.Loud esitleb: müstiline Poola black metal (Krzysztof Drabikowski Batushka), õigeusu liturgiline esteetika ja rituaalne lavakogemus. Kell 19.00",
+   "b": [
+    "Batushka"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "black",
+    "metal"
+   ],
+   "sn": "Damn.Loud Agency FB",
+   "su": "https://www.facebook.com/we.are.too.damn.loud/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1583944353235720/",
+   "pu": "https://fienta.com/et/batushka-paavli",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht"
   },
   {
    "sait": "www",
@@ -3449,6 +3530,32 @@
    "pu": "https://www.piletitasku.ee/et/event/9392",
    "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)",
    "img": "pildid/camouflagede.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-22",
+   "t": "kontsert",
+   "n": "Clowny Business: Agarwaen (FIN) + SOLD + Strych:9",
+   "a": "Agarwaeni albumi «The Murder Trend» esitlustuur: Soome avangardne ekstreemmetal + Tallinna meloodiline metal (SOLD) + Tartu nu/industrial metal (Strych:9). Kell 20.00; koostöös Bloodstained Metal Communityga",
+   "b": [
+    "Agarwaen",
+    "SOLD",
+    "Strych:9"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/clowny-business-tallinn",
+   "pu": "https://fienta.com/et/clowny-business-tallinn",
+   "hind": {
+    "praegu": "10€ eelmüük / 12€ uksel",
+    "allikas": "Fienta, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud Fienta + Bandsintown; FB eventi ei leidnud (ou tühi)"
   },
   {
    "sait": "www",
@@ -3960,7 +4067,8 @@
    "n": "Melrose Avenue + Arankai",
    "b": [
     "Melrose Avenue",
-    "Arankai"
+    "Arankai",
+    "Call Me Amour"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -3970,7 +4078,7 @@
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108594783-arankai-at-paavli-kultuurivabrik",
    "img": "pildid/arankai.webp",
-   "nb": "28.07.2026: kaasesineja Melrose Avenue lisatud (Bandsintown + Piletilevi)"
+   "nb": "28.07.2026: kaasesineja Melrose Avenue lisatud (Bandsintown + Piletilevi) | 02.08.2026: Paavli programmileht lisab koosseisu Call Me Amour — lisatud b-sse"
   },
   {
    "sait": "www",
@@ -3992,6 +4100,30 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=232554"
+  },
+  {
+   "sait": "klubi",
+   "d": "2027-03-12",
+   "d2": "14.03",
+   "t": "festival",
+   "n": "Dreamscape Festival 2027",
+   "a": "Kolmepäevane elektroonilise muusika festival Paavli Kultuurivabrikus (korraldaja Dreamscape MTÜ); koosseis avaldamata",
+   "b": [],
+   "tba": 1,
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "elektroonika"
+   ],
+   "sn": "Paavli programm",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "pu": "https://fienta.com/et/dreamscape-festival-2027",
+   "hind": {
+    "praegu": "30€ (Blind Bird 3 päeva pass)",
+    "allikas": "Fienta, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; žanr täpsustamata (elektroonika) — jälgi 2b-s, kui lineup avaldatakse"
   },
   {
    "sait": "www",
@@ -4218,6 +4350,28 @@
    "img": "pildid/tonsofrock2027.webp"
   },
   {
+   "sait": "klubi",
+   "d": "2027-07-01",
+   "d2": "04.07",
+   "t": "festival",
+   "n": "SATNAM cultural rave 2027",
+   "a": "Alkoholivaba 'kultuurireiv' Mustjõel: 5 lava (live/chillout/house/active/dnb), 100+ esinejat, tasuta töötoad; koosseis TBA",
+   "b": [],
+   "tba": 1,
+   "v": "Mustjõe Kõrtsitalu",
+   "c": "mujal",
+   "g": [
+    "house",
+    "dnb",
+    "ambient"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/satnam-2027",
+   "pu": "https://fienta.com/et/satnam-2027",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; leitud Fienta dnb-otsinguga, korraldaja SatNam pro (FB/IG @satnamest); PIIRIPEALNE: heaolu-/teadlikkusfestivali kallak, aga baasžanr elektrooniline tantsumuusika — kui Silver peab skoobiväliseks, eemalda"
+  },
+  {
    "sait": "www",
    "tba": 1,
    "d": "2027-07-02",
@@ -4237,6 +4391,58 @@
    "sn": "Hard Rock Laager FB",
    "su": "https://www.facebook.com/hardrocklaager",
    "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel taidetud alles nuud: Piletilevi listib urituse (seal 02.-03.07), korraldaja FB-event utleb 02.-04.07 - kirjes on korraldaja kuupaev. hardrocklaager.ee seisab endiselt 2026 peal. Koosseis TBA"
+  },
+  {
+   "sait": "klubi",
+   "d": "2027-07-15",
+   "d2": "18.07",
+   "t": "festival",
+   "n": "I Land Sound 2027",
+   "a": "Iga-aastane elektroonilise muusika ja kunsti festival Illiku laiul; koosseis avaldamata",
+   "b": [],
+   "tba": 1,
+   "v": "Illiku laid, Orissaare",
+   "c": "mujal",
+   "g": [
+    "elektroonika"
+   ],
+   "sn": "I Land Sound",
+   "su": "https://ilandsound.ee/en/",
+   "on_": "Ametlik leht",
+   "ou": "https://ilandsound.ee/en/",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist)"
+  },
+  {
+   "sait": "www",
+   "d": "2027-07-29",
+   "d2": "31.07",
+   "t": "festival",
+   "n": "Wacken Open Air 2027",
+   "a": "maailma suurim metalfestival; esimene bändilaine (~50 nime) avaldatud",
+   "b": [
+    "Five Finger Death Punch",
+    "Children Of Bodom",
+    "Helloween",
+    "Halestorm",
+    "Avatar",
+    "Electric Callboy",
+    "Dethklok",
+    "Cavalera Conspiracy",
+    "Heaven Shall Burn",
+    "Knocked Loose"
+   ],
+   "v": "Wacken (põld)",
+   "c": "Euroopa",
+   "g": [
+    "metal"
+   ],
+   "sn": "Wacken.com",
+   "su": "https://www.wacken.com/en/",
+   "on_": "Ametlik leht",
+   "ou": "https://www.wacken.com/en/",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kuupäevad 29.–31.07.2027 (wacken.com + meediakajastus, nt impericon.com); b = teadlik headliner-valik esimesest lainest (välisfestivali reegel); piletimüük pole veel alanud"
   },
   {
    "sait": "rap",

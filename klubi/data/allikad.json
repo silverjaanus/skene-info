@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01",
+ "updated": "2026-08-02",
  "groups": [
   {
    "nimi": "Kohad",
@@ -73,6 +73,10 @@
     {
      "n": "I Land Sound",
      "u": "https://ilandsound.ee/en/"
+    },
+    {
+     "n": "SATNAM cultural rave",
+     "u": "https://www.facebook.com/satnamest/events"
     }
    ]
   },
