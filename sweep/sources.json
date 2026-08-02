@@ -512,12 +512,6 @@
     "nb": "Balti kultuuri + ekstreemmuusika festival (black/death/thrash + folkloor), 2026 25.-27.06"
    },
    {
-    "nimi": "Devilstone",
-    "riik": "Leedu",
-    "url": "https://devilstone.net/home-en/",
-    "nb": "28.07.2026: sait uuendamata alates 2023, festivali staatus ebaselge - kaalu eemaldamist | 02.08.2026: endiselt 2023 seis - soovitan eemaldada"
-   },
-   {
     "nimi": "Melnā Piektdiena",
     "riik": "Läti",
     "url": "https://www.melnapiektdiena.lv",
@@ -670,6 +664,18 @@
     "url": "https://www.facebook.com/veriorarock.stroganoff/",
     "tyyp": "festival",
     "nb": "lisatud 12.07.2026 (leid FB suggested-events kaudu): Räpina valla suverokipidu Veriora järve ääres 14.08.2026, korraldaja Veriora Raudvara (heavy-punk); teine allikas kultuur.rapina.ee; lineup+pilet TBA - jälgi poolikute kirjete ülekontrollis"
+   },
+   {
+    "nimi": "East x West Records",
+    "url": "https://exwrecords.com/",
+    "tyyp": "label",
+    "nb": "lisatud 02.08.2026 kontaktivormi kaudu (Fuzzolini «Beauty Exists in Everyone», 20.03.2026 - plaadifirma tuli välja Bandcampi albumilehelt). Eesti indie/noise-rock label; Bandcampi labeli-leht on hea reliisiallikas"
+   },
+   {
+    "nimi": "Fuzzolini (Bandcamp)",
+    "url": "https://fuzzolini.bandcamp.com/",
+    "tyyp": "band",
+    "nb": "lisatud 02.08.2026 kontaktivormi kaudu; Valter Nõmme (ka Fuzz Salvationi korraldaja) noise-rock projekt Tallinnast, debüütalbum 20.03.2026"
    }
   ]
  },

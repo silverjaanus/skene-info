@@ -196,6 +196,10 @@
      "u": "https://beyondtartu.bandcamp.com/"
     },
     {
+     "n": "East x West Records",
+     "u": "https://exwrecords.com/"
+    },
+    {
      "n": "Helinihe",
      "u": "https://www.facebook.com/profile.php?id=61589881223213&sk=events"
     },
@@ -236,10 +240,6 @@
     {
      "n": "Copenhell (Taani)",
      "u": "https://copenhell.dk/en/front-page/"
-    },
-    {
-     "n": "Devilstone (Leedu)",
-     "u": "https://devilstone.net/home-en/"
     },
     {
      "n": "Graspop Metal Meeting (Belgia)",
@@ -292,6 +292,15 @@
     {
      "n": "Wave-Gotik-Treffen (Saksamaa)",
      "u": "https://www.wave-gotik-treffen.de/english/"
+    }
+   ]
+  },
+  {
+   "nimi": "Muud",
+   "items": [
+    {
+     "n": "Fuzzolini (Bandcamp)",
+     "u": "https://fuzzolini.bandcamp.com/"
     }
    ]
   },

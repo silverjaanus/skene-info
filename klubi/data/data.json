@@ -190,6 +190,25 @@
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; varem 1 allikaga ootel (HANDOVER sekts 4, allevents.in). Kinnitatud 2+ allikaga: Rada7 uudiskiri + FB event (pealkiri 'CABARET VOLTA SUVEPÄEV', 'Sunday 2 PM – 11 PM', Uus-Volta 5, Tallinn) + allevents.in. Eksperimentaal/noise baasžanr → klubi."
   },
   {
+   "d": "2026-08-05",
+   "t": "klubi",
+   "n": "Petricore (IT)",
+   "a": "Itaalia DJ Petricore (Luca), kollektiivide Laundry Boyz ja SMILE asutaja; 21.00–02.00",
+   "b": [
+    "Petricore (IT)"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "tsungel.ee",
+   "su": "https://tsungel.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2496375707441417/",
+   "nb": "lisatud 02.08.2026. Sweep leidis ainult tsungel.ee (RA-l seda kuupäeva pole); Silver andis teise allika — venue lehelt viitav FB-event. Žanrisilt 'house' on tuletatud venue profiilist ja artisti kollektiividest, mitte otseallikast — tsungel.ee tekst žanri ei nimeta."
+  },
+  {
    "d": "2026-08-06",
    "t": "kontsert",
    "n": "MOBY + Austra + Raul Ojamaa",
@@ -796,6 +815,24 @@
    "img": "pildid/netskybel.webp"
   },
   {
+   "d": "2026-08-21",
+   "t": "klubi",
+   "n": "FACTORY RESET: Tantrum Desire (UK)",
+   "a": "drum'n'bass-õhtu Kreenholmi tehasekompleksis",
+   "b": [
+    "Tantrum Desire (UK)"
+   ],
+   "v": "Kreenholm",
+   "c": "mujal",
+   "linn": "Narva",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Ticketer",
+   "su": "https://ticketer.ee/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel ÜHE allikaga (Ticketer) — kahe allika reeglist tehtud teadlik erand, sest teist allikat ei leitud ka korduval otsingul. Kui FB-event või korraldaja leht ilmub, lisa 'ou'."
+  },
+  {
    "d": "2026-08-22",
    "t": "klubi",
    "n": "Healer Records: Pätt / Squash / West Coast Swingaz",
@@ -887,6 +924,22 @@
    "ou": "https://www.facebook.com/events/844301218463658/",
    "pu": "https://bit.ly/OMDTallinn",
    "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; piletilink = korraldaja lühilink (bit.ly -> Piletilevi); žanripõhiselt klubi-poolel (Moby/OMD pretsedent)"
+  },
+  {
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "LÕNGREIV vol 3",
+   "a": "kudumis-reiv (knitting rave) Marati 5a / Ankru 10-11",
+   "v": "Marati 5a / Ankru 10-11",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/marati-5a-ja-ankru-10-11713-tallinn-estonia/l%C3%B5ngreiv-vol-3-knitting-rave-vol-3/1649977260437215/",
+   "on_": "allevents.in",
+   "ou": "https://allevents.in/tallinn/",
+   "nb": "lisatud 02.08.2026. Sweepis oli ainult allevents.in; Silver leidis FB-eventi tavalise Google-otsinguga — ÕPPETUND: kui sweep-allikatest teist allikat ei tule, tee veebiotsing enne kui kirje 'ühe allikaga' kõrvale panna. Žanrisilt 'techno' on tuletatud sündmuse nimest ('reiv'), koosseisu ega žanrit FB-eventist ei kinnitatud."
   },
   {
    "d": "2026-08-29",

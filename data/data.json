@@ -59,6 +59,25 @@
   },
   {
    "rel": 1,
+   "d": "2026-03-20",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Fuzzolini — «Beauty exists in everyone»",
+   "a": "Album, 8 lugu; Tallinna neljaliikmeline noise-rock bänd, kraut- ja psych-rocki sugemetega; väljaandja East x West Records",
+   "b": [
+    "Fuzzolini"
+   ],
+   "g": [
+    "post-punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://fuzzolini.bandcamp.com/album/beauty-exists-in-everyone-2",
+   "nb": "lisatud 02.08.2026 kontaktivormi kaudu (Valter Nõmm, valter.nomm@gmail.com, 02.08 06:49 — saabus PÄRAST hommikust inbox-checki 05:06). Kuupäev 20.03.2026 loetud Bandcampi albumilehelt; žanrisõnastus ('post-punk, noise-rock, psychedelic rock') ja bändikirjeldus on saatja omad. NB: reliis on ~4,5 kuud vana, aga Silveri otsus 02.08: lisada, sest vanadele asjadele on nähtavust vaja. Vormil oli link katki kleebitud ('https://httpshttps://...://fb.me/...') — õige aadress tuvastatud käsitsi."
+  },
+  {
+   "rel": 1,
    "d": "2026-05-16",
    "lisatud": "2026-08-02",
    "t": "reliis",
@@ -522,6 +541,27 @@
    },
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026; Silveri jazz-erand (vt 31.07 Tartu kirjet). Kinnitatud 2 allikaga: D3 oma ürituseleht + Fienta. Sama tuur/produktsioon kui 31.07 Tartus, sama korraldaja (Tammekindlus OÜ). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik."
+  },
+  {
+   "d": "2026-08-03",
+   "t": "kontsert",
+   "n": "Kranium + Wasteland-6 + Sabancaya",
+   "a": "Kraniumi ja Sabancaya Balti tuuri Tallinna kuupäev; soojendajaks Wasteland-6",
+   "b": [
+    "Kranium",
+    "Wasteland-6",
+    "Sabancaya"
+   ],
+   "v": "BH Pubi",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "Bandsintown",
+   "su": "https://www.bandsintown.com/e/108685408-wasteland-six-at-bh-pubi-bikers-pub-mootorratturite-pubi",
+   "on_": "Kraniumi FB",
+   "ou": "https://www.facebook.com/Kranium.band.official/photos/kranium-wasteland-6-and-sabancaya-are-coming-to-bh-pub-in-tallinn-estonia-on-aug/1070222602183474/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel. Kaks allikat: Bandsintown (üritusekirje BH Pubis) + Kraniumi enda ametlik FB-postitus, mis nimetab kolme bändi (varem oli kirjes ainult Kranium + Sabancaya — Wasteland-6 puudus). Sama tuuri Riia kuupäev 05.08 DEPO-s. Žanrisilt 'metal' on üldistus — täpsemat žanrit otseallikast ei kinnitatud."
   },
   {
    "d": "2026-08-03",
@@ -1529,8 +1569,9 @@
    "d2": "12.09",
    "t": "festival",
    "n": "Fuzz Salvation 2026",
-   "a": "Alternatiivrokk-festival 4. korda; 9 esinejat kahel ohtul, ka eksperimentaalne tantsumuusika (Idiot Dance Music)",
+   "a": "Alternatiivrokk-festival 4. korda; 10 esinejat kahel ohtul, ka eksperimentaalne tantsumuusika (Idiot Dance Music)",
    "b": [
+    "Paul Cole & The Great Outdoors",
     "Embus",
     "Giuseppe Perverdi Big Band",
     "Kalli Talonpoika & The Sunshine Band",
@@ -1557,7 +1598,7 @@
     "mark": "early bird 25 EUR (2 paeva); support 40 EUR",
     "allikas": "kontaktivorm + Fienta, kontrollitud 26.07.2026"
    },
-   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame)",
+   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame) | 02.08.2026: SILVERI OTSUS — Paul Cole & The Great Outdoors LISATUD kavasse korraldaja kinnituse alusel (a-vali 9 -> 10 esinejat). Ainus allikas on korraldaja enda kaks kontaktivormi teadet (26.07 ja 01.08); Fienta ametlik kava seda veel ei kajasta. Kui Fienta/FB-event hiljem raagib vastu, kontrolli uuesti.",
    "img": "pildid/fuzzsalvation2026.webp"
   },
   {
@@ -2084,6 +2125,30 @@
    "su": "https://metalstorm.net/events/event.php?event_id=233881"
   },
   {
+   "d": "2026-11-13",
+   "d2": "04.12",
+   "t": "kontsert",
+   "n": "Kosmikud «Pulmad ja matused 20»",
+   "a": "Läbilöögialbumi 20. juubelituur, 7 kontserti Eestis: Kultuuriklubi Tempel (Pärnu) 13.11, Järvakandi kultuurihall 14.11, Pubi Juudas (Tõrva) 20.11, Pärimusmuusika ait (Viljandi) 21.11, Genialistide Klubi (Tartu) 27.11 + lisakontsert 28.11, Helitehas (Tallinn) 04.12 koos Viikatega; tuur jätkub 05.12 Helsingis (Korjaamo)",
+   "b": [
+    "Kosmikud",
+    "Viikate (FI)"
+   ],
+   "v": "tuur",
+   "c": "mujal",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Piletilevi (tuuri seerialeht)",
+   "su": "https://www.piletilevi.ee/series/KURXMI47WG/kosmikud-pulmad-ja-matused-20",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1701428730898843",
+   "pu": "https://www.piletilevi.ee/series/KURXMI47WG/kosmikud-pulmad-ja-matused-20",
+   "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 02.08.2026 (Silveri otsus 'pane kõik kuupäevad'): kogu tuur loetud Piletilevi seeria-lehelt piletilevi.ee/series/KURXMI47WG — 13.11 Pärnu, 14.11 Järvakandi, 20.11 Tõrva, 21.11 Viljandi, 27.11 + 28.11 Tartu, 04.12 Tallinn (Viikate), 05.12 Helsingi (Korjaamo). d/d2 = 13.11–04.12 (Eesti osa); Helsingi kirjas ainult a-vallas, sest kalender on Eesti-keskne. Bänd Viikate 04.12 lisatud b-massiivi.",
+   "img": "pildid/kosmikudpulmadjamatused20.webp"
+  },
+  {
    "d": "2026-11-15",
    "t": "kontsert",
    "n": "Paavli.Live: Gong (UK)",
@@ -2134,29 +2199,6 @@
   },
   {
    "d": "2026-11-20",
-   "d2": "28.11",
-   "t": "kontsert",
-   "n": "Kosmikud «Pulmad ja matused 20»",
-   "a": "Läbilöögialbumi 20. juubelituur: Pubi Juudas (Tõrva) 20.11, Genialistide Klubi (Tartu) 27.11 + lisakontsert 28.11",
-   "b": [
-    "Kosmikud"
-   ],
-   "v": "tuur",
-   "c": "mujal",
-   "g": [
-    "rock",
-    "alt"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/1701428730898843",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1701428730898843",
-   "pu": "https://www.piletilevi.ee/piletid/CVAQM4IDVN/kosmikud-pulmad-ja-matused-20",
-   "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 28.07.2026: Piletilevis on ka 04.12.2026 Helitehas (Tallinn) — kui see kuulub samasse tuuri, tuleks d2 pikendada 04.12-ni. Jäetud muutmata, kinnitust vajab",
-   "img": "pildid/kosmikudpulmadjamatused20.webp"
-  },
-  {
-   "d": "2026-11-20",
    "t": "kontsert",
    "n": "Mustasch (SWE)",
    "a": "Rootsi hard rock'i üks jõulisemaid nimesid, Ralf Gyllenhammari juhtimisel; kaks Grammist, läbimurdealbum «Latest Version of the Truth» (2007); uus album lubatud 2026; algus 19.00",
@@ -2177,6 +2219,29 @@
    "pu": "https://www.piletilevi.ee/piletid/3EJHJLGL23/mustasch-swe",
    "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht",
    "img": "pildid/mustaschswe.webp"
+  },
+  {
+   "d": "2026-11-20",
+   "d2": "28.11",
+   "t": "kontsert",
+   "n": "Kosmikud «Pulmad ja matused 20»",
+   "a": "Läbilöögialbumi 20. juubelituur: Pubi Juudas (Tõrva) 20.11, Genialistide Klubi (Tartu) 27.11 + lisakontsert 28.11",
+   "b": [
+    "Kosmikud"
+   ],
+   "v": "tuur",
+   "c": "mujal",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1701428730898843",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1701428730898843",
+   "pu": "https://www.piletilevi.ee/piletid/CVAQM4IDVN/kosmikud-pulmad-ja-matused-20",
+   "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 28.07.2026: Piletilevis on ka 04.12.2026 Helitehas (Tallinn) — kui see kuulub samasse tuuri, tuleks d2 pikendada 04.12-ni. Jäetud muutmata, kinnitust vajab",
+   "img": "pildid/kosmikudpulmadjamatused20.webp"
   },
   {
    "d": "2026-11-26",
@@ -2743,7 +2808,7 @@
   }
  ],
  "log": [
-  "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
+  "metalstorm: 14",
   "krypt: 9",
   "paavli: 0",
   "helitehas: 0"
