@@ -432,6 +432,13 @@
  {
   "d": "2026-08-05",
   "d2": "23.08",
+  "dd": [
+   "2026-08-05",
+   "2026-08-06",
+   "2026-08-14",
+   "2026-08-15",
+   "2026-08-23"
+  ],
   "t": "kontsert",
   "n": "C-JAM & MAD «Metallica» tuur, II osa",
   "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08, Kirna mõis (Türi) 23.08 kell 17 (tribuutprojekt)",
@@ -1487,6 +1494,187 @@
   "img": "pildid/sindirock2026.webp"
  },
  {
+  "d": "2026-08-05",
+  "t": "kontsert",
+  "n": "Paavli.Live: Jaakko Eino Kalevi (FI)",
+  "a": "Garden Sessions; soome leftfield-pop / dream-pop",
+  "b": [
+   "Jaakko Eino Kalevi (FI)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "alt"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/",
+  "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Paavli.Live on teadlikult žanriülene sari; žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+ },
+ {
+  "d": "2026-08-19",
+  "t": "kontsert",
+  "n": "Paavli.Live: mariin k.",
+  "a": "Garden Sessions",
+  "b": [
+   "mariin k."
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "alt"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/",
+  "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+ },
+ {
+  "d": "2026-08-26",
+  "t": "kontsert",
+  "n": "Paavli.Live: Volodja Brodsky",
+  "b": [
+   "Volodja Brodsky"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "alt"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/",
+  "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+ },
+ {
+  "d": "2026-08-09",
+  "d2": "30.08",
+  "dd": [
+   "2026-08-09",
+   "2026-08-16",
+   "2026-08-30"
+  ],
+  "t": "festival",
+  "n": "Plaaditurg: TOUR DE PLAAT 2026",
+  "a": "Plaaditurg esimest korda tuuril — plaadipoed ja -müüjad kogunevad turglema: 09.08 Tallinna Keskturg, 16.08 Nõmme Turg, 30.08 Krulli kvartal (12.00–16.00, koos Kalamaja Loometuruga). Sarja avas 02.08 Augustibluus",
+  "v": "tuur",
+  "c": "Tallinn",
+  "g": [
+   "alt"
+  ],
+  "sn": "MuusikaPlaneet",
+  "su": "https://muusikaplaneet.ee/2026/07/30/plaaditurg26/",
+  "on_": "Plaaditurg FB",
+  "ou": "https://www.facebook.com/plaaditurg",
+  "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. Kirjetüüp 't' on 'festival', sest turu/laada tüüpi süsteemis ei ole; kui vaja, tasub kaaluda eraldi tüüpi. Kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co."
+ },
+ {
+  "d": "2026-10-15",
+  "d2": "18.11",
+  "dd": [
+   "2026-10-15",
+   "2026-10-16",
+   "2026-10-18",
+   "2026-10-20",
+   "2026-11-18"
+  ],
+  "t": "kontsert",
+  "n": "PLACEBO — 30th Anniversary Tour",
+  "a": "Eesti kuupäeva EI OLE. Lähimad: 15.10 Vilnius (Twinsbet Arena), 16.10 Riia (Xiaomi Arēna), 18.10 Helsingi (Veikkaus Arena), 20.10 Stockholm (Annexet), 18.11 Łódź (Atlas Arena). Kaugemal ka Oslo 22.10, Kopenhaagen 24.10, Hamburg 26.10, Berliin 16.11",
+  "b": [
+   "Placebo"
+  ],
+  "v": "tuur",
+  "c": "Euroopa",
+  "linn": "Vilnius · Riia · Helsingi · Stockholm · Łódź",
+  "g": [
+   "alt",
+   "rock"
+  ],
+  "sn": "Songkick",
+  "su": "https://www.songkick.com/artists/324967-placebo/calendar",
+  "on_": "placeboworld.co.uk",
+  "ou": "https://www.placeboworld.co.uk/pages/tour",
+  "nb": "lisatud 02.08.2026 — ESIMENE KIRJE UUES KATEGOORIAS (Silveri ettepanek 02.08): kui suur bänd tuuritab ja Eesti kuupäeva ei ole, tee ÜKS kirje, mis loetleb ~5 lähimat riiki. d = varaseim, d2 = hiliseim neist viiest. Kuupäevad Songkicki tuurikalendrist; Vilniuse kuupäev tuli Bandsintownist (Songkickil seda ei olnud — Bandsintownil on sama üritus kahe kirjena, Twinsbet Arena / Arena Vilnius, ilmselt saali ümbernimetamine). Riia kinnitab ka bilesuserviss.lv."
+ },
+ {
+  "d": "2026-10-29",
+  "t": "kontsert",
+  "n": "Sudden Lights (LV)",
+  "a": "Läti indie-rock; TALK TO ME TOUR",
+  "b": [
+   "Sudden Lights (LV)"
+  ],
+  "v": "Fotografiska",
+  "c": "Tallinn",
+  "g": [
+   "alt",
+   "rock"
+  ],
+  "sn": "suddenlights.lv",
+  "su": "https://www.suddenlights.lv/lv/concerts",
+  "nb": "lisatud 02.08.2026 Silveri otsusel. Tallinna kuupäev tuli välja alles bändi enda tuurikalendrist — sweep nägi ainult Tartu oma. Žanr indie-pop/rock, piiripealne, Silver otsustas 'läheb'."
+ },
+ {
+  "d": "2026-10-30",
+  "t": "kontsert",
+  "n": "Sudden Lights (LV)",
+  "a": "Läti indie-rock; TALK TO ME TOUR",
+  "b": [
+   "Sudden Lights (LV)"
+  ],
+  "v": "Genialistide Klubi",
+  "c": "mujal",
+  "linn": "Tartu",
+  "g": [
+   "alt",
+   "rock"
+  ],
+  "sn": "suddenlights.lv",
+  "su": "https://www.suddenlights.lv/lv/concerts",
+  "nb": "lisatud 02.08.2026 Silveri otsusel. Varem oli sekts 4 all '1 allikaga ootel' — bändi enda tuurikalender kinnitas."
+ },
+ {
+  "d": "2027-01-18",
+  "t": "kontsert",
+  "n": "Jazz Sabbath (UK)",
+  "a": "Briti jazz-trio, kes esitab Black Sabbathi repertuaari jazzina; algus 20.00",
+  "b": [
+   "Jazz Sabbath (UK)"
+  ],
+  "v": "Võru kultuurimaja Kannel",
+  "c": "mujal",
+  "linn": "Võru",
+  "g": [
+   "jazz",
+   "alt"
+  ],
+  "sn": "Piletilevi",
+  "su": "https://www.piletilevi.ee/piletid/jazz-sabbath",
+  "on_": "vorukannel.ee",
+  "ou": "https://vorukannel.ee/",
+  "hind": {
+   "praegu": "23–35 €",
+   "allikas": "vorukannel.ee + Piletilevi, kontrollitud 02.08.2026"
+  },
+  "nb": "lisatud 02.08.2026 Silveri otsusel ('läheb sisse'). Žanrisilt 'jazz' annab META-FALLBACKi ehk kirje kuvatakse 'alt' all — see on teadlik. Repertuaar on Black Sabbath, esitus jazz."
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-09",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "Säde Semper — «The Sun and Others»",
+  "a": "Debüütalbum, 14 lugu; kirjutatud, esitatud ja produtseeritud artisti enda poolt",
+  "b": [
+   "Säde Semper"
+  ],
+  "g": [
+   "punk",
+   "alt"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://sadesemper.bandcamp.com/album/the-sun-and-others",
+  "nb": "lisatud 02.08.2026. Kuupäev 09.07.2026 kinnitatud Bandcampi albumilehelt ja Apple Musicust. Artist esineb ka nime all demeeter (@demeeterrr). Žanr pop punk / folk punk — varem sekts 4 all 'piiripealne', küsimust tegelikult ei olnud: punk/alt mahub peasaidi skoopi."
+ },
+ {
   "rel": 1,
   "d": "2026-03-20",
   "lisatud": "2026-08-02",
@@ -1529,6 +1717,15 @@
  {
   "d": "2026-11-13",
   "d2": "04.12",
+  "dd": [
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-20",
+   "2026-11-21",
+   "2026-11-27",
+   "2026-11-28",
+   "2026-12-04"
+  ],
   "t": "kontsert",
   "n": "Kosmikud «Pulmad ja matused 20»",
   "a": "Läbilöögialbumi 20. juubelituur, 7 kontserti Eestis: Kultuuriklubi Tempel (Pärnu) 13.11, Järvakandi kultuurihall 14.11, Pubi Juudas (Tõrva) 20.11, Pärimusmuusika ait (Viljandi) 21.11, Genialistide Klubi (Tartu) 27.11 + lisakontsert 28.11, Helitehas (Tallinn) 04.12 koos Viikatega; tuur jätkub 05.12 Helsingis (Korjaamo)",

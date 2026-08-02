@@ -1,5 +1,10 @@
 [
  {
+  "d": "2026-08-16",
+  "n": "KRS-One (US)",
+  "nb": "EI LISATA (Silveri otsus 02.08.2026): ticketshop.ee lehel on kaks erinevat kuupaeva - pais utleb '16 august 2026, 20:00 (puhapaev)', kirjelduse tekst utleb 'Join us at Prive Club on June 14th, 2026'. Piletimuuja iseendaga vastuolus -> 'las jaab siis valja'. Blokk on vajalik, sest archive_split sailitab eelmise data.json-i sisu ka parast manual.json-ist kustutamist. Kui korraldaja kuupaeva parandab, eemalda see blokk."
+ },
+ {
   "b": "toxic yuri",
   "nb": "ARTISTIBLOKK 30.07.2026 (Silveri otsus): artist ei soovi olla tehisaru abil koostatud kalendris. Blokeerib KOIK selle artisti kirjed koigil kuupaevadel (b-massiiv, nimi, nimega algav reliisipealkiri) - vt scripts/common.py is_blocked. Sama blokk on koigi kolme saidi blocklistis, et zanri-umberliigitus seda ei lohuks."
  }

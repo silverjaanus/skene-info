@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 185,
+ "count": 189,
  "entries": [
   {
    "sait": "www",
@@ -342,6 +342,25 @@
    "su": "https://svetnureka.bandcamp.com/album/serpentarium",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
    "img": "pildid/svetnurekaserpentarium.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-09",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Säde Semper — «The Sun and Others»",
+   "a": "Debüütalbum, 14 lugu; kirjutatud, esitatud ja produtseeritud artisti enda poolt",
+   "b": [
+    "Säde Semper"
+   ],
+   "g": [
+    "punk",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://sadesemper.bandcamp.com/album/the-sun-and-others",
+   "nb": "lisatud 02.08.2026. Kuupäev 09.07.2026 kinnitatud Bandcampi albumilehelt ja Apple Musicust. Artist esineb ka nime all demeeter (@demeeterrr). Žanr pop punk / folk punk — varem sekts 4 all 'piiripealne', küsimust tegelikult ei olnud: punk/alt mahub peasaidi skoopi."
   },
   {
    "sait": "klubi",
@@ -918,6 +937,13 @@
    "sait": "www",
    "d": "2026-08-05",
    "d2": "23.08",
+   "dd": [
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-14",
+    "2026-08-15",
+    "2026-08-23"
+   ],
    "t": "kontsert",
    "n": "C-JAM & MAD «Metallica» tuur, II osa",
    "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08, Kirna mõis (Türi) 23.08 kell 17 (tribuutprojekt)",
@@ -935,6 +961,24 @@
    "on_": "Kolga Mõisa Kontsert",
    "ou": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
    "nb": "Kirna mõisa lisakuupäev 23.08 lisatud sweepis 19.07.2026 (Kolga Mõisa Kontsert FB + Barbar FB)"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-05",
+   "t": "kontsert",
+   "n": "Paavli.Live: Jaakko Eino Kalevi (FI)",
+   "a": "Garden Sessions; soome leftfield-pop / dream-pop",
+   "b": [
+    "Jaakko Eino Kalevi (FI)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "alt"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Paavli.Live on teadlikult žanriülene sari; žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
   },
   {
    "sait": "klubi",
@@ -1465,6 +1509,29 @@
   {
    "sait": "www",
    "d": "2026-08-09",
+   "d2": "30.08",
+   "dd": [
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-30"
+   ],
+   "t": "festival",
+   "n": "Plaaditurg: TOUR DE PLAAT 2026",
+   "a": "Plaaditurg esimest korda tuuril — plaadipoed ja -müüjad kogunevad turglema: 09.08 Tallinna Keskturg, 16.08 Nõmme Turg, 30.08 Krulli kvartal (12.00–16.00, koos Kalamaja Loometuruga). Sarja avas 02.08 Augustibluus",
+   "v": "tuur",
+   "c": "Tallinn",
+   "g": [
+    "alt"
+   ],
+   "sn": "MuusikaPlaneet",
+   "su": "https://muusikaplaneet.ee/2026/07/30/plaaditurg26/",
+   "on_": "Plaaditurg FB",
+   "ou": "https://www.facebook.com/plaaditurg",
+   "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. Kirjetüüp 't' on 'festival', sest turu/laada tüüpi süsteemis ei ole; kui vaja, tasub kaaluda eraldi tüüpi. Kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co."
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-09",
    "t": "kontsert",
    "n": "The Cure + Duo Ruut + Antti Paalanen",
    "a": "The Cure esmakordselt Eestis; külalised Duo Ruut (EE) ja Antti Paalanen (FI); algus 19.00",
@@ -1917,28 +1984,6 @@
    "img": "pildid/wakeupeventsumenight.webp"
   },
   {
-   "sait": "rap",
-   "d": "2026-08-16",
-   "t": "kontsert",
-   "n": "KRS-One (US)",
-   "a": "hip-hopi teerajaja KRS-One (Boogie Down Productions) Tallinnas; algus 20.00",
-   "b": [
-    "KRS-One (US)"
-   ],
-   "v": "Club Privé",
-   "c": "Tallinn",
-   "g": [
-    "hip-hop",
-    "räpp"
-   ],
-   "sn": "ticketshop.ee",
-   "su": "https://ticketshop.ee/et/events/107052",
-   "on_": "Club Privé FB",
-   "ou": "https://www.facebook.com/clubprive/posts/krs-one-in-tallinn/1490569089779776/",
-   "pu": "https://ticketshop.ee/et/events/107052",
-   "nb": "lisatud 02.08.2026. Sweepis 28.07 ja 02.08 jäi kirje välja, sest ainus leitud allikas oli allevents.in ja Piletilevi otsing andis 0 — VIGA OLI SELLES, et otsiti ainult sweepi allikaloendist. Silver leidis ticketshop.ee lehe; sealt edasi kinnitasid ka Eventbrite ja Club Privé enda FB-postitus. Kellaaeg: ticketshop 20.00, allevents/Eventbrite 19.00 — kirjas ticketshop (piletimüüja võidab)."
-  },
-  {
    "sait": "www",
    "d": "2026-08-16",
    "t": "kontsert",
@@ -1959,6 +2004,24 @@
    "pu": "https://fienta.com/geordie-greep-paavli",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases",
    "img": "pildid/paavlilivegeordiegreepuk.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-19",
+   "t": "kontsert",
+   "n": "Paavli.Live: mariin k.",
+   "a": "Garden Sessions",
+   "b": [
+    "mariin k."
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "alt"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
   },
   {
    "sait": "www",
@@ -2250,6 +2313,23 @@
    "pu": "https://fienta.com/et/narasanti-innerspell-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; korraldaja Sügis Productions / The Krypt (Pärnu mnt 19)",
    "img": "pildid/metalsaturdaynarasantiinnerspell.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-26",
+   "t": "kontsert",
+   "n": "Paavli.Live: Volodja Brodsky",
+   "b": [
+    "Volodja Brodsky"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "alt"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
   },
   {
    "sait": "www",
@@ -2589,26 +2669,6 @@
    "img": "pildid/nothinghammok.webp"
   },
   {
-   "sait": "www",
-   "tba": 1,
-   "d": "2026-09-01",
-   "t": "kontsert",
-   "n": "Molbo + Homebroke",
-   "b": [
-    "Molbo",
-    "Homebroke"
-   ],
-   "v": "Laine Live",
-   "c": "mujal",
-   "g": [
-    "metal"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://laine.bar",
-   "img": "pildid/molbohomebroke.webp",
-   "nb": "⚠ 28.07.2026 sweep EI LEIDNUD sellele ühtki kinnitust: Uus Laine hostitud üritused lõppevad 23.08-ga, 'Laine Live' sarjas on järgmine Luge 06.09; FB event-otsing ja Fienta annavad 'Molbo'/'Homebroke' peale nulli. Homebroke esineb tõendatult 22.08 Art of Moshil. Algallikas oli kontaktivorm. SILVERI OTSUS: kas kustutada või jätta kinnitamata märkega"
-  },
-  {
    "sait": "klubi",
    "d": "2026-09-03",
    "d2": "06.09",
@@ -2738,22 +2798,6 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud The Krypt FB + Sügis Productions FB events-tabid"
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-04",
-   "t": "kontsert",
-   "n": "Hainz (Kosmikud) akustilise kavaga TASUTA",
-   "b": [],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/hainz-kosmikud-akustilise-kavaga-tasuta/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "sait": "klubi",
@@ -3332,6 +3376,28 @@
    "img": "pildid/evestusampest.webp"
   },
   {
+   "sait": "klubi",
+   "d": "2026-09-26",
+   "t": "klubi",
+   "n": "QUANTUM: THE OUTLANDER — D-Block & S-te-Fan | Hard Driver",
+   "a": "Shock Eventsi hardstyle-suurpidu; algus 22.30",
+   "b": [
+    "D-Block & S-te-Fan (NL)",
+    "Hard Driver (NL)"
+   ],
+   "v": "Kammivabrik",
+   "c": "mujal",
+   "linn": "Tartu",
+   "g": [
+    "hardstyle"
+   ],
+   "sn": "Ticketer",
+   "su": "https://www.ticketer.ee/quantum-the-outlander-d-block-s-te-fan",
+   "on_": "Shock Events FB",
+   "ou": "https://www.facebook.com/shockeventsest",
+   "nb": "lisatud 02.08.2026 Silveri otsusel: 'klubi alla'. Jäi 02.08 sweepis välja kui 'kommerts-hard-dance' — Silver otsustas teisiti, järgides hard trance'i pretsedenti (hard dance = klubi-skoop, mitte väljas). Korraldaja Shock Events (Võru)."
+  },
+  {
    "sait": "www",
    "d": "2026-10-02",
    "d2": "04.10",
@@ -3559,6 +3625,36 @@
   },
   {
    "sait": "www",
+   "d": "2026-10-15",
+   "d2": "18.11",
+   "dd": [
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-18",
+    "2026-10-20",
+    "2026-11-18"
+   ],
+   "t": "kontsert",
+   "n": "PLACEBO — 30th Anniversary Tour",
+   "a": "Eesti kuupäeva EI OLE. Lähimad: 15.10 Vilnius (Twinsbet Arena), 16.10 Riia (Xiaomi Arēna), 18.10 Helsingi (Veikkaus Arena), 20.10 Stockholm (Annexet), 18.11 Łódź (Atlas Arena). Kaugemal ka Oslo 22.10, Kopenhaagen 24.10, Hamburg 26.10, Berliin 16.11",
+   "b": [
+    "Placebo"
+   ],
+   "v": "tuur",
+   "c": "Euroopa",
+   "linn": "Vilnius · Riia · Helsingi · Stockholm · Łódź",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Songkick",
+   "su": "https://www.songkick.com/artists/324967-placebo/calendar",
+   "on_": "placeboworld.co.uk",
+   "ou": "https://www.placeboworld.co.uk/pages/tour",
+   "nb": "lisatud 02.08.2026 — ESIMENE KIRJE UUES KATEGOORIAS (Silveri ettepanek 02.08): kui suur bänd tuuritab ja Eesti kuupäeva ei ole, tee ÜKS kirje, mis loetleb ~5 lähimat riiki. d = varaseim, d2 = hiliseim neist viiest. Kuupäevad Songkicki tuurikalendrist; Vilniuse kuupäev tuli Bandsintownist (Songkickil seda ei olnud — Bandsintownil on sama üritus kahe kirjena, Twinsbet Arena / Arena Vilnius, ilmselt saali ümbernimetamine). Riia kinnitab ka bilesuserviss.lv."
+  },
+  {
+   "sait": "www",
    "d": "2026-10-16",
    "t": "kontsert",
    "n": "Wardruna",
@@ -3700,6 +3796,45 @@
    "nb": "koht täpsustatud 28.07.2026 (Unibet Arena Black Box, mitte peasaal); allikas Piletilevi"
   },
   {
+   "sait": "www",
+   "d": "2026-10-29",
+   "t": "kontsert",
+   "n": "Sudden Lights (LV)",
+   "a": "Läti indie-rock; TALK TO ME TOUR",
+   "b": [
+    "Sudden Lights (LV)"
+   ],
+   "v": "Fotografiska",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "suddenlights.lv",
+   "su": "https://www.suddenlights.lv/lv/concerts",
+   "nb": "lisatud 02.08.2026 Silveri otsusel. Tallinna kuupäev tuli välja alles bändi enda tuurikalendrist — sweep nägi ainult Tartu oma. Žanr indie-pop/rock, piiripealne, Silver otsustas 'läheb'."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-30",
+   "t": "kontsert",
+   "n": "Sudden Lights (LV)",
+   "a": "Läti indie-rock; TALK TO ME TOUR",
+   "b": [
+    "Sudden Lights (LV)"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "mujal",
+   "linn": "Tartu",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "suddenlights.lv",
+   "su": "https://www.suddenlights.lv/lv/concerts",
+   "nb": "lisatud 02.08.2026 Silveri otsusel. Varem oli sekts 4 all '1 allikaga ootel' — bändi enda tuurikalender kinnitas."
+  },
+  {
    "sait": "klubi",
    "d": "2026-11-06",
    "t": "klubi",
@@ -3766,6 +3901,15 @@
    "sait": "www",
    "d": "2026-11-13",
    "d2": "04.12",
+   "dd": [
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-12-04"
+   ],
    "t": "kontsert",
    "n": "Kosmikud «Pulmad ja matused 20»",
    "a": "Läbilöögialbumi 20. juubelituur, 7 kontserti Eestis: Kultuuriklubi Tempel (Pärnu) 13.11, Järvakandi kultuurihall 14.11, Pubi Juudas (Tõrva) 20.11, Pärimusmuusika ait (Viljandi) 21.11, Genialistide Klubi (Tartu) 27.11 + lisakontsert 28.11, Helitehas (Tallinn) 04.12 koos Viikatega; tuur jätkub 05.12 Helsingis (Korjaamo)",
@@ -3837,30 +3981,6 @@
     "allikas": "Fienta, kontrollitud 07.07.2026"
    },
    "img": "pildid/napalmdeathmasterbrat.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-11-20",
-   "d2": "28.11",
-   "t": "kontsert",
-   "n": "Kosmikud «Pulmad ja matused 20»",
-   "a": "Läbilöögialbumi 20. juubelituur: Pubi Juudas (Tõrva) 20.11, Genialistide Klubi (Tartu) 27.11 + lisakontsert 28.11",
-   "b": [
-    "Kosmikud"
-   ],
-   "v": "tuur",
-   "c": "mujal",
-   "g": [
-    "rock",
-    "alt"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/1701428730898843",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1701428730898843",
-   "pu": "https://www.piletilevi.ee/piletid/CVAQM4IDVN/kosmikud-pulmad-ja-matused-20",
-   "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 28.07.2026: Piletilevis on ka 04.12.2026 Helitehas (Tallinn) — kui see kuulub samasse tuuri, tuleks d2 pikendada 04.12-ni. Jäetud muutmata, kinnitust vajab",
-   "img": "pildid/kosmikudpulmadjamatused20.webp"
   },
   {
    "sait": "www",
@@ -3971,37 +4091,6 @@
    "ou": "https://www.tapper.ee/event/master-boot-record-ita-fulci-ita/",
    "nb": "27.07.2026: rikastatud Rockclub Tapperi enda ürituselehelt (Silveri viide) — kirjeldus, žanrid (oli ainult industrial+electro, tegelikult ka death metal), vanusepiirang 0+. KORRALDAJA on tapperi lehe järgi UCE Agency, mitte Tapper ise; UCE-l puudub ürituse URL, seetõttu on 'korraldaja' väljal venue enda ürituseleht (sama muster nagu helitehas.ee kirjetel). Piletilinki lehel EI OLE.",
    "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno"
-  },
-  {
-   "sait": "www",
-   "d": "2026-12-04",
-   "t": "kontsert",
-   "n": "Storm Over Tallinn",
-   "a": "Ühe õhtu modern-metal mini-festival (Death Agency): Lavina (Serbia) peaesineja, Bloody Falls (FIN), Numento (FIN), Ampest (EE)",
-   "b": [
-    "Lavina (Serbia)",
-    "Bloody Falls (FIN)",
-    "Numento (FIN)",
-    "Ampest"
-   ],
-   "v": "Rockclub Tapper",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "melodic",
-    "death",
-    "black",
-    "folk"
-   ],
-   "sn": "Fienta",
-   "su": "https://fienta.com/et/storm-over-tallinn",
-   "pu": "https://fienta.com/et/storm-over-tallinn",
-   "hind": {
-    "praegu": "20€ (Early Bird) / 25€ (eelmüük) / 30€ (uksel)",
-    "mark": "Early Bird kuni 15.09.2026; uksed 19.00",
-    "allikas": "Fienta (Death Agency), kontrollitud 09.07.2026"
-   },
-   "img": "pildid/stormovertallinn.webp"
   },
   {
    "sait": "www",
@@ -4136,6 +4225,32 @@
   },
   {
    "sait": "www",
+   "d": "2027-01-18",
+   "t": "kontsert",
+   "n": "Jazz Sabbath (UK)",
+   "a": "Briti jazz-trio, kes esitab Black Sabbathi repertuaari jazzina; algus 20.00",
+   "b": [
+    "Jazz Sabbath (UK)"
+   ],
+   "v": "Võru kultuurimaja Kannel",
+   "c": "mujal",
+   "linn": "Võru",
+   "g": [
+    "jazz",
+    "alt"
+   ],
+   "sn": "Piletilevi",
+   "su": "https://www.piletilevi.ee/piletid/jazz-sabbath",
+   "on_": "vorukannel.ee",
+   "ou": "https://vorukannel.ee/",
+   "hind": {
+    "praegu": "23–35 €",
+    "allikas": "vorukannel.ee + Piletilevi, kontrollitud 02.08.2026"
+   },
+   "nb": "lisatud 02.08.2026 Silveri otsusel ('läheb sisse'). Žanrisilt 'jazz' annab META-FALLBACKi ehk kirje kuvatakse 'alt' all — see on teadlik. Repertuaar on Black Sabbath, esitus jazz."
+  },
+  {
+   "sait": "www",
    "d": "2027-01-28",
    "t": "kontsert",
    "n": "The Rasmus",
@@ -4188,23 +4303,6 @@
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108443665-catch-your-breath-at-helitehas",
    "img": "pildid/catchyourbreath.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2027-02-18",
-   "t": "kontsert",
-   "n": "Arankai",
-   "b": [
-    "Arankai"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108594783-arankai-at-paavli-kultuurivabrik",
-   "img": "pildid/arankai.webp"
   },
   {
    "sait": "www",

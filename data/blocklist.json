@@ -1,5 +1,30 @@
 [
  {
+  "d": "2026-09-04",
+  "n": "Hainz (Kosmikud) akustilise kavaga TASUTA",
+  "nb": "DUPLIKAAT 02.08.2026: sama uritus oli saidil TOPELT - kureeritud manual.json kirje 'HAINZ (Kosmikud) akustilise kavaga' (The Krypt FB, koos kirjelduse, bandi ja hinnaga) + thekrypt.ee auto-variant veidi eri nimega. Alles jaab KUREERITUD kirje; see blokk kustutab auto-variandi, mis oli eelmisest data.json-ist sailinud. Juurpohjus parandatud scripts/fetch.py-s: auto-vs-auto dedup kasutas ainult tapset (d, nimi) votit, nuud kaib sama hagus reegel mis manual-vs-auto."
+ },
+ {
+  "d": "2026-12-04",
+  "n": "Storm Over Tallinn",
+  "nb": "DUPLIKAAT: sama uritus on kirjes 'Storm Over Tallinn Metal Festival' (Rockclub Tapper FB). Fienta-variant tuli lyhema nimega ja jai kummitusena eelmisest data.json-ist. Vt ka 28.07.2026 dedup, mis eemaldas manual.json-i topeltkirje."
+ },
+ {
+  "d": "2027-02-18",
+  "n": "Arankai",
+  "nb": "DUPLIKAAT: sama uritus on kirjes 'Melrose Avenue + Arankai' (Paavli Kultuurivabrik). Bandsintown andis Arankai eraldi artistikirjena; jai kummitusena eelmisest data.json-ist."
+ },
+ {
+  "d": "2026-09-01",
+  "n": "Molbo + Homebroke",
+  "nb": "KUSTUTATUD 02.08.2026 (Silveri otsus): oli duplikaat vale kuupäevaga - päris üritus 'Laine Live: Molbo (NO) + Homebroke (EE)' toimus 06.07.2026 Uus Laines ja see kirje on manual.json-is olemas. Blokk on vajalik, sest archive_split sailitab eelmise data.json-i sisu ka parast manual.json-ist kustutamist."
+ },
+ {
+  "d": "2026-11-20",
+  "n": "Kosmikud «Pulmad ja matused 20»",
+  "nb": "VANA KUUPAEV - kirje sai 02.08.2026 tuuri taiskuupaevad (13.11-04.12, Piletilevi seerialeht). Kuna archive_split dedup-voti on (d, nimi), tekitas 'd' muutmine duplikaadi vana 20.11 kirjega. Blokk kustutab vana."
+ },
+ {
   "d": "2026-08-07",
   "n": "Baltic Prosecution: Blisterous (FIN) + Gangrenated + Kättemaksucvntor",
   "nb": "vana kirjapilt - bändinimi ühtlustati 26.07.2026 Bandcampi kujule 'Kättemaksucuntor' (FB event stiliseerib v-ga); ilma blokita jääb eelmise data.json-i liites duplikaat"
