@@ -30,6 +30,17 @@ TYPE_COLOR={"kontsert":TELLISKIVI,"festival":SINEP,"klubi":PLOOM,"reliis":PAATIN
 # kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat, tuup jaab tekstina
 CAT_COLOR={"metal":"#93392C","rap":"#2E5EAA","klubi":"#6E45A8"}
 CAT_LABEL={"et":{"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"},"en":{"metal":"METAL","rap":"RAP","klubi":"CLUB"}}
+# --- tume plakatipais (saidi E+F umberdisain 08.2026) ---
+# Saidi paises on zanrisonad pealkirjana heledatel tunnusvarvidel tumedal tindil.
+# Meilis ei saa kasutada -webkit-text-stroke'i ega opacity't (Outlook), seega
+# "valjas" sonad on eelarvutatud tuhmid toonid = sama varv 45% tindi taustal
+# (sama loogika mis saidi @media(hover:none) fallback).
+HDRMUTED="#A6A192"
+CAT_BRIGHT={"metal":"#D96A52","rap":"#6E9BE0","klubi":"#A87FE8"}   # = saidi .gword varvid
+CAT_DIM={"metal":"#703E33","rap":"#405473","klubi":"#5A4777"}
+CAT_WORD={"metal":"METAL","rap":"RAP","klubi":"KLUBI"}             # brandisonad = saidil, molemas keeles
+CAT_SITE={"metal":"https://www.skene.info/","rap":"https://rap.skene.info/","klubi":"https://klubi.skene.info/"}
+CAT_HOST={"metal":"skene.info","rap":"rap.skene.info","klubi":"klubi.skene.info"}
 # MailerLite eelistuste/loobumise link (grupid subscriber-managed); kinnita ML manage-tag
 MANAGE_LINK="{$preferences}"
 # Multi-uudiskirja cross-promo ("Sa tellid ainult metal-uudiskirja...") on praegu VÄLJAS.
@@ -42,6 +53,7 @@ I18N={
  "et":{
   "lang_attr":"et",
   "kicker":"SKENE.INFO &middot; Eesti alternatiiv",
+  "umbrella_alt":"eesti alternatiiv","umbrella_net":"üks võrgustik",
   "title":"Tulevad üritused",
   "site_cta":"Kõik üritused &amp; artistid &rarr; skene.info",
   "entry_1":"kirje","entry_n":"kirjet",
@@ -64,6 +76,7 @@ I18N={
  "en":{
   "lang_attr":"en",
   "kicker":"SKENE.INFO &middot; Estonian alternative",
+  "umbrella_alt":"estonian alternative","umbrella_net":"one network",
   "title":"Upcoming events",
   "site_cta":"All events &amp; artists &rarr; skene.info",
   "entry_1":"entry","entry_n":"entries",
@@ -161,6 +174,15 @@ def build_html(entries, ws, we, lang, cats):
     n=len(entries); krje=L["entry_1"] if n==1 else L["entry_n"]
     rng=daterange(ws,we,L)
     missing=[c for c in CAT_ORDER if c not in cats]
+    # tume plakatipea: koik kolm zanrisona, tellitud teemad heledad, ulejaanud tuhmid (ja lingitud)
+    gwords="&nbsp;&nbsp;".join(
+        f'<a href="{CAT_SITE[c]}" style="color:{(CAT_BRIGHT if c in cats else CAT_DIM)[c]};'
+        f'text-decoration:none;">{CAT_WORD[c]}</a>' for c in CAT_ORDER)
+    # uhe kategooria kiri kannab selle kategooria tunnusvarvi ja viib oma saidile
+    solo=cats[0] if len(cats)==1 else None
+    accent=CAT_COLOR[solo] if solo else TELLISKIVI
+    cta_url=CAT_SITE[solo] if solo else SITE_URL
+    cta_txt=L["site_cta"].replace("skene.info", CAT_HOST[solo]) if solo else L["site_cta"]
     promo_html=""
     if missing:
         CL=CAT_LABEL.get(lang,CAT_LABEL["et"])
@@ -195,12 +217,19 @@ def build_html(entries, ws, we, lang, cats):
 <tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:{KAART};border:1px solid {JOON};">
 
-  <!-- pais -->
-  <tr><td style="padding:26px 28px 8px;">
-    <div style="font:400 12px/1.4 'Courier New',monospace;letter-spacing:1px;color:{HALL};text-transform:uppercase;">{L['kicker']}</div>
-    <div style="font:800 34px/1.05 Arial,Helvetica,sans-serif;color:{TINT};margin:6px 0 0;letter-spacing:-.5px;">{L['title']}</div>
-    <div style="font:400 14px/1.4 'Courier New',monospace;color:{TELLISKIVI};margin:8px 0 0;">{rng} &middot; {n} {krje}</div>
-    <div style="margin:14px 0 2px;"><a href="{SITE_URL}" style="display:inline-block;font:700 12px/1 'Courier New',monospace;color:{PABER};background:{TELLISKIVI};text-decoration:none;padding:9px 14px;letter-spacing:.3px;">{L['site_cta']}</a></div>
+  <!-- pais: tume plakatipea (saidi kujundus 08.2026) -->
+  <tr><td style="background:{TINT};padding:22px 28px 18px;border-bottom:3px solid {PABER};">
+    <div style="font:700 30px/1 Arial,Helvetica,sans-serif;letter-spacing:2px;mso-line-height-rule:exactly;">{gwords}</div>
+    <div style="font:400 12px/1.4 'Courier New',monospace;color:{HDRMUTED};letter-spacing:1px;margin:12px 0 0;">
+      <b style="color:{PABER};">SKENE.INFO</b> &#9642; {L['umbrella_alt']} &#9642; {L['umbrella_net']}
+    </div>
+  </td></tr>
+
+  <!-- pealkiri -->
+  <tr><td style="padding:22px 28px 8px;">
+    <div style="font:800 32px/1.05 Arial,Helvetica,sans-serif;color:{TINT};letter-spacing:-.5px;">{L['title']}</div>
+    <div style="font:400 14px/1.4 'Courier New',monospace;color:{accent};margin:8px 0 0;">{rng} &middot; {n} {krje}</div>
+    <div style="margin:14px 0 2px;"><a href="{cta_url}" style="display:inline-block;font:700 12px/1 'Courier New',monospace;color:{PABER};background:{accent};text-decoration:none;padding:9px 14px;letter-spacing:.3px;">{cta_txt}</a></div>
   </td></tr>
 
   <!-- uritused -->

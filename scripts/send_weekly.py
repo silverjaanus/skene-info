@@ -14,7 +14,7 @@ Kasutus:
   python scripts/send_weekly.py --repo . --dry-run    # naita ambrid + kirjed, ARA saada
   python scripts/send_weekly.py --repo . --send       # loo + saada kampaaniad
 """
-import argparse, json, os, sys, urllib.request, urllib.error, datetime as dt
+import argparse, json, os, sys, time, urllib.request, urllib.error, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import make_weekly_email as gen
 
@@ -36,6 +36,22 @@ def req(method, path, token, body=None):
     except urllib.error.URLError as e:
         print("VORGUVIGA %s %s: %s" % (method, path, e.reason))
         return 599, {"error": str(e.reason)}
+
+def req_ok(method, path, token, body=None, tries=5):
+    """Nagu req(), aga KONTROLLIB tulemust: 429 (rate limit) -> ootab ja proovib uuesti,
+    muu viga -> RuntimeError. 02.08.2026: liikmelisuse tsukkel ignoreeris req() staatust,
+    mistottu uks 429-ga ebaonnestunud POST jattis tellija vaikselt ambrist valja."""
+    for i in range(tries):
+        st, b = req(method, path, token, body)
+        if 200 <= st < 300:
+            return st, b
+        if st in (429, 599):
+            wait = 20 * (i + 1)
+            print("     %s %s -> %s, ootan %d s (katse %d/%d)" % (method, path, st, wait, i + 1, tries))
+            time.sleep(wait)
+            continue
+        raise RuntimeError("%s %s -> %s %s" % (method, path, st, b))
+    raise RuntimeError("%s %s: rate limit ei taandunud %d katsega" % (method, path, tries))
 
 def paged(path, token):
     out, cursor = [], None
@@ -102,6 +118,13 @@ def main():
     ap.add_argument("--date", default=None)
     ap.add_argument("--send", action="store_true", help="LOO + saada kampaaniad (muidu dry-run)")
     ap.add_argument("--dry-run", action="store_true")
+    # Taastamine poolelijaanud saatmisest (nt MailerLite 429 rate limit keset jooksu):
+    # --only saadab AINULT nimetatud ambri, --skip-groups jatab liikmelisuse sunki vahele,
+    # kui see ambri jaoks juba onnestus (POST/DELETE tsukkel joudis labi, kampaania mitte).
+    ap.add_argument("--only", default=None, help="ainult see amber, nt send:metal:et")
+    ap.add_argument("--skip-groups", action="store_true", help="ara muuda ambri liikmelisust")
+    ap.add_argument("--settle", type=int, default=30,
+                    help="sekundeid liikmelisuse ja kampaania loomise vahel (vaikimisi 30)")
     a = ap.parse_args()
     cfg = json.load(open(a.config, encoding="utf-8"))
     token = open(a.token_file, encoding="utf-8").read().strip()
@@ -128,15 +151,21 @@ def main():
     send_bucket_ids = {gmap[n] for n in gmap if str(n).startswith("send:")}
     for name, b in sorted(buckets.items()):
         sel = [e for e in all_ev if e.get("_cat") in b["combo"]]
-        print("  %-30s %2d tellijat  %2d kirjet" % (name, len(b["subs"]), len(sel)))
-        if not do_send:
+        skip = a.only and name != a.only
+        print("  %-30s %2d tellijat  %2d kirjet%s" % (name, len(b["subs"]), len(sel),
+                                                     "  [VAHELE JAETUD --only]" if skip else ""))
+        if skip or not do_send:
             continue
         bid = ensure_group(name, token, gmap); send_bucket_ids.add(bid)
-        for sid in b["subs"]:
-            req("POST", "/subscribers/%s/groups/%s" % (sid, bid), token)
-            for oid in send_bucket_ids:
-                if oid != bid:
-                    req("DELETE", "/subscribers/%s/groups/%s" % (sid, oid), token)
+        if not a.skip_groups:
+            for sid in b["subs"]:
+                req_ok("POST", "/subscribers/%s/groups/%s" % (sid, bid), token)
+                for oid in send_bucket_ids:
+                    if oid != bid:
+                        req_ok("DELETE", "/subscribers/%s/groups/%s" % (sid, oid), token)
+            # MailerLite votab kampaania saajate nimekirja hetkeseisuga: varskelt lisatud
+            # liikmed ei pruugi kohe kohal olla (02.08.2026 laks uks kampaania 0 saajale).
+            time.sleep(a.settle)
         sel.sort(key=lambda e: (e["d"], gen.CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
         html = gen.build_html(sel, ws, we, b["lang"], b["combo"])
         rng = gen._plain(gen.daterange(ws, we, gen.I18N[b["lang"]]))
