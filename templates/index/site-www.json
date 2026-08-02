@@ -11,12 +11,10 @@
  "S004": {
   "f": "snippets/www/S004.html"
  },
- "S005": ".subnav a:hover{color:var(--telliskivi)}\n",
- "S006": "h1 .info{color:var(--telliskivi)}\n",
- "S007": {
-  "f": "snippets/www/S007.html"
- },
- "S008": ".topnav .nav-links a:hover{color:var(--telliskivi)}\n",
+ "S005": "",
+ "S006": "",
+ "S007": "",
+ "S008": "",
  "S009": ".kuu.on{border-left-color:var(--telliskivi);font-weight:700}\n",
  "S010": {
   "f": "snippets/www/S010.html"

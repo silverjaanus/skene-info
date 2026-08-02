@@ -12,35 +12,48 @@
 :root{
   --paber:#F2EFF5; --tint:#17151A; --hall:#5A5462; --joon:#8E8798;
   --telliskivi:#6E45A8; --ploom:#4E4275; --sinep:#A8811F; --paatina:#2C5B54; --lilla:#6E45A8;
+  --bri:#A87FE8; /* tunnusvärvi hele toon tumeda päise jaoks */
   --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
   --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+  --hdrmuted:#A6A192; /* tume päis: summutatud tekst */
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.45}
 a{color:inherit}
-header{padding:26px 24px 0;max-width:1280px;margin:0 auto}
-.masthead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;border-bottom:3px solid var(--tint);padding-bottom:14px}
+/* tume plakatipea (E+F ümberdisain 08.2026): kogu päis tint-taustal, žanrisõnad pealkirjana */
+header{background:var(--tint);color:var(--paber);padding:26px 0 0}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;border-bottom:3px solid var(--paber);padding:0 24px 14px;max-width:1280px;margin:0 auto}
 .brand-wrap{display:flex;flex-direction:column;min-width:0}
-.subnav{display:flex;gap:14px;font-family:var(--mono);font-size:12.5px;margin-top:7px}
-.subnav a{color:var(--hall);text-decoration:none;font-weight:700}
-.subnav a:hover{color:var(--lilla)}
 .brand{display:flex;align-items:baseline;gap:14px;min-width:0}
+.brand-txt{display:flex;flex-direction:column;min-width:0}
+.gwords{display:flex;gap:22px;align-items:baseline;flex-wrap:wrap}
+.gword{font-family:var(--sans);font-size:clamp(28px,4.4vw,46px);font-weight:700;text-transform:uppercase;letter-spacing:2px;line-height:.92;color:var(--wc)}
+.gword a{color:inherit;text-decoration:none}
+.gword.w-metal{--wc:#D96A52}
+.gword.w-rap{--wc:#6E9BE0}
+.gword.w-klubi{--wc:#A87FE8}
+@supports(-webkit-text-stroke:1px #000){
+  .gword{-webkit-text-stroke:1.05px var(--wc);-webkit-text-fill-color:transparent}
+  .gword.on,.gword:hover,.gword:focus-within{-webkit-text-fill-color:var(--wc)}
+}
+.umbrella{font-family:var(--mono);font-size:12px;color:var(--hdrmuted);letter-spacing:1px;margin-top:6px}
+.umbrella b{color:var(--paber)}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 h1{font-size:clamp(38px,6vw,60px);line-height:.92;letter-spacing:-2px;text-transform:uppercase;font-weight:700}
 h1 a{text-decoration:none}
-h1 .info{color:var(--telliskivi)}
-.arch-badge{font-family:var(--mono);font-size:13px;letter-spacing:2px;color:var(--paber);background:var(--tint);padding:3px 9px;text-transform:uppercase}
-.tagline{font-family:var(--mono);font-size:13px;color:var(--hall);max-width:340px;text-align:right}
+.arch-badge{font-family:var(--mono);font-size:13px;letter-spacing:2px;color:var(--tint);background:var(--paber);padding:3px 9px;text-transform:uppercase}
+.tagline{font-family:var(--mono);font-size:13px;color:var(--hdrmuted);max-width:340px;text-align:right}
 .mast-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;max-width:340px}
-.author{font-family:var(--mono);font-size:11px;color:var(--hall);text-align:right}
-.author a{color:var(--telliskivi);text-decoration:none;border-bottom:1px solid transparent}
-.author a:hover{border-bottom-color:var(--telliskivi)}
-.topnav{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 18px;padding:10px 0 12px;font-family:var(--mono);font-size:12.5px}
+.author{font-family:var(--mono);font-size:11px;color:var(--hdrmuted);text-align:right}
+.author a{color:var(--bri);text-decoration:none;border-bottom:1px solid transparent}
+.author a:hover{border-bottom-color:var(--bri)}
+.topnav{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 18px;padding:10px 24px 12px;font-family:var(--mono);font-size:12.5px;max-width:1280px;margin:0 auto}
 .topnav .nav-links{display:flex;flex-wrap:wrap;gap:8px 16px}
-.topnav .nav-links a{text-decoration:none;color:var(--tint)}
-.topnav .nav-links a:hover{color:var(--telliskivi)}
+.topnav .nav-links a{text-decoration:none;color:var(--paber)}
+.topnav .nav-links a:hover{color:var(--bri)}
 .langsw{display:flex;border:1.5px solid var(--joon);flex:none}
-.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hall);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
-.langsw button.on{background:var(--tint);color:var(--paber)}
+.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hdrmuted);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.langsw button.on{background:var(--paber);color:var(--tint)}
 #toTop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border:2px solid var(--tint);background:var(--paber);color:var(--tint);font-size:21px;line-height:1;cursor:pointer;display:none;align-items:center;justify-content:center;z-index:50;box-shadow:2px 2px 0 var(--tint)}
 #toTop:hover{background:var(--tint);color:var(--paber)}
 #toTop.show{display:flex}
@@ -111,6 +124,7 @@ aside{position:sticky;top:16px;padding-top:16px}
   .tagline{text-align:left}
   .mast-right{align-items:flex-start}
   .author{text-align:left}
+  .gwords{gap:14px}
 }
 /* grid-blowout fix: pikk murdmatu sõna (nt üritusenimi) ei tohi veergu laiemaks venitada */
 .wrap>*{min-width:0}
@@ -122,7 +136,7 @@ aside{position:sticky;top:16px;padding-top:16px}
 <body>
 <header>
   <div class="masthead">
-    <div class="brand-wrap"><div class="brand"><h1><a href="index.html"><span class="info">Klubi</span>.skene</a></h1><span class="arch-badge" data-i18n="arch_badge">Arhiiv</span></div><p class="subnav"><a href="https://www.skene.info/">METAL.SKENE</a> <a href="https://rap.skene.info/">RAP.SKENE</a></p></div>
+    <div class="brand-wrap"><div class="brand"><div class="brand-txt"><div class="gwords"><a class="gword w-metal" href="https://www.skene.info/">Metal</a><a class="gword w-rap" href="https://rap.skene.info/">Rap</a><h1 class="gword w-klubi on"><a href="index.html">Klubi<span class="sr">.skene.info</span></a></h1><span class="arch-badge" data-i18n="arch_badge">Arhiiv</span></div><p class="umbrella"><b>SKENE.INFO</b> ▪ <span data-i18n="umbrella_alt">eesti alternatiiv</span> ▪ <span data-i18n="umbrella_net">üks võrgustik</span></p></div></div></div>
     <div class="mast-right">
       <p class="tagline" data-i18n-html="tagline">Möödunud klubi-üritused ja reliisid.<br>Tagasivaade skeenele.</p>
       <p class="author"><a href="index.html" data-i18n="author_back">← tagasi live-kalendrisse</a></p>
@@ -174,6 +188,7 @@ const I18N={
   title:"KLUBI.SKENE.INFO — Arhiiv", arch_badge:"Arhiiv",
   tagline:"Möödunud klubi-üritused ja reliisid.<br>Tagasivaade skeenele.",
   author_back:"← tagasi live-kalendrisse", nav_updates:"UUENDUSED", nav_sources:"ALLIKAD",
+  umbrella_alt:"eesti alternatiiv", umbrella_net:"üks võrgustik",
   a_year:"Aasta", a_month:"Kuu", a_other:"Muu", live_cal:"← Live-kalender",
   f_type_l:"Tüüp", f_tag_l:"Žanr", f_city_l:"Koht", foot_live:"← KLUBI LIVE-KALENDER", nav_archive:"ARHIIV",
   ethos_arch:"Arhiiv koondab kõik, mis on saidil olnud — miski ei kao. Iga kirje viitab endiselt algallikale.",
@@ -193,6 +208,7 @@ const I18N={
   title:"KLUBI.SKENE.INFO — Archive", arch_badge:"Archive",
   tagline:"Past club events and releases.<br>A look back at the scene.",
   author_back:"← back to live calendar", nav_updates:"UPDATES", nav_sources:"SOURCES",
+  umbrella_alt:"estonian alternative", umbrella_net:"one network",
   a_year:"Year", a_month:"Month", a_other:"Other", live_cal:"← Live calendar",
   f_type_l:"Type", f_tag_l:"Genre", f_city_l:"Place", foot_live:"← CLUB LIVE CALENDAR", nav_archive:"ARCHIVE",
   ethos_arch:"The archive keeps everything that's ever been on the site — nothing disappears. Every listing still links to its source.",
