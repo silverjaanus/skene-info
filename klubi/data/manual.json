@@ -1611,5 +1611,205 @@
   },
   "lisatud": "2026-07-31",
   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: Rada7 uudiskiri + fonoteek.ee oma ürituseleht (line-up, tasuta sissepääs, 18+, uksed 23.00). Žanrisildid on kuraatori määrang — korraldaja ei kasuta lehel ühtki žanrisõna; tuletatud DSM 2026 festivali kirjest. DSM 2026 festival ise on 14.–16.08.2026 HALLis ja olemasolev festivalikirje on juba korrektne (d 2026-08-14, d2 16.08)."
+ },
+ {
+  "d": "2026-08-06",
+  "t": "klubi",
+  "n": "klmn @ Tšungel",
+  "a": "Eesti underground-tantsumuusika hinnatud selector, üle kümne aasta plaadimängu. Kell 21.00–02.00, tasuta sissepääs (uksepoliitika)",
+  "b": [
+   "klmn"
+  ],
+  "v": "Tšungel",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "disco"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/clubs/265290",
+  "on_": "Tšungel",
+  "ou": "https://tsungel.ee/",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee"
+ },
+ {
+  "d": "2026-08-07",
+  "t": "klubi",
+  "n": "micaxsan Summer Fiesta",
+  "a": "Žanrivaba extended shift + üllatuskülalised puldis. Kell 22.00–03.00, tasuta sissepääs, 21+",
+  "b": [
+   "micaxsan"
+  ],
+  "v": "Tšungel",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/clubs/265290",
+  "on_": "Tšungel",
+  "ou": "https://tsungel.ee/",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee"
+ },
+ {
+  "d": "2026-09-11",
+  "t": "klubi",
+  "n": "Vaip Events: Counterstrike (CZ/RSA)",
+  "a": "DnB-legend Counterstrike (Algorythm Recordings; 100+ reliisi mh Ram, PRSPCT, Let It Roll) taas Tallinnas + kohalikud DJ-d. Uksed 23.00–05.00, 18+",
+  "b": [
+   "Counterstrike"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Paavli programm",
+  "su": "https://www.kultuurivabrik.ee/en/events",
+  "pu": "https://fienta.com/et/counterstrike",
+  "hind": {
+   "praegu": "eelmüük Fientas, uksel 25€",
+   "allikas": "Fienta, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events (FB eventi ei leidnud, ou tühi)"
+ },
+ {
+  "d": "2026-09-25",
+  "t": "klubi",
+  "n": "Sonic Impact: Sournois (PL) + LEM (PL)",
+  "a": "Deep/hüpnootiline techno — kaks külalist Poolast + kohalik toetus Tut Toze (live) ja Pikkauch. Kell 23.00",
+  "b": [
+   "Sournois",
+   "LEM",
+   "Tut Toze",
+   "Pikkauch"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "techno"
+  ],
+  "sn": "HALL FB",
+  "su": "https://www.facebook.com/halltallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1066880019331712/",
+  "pu": "https://gateme.com/halltallinn/104060-sonic-impact",
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud HALL FB event + GateMe piletileht"
+ },
+ {
+  "d": "2027-03-12",
+  "d2": "14.03",
+  "t": "festival",
+  "n": "Dreamscape Festival 2027",
+  "a": "Kolmepäevane elektroonilise muusika festival Paavli Kultuurivabrikus (korraldaja Dreamscape MTÜ); koosseis avaldamata",
+  "b": [],
+  "tba": 1,
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "elektroonika"
+  ],
+  "sn": "Paavli programm",
+  "su": "https://www.kultuurivabrik.ee/en/events",
+  "pu": "https://fienta.com/et/dreamscape-festival-2027",
+  "hind": {
+   "praegu": "30€ (Blind Bird 3 päeva pass)",
+   "allikas": "Fienta, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; žanr täpsustamata (elektroonika) — jälgi 2b-s, kui lineup avaldatakse"
+ },
+ {
+  "d": "2027-07-01",
+  "d2": "04.07",
+  "t": "festival",
+  "n": "SATNAM cultural rave 2027",
+  "a": "Alkoholivaba 'kultuurireiv' Mustjõel: 5 lava (live/chillout/house/active/dnb), 100+ esinejat, tasuta töötoad; koosseis TBA",
+  "b": [],
+  "tba": 1,
+  "v": "Mustjõe Kõrtsitalu",
+  "c": "mujal",
+  "g": [
+   "house",
+   "dnb",
+   "ambient"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et/satnam-2027",
+  "pu": "https://fienta.com/et/satnam-2027",
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; leitud Fienta dnb-otsinguga, korraldaja SatNam pro (FB/IG @satnamest); PIIRIPEALNE: heaolu-/teadlikkusfestivali kallak, aga baasžanr elektrooniline tantsumuusika — kui Silver peab skoobiväliseks, eemalda"
+ },
+ {
+  "d": "2027-07-15",
+  "d2": "18.07",
+  "t": "festival",
+  "n": "I Land Sound 2027",
+  "a": "Iga-aastane elektroonilise muusika ja kunsti festival Illiku laiul; koosseis avaldamata",
+  "b": [],
+  "tba": 1,
+  "v": "Illiku laid, Orissaare",
+  "c": "mujal",
+  "g": [
+   "elektroonika"
+  ],
+  "sn": "I Land Sound",
+  "su": "https://ilandsound.ee/en/",
+  "on_": "Ametlik leht",
+  "ou": "https://ilandsound.ee/en/",
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist)"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-31",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "SKURM — «VIBE (EP)»",
+  "a": "IDM / electro / ambient-tehno EP",
+  "b": [
+   "SKURM"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "idm",
+   "electro",
+   "techno"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://skurm1.bandcamp.com/album/vibe-ep",
+  "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+techno, s=new esimene)"
+ },
+ {
+  "rel": 1,
+  "d": "2026-08-01",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "DEFFER — «ARCHIVE // 01»",
+  "a": "SYNGE SOUNDSYSTEMi väljalase: dark dub / dubstep / EBM",
+  "b": [
+   "DEFFER"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "dub",
+   "dubstep",
+   "ebm"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
+  "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)"
  }
 ]

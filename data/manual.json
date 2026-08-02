@@ -938,7 +938,8 @@
   "n": "Melrose Avenue + Arankai",
   "b": [
    "Melrose Avenue",
-   "Arankai"
+   "Arankai",
+   "Call Me Amour"
   ],
   "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
@@ -948,7 +949,7 @@
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108594783-arankai-at-paavli-kultuurivabrik",
   "img": "pildid/arankai.webp",
-  "nb": "28.07.2026: kaasesineja Melrose Avenue lisatud (Bandsintown + Piletilevi)"
+  "nb": "28.07.2026: kaasesineja Melrose Avenue lisatud (Bandsintown + Piletilevi) | 02.08.2026: Paavli programmileht lisab koosseisu Call Me Amour — lisatud b-sse"
  },
  {
   "d": "2027-02-28",
@@ -3334,5 +3335,295 @@
   },
   "lisatud": "2026-07-31",
   "nb": "lisatud 31.07.2026; Silveri jazz-erand (vt 31.07 Tartu kirjet). Kinnitatud 2 allikaga: D3 oma ürituseleht + Fienta. Sama tuur/produktsioon kui 31.07 Tartus, sama korraldaja (Tammekindlus OÜ). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik."
+ },
+ {
+  "d": "2026-08-09",
+  "t": "kontsert",
+  "n": "Blisterous (FIN) + Gangrenated + Hirmuvalitseja",
+  "a": "Õhtu täis mädanenud death metalit — Blisterous'i ja Gangrenatedi balti mini-tuuri viimane peatus (07.08 sama tuur Hellis Tartus); kohalik toetus Hirmuvalitseja. Algus 18.00, ajakava TBA",
+  "b": [
+   "Blisterous",
+   "Gangrenated",
+   "Hirmuvalitseja"
+  ],
+  "v": "Kotka Kultuurimaja",
+  "c": "Tallinn",
+  "g": [
+   "death",
+   "metal"
+  ],
+  "sn": "Secret Face Productions FB",
+  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2287490378730502/",
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; piletiinfot pole avaldatud; sama mini-tuuri Tartu peatus (07.08, Hell) oli juba andmetes"
+ },
+ {
+  "d": "2026-08-27",
+  "t": "kontsert",
+  "n": "Remembering Ozzy — tribute to Black Sabbath, Ozzy Osbourne & The Pretty Reckless",
+  "a": "Live-tribuut: Black Sabbathi / Ozzy soolokarjääri hitid (Aleksander Silvese koosseis) + The Pretty Reckless (ansambel Amplituud). Kell 19.00, tasuta sissepääs",
+  "b": [
+   "Aleksander Silvese koosseis",
+   "Amplituud"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "metal"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2248809569274082/",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "FB event, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; korraldaja Uus Laine + Aleksander Silves (event kahe hostiga)"
+ },
+ {
+  "d": "2026-09-04",
+  "t": "kontsert",
+  "n": "HAINZ (Kosmikud) akustilise kavaga",
+  "a": "Kosmikute laulja Meelis 'Hainz' Hainsoo akustiline kava. Kell 20.00, tasuta sissepääs",
+  "b": [
+   "HAINZ"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "rock"
+  ],
+  "sn": "The Krypt FB",
+  "su": "https://www.facebook.com/thekrypt.tallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1356360360018147/",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "FB event, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud The Krypt FB + Sügis Productions FB events-tabid"
+ },
+ {
+  "d": "2026-09-05",
+  "t": "festival",
+  "n": "Õllepidu 2026",
+  "a": "Pühaste pruulikoja 10. sünnipäeva õllefestival: 35 pruulikoda Eestist ja välismaalt + bändid. Väravad 14.00; sissepääs kontserdile tasuta, õllede degusteerimiseks eraldi piletid",
+  "b": [
+   "Karmid Torud",
+   "DND",
+   "Elephants From Neptune",
+   "The Crosslegs"
+  ],
+  "v": "Pühaste Pruulikoda (Tähe 133c)",
+  "c": "Tartu",
+  "g": [
+   "rock",
+   "punk"
+  ],
+  "sn": "Tourmotor",
+  "su": "https://tourmotor.net",
+  "on_": "Ametlik leht",
+  "ou": "https://puhastebeer.com/ollepidu",
+  "hind": {
+   "praegu": "kontsert tasuta",
+   "mark": "õllepilet eelmüügis 18€ / kohapeal 24€ (sis. peoklaas + 6 žetooni); VIP 75€/88€",
+   "allikas": "puhastebeer.com, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566"
+ },
+ {
+  "d": "2026-10-03",
+  "t": "kontsert",
+  "n": "Batushka (PL)",
+  "a": "Damn.Loud esitleb: müstiline Poola black metal (Krzysztof Drabikowski Batushka), õigeusu liturgiline esteetika ja rituaalne lavakogemus. Kell 19.00",
+  "b": [
+   "Batushka"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "metal"
+  ],
+  "sn": "Damn.Loud Agency FB",
+  "su": "https://www.facebook.com/we.are.too.damn.loud/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1583944353235720/",
+  "pu": "https://fienta.com/et/batushka-paavli",
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht"
+ },
+ {
+  "d": "2026-10-22",
+  "t": "kontsert",
+  "n": "Clowny Business: Agarwaen (FIN) + SOLD + Strych:9",
+  "a": "Agarwaeni albumi «The Murder Trend» esitlustuur: Soome avangardne ekstreemmetal + Tallinna meloodiline metal (SOLD) + Tartu nu/industrial metal (Strych:9). Kell 20.00; koostöös Bloodstained Metal Communityga",
+  "b": [
+   "Agarwaen",
+   "SOLD",
+   "Strych:9"
+  ],
+  "v": "Rockclub Tapper",
+  "c": "Tallinn",
+  "g": [
+   "metal"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et/clowny-business-tallinn",
+  "pu": "https://fienta.com/et/clowny-business-tallinn",
+  "hind": {
+   "praegu": "10€ eelmüük / 12€ uksel",
+   "allikas": "Fienta, kontrollitud 02.08.2026"
+  },
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud Fienta + Bandsintown; FB eventi ei leidnud (ou tühi)"
+ },
+ {
+  "d": "2027-07-29",
+  "d2": "31.07",
+  "t": "festival",
+  "n": "Wacken Open Air 2027",
+  "a": "maailma suurim metalfestival; esimene bändilaine (~50 nime) avaldatud",
+  "b": [
+   "Five Finger Death Punch",
+   "Children Of Bodom",
+   "Helloween",
+   "Halestorm",
+   "Avatar",
+   "Electric Callboy",
+   "Dethklok",
+   "Cavalera Conspiracy",
+   "Heaven Shall Burn",
+   "Knocked Loose"
+  ],
+  "v": "Wacken (põld)",
+  "c": "Euroopa",
+  "g": [
+   "metal"
+  ],
+  "sn": "Wacken.com",
+  "su": "https://www.wacken.com/en/",
+  "on_": "Ametlik leht",
+  "ou": "https://www.wacken.com/en/",
+  "lisatud": "2026-08-02",
+  "nb": "lisatud sweepis 02.08.2026; kuupäevad 29.–31.07.2027 (wacken.com + meediakajastus, nt impericon.com); b = teadlik headliner-valik esimesest lainest (välisfestivali reegel); piletimüük pole veel alanud"
+ },
+ {
+  "rel": 1,
+  "d": "2026-05-16",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "Konfliktor — «Diivanil elatud elu»",
+  "a": "Tallinna punk / indie rock, 14 min",
+  "b": [
+   "Konfliktor"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://konfliktor.bandcamp.com/album/diivanil-elatud-elu",
+  "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover); release-kuupäev ainult albumilehelt (Tharaphita-reegel: kui ilmneb hilisem tegelik kuupäev, paranda)"
+ },
+ {
+  "rel": 1,
+  "d": "2026-05-30",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "Postiljon — «Hoovikontsert»",
+  "a": "Tallinna punk rock",
+  "b": [
+   "Postiljon"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "punk"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://postiljon.bandcamp.com/album/hoovikontsert",
+  "nb": "lisatud sweepis 02.08.2026; oli 26.07 sweepis ootel (kuupäev kinnitamata) — albumileht ütleb released May 30, 2026"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-29",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "kaisuloom — «kaisuloom»",
+  "a": "black metal / blackgaze / DSBM, 2 lugu (15 min)",
+  "b": [
+   "kaisuloom"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "black",
+   "metal"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://kaisuloom.bandcamp.com/album/kaisuloom",
+  "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+metal, s=new esimene)"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-31",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "Enditian — «Kütidkorilased EP»",
+  "a": "Tartu crust punk / powerviolence",
+  "b": [
+   "Enditian"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "punk",
+   "hardcore"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://endyendytyantyan.bandcamp.com/album/k-tidkorilased-ep",
+  "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)"
+ },
+ {
+  "rel": 1,
+  "d": "2026-07-31",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "Avemaria — «Kuidas vabaneda üleliigsetest hammastest»",
+  "a": "Tallinna punk / art-rock / post-punk",
+  "b": [
+   "Avemaria"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "punk"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://avemariasituatsioon.bandcamp.com/album/kuidas-vabaneda-leliigsetest-hammastest",
+  "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)"
+ },
+ {
+  "rel": 1,
+  "d": "2026-08-01",
+  "lisatud": "2026-08-02",
+  "t": "reliis",
+  "n": "Seanus — «Seanus»",
+  "a": "Tallinna noise rock / sludge / stoner",
+  "b": [
+   "Seanus"
+  ],
+  "v": "Bandcamp",
+  "g": [
+   "rock"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://seanus.bandcamp.com/album/seanus",
+  "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+rock, s=new esimene)"
  }
 ]

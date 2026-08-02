@@ -282,6 +282,12 @@
    "url": "https://fienta.com/et/o/29285",
    "tyyp": "festival",
    "nb": "lisatud 26.07.2026 (kontaktivorm): alternatiivrokk-festival, iga aasta uus toimumispaik (2026 Von Krahl, 11-12.09); korraldaja Valter Nõmm (valter.nomm@gmail.com), Fienta org 29285 - jälgi org-lehte, sest venue vahetub; FB event nt fb.me/e/5GPBPtWLw"
+  },
+  {
+   "nimi": "Pühaste Pruulikoda / Õllepidu",
+   "url": "https://puhastebeer.com/ollepidu",
+   "tyyp": "festival",
+   "nb": "lisatud 02.08.2026 (Õllepidu 2026 kinnitus): iga-aastane õllefestival bändidega Tartus; FB event 2026: facebook.com/events/2230476007729566; pruulikoja enda FB-handle tuvastamata"
   }
  ],
  "ig": [
@@ -509,7 +515,7 @@
     "nimi": "Devilstone",
     "riik": "Leedu",
     "url": "https://devilstone.net/home-en/",
-    "nb": "28.07.2026: sait uuendamata alates 2023, festivali staatus ebaselge - kaalu eemaldamist"
+    "nb": "28.07.2026: sait uuendamata alates 2023, festivali staatus ebaselge - kaalu eemaldamist | 02.08.2026: endiselt 2023 seis - soovitan eemaldada"
    },
    {
     "nimi": "Melnā Piektdiena",
@@ -529,8 +535,8 @@
    {
     "nimi": "Steelfest Open Air",
     "riik": "Soome",
-    "url": "https://steelfest.fi/pages/steelfest-2026",
-    "nb": "ekstreem-metal (black/death), Hyvinkää, 2026 14.-16.05"
+    "url": "https://steelfest.fi/",
+    "nb": "ekstreem-metal (black/death), Hyvinkää, 2026 14.-16.05 | URL parandatud 02.08.2026: /pages/steelfest-2026 andis 404, pealeht on pood-keskne, 2027 infot pole"
    },
    {
     "nimi": "Copenhell",
@@ -855,6 +861,12 @@
     "url": "https://allevents.in/tallinn/raves",
     "tyyp": "kogukond",
     "nb": "agregaator - vajab ALATI teist kinnitust"
+   },
+   {
+    "nimi": "SATNAM cultural rave",
+    "url": "https://www.facebook.com/satnamest/events",
+    "tyyp": "festival",
+    "nb": "lisatud 02.08.2026 (Fienta dnb-otsingu leid, SATNAM 2027); piletid fienta.com/et/satnam-2027; piiripealne heaolu-reiv - vt manual-kirje nb"
    }
   ]
  }
