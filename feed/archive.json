@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-02",
+ "updated": "2026-08-03",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,7 +34,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 64,
+ "count": 66,
  "entries": [
   {
    "sait": "www",
@@ -472,24 +472,6 @@
     "praegu": "10€",
     "allikas": "tolm.club, kontrollitud 13.07.2026"
    }
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-17",
-   "t": "reliis",
-   "n": "Enditian — «Valdavalt tööstuslikud demod 2024-25»",
-   "a": "Tartu industrial-punk demokogumik",
-   "b": [
-    "Enditian"
-   ],
-   "v": "Bandcamp",
-   "g": [
-    "punk",
-    "industrial"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://endyendytyantyan.bandcamp.com/album/valdavalt-t-stuslikud-demod-2024-25",
-   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 17.07.2026)"
   },
   {
    "sait": "www",
@@ -1327,6 +1309,62 @@
    "img": "pildid/undergroundlainemotelliskronklefinirwinartprojekthotkommunist.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-07-31",
+   "d2": "02.08",
+   "t": "festival",
+   "n": "Augustibluus 2026",
+   "a": "36 esinejat; Eric Sardinas (US), Toby Lee (UK), Will Wilde (UK), Gunhild Carling (SE) jt",
+   "b": [
+    "Eric Sardinas",
+    "Toby Lee",
+    "Gunhild Carling & The Carling Family",
+    "Sean \"Mack\" McDonald",
+    "Estonian Voices Meet The Blues Brothers",
+    "Mike Wheeler/Highway",
+    "Skyler Saufley Band",
+    "Will Wilde",
+    "Andres Roots 50",
+    "BLUULE: Mihkel Raud, Brad Jurjens, Georg Merilo",
+    "Trainman Blues",
+    "Julian Burdock",
+    "Mr Black & Blues",
+    "LBB Organ Trio",
+    "Enrico Cipollini",
+    "Tomi Leino Trio",
+    "Micke & Lefty feat. Chef",
+    "Anton Hultquist Trio",
+    "Panic Groove Sound Machine",
+    "T-40 feat. Carlos Ukareda",
+    "The Rude Grooves",
+    "HarvestON",
+    "Kaibald",
+    "Error of Principle",
+    "Mitridacium Band",
+    "Kelli Uustani, Ain Agan, Paul Daniel",
+    "The Tomahawck Brothers",
+    "Toomas Lunge & Crosswood",
+    "Howlin' Wolf Tribute",
+    "Porkuni Bluusbänd",
+    "Vello Jurtom & AllJam",
+    "Rene Paul",
+    "DJ Robert Linna",
+    "DJ Tom Lilienthal",
+    "Absolute \"Too Many Roberts\"",
+    "Emil Rutiku viktoriin"
+   ],
+   "v": "Haapsalu",
+   "c": "mujal",
+   "g": [
+    "bluus"
+   ],
+   "sn": "augustibluus.ee",
+   "su": "https://augustibluus.ee/esinejad/",
+   "pu": "https://www.piletilevi.ee/piletid/S7TPOTRXYI/augustibluus-2026",
+   "img_src": "https://www.piletilevi.ee/piletid/S7TPOTRXYI/augustibluus-2026-festivalipass",
+   "img": "pildid/augustibluus2026.webp"
+  },
+  {
    "sait": "klubi",
    "d": "2026-07-31",
    "t": "klubi",
@@ -1434,6 +1472,58 @@
    },
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus 31.07.2026: samanädalased tasuta/odavad peod lisatakse, kuigi aeguvad 1–2 päevaga. Kinnitatud 2 allikaga: tolm.club + kluub.ee. Žanrisilt 'techno' on kuraatori määrang — ei tolm.club ega kluub.ee ei anna sellele üritusele žanrisilte. kluub.ee näitab lõpuajaks '01.08 20:00', mis on ilmne trükiviga (tõenäoliselt 08:00) — lõpuaega ei kinnitatud, d2 jäetud lisamata."
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-31",
+   "d2": "02.08",
+   "t": "festival",
+   "n": "Tallinn Rock Festival",
+   "b": [
+    "Scorpions",
+    "Godsmack",
+    "Sepultura",
+    "Hatebreed",
+    "White Lies",
+    "P.O.D.",
+    "Above My Head",
+    "Black Sun",
+    "Bloodfeather",
+    "Dreams They Have Stolen",
+    "Echolove",
+    "Evestus",
+    "Goresoerd",
+    "Herald",
+    "Intrepid",
+    "Kannabinõid",
+    "Khroma",
+    "Nevesis",
+    "Pedigree",
+    "Pridian",
+    "Rivetskull",
+    "Robotorr",
+    "Royal Hunt",
+    "Sever",
+    "Star Crystal",
+    "Unsainted"
+   ],
+   "v": "Unibet Arena kvartal",
+   "c": "Tallinn",
+   "g": [
+    "heavy",
+    "death",
+    "metal",
+    "core",
+    "stoner"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=228776",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1197838468342376/",
+   "pu": "https://www.piletitasku.ee/et/custompage/4371",
+   "nb": "täiskoosseis 26 bändi tallinnrockfestival.ee-lt (kontrollitud 19.07.2026); hinnaklassid Piletitaskus (GA/Priority/VIP/Ultra VIP, R istekohad Scorpionsile) - hind käsitsi kontrollimata",
+   "a": "3 päeva, 26 bändi 10 riigist; R 31.07 Scorpions, L 01.08 Godsmack + P.O.D., P 02.08 Sepultura (viimane kontsert Baltikumis) + Hatebreed",
+   "img": "pildid/tallinnrockfestival.webp"
   },
   {
    "sait": "www",
@@ -1684,6 +1774,36 @@
     "allikas": "FB event, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (Kaks Tuba venue-loend + ürituse enda FB-leht)"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-02",
+   "t": "muu",
+   "n": "Maria Faust soolokontsert «Ööliblikas» + Gregor Kulla",
+   "a": "Sama soolokava Tallinnas: «Ööliblikas» räägib muutustest, lõppudest ja traagikast võimalikult õrnal moel, keskmes armastuslaul. Ööklubis D3 avab õhtu Gregor Kulla barokkoboe ja performansiga. Uksed 19.00, kontsert 20.00",
+   "b": [
+    "Maria Faust",
+    "Gregor Kulla"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "jazz",
+    "eksperimentaal"
+   ],
+   "sn": "d-3.ee",
+   "su": "https://www.d-3.ee/events/maria-faust-soolokontsert-ooliblikas/",
+   "on_": "d-3.ee",
+   "ou": "https://www.d-3.ee/events/maria-faust-soolokontsert-ooliblikas/",
+   "pu": "https://fienta.com/et/maria-faust-soolokontsert-ooliblikas-avab-gregor-kulla-185384",
+   "hind": {
+    "praegu": "40€ / 45€",
+    "mark": "varajase ärkaja 29€ ja tavapilet 35€ välja müüdud; uksehinda pole avaldatud",
+    "allikas": "fienta.com, kontrollitud 31.07.2026"
+   },
+   "lisatud": "2026-07-31",
+   "nb": "lisatud 31.07.2026; Silveri jazz-erand (vt 31.07 Tartu kirjet). Kinnitatud 2 allikaga: D3 oma ürituseleht + Fienta. Sama tuur/produktsioon kui 31.07 Tartus, sama korraldaja (Tammekindlus OÜ). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik.",
+   "img": "pildid/mariafaustsoolokontsertooliblikasgregorkulla.webp"
   }
  ]
 }
