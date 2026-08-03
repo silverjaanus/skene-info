@@ -39,13 +39,13 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info pildikorje; +https://www.skene.info)"}
-UA_BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                            "AppleWebKit/537.36 (KHTML, like Gecko) "
-                            "Chrome/139.0.0.0 Safari/537.36",
-              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-              "Accept-Language": "et-EE,et;q=0.9,en-US;q=0.8,en;q=0.7"}
-KATSEID = 5                 # kokku katseid 403/429 korral (vt get())
-PAUSID = (3, 5, 8, 12)      # sekundit katsete vahel
+# Viisakusreeglid - vt pikem selgitus fetch.py-st (03.08.2026):
+# aus bot-UA ALATI (brauseriks maskeerimine on nii kasutu kui ka ebakorrektne),
+# hosti crawl-delay peetakse kinni, 403/429 korral tapselt uks kordus.
+HOST_VAHE = {"metalstorm.net": 6.5}   # sek; robots.txt Crawl-delay: 6 (+ varu)
+KATSEID = 2                 # 403/429 korral tapselt uks kordus (vt get())
+PAUS_403 = 30               # sek enne ainsat kordust
+_viimane_paring = {}
 SAIDID = {
     "www":   ROOT / "data",
     "rap":   ROOT / "rap" / "data",
@@ -80,18 +80,32 @@ def keelatud(url):
     return any(k in host for k in KEELATUD_HOST)
 
 
-def get(url, timeout=20):
-    """403/429 korral proovi mitu korda, UA-sid vaheldumisi.
+def _oota(url):
+    """Peab kinni hosti crawl-delay'st (kui see on HOST_VAHE-s maaratud)."""
+    host = urllib.parse.urlparse(url).netloc.lower()
+    host = host[4:] if host.startswith("www.") else host
+    vahe = HOST_VAHE.get(host)
+    if not vahe:
+        return
+    eelmine = _viimane_paring.get(host)
+    if eelmine is not None:
+        magada = vahe - (time.monotonic() - eelmine)
+        if magada > 0:
+            time.sleep(magada)
+    _viimane_paring[host] = time.monotonic()
 
-    Metal Storm annab 403 JUHUSLIKULT (mooedetud 02.08.2026: sama URL, 6 paringut
-    kummagi paisekomplektiga -> bot-UA labi 2/6, brauseri oma 1/6, labikukkumised
-    laibisegamini). UA vahetamine uksi ei aita; ainus toimiv on kordamine pausiga.
+
+def get(url, timeout=20):
+    """403/429 korral tapselt uks kordus, pika pausiga; UA jaab aus.
+
+    Mooedetud 03.08.2026, et UA vahetamine tulemust ei muuda ja et Metal Storm
+    piirab meid IP-tasemel - blokitud endpointi tagumine ainult suvendab olukorda.
     """
     viimane = None
     for katse in range(KATSEID):
-        paised = UA if katse % 2 == 0 else UA_BROWSER
+        _oota(url)
         try:
-            req = urllib.request.Request(url, headers=paised)
+            req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except urllib.error.HTTPError as ex:
@@ -99,7 +113,7 @@ def get(url, timeout=20):
                 raise
             viimane = ex
             if katse < KATSEID - 1:
-                time.sleep(PAUSID[min(katse, len(PAUSID) - 1)])
+                time.sleep(PAUS_403)
     raise viimane
 
 

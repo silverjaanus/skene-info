@@ -27,29 +27,44 @@ KEYW = re.compile(
 # venue'de (paavli/helitehas) automaatfiltris (nt "score" sisaldab "core").
 # Manuaalses kureerimises (manual.json 'g' väli) on rock/core siiski lubatud sildid.
 
-# Metal Storm annab 403 JUHUSLIKULT, mitte User-Agenti jargi (mooedetud 02.08.2026:
-# sama URL, 6 paringut kummagi paisekomplektiga 4 s vahedega -> bot-UA sai labi 2/6,
-# taielik brauseri-paisekomplekt 1/6, labikukkumised laibisegamini). See tahendab, et
-# UA VAHETAMINE EI OLE LAHENDUS - see on lihtsalt teine tainguvise. Ainus, mis toimib,
-# on KORDAMINE pausiga: 403 korral proovi mitu korda, UA-sid vaheldumisi.
-UA_BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                            "AppleWebKit/537.36 (KHTML, like Gecko) "
-                            "Chrome/139.0.0.0 Safari/537.36",
-              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-              "Accept-Language": "et-EE,et;q=0.9,en-US;q=0.8,en;q=0.7"}
-# Metal Stormi NIMEKIRJA leht (events.php?...) on tunduvalt karmimalt blokitud kui uksikute
-# urituste lehed - 5 katsest ei piisanud (kontrollitud 02.08.2026). Korje kaib korra oos,
-# seega ~1,5 min ootamist halvimal juhul on odavam kui kaotatud allikas.
-KATSEID = 8                       # kokku katseid 403/429 korral
-PAUSID = (3, 5, 8, 12, 15, 20, 25)  # sekundit katsete vahel
+# VIISAKUSREEGLID (03.08.2026). Metal Stormi 403-de lugu ja mida sellest oppisime:
+#  * UA vahetamine EI muuda midagi - mooedetud: sama URL, 6 paringut kummagi
+#    paisekomplektiga -> aus bot-UA labi 2/6, brauseri paisekomplekt 1/6. Brauseriks
+#    maskeerimine oleks seega nii kasutu kui ka ebakorrektne -> saadame ALATI ausa
+#    bot-UA, milles on kontakt-URL.
+#  * metalstorm.net robots.txt utleb "Crawl-delay: 6", meie retry alustas 3 s pausiga
+#    ja tegi 8 katset jarjest -> ME ISE rikkusime nende seatud tempot.
+#  * 03.08 seisuga on kogu metalstorm.net meie IP-lt 403 (ka avaleht ja robots.txt-i
+#    korval koik muu), samal ajal kui teisest IP-st avaneb normaalselt -> tegu on
+#    IP-piiranguga. Blokitud endpointi tagumine EI aita ja ainult suvendab olukorda.
+# Seega: uks kordus, pikk paus, ja hosti kohta peetud minimaalne paringuvahe.
+HOST_VAHE = {"metalstorm.net": 6.5}   # sek; robots.txt Crawl-delay: 6 (+ varu)
+KATSEID = 2                           # 403/429 korral tapselt uks kordus
+PAUS_403 = 30                         # sek enne ainsat kordust
+_viimane_paring = {}
+
+
+def _oota(url):
+    """Peab kinni hosti crawl-delay'st (kui see on HOST_VAHE-s maaratud)."""
+    host = urllib.parse.urlparse(url).netloc.lower()
+    host = host[4:] if host.startswith("www.") else host
+    vahe = HOST_VAHE.get(host)
+    if not vahe:
+        return
+    eelmine = _viimane_paring.get(host)
+    if eelmine is not None:
+        magada = vahe - (time.monotonic() - eelmine)
+        if magada > 0:
+            time.sleep(magada)
+    _viimane_paring[host] = time.monotonic()
 
 
 def get(url, timeout=25):
     viimane = None
     for katse in range(KATSEID):
-        paised = UA if katse % 2 == 0 else UA_BROWSER
+        _oota(url)
         try:
-            req = urllib.request.Request(url, headers=paised)
+            req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as ex:
@@ -57,7 +72,7 @@ def get(url, timeout=25):
                 raise
             viimane = ex
             if katse < KATSEID - 1:
-                time.sleep(PAUSID[min(katse, len(PAUSID) - 1)])
+                time.sleep(PAUS_403)
     raise viimane
 
 # Zanri META-vastendus — peab olema syncis index.html/arhiiv.html GENRE_META-ga!
