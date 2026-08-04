@@ -1100,6 +1100,44 @@
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026; Silveri jazz-erand (vt 31.07 Tartu kirjet). Kinnitatud 2 allikaga: D3 oma ürituseleht + Fienta. Sama tuur/produktsioon kui 31.07 Tartus, sama korraldaja (Tammekindlus OÜ). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik.",
    "img": "pildid/mariafaustsoolokontsertooliblikasgregorkulla.webp"
+  },
+  {
+   "d": "2026-08-03",
+   "t": "kontsert",
+   "n": "Kranium + Wasteland-6 + Sabancaya",
+   "a": "Kraniumi ja Sabancaya Balti tuuri Tallinna kuupäev; soojendajaks Wasteland-6",
+   "b": [
+    "Kranium",
+    "Wasteland-6",
+    "Sabancaya"
+   ],
+   "v": "BH Pubi",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "Bandsintown",
+   "su": "https://www.bandsintown.com/e/108685408-wasteland-six-at-bh-pubi-bikers-pub-mootorratturite-pubi",
+   "on_": "Kraniumi FB",
+   "ou": "https://www.facebook.com/Kranium.band.official/photos/kranium-wasteland-6-and-sabancaya-are-coming-to-bh-pub-in-tallinn-estonia-on-aug/1070222602183474/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel. Kaks allikat: Bandsintown (üritusekirje BH Pubis) + Kraniumi enda ametlik FB-postitus, mis nimetab kolme bändi (varem oli kirjes ainult Kranium + Sabancaya — Wasteland-6 puudus). Sama tuuri Riia kuupäev 05.08 DEPO-s. Žanrisilt 'metal' on üldistus — täpsemat žanrit otseallikast ei kinnitatud."
+  },
+  {
+   "d": "2026-08-03",
+   "t": "muu",
+   "n": "Giidituur «Kolmnurk»",
+   "a": "vabaõhuessee pungi, kirjanduse ja LGBT+ kogukonna ühenduslülidest; giid Airi Triisberg; kell 17; Vanalinna Päevade ja Baltic Pride 2026 programmis",
+   "b": [],
+   "v": "Vabaduse väljak 10",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/et/kolmnurk-189716",
+   "pu": "https://fienta.com/et/kolmnurk-189716",
+   "nb": "kontaktivormi sisend (Airi Triisberg, saadetud 2×); kinnitatud Fienta vastu 19.07.2026 (korraldaja Ostra MTÜ); Silveri otsus 19.07: lisada uue tüübiga 'muu' — pole kontsert, reliis ega merch",
+   "img": "pildid/giidituurkolmnurk.webp"
   }
  ]
 }
