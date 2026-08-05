@@ -388,6 +388,28 @@
    "img": "pildid/plaaditurgtourdeplaat2026.webp"
   },
   {
+   "rel": 1,
+   "d": "2026-08-04",
+   "lisatud": "2026-08-05",
+   "t": "reliis",
+   "n": "Face Collector — «Letter» (video)",
+   "a": "teine muusikavideo 2026. aasta demolt",
+   "b": [
+    "Face Collector"
+   ],
+   "v": "YouTube",
+   "g": [
+    "metal",
+    "death",
+    "grind",
+    "black"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.youtube.com/watch?v=EwQVEK9k0Wo",
+   "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com, 04.08.2026); YouTube kanal @facecollectorband, esilinastus 04.08.2026 (kontrollitud 05.08.2026); «Letter» on demo 1. pala, video on märgitud ka Bandcampis (facecollector.bandcamp.com/album/demo)",
+   "img": "pildid/facecollectorlettervideo.webp"
+  },
+  {
    "d": "2026-08-05",
    "d2": "23.08",
    "dd": [
@@ -1099,6 +1121,36 @@
    "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
    "img": "pildid/metallicaacdcnightpatareicoverage.webp"
+  },
+  {
+   "d": "2026-08-28",
+   "t": "kontsert",
+   "n": "Face Collector + Hukk",
+   "a": "Face Collectori esimene live-esinemine; support Hukk; uksed 19.00, bändid 20.00",
+   "b": [
+    "Face Collector",
+    "Hukk"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death",
+    "grind",
+    "black",
+    "sludge",
+    "doom"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1034513249503694/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1034513249503694/",
+   "hind": {
+    "praegu": "7€ / 10€",
+    "mark": "uksehind; uksed 19.00, bändid 20.00",
+    "allikas": "FB eventi kirjeldus kontaktivormi vahendusel, 05.08.2026 (FB kärbib kirjelduse väljalogitud vaates)"
+   },
+   "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com, 04.08.2026); FB eventilt kinnitatud 05.08.2026: R 28.08.2026 kell 19.00, Ööbiku 1a Kristiine Tallinn, korraldaja Face Collector, 71 vastanut; mõlemad bändid Tallinnast kinnitatud Bandcampist (Face Collector blackened death/deathgrind, Hukk sludge/doom/post); piletihinda ei õnnestunud väljalogitult FB-lt otse näha"
   },
   {
    "d": "2026-08-29",
@@ -2166,7 +2218,8 @@
     "doom"
    ],
    "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108569164-chelsea-wolfe-at-helitehas"
+   "su": "https://www.bandsintown.com/e/108569164-chelsea-wolfe-at-helitehas",
+   "img": "pildid/chelseawolfeaawilliams.webp"
   },
   {
    "d": "2026-12-01",
@@ -2190,7 +2243,8 @@
    "on_": "tapper.ee",
    "ou": "https://www.tapper.ee/event/master-boot-record-ita-fulci-ita/",
    "nb": "27.07.2026: rikastatud Rockclub Tapperi enda ürituselehelt (Silveri viide) — kirjeldus, žanrid (oli ainult industrial+electro, tegelikult ka death metal), vanusepiirang 0+. KORRALDAJA on tapperi lehe järgi UCE Agency, mitte Tapper ise; UCE-l puudub ürituse URL, seetõttu on 'korraldaja' väljal venue enda ürituseleht (sama muster nagu helitehas.ee kirjetel). Piletilinki lehel EI OLE.",
-   "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno"
+   "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno",
+   "img": "pildid/masterbootrecordfulciarottenbit.webp"
   },
   {
    "d": "2026-12-04",
@@ -2241,7 +2295,8 @@
     "sludge"
    ],
    "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=235376"
+   "su": "https://metalstorm.net/events/event.php?event_id=235376",
+   "img": "pildid/theoceanpsychonautpothamus.webp"
   },
   {
    "d": "2026-12-11",
