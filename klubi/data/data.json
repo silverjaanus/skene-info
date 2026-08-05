@@ -128,7 +128,8 @@
    "su": "https://meisterjaan.bandcamp.com/album/mitteintelligentne-tantsumuusika",
    "on_": "Bandcamp",
    "ou": "https://meisterjaan.bandcamp.com/album/mitteintelligentne-tantsumuusika",
-   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; kuupäev loetud OTSE Bandcampi albumilehelt ('released July 29, 2026', datePublished 29 Jul 2026 – date-trap kontrollitud). Kinnitatud 2 allikaga: Rada7 uudiskiri + Bandcamp (4 lugu, sh 'Uritab olla Detroidi ripoff'). Baasžanr elektrooniline (techno) → klubi. Pilti pole – leht joonistab tüübimärgi."
+   "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; kuupäev loetud OTSE Bandcampi albumilehelt ('released July 29, 2026', datePublished 29 Jul 2026 – date-trap kontrollitud). Kinnitatud 2 allikaga: Rada7 uudiskiri + Bandcamp (4 lugu, sh 'Uritab olla Detroidi ripoff'). Baasžanr elektrooniline (techno) → klubi. Pilti pole – leht joonistab tüübimärgi.",
+   "img": "pildid/meisterjaanmitteintelligentnetantsumuusika.webp"
   },
   {
    "rel": 1,
@@ -148,7 +149,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://skurm1.bandcamp.com/album/vibe-ep",
-   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+techno, s=new esimene)"
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+techno, s=new esimene)",
+   "img": "pildid/skurmvibeep.webp"
   },
   {
    "rel": 1,
@@ -168,7 +170,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
-   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)"
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)",
+   "img": "pildid/defferarchive01.webp"
   },
   {
    "d": "2026-08-05",
@@ -187,7 +190,8 @@
    "su": "https://tsungel.ee/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2496375707441417/",
-   "nb": "lisatud 02.08.2026. Sweep leidis ainult tsungel.ee (RA-l seda kuupäeva pole); Silver andis teise allika — venue lehelt viitav FB-event. Žanrisilt 'house' on tuletatud venue profiilist ja artisti kollektiividest, mitte otseallikast — tsungel.ee tekst žanri ei nimeta."
+   "nb": "lisatud 02.08.2026. Sweep leidis ainult tsungel.ee (RA-l seda kuupäeva pole); Silver andis teise allika — venue lehelt viitav FB-event. Žanrisilt 'house' on tuletatud venue profiilist ja artisti kollektiividest, mitte otseallikast — tsungel.ee tekst žanri ei nimeta.",
+   "img": "pildid/petricoreit.webp"
   },
   {
    "d": "2026-08-06",
@@ -235,7 +239,8 @@
     "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee"
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
+   "img": "pildid/klmntsungel.webp"
   },
   {
    "d": "2026-08-07",
@@ -377,7 +382,8 @@
     "mark": "Raver 5€, Support 20€",
     "allikas": "GateMe, kontrollitud 28.07.2026"
    },
-   "nb": "lisatud sweepis 28.07.2026 (FB event + GateMe; asukoht oli FB-s 'secret', GateMe avaldas selle). Kaks esinejat veel TBA"
+   "nb": "lisatud sweepis 28.07.2026 (FB event + GateMe; asukoht oli FB-s 'secret', GateMe avaldas selle). Kaks esinejat veel TBA",
+   "img": "pildid/ersinvitessecretrave3.webp"
   },
   {
    "d": "2026-08-07",
@@ -401,7 +407,8 @@
     "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee"
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
+   "img": "pildid/micaxsansummerfiesta.webp"
   },
   {
    "d": "2026-08-08",
@@ -882,7 +889,8 @@
     "praegu": "26€ / 35€",
     "mark": "JärelKaja eelmüük 26€, VastuKaja uksel 35€; soodsaim Kaja-pilet 17€ on välja müüdud",
     "allikas": "GateMe (MTÜ Klubi on kultuur), kontrollitud 25.07.2026"
-   }
+   },
+   "img": "pildid/kajakumureivxhall.webp"
   },
   {
    "d": "2026-08-29",
@@ -920,7 +928,8 @@
    "su": "https://www.facebook.com/events/marati-5a-ja-ankru-10-11713-tallinn-estonia/l%C3%B5ngreiv-vol-3-knitting-rave-vol-3/1649977260437215/",
    "on_": "allevents.in",
    "ou": "https://allevents.in/tallinn/",
-   "nb": "lisatud 02.08.2026. Sweepis oli ainult allevents.in; Silver leidis FB-eventi tavalise Google-otsinguga — ÕPPETUND: kui sweep-allikatest teist allikat ei tule, tee veebiotsing enne kui kirje 'ühe allikaga' kõrvale panna. Žanrisilt 'techno' on tuletatud sündmuse nimest ('reiv'), koosseisu ega žanrit FB-eventist ei kinnitatud."
+   "nb": "lisatud 02.08.2026. Sweepis oli ainult allevents.in; Silver leidis FB-eventi tavalise Google-otsinguga — ÕPPETUND: kui sweep-allikatest teist allikat ei tule, tee veebiotsing enne kui kirje 'ühe allikaga' kõrvale panna. Žanrisilt 'techno' on tuletatud sündmuse nimest ('reiv'), koosseisu ega žanrit FB-eventist ei kinnitatud.",
+   "img": "pildid/longreivvol3.webp"
   },
   {
    "d": "2026-08-29",
@@ -1009,7 +1018,8 @@
    ],
    "sn": "Resident Advisor",
    "su": "https://ra.co/events/2398214",
-   "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen/"
+   "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen/",
+   "img": "pildid/kontrastwithmijahallxsvexcultureunseen.webp"
   },
   {
    "d": "2026-09-04",
@@ -1115,7 +1125,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/876184442221379/",
    "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav | 28.07.2026: GateMe otselink lisatud",
-   "pu": "https://gateme.com/et/halltallinn/104001-hellinn-cross-border-edition-in-furchtde-x-qslapee-x-medinabr/"
+   "pu": "https://gateme.com/et/halltallinn/104001-hellinn-cross-border-edition-in-furchtde-x-qslapee-x-medinabr/",
+   "img": "pildid/hellinncrossborderedition.webp"
   },
   {
    "d": "2026-09-11",
@@ -1138,7 +1149,8 @@
     "allikas": "Fienta, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events (FB eventi ei leidnud, ou tühi)"
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events (FB eventi ei leidnud, ou tühi)",
+   "img": "pildid/vaipeventscounterstrikeczrsa.webp"
   },
   {
    "d": "2026-09-19",
@@ -1200,7 +1212,8 @@
    "ou": "https://www.facebook.com/events/1066880019331712/",
    "pu": "https://gateme.com/halltallinn/104060-sonic-impact",
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud HALL FB event + GateMe piletileht"
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud HALL FB event + GateMe piletileht",
+   "img": "pildid/sonicimpactsournoispllempl.webp"
   },
   {
    "d": "2026-09-26",
@@ -1377,7 +1390,8 @@
     "allikas": "Fienta, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; žanr täpsustamata (elektroonika) — jälgi 2b-s, kui lineup avaldatakse"
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; žanr täpsustamata (elektroonika) — jälgi 2b-s, kui lineup avaldatakse",
+   "img": "pildid/dreamscapefestival2027.webp"
   },
   {
    "d": "2027-07-01",
@@ -1418,7 +1432,8 @@
    "on_": "Ametlik leht",
    "ou": "https://ilandsound.ee/en/",
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist)"
+   "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist)",
+   "img": "pildid/ilandsound2027.webp"
   }
  ]
 }
