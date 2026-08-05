@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-04",
+ "updated": "2026-08-05",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -34,67 +34,8 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 182,
+ "count": 179,
  "entries": [
-  {
-   "sait": "www",
-   "rel": 1,
-   "d": "2023-10-01",
-   "lisatud": "2026-07-05",
-   "t": "reliis",
-   "n": "Urduk — «Pimedus saabugu»",
-   "a": "Mahtra Records",
-   "b": [
-    "Urduk"
-   ],
-   "v": "Mahtra Records",
-   "g": [
-    "black"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/album/pimedus-saabugu",
-   "img": "pildid/urdukpimedussaabugu.webp"
-  },
-  {
-   "sait": "www",
-   "rel": 1,
-   "d": "2023-12-18",
-   "lisatud": "2026-07-05",
-   "t": "reliis",
-   "n": "Ohvrikivi — «Karidel»",
-   "a": "Mahtra Records",
-   "b": [
-    "Ohvrikivi"
-   ],
-   "v": "Mahtra Records",
-   "g": [
-    "black",
-    "pagan"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/album/karidel",
-   "img": "pildid/ohvrikivikaridel.webp"
-  },
-  {
-   "sait": "www",
-   "rel": 1,
-   "d": "2024-06-22",
-   "lisatud": "2026-07-05",
-   "t": "reliis",
-   "n": "Must Missa — «Live in Tallinn»",
-   "a": "Mahtra Recordsi uusim väljalase",
-   "b": [
-    "Must Missa"
-   ],
-   "v": "Mahtra Records",
-   "g": [
-    "black",
-    "thrash"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/album/live-in-tallinn",
-   "img": "pildid/mustmissaliveintallinn.webp"
-  },
   {
    "sait": "www",
    "rel": 1,

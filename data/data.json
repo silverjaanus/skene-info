@@ -1,62 +1,6 @@
 {
- "updated": "2026-08-04",
+ "updated": "2026-08-05",
  "entries": [
-  {
-   "rel": 1,
-   "d": "2023-10-01",
-   "lisatud": "2026-07-05",
-   "t": "reliis",
-   "n": "Urduk — «Pimedus saabugu»",
-   "a": "Mahtra Records",
-   "b": [
-    "Urduk"
-   ],
-   "v": "Mahtra Records",
-   "g": [
-    "black"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/album/pimedus-saabugu",
-   "img": "pildid/urdukpimedussaabugu.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2023-12-18",
-   "lisatud": "2026-07-05",
-   "t": "reliis",
-   "n": "Ohvrikivi — «Karidel»",
-   "a": "Mahtra Records",
-   "b": [
-    "Ohvrikivi"
-   ],
-   "v": "Mahtra Records",
-   "g": [
-    "black",
-    "pagan"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/album/karidel",
-   "img": "pildid/ohvrikivikaridel.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2024-06-22",
-   "lisatud": "2026-07-05",
-   "t": "reliis",
-   "n": "Must Missa — «Live in Tallinn»",
-   "a": "Mahtra Recordsi uusim väljalase",
-   "b": [
-    "Must Missa"
-   ],
-   "v": "Mahtra Records",
-   "g": [
-    "black",
-    "thrash"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/album/live-in-tallinn",
-   "img": "pildid/mustmissaliveintallinn.webp"
-  },
   {
    "rel": 1,
    "d": "2026-03-20",
