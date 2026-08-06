@@ -795,6 +795,18 @@
     "url": "https://www.facebook.com/rada7.ee/events",
     "tyyp": "meedia",
     "nb": "lisatud 26.07.2026; zanri-agnostiline events-tab, kajastab ka klubi/bassimuusikat (nt Selekta/Aphrodite Paavlis, Tjuun In Templis, Recursive Kid Kivis); sama allikas peasaidi ja rap-sektsioonis"
+   },
+   {
+    "nimi": "Wambola Surf & Bar",
+    "url": "https://www.facebook.com/events/1919070542120379",
+    "tyyp": "venue",
+    "nb": "lisatud 06.08.2026 (Rada7.ee uudiskirjast); Noblessner, Allveelaeva 4. Kontsertsari 'Wambola Synthetic Sunset' (elektrooniline muusika paikeseloojangul), kaaskorraldaja Rada7.ee. Piletid + kogu sari: piletikeskus.ee/et/s/wambola-synthetic-sunset - SEE on parim allikas, FB-s on iga kuupaev eraldi event. NB baar teeb ka 'kitarrikolmapaevi' (soul/pop) - need EI ole skoobis."
+   },
+   {
+    "nimi": "Fonoteek",
+    "url": "https://www.facebook.com/fonoteek/events",
+    "tyyp": "venue",
+    "nb": "lisatud 06.08.2026 (Rada7.ee uudiskirjast); plaadibaar Telliskivi 62. Juba klubi manual.json-is (Dark Side of the Moon warmup 01.08), aga allikana puudus. NB osa uritusi on plaadifirmade peod, mille baasgenre on lahtine (nt kurvad uudised records 08.08) - kontrolli koosseis ukshaaval."
    }
   ],
   "ig": [],
