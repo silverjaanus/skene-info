@@ -471,7 +471,11 @@ function fixLink(f){try{var el=f.querySelector('[name="Link"]');if(el&&el.value.
 function showFerr(f,msg){var e=f.querySelector('.ferr');if(!e){e=document.createElement('p');e.className='ferr';f.appendChild(e);}e.textContent=msg;}
 function postJson(url,data){return fetch(url,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(function(r){return r.json();});}
 {{S058}}
-var FS_FALLBACK="https://formsubmit.co/ajax/59ae763970bb7bdcb747578c067afe36";
+// FormSubmiti varutee EEMALDATUD 06.08.2026. Pohjus: nende privaatsusdokument (kehtiv
+// alates 17.01.2019) ei nimeta ettevotte asukohta, sailitusaega, alltootlejaid ega
+// EMP-valise ulekande katteid, ega paku andmetootluslepingut (GDPR art 28). Web3Forms
+// pakub DPA-d avalikult. Varutee laks kaiku ainult Web3Formsi rikke ajal, seega hind on
+// vaike: nuud naeb saatja ausa veateate ja saab uuesti proovida.
 function sendForm(ev,f){
   ev.preventDefault();fixLink(f);
   var btn=f.querySelector('button[type=submit]');if(btn)btn.disabled=true;
@@ -481,11 +485,7 @@ function sendForm(ev,f){
   var fail=function(){if(btn)btn.disabled=false;showFerr(f,t('f_senderr'));};
   postJson('https://api.web3forms.com/submit',data)
     .then(function(j){if(j&&j.success){ok();}else{throw 0;}})
-    .catch(function(){
-      postJson(FS_FALLBACK,data)
-        .then(function(j){if(j&&(j.success===true||j.success==='true')){ok();}else{fail();}})
-        .catch(fail);
-    });
+    .catch(fail);
   return false;
 }
 {{S059}}
