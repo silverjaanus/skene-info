@@ -31,6 +31,7 @@
    "rel": "1 = reliisi/merchi kirje (naidatakse 'uus' 30 paeva alates 'lisatud')",
    "lisatud": "saidile lisamise kuupaev (reliisidel, 'uus' 30 paeva)",
    "tba": "1 = koosseis/detailid alles tapsustamisel",
+   "img": "pisipildi taielik URL (https://<sait>.skene.info/pildid/...); puudub, kui pilti pole",
    "nb": "vabatekstiline markus"
   }
  },
@@ -55,7 +56,7 @@
    "sn": "Bandcamp",
    "su": "https://fuzzolini.bandcamp.com/album/beauty-exists-in-everyone-2",
    "nb": "lisatud 02.08.2026 kontaktivormi kaudu (Valter Nõmm, valter.nomm@gmail.com, 02.08 06:49 — saabus PÄRAST hommikust inbox-checki 05:06). Kuupäev 20.03.2026 loetud Bandcampi albumilehelt; žanrisõnastus ('post-punk, noise-rock, psychedelic rock') ja bändikirjeldus on saatja omad. NB: reliis on ~4,5 kuud vana, aga Silveri otsus 02.08: lisada, sest vanadele asjadele on nähtavust vaja. Vormil oli link katki kleebitud ('https://httpshttps://...://fb.me/...') — õige aadress tuvastatud käsitsi. | 02.08.2026 (inbox-check, hiline jooks): sama reliis tuli kontaktivormi kaudu TEIST korda. Kuupäev 20.03.2026 sai teise sõltumatu kinnituse — Discogsi vinüülikirje r36834973 (2026) ja 24.03.2026 ilmunud arvustus thoughtswordsaction.com-is —, seega kahe allika reegel on täidetud ja Bandcampi kuupäev EI ole platseholder (Tharaphita-lõks välistatud). Vormis olnud katkine link peitis ka fb.me/e/5GPBPtWLw = 03.04.2026 albumiesitlus Paavli Kultuurivabrikus — möödas, ei lisatud. NB vanuse kohta: archive_split.py _featured arvestab 30-päevast akent 'lisatud', mitte 'd' järgi, seega kirje püsib esilehel 02.08–01.09 ja kolib siis ise arhiivi.",
-   "img": "pildid/fuzzolinibeautyexistsineveryone.webp"
+   "img": "https://www.skene.info/pildid/fuzzolinibeautyexistsineveryone.webp"
   },
   {
    "sait": "www",
@@ -76,7 +77,7 @@
    "sn": "Bandcamp",
    "su": "https://konfliktor.bandcamp.com/album/diivanil-elatud-elu",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover); release-kuupäev ainult albumilehelt (Tharaphita-reegel: kui ilmneb hilisem tegelik kuupäev, paranda)",
-   "img": "pildid/konfliktordiivanilelatudelu.webp"
+   "img": "https://www.skene.info/pildid/konfliktordiivanilelatudelu.webp"
   },
   {
    "sait": "www",
@@ -97,7 +98,7 @@
    "sn": "Bandcamp",
    "su": "https://surrogoat.bandcamp.com/album/consumed-by-the-wrath-of-time-2",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Kuupaev loetud OTSE Bandcampi albumilehelt: 'released 29 May 2026'. Band: Louna-Eesti (Ihamaru), alustas 1999 Tartus; Metal Archives + MusicBrainz kinnitavad Eesti paritolu. NB album-URL nouab loppu '-2', ilma selleta 404.",
-   "img": "pildid/surrogoatconsumedbythewrathoftime.webp"
+   "img": "https://www.skene.info/pildid/surrogoatconsumedbythewrathoftime.webp"
   },
   {
    "sait": "www",
@@ -117,7 +118,7 @@
    "sn": "Bandcamp",
    "su": "https://postiljon.bandcamp.com/album/hoovikontsert",
    "nb": "lisatud sweepis 02.08.2026; oli 26.07 sweepis ootel (kuupäev kinnitamata) — albumileht ütleb released May 30, 2026",
-   "img": "pildid/postiljonhoovikontsert.webp"
+   "img": "https://www.skene.info/pildid/postiljonhoovikontsert.webp"
   },
   {
    "sait": "www",
@@ -138,7 +139,7 @@
    "sn": "Bandcamp",
    "su": "https://swarn.bandcamp.com/album/corpsetrader",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Bandcampi albumileht (6 lugu, artist Tartu, Eesti) + No Clean Singing kajastus 13.06.2026 (jarelikult ilmunud enne seda) + Metal Archives bandileht 3540457121. KUUPAEV (06.06.2026) tugineb Bandcampile ja on TEISE ALLIKAGA KINNITAMATA - vt Tharaphita oppetund, Bandcampi kuupaev voib olla platseholder. Labeli lehel on pealkiri kujul 'Corpsetraider', bandi enda Bandcampis 'CORPSETRADER'. NB Rootsis on samanimeline heavy/thrash band (MA 3540497163) - mitte sama.",
-   "img": "pildid/swarncorpsetrader.webp"
+   "img": "https://www.skene.info/pildid/swarncorpsetrader.webp"
   },
   {
    "sait": "klubi",
@@ -159,7 +160,7 @@
    "sn": "Bandcamp",
    "su": "https://teknarik.bandcamp.com/album/teknarik-launcher-2k26",
    "nb": "lisatud 27.07.2026 Silveri viite peale. Kuupäev loetud OTSE Bandcampi albumilehelt: 'released 07 June 2026'. Žanr hard trance -> elektrooniline baasžanr -> klubi (13.07 žanrireegel), MITTE metal. NB: Eesti päritolu tugineb AINULT Bandcampi artistilehe asukohaväljale ('Eesti') — teist allikat ei leidnud.",
-   "img": "pildid/teknariklauncher2k26.webp"
+   "img": "https://klubi.skene.info/pildid/teknariklauncher2k26.webp"
   },
   {
    "sait": "klubi",
@@ -182,7 +183,7 @@
    "sn": "Bandcamp",
    "su": "https://luurelvaras.bandcamp.com/album/putukas",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/luurelvarasputukas.webp"
+   "img": "https://klubi.skene.info/pildid/luurelvarasputukas.webp"
   },
   {
    "sait": "www",
@@ -202,7 +203,7 @@
    "sn": "Bandcamp",
    "su": "https://k2ttemaksucuntor.bandcamp.com/album/eradicktetiivid",
    "nb": "lisatud 26.07.2026 Rada7.ee uudiskirja (23.07.2026) põhjal; kuupäev kinnitatud Bandcampi realt 'released 23 June 2026'. Žanrisõnastus uudiskirjast ('käteka austajatele, aga ka grindi vms lainel surfijatele') — Bandcampil žanrisilte pole. Bandcampi credits: salvestas ja miksis Animoz; Uku (vokaal), Andrey (kitarr), Tuudur (bass), Sander (löökpillid). Artisti linn kinnitamata → 'c' tahtlikult tühi.",
-   "img": "pildid/kattemaksucuntoreradicktetiivid.webp"
+   "img": "https://www.skene.info/pildid/kattemaksucuntoreradicktetiivid.webp"
   },
   {
    "sait": "www",
@@ -223,7 +224,7 @@
    "sn": "Bandcamp",
    "su": "https://shamorga.bandcamp.com/album/iz-umrud",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. 2 allikat: Bandcampi albumileht (5 lugu) + metalarea.org kirje 'released on Juni 26, 2026, on UnholyIcon; Country: Estonia; Style: Experimental Black Metal'. Metal Archives kinnitab bandi: Eesti, Tallinn, asut. 2024, one-man projekt (Wolos).",
-   "img": "pildid/shamorgaizumrud.webp"
+   "img": "https://www.skene.info/pildid/shamorgaizumrud.webp"
   },
   {
    "sait": "www",
@@ -243,7 +244,7 @@
    ],
    "sn": "Bandcamp",
    "su": "https://korjus.bandcamp.com/album/i",
-   "img": "pildid/korjusi.webp"
+   "img": "https://www.skene.info/pildid/korjusi.webp"
   },
   {
    "sait": "www",
@@ -263,7 +264,7 @@
    "sn": "Bandcamp",
    "su": "https://maddreamsofficial.bandcamp.com/album/farolong",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/maddreamsfarolong.webp"
+   "img": "https://www.skene.info/pildid/maddreamsfarolong.webp"
   },
   {
    "sait": "klubi",
@@ -285,7 +286,7 @@
    "sn": "Bandcamp",
    "su": "https://svetnureka.bandcamp.com/album/serpentarium",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/svetnurekaserpentarium.webp"
+   "img": "https://klubi.skene.info/pildid/svetnurekaserpentarium.webp"
   },
   {
    "sait": "www",
@@ -305,7 +306,7 @@
    "sn": "Bandcamp",
    "su": "https://sadesemper.bandcamp.com/album/the-sun-and-others",
    "nb": "lisatud 02.08.2026. Kuupäev 09.07.2026 kinnitatud Bandcampi albumilehelt ja Apple Musicust. Artist esineb ka nime all demeeter (@demeeterrr). Žanr pop punk / folk punk — varem sekts 4 all 'piiripealne', küsimust tegelikult ei olnud: punk/alt mahub peasaidi skoopi.",
-   "img": "pildid/sadesemperthesunandothers.webp"
+   "img": "https://www.skene.info/pildid/sadesemperthesunandothers.webp"
   },
   {
    "sait": "klubi",
@@ -329,7 +330,7 @@
    "on_": "Bandcamp",
    "ou": "https://kiwanoid.bandcamp.com/album/ghost-nonius",
    "nb": "lisatud 26.07.2026 Rada7.ee uudiskirja (23.07.2026) põhjal; kinnitatud 2 allikaga — Bandcamp ('released 09 July 2026') + biit.me tooteleht (label Glitch Please, žanrisildid Estonian/Experimental/Glitch/IDM/Techno)",
-   "img": "pildid/kiwanoidghostnonius.webp"
+   "img": "https://klubi.skene.info/pildid/kiwanoidghostnonius.webp"
   },
   {
    "sait": "www",
@@ -351,7 +352,7 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada",
-   "img": "pildid/facecollectoralreadydeadvideo.webp"
+   "img": "https://www.skene.info/pildid/facecollectoralreadydeadvideo.webp"
   },
   {
    "sait": "www",
@@ -371,7 +372,7 @@
    "sn": "Bandcamp",
    "su": "https://k6utsmees.bandcamp.com/album/ma-ei-oska-elada",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/koutsmeesmaeioskaelada.webp"
+   "img": "https://www.skene.info/pildid/koutsmeesmaeioskaelada.webp"
   },
   {
    "sait": "www",
@@ -397,7 +398,7 @@
    "ou": "https://tharaphita.bandcamp.com/album/ise-taevaga-heks",
    "nb": "lisatud 26.07.2026 Silveri märkuse peale; kinnitatud 2 allikaga — Metal Archives (release date 20.07.2026, kirje loodud samal päeval) + bändi enda FB-teade «12 pikka aastat on möödas...». NB Bandcampi credits-real seisab platseholderina «released January 1, 2026» — tegelik ilmumine 20.07.2026. Varasemad sweepid lugesid selle Bandcamp discoveris ekslikult vanaks reliisiks.",
    "v": "Bandcamp",
-   "img": "pildid/tharaphitaoisetaevagauheks.webp"
+   "img": "https://www.skene.info/pildid/tharaphitaoisetaevagauheks.webp"
   },
   {
    "sait": "www",
@@ -418,7 +419,7 @@
    "su": "https://kantriguiduband.bandcamp.com/album/lappa-kotte",
    "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt. 26.07.2026: 'su' viitas discover-OTSINGULE, mitte albumile — parandatud albumi lehele (pealkirja link kasutab ou||su)",
    "v": "Bandcamp",
-   "img": "pildid/kantriguidubandlappakotte.webp"
+   "img": "https://www.skene.info/pildid/kantriguidubandlappakotte.webp"
   },
   {
    "sait": "klubi",
@@ -440,7 +441,7 @@
    "sn": "Bandcamp",
    "su": "https://kelson1.bandcamp.com/album/mordovia-arena-geolog",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/kelsonmordoviaarenageolog.webp"
+   "img": "https://klubi.skene.info/pildid/kelsonmordoviaarenageolog.webp"
   },
   {
    "sait": "rap",
@@ -463,7 +464,7 @@
    "nb": "leitud 28.07.2026 legendaarne.ee uudisvoost. Kinnitatud 2 allikaga: Legendaarne Records (label, 21.07.2026 'avaldasid täna') + ERR kultuuriportaali 'Uue muusika reede' 24.07.2026, kus margiielat nimetatakse 'Eesti alternatiivräpi esindajaks'. Kuupäev võetud labeli enda teatest (21.07); ERR kajastas seda oma reedeses nädalakokkuvõttes 24.07. KOLMAS kinnitus: Spotify singel 'Came Through' (2026), (c) Legendaarne Records",
    "on_": "Spotify",
    "ou": "https://open.spotify.com/album/1yxEc0PKqWvffhK0Mv9mNg",
-   "img": "pildid/margiielachillincamethrough.webp"
+   "img": "https://rap.skene.info/pildid/margiielachillincamethrough.webp"
   },
   {
    "sait": "rap",
@@ -486,7 +487,7 @@
    "on_": "Spotify",
    "ou": "https://open.spotify.com/album/7sZU2ZJ2Dn7zByejrQAZ4T",
    "nb": "kuupäev Silveri edastatud (06.08.2026): Sahver Recordsi enda FB-postitus 24.07.2026 16:22 «Päda uus album \"MA EI MAGA\" on väljas!». ⚠ LAHKNEVUS: Spotify albumileht näitab release-kuupäevaks 23.07.2026 — ühe päeva vahe. Kasutan labeli enda teadet Silveri juhisel; kui vaja, muuda 23.07-ks. Kaks allikat täidetud: Sahver Records FB + Spotify (8 lugu, 21:06, © 2026 sahver records). Album leitud Rada7.ee uudiskirjast 05.08; albumiesitlus 08.08 Legendaarnes on eraldi kirje.",
-   "img": "pildid/padamaeimaga.webp"
+   "img": "https://rap.skene.info/pildid/padamaeimaga.webp"
   },
   {
    "sait": "rap",
@@ -507,7 +508,7 @@
    "sn": "Spotify",
    "su": "https://open.spotify.com/album/6rT7XiGT74F1ZyqmlRmg2b",
    "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber.",
-   "img": "pildid/brochecksentroopia.webp"
+   "img": "https://rap.skene.info/pildid/brochecksentroopia.webp"
   },
   {
    "sait": "klubi",
@@ -531,7 +532,7 @@
    "on_": "Bandcamp",
    "ou": "https://meisterjaan.bandcamp.com/album/mitteintelligentne-tantsumuusika",
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; kuupäev loetud OTSE Bandcampi albumilehelt ('released July 29, 2026', datePublished 29 Jul 2026 – date-trap kontrollitud). Kinnitatud 2 allikaga: Rada7 uudiskiri + Bandcamp (4 lugu, sh 'Uritab olla Detroidi ripoff'). Baasžanr elektrooniline (techno) → klubi. Pilti pole – leht joonistab tüübimärgi.",
-   "img": "pildid/meisterjaanmitteintelligentnetantsumuusika.webp"
+   "img": "https://klubi.skene.info/pildid/meisterjaanmitteintelligentnetantsumuusika.webp"
   },
   {
    "sait": "www",
@@ -552,7 +553,7 @@
    "sn": "Bandcamp",
    "su": "https://kaisuloom.bandcamp.com/album/kaisuloom",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+metal, s=new esimene)",
-   "img": "pildid/kaisuloomkaisuloom.webp"
+   "img": "https://www.skene.info/pildid/kaisuloomkaisuloom.webp"
   },
   {
    "sait": "www",
@@ -572,7 +573,7 @@
    "sn": "Bandcamp",
    "su": "https://avemariasituatsioon.bandcamp.com/album/kuidas-vabaneda-leliigsetest-hammastest",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)",
-   "img": "pildid/avemariakuidasvabanedauleliigsetesthammastest.webp"
+   "img": "https://www.skene.info/pildid/avemariakuidasvabanedauleliigsetesthammastest.webp"
   },
   {
    "sait": "www",
@@ -593,7 +594,7 @@
    "sn": "Bandcamp",
    "su": "https://endyendytyantyan.bandcamp.com/album/k-tidkorilased-ep",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)",
-   "img": "pildid/enditiankutidkorilasedep.webp"
+   "img": "https://www.skene.info/pildid/enditiankutidkorilasedep.webp"
   },
   {
    "sait": "klubi",
@@ -615,7 +616,7 @@
    "sn": "Bandcamp",
    "su": "https://skurm1.bandcamp.com/album/vibe-ep",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+techno, s=new esimene)",
-   "img": "pildid/skurmvibeep.webp"
+   "img": "https://klubi.skene.info/pildid/skurmvibeep.webp"
   },
   {
    "sait": "klubi",
@@ -637,7 +638,7 @@
    "sn": "Bandcamp",
    "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)",
-   "img": "pildid/defferarchive01.webp"
+   "img": "https://klubi.skene.info/pildid/defferarchive01.webp"
   },
   {
    "sait": "www",
@@ -657,7 +658,7 @@
    "sn": "Bandcamp",
    "su": "https://seanus.bandcamp.com/album/seanus",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+rock, s=new esimene)",
-   "img": "pildid/seanusseanus.webp"
+   "img": "https://www.skene.info/pildid/seanusseanus.webp"
   },
   {
    "sait": "www",
@@ -686,7 +687,7 @@
    "on_": "Plaaditurg FB",
    "ou": "https://www.facebook.com/plaaditurg",
    "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. | 02.08.2026 ÜHENDATUD: eraldi kirje 'Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)' 02.08 Haapsalus oli SAMA sarja esimene kuupäev ja tekitas otsingus duplikaadi (Silveri leid) — see on nüüd siin sees, vana kirje kustutatud + blokitud. Haapsalu kuupäeva FB event: https://fb.me/e/7dEOELsgL (allikas: kontaktivorm, Ahto-Lembit Lehtmets 28.07.2026; kinnitatud augustibluus.ee kava vastu 29.07.2026). Ülejäänud kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co. | Kirjetüüp on 'muu' — VARASEM VIGA: kirjutasin, et turu/laada tüüpi süsteemis ei ole, tegelikult 'muu' oli olemas ja just selle kirje jaoks kasutusel.",
-   "img": "pildid/plaaditurgtourdeplaat2026.webp"
+   "img": "https://www.skene.info/pildid/plaaditurgtourdeplaat2026.webp"
   },
   {
    "sait": "www",
@@ -709,7 +710,7 @@
    "sn": "kontaktivorm",
    "su": "https://www.youtube.com/watch?v=EwQVEK9k0Wo",
    "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com, 04.08.2026); YouTube kanal @facecollectorband, esilinastus 04.08.2026 (kontrollitud 05.08.2026); «Letter» on demo 1. pala, video on märgitud ka Bandcampis (facecollector.bandcamp.com/album/demo)",
-   "img": "pildid/facecollectorlettervideo.webp"
+   "img": "https://www.skene.info/pildid/facecollectorlettervideo.webp"
   },
   {
    "sait": "www",
@@ -794,7 +795,7 @@
    "ou": "https://www.facebook.com/events/1850113972247057/",
    "pu": "https://www.piletilevi.ee/piletid/2DAYCP7RNV/moby",
    "nb": "lisatud 14.07.2026 (Silveri leid); Moby «Play» 25. juubelituur; korraldaja L Tips Agency Estonia",
-   "img": "pildid/mobyaustraraulojamaa.webp"
+   "img": "https://klubi.skene.info/pildid/mobyaustraraulojamaa.webp"
   },
   {
    "sait": "klubi",
@@ -817,7 +818,7 @@
    "ou": "https://www.facebook.com/events/1919070542120379",
    "pu": "https://piletikeskus.ee/et/s/wambola-synthetic-sunset",
    "nb": "leitud Rada7.ee uudiskirjast (05.08.2026); kinnitatud FB eventilt + Piletikeskuse seerialehelt 06.08.2026 (N 06.08 kell 20.30, korraldajad Wambola Surf & Bar + Rada7.ee). Žanrimärgend tuleneb korraldaja sõnastusest ('elektroonilisele muusikale keskenduv kontsertsari'), pole kontrollitud stiilitag. Hinda seerialeht ei kuva.",
-   "img": "pildid/wambolasyntheticsunsetnikolajevdenzelfi.webp"
+   "img": "https://klubi.skene.info/pildid/wambolasyntheticsunsetnikolajevdenzelfi.webp"
   },
   {
    "sait": "klubi",
@@ -844,7 +845,7 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
-   "img": "pildid/klmntsungel.webp"
+   "img": "https://klubi.skene.info/pildid/klmntsungel.webp"
   },
   {
    "sait": "www",
@@ -899,7 +900,7 @@
     "allikas": "GateMe, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + GateMe; asukoht oli FB-s 'secret', GateMe avaldas selle). Kaks esinejat veel TBA",
-   "img": "pildid/ersinvitessecretrave3.webp"
+   "img": "https://klubi.skene.info/pildid/ersinvitessecretrave3.webp"
   },
   {
    "sait": "www",
@@ -951,7 +952,7 @@
     "allikas": "Ticketer, kontrollitud 19.07.2026"
    },
    "nb": "lisatud sweepis 19.07.2026 (Ticketer)",
-   "img": "pildid/jmke40saartetuursaaremaa.webp"
+   "img": "https://www.skene.info/pildid/jmke40saartetuursaaremaa.webp"
   },
   {
    "sait": "klubi",
@@ -985,7 +986,7 @@
     "allikas": "Fienta, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Sama albumi reliisikirje on klubi-poolel juba olemas (09.07.2026); DJ-koosseis oli lehel 'more TBA'",
-   "img": "pildid/kiwanoidghostnoniusalbumiesitlus.webp"
+   "img": "https://klubi.skene.info/pildid/kiwanoidghostnoniusalbumiesitlus.webp"
   },
   {
    "sait": "klubi",
@@ -1021,7 +1022,7 @@
    "su": "https://fienta.com/paavli-club-festival-2026",
    "pu": "https://fienta.com/paavli-club-festival-2026",
    "nb": "leitud sweepis 26.07.2026; täiskoosseis Fienta ürituselehelt (2 päeva); toetab Liveurope",
-   "img": "pildid/paavliclubfestival2026.webp"
+   "img": "https://klubi.skene.info/pildid/paavliclubfestival2026.webp"
   },
   {
    "sait": "klubi",
@@ -1066,7 +1067,7 @@
    "on_": "treski.ee",
    "ou": "https://treski.ee/festival",
    "pu": "https://piletikeskus.ee/et/e/hl03ia",
-   "img": "pildid/treskifest2026.webp"
+   "img": "https://klubi.skene.info/pildid/treskifest2026.webp"
   },
   {
    "sait": "rap",
@@ -1088,7 +1089,7 @@
    "sn": "Legendaarne Records",
    "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
    "nb": "tulevane reliis, kuupäev kinnitatud 2 allikaga (Legendaarne Records 21.07.2026 + ERR kultuur 24.07.2026): 'ilmub 7. augustil, kuus lugu'. EP PEALKIRI ON VEEL AVALDAMATA (tba) - täienda, kui välja kuulutatakse",
-   "img": "pildid/margiielaxchillinuhineeppealkiriavaldamata.webp"
+   "img": "https://rap.skene.info/pildid/margiielaxchillinuhineeppealkiriavaldamata.webp"
   },
   {
    "sait": "klubi",
@@ -1114,7 +1115,7 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
-   "img": "pildid/micaxsansummerfiesta.webp"
+   "img": "https://klubi.skene.info/pildid/micaxsansummerfiesta.webp"
   },
   {
    "sait": "klubi",
@@ -1171,7 +1172,7 @@
    "pu": "https://bftv.ee/",
    "yu": "https://www.youtube.com/beatsfromthevault",
    "nb": "duplikaatkirjed liidetud sweepis 26.07.2026 (sama FB event 2213429046145152); kinnitatud BFTV FB + HALL FB ürituste nimekiri",
-   "img": "pildid/beatsfromthevaultdarksoulsmeetingsmformaeslive.webp"
+   "img": "https://klubi.skene.info/pildid/beatsfromthevaultdarksoulsmeetingsmformaeslive.webp"
   },
   {
    "sait": "klubi",
@@ -1201,7 +1202,7 @@
     "allikas": "RA + tsungel.ee, kontrollitud 26.07.2026"
    },
    "nb": "leitud sweepis 26.07.2026 (RA + tsungel.ee)",
-   "img": "pildid/fedotripsysammtsungel.webp"
+   "img": "https://klubi.skene.info/pildid/fedotripsysammtsungel.webp"
   },
   {
    "sait": "www",
@@ -1300,7 +1301,7 @@
     "allikas": "Fienta, kontrollitud 13.07.2026"
    },
    "nb": "koosseis täiendatud 26.07.2026 (RA lineup: Priori, Nikolajev, Dharma Doom)",
-   "img": "pildid/subudubpriorica.webp"
+   "img": "https://klubi.skene.info/pildid/subudubpriorica.webp"
   },
   {
    "sait": "www",
@@ -1350,7 +1351,7 @@
    "ou": "https://www.facebook.com/events/1928466314702496/",
    "pu": "https://www.piletilevi.ee/piletid/C2QLJFKGYR/the-cure",
    "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; 5,5K huvilist FB-s",
-   "img": "pildid/thecureduoruutanttipaalanen.webp"
+   "img": "https://www.skene.info/pildid/thecureduoruutanttipaalanen.webp"
   },
   {
    "sait": "www",
@@ -1480,7 +1481,7 @@
    "su": "https://fienta.com/et/mum-tallinn",
    "pu": "https://fienta.com/et/mum-tallinn",
    "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist)",
-   "img": "pildid/paavlilivemumis.webp"
+   "img": "https://klubi.skene.info/pildid/paavlilivemumis.webp"
   },
   {
    "sait": "klubi",
@@ -1644,7 +1645,7 @@
     "allikas": "Fienta, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (Fienta + FB event); visuaalid ML Stringart, kehamaaling Lifeloverart",
-   "img": "pildid/psydjaopenair.webp"
+   "img": "https://klubi.skene.info/pildid/psydjaopenair.webp"
   },
   {
    "sait": "www",
@@ -1669,7 +1670,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/931197572850690/",
    "pu": "https://www.piletitasku.ee/et/event/9529",
-   "img": "pildid/thetuberkuloited35parnu.webp"
+   "img": "https://www.skene.info/pildid/thetuberkuloited35parnu.webp"
   },
   {
    "sait": "www",
@@ -1768,7 +1769,7 @@
    "su": "https://fienta.com/et/valge-daami-rock-2026",
    "pu": "https://fienta.com/et/valge-daami-rock-2026",
    "nb": "lisatud sweepis 19.07.2026; korraldaja Müristaja MC (Sadama 30, Haapsalu); hind Fienta ostulehel (avalehel ei kuvatud) - kontrolli",
-   "img": "pildid/valgedaamirock2026thetuberkuloited35elukasomorales.webp"
+   "img": "https://www.skene.info/pildid/valgedaamirock2026thetuberkuloited35elukasomorales.webp"
   },
   {
    "sait": "klubi",
@@ -1800,7 +1801,7 @@
     "allikas": "Fienta, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta)",
-   "img": "pildid/wakeupeventsumenight.webp"
+   "img": "https://klubi.skene.info/pildid/wakeupeventsumenight.webp"
   },
   {
    "sait": "www",
@@ -1822,7 +1823,7 @@
    "su": "https://fienta.com/geordie-greep-paavli",
    "pu": "https://fienta.com/geordie-greep-paavli",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases",
-   "img": "pildid/paavlilivegeordiegreepuk.webp"
+   "img": "https://www.skene.info/pildid/paavlilivegeordiegreepuk.webp"
   },
   {
    "sait": "www",
@@ -1880,7 +1881,7 @@
    "ou": "https://www.facebook.com/events/1706413267228257/",
    "pu": "https://fienta.com/et/art-of-mosh-routine-ua-de-kannabinoid-superkomfort-zakroyyy-lv-and-many-more",
    "nb": "3-päevane festival (20.08 kunstinäitus+DJd TBA, 21.08 + 22.08 kaks lava); täiskoosseis avaldatud Fientas 15.07.2026 (R 21.08: Routine, superkomfort, Zakroyyy, Cottonmoth, Around the Sun, Stefania Boiko, Pihikamber; L 22.08: Kannabinõid, Süki, Manna, Koni, Such a Vain Endeavour, Norest Souls, Homebroke, Tiny Sequoia); more tba; pilet Fientas (earlybird); korraldajad Art of Mosh + Uus Laine; lisatud 13.07.2026, rikastatud 15.07.2026",
-   "img": "pildid/artofmosh2026.webp"
+   "img": "https://www.skene.info/pildid/artofmosh2026.webp"
   },
   {
    "sait": "www",
@@ -1902,7 +1903,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1999147140962621/",
    "pu": "https://fienta.com/et/barbatos-thekrypt-tallinn",
-   "img": "pildid/barbatosbeatrixkulaline.webp"
+   "img": "https://www.skene.info/pildid/barbatosbeatrixkulaline.webp"
   },
   {
    "sait": "klubi",
@@ -1943,7 +1944,7 @@
    "on_": "hundipea.ee",
    "ou": "https://hundipea.ee/en/event/netsky-bel-hundipea-kakaoladu/",
    "pu": "https://www.piletilevi.ee/en/venues/21-61-9418/hundipea-kakaoladu-tallinn",
-   "img": "pildid/netskybel.webp"
+   "img": "https://klubi.skene.info/pildid/netskybel.webp"
   },
   {
    "sait": "klubi",
@@ -1982,7 +1983,7 @@
     "mark": "hinnaklassid Fientas; R 23.00 – P 06.00",
     "allikas": "Fienta + RA, kontrollitud 28.07.2026"
    },
-   "img": "pildid/safarafestival.webp"
+   "img": "https://klubi.skene.info/pildid/safarafestival.webp"
   },
   {
    "sait": "klubi",
@@ -2009,7 +2010,7 @@
     "jargmine": "15€",
     "allikas": "Fienta, kontrollitud 13.07.2026"
    },
-   "img": "pildid/triploopinviteskaigalacticjp.webp",
+   "img": "https://klubi.skene.info/pildid/triploopinviteskaigalacticjp.webp",
    "nb": " | 28.07.2026: RA venue-väli ütleb Paavli Kultuurivabrik, Fienta ütleb MOD — kirjes on MOD (Fienta = piletimüüja). Silveri kontrollida"
   },
   {
@@ -2086,7 +2087,7 @@
    "ou": "https://www.facebook.com/events/1378621834167563/",
    "pu": "https://fienta.com/et/back-2-bashment",
    "nb": "lisatud sweepis 19.07.2026; Bashment FM sari aastast 1998",
-   "img": "pildid/back2bashment.webp"
+   "img": "https://rap.skene.info/pildid/back2bashment.webp"
   },
   {
    "sait": "klubi",
@@ -2131,7 +2132,7 @@
    "su": "https://fienta.com/et/narasanti-innerspell-thekrypt",
    "pu": "https://fienta.com/et/narasanti-innerspell-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; korraldaja Sügis Productions / The Krypt (Pärnu mnt 19)",
-   "img": "pildid/metalsaturdaynarasantiinnerspell.webp"
+   "img": "https://www.skene.info/pildid/metalsaturdaynarasantiinnerspell.webp"
   },
   {
    "sait": "www",
@@ -2214,7 +2215,7 @@
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna",
-   "img": "pildid/caliberorders.webp"
+   "img": "https://www.skene.info/pildid/caliberorders.webp"
   },
   {
    "sait": "www",
@@ -2272,7 +2273,7 @@
     "mark": "JärelKaja eelmüük 26€, VastuKaja uksel 35€; soodsaim Kaja-pilet 17€ on välja müüdud",
     "allikas": "GateMe (MTÜ Klubi on kultuur), kontrollitud 25.07.2026"
    },
-   "img": "pildid/kajakumureivxhall.webp"
+   "img": "https://klubi.skene.info/pildid/kajakumureivxhall.webp"
   },
   {
    "sait": "klubi",
@@ -2298,7 +2299,7 @@
     "praegu": "7.50–15€",
     "allikas": "Fienta, kontrollitud 13.07.2026"
    },
-   "img": "pildid/laineklubioodjpleadau.webp"
+   "img": "https://klubi.skene.info/pildid/laineklubioodjpleadau.webp"
   },
   {
    "sait": "www",
@@ -2343,7 +2344,7 @@
    "su": "https://fienta.com/et/patarei-coverage-thekrypt",
    "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
-   "img": "pildid/metallicaacdcnightpatareicoverage.webp"
+   "img": "https://www.skene.info/pildid/metallicaacdcnightpatareicoverage.webp"
   },
   {
    "sait": "www",
@@ -2367,7 +2368,7 @@
    "ou": "https://www.facebook.com/events/883197287964317",
    "pu": "https://www.piletilevi.ee/piletid/VD37QERUVT/airbourne",
    "nb": "algus 19.00; korraldajad Live Nation Estonia + Helitehas; kontrollitud 09.07.2026 | 25.07.2026: soojendaja Elephants From Neptune lisatud (Helitehas FB)",
-   "img": "pildid/airbourne.webp"
+   "img": "https://www.skene.info/pildid/airbourne.webp"
   },
   {
    "sait": "www",
@@ -2384,7 +2385,7 @@
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park",
-   "img": "pildid/ampesttabasalupaev.webp"
+   "img": "https://www.skene.info/pildid/ampesttabasalupaev.webp"
   },
   {
    "sait": "www",
@@ -2410,7 +2411,7 @@
     "allikas": "Ticketer, kontrollitud 19.07.2026"
    },
    "nb": "lisatud sweepis 19.07.2026 (Ticketer)",
-   "img": "pildid/jmke40saartetuurhiiumaa.webp"
+   "img": "https://www.skene.info/pildid/jmke40saartetuurhiiumaa.webp"
   },
   {
    "sait": "klubi",
@@ -2428,7 +2429,7 @@
    "on_": "allevents.in",
    "ou": "https://allevents.in/tallinn/",
    "nb": "lisatud 02.08.2026. Sweepis oli ainult allevents.in; Silver leidis FB-eventi tavalise Google-otsinguga — ÕPPETUND: kui sweep-allikatest teist allikat ei tule, tee veebiotsing enne kui kirje 'ühe allikaga' kõrvale panna. Žanrisilt 'techno' on tuletatud sündmuse nimest ('reiv'), koosseisu ega žanrit FB-eventist ei kinnitatud.",
-   "img": "pildid/longreivvol3.webp"
+   "img": "https://klubi.skene.info/pildid/longreivvol3.webp"
   },
   {
    "sait": "klubi",
@@ -2477,7 +2478,7 @@
    "ou": "https://fienta.com/et/s/sound2-a-cyberdub-ambient-experience",
    "pu": "https://fienta.com/et/s/sound2-a-cyberdub-ambient-experience",
    "nb": "lisatud sweepis 28.07.2026 (Fienta + Tallinn Fringe Festivali programm)",
-   "img": "pildid/sound2acyberdubambientexperience.webp"
+   "img": "https://klubi.skene.info/pildid/sound2acyberdubambientexperience.webp"
   },
   {
    "sait": "www",
@@ -2500,7 +2501,7 @@
    "su": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
    "pu": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
-   "img": "pildid/toolnineinchnailsnightfoolhatemachinefin.webp"
+   "img": "https://www.skene.info/pildid/toolnineinchnailsnightfoolhatemachinefin.webp"
   },
   {
    "sait": "www",
@@ -2520,7 +2521,7 @@
    "sn": "Damn.Loudi FB",
    "su": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
    "pu": "https://fienta.com/et/nothing-paavli-tallinn",
-   "img": "pildid/nothinghammok.webp"
+   "img": "https://www.skene.info/pildid/nothinghammok.webp"
   },
   {
    "sait": "klubi",
@@ -2563,7 +2564,7 @@
     "mark": "festivalipass, soodushind kuni 10.08; päevapilet 39€",
     "allikas": "stationnarva.ee, kontrollitud 13.07.2026"
    },
-   "img": "pildid/stationnarva2026.webp"
+   "img": "https://klubi.skene.info/pildid/stationnarva2026.webp"
   },
   {
    "sait": "klubi",
@@ -2594,7 +2595,7 @@
     "allikas": "Ticketer, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (Planeet FB + FB event + Ticketer)",
-   "img": "pildid/extremepresentsdeltaheavy.webp"
+   "img": "https://klubi.skene.info/pildid/extremepresentsdeltaheavy.webp"
   },
   {
    "sait": "www",
@@ -2627,7 +2628,7 @@
     "allikas": "Piletilevi, kontrollitud 28.07.2026"
    },
    "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud",
-   "img": "pildid/fearfactorycrystallakehatethenocturnalaffair.webp"
+   "img": "https://www.skene.info/pildid/fearfactorycrystallakehatethenocturnalaffair.webp"
   },
   {
    "sait": "www",
@@ -2676,7 +2677,7 @@
    "sn": "Resident Advisor",
    "su": "https://ra.co/events/2398214",
    "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen/",
-   "img": "pildid/kontrastwithmijahallxsvexcultureunseen.webp"
+   "img": "https://klubi.skene.info/pildid/kontrastwithmijahallxsvexcultureunseen.webp"
   },
   {
    "sait": "klubi",
@@ -2753,7 +2754,7 @@
    "ou": "https://www.facebook.com/events/1517057606835718/",
    "pu": "https://fienta.com/et/permanentblue-violetscape-thekrypt",
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta; Permanent Blue võitis 2024 Heavy Music Band Battle'i",
-   "img": "pildid/heavysaturdaypermanentbluevioletscape.webp"
+   "img": "https://www.skene.info/pildid/heavysaturdaypermanentbluevioletscape.webp"
   },
   {
    "sait": "klubi",
@@ -2781,7 +2782,7 @@
     "praegu": "15–20€",
     "allikas": "Fienta, kontrollitud 13.07.2026"
    },
-   "img": "pildid/scorchedearthskeemask.webp"
+   "img": "https://klubi.skene.info/pildid/scorchedearthskeemask.webp"
   },
   {
    "sait": "www",
@@ -2812,7 +2813,7 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566",
-   "img": "pildid/ollepidu2026.webp"
+   "img": "https://www.skene.info/pildid/ollepidu2026.webp"
   },
   {
    "sait": "www",
@@ -2835,7 +2836,7 @@
    "su": "https://fienta.com/et/laine-live-luge-ca",
    "pu": "https://fienta.com/et/laine-live-luge-ca",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "pildid/lainelivelugeca.webp"
+   "img": "https://www.skene.info/pildid/lainelivelugeca.webp"
   },
   {
    "sait": "www",
@@ -2873,7 +2874,7 @@
     "allikas": "kontaktivorm + Fienta, kontrollitud 26.07.2026"
    },
    "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame) | 02.08.2026: SILVERI OTSUS — Paul Cole & The Great Outdoors LISATUD kavasse korraldaja kinnituse alusel (a-vali 9 -> 10 esinejat). Ainus allikas on korraldaja enda kaks kontaktivormi teadet (26.07 ja 01.08); Fienta ametlik kava seda veel ei kajasta. Kui Fienta/FB-event hiljem raagib vastu, kontrolli uuesti.",
-   "img": "pildid/fuzzsalvation2026.webp"
+   "img": "https://www.skene.info/pildid/fuzzsalvation2026.webp"
   },
   {
    "sait": "klubi",
@@ -2898,7 +2899,7 @@
    "ou": "https://www.facebook.com/events/876184442221379/",
    "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav | 28.07.2026: GateMe otselink lisatud",
    "pu": "https://gateme.com/et/halltallinn/104001-hellinn-cross-border-edition-in-furchtde-x-qslapee-x-medinabr/",
-   "img": "pildid/hellinncrossborderedition.webp"
+   "img": "https://klubi.skene.info/pildid/hellinncrossborderedition.webp"
   },
   {
    "sait": "www",
@@ -2936,7 +2937,7 @@
     "mark": "kahe päeva pass: varajane ärkaja 25€, festivalipass 30€ (+Ticketeri tehingutasu); uksed 18.00",
     "allikas": "Ticketer (NYROK MTÜ), kontrollitud 19.07.2026"
    },
-   "img": "pildid/punkrockinsidefest2026.webp"
+   "img": "https://www.skene.info/pildid/punkrockinsidefest2026.webp"
   },
   {
    "sait": "www",
@@ -2977,7 +2978,7 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events (FB eventi ei leidnud, ou tühi)",
-   "img": "pildid/vaipeventscounterstrikeczrsa.webp"
+   "img": "https://klubi.skene.info/pildid/vaipeventscounterstrikeczrsa.webp"
   },
   {
    "sait": "www",
@@ -3003,7 +3004,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1065529219140534/",
    "pu": "https://fienta.com/et/freakangel-guests-thekrypt",
-   "img": "pildid/freakangelpsycholiessugarrody.webp"
+   "img": "https://www.skene.info/pildid/freakangelpsycholiessugarrody.webp"
   },
   {
    "sait": "www",
@@ -3026,7 +3027,7 @@
    "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
    "pu": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
    "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale)",
-   "img": "pildid/underthenewmoonvermilia.webp"
+   "img": "https://www.skene.info/pildid/underthenewmoonvermilia.webp"
   },
   {
    "sait": "www",
@@ -3062,7 +3063,7 @@
     "allikas": "reeperbahnfestival.com, kontrollitud 27.07.2026"
    },
    "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel.",
-   "img": "pildid/reeperbahnfestival.webp"
+   "img": "https://www.skene.info/pildid/reeperbahnfestival.webp"
   },
   {
    "sait": "klubi",
@@ -3081,7 +3082,7 @@
    ],
    "sn": "bedlessbones.com",
    "su": "https://www.bedlessbones.com/shows",
-   "img": "pildid/bedlessbonesmartindupont.webp"
+   "img": "https://klubi.skene.info/pildid/bedlessbonesmartindupont.webp"
   },
   {
    "sait": "klubi",
@@ -3125,7 +3126,7 @@
    "sn": "Facebook event",
    "su": "https://www.facebook.com/events/1044621274573907/",
    "pu": "https://www.piletitasku.ee/et/event/10039",
-   "img": "pildid/psychoterrorpedigreeapparatusapparata.webp"
+   "img": "https://www.skene.info/pildid/psychoterrorpedigreeapparatusapparata.webp"
   },
   {
    "sait": "www",
@@ -3175,7 +3176,7 @@
    "pu": "https://gateme.com/halltallinn/104060-sonic-impact",
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud HALL FB event + GateMe piletileht",
-   "img": "pildid/sonicimpactsournoispllempl.webp"
+   "img": "https://klubi.skene.info/pildid/sonicimpactsournoispllempl.webp"
   },
   {
    "sait": "www",
@@ -3201,7 +3202,7 @@
     "allikas": "Piletilevi, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole",
-   "img": "pildid/therumjacksaus.webp"
+   "img": "https://www.skene.info/pildid/therumjacksaus.webp"
   },
   {
    "sait": "www",
@@ -3233,7 +3234,7 @@
     "allikas": "Fienta, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta + tapper.ee). ZANRIOTSUS: Evestus on dark-electro/industrial, aga koosseis on metal-poolne (Ampest) ja venue rokiklubi -> peasait, sama loogika mis Freakangelil (Silveri otsus 27.07). Silver voib klubisse tosta",
-   "img": "pildid/evestusampest.webp"
+   "img": "https://www.skene.info/pildid/evestusampest.webp"
   },
   {
    "sait": "klubi",
@@ -3289,7 +3290,7 @@
     "mark": "uksed 16.00, algus 17.00; sleepover/camper piletid kohapeal",
     "allikas": "z-7.ch, kontrollitud 07.07.2026"
    },
-   "img": "pildid/upinsmokefestival2026.webp"
+   "img": "https://www.skene.info/pildid/upinsmokefestival2026.webp"
   },
   {
    "sait": "www",
@@ -3313,7 +3314,7 @@
    "pu": "https://fienta.com/et/batushka-paavli",
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht",
-   "img": "pildid/batushkapl.webp"
+   "img": "https://www.skene.info/pildid/batushkapl.webp"
   },
   {
    "sait": "www",
@@ -3378,7 +3379,7 @@
    "ou": "https://www.facebook.com/events/1281090940578721",
    "pu": "https://fienta.com/et/kaschalot-vkf26",
    "nb": "lisatud sweepis 28.07.2026; kinnitatud FB event + Fienta. Eesti math-rock/post-rock, kitarripohine -> peasait",
-   "img": "pildid/kaschalotviljandikitarrifestival.webp"
+   "img": "https://www.skene.info/pildid/kaschalotviljandikitarrifestival.webp"
   },
   {
    "sait": "klubi",
@@ -3402,7 +3403,7 @@
    "ou": "https://ra.co/events/2475984",
    "nb": "lisatud sweepis 19.07.2026; pilet leitud Fientast 26.07.2026",
    "pu": "https://fienta.com/et/laine-klubioo-yung-singh",
-   "img": "pildid/laineklubiooyungsinghuk.webp"
+   "img": "https://klubi.skene.info/pildid/laineklubiooyungsinghuk.webp"
   },
   {
    "sait": "www",
@@ -3440,7 +3441,7 @@
    },
    "a": "Tartu black metal festival; 12 bändi kinnitatud (sh Tuisk EST, H8blst LIT industrial black), rohkem tulekul",
    "nb": "koosseis täienes 19.07.2026 sweepis (pergerus.eu: +Tuisk, +H8blst); rohkem bände tulekul",
-   "img": "pildid/tarbariitus.webp"
+   "img": "https://www.skene.info/pildid/tarbariitus.webp"
   },
   {
    "sait": "www",
@@ -3464,7 +3465,7 @@
    "ou": "https://www.facebook.com/events/844275598724150",
    "pu": "https://fienta.com/et/robben-ford-trio-us-vkf",
    "nb": "lisatud sweepis 28.07.2026; kinnitatud FB event + Fienta. Bluus on peasaidi skoobis alates 26.07.2026",
-   "img": "pildid/robbenfordtriousviljandikitarrifestival.webp"
+   "img": "https://www.skene.info/pildid/robbenfordtriousviljandikitarrifestival.webp"
   },
   {
    "sait": "www",
@@ -3482,7 +3483,7 @@
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108428390-hardcore-superstar-at-helitehas",
-   "img": "pildid/hardcoresuperstar.webp"
+   "img": "https://www.skene.info/pildid/hardcoresuperstar.webp"
   },
   {
    "sait": "www",
@@ -3529,7 +3530,7 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=228103",
-   "img": "pildid/wardruna.webp"
+   "img": "https://www.skene.info/pildid/wardruna.webp"
   },
   {
    "sait": "klubi",
@@ -3552,7 +3553,7 @@
    "ou": "https://helitehas.ee/facebook-event/camouflage-live-tallinn-17-oktoober-2026/",
    "pu": "https://www.piletitasku.ee/et/event/9391",
    "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud helitehas.ee ürituselehe + Bandsintown/Hypebot tuurigraafiku vastu 19.07.2026 (L 17.10 kell 19.30, Madara 22a); pilet Piletitasku (hind lehelt kätte ei tulnud, ei märgitud)",
-   "img": "pildid/camouflagede.webp"
+   "img": "https://klubi.skene.info/pildid/camouflagede.webp"
   },
   {
    "sait": "www",
@@ -3585,7 +3586,7 @@
     "mark": "eelmüük kuni 16.10; toetajapilet 50€; õpilane/pensionär/puue 26€; uksed 18.00, esimene bänd 19.00",
     "allikas": "Fienta (Tori Valla Kultuurikeskus), kontrollitud 12.07.2026"
    },
-   "img": "pildid/sindirock2026.webp"
+   "img": "https://www.skene.info/pildid/sindirock2026.webp"
   },
   {
    "sait": "klubi",
@@ -3608,7 +3609,7 @@
    "ou": "https://www.piletitasku.ee/et/event/9392",
    "pu": "https://www.piletitasku.ee/et/event/9392",
    "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)",
-   "img": "pildid/camouflagede.webp"
+   "img": "https://klubi.skene.info/pildid/camouflagede.webp"
   },
   {
    "sait": "www",
@@ -3635,7 +3636,7 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud Fienta + Bandsintown; FB eventi ei leidnud (ou tühi)",
-   "img": "pildid/clownybusinessagarwaenfinsoldstrych9.webp"
+   "img": "https://www.skene.info/pildid/clownybusinessagarwaenfinsoldstrych9.webp"
   },
   {
    "sait": "www",
@@ -3676,7 +3677,7 @@
    "sn": "suddenlights.lv",
    "su": "https://www.suddenlights.lv/lv/concerts",
    "nb": "lisatud 02.08.2026 Silveri otsusel. Tallinna kuupäev tuli välja alles bändi enda tuurikalendrist — sweep nägi ainult Tartu oma. Žanr indie-pop/rock, piiripealne, Silver otsustas 'läheb'.",
-   "img": "pildid/suddenlightslv.webp"
+   "img": "https://www.skene.info/pildid/suddenlightslv.webp"
   },
   {
    "sait": "www",
@@ -3697,7 +3698,7 @@
    "sn": "suddenlights.lv",
    "su": "https://www.suddenlights.lv/lv/concerts",
    "nb": "lisatud 02.08.2026 Silveri otsusel. Varem oli sekts 4 all '1 allikaga ootel' — bändi enda tuurikalender kinnitas.",
-   "img": "pildid/suddenlightslv.webp"
+   "img": "https://www.skene.info/pildid/suddenlightslv.webp"
   },
   {
    "sait": "klubi",
@@ -3719,7 +3720,7 @@
    "su": "https://fienta.com/et/laine-klubioo-mi-el-uk",
    "pu": "https://fienta.com/et/laine-klubioo-mi-el-uk",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "pildid/laineklubioomieluk.webp"
+   "img": "https://klubi.skene.info/pildid/laineklubioomieluk.webp"
   },
   {
    "sait": "www",
@@ -3744,7 +3745,7 @@
    "ou": "https://www.facebook.com/events/1600512088086457/",
    "pu": "https://fienta.com/et/deadshapefigure-surrogoat-thekrypt",
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta otsing",
-   "img": "pildid/metalsaturdaysurrogoatdeadshapefigurefi.webp"
+   "img": "https://www.skene.info/pildid/metalsaturdaysurrogoatdeadshapefigurefi.webp"
   },
   {
    "sait": "www",
@@ -3794,7 +3795,7 @@
    "ou": "https://www.facebook.com/events/1701428730898843",
    "pu": "https://www.piletilevi.ee/series/KURXMI47WG/kosmikud-pulmad-ja-matused-20",
    "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 02.08.2026 (Silveri otsus 'pane kõik kuupäevad'): kogu tuur loetud Piletilevi seeria-lehelt piletilevi.ee/series/KURXMI47WG — 13.11 Pärnu, 14.11 Järvakandi, 20.11 Tõrva, 21.11 Viljandi, 27.11 + 28.11 Tartu, 04.12 Tallinn (Viikate), 05.12 Helsingi (Korjaamo). d/d2 = 13.11–04.12 (Eesti osa); Helsingi kirjas ainult a-vallas, sest kalender on Eesti-keskne. Bänd Viikate 04.12 lisatud b-massiivi.",
-   "img": "pildid/kosmikudpulmadjamatused20.webp"
+   "img": "https://www.skene.info/pildid/kosmikudpulmadjamatused20.webp"
   },
   {
    "sait": "www",
@@ -3817,7 +3818,7 @@
    "su": "https://fienta.com/gong-tallinn",
    "pu": "https://fienta.com/gong-tallinn",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "pildid/paavlilivegonguk.webp"
+   "img": "https://www.skene.info/pildid/paavlilivegonguk.webp"
   },
   {
    "sait": "www",
@@ -3845,7 +3846,7 @@
     "mark": "Early Bird 39€ välja müüdud; Supporter 65€; algus 19.00",
     "allikas": "Fienta, kontrollitud 07.07.2026"
    },
-   "img": "pildid/napalmdeathmasterbrat.webp"
+   "img": "https://www.skene.info/pildid/napalmdeathmasterbrat.webp"
   },
   {
    "sait": "www",
@@ -3869,7 +3870,7 @@
    "ou": "https://www.facebook.com/events/1413551483860652/",
    "pu": "https://www.piletilevi.ee/piletid/3EJHJLGL23/mustasch-swe",
    "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht",
-   "img": "pildid/mustaschswe.webp"
+   "img": "https://www.skene.info/pildid/mustaschswe.webp"
   },
   {
    "sait": "klubi",
@@ -3894,7 +3895,7 @@
    "ou": "https://www.facebook.com/events/1028764386206264",
    "pu": "https://fienta.com/et/lane8",
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Piiripealne: suur nimi, aga baasžanr melodic/progressive house — sama loogika mis Netskyl",
-   "img": "pildid/lane8europetour.webp"
+   "img": "https://klubi.skene.info/pildid/lane8europetour.webp"
   },
   {
    "sait": "www",
@@ -3931,7 +3932,7 @@
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108569164-chelsea-wolfe-at-helitehas",
-   "img": "pildid/chelseawolfeaawilliams.webp"
+   "img": "https://www.skene.info/pildid/chelseawolfeaawilliams.webp"
   },
   {
    "sait": "www",
@@ -3957,7 +3958,7 @@
    "ou": "https://www.tapper.ee/event/master-boot-record-ita-fulci-ita/",
    "nb": "27.07.2026: rikastatud Rockclub Tapperi enda ürituselehelt (Silveri viide) — kirjeldus, žanrid (oli ainult industrial+electro, tegelikult ka death metal), vanusepiirang 0+. KORRALDAJA on tapperi lehe järgi UCE Agency, mitte Tapper ise; UCE-l puudub ürituse URL, seetõttu on 'korraldaja' väljal venue enda ürituseleht (sama muster nagu helitehas.ee kirjetel). Piletilinki lehel EI OLE.",
    "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno",
-   "img": "pildid/masterbootrecordfulciarottenbit.webp"
+   "img": "https://www.skene.info/pildid/masterbootrecordfulciarottenbit.webp"
   },
   {
    "sait": "www",
@@ -3991,7 +3992,7 @@
     "allikas": "Fienta (Death Agency), kontrollitud 25.07.2026"
    },
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta täislineup | 28.07.2026: eemaldatud DUPLIKAAT-kirje (sama üritus oli manual.json-is topelt, t='kontsert' ja t='festival'); alles jäi festivali-kirje FB-event lingiga",
-   "img": "pildid/stormovertallinnmetalfestival.webp"
+   "img": "https://www.skene.info/pildid/stormovertallinnmetalfestival.webp"
   },
   {
    "sait": "klubi",
@@ -4013,7 +4014,7 @@
    "su": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
    "pu": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "pildid/laineklubioostateofffnlzw.webp"
+   "img": "https://klubi.skene.info/pildid/laineklubioostateofffnlzw.webp"
   },
   {
    "sait": "www",
@@ -4051,7 +4052,7 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235376",
-   "img": "pildid/theoceanpsychonautpothamus.webp"
+   "img": "https://www.skene.info/pildid/theoceanpsychonautpothamus.webp"
   },
   {
    "sait": "www",
@@ -4090,7 +4091,7 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235450",
-   "img": "pildid/tyrtwilightforcedragonlandvanaheim.webp"
+   "img": "https://www.skene.info/pildid/tyrtwilightforcedragonlandvanaheim.webp"
   },
   {
    "sait": "www",
@@ -4117,7 +4118,7 @@
     "allikas": "vorukannel.ee + Piletilevi, kontrollitud 02.08.2026"
    },
    "nb": "lisatud 02.08.2026 Silveri otsusel ('läheb sisse'). Žanrisilt 'jazz' annab META-FALLBACKi ehk kirje kuvatakse 'alt' all — see on teadlik. Repertuaar on Black Sabbath, esitus jazz.",
-   "img": "pildid/jazzsabbathuk.webp"
+   "img": "https://www.skene.info/pildid/jazzsabbathuk.webp"
   },
   {
    "sait": "www",
@@ -4136,7 +4137,7 @@
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108417356-the-rasmus-at-helitehas",
    "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi otsing. Pileti otselinki ei fikseeritud",
-   "img": "pildid/therasmus.webp"
+   "img": "https://www.skene.info/pildid/therasmus.webp"
   },
   {
    "sait": "www",
@@ -4172,7 +4173,7 @@
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108443665-catch-your-breath-at-helitehas",
-   "img": "pildid/catchyourbreath.webp"
+   "img": "https://www.skene.info/pildid/catchyourbreath.webp"
   },
   {
    "sait": "www",
@@ -4191,7 +4192,7 @@
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108594783-arankai-at-paavli-kultuurivabrik",
-   "img": "pildid/arankai.webp",
+   "img": "https://www.skene.info/pildid/arankai.webp",
    "nb": "28.07.2026: kaasesineja Melrose Avenue lisatud (Bandsintown + Piletilevi) | 02.08.2026: Paavli programmileht lisab koosseisu Call Me Amour — lisatud b-sse"
   },
   {
@@ -4214,7 +4215,7 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=232554",
-   "img": "pildid/whitechapelsylosis200stabwoundstribalgaze.webp"
+   "img": "https://www.skene.info/pildid/whitechapelsylosis200stabwoundstribalgaze.webp"
   },
   {
    "sait": "klubi",
@@ -4239,7 +4240,7 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; žanr täpsustamata (elektroonika) — jälgi 2b-s, kui lineup avaldatakse",
-   "img": "pildid/dreamscapefestival2027.webp"
+   "img": "https://klubi.skene.info/pildid/dreamscapefestival2027.webp"
   },
   {
    "sait": "www",
@@ -4282,7 +4283,7 @@
    "sn": "Fienta",
    "su": "https://fienta.com/et/tramhaus-tallinn-paavli",
    "pu": "https://fienta.com/et/tramhaus-tallinn-paavli",
-   "img": "pildid/paavlilivetramhaus.webp"
+   "img": "https://www.skene.info/pildid/paavlilivetramhaus.webp"
   },
   {
    "sait": "www",
@@ -4300,7 +4301,7 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235453",
-   "img": "pildid/tarjafrissontuur.webp"
+   "img": "https://www.skene.info/pildid/tarjafrissontuur.webp"
   },
   {
    "sait": "www",
@@ -4318,7 +4319,7 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=235199",
-   "img": "pildid/sabaton.webp"
+   "img": "https://www.skene.info/pildid/sabaton.webp"
   },
   {
    "sait": "www",
@@ -4395,7 +4396,7 @@
    "on_": "graspop.be",
    "ou": "https://www.graspop.be/en/",
    "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA",
-   "img": "pildid/graspopmetalmeeting2027.webp"
+   "img": "https://www.skene.info/pildid/graspopmetalmeeting2027.webp"
   },
   {
    "sait": "www",
@@ -4420,7 +4421,7 @@
    "ou": "https://hellfest.fr/en",
    "pu": "https://tickets.hellfest.fr",
    "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA",
-   "img": "pildid/hellfest2027.webp"
+   "img": "https://www.skene.info/pildid/hellfest2027.webp"
   },
   {
    "sait": "www",
@@ -4466,7 +4467,7 @@
    "on_": "tonsofrock.no",
    "ou": "https://www.tonsofrock.no/en",
    "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA",
-   "img": "pildid/tonsofrock2027.webp"
+   "img": "https://www.skene.info/pildid/tonsofrock2027.webp"
   },
   {
    "sait": "klubi",
@@ -4531,7 +4532,7 @@
    "ou": "https://ilandsound.ee/en/",
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist)",
-   "img": "pildid/ilandsound2027.webp"
+   "img": "https://klubi.skene.info/pildid/ilandsound2027.webp"
   },
   {
    "sait": "www",
@@ -4583,7 +4584,7 @@
    "on_": "paavli.ee",
    "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
    "pu": "https://piletitasku.ee/et/event/10014",
-   "img": "pildid/tartupunch2027.webp",
+   "img": "https://rap.skene.info/pildid/tartupunch2027.webp",
    "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata."
   }
  ]

@@ -32,6 +32,18 @@ SITES = [
     ("klubi", ROOT / "klubi" / "data"),
 ]
 
+# Pisipildi "img" on saidi enda failides SUHTELINE ("pildid/x.webp"), sest iga
+# sait serveerib oma kausta. Koondfeedis see kuju ei toimi: www lehel lahenduks
+# klubi kirje pilt vastu /pildid/ (= metal-kaust) ja annaks 404. Juurest algav
+# tee ("/klubi/pildid/x.webp") EI kolba ka, sest vercel.json host-route teeb
+# klubi.skene.info-l /(.*) -> /klubi/$1 ehk tekiks /klubi/klubi/pildid/...
+# Ainus kuju, mis toimib koigil kolmel hostil, on taielik URL.
+IMG_HOST = {
+    "www": "https://www.skene.info",
+    "rap": "https://rap.skene.info",
+    "klubi": "https://klubi.skene.info",
+}
+
 FIELDS = {
     "sait": "alamdomeen: www (metal/rock/punk, www.skene.info) | rap (Eesti hip-hop, rap.skene.info) | klubi (elektrooniline klubikultuur, klubi.skene.info)",
     "d": "alguskuupaev ISO (AAAA-KK-PP); reliisil valjalaskekuupaev",
@@ -54,6 +66,7 @@ FIELDS = {
     "rel": "1 = reliisi/merchi kirje (naidatakse 'uus' 30 paeva alates 'lisatud')",
     "lisatud": "saidile lisamise kuupaev (reliisidel, 'uus' 30 paeva)",
     "tba": "1 = koosseis/detailid alles tapsustamisel",
+    "img": "pisipildi taielik URL (https://<sait>.skene.info/pildid/...); puudub, kui pilti pole",
     "nb": "vabatekstiline markus",
 }
 
@@ -85,18 +98,27 @@ def _write(path, sisu, entries):
                     encoding="utf-8")
 
 
+def _pub(sait, e):
+    """Kirje avalikuks: lisab 'sait' ja teeb 'img' taielikuks URLiks."""
+    out = {"sait": sait, **e}
+    img = out.get("img")
+    if isinstance(img, str) and img and not img.startswith(("http://", "https://")):
+        out["img"] = f"{IMG_HOST[sait]}/{img.lstrip('/')}"
+    return out
+
+
 def build():
     """Tagastab (n_events, n_archive)."""
     API.mkdir(exist_ok=True)
     events, archive = [], []
     for sait, ddir in SITES:
         for e in load_entries(ddir / "data.json"):
-            events.append({"sait": sait, **e})
+            events.append(_pub(sait, e))
         adir = ddir / "archive"
         if adir.exists():
             for f in sorted(adir.glob("[0-9][0-9][0-9][0-9].json")):
                 for e in load_entries(f):
-                    archive.append({"sait": sait, **e})
+                    archive.append(_pub(sait, e))
     events.sort(key=lambda e: (e.get("d", ""), e.get("n", "")))
     archive.sort(key=lambda e: (e.get("d", ""), e.get("n", "")))
     _write(API / "events.json", "tulevased + varsked kirjed", events)

@@ -615,8 +615,10 @@ function markSvg(e){
   return '<svg class="mark" viewBox="0 0 100 100" role="img" aria-label="'+esc(t('tag_'+e.t))+'">'
     +(MARGID[e.t]||MARGID.kontsert)+'</svg>';
 }
-// pisipildi tee on ALATI kohalik ja suhteline (pildid/<slug>.webp) - vali-URL-e ei lubata
-const purl=u=>/^pildid\/[A-Za-z0-9._-]+\.(webp|jpg|jpeg|png)$/i.test(String(u??""))?esc(u):"";
+// Lubatud on saidi enda suhteline tee ("pildid/x.webp", data.json-ist) VOI
+// koondfeedi taielik URL ("https://klubi.skene.info/pildid/x.webp",
+// api/events.json-ist). Valge nimekiri jaab range: ainult skene.info hostid.
+const purl=u=>/^(?:https:\/\/(?:www|rap|klubi)\.skene\.info\/)?pildid\/[A-Za-z0-9._-]+\.(webp|jpg|jpeg|png)$/i.test(String(u??""))?esc(u):"";
 function thumbHtml(e,tc){
   const link=surl(e.ou||e.su);
   const pu=purl(e.img);
