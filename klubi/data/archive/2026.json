@@ -470,6 +470,26 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1212020365333845/",
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; varem 1 allikaga ootel (HANDOVER sekts 4, allevents.in). Kinnitatud 2+ allikaga: Rada7 uudiskiri + FB event (pealkiri 'CABARET VOLTA SUVEPÄEV', 'Sunday 2 PM – 11 PM', Uus-Volta 5, Tallinn) + allevents.in. Eksperimentaal/noise baasžanr → klubi."
+  },
+  {
+   "d": "2026-08-05",
+   "t": "klubi",
+   "n": "Petricore (IT)",
+   "a": "Itaalia DJ Petricore (Luca), kollektiivide Laundry Boyz ja SMILE asutaja; 21.00–02.00",
+   "b": [
+    "Petricore (IT)"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "tsungel.ee",
+   "su": "https://tsungel.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2496375707441417/",
+   "nb": "lisatud 02.08.2026. Sweep leidis ainult tsungel.ee (RA-l seda kuupäeva pole); Silver andis teise allika — venue lehelt viitav FB-event. Žanrisilt 'house' on tuletatud venue profiilist ja artisti kollektiividest, mitte otseallikast — tsungel.ee tekst žanri ei nimeta.",
+   "img": "pildid/petricoreit.webp"
   }
  ]
 }
