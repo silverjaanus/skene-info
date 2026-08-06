@@ -161,8 +161,10 @@ def intro_block(lang, accent):
                   f'padding:11px 18px;">{btn["tekst"]}</a>')
     if not (head_html or paras or btn_html):
         return ""
+    # NB asukoht: plokk on kirja ALGUSES, tumeda paise ja "Tulevad uritused"
+    # pealkirja VAHEL (Silveri otsus 06.08) -- uudised enne, uritused parast.
     return f"""  <!-- sissejuhatav plokk (data/uudiskiri-intro.json; aegub ise) -->
-  <tr><td style="padding:16px 28px 2px;">
+  <tr><td style="padding:22px 28px 0;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PABER};border-left:4px solid {accent};">
       <tr><td style="padding:18px 20px;">
         {head_html}{paras}{btn_html}
@@ -297,6 +299,7 @@ def build_html(entries, ws, we, lang, cats):
     </div>
   </td></tr>
 
+{intro_html}
   <!-- pealkiri -->
   <tr><td style="padding:22px 28px 8px;">
     <div style="font:800 32px/1.05 Arial,Helvetica,sans-serif;color:{TINT};letter-spacing:-.5px;">{L['title']}</div>
@@ -304,7 +307,6 @@ def build_html(entries, ws, we, lang, cats):
     <div style="margin:14px 0 2px;"><a href="{cta_url}" style="display:inline-block;font:700 12px/1 'Courier New',monospace;color:{PABER};background:{accent};text-decoration:none;padding:9px 14px;letter-spacing:.3px;">{cta_txt}</a></div>
   </td></tr>
 
-{intro_html}
   <!-- uritused -->
   <tr><td style="padding:12px 28px 4px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{rows}

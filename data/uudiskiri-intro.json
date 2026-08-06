@@ -1,6 +1,6 @@
 {
   "_abi": [
-    "Uudiskirja sissejuhatav plokk. Ilmub kirja alguses, ürituste kohal.",
+    "Uudiskirja sissejuhatav plokk. Ilmub kirja ALGUSES, enne 'Tulevad uritused' pealkirja.",
     "aktiivne=false VOI kuni-kuupaev moodas -> plokki EI panda kirja (automaatne aegumine,",
     "et automaatsaatmine ei kordaks sama teksti iga nadal).",
     "tekst = loend loikudest; lihtne HTML (<b>, <a>, <i>) on lubatud.",
@@ -11,27 +11,27 @@
   "et": {
     "pealkiri": "Mis saidil vahepeal muutunud",
     "tekst": [
-      "Ürituste nimekirja kõrvale tuli kalendrivaade: kuu-ruudustik, kus üritustega päevad on märgitud värvilise ringiga ja päeva klõps filtreerib nimekirja. Vana kuude-loend on endiselt olemas, vaadete vahel saab lülitada.",
-      "Uued reliisid ja merch kolisid eraldi ribasse ürituste kohale, nii et kontsertide nimekiri jääb puhtaks. Saidi päis sai uue kuju ja see kiri järgib nüüd sama joont.",
-      "Kõrval elavad edasi <a href=\"https://rap.skene.info/\">rap.skene.info</a> ja <a href=\"https://klubi.skene.info/\">klubi.skene.info</a> — kumbki oma žanri täies mahus, ja sa saad ise valida, millised neist sinu kirja jõuavad."
+      "Viimastel nädalatel on skene.info päris palju muutunud. Reliisid ei domineeri enam nimekirja esiosa, vaid on eraldi ribas, kus näed kuut kõige uuemat — sealt saab edasi minna kõiki vaatama, koos arhiiviga.",
+      "Nii palju kui automaatselt võimalik, on kirjetel nüüd õiged pildid juures. Filtritesse lisandus &bdquo;sait&ldquo;: kui vaatad kalendris mingit kindlat kuupäeva, saad valida, kas näed ainult oma klubimuusika üritusi või ka teiste žanrite omi.",
+      "Üritusi on kõige parem lisada kontaktivormiga, mis on saidi vasakus servas — sealtsamast võid ka niisama kirjutada. Või kirjuta Instagramis <a href=\"https://www.instagram.com/skene.info/\">@skene.info</a>."
     ],
     "nupp": {
       "tekst": "Anna tagasisidet &rarr;",
-      "url": "https://www.skene.info/tagasiside.html",
-      "saatetekst": "Uus on ka tagasisidevorm — neli küsimust, paar minutit. See on kõige otsem viis öelda, mis saidil puudu või valesti on."
+      "url": "https://www.skene.info/tagasiside.html?s=www",
+      "saatetekst": "Oleksin tänulik, kui leiad hetke ja annad skene.info kohta tagasisidet."
     }
   },
   "en": {
-    "pealkiri": "What changed on the site",
+    "pealkiri": "What has changed on the site",
     "tekst": [
-      "The event list now has a calendar view: a month grid where days with events are marked with a coloured ring, and clicking a day filters the list. The old month list is still there — you can switch between the two.",
-      "New releases and merch moved into their own strip above the events, keeping the concert list clean. The site header was redesigned and this email now follows the same look.",
-      "Alongside it, <a href=\"https://rap.skene.info/\">rap.skene.info</a> and <a href=\"https://klubi.skene.info/\">klubi.skene.info</a> keep running — each with the full range of its genre, and you choose which ones reach your inbox."
+      "skene.info has changed quite a bit over the past few weeks. Releases no longer dominate the top of the list — they sit in a strip of their own showing the six newest, and from there you can go on to browse them all, archive included.",
+      "Wherever it can be done automatically, entries now carry proper images. A &bdquo;site&ldquo; filter was added: when you look at a specific date in the calendar, you can choose whether to see only your own club music events or those of the other genres as well.",
+      "The best way to add an event is the contact form in the left-hand column of the site — you can just as well use it to write to us about anything. Or send a message on Instagram to <a href=\"https://www.instagram.com/skene.info/\">@skene.info</a>."
     ],
     "nupp": {
       "tekst": "Give feedback &rarr;",
-      "url": "https://www.skene.info/tagasiside.html",
-      "saatetekst": "There is also a feedback form now — four questions, a couple of minutes. It is the most direct way to tell us what is missing or wrong."
+      "url": "https://www.skene.info/tagasiside.html?s=www",
+      "saatetekst": "I would be grateful if you found a moment to give feedback on skene.info."
     }
   }
 }
