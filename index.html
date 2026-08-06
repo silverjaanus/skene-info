@@ -256,6 +256,11 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
   .calgrid{column-gap:2px}
   .calcell{aspect-ratio:auto;height:32px}
 }
+/* Skoobi-chipid: oma sait on alati sees ja klikitav ei ole; teised on kinni seni,
+   kuni api/events.json on laetud. */
+.chip.self{cursor:default}
+.chip[disabled]{opacity:.55}
+.chip.self[disabled]{opacity:1}
 /* --- TAGASISIDE-BANNER: uks kitsas rida paise all, suletav (localStorage) --- */
 .fbban{display:flex;align-items:center;gap:12px;
   border-bottom:1px solid var(--joon);padding:13px 0;font-family:var(--mono)}
@@ -331,6 +336,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
       <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
       <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
+      <div class="frow"><span class="flabel" data-i18n="f_scope_l">Sait</span><span id="f-scope"></span></div>
     </div>
   </nav>
 </header>
@@ -459,6 +465,8 @@ const I18N={
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
+  f_scope_l:"Sait", f_scope_self:"See sait on alati näha",
+  f_scope_off:"api/events.json ei laadinud — teiste saitide kirjeid ei saa juurde võtta",
   rel_h:"Uued reliisid", rel_all:"Kõik reliisid →",
   rel_arch:"Näita ka arhiveeritud reliise", rel_arch_load:"Laen arhiivi…",
   rel_arch_err:"Arhiivi laadimine ebaõnnestus. Proovi hetke pärast uuesti.",
@@ -509,6 +517,8 @@ const I18N={
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
+  f_scope_l:"Site", f_scope_self:"This site is always shown",
+  f_scope_off:"api/events.json did not load — entries from the other sites cannot be added",
   rel_h:"New releases", rel_all:"All releases →",
   rel_arch:"Also show archived releases", rel_arch_load:"Loading archive…",
   rel_arch_err:"Could not load the archive. Please try again in a moment.",
@@ -793,7 +803,8 @@ function render(){
   const q=st.q;
   // Otsingul (q täidetud) segavaade kõigist 3 domeenist (ALLX); muidu ainult see sait (E).
   // Žanri-metafiltrid on saidispetsiifilised → otsingurežiimis neid ei rakendata.
-  let base=q?(ALLX.length?ALLX:E):E;
+  // Otsing naitab alati koiki kolme saiti (ALLX); muidu kehtib skoop.
+  let base=q?(ALLX.length?ALLX:E):scoped();
   // Arhiveeritud reliisid EI ela E-s (muidu tekiks kalendrisse minevikutappe) - need
   // liidetakse ainult reliisivaates, kui kasutaja on arhiivi ise juurde kusinud.
   if(ARCHON&&st.type==="reliis"&&ARCHREL.length)base=base.concat(ARCHREL);
@@ -828,6 +839,9 @@ function render(){
     +(st.day?" · "+st.day.slice(8,10)+"."+st.day.slice(5,7)+"."+st.day.slice(0,4):"")
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
     +((!st.q&&(st.metas.size||st.tags.size))?" · "+t('genre_c')+" "+[...st.metas,...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
+  // Otsing kaib niikuinii koigi kolme saidi peale, seega skoobi-silt oleks seal eksitav.
+  if(!q&&scope.size>1)document.getElementById("count").textContent+=
+    " · "+SAIDID.filter(s=>scope.has(s)).map(s=>SITE_LBL[s]).join("+");
   RROWS=rows;
   document.getElementById("list").innerHTML=rows.map((e,i)=>{
     // reliis/merch ei "lae labi" - "LÄBI" silt kaib ainult urituste kohta
@@ -853,7 +867,7 @@ function render(){
       <div>
         <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd"><span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
-        <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<span class="laebi">'+t('lbl_past')+'</span>':""}${st.q?`<a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
+        <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<span class="laebi">'+t('lbl_past')+'</span>':""}${(st.q||scope.size>1)?`<a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length>1?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
       <div class="loc"><span class="venue">${esc(e.v)}</span>${(e.t==="reliis"||e.t==="merch")?"":(e.linn?esc(e.linn):(e.c==="mujal"?"":esc(e.c)))}<div class="lnks">${lnks}</div></div>
@@ -875,7 +889,7 @@ function cityChips(){
 }
 function kuud(){
   const m={};
-  const vis=E.filter(e=>{
+  const vis=scoped().filter(e=>{
     const past=!e.tba&&e.d<TODAY;   // sama reegel mis nimekirjas
     return st.past||!past;
   });
@@ -895,7 +909,7 @@ function covers(e,isoStr){
   const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);
 }
 function calBase(){ // aktiivsete filtritega (v.a kuu/päev) nähtavad kirjed — täppide alus
-  return E.filter(e=>{
+  return scoped().filter(e=>{
     if(!matchQ(e))return false;
     if(st.type&&e.t!==st.type)return false;
     if(st.metas.size){const em=entryMetas(e);if(![...st.metas].every(m=>em.has(m)))return false;}
@@ -976,6 +990,43 @@ function setF(k,v){
   refresh();
 }
 
+// ---------- SKOOP ----------
+// Milliste saitide kirjeid nimekirjas, kalendris ja kuude loendis naidatakse.
+// Oma sait on ALATI sees ja seda valja lulitada ei saa. Valikut EI salvestata kuhugi
+// (Silveri otsus 06.08): iga kulastus algab puhtalt oma saidi sisuga, sest alamdomeeni
+// mote on zanripohine - metal.skene.info ei tohi kellelegi vaikimisi poolenisti klubi olla.
+const SAIDID=["www","rap","klubi"];
+let scope=new Set([SELF]);
+// Voorad kirjed tulevad ALLX-ist (api/events.json), oma sait E-st (data.json).
+// E on varskem: ALLX-i koopia voib olla moni minut vanem. Sellepara valistame ALLX-ist
+// oma saidi, muidu tekiksid duplikaadid.
+function scoped(){
+  if(scope.size<=1||!ALLX.length)return E;
+  const muud=ALLX.filter(e=>e.sait!==SELF&&scope.has(e.sait));
+  return muud.length?E.concat(muud):E;
+}
+// NB: zanri- ja linnafiltrid kehtivad KOIGILE kirjetele, ka voorastele. Proovisin
+// alguses vastupidi (voorad labi filtri ei kai) ja see oli mootdetavalt vale: klubi-saidil
+// zanri "acid" valimine andis 97 kirjet - 1 klubi + KOIK 96 metal-kirjet filtreerimata.
+// Filtri lisamine ei tohi nimekirja suuremaks teha. Linnafilter (c) kasutab niikuinii
+// koigil kolmel saidil sama sonavara (Tallinn/Tartu/mujal/...), seega toimib ristsaidi.
+function scopeChips(){
+  const el=document.getElementById('f-scope');if(!el)return;
+  const katki=!ALLX.length;
+  el.innerHTML=SAIDID.map(function(s){
+    const on=scope.has(s), self=(s===SELF);
+    const kinni=self||(katki&&!on);
+    return '<button class="chip'+(on?" on":"")+(self?" self":"")+'" aria-pressed="'+on+'"'
+      +(kinni?' disabled title="'+esc(self?t('f_scope_self'):t('f_scope_off'))+'"':'')
+      +' onclick="toggleScope(\''+s+'\')">'+SITE_LBL[s]+'</button>';
+  }).join(" ");
+}
+function toggleScope(s){
+  if(s===SELF||!ALLX.length)return;
+  if(scope.has(s))scope.delete(s);else scope.add(s);
+  refresh();
+}
+
 // ---------- TAGASISIDE-BANNER ----------
 // Vorm elab AINULT www-l: vercel.json host-route teeb alamdomeenil /(.*) -> /<sait>/$1,
 // seega suhteline link annaks rap/klubi peal 404. Sellepara taielik URL + ?s=<sait>,
@@ -1004,7 +1055,9 @@ const RELN=6;
 const relUid=e=>(e.d||"")+"|"+(e.n||"");
 let ARCHREL=[], ARCHON=false, ARCHBUSY=false;
 function relPool(){
-  return (E||[]).filter(featured).sort((a,b)=>(b.lisatud||"").localeCompare(a.lisatud||""));
+  // Riba jargib skoopi: kui kasutaja lisas klubi juurde, on ka klubi reliisid ribal.
+  // (Arhiivinupp jaab oma saidi arhiivi juurde - data/archive/ on saidipohine.)
+  return scoped().filter(featured).sort((a,b)=>(b.lisatud||"").localeCompare(a.lisatud||""));
 }
 function relPick(){
   const pool=relPool();
@@ -1098,7 +1151,7 @@ function refresh(){
   document.getElementById("f-tag").innerHTML=
     `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" aria-pressed="${st.metas.size===0&&st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
     METAS.map(m=>`<button class="chip${st.metas.has(m)?" on":""}" aria-pressed="${st.metas.has(m)}" onclick="setMeta('${m}')">${m}</button>`).join(" ");
-  kuud();renderCal();render();renderRel();renderArchBtn();fbBanner();
+  scopeChips();kuud();renderCal();render();renderRel();renderArchBtn();fbBanner();
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)
 function injectLD(){
@@ -1134,7 +1187,9 @@ function varuTeade(){
 applyI18n();applyCalView();E=E_FALLBACK;refresh();
 fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;injectLD();refresh();}).catch(()=>{varuTeade();});
 fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
-fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];if(st.q)render();}).catch(()=>{});
+// ALLX-i saabudes tuleb refresh() teha ka ilma otsinguta: skoobi-chipid on enne seda
+// kinni (pole mille pealt teisi saite juurde votta).
+fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];refresh();}).catch(()=>{});
 (function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
 </script>
 </body>
