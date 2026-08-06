@@ -27,7 +27,7 @@ Reeglid (vt PROJEKT.md):
 import argparse, json, os, random, re, sys, datetime as dt
 
 try:
-    from PIL import Image, ImageDraw, ImageFont
+    from PIL import Image, ImageDraw, ImageFont, ImageChops, ImageOps
 except ImportError:
     sys.exit("Vajalik: pip install pillow")
 
@@ -52,6 +52,15 @@ TYPE_LABEL = {"kontsert": "KONTSERT", "festival": "FESTIVAL", "klubi": "KLUBI",
 # kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat karussellis
 CAT_COLOR = {"metal": (0x93,0x39,0x2C), "rap": (0x2E,0x5E,0xAA), "klubi": (0x6E,0x45,0xA8)}
 CAT_LABEL_IMG = {"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"}
+
+# ---- tume plakatipea (saidi paise umberdisain 08.2026, commit 3066137) ----
+# Saidi paises on zanrisonad METAL / RAP / KLUBI pealkirjana tumedal tindil:
+# esindatud kategooriad heledas tunnusvarvis, ulejaanud tuhmid. Sama loogika ka
+# uudiskirjas (make_weekly_email.py CAT_BRIGHT / CAT_DIM) -- hoia neid koos.
+HDRMUTED   = (0xA6, 0xA1, 0x92)
+CAT_BRIGHT = {"metal": (0xD9, 0x6A, 0x52), "rap": (0x6E, 0x9B, 0xE0), "klubi": (0xA8, 0x7F, 0xE8)}
+CAT_DIM    = {"metal": (0x70, 0x3E, 0x33), "rap": (0x40, 0x54, 0x73), "klubi": (0x5A, 0x47, 0x77)}
+CAT_WORD   = {"metal": "METAL", "rap": "RAP", "klubi": "KLUBI"}   # brandisonad = saidil
 KUUD_GEN = {1:"jaanuar",2:"veebruar",3:"marts",4:"aprill",5:"mai",6:"juuni",
             7:"juuli",8:"august",9:"september",10:"oktoober",11:"november",12:"detsember"}
 
@@ -91,6 +100,8 @@ MONO_B = ["C:/Windows/Fonts/consolab.ttf",
 
 def load_fonts():
     return {"eyebrow": _font(MONO_R, 24), "h1": _font(SANS_B, 80),
+            "gword": _font(SANS_B, 54), "kicker": _font(MONO_R, 20),
+            "kicker_b": _font(MONO_B, 20), "h2": _font(SANS_B, 38),
             "sub": _font(MONO_R, 26), "date": _font(MONO_B, 38),
             "wday": _font(MONO_R, 19), "tag": _font(MONO_B, 18),
             "title": _font(SANS_B, 35), "title_s": _font(SANS_B, 29),
@@ -144,9 +155,21 @@ def price_text(e):
     return p
 
 # ---- lehe geomeetria (jagatud mootmise ja renderdamise vahel) ----
+# Paise umberdisain 08.2026: tume plakatipea (0..HEAD_H) + heledal pealkirjarida.
+# NB MAHT: vana paise kork oli TOP=300 / START_Y=308 ja lehele mahtus 6 kirjet.
+# Uus pais on TAHTLIKULT kokku surutud nii, et START_Y jaab <= 300 -- vastasel
+# juhul mahub lehele 5 kirjet ja karussell laheb pikemaks (35 kirjet: 6 -> 7 slaidi).
+# Kui muudad allolevaid arve, kontrolli ule, mitu lehte tuleb.
 FOOT_H = 120
-SUB_Y = 82 + 84 + 88
-TOP = SUB_Y + 46
+HEAD_H = 176          # tumeda plakatipea korgus
+LOGO_XY = (MARGIN, 38)
+LOGO_SIZE = 100
+GWORD_X = MARGIN + LOGO_SIZE + 28
+GWORD_Y = 40
+KICKER_Y = 110
+H2_Y = HEAD_H + 28    # "TULEVAD URITUSED"
+SUB_Y = H2_Y + 48     # kuupaevavahemik . kirjete arv . lehekulg
+TOP = SUB_Y + 40
 START_Y = TOP + 8
 ROW_LIMIT = (H - FOOT_H) - 16
 
@@ -184,15 +207,50 @@ def pick_logo(logo_dir):
             return p
     return None
 
+def tint_logo(path, size, colour):
+    """Varvib logo TINDI umber antud varvi ja teeb tausta labipaistvaks.
+
+    Logofailid on must tint labipaistval (v10 puhul heledal) taustal -- tumedal
+    plakatipeal oleksid nad nahtamatud. Mask = tindi tugevus (tume piksel ->
+    tugev mask) KORRUTATUD algse alfaga, nii et tootavad molemat sorti failid."""
+    im = Image.open(path).convert("RGBA")
+    r, g, b, a = im.split()
+    ink = ImageOps.invert(Image.merge("RGB", (r, g, b)).convert("L"))
+    mask = ImageChops.multiply(ink, a)
+    out = Image.new("RGBA", im.size, colour + (0,))
+    out.putalpha(mask)
+    return out.resize((size, size), Image.LANCZOS)
+
 def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
-                fonts, overflow=0):
+                fonts, overflow=0, cats_present=None):
     img = Image.new("RGB", (W, H), PABER)
     d = ImageDraw.Draw(img)
 
-    # ---- pais ----
-    d.text((MARGIN, 48), "SKENE.INFO  ·  EESTI ALTERNATIIV", font=fonts["eyebrow"], fill=HALL)
-    d.text((MARGIN, 82), "TULEVAD", font=fonts["h1"], fill=TINT)
-    d.text((MARGIN, 82 + 84), "ÜRITUSED", font=fonts["h1"], fill=TINT)
+    # ---- tume plakatipea (saidi kujundus) ----
+    cats_present = set(cats_present or CAT_ORDER)
+    d.rectangle([0, 0, W, HEAD_H], fill=TINT)
+
+    # logo vasakule, tint heledaks (tumedal taustal); sama variant koigil lehtedel
+    if logo_path:
+        logo = tint_logo(logo_path, LOGO_SIZE, PABER)
+        img.paste(logo, LOGO_XY, logo)
+
+    # zanrisonad pealkirjana: esindatud kategooriad heledad, ulejaanud tuhmid
+    gx = GWORD_X
+    for c in CAT_ORDER:
+        col = (CAT_BRIGHT if c in cats_present else CAT_DIM)[c]
+        d.text((gx, GWORD_Y), CAT_WORD[c], font=fonts["gword"], fill=col)
+        gx += d.textlength(CAT_WORD[c], font=fonts["gword"]) + 26
+
+    # kicker: SKENE.INFO heledalt, ulejaanu tuhmilt (sama rida mis saidil)
+    kx = GWORD_X
+    d.text((kx, KICKER_Y), "SKENE.INFO", font=fonts["kicker_b"], fill=PABER)
+    kx += d.textlength("SKENE.INFO", font=fonts["kicker_b"])
+    d.text((kx, KICKER_Y), "  ▪  eesti alternatiiv  ▪  üks võrgustik",
+           font=fonts["kicker"], fill=HDRMUTED)
+
+    # ---- pealkirjarida heledal ----
+    d.text((MARGIN, H2_Y), "TULEVAD ÜRITUSED", font=fonts["h2"], fill=TINT)
     if ws.month == we.month:
         rng = f"{ws.day}.–{we.day}. {KUUD_GEN[ws.month]} {we.year}"
     else:
@@ -201,11 +259,6 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
     if n_pages > 1:
         sub += f"  ·  {page_no}/{n_pages}"
     d.text((MARGIN, SUB_Y), sub, font=fonts["sub"], fill=TELLISKIVI)
-
-    # ---- logo nurka (sama variant koigil lehtedel) ----
-    if logo_path:
-        logo = Image.open(logo_path).convert("RGBA").resize((128, 128), Image.LANCZOS)
-        img.paste(logo, (W - MARGIN - 128, 52), logo)
 
     d.line([(MARGIN, TOP), (W - MARGIN, TOP)], fill=TINT, width=3)
 
@@ -384,11 +437,15 @@ def main():
 
     logo_path = pick_logo(args.logo_dir)
     n_pages = len(pages)
+    # zanrisonad paises: heledad need kategooriad, mis sel nadalal PARISELT esinevad
+    # (kogu karusselli peale, mitte lehe kaupa -- muidu vilguks pais slaidide vahel)
+    cats_present = {e.get("_cat") for e in sel if e.get("_cat")}
     paths = []
     for i, rows in enumerate(pages, start=1):
         p = render_page(rows, ws, we, len(sel), i, n_pages, logo_path,
                         page_path(out, i), fonts,
-                        overflow=(overflow if i == n_pages else 0))
+                        overflow=(overflow if i == n_pages else 0),
+                        cats_present=cats_present)
         paths.append(p)
 
     shown = sum(len(p_) for p_ in pages)

@@ -48,6 +48,12 @@ MANAGE_LINK="{$preferences}"
 SHOW_CROSS_PROMO=False
 SITE_URL="https://www.skene.info/"
 
+# ---- valikuline sissejuhatav plokk (data/uudiskiri-intro.json) ----
+# Sisu elab JSON-is, mitte koodis: uudised saidilt, kampaania, tagasisideviide.
+# AEGUB ISE: kui "aktiivne" on false VOI "kuni" kuupaev on moodas, plokki kirja EI panda.
+# See on tahtlik - automaatsaatmine ei tohi sama teksti iga nadal korrata.
+INTRO=None
+
 # ---- chrome i18n (ainult liides; ANDMED jaavad ET) ----
 I18N={
  "et":{
@@ -99,6 +105,71 @@ I18N={
 }
 
 def esc(s): return html.escape(s or "")
+
+def load_intro(repo, ref=None, path=None):
+    """Laeb sissejuhatava ploki data/uudiskiri-intro.json-ist globaali INTRO.
+
+    Tagastab dict'i voi None. Plokk jaetakse VAHELE kui: faili pole, aktiivne=false,
+    "kuni" kuupaev on moodas, voi fail on katki (katki = hoiatus + edasi ilma plokita,
+    mitte katkestus - kiri on tahtsam kui plokk)."""
+    global INTRO
+    INTRO=None
+    p=path or os.path.join(repo or ".", "data", "uudiskiri-intro.json")
+    if not os.path.exists(p):
+        return None
+    try:
+        d=json.load(open(p, encoding="utf-8"))
+    except Exception as e:
+        print("HOIATUS: %s pole loetav (%s) -> intro-plokk jaab kirjast valja." % (p, e))
+        return None
+    if not d.get("aktiivne"):
+        print("MARKUS: intro-plokk on aktiivne=false -> kirja ei panda.")
+        return None
+    kuni=d.get("kuni")
+    if kuni:
+        try:
+            if (ref or today_local()) > parse_d(kuni):
+                print("MARKUS: intro-plokk aegus %s -> kirja ei panda." % kuni)
+                return None
+        except Exception:
+            print("HOIATUS: intro 'kuni' vaartus %r pole kuupaev -> plokk jaab valja." % (kuni,))
+            return None
+    INTRO=d
+    print("MARKUS: intro-plokk AKTIIVNE (kuni %s)." % (kuni or "-"))
+    return d
+
+def intro_block(lang, accent):
+    """Sissejuhatava ploki HTML (voi tuhi soon). Tekst tuleb JSON-ist, HTML on lubatud."""
+    if not INTRO:
+        return ""
+    b=INTRO.get(lang) or INTRO.get("et") or {}
+    paras="".join(
+        f'<div style="font:400 14px/1.6 Arial,Helvetica,sans-serif;color:{TINT};margin:0 0 10px;">{p}</div>'
+        for p in (b.get("tekst") or []) if str(p).strip())
+    head=(b.get("pealkiri") or "").strip()
+    head_html=(f'<div style="font:800 17px/1.25 Arial,Helvetica,sans-serif;color:{TINT};'
+               f'margin:0 0 10px;">{head}</div>') if head else ""
+    btn=b.get("nupp") or {}
+    btn_html=""
+    if btn.get("tekst") and btn.get("url"):
+        lead=(btn.get("saatetekst") or "").strip()
+        lead_html=(f'<div style="font:400 14px/1.6 Arial,Helvetica,sans-serif;color:{HALL};'
+                   f'margin:14px 0 12px;">{lead}</div>') if lead else \
+                  '<div style="height:8px;font-size:0;line-height:0;">&nbsp;</div>'
+        btn_html=(lead_html + f'<a href="{btn["url"]}" style="display:inline-block;background:{accent};'
+                  f'color:{PABER};font:700 13px/1 Arial,Helvetica,sans-serif;text-decoration:none;'
+                  f'padding:11px 18px;">{btn["tekst"]}</a>')
+    if not (head_html or paras or btn_html):
+        return ""
+    return f"""  <!-- sissejuhatav plokk (data/uudiskiri-intro.json; aegub ise) -->
+  <tr><td style="padding:16px 28px 2px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PABER};border-left:4px solid {accent};">
+      <tr><td style="padding:18px 20px;">
+        {head_html}{paras}{btn_html}
+      </td></tr>
+    </table>
+  </td></tr>
+"""
 
 def price_text(e):
     h=e.get("hind")
@@ -183,6 +254,7 @@ def build_html(entries, ws, we, lang, cats):
     accent=CAT_COLOR[solo] if solo else TELLISKIVI
     cta_url=CAT_SITE[solo] if solo else SITE_URL
     cta_txt=L["site_cta"].replace("skene.info", CAT_HOST[solo]) if solo else L["site_cta"]
+    intro_html=intro_block(lang, accent)
     promo_html=""
     if missing:
         CL=CAT_LABEL.get(lang,CAT_LABEL["et"])
@@ -232,6 +304,7 @@ def build_html(entries, ws, we, lang, cats):
     <div style="margin:14px 0 2px;"><a href="{cta_url}" style="display:inline-block;font:700 12px/1 'Courier New',monospace;color:{PABER};background:{accent};text-decoration:none;padding:9px 14px;letter-spacing:.3px;">{cta_txt}</a></div>
   </td></tr>
 
+{intro_html}
   <!-- uritused -->
   <tr><td style="padding:12px 28px 4px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{rows}
@@ -340,6 +413,8 @@ def main():
     ap.add_argument("--out", required=True, help="baasnimi; toodab <out>-<kombo>.et/.en.html")
     ap.add_argument("--date", default=None)
     ap.add_argument("--config", default="mailerlite_config.json")
+    ap.add_argument("--intro", default=None, help="teine intro-fail (vaikimisi data/uudiskiri-intro.json)")
+    ap.add_argument("--no-intro", action="store_true", help="jata sissejuhatav plokk ara")
     args=ap.parse_args()
 
     global MANAGE_LINK
@@ -351,6 +426,11 @@ def main():
 
     ref=parse_d(args.date) if args.date else today_local()
     ws,we=this_and_next_week(ref)
+
+    if not args.no_intro:
+        repo_for_intro=args.repo or (os.path.dirname(os.path.dirname(os.path.abspath(args.data)))
+                                     if args.data else ".")
+        load_intro(repo_for_intro, ref, args.intro)
 
     if args.repo:
         all_ev=load_sources(args.repo, ws, we)

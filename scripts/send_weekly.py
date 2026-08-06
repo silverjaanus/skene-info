@@ -125,6 +125,8 @@ def main():
     ap.add_argument("--skip-groups", action="store_true", help="ara muuda ambri liikmelisust")
     ap.add_argument("--settle", type=int, default=30,
                     help="sekundeid liikmelisuse ja kampaania loomise vahel (vaikimisi 30)")
+    ap.add_argument("--no-intro", action="store_true",
+                    help="jata data/uudiskiri-intro.json plokk kirjast valja")
     a = ap.parse_args()
     cfg = json.load(open(a.config, encoding="utf-8"))
     token = open(a.token_file, encoding="utf-8").read().strip()
@@ -134,6 +136,9 @@ def main():
 
     ref = gen.parse_d(a.date) if a.date else dt.date.today()
     ws, we = gen.this_and_next_week(ref)
+    # Sissejuhatav plokk (data/uudiskiri-intro.json). Aegub ise -- vt gen.load_intro().
+    if not a.no_intro:
+        gen.load_intro(a.repo, ref)
     all_ev = gen.load_sources(a.repo, ws, we)
 
     subinfo = build_subinfo(cat_groups, token)

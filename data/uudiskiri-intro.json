@@ -1,0 +1,37 @@
+{
+  "_abi": [
+    "Uudiskirja sissejuhatav plokk. Ilmub kirja alguses, ürituste kohal.",
+    "aktiivne=false VOI kuni-kuupaev moodas -> plokki EI panda kirja (automaatne aegumine,",
+    "et automaatsaatmine ei kordaks sama teksti iga nadal).",
+    "tekst = loend loikudest; lihtne HTML (<b>, <a>, <i>) on lubatud.",
+    "nupp = valikuline; jata null-iks kui nuppu pole vaja."
+  ],
+  "aktiivne": true,
+  "kuni": "2026-08-07",
+  "et": {
+    "pealkiri": "Mis saidil vahepeal muutunud",
+    "tekst": [
+      "Ürituste nimekirja kõrvale tuli kalendrivaade: kuu-ruudustik, kus üritustega päevad on märgitud värvilise ringiga ja päeva klõps filtreerib nimekirja. Vana kuude-loend on endiselt olemas, vaadete vahel saab lülitada.",
+      "Uued reliisid ja merch kolisid eraldi ribasse ürituste kohale, nii et kontsertide nimekiri jääb puhtaks. Saidi päis sai uue kuju ja see kiri järgib nüüd sama joont.",
+      "Kõrval elavad edasi <a href=\"https://rap.skene.info/\">rap.skene.info</a> ja <a href=\"https://klubi.skene.info/\">klubi.skene.info</a> — kumbki oma žanri täies mahus, ja sa saad ise valida, millised neist sinu kirja jõuavad."
+    ],
+    "nupp": {
+      "tekst": "Anna tagasisidet &rarr;",
+      "url": "https://www.skene.info/tagasiside.html",
+      "saatetekst": "Uus on ka tagasisidevorm — neli küsimust, paar minutit. See on kõige otsem viis öelda, mis saidil puudu või valesti on."
+    }
+  },
+  "en": {
+    "pealkiri": "What changed on the site",
+    "tekst": [
+      "The event list now has a calendar view: a month grid where days with events are marked with a coloured ring, and clicking a day filters the list. The old month list is still there — you can switch between the two.",
+      "New releases and merch moved into their own strip above the events, keeping the concert list clean. The site header was redesigned and this email now follows the same look.",
+      "Alongside it, <a href=\"https://rap.skene.info/\">rap.skene.info</a> and <a href=\"https://klubi.skene.info/\">klubi.skene.info</a> keep running — each with the full range of its genre, and you choose which ones reach your inbox."
+    ],
+    "nupp": {
+      "tekst": "Give feedback &rarr;",
+      "url": "https://www.skene.info/tagasiside.html",
+      "saatetekst": "There is also a feedback form now — four questions, a couple of minutes. It is the most direct way to tell us what is missing or wrong."
+    }
+  }
+}
