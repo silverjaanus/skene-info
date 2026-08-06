@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tagasiside — skene.info</title>
+<meta name="description" content="Ütle, mis skene.info juures töötab ja mis võiks parem olla.">
+<meta name="robots" content="noindex,nofollow">
+<script defer src="/_vercel/insights/script.js"></script>
+<style>
+:root{
+  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
+  --telliskivi:#93392C; --paatina:#2C5B54;
+  --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.55}
+a{color:inherit}
+header{padding:26px 24px 0;max-width:820px;margin:0 auto}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;border-bottom:3px solid var(--tint);padding-bottom:14px}
+.brand{font-size:clamp(26px,5vw,38px);line-height:.92;letter-spacing:-1.5px;text-transform:uppercase;font-weight:700;text-decoration:none}
+.brand .info{color:var(--telliskivi)}
+.topnav{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 18px;padding:10px 0 12px;font-family:var(--mono);font-size:12.5px}
+.topnav a{text-decoration:none;color:var(--tint)}
+.topnav a:hover{color:var(--telliskivi)}
+.langsw{display:flex;border:1.5px solid var(--joon);flex:none}
+.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hall);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.langsw button.on{background:var(--tint);color:var(--paber)}
+main{max-width:820px;margin:0 auto;padding:22px 24px 60px}
+h1{font-size:clamp(30px,5vw,44px);line-height:1;letter-spacing:-1px;text-transform:uppercase;font-weight:700;margin-bottom:6px}
+p{margin:0 0 12px;max-width:66ch}
+.lead{font-size:17px;margin-bottom:26px}
+fieldset{border:0;margin:0 0 26px;max-width:66ch}
+legend{font-family:var(--mono);font-size:12.5px;letter-spacing:.6px;text-transform:uppercase;font-weight:700;margin-bottom:10px;padding:0}
+legend .mitu{font-weight:400;color:var(--hall);text-transform:none;letter-spacing:0}
+.opt{border:1.5px solid var(--joon);background:#FBFAF5;margin:0 0 8px}
+.opt label{display:flex;gap:12px;align-items:flex-start;padding:11px 14px;cursor:pointer}
+.opt input{width:19px;height:19px;margin:2px 0 0;accent-color:var(--tint);flex:none;cursor:pointer}
+.opt:has(input:checked){border-color:var(--tint);background:#F0EDE2}
+textarea,input[type=email]{width:100%;max-width:66ch;font-family:var(--sans);font-size:15px;padding:11px 12px;border:1.5px solid var(--joon);background:#FBFAF5;color:var(--tint)}
+textarea{min-height:120px;resize:vertical}
+label.fl{display:block;font-family:var(--mono);font-size:12.5px;letter-spacing:.6px;text-transform:uppercase;font-weight:700;margin-bottom:8px}
+.sub{font-size:14px;color:var(--hall);margin:6px 0 0}
+.btn{font-family:var(--mono);font-size:13px;letter-spacing:.4px;text-transform:uppercase;background:var(--tint);color:var(--paber);border:0;padding:13px 20px;cursor:pointer}
+.btn[disabled]{opacity:.45;cursor:default}
+.msg{font-family:var(--mono);font-size:13px;padding:12px 14px;border:1.5px solid var(--joon);margin:0 0 20px;max-width:66ch}
+.msg.ok{border-color:var(--paatina);color:var(--paatina)}
+.msg.err{border-color:var(--telliskivi);color:var(--telliskivi)}
+.hint{font-size:14px;color:var(--hall);max-width:66ch;margin-top:18px}
+.hide{display:none}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.foot{border-top:3px solid var(--tint);margin-top:40px;padding:16px 0 0;font-family:var(--mono);font-size:12px;color:var(--hall)}
+.foot a{color:var(--tint)}
+</style>
+</head>
+<body>
+<header>
+  <div class="masthead">
+    <a class="brand" href="/">Skene<span class="info">.info</span></a>
+  </div>
+  <nav class="topnav">
+    <a href="/" data-i18n="nav_home">← TAGASI</a>
+    <div class="langsw" role="group" aria-label="Keel / Language">
+      <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
+      <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <h1 data-i18n="title">Tagasiside</h1>
+  <p class="lead" data-i18n="lead">Sait on ühe inimese kõrvalprojekt. Paar minutit sinu aega ütleb mulle, mida edasi teha.</p>
+
+  <div id="msg" class="msg hide"></div>
+
+  <form id="form" onsubmit="return saada(event)">
+    <div id="kysimused"></div>
+
+    <fieldset>
+      <label class="fl" for="txt" id="txtlbl">Mis võiks parem olla?</label>
+      <textarea id="txt" maxlength="2000" data-i18n-ph="txt_ph" placeholder="Kirjuta vabas vormis — ka lühike mõte aitab."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <label class="fl" for="email" data-i18n="email_l">E-post (valikuline)</label>
+      <input type="email" id="email" maxlength="120" data-i18n-ph="email_ph" placeholder="ainult siis, kui tahad, et vastan">
+      <p class="sub" data-i18n="email_s">Ei lähe uudiskirja listi. Kasutan seda ainult sulle vastamiseks.</p>
+    </fieldset>
+
+    <div class="hp"><label>Ära täida<input type="text" id="hp" tabindex="-1" autocomplete="off"></label></div>
+
+    <button id="btn" class="btn" type="submit" data-i18n="send">Saada</button>
+    <p class="hint" data-i18n-html="hint">Vastus on anonüümne, kui sa e-posti ei kirjuta. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
+  </form>
+
+  <div class="foot">
+    <b>skene.info</b> — <span data-i18n="foot">üritused, reliisid ja merch ühest kohast.</span>
+    &nbsp;·&nbsp; <a href="/privaatsus.html" data-i18n="foot_priv">Privaatsus</a>
+  </div>
+</main>
+<script>
+var I18N={
+ et:{
+  page_title:"Tagasiside — skene.info", nav_home:"← TAGASI", title:"Tagasiside",
+  lead:"Sait on ühe inimese kõrvalprojekt. Paar minutit sinu aega ütleb mulle, mida edasi teha.",
+  mitu:"(vali mitu)",
+  txt_ph:"Kirjuta vabas vormis — ka lühike mõte aitab.",
+  email_l:"E-post (valikuline)", email_ph:"ainult siis, kui tahad, et vastan",
+  email_s:"Ei lähe uudiskirja listi. Kasutan seda ainult sulle vastamiseks.",
+  send:"Saada", sending:"Saadan…",
+  hint:"Vastus on anonüümne, kui sa e-posti ei kirjuta. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
+  ok:"Aitäh! Vastus on kohal.",
+  e_tyhi:"Vasta vähemalt ühele küsimusele või kirjuta midagi vabasse välja.",
+  e_email:"See e-posti aadress ei tundu õige.",
+  e_liiga_palju:"Täna on sellest võrgust juba mitu vastust tulnud. Proovi homme.",
+  e_muu:"Saatmine ebaõnnestus. Proovi hetke pärast uuesti.",
+  e_laadi:"Küsimusi ei õnnestunud laadida. Värskenda lehte.",
+  foot:"üritused, reliisid ja merch ühest kohast.", foot_priv:"Privaatsus"
+ },
+ en:{
+  page_title:"Feedback — skene.info", nav_home:"← BACK", title:"Feedback",
+  lead:"This site is one person's side project. A couple of minutes of your time tells me what to build next.",
+  mitu:"(pick several)",
+  txt_ph:"Write freely — even a short thought helps.",
+  email_l:"E-mail (optional)", email_ph:"only if you want a reply",
+  email_s:"It does not go on the newsletter list. I use it only to reply to you.",
+  send:"Send", sending:"Sending…",
+  hint:"Your answer is anonymous unless you leave an e-mail. See <a href=\"/privaatsus.html\">privacy</a>.",
+  ok:"Thanks! Your answer is in.",
+  e_tyhi:"Answer at least one question, or write something in the free field.",
+  e_email:"That e-mail address doesn't look right.",
+  e_liiga_palju:"Several answers have already come from this network today. Try tomorrow.",
+  e_muu:"Sending failed. Please try again in a moment.",
+  e_laadi:"Could not load the questions. Please refresh the page.",
+  foot:"events, releases and merch in one place.", foot_priv:"Privacy"
+ }
+};
+var LANG=(function(){try{return localStorage.getItem('skene_lang')||'et';}catch(e){return 'et';}})();
+if(LANG!=='en'&&LANG!=='et')LANG='et';
+var Q=new URLSearchParams(location.search);
+var SAIT=(function(){var s=Q.get('s');return ['www','rap','klubi'].indexOf(s)>=0?s:'www';})();
+var KYS=null;
+
+function t(k){var d=I18N[LANG]||I18N.et;return d[k]!==undefined?d[k]:(I18N.et[k]!==undefined?I18N.et[k]:k);}
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(function(el){el.textContent=t(el.getAttribute('data-i18n'));});
+  document.querySelectorAll('[data-i18n-html]').forEach(function(el){el.innerHTML=t(el.getAttribute('data-i18n-html'));});
+  document.querySelectorAll('[data-i18n-ph]').forEach(function(el){el.setAttribute('placeholder',t(el.getAttribute('data-i18n-ph')));});
+  document.title=t('page_title');
+  document.documentElement.setAttribute('lang',LANG);
+  document.querySelectorAll('.langsw button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===LANG);});
+  if(KYS)joonista();
+}
+function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();}
+function msg(kind,key){
+  var m=document.getElementById('msg');
+  m.className='msg '+(kind||'');m.textContent=t(key);
+}
+// Kusimused tulevad data/tagasiside-kysimused.json'ist - vormi ennast muutma ei pea.
+function joonista(){
+  var vana={};
+  document.querySelectorAll('#kysimused input:checked').forEach(function(i){
+    (vana[i.name]=vana[i.name]||[]).push(i.value);
+  });
+  document.getElementById('kysimused').innerHTML=(KYS.q||[]).map(function(q){
+    var mitu=q.type==='many';
+    return '<fieldset><legend>'+esc(q[LANG]||q.et)
+      +(mitu?' <span class="mitu">'+esc(t('mitu'))+'</span>':'')+'</legend>'
+      +(q.opts||[]).map(function(o){
+        var kriips=(vana[q.id]||[]).indexOf(o.id)>=0?' checked':'';
+        return '<div class="opt"><label><input type="'+(mitu?'checkbox':'radio')+'" name="'
+          +esc(q.id)+'" value="'+esc(o.id)+'"'+kriips+'><span>'+esc(o[LANG]||o.et)+'</span></label></div>';
+      }).join('')+'</fieldset>';
+  }).join('');
+  var lbl=document.getElementById('txtlbl');
+  if(lbl&&KYS.txt)lbl.textContent=KYS.txt[LANG]||KYS.txt.et;
+}
+function korja(){
+  var a={};
+  (KYS.q||[]).forEach(function(q){
+    var sel=Array.prototype.slice.call(document.querySelectorAll('#kysimused input[name="'+q.id+'"]:checked'))
+      .map(function(i){return i.value;});
+    if(!sel.length)return;
+    a[q.id]=(q.type==='many')?sel:sel[0];
+  });
+  return a;
+}
+function saada(ev){
+  ev.preventDefault();
+  var btn=document.getElementById('btn');
+  var a=korja(), txt=document.getElementById('txt').value.trim();
+  if(!Object.keys(a).length&&!txt){msg('err','e_tyhi');return false;}
+  btn.disabled=true;btn.textContent=t('sending');
+  fetch('/api/tagasiside',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({
+      v:KYS.v||1, sait:SAIT, lang:LANG, a:a, txt:txt,
+      email:document.getElementById('email').value.trim(),
+      hp:document.getElementById('hp').value
+    })
+  }).then(function(r){return r.json().catch(function(){return {ok:false};});}).then(function(j){
+    if(j&&j.ok){
+      document.getElementById('form').classList.add('hide');
+      document.getElementById('msg').classList.remove('hide');
+      msg('ok','ok');
+      window.scrollTo({top:0,behavior:'smooth'});
+      return;
+    }
+    btn.disabled=false;btn.textContent=t('send');
+    document.getElementById('msg').classList.remove('hide');
+    msg('err', j&&j.error==='email'?'e_email':(j&&j.error==='liiga_palju'?'e_liiga_palju':'e_muu'));
+  }).catch(function(){
+    btn.disabled=false;btn.textContent=t('send');
+    document.getElementById('msg').classList.remove('hide');
+    msg('err','e_muu');
+  });
+  return false;
+}
+applyI18n();
+fetch('data/tagasiside-kysimused.json').then(function(r){return r.ok?r.json():Promise.reject();})
+  .then(function(j){KYS=j;joonista();})
+  .catch(function(){
+    document.getElementById('msg').classList.remove('hide');
+    msg('err','e_laadi');
+  });
+</script>
+</body>
+</html>

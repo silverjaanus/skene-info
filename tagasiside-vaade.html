@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tagasiside — vaade</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
+  --telliskivi:#93392C; --paatina:#2C5B54; --sinep:#A8811F;
+  --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.5}
+a{color:inherit}
+main{max-width:900px;margin:0 auto;padding:26px 24px 70px}
+h1{font-size:clamp(26px,4vw,36px);line-height:1;letter-spacing:-1px;text-transform:uppercase;font-weight:700;
+   border-bottom:3px solid var(--tint);padding-bottom:12px;margin-bottom:16px}
+h2{font-family:var(--mono);font-size:11px;letter-spacing:.9px;text-transform:uppercase;color:var(--hall);
+   font-weight:400;border-bottom:1px solid var(--joon);padding-bottom:5px;margin:32px 0 14px}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-family:var(--mono);font-size:12px;margin-bottom:18px}
+.bar button,.bar select{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;
+  border:1.5px solid var(--joon);background:#FBFAF5;color:var(--tint);padding:6px 12px;cursor:pointer}
+.bar button.on{background:var(--tint);color:var(--paber);border-color:var(--tint)}
+.kpi{display:flex;gap:26px;flex-wrap:wrap;font-family:var(--mono);margin-bottom:6px}
+.kpi div{min-width:110px}
+.kpi b{display:block;font-size:30px;line-height:1.1;letter-spacing:-1px}
+.kpi span{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--hall)}
+.q{margin:0 0 26px}
+.q h3{font-size:15px;font-weight:700;margin-bottom:10px}
+.rida{display:grid;grid-template-columns:1fr 72px;gap:10px;align-items:center;margin-bottom:6px;font-size:14px}
+.trk{position:relative;background:#E6E1D3;height:26px;overflow:hidden}
+.fil{position:absolute;inset:0 auto 0 0;background:var(--telliskivi);opacity:.85}
+.lbl{position:relative;padding:3px 9px;line-height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.num{font-family:var(--mono);font-size:12px;color:var(--hall);text-align:right}
+.txt{border-left:3px solid var(--joon);padding:10px 0 10px 14px;margin:0 0 16px}
+.txt .meta{font-family:var(--mono);font-size:11px;color:var(--hall);margin-bottom:5px;
+  text-transform:uppercase;letter-spacing:.5px}
+.txt .meta .em{color:var(--telliskivi);text-transform:none;letter-spacing:0}
+.txt p{white-space:pre-wrap;max-width:70ch}
+.msg{font-family:var(--mono);font-size:13px;padding:12px 14px;border:1.5px solid var(--joon);margin:0 0 20px}
+.msg.err{border-color:var(--telliskivi);color:var(--telliskivi)}
+.tyhi{font-family:var(--mono);font-size:12px;color:var(--hall)}
+input[type=password]{font-family:var(--mono);font-size:13px;padding:9px 11px;border:1.5px solid var(--joon);
+  background:#FBFAF5;color:var(--tint);width:280px;max-width:100%}
+.hide{display:none}
+</style>
+</head>
+<body>
+<main>
+  <h1>Tagasiside</h1>
+  <div id="msg" class="msg hide"></div>
+
+  <form id="auth" class="bar hide" onsubmit="return login(event)">
+    <input type="password" id="tok" placeholder="VIEW_SECRET" autocomplete="off">
+    <button type="submit">Ava</button>
+  </form>
+
+  <div id="sisu" class="hide">
+    <div class="bar">
+      <span>Sait:</span>
+      <button type="button" data-s="" class="on" onclick="setSait('')">Kõik</button>
+      <button type="button" data-s="www" onclick="setSait('www')">Metal</button>
+      <button type="button" data-s="rap" onclick="setSait('rap')">Räpp</button>
+      <button type="button" data-s="klubi" onclick="setSait('klubi')">Klubi</button>
+      <button type="button" onclick="csv()" style="margin-left:auto">↓ CSV</button>
+    </div>
+
+    <div class="kpi" id="kpi"></div>
+
+    <h2>Valikvastused</h2>
+    <div id="stat"></div>
+
+    <h2 id="txth">Vabatekst</h2>
+    <div id="txts"></div>
+  </div>
+</main>
+<script>
+var KYS=null, ALL=[], SAIT='', TOK='';
+
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function msg(txt,err){
+  var m=document.getElementById('msg');
+  m.className='msg'+(err?' err':'');m.textContent=txt;
+}
+function rows(){return SAIT?ALL.filter(function(e){return e.sait===SAIT;}):ALL;}
+function setSait(s){
+  SAIT=s;
+  document.querySelectorAll('.bar button[data-s]').forEach(function(b){
+    b.classList.toggle('on',b.getAttribute('data-s')===s);
+  });
+  joonista();
+}
+function lbl(q,optId){
+  var o=(q.opts||[]).filter(function(x){return x.id===optId;})[0];
+  return o?(o.et||o.id):optId;
+}
+function joonista(){
+  var r=rows();
+  var nyyd=Date.now();
+  var d30=r.filter(function(e){return nyyd-Date.parse(e.ts)<30*86400000;}).length;
+  var d7=r.filter(function(e){return nyyd-Date.parse(e.ts)<7*86400000;}).length;
+  var mail=r.filter(function(e){return e.email;}).length;
+  document.getElementById('kpi').innerHTML=
+     '<div><b>'+r.length+'</b><span>vastust kokku</span></div>'
+    +'<div><b>'+d30+'</b><span>viimased 30 p</span></div>'
+    +'<div><b>'+d7+'</b><span>viimased 7 p</span></div>'
+    +'<div><b>'+mail+'</b><span>ootab vastust</span></div>';
+
+  document.getElementById('stat').innerHTML=(KYS.q||[]).map(function(q){
+    var loend={}, vastanuid=0;
+    r.forEach(function(e){
+      var v=e.a&&e.a[q.id];
+      if(v===undefined||v===null||v==='')return;
+      vastanuid++;
+      (Array.isArray(v)?v:[v]).forEach(function(x){loend[x]=(loend[x]||0)+1;});
+    });
+    // jarjestus nagu kusimustikus, et pilt oleks kordade vahel vorreldav
+    var ids=(q.opts||[]).map(function(o){return o.id;});
+    Object.keys(loend).forEach(function(k){if(ids.indexOf(k)<0)ids.push(k);});
+    var max=Math.max.apply(null,[1].concat(ids.map(function(i){return loend[i]||0;})));
+    return '<div class="q"><h3>'+esc(q.et)+' <span class="tyhi">— vastanuid '+vastanuid+'</span></h3>'
+      +ids.map(function(i){
+        var n=loend[i]||0;
+        var pct=vastanuid?Math.round(n*100/vastanuid):0;
+        return '<div class="rida"><div class="trk">'
+          +'<div class="fil" style="width:'+(n/max*100)+'%"></div>'
+          +'<div class="lbl">'+esc(lbl(q,i))+'</div></div>'
+          +'<div class="num">'+n+(vastanuid?' · '+pct+'%':'')+'</div></div>';
+      }).join('')+'</div>';
+  }).join('');
+
+  var tx=r.filter(function(e){return e.txt;}).sort(function(a,b){return b.ts.localeCompare(a.ts);});
+  document.getElementById('txth').textContent='Vabatekst ('+tx.length+')';
+  document.getElementById('txts').innerHTML=tx.length?tx.map(function(e){
+    return '<div class="txt"><div class="meta">'+esc(e.ts.slice(0,10))+' · '+esc(e.sait)+' · '+esc(e.lang)
+      +(e.email?' · <a class="em" href="mailto:'+esc(e.email)+'">'+esc(e.email)+'</a>':'')
+      +'</div><p>'+esc(e.txt)+'</p></div>';
+  }).join(''):'<p class="tyhi">Vabateksti vastuseid pole.</p>';
+}
+function csv(){
+  var r=rows();
+  var pead=['ts','sait','lang','email'].concat((KYS.q||[]).map(function(q){return q.id;})).concat(['txt']);
+  var read=r.map(function(e){
+    return pead.map(function(k){
+      var v;
+      if(k==='ts'||k==='sait'||k==='lang'||k==='email'||k==='txt')v=e[k]||'';
+      else{v=e.a&&e.a[k];v=Array.isArray(v)?v.join('|'):(v||'');}
+      return '"'+String(v).replace(/"/g,'""')+'"';
+    }).join(',');
+  });
+  var blob=new Blob(["﻿"+[pead.join(',')].concat(read).join("\r\n")],{type:'text/csv;charset=utf-8'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='skene-tagasiside-'+new Date().toISOString().slice(0,10)+'.csv';
+  a.click();URL.revokeObjectURL(a.href);
+}
+function lae(){
+  msg('Laen…');
+  document.getElementById('msg').classList.remove('hide');
+  return Promise.all([
+    fetch('data/tagasiside-kysimused.json').then(function(r){return r.ok?r.json():Promise.reject('kys');}),
+    fetch('/api/tagasiside?t='+encodeURIComponent(TOK)).then(function(r){
+      if(r.status===403)return Promise.reject('auth');
+      return r.ok?r.json():Promise.reject('api');
+    })
+  ]).then(function(x){
+    KYS=x[0];ALL=(x[1].entries||[]).sort(function(a,b){return a.ts.localeCompare(b.ts);});
+    try{sessionStorage.setItem('skene_tsvaade',TOK);}catch(e){}
+    document.getElementById('msg').classList.add('hide');
+    document.getElementById('auth').classList.add('hide');
+    document.getElementById('sisu').classList.remove('hide');
+    joonista();
+  }).catch(function(e){
+    document.getElementById('sisu').classList.add('hide');
+    document.getElementById('auth').classList.remove('hide');
+    msg(e==='auth'?'Vale võti.':'Andmete laadimine ebaõnnestus.',true);
+  });
+}
+function login(ev){
+  ev.preventDefault();
+  TOK=document.getElementById('tok').value.trim();
+  if(TOK)lae();
+  return false;
+}
+(function(){
+  var q=new URLSearchParams(location.search);
+  TOK=q.get('t')||'';
+  if(!TOK){try{TOK=sessionStorage.getItem('skene_tsvaade')||'';}catch(e){}}
+  // votit URL-i ribale seisma ei jata
+  if(q.get('t')){try{history.replaceState(null,'',location.pathname);}catch(e){}}
+  if(TOK)lae();
+  else document.getElementById('auth').classList.remove('hide');
+})();
+</script>
+</body>
+</html>

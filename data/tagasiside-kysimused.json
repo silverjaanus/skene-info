@@ -1,0 +1,62 @@
+{
+ "_": "Tagasisidevormi kusimused. Muuda SIIN - nii vorm (tagasiside.html) kui vaade (tagasiside-vaade.html) loevad seda faili. Koodi puutuma ei pea. 'id' vaartusi ARA muuda tagantjarele: vanad vastused on salvestatud id jargi ja kaotaksid sildi.",
+ "v": 1,
+ "q": [
+  {
+   "id": "miks",
+   "type": "many",
+   "et": "Mis sind siia tõi?",
+   "en": "What brought you here?",
+   "opts": [
+    {"id": "konkreetne", "et": "Otsin konkreetset üritust", "en": "Looking for a specific event"},
+    {"id": "mis_tuleb", "et": "Vaatan, mis lähiajal tuleb", "en": "Seeing what's coming up"},
+    {"id": "uued_bandid", "et": "Avastan uusi bände", "en": "Discovering new bands"},
+    {"id": "reliisid", "et": "Vaatan uusi reliise", "en": "Checking new releases"},
+    {"id": "muu", "et": "Muu", "en": "Something else"}
+   ]
+  },
+  {
+   "id": "tihedus",
+   "type": "one",
+   "et": "Kui tihti sa siia satud?",
+   "en": "How often do you visit?",
+   "opts": [
+    {"id": "esimest", "et": "Esimest korda", "en": "First time"},
+    {"id": "harva", "et": "Paar korda aastas", "en": "A couple of times a year"},
+    {"id": "kuus", "et": "Paar korda kuus", "en": "A couple of times a month"},
+    {"id": "nadalas", "et": "Iga nädal või tihedamini", "en": "Weekly or more"}
+   ]
+  },
+  {
+   "id": "kasulik",
+   "type": "many",
+   "et": "Mis on kõige kasulikum?",
+   "en": "What's most useful?",
+   "opts": [
+    {"id": "kalender", "et": "Kalender", "en": "The calendar"},
+    {"id": "nimekiri", "et": "Ürituste nimekiri", "en": "The event list"},
+    {"id": "reliisid", "et": "Reliisid", "en": "Releases"},
+    {"id": "otsing", "et": "Otsing", "en": "Search"},
+    {"id": "uudiskiri", "et": "Uudiskiri", "en": "The newsletter"},
+    {"id": "some", "et": "Facebooki / Instagrami postitused", "en": "Facebook / Instagram posts"}
+   ]
+  },
+  {
+   "id": "puudu",
+   "type": "many",
+   "et": "Mida sa siit ei leidnud?",
+   "en": "What did you not find here?",
+   "opts": [
+    {"id": "valjaspool", "et": "Üritusi väljaspool Tallinna", "en": "Events outside Tallinn"},
+    {"id": "zanr", "et": "Minu žanri üritusi", "en": "Events in my genre"},
+    {"id": "piletid", "et": "Selgemat pileti- ja hinnainfot", "en": "Clearer ticket and price info"},
+    {"id": "kaart", "et": "Kaarti, kus üritused toimuvad", "en": "A map of where events are"},
+    {"id": "ei_puudu", "et": "Ei puudunud midagi", "en": "Nothing was missing"}
+   ]
+  }
+ ],
+ "txt": {
+  "et": "Mis võiks parem olla? (vabatekst)",
+  "en": "What could be better? (free text)"
+ }
+}
