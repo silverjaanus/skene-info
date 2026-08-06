@@ -634,6 +634,27 @@
    "nb": "lisatud sweepis 02.08.2026; piletiinfot pole avaldatud; sama mini-tuuri Tartu peatus (07.08, Hell) oli juba andmetes"
   },
   {
+   "d": "2026-08-10",
+   "t": "kontsert",
+   "n": "Kevin ja Kõrp (viimane) + Thousand Hands",
+   "a": "Kõrbi lõpukontsert, ka Kevin lõpetab ilmselt; DIY-õhtu Ülase 12-s, algus 19.00",
+   "b": [
+    "Kevin",
+    "Kõrp",
+    "Thousand Hands"
+   ],
+   "v": "Ülase 12",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/2192622178187381",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2192622178187381",
+   "nb": "kontaktivormi sisend (Martin A., 05.08.2026); kinnitatud FB eventilt ja Anemon12 ürituste lehelt 06.08.2026 (E 10.08 kell 19.00, Ülase 12). Bändinimi FB-s stiliseeritud kujul 'KЫRP'. Hinnainfot event ei avalda."
+  },
+  {
    "d": "2026-08-12",
    "d2": "15.08",
    "t": "festival",
@@ -2722,7 +2743,7 @@
   }
  ],
  "log": [
-  "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
+  "metalstorm: 14",
   "krypt: 9",
   "paavli: 0",
   "helitehas: 0"
