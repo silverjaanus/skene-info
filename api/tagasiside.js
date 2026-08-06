@@ -77,6 +77,20 @@ function puhastaVastused(a) {
   return out;
 }
 
+// "Muu" vabatekstid: {kusimuse_id: "..."} - eraldi vastustest, sest siin on pikem lubatud piir.
+function puhastaMuu(m) {
+  if (!m || typeof m !== "object" || Array.isArray(m)) return {};
+  const out = {};
+  let n = 0;
+  for (const k of Object.keys(m)) {
+    if (++n > 12) break;
+    const kk = cut(k, 24).replace(/[^a-z0-9_]/gi, "");
+    const v = cut(m[k], 200).trim();
+    if (kk && v) out[kk] = v;
+  }
+  return out;
+}
+
 function cors(req, res) {
   const o = String(req.headers.origin || "");
   if (LUBATUD.indexOf(o) >= 0) {
@@ -141,6 +155,8 @@ module.exports = async function handler(req, res) {
     v: Number(body.v) || 1,
     a: a
   };
+  const muu = puhastaMuu(body.muu);
+  if (Object.keys(muu).length) kirje.muu = muu;
   if (txt) kirje.txt = txt;
   if (email) kirje.email = email;
 

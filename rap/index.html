@@ -253,6 +253,50 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
   .calgrid{column-gap:2px}
   .calcell{aspect-ratio:auto;height:32px}
 }
+/* --- TAGASISIDE-BANNER: uks kitsas rida paise all, suletav (localStorage) --- */
+.fbban{display:flex;align-items:center;gap:12px;
+  border-bottom:1px solid var(--joon);padding:13px 0;font-family:var(--mono)}
+.fbban a{color:var(--accent);font-size:14.5px;font-weight:700;letter-spacing:.2px;
+  text-decoration:none;border-bottom:1.5px solid var(--accent);padding-bottom:3px}
+.fbban a:hover{color:var(--tint);border-bottom-color:var(--tint)}
+.fbban button{margin-left:auto;background:transparent;border:0;color:var(--joon);
+  font-family:var(--mono);font-size:16px;line-height:1;cursor:pointer;padding:2px 4px;flex:none}
+.fbban button:hover{color:var(--tint)}
+@media(max-width:560px){.fbban a{font-size:13px}}
+/* --- UUED RELIISID: oma riba nimekirja kohal. Nimekiri ise on puhas ajajoon,
+   reliis ei hupa enam kuupaevast ette. Riba pikkus on fikseeritud (RELN), seega
+   see ei kasva ka siis, kui reliise on palju. --- */
+.relbox{margin:0 0 22px;padding:0 0 16px;border-bottom:1px solid var(--joon)}
+.relbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 10px}
+.rel-h{font-family:var(--mono);font-size:11px;letter-spacing:.9px;text-transform:uppercase;
+  color:var(--hall);margin:0;font-weight:400}
+.rel-all{font-family:var(--mono);font-size:10.5px;letter-spacing:.6px;text-transform:uppercase;
+  color:var(--accent);background:transparent;border:0;border-bottom:1px solid var(--joon);
+  cursor:pointer;padding:0 0 3px;white-space:nowrap}
+.rel-all:hover{border-bottom-color:var(--accent)}
+.rel-strip{display:flex;gap:12px;overflow-x:auto;padding:2px 0 8px;scroll-snap-type:x proximity}
+.relc{flex:0 0 116px;display:flex;flex-direction:column;gap:5px;text-decoration:none;
+  color:inherit;scroll-snap-align:start}
+.relc img,.relc .relph{width:116px;height:116px;display:block;background:#E3DECF}
+.relc .relph{display:flex;align-items:center;justify-content:center}
+.relc .relph .mark{width:52px;height:52px;opacity:.5}
+.relc img{object-fit:cover}
+.relc-t{font-size:12.5px;line-height:1.25;font-weight:600;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.relc-b{font-family:var(--mono);font-size:10.5px;color:var(--hall);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.relc:hover .relc-t{color:var(--accent)}
+.archwrap{margin:20px 0 0;text-align:center}
+.archbtn{font-family:var(--mono);font-size:11px;letter-spacing:.6px;text-transform:uppercase;
+  color:var(--tint);background:transparent;border:1px solid var(--joon);cursor:pointer;padding:9px 18px}
+.archbtn:hover{border-color:var(--accent);color:var(--accent)}
+.archnote{font-family:var(--mono);font-size:11px;color:var(--hall);margin:20px 0 0;text-align:center}
+@media(max-width:900px){
+  .relbox{margin-bottom:18px}
+  .rel-strip{margin:0 -24px;padding:2px 24px 10px}
+  .relc{flex-basis:104px}
+  .relc img,.relc .relph{width:104px;height:104px}
+}
 </style>
 </head>
 <body>
@@ -361,8 +405,20 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     function toggleFilters(){var f=document.getElementById('filters');if(!f)return;var o=f.classList.toggle('open');var b=document.getElementById('ftog');if(b)b.setAttribute('aria-expanded',o?'true':'false');}</script>
   </aside>
   <div class="content">
+    <div class="fbban" id="fbban" hidden>
+      <a id="fblink" href="https://www.skene.info/tagasiside.html" data-i18n="fb_cta">Anna SKENE.INFO kohta tagasisidet →</a>
+      <button type="button" onclick="fbSulge()" data-i18n-title="fb_close" title="Peida" aria-label="Peida">×</button>
+    </div>
+    <section class="relbox" id="relbox" hidden aria-labelledby="rel-h">
+      <div class="relbar">
+        <h2 class="rel-h" id="rel-h" data-i18n="rel_h">Uued reliisid</h2>
+        <button type="button" class="rel-all" onclick="allRel()" data-i18n="rel_all">Kõik reliisid →</button>
+      </div>
+      <div class="rel-strip" id="relstrip"></div>
+    </section>
     <p class="count" id="count"></p>
     <div id="list"></div>
+    <div id="relarch"></div>
     <div class="footer">
       <div style="font-family:var(--mono);font-size:12.5px;display:flex;gap:16px;flex-wrap:wrap">
         <a href="https://www.skene.info/">METAL.SKENE.INFO ↗</a>
@@ -412,6 +468,11 @@ const I18N={
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
+  fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
+  rel_h:"Uued reliisid", rel_all:"Kõik reliisid →",
+  rel_arch:"Näita ka arhiveeritud reliise", rel_arch_load:"Laen arhiivi…",
+  rel_arch_err:"Arhiivi laadimine ebaõnnestus. Proovi hetke pärast uuesti.",
+  rel_arch_on:"Arhiiv on kaasatud — kõik reliisid, ka vanemad kui 30 päeva.",
   organizer:"korraldaja:", listen:"kuula:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
   f_q_l:"Otsi", ph_q:"Otsi: artist, koht, üritus…",
@@ -454,6 +515,11 @@ const I18N={
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
+  fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
+  rel_h:"New releases", rel_all:"All releases →",
+  rel_arch:"Also show archived releases", rel_arch_load:"Loading archive…",
+  rel_arch_err:"Could not load the archive. Please try again in a moment.",
+  rel_arch_on:"Archive included — all releases, also older than 30 days.",
   organizer:"organiser:", listen:"listen:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
   f_q_l:"Search", ph_q:"Search: artist, venue, event…",
@@ -627,7 +693,7 @@ function matchQ(e){
   const hay=norm([e.n,e.a,e.v,e.linn,e.c,(e.b||[]).join(" "),(e.g||[]).join(" ")].join(" | "));
   return st.q.split(/\s+/).every(w=>hay.includes(w));
 }
-function setQ(v){st.q=norm(v.trim());render();}
+function setQ(v){st.q=norm(v.trim());render();renderRel();}
 let RROWS=[];
 function suggestEdit(i){
   const e=RROWS[i];if(!e)return false;
@@ -647,7 +713,10 @@ function suggestEdit(i){
 function render(){
   const q=st.q;
   // Otsingul (q täidetud) segavaade kõigist 3 domeenist (ALLX); muidu ainult see sait (E).
-  const base=q?(ALLX.length?ALLX:E):E;
+  let base=q?(ALLX.length?ALLX:E):E;
+  // Arhiveeritud reliisid EI ela E-s (muidu tekiks kalendrisse minevikutappe) - need
+  // liidetakse ainult reliisivaates, kui kasutaja on arhiivi ise juurde kusinud.
+  if(ARCHON&&st.type==="reliis"&&ARCHREL.length)base=base.concat(ARCHREL);
   let rows=base.filter(e=>{
     if(!matchQ(e))return false;
     if(st.type&&e.t!==st.type)return false;
@@ -655,13 +724,21 @@ function render(){
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!e.d.startsWith(st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
-    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    // VARASEM ERAND EEMALDATUD: featured-reliis EI ole enam "mitte-moodunud". Vanem
+    // valjalaskekuupaev tahendas, et ta ilmus ajajoone algusesse, kuigi kuupaev on labi.
+    // Varsked reliisid elavad nuud oma ribas (renderRel); nimekirja jouavad nad ainult
+    // tulevase kuupaevaga voi siis, kui kasutaja avab reliisivaate (st.past=true).
+    const past=!e.tba&&e.d<TODAY;
     if(!st.past&&past)return false;
     return true;
   }).sort((a,b)=>{
-    const fa=featured(a),fb=featured(b);
-    if(fa!==fb)return fa?-1:1;
-    if(fa&&fb)return (b.lisatud||"").localeCompare(a.lisatud||"");
+    // Reliisivaates on jarjestus varskeim enne (lisamise, muidu valjalaske kuupaev).
+    // Mujal on nimekiri puhas ajajoon: iga kirje oma kuupaeval, midagi ei kinnitata etteotsa.
+    if(st.type==="reliis"){
+      const ka=a.lisatud||a.d||"", kb=b.lisatud||b.d||"";
+      if(ka!==kb)return kb.localeCompare(ka);
+      return (b.d||"").localeCompare(a.d||"");
+    }
     return a.d.localeCompare(b.d);
   });
   document.getElementById("count").textContent=rows.length+" "+t('entries')
@@ -670,7 +747,8 @@ function render(){
     +((!st.q&&st.tags.size)?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
   RROWS=rows;
   document.getElementById("list").innerHTML=rows.map((e,i)=>{
-    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    // reliis/merch ei "lae labi" - "LÄBI" silt kaib ainult urituste kohta
+    const past=!e.rel&&!e.tba&&e.d<TODAY;
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
@@ -705,7 +783,7 @@ function chips(el,items,key){
 function kuud(){
   const m={};
   const vis=E.filter(e=>{
-    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    const past=!e.tba&&e.d<TODAY;   // sama reegel mis nimekirjas
     return st.past||!past;
   });
   vis.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
@@ -729,7 +807,7 @@ function calBase(){
     if(st.type&&e.t!==st.type)return false;
     if(st.tags.size&&![...st.tags].every(g=>(e.g||[]).includes(g)))return false;
     if(st.city&&e.c!==st.city)return false;
-    const past=!featured(e)&&!e.tba&&e.d<TODAY;
+    const past=!e.tba&&e.d<TODAY;   // sama reegel mis nimekirjas
     if(!st.past&&past)return false;
     return true;
   });
@@ -795,7 +873,122 @@ function applyCalView(){
   if(b)b.classList.toggle('on',calView==='months');
 }
 function setCalView(v){calView=v;try{localStorage.setItem('skene_calview',v);}catch(e){}if(v==='months')st.day=null;applyCalView();refresh();}
-function setF(k,v){st[k]=v;if(k==='kuu')st.day=null;refresh();}
+function setF(k,v){
+  st[k]=v;
+  if(k==='kuu')st.day=null;
+  // st.past lulitab sisse ainult reliisivaade (allRel) - muidu jaaks minevik pusivalt lahti
+  if(k==='type'&&v!=='reliis')st.past=false;
+  refresh();
+}
+
+// ---------- TAGASISIDE-BANNER ----------
+// Vorm elab AINULT www-l: vercel.json host-route teeb alamdomeenil /(.*) -> /<sait>/$1,
+// seega suhteline link annaks rap/klubi peal 404. Sellepara taielik URL + ?s=<sait>,
+// et vastusest oleks naha, kummalt saidilt see tuli.
+// Peitmine on pusiv (localStorage). Kui tahad bannerit hiljem uuesti naidata, muuda number.
+const FB_V="1";
+function fbSulge(){
+  try{localStorage.setItem('skene_fb',FB_V);}catch(e){}
+  var b=document.getElementById('fbban');if(b)b.hidden=true;
+}
+function fbBanner(){
+  var b=document.getElementById('fbban');if(!b)return;
+  var peidus=false;
+  try{peidus=localStorage.getItem('skene_fb')===FB_V;}catch(e){}
+  b.hidden=peidus;
+  var a=document.getElementById('fblink');
+  if(a)a.href="https://www.skene.info/tagasiside.html?s="+encodeURIComponent(SELF);
+}
+
+// ---------- UUED RELIISID ----------
+// Riba naitab RELN kirjet: 1. on ALATI koige varskem (nii tahendab "uus" endiselt midagi),
+// ulejaanud loositakse -> ukski reliis ei saa pusivat eelistust. Valik salvestatakse
+// sessionStorage'isse, et sirvimise ajal (refresh, tagasi-nupp, filtri klikk) kaardid ei hupaks;
+// jargmisel kulastusel loositakse uuesti.
+const RELN=6;
+const relUid=e=>(e.d||"")+"|"+(e.n||"");
+let ARCHREL=[], ARCHON=false, ARCHBUSY=false;
+function relPool(){
+  return (E||[]).filter(featured).sort((a,b)=>(b.lisatud||"").localeCompare(a.lisatud||""));
+}
+function relPick(){
+  const pool=relPool();
+  if(!pool.length)return [];
+  const ids=pool.map(relUid), key='skene_rel_'+SELF;
+  let saved=null;
+  try{saved=JSON.parse(sessionStorage.getItem(key)||"null");}catch(e){}
+  // Salvestatud valik kolbab ainult siis, kui varskeim pole vahepeal muutunud JA
+  // koik valitud on ikka veel 30-paevases aknas.
+  if(saved&&saved.pin===ids[0]&&Array.isArray(saved.pick)&&saved.pick.length
+     &&saved.pick.every(u=>ids.indexOf(u)!==-1)){
+    return saved.pick.map(u=>pool[ids.indexOf(u)]);
+  }
+  const rest=pool.slice(1);
+  for(let i=rest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const x=rest[i];rest[i]=rest[j];rest[j]=x;}
+  const pick=[pool[0]].concat(rest.slice(0,RELN-1));
+  try{sessionStorage.setItem(key,JSON.stringify({pin:ids[0],pick:pick.map(relUid)}));}catch(e){}
+  return pick;
+}
+function relCard(e){
+  const u=purl(e.img), link=surl(e.ou||e.su);
+  const pilt=u?`<img src="${u}" alt="" loading="lazy" decoding="async">`
+              :`<span class="relph">${markSvg(e)}</span>`;
+  const bd=(e.b&&e.b.length)?e.b.join(", "):"";
+  const sisu=`${pilt}<span class="relc-t">${esc(e.n)}</span>`
+    +(bd?`<span class="relc-b">${esc(bd)}</span>`:"");
+  return link?`<a class="relc" href="${link}" target="_blank" rel="noopener">${sisu}</a>`
+             :`<span class="relc">${sisu}</span>`;
+}
+function renderRel(){
+  const box=document.getElementById('relbox');if(!box)return;
+  // Riba on ainult vaikevaates. Otsing, paev, kuu, tuup voi zanrivalik = kasutaja otsib
+  // midagi konkreetset, siis oleks riba segav.
+  const puhas=!st.q&&!st.day&&!st.kuu&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
+  const pick=puhas?relPick():[];
+  box.hidden=!pick.length;
+  if(!pick.length)return;
+  document.getElementById('relstrip').innerHTML=pick.map(relCard).join("");
+}
+function allRel(){
+  st.q="";const sb=document.getElementById('f-q');if(sb)sb.value="";
+  st.day=null;st.kuu=null;st.tags.clear();if(st.metas)st.metas.clear();
+  st.type="reliis";st.past=true;   // past=true, muidu jaaks alles vaid 30-paevane aken
+  refresh();
+  const c=document.getElementById('count');
+  if(c)c.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function renderArchBtn(){
+  const el=document.getElementById('relarch');if(!el)return;
+  if(st.type!=='reliis'||ARCHBUSY){if(!ARCHBUSY)el.innerHTML="";return;}
+  if(ARCHON){el.innerHTML='<p class="archnote"></p>';el.firstChild.textContent=t('rel_arch_on');return;}
+  el.innerHTML='<div class="archwrap"><button type="button" class="archbtn" onclick="loadArchRel()"></button></div>';
+  el.querySelector('.archbtn').textContent=t('rel_arch');
+}
+// Arhiiv laetakse ainult noudmisel: years.json + iga aasta fail. Failid on samad, mida
+// kasutab arhiiv.html, ehk uut andmetorustikku pole vaja.
+function loadArchRel(){
+  if(ARCHBUSY||ARCHON)return;
+  ARCHBUSY=true;
+  const el=document.getElementById('relarch');
+  if(el){el.innerHTML='<p class="archnote"></p>';el.firstChild.textContent=t('rel_arch_load');}
+  fetch("data/archive/years.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{
+    const ys=(j.years||[]).map(y=>(y&&y.year!==undefined)?y.year:y);
+    return Promise.all(ys.map(y=>fetch("data/archive/"+y+".json")
+      .then(r=>r.ok?r.json():{entries:[]}).catch(()=>({entries:[]}))));
+  }).then(list=>{
+    const seen=new Set((E||[]).map(relUid));
+    list.forEach(j=>(j.entries||[]).forEach(e=>{
+      if(!e.rel)return;
+      const u=relUid(e);
+      if(seen.has(u))return;
+      seen.add(u);ARCHREL.push(e);
+    }));
+    ARCHON=true;ARCHBUSY=false;refresh();
+  }).catch(()=>{
+    ARCHBUSY=false;
+    if(el){el.innerHTML='<p class="archnote"></p>';el.firstChild.textContent=t('rel_arch_err');}
+  });
+}
 function setTag(g){
   if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);
   refresh();
@@ -806,7 +999,7 @@ function refresh(){
   document.getElementById("f-tag").innerHTML=
     `<button class="chip${st.tags.size===0?" on":""}" aria-pressed="${st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
     tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
-  kuud();renderCal();render();
+  kuud();renderCal();render();renderRel();renderArchBtn();fbBanner();
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)
 function injectLD(){

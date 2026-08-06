@@ -38,6 +38,13 @@ legend .mitu{font-weight:400;color:var(--hall);text-transform:none;letter-spacin
 .opt label{display:flex;gap:12px;align-items:flex-start;padding:11px 14px;cursor:pointer}
 .opt input{width:19px;height:19px;margin:2px 0 0;accent-color:var(--tint);flex:none;cursor:pointer}
 .opt:has(input:checked){border-color:var(--tint);background:#F0EDE2}
+/* NB: .opt input on 19x19 (linnuke) - tekstivali vajab suuremat spetsiifilisust, muidu
+   tombub see 19 px laiuseks kastiks kokku. */
+.opt input.muut{display:block;box-sizing:border-box;width:calc(100% - 57px);height:auto;
+  margin:0 14px 12px 43px;font-family:var(--sans);font-size:14.5px;padding:8px 10px;
+  border:1.5px solid var(--joon);background:var(--paber);color:var(--tint);cursor:text}
+.opt input.muut[hidden]{display:none}
+h1{margin-bottom:26px}
 textarea,input[type=email]{width:100%;max-width:66ch;font-family:var(--sans);font-size:15px;padding:11px 12px;border:1.5px solid var(--joon);background:#FBFAF5;color:var(--tint)}
 textarea{min-height:120px;resize:vertical}
 label.fl{display:block;font-family:var(--mono);font-size:12.5px;letter-spacing:.6px;text-transform:uppercase;font-weight:700;margin-bottom:8px}
@@ -69,7 +76,6 @@ label.fl{display:block;font-family:var(--mono);font-size:12.5px;letter-spacing:.
 </header>
 <main>
   <h1 data-i18n="title">Tagasiside</h1>
-  <p class="lead" data-i18n="lead">Sait on ühe inimese kõrvalprojekt. Paar minutit sinu aega ütleb mulle, mida edasi teha.</p>
 
   <div id="msg" class="msg hide"></div>
 
@@ -102,8 +108,7 @@ label.fl{display:block;font-family:var(--mono);font-size:12.5px;letter-spacing:.
 var I18N={
  et:{
   page_title:"Tagasiside — skene.info", nav_home:"← TAGASI", title:"Tagasiside",
-  lead:"Sait on ühe inimese kõrvalprojekt. Paar minutit sinu aega ütleb mulle, mida edasi teha.",
-  mitu:"(vali mitu)",
+  mitu:"(vali mitu)", muu_ph:"Mis nimelt?",
   txt_ph:"Kirjuta vabas vormis — ka lühike mõte aitab.",
   email_l:"E-post (valikuline)", email_ph:"ainult siis, kui tahad, et vastan",
   email_s:"Ei lähe uudiskirja listi. Kasutan seda ainult sulle vastamiseks.",
@@ -119,8 +124,7 @@ var I18N={
  },
  en:{
   page_title:"Feedback — skene.info", nav_home:"← BACK", title:"Feedback",
-  lead:"This site is one person's side project. A couple of minutes of your time tells me what to build next.",
-  mitu:"(pick several)",
+  mitu:"(pick several)", muu_ph:"What exactly?",
   txt_ph:"Write freely — even a short thought helps.",
   email_l:"E-mail (optional)", email_ph:"only if you want a reply",
   email_s:"It does not go on the newsletter list. I use it only to reply to you.",
@@ -158,24 +162,46 @@ function msg(kind,key){
   m.className='msg '+(kind||'');m.textContent=t(key);
 }
 // Kusimused tulevad data/tagasiside-kysimused.json'ist - vormi ennast muutma ei pea.
+// Valik, millel on "tekst": true (nt "Muu"), avab margistamisel tekstivalja.
 function joonista(){
-  var vana={};
-  document.querySelectorAll('#kysimused input:checked').forEach(function(i){
-    (vana[i.name]=vana[i.name]||[]).push(i.value);
+  var vana={}, vanaTxt={};
+  document.querySelectorAll('#kysimused input[type=checkbox]:checked,#kysimused input[type=radio]:checked')
+    .forEach(function(i){(vana[i.name]=vana[i.name]||[]).push(i.value);});
+  document.querySelectorAll('#kysimused .muut').forEach(function(i){
+    if(i.value)vanaTxt[i.getAttribute('data-q')]=i.value;
   });
   document.getElementById('kysimused').innerHTML=(KYS.q||[]).map(function(q){
     var mitu=q.type==='many';
     return '<fieldset><legend>'+esc(q[LANG]||q.et)
       +(mitu?' <span class="mitu">'+esc(t('mitu'))+'</span>':'')+'</legend>'
       +(q.opts||[]).map(function(o){
-        var kriips=(vana[q.id]||[]).indexOf(o.id)>=0?' checked':'';
-        return '<div class="opt"><label><input type="'+(mitu?'checkbox':'radio')+'" name="'
-          +esc(q.id)+'" value="'+esc(o.id)+'"'+kriips+'><span>'+esc(o[LANG]||o.et)+'</span></label></div>';
+        var on=(vana[q.id]||[]).indexOf(o.id)>=0;
+        var s='<div class="opt"><label><input type="'+(mitu?'checkbox':'radio')+'" name="'
+          +esc(q.id)+'" value="'+esc(o.id)+'"'+(on?' checked':'')
+          +(o.tekst?' data-tekst="1"':'')+'><span>'+esc(o[LANG]||o.et)+'</span></label>';
+        if(o.tekst){
+          s+='<input class="muut" type="text" maxlength="200" data-q="'+esc(q.id)+'"'
+            +' placeholder="'+esc(t('muu_ph'))+'" value="'+esc(vanaTxt[q.id]||'')+'"'
+            +(on?'':' hidden')+'>';
+        }
+        return s+'</div>';
       }).join('')+'</fieldset>';
   }).join('');
   var lbl=document.getElementById('txtlbl');
   if(lbl&&KYS.txt)lbl.textContent=KYS.txt[LANG]||KYS.txt.et;
 }
+// Delegeeritud, sest joonista() kirjutab sisu ule
+document.addEventListener('change',function(ev){
+  var el=ev.target;
+  if(!el||!el.closest||!el.closest('#kysimused'))return;
+  var fs=el.closest('fieldset');if(!fs)return;
+  fs.querySelectorAll('.muut').forEach(function(inp){
+    var box=inp.previousElementSibling.querySelector('input[data-tekst]');
+    var nait=box&&box.checked;
+    inp.hidden=!nait;
+    if(nait)inp.focus();else inp.value='';
+  });
+});
 function korja(){
   var a={};
   (KYS.q||[]).forEach(function(q){
@@ -185,6 +211,15 @@ function korja(){
     a[q.id]=(q.type==='many')?sel:sel[0];
   });
   return a;
+}
+// "Muu" tekstid eraldi valja - vastuste hulgas on ainult valiku id.
+function korjaMuu(){
+  var m={};
+  document.querySelectorAll('#kysimused .muut').forEach(function(i){
+    var v=(i.value||'').trim();
+    if(!i.hidden&&v)m[i.getAttribute('data-q')]=v;
+  });
+  return m;
 }
 function saada(ev){
   ev.preventDefault();
@@ -196,7 +231,7 @@ function saada(ev){
     method:'POST',
     headers:{'Content-Type':'application/json','Accept':'application/json'},
     body:JSON.stringify({
-      v:KYS.v||1, sait:SAIT, lang:LANG, a:a, txt:txt,
+      v:KYS.v||1, sait:SAIT, lang:LANG, a:a, muu:korjaMuu(), txt:txt,
       email:document.getElementById('email').value.trim(),
       hp:document.getElementById('hp').value
     })

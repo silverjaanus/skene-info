@@ -1,5 +1,6 @@
 {
  "_": "Tagasisidevormi kusimused. Muuda SIIN - nii vorm (tagasiside.html) kui vaade (tagasiside-vaade.html) loevad seda faili. Koodi puutuma ei pea. 'id' vaartusi ARA muuda tagantjarele: vanad vastused on salvestatud id jargi ja kaotaksid sildi.",
+ "__tekst": "Valikul \"tekst\": true avaneb margistamisel tekstivali. Selle sisu laheb eraldi valja 'muu' alla (mitte vastuste hulka), kuni 200 marki.",
  "v": 1,
  "q": [
   {
@@ -12,7 +13,7 @@
     {"id": "mis_tuleb", "et": "Vaatan, mis lähiajal tuleb", "en": "Seeing what's coming up"},
     {"id": "uued_bandid", "et": "Avastan uusi bände", "en": "Discovering new bands"},
     {"id": "reliisid", "et": "Vaatan uusi reliise", "en": "Checking new releases"},
-    {"id": "muu", "et": "Muu", "en": "Something else"}
+    {"id": "muu", "et": "Muu", "en": "Something else", "tekst": true}
    ]
   },
   {
@@ -38,7 +39,8 @@
     {"id": "reliisid", "et": "Reliisid", "en": "Releases"},
     {"id": "otsing", "et": "Otsing", "en": "Search"},
     {"id": "uudiskiri", "et": "Uudiskiri", "en": "The newsletter"},
-    {"id": "some", "et": "Facebooki / Instagrami postitused", "en": "Facebook / Instagram posts"}
+    {"id": "some", "et": "Facebooki / Instagrami postitused", "en": "Facebook / Instagram posts"},
+    {"id": "muu", "et": "Muu", "en": "Something else", "tekst": true}
    ]
   },
   {
@@ -51,6 +53,7 @@
     {"id": "zanr", "et": "Minu žanri üritusi", "en": "Events in my genre"},
     {"id": "piletid", "et": "Selgemat pileti- ja hinnainfot", "en": "Clearer ticket and price info"},
     {"id": "kaart", "et": "Kaarti, kus üritused toimuvad", "en": "A map of where events are"},
+    {"id": "muu", "et": "Muu", "en": "Something else", "tekst": true},
     {"id": "ei_puudu", "et": "Ei puudunud midagi", "en": "Nothing was missing"}
    ]
   }

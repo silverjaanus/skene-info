@@ -35,6 +35,10 @@ h2{font-family:var(--mono);font-size:11px;letter-spacing:.9px;text-transform:upp
 .fil{position:absolute;inset:0 auto 0 0;background:var(--telliskivi);opacity:.85}
 .lbl{position:relative;padding:3px 9px;line-height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .num{font-family:var(--mono);font-size:12px;color:var(--hall);text-align:right}
+.muul{list-style:none;margin:8px 0 0;padding:0 0 0 12px;border-left:2px solid var(--joon)}
+.muul li{font-size:14px;color:var(--hall);margin:0 0 3px}
+.muul li::before{content:"„";color:var(--joon)}
+.muul li::after{content:"“";color:var(--joon)}
 .txt{border-left:3px solid var(--joon);padding:10px 0 10px 14px;margin:0 0 16px}
 .txt .meta{font-family:var(--mono);font-size:11px;color:var(--hall);margin-bottom:5px;
   text-transform:uppercase;letter-spacing:.5px}
@@ -121,6 +125,8 @@ function joonista(){
     var ids=(q.opts||[]).map(function(o){return o.id;});
     Object.keys(loend).forEach(function(k){if(ids.indexOf(k)<0)ids.push(k);});
     var max=Math.max.apply(null,[1].concat(ids.map(function(i){return loend[i]||0;})));
+    // "Muu" vabatekstid selle kusimuse all
+    var muud=r.map(function(e){return e.muu&&e.muu[q.id];}).filter(Boolean);
     return '<div class="q"><h3>'+esc(q.et)+' <span class="tyhi">— vastanuid '+vastanuid+'</span></h3>'
       +ids.map(function(i){
         var n=loend[i]||0;
@@ -129,7 +135,9 @@ function joonista(){
           +'<div class="fil" style="width:'+(n/max*100)+'%"></div>'
           +'<div class="lbl">'+esc(lbl(q,i))+'</div></div>'
           +'<div class="num">'+n+(vastanuid?' · '+pct+'%':'')+'</div></div>';
-      }).join('')+'</div>';
+      }).join('')
+      +(muud.length?'<ul class="muul">'+muud.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul>':'')
+      +'</div>';
   }).join('');
 
   var tx=r.filter(function(e){return e.txt;}).sort(function(a,b){return b.ts.localeCompare(a.ts);});
@@ -142,11 +150,17 @@ function joonista(){
 }
 function csv(){
   var r=rows();
-  var pead=['ts','sait','lang','email'].concat((KYS.q||[]).map(function(q){return q.id;})).concat(['txt']);
+  var qids=(KYS.q||[]).map(function(q){return q.id;});
+  var muuIds=qids.filter(function(id){
+    return (KYS.q.filter(function(q){return q.id===id;})[0].opts||[]).some(function(o){return o.tekst;});
+  });
+  var pead=['ts','sait','lang','email'].concat(qids)
+    .concat(muuIds.map(function(id){return id+'_muu';})).concat(['txt']);
   var read=r.map(function(e){
     return pead.map(function(k){
       var v;
       if(k==='ts'||k==='sait'||k==='lang'||k==='email'||k==='txt')v=e[k]||'';
+      else if(k.slice(-4)==='_muu')v=(e.muu&&e.muu[k.slice(0,-4)])||'';
       else{v=e.a&&e.a[k];v=Array.isArray(v)?v.join('|'):(v||'');}
       return '"'+String(v).replace(/"/g,'""')+'"';
     }).join(',');
