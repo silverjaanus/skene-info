@@ -148,6 +148,32 @@
    "nb": "koosseis täienes 28.07.2026 sweepis 11 -> 19 nime (FB event 1255908596517597). Kuupäev 14.–15.08 kinnitatud eestihiphopfestival.ee-lt (FB näitab 14.–16.08 laagri tõttu)"
   },
   {
+   "d": "2026-08-16",
+   "t": "kontsert",
+   "n": "KRS-One (US): My Philosophy European Tour 2026",
+   "a": "Boogie Down Productionsi asutaja ja New Yorgi hip-hopi elav klassik esmakordselt Tallinnas; uksed 19.00, algus 20.00",
+   "b": [
+    "KRS-One (US)"
+   ],
+   "v": "Club Privé",
+   "c": "Tallinn",
+   "g": [
+    "hip-hop",
+    "räpp"
+   ],
+   "sn": "Ticketshop",
+   "su": "https://ticketshop.ee/et/events/107052",
+   "pu": "https://ticketshop.ee/et/events/107052",
+   "hind": {
+    "praegu": "alates 58,29€",
+    "mark": "uksed 19.00, algus 20.00, 0+",
+    "allikas": "ticketshop.ee, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 Silveri skoobiotsuse alusel: välisartisti kontsert Eestis LÄHEB kirja kõigil kolmel saidil (žanri järgi), mitte ainult Eesti artistid. KOLM allikat kinnitavad kuupäeva 16.08.2026: ticketshop.ee/et/events/107052 (piletimüüja, korraldaja LATFRO ENTERTAINMENT), Eventbrite 1984157416244 (Sunday August 16, 7-11 PM) ja allevents.in. ⚠ Ticketshopi KIRJELDUSTEKST ütleb endiselt 'June 14th, 2026' — üritus on juunist augustisse lükatud ja tekst jäänud uuendamata; kuupäevaväli ja Eventbrite ütlevad mõlemad 16.08. ⚠ FB event 1671040643909465 on KATKI (näitab 15. mai 3.00) — seda EI kasutatud ou-l. Kellaaeg: allevents ja Eventbrite ütlevad 19.00, ticketshop eristab uksed 19.00 / algus 20.00 — kirjes on ticketshopi versioon.",
+   "img": "pildid/krsoneusmyphilosophyeuropeantour2026.webp"
+  },
+  {
    "d": "2026-08-19",
    "t": "klubi",
    "n": "CHECK ONE TWO",
@@ -193,11 +219,14 @@
    "pu": "https://www.ticketer.ee",
    "hind": {
     "praegu": "12€",
-    "mark": "early bird",
+    "mark": "early bird; uksed 18.00, lõpp 23.00",
     "allikas": "Ticketer, kontrollitud 07.08.2026"
    },
    "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (leid ticketer.ee-st). ⚠ AINULT ÜKS ALLIKAS — FB eventi ega korraldaja lehte ei õnnestunud sweepis tuvastada; kuupäev, koht ja hind pärinevad piletilehelt. Kui teine allikas leitakse, täienda su/ou ja täpsusta algusaeg (18.00 piletilehe järgi). Silveril üle vaadata"
+   "nb": "lisatud 07.08.2026 nädalases sweepis (leid ticketer.ee-st). ⚠ Esimeses voorus oli AINULT ÜKS allikas; samal päeval sai TEISE: Privé Live Clubi oma FB events-leht + ürituse FB event 959940553788441, mis kinnitab kuupäeva, koha (Harju 6) ja kellaaja 18.00–23.00. Hind 12 € (early bird) on ticketer.ee-st.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/959940553788441/",
+   "img": "pildid/67joosepprolennuvibunibuqotidsebateus.webp"
   },
   {
    "d": "2026-08-22",

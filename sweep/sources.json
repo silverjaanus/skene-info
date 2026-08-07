@@ -366,6 +366,12 @@
     "nimi": "Legendaarne Records (FB)",
     "url": "https://www.facebook.com/legendaarne/events",
     "nb": "lisatud 28.07.2026 Silveri viite peale. Labeli enda FB-leht; urituste-tab on hetkel ainult 'Past', aga jalgi"
+   },
+   {
+    "nimi": "Privé Live Club (Club Privé)",
+    "url": "https://www.facebook.com/clubprive/events",
+    "tyyp": "venue",
+    "nb": "lisatud 07.08.2026: Harju 6, Tallinn; 25K jälgijat, sait priveclub.ee, clubprivetln@gmail.com. ŽANRILT KIRJU ja kehtib KÕIGILE 3 saidile — augustis-oktoobris 2026 korraga eesti räpp (67), vene alt-rock (Animal Jazz), KiŠi cover-bänd, ambient-elektroonika (Carbon Based Lifeforms -> klubi) ja KRS-One. Kontrolli iga kirje žanr eraldi. NB venue ise EI hosti kõiki üritusi — KRS-One'i events-tabis polnud, sest event-admin on korraldaja (LATFRO), mitte klubi."
    }
   ],
   "ig": [
@@ -511,6 +517,11 @@
     "nimi": "Piletilevi",
     "url": "https://www.piletilevi.ee/search?query=metal",
     "nb": "TOOTAV OTSINGU-URL leitud 28.07.2026: /search?query=<termin>. EI TOOTA: /otsing?q= ja /piletid/muusika/rock-ja-metall (404). Zanri-alamkategooriaid EI OLE - kasuta otsingut (metal, punk, rock, rapp, techno)"
+   },
+   {
+    "nimi": "Ticketshop.ee",
+    "url": "https://ticketshop.ee/et/events",
+    "nb": "lisatud 07.08.2026 (KRS-One 16.08 leid): piletiplatvorm, mida kasutavad välisartistide tuurikorraldajad (nt LATFRO Entertainment) ja mida Piletilevi/Fienta/Ticketer EI kata. Žanri-agnostiline, filtreeri skoop. ⚠ Ürituse KIRJELDUSTEKST võib olla vananenud (KRS-One'i tekstis seisis 'June 14th', kuigi kuupäevaväli ja Eventbrite ütlesid 16.08) — usalda kuupäevavälja ja ristkontrolli."
    }
   ]
  },

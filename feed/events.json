@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 191,
+ "count": 193,
  "entries": [
   {
    "sait": "www",
@@ -1825,6 +1825,33 @@
    "img": "https://klubi.skene.info/pildid/wakeupeventsumenight.webp"
   },
   {
+   "sait": "rap",
+   "d": "2026-08-16",
+   "t": "kontsert",
+   "n": "KRS-One (US): My Philosophy European Tour 2026",
+   "a": "Boogie Down Productionsi asutaja ja New Yorgi hip-hopi elav klassik esmakordselt Tallinnas; uksed 19.00, algus 20.00",
+   "b": [
+    "KRS-One (US)"
+   ],
+   "v": "Club Privé",
+   "c": "Tallinn",
+   "g": [
+    "hip-hop",
+    "räpp"
+   ],
+   "sn": "Ticketshop",
+   "su": "https://ticketshop.ee/et/events/107052",
+   "pu": "https://ticketshop.ee/et/events/107052",
+   "hind": {
+    "praegu": "alates 58,29€",
+    "mark": "uksed 19.00, algus 20.00, 0+",
+    "allikas": "ticketshop.ee, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 Silveri skoobiotsuse alusel: välisartisti kontsert Eestis LÄHEB kirja kõigil kolmel saidil (žanri järgi), mitte ainult Eesti artistid. KOLM allikat kinnitavad kuupäeva 16.08.2026: ticketshop.ee/et/events/107052 (piletimüüja, korraldaja LATFRO ENTERTAINMENT), Eventbrite 1984157416244 (Sunday August 16, 7-11 PM) ja allevents.in. ⚠ Ticketshopi KIRJELDUSTEKST ütleb endiselt 'June 14th, 2026' — üritus on juunist augustisse lükatud ja tekst jäänud uuendamata; kuupäevaväli ja Eventbrite ütlevad mõlemad 16.08. ⚠ FB event 1671040643909465 on KATKI (näitab 15. mai 3.00) — seda EI kasutatud ou-l. Kellaaeg: allevents ja Eventbrite ütlevad 19.00, ticketshop eristab uksed 19.00 / algus 20.00 — kirjes on ticketshopi versioon.",
+   "img": "https://rap.skene.info/pildid/krsoneusmyphilosophyeuropeantour2026.webp"
+  },
+  {
    "sait": "www",
    "d": "2026-08-16",
    "t": "kontsert",
@@ -1870,11 +1897,14 @@
    "pu": "https://www.ticketer.ee",
    "hind": {
     "praegu": "12€",
-    "mark": "early bird",
+    "mark": "early bird; uksed 18.00, lõpp 23.00",
     "allikas": "Ticketer, kontrollitud 07.08.2026"
    },
    "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (leid ticketer.ee-st). ⚠ AINULT ÜKS ALLIKAS — FB eventi ega korraldaja lehte ei õnnestunud sweepis tuvastada; kuupäev, koht ja hind pärinevad piletilehelt. Kui teine allikas leitakse, täienda su/ou ja täpsusta algusaeg (18.00 piletilehe järgi). Silveril üle vaadata"
+   "nb": "lisatud 07.08.2026 nädalases sweepis (leid ticketer.ee-st). ⚠ Esimeses voorus oli AINULT ÜKS allikas; samal päeval sai TEISE: Privé Live Clubi oma FB events-leht + ürituse FB event 959940553788441, mis kinnitab kuupäeva, koha (Harju 6) ja kellaaja 18.00–23.00. Hind 12 € (early bird) on ticketer.ee-st.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/959940553788441/",
+   "img": "https://rap.skene.info/pildid/67joosepprolennuvibunibuqotidsebateus.webp"
   },
   {
    "sait": "rap",
@@ -3413,7 +3443,7 @@
     "mark": "eelmuuk 20€, uksel 25€",
     "allikas": "Fienta, kontrollitud 28.07.2026"
    },
-   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta + tapper.ee). ZANRIOTSUS: Evestus on dark-electro/industrial, aga koosseis on metal-poolne (Ampest) ja venue rokiklubi -> peasait, sama loogika mis Freakangelil (Silveri otsus 27.07). Silver voib klubisse tosta",
+   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta + tapper.ee). ZANRIOTSUS: Evestus on dark-electro/industrial, aga koosseis on metal-poolne (Ampest) ja venue rokiklubi -> peasait, sama loogika mis Freakangelil (Silveri otsus 27.07). Silver voib klubisse tosta | 07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Evestuse Last.fm sildid industrial/electronic/industrial rock), kirje JÄÄB PEASAIDILE — baasžanr on industrial ROCK ja kaasesineja Ampest on metal. Ära tõsta järgmistes sweepides.",
    "img": "https://www.skene.info/pildid/evestusampest.webp"
   },
   {
@@ -3669,6 +3699,29 @@
    "img": "https://www.skene.info/pildid/hardcoresuperstar.webp"
   },
   {
+   "sait": "klubi",
+   "d": "2026-10-14",
+   "t": "kontsert",
+   "n": "Carbon Based Lifeforms (SWE)",
+   "a": "Göteborgi ambient/psybient-duo (Johannes Hedberg & Daniel Ringström) — aeglaselt hingavad tekstuurid ja downtempo-rütmid",
+   "b": [
+    "Carbon Based Lifeforms (SWE)"
+   ],
+   "v": "Club Privé",
+   "c": "Tallinn",
+   "g": [
+    "ambient",
+    "electronic",
+    "downtempo"
+   ],
+   "sn": "Privé Live Club (FB)",
+   "su": "https://www.facebook.com/clubprive/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1574357314264409/",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026, teine voor — leid tuli Privé Live Clubi FB events-lehelt, mis lisati allikaks KRS-One'i kontrollimise käigus. Algus 20.00, korraldaja Aeon Psy Events. Kaks allikat: venue oma events-leht + ürituse FB event. ⚠ Piletilinki FB-lehel tekstina ei ole (ainult 'Find tickets' nupp), seega pu puudub — täienda, kui piletimüük avaneb."
+  },
+  {
    "sait": "www",
    "d": "2026-10-15",
    "d2": "18.11",
@@ -3713,7 +3766,8 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=228103",
-   "img": "https://www.skene.info/pildid/wardruna.webp"
+   "img": "https://www.skene.info/pildid/wardruna.webp",
+   "nb": " | 07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Last.fm sildid ambient/folk/celtic/neofolk), kirje JÄÄB PEASAIDILE. Ära tõsta järgmistes sweepides."
   },
   {
    "sait": "klubi",
