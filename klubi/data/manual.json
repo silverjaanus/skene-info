@@ -1950,9 +1950,9 @@
   "su": "https://www.facebook.com/halltallinn/events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1678866233207126/",
-  "pu": "https://gateme.com/et/Estonia/",
+  "pu": "https://gateme.com/et/halltallinn/104078-compress-rave-x-hall-only-techno-0708",
   "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents"
+  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga."
  },
  {
   "d": "2026-08-07",
@@ -1980,7 +1980,8 @@
    "allikas": "tolm.club, kontrollitud 07.08.2026"
   },
   "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: tolm.club ürituste-leht (koosseis, hind) + Rada7.ee FB events-tab. Peetri 26, Tartu"
+  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: tolm.club ürituste-leht (koosseis, hind) + Rada7.ee FB events-tab. Peetri 26, Tartu",
+  "img": "pildid/sumbioos.webp"
  },
  {
   "d": "2026-08-08",
@@ -2010,7 +2011,8 @@
    "allikas": "tolm.club, kontrollitud 07.08.2026"
   },
   "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: tolm.club ürituste-leht (koosseis, hind) + ürituse enda FB event. Peetri 26, Tartu"
+  "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: tolm.club ürituste-leht (koosseis, hind) + ürituse enda FB event. Peetri 26, Tartu",
+  "img": "pildid/glitter.webp"
  },
  {
   "d": "2026-12-04",
@@ -2031,7 +2033,8 @@
   "su": "https://fienta.com/et/o/17330",
   "pu": "https://fienta.com/et/laine-klubioo-adobeprincess-us",
   "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: Uus Laine Fienta org-leht 17330 + ürituse enda Fienta leht (kirjeldus). Hinda ei ole veel lehel tekstina näha"
+  "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: Uus Laine Fienta org-leht 17330 + ürituse enda Fienta leht (kirjeldus). Hinda ei ole veel lehel tekstina näha",
+  "img": "pildid/laineklubiooadobeprincessus.webp"
  },
  {
   "d": "2026-09-04",
@@ -2051,6 +2054,7 @@
   "on_": "Bandcamp",
   "ou": "https://healerrecords.bandcamp.com/album/changes-healer002",
   "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti techno tag-otsing). Bandcamp: 'releases September 4, 2026' — praegu eelmüügis. Tag'id: house, minimal, minimal house, progressive, tech house, techno, Tallinn"
+  "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti techno tag-otsing). Bandcamp: 'releases September 4, 2026' — praegu eelmüügis. Tag'id: house, minimal, minimal house, progressive, tech house, techno, Tallinn",
+  "img": "pildid/squashchangeshealer002.webp"
  }
 ]
