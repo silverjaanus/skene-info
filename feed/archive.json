@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-06",
+ "updated": "2026-08-07",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 74,
+ "count": 78,
  "entries": [
   {
    "sait": "www",
@@ -1889,6 +1889,26 @@
   },
   {
    "sait": "www",
+   "d": "2026-08-02",
+   "t": "reliis",
+   "n": "klostriid — «klostriid»",
+   "a": "Kuressaare punk/hardcore-kollektiivi telefoniga filmitud demo; viies lugu «solaarne» on kaver Urmas Alendri samanimelisest palast",
+   "b": [
+    "klostriid"
+   ],
+   "g": [
+    "punk",
+    "hardcore"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://klostriid.bandcamp.com/",
+   "on_": "Bandcamp",
+   "ou": "https://klostriid.bandcamp.com/",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti metal+punk tag-otsing). Bandcampi credits-rida: released August 2, 2026. Tag'id lehel: punk, hardcore, hardcore punk, metal punk, Kuressaare. 5 lugu, name-your-price. Koosseis kirjelduses: steven, juss, jaak ja rass"
+  },
+  {
+   "sait": "www",
    "d": "2026-08-03",
    "t": "muu",
    "n": "Giidituur «Kolmnurk»",
@@ -1965,6 +1985,80 @@
    "ou": "https://www.facebook.com/events/2496375707441417/",
    "nb": "lisatud 02.08.2026. Sweep leidis ainult tsungel.ee (RA-l seda kuupäeva pole); Silver andis teise allika — venue lehelt viitav FB-event. Žanrisilt 'house' on tuletatud venue profiilist ja artisti kollektiividest, mitte otseallikast — tsungel.ee tekst žanri ei nimeta.",
    "img": "https://klubi.skene.info/pildid/petricoreit.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-06",
+   "t": "kontsert",
+   "n": "MOBY + Austra + Raul Ojamaa",
+   "b": [
+    "Moby",
+    "Austra",
+    "Raul Ojamaa"
+   ],
+   "v": "Tartu Laululava",
+   "c": "Tartu",
+   "g": [
+    "electro",
+    "house"
+   ],
+   "sn": "L Tips Agency Estonia",
+   "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1850113972247057/",
+   "pu": "https://www.piletilevi.ee/piletid/2DAYCP7RNV/moby",
+   "nb": "lisatud 14.07.2026 (Silveri leid); Moby «Play» 25. juubelituur; korraldaja L Tips Agency Estonia",
+   "img": "https://klubi.skene.info/pildid/mobyaustraraulojamaa.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-06",
+   "t": "kontsert",
+   "n": "Wambola Synthetic Sunset: Nikolajev & Denzel (FI)",
+   "a": "elektroonilise muusika kontsertsari päikeseloojangul Noblessneri sadamalinnakus; algus 20.30",
+   "b": [
+    "Nikolajev",
+    "Denzel (FI)"
+   ],
+   "v": "Wambola Surf & Bar",
+   "c": "Tallinn",
+   "g": [
+    "electro"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://piletikeskus.ee/et/s/wambola-synthetic-sunset",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1919070542120379",
+   "pu": "https://piletikeskus.ee/et/s/wambola-synthetic-sunset",
+   "nb": "leitud Rada7.ee uudiskirjast (05.08.2026); kinnitatud FB eventilt + Piletikeskuse seerialehelt 06.08.2026 (N 06.08 kell 20.30, korraldajad Wambola Surf & Bar + Rada7.ee). Žanrimärgend tuleneb korraldaja sõnastusest ('elektroonilisele muusikale keskenduv kontsertsari'), pole kontrollitud stiilitag. Hinda seerialeht ei kuva.",
+   "img": "https://klubi.skene.info/pildid/wambolasyntheticsunsetnikolajevdenzelfi.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-06",
+   "t": "klubi",
+   "n": "klmn @ Tšungel",
+   "a": "Eesti underground-tantsumuusika hinnatud selector, üle kümne aasta plaadimängu. Kell 21.00–02.00, tasuta sissepääs (uksepoliitika)",
+   "b": [
+    "klmn"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/clubs/265290",
+   "on_": "Tšungel",
+   "ou": "https://tsungel.ee/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
+   "img": "https://klubi.skene.info/pildid/klmntsungel.webp"
   }
  ]
 }

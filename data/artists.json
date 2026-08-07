@@ -2730,18 +2730,9 @@
     },
     "Kojamees & The GÄNG": {
       "checked": "2026-08-07",
-      "domain": "klubi",
-      "src": "musicbrainz",
-      "tags": [
-        "electronic",
-        "jazz",
-        "fresh",
-        "funk",
-        "soul",
-        "disco",
-        "jazz-funk",
-        "rock and indie"
-      ]
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Konfliktor": {
       "checked": "2026-08-02",
@@ -3792,9 +3783,14 @@
     },
     "Pagansarv & Bestia": {
       "checked": "2026-08-07",
-      "domain": "unknown",
-      "src": "none",
-      "tags": []
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "black metal",
+        "pagan black metal",
+        "epic pagan black metal"
+      ]
     },
     "Pandhora": {
       "checked": "2026-07-13",
