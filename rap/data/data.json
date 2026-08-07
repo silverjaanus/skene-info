@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-06",
+ "updated": "2026-08-07",
  "entries": [
   {
    "rel": 1,
@@ -146,6 +146,57 @@
    "ou": "https://www.facebook.com/events/1255908596517597",
    "pu": "https://eestihiphopfestival.ee/",
    "nb": "koosseis täienes 28.07.2026 sweepis 11 -> 19 nime (FB event 1255908596517597). Kuupäev 14.–15.08 kinnitatud eestihiphopfestival.ee-lt (FB näitab 14.–16.08 laagri tõttu)"
+  },
+  {
+   "d": "2026-08-19",
+   "t": "klubi",
+   "n": "CHECK ONE TWO",
+   "a": "Riigipühaeelne räpiteemaline tantsupidu — legendaarne sari uues kodus Krulli kvartalis",
+   "b": [
+    "DJ Quest",
+    "Legendaarne Raadio residendid"
+   ],
+   "v": "Legendaarne Raadiobaar (Krulli 2b)",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "hip-hop"
+   ],
+   "sn": "Legendaarne Raadio (FB)",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28058248373806976/",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Legendaarne Raadio FB events-leht + ürituse enda FB event. Sari on sources.json-is juba nimetatud (Uus Laine kirje 'Check One Two peod'), aga kolis Krulli 2b-sse. Algus 22.00. Piletiinfot lehel ei ole"
+  },
+  {
+   "d": "2026-08-19",
+   "t": "kontsert",
+   "n": "67: Jooseppro & Lennu + Vibunibu + Qotid + Sebateus",
+   "a": "Eesti underground-räpi õhtu Club Privés",
+   "b": [
+    "Jooseppro",
+    "Lennu",
+    "Vibunibu",
+    "Qotid",
+    "Sebateus"
+   ],
+   "v": "Club Privé",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "hip-hop"
+   ],
+   "sn": "Ticketer",
+   "su": "https://www.ticketer.ee",
+   "pu": "https://www.ticketer.ee",
+   "hind": {
+    "praegu": "12€",
+    "mark": "early bird",
+    "allikas": "Ticketer, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis (leid ticketer.ee-st). ⚠ AINULT ÜKS ALLIKAS — FB eventi ega korraldaja lehte ei õnnestunud sweepis tuvastada; kuupäev, koht ja hind pärinevad piletilehelt. Kui teine allikas leitakse, täienda su/ou ja täpsusta algusaeg (18.00 piletilehe järgi). Silveril üle vaadata"
   },
   {
    "d": "2026-08-22",

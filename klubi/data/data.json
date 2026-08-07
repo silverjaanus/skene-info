@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-06",
+ "updated": "2026-08-07",
  "entries": [
   {
    "rel": 1,
@@ -174,77 +174,6 @@
    "img": "pildid/defferarchive01.webp"
   },
   {
-   "d": "2026-08-06",
-   "t": "kontsert",
-   "n": "MOBY + Austra + Raul Ojamaa",
-   "b": [
-    "Moby",
-    "Austra",
-    "Raul Ojamaa"
-   ],
-   "v": "Tartu Laululava",
-   "c": "Tartu",
-   "g": [
-    "electro",
-    "house"
-   ],
-   "sn": "L Tips Agency Estonia",
-   "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1850113972247057/",
-   "pu": "https://www.piletilevi.ee/piletid/2DAYCP7RNV/moby",
-   "nb": "lisatud 14.07.2026 (Silveri leid); Moby «Play» 25. juubelituur; korraldaja L Tips Agency Estonia",
-   "img": "pildid/mobyaustraraulojamaa.webp"
-  },
-  {
-   "d": "2026-08-06",
-   "t": "klubi",
-   "n": "klmn @ Tšungel",
-   "a": "Eesti underground-tantsumuusika hinnatud selector, üle kümne aasta plaadimängu. Kell 21.00–02.00, tasuta sissepääs (uksepoliitika)",
-   "b": [
-    "klmn"
-   ],
-   "v": "Tšungel",
-   "c": "Tallinn",
-   "g": [
-    "house",
-    "disco"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/clubs/265290",
-   "on_": "Tšungel",
-   "ou": "https://tsungel.ee/",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
-   },
-   "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
-   "img": "pildid/klmntsungel.webp"
-  },
-  {
-   "d": "2026-08-06",
-   "t": "kontsert",
-   "n": "Wambola Synthetic Sunset: Nikolajev & Denzel (FI)",
-   "a": "elektroonilise muusika kontsertsari päikeseloojangul Noblessneri sadamalinnakus; algus 20.30",
-   "b": [
-    "Nikolajev",
-    "Denzel (FI)"
-   ],
-   "v": "Wambola Surf & Bar",
-   "c": "Tallinn",
-   "g": [
-    "electro"
-   ],
-   "sn": "Rada7.ee uudiskiri",
-   "su": "https://piletikeskus.ee/et/s/wambola-synthetic-sunset",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1919070542120379",
-   "pu": "https://piletikeskus.ee/et/s/wambola-synthetic-sunset",
-   "nb": "leitud Rada7.ee uudiskirjast (05.08.2026); kinnitatud FB eventilt + Piletikeskuse seerialehelt 06.08.2026 (N 06.08 kell 20.30, korraldajad Wambola Surf & Bar + Rada7.ee). Žanrimärgend tuleneb korraldaja sõnastusest ('elektroonilisele muusikale keskenduv kontsertsari'), pole kontrollitud stiilitag. Hinda seerialeht ei kuva.",
-   "img": "pildid/wambolasyntheticsunsetnikolajevdenzelfi.webp"
-  },
-  {
    "d": "2026-08-07",
    "d2": "09.08",
    "t": "festival",
@@ -413,6 +342,60 @@
    "img": "pildid/micaxsansummerfiesta.webp"
   },
   {
+   "d": "2026-08-07",
+   "t": "klubi",
+   "n": "COMPRESS x HALL (ONLY TECHNO)",
+   "a": "COMPRESSi 7. väljaanne Mesila laval — hüpnootiline tehno Funktion-One süsteemil; 23.00–06.00, 18+",
+   "b": [
+    "Meelis Vili",
+    "micaxsan",
+    "L21 (GE)",
+    "Nora",
+    "Sugar Rody",
+    "Wataru Yoshimoto (JP)"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL (FB)",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1678866233207126/",
+   "pu": "https://gateme.com/et/Estonia/",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents"
+  },
+  {
+   "d": "2026-08-07",
+   "t": "klubi",
+   "n": "Sümbioos",
+   "a": "TOLMi tantsupõrand kui arenev organism — tehno eri tüved kohtuvad ja muteeruvad; Funktion-One",
+   "b": [
+    "Sümbioos",
+    "Harbinmoths",
+    "Radixsort"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "minimal"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1370134824463009/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "sularaha või kaart",
+    "allikas": "tolm.club, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: tolm.club ürituste-leht (koosseis, hind) + Rada7.ee FB events-tab. Peetri 26, Tartu"
+  },
+  {
    "d": "2026-08-08",
    "t": "klubi",
    "n": "Sub û Dub: Priori (CA)",
@@ -526,6 +509,36 @@
    "img": "pildid/fedotripsysammtsungel.webp"
   },
   {
+   "d": "2026-08-08",
+   "t": "klubi",
+   "n": "glitter",
+   "a": "glitter naaseb — Tartu ja Tallinna underground'i selektorid UUU ja AN3, TOLMi residendid Jassa ja Camelcase viivad öö VikerTolmi aftersi",
+   "b": [
+    "UUU",
+    "AN3",
+    "Jassa",
+    "Camelcase"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "electro",
+    "techno",
+    "experimental"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1032289673035425/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "sularaha või kaart",
+    "allikas": "tolm.club, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: tolm.club ürituste-leht (koosseis, hind) + ürituse enda FB event. Peetri 26, Tartu"
+  },
+  {
    "d": "2026-08-12",
    "t": "kontsert",
    "n": "AIGEL + 3H Company",
@@ -592,7 +605,10 @@
     "Artur Lääts",
     "Katja Adrikova",
     "FAKIGN",
-    "Brett Rästas"
+    "Brett Rästas",
+    "Denzel",
+    "Joni DJ",
+    "Tanel Mütt"
    ],
    "v": "HALL",
    "c": "Tallinn",
@@ -605,7 +621,7 @@
    "su": "https://ra.co/events/ee/all",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/24443143705338081/",
-   "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade"
+   "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade | 07.08.2026 sweep: RA koosseisunimekiri on kasvanud 19 artistini — lisatud Denzel, Joni DJ ja Tanel Mütt."
   },
   {
    "d": "2026-08-14",
@@ -739,7 +755,7 @@
     "Wondering O",
     "Romanss"
    ],
-   "nb": "lineup avaldatud RA-l 13.07.2026; 28.07.2026 sweep kontrollis üle — TÄISPROGRAMMI ENDISELT POLE ('more tba'), 13 nime on jätkuvalt aktuaalne seis. Korraldaja Shelter x Jokkoo Collective (Barcelona)",
+   "nb": "lineup avaldatud RA-l 13.07.2026; 28.07.2026 sweep kontrollis üle — TÄISPROGRAMMI ENDISELT POLE ('more tba'), 13 nime on jätkuvalt aktuaalne seis. Korraldaja Shelter x Jokkoo Collective (Barcelona) | 07.08.2026 sweep: RA event 2473978 üle kontrollitud — koosseis on ENDISELT 13 nime + \"more tba\", täisprogrammi ei ole avaldatud. Fienta hind 10–30€ kehtib.",
    "v": "HUNGR",
    "c": "Tallinn",
    "g": [
@@ -1076,8 +1092,28 @@
     "mark": "Regular Bird; Early Bird välja müüdud",
     "allikas": "Ticketer, kontrollitud 28.07.2026"
    },
-   "nb": "lisatud sweepis 28.07.2026 (Planeet FB + FB event + Ticketer)",
+   "nb": "lisatud sweepis 28.07.2026 (Planeet FB + FB event + Ticketer) | 07.08.2026 sweep: Audio Planeeti FB events-leht annab täiskoosseisu — Delta Heavy, Planeet, Milku & Wundermaster, Typeline.",
    "img": "pildid/extremepresentsdeltaheavy.webp"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "reliis",
+   "n": "Squash — «Changes (HEALER002)»",
+   "a": "Tallinna Healer Recordsi teine väljaanne — house, minimal ja tech house",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "house",
+    "minimal",
+    "techno"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://healerrecords.bandcamp.com/album/changes-healer002",
+   "on_": "Bandcamp",
+   "ou": "https://healerrecords.bandcamp.com/album/changes-healer002",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti techno tag-otsing). Bandcamp: 'releases September 4, 2026' — praegu eelmüügis. Tag'id: house, minimal, minimal house, progressive, tech house, techno, Tallinn"
   },
   {
    "d": "2026-09-05",
@@ -1349,6 +1385,27 @@
    "pu": "https://fienta.com/et/lane8",
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Piiripealne: suur nimi, aga baasžanr melodic/progressive house — sama loogika mis Netskyl",
    "img": "pildid/lane8europetour.webp"
+  },
+  {
+   "d": "2026-12-04",
+   "t": "klubi",
+   "n": "Laine Klubiöö: adobeprincess (US)",
+   "a": "NYC DJ — dubine minimal-tehno, chugging-rütmid, sädelevad breaks'id ja progressiivsed meloodiakihid",
+   "b": [
+    "adobeprincess"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "minimal",
+    "breaks"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/o/17330",
+   "pu": "https://fienta.com/et/laine-klubioo-adobeprincess-us",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: Uus Laine Fienta org-leht 17330 + ürituse enda Fienta leht (kirjeldus). Hinda ei ole veel lehel tekstina näha"
   },
   {
    "d": "2026-12-11",

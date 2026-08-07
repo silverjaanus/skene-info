@@ -490,6 +490,77 @@
    "ou": "https://www.facebook.com/events/2496375707441417/",
    "nb": "lisatud 02.08.2026. Sweep leidis ainult tsungel.ee (RA-l seda kuupäeva pole); Silver andis teise allika — venue lehelt viitav FB-event. Žanrisilt 'house' on tuletatud venue profiilist ja artisti kollektiividest, mitte otseallikast — tsungel.ee tekst žanri ei nimeta.",
    "img": "pildid/petricoreit.webp"
+  },
+  {
+   "d": "2026-08-06",
+   "t": "kontsert",
+   "n": "MOBY + Austra + Raul Ojamaa",
+   "b": [
+    "Moby",
+    "Austra",
+    "Raul Ojamaa"
+   ],
+   "v": "Tartu Laululava",
+   "c": "Tartu",
+   "g": [
+    "electro",
+    "house"
+   ],
+   "sn": "L Tips Agency Estonia",
+   "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1850113972247057/",
+   "pu": "https://www.piletilevi.ee/piletid/2DAYCP7RNV/moby",
+   "nb": "lisatud 14.07.2026 (Silveri leid); Moby «Play» 25. juubelituur; korraldaja L Tips Agency Estonia",
+   "img": "pildid/mobyaustraraulojamaa.webp"
+  },
+  {
+   "d": "2026-08-06",
+   "t": "klubi",
+   "n": "klmn @ Tšungel",
+   "a": "Eesti underground-tantsumuusika hinnatud selector, üle kümne aasta plaadimängu. Kell 21.00–02.00, tasuta sissepääs (uksepoliitika)",
+   "b": [
+    "klmn"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/clubs/265290",
+   "on_": "Tšungel",
+   "ou": "https://tsungel.ee/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
+   "img": "pildid/klmntsungel.webp"
+  },
+  {
+   "d": "2026-08-06",
+   "t": "kontsert",
+   "n": "Wambola Synthetic Sunset: Nikolajev & Denzel (FI)",
+   "a": "elektroonilise muusika kontsertsari päikeseloojangul Noblessneri sadamalinnakus; algus 20.30",
+   "b": [
+    "Nikolajev",
+    "Denzel (FI)"
+   ],
+   "v": "Wambola Surf & Bar",
+   "c": "Tallinn",
+   "g": [
+    "electro"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://piletikeskus.ee/et/s/wambola-synthetic-sunset",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1919070542120379",
+   "pu": "https://piletikeskus.ee/et/s/wambola-synthetic-sunset",
+   "nb": "leitud Rada7.ee uudiskirjast (05.08.2026); kinnitatud FB eventilt + Piletikeskuse seerialehelt 06.08.2026 (N 06.08 kell 20.30, korraldajad Wambola Surf & Bar + Rada7.ee). Žanrimärgend tuleneb korraldaja sõnastusest ('elektroonilisele muusikale keskenduv kontsertsari'), pole kontrollitud stiilitag. Hinda seerialeht ei kuva.",
+   "img": "pildid/wambolasyntheticsunsetnikolajevdenzelfi.webp"
   }
  ]
 }

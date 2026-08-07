@@ -343,5 +343,56 @@
   "ou": "https://open.spotify.com/album/7sZU2ZJ2Dn7zByejrQAZ4T",
   "nb": "kuupäev Silveri edastatud (06.08.2026): Sahver Recordsi enda FB-postitus 24.07.2026 16:22 «Päda uus album \"MA EI MAGA\" on väljas!». ⚠ LAHKNEVUS: Spotify albumileht näitab release-kuupäevaks 23.07.2026 — ühe päeva vahe. Kasutan labeli enda teadet Silveri juhisel; kui vaja, muuda 23.07-ks. Kaks allikat täidetud: Sahver Records FB + Spotify (8 lugu, 21:06, © 2026 sahver records). Album leitud Rada7.ee uudiskirjast 05.08; albumiesitlus 08.08 Legendaarnes on eraldi kirje.",
   "img": "pildid/padamaeimaga.webp"
+ },
+ {
+  "d": "2026-08-19",
+  "t": "klubi",
+  "n": "CHECK ONE TWO",
+  "a": "Riigipühaeelne räpiteemaline tantsupidu — legendaarne sari uues kodus Krulli kvartalis",
+  "b": [
+   "DJ Quest",
+   "Legendaarne Raadio residendid"
+  ],
+  "v": "Legendaarne Raadiobaar (Krulli 2b)",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hip-hop"
+  ],
+  "sn": "Legendaarne Raadio (FB)",
+  "su": "https://www.facebook.com/LegendaarneRaadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/28058248373806976/",
+  "lisatud": "2026-08-07",
+  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Legendaarne Raadio FB events-leht + ürituse enda FB event. Sari on sources.json-is juba nimetatud (Uus Laine kirje 'Check One Two peod'), aga kolis Krulli 2b-sse. Algus 22.00. Piletiinfot lehel ei ole"
+ },
+ {
+  "d": "2026-08-19",
+  "t": "kontsert",
+  "n": "67: Jooseppro & Lennu + Vibunibu + Qotid + Sebateus",
+  "a": "Eesti underground-räpi õhtu Club Privés",
+  "b": [
+   "Jooseppro",
+   "Lennu",
+   "Vibunibu",
+   "Qotid",
+   "Sebateus"
+  ],
+  "v": "Club Privé",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hip-hop"
+  ],
+  "sn": "Ticketer",
+  "su": "https://www.ticketer.ee",
+  "pu": "https://www.ticketer.ee",
+  "hind": {
+   "praegu": "12€",
+   "mark": "early bird",
+   "allikas": "Ticketer, kontrollitud 07.08.2026"
+  },
+  "lisatud": "2026-08-07",
+  "nb": "lisatud 07.08.2026 nädalases sweepis (leid ticketer.ee-st). ⚠ AINULT ÜKS ALLIKAS — FB eventi ega korraldaja lehte ei õnnestunud sweepis tuvastada; kuupäev, koht ja hind pärinevad piletilehelt. Kui teine allikas leitakse, täienda su/ou ja täpsusta algusaeg (18.00 piletilehe järgi). Silveril üle vaadata"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-06",
+ "updated": "2026-08-07",
  "groups": [
   {
    "nimi": "Kohad",
@@ -7,6 +7,10 @@
     {
      "n": "D3",
      "u": "https://www.d-3.ee/events/"
+    },
+    {
+     "n": "Fonoteek",
+     "u": "https://www.facebook.com/fonoteek/events"
     },
     {
      "n": "Genialistide Klubi (Tartu)",
@@ -51,6 +55,10 @@
     {
      "n": "VMPR / Valgemetsa projektiruum",
      "u": "https://vmpr.ee/"
+    },
+    {
+     "n": "Wambola Surf & Bar",
+     "u": "https://www.facebook.com/events/1919070542120379"
     }
    ]
   },
