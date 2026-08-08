@@ -1176,6 +1176,78 @@
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/",
    "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Paavli.Live on teadlikult žanriülene sari; žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+  },
+  {
+   "d": "2026-08-07",
+   "t": "kontsert",
+   "n": "Hot Kommunist (EST/FIN) @ Kära Kants",
+   "a": "jazz-punk-prog trio (est 1996); kell 22.00",
+   "b": [
+    "Hot Kommunist"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "punk",
+    "alt"
+   ],
+   "sn": "Kära Kantsi FB grupp",
+   "su": "https://www.facebook.com/groups/112392415448166/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/950881911040505/",
+   "hind": {
+    "praegu": "5€ / 6€",
+    "mark": "uksehind sularahas: 5€ Kära Kantsi liige / 6€ tavaline",
+    "allikas": "Facebook event, kontrollitud 11.07.2026"
+   }
+  },
+  {
+   "d": "2026-08-07",
+   "t": "kontsert",
+   "n": "Baltic Prosecution: Blisterous (FIN) + Gangrenated + Kättemaksucuntor",
+   "a": "goregrind/grind õhtu DIY-klubis Hell; algus 18.00",
+   "b": [
+    "Blisterous",
+    "Gangrenated",
+    "Kättemaksucuntor"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "grind",
+    "death"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1583551966711930/",
+   "nb": "bändinimi ühtlustatud 26.07.2026 Bandcampi kirjapildiga (Kättemaksucuntor); FB-s stiliseeritud 'Kättemaksucvntor'"
+  },
+  {
+   "d": "2026-08-07",
+   "t": "kontsert",
+   "n": "J.M.K.E 40 — Saartetuur: Saaremaa",
+   "a": "legendaarse punkbändi 40. juubeli saartetuur; algus 20.00",
+   "b": [
+    "J.M.K.E."
+   ],
+   "v": "Turja sadam",
+   "c": "mujal",
+   "linn": "Saaremaa",
+   "g": [
+    "punk"
+   ],
+   "sn": "Ticketer",
+   "su": "https://www.ticketer.ee/jmke-40-saartetuur-saaremaa/",
+   "pu": "https://www.ticketer.ee/jmke-40-saartetuur-saaremaa/",
+   "hind": {
+    "praegu": "10€ / 15€",
+    "mark": "Hommikupunk 10€ / Õhtupunk 15€ (+tehingutasu); Superpunk 60€ (särk + signeeritud CD); korraldaja NYROK MTÜ",
+    "allikas": "Ticketer, kontrollitud 19.07.2026"
+   },
+   "nb": "lisatud sweepis 19.07.2026 (Ticketer)",
+   "img": "pildid/jmke40saartetuursaaremaa.webp"
   }
  ]
 }

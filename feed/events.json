@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07",
+ "updated": "2026-08-08",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 193,
+ "count": 185,
  "entries": [
   {
    "sait": "www",
@@ -775,174 +775,6 @@
    "pu": "https://www.piletilevi.ee/search?query=metal"
   },
   {
-   "sait": "www",
-   "d": "2026-08-07",
-   "t": "kontsert",
-   "n": "Baltic Prosecution: Blisterous (FIN) + Gangrenated + Kättemaksucuntor",
-   "a": "goregrind/grind õhtu DIY-klubis Hell; algus 18.00",
-   "b": [
-    "Blisterous",
-    "Gangrenated",
-    "Kättemaksucuntor"
-   ],
-   "v": "Hell",
-   "c": "Tartu",
-   "g": [
-    "grind",
-    "death"
-   ],
-   "sn": "Hell, Tartu FB",
-   "su": "https://www.facebook.com/punknrollhell/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1583551966711930/",
-   "nb": "bändinimi ühtlustatud 26.07.2026 Bandcampi kirjapildiga (Kättemaksucuntor); FB-s stiliseeritud 'Kättemaksucvntor'"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-07",
-   "t": "klubi",
-   "n": "COMPRESS x HALL (ONLY TECHNO)",
-   "a": "COMPRESSi 7. väljaanne Mesila laval — hüpnootiline tehno Funktion-One süsteemil; 23.00–06.00, 18+",
-   "b": [
-    "Meelis Vili",
-    "micaxsan",
-    "L21 (GE)",
-    "Nora",
-    "Sugar Rody",
-    "Wataru Yoshimoto (JP)"
-   ],
-   "v": "HALL",
-   "c": "Tallinn",
-   "g": [
-    "techno"
-   ],
-   "sn": "HALL (FB)",
-   "su": "https://www.facebook.com/halltallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1678866233207126/",
-   "pu": "https://gateme.com/et/halltallinn/104078-compress-rave-x-hall-only-techno-0708",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga."
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-07",
-   "t": "klubi",
-   "n": "ERØS INVITES: SECRET RAVE 3",
-   "b": [
-    "ERØS",
-    "THEX",
-    "CRYPTIC",
-    "KRULL"
-   ],
-   "v": "SULPS Baar",
-   "c": "Tartu",
-   "g": [
-    "techno",
-    "industrial",
-    "hard",
-    "acid"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/2825256874489164",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2825256874489164",
-   "pu": "https://gateme.com/event/103899",
-   "hind": {
-    "praegu": "5€ / 20€",
-    "mark": "Raver 5€, Support 20€",
-    "allikas": "GateMe, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026 (FB event + GateMe; asukoht oli FB-s 'secret', GateMe avaldas selle). Kaks esinejat veel TBA",
-   "img": "https://klubi.skene.info/pildid/ersinvitessecretrave3.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-07",
-   "t": "kontsert",
-   "n": "Hot Kommunist (EST/FIN) @ Kära Kants",
-   "a": "jazz-punk-prog trio (est 1996); kell 22.00",
-   "b": [
-    "Hot Kommunist"
-   ],
-   "v": "Kära Kants",
-   "c": "mujal",
-   "linn": "Rakvere",
-   "g": [
-    "punk",
-    "alt"
-   ],
-   "sn": "Kära Kantsi FB grupp",
-   "su": "https://www.facebook.com/groups/112392415448166/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/950881911040505/",
-   "hind": {
-    "praegu": "5€ / 6€",
-    "mark": "uksehind sularahas: 5€ Kära Kantsi liige / 6€ tavaline",
-    "allikas": "Facebook event, kontrollitud 11.07.2026"
-   }
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-07",
-   "t": "kontsert",
-   "n": "J.M.K.E 40 — Saartetuur: Saaremaa",
-   "a": "legendaarse punkbändi 40. juubeli saartetuur; algus 20.00",
-   "b": [
-    "J.M.K.E."
-   ],
-   "v": "Turja sadam",
-   "c": "mujal",
-   "linn": "Saaremaa",
-   "g": [
-    "punk"
-   ],
-   "sn": "Ticketer",
-   "su": "https://www.ticketer.ee/jmke-40-saartetuur-saaremaa/",
-   "pu": "https://www.ticketer.ee/jmke-40-saartetuur-saaremaa/",
-   "hind": {
-    "praegu": "10€ / 15€",
-    "mark": "Hommikupunk 10€ / Õhtupunk 15€ (+tehingutasu); Superpunk 60€ (särk + signeeritud CD); korraldaja NYROK MTÜ",
-    "allikas": "Ticketer, kontrollitud 19.07.2026"
-   },
-   "nb": "lisatud sweepis 19.07.2026 (Ticketer)",
-   "img": "https://www.skene.info/pildid/jmke40saartetuursaaremaa.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-07",
-   "t": "kontsert",
-   "n": "Kiwanoid «Ghost Nonius» albumiesitlus",
-   "a": "vinüül-LP esitlus; lisaks Lotte Jürjendal, Galaktlan, Wondering O, !!ii; korraldajad Glitch Please + Rada7.ee",
-   "b": [
-    "kiwanoid",
-    "Lotte Jürjendal",
-    "Galaktlan",
-    "Wondering O",
-    "!!ii"
-   ],
-   "v": "Veetorni Aed (Telliskivi 59a)",
-   "c": "Tallinn",
-   "g": [
-    "experimental",
-    "ambient",
-    "electro",
-    "techno"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/912277671206602",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/912277671206602",
-   "pu": "https://fienta.com/et/kiwanoid-ghost-nonius-albumiesitlus-veetorni-aed-7-08",
-   "hind": {
-    "praegu": "10€ / 15€",
-    "mark": "eelmüük 10€, uksel 15€",
-    "allikas": "Fienta, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Sama albumi reliisikirje on klubi-poolel juba olemas (09.07.2026); DJ-koosseis oli lehel 'more TBA'",
-   "img": "https://klubi.skene.info/pildid/kiwanoidghostnoniusalbumiesitlus.webp"
-  },
-  {
    "sait": "klubi",
    "d": "2026-08-07",
    "d2": "08.08",
@@ -977,36 +809,6 @@
    "pu": "https://fienta.com/paavli-club-festival-2026",
    "nb": "leitud sweepis 26.07.2026; täiskoosseis Fienta ürituselehelt (2 päeva); toetab Liveurope",
    "img": "https://klubi.skene.info/pildid/paavliclubfestival2026.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-07",
-   "t": "klubi",
-   "n": "Sümbioos",
-   "a": "TOLMi tantsupõrand kui arenev organism — tehno eri tüved kohtuvad ja muteeruvad; Funktion-One",
-   "b": [
-    "Sümbioos",
-    "Harbinmoths",
-    "Radixsort"
-   ],
-   "v": "Tolm",
-   "c": "Tartu",
-   "g": [
-    "techno",
-    "minimal"
-   ],
-   "sn": "tolm.club",
-   "su": "https://tolm.club/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1370134824463009/",
-   "hind": {
-    "praegu": "10€",
-    "mark": "sularaha või kaart",
-    "allikas": "tolm.club, kontrollitud 07.08.2026"
-   },
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: tolm.club ürituste-leht (koosseis, hind) + Rada7.ee FB events-tab. Peetri 26, Tartu",
-   "img": "https://klubi.skene.info/pildid/sumbioos.webp"
   },
   {
    "sait": "klubi",
@@ -1074,32 +876,6 @@
    "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
    "nb": "tulevane reliis, kuupäev kinnitatud 2 allikaga (Legendaarne Records 21.07.2026 + ERR kultuur 24.07.2026): 'ilmub 7. augustil, kuus lugu'. EP PEALKIRI ON VEEL AVALDAMATA (tba) - täienda, kui välja kuulutatakse",
    "img": "https://rap.skene.info/pildid/margiielaxchillinuhineeppealkiriavaldamata.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-07",
-   "t": "klubi",
-   "n": "micaxsan Summer Fiesta",
-   "a": "Žanrivaba extended shift + üllatuskülalised puldis. Kell 22.00–03.00, tasuta sissepääs, 21+",
-   "b": [
-    "micaxsan"
-   ],
-   "v": "Tšungel",
-   "c": "Tallinn",
-   "g": [
-    "house"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/clubs/265290",
-   "on_": "Tšungel",
-   "ou": "https://tsungel.ee/",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
-   },
-   "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
-   "img": "https://klubi.skene.info/pildid/micaxsansummerfiesta.webp"
   },
   {
    "sait": "klubi",
