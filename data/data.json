@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08",
+ "updated": "2026-08-09",
  "entries": [
   {
    "rel": 1,
@@ -439,37 +439,6 @@
    "pu": "https://www.piletilevi.ee/search?query=metal"
   },
   {
-   "d": "2026-08-05",
-   "d2": "08.08",
-   "t": "festival",
-   "n": "Brutal Assault",
-   "a": "Josefovi kindluses; Body Count, Periphery, Primus, Wardruna, Satyricon jt",
-   "b": [
-    "Body Count",
-    "Periphery",
-    "Primus",
-    "Wardruna",
-    "Satyricon"
-   ],
-   "v": "Pevnost Josefov",
-   "c": "Euroopa",
-   "linn": "Jaroměř, Tšehhi",
-   "g": [
-    "death",
-    "black",
-    "thrash",
-    "doom"
-   ],
-   "sn": "Brutal Assault",
-   "su": "https://brutalassault.cz/en",
-   "hind": {
-    "praegu": "225€",
-    "mark": "\"viimane väljaanne\" - viimane hinnaklass, 27.05.2026 seisuga 92% müüdud",
-    "allikas": "brutalassault.cz, kontrollitud 06.07.2026"
-   },
-   "nb": "Cradle of Filth tühistas (tehnilised põhjused), asendaja Satyricon (brutalassault.cz 16.07.2026)"
-  },
-  {
    "d": "2026-08-08",
    "d2": "09.08",
    "t": "festival",
@@ -494,25 +463,6 @@
    "sn": "M'era Luna",
    "su": "https://meraluna.de/en/",
    "nb": "hinnaklassid kontrollimata 2026 kohta - varasematel aastatel 4 taset (666/Half Moon/Full Moon/Blood Moon), pileti pood JS-põhine"
-  },
-  {
-   "d": "2026-08-08",
-   "t": "kontsert",
-   "n": "Räpina Jack",
-   "a": "GLÄM Telliskivi suvine tasuta kontsert; algus 22:00; sissepääs tasuta",
-   "b": [
-    "Räpina Jack"
-   ],
-   "v": "GLÄM Telliskivi",
-   "c": "Tallinn",
-   "g": [
-    "rock"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://glamtelliskivi.ee/programm/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1405304578325875/",
-   "nb": "lisatud kontaktivormi kaudu 27.07.2026 (esitaja Kill Kaare); kinnitatud 2 allikaga — GLÄM Telliskivi ametlik programm (8.08 Räpina Jack, 22:00, sissepääs tasuta) + esitaja FB-event; žanr 'rock'n'roll' esitaja sõnutsi, Räpina Jack on Eesti rokiband (rapinajack.ee)"
   },
   {
    "d": "2026-08-09",
