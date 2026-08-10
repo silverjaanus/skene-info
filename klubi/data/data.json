@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09",
+ "updated": "2026-08-10",
  "entries": [
   {
    "rel": 1,
@@ -172,50 +172,6 @@
    "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)",
    "img": "pildid/defferarchive01.webp"
-  },
-  {
-   "d": "2026-08-07",
-   "d2": "09.08",
-   "t": "festival",
-   "n": "TRESKI FEST 2026",
-   "a": "Treski suvefestival Setomaal (5. sünnipäev) — muusika, kultuur ja loodus; Planeet dnb-poolel",
-   "b": [
-    "Daniel Levi",
-    "A-rühm",
-    "Inga",
-    "Dj Breleri",
-    "Planeet",
-    "Zetod & Verska Naase",
-    "nublu",
-    "Arg Part",
-    "Curly Strings",
-    "Eva-Lotta Vunder & Madis Meister",
-    "Koer",
-    "Haldi & ans Flamingo",
-    "maria kallastu",
-    "KRŸS",
-    "Gram-Of-Fun",
-    "South of Savoy",
-    "Tõnu Tubli",
-    "Koikson_Tärn_Mölder",
-    "Henessi Schmidt",
-    "Sten-Olle",
-    "Iberi",
-    "Kukerpillid"
-   ],
-   "nb": "lai kultuuriprogramm; klubi-skoobis elektroonika/dnb-osa (Planeet jt); täislineup + piletid piletikeskuses",
-   "v": "Suur-Treski, Silla talu, Setomaa",
-   "c": "mujal",
-   "g": [
-    "dnb",
-    "electro"
-   ],
-   "sn": "Planeet (FB)",
-   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
-   "on_": "treski.ee",
-   "ou": "https://treski.ee/festival",
-   "pu": "https://piletikeskus.ee/et/e/hl03ia",
-   "img": "pildid/treskifest2026.webp"
   },
   {
    "d": "2026-08-12",

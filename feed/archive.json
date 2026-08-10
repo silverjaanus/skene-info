@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09",
+ "updated": "2026-08-10",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 95,
+ "count": 99,
  "entries": [
   {
    "sait": "www",
@@ -2331,6 +2331,51 @@
   {
    "sait": "klubi",
    "d": "2026-08-07",
+   "d2": "09.08",
+   "t": "festival",
+   "n": "TRESKI FEST 2026",
+   "a": "Treski suvefestival Setomaal (5. sünnipäev) — muusika, kultuur ja loodus; Planeet dnb-poolel",
+   "b": [
+    "Daniel Levi",
+    "A-rühm",
+    "Inga",
+    "Dj Breleri",
+    "Planeet",
+    "Zetod & Verska Naase",
+    "nublu",
+    "Arg Part",
+    "Curly Strings",
+    "Eva-Lotta Vunder & Madis Meister",
+    "Koer",
+    "Haldi & ans Flamingo",
+    "maria kallastu",
+    "KRŸS",
+    "Gram-Of-Fun",
+    "South of Savoy",
+    "Tõnu Tubli",
+    "Koikson_Tärn_Mölder",
+    "Henessi Schmidt",
+    "Sten-Olle",
+    "Iberi",
+    "Kukerpillid"
+   ],
+   "nb": "lai kultuuriprogramm; klubi-skoobis elektroonika/dnb-osa (Planeet jt); täislineup + piletid piletikeskuses",
+   "v": "Suur-Treski, Silla talu, Setomaa",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "electro"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "treski.ee",
+   "ou": "https://treski.ee/festival",
+   "pu": "https://piletikeskus.ee/et/e/hl03ia",
+   "img": "https://klubi.skene.info/pildid/treskifest2026.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-07",
    "t": "klubi",
    "n": "micaxsan Summer Fiesta",
    "a": "Žanrivaba extended shift + üllatuskülalised puldis. Kell 22.00–03.00, tasuta sissepääs, 21+",
@@ -2442,6 +2487,33 @@
    "img": "https://klubi.skene.info/pildid/fedotripsysammtsungel.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-08-08",
+   "d2": "09.08",
+   "t": "festival",
+   "n": "M'era Luna",
+   "a": "gooti/dark-electro festival; Rammstein, Within Temptation, Front Line Assembly, Combichrist, Hocico jt",
+   "b": [
+    "Rammstein",
+    "Within Temptation",
+    "Front Line Assembly",
+    "Combichrist"
+   ],
+   "v": "Flugplatz Hildesheim-Drispenstedt",
+   "c": "Euroopa",
+   "linn": "Hildesheim, Saksamaa",
+   "g": [
+    "dark",
+    "electro",
+    "ebm",
+    "goth",
+    "industrial"
+   ],
+   "sn": "M'era Luna",
+   "su": "https://meraluna.de/en/",
+   "nb": "hinnaklassid kontrollimata 2026 kohta - varasematel aastatel 4 taset (666/Half Moon/Full Moon/Blood Moon), pileti pood JS-põhine"
+  },
+  {
    "sait": "rap",
    "d": "2026-08-08",
    "t": "kontsert",
@@ -2544,6 +2616,56 @@
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: tolm.club ürituste-leht (koosseis, hind) + ürituse enda FB event. Peetri 26, Tartu",
    "img": "https://klubi.skene.info/pildid/glitter.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-09",
+   "t": "kontsert",
+   "n": "Blisterous (FIN) + Gangrenated + Hirmuvalitseja",
+   "a": "Õhtu täis mädanenud death metalit — Blisterous'i ja Gangrenatedi balti mini-tuuri viimane peatus (07.08 sama tuur Hellis Tartus); kohalik toetus Hirmuvalitseja. Algus 18.00, ajakava TBA",
+   "b": [
+    "Blisterous",
+    "Gangrenated",
+    "Hirmuvalitseja"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Secret Face Productions FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2287490378730502/",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; piletiinfot pole avaldatud; sama mini-tuuri Tartu peatus (07.08, Hell) oli juba andmetes"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-09",
+   "t": "kontsert",
+   "n": "The Cure + Duo Ruut + Antti Paalanen",
+   "a": "The Cure esmakordselt Eestis; külalised Duo Ruut (EE) ja Antti Paalanen (FI); algus 19.00",
+   "b": [
+    "The Cure",
+    "Duo Ruut",
+    "Antti Paalanen (FI)"
+   ],
+   "v": "Unibet Arena kvartal",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "goth",
+    "post-punk"
+   ],
+   "sn": "L Tips Agency Estonia FB",
+   "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1928466314702496/",
+   "pu": "https://www.piletilevi.ee/piletid/C2QLJFKGYR/the-cure",
+   "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; 5,5K huvilist FB-s",
+   "img": "https://www.skene.info/pildid/thecureduoruutanttipaalanen.webp"
   }
  ]
 }
