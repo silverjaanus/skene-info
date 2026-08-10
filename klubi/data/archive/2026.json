@@ -18,7 +18,9 @@
    "sn": "Bandcamp",
    "su": "https://oudeis.bandcamp.com/album/discrete-sensation",
    "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)",
-   "img": "pildid/oudeisdiscretesensation.webp"
+   "img": "pildid/oudeisdiscretesensation.webp",
+   "rel": 1,
+   "lisatud": "2026-07-06"
   },
   {
    "d": "2026-07-16",

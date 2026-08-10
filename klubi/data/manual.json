@@ -840,7 +840,19 @@
   "b": [
    "In Furcht (DE)",
    "QSLAP",
-   "Medina (BR)"
+   "MEDINA (BR)",
+   "ANNDRA",
+   "Bebe Veloure",
+   "Discolisko",
+   "Jori Samarin",
+   "Kirsmode",
+   "Lee Wander",
+   "NØSARA",
+   "RSKS",
+   "Sensory Deprivation",
+   "STRNDBRG",
+   "Sukran Kin",
+   "Techno Hate Project"
   ],
   "v": "HALL",
   "c": "Tallinn",
@@ -852,9 +864,14 @@
   "su": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/876184442221379/",
-  "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav | 28.07.2026: GateMe otselink lisatud",
+  "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav | 28.07.2026: GateMe otselink lisatud | 10.08.2026 sweep: RA event 2500210 avaldas TÄISKOOSSEISU — 3 nime asemel 15 (residendid neljast kollektiivist: Article 6, GRIDMOTH, Musta Kolhoosi, HEL:BOUNCE). Lisatud ka hinnaastmed 15/20/25€",
   "pu": "https://gateme.com/et/halltallinn/104001-hellinn-cross-border-edition-in-furchtde-x-qslapee-x-medinabr/",
-  "img": "pildid/hellinncrossborderedition.webp"
+  "img": "pildid/hellinncrossborderedition.webp",
+  "hind": {
+   "praegu": "15–25€",
+   "mark": "RA: 15/20/25€; 18+; algus 23.59",
+   "allikas": "Resident Advisor event 2500210, kontrollitud 10.08.2026"
+  }
  },
  {
   "d": "2026-10-09",
@@ -896,7 +913,9 @@
   "sn": "Bandcamp",
   "su": "https://oudeis.bandcamp.com/album/discrete-sensation",
   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)",
-  "img": "pildid/oudeisdiscretesensation.webp"
+  "img": "pildid/oudeisdiscretesensation.webp",
+  "rel": 1,
+  "lisatud": "2026-07-06"
  },
  {
   "d": "2026-09-26",
@@ -2055,7 +2074,8 @@
   "ou": "https://healerrecords.bandcamp.com/album/changes-healer002",
   "lisatud": "2026-08-07",
   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti techno tag-otsing). Bandcamp: 'releases September 4, 2026' — praegu eelmüügis. Tag'id: house, minimal, minimal house, progressive, tech house, techno, Tallinn",
-  "img": "pildid/squashchangeshealer002.webp"
+  "img": "pildid/squashchangeshealer002.webp",
+  "rel": 1
  },
  {
   "d": "2026-10-14",
@@ -2078,5 +2098,109 @@
   "ou": "https://www.facebook.com/events/1574357314264409/",
   "lisatud": "2026-08-07",
   "nb": "lisatud 07.08.2026, teine voor — leid tuli Privé Live Clubi FB events-lehelt, mis lisati allikaks KRS-One'i kontrollimise käigus. Algus 20.00, korraldaja Aeon Psy Events. Kaks allikat: venue oma events-leht + ürituse FB event. ⚠ Piletilinki FB-lehel tekstina ei ole (ainult 'Find tickets' nupp), seega pu puudub — täienda, kui piletimüük avaneb."
+ },
+ {
+  "d": "2026-08-14",
+  "d2": "15.08",
+  "t": "klubi",
+  "n": "VABADUs* x Interlüüd",
+  "a": "15-tunnine garaažihäng Angervaksa garaažikultuurikeskuses — live'id, DJd, töötoad, toit; Jooseppro & Lennu esitlevad uut albumit; 18+, tasuta",
+  "b": [
+   "JOOSEPPRO & LENNU",
+   "TANTSUSAABAS",
+   "KIOSK",
+   "anca b2b madeleine3000",
+   "IDM (moenarr, dj vaatab jooksvalt, celestica)",
+   "Maa-Alune (hyyru & Andrus Eerik)",
+   "deathcore04",
+   "BubbleCum (InesDaferrari, Iunsu, sorr)",
+   "3 Tüdrukut 1 Tops (HOSTILE, peipsibel, anca)"
+  ],
+  "v": "Angervaksa garaažikultuurikeskus",
+  "c": "Tallinn",
+  "g": [
+   "club",
+   "bass",
+   "electro",
+   "experimental",
+   "hip-hop"
+  ],
+  "sn": "Rada7.ee",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2041854056427837/",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "18+; kestus 15 h (R 14.00 – L 05.00)",
+   "allikas": "FB event, kontrollitud 10.08.2026"
+  },
+  "lisatud": "2026-08-10",
+  "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Korraldajad vabadus.ee + Interlüüd + Pargitiks, Kaera 14b, Põhja-Tallinn. Allikad: Rada7.ee FB events-tab + ürituse enda FB event (368 vastanut). ⚠ SILVERI OTSUS OOTAB: kirje on ŽANRILT KIRJU — enamik nimesid on elektroonika/DJ (→ klubi), aga Jooseppro & Lennu teevad siin oma UUE ALBUMI esiettekande, mis on puhas räpp. Panin klubi-poolele baasformaadi järgi (tasuta garaažireiv, DJ-põhine). Kui Silver eelistab, võib tõsta rap.skene.info-le või teha eraldi reliisikirje albumile (pealkiri pole veel avaldatud)"
+ },
+ {
+  "d": "2026-08-21",
+  "d2": "22.08",
+  "t": "klubi",
+  "n": "KTPSD 3 @ TOLM",
+  "a": "KUUTIPSUD kahepäevane retk „mõttevabasse“ — TOLMi öö, kava avaldamata",
+  "b": [],
+  "tba": 1,
+  "v": "Tolm",
+  "c": "Tartu",
+  "g": [
+   "club",
+   "experimental"
+  ],
+  "sn": "tolm.club",
+  "su": "https://tolm.club/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1027136910083679/",
+  "lisatud": "2026-08-10",
+  "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). ⚠ ÜHE KORRALDAJA KAKS ALLIKAT: nii tolm.club kui FB event 1027136910083679 on TOLMi enda omad — sõltumatut teist allikat (RA/Fienta) ei ole, RA nädalavaates 17.–23.08 seda ei olnud. Kuupäev ja koht on venue enda lehelt, seega usaldusväärsed. Koosseisu EI OLE avaldatud (kirjeldus on kunstiline tekst) → tba=1; kontrolli järgmises sweepis üle"
+ },
+ {
+  "d": "2026-07-30",
+  "rel": 1,
+  "t": "reliis",
+  "n": "Alex Peipman — «Machine Party (Original Soundtrack)»",
+  "a": "Tallinna ambient/elektroonika-produtsendi 15-palaline filmimuusika-album — glitch, breakbeat, klaver, drum & bass",
+  "b": [
+   "Alex Peipman"
+  ],
+  "g": [
+   "ambient",
+   "electro",
+   "breaks",
+   "dnb",
+   "experimental"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://alexpeipman.bandcamp.com/album/machine-party-original-soundtrack",
+  "on_": "Bandcamp",
+  "ou": "https://alexpeipman.bandcamp.com/album/machine-party-original-soundtrack",
+  "lisatud": "2026-08-10",
+  "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni) (Bandcampi Eesti techno + experimental tag-otsing). Bandcamp: released July 30, 2026, 15 lugu, 59 min. Tag'id: Tallinn, ambient electronic, glitch, breakbeat, piano, experimental, drum & bass, lo-fi, techno, Estonia"
+ },
+ {
+  "d": "2026-07-25",
+  "rel": 1,
+  "t": "reliis",
+  "n": "Fumantum — «IIII»",
+  "a": "Martin Sepa (Tallinn) drone / dark ambient -projekti neljapalaline EP; ka LP-versioon YouTube'is",
+  "b": [
+   "Fumantum"
+  ],
+  "g": [
+   "ambient",
+   "dark",
+   "industrial",
+   "experimental"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://fumantum.bandcamp.com/album/iiii",
+  "on_": "Bandcamp",
+  "ou": "https://fumantum.bandcamp.com/album/iiii",
+  "lisatud": "2026-08-10",
+  "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni) (Bandcampi Eesti industrial tag-otsing). Bandcamp: released July 25, 2026, 4 lugu. Tag'id: ambient, dark ambient, drone, experimental, industrial, noise, ritual, Tallinn. Fumantum = Martin Sepp, Tallinn — sama artist esineb ka 08.08 Allikata Heli kirjes"
  }
 ]

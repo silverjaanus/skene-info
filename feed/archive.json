@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 99,
+ "count": 97,
  "entries": [
   {
    "sait": "www",
@@ -114,7 +114,9 @@
    "sn": "Bandcamp",
    "su": "https://iambob.bandcamp.com/album/i-am-bob-ep",
    "nb": "lisatud kontaktivormi veaparanduse põhjal 25.07.2026 (ilmus 10.06.2026)",
-   "img": "https://www.skene.info/pildid/iambobiambobep.webp"
+   "img": "https://www.skene.info/pildid/iambobiambobep.webp",
+   "rel": 1,
+   "lisatud": "2026-06-10"
   },
   {
    "sait": "www",
@@ -217,7 +219,9 @@
    "sn": "Bandcamp",
    "su": "https://oudeis.bandcamp.com/album/discrete-sensation",
    "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 06.07.2026)",
-   "img": "https://klubi.skene.info/pildid/oudeisdiscretesensation.webp"
+   "img": "https://klubi.skene.info/pildid/oudeisdiscretesensation.webp",
+   "rel": 1,
+   "lisatud": "2026-07-06"
   },
   {
    "sait": "rap",
@@ -398,26 +402,6 @@
    "su": "https://www.facebook.com/barbarestonia/events",
    "on_": "Kolga Mõisa Kontsert",
    "ou": "https://www.facebook.com/barbarestonia/events"
-  },
-  {
-   "sait": "www",
-   "d": "2026-07-16",
-   "t": "reliis",
-   "n": "Face Collector — «Demo»",
-   "a": "2-loone demo (blackened death metal / deathgrind); täisalbum tulekul 2027",
-   "b": [
-    "Face Collector"
-   ],
-   "v": "Bandcamp",
-   "g": [
-    "death",
-    "black",
-    "grind"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://facecollector.bandcamp.com/album/demo",
-   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)",
-   "img": "https://www.skene.info/pildid/facecollectordemo.webp"
   },
   {
    "sait": "klubi",
@@ -1886,27 +1870,6 @@
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026; Silveri jazz-erand (vt 31.07 Tartu kirjet). Kinnitatud 2 allikaga: D3 oma ürituseleht + Fienta. Sama tuur/produktsioon kui 31.07 Tartus, sama korraldaja (Tammekindlus OÜ). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik.",
    "img": "https://www.skene.info/pildid/mariafaustsoolokontsertooliblikasgregorkulla.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-02",
-   "t": "reliis",
-   "n": "klostriid — «klostriid»",
-   "a": "Kuressaare punk/hardcore-kollektiivi telefoniga filmitud demo; viies lugu «solaarne» on kaver Urmas Alendri samanimelisest palast",
-   "b": [
-    "klostriid"
-   ],
-   "g": [
-    "punk",
-    "hardcore"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://klostriid.bandcamp.com/",
-   "on_": "Bandcamp",
-   "ou": "https://klostriid.bandcamp.com/",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti metal+punk tag-otsing). Bandcampi credits-rida: released August 2, 2026. Tag'id lehel: punk, hardcore, hardcore punk, metal punk, Kuressaare. 5 lugu, name-your-price. Koosseis kirjelduses: steven, juss, jaak ja rass",
-   "img": "https://www.skene.info/pildid/klostriidklostriid.webp"
   },
   {
    "sait": "www",
