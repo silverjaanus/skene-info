@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11",
+ "updated": "2026-08-12",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 179,
+ "count": 182,
  "entries": [
   {
    "sait": "www",
@@ -225,26 +225,6 @@
    "su": "https://shamorga.bandcamp.com/album/iz-umrud",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. 2 allikat: Bandcampi albumileht (5 lugu) + metalarea.org kirje 'released on Juni 26, 2026, on UnholyIcon; Country: Estonia; Style: Experimental Black Metal'. Metal Archives kinnitab bandi: Eesti, Tallinn, asut. 2024, one-man projekt (Wolos).",
    "img": "https://www.skene.info/pildid/shamorgaizumrud.webp"
-  },
-  {
-   "sait": "www",
-   "rel": 1,
-   "d": "2026-07-01",
-   "lisatud": "2026-07-12",
-   "t": "reliis",
-   "n": "Korjus — «I»",
-   "a": "atmosfääriline black metal / blackgaze / post-metal; 4 lugu, 28 min; salvestatud jaan–juuni 2026",
-   "b": [
-    "Korjus"
-   ],
-   "v": "Bandcamp",
-   "g": [
-    "black",
-    "post"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://korjus.bandcamp.com/album/i",
-   "img": "https://www.skene.info/pildid/korjusi.webp"
   },
   {
    "sait": "www",
@@ -2879,6 +2859,22 @@
    "img": "https://www.skene.info/pildid/reeperbahnfestival.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-09-18",
+   "t": "kontsert",
+   "n": "Rock Friday: Feach + Metropol",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-feach-metropol/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
+  },
+  {
    "sait": "klubi",
    "d": "2026-09-19",
    "t": "kontsert",
@@ -2966,6 +2962,22 @@
    "nb": "lisatud sweepis 19.07.2026; korraldaja Bloodstained Metal + The Krypt; piletid uksel, hind veel avaldamata - jälgi 2b-s"
   },
   {
+   "sait": "www",
+   "d": "2026-09-25",
+   "t": "kontsert",
+   "n": "Heavy Friday: KRANG (CZ) + ELUKAS (EE)",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%af%f0%9d%92%86%f0%9d%92%82%f0%9d%92%97%f0%9d%92%9a-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-krang-cz-elukas-ee/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
+  },
+  {
    "sait": "klubi",
    "d": "2026-09-25",
    "t": "klubi",
@@ -3048,6 +3060,22 @@
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta + tapper.ee). ZANRIOTSUS: Evestus on dark-electro/industrial, aga koosseis on metal-poolne (Ampest) ja venue rokiklubi -> peasait, sama loogika mis Freakangelil (Silveri otsus 27.07). Silver voib klubisse tosta | 07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Evestuse Last.fm sildid industrial/electronic/industrial rock), kirje JÄÄB PEASAIDILE — baasžanr on industrial ROCK ja kaasesineja Ampest on metal. Ära tõsta järgmistes sweepides.",
    "img": "https://www.skene.info/pildid/evestusampest.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-26",
+   "t": "kontsert",
+   "n": "Metal Saturday: Riser + Arestor",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%90%8c%f0%9d%90%9e%f0%9d%90%ad%f0%9d%90%9a%f0%9d%90%a5-%f0%9d%90%92%f0%9d%90%9a%f0%9d%90%ad%f0%9d%90%ae%f0%9d%90%ab%f0%9d%90%9d%f0%9d%90%9a%f0%9d%90%b2-riser-arestor/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "sait": "klubi",
@@ -3148,6 +3176,22 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/27546912968307481/",
    "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper; lineup TBA (registreerimine www.raskemuusika.ee); FB kellaaeg 05.00 on ilmselt vale/placeholder"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "Rock Saturday: TERAVMOON",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "sait": "www",

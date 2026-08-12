@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11",
+ "updated": "2026-08-12",
  "entries": [
   {
    "rel": 1,
@@ -138,25 +138,6 @@
    "su": "https://shamorga.bandcamp.com/album/iz-umrud",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. 2 allikat: Bandcampi albumileht (5 lugu) + metalarea.org kirje 'released on Juni 26, 2026, on UnholyIcon; Country: Estonia; Style: Experimental Black Metal'. Metal Archives kinnitab bandi: Eesti, Tallinn, asut. 2024, one-man projekt (Wolos).",
    "img": "pildid/shamorgaizumrud.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2026-07-01",
-   "lisatud": "2026-07-12",
-   "t": "reliis",
-   "n": "Korjus — «I»",
-   "a": "atmosfääriline black metal / blackgaze / post-metal; 4 lugu, 28 min; salvestatud jaan–juuni 2026",
-   "b": [
-    "Korjus"
-   ],
-   "v": "Bandcamp",
-   "g": [
-    "black",
-    "post"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://korjus.bandcamp.com/album/i",
-   "img": "pildid/korjusi.webp"
   },
   {
    "rel": 1,
@@ -1522,6 +1503,21 @@
    "img": "pildid/reeperbahnfestival.webp"
   },
   {
+   "d": "2026-09-18",
+   "t": "kontsert",
+   "n": "Rock Friday: Feach + Metropol",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-feach-metropol/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
+  },
+  {
    "d": "2026-09-19",
    "t": "kontsert",
    "n": "Psychoterror + Pedigree + Apparatus & Apparata",
@@ -1592,6 +1588,21 @@
    "img": "pildid/therumjacksaus.webp"
   },
   {
+   "d": "2026-09-25",
+   "t": "kontsert",
+   "n": "Heavy Friday: KRANG (CZ) + ELUKAS (EE)",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%af%f0%9d%92%86%f0%9d%92%82%f0%9d%92%97%f0%9d%92%9a-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-krang-cz-elukas-ee/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
+  },
+  {
    "d": "2026-09-26",
    "t": "kontsert",
    "n": "Evestus – Ampest",
@@ -1621,6 +1632,21 @@
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta + tapper.ee). ZANRIOTSUS: Evestus on dark-electro/industrial, aga koosseis on metal-poolne (Ampest) ja venue rokiklubi -> peasait, sama loogika mis Freakangelil (Silveri otsus 27.07). Silver voib klubisse tosta | 07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Evestuse Last.fm sildid industrial/electronic/industrial rock), kirje JÄÄB PEASAIDILE — baasžanr on industrial ROCK ja kaasesineja Ampest on metal. Ära tõsta järgmistes sweepides.",
    "img": "pildid/evestusampest.webp"
+  },
+  {
+   "d": "2026-09-26",
+   "t": "kontsert",
+   "n": "Metal Saturday: Riser + Arestor",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%90%8c%f0%9d%90%9e%f0%9d%90%ad%f0%9d%90%9a%f0%9d%90%a5-%f0%9d%90%92%f0%9d%90%9a%f0%9d%90%ad%f0%9d%90%ae%f0%9d%90%ab%f0%9d%90%9d%f0%9d%90%9a%f0%9d%90%b2-riser-arestor/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "d": "2026-10-02",
@@ -1696,6 +1722,21 @@
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht",
    "img": "pildid/batushkapl.webp"
+  },
+  {
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "Rock Saturday: TERAVMOON",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "d": "2026-10-04",
@@ -2736,7 +2777,7 @@
  ],
  "log": [
   "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
-  "krypt: 9",
+  "krypt: 13",
   "paavli: 0",
   "helitehas: 0"
  ]
