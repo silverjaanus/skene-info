@@ -522,6 +522,11 @@
     "nimi": "Ticketshop.ee",
     "url": "https://ticketshop.ee/et/events",
     "nb": "lisatud 07.08.2026 (KRS-One 16.08 leid): piletiplatvorm, mida kasutavad välisartistide tuurikorraldajad (nt LATFRO Entertainment) ja mida Piletilevi/Fienta/Ticketer EI kata. Žanri-agnostiline, filtreeri skoop. ⚠ Ürituse KIRJELDUSTEKST võib olla vananenud (KRS-One'i tekstis seisis 'June 14th', kuigi kuupäevaväli ja Eventbrite ütlesid 16.08) — usalda kuupäevavälja ja ristkontrolli."
+   },
+   {
+    "nimi": "MuusikaPlaneet",
+    "url": "https://muusikaplaneet.ee/category/singel/",
+    "nb": "lisatud 12.08.2026 (Pluuto 200 „Bobcat” kontaktivormi kirje teine allikas): kodumaisele muusikale pühendatud uudistesait, kategooriad Singel / Album / Video / Live; žanri-agnostiline, kehtib kõigile kolmele saidile — filtreeri skoop. Otsing töötab kujul /?s=<märksõna>, artiklite URL /YYYY/MM/DD/slug/. Statiline HTML, Chrome-kihti ei vaja."
    }
   ]
  },
