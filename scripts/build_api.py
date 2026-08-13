@@ -9,9 +9,12 @@ staatilisteks JSON-failideks, mida Vercel serveerib.
 
 Kutsutakse fetch.py / fetch_rap.py / fetch_klubi.py lopus (guarditud
 try/except) - iga andmekorje ja sweep uuendab API automaatselt.
-CORS-pais puudub teadlikult (vercel.json legacy 'routes' ei luba
-'headers' sektsiooni) - serveripoolne GET seda ei vaja; kui tekib
-brauseripohine tarbija, tuleb routes -> rewrites+headers migreerida.
+CORS: Access-Control-Allow-Origin:* on feed-/api-JSONidel olemas —
+Vercel lisab selle staatikale vaikimisi JA alates 13.08.2026 on see ka
+vercel.json routes-headers plokis eksplitsiitselt (per-route 'headers'
++ 'continue' TOOTAB legacy routes sees; varasem vaide, et ei saa, oli
+vale — kaib top-level 'headers' sektsiooni kohta). Brauserist saab
+feedi lugeda otse.
 """
 import json, sys
 from pathlib import Path

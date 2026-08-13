@@ -51,7 +51,7 @@ html[lang="et"] .only-en{display:none}
   </header>
 
   <div class="only-et">
-    <p>Kogu skene.info sisu — kontserdid, festivalid, klubiõhtud, reliisid ja merch kõigilt
+    <p>Kogu skene.info sisu — kontserdid, festivalid, klubiüritused, reliisid ja merch kõigilt
     kolmelt saidilt (metal/rokk, räpp, klubi) — on saadaval avaliku JSON-feedina. Andmed on
     käsitsi kureeritud, iga kirje viitab algallikale ja feed uueneb automaatselt iga päev.</p>
 
@@ -84,11 +84,10 @@ html[lang="et"] .only-en{display:none}
     kirje algallika link (<code>su</code>/<code>ou</code>) alles — sait elab traffic-eetikast,
     kus liiklus jõuab korraldajateni. Vigadest ja puuduvatest üritustest anna teada esilehe
     kontaktivormi kaudu.</p>
-    <p>Tehniline märkus: feed on staatiline fail ilma CORS-päiseta — serveripoolne kasutus
-    (skriptid, botid, teised saidid serveri kaudu) töötab piiranguta, aga teise domeeni
-    brauseri-JavaScriptiga otse lugeda ei saa. Kui ehitad brauseripõhist vidinat, anna
-    kontaktivormi kaudu teada — lisame ligipääsu.</p>
-    <p class="footer">Feed uueneb iga päev ~07.30 ja iga nädalase andmekorje järel.</p>
+    <p>Tehniline märkus: vastustel on CORS-päis (<code>Access-Control-Allow-Origin: *</code>),
+    nii et feedi saab lugeda ka otse brauseri-JavaScriptist (<code>fetch</code>) ükskõik
+    milliselt domeenilt — serveripoolsest kasutusest rääkimata.</p>
+    <p class="footer">Feed uueneb iga päev ~07.30 ja iganädalase andmekorje järel.</p>
   </div>
 
   <div class="only-en">
@@ -126,10 +125,9 @@ html[lang="et"] .only-en{display:none}
     entry's original source link (<code>su</code>/<code>ou</code>) — the site runs on
     traffic ethics, where clicks reach the organisers. Report errors or missing events via the
     front-page contact form.</p>
-    <p>Technical note: the feed is a static file without a CORS header — server-side use
-    (scripts, bots, other sites via their backend) works without limits, but reading it
-    directly with browser JavaScript from another domain will not. If you are building a
-    browser-based widget, let us know via the contact form — we will add access.</p>
+    <p>Technical note: responses carry a CORS header (<code>Access-Control-Allow-Origin: *</code>),
+    so the feed can be read directly with browser JavaScript (<code>fetch</code>) from any
+    domain — server-side use works too, of course.</p>
     <p class="footer">The feed updates daily at ~07:30 EET and after each weekly sweep.</p>
   </div>
 </div>
