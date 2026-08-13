@@ -50,6 +50,10 @@
       "dest": "/feed/$1.json"
     },
     {
+      "src": "/tagasiside",
+      "dest": "/tagasiside.html"
+    },
+    {
       "handle": "filesystem"
     }
   ]

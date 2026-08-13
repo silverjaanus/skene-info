@@ -77,6 +77,33 @@ def line_for(e):
     return f"{dm} — {e['n']}" + (f" · {koht}" if koht else "")
 
 
+CAPTION_LIMIT = 2150  # IG piir on 2200; varu, et Make'i valemi kärbe (backstop)
+                      # ei peaks KUNAGI rakenduma — 07.08.2026 kukkus postitus
+                      # 2522-margise captioniga, kärbe poole sõna pealt = gibberish
+
+
+def build_caption(sel, rng):
+    """Paneb captioni kokku ja hoiab selle ISE alla IG piiri (13.08.2026):
+    kui pikk, asendab viimased uritused reaga '+ veel N uritust' — mitte
+    kunagi poolelt sonalt maha loigatud teksti."""
+    pea = "TULEVAD ÜRITUSED · " + rng
+    saba = ("\n\nKõik üritused ja piletid → skene.info"
+            "\nAnna tagasisidet → skene.info/tagasiside"
+            "\n\n" + HASHTAGS)
+    read = [line_for(e) for e in sel]
+    peidetud = 0
+    while read:
+        body = "\n".join(read)
+        if peidetud:
+            body += f"\n+ veel {peidetud} üritust → skene.info"
+        cap = pea + "\n\n" + body + saba
+        if len(cap) <= CAPTION_LIMIT:
+            return cap, peidetud
+        read.pop()
+        peidetud += 1
+    return pea + saba, peidetud
+
+
 def collect_images(repo, ws):
     """Kopeeri postitused/ pildid avalikku nadal/ kausta, tagasta URL-id."""
     src_dir = os.path.join(repo, "postitused")
@@ -118,10 +145,10 @@ def main():
 
     rng = (f"{ws.day}. {KUUD_ET[ws.month - 1]} – "
            f"{we.day}. {KUUD_ET[we.month - 1]} {we.year}")
-    caption = ("TULEVAD ÜRITUSED · " + rng + "\n\n"
-               + "\n".join(line_for(e) for e in sel)
-               + "\n\nKõik üritused ja piletid → skene.info\n\n"
-               + HASHTAGS)
+    caption, peidetud = build_caption(sel, rng)
+    if peidetud:
+        print(f"MARKUS: caption ulatas {CAPTION_LIMIT} piiri — {peidetud} viimast "
+              f"kirjet asendatud reaga '+ veel {peidetud} üritust'.")
 
     out = {"date": ws.isoformat(),
            "range": rng,
