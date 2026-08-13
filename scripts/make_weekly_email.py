@@ -20,7 +20,7 @@ import urllib.request, urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week,
-                    in_window, today_local, in_scope, is_release)
+                    in_window, today_local, in_scope, is_release, next_start)
 
 # ---- palett (index.html :root) ----
 PABER="#F3F0E7"; TINT="#1A1A1A"; HALL="#5A564C"; JOON="#8F8A7C"
@@ -182,21 +182,6 @@ def price_text(e):
 
 def title_link(e):
     return e.get("ou") or e.get("su") or ""
-
-def next_start(e, ref):
-    """Kuupaev, mida kirjas NAIDATA (ISO-string). 13.08.2026 Silveri parandus:
-    kaimasoleval tuuril/sarjal naita JARGMIST toimumiskuupaeva (dd-massiivist),
-    mitte tuuri esimest, mis voib olla moodas; dd-ta kaimasoleval vahemikul
-    (nt mitmepaevane festival) naita ref-kuupaeva (uritus kestab)."""
-    d=e.get("d","")
-    try:
-        s,en=event_span(e)
-    except Exception:
-        return d
-    if s < ref <= en:
-        tulevased=sorted(x for x in (e.get("dd") or []) if x >= ref.isoformat())
-        return tulevased[0] if tulevased else ref.isoformat()
-    return d
 
 def event_row(e, L, lang="et"):
     s,en=event_span(e)

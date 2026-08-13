@@ -27,7 +27,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (CAT_ORDER, parse_d, this_and_next_week, in_window,
-                    today_local, in_scope, is_release)
+                    today_local, in_scope, is_release, next_start)
 
 BASE_URL = "https://www.skene.info/nadal/"
 KUUD = ["jaanuar", "veebruar", "marts", "aprill", "mai", "juuni",
@@ -52,14 +52,18 @@ def load_entries(repo, ws, we):
                 ee = dict(e)
                 ee["_cat"] = cat
                 out.append(ee)
-    out.sort(key=lambda e: (e.get("d", ""),
+    for e in out:
+        e["_disp"] = next_start(e, ws)
+    # sort + kuupaev NAIDATAVA (jargmise) toimumiskuupaeva jargi — sama reegel
+    # mis make_weekly_email.py-s ja make_weekly_image.py-s (13.08.2026)
+    out.sort(key=lambda e: (e.get("_disp") or e.get("d", ""),
                             CAT_ORDER.index(e.get("_cat", "metal")),
                             e.get("t", "")))
     return out
 
 
 def line_for(e):
-    d = dt.date.fromisoformat(e["d"])
+    d = dt.date.fromisoformat(e.get("_disp") or e["d"])
     dm = f"{d.day:02d}.{d.month:02d}"
     if is_release(e):
         silt = "UUS MERCH" if e.get("t") == "merch" else "UUS RELIIS"

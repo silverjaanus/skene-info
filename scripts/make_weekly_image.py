@@ -33,7 +33,7 @@ except ImportError:
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week,
-                    in_window, today_local, in_scope, is_release)
+                    in_window, today_local, in_scope, is_release, next_start)
 
 # ---- palett (index.html :root) ----
 PABER      = (0xF3, 0xF0, 0xE7)
@@ -275,14 +275,15 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
     for e, rh, tf, tlines, bands in rows:
         ry = int(y + gap * 0.35)
         s, en = event_span(e)
+        disp = parse_d(e["_disp"]) if e.get("_disp") else s
         col = CAT_COLOR.get(e.get("_cat"), HALL)
 
-        d.text((X_DATE, ry + 2), f"{s.day:02d}.{s.month:02d}", font=fonts["date"], fill=TINT)
+        d.text((X_DATE, ry + 2), f"{disp.day:02d}.{disp.month:02d}", font=fonts["date"], fill=TINT)
         if e.get("t") in ("reliis", "merch") or e.get("rel"):
             d.text((X_DATE, ry + 44), e.get("t", "reliis"), font=fonts["wday"], fill=col)
         else:
-            wl = WDAY[s.weekday()]
-            if e.get("d2"):
+            wl = WDAY[disp.weekday()]
+            if e.get("d2") and en > disp:
                 wl += f" – {en.day:02d}.{en.month:02d}"
             d.text((X_DATE, ry + 44), wl, font=fonts["wday"], fill=HALL)
 
@@ -412,7 +413,10 @@ def main():
         _load(os.path.join(rp, "data", "data.json"), "metal", sel)
         _load(os.path.join(rp, "rap", "data", "data.json"), "rap", sel)
         _load(os.path.join(rp, "klubi", "data", "data.json"), "klubi", sel)
-    sel.sort(key=lambda e: (e.get("d", ""), CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
+    for e in sel:
+        e["_disp"] = next_start(e, ws)
+    # sort NAIDATAVA kuupaeva jargi — sama reegel mis make_weekly_email.py-s
+    sel.sort(key=lambda e: (e.get("_disp") or e.get("d", ""), CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
 
     out = args.out or os.path.join(root, "postitused", f"nadal-{ws.isoformat()}.jpg")
     os.makedirs(os.path.dirname(out), exist_ok=True)

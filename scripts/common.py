@@ -215,6 +215,25 @@ def this_and_next_week(ref):
     return ref, ref + timedelta(days=(13 - wd))
 
 
+def next_start(e, ref):
+    """Kuupaev, mida uudiskirjas/nadalapildil NAIDATA (ISO-string).
+
+    13.08.2026 Silveri parandus: kaimasoleval tuuril/sarjal naita JARGMIST
+    toimumiskuupaeva (dd-massiivist), mitte tuuri esimest, mis voib olla
+    moodas; dd-ta kaimasoleval vahemikul (nt mitmepaevane festival) naita
+    ref-kuupaeva (uritus kestab). Sama funktsioon molemas generaatoris —
+    kiri ja pilt ei tohi lahku minna (28.07 in_scope oppetund)."""
+    d = e.get("d", "")
+    try:
+        s, en = event_span(e)
+    except Exception:
+        return d
+    if s < ref <= en:
+        tulevased = sorted(x for x in (e.get("dd") or []) if x >= ref.isoformat())
+        return tulevased[0] if tulevased else ref.isoformat()
+    return d
+
+
 def in_window(e, ws, we):
     try:
         s, en = event_span(e)
