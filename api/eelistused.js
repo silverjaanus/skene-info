@@ -8,9 +8,45 @@
 // kirjas on link ?e={$email}&t={$tok}. Ilma kehtiva tok-ita 403.
 //
 // Vercel env (Production + Preview): ML_TOKEN, PREF_SECRET
+// Rate-limit (13.08.2026 audit): 30 paringut / IP / paev Upstash Redises (samad
+// env-muutujad mis api/tagasiside.js). Kui Redis pole seadistatud, lastakse
+// paring LABI (fail-open) — RL on siin lisakaitse MailerLite'i kvoodile, mitte
+// pohifunktsioon; tagasiside.js-is on Redis pohisalvesti ja seal on fail-closed.
 const crypto = require("crypto");
 
 const API = "https://connect.mailerlite.com/api";
+const RL_PAEVAS = 30;
+
+function env(a, b) { return process.env[a] || process.env[b] || ""; }
+
+async function redis(commands) {
+  const url = env("KV_REST_API_URL", "UPSTASH_REDIS_REST_URL");
+  const tok = env("KV_REST_API_TOKEN", "UPSTASH_REDIS_REST_TOKEN");
+  if (!url || !tok) return { ok: false, error: "config" };
+  const r = await fetch(url.replace(/\/+$/, "") + "/pipeline", {
+    method: "POST",
+    headers: { Authorization: "Bearer " + tok, "Content-Type": "application/json" },
+    body: JSON.stringify(commands)
+  });
+  const txt = await r.text();
+  let data = null;
+  try { data = JSON.parse(txt); } catch (e) { data = null; }
+  if (!r.ok || !Array.isArray(data)) return { ok: false, error: "redis", status: r.status };
+  return { ok: true, data: data };
+}
+
+function ipHash(req) {
+  const ip = String(req.headers["x-forwarded-for"] || "").split(",")[0].trim() || "?";
+  return crypto.createHash("sha256")
+    .update(ip + "|" + (process.env.PREF_SECRET || "")).digest("hex").slice(0, 16);
+}
+
+async function rateLimited(req) {
+  const key = "skene:eelistused:rl:" + new Date().toISOString().slice(0, 10) + ":" + ipHash(req);
+  const rl = await redis([["INCR", key], ["EXPIRE", key, 86400]]);
+  if (!rl.ok) return false; // fail-open: Redise viga ei tohi eelistuste lehte murda
+  return Number((rl.data[0] && rl.data[0].result) || 0) > RL_PAEVAS;
+}
 
 // HOIA SUNKROONIS mailerlite_config.json "groups"-plokiga
 const GROUPS = {
@@ -62,6 +98,9 @@ module.exports = async function handler(req, res) {
   }
   if (!process.env.ML_TOKEN || !process.env.PREF_SECRET) {
     return res.status(500).json({ ok: false, error: "config" });
+  }
+  if (await rateLimited(req)) {
+    return res.status(429).json({ ok: false, error: "liiga_palju" });
   }
   const body = isPost
     ? (typeof req.body === "string" ? safeJson(req.body) : (req.body || {}))

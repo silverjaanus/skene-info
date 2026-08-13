@@ -26,12 +26,6 @@
    "nb": "URL parandatud 05.07.2026 (sugis, mitte sygis); IG @sugis_productions; Sügis Extreme Fest IV dets 2026"
   },
   {
-   "nimi": "Onodrim",
-   "url": "",
-   "tyyp": "promootor",
-   "nb": "EI LEITUD 05.07.2026: onodrimprod ei tööta, FB lehe-otsing ei anna Eesti promootorit - Silveril õige URL täpsustada"
-  },
-  {
    "nimi": "Kolga Mõisa Kontsert",
    "url": "https://www.facebook.com/kolgamoisakontsert/events",
    "tyyp": "promootor",
@@ -72,18 +66,6 @@
    "url": "https://www.facebook.com/pubijuudas/events?locale=et_EE",
    "tyyp": "venue",
    "nb": "lisatud 08.07.2026 (Silver); kontrolli asukoht/skoop sweepis"
-  },
-  {
-   "nimi": "Linna Bar",
-   "url": "",
-   "tyyp": "venue",
-   "nb": "EI LEITUD 05.07.2026: linnabaar ei tööta, FB otsing ei anna - kirjed tulevad Bandsintownist"
-  },
-  {
-   "nimi": "Heavy Music Estonia",
-   "url": "",
-   "tyyp": "kogukond",
-   "nb": "EI LEITUD 05.07.2026: heavymusicestonia ei tööta, FB otsing ei anna - heavymusic.ee RSS on automaatkihis olemas"
   },
   {
    "nimi": "Mahtra Records",
@@ -134,12 +116,6 @@
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna kultuuriklubi; URL kontrollida sweepis"
   },
   {
-   "nimi": "Black Magic",
-   "url": "",
-   "tyyp": "venue",
-   "nb": "URL surnud 28.07.2026: facebook.com/BlackMagicEstonia annab \"content isn't available\" (ka ilma /events). Leht kustutatud voi umber nimetatud - oige handle vaja tuvastada"
-  },
-  {
    "nimi": "300 (klubi)",
    "url": "https://www.facebook.com/300klubi/events",
    "tyyp": "venue",
@@ -147,15 +123,9 @@
   },
   {
    "nimi": "Underground / UGrokibaar (Tartu)",
-   "url": "",
+   "url": "https://www.facebook.com/UGbaar/events",
    "tyyp": "venue",
-   "nb": "URL surnud 28.07.2026: FB-leht kustutatud/peidetud, FB-otsing ei leia asenduslehte"
-  },
-  {
-   "nimi": "Kroks (Tartu)",
-   "url": "",
-   "tyyp": "venue",
-   "nb": "VALE URL 28.07.2026: liiva.kroks on ERAPROFIIL (682 sopra), mitte kohaleht; uritusi pole. Oige leht tuvastamata"
+   "nb": "URL surnud 28.07.2026: FB-leht kustutatud/peidetud, FB-otsing ei leia asenduslehte 13.08.2026: TAASTATUD — töötav leht facebook.com/UGbaar ('Underground Tartu'; alt handle UGrokibaar, IG @undergroundtartu)."
   },
   {
    "nimi": "Wunderbaar (Pärnu)",
@@ -164,16 +134,10 @@
    "nb": "lisatud 09.07.2026 (heavymusic.ee); Pärnu rokibaar; wbar.ee suunab wunderbaar.ee-le, ürituste-nimekiri saidil olemas (11.07.2026 skoobis midagi polnud)"
   },
   {
-   "nimi": "Garaaz (Pärnu)",
-   "url": "",
-   "tyyp": "venue",
-   "nb": "KLUBI SULETUD 29.05.2026 (\"Garaazi matus\"); bios \"19.04.2024-29.05.2026\". Kinnitatud 28.07.2026 - allikas voib loendist kaduda"
-  },
-  {
    "nimi": "Art Club Ro-Ro (Narva)",
-   "url": "",
+   "url": "https://www.facebook.com/ArtClubRoRo/events",
    "tyyp": "venue",
-   "nb": "lisatud 09.07.2026 (heavymusic.ee); venekeelne underground Narvas; FB/otse-URL leidmata (heavymusic viitab siselehele) - Silveril täpsustada; url tühi -> avalikul lehel ei kuvata"
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); venekeelne underground Narvas; FB/otse-URL leidmata (heavymusic viitab siselehele) - Silveril täpsustada; url tühi -> avalikul lehel ei kuvata 13.08.2026: TAASTATUD — facebook.com/ArtClubRoRo (4,9k meeldimist, aktiivne kontserdikoht Narvas)."
   },
   {
    "nimi": "Kära Kants (Rakvere)",
@@ -333,18 +297,6 @@
     "nb": "Check One Two peod; URL kontrollida"
    },
    {
-    "nimi": "Sveta Baar",
-    "url": "",
-    "tyyp": "venue",
-    "nb": "SULETUD 01.01.2024 (Telliskivi, gentrifikatsioon + majanduskriis) - EI OLE enam allikas, võib eemaldada; url tühi -> avalikul lehel ei kuvata"
-   },
-   {
-    "nimi": "Beach Grind",
-    "url": "",
-    "tyyp": "festival",
-    "nb": "URL surnud 28.07.2026: FB-leht eemaldatud/privaatne"
-   },
-   {
     "nimi": "Luke mõis",
     "url": "https://lukemois.ee/",
     "tyyp": "venue",
@@ -385,9 +337,9 @@
     "nb": "artist"
    },
    {
-    "nimi": "@nublu",
-    "url": "",
-    "nb": "VALE HANDLE - kinnitatud 28.07.2026: instagram.com/nublu on eraisiku privaatkonto (\"K.\", 78 jalgijat), MITTE rappar nublu. @nubluvibes ja @nublu404 ei eksisteeri. Oige handle tuvastamata"
+    "nimi": "@nublufy",
+    "url": "https://www.instagram.com/nublufy/",
+    "nb": "VALE HANDLE - kinnitatud 28.07.2026: instagram.com/nublu on eraisiku privaatkonto (\"K.\", 78 jalgijat), MITTE rappar nublu. @nubluvibes ja @nublu404 ei eksisteeri. Oige handle tuvastamata 13.08.2026: PARANDATUD — räppar nublu ametlik IG on @nublufy (63k jälgijat)."
    }
   ],
   "js_saidid": [
@@ -410,7 +362,7 @@
     "nimi": "hiphop.ee",
     "url": "https://www.hiphop.ee/",
     "tyyp": "meedia",
-    "nb": "SURNUD-POOLNE 28.07.2026: viimane sisu 03.2026, enne seda 2023"
+    "nb": "SURNUD-POOLNE 28.07.2026: viimane sisu 03.2026, enne seda 2023 13.08.2026: pooleldi seiskunud — kontrolli harvemalt (~kord kuus)."
    },
    {
     "nimi": "chainz.ee",
@@ -422,12 +374,7 @@
     "nimi": "esthiphop.ee",
     "url": "https://esthiphop.ee/",
     "tyyp": "meedia",
-    "nb": "SURNUD-POOLNE 28.07.2026: viimane uudis 01.2026"
-   },
-   {
-    "nimi": "ehh.ee",
-    "url": "https://ehh.ee/",
-    "nb": "SURNUD 28.07.2026: sait ise kirjutab \"oli kunagi\", viimane postitus 11.2025"
+    "nb": "SURNUD-POOLNE 28.07.2026: viimane uudis 01.2026 13.08.2026: pooleldi seiskunud — kontrolli harvemalt (~kord kuus)."
    },
    {
     "nimi": "Eesti Hip Hop Festival (ametlik sait)",
