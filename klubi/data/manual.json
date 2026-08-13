@@ -1969,7 +1969,8 @@
   "ou": "https://www.facebook.com/events/1678866233207126/",
   "pu": "https://gateme.com/et/halltallinn/104078-compress-rave-x-hall-only-techno-0708",
   "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga."
+  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga.",
+  "img": "pildid/compressxhallonlytechno.webp"
  },
  {
   "d": "2026-08-07",
@@ -2098,44 +2099,6 @@
   "nb": "lisatud 07.08.2026, teine voor — leid tuli Privé Live Clubi FB events-lehelt, mis lisati allikaks KRS-One'i kontrollimise käigus. Algus 20.00, korraldaja Aeon Psy Events. Kaks allikat: venue oma events-leht + ürituse FB event. ⚠ Piletilinki FB-lehel tekstina ei ole (ainult 'Find tickets' nupp), seega pu puudub — täienda, kui piletimüük avaneb."
  },
  {
-  "d": "2026-08-14",
-  "d2": "15.08",
-  "t": "klubi",
-  "n": "VABADUs* x Interlüüd",
-  "a": "15-tunnine garaažihäng Angervaksa garaažikultuurikeskuses — live'id, DJd, töötoad, toit; Jooseppro & Lennu esitlevad uut albumit; 18+, tasuta",
-  "b": [
-   "JOOSEPPRO & LENNU",
-   "TANTSUSAABAS",
-   "KIOSK",
-   "anca b2b madeleine3000",
-   "IDM (moenarr, dj vaatab jooksvalt, celestica)",
-   "Maa-Alune (hyyru & Andrus Eerik)",
-   "deathcore04",
-   "BubbleCum (InesDaferrari, Iunsu, sorr)",
-   "3 Tüdrukut 1 Tops (HOSTILE, peipsibel, anca)"
-  ],
-  "v": "Angervaksa garaažikultuurikeskus",
-  "c": "Tallinn",
-  "g": [
-   "club",
-   "bass",
-   "electro",
-   "experimental",
-   "hip-hop"
-  ],
-  "sn": "Rada7.ee",
-  "su": "https://www.facebook.com/rada7.ee/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/2041854056427837/",
-  "hind": {
-   "praegu": "tasuta",
-   "mark": "18+; kestus 15 h (R 14.00 – L 05.00)",
-   "allikas": "FB event, kontrollitud 10.08.2026"
-  },
-  "lisatud": "2026-08-10",
-  "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Korraldajad vabadus.ee + Interlüüd + Pargitiks, Kaera 14b, Põhja-Tallinn. Allikad: Rada7.ee FB events-tab + ürituse enda FB event (368 vastanut). ⚠ SILVERI OTSUS OOTAB: kirje on ŽANRILT KIRJU — enamik nimesid on elektroonika/DJ (→ klubi), aga Jooseppro & Lennu teevad siin oma UUE ALBUMI esiettekande, mis on puhas räpp. Panin klubi-poolele baasformaadi järgi (tasuta garaažireiv, DJ-põhine). Kui Silver eelistab, võib tõsta rap.skene.info-le või teha eraldi reliisikirje albumile (pealkiri pole veel avaldatud)"
- },
- {
   "d": "2026-08-21",
   "d2": "22.08",
   "t": "klubi",
@@ -2202,5 +2165,62 @@
   "lisatud": "2026-08-10",
   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni) (Bandcampi Eesti industrial tag-otsing). Bandcamp: released July 25, 2026, 4 lugu. Tag'id: ambient, dark ambient, drone, experimental, industrial, noise, ritual, Tallinn. Fumantum = Martin Sepp, Tallinn — sama artist esineb ka 08.08 Allikata Heli kirjes",
   "img": "pildid/fumantumiiii.webp"
+ },
+ {
+  "d": "2026-08-14",
+  "t": "klubi",
+  "n": "MOJO: DJ Rhythm Doctor w/ Kevin Alva LIVE!",
+  "a": "algus 21.00; funk/soul/disco/breaks",
+  "b": [
+   "Rhythm Doctor",
+   "Kevin Alva"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "funk",
+   "soul",
+   "disco"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4539110306374626/",
+  "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Rhythm Doctor (UK) — DJ alates 1978."
+ },
+ {
+  "d": "2026-08-15",
+  "t": "klubi",
+  "n": "Macondo Sessions - Wave Riddim",
+  "a": "algus 20.00; reggae/dancehall",
+  "b": [],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "reggae",
+   "dancehall"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1058754833477310/",
+  "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Macondo Sessions; koosseisu nimekirjavaade ei avalda → b tühi."
+ },
+ {
+  "d": "2026-09-04",
+  "t": "klubi",
+  "n": "Baile do Lainão vol IV",
+  "a": "algus 21.00; Brasiilia baile funk",
+  "b": [],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "baile funk"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1237358456130739/",
+  "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Iago Bresciani: Arte em movimento. NB FB-pealkirjas on 'vol lV' (väike L)."
  }
 ]

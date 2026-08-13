@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 182,
+ "count": 186,
  "entries": [
   {
    "sait": "www",
@@ -1078,6 +1078,29 @@
    "sait": "klubi",
    "d": "2026-08-14",
    "t": "klubi",
+   "n": "MOJO: DJ Rhythm Doctor w/ Kevin Alva LIVE!",
+   "a": "algus 21.00; funk/soul/disco/breaks",
+   "b": [
+    "Rhythm Doctor",
+    "Kevin Alva"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "funk",
+    "soul",
+    "disco"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4539110306374626/",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Rhythm Doctor (UK) — DJ alates 1978."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-14",
+   "t": "klubi",
    "n": "Masta Blasta",
    "a": "Masta Blasta viimane õhtu TOLMi ruumides; külalisteks vasall club (laurel 2 & Luurel Varas, Tallinn) — hägune, dub-raske bass",
    "b": [
@@ -1161,7 +1184,7 @@
    "img": "https://www.skene.info/pildid/thetuberkuloited35parnu.webp"
   },
   {
-   "sait": "klubi",
+   "sait": "rap",
    "d": "2026-08-14",
    "d2": "15.08",
    "t": "klubi",
@@ -1181,11 +1204,10 @@
    "v": "Angervaksa garaažikultuurikeskus",
    "c": "Tallinn",
    "g": [
-    "club",
-    "bass",
+    "hip-hop",
     "electro",
-    "experimental",
-    "hip-hop"
+    "bass",
+    "experimental"
    ],
    "sn": "Rada7.ee",
    "su": "https://www.facebook.com/rada7.ee/events",
@@ -1197,7 +1219,7 @@
     "allikas": "FB event, kontrollitud 10.08.2026"
    },
    "lisatud": "2026-08-10",
-   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Korraldajad vabadus.ee + Interlüüd + Pargitiks, Kaera 14b, Põhja-Tallinn. Allikad: Rada7.ee FB events-tab + ürituse enda FB event (368 vastanut). ⚠ SILVERI OTSUS OOTAB: kirje on ŽANRILT KIRJU — enamik nimesid on elektroonika/DJ (→ klubi), aga Jooseppro & Lennu teevad siin oma UUE ALBUMI esiettekande, mis on puhas räpp. Panin klubi-poolele baasformaadi järgi (tasuta garaažireiv, DJ-põhine). Kui Silver eelistab, võib tõsta rap.skene.info-le või teha eraldi reliisikirje albumile (pealkiri pole veel avaldatud)"
+   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Korraldajad vabadus.ee + Interlüüd + Pargitiks, Kaera 14b, Põhja-Tallinn. Allikad: Rada7.ee FB events-tab + ürituse enda FB event (368 vastanut). 13.08.2026 SILVERI OTSUS (auditi triaaž): tõstetud klubi → rap, sest Jooseppro & Lennu UUE ALBUMI esiettekanne (räpp) on ürituse tuum. Klubi blocklisti läks vana kirje blokk. Kui albumi pealkiri avaldatakse, tee rap-poolele eraldi reliisikirje."
   },
   {
    "sait": "www",
@@ -1275,6 +1297,25 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1689036142150759/",
    "nb": "lisatud sweepis 19.07.2026 (Hell events) | 07.08.2026 sweep: Hell Tartu FB events-leht näitab TÄISKOOSSEISU 5 bändiga (varem 3) — lisatud Sitalaps ja Cunt Terrorist, nimi uuendatud."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-15",
+   "t": "klubi",
+   "n": "Macondo Sessions - Wave Riddim",
+   "a": "algus 20.00; reggae/dancehall",
+   "b": [],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "reggae",
+    "dancehall"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1058754833477310/",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Macondo Sessions; koosseisu nimekirjavaade ei avalda → b tühi."
   },
   {
    "sait": "www",
@@ -1560,6 +1601,34 @@
    "ou": "https://www.facebook.com/events/1027136910083679/",
    "lisatud": "2026-08-10",
    "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). ⚠ ÜHE KORRALDAJA KAKS ALLIKAT: nii tolm.club kui FB event 1027136910083679 on TOLMi enda omad — sõltumatut teist allikat (RA/Fienta) ei ole, RA nädalavaates 17.–23.08 seda ei olnud. Kuupäev ja koht on venue enda lehelt, seega usaldusväärsed. Koosseisu EI OLE avaldatud (kirjeldus on kunstiline tekst) → tba=1; kontrolli järgmises sweepis üle"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-21",
+   "t": "kontsert",
+   "n": "Lexsoul Dancemachine — suve ainus kontsert Tallinnas",
+   "a": "algus 20.00; kuueliikmeline funk/soul-kollektiiv (aasta ansambel 2021)",
+   "b": [
+    "Lexsoul Dancemachine"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "funk",
+    "soul"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/lexsoul-dancemachine-paavli",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1658178432978557/",
+   "pu": "https://fienta.com/lexsoul-dancemachine-paavli",
+   "hind": {
+    "praegu": "25€",
+    "mark": "noored 20€, toetaja 40€",
+    "allikas": "Fienta, kontrollitud 13.08.2026"
+   },
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA: funk/soul on nüüd peasaidi skoobis uue metafiltrina (Augustibluusi pretsedent — bluus oli 8., funk on 9. katusekategooria). Allikad: FB event (Rada7 12.08 uudiskiri) + Fienta ürituseleht (algus 20.00).",
+   "img": "https://www.skene.info/pildid/lexsouldancemachinesuveainuskontserttallinnas.webp"
   },
   {
    "sait": "klubi",
@@ -2313,6 +2382,24 @@
     "allikas": "stationnarva.ee, kontrollitud 13.07.2026"
    },
    "img": "https://klubi.skene.info/pildid/stationnarva2026.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Baile do Lainão vol IV",
+   "a": "algus 21.00; Brasiilia baile funk",
+   "b": [],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "baile funk"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1237358456130739/",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Iago Bresciani: Arte em movimento. NB FB-pealkirjas on 'vol lV' (väike L)."
   },
   {
    "sait": "klubi",

@@ -12,5 +12,10 @@
  {
   "b": "toxic yuri",
   "nb": "ARTISTIBLOKK 30.07.2026 (Silveri otsus): artist ei soovi olla tehisaru abil koostatud kalendris. Blokeerib KOIK selle artisti kirjed koigil kuupaevadel (b-massiiv, nimi, nimega algav reliisipealkiri) - vt scripts/common.py is_blocked. Sama blokk on koigi kolme saidi blocklistis, et zanri-umberliigitus seda ei lohuks."
+ },
+ {
+  "d": "2026-08-14",
+  "n": "VABADUs* x Interlüüd",
+  "nb": "13.08.2026: kirje tõsteti Silveri otsusega rap-poolele (albumi esiettekanne = räpp); blokk hoiab ära vana klubi-kirje tagasituleku eelmisest data.json-ist (archive_split unioon)."
  }
 ]

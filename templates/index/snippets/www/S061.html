@@ -1,18 +1,19 @@
 // KOHT: Eesti kohad alati nähtaval; Baltikum/Põhjamaad/Euroopa "+" nupu taga (laieneb klikil)
 const CITIES_MAIN=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
 const CITIES_MORE=[["c_baltikum","Baltikum"],["c_pohjamaad","Põhjamaad"],["c_euroopa","Euroopa"]];
-// Žanri META-filtrid: 8 katusekategooriat filtri reas; kirje kaardil jäävad täpsed sildid.
+// Žanri META-filtrid: 9 katusekategooriat filtri reas; kirje kaardil jäävad täpsed sildid.
 // Vastendus toortag → meta(d). Modifikaatorid (heavy, stoner, melodic, symphonic, extreme, post,
 // psych, shoegaze) metat EI anna — meta tuleb kirje juursildist (nt heavy+rock→rock, heavy+power→metal).
 // FALLBACK: kirje, mille ühestki sildist ei tule metat, kuvatakse alt'i all (100% katvus tundmatute
 // siltide korral); ILMA siltideta kirjed (nt merch) käituvad nagu enne. Vt HANDOVER.md "UI-ÜMBEREHITUS".
-const METAS=["metal","punk","core","rock","bluus","alt","dark","folk"];
+const METAS=["metal","punk","core","rock","bluus","funk","alt","dark","folk"];
 const GENRE_META={
  metal:["metal"],death:["metal"],black:["metal"],thrash:["metal"],doom:["metal"],sludge:["metal"],power:["metal"],pagan:["metal"],
  punk:["punk"],"post-punk":["punk"],
  core:["core"],grind:["core"],
  rock:["rock"],folk:["folk"],alt:["alt"],
  bluus:["bluus"],bluusrock:["bluus","rock"],"blues rock":["bluus","rock"],
+ funk:["funk"],soul:["funk"],"funk/soul":["funk"],disco:["funk"],
  dark:["dark"],industrial:["dark"],ebm:["dark"],darkwave:["dark"],goth:["dark"],electro:["dark"],
  /* legacy/varusildid (E_FALLBACK + vanad andmed): */
  rokk:["rock"],gothic:["dark"],"dark electro":["dark"],synth:["dark"],hardcore:["core"],
