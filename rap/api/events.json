@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12",
+ "updated": "2026-08-13",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 183,
+ "count": 182,
  "entries": [
   {
    "sait": "www",
@@ -858,31 +858,6 @@
    "ou": "https://open.spotify.com/album/5216kr1MjSN0Ta6n7R2LFE",
    "nb": "kontaktivormi sisend (Egert, peakontor@antimuusika.ee, 10.08.2026); kuupäev Spotify releaselehelt (August 8, 2026), saatja kuupäevaväli oli tühi. Teine allikas: MuusikaPlaneet 11.08.2026 https://muusikaplaneet.ee/2026/08/11/bobcat/ — salvestatud Maailma Nabala stuudios, produktsioon Martin Kikas (Ö Stuudio), fotod Joosep Ints; EP lubatud septembris 2026. Saatja pakkus žanriteks punk+rock+alt, jäeti Silveri otsusel alt+rock (MuusikaPlaneet nimetab lihtsalt alternatiivmuusikaks, lugu „peaaegu ballaad”). Ka YouTube’is: https://www.youtube.com/watch?v=DrfZcEjR5Vg",
    "img": "https://www.skene.info/pildid/pluuto200bobcat.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-12",
-   "t": "kontsert",
-   "n": "AIGEL + 3H Company",
-   "a": "topelt-headline live: AIGEL (dark electronics, industrial tekstuurid; «Pyyala», «Tatarin») + 3H Company (eksperimentaalne räpp/IDM, ex-2H Company); uksed 19.00, show 20.00",
-   "b": [
-    "AIGEL",
-    "3H Company"
-   ],
-   "v": "Club Privé",
-   "c": "Tallinn",
-   "g": [
-    "electro",
-    "experimental",
-    "dark",
-    "hip-hop"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/ee/all",
-   "on_": "RA event",
-   "ou": "https://ra.co/events/2472198",
-   "pu": "https://ra.co/events/2472198",
-   "nb": "lisatud sweepis 19.07.2026; promootorid Crunch Tapes + Positive Transmitter, RA Tickets; varem (15.07) välja jäetud ühe allika tõttu - nüüd RA event + piletid"
   },
   {
    "sait": "www",
