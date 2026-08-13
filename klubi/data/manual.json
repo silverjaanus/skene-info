@@ -741,9 +741,10 @@
   "d": "2026-08-13",
   "t": "kontsert",
   "n": "Paavli.Live: múm (IS)",
-  "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00",
+  "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00; avab Dominik Prok (SK)",
   "b": [
-   "múm (IS)"
+   "múm (IS)",
+   "Dominik Prok (SK)"
   ],
   "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
@@ -755,7 +756,7 @@
   "sn": "Fienta",
   "su": "https://fienta.com/et/mum-tallinn",
   "pu": "https://fienta.com/et/mum-tallinn",
-  "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist)",
+  "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist) 13.08: +avaesineja Dominik Prok (Paavli uudiskiri 11.08 + kultuurivabrik.ee programm).",
   "img": "pildid/paavlilivemumis.webp"
  },
  {
@@ -2222,5 +2223,29 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1237358456130739/",
   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Iago Bresciani: Arte em movimento. NB FB-pealkirjas on 'vol lV' (väike L)."
+ },
+ {
+  "d": "2026-08-13",
+  "t": "klubi",
+  "n": "VERANDA: QSLAP (all night long)",
+  "a": "algus 23.00; Paavli kasvuhoone-tantsupõrand pärast múm-i kontserti; tasuta",
+  "b": [
+   "QSLAP"
+  ],
+  "v": "Paavli Kultuurivabrik, Veranda",
+  "c": "Tallinn",
+  "g": [
+   "club",
+   "electro"
+  ],
+  "sn": "Paavli uudiskiri",
+  "su": "https://www.kultuurivabrik.ee/en/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1366117608372007/",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "Paavli uudiskiri 11.08.2026"
+  },
+  "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8)."
  }
 ]

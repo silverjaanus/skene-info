@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 186,
+ "count": 187,
  "entries": [
   {
    "sait": "www",
@@ -925,9 +925,10 @@
    "d": "2026-08-13",
    "t": "kontsert",
    "n": "Paavli.Live: múm (IS)",
-   "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00",
+   "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00; avab Dominik Prok (SK)",
    "b": [
-    "múm (IS)"
+    "múm (IS)",
+    "Dominik Prok (SK)"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -939,8 +940,33 @@
    "sn": "Fienta",
    "su": "https://fienta.com/et/mum-tallinn",
    "pu": "https://fienta.com/et/mum-tallinn",
-   "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist)",
+   "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist) 13.08: +avaesineja Dominik Prok (Paavli uudiskiri 11.08 + kultuurivabrik.ee programm).",
    "img": "https://klubi.skene.info/pildid/paavlilivemumis.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-13",
+   "t": "klubi",
+   "n": "VERANDA: QSLAP (all night long)",
+   "a": "algus 23.00; Paavli kasvuhoone-tantsupõrand pärast múm-i kontserti; tasuta",
+   "b": [
+    "QSLAP"
+   ],
+   "v": "Paavli Kultuurivabrik, Veranda",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "electro"
+   ],
+   "sn": "Paavli uudiskiri",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1366117608372007/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "Paavli uudiskiri 11.08.2026"
+   },
+   "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8)."
   },
   {
    "sait": "www",
@@ -1405,9 +1431,10 @@
    "d": "2026-08-16",
    "t": "kontsert",
    "n": "Paavli.Live: Geordie Greep (UK)",
-   "a": "Briti rokkansambli Black Midi endine frontmees; eksperimentaalne rokk, debuütsooloalbum „The New Sound“",
+   "a": "Briti rokkansambli Black Midi endine frontmees; eksperimentaalne rokk, debuütsooloalbum „The New Sound“; avab Richard Jerbach",
    "b": [
-    "Geordie Greep (UK)"
+    "Geordie Greep (UK)",
+    "Richard Jerbach"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -1421,7 +1448,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2264781267610298/",
    "pu": "https://fienta.com/geordie-greep-paavli",
-   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases. FB-eventi link lisatud 13.08.2026 Rada7.ee uudiskirjast (kuupäev P 16.08 + koht Paavli langevad kokku Fienta lehega)",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases. FB-eventi link lisatud 13.08.2026 Rada7.ee uudiskirjast (kuupäev P 16.08 + koht Paavli langevad kokku Fienta lehega) 13.08: +avaesineja Richard Jerbach (kultuurivabrik.ee programm).",
    "img": "https://www.skene.info/pildid/paavlilivegeordiegreepuk.webp"
   },
   {

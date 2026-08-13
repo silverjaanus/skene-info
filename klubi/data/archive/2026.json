@@ -677,7 +677,8 @@
    "ou": "https://www.facebook.com/events/1678866233207126/",
    "pu": "https://gateme.com/et/halltallinn/104078-compress-rave-x-hall-only-techno-0708",
    "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga."
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga.",
+   "img": "pildid/compressxhallonlytechno.webp"
   },
   {
    "d": "2026-08-07",
