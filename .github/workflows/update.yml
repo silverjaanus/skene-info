@@ -20,19 +20,49 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      # eraldi sammud: uhe saidi korje kukkumine ei jata teisi tegemata
+      # eraldi sammud: uhe saidi korje kukkumine ei jata teisi tegemata.
+      # Kukkumine EI jaa enam margatamatuks: all on "Korje staatus" samm,
+      # mis failib jobi, kui moni korje ebaonnestus (13.08.2026 audit).
       - name: Korje metal
+        id: metal
         continue-on-error: true
         run: python scripts/fetch.py
       - name: Korje rap
+        id: rap
         continue-on-error: true
         run: python scripts/fetch_rap.py
       - name: Korje klubi
+        id: klubi
         continue-on-error: true
         run: python scripts/fetch_klubi.py
+      # allikad.json + feed/api eraldi sammuna: varem joosti need ainult
+      # fetch.py seest, st metal-poole viga kylmutas ka rap+klubi allikalehed
+      - name: Allikad + API
+        id: buildjson
+        continue-on-error: true
+        run: |
+          python scripts/build_sources.py
+          python scripts/build_api.py
+      # duplikaadi-/kummitusekontroll ENNE commit'i: kahtluse korral
+      # commit'i EI tehta ja job laheb punaseks (inimene vaatab ule)
+      - name: Duplikaadikontroll
+        run: python scripts/check_dupes.py
       - name: Commit kui muutus
         run: |
           git config user.name "skene-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/data.json rap/data/data.json klubi/data/data.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json klubi/api/events.json data/archive rap/data/archive klubi/data/archive
           git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git pull --rebase origin main && git push)
+      # nahtavus: kui moni ulaltoodud continue-on-error samm kukkus,
+      # laheb job SIIN punaseks — Actions-vaade ei valeta enam rohelist
+      - name: Korje staatus
+        if: always()
+        run: |
+          echo "metal=${{ steps.metal.outcome }} rap=${{ steps.rap.outcome }} klubi=${{ steps.klubi.outcome }} allikad/api=${{ steps.buildjson.outcome }}"
+          if [ "${{ steps.metal.outcome }}" != "success" ] || \
+             [ "${{ steps.rap.outcome }}" != "success" ] || \
+             [ "${{ steps.klubi.outcome }}" != "success" ] || \
+             [ "${{ steps.buildjson.outcome }}" != "success" ]; then
+            echo "::error::Vahemalt uks korje-/buildisamm kukkus — vaata sammude logisid"
+            exit 1
+          fi

@@ -68,6 +68,24 @@ def load_entries(path):
     return j if isinstance(j, list) else []
 
 
+def load_manual(path):
+    """Loeb manual.json-i (kureeritud lähtefail). Vigase JSON-i korral EI
+    jätka tühja listiga — see teeks data.json-i tühjaks ja sait kaotaks
+    kõik tulevased kirjed. Selle asemel kukub selge veateatega (exit != 0),
+    et workflow näitaks punast; teised saidid jätkavad oma sammudes."""
+    path = Path(path)
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as ex:
+        raise SystemExit(
+            f"VIGA: {path} ei parsinud ({type(ex).__name__}: {ex}). "
+            "Paranda JSON kasitsi — korje katkestatud, et mitte tuhja "
+            "andmestikuga saiti ule kirjutada.")
+    if not isinstance(raw, list):
+        raise SystemExit(f"VIGA: {path} pole JSON-list (on {type(raw).__name__}).")
+    return raw
+
+
 def load_blocklist(path):
     """Loeb blocklist.json. Tagastab (block, block_names, block_artists):
       block         = {(kuupäev, slug(nimi))} -- konkreetne kirje kindlal päeval
@@ -82,7 +100,13 @@ def load_blocklist(path):
     if not path.exists():
         print(f"HOIATUS: blocklist.json puudub ({path})")
         return set(), set(), set()
-    raw = json.loads(path.read_text(encoding="utf-8"))
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as ex:
+        raise SystemExit(
+            f"VIGA: {path} ei parsinud ({type(ex).__name__}: {ex}). "
+            "Paranda JSON — korje katkestatud, sest ilma blocklistita "
+            "tuleksid blokitud kirjed saidile tagasi.")
     for b in raw:
         if "n" not in b and "b" not in b:
             print(f"HOIATUS: blocklist.json kirje ilma n/b-ta: {b}")

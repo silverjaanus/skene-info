@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info korje; +https://www.skene.info)"}
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from archive_split import split_and_write
-from common import slug, today_local, load_blocklist, is_blocked, warn_unknown_bands
+from common import slug, today_local, load_blocklist, load_manual, is_blocked, warn_unknown_bands
 
 TODAY = today_local().isoformat()
 
@@ -209,7 +209,7 @@ SOURCES = [("metalstorm", src_metalstorm), ("krypt", src_krypt),
 # ---------------- merge ----------------
 
 def main():
-    manual = json.loads((ROOT / "data" / "manual.json").read_text(encoding="utf-8"))
+    manual = load_manual(ROOT / "data" / "manual.json")
     block, block_names, block_artists = load_blocklist(ROOT / "data" / "blocklist.json")
     auto, log = [], []
     for name, fn in SOURCES:
