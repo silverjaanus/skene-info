@@ -14,7 +14,8 @@ ROOT = Path(__file__).resolve().parent.parent
 UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info korje; +https://www.skene.info)"}
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from archive_split import split_and_write
-from common import slug, today_local, load_blocklist, load_manual, is_blocked, warn_unknown_bands
+from common import (slug, today_local, load_blocklist, load_manual, is_blocked,
+                    warn_unknown_bands, warn_handover)
 
 TODAY = today_local().isoformat()
 
@@ -272,6 +273,7 @@ def main():
     print(f"manual {len(manual)} + auto = {len(merged)}; data.json {n_cur}, arhiiv {n_arch}")
     warn_unknown_bands(ROOT / "data", merged)
     warn_meta_fallback(merged)
+    warn_handover()
 
     # avalik allikate leht (guarditud: viga siin ei murra korjet)
     try:

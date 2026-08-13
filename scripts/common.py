@@ -142,6 +142,20 @@ def is_blocked(e, block, block_names, block_artists=None):
     return False
 
 
+def warn_handover(limit=250):
+    """Hoiatab, kui HANDOVER.md on üle limiidi kasvanud (13.08.2026 kärpereegel).
+    GitHub Actionsis fail puudub (gitignore'itud) -> vaikib. Kutsub fetch.py."""
+    p = Path(__file__).resolve().parent.parent / "HANDOVER.md"
+    try:
+        n = p.read_text(encoding="utf-8").count("\n")
+    except OSError:
+        return
+    if n > limit:
+        print(f"HOIATUS: HANDOVER.md on {n} rida (piir {limit}) — tee kärbe SAMAS "
+              "sessioonis: valmis plokid verbatim HANDOVER-ARCHIVE.md lõppu "
+              "(vt HANDOVER §2 reegel 10).")
+
+
 def end_date(e):
     """Ürituse lõppkuupäev ISO-formaadis: d2 ("PP.KK") kui olemas, muidu d.
     Aastavahetust ületav d2 (nt d=30.12, d2=02.01) -> järgmine aasta.
