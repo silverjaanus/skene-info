@@ -324,15 +324,13 @@
    ],
    "sn": "Facebook",
    "su": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
-   "on_": "Piletilevi",
-   "ou": "https://www.piletilevi.ee/en/series/F72OXZFHHH/tartu-rock-fest-2026",
    "pu": "https://www.piletilevi.ee/piletid/M3ZRTXJSN3/tartu-rock-fest-2026-2-paeva-pilet",
    "hind": {
     "praegu": "87€ (2 päeva) / 47€ (1 päev)",
     "mark": "perepilet 120€; eelmüük, kohapeal kallim; Piletilevi 49–127€",
     "allikas": "onlinepilet.ee (Tartu Kontsert), kontrollitud 07.07.2026"
    },
-   "nb": "02.08.2026: mõlemad onlinepilet.ee lingid (korraldaja leht + piletileht) annavad 404 — asendatud Piletilevi omadega, mis on kontrollitud elus. Korraldaja on jätkuvalt Tartu Kontsert, aga neil pole töötavat ürituselehte.",
+   "nb": "02.08.2026: mõlemad onlinepilet.ee lingid (korraldaja leht + piletileht) annavad 404 — asendatud Piletilevi omadega, mis on kontrollitud elus. Korraldaja on jätkuvalt Tartu Kontsert, aga neil pole töötavat ürituselehte. 13.08 audit: Piletilevi eemaldatud on_/ou-st (piletimüüja ≠ korraldaja) — pealkiri lingib FB-eventile (su).",
    "img": "https://www.skene.info/pildid/tarturockfest2026.webp"
   },
   {

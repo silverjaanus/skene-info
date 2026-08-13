@@ -2223,11 +2223,9 @@
     "experimental"
    ],
    "sn": "Fienta",
-   "su": "https://fienta.com/et?q=techno",
-   "on_": "Fienta",
-   "ou": "https://fienta.com/et/s/sound2-a-cyberdub-ambient-experience",
+   "su": "https://fienta.com/et/s/sound2-a-cyberdub-ambient-experience",
    "pu": "https://fienta.com/et/s/sound2-a-cyberdub-ambient-experience",
-   "nb": "lisatud sweepis 28.07.2026 (Fienta + Tallinn Fringe Festivali programm)",
+   "nb": "lisatud sweepis 28.07.2026 (Fienta + Tallinn Fringe Festivali programm). 13.08 audit: Fienta eemaldatud on_/ou-st (piletimüüja ≠ korraldaja); ürituse oma lehte pole (Fringe'il ainult üldine programmileht fringe.ee/tickets), su → Fienta ürituseleht otsingulehe asemel.",
    "img": "https://klubi.skene.info/pildid/sound2acyberdubambientexperience.webp"
   },
   {
