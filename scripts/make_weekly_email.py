@@ -183,20 +183,36 @@ def price_text(e):
 def title_link(e):
     return e.get("ou") or e.get("su") or ""
 
+def next_start(e, ref):
+    """Kuupaev, mida kirjas NAIDATA (ISO-string). 13.08.2026 Silveri parandus:
+    kaimasoleval tuuril/sarjal naita JARGMIST toimumiskuupaeva (dd-massiivist),
+    mitte tuuri esimest, mis voib olla moodas; dd-ta kaimasoleval vahemikul
+    (nt mitmepaevane festival) naita ref-kuupaeva (uritus kestab)."""
+    d=e.get("d","")
+    try:
+        s,en=event_span(e)
+    except Exception:
+        return d
+    if s < ref <= en:
+        tulevased=sorted(x for x in (e.get("dd") or []) if x >= ref.isoformat())
+        return tulevased[0] if tulevased else ref.isoformat()
+    return d
+
 def event_row(e, L, lang="et"):
     s,en=event_span(e)
+    disp=parse_d(e["_disp"]) if e.get("_disp") else s
     t=e.get("t","")
     cat=e.get("_cat","metal")
     col=CAT_COLOR.get(cat,HALL)
     label=CAT_LABEL.get(lang,CAT_LABEL["et"]).get(cat,cat.upper())
     typetext=L["type"].get(t,t.upper())
     is_rel = t in ("reliis","merch") or e.get("rel")
-    datebig=f"{s.day:02d}.{s.month:02d}"
+    datebig=f"{disp.day:02d}.{disp.month:02d}"
     if is_rel:
         wl=L["new"]
     else:
-        wl=L["wday"][s.weekday()]
-        if e.get("d2"): wl+=f"&ndash;{en.day:02d}.{en.month:02d}"
+        wl=L["wday"][disp.weekday()]
+        if e.get("d2") and en>disp: wl+=f"&ndash;{en.day:02d}.{en.month:02d}"
     tag=(f'<span style="display:inline-block;background:{col};color:#FFFFFF;'
          f'font:700 11px/1.4 \'Courier New\',monospace;letter-spacing:.5px;'
          f'padding:2px 7px;">{label}</span>'
@@ -395,7 +411,11 @@ def load_sources(repo, ws, we):
 
 def gen_combo(all_ev, cats, ws, we, base):
     sel=[e for e in all_ev if e.get("_cat") in cats]
-    sel.sort(key=lambda e:(e.get("d",""), CAT_ORDER.index(e.get("_cat","metal")), e.get("t","")))
+    for e in sel:
+        e["_disp"]=next_start(e, ws)
+    # sort NAIDATAVA kuupaeva jargi — kaimasolev tuur ei hyppa moodunud
+    # alguskuupaevaga nimekirja etteotsa (13.08.2026 Silveri parandus)
+    sel.sort(key=lambda e:(e.get("_disp") or e.get("d",""), CAT_ORDER.index(e.get("_cat","metal")), e.get("t","")))
     tag="+".join(cats)
     outs={}
     for lang in ("et","en"):
