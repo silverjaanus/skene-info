@@ -6,32 +6,31 @@
     "tekst = loend loikudest; lihtne HTML (<b>, <a>, <i>) on lubatud.",
     "nupp = valikuline; jata null-iks kui nuppu pole vaja."
   ],
+  "_markus": "Silveri soov 13.08.2026: VAHEMALT KOLM jargmist kirja (14.08, 21.08, 28.08) lahevad tagasisideplokiga; uuendusi voib samasse plokki juurde panna. Ara luhenda kuni-kuupaeva enne 28.08.",
   "aktiivne": true,
-  "kuni": "2026-08-07",
+  "kuni": "2026-08-28",
   "et": {
-    "pealkiri": "Mis saidil vahepeal muutunud",
+    "pealkiri": "Paar uuendust — ja sinu arvamus kulub ära",
     "tekst": [
-      "Viimastel nädalatel on skene.info päris palju muutunud. Reliisid ei domineeri enam nimekirja esiosa, vaid on eraldi ribas, kus näed kuut kõige uuemat — sealt saab edasi minna kõiki vaatama, koos arhiiviga.",
-      "Nii palju kui automaatselt võimalik, on kirjetel nüüd õiged pildid juures. Filtritesse lisandus &bdquo;sait&ldquo;: kui vaatad kalendris mingit kindlat kuupäeva, saad valida, kas näed ainult oma klubimuusika üritusi või ka teiste žanrite omi.",
-      "Üritusi on kõige parem lisada kontaktivormiga, mis on saidi vasakus servas — sealtsamast võid ka niisama kirjutada. Või kirjuta Instagramis <a href=\"https://www.instagram.com/skene.info/\">@skene.info</a>."
+      "Saidil on nüüd avalik <b>API</b> — kogu kalender on saadaval masinloetava JSON-feedina, kui tahad andmeid oma skripti või vidinasse. Otspunktid ja väljade seletused leiad päisest lingi <a href=\"https://www.skene.info/api.html\">API</a> alt.",
+      "Peasaidi žanrivalikusse lisandus <b>funk/soul</b> — esimese pääsukesena on kalendris Lexsoul Dancemachine'i suve ainus Tallinna kontsert (21.08 Paavlis)."
     ],
     "nupp": {
       "tekst": "Anna tagasisidet &rarr;",
       "url": "https://www.skene.info/tagasiside.html?s=www",
-      "saatetekst": "Oleksin tänulik, kui leiad hetke ja annad skene.info kohta tagasisidet."
+      "saatetekst": "Ja kui leiad hetke, anna skene.info kohta tagasisidet — neli kiiret küsimust, võtab paar minutit."
     }
   },
   "en": {
-    "pealkiri": "What has changed on the site",
+    "pealkiri": "A couple of updates — and your opinion is welcome",
     "tekst": [
-      "skene.info has changed quite a bit over the past few weeks. Releases no longer dominate the top of the list — they sit in a strip of their own showing the six newest, and from there you can go on to browse them all, archive included.",
-      "Wherever it can be done automatically, entries now carry proper images. A &bdquo;site&ldquo; filter was added: when you look at a specific date in the calendar, you can choose whether to see only your own club music events or those of the other genres as well.",
-      "The best way to add an event is the contact form in the left-hand column of the site — you can just as well use it to write to us about anything. Or send a message on Instagram to <a href=\"https://www.instagram.com/skene.info/\">@skene.info</a>."
+      "The site now has a public <b>API</b> — the whole calendar is available as a machine-readable JSON feed, in case you want the data in your own script or widget. Endpoints and field descriptions are behind the <a href=\"https://www.skene.info/api.html\">API</a> link in the header.",
+      "<b>Funk/soul</b> joined the main site's genre filters — first up in the calendar is Lexsoul Dancemachine's only Tallinn concert of the summer (21 Aug at Paavli)."
     ],
     "nupp": {
       "tekst": "Give feedback &rarr;",
       "url": "https://www.skene.info/tagasiside.html?s=www",
-      "saatetekst": "I would be grateful if you found a moment to give feedback on skene.info."
+      "saatetekst": "And if you have a moment, give feedback on skene.info — four quick questions, takes a couple of minutes."
     }
   }
 }
