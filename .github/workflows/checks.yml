@@ -1,0 +1,28 @@
+name: Kontrollid
+
+# 13.08.2026 audit: kerge CI iga pushi peale — syntaks, genereeritud HTML-i
+# kasitsi-muutmise valve, duplikaadi-/meta-sync-kontroll, tagasiside API test.
+# NB andmekorje (update.yml) pushid GITHUB_TOKEN-iga SEDA workflow'd ei kaivita
+# (GitHubi rekursioonikaitse) — see valvab inim-pushe.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  kontrollid:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Syntaks (py_compile)
+        run: python -m py_compile scripts/*.py
+      - name: Genereeritud HTML puutumata (build_pages --check)
+        run: python scripts/build_pages.py --check
+      - name: Duplikaadid + GENRE_META sync
+        run: python scripts/check_dupes.py
+      - name: Tagasiside API test (mokitud)
+        run: node scripts/test_tagasiside.js

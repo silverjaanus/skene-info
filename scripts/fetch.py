@@ -254,7 +254,11 @@ def main():
             if d != e["d"]:
                 continue
             en, ebs, evs = slug(e["n"]), key_bands(e), slug(e.get("v","") or "")
-            if en in n or n in en or (bs & ebs) or (evs and evs == vs):
+            # 13.08.2026 audit: substring-vordlus sai >=8-margi kaitse (sama piir mis
+            # check_dupes.nimeleid ja common.is_blocked) — lyhike auto-nimi ei kustu
+            # enam "duplikaadina" ainult sellepärast, et sisaldub teise kirje slugis.
+            nimekattuvus = (en == n) or (len(en) >= 8 and len(n) >= 8 and (en in n or n in en))
+            if nimekattuvus or (bs & ebs) or (evs and evs == vs):
                 dup = True
                 break
         if not dup:

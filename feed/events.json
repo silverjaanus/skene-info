@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 187,
+ "count": 188,
  "entries": [
   {
    "sait": "www",
@@ -1323,6 +1323,30 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1689036142150759/",
    "nb": "lisatud sweepis 19.07.2026 (Hell events) | 07.08.2026 sweep: Hell Tartu FB events-leht näitab TÄISKOOSSEISU 5 bändiga (varem 3) — lisatud Sitalaps ja Cunt Terrorist, nimi uuendatud."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-15",
+   "t": "kontsert",
+   "n": "Italy Unexpected",
+   "a": "algus 14.00; päevane festival: Lõuna-Itaalia vähemtuntud muusikatraditsioonid + toit, tants ja töötoad Eesti itaalia kogukonnaga",
+   "b": [
+    "Kanuteh-Zanotti Duo",
+    "Luisa Briguglio",
+    "Mundial"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro",
+    "folk"
+   ],
+   "sn": "Paavli uudiskiri",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/869742072842177/",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA klubisse (world/folk+elektro piiripealne; Mundial = Lõuna-Itaalia rituaalirütmid + elektro/klubikultuur). Allikad: Paavli 11.08 uudiskiri (spämmist päästetud) + kultuurivabrik.ee programm + FB event."
   },
   {
    "sait": "klubi",

@@ -64,6 +64,10 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None,
     def add(lst, apply_block):
         for e in lst:
             if "d" not in e or "n" not in e:
+                # 13.08.2026 audit: varem kadus d/n-ita kirje JALJETULT (hoiatus oli
+                # ainult fetch.py-s, rap/klubi poolel mitte). Nyyd hoiatab siin — koik
+                # kolm fetchi saavad selle automaatselt.
+                print(f"HOIATUS: kirje ilma d/n-ita jaeti vahele: {str(e)[:120]}")
                 continue
             k = _key(e)
             if k in seen:

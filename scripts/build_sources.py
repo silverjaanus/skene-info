@@ -95,7 +95,8 @@ def build():
     for e in kd.get("ig", []):
         _add(klubi, "Instagram", e.get("nimi", ""), e.get("url", ""))
 
-    today = date.today().isoformat()
+    from common import today_local
+    today = today_local().isoformat()
     g_main, g_rap, g_klubi = _pack(main, ORDER_MAIN), _pack(rap, ORDER_RAP), _pack(klubi, ORDER_KLUBI)
     (ROOT / "data" / "allikad.json").write_text(
         json.dumps({"updated": today, "groups": g_main}, ensure_ascii=False, indent=1),

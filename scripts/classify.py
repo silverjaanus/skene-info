@@ -408,7 +408,9 @@ def main():
     args = parse_args()
     script_dir = Path(__file__).resolve().parent
     repo_root = Path(args.repo).resolve() if args.repo else script_dir.parent
-    today = date.today()
+    sys.path.insert(0, str(script_dir))
+    from common import today_local
+    today = today_local()
 
     files = {
         "www": repo_root / "data" / "manual.json",

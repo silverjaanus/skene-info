@@ -2247,5 +2247,28 @@
    "allikas": "Paavli uudiskiri 11.08.2026"
   },
   "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8)."
+ },
+ {
+  "d": "2026-08-15",
+  "t": "kontsert",
+  "n": "Italy Unexpected",
+  "a": "algus 14.00; päevane festival: Lõuna-Itaalia vähemtuntud muusikatraditsioonid + toit, tants ja töötoad Eesti itaalia kogukonnaga",
+  "b": [
+   "Kanuteh-Zanotti Duo",
+   "Luisa Briguglio",
+   "Mundial"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "electro",
+   "folk"
+  ],
+  "sn": "Paavli uudiskiri",
+  "su": "https://www.kultuurivabrik.ee/en/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/869742072842177/",
+  "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA klubisse (world/folk+elektro piiripealne; Mundial = Lõuna-Itaalia rituaalirütmid + elektro/klubikultuur). Allikad: Paavli 11.08 uudiskiri (spämmist päästetud) + kultuurivabrik.ee programm + FB event."
  }
 ]

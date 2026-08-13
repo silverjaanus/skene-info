@@ -157,6 +157,14 @@ def main():
             for e in kumm:
                 print(f"   - {kirjeldus(e)}")
 
+    # 13.08.2026 audit: GENRE_META synkikontroll jookseb sama varavaga (paevane
+    # workflow + kasitsi jooksud), et Python/JS koopiad ei triiviks margatamatult.
+    try:
+        import check_meta_sync
+        vigu += check_meta_sync.main()
+    except Exception as ex:
+        print(f"HOIATUS: meta-sync kontroll ei jooksnud: {type(ex).__name__}: {ex}")
+
     if vigu:
         print(f"\nKOKKU {vigu} kahtlust. Kummituse kustutamiseks lisa blocklist.json-i "
               "kirje vana 'd' + 'n'-ga ja jooksuta fetch uuesti.")
