@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API — SKENE.INFO</title>
+<meta name="description" content="skene.info avalik JSON-feed: Eesti alternatiivmuusika üritused ja reliisid masinloetaval kujul.">
+<style>
+:root{
+  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
+  --telliskivi:#93392C;
+  --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.5}
+a{color:var(--telliskivi)}
+.wrap{max-width:760px;margin:0 auto;padding:26px 24px 60px}
+header{border-bottom:3px solid var(--tint);padding-bottom:14px;margin-bottom:28px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px}
+h1{font-size:clamp(28px,5vw,42px);line-height:.95;letter-spacing:-1px;text-transform:uppercase;font-weight:700}
+h1 .info{color:var(--telliskivi)}
+.hright{display:flex;align-items:center;gap:14px}
+.back{font-family:var(--mono);font-size:12.5px;text-decoration:none}
+.langsw{display:flex;border:1.5px solid var(--joon);flex:none}
+.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hall);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.langsw button.on{background:var(--tint);color:var(--paber)}
+h2{font-size:19px;font-weight:700;margin:26px 0 8px;border-top:2px solid var(--tint);padding-top:16px}
+p{margin:8px 0}
+code,.url{font-family:var(--mono);font-size:13.5px;background:#E9E5D8;padding:1px 5px;border-radius:2px;word-break:break-all}
+.url{display:block;padding:8px 10px;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14.5px}
+td,th{border:1px solid var(--joon);padding:5px 8px;text-align:left;vertical-align:top}
+th{font-family:var(--mono);font-size:12px;text-transform:uppercase;background:#E9E5D8}
+td:first-child{font-family:var(--mono);font-size:13px;white-space:nowrap}
+.footer{margin-top:40px;font-family:var(--mono);font-size:12px;color:var(--hall)}
+html[lang="en"] .only-et{display:none}
+html[lang="et"] .only-en{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span>API</span><span class="info">.</span></h1>
+    <div class="hright">
+      <a class="back" href="/" data-i18n="back">← TAGASI SKENE.INFO</a>
+      <div class="langsw" role="group" aria-label="Keel / Language">
+        <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
+        <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="only-et">
+    <p>Kogu skene.info sisu — kontserdid, festivalid, klubiõhtud, reliisid ja merch kõigilt
+    kolmelt saidilt (metal/rokk, räpp, klubi) — on saadaval avaliku JSON-feedina. Andmed on
+    käsitsi kureeritud, iga kirje viitab algallikale ja feed uueneb automaatselt iga päev.</p>
+
+    <h2>Otspunktid</h2>
+    <span class="url">https://www.skene.info/feed/events.json</span>
+    <p>Tulevased ja värsked kirjed, kõik kolm saiti koos. Vastus:
+    <code>{"updated", "count", "entries": [...]}</code>.</p>
+    <span class="url">https://www.skene.info/feed/archive.json</span>
+    <p>Arhiiv — kõik möödunud kirjed alates saidi avamisest, sama formaat.</p>
+
+    <h2>Kirje väljad</h2>
+    <table>
+      <tr><th>väli</th><th>tähendus</th></tr>
+      <tr><td>sait</td><td><code>www</code> (metal/rokk/punk), <code>rap</code> või <code>klubi</code></td></tr>
+      <tr><td>d, d2</td><td>kuupäev <code>YYYY-MM-DD</code>; mitmepäevasel lõpp <code>PP.KK</code> kujul</td></tr>
+      <tr><td>t</td><td>tüüp: kontsert / festival / klubi / reliis / merch / muu</td></tr>
+      <tr><td>n, a</td><td>nimi ja lühikirjeldus</td></tr>
+      <tr><td>b</td><td>esinejad (loend, täpselt nagu ürituse enda allikas need esitab)</td></tr>
+      <tr><td>v, c, linn</td><td>toimumiskoht ja linn (<code>c: "mujal"</code> + <code>linn</code> väljaspool suuremaid keskusi)</td></tr>
+      <tr><td>g</td><td>žanrisildid</td></tr>
+      <tr><td>sn, su</td><td>avastusallika nimi ja link — palun säilita viide algallikale</td></tr>
+      <tr><td>on_, ou</td><td>korraldaja / ürituse enda leht</td></tr>
+      <tr><td>pu, hind</td><td>piletilink ja hind (<code>{praegu, mark, allikas}</code>; puudub, kui pole kinnitatud)</td></tr>
+      <tr><td>img</td><td>kaanepilt, täielik URL</td></tr>
+      <tr><td>rel, lisatud</td><td>reliisimärgis ja lisamiskuupäev (reliis on saidil "uus" 30 päeva alates lisamisest)</td></tr>
+    </table>
+
+    <h2>Kasutamine</h2>
+    <p>Feed on vabalt kasutatav. Kaks palvet: viita andmete juures skene.info-le ja hoia iga
+    kirje algallika link (<code>su</code>/<code>ou</code>) alles — sait elab traffic-eetikast,
+    kus liiklus jõuab korraldajateni. Vigadest ja puuduvatest üritustest anna teada esilehe
+    kontaktivormi kaudu.</p>
+    <p>Tehniline märkus: feed on staatiline fail ilma CORS-päiseta — serveripoolne kasutus
+    (skriptid, botid, teised saidid serveri kaudu) töötab piiranguta, aga teise domeeni
+    brauseri-JavaScriptiga otse lugeda ei saa. Kui ehitad brauseripõhist vidinat, anna
+    kontaktivormi kaudu teada — lisame ligipääsu.</p>
+    <p class="footer">Feed uueneb iga päev ~07.30 ja iga nädalase andmekorje järel.</p>
+  </div>
+
+  <div class="only-en">
+    <p>Everything on skene.info — concerts, festivals, club nights, releases and merch from
+    all three sites (metal/rock, rap, club) — is available as a public JSON feed. The data is
+    hand-curated, every entry links to its original source, and the feed updates automatically
+    every day.</p>
+
+    <h2>Endpoints</h2>
+    <span class="url">https://www.skene.info/feed/events.json</span>
+    <p>Upcoming and fresh entries, all three sites combined. Response:
+    <code>{"updated", "count", "entries": [...]}</code>.</p>
+    <span class="url">https://www.skene.info/feed/archive.json</span>
+    <p>Archive — everything past since the site launched, same format.</p>
+
+    <h2>Entry fields</h2>
+    <table>
+      <tr><th>field</th><th>meaning</th></tr>
+      <tr><td>sait</td><td>site: <code>www</code> (metal/rock/punk), <code>rap</code> or <code>klubi</code> (club)</td></tr>
+      <tr><td>d, d2</td><td>date <code>YYYY-MM-DD</code>; multi-day events end as <code>DD.MM</code></td></tr>
+      <tr><td>t</td><td>type: kontsert (concert) / festival / klubi (club night) / reliis (release) / merch / muu (other)</td></tr>
+      <tr><td>n, a</td><td>name and short description</td></tr>
+      <tr><td>b</td><td>performers (exactly as the event's own source lists them)</td></tr>
+      <tr><td>v, c, linn</td><td>venue and city (<code>c: "mujal"</code> + <code>linn</code> outside the main cities)</td></tr>
+      <tr><td>g</td><td>genre tags</td></tr>
+      <tr><td>sn, su</td><td>discovery source name and link — please keep attribution</td></tr>
+      <tr><td>on_, ou</td><td>organiser / the event's own page</td></tr>
+      <tr><td>pu, hind</td><td>ticket link and price (<code>{praegu, mark, allikas}</code>; absent when unconfirmed)</td></tr>
+      <tr><td>img</td><td>cover image, full URL</td></tr>
+      <tr><td>rel, lisatud</td><td>release flag and date added (a release counts as "new" for 30 days from adding)</td></tr>
+    </table>
+
+    <h2>Usage</h2>
+    <p>The feed is free to use. Two requests: credit skene.info next to the data, and keep each
+    entry's original source link (<code>su</code>/<code>ou</code>) — the site runs on
+    traffic ethics, where clicks reach the organisers. Report errors or missing events via the
+    front-page contact form.</p>
+    <p>Technical note: the feed is a static file without a CORS header — server-side use
+    (scripts, bots, other sites via their backend) works without limits, but reading it
+    directly with browser JavaScript from another domain will not. If you are building a
+    browser-based widget, let us know via the contact form — we will add access.</p>
+    <p class="footer">The feed updates daily at ~07:30 EET and after each weekly sweep.</p>
+  </div>
+</div>
+<script>
+var I18N={
+ et:{title:"API — SKENE.INFO", back:"← TAGASI SKENE.INFO"},
+ en:{title:"API — SKENE.INFO", back:"← BACK TO SKENE.INFO"}
+};
+var LANG=(function(){try{return localStorage.getItem('skene_lang')||'et';}catch(e){return 'et';}})();
+function t(k){var d=I18N[LANG]||I18N.et;return d[k]!==undefined?d[k]:(I18N.et[k]!==undefined?I18N.et[k]:k);}
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(function(el){el.textContent=t(el.getAttribute('data-i18n'));});
+  document.title=t('title');
+  document.documentElement.setAttribute('lang',LANG);
+  document.querySelectorAll('.langsw button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===LANG);});
+}
+function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();}
+applyI18n();
+</script>
+</body>
+</html>
