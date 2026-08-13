@@ -43,6 +43,11 @@ jobs:
         run: |
           python scripts/build_sources.py
           python scripts/build_api.py
+      # moodunud kirjete puhastus manual.json-idest (Silveri otsus 13.08.2026):
+      # eemaldab AINULT arhiivis kinnitatud, 14+ paeva vanad, mitte-live kirjed
+      - name: Manuali puhastus
+        continue-on-error: true
+        run: python scripts/prune_manual.py
       # duplikaadi-/kummitusekontroll ENNE commit'i: kahtluse korral
       # commit'i EI tehta ja job laheb punaseks (inimene vaatab ule)
       - name: Duplikaadikontroll
@@ -51,7 +56,7 @@ jobs:
         run: |
           git config user.name "skene-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/data.json rap/data/data.json klubi/data/data.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json klubi/api/events.json data/archive rap/data/archive klubi/data/archive
+          git add data/data.json rap/data/data.json klubi/data/data.json data/manual.json rap/data/manual.json klubi/data/manual.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json klubi/api/events.json data/archive rap/data/archive klubi/data/archive
           git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git pull --rebase origin main && git push)
       # nahtavus: kui moni ulaltoodud continue-on-error samm kukkus,
       # laheb job SIIN punaseks — Actions-vaade ei valeta enam rohelist
