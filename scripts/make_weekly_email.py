@@ -19,7 +19,7 @@ import argparse, json, os, sys, html
 import urllib.request, urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week,
+from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
                     in_window, today_local, in_scope, is_release, next_start)
 
 # ---- palett (index.html :root) ----
@@ -401,6 +401,7 @@ def gen_combo(all_ev, cats, ws, we, base):
     # sort NAIDATAVA kuupaeva jargi — kaimasolev tuur ei hyppa moodunud
     # alguskuupaevaga nimekirja etteotsa (13.08.2026 Silveri parandus)
     sel.sort(key=lambda e:(e.get("_disp") or e.get("d",""), CAT_ORDER.index(e.get("_cat","metal")), e.get("t","")))
+    sel = interleave_cats(sel)  # sama paeva kategooriad labisegi (Silver 14.08.2026)
     tag="+".join(cats)
     outs={}
     for lang in ("et","en"):

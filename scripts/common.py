@@ -267,4 +267,32 @@ def in_scope(e):
     28.07.2026-ni (leitud sweepis, vt HANDOVER sekts 3).
     """
     return e.get("c") in EESTI or is_release(e)
+def interleave_cats(entries):
+    """Sama (naidatava) kuupaeva sees jarjesta kategooriad LABISEGI (round-robin
+    metal -> rap -> klubi -> metal ...), et nimekirja algus annaks labiloike eri
+    tuupi uritustest. Eeldab, et sisend on juba sorditud (_disp/d, CAT_ORDER, t),
+    nii et iga kategooria sisemine jarjekord sailib. Silveri soov 14.08.2026:
+    varem olid sama paeva kirjed plokkidena metal->rap->klubi ja nimekirja algus
+    oli uhekulgne."""
+    out = []
+    _key = lambda e: e.get("_disp") or e.get("d", "")
+    i = 0
+    n = len(entries)
+    while i < n:
+        j = i
+        while j < n and _key(entries[j]) == _key(entries[i]):
+            j += 1
+        grp = entries[i:j]
+        buckets = {}
+        for e in grp:
+            buckets.setdefault(e.get("_cat", "metal"), []).append(e)
+        order = [c for c in CAT_ORDER if c in buckets]
+        k = 0
+        while any(buckets[c] for c in order):
+            c = order[k % len(order)]
+            if buckets[c]:
+                out.append(buckets[c].pop(0))
+            k += 1
+        i = j
+    return out
 # EOF

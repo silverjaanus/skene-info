@@ -5,6 +5,10 @@
    "nimi": "Kohad",
    "items": [
     {
+     "n": "Copper Leg / Vaskjala loomeresidentuur",
+     "u": "https://copperleg.rae.ee/"
+    },
+    {
      "n": "D3",
      "u": "https://www.d-3.ee/events/"
     },
@@ -104,6 +108,10 @@
   {
    "nimi": "Muud",
    "items": [
+    {
+     "n": "Eesti Elektroonilise Muusika Selts (EES)",
+     "u": "https://estelmus.com/"
+    },
     {
      "n": "Fienta klubi-otsing",
      "u": "https://fienta.com/et?q=techno"

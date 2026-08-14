@@ -32,7 +32,7 @@ except ImportError:
     sys.exit("Vajalik: pip install pillow")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (EESTI, CAT_ORDER, parse_d, event_span, this_and_next_week,
+from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
                     in_window, today_local, in_scope, is_release, next_start)
 
 # ---- palett (index.html :root) ----
@@ -417,6 +417,7 @@ def main():
         e["_disp"] = next_start(e, ws)
     # sort NAIDATAVA kuupaeva jargi — sama reegel mis make_weekly_email.py-s
     sel.sort(key=lambda e: (e.get("_disp") or e.get("d", ""), CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
+    sel = interleave_cats(sel)  # sama paeva kategooriad labisegi (Silver 14.08.2026)
 
     out = args.out or os.path.join(root, "postitused", f"nadal-{ws.isoformat()}.jpg")
     os.makedirs(os.path.dirname(out), exist_ok=True)

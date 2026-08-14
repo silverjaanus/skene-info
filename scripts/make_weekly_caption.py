@@ -26,7 +26,7 @@ import shutil
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (CAT_ORDER, parse_d, this_and_next_week, in_window,
+from common import (CAT_ORDER, interleave_cats, parse_d, this_and_next_week, in_window,
                     today_local, in_scope, is_release, next_start)
 
 BASE_URL = "https://www.skene.info/nadal/"
@@ -59,6 +59,7 @@ def load_entries(repo, ws, we):
     out.sort(key=lambda e: (e.get("_disp") or e.get("d", ""),
                             CAT_ORDER.index(e.get("_cat", "metal")),
                             e.get("t", "")))
+    out = interleave_cats(out)  # sama paeva kategooriad labisegi (Silver 14.08.2026)
     return out
 
 
