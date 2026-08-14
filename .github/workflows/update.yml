@@ -21,6 +21,12 @@ jobs:
       # sellest, et checkout jatab tokeni git-konfi (persist-credentials).
       # Kontrollitud v7 action.yml-ist: vaikevaartus on endiselt true.
       - uses: actions/checkout@v7
+        with:
+          # EKSPLITSIITNE, mitte vaikevaartuse lootuses: alumine "Commit kui
+          # muutus" samm teeb paljast `git push`-i ja vajab, et token oleks
+          # git-konfis. Nii ei saa actioni vaikevaartuse muutus seda vaikselt
+          # katki teha (14.08.2026).
+          persist-credentials: true
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
