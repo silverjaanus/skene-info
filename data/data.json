@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-13",
+ "updated": "2026-08-14",
  "entries": [
   {
    "rel": 1,
@@ -463,6 +463,28 @@
   },
   {
    "rel": 1,
+   "d": "2026-08-07",
+   "lisatud": "2026-08-14",
+   "t": "reliis",
+   "n": "Pettunud Kodanik feat. Andreas Sepp — «Pöörane maailm»",
+   "a": "Tartu doomer-rokibändi Pettunud Kodanik uus singel ja muusikavideo koos Andreas Sepaga (DND); video avaldati 13.08",
+   "b": [
+    "Pettunud Kodanik",
+    "Andreas Sepp"
+   ],
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "MuusikaPlaneet",
+   "su": "https://muusikaplaneet.ee/2026/08/13/pooranemaailm/",
+   "on_": "Apple Music",
+   "ou": "https://music.apple.com/ee/artist/pettunud-kodanik/1560920163",
+   "nb": "lisatud sweepis 14.08.2026; kolm allikat: MuusikaPlaneet 13.08, Apple Music (reliisikuupäev 07.08.2026), DND FB-postitus 08.08. Bänd esineb 14.08 Kotka Kultuurimajas (Horror Vacui õhtu, kirje olemas)",
+   "img": "pildid/pettunudkodanikfeatandreassepppooranemaailm.webp"
+  },
+  {
+   "rel": 1,
    "d": "2026-08-08",
    "lisatud": "2026-08-12",
    "t": "reliis",
@@ -514,57 +536,6 @@
     "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval",
     "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"
    }
-  },
-  {
-   "d": "2026-08-13",
-   "t": "kontsert",
-   "n": "Intrascendence (CL) + Pronoias (CL)",
-   "a": "Tšiili metal'i õhtu — modernne progressiivne metal (Metal from the end of the world); sissepääs tasuta",
-   "b": [
-    "Intrascendence (CL)",
-    "Pronoias (CL)"
-   ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
-   "g": [
-    "metal",
-    "melodic"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/26934925886202649",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/26934925886202649",
-   "hind": {
-    "praegu": "Tasuta",
-    "mark": "sissepääs tasuta; algus 20.00",
-    "allikas": "Facebook event (Pronoias + Konservatoorium), kontrollitud 09.07.2026"
-   }
-  },
-  {
-   "d": "2026-08-13",
-   "t": "kontsert",
-   "n": "kivi live: ONKEL JONKEL",
-   "a": "Viljandi viieliikmeline eestikeelne „niši-issi-indirokk“ 2020. aastast; EP «Akadeemiline Puhkus» ja album «Kiviaeg»; algus 22.00, sissepääs tasuta",
-   "b": [
-    "Onkel Jonkel"
-   ],
-   "v": "Kivi baar",
-   "c": "Tartu",
-   "g": [
-    "rock",
-    "indie"
-   ],
-   "sn": "Rada7.ee",
-   "su": "https://www.facebook.com/rada7.ee/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1940844029937127/",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "FB event, kontrollitud 10.08.2026"
-   },
-   "lisatud": "2026-08-10",
-   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Allikad: Rada7.ee FB events-tab (avastus) + Kivi baar / Onkel Jonkel ühine FB event (kuupäev, kellaaeg, tasuta sissepääs, koosseisukirjeldus)"
   },
   {
    "d": "2026-08-14",
@@ -712,6 +683,33 @@
    "pu": "https://fienta.com/geordie-greep-paavli",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases. FB-eventi link lisatud 13.08.2026 Rada7.ee uudiskirjast (kuupäev P 16.08 + koht Paavli langevad kokku Fienta lehega) 13.08: +avaesineja Richard Jerbach (kultuurivabrik.ee programm).",
    "img": "pildid/paavlilivegeordiegreepuk.webp"
+  },
+  {
+   "d": "2026-08-17",
+   "t": "kontsert",
+   "n": "The Crosslegs Suvelõpukas",
+   "a": "Uksed 21.00, The Crosslegs laval 22.30",
+   "b": [
+    "The Crosslegs"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "rock"
+   ],
+   "sn": "Genialistide Klubi FB",
+   "su": "https://www.facebook.com/GenKlubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/917615671375415/",
+   "pu": "https://fienta.com/et/the-crosslegs-suvelopukas",
+   "hind": {
+    "praegu": "10€ / kohapeal 15€",
+    "mark": "esimesed 30 eelmüügipiletit 10€",
+    "allikas": "genklubi.ee, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; kaks allikat: GenKlubi FB event + genklubi.ee/events/the-crosslegs-suvelopukas + Fienta",
+   "img": "pildid/thecrosslegssuvelopukas.webp"
   },
   {
    "d": "2026-08-19",
@@ -1206,6 +1204,46 @@
    "nb": "lisatud 07.08.2026 nädalases sweepis (leid Fienta metal-otsingust). Audru, Pärnumaa; algus 18.00. ⚠ Piletihinda EI õnnestunud Fienta lehelt tekstina kätte saada (hinnad on ostuvoos), seega hind-välja ei ole. Teine allikas: Fienta ürituseleht ise + Piletilevi/kohalik kajastus kontrollimata — kui leiad FB eventi, lisa see ou-le"
   },
   {
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Tallinn Indie Shuffle: Around the Sun x YE",
+   "a": "Indie-õhtu kell 19.00–23.45",
+   "b": [
+    "Around the Sun",
+    "YE"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2426267614573170/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Uus Laine FB event + uuslaine.com kalender. Pileti-/hinnainfot event-lehel ei olnud"
+  },
+  {
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "PUTUKA ROKK",
+   "a": "Ülase12 (Anemon12) DIY-päevaüritus Pelguaias, algus 15.00; koosseis avaldamata",
+   "b": [],
+   "v": "Pelguaed (Ehte 40)",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "Anemon12 FB",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1362464942062617/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; korraldaja Anemon12/Ülase12 (event nende events-tabis). Koosseis ja hind avaldamata — täienda järgmises sweepis"
+  },
+  {
    "d": "2026-08-30",
    "t": "kontsert",
    "n": "Nothing + Hammok",
@@ -1223,6 +1261,29 @@
    "su": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
    "pu": "https://fienta.com/et/nothing-paavli-tallinn",
    "img": "pildid/nothinghammok.webp"
+  },
+  {
+   "d": "2026-09-02",
+   "t": "kontsert",
+   "n": "Back to School: Nahakiin + N.H.P.O + Dehumanizer + NGR",
+   "a": "kell 17.30–22.30",
+   "b": [
+    "Nahakiin",
+    "N.H.P.O",
+    "Dehumanizer",
+    "NGR"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "punk"
+   ],
+   "sn": "Hell (Tartu) FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1052123491068874/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Hell FB events-tab + FB event (Tiigi 76a). Hinnainfot event-lehel ei olnud"
   },
   {
    "d": "2026-09-04",
@@ -1303,6 +1364,29 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud The Krypt FB + Sügis Productions FB events-tabid"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "kontsert",
+   "n": "Black River Bluesman & Bad Mood Hudson (FIN) + Andres Roots",
+   "a": "Soome bluusiduo + Andres Roots; algus 20.00",
+   "b": [
+    "Black River Bluesman & Bad Mood Hudson",
+    "Andres Roots"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "bluus",
+    "rock"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1367280228121282/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; venue enda FB event (Koidu 13a, Viljandi). Bluus peasaidil Roots Sessioni pretsedendi järgi"
   },
   {
    "d": "2026-09-05",
@@ -1457,6 +1541,28 @@
   {
    "d": "2026-09-11",
    "t": "kontsert",
+   "n": "Tommyboy x Wiiralt — «Greatest Splits» esitluskontsert",
+   "a": "split-albumi «Greatest Splits» esitlus; algus 21.00",
+   "b": [
+    "Tommyboy",
+    "Wiiralt"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Kidrakuur FB",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2067993643814194/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje"
+  },
+  {
+   "d": "2026-09-11",
+   "t": "kontsert",
    "n": "Rock Friday: LØV + RAIDER",
    "b": [],
    "v": "The Krypt",
@@ -1517,6 +1623,27 @@
    "ou": "https://www.facebook.com/events/1065529219140534/",
    "pu": "https://fienta.com/et/freakangel-guests-thekrypt",
    "img": "pildid/freakangelpsycholiessugarrody.webp"
+  },
+  {
+   "d": "2026-09-12",
+   "t": "kontsert",
+   "n": "Oulun_Keskusta (FIN)",
+   "a": "Soome punkbänd Euroopa-tuuril (pÄts music tour: Trenčín, Bratislava, Liepāja, Viljandi); algus 22.00",
+   "b": [
+    "Oulun_Keskusta"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "punk"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1732656227939363/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; kaks allikat: venue FB event + bändi enda IG (@oulun_keskusta, tuurigraafika Viljandiga). NB samal õhtul on Viljandis ka Vermilia Tallinnas jm — kuupäev 12.09 kinnitatud event-lehelt"
   },
   {
    "d": "2026-09-16",
@@ -2796,7 +2923,7 @@
    "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel taidetud alles nuud: Piletilevi listib urituse (seal 02.-03.07), korraldaja FB-event utleb 02.-04.07 - kirjes on korraldaja kuupaev. hardrocklaager.ee seisab endiselt 2026 peal. Koosseis TBA | 07.08.2026 sweep: hardrocklaager.ee esileht kannab endiselt HRL2026 sisu; 2027 kuupäevad 02.–04.07.2027, koosseis avaldamata."
   },
   {
-   "d": "2027-07-29",
+   "d": "2027-07-28",
    "d2": "31.07",
    "t": "festival",
    "n": "Wacken Open Air 2027",
@@ -2823,7 +2950,7 @@
    "on_": "Ametlik leht",
    "ou": "https://www.wacken.com/en/",
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kuupäevad 29.–31.07.2027 (wacken.com + meediakajastus, nt impericon.com); b = teadlik headliner-valik esimesest lainest (välisfestivali reegel); piletimüük pole veel alanud"
+   "nb": "lisatud sweepis 02.08.2026; kuupäevad 29.–31.07.2027 (wacken.com + meediakajastus, nt impericon.com); b = teadlik headliner-valik esimesest lainest (välisfestivali reegel); piletimüük pole veel alanud | 14.08.2026 sweep: kuupäev parandatud 28.–31.07.2027 (wacken.com ütleb nüüd 28.07.–31.07.2027; varem oli kirjas 29.–31.07). Vana d 2027-07-29 blocklisti."
   }
  ],
  "log": [

@@ -361,5 +361,97 @@
   },
   "lisatud": "2026-08-10",
   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Korraldajad vabadus.ee + Interlüüd + Pargitiks, Kaera 14b, Põhja-Tallinn. Allikad: Rada7.ee FB events-tab + ürituse enda FB event (368 vastanut). 13.08.2026 SILVERI OTSUS (auditi triaaž): tõstetud klubi → rap, sest Jooseppro & Lennu UUE ALBUMI esiettekanne (räpp) on ürituse tuum. Klubi blocklisti läks vana kirje blokk. Kui albumi pealkiri avaldatakse, tee rap-poolele eraldi reliisikirje."
+ },
+ {
+  "d": "2026-08-14",
+  "t": "klubi",
+  "n": "ÖÖTÖÖ",
+  "a": "Legendaarne Baar & Raadio õhtune DJ-pidu, algus 20.00",
+  "b": [],
+  "v": "Legendaarne Baar & Raadio (Krulli 2b)",
+  "c": "Tallinn",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Rada7.ee FB",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4398606830355869/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Legendaarne Raadio FB events-tab + Rada7 FB events. DJ-koosseis avaldamata"
+ },
+ {
+  "d": "2026-08-20",
+  "t": "kontsert",
+  "n": "Don Diisel: Treinta y Quatro",
+  "a": "algus 21.00",
+  "b": [
+   "Don Diisel"
+  ],
+  "v": "Legendaarne Baar & Raadio (Krulli 2b)",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Legendaarne Raadio FB",
+  "su": "https://www.facebook.com/LegendaarneRaadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4489215714691572/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event. Hinnainfot event-lehel ei olnud"
+ },
+ {
+  "d": "2026-08-22",
+  "t": "kontsert",
+  "n": "Räppar Mägi: Rakvere live",
+  "a": "Uksed 18.00 (Fienta järgi 19.00), kontsert 20.00; kohapeal avatud kohvik",
+  "b": [
+   "Mägi"
+  ],
+  "v": "Köster Gööcki Maja (Spordi 14)",
+  "c": "mujal",
+  "linn": "Rakvere",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et?q=r%C3%A4pp",
+  "pu": "https://fienta.com/et/rappar-magi-magi-rakvere-live-concert",
+  "hind": {
+   "praegu": "15€ / kohapeal 20€",
+   "allikas": "Rakvere kultuurisündmused FB + Fienta, kontrollitud 14.08.2026"
+  },
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; kaks allikat: Fienta + Rakvere kultuurisündmuste FB. NB pu-slug tuletatud Fienta pealkirjast — kui link ei tööta, otsi Fientast 'Räppar Mägi'",
+  "img": "pildid/rapparmagirakverelive.webp"
+ },
+ {
+  "d": "2026-08-28",
+  "t": "klubi",
+  "n": "Bakkar: Augusti Viimane Reede",
+  "a": "kell 23.00–04.00; korraldaja Bakkar Events",
+  "b": [
+   "Bakkar"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Helitehas FB",
+  "su": "https://www.facebook.com/helitehas/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1630069635786106/",
+  "pu": "https://gateme.com/helitehas",
+  "hind": {
+   "praegu": "8€",
+   "mark": "First release eelmüük GateMe-s",
+   "allikas": "GateMe, kontrollitud 14.08.2026"
+  },
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; kolm allikat: Helitehas FB event + GateMe + helitehas.ee. pu viitab GateMe Helitehase lehele (otse-eventi URL polnud kindlalt loetav). NB mitte segi ajada A.V.R Arop x ProdigyBoys 28.08 Tartu üritusega (eraldi kirje)"
  }
 ]

@@ -78,7 +78,7 @@
    "Wondering O",
    "Romanss"
   ],
-  "nb": "lineup avaldatud RA-l 13.07.2026; 28.07.2026 sweep kontrollis üle — TÄISPROGRAMMI ENDISELT POLE ('more tba'), 13 nime on jätkuvalt aktuaalne seis. Korraldaja Shelter x Jokkoo Collective (Barcelona) | 07.08.2026 sweep: RA event 2473978 üle kontrollitud — koosseis on ENDISELT 13 nime + \"more tba\", täisprogrammi ei ole avaldatud. Fienta hind 10–30€ kehtib.",
+  "nb": "lineup avaldatud RA-l 13.07.2026; 28.07.2026 sweep kontrollis üle — TÄISPROGRAMMI ENDISELT POLE ('more tba'), 13 nime on jätkuvalt aktuaalne seis. Korraldaja Shelter x Jokkoo Collective (Barcelona) | 07.08.2026 sweep: RA event 2473978 üle kontrollitud — koosseis on ENDISELT 13 nime + \"more tba\", täisprogrammi ei ole avaldatud. Fienta hind 10–30€ kehtib. | 14.08.2026 sweep: Fienta kinnitab ajad R 21.08 23:00 – P 23.08 06:00; RA venue-lehe koosseis endiselt sama 13 nime seis, täisprogrammi pole.",
   "v": "HUNGR",
   "c": "Tallinn",
   "g": [
@@ -126,7 +126,7 @@
   "d": "2026-08-28",
   "t": "klubi",
   "n": "Laine Klubiöö: DJ Plead (AU)",
-  "a": "SUMAC labeli kaasasutaja — bass, house, broken beat, dub",
+  "a": "SUMAC labeli kaasasutaja — bass, house, broken beat, dub; Kultuuriöö-väljaanne",
   "b": [
    "DJ Plead",
    "shbxsz"
@@ -140,12 +140,10 @@
   ],
   "sn": "Resident Advisor",
   "su": "https://ra.co/events/2398883",
-  "pu": "https://fienta.com/et/laine-klubioo-dj-plead-aus",
-  "hind": {
-   "praegu": "7.50–15€",
-   "allikas": "Fienta, kontrollitud 13.07.2026"
-  },
-  "img": "pildid/laineklubioodjpleadau.webp"
+  "img": "pildid/laineklubioodjpleadau.webp",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2691396537895898/",
+  "nb": "14.08.2026 sweep: Fienta märgib pileti-eventi \"Jääb ära\", AGA FB event on aktiivne uue pealkirjaga \"Kultuuriöö Laine Klubiöö: DJ Plead\" (R 28.08 22:00) — üritus toimub ilmselt Kultuuriöö raames, piletimüük Fientas tühistatud (tõenäoliselt tasuta). pu/hind eemaldatud. KONTROLLI järgmises sweepis / Silver võib üle vaadata."
  },
  {
   "d": "2026-09-04",
@@ -568,7 +566,8 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/844301218463658/",
   "pu": "https://bit.ly/OMDTallinn",
-  "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; piletilink = korraldaja lühilink (bit.ly -> Piletilevi); žanripõhiselt klubi-poolel (Moby/OMD pretsedent)"
+  "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; piletilink = korraldaja lühilink (bit.ly -> Piletilevi); žanripõhiselt klubi-poolel (Moby/OMD pretsedent)",
+  "img": "pildid/omdorchestralmanoeuvresinthedark.webp"
  },
  {
   "d": "2026-09-04",
@@ -1988,7 +1987,8 @@
    "praegu": "tasuta",
    "allikas": "Paavli uudiskiri 11.08.2026"
   },
-  "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8)."
+  "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8).",
+  "img": "pildid/verandaqslapallnightlong.webp"
  },
  {
   "d": "2026-08-15",
@@ -2011,6 +2011,240 @@
   "su": "https://www.kultuurivabrik.ee/en/events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/869742072842177/",
-  "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA klubisse (world/folk+elektro piiripealne; Mundial = Lõuna-Itaalia rituaalirütmid + elektro/klubikultuur). Allikad: Paavli 11.08 uudiskiri (spämmist päästetud) + kultuurivabrik.ee programm + FB event."
+  "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA klubisse (world/folk+elektro piiripealne; Mundial = Lõuna-Itaalia rituaalirütmid + elektro/klubikultuur). Allikad: Paavli 11.08 uudiskiri (spämmist päästetud) + kultuurivabrik.ee programm + FB event.",
+  "img": "pildid/italyunexpected.webp"
+ },
+ {
+  "d": "2026-08-14",
+  "t": "klubi",
+  "n": "Rulers Of The Deep + Low-Keys",
+  "a": "house-õhtu kell 23.00–04.00",
+  "b": [
+   "Rulers Of The Deep",
+   "Low-Keys"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "fonoteek.ee",
+  "su": "https://fonoteek.ee/events/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2856795201350623/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Fonoteegi FB event + fonoteek.ee events-leht (14.08)",
+  "img": "pildid/rulersofthedeeplowkeys.webp"
+ },
+ {
+  "d": "2026-08-14",
+  "t": "klubi",
+  "n": "Resident: Pološywa — Immersive Ambience",
+  "a": "surround-heli ambient-õhtu kell 21.00",
+  "b": [
+   "Pološywa"
+  ],
+  "v": "Philly Joe's (Vabaduse väljak 10)",
+  "c": "Tallinn",
+  "g": [
+   "ambient"
+  ],
+  "sn": "Rada7.ee FB",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1653289172449580/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Rada7 FB events + FB event (piletilink event-lehel 'Find tickets', täpne URL lugemata)"
+ },
+ {
+  "d": "2026-08-15",
+  "t": "klubi",
+  "n": "Tjuun In",
+  "a": "drum & bass / jungle sari tagasi 'koduklubis' Fonoteegis, algus 22.00",
+  "b": [],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "dnb",
+   "jungle"
+  ],
+  "sn": "fonoteek.ee",
+  "su": "https://fonoteek.ee/events/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1464441879049289/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek IG (11.08 postitus 'TJUUN IN 15.08.26') + fonoteek.ee (15.08). Sari kolis Pärnu Templist / venue laienemine — Tempel RA-lehel tulevasi üritusi pole",
+  "img": "pildid/tjuunin.webp"
+ },
+ {
+  "d": "2026-08-15",
+  "t": "klubi",
+  "n": "horseworks: Eichenbaum / Paul Lepasson / SPDT ON-ON / Kulon / Kira",
+  "a": "horseworks naaseb TOLMi — leftfield/eksperimentaalne klubiõhtu",
+  "b": [
+   "Eichenbaum",
+   "Paul Lepasson",
+   "SPDT ON-ON",
+   "Kulon",
+   "Kira"
+  ],
+  "v": "Tolm",
+  "c": "Tartu",
+  "g": [
+   "eksperimentaal",
+   "electro"
+  ],
+  "sn": "tolm.club",
+  "su": "https://tolm.club/",
+  "on_": "tolm.club",
+  "ou": "https://tolm.club/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; allikad: tolm.club events-leht + TOLM IG (@tolm.trt 12.08 postitus). Varasem horseworks oli RA-l — seekordset RA-eventi ei leidnud"
+ },
+ {
+  "d": "2026-08-22",
+  "t": "klubi",
+  "n": "The Oriental Tales: Rave at HALL",
+  "a": "bass-muusika reiv kell 23.00 (Druz & Ra; 'Mojito Kai' jt)",
+  "b": [],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "bass"
+  ],
+  "sn": "HALL FB",
+  "su": "https://www.facebook.com/halltallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2300496283820375/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; allikad: HALL FB events-tab + korraldaja IG (@miinusprojekt_). DJ-koosseis ja pilet avaldamata — täienda"
+ },
+ {
+  "d": "2026-08-29",
+  "t": "klubi",
+  "n": "STYLËVA Summer Night: House Party",
+  "a": "house-pidu kell 21.00",
+  "b": [],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "uuslaine.com",
+  "su": "https://uuslaine.com",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; allikad: uuslaine.com kalender + AllEvents/HappeningNext. STYLËVA varasem sama sari toimus 31.05. FB event olemas, aga otse-URL jäi lugemata — pealkiri lingib su peale",
+  "img": "pildid/stylevasummernighthouseparty.webp"
+ },
+ {
+  "d": "2026-09-04",
+  "t": "klubi",
+  "n": "Laine Label Night: Alma Negra (CH)",
+  "a": "Baseli afro/house duo — Label Night sari, algus 20.00",
+  "b": [
+   "Alma Negra"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "afro",
+   "house"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et/o/17330",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; allikad: Fienta (Uus Laine org-leht, R 04.09 20:00) + Uus Laine FB postitus + minesinna.ee. Piletid Fientas — otse-eventi URL org-lehe kaudu. NB samal õhtul Uus Laines ka Baile do Lainão vol IV (kirje olemas) — ilmselt eri korrused/ajad, kontrolli järgmises sweepis"
+ },
+ {
+  "d": "2026-09-11",
+  "t": "klubi",
+  "n": "Brennan Heart (NL): Special Rave",
+  "a": "Hollandi hardstyle-suurnimi; Hard Nation x Summerstart Festival, algus 22.00",
+  "b": [
+   "Brennan Heart"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "trance",
+   "hard dance"
+  ],
+  "sn": "GateMe",
+  "su": "https://gateme.com/helitehas",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/brennan-heart-helitehas-110926/",
+  "pu": "https://gateme.com/helitehas",
+  "hind": {
+   "praegu": "eelmüük -50%",
+   "mark": "GateMe eelmüük, täpne hind lehel",
+   "allikas": "GateMe, kontrollitud 14.08.2026"
+  },
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026 (hard trance/hardstyle → klubi, Teknariku pretsedent); allikad: GateMe + FB event (Hard Nation, Helitehas, Summerstart Festival) + hardnation.ee viide. ou on FB otsingu-URL kuju — kui ei tööta, otsi 'BRENNAN HEART @ HELITEHAS'"
+ },
+ {
+  "d": "2026-09-18",
+  "t": "klubi",
+  "n": "Sublime: DEGS (UK)",
+  "a": "UK drum & bass vokalist/artist DEGS, algus 23.00",
+  "b": [
+   "DEGS"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "fonoteek.ee",
+  "su": "https://fonoteek.ee/events/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1084699890894500/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek.ee (18.09). Piletilink event-lehel olemas ('Find tickets'), täpne URL lugemata — täienda",
+  "img": "pildid/sublimedegsuk.webp"
+ },
+ {
+  "d": "2026-09-18",
+  "t": "klubi",
+  "n": "Paavli.Club: aya (UK) LIVE",
+  "a": "UK eksperimentaalse klubimuusika artist aya live'iga, algus 23.00",
+  "b": [
+   "aya"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "eksperimentaal",
+   "bass"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/o/17595",
+  "on_": "Paavli Kvartal",
+  "ou": "https://paavli.ee/sundmused/paavli-club-aya-uk-live",
+  "pu": "https://fienta.com/et/paavli-club-aya-uk-live",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; allikad: Fienta (Paavli org-leht) + paavli.ee event-leht + Paavli FB"
+ },
+ {
+  "d": "2026-11-21",
+  "t": "kontsert",
+  "n": "Fatboy Slim (UK)",
+  "a": "Norman Cook esmakordselt Eestis — eksklusiivne show Kalosseumi saalis, algus 21.00; soojenduseks kohalikud DJd",
+  "b": [
+   "Fatboy Slim"
+  ],
+  "v": "Põhjala tehas (Kalosseumi saal)",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "breaks"
+  ],
+  "sn": "MuusikaPlaneet",
+  "su": "https://muusikaplaneet.ee/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1644633487180578/",
+  "pu": "https://www.piletilevi.ee/saalid/pohjala-tehas",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud sweepis 14.08.2026; kolm allikat: Baltic Live Agency FB event + Piletilevi (L 21.11.2026 21:00, Kalosseumi saal) + MuusikaPlaneet uudis. pu viitab Piletilevi saali-lehele (otse-eventi URL polnud otsingust loetav). NB samal õhtul Lane 8 Noblessneri Valukojas (kirje olemas)"
  }
 ]

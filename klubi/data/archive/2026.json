@@ -955,6 +955,53 @@
    "ou": "https://ra.co/events/2472198",
    "pu": "https://ra.co/events/2472198",
    "nb": "lisatud sweepis 19.07.2026; promootorid Crunch Tapes + Positive Transmitter, RA Tickets; varem (15.07) välja jäetud ühe allika tõttu - nüüd RA event + piletid"
+  },
+  {
+   "d": "2026-08-13",
+   "t": "kontsert",
+   "n": "Paavli.Live: múm (IS)",
+   "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00; avab Dominik Prok (SK)",
+   "b": [
+    "múm (IS)",
+    "Dominik Prok (SK)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro",
+    "ambient"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/mum-tallinn",
+   "pu": "https://fienta.com/et/mum-tallinn",
+   "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist) 13.08: +avaesineja Dominik Prok (Paavli uudiskiri 11.08 + kultuurivabrik.ee programm).",
+   "img": "pildid/paavlilivemumis.webp"
+  },
+  {
+   "d": "2026-08-13",
+   "t": "klubi",
+   "n": "VERANDA: QSLAP (all night long)",
+   "a": "algus 23.00; Paavli kasvuhoone-tantsupõrand pärast múm-i kontserti; tasuta",
+   "b": [
+    "QSLAP"
+   ],
+   "v": "Paavli Kultuurivabrik, Veranda",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "electro"
+   ],
+   "sn": "Paavli uudiskiri",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1366117608372007/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "Paavli uudiskiri 11.08.2026"
+   },
+   "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8).",
+   "img": "pildid/verandaqslapallnightlong.webp"
   }
  ]
 }
