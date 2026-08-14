@@ -16,8 +16,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # 14.08.2026: v4/v5 sihtisid Node 20 (aegunud). v7 = node24.
+      # ⚠ Alumine "Commit kui muutus" samm teeb paljast `git push`-i ja soltub
+      # sellest, et checkout jatab tokeni git-konfi (persist-credentials).
+      # Kontrollitud v7 action.yml-ist: vaikevaartus on endiselt true.
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       # eraldi sammud: uhe saidi korje kukkumine ei jata teisi tegemata.

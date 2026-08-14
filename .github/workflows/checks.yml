@@ -14,8 +14,10 @@ jobs:
   kontrollid:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # 14.08.2026: v4/v5 sihtisid Node 20 (aegunud, GitHub sundis Node 24 peale).
+      # v7 deklareerib ise node24. persist-credentials vaikimisi endiselt true.
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Syntaks (py_compile)
