@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-13",
+ "updated": "2026-08-14",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 100,
+ "count": 104,
  "entries": [
   {
    "sait": "www",
@@ -2695,6 +2695,108 @@
    "ou": "https://ra.co/events/2472198",
    "pu": "https://ra.co/events/2472198",
    "nb": "lisatud sweepis 19.07.2026; promootorid Crunch Tapes + Positive Transmitter, RA Tickets; varem (15.07) välja jäetud ühe allika tõttu - nüüd RA event + piletid"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-13",
+   "t": "kontsert",
+   "n": "Intrascendence (CL) + Pronoias (CL)",
+   "a": "Tšiili metal'i õhtu — modernne progressiivne metal (Metal from the end of the world); sissepääs tasuta",
+   "b": [
+    "Intrascendence (CL)",
+    "Pronoias (CL)"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "metal",
+    "melodic"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/26934925886202649",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/26934925886202649",
+   "hind": {
+    "praegu": "Tasuta",
+    "mark": "sissepääs tasuta; algus 20.00",
+    "allikas": "Facebook event (Pronoias + Konservatoorium), kontrollitud 09.07.2026"
+   }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-13",
+   "t": "kontsert",
+   "n": "Paavli.Live: múm (IS)",
+   "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00; avab Dominik Prok (SK)",
+   "b": [
+    "múm (IS)",
+    "Dominik Prok (SK)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro",
+    "ambient"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/mum-tallinn",
+   "pu": "https://fienta.com/et/mum-tallinn",
+   "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist) 13.08: +avaesineja Dominik Prok (Paavli uudiskiri 11.08 + kultuurivabrik.ee programm).",
+   "img": "https://klubi.skene.info/pildid/paavlilivemumis.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-13",
+   "t": "klubi",
+   "n": "VERANDA: QSLAP (all night long)",
+   "a": "algus 23.00; Paavli kasvuhoone-tantsupõrand pärast múm-i kontserti; tasuta",
+   "b": [
+    "QSLAP"
+   ],
+   "v": "Paavli Kultuurivabrik, Veranda",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "electro"
+   ],
+   "sn": "Paavli uudiskiri",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1366117608372007/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "Paavli uudiskiri 11.08.2026"
+   },
+   "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8).",
+   "img": "https://klubi.skene.info/pildid/verandaqslapallnightlong.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-13",
+   "t": "kontsert",
+   "n": "kivi live: ONKEL JONKEL",
+   "a": "Viljandi viieliikmeline eestikeelne „niši-issi-indirokk“ 2020. aastast; EP «Akadeemiline Puhkus» ja album «Kiviaeg»; algus 22.00, sissepääs tasuta",
+   "b": [
+    "Onkel Jonkel"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "indie"
+   ],
+   "sn": "Rada7.ee",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1940844029937127/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 10.08.2026"
+   },
+   "lisatud": "2026-08-10",
+   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Allikad: Rada7.ee FB events-tab (avastus) + Kivi baar / Onkel Jonkel ühine FB event (kuupäev, kellaaeg, tasuta sissepääs, koosseisukirjeldus)"
   }
  ]
 }
