@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 206,
+ "count": 207,
  "entries": [
   {
    "sait": "www",
@@ -2586,6 +2586,37 @@
    "ou": "https://www.facebook.com/events/2426267614573170/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Uus Laine FB event + uuslaine.com kalender. Pileti-/hinnainfot event-lehel ei olnud"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "festival",
+   "n": "Vaskjala SIRAKAS 2026",
+   "a": "Eesti Elektroonilise Muusika Seltsi ja Rae Kultuurikeskuse suvelõpu minifestival Vaskjala loomeresidentuuris — elektrooniline kontsertmuusika, ambient ja eksperimentaalhelid; Lau Nau esineb kvadrofoonilise soologa",
+   "b": [
+    "Lau Nau (FI)",
+    "Heta Bilaletdin (FI)",
+    "Mia-Stella Aaslaid",
+    "Lisette-Marie Viilup",
+    "Hello Upan",
+    "Andres Vihterpal",
+    "Kenn-Eerik Kannike",
+    "Baldur Björnsson (ISL)",
+    "EMA (EES ansambel)"
+   ],
+   "v": "Vaskjala loomeresidentuur (Copper Leg, endine Rae koolimaja)",
+   "c": "Vaskjala",
+   "g": [
+    "experimental",
+    "ambient",
+    "techno"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://estelmus.com/sirakas/",
+   "on_": "Korraldaja leht (EES)",
+   "ou": "https://estelmus.com/en/2026/02/27/vaskajala-sirakas-2026/",
+   "lisatud": "2026-08-14",
+   "nb": "kontaktivorm 14.08.2026 (Villem Jahu). Kaks sõltumatut allikat kinnitavad kuupäeva 29.08.2026: EES-i oma teade (estelmus.com, 27.02.2026) + Lau Nau enda kontserdikalender (launau.com/concerts — 'August 29. 2026: quadrophonic solo, Vaskjala Sirakas, Copper Leg Residency, Estonia'). Koosseis pärineb saatja kirjast, EES-i ametlikku kava ja piletiinfot polnud 14.08 seisuga veel avaldatud — ainult Lau Nau on sõltumatult kinnitatud, ülejäänud üle kontrollida, kui kava ilmub. Saatja andis ka FB-lühilingi https://fb.me/e/bxXuwJFuh, mida ei õnnestunud lahendada → ou-sse pandi EES-i oma teate leht. Žanrimärgend 'techno' pärineb saatja žanriväljalt, mitte kontrollitud kavast. SKOOP: KLUBI valitud baasžanri järgi (elektrooniline kontsertmuusika/eksperimentaalelektroonika); saatja märkis esimesena 'nüüdismuusika' — piiripealne juhtum, vt HANDOVER"
   },
   {
    "sait": "www",
