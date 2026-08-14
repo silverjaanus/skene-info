@@ -384,6 +384,27 @@
    "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Rada7 FB events + FB event (piletilink event-lehel 'Find tickets', täpne URL lugemata)"
   },
   {
+   "d": "2026-08-14",
+   "t": "klubi",
+   "n": "Terminal Arrivals: Madis Aesma",
+   "a": "õhtune plaadibaari-sessioon, algus 21.00",
+   "b": [
+    "Madis Aesma"
+   ],
+   "v": "Terminal Records&Bar",
+   "c": "Tallinn",
+   "g": [
+    "ambient",
+    "electro"
+   ],
+   "sn": "Rada7.ee FB",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2070971210293941/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus: sisse); allikad Rada7 FB events + FB event; hinnainfot event-lehel polnud (ilmselt tasuta baariõhtu)"
+  },
+  {
    "d": "2026-08-15",
    "t": "klubi",
    "n": "BREAKWAVE 2026",
@@ -521,6 +542,41 @@
    "ou": "https://tolm.club/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: tolm.club events-leht + TOLM IG (@tolm.trt 12.08 postitus). Varasem horseworks oli RA-l — seekordset RA-eventi ei leidnud"
+  },
+  {
+   "d": "2026-08-19",
+   "d2": "20.08",
+   "t": "klubi",
+   "n": "Simple Session 26 Afterparties",
+   "a": "Kaks päeva, kaks lava (välilava + siselava), 19.00–hiljani, 18+, TASUTA",
+   "b": [
+    "Reed Stark (US)",
+    "PM2AM (LV)",
+    "Kwazar (FR)",
+    "Brawz Maximum (FIN)",
+    "Muul",
+    "Lill Mõru",
+    "Tellemralf",
+    "Sam Savage"
+   ],
+   "v": "D3 & Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "breaks",
+    "house"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1619495513160178/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "Free Entry, 18+",
+    "allikas": "FB event, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus: klubi alla); korraldajad D3 + Simple Session + Fonoteek; täiskoosseis FB event-lehelt"
   },
   {
    "d": "2026-08-21",
@@ -1123,6 +1179,33 @@
    },
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026 (hard trance/hardstyle → klubi, Teknariku pretsedent); allikad: GateMe + FB event (Hard Nation, Helitehas, Summerstart Festival) + hardnation.ee viide. ou on FB otsingu-URL kuju — kui ei tööta, otsi 'BRENNAN HEART @ HELITEHAS'"
+  },
+  {
+   "tba": 1,
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Signaal x Aparaaditehas",
+   "a": "Signaali teine väljaanne, seekord Aparaaditehases — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00; koosseis avaldamata",
+   "b": [],
+   "v": "Aparaaditehas (Kastani 42)",
+   "c": "Tartu",
+   "g": [
+    "electro",
+    "minimal",
+    "dub"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2508504",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2508504",
+   "pu": "https://ra.co/events/2508504",
+   "hind": {
+    "praegu": "5€",
+    "mark": "first release eelmüük RA-l",
+    "allikas": "ra.co, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse"
   },
   {
    "d": "2026-09-18",

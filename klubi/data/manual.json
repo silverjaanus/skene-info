@@ -2276,5 +2276,88 @@
   "ou": "https://estelmus.com/en/2026/02/27/vaskajala-sirakas-2026/",
   "lisatud": "2026-08-14",
   "nb": "kontaktivorm 14.08.2026 (Villem Jahu). Kaks sõltumatut allikat kinnitavad kuupäeva 29.08.2026: EES-i oma teade (estelmus.com, 27.02.2026) + Lau Nau enda kontserdikalender (launau.com/concerts — 'August 29. 2026: quadrophonic solo, Vaskjala Sirakas, Copper Leg Residency, Estonia'). Koosseis pärineb saatja kirjast, EES-i ametlikku kava ja piletiinfot polnud 14.08 seisuga veel avaldatud — ainult Lau Nau on sõltumatult kinnitatud, ülejäänud üle kontrollida, kui kava ilmub. Saatja andis ka FB-lühilingi https://fb.me/e/bxXuwJFuh, mida ei õnnestunud lahendada → ou-sse pandi EES-i oma teate leht. Žanrimärgend 'techno' pärineb saatja žanriväljalt, mitte kontrollitud kavast. SKOOP: KLUBI valitud baasžanri järgi (elektrooniline kontsertmuusika/eksperimentaalelektroonika); saatja märkis esimesena 'nüüdismuusika' — piiripealne juhtum, vt HANDOVER"
+ },
+ {
+  "d": "2026-08-19",
+  "d2": "20.08",
+  "t": "klubi",
+  "n": "Simple Session 26 Afterparties",
+  "a": "Kaks päeva, kaks lava (välilava + siselava), 19.00–hiljani, 18+, TASUTA",
+  "b": [
+   "Reed Stark (US)",
+   "PM2AM (LV)",
+   "Kwazar (FR)",
+   "Brawz Maximum (FIN)",
+   "Muul",
+   "Lill Mõru",
+   "Tellemralf",
+   "Sam Savage"
+  ],
+  "v": "D3 & Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "bass",
+   "breaks",
+   "house"
+  ],
+  "sn": "Fonoteek FB",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1619495513160178/",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "Free Entry, 18+",
+   "allikas": "FB event, kontrollitud 14.08.2026"
+  },
+  "lisatud": "2026-08-14",
+  "nb": "lisatud 14.08.2026 (Silveri otsus: klubi alla); korraldajad D3 + Simple Session + Fonoteek; täiskoosseis FB event-lehelt"
+ },
+ {
+  "tba": 1,
+  "d": "2026-09-11",
+  "t": "klubi",
+  "n": "Signaal x Aparaaditehas",
+  "a": "Signaali teine väljaanne, seekord Aparaaditehases — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00; koosseis avaldamata",
+  "b": [],
+  "v": "Aparaaditehas (Kastani 42)",
+  "c": "Tartu",
+  "g": [
+   "electro",
+   "minimal",
+   "dub"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2508504",
+  "on_": "Resident Advisor",
+  "ou": "https://ra.co/events/2508504",
+  "pu": "https://ra.co/events/2508504",
+  "hind": {
+   "praegu": "5€",
+   "mark": "first release eelmüük RA-l",
+   "allikas": "ra.co, kontrollitud 14.08.2026"
+  },
+  "lisatud": "2026-08-14",
+  "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse"
+ },
+ {
+  "d": "2026-08-14",
+  "t": "klubi",
+  "n": "Terminal Arrivals: Madis Aesma",
+  "a": "õhtune plaadibaari-sessioon, algus 21.00",
+  "b": [
+   "Madis Aesma"
+  ],
+  "v": "Terminal Records&Bar",
+  "c": "Tallinn",
+  "g": [
+   "ambient",
+   "electro"
+  ],
+  "sn": "Rada7.ee FB",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2070971210293941/",
+  "lisatud": "2026-08-14",
+  "nb": "lisatud 14.08.2026 (Silveri otsus: sisse); allikad Rada7 FB events + FB event; hinnainfot event-lehel polnud (ilmselt tasuta baariõhtu)"
  }
 ]

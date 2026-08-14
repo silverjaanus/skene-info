@@ -475,5 +475,44 @@
   "ou": "https://www.facebook.com/events/2067993643814194/",
   "lisatud": "2026-08-14",
   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis."
+ },
+ {
+  "d": "2026-08-28",
+  "t": "klubi",
+  "n": "augusti viimane rämmar",
+  "a": "Suve viimase reede traditsioonipidu Balti Jaama Turu hoovis; kolm lava (d3 rämmar / fonoteek klämmar / SEXRADIO), uksed 23.00, lõpp ~04.00, 18+",
+  "b": [
+   "ab live (FIN)",
+   "Kermo Murel",
+   "Kohver",
+   "Päevakoer",
+   "Muul",
+   "Philgood",
+   "Elina Born",
+   "Karl Klaus",
+   "Sten Zeider",
+   "La Copa",
+   "DJ Issi",
+   "Yung Humidoor"
+  ],
+  "v": "Balti Jaama Turu hoov",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Fonoteek FB",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4459732620960171/",
+  "pu": "https://gateme.com/et/D3Tallinn/104120-augusti-viimane-rammar-2808-d3/",
+  "hind": {
+   "praegu": "15€",
+   "mark": "teine laar; kolmas 20€, uksel al 23.00 25€; esimene laar (10€) välja müüdud",
+   "allikas": "FB event + GateMe, kontrollitud 14.08.2026"
+  },
+  "lisatud": "2026-08-14",
+  "nb": "lisatud 14.08.2026 (Silveri otsus: räpi alla); korraldajad 5MIINUST, Elina Born jt; allikad FB event + GateMe",
+  "img": "pildid/augustiviimanerammar.webp"
  }
 ]
