@@ -27,7 +27,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (CAT_ORDER, interleave_cats, parse_d, this_and_next_week, in_window,
-                    today_local, in_scope, is_release, next_start)
+                    today_local, in_scope, is_release, next_start,
+                    order_for_output)
 
 BASE_URL = "https://www.skene.info/nadal/"
 KUUD = ["jaanuar", "veebruar", "marts", "aprill", "mai", "juuni",
@@ -52,15 +53,8 @@ def load_entries(repo, ws, we):
                 ee = dict(e)
                 ee["_cat"] = cat
                 out.append(ee)
-    for e in out:
-        e["_disp"] = next_start(e, ws)
-    # sort + kuupaev NAIDATAVA (jargmise) toimumiskuupaeva jargi — sama reegel
-    # mis make_weekly_email.py-s ja make_weekly_image.py-s (13.08.2026)
-    out.sort(key=lambda e: (e.get("_disp") or e.get("d", ""),
-                            CAT_ORDER.index(e.get("_cat", "metal")),
-                            e.get("t", "")))
-    out = interleave_cats(out)  # sama paeva kategooriad labisegi (Silver 14.08.2026)
-    return out
+    # Jarjestus tuleb AINULT common.order_for_output()-ist (sama mis kirjal).
+    return order_for_output(out, ws)
 
 
 def line_for(e):

@@ -24,5 +24,10 @@ jobs:
         run: python scripts/build_pages.py --check
       - name: Duplikaadid + GENRE_META sync
         run: python scripts/check_dupes.py
+      # 14.08.2026: kirja jarjestusparandused olid eelvaate tees, saatmistee
+      # kasutas oma koopiat -> valjalainud kiri oli vale. See samm valvab, et
+      # jarjestus tuleks ainult common.order_for_output()-ist.
+      - name: Kirja jarjestus (saatmistee == eelvaade)
+        run: python scripts/check_send_parity.py --repo .
       - name: Tagasiside API test (mokitud)
         run: node scripts/test_tagasiside.js

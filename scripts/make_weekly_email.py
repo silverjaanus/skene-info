@@ -20,7 +20,8 @@ import urllib.request, urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
-                    in_window, today_local, in_scope, is_release, next_start)
+                    in_window, today_local, in_scope, is_release, next_start,
+                    order_for_output)
 
 # ---- palett (index.html :root) ----
 PABER="#F3F0E7"; TINT="#1A1A1A"; HALL="#5A564C"; JOON="#8F8A7C"
@@ -396,12 +397,9 @@ def load_sources(repo, ws, we):
 
 def gen_combo(all_ev, cats, ws, we, base):
     sel=[e for e in all_ev if e.get("_cat") in cats]
-    for e in sel:
-        e["_disp"]=next_start(e, ws)
-    # sort NAIDATAVA kuupaeva jargi — kaimasolev tuur ei hyppa moodunud
-    # alguskuupaevaga nimekirja etteotsa (13.08.2026 Silveri parandus)
-    sel.sort(key=lambda e:(e.get("_disp") or e.get("d",""), CAT_ORDER.index(e.get("_cat","metal")), e.get("t","")))
-    sel = interleave_cats(sel)  # sama paeva kategooriad labisegi (Silver 14.08.2026)
+    # Jarjestus tuleb AINULT common.order_for_output()-ist -- sama funktsioon,
+    # mida kutsub send_weekly.py. Ara kirjuta seda loogikat siia tagasi.
+    sel = order_for_output(sel, ws)
     tag="+".join(cats)
     outs={}
     for lang in ("et","en"):

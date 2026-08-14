@@ -33,7 +33,8 @@ except ImportError:
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
-                    in_window, today_local, in_scope, is_release, next_start)
+                    in_window, today_local, in_scope, is_release, next_start,
+                    order_for_output)
 
 # ---- palett (index.html :root) ----
 PABER      = (0xF3, 0xF0, 0xE7)
@@ -413,11 +414,8 @@ def main():
         _load(os.path.join(rp, "data", "data.json"), "metal", sel)
         _load(os.path.join(rp, "rap", "data", "data.json"), "rap", sel)
         _load(os.path.join(rp, "klubi", "data", "data.json"), "klubi", sel)
-    for e in sel:
-        e["_disp"] = next_start(e, ws)
-    # sort NAIDATAVA kuupaeva jargi — sama reegel mis make_weekly_email.py-s
-    sel.sort(key=lambda e: (e.get("_disp") or e.get("d", ""), CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
-    sel = interleave_cats(sel)  # sama paeva kategooriad labisegi (Silver 14.08.2026)
+    # Jarjestus tuleb AINULT common.order_for_output()-ist (sama mis kirjal).
+    sel = order_for_output(sel, ws)
 
     out = args.out or os.path.join(root, "postitused", f"nadal-{ws.isoformat()}.jpg")
     os.makedirs(os.path.dirname(out), exist_ok=True)

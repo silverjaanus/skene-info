@@ -156,9 +156,19 @@ def main():
     send_bucket_ids = {gmap[n] for n in gmap if str(n).startswith("send:")}
     for name, b in sorted(buckets.items()):
         sel = [e for e in all_ev if e.get("_cat") in b["combo"]]
+        # ⚠ JARJESTUS: ainus allikas on common.order_for_output(), sama funktsioon,
+        # mida kutsub make_weekly_email.gen_combo(). 14.08.2026 oli siin OMA koopia
+        # sortimisest (`e["d"]` + CAT_ORDER), mis ei kasutanud _disp'i ega
+        # interleave'i -- eelvaade oli oige, valjalainud kiri vale. Ara too koopiat tagasi.
+        sel = gen.order_for_output(sel, ws)
+        # HTML ehitatakse ALATI, ka dry-run'is: nii katab eelkontroll ka renderdustee
+        # (varem ehitati HTML alles parast `continue`-t ja dry-run ei naidanud sisu).
+        html = gen.build_html(sel, ws, we, b["lang"], b["combo"])
         skip = a.only and name != a.only
-        print("  %-30s %2d tellijat  %2d kirjet%s" % (name, len(b["subs"]), len(sel),
-                                                     "  [VAHELE JAETUD --only]" if skip else ""))
+        esimene = (sel[0].get("_disp") or sel[0].get("d", "?")) if sel else "-"
+        print("  %-30s %2d tellijat  %2d kirjet  (1. kirje %s)%s" % (
+            name, len(b["subs"]), len(sel), esimene,
+            "  [VAHELE JAETUD --only]" if skip else ""))
         if skip or not do_send:
             continue
         bid = ensure_group(name, token, gmap); send_bucket_ids.add(bid)
@@ -171,8 +181,6 @@ def main():
             # MailerLite votab kampaania saajate nimekirja hetkeseisuga: varskelt lisatud
             # liikmed ei pruugi kohe kohal olla (02.08.2026 laks uks kampaania 0 saajale).
             time.sleep(a.settle)
-        sel.sort(key=lambda e: (e["d"], gen.CAT_ORDER.index(e.get("_cat", "metal")), e.get("t", "")))
-        html = gen.build_html(sel, ws, we, b["lang"], b["combo"])
         rng = gen._plain(gen.daterange(ws, we, gen.I18N[b["lang"]]))
         subj = (cfg.get("subject") or {}).get(b["lang"], "skene.info {range}").replace("{range}", rng)
         cid = create_campaign(bid, b["lang"], html, subj, cfg, token)

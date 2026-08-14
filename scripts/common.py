@@ -267,6 +267,36 @@ def in_scope(e):
     28.07.2026-ni (leitud sweepis, vt HANDOVER sekts 3).
     """
     return e.get("c") in EESTI or is_release(e)
+
+
+def _cat_rank(e):
+    """CAT_ORDER indeks, mis EI kuku tundmatu kategooria peal (vana
+    CAT_ORDER.index() viskas ValueError'i)."""
+    c = e.get("_cat", "metal")
+    return CAT_ORDER.index(c) if c in CAT_ORDER else len(CAT_ORDER)
+
+
+def order_for_output(entries, ws):
+    """AINUS jarjestusloogika kirja, nadalapildi ja captioni jaoks.
+
+    Teeb kolm asja korraga:
+      1. maarab `_disp` = next_start() (kaimasolev tuur naitab JARGMIST
+         toimumiskuupaeva, mitte moodunud alguskuupaeva);
+      2. sordib naidatava kuupaeva jargi;
+      3. segab sama paeva kategooriad labisegi (interleave_cats).
+
+    ⚠ 14.08.2026 OPPETUND: need kolm rida olid kopeeritud make_weekly_email.py-sse,
+    make_weekly_image.py-sse ja make_weekly_caption.py-sse, AGA send_weekly.py --
+    ainus tee, mis jouab pareti tellijani -- sortis ise `d` jargi ja ei seganud
+    kategooriaid. Tulemus: 13.08 kuupaevaparandus ja 14.08 interleave testides
+    tootasid, aga 14.08 valjalainud kiri oli ikka vale. Kui muudad jarjestust,
+    muuda AINULT siin. Vt scripts/check_send_parity.py."""
+    for e in entries:
+        e["_disp"] = next_start(e, ws)
+    entries.sort(key=lambda e: (e.get("_disp") or e.get("d", ""), _cat_rank(e), e.get("t", "")))
+    return interleave_cats(entries)
+
+
 def interleave_cats(entries):
     """Sama (naidatava) kuupaeva sees jarjesta kategooriad LABISEGI (round-robin
     metal -> rap -> klubi -> metal ...), et nimekirja algus annaks labiloike eri
