@@ -1400,7 +1400,8 @@
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
    "g": [
-    "electronic"
+    "ambient",
+    "experimental"
    ],
    "sn": "Paavli programm",
    "su": "https://www.kultuurivabrik.ee/en/events",
@@ -1410,7 +1411,7 @@
     "allikas": "Fienta, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; žanr täpsustamata (elektroonika) — jälgi 2b-s, kui lineup avaldatakse",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; žanr täpsustamata (elektroonika) — jälgi 2b-s, kui lineup avaldatakse | zanr 15.08.2026: RA 2026 zanrisildid Ambient+Experimental (ra.co/events/2325863); 2025 oli Techno+Experimental -> experimental on labiv, ambient 2026 oma. TULETATUD eelmisest aastast, 2027 koosseis avaldamata",
    "img": "pildid/dreamscapefestival2027.webp"
   },
   {
@@ -1445,14 +1446,15 @@
    "v": "Illiku laid, Orissaare",
    "c": "mujal",
    "g": [
-    "electronic"
+    "house",
+    "minimal"
    ],
    "sn": "I Land Sound",
    "su": "https://ilandsound.ee/en/",
    "on_": "Ametlik leht",
    "ou": "https://ilandsound.ee/en/",
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist)",
+   "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist) | zanr 15.08.2026: RA 2026 zanrisildid House+Minimal (ra.co/events/2445948); sama joon 2024-2026 (Lee Burridge, Cabanne, Traumer, D Julz). TULETATUD eelmisest aastast, 2027 koosseis avaldamata",
    "img": "pildid/ilandsound2027.webp"
   }
  ]
