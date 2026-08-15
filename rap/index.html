@@ -217,6 +217,9 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .ftog{display:none} /* toggle ainult mobiilis; desktopil filtrid alati nähtaval */
 @media(max-width:900px){
   .ftog{display:inline-flex;align-items:center;font-family:var(--mono);font-size:12px;border:1.5px solid var(--joon);background:transparent;color:var(--hdrmuted);padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.4px;flex:none}
+  /* A12: aktiivsete filtritega nupp on esile tostetud, et kokkuklapitud riba ei peidaks fakti,
+     et nimekiri ON kitsendatud */
+  .ftog.on{border-color:var(--paber);color:var(--paber);font-weight:700}
   .ftog::after{content:"▾";margin-left:4px}
   .ftog[aria-expanded="true"]::after{content:"▴"}
   .topnav .nav-right{flex-wrap:nowrap}
@@ -467,7 +470,11 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 </div>
 <button id="toTop" type="button" data-i18n-title="totop" title="Üles" aria-label="Üles" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 <script>
-const _d=new Date(), TODAY=_d.getFullYear()+"-"+String(_d.getMonth()+1).padStart(2,"0")+"-"+String(_d.getDate()).padStart(2,"0");
+// A9 (15.08.2026): TODAY oli `const` ja arvutati UKS KORD lehe laadimisel. Ooseks lahti
+// jaanud sakk naitas hommikul eilset "tana" ringi kalendris ja eilseid uritusi nimekirjas --
+// ja kui kasutaja sakki hommikul tagasi vottis, oli info vaikselt vale. Nuud `let` + kontroll
+// (vt paevaVahetus() lehe lopus). Ajavoond jaab LOKAALSEKS, nagu enne -- dOnly kasutab T00:00.
+let _d=new Date(), TODAY=_d.getFullYear()+"-"+String(_d.getMonth()+1).padStart(2,"0")+"-"+String(_d.getDate()).padStart(2,"0");
 let E = [];
 const I18N={
  et:{
@@ -518,6 +525,7 @@ const I18N={
   rel_arch:"Näita ka arhiveeritud reliise", rel_arch_load:"Laen arhiivi…",
   rel_arch_err:"Arhiivi laadimine ebaõnnestus. Proovi hetke pärast uuesti.",
   rel_arch_on:"Arhiiv on kaasatud — kõik reliisid, ka vanemad kui 30 päeva.",
+  rel_arch_off:"Peida arhiveeritud reliisid",
   organizer:"korraldaja:", listen:"kuula:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
   f_q_l:"Otsi", ph_q:"Otsi: artist, koht, üritus…",
@@ -573,6 +581,7 @@ const I18N={
   rel_arch:"Also show archived releases", rel_arch_load:"Loading archive…",
   rel_arch_err:"Could not load the archive. Please try again in a moment.",
   rel_arch_on:"Archive included — all releases, also older than 30 days.",
+  rel_arch_off:"Hide archived releases",
   organizer:"organiser:", listen:"listen:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
   f_q_l:"Search", ph_q:"Search: artist, venue, event…",
@@ -684,7 +693,18 @@ function lastIso(e){
   if(Array.isArray(e.dd)&&e.dd.length)return e.dd.slice().sort()[e.dd.length-1];
   return isoOf(addDays(endDate(e),-1));
 }
-function onLabi(e){return !e.tba&&!!e.d&&lastIso(e)<TODAY;}
+// A8 (15.08.2026): TBA-kirje EI aegunud kunagi -- `!e.tba` valistas ta labiolekust taielikult,
+// seega "kuupaev tapsustamisel" uritus oleks jaanud nimekirja igaveseks rippuma ka aastaid
+// parast oma oletatavat kuupaeva. TBA tahendab siin "kuupaev pole kinnitatud", seega paev
+// parast ei tohi teda ka kohe ara visata -- annab 60 paeva armuaega, siis laheb arhiivi
+// nagu koik muu. ⚠ SAMA NUMBER on scripts/common.py TBA_ARMUAEG -- kui muudad, muuda MOLEMAT,
+// muidu naitab sait ja andmekorje eri asja. Arv on siin literaalina, sest
+// scripts/test_kuupaevad.js lougib valja ainult funktsioonide kehad, mitte konstante.
+function onLabi(e){
+  if(!e.d)return false;
+  if(e.tba)return lastIso(e)<isoOf(addDays(dOnly(TODAY),-60));
+  return lastIso(e)<TODAY;
+}
 function effIso(e){
   if(e.tba||!e.d)return e.d||"";
   if(Array.isArray(e.dd)&&e.dd.length){
@@ -1026,7 +1046,14 @@ function applyCalView(){
   if(a)a.classList.toggle('on',calView==='cal');
   if(b)b.classList.toggle('on',calView==='months');
 }
-function setCalView(v){calView=v;try{localStorage.setItem('skene_calview',v);}catch(e){}if(v==='months')st.day=null;applyCalView();refresh();}
+// A15 (15.08.2026): kuuvaates valitud kuu jai kalendrivaates kehtima, ILMA et kalendris
+// oleks sellest mingit margi -- kasutaja nagi kitsendatud nimekirja ja ei leidnud pohjust.
+// Nuud on lulitus summeetriline: kuuvaade nullib paeva, kalendrivaade nullib kuu.
+function setCalView(v){
+  calView=v;try{localStorage.setItem('skene_calview',v);}catch(e){}
+  if(v==='months')st.day=null; else st.kuu=null;
+  applyCalView();refresh();
+}
 function setF(k,v){
   st[k]=v;
   if(k==='kuu')st.day=null;
@@ -1194,14 +1221,25 @@ function allRel(){
 function renderArchBtn(){
   const el=document.getElementById('relarch');if(!el)return;
   if(st.type!=='reliis'||ARCHBUSY){if(!ARCHBUSY)el.innerHTML="";return;}
-  if(ARCHON){el.innerHTML='<p class="archnote"></p>';el.firstChild.textContent=t('rel_arch_on');return;}
+  // A16 (15.08.2026): ARCHON oli UHESUUNALINE -- arhiivi sisse lulitades asendus nupp pelga
+  // tekstiga ja 30-paevase akna juurde sai tagasi ainult lehte varskendades. Nuud on see
+  // luliti: sama nupp votab arhiivi ka maha. ARCHREL jaab malusse, teist korda ei laadita.
+  if(ARCHON){
+    el.innerHTML='<p class="archnote"></p><div class="archwrap"><button type="button" class="archbtn" onclick="peidaArchRel()"></button></div>';
+    el.querySelector('.archnote').textContent=t('rel_arch_on');
+    el.querySelector('.archbtn').textContent=t('rel_arch_off');
+    return;
+  }
   el.innerHTML='<div class="archwrap"><button type="button" class="archbtn" onclick="loadArchRel()"></button></div>';
   el.querySelector('.archbtn').textContent=t('rel_arch');
 }
+function peidaArchRel(){ARCHON=false;refresh();}
 // Arhiiv laetakse ainult noudmisel: years.json + iga aasta fail. Failid on samad, mida
 // kasutab arhiiv.html, ehk uut andmetorustikku pole vaja.
 function loadArchRel(){
   if(ARCHBUSY||ARCHON)return;
+  // Juba korra laetud (kasutaja vottis arhiivi maha ja paneb tagasi) - vorgust uuesti ei kusi.
+  if(ARCHREL.length){ARCHON=true;refresh();return;}
   ARCHBUSY=true;
   const el=document.getElementById('relarch');
   if(el){el.innerHTML='<p class="archnote"></p>';el.firstChild.textContent=t('rel_arch_load');}
@@ -1250,14 +1288,23 @@ function tagChips(){
 // Kas mone filtri kohta on midagi valitud? Otsustab, kas naidata "puhasta filtrid" nuppu.
 // Skoop (mis saidid) ja arhiivilüliti EI lahe siia -- need on vaate seaded, mitte filtrid.
 function filtreidAktiivseid(){
-  return !!(st.type||st.city||st.kuu||st.day||st.q
-            ||st.tags.size||(st.metas&&st.metas.size));
+  return filtreidArv()>0;
+}
+// Mitu filtrit on peal? Zanrid loevad UKSHAAVAL (metal+punk = 2), sest kasutaja jaoks on
+// need kaks eraldi valikut. Kuu ja paev on valistavad, seega maksimaalselt uks neist.
+function filtreidArv(){
+  return (st.type?1:0)+(st.city?1:0)+(st.kuu?1:0)+(st.day?1:0)+(st.q?1:0)
+        +st.tags.size+((st.metas&&st.metas.size)||0);
 }
 // 15.08.2026 (A1/A4): uks nupp, mis viib puhtale vaatele. Varem sai zanreid nullida
 // (clearTags), aga tuup, koht, kuu, paev ja otsing tuli igauks eraldi tagasi klopsata.
 function resetAll(){
   st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";
   st.tags=new Set();if(st.metas)st.metas=new Set();
+  // ⚠ st.past PEAB siin nullituma. allRel() paneb ta true peale ja kui "puhasta filtrid" teda
+  // ei puutu, jaab minevik parast reseti vaikselt sisse (URL-i jaab ?p=1) -- kasutaja vajutas
+  // "puhasta" ja sai ikkagi muu vaate kui puhta lehe.
+  st.past=false;
   const sb=document.getElementById('f-q');if(sb)sb.value="";
   refresh();
 }
@@ -1318,6 +1365,11 @@ function urlLoe(){
   scope=new Set([SELF]);
   s.forEach(x=>{if(SAIDID.indexOf(x)!==-1)scope.add(x);});
   const sb=document.getElementById('f-q');if(sb)sb.value=p.get('q')||"";
+  // Jagatud link, mis kitsendab kuule, peab avanema kuuvaates -- muidu kehtiks kuufilter
+  // nahtamatult (sama viga mis A15). Sama loogika paeva puhul. localStorage'i EI puutu:
+  // link ei tohi kasutaja pusivat vaate-eelistust ara muuta.
+  if(st.kuu&&calView!=='months'){calView='months';applyCalView();}
+  else if(st.day&&calView!=='cal'){calView='cal';applyCalView();}
 }
 // TAGASI/EDASI: loe URL uuesti ja joonista. urlKirjuta() ei tee siin uut kirjet, sest
 // location.search on juba sihtväärtus -> uus===praegu.
@@ -1337,6 +1389,17 @@ function refresh(){
   // filtriribal nupp, mis ei tee midagi.
   const _fr=document.getElementById('frow-reset');
   if(_fr)_fr.hidden=!filtreidAktiivseid();
+  // A12 (15.08.2026): mobiilis on filtririba vaikimisi kokku klapitud ja nupul seisis lihtsalt
+  // "Filtrid". Kasutaja ei nainud, et tal on kolm filtrit peal, ja imestas luhikese nimekirja
+  // ule. Nuud on nupul aktiivsete arv.
+  // ⚠ NIMI: mitte `_ft` -- rapi S077 kasutab samas funktsioonis juba `var _ft` (zanririba
+  // peitmine) ja `const _ft` samas skoobis on SyntaxError, mis tapab kogu lehe skripti.
+  const _ftog=document.getElementById('ftog');
+  if(_ftog){
+    const n=filtreidArv();
+    _ftog.textContent=t('f_filters')+(n?" ("+n+")":"");
+    _ftog.classList.toggle('on',n>0);
+  }
   scopeChips();kuud();renderCal();render();renderRel();renderArchBtn();fbBanner();
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)
@@ -1382,6 +1445,25 @@ fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=
 // kinni (pole mille pealt teisi saite juurde votta).
 fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];ALLX_SEIS="ok";refresh();}).catch(()=>{ALLX_SEIS="katki";refresh();});
 (function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
+// A9: kesk8 uletamine. Kontrollime kahes kohas -- (1) kui kasutaja sakki tagasi tuleb
+// (visibilitychange; katab ooseks lahti jaanud saki, mis on kaugelt koige tavalisem juhtum)
+// ja (2) minutise taimeriga, et lahtise saki ees istudes ei jaaks ekraan valeks.
+// calYM liigutame ainult siis, kui kasutaja vaatas parasjagu VANA tanast kuud -- muidu
+// hupaks kalender talle kaest ara, kui ta oli mone teise kuu peale navigeerinud.
+(function(){
+  function paevaVahetus(){
+    const n=new Date();
+    const uus=n.getFullYear()+"-"+String(n.getMonth()+1).padStart(2,"0")+"-"+String(n.getDate()).padStart(2,"0");
+    if(uus===TODAY)return;
+    const vanaKuus=(calYM.y===_d.getFullYear()&&calYM.m===_d.getMonth());
+    TODAY=uus;_d=n;
+    if(vanaKuus)calYM={y:n.getFullYear(),m:n.getMonth()};
+    refresh();
+  }
+  document.addEventListener('visibilitychange',function(){if(!document.hidden)paevaVahetus();});
+  window.addEventListener('focus',paevaVahetus);
+  setInterval(paevaVahetus,60000);
+})();
 </script>
 </body>
 </html>

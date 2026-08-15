@@ -1,5 +1,10 @@
 }
-function toggleCities(o){st.cityMore=o;if(!o&&CITIES_MORE.some(c=>c[1]===st.city))st.city=null;refresh();}
+// A14 (15.08.2026): "−" nupp kustutas vaikselt valitud koha, kui see oli Baltikum/Pohjamaad/
+// Euroopa. Kasutaja arvas, et peidab nupud ara, aga tulemuste hulk hupas tagasi "koik" peale
+// ilma uhegi selgituseta. Nuud "−" AINULT klapib kokku; kui mone laiendatud koha filter on
+// peal, jaab riba niikuinii lahti (cityChips: `open` arvestab st.city-t), seega peitmine
+// ei saagi valikut ara peita. Filtri votab maha kasutaja ise, klikkides sama chipi uuesti.
+function toggleCities(o){st.cityMore=o;refresh();}
 function cityChips(){
   const btn=([lbl,val])=>`<button class="chip${st.city===val?" on":""}" aria-pressed="${st.city===val}" onclick="setF('city',${val===null?"null":`'${val}'`})">${t(lbl)}</button>`;
   const open=st.cityMore||CITIES_MORE.some(c=>c[1]===st.city);

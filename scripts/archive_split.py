@@ -9,7 +9,7 @@ sisu ei kaotata, isegi kui algallikas (Metal Storm, Fienta jne) enam möödunud
 Kasutavad nii scripts/fetch.py kui scripts/fetch_rap.py.
 """
 import json, sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -35,10 +35,24 @@ def _featured(e):
     return 0 <= diff <= 30
 
 
+# A8 (15.08.2026): TBA-kirje EI aegunud kunagi -- `bool(e.get("tba"))` hoidis teda data.json-is
+# igavesti, ka aastaid pärast oletatavat kuupäeva. TBA tähendab "kuupäev pole kinnitatud",
+# seega päev pärast ei tohi teda kohe ära visata, aga igavesti ka mitte.
+# ⚠ SAMA NUMBER on lehe JS-is (templates/index/base.html, onLabi) literaalina 60 --
+# kui muudad, muuda MÕLEMAT, muidu näitavad sait ja andmekorje eri asja.
+TBA_ARMUAEG = 60
+
+
 def _is_current(e):
     """Kuulub data.json-i (mitte arhiivi): tulevane VÕI VEEL KÄIMAS (d2 järgi),
-    TBA või veel featured-aknas. Mitmepäevane üritus püsib saidil lõpupäeva lõpuni."""
-    return bool(e.get("tba")) or _featured(e) or _end_date(e) >= TODAY
+    veel featured-aknas, või TBA armuaja sees. Mitmepäevane üritus püsib saidil
+    lõpupäeva lõpuni."""
+    if _featured(e) or _end_date(e) >= TODAY:
+        return True
+    if e.get("tba"):
+        piir = (date.fromisoformat(TODAY) - timedelta(days=TBA_ARMUAEG)).isoformat()
+        return _end_date(e) >= piir
+    return False
 
 
 def split_and_write(data_dir, fresh, log=None, block=None, block_names=None,

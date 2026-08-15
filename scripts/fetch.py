@@ -84,7 +84,11 @@ GENRE_META = {
     "punk": ["punk"], "post-punk": ["punk"],
     "core": ["core"], "grind": ["core"],
     "rock": ["rock"], "folk": ["folk"], "alt": ["alt"],
-    "bluus": ["bluus"], "bluusrock": ["bluus", "rock"], "blues rock": ["bluus", "rock"],
+    # 15.08.2026: meta nimi "bluus" -> "blues" (ulejaanud 8 metat olid ingliskeelsed).
+    # TOORSILT jaab andmetes "bluus"-iks, muutub ainult meta/chipi nimi. Hoia SYNCIS
+    # templates/index/snippets/www/S061.html-ga -- check_dupes.py valvab seda.
+    "bluus": ["blues"], "blues": ["blues"],
+    "bluusrock": ["blues", "rock"], "blues rock": ["blues", "rock"],
     "funk": ["funk"], "soul": ["funk"], "funk/soul": ["funk"], "disco": ["funk"],
     "dark": ["dark"], "industrial": ["dark"], "ebm": ["dark"], "darkwave": ["dark"],
     "goth": ["dark"], "electro": ["dark"],

@@ -37,3 +37,8 @@ jobs:
       # ainult alguskuupaeva). Test loeb funktsioonid genereeritud index.html-ist.
       - name: Kuupaevaloogika (mitmepaevased kirjed)
         run: node scripts/test_kuupaevad.js
+      # 15.08.2026: base.html-i uus `const _ft` sattus rapi S077-s oleva `var _ft`-ga samasse
+      # skoopi -> SyntaxError tappis rap.skene.info-l kogu lehe skripti, www ja klubi tootasid.
+      # Slotisusteemis on see korduv oht: tukid on eraldi korras, kokku pandult mitte.
+      - name: Genereeritud lehtede JS-suntaks
+        run: node scripts/test_syntaks.js

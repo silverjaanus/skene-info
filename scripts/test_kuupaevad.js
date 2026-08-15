@@ -78,7 +78,14 @@ for (const fail of ["index.html", "rap/index.html", "klubi/index.html"]) {
   on(!F.onLabi({ d: "2026-08-15" }), nimi + "tanane kirje ei ole labi");
   on(!F.onLabi({ d: "2026-09-01" }), nimi + "tulevane kirje ei ole labi");
   vordne(F.effIso({ d: "2026-09-01" }), "2026-09-01", nimi + "tulevase kirje eff = tema oma kuupaev");
-  on(!F.onLabi({ d: "2020-01-01", tba: true }), nimi + "TBA kirje ei ole kunagi labi");
+  // A8 (15.08.2026): TBA-l on 60 paeva armuaega, mitte igavik. Vana reegel ("TBA kirje ei ole
+  // KUNAGI labi") oleks jatnud 2020. aasta kirje nimekirja igavesti rippuma.
+  // ⚠ Sama 60 elab kahes kohas: base.html onLabi (literaal) ja common.py TBA_ARMUAEG.
+  on(!F.onLabi({ d: "2026-08-01", tba: true }), nimi + "TBA kirje armuaja sees ei ole labi");
+  on(!F.onLabi({ d: "2026-06-17", tba: true }), nimi + "TBA kirje tapselt 60 p vanune ei ole veel labi");
+  on(F.onLabi({ d: "2026-06-15", tba: true }), nimi + "TBA kirje ule 60 p vana ON labi");
+  on(F.onLabi({ d: "2020-01-01", tba: true }), nimi + "ammune TBA kirje ON labi");
+  on(!F.onLabi({ d: "2027-06-17", tba: true }), nimi + "tulevane TBA kirje ei ole labi");
 
   // 4. Kuufilter: kuudevaheline festival peab olema leitav MOLEMAST kuust.
   const ule = { d: "2026-07-29", d2: "01.08" };
