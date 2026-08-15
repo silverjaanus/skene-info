@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14",
+ "updated": "2026-08-15",
  "entries": [
   {
    "rel": 1,
@@ -536,82 +536,6 @@
     "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval",
     "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"
    }
-  },
-  {
-   "d": "2026-08-14",
-   "t": "kontsert",
-   "n": "The Tuberkuloited 35: Pärnu",
-   "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee",
-   "b": [
-    "The Tuberkuloited",
-    "Vennaskond",
-    "Sõpruse Puiestee"
-   ],
-   "v": "Villa Ammende",
-   "c": "mujal",
-   "linn": "Pärnu",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/931197572850690/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/931197572850690/",
-   "pu": "https://www.piletitasku.ee/et/event/9529",
-   "img": "pildid/thetuberkuloited35parnu.webp"
-  },
-  {
-   "d": "2026-08-14",
-   "t": "festival",
-   "n": "Veriora Rock Stroganoff 2026",
-   "a": "Räpina valla suverokipidu Veriora järve ääres; 17.00–01.00. Kava: 17.00 Veriora Raudvara, 18.30 Illusioon, 20.00 HND, 21.30 DND, 23.00 Kosmikud",
-   "b": [
-    "Veriora Raudvara",
-    "Illusioon",
-    "HND",
-    "DND",
-    "Kosmikud"
-   ],
-   "v": "Veriora laululava",
-   "c": "mujal",
-   "linn": "Veriora",
-   "g": [
-    "rock"
-   ],
-   "sn": "kultuur.rapina.ee",
-   "su": "https://kultuur.rapina.ee/event/veriora-rock-stroganoff-2026-veriora-jarve-aares/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2523939991376969/",
-   "nb": "koosseis + ajakava + hind avaldatud, kinnitatud 28.07.2026 sweepis (FB event 2523939991376969 + korraldaja postitus 26.07). NB sources.json kirje facebook.com/veriorarock.stroganoff on eraprofiil ilma ürituste-tabita",
-   "hind": {
-    "praegu": "25€",
-    "mark": "kohapeal 25€; eelmüük 20€ lõppes 15.07 (ülekandega SA Veriora Noortekas); kuni 12-aastastele tasuta; online-piletimüüki ei ole",
-    "allikas": "FB event, kontrollitud 28.07.2026"
-   }
-  },
-  {
-   "d": "2026-08-14",
-   "t": "kontsert",
-   "n": "Horror Vacui (ITA) + Pettunud Kodanik",
-   "a": "80ndate gooti ja post-punk horror-esteetikas; Itaalia post-punk legendid Kotka Kultuurimajas, toetajaks Tartu Pettunud Kodanik; kell 20.00",
-   "b": [
-    "Horror Vacui (ITA)",
-    "Pettunud Kodanik"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "post-punk",
-    "dark",
-    "rock"
-   ],
-   "sn": "Kotka Kultuurimaja FB",
-   "su": "https://www.facebook.com/events/997807159746188/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/997807159746188/",
-   "nb": "leitud sweepis 25.07.2026; hostid Kotka Kultuurimaja + Pettunud Kodanik + Horror Vacui; piletiinfo FB-s puudub"
   },
   {
    "d": "2026-08-15",

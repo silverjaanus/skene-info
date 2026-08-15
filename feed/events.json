@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14",
+ "updated": "2026-08-15",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 207,
+ "count": 201,
  "entries": [
   {
    "sait": "www",
@@ -999,183 +999,6 @@
    "nb": "koosseis täienes 28.07.2026 sweepis 11 -> 19 nime (FB event 1255908596517597). Kuupäev 14.–15.08 kinnitatud eestihiphopfestival.ee-lt (FB näitab 14.–16.08 laagri tõttu)"
   },
   {
-   "sait": "www",
-   "d": "2026-08-14",
-   "t": "kontsert",
-   "n": "Horror Vacui (ITA) + Pettunud Kodanik",
-   "a": "80ndate gooti ja post-punk horror-esteetikas; Itaalia post-punk legendid Kotka Kultuurimajas, toetajaks Tartu Pettunud Kodanik; kell 20.00",
-   "b": [
-    "Horror Vacui (ITA)",
-    "Pettunud Kodanik"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "post-punk",
-    "dark",
-    "rock"
-   ],
-   "sn": "Kotka Kultuurimaja FB",
-   "su": "https://www.facebook.com/events/997807159746188/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/997807159746188/",
-   "nb": "leitud sweepis 25.07.2026; hostid Kotka Kultuurimaja + Pettunud Kodanik + Horror Vacui; piletiinfo FB-s puudub"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-14",
-   "t": "klubi",
-   "n": "MOJO: DJ Rhythm Doctor w/ Kevin Alva LIVE!",
-   "a": "algus 21.00; funk/soul/disco/breaks",
-   "b": [
-    "Rhythm Doctor",
-    "Kevin Alva"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "funk",
-    "soul",
-    "disco"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/4539110306374626/",
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Rhythm Doctor (UK) — DJ alates 1978."
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-14",
-   "t": "klubi",
-   "n": "Masta Blasta",
-   "a": "Masta Blasta viimane õhtu TOLMi ruumides; külalisteks vasall club (laurel 2 & Luurel Varas, Tallinn) — hägune, dub-raske bass",
-   "b": [
-    "vasall club (laurel 2 & Luurel Varas)",
-    "Kässar",
-    "Konsap",
-    "Habur",
-    "Cärol"
-   ],
-   "v": "Tolm",
-   "c": "Tartu",
-   "g": [
-    "bass",
-    "dub",
-    "garage",
-    "breaks"
-   ],
-   "sn": "tolm.club",
-   "su": "https://tolm.club/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/902202516273043/",
-   "hind": {
-    "praegu": "10€",
-    "allikas": "tolm.club, kontrollitud 26.07.2026"
-   },
-   "nb": "leitud sweepis 26.07.2026 (tolm.club + FB event)"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-14",
-   "t": "klubi",
-   "n": "Psÿdja: OPEN AIR",
-   "b": [
-    "TECHNOVIKING TF",
-    "AN3",
-    "MINERVA",
-    "AMANITA"
-   ],
-   "v": "Veetorni Aed",
-   "c": "Tallinn",
-   "g": [
-    "psytrance",
-    "trance"
-   ],
-   "sn": "Fienta",
-   "su": "https://fienta.com/et?q=techno",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1958081294852377",
-   "pu": "https://fienta.com/et/psydja-open-air",
-   "hind": {
-    "praegu": "5€ / 10€ / 15€",
-    "mark": "varajane lind 5€, eelmüük 10€, uksel 15€",
-    "allikas": "Fienta, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026 (Fienta + FB event); visuaalid ML Stringart, kehamaaling Lifeloverart",
-   "img": "https://klubi.skene.info/pildid/psydjaopenair.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-14",
-   "t": "klubi",
-   "n": "Resident: Pološywa — Immersive Ambience",
-   "a": "surround-heli ambient-õhtu kell 21.00",
-   "b": [
-    "Pološywa"
-   ],
-   "v": "Philly Joe's (Vabaduse väljak 10)",
-   "c": "Tallinn",
-   "g": [
-    "ambient"
-   ],
-   "sn": "Rada7.ee FB",
-   "su": "https://www.facebook.com/rada7.ee/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1653289172449580/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Rada7 FB events + FB event (piletilink event-lehel 'Find tickets', täpne URL lugemata)"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-14",
-   "t": "klubi",
-   "n": "Rulers Of The Deep + Low-Keys",
-   "a": "house-õhtu kell 23.00–04.00",
-   "b": [
-    "Rulers Of The Deep",
-    "Low-Keys"
-   ],
-   "v": "Fonoteek",
-   "c": "Tallinn",
-   "g": [
-    "house"
-   ],
-   "sn": "fonoteek.ee",
-   "su": "https://fonoteek.ee/events/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2856795201350623/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Fonoteegi FB event + fonoteek.ee events-leht (14.08)",
-   "img": "https://klubi.skene.info/pildid/rulersofthedeeplowkeys.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-14",
-   "t": "kontsert",
-   "n": "The Tuberkuloited 35: Pärnu",
-   "a": "35. juubelikontsert: The Tuberkuloited + Vennaskond + Sõpruse Puiestee",
-   "b": [
-    "The Tuberkuloited",
-    "Vennaskond",
-    "Sõpruse Puiestee"
-   ],
-   "v": "Villa Ammende",
-   "c": "mujal",
-   "linn": "Pärnu",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/931197572850690/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/931197572850690/",
-   "pu": "https://www.piletitasku.ee/et/event/9529",
-   "img": "https://www.skene.info/pildid/thetuberkuloited35parnu.webp"
-  },
-  {
    "sait": "rap",
    "d": "2026-08-14",
    "d2": "15.08",
@@ -1212,55 +1035,6 @@
    },
    "lisatud": "2026-08-10",
    "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Korraldajad vabadus.ee + Interlüüd + Pargitiks, Kaera 14b, Põhja-Tallinn. Allikad: Rada7.ee FB events-tab + ürituse enda FB event (368 vastanut). 13.08.2026 SILVERI OTSUS (auditi triaaž): tõstetud klubi → rap, sest Jooseppro & Lennu UUE ALBUMI esiettekanne (räpp) on ürituse tuum. Klubi blocklisti läks vana kirje blokk. Kui albumi pealkiri avaldatakse, tee rap-poolele eraldi reliisikirje."
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-14",
-   "t": "festival",
-   "n": "Veriora Rock Stroganoff 2026",
-   "a": "Räpina valla suverokipidu Veriora järve ääres; 17.00–01.00. Kava: 17.00 Veriora Raudvara, 18.30 Illusioon, 20.00 HND, 21.30 DND, 23.00 Kosmikud",
-   "b": [
-    "Veriora Raudvara",
-    "Illusioon",
-    "HND",
-    "DND",
-    "Kosmikud"
-   ],
-   "v": "Veriora laululava",
-   "c": "mujal",
-   "linn": "Veriora",
-   "g": [
-    "rock"
-   ],
-   "sn": "kultuur.rapina.ee",
-   "su": "https://kultuur.rapina.ee/event/veriora-rock-stroganoff-2026-veriora-jarve-aares/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2523939991376969/",
-   "nb": "koosseis + ajakava + hind avaldatud, kinnitatud 28.07.2026 sweepis (FB event 2523939991376969 + korraldaja postitus 26.07). NB sources.json kirje facebook.com/veriorarock.stroganoff on eraprofiil ilma ürituste-tabita",
-   "hind": {
-    "praegu": "25€",
-    "mark": "kohapeal 25€; eelmüük 20€ lõppes 15.07 (ülekandega SA Veriora Noortekas); kuni 12-aastastele tasuta; online-piletimüüki ei ole",
-    "allikas": "FB event, kontrollitud 28.07.2026"
-   }
-  },
-  {
-   "sait": "rap",
-   "d": "2026-08-14",
-   "t": "klubi",
-   "n": "ÖÖTÖÖ",
-   "a": "Legendaarne Baar & Raadio õhtune DJ-pidu, algus 20.00",
-   "b": [],
-   "v": "Legendaarne Baar & Raadio (Krulli 2b)",
-   "c": "Tallinn",
-   "g": [
-    "hiphop"
-   ],
-   "sn": "Rada7.ee FB",
-   "su": "https://www.facebook.com/rada7.ee/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/4398606830355869/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Legendaarne Raadio FB events-tab + Rada7 FB events. DJ-koosseis avaldamata"
   },
   {
    "sait": "klubi",
@@ -1610,6 +1384,42 @@
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/",
    "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-19",
+   "d2": "20.08",
+   "t": "klubi",
+   "n": "Simple Session 26 Afterparties",
+   "a": "Kaks päeva, kaks lava (välilava + siselava), 19.00–hiljani, 18+, TASUTA",
+   "b": [
+    "Reed Stark (US)",
+    "PM2AM (LV)",
+    "Kwazar (FR)",
+    "Brawz Maximum (FIN)",
+    "Muul",
+    "Lill Mõru",
+    "Tellemralf",
+    "Sam Savage"
+   ],
+   "v": "D3 & Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "breaks",
+    "house"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1619495513160178/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "Free Entry, 18+",
+    "allikas": "FB event, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus: klubi alla); korraldajad D3 + Simple Session + Fonoteek; täiskoosseis FB event-lehelt"
   },
   {
    "sait": "www",
@@ -2348,6 +2158,46 @@
    "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
    "img": "https://www.skene.info/pildid/metallicaacdcnightpatareicoverage.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "augusti viimane rämmar",
+   "a": "Suve viimase reede traditsioonipidu Balti Jaama Turu hoovis; kolm lava (d3 rämmar / fonoteek klämmar / SEXRADIO), uksed 23.00, lõpp ~04.00, 18+",
+   "b": [
+    "ab live (FIN)",
+    "Kermo Murel",
+    "Kohver",
+    "Päevakoer",
+    "Muul",
+    "Philgood",
+    "Elina Born",
+    "Karl Klaus",
+    "Sten Zeider",
+    "La Copa",
+    "DJ Issi",
+    "Yung Humidoor"
+   ],
+   "v": "Balti Jaama Turu hoov",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "hiphop"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4459732620960171/",
+   "pu": "https://gateme.com/et/D3Tallinn/104120-augusti-viimane-rammar-2808-d3/",
+   "hind": {
+    "praegu": "15€",
+    "mark": "teine laar; kolmas 20€, uksel al 23.00 25€; esimene laar (10€) välja müüdud",
+    "allikas": "FB event + GateMe, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus: räpi alla); korraldajad 5MIINUST, Elina Born jt; allikad FB event + GateMe",
+   "img": "https://rap.skene.info/pildid/augustiviimanerammar.webp"
   },
   {
    "sait": "www",
@@ -3205,7 +3055,35 @@
    "ou": "https://www.thekrypt.ee/events"
   },
   {
-   "sait": "www",
+   "sait": "klubi",
+   "tba": 1,
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Signaal x Aparaaditehas",
+   "a": "Signaali teine väljaanne, seekord Aparaaditehases — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00; koosseis avaldamata",
+   "b": [],
+   "v": "Aparaaditehas (Kastani 42)",
+   "c": "Tartu",
+   "g": [
+    "electro",
+    "minimal",
+    "dub"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2508504",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2508504",
+   "pu": "https://ra.co/events/2508504",
+   "hind": {
+    "praegu": "5€",
+    "mark": "first release eelmüük RA-l",
+    "allikas": "ra.co, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse"
+  },
+  {
+   "sait": "rap",
    "d": "2026-09-11",
    "t": "kontsert",
    "n": "Tommyboy x Wiiralt — «Greatest Splits» esitluskontsert",
@@ -3217,15 +3095,15 @@
    "v": "Kidrakuur",
    "c": "Tallinn",
    "g": [
-    "punk",
-    "rock"
+    "räpp",
+    "hiphop"
    ],
    "sn": "Kidrakuur FB",
    "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2067993643814194/",
    "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje"
+   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis."
   },
   {
    "sait": "klubi",
