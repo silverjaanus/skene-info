@@ -316,6 +316,27 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .relc-b{font-family:var(--mono);font-size:10.5px;color:var(--hall);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .relc:hover .relc-t{color:var(--accent)}
+/* --- TOIMETUSE VALIK (B5f). Ainus koht saidil, kus räägib kureerija, mitte andmed --
+   seepärast on ta visuaalselt teistsugune: accent-värvi raam, mitte hall joon nagu mujal. */
+.pickbox{border:2px solid var(--accent);padding:14px 16px 4px;margin:0 0 22px}
+.pick-h{font-family:var(--mono);font-size:11px;letter-spacing:.9px;text-transform:uppercase;
+  color:var(--accent);margin:0 0 10px;font-weight:700}
+.pickrow{display:flex;gap:12px;padding:0 0 12px;align-items:flex-start}
+.pickrow+.pickrow{border-top:1px solid var(--joon);padding-top:12px}
+.pickrow .pt{flex:0 0 64px;line-height:0}
+.pickrow .pt img,.pickrow .pt .mark{width:64px;height:64px;object-fit:cover;display:block;border:1px solid var(--joon)}
+.pick-b{min-width:0;flex:1}
+.pick-n{font-size:15.5px;font-weight:700;line-height:1.25}
+.pick-n a{text-decoration:none;border-bottom:1.5px solid transparent}
+.pick-n a:hover{border-bottom-color:var(--accent)}
+.pick-m{font-family:var(--mono);font-size:11px;color:var(--hall);margin-top:3px}
+/* Silveri oma sõnad. Kaldkiri eristab need andmetest tulevast kirjeldusest. */
+.pick-p{font-size:13.5px;line-height:1.5;margin-top:5px;font-style:italic}
+@media(max-width:560px){
+  .pickbox{padding:12px 12px 2px}
+  .pickrow .pt{flex-basis:52px}
+  .pickrow .pt img,.pickrow .pt .mark{width:52px;height:52px}
+}
 /* --- TÜHJA TULEMUSE SEIS (15.08.2026). Varem oli 0 kirje korral ekraan tühi ja
    kasutaja ei saanud aru, kas leht on katki. --- */
 .tyhi{border-top:2.5px solid var(--tint);padding:34px 2px 30px;text-align:center}
@@ -452,6 +473,12 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       <a id="fblink" href="https://www.skene.info/tagasiside.html" data-i18n="fb_cta">Anna SKENE.INFO kohta tagasisidet →</a>
       <button type="button" onclick="fbSulge()" data-i18n-title="fb_close" title="Peida" aria-label="Peida">×</button>
     </div>
+    <!-- B5f: toimetuse valik. Plokk on `hidden` seni, kuni MÕNEL kirjel on `pick`-väli --
+         Silveri nõue: kui soovitada pole midagi, ei ole plokki saidil üldse. -->
+    <section class="pickbox" id="pickbox" hidden aria-labelledby="pick-h">
+      <h2 class="pick-h" id="pick-h" data-i18n="pick_h">Sel nädalal soovitan</h2>
+      <div id="pickstrip"></div>
+    </section>
     <section class="relbox" id="relbox" hidden aria-labelledby="rel-h">
       <div class="relbar">
         <h2 class="rel-h" id="rel-h" data-i18n="rel_h">Uued reliisid</h2>
@@ -525,6 +552,7 @@ const I18N={
   clear_all:"× Puhasta filtrid", remove_filter:"Eemalda see filter",
   search_all_sites:"otsing: kõik saidid",
   f_aeg_l:"Millal", aeg_tana:"Täna", aeg_nv:"Sel nädalavahetusel", aeg_7p:"Järgmised 7 päeva",
+  pick_h:"Sel nädalal soovitan",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
@@ -584,6 +612,7 @@ const I18N={
   clear_all:"× Clear filters", remove_filter:"Remove this filter",
   search_all_sites:"search: all sites",
   f_aeg_l:"When", aeg_tana:"Today", aeg_nv:"This weekend", aeg_7p:"Next 7 days",
+  pick_h:"My picks this week",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
@@ -1356,6 +1385,48 @@ function relCard(e){
   return link?`<a class="relc" href="${link}" target="_blank" rel="noopener">${sisu}</a>`
              :`<span class="relc">${sisu}</span>`;
 }
+// ---------- TOIMETUSE VALIK (B5f) ----------
+// Ainus koht saidil, kus raagib KUREERIJA, mitte andmed. Auditi jareldus: RA ja DICE
+// molemad panevad algoritmi peale eraldi toimetusliku kihi; skene.info-l ON ainult see kiht
+// ja see on ka ainus asi, mida algoritmiga asendada ei saa.
+//
+// ANDMEPOOL: kirje valjal `pick`. Kaks kuju:
+//   "pick": "Miks tasub minna"   -> tekst kuvatakse Silveri sonadena (kaldkirjas)
+//   "pick": 1                    -> ainult esile tostetud, ilma pohjenduseta
+// Kirjutamine kaib manual.json-i (Silveri otsus 15.08): soovitus elab gitis koos ulejaanud
+// sisuga ja on seetottu kattesaadav ka uudiskirjale/IG-le. Halduslehte EI ole.
+//
+// ⚠ Plokk on nahtav AINULT siis, kui moni kirje on pick-itud JA vaade on puhas. Kui Silveril
+// pole midagi soovitada, ei ole plokki saidil uldse -- see oli tema otsene nou.
+function pickPool(){
+  // Jarjestus KUUPAEVA jargi (effIso = jargmine toimumispaev), mitte andmefaili jarjekorra
+  // jargi. Soovituste plokk on tegevusele kutse -- ules kuulub see, mis on kohe tulemas.
+  return scoped().filter(e=>e.pick&&!onLabi(e))
+                 .sort((a,b)=>effIso(a).localeCompare(effIso(b)));
+}
+function pickRida(e){
+  const link=surl(e.ou||e.su);
+  const u=purl(e.img);
+  const pilt=u?`<img src="${u}" alt="" loading="lazy" decoding="async">`:markSvg(e);
+  const koht=[e.v,(e.linn||(e.c==="mujal"?"":e.c))].filter(Boolean).map(esc).join(", ");
+  const nimi=link?`<a href="${link}" target="_blank" rel="noopener">${esc(e.n)} ↗</a>`:esc(e.n);
+  const pohjus=(typeof e.pick==="string"&&e.pick.trim())
+    ? `<p class="pick-p">${esc(e.pick.trim())}</p>` : "";
+  return `<div class="pickrow"><span class="pt ${e.t?("t-"+e.t):""}">${pilt}</span>`
+    +`<div class="pick-b"><div class="pick-n">${nimi}</div>`
+    +`<div class="pick-m">${fmt(e).replace(/<br>/g,"")}${koht?" · "+koht:""}</div>`
+    +`${pohjus}</div></div>`;
+}
+function renderPick(){
+  const box=document.getElementById('pickbox');if(!box)return;
+  // Sama reegel mis reliisiribal: filtreeritud vaates otsib kasutaja midagi konkreetset
+  // ja toimetuse plokk oleks seal segav.
+  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
+  const pick=puhas?pickPool():[];
+  box.hidden=!pick.length;
+  if(!pick.length)return;
+  document.getElementById('pickstrip').innerHTML=pick.map(pickRida).join("");
+}
 function renderRel(){
   const box=document.getElementById('relbox');if(!box)return;
   // Riba on ainult vaikevaates. Otsing, paev, kuu, tuup voi zanrivalik = kasutaja otsib
@@ -1580,7 +1651,7 @@ function refresh(){
     _ftog.textContent=t('f_filters')+(n?" ("+n+")":"");
     _ftog.classList.toggle('on',n>0);
   }
-  scopeChips();kuud();renderCal();render();renderRel();renderArchBtn();fbBanner();
+  scopeChips();kuud();renderCal();render();renderPick();renderRel();renderArchBtn();fbBanner();
   fookusTagasi(_fookus);   // A13: pärast kõiki innerHTML-i ülekirjutusi
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)

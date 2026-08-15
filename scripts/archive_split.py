@@ -92,6 +92,26 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None,
             seen.add(k)
             allentries.append(e)
 
+    # 1b) `lisatud` KÕIGILE uutele kirjetele (15.08.2026). Varem sai selle välja ainult
+    # reliis/merch (sest neid näidatakse 30 päeva "uuena") -> 201 kirjest oli see 82-l ja
+    # neist enamik reliisid. Ilma selleta ei saa lehel öelda "uus alates su viimasest
+    # külastusest" — märgistus oleks juhuslik alamhulk.
+    #
+    # ⚠ Stamp käib AINULT nende peal, keda eelmine data.json ega arhiiv EI TUNNE. Vana
+    # kirje, millel `lisatud` puudub, jääb ilma — muidu näeks esimene jooks välja nii,
+    # nagu oleks kogu sait täna lisatud, ja "uus" märk kaotaks mõtte. Ajalugu ei valeta:
+    # pigem tühi väli kui vale kuupäev.
+    teada = {_key(e) for e in prev} | {_key(e) for e in archived_prev}
+    n_uus = 0
+    for e in fresh:
+        if "d" not in e or "n" not in e:
+            continue
+        if not e.get("lisatud") and _key(e) not in teada:
+            e["lisatud"] = TODAY
+            n_uus += 1
+    if n_uus:
+        print(f"  lisatud-kuupaev pandi {n_uus} uuele kirjele")
+
     add(fresh, False)         # manual usaldatud; auto juba blocklist-filtreeritud
     add(prev, True)           # säilitatud kirjed: austa blocklisti
     add(archived_prev, True)
