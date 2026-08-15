@@ -220,10 +220,10 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .calcell.out{color:var(--joon);opacity:.45}
 .calcell.ev{cursor:pointer}
 /* Ring on lahtri PROTSENT, mitte px: lahter on 1fr ehk voolav, seega fikseeritud px jattis
-   laiemal ekraanil ringi tuhja lahtri keskele holjuma. 78% jatab ka halo (valitud paev)
-   jaoks ruumi, et ta naabri peale ei ulatuks. */
+   laiemal ekraanil ringi tuhja lahtri keskele holjuma. 92% hoiab desktopi kulgriba kalendri
+   (lahter ~25px -> ring ~23px) tapselt endisena; mobiilis loeb --dotmax lagi. */
 .calcell .dnum{display:flex;align-items:center;justify-content:center;
-  width:min(78%,var(--dotmax));aspect-ratio:1;height:auto;border-radius:50%;transition:filter .1s}
+  width:min(92%,var(--dotmax));aspect-ratio:1;height:auto;border-radius:50%;transition:filter .1s}
 {{S020}}
 .calcell.ev:hover .dnum{filter:brightness(1.12)}
 {{S021}}
@@ -233,6 +233,13 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 {{S022}}
   .calbox{max-width:var(--calmax)}   /* mitte "none": voolav ruudustik venis ekraaniga, ring ei veninud */
   .calgrid{column-gap:1px}
+  /* HALO ainult mobiilis. Siin on lahter ~45px ja ring 30px, seega ringi korval on ~7px vaba
+     ruumi ja halo mahub ara. Paberivarvi vahe loob musta ringi accent-taidisest lahti - see
+     on ainus asi, mis teeb valitud paeva loetavaks ka punase laigu peal. Desktopi 190px
+     kulgribas seda ruumi POLE (1px), seal jaab kehtima S021 ohuke ring. */
+  .calcell.sel .dnum{box-shadow:0 0 0 2px var(--paber),0 0 0 3px var(--tint)}
+  .calcell.today.sel .dnum{box-shadow:0 0 0 1.6px var(--tint) inset,
+    0 0 0 2px var(--paber),0 0 0 3px var(--tint)}
 }
 /* Skoobi-chipid: oma sait on alati sees ja klikitav ei ole; teised on kinni seni,
    kuni api/events.json on laetud. */

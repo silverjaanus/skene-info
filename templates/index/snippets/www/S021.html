@@ -1,9 +1,10 @@
 /* TANA vs VALITUD (15.08.2026). Varem olid MOLEMAD must ring (1.6px inset vs 2px outset) ja
    kuna box-shadow ei liitu, kirjutas .sel .today varju ule -> kui tana OLI valitud paev, oli
-   naha ainult uks marge ja 15. august nagi valja tapselt nagu 23. august. Nuud:
-   tana = must ring, valitud = halo (paberivarvi vahe + must ring), kolmas reegel katab molemad. */
+   naha ainult uks marge ja 15. august nagi valja tapselt nagu 23. august. Kolmas reegel
+   (.today.sel) katab nuud molemad korraga.
+   NB halo (paberivarvi vahe) elab MOBIILI plokis: desktopi kulgriba kalender on 190px lai,
+   lahter 25px ja ring 23px -> koreale jaab 1px, halo ulatuks naabri ringi peale. */
 .calcell.today .dnum{background:transparent;color:var(--tint);font-weight:700;box-shadow:0 0 0 1.6px var(--tint) inset} /* täna: seest tühi must ring */
 .calcell.today.ev .dnum{background:var(--accent);color:var(--paber)} /* täna + üritus: värviline täidis + must sisering */
-/* halo: paberivarvi vahe loob musta ringi taidisest lahti, seega ta on naha ka punase laigu peal */
-.calcell.sel .dnum{box-shadow:0 0 0 2px var(--paber),0 0 0 3px var(--tint)} /* valitud päev */
-.calcell.today.sel .dnum{box-shadow:0 0 0 1.6px var(--tint) inset,0 0 0 2px var(--paber),0 0 0 3px var(--tint)} /* täna JA valitud korraga */
+.calcell.sel .dnum{box-shadow:0 0 0 2px var(--tint)} /* valitud päev */
+.calcell.today.sel .dnum{box-shadow:0 0 0 1.6px var(--tint) inset,0 0 0 2px var(--tint)} /* täna JA valitud korraga */
