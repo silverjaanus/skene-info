@@ -30,7 +30,8 @@ function grab(src, name) {
 
 const NIMED = ["pad2", "dOnly", "addDays", "isoOf", "endDate",
                "lastIso", "onLabi", "effIso", "kuuNext", "kuusOn", "covers",
-               "saidiJarjek", "saitOf", "interleaveSaidid", "isRel"];
+               "saidiJarjek", "saitOf", "interleaveSaidid", "isRel",
+               "aegVahemik", "aegSobib"];
 
 function laeFn(saitFail) {
   const src = fs.readFileSync(path.join(ROOT, saitFail), "utf8");
@@ -86,6 +87,25 @@ for (const fail of ["index.html", "rap/index.html", "klubi/index.html"]) {
   on(F.onLabi({ d: "2026-06-15", tba: true }), nimi + "TBA kirje ule 60 p vana ON labi");
   on(F.onLabi({ d: "2020-01-01", tba: true }), nimi + "ammune TBA kirje ON labi");
   on(!F.onLabi({ d: "2027-06-17", tba: true }), nimi + "tulevane TBA kirje ei ole labi");
+
+  // 3b. AJAFILTER (B5a). TODAY = 2026-08-15, mis on LAUPAEV.
+  // Nadalavahetuse arvutus on klassikaline nihkevea koht, seega testime koik seitse
+  // nadalapaeva labi eraldi (vt allpool, testAeg) ja siin ainult tanase seisu.
+  vordne(F.aegVahemik("tana").join(".."), "2026-08-15..2026-08-15", nimi + "tana = uks paev");
+  vordne(F.aegVahemik("7p").join(".."), "2026-08-15..2026-08-21", nimi + "7 paeva = tana + 6");
+  vordne(F.aegVahemik("nv").join(".."), "2026-08-15..2026-08-16", nimi + "laupaeval on nv tana..puhapaev");
+  on(F.aegSobib({ d: "2026-08-15" }, "tana"), nimi + "tanane kirje mahub tana-filtrisse");
+  on(!F.aegSobib({ d: "2026-08-16" }, "tana"), nimi + "homne kirje EI mahu tana-filtrisse");
+  // Kaimasolev mitmepaevane peab mahtuma, kuigi ta ALGAS eile - sama loogika mis onLabi.
+  on(F.aegSobib({ d: "2026-08-14", d2: "16.08" }, "tana"), nimi + "eile alanud festival mahub tana-filtrisse");
+  on(F.aegSobib({ d: "2026-08-21" }, "7p"), nimi + "7. paeva kirje mahub veel");
+  on(!F.aegSobib({ d: "2026-08-22" }, "7p"), nimi + "8. paeva kirje EI mahu");
+  // dd-massiiv (tuur aukudega): loeb, kas MONI kuupaev jaab vahemikku.
+  on(F.aegSobib({ d: "2026-08-10", d2: "20.08", dd: ["2026-08-10", "2026-08-16"] }, "nv"),
+     nimi + "tuuri 16.08 kuupaev mahub nadalavahetusse");
+  on(!F.aegSobib({ d: "2026-08-10", d2: "20.08", dd: ["2026-08-10", "2026-08-20"] }, "nv"),
+     nimi + "tuur, mille ukski kuupaev nv-sse ei jaa, ei mahu");
+  on(F.aegSobib({ d: "2027-01-01" }, null), nimi + "ilma ajafiltrita mahub koik");
 
   // 4. Kuufilter: kuudevaheline festival peab olema leitav MOLEMAST kuust.
   const ule = { d: "2026-07-29", d2: "01.08" };
@@ -204,6 +224,35 @@ for (const fail of ["arhiiv.html", "rap/arhiiv.html", "klubi/arhiiv.html"]) {
   on(A.kuusOn(tuur, "2026-05") && A.kuusOn(tuur, "2026-06"),
      nimi + "dd-tuur molemas kuus");
   on(!A.kuusOn(tuur, "2026-07"), nimi + "dd-tuur mitte juulis");
+}
+
+// --- AJAFILTER: nadalavahetus KOIGIL seitsmel nadalapaeval (B5a) ----------------
+// Nadalavahetuse arvutus toetub getDay()-le ja nihkeveale on siin lihtne alla jaada
+// (sunday-first vs monday-first, "kaesolev vs jargmine"). Reegel, mida testime:
+//   R/L  -> tanasest kuni PUHAPAEVANI (kaesolev nadalavahetus, mitte jargmine)
+//   P    -> ainult tana (puhapaev ON nadalavahetuse viimane paev)
+//   E-N  -> jargmine R kuni P
+// 2026-08-17 on esmaspaev, seega jarjestikused paevad katavad koik seitse varianti.
+{
+  const src = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
+  const oodatud = {
+    "2026-08-17": ["2026-08-21", "2026-08-23"],  // E -> jargmine R..P
+    "2026-08-18": ["2026-08-21", "2026-08-23"],  // T
+    "2026-08-19": ["2026-08-21", "2026-08-23"],  // K
+    "2026-08-20": ["2026-08-21", "2026-08-23"],  // N
+    "2026-08-21": ["2026-08-21", "2026-08-23"],  // R -> tana..P
+    "2026-08-22": ["2026-08-22", "2026-08-23"],  // L -> tana..P
+    "2026-08-23": ["2026-08-23", "2026-08-23"],  // P -> ainult tana
+  };
+  const NIM = ["pad2", "dOnly", "addDays", "isoOf", "lastIso", "endDate", "aegVahemik"];
+  for (const paev of Object.keys(oodatud)) {
+    const F = new Function("TODAY", NIM.map(n => grab(src, n)).join("\n")
+                           + "\nreturn {" + NIM.join(",") + "};")(paev);
+    vordne(F.aegVahemik("nv").join(".."), oodatud[paev].join(".."),
+           "nadalavahetus kui tana on " + paev);
+    // "tana" ja "7p" peavad samuti liikuma kaasa
+    vordne(F.aegVahemik("tana").join(".."), paev + ".." + paev, "tana kui tana on " + paev);
+  }
 }
 
 console.log((vigu ? "KUKKUS" : "OK") + " - " + ok + " kontrolli labitud, " + vigu + " viga");

@@ -29,4 +29,6 @@ function entryMetas(e){
  if(g.length&&!s.size)s.add("alt");
  return s;
 }
-let st={type:null,metas:new Set(),tags:new Set(),city:null,cityMore:false,past:false,kuu:null,day:null,q:""};
+// qRaw = kasutaja kirjutatud otsingusona (laheb URL-i), q = norm()-itud (vordluseks).
+// aeg = ajafilter: null | "tana" | "nv" | "7p" (B5a).
+let st={type:null,metas:new Set(),tags:new Set(),city:null,cityMore:false,past:false,kuu:null,day:null,q:"",qRaw:"",aeg:null};

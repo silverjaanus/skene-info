@@ -36,4 +36,6 @@ function entryMetas(e){
  g.forEach(x=>(GENRE_META[x]||[]).forEach(m=>s.add(m)));
  return s;   // tundmatu sildiga kirje ei lange ühegi chipi alla - vt kommentaari ülal
 }
-let st={type:null,metas:new Set(),tags:new Set(),city:null,past:false,kuu:null,day:null,q:""};
+// qRaw = kasutaja kirjutatud otsingusona (laheb URL-i), q = norm()-itud (vordluseks).
+// aeg = ajafilter: null | "tana" | "nv" | "7p" (B5a).
+let st={type:null,metas:new Set(),tags:new Set(),city:null,past:false,kuu:null,day:null,q:"",qRaw:"",aeg:null};

@@ -363,6 +363,9 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       </div>
     </div>
     <div class="filters" id="filters">
+      <!-- B5a: ajafilter on ESIMENE rida. Enamik kasutajaid ei tea, MILLAL nad tahavad
+           minna — nad tahavad teada, mis täna toimub. Kalender vastab teisele küsimusele. -->
+      <div class="frow"><span class="flabel" data-i18n="f_aeg_l">Millal</span><span id="f-aeg"></span></div>
       <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
       <div class="frow" id="frow-tag"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
       <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
@@ -521,6 +524,7 @@ const I18N={
   no_results_hint_empty:"Praegu ei ole siin ühtegi kirjet.",
   clear_all:"× Puhasta filtrid", remove_filter:"Eemalda see filter",
   search_all_sites:"otsing: kõik saidid",
+  f_aeg_l:"Millal", aeg_tana:"Täna", aeg_nv:"Sel nädalavahetusel", aeg_7p:"Järgmised 7 päeva",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
@@ -579,6 +583,7 @@ const I18N={
   no_results_hint_empty:"There are no entries here right now.",
   clear_all:"× Clear filters", remove_filter:"Remove this filter",
   search_all_sites:"search: all sites",
+  f_aeg_l:"When", aeg_tana:"Today", aeg_nv:"This weekend", aeg_7p:"Next 7 days",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
@@ -641,7 +646,9 @@ const E_FALLBACK = [
 ];
 const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],["t_klubi","klubi"],["t_reliis","reliis"],["t_merch","merch"],["t_muu","muu"]];
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
-let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:""};
+// qRaw = kasutaja kirjutatud otsingusona (laheb URL-i), q = norm()-itud (vordluseks).
+// aeg = ajafilter: null | "tana" | "nv" | "7p" (B5a). NB rapil metas-valja EI OLE.
+let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:"",qRaw:"",aeg:null};
 let calView=(function(){try{return localStorage.getItem('skene_calview')||'cal';}catch(e){return 'cal';}})();
 let calYM={y:new Date().getFullYear(),m:new Date().getMonth()};
 // Domeeniülene otsing: SELF = see sait; ALLX = kõigi 3 saidi koondkirjed (api/events.json).
@@ -736,6 +743,34 @@ function isRel(e){return !!(e.rel||e.t==="reliis"||e.t==="merch");}
 // Reliisi-/merchivaates on nad muidugi alles. Sama reegel kehtib ka kalendritappidele,
 // muidu tekiks tapp paeval, mis avades on tuhi.
 function relPeidus(e){return isRel(e)&&st.type!=="reliis"&&st.type!=="merch";}
+// ---------- AJAFILTER: TANA / SEL NADALAVAHETUSEL / JARGMISED 7 PAEVA (B5a) ----------
+// Kalender ja kuufilter eeldavad, et kasutaja TEAB, millal ta tahab minna. Enamik ei tea --
+// nad tahavad teada, mis TANA toimub. Sellepärast on see koigi suurte platvormide (RA, DICE,
+// Songkick, Eventbrite) esimene filter, ja auditi hinnangul suurim uksikvoit avastamisel.
+//
+// Vahemik arvutatakse TODAY pealt, seega A9 paevavahetuse kontroll uuendab ka seda.
+// "Nadalavahetus" = LAHIM R-P: kui tana on juba R/L/P, siis KAESOLEV (tanasest puhapaevani),
+// muidu jargmine reede-puhapaev. Nii ei tahenda "sel nadalavahetusel" laupaeval seda, mis
+// on kuue paeva parast.
+function aegVahemik(a){
+  if(a==="tana")return [TODAY,TODAY];
+  if(a==="7p")return [TODAY,isoOf(addDays(dOnly(TODAY),6))];
+  if(a==="nv"){
+    const n=dOnly(TODAY).getDay();            // 0=P, 1=E ... 5=R, 6=L
+    if(n===5||n===6)return [TODAY,isoOf(addDays(dOnly(TODAY),n===5?2:1))];
+    if(n===0)return [TODAY,TODAY];            // puhapaev on juba nadalavahetuse viimane paev
+    return [isoOf(addDays(dOnly(TODAY),5-n)),isoOf(addDays(dOnly(TODAY),7-n))];
+  }
+  return null;
+}
+// Kirje mahub vahemikku, kui tema oma vahemik seda LOIKAB (mitte ei alga selle sees):
+// 14.-16.08 festival peab "tana on 15.08" filtri all olema, kuigi ta algas eile.
+function aegSobib(e,a){
+  const v=aegVahemik(a);
+  if(!v)return true;
+  if(Array.isArray(e.dd)&&e.dd.length)return e.dd.some(x=>x>=v[0]&&x<=v[1]);
+  return (e.d||"")<=v[1]&&lastIso(e)>=v[0];
+}
 // Kirje kuulub kuusse, kui kuu jaab tema vahemikku — mitte ainult alguskuusse.
 // (29.07-01.08 festival peab olema leitav ka augustist.)
 function kuusOn(e,kuu){
@@ -884,6 +919,11 @@ function render(){
     if(st.type&&e.t!==st.type)return false;
     if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
+    // B5a: ajafilter. Nagu paevavalik, tahendab ka "tana"/"nadalavahetus" URITUSE otsimist,
+    // seega reliisid on peidus (sama reegel, mis relPeidus paevavalikul) -- muidu oleks
+    // "mis tana toimub" vastus pooleldi plaadid.
+    if(st.aeg&&!aegSobib(e,st.aeg))return false;
+    if(st.aeg&&relPeidus(e))return false;
     if(st.kuu&&!kuusOn(e,st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
     if(st.day&&relPeidus(e))return false;
@@ -909,6 +949,7 @@ function render(){
   // seal on jarjestus lisamise kuupaeva jargi ja segamine lohuks selle.
   if(st.type!=="reliis")rows=interleaveSaidid(rows);
   document.getElementById("count").textContent=rows.length+" "+t('entries')
+    +(st.aeg?" · "+t('aeg_'+(st.aeg==='7p'?'7p':st.aeg)).toLowerCase():"")
     +(st.day?" · "+st.day.slice(8,10)+"."+st.day.slice(5,7)+"."+st.day.slice(0,4):"")
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
     +(st.tags.size?" · "+t('genre_c')+" "+[...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
@@ -993,6 +1034,11 @@ function covers(e,isoStr){
   if(Array.isArray(e.dd)&&e.dd.length)return e.dd.indexOf(isoStr)!==-1;
   const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);
 }
+// ⚠ AJAFILTRIT (st.aeg) SIIN TEADLIKULT EI RAKENDATA, kuigi see on samuti aktiivne filter.
+// Pohjus: kuud() ja kalendritapid tohivad lubada tapselt seda, mida KLIKK annab -- ja kuu voi
+// paeva klikkimine votab ajafiltri maha (setF/pickDay). Kui rakendaks, naitaks "tana" filtri
+// all kuuloend kohe nulle ja kalender oleks tuhi, kuigi neid klikkides tuleks sisu.
+// See on sama reegel, mis A3 parandas, ainult teistpidi.
 function calBase(lubaRel){ // aktiivsete filtritega (v.a kuu/paev) nahtavad kirjed
   return scoped().filter(e=>{
     if(!matchQ(e))return false;
@@ -1052,7 +1098,7 @@ function renderCal(){
   box.innerHTML=html;
 }
 function calNav(delta){let m=calYM.m+delta,y=calYM.y;if(m<0){m=11;y--;}if(m>11){m=0;y++;}calYM={y:y,m:m};renderCal();}
-function pickDay(isoStr){st.day=(st.day===isoStr)?null:isoStr;if(st.day)st.kuu=null;refresh();}
+function pickDay(isoStr){st.day=(st.day===isoStr)?null:isoStr;if(st.day){st.kuu=null;st.aeg=null;}refresh();}
 // kalendripaeva valimine klaviatuuriga (delegeeritud, sest renderCal kirjutab sisu ule)
 document.addEventListener('keydown',function(ev){
   if(ev.key!=='Enter'&&ev.key!==' ')return;
@@ -1076,8 +1122,23 @@ function setCalView(v){
   if(v==='months')st.day=null; else st.kuu=null;
   applyCalView();refresh();
 }
+// B5a: ajafiltri chipid. Klikk samale chipile votab valiku maha (nagu zanrichipid).
+// Aeg, kuu ja paev on KOLM VOISTLEVAT kuupaevafiltrit -- korraga saab kehtida ainult uks,
+// muidu tekiks "tana JA september" tuupi kombinatsioon, mis on peaaegu alati tuhi.
+function setAeg(a){
+  st.aeg=(st.aeg===a)?null:a;
+  if(st.aeg){st.kuu=null;st.day=null;}
+  refresh();
+}
+function aegChips(){
+  const el=document.getElementById('f-aeg');if(!el)return;
+  const nupp=(v,k)=>`<button class="chip${st.aeg===v?" on":""}" aria-pressed="${st.aeg===v}" onclick="setAeg('${v}')">${t(k)}</button>`;
+  el.innerHTML=nupp('tana','aeg_tana')+" "+nupp('nv','aeg_nv')+" "+nupp('7p','aeg_7p');
+}
 function setF(k,v){
   st[k]=v;
+  // Kuu voi paev valides laheb ajafilter maha -- vt setAeg kommentaari.
+  if(k==='kuu'||k==='day')st.aeg=null;
   if(k==='kuu')st.day=null;
   // st.past lulitab sisse ainult reliisivaade (allRel) - muidu jaaks minevik pusivalt lahti
   if(k==='type'&&v!=='reliis')st.past=false;
@@ -1232,7 +1293,7 @@ function renderRel(){
   const box=document.getElementById('relbox');if(!box)return;
   // Riba on ainult vaikevaates. Otsing, paev, kuu, tuup voi zanrivalik = kasutaja otsib
   // midagi konkreetset, siis oleks riba segav.
-  const puhas=!st.q&&!st.day&&!st.kuu&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
+  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
   const pick=puhas?relPick():[];
   box.hidden=!pick.length;
   if(!pick.length)return;
@@ -1240,7 +1301,7 @@ function renderRel(){
 }
 function allRel(){
   st.q="";st.qRaw="";const sb=document.getElementById('f-q');if(sb)sb.value="";
-  st.day=null;st.kuu=null;st.tags.clear();if(st.metas)st.metas.clear();
+  st.day=null;st.kuu=null;st.aeg=null;st.tags.clear();if(st.metas)st.metas.clear();
   st.type="reliis";st.past=true;   // past=true, muidu jaaks alles vaid 30-paevane aken
   refresh();
   const c=document.getElementById('count');
@@ -1321,13 +1382,13 @@ function filtreidAktiivseid(){
 // Mitu filtrit on peal? Zanrid loevad UKSHAAVAL (metal+punk = 2), sest kasutaja jaoks on
 // need kaks eraldi valikut. Kuu ja paev on valistavad, seega maksimaalselt uks neist.
 function filtreidArv(){
-  return (st.type?1:0)+(st.city?1:0)+(st.kuu?1:0)+(st.day?1:0)+(st.q?1:0)
+  return (st.type?1:0)+(st.city?1:0)+(st.kuu?1:0)+(st.day?1:0)+(st.q?1:0)+(st.aeg?1:0)
         +st.tags.size+((st.metas&&st.metas.size)||0);
 }
 // 15.08.2026 (A1/A4): uks nupp, mis viib puhtale vaatele. Varem sai zanreid nullida
 // (clearTags), aga tuup, koht, kuu, paev ja otsing tuli igauks eraldi tagasi klopsata.
 function resetAll(){
-  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";
+  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";st.aeg=null;
   st.tags=new Set();if(st.metas)st.metas=new Set();
   // ⚠ st.past PEAB siin nullituma. allRel() paneb ta true peale ja kui "puhasta filtrid" teda
   // ei puutu, jaab minevik parast reseti vaikselt sisse (URL-i jaab ?p=1) -- kasutaja vajutas
@@ -1344,7 +1405,7 @@ function clearTags(){st.tags=new Set();refresh();}
 // ajaloosissekannet; (3) F5 laadis lehe nullist ja kogu valik kadus.
 // Parameetrid on lühikesed ja PÜSIVAD -- jagatud link peab töötama ka aasta pärast:
 //   t=tüüp  g=žanrid(koma)  c=koht  m=kuu(YYYY-MM)  d=päev(YYYY-MM-DD)
-//   q=otsing  s=saidid(koma)  p=1 (minevik/reliisivaade)
+//   q=otsing  s=saidid(koma)  p=1 (minevik/reliisivaade)  w=aeg (tana|nv|7p)
 // ⚠ `g` sisaldab nii metasid kui toorsilte ühes loendis; lugemisel otsustab METAS-kuuluvus,
 // kumb ta on. Nii ei pea link teadma saidi sisemist vahet.
 function urlParams(){
@@ -1353,6 +1414,7 @@ function urlParams(){
   const g=[...(st.metas||[]),...st.tags];
   if(g.length)p.set('g',g.join(','));
   if(st.city)p.set('c',st.city);
+  if(st.aeg)p.set('w',st.aeg);           // w = when: tana / nv / 7p
   if(st.kuu)p.set('m',st.kuu);
   if(st.day)p.set('d',st.day);
   if(st.q)p.set('q',st.qRaw||st.q);
@@ -1380,6 +1442,7 @@ function urlLoe(){
   const p=new URLSearchParams(location.search);
   st.type=p.get('t')||null;
   st.city=p.get('c')||null;
+  st.aeg=(["tana","nv","7p"].indexOf(p.get('w'))!==-1)?p.get('w'):null;  // tundmatu vaartus -> maha
   st.kuu=p.get('m')||null;
   st.day=p.get('d')||null;
   st.qRaw=(p.get('q')||"").trim();st.q=norm(st.qRaw);
@@ -1425,6 +1488,7 @@ function fookusTagasi(f){
 function refresh(){
   const _fookus=fookusEnne();
   urlKirjuta();
+  aegChips();
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
     tagChips();
