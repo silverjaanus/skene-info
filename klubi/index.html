@@ -864,7 +864,19 @@ function matchQ(e){
   const hay=norm([e.n,e.a,e.v,e.linn,e.c,(e.b||[]).join(" "),(e.g||[]).join(" ")].join(" | "));
   return st.q.split(/\s+/).every(w=>hay.includes(w));
 }
-function setQ(v){st.q=norm(v.trim());render();renderRel();}
+// ⚠ setQ kutsus varem AINULT render()+renderRel() -- kalender ja kuuloend jäid otsingu ajal
+// vana andmehulga peale. Alates 15.08 sõltuvad kuunumbrid calBase()-ist, mis arvestab ka
+// otsingut, seega ilma refresh()-ita näitaks külgriba otsingu ajal valet. Nimekiri
+// uueneb kohe (kiire tagasiside), raskem osa + URL veidi hiljem -- muidu renderdaks iga
+// klahvivajutus kogu kalendri ja lükkaks ajalukku uue kirje.
+// st.qRaw = kasutaja kirjutatud kuju (läheb URL-i ja otsingukasti);
+// st.q = norm()-itud kuju (võrdluseks). Neid ei tohi segi ajada.
+let _qTimer=null;
+function setQ(v){
+  st.qRaw=v.trim();st.q=norm(st.qRaw);
+  render();renderRel();
+  clearTimeout(_qTimer);_qTimer=setTimeout(refresh,180);
+}
 let RROWS=[];
 function suggestEdit(i){
   const e=RROWS[i];if(!e)return false;
@@ -1239,7 +1251,7 @@ function renderRel(){
   document.getElementById('relstrip').innerHTML=pick.map(relCard).join("");
 }
 function allRel(){
-  st.q="";const sb=document.getElementById('f-q');if(sb)sb.value="";
+  st.q="";st.qRaw="";const sb=document.getElementById('f-q');if(sb)sb.value="";
   st.day=null;st.kuu=null;st.tags.clear();if(st.metas)st.metas.clear();
   st.type="reliis";st.past=true;   // past=true, muidu jaaks alles vaid 30-paevane aken
   refresh();
@@ -1311,7 +1323,7 @@ function filtreidAktiivseid(){
 // 15.08.2026 (A1/A4): uks nupp, mis viib puhtale vaatele. Varem sai zanreid nullida
 // (clearTags), aga tuup, koht, kuu, paev ja otsing tuli igauks eraldi tagasi klopsata.
 function resetAll(){
-  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";
+  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";
   st.tags=new Set();if(st.metas)st.metas=new Set();
   const sb=document.getElementById('f-q');if(sb)sb.value="";
   refresh();
@@ -1321,7 +1333,68 @@ function setMeta(m){
   refresh();
 }
 function clearTags(){st.metas=new Set();st.tags=new Set();refresh();}
+// ---------- URL-OLEK (A6, 15.08.2026) ----------
+// Varem elas filtrivalik AINULT JS-i mälus. Kolm tagajärge, mis kõik on kasutaja jaoks
+// katkine tunne: (1) filtreeritud vaadet ei saanud kellelegi saata; (2) brauseri TAGASI-nupp
+// ei võtnud filtrit maha vaid viskas saidilt välja, sest ükski filtriklikk ei teinud
+// ajaloosissekannet; (3) F5 laadis lehe nullist ja kogu valik kadus.
+// Parameetrid on lühikesed ja PÜSIVAD -- jagatud link peab töötama ka aasta pärast:
+//   t=tüüp  g=žanrid(koma)  c=koht  m=kuu(YYYY-MM)  d=päev(YYYY-MM-DD)
+//   q=otsing  s=saidid(koma)  p=1 (minevik/reliisivaade)
+// ⚠ `g` sisaldab nii metasid kui toorsilte ühes loendis; lugemisel otsustab METAS-kuuluvus,
+// kumb ta on. Nii ei pea link teadma saidi sisemist vahet.
+function urlParams(){
+  const p=new URLSearchParams();
+  if(st.type)p.set('t',st.type);
+  const g=[...(st.metas||[]),...st.tags];
+  if(g.length)p.set('g',g.join(','));
+  if(st.city)p.set('c',st.city);
+  if(st.kuu)p.set('m',st.kuu);
+  if(st.day)p.set('d',st.day);
+  if(st.q)p.set('q',st.qRaw||st.q);
+  if(st.past)p.set('p','1');
+  // Skoop läheb linki, ET JAGATUD LINK NÄITAKS SAMA, mida saatja nägi. See ei ole vastuolus
+  // 06.08 otsusega "skoopi ei salvestata": parameetrita külastus algab endiselt puhtalt
+  // oma saidiga -- salvestamist (localStorage) ikka ei ole.
+  if(scope.size>1)p.set('s',SAIDID.filter(x=>scope.has(x)).join(','));
+  const s=p.toString();
+  return s?('?'+s):location.pathname;
+}
+function urlKirjuta(){
+  const uus=urlParams();
+  const praegu=location.search||location.pathname;
+  if(uus===praegu)return;   // andmete saabumise refresh() ei tohi ajalukku kirjet teha
+  // Otsingul ei tohi iga klahvivajutus teha ajaloosissekannet -- muidu tuleks "tallinn"
+  // maha võtmiseks vajutada TAGASI seitse korda. Otsingu muutus kirjutab viimase kirje üle.
+  const vanaQ=new URLSearchParams(praegu.replace(/^\?/,'')).get('q')||"";
+  const uusQ=new URLSearchParams(uus.replace(/^\?/,'')).get('q')||"";
+  const ainultQ=(vanaQ!==uusQ)&&
+    praegu.replace(/[?&]q=[^&]*/,'')===uus.replace(/[?&]q=[^&]*/,'');
+  try{history[ainultQ?'replaceState':'pushState']({skene:1},"",uus);}catch(e){}
+}
+function urlLoe(){
+  const p=new URLSearchParams(location.search);
+  st.type=p.get('t')||null;
+  st.city=p.get('c')||null;
+  st.kuu=p.get('m')||null;
+  st.day=p.get('d')||null;
+  st.qRaw=(p.get('q')||"").trim();st.q=norm(st.qRaw);
+  st.past=p.get('p')==='1';
+  st.tags=new Set();if(st.metas)st.metas=new Set();
+  (p.get('g')||"").split(',').filter(Boolean).forEach(g=>{
+    if(st.metas&&typeof METAS!=='undefined'&&METAS.indexOf(g)!==-1)st.metas.add(g);
+    else st.tags.add(g);
+  });
+  const s=(p.get('s')||"").split(',').filter(Boolean);
+  scope=new Set([SELF]);
+  s.forEach(x=>{if(SAIDID.indexOf(x)!==-1)scope.add(x);});
+  const sb=document.getElementById('f-q');if(sb)sb.value=p.get('q')||"";
+}
+// TAGASI/EDASI: loe URL uuesti ja joonista. urlKirjuta() ei tee siin uut kirjet, sest
+// location.search on juba sihtväärtus -> uus===praegu.
+window.addEventListener('popstate',function(){urlLoe();refresh();});
 function refresh(){
+  urlKirjuta();
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
     (function(){const nv=metasNahtaval();return (
@@ -1367,7 +1440,9 @@ function varuTeade(){
     : 'Värsket nimekirja ei õnnestunud laadida — näitan sisseehitatud varukoopiat, mis võib olla aegunud.';
   l.parentNode.insertBefore(d,l);
 }
-applyI18n();applyCalView();E=E_FALLBACK;refresh();
+// urlLoe() ENNE esimest refresh()-i: jagatud link peab avanema kohe õige valikuga, mitte
+// vilksatama vaikevaadet. Esimene urlKirjuta() ei tee ajaloosissekannet, sest URL on juba paigas.
+applyI18n();applyCalView();urlLoe();E=E_FALLBACK;refresh();
 fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;injectLD();refresh();}).catch(()=>{varuTeade();});
 fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
 // ALLX-i saabudes tuleb refresh() teha ka ilma otsinguta: skoobi-chipid on enne seda
