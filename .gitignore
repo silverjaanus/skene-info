@@ -1,6 +1,8 @@
 # sisemised töödokumendid — ei kuulu avalikku reposse
 HANDOVER.md
 HANDOVER-ARCHIVE.md
+# kärpe-eelsed koopiad (HANDOVER pole versioonihalduses -> kärbe tehakse koopiaga)
+HANDOVER*.bak-*
 SKENE-*.md
 postitused/
 skene-cover-*.png
