@@ -258,6 +258,9 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .chip.self{cursor:default}
 .chip[disabled]{opacity:.55}
 .chip.self[disabled]{opacity:1}
+/* Koondfeedi torge on nahtav tekst, mitte ainult title-atribuut (mobiilis hover puudub). */
+.scopeerr{display:block;margin:6px 0 0;font-family:var(--mono);font-size:11.5px;
+  color:var(--hall);border-left:2px solid var(--accent);padding-left:7px}
 /* --- TAGASISIDE-BANNER: uks kitsas rida paise all, suletav (localStorage) --- */
 .fbban{display:flex;align-items:center;gap:12px;
   border-bottom:1px solid var(--joon);padding:13px 0;font-family:var(--mono)}
@@ -478,6 +481,7 @@ const I18N={
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
   f_scope_l:"Sait", f_scope_self:"See sait on alati näha",
   f_scope_off:"api/events.json ei laadinud — teiste saitide kirjeid ei saa juurde võtta",
+  f_scope_err:"Teiste saitide kirjeid ei õnnestunud laadida — proovi lehte värskendada.",
   rel_h:"Uued reliisid", rel_all:"Kõik reliisid →",
   rel_arch:"Näita ka arhiveeritud reliise", rel_arch_load:"Laen arhiivi…",
   rel_arch_err:"Arhiivi laadimine ebaõnnestus. Proovi hetke pärast uuesti.",
@@ -527,6 +531,7 @@ const I18N={
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
   f_scope_l:"Site", f_scope_self:"This site is always shown",
   f_scope_off:"api/events.json did not load — entries from the other sites cannot be added",
+  f_scope_err:"Could not load the other sites' entries — try refreshing the page.",
   rel_h:"New releases", rel_all:"All releases →",
   rel_arch:"Also show archived releases", rel_arch_load:"Loading archive…",
   rel_arch_err:"Could not load the archive. Please try again in a moment.",
@@ -589,6 +594,9 @@ const SITE_LBL={www:"METAL",rap:"RÄPP",klubi:"KLUBI"};
 const SITE_URL={www:"https://www.skene.info/",rap:"https://rap.skene.info/",klubi:"https://klubi.skene.info/"};
 const SITE_BG={www:"#93392C",rap:"#2E5EAA",klubi:"#6E45A8"};
 let ALLX=[];
+// "laen" -> "ok" | "katki". 15.08.2026: varem oli api/events.json torge TAIESTI vaikiv -
+// chipid jaid halliks ja pohjus elas ainult title-atribuudis, mida mobiilis ei nae.
+let ALLX_SEIS="laen";
 function tags(){const s=new Set();E.forEach(e=>(e.g||[]).forEach(g=>s.add(g)));return[...s].sort();}
 function enc(x){return encodeURIComponent(x);}
 const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
@@ -1013,6 +1021,15 @@ function scopeChips(){
       +(kinni?' disabled title="'+esc(self?t('f_scope_self'):t('f_scope_off'))+'"':'')
       +' onclick="toggleScope(\''+s+'\')">'+SITE_LBL[s]+'</button>';
   }).join(" ");
+  // Kui koondfeed ei laadinud, utle seda NAHTAVALT. Laadimise ajal ei utle midagi -
+  // see on tavaliselt paar sajandiksekundit ja vilkuv teade oleks halvem kui vaikus.
+  if(ALLX_SEIS==="katki"){
+    // NB span, mitte p: #f-scope ise on <span>, ja <p> selle sees on vigane HTML.
+    const p=document.createElement('span');
+    p.className='scopeerr';
+    p.textContent=t('f_scope_err');
+    el.appendChild(p);
+  }
 }
 function toggleScope(s){
   if(s===SELF||!ALLX.length)return;
@@ -1181,7 +1198,7 @@ fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.ent
 fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
 // ALLX-i saabudes tuleb refresh() teha ka ilma otsinguta: skoobi-chipid on enne seda
 // kinni (pole mille pealt teisi saite juurde votta).
-fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];refresh();}).catch(()=>{});
+fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{ALLX=j.entries||[];ALLX_SEIS="ok";refresh();}).catch(()=>{ALLX_SEIS="katki";refresh();});
 (function(){var b=document.getElementById('toTop');if(!b)return;var on=function(){b.classList.toggle('show',window.scrollY>500);};window.addEventListener('scroll',on,{passive:true});on();})();
 </script>
 </body>

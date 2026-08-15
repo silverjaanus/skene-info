@@ -151,5 +151,38 @@ for (const fail of ["index.html", "rap/index.html", "klubi/index.html"]) {
   vordne(F.interleaveSaidid([]).length, 0, nimi + "tuhi sisend ei kuku");
 }
 
+// --- ARHIIVILEHT: sama juur, ainult kuufilter -----------------------------------
+// arhiiv.html-il ei ole "labi"-moistet (koik on labi) ega round-robinit, aga kuufilter
+// kasutas sedasama `e.d.startsWith(st.kuu)` reeglit -> kuudevaheline festival oli
+// leitav ainult alguskuust.
+const ARH = ["pad2", "dOnly", "addDays", "isoOf", "lastIso", "kuuNext", "kuusOn"];
+for (const fail of ["arhiiv.html", "rap/arhiiv.html", "klubi/arhiiv.html"]) {
+  const src = fs.readFileSync(path.join(ROOT, fail), "utf8");
+  const A = new Function(ARH.map(n => grab(src, n)).join("\n")
+                         + "\nreturn {" + ARH.join(",") + "};")();
+  const nimi = fail + ": ";
+
+  const ule = { d: "2026-07-29", d2: "01.08" };
+  vordne(A.lastIso(ule), "2026-08-01", nimi + "kuudevahelise festivali lopp");
+  on(A.kuusOn(ule, "2026-07"), nimi + "leitav juulist");
+  on(A.kuusOn(ule, "2026-08"), nimi + "leitav ka augustist");
+  on(!A.kuusOn(ule, "2026-06"), nimi + "ei ole juunis");
+  on(!A.kuusOn(ule, "2026-09"), nimi + "ei ole septembris");
+
+  const yks = { d: "2026-03-14" };
+  vordne(A.lastIso(yks), "2026-03-14", nimi + "uhepaevase kirje lopp = tema enda paev");
+  on(A.kuusOn(yks, "2026-03"), nimi + "uhepaevane kirje oma kuus");
+  on(!A.kuusOn(yks, "2026-04"), nimi + "uhepaevane kirje mitte jargmises kuus");
+
+  const uusaasta = { d: "2026-12-31", d2: "01.01" };
+  vordne(A.lastIso(uusaasta), "2027-01-01", nimi + "aastavahetuse kirje lopp");
+  on(A.kuusOn(uusaasta, "2026-12"), nimi + "aastavahetuse kirje detsembris");
+
+  const tuur = { d: "2026-05-01", d2: "30.06", dd: ["2026-05-01", "2026-06-30"] };
+  on(A.kuusOn(tuur, "2026-05") && A.kuusOn(tuur, "2026-06"),
+     nimi + "dd-tuur molemas kuus");
+  on(!A.kuusOn(tuur, "2026-07"), nimi + "dd-tuur mitte juulis");
+}
+
 console.log((vigu ? "KUKKUS" : "OK") + " - " + ok + " kontrolli labitud, " + vigu + " viga");
 process.exit(vigu ? 1 : 0);

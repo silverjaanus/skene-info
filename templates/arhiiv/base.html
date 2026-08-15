@@ -300,6 +300,34 @@ function priceLine(e){
   if(h.kuni&&h.jargmine)return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b> ${t('price_until')} ${esc(h.kuni)}, ${t('price_after')} <b>${esc(h.jargmine)}</b></span>`;
   return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b>${h.mark?" — "+esc(h.mark):""}</span>`;
 }
+// --- MITMEPAEVASED KIRJED (parandus 15.08.2026, sama juur mis index.html-is) ------
+// Kuufilter kasutas `e.d.startsWith(st.kuu)`, seega 29.07-01.08 festival oli arhiivis
+// leitav AINULT juulist. Nuud loeb kogu vahemik. Aastavahetuse kirje (31.12-01.01) jaab
+// oma alguse aasta faili, seega kuuloendis piirdume alguse aastaga.
+function pad2(n){return String(n).padStart(2,"0");}
+function dOnly(str){return new Date(str+"T00:00");}
+function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
+function isoOf(d){return d.getFullYear()+"-"+pad2(d.getMonth()+1)+"-"+pad2(d.getDate());}
+function lastIso(e){
+  if(Array.isArray(e.dd)&&e.dd.length)return e.dd.slice().sort()[e.dd.length-1];
+  if(!e.d)return "";
+  const start=dOnly(e.d);
+  if(!e.d2)return e.d;
+  const p=e.d2.split(".");
+  let end=new Date(start.getFullYear(),parseInt(p[1],10)-1,parseInt(p[0],10));
+  if(end<start)end.setFullYear(end.getFullYear()+1);
+  return isoOf(end);
+}
+function kuuNext(k){
+  let y=parseInt(k.slice(0,4),10),m=parseInt(k.slice(5,7),10)+1;
+  if(m>12){m=1;y++;}
+  return y+"-"+pad2(m);
+}
+function kuusOn(e,kuu){
+  if(Array.isArray(e.dd)&&e.dd.length)return e.dd.some(x=>x.slice(0,7)===kuu);
+  if(!e.d)return false;
+  return e.d.slice(0,7)<=kuu&&lastIso(e).slice(0,7)>=kuu;
+}
 function fmt(e){
   if(e.tba)return"TBA";
   const dt=new Date(e.d+"T00:00");
@@ -314,7 +342,14 @@ function aastad(){
 }
 function kuud(){
   const m={};
-  E.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
+  // Kirje laheb iga kuu alla, mida ta katab (sama reegel mis kuufiltris, kuusOn).
+  // Aasta piires: aastavahetuse kirje elab oma alguse aasta failis.
+  E.forEach(e=>{
+    if(!e.d)return;
+    const a=e.d.slice(0,7),aasta=e.d.slice(0,4);
+    const b=(lastIso(e)||e.d).slice(0,7);
+    for(let k=a;k<=b&&k.slice(0,4)===aasta;k=kuuNext(k))m[k]=(m[k]||0)+1;
+  });
   const ks=Object.keys(m).sort().reverse();
   document.getElementById("kuud").innerHTML=
     `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">${t('all_months')} <small>${E.length}</small></button>`+
@@ -326,7 +361,7 @@ function render(){
 {{S021}}
     if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
-    if(st.kuu&&!e.d.startsWith(st.kuu))return false;
+    if(st.kuu&&!kuusOn(e,st.kuu))return false;
     return true;
   }).sort((a,b)=>b.d.localeCompare(a.d));
   document.getElementById("count").textContent=rows.length+" "+t('entries')+(st.year?" · "+st.year:"")
