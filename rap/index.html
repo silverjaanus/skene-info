@@ -456,7 +456,10 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       </div>
       <div class="rel-strip" id="relstrip"></div>
     </section>
-    <p class="count" id="count"></p>
+    <!-- A13: aria-live -> ekraanilugeja teatab uue tulemuste arvu. Ilma selleta muutus
+         nimekiri filtri peale vaikselt ja pime kasutaja ei saanud teada, kas midagi juhtus.
+         "polite" = ei katkesta pooleliolevat konet. -->
+    <p class="count" id="count" aria-live="polite" aria-atomic="true"></p>
     <div id="list"></div>
     <div id="relarch"></div>
     <div class="footer">
@@ -476,6 +479,9 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 // (vt paevaVahetus() lehe lopus). Ajavoond jaab LOKAALSEKS, nagu enne -- dOnly kasutab T00:00.
 let _d=new Date(), TODAY=_d.getFullYear()+"-"+String(_d.getMonth()+1).padStart(2,"0")+"-"+String(_d.getDate()).padStart(2,"0");
 let E = [];
+// A11: kas data.json on veel teel? Laadimise ajal ei renderdata ei tuhja nimekirja ega
+// aegunud varukoopiat, vaid aus "laen" seis. Vt render() esimest plokki.
+let LAADIB = true;
 const I18N={
  et:{
   title:"RAP.SKENE.INFO — üritused, merch ja reliisid ühest kohast",
@@ -520,7 +526,9 @@ const I18N={
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
   f_scope_l:"Sait", f_scope_self:"See sait on alati näha",
   f_scope_off:"api/events.json ei laadinud — teiste saitide kirjeid ei saa juurde võtta",
+  f_scope_load:"Laen teiste saitide kirjeid…",
   f_scope_err:"Teiste saitide kirjeid ei õnnestunud laadida — proovi lehte värskendada.",
+  loading:"Laen kirjeid…",
   rel_h:"Uued reliisid", rel_all:"Kõik reliisid →",
   rel_arch:"Näita ka arhiveeritud reliise", rel_arch_load:"Laen arhiivi…",
   rel_arch_err:"Arhiivi laadimine ebaõnnestus. Proovi hetke pärast uuesti.",
@@ -576,7 +584,9 @@ const I18N={
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
   f_scope_l:"Site", f_scope_self:"This site is always shown",
   f_scope_off:"api/events.json did not load — entries from the other sites cannot be added",
+  f_scope_load:"Loading the other sites' entries…",
   f_scope_err:"Could not load the other sites' entries — try refreshing the page.",
+  loading:"Loading entries…",
   rel_h:"New releases", rel_all:"All releases →",
   rel_arch:"Also show archived releases", rel_arch_load:"Loading archive…",
   rel_arch_err:"Could not load the archive. Please try again in a moment.",
@@ -849,6 +859,18 @@ function suggestEdit(i){
   return false;
 }
 function render(){
+  // A11 (15.08.2026): varem laadis leht KOHE E_FALLBACK-i (sisseehitatud varukoopia) ja
+  // renderdas selle. Fallback on aga staatiline ja vananeb iga paevaga -- juuli koopia
+  // augustis tahendas, et enamik kirjeid oli `onLabi` jargi labi ja kasutaja nagi hetkeks
+  // peaaegu TUHJA nimekirja, mis siis andmete saabudes tais hupas. Nuud: fallback laheb
+  // kaiku AINULT siis, kui data.json pariselt ei laadi (vt varuTeade + init lehe lopus),
+  // ja laadimise ajaks on aus "laen" seis.
+  if(LAADIB){
+    document.getElementById("count").textContent=t('loading');
+    document.getElementById("list").innerHTML=`<div class="tyhi"><p class="tyhi-s">${t('loading')}</p></div>`;
+    RROWS=[];
+    return;
+  }
   const q=st.q;
   // Otsingul (q täidetud) segavaade kõigist 3 domeenist (ALLX); muidu ainult see sait (E).
   // Zanrifiltrid kehtivad ka otsingus (15.08.2026) - varem lulitas otsing need vaikselt valja.
@@ -1116,12 +1138,18 @@ function interleaveSaidid(rows){
 // koigil kolmel saidil sama sonavara (Tallinn/Tartu/mujal/...), seega toimib ristsaidi.
 function scopeChips(){
   const el=document.getElementById('f-scope');if(!el)return;
+  // A10 (15.08.2026): kohtspikker VALETAS. `katki` oli lihtsalt `!ALLX.length`, seega kuni
+  // api/events.json oli veel teel, olid chipid hallid ja spikker vaitis juba, et laadimine
+  // EBAONNESTUS -- kuigi ALLX_SEIS oli veel "laen". Nuud raagib spikker seda, mis tegelikult
+  // toimub, ja neid on kolm eri olekut, mitte kaks.
   const katki=!ALLX.length;
+  const laeb=(ALLX_SEIS!=="ok"&&ALLX_SEIS!=="katki");
   el.innerHTML=SAIDID.map(function(s){
     const on=scope.has(s), self=(s===SELF);
     const kinni=self||(katki&&!on);
+    const spikker=self?t('f_scope_self'):(laeb?t('f_scope_load'):t('f_scope_off'));
     return '<button class="chip'+(on?" on":"")+(self?" self":"")+'" aria-pressed="'+on+'"'
-      +(kinni?' disabled title="'+esc(self?t('f_scope_self'):t('f_scope_off'))+'"':'')
+      +(kinni?' disabled title="'+esc(spikker)+'"':'')
       +' onclick="toggleScope(\''+s+'\')">'+SITE_LBL[s]+'</button>';
   }).join(" ");
   // Kui koondfeed ei laadinud, utle seda NAHTAVALT. Laadimise ajal ei utle midagi -
@@ -1374,7 +1402,28 @@ function urlLoe(){
 // TAGASI/EDASI: loe URL uuesti ja joonista. urlKirjuta() ei tee siin uut kirjet, sest
 // location.search on juba sihtväärtus -> uus===praegu.
 window.addEventListener('popstate',function(){urlLoe();refresh();});
+// A13 (15.08.2026): refresh() kirjutab chippide, kalendri ja kuuloendi innerHTML-i ULE,
+// seega elemendid, millel fookus oli, HAVIVAD -- ja fookus kukub dokumendi algusse. Praktikas:
+// klaviatuuriga kalendris paeva valides pidi iga kord uuesti kogu lehe labi tabbima, ja chipi
+// korduv klikkimine (sisse/valja) ei olnud klaviatuuriga uldse voimalik.
+// Lahendus ei nou snippetite muutmist: jatame meelde AINULT konteineri ja nupu JARJEKORRANUMBRI
+// (chipid ja kalendrilahtrid ei muuda jarjekorda) ning taastame fookuse samale kohale.
+function fookusEnne(){
+  const a=document.activeElement;
+  if(!a||a===document.body||!a.closest)return null;
+  const box=a.closest('#filters,#kuud,#cal');
+  if(!box||!box.id)return null;
+  const i=Array.from(box.querySelectorAll('button,[role="button"]')).indexOf(a);
+  return i<0?null:{id:box.id,i:i};
+}
+function fookusTagasi(f){
+  if(!f)return;
+  const box=document.getElementById(f.id);if(!box)return;
+  const el=Array.from(box.querySelectorAll('button,[role="button"]'))[f.i];
+  if(el&&el.focus)try{el.focus({preventScroll:true});}catch(e){el.focus();}
+}
 function refresh(){
+  const _fookus=fookusEnne();
   urlKirjuta();
   chips("f-type",TYPES,"type");chips("f-city",CITIES,"city");
   document.getElementById("f-tag").innerHTML=
@@ -1401,6 +1450,7 @@ function refresh(){
     _ftog.classList.toggle('on',n>0);
   }
   scopeChips();kuud();renderCal();render();renderRel();renderArchBtn();fbBanner();
+  fookusTagasi(_fookus);   // A13: pärast kõiki innerHTML-i ülekirjutusi
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)
 function injectLD(){
@@ -1438,8 +1488,12 @@ function varuTeade(){
 }
 // urlLoe() ENNE esimest refresh()-i: jagatud link peab avanema kohe õige valikuga, mitte
 // vilksatama vaikevaadet. Esimene urlKirjuta() ei tee ajaloosissekannet, sest URL on juba paigas.
-applyI18n();applyCalView();urlLoe();E=E_FALLBACK;refresh();
-fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{E=j.entries;injectLD();refresh();}).catch(()=>{varuTeade();});
+applyI18n();applyCalView();urlLoe();refresh();
+// A11: E_FALLBACK laheb kaiku AINULT torke korral. Varem pandi ta kohe E-sse ja renderdati,
+// mis tahendas, et kasutaja nagi hetkeks aegunud (ja seetottu peaaegu tuhja) nimekirja.
+fetch("data/data.json").then(r=>r.ok?r.json():Promise.reject())
+  .then(j=>{E=j.entries;LAADIB=false;injectLD();refresh();})
+  .catch(()=>{E=E_FALLBACK;LAADIB=false;refresh();varuTeade();});
 fetch("data/bands.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{BANDS=j.bands||{};refresh();}).catch(()=>{});
 // ALLX-i saabudes tuleb refresh() teha ka ilma otsinguta: skoobi-chipid on enne seda
 // kinni (pole mille pealt teisi saite juurde votta).
