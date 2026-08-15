@@ -663,6 +663,13 @@ function kuuNext(k){
   if(m>12){m=1;y++;}
   return y+"-"+pad2(m);
 }
+// Reliis/merch vs uritus. Sama moiste mis Pythoni pool common.is_release().
+function isRel(e){return !!(e.rel||e.t==="reliis"||e.t==="merch");}
+// Kalendris KONKREETSET PAEVA valides otsib kasutaja uritust, mitte reliisi
+// (Silveri otsus 15.08.2026). Kuufilter ja filtrita vaade naitavad reliise edasi.
+// Reliisi-/merchivaates on nad muidugi alles. Sama reegel kehtib ka kalendritappidele,
+// muidu tekiks tapp paeval, mis avades on tuhi.
+function relPeidus(e){return isRel(e)&&st.type!=="reliis"&&st.type!=="merch";}
 // Kirje kuulub kuusse, kui kuu jaab tema vahemikku — mitte ainult alguskuusse.
 // (29.07-01.08 festival peab olema leitav ka augustist.)
 function kuusOn(e,kuu){
@@ -788,6 +795,7 @@ function render(){
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!kuusOn(e,st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
+    if(st.day&&relPeidus(e))return false;
     // VARASEM ERAND EEMALDATUD: featured-reliis EI ole enam "mitte-moodunud". Vanem
     // valjalaskekuupaev tahendas, et ta ilmus ajajoone algusesse, kuigi kuupaev on labi.
     // Varsked reliisid elavad nuud oma ribas (renderRel); nimekirja jouavad nad ainult
@@ -885,6 +893,7 @@ function calBase(){
     if(st.type&&e.t!==st.type)return false;
     if(st.tags.size&&![...st.tags].every(g=>(e.g||[]).includes(g)))return false;
     if(st.city&&e.c!==st.city)return false;
+    if(relPeidus(e))return false;   // tapp tahendab URITUST - vt relPeidus()
     const past=onLabi(e);           // sama reegel mis nimekirjas
     if(!st.past&&past)return false;
     return true;

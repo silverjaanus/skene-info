@@ -30,7 +30,7 @@ function grab(src, name) {
 
 const NIMED = ["pad2", "dOnly", "addDays", "isoOf", "endDate",
                "lastIso", "onLabi", "effIso", "kuuNext", "kuusOn", "covers",
-               "saidiJarjek", "saitOf", "interleaveSaidid"];
+               "saidiJarjek", "saitOf", "interleaveSaidid", "isRel"];
 
 function laeFn(saitFail) {
   const src = fs.readFileSync(path.join(ROOT, saitFail), "utf8");
@@ -149,6 +149,21 @@ for (const fail of ["index.html", "rap/index.html", "klubi/index.html"]) {
   vordne(F.interleaveSaidid(yks).map(e => e.n).join(","), "a,b",
          nimi + "uhe saidi paev jaab samaks");
   vordne(F.interleaveSaidid([]).length, 0, nimi + "tuhi sisend ei kuku");
+
+  // 9. KALENDRIPAEV = URITUS, MITTE RELIIS (Silveri otsus 15.08.2026).
+  //    isRel peab kokku langema Pythoni common.is_release()-iga: rel-lipp VOI tuup.
+  on(F.isRel({ rel: 1, t: "reliis" }), nimi + "reliis on reliis");
+  on(F.isRel({ t: "merch" }), nimi + "merch on reliis/merch");
+  on(F.isRel({ rel: 1, t: "kontsert" }), nimi + "rel-lipp loeb ka siis, kui tuup on muu");
+  on(!F.isRel({ t: "kontsert" }), nimi + "kontsert ei ole reliis");
+  on(!F.isRel({ t: "festival" }), nimi + "festival ei ole reliis");
+  on(!F.isRel({ t: "klubi" }), nimi + "klubiohtu ei ole reliis");
+  on(!F.isRel({}), nimi + "tuhi kirje ei ole reliis");
+  // paris andmed: kas reliisi-moiste tabab neid kirjeid, mida ootame
+  const d = JSON.parse(fs.readFileSync(path.join(ROOT, "feed", "events.json"), "utf8"));
+  const relKirjed = (d.entries || []).filter(e => F.isRel(e));
+  on(relKirjed.every(e => e.rel || e.t === "reliis" || e.t === "merch"),
+     nimi + "isRel ei tabanud uhtki uritust");
 }
 
 // --- ARHIIVILEHT: sama juur, ainult kuufilter -----------------------------------
