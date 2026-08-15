@@ -24,3 +24,6 @@ secrets/
 scripts/lastfm_api_key.txt
 sweep/classify_report.md
 sweep/classify_run.log
+
+# ajutine commit-teate fail (PowerShell soob jutumargid, seega -F)
+_commitmsg.txt
