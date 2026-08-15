@@ -285,6 +285,17 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .relc-b{font-family:var(--mono);font-size:10.5px;color:var(--hall);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .relc:hover .relc-t{color:var(--accent)}
+/* --- B5c: "uus alates su viimasest külastusest" --- */
+.uusban{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-family:var(--mono);
+  font-size:12px;color:var(--tint);border-left:3px solid var(--accent);
+  padding:7px 0 7px 9px;margin:0 0 10px}
+.uusban-b{font-family:var(--mono);font-size:11.5px;background:transparent;border:0;
+  color:var(--accent);cursor:pointer;padding:0;text-decoration:underline}
+.uusban-b:hover{color:var(--tint)}
+/* Märk kirje juures. Tahtlikult EI ole sama kujuga mis reliisi "uus" (see elab
+   kuupäevaveerus ja tähendab hoopis "viimase 30 päeva jooksul ilmunud"). */
+.uusmark{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.5px;
+  background:var(--accent);color:var(--paber);padding:2px 6px;display:inline-block}
 /* --- TOIMETUSE VALIK (B5f). Ainus koht saidil, kus räägib kureerija, mitte andmed --
    seepärast on ta visuaalselt teistsugune: accent-värvi raam, mitte hall joon nagu mujal. */
 .pickbox{border:2px solid var(--accent);padding:14px 16px 4px;margin:0 0 22px}
@@ -429,6 +440,8 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       </div>
       <div class="rel-strip" id="relstrip"></div>
     </section>
+    <!-- B5c: "uus alates su viimasest külastusest". Riba on `hidden`, kuni midagi uut ON. -->
+    <p class="uusban" id="uusban" hidden></p>
     <!-- A13: aria-live -> ekraanilugeja teatab uue tulemuste arvu. Ilma selleta muutus
          nimekiri filtri peale vaikselt ja pime kasutaja ei saanud teada, kas midagi juhtus.
          "polite" = ei katkesta pooleliolevat konet. -->
@@ -455,6 +468,35 @@ let E = [];
 // A11: kas data.json on veel teel? Laadimise ajal ei renderdata ei tuhja nimekirja ega
 // aegunud varukoopiat, vaid aus "laen" seis. Vt render() esimest plokki.
 let LAADIB = true;
+// ---------- B5c: "UUS ALATES SU VIIMASEST KULASTUSEST" ----------
+// VIIMATI = eelmise kulastuse KUUPAEV (mitte kellaaeg). null = esimene kord siin, siis EI
+// margita midagi -- esimesel korral on koik uus ja koige margistamine oleks lihtsalt mura.
+//
+// ⚠ MIKS KAKS VALJA (`v` ja `n`). Naiiivne lahendus salvestab "viimati nahtud = nuud" iga
+// laadimise peale, mille tagajarg on, et kasutaja naeb "7 uut", vajutab F5 ja need on kadunud.
+// Nuud: `n` = viimane paev, mil siin kaidi; `v` = paev enne seda. Kui `n` ON juba tanane,
+// jaab `v` puutumata -> sama paeva jooksul (ja iga varskenduse jarel) naeb kasutaja SAMA
+// vastust. Vordlusalus vahetub alles siis, kui ta tuleb tagasi mone JARGMISE paeva jooksul.
+let VIIMATI=null;
+(function(){
+  try{
+    const raw=localStorage.getItem('skene_viimati');
+    const o=raw?JSON.parse(raw):null;
+    if(!o||!o.n){                       // esimene kord
+      localStorage.setItem('skene_viimati',JSON.stringify({v:null,n:TODAY}));
+      VIIMATI=null;
+    }else if(o.n===TODAY){              // sama paev, sh F5 -> vordlusalus EI muutu
+      VIIMATI=o.v||null;
+    }else{                              // uus paev -> eilne "nahtud" saab vordlusaluseks
+      VIIMATI=o.n;
+      localStorage.setItem('skene_viimati',JSON.stringify({v:o.n,n:TODAY}));
+    }
+  }catch(e){VIIMATI=null;}              // privaatrezhiim vms -> funktsioon lihtsalt ei tooda
+})();
+// Kirje on "sulle uus", kui ta lisati PARAST eelmist kulastust. `lisatud` on olemas ainult
+// nendel kirjetel, mis on saidile joudnud parast 15.08.2026 (vt archive_split kommentaari) --
+// vanemad ei margita kunagi, mis on oige: nad EI OLE uued.
+function uusSulle(e){return !!(VIIMATI&&e.lisatud&&e.lisatud>VIIMATI);}
 {{S039}}
 const I18N={
  et:{
@@ -486,6 +528,9 @@ const I18N={
   search_all_sites:"otsing: kõik saidid",
   f_aeg_l:"Millal", aeg_tana:"Täna", aeg_nv:"Sel nädalavahetusel", aeg_7p:"Järgmised 7 päeva",
   pick_h:"Sel nädalal soovitan",
+  uus_mark:"UUS", uus_title:"Lisatud pärast su viimast külastust",
+  uus_1:"uus kirje", uus_n:"uut kirjet", uus_since:"alates",
+  uus_naita:"näita ainult neid", uus_koik:"× näita kõiki",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
@@ -535,6 +580,9 @@ const I18N={
   search_all_sites:"search: all sites",
   f_aeg_l:"When", aeg_tana:"Today", aeg_nv:"This weekend", aeg_7p:"Next 7 days",
   pick_h:"My picks this week",
+  uus_mark:"NEW", uus_title:"Added since your last visit",
+  uus_1:"new entry", uus_n:"new entries", uus_since:"since",
+  uus_naita:"show only these", uus_koik:"× show all",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
@@ -873,6 +921,7 @@ function render(){
     // "mis tana toimub" vastus pooleldi plaadid.
     if(st.aeg&&!aegSobib(e,st.aeg))return false;
     if(st.aeg&&relPeidus(e))return false;
+    if(st.uus&&!uusSulle(e))return false;   // B5c: ainult parast eelmist kulastust lisatud
     if(st.kuu&&!kuusOn(e,st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
     if(st.day&&relPeidus(e))return false;
@@ -943,7 +992,7 @@ function render(){
       <div>
         <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd"><span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
-        <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<span class="laebi">'+t('lbl_past')+'</span>':""}${(st.q||scope.size>1)?`<a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
+        <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<span class="laebi">'+t('lbl_past')+'</span>':""}${uusSulle(e)?`<span class="uusmark" title="${esc(t('uus_title'))}">${t('uus_mark')}</span>`:""}${(st.q||scope.size>1)?`<a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length>1?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
 {{S070}}
@@ -1273,11 +1322,38 @@ function pickRida(e){
     +`<div class="pick-m">${fmt(e).replace(/<br>/g,"")}${koht?" · "+koht:""}</div>`
     +`${pohjus}</div></div>`;
 }
+// ---------- B5c: riba "N uut alates su viimasest kulastusest" ----------
+// Riba on nahtav AINULT siis, kui midagi uut pariselt ON. Esimesel kulastusel (VIIMATI=null)
+// ja siis, kui vahepeal pole midagi lisandunud, ei ole teda uldse -- sama pohimote mis
+// soovituste plokil: tuhi funktsioon ei tohi ekraanil ruumi votta.
+function uusiKirjeid(){
+  return scoped().filter(e=>uusSulle(e)&&!onLabi(e)).length;
+}
+function setUus(v){
+  st.uus=!!v;
+  refresh();
+}
+function renderUusBan(){
+  const el=document.getElementById('uusban');if(!el)return;
+  const n=uusiKirjeid();
+  el.hidden=!n;
+  if(!n)return;
+  const kuup=VIIMATI?(VIIMATI.slice(8,10)+"."+VIIMATI.slice(5,7)):"";
+  el.innerHTML="";
+  const s=document.createElement('span');
+  s.textContent=n+" "+t(n===1?'uus_1':'uus_n')+(kuup?" ("+t('uus_since')+" "+kuup+")":"");
+  el.appendChild(s);
+  const b=document.createElement('button');
+  b.type="button";b.className="uusban-b";
+  b.textContent=st.uus?t('uus_koik'):t('uus_naita');
+  b.onclick=function(){setUus(!st.uus);};
+  el.appendChild(b);
+}
 function renderPick(){
   const box=document.getElementById('pickbox');if(!box)return;
   // Sama reegel mis reliisiribal: filtreeritud vaates otsib kasutaja midagi konkreetset
   // ja toimetuse plokk oleks seal segav.
-  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
+  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.uus&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
   const pick=puhas?pickPool():[];
   box.hidden=!pick.length;
   if(!pick.length)return;
@@ -1287,7 +1363,7 @@ function renderRel(){
   const box=document.getElementById('relbox');if(!box)return;
   // Riba on ainult vaikevaates. Otsing, paev, kuu, tuup voi zanrivalik = kasutaja otsib
   // midagi konkreetset, siis oleks riba segav.
-  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
+  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.uus&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
   const pick=puhas?relPick():[];
   box.hidden=!pick.length;
   if(!pick.length)return;
@@ -1377,12 +1453,12 @@ function filtreidAktiivseid(){
 // need kaks eraldi valikut. Kuu ja paev on valistavad, seega maksimaalselt uks neist.
 function filtreidArv(){
   return (st.type?1:0)+(st.city?1:0)+(st.kuu?1:0)+(st.day?1:0)+(st.q?1:0)+(st.aeg?1:0)
-        +st.tags.size+((st.metas&&st.metas.size)||0);
+        +(st.uus?1:0)+st.tags.size+((st.metas&&st.metas.size)||0);
 }
 // 15.08.2026 (A1/A4): uks nupp, mis viib puhtale vaatele. Varem sai zanreid nullida
 // (clearTags), aga tuup, koht, kuu, paev ja otsing tuli igauks eraldi tagasi klopsata.
 function resetAll(){
-  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";st.aeg=null;
+  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";st.aeg=null;st.uus=false;
   st.tags=new Set();if(st.metas)st.metas=new Set();
   // ⚠ st.past PEAB siin nullituma. allRel() paneb ta true peale ja kui "puhasta filtrid" teda
   // ei puutu, jaab minevik parast reseti vaikselt sisse (URL-i jaab ?p=1) -- kasutaja vajutas
@@ -1409,6 +1485,10 @@ function urlParams(){
   if(g.length)p.set('g',g.join(','));
   if(st.city)p.set('c',st.city);
   if(st.aeg)p.set('w',st.aeg);           // w = when: tana / nv / 7p
+  // NB: `u` on ISIKLIK filter (soltub selle brauseri localStorage'ist) -- jagatud lingis
+  // annab ta saajale TEISE tulemuse kui saatjale. Laheb URL-i sellegipoolest, et tagasi-nupp
+  // ja F5 tootaksid; jagamiseks ta lihtsalt ei sobi.
+  if(st.uus)p.set('u','1');
   if(st.kuu)p.set('m',st.kuu);
   if(st.day)p.set('d',st.day);
   if(st.q)p.set('q',st.qRaw||st.q);
@@ -1437,6 +1517,7 @@ function urlLoe(){
   st.type=p.get('t')||null;
   st.city=p.get('c')||null;
   st.aeg=(["tana","nv","7p"].indexOf(p.get('w'))!==-1)?p.get('w'):null;  // tundmatu vaartus -> maha
+  st.uus=p.get('u')==='1';
   st.kuu=p.get('m')||null;
   st.day=p.get('d')||null;
   st.qRaw=(p.get('q')||"").trim();st.q=norm(st.qRaw);
@@ -1501,7 +1582,7 @@ function refresh(){
     _ftog.textContent=t('f_filters')+(n?" ("+n+")":"");
     _ftog.classList.toggle('on',n>0);
   }
-  scopeChips();kuud();renderCal();render();renderPick();renderRel();renderArchBtn();fbBanner();
+  scopeChips();kuud();renderCal();render();renderUusBan();renderPick();renderRel();renderArchBtn();fbBanner();
   fookusTagasi(_fookus);   // A13: pärast kõiki innerHTML-i ülekirjutusi
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)

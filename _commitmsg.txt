@@ -1,0 +1,30 @@
+B5c: "uus alates su viimasest kulastusest"
+
+Kirje, mis on saidile joudnud parast kasutaja eelmist kulastust, saab margi UUS, ja
+nimekirja kohal on riba "N uut kirjet (alates 13.08) - naita ainult neid". Filter u=1.
+Andmealus on `lisatud` vali, mis eelmises commitis (0968b48) hakkas KOIGILE uutele
+kirjetele kulge tulema.
+
+⚠ MIKS localStorage'is on KAKS valja (v ja n). Naiiivne lahendus kirjutab "viimati nahtud
+= nuud" iga laadimise peale -> kasutaja naeb "6 uut", vajutab F5 ja need on kadunud.
+Nuud: n = viimane paev, mil siin kaidi; v = paev enne seda. Kui n ON juba tanane, jaab v
+puutumata, seega sama paeva jooksul (ja iga varskenduse jarel) naeb kasutaja SAMA vastust.
+Vordlusalus vahetub alles siis, kui ta tuleb tagasi mone JARGMISE paeva jooksul.
+Kontrollitud: 15.08 seisuga v=13.08 -> 6 marki; F5 -> ikka 6 marki, v ei muutunud.
+
+ESIMESEL KULASTUSEL EI MARGITA MIDAGI (VIIMATI=null). Siis on koik uus ja koige margistamine
+oleks lihtsalt mura -- riba on peidus, marke on 0. Kontrollitud.
+
+Riba on nahtav AINULT siis, kui midagi uut pariselt on -- sama pohimote mis soovituste
+plokil (B5f): tuhi funktsioon ei tohi ekraanil ruumi votta.
+
+⚠ Marki kuju EI OLE sama mis reliisi "uus" sildil: see elab kuupaevaveerus ja tahendab
+hoopis "viimase 30 paeva jooksul ilmunud". B5c mark on tuubisildi korval, accent-taustaga.
+
+⚠ URL-parameeter u=1 on ISIKLIK filter (soltub selle brauseri localStorage'ist) -- jagatud
+lingis annab ta saajale TEISE tulemuse kui saatjale. Laheb URL-i sellegipoolest, et
+tagasi-nupp ja F5 tootaksid; jagamiseks ta lihtsalt ei sobi. Kommentaar koodis.
+
+Kontroll: riba lubatud arv == filtreeritud tulemus koigil kolmel saidil (www 6/6,
+klubi 11/11, rap 5/5). --check 9/9, test_kuupaevad 257/257, test_syntaks 18 plokki,
+konsoolivigu pole.
