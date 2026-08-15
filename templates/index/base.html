@@ -546,6 +546,44 @@ function pad2(n){return String(n).padStart(2,"0");}
 function dOnly(str){return new Date(str+"T00:00");}
 function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
 function ymd(d){return d.getFullYear()+pad2(d.getMonth()+1)+pad2(d.getDate());}
+function isoOf(d){return d.getFullYear()+"-"+pad2(d.getMonth()+1)+"-"+pad2(d.getDate());}
+// --- MITMEPAEVASED KIRJED (parandus 15.08.2026) --------------------------------
+// BUG, mis siin parandati: kogu kood otsustas "kas kirje on labi" ainult ALGUSKUUPAEVA
+// (e.d) jargi. Kolmepaevane festival kadus seetottu nimekirjast, kalendrist ja
+// kuuloendist juba oma teisel paeval. 15.08.2026 seisuga oli nii peidus 6 kaimasolevat
+// kirjet (Dark Side of the Moon 14.-16.08, Summer Breeze, Plaaditurg jt) — ja just see
+// tekitas olukorra, kus uks inimene nagi kirjet ja teine mitte.
+// Reegel nuud: kirje on labi alles siis, kui ta VIIMANE paev on moodas.
+//   lastIso(e) = kirje viimane paev (dd-massiiv voi d..d2 vahemik)
+//   onLabi(e)  = kas kirje on tervikuna moodas
+//   effIso(e)  = jargmine/kaesolev paev, millal kirje veel toimub. Selle jargi kaib
+//                jarjestus JA kuupaevasilt (Silveri soov 15.08.2026: silt naitab
+//                jargmist kuupaeva, mitte urituse esimest).
+function lastIso(e){
+  if(Array.isArray(e.dd)&&e.dd.length)return e.dd.slice().sort()[e.dd.length-1];
+  return isoOf(addDays(endDate(e),-1));
+}
+function onLabi(e){return !e.tba&&!!e.d&&lastIso(e)<TODAY;}
+function effIso(e){
+  if(e.tba||!e.d)return e.d||"";
+  if(Array.isArray(e.dd)&&e.dd.length){
+    const s=e.dd.slice().sort(),tulev=s.filter(x=>x>=TODAY);
+    return tulev.length?tulev[0]:s[s.length-1];
+  }
+  if(e.d>=TODAY)return e.d;
+  return lastIso(e)>=TODAY?TODAY:e.d;
+}
+function kuuNext(k){
+  let y=parseInt(k.slice(0,4),10),m=parseInt(k.slice(5,7),10)+1;
+  if(m>12){m=1;y++;}
+  return y+"-"+pad2(m);
+}
+// Kirje kuulub kuusse, kui kuu jaab tema vahemikku — mitte ainult alguskuusse.
+// (29.07-01.08 festival peab olema leitav ka augustist.)
+function kuusOn(e,kuu){
+  if(Array.isArray(e.dd)&&e.dd.length)return e.dd.some(x=>x.slice(0,7)===kuu);
+  return e.d.slice(0,7)<=kuu&&lastIso(e).slice(0,7)>=kuu;
+}
 function endDate(e){
   const start=dOnly(e.d);
   if(e.d2){
@@ -605,7 +643,7 @@ function thumbHtml(e,tc){
 function pvBadge(e){
   let s=fmt(e);
   if(featured(e))return s;                       // "uus" - aastal pole siin motet
-  const y=(e.d||"").slice(0,4);
+  const y=(effIso(e)||e.d||"").slice(0,4);
   if(y&&y!==TODAY.slice(0,4))s+=(e.d2?" ":".")+esc(y.slice(2));
   return s;
 }
@@ -617,9 +655,15 @@ function featured(e){
 function fmt(e){
   if(featured(e))return t('lbl_new');
   if(e.tba)return t('lbl_tba');
-  const dt=new Date(e.d+"T00:00");
+  // Kaimasoleval kirjel algab silt TANASEST, mitte urituse esimesest paevast:
+  // 14.-16.08 festival naitab 15.08 kuupaeval "15.08–16.08", mitte "14.08–16.08".
+  const algus=effIso(e),lopp=lastIso(e);
+  const dt=new Date(algus+"T00:00");
   let s=String(dt.getDate()).padStart(2,"0")+"."+String(dt.getMonth()+1).padStart(2,"0");
-  if(e.d2)s+="–<br>"+esc(e.d2);
+  if(lopp>algus){
+    const ld=new Date(lopp+"T00:00");
+    s+="–<br>"+pad2(ld.getDate())+"."+pad2(ld.getMonth()+1);
+  }
   return s;
 }
 function norm(s){return (s||"").toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
@@ -659,13 +703,13 @@ function render(){
     if(st.type&&e.t!==st.type)return false;
 {{S067}}
     if(st.city&&e.c!==st.city)return false;
-    if(st.kuu&&!e.d.startsWith(st.kuu))return false;
+    if(st.kuu&&!kuusOn(e,st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
     // VARASEM ERAND EEMALDATUD: featured-reliis EI ole enam "mitte-moodunud". Vanem
     // valjalaskekuupaev tahendas, et ta ilmus ajajoone algusesse, kuigi kuupaev on labi.
     // Varsked reliisid elavad nuud oma ribas (renderRel); nimekirja jouavad nad ainult
     // tulevase kuupaevaga voi siis, kui kasutaja avab reliisivaate (st.past=true).
-    const past=!e.tba&&e.d<TODAY;
+    const past=onLabi(e);          // mitmepaevasel loeb VIIMANE paev, mitte algus
     if(!st.past&&past)return false;
     return true;
   }).sort((a,b)=>{
@@ -676,8 +720,12 @@ function render(){
       if(ka!==kb)return kb.localeCompare(ka);
       return (b.d||"").localeCompare(a.d||"");
     }
-    return a.d.localeCompare(b.d);
+    // Kaimasolev mitmepaevane kirje seisab TANASEL kohal, mitte oma alguskuupaeval.
+    return effIso(a).localeCompare(effIso(b));
   });
+  // Sama paeva sees sega saidid labisegi, alustades oma saidist. Reliisivaates MITTE:
+  // seal on jarjestus lisamise kuupaeva jargi ja segamine lohuks selle.
+  if(st.type!=="reliis")rows=interleaveSaidid(rows);
   document.getElementById("count").textContent=rows.length+" "+t('entries')
     +(st.day?" · "+st.day.slice(8,10)+"."+st.day.slice(5,7)+"."+st.day.slice(0,4):"")
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
@@ -688,7 +736,7 @@ function render(){
   RROWS=rows;
   document.getElementById("list").innerHTML=rows.map((e,i)=>{
     // reliis/merch ei "lae labi" - "LÄBI" silt kaib ainult urituste kohta
-    const past=!e.rel&&!e.tba&&e.d<TODAY;
+    const past=!e.rel&&onLabi(e);
     const tc={kontsert:"t-kontsert",festival:"t-festival",klubi:"t-klubi",reliis:"t-reliis",merch:"t-merch",muu:"t-muu"}[e.t];
     const sameSrc=e.ou&&(e.ou===e.su);
     let lnks="";
@@ -725,10 +773,17 @@ function chips(el,items,key){
 function kuud(){
   const m={};
   const vis=scoped().filter(e=>{
-    const past=!e.tba&&e.d<TODAY;   // sama reegel mis nimekirjas
+    const past=onLabi(e);           // sama reegel mis nimekirjas
     return st.past||!past;
   });
-  vis.forEach(e=>{const k=e.d.slice(0,7);m[k]=(m[k]||0)+1;});
+  // Kirje laheb IGA kuu alla, mida ta katab (kuufilter kasutab sama reeglit, kuusOn),
+  // aga mitte enne kaesolevat paeva: kaimasolev festival algab loendis tanasest kuust.
+  vis.forEach(e=>{
+    const a=(effIso(e)||e.d||"").slice(0,7);
+    if(!a)return;
+    const b=lastIso(e).slice(0,7);
+    for(let k=a;k<=b;k=kuuNext(k))m[k]=(m[k]||0)+1;
+  });
   const ks=Object.keys(m).sort().filter(k=>k>=TODAY.slice(0,7));
   document.getElementById("kuud").innerHTML=
     `<button class="kuu${st.kuu===null?" on":""}" onclick="setF('kuu',null)">${t('all_months')} <small>${vis.length}</small></button>`+
@@ -750,7 +805,7 @@ function covers(e,isoStr){
 {{S073}}
     if(st.tags.size&&![...st.tags].every(g=>(e.g||[]).includes(g)))return false;
     if(st.city&&e.c!==st.city)return false;
-    const past=!e.tba&&e.d<TODAY;   // sama reegel mis nimekirjas
+    const past=onLabi(e);           // sama reegel mis nimekirjas
     if(!st.past&&past)return false;
     return true;
   });
@@ -838,6 +893,38 @@ function scoped(){
   if(scope.size<=1||!ALLX.length)return E;
   const muud=ALLX.filter(e=>e.sait!==SELF&&scope.has(e.sait));
   return muud.length?E.concat(muud):E;
+}
+// --- SAMA PAEVA JARJESTUS: ROUND-ROBIN SAITIDE VAHEL (Silveri otsus 15.08.2026) ---
+// Enne seda oli sama kuupaeva sees plokk: KOGU oma sait (data.json jarjekorras), siis
+// voorad feedi jarjekorras. Kolm klubi-kirjet reas nagid valja nagu nimekirja lopp.
+// Sama mote on uudiskirjas (common.py interleave_cats, Silveri soov 14.08.2026), AGA
+// seal on jarjekord fikseeritud metal->rap->klubi. Siin alustab round-robin alati
+// SELLEST saidist, kus kasutaja parasjagu on: klubi.skene.info-l klubi->metal->rap.
+function saidiJarjek(){
+  const i=SAIDID.indexOf(SELF);
+  return i<0?SAIDID.slice():SAIDID.slice(i).concat(SAIDID.slice(0,i));
+}
+// Oma saidi data.json-i kirjetel `sait` valja EI OLE - see lisandub alles koondfeedis.
+function saitOf(e){return e.sait||SELF;}
+function interleaveSaidid(rows){
+  const jrk=saidiJarjek(),out=[];
+  let i=0;
+  while(i<rows.length){
+    let j=i;
+    while(j<rows.length&&effIso(rows[j])===effIso(rows[i]))j++;   // uhe paeva plokk
+    const grp=rows.slice(i,j),k={};
+    grp.forEach(e=>{const s=saitOf(e);(k[s]=k[s]||[]).push(e);}); // sisemine jarjekord sailib
+    const jarjed=jrk.filter(s=>k[s]&&k[s].length);
+    Object.keys(k).forEach(s=>{if(jarjed.indexOf(s)<0)jarjed.push(s);}); // tundmatu sait loppu
+    let n=0;
+    while(jarjed.some(s=>k[s].length)){
+      const s=jarjed[n%jarjed.length];
+      if(k[s].length)out.push(k[s].shift());
+      n++;
+    }
+    i=j;
+  }
+  return out;
 }
 // NB: zanri- ja linnafiltrid kehtivad KOIGILE kirjetele, ka voorastele. Proovisin
 // alguses vastupidi (voorad labi filtri ei kai) ja see oli mootdetavalt vale: klubi-saidil
@@ -987,9 +1074,12 @@ function injectLD(){
   try{
     let el=document.getElementById('ldjson');
     if(!el){el=document.createElement('script');el.type='application/ld+json';el.id='ldjson';document.head.appendChild(el);}
-    const list=(E||[]).filter(e=>e.d&&!e.tba&&e.d>=TODAY&&e.t!=='reliis'&&e.t!=='merch').slice(0,30)
+    // !onLabi(e) — kaimasolev mitmepaevane uritus jaab strukturandmetesse ka teisel paeval.
+    // startDate jaab ALATI paris alguskuupaevaks (schema.org ootab seda), lisaks endDate.
+    const list=(E||[]).filter(e=>e.d&&!e.tba&&!onLabi(e)&&e.t!=='reliis'&&e.t!=='merch').slice(0,30)
       .map((e,i)=>{
         const ev={"@type":"Event","name":e.n,"startDate":e.d,"eventStatus":"https://schema.org/EventScheduled"};
+        const lopp=lastIso(e);if(lopp>e.d)ev.endDate=lopp;
         if(e.v)ev.location={"@type":"Place","name":e.v,"address":e.linn||e.c||"Eesti"};
         const u=e.ou||e.su;if(u&&/^https?:\/\//i.test(u))ev.url=u;
         if(e.a)ev.description=e.a;

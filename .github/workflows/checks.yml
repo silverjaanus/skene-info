@@ -33,3 +33,7 @@ jobs:
         run: python scripts/check_send_parity.py --repo .
       - name: Tagasiside API test (mokitud)
         run: node scripts/test_tagasiside.js
+      # 15.08.2026: mitmepaevased kirjed kadusid teisel paeval ara (past-reegel luges
+      # ainult alguskuupaeva). Test loeb funktsioonid genereeritud index.html-ist.
+      - name: Kuupaevaloogika (mitmepaevased kirjed)
+        run: node scripts/test_kuupaevad.js
