@@ -29,6 +29,12 @@
   --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
   --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
   --hdrmuted:#A6A192; /* tume päis: summutatud tekst */
+  /* Kalendri ainsad kaks mootu, MOLEMAD ULEMPIIRID (15.08.2026). Ruudustik ise on voolav
+     (repeat(7,1fr)), seega fikseeritud px ringi jaoks tahendas, et laiemal telefonil holjus
+     23px ring 53px lahtris. Nuud kahaneb ring kitsamal ekraanil ise kaasa ja lopetab laiemal
+     kasvamise. Vt kalender-mockup.html (Cowork-kaust). */
+  --calmax:340px;   /* kalendri laiuse lagi mobiilis */
+  --dotmax:30px;    /* ringi labimoodu lagi */
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.45}
@@ -231,7 +237,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .calviewsw button{font-family:var(--mono);font-size:10.5px;border:1.5px solid var(--joon);background:transparent;color:var(--hall);padding:3px 8px;cursor:pointer;text-transform:uppercase;letter-spacing:.4px}
 .calviewsw button:hover{color:var(--tint)}
 .calviewsw button.on{background:var(--tint);color:var(--paber);border-color:var(--tint)}
-.calbox{margin-bottom:6px;max-width:280px}
+.calbox{margin-bottom:6px;max-width:280px;margin-inline:auto}
 .calhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
 .calhead .cmon{font-size:14px;font-weight:700;text-transform:capitalize}
 .calhead button{background:transparent;border:1.5px solid transparent;cursor:pointer;color:var(--hall);font-size:17px;line-height:1;padding:1px 7px;font-family:var(--mono)}
@@ -242,19 +248,28 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .calcell{position:relative;aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:11.5px;color:var(--tint)}
 .calcell.out{color:var(--joon);opacity:.45}
 .calcell.ev{cursor:pointer}
-.calcell .dnum{display:flex;align-items:center;justify-content:center;width:23px;height:23px;border-radius:50%;transition:filter .1s}
+/* Ring on lahtri PROTSENT, mitte px: lahter on 1fr ehk voolav, seega fikseeritud px jattis
+   laiemal ekraanil ringi tuhja lahtri keskele holjuma. 78% jatab ka halo (valitud paev)
+   jaoks ruumi, et ta naabri peale ei ulatuks. */
+.calcell .dnum{display:flex;align-items:center;justify-content:center;
+  width:min(78%,var(--dotmax));aspect-ratio:1;height:auto;border-radius:50%;transition:filter .1s}
 .calcell.ev .dnum{background:var(--accent);color:var(--paber);font-weight:700} /* üritusega päev: täidetud värviline ring */
 .calcell.ev:hover .dnum{filter:brightness(1.12)}
+/* TANA vs VALITUD (15.08.2026). Varem olid MOLEMAD must ring (1.6px inset vs 2px outset) ja
+   kuna box-shadow ei liitu, kirjutas .sel .today varju ule -> kui tana OLI valitud paev, oli
+   naha ainult uks marge ja 15. august nagi valja tapselt nagu 23. august. Nuud:
+   tana = must ring, valitud = halo (paberivarvi vahe + must ring), kolmas reegel katab molemad. */
 .calcell.today .dnum{background:transparent;color:var(--tint);font-weight:700;box-shadow:0 0 0 1.6px var(--tint) inset} /* täna: seest tühi must ring */
-.calcell.today.ev .dnum{background:var(--accent);color:var(--paber)} /* täna + üritus: värviline täidis + must äärering */
-.calcell.sel .dnum{box-shadow:0 0 0 2px var(--tint)} /* valitud päev: tume äärering */
+.calcell.today.ev .dnum{background:var(--accent);color:var(--paber)} /* täna + üritus: värviline täidis + must sisering */
+/* halo: paberivarvi vahe loob musta ringi taidisest lahti, seega ta on naha ka punase laigu peal */
+.calcell.sel .dnum{box-shadow:0 0 0 2px var(--paber),0 0 0 3px var(--tint)} /* valitud päev */
+.calcell.today.sel .dnum{box-shadow:0 0 0 1.6px var(--tint) inset,0 0 0 2px var(--paber),0 0 0 3px var(--tint)} /* täna JA valitud korraga */
 .calclear{font-family:var(--mono);font-size:10.5px;color:var(--hall);background:transparent;border:0;cursor:pointer;padding:6px 2px 0;text-decoration:underline}
 .calclear:hover{color:var(--accent)}
 @media(max-width:900px){
   /* mobiilis: kalender täislaiuseks + madalamad read (peab olema PÄRAST baas-.calbox/.calcell reegleid, muidu allika-järjekord kirjutab üle) */
-  .calbox{max-width:none}
-  .calgrid{column-gap:2px}
-  .calcell{aspect-ratio:auto;height:32px}
+  .calbox{max-width:var(--calmax)}   /* mitte "none": voolav ruudustik venis ekraaniga, ring ei veninud */
+  .calgrid{column-gap:1px}
 }
 /* Skoobi-chipid: oma sait on alati sees ja klikitav ei ole; teised on kinni seni,
    kuni api/events.json on laetud. */
