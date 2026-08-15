@@ -1,4 +1,2 @@
-    if(!q){
-      if(st.metas.size){const em=entryMetas(e);if(![...st.metas].every(m=>em.has(m)))return false;}
-      if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
-    }
+    if(st.metas.size){const em=entryMetas(e);if(![...st.metas].every(m=>em.has(m)))return false;}
+    if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;

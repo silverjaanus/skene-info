@@ -120,17 +120,17 @@
  "S065": {
   "f": "snippets/www/S065.html"
  },
- "S066": "  // Žanri-metafiltrid on saidispetsiifilised → otsingurežiimis neid ei rakendata.\n",
+ "S066": "  // 15.08.2026: žanrifiltrid kehtivad ka OTSINGUS. Varem lülitas otsing need vaikselt\n  // välja, aga chipid jäid põlema → filtririba näitas üht ja tulemus teist.\n",
  "S067": {
   "f": "snippets/www/S067.html"
  },
- "S068": "    +((!st.q&&(st.metas.size||st.tags.size))?\" · \"+t('genre_c')+\" \"+[...st.metas,...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\n",
+ "S068": "    +((st.metas.size||st.tags.size)?\" · \"+t('genre_c')+\" \"+[...st.metas,...st.tags].join(\"+\"):\"\")+(st.type?\" · \"+t('tag_'+st.type):\"\");\n",
  "S069": "    if(e.hind)lnks+=`<br>${priceLine(e)}`;\n",
  "S070": "      <div class=\"loc\"><span class=\"venue\">${esc(e.v)}</span>${(e.t===\"reliis\"||e.t===\"merch\")?\"\":(e.linn?esc(e.linn):(e.c===\"mujal\"?\"\":esc(e.c)))}<div class=\"lnks\">${lnks}</div></div>\n",
  "S071": {
   "f": "snippets/www/S071.html"
  },
- "S072": "function calBase(){ // aktiivsete filtritega (v.a kuu/päev) nähtavad kirjed — täppide alus\n",
+ "S072": "function calBase(lubaRel){ // aktiivsete filtritega (v.a kuu/päev) nähtavad kirjed — täppide alus\n",
  "S073": {
   "f": "snippets/www/S073.html"
  },

@@ -389,7 +389,7 @@
    "v": "Tolm",
    "c": "Tartu",
    "g": [
-    "eksperimentaal",
+    "experimental",
     "electro"
    ],
    "sn": "tolm.club",
@@ -1095,7 +1095,7 @@
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
    "g": [
-    "eksperimentaal",
+    "experimental",
     "bass"
    ],
    "sn": "Fienta",
@@ -1400,7 +1400,7 @@
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
    "g": [
-    "elektroonika"
+    "electronic"
    ],
    "sn": "Paavli programm",
    "su": "https://www.kultuurivabrik.ee/en/events",
@@ -1445,7 +1445,7 @@
    "v": "Illiku laid, Orissaare",
    "c": "mujal",
    "g": [
-    "elektroonika"
+    "electronic"
    ],
    "sn": "I Land Sound",
    "su": "https://ilandsound.ee/en/",

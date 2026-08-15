@@ -1,2 +1,7 @@
-    `<button class="chip${st.tags.size===0?" on":""}" aria-pressed="${st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
-    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
+    tagChips();
+  // Rapil ei ole zanri-metakihti (15.08.2026, Silveri otsus). Sait on 26 kirjet ja
+  // "rapp" katab neist 25 -- chippide riba, kus uks chipp katab kogu saidi ja ulejaanud
+  // on uksikkirjed, ei ole filter. Riba ilmub AINULT siis, kui kasutaja klikkis kaardil
+  // zanrisildil; siis on tal ka koht, kust see filter maha vottaotta. Paris rapi taksonoomia
+  // (boom bap, trap, drill, grime) tuleb siis, kui sisu maht kasvab -- see on ANDMETOO.
+  var _ft=document.getElementById('frow-tag');if(_ft)_ft.hidden=(st.tags.size===0);

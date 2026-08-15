@@ -320,6 +320,13 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .relc-b{font-family:var(--mono);font-size:10.5px;color:var(--hall);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .relc:hover .relc-t{color:var(--accent)}
+/* --- TÜHJA TULEMUSE SEIS (15.08.2026). Varem oli 0 kirje korral ekraan tühi ja
+   kasutaja ei saanud aru, kas leht on katki. --- */
+.tyhi{border-top:2.5px solid var(--tint);padding:34px 2px 30px;text-align:center}
+.tyhi-h{font-size:17px;font-weight:700;margin:0 0 6px}
+.tyhi-s{font-family:var(--mono);font-size:12.5px;color:var(--hall);margin:0 auto 16px;max-width:420px;line-height:1.6}
+/* "puhasta filtrid" chip filtriribal: eristub tavalisest chipist, et teda leiaks */
+.chip-reset{border-style:dashed}
 .archwrap{margin:20px 0 0;text-align:center}
 .archbtn{font-family:var(--mono);font-size:11px;letter-spacing:.6px;text-transform:uppercase;
   color:var(--tint);background:transparent;border:1px solid var(--joon);cursor:pointer;padding:9px 18px}
@@ -361,9 +368,10 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
     </div>
     <div class="filters" id="filters">
       <div class="frow"><span class="flabel" data-i18n="f_type_l">Tüüp</span><span id="f-type"></span></div>
-      <div class="frow"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
+      <div class="frow" id="frow-tag"><span class="flabel" data-i18n="f_tag_l">Žanr</span><span id="f-tag"></span></div>
       <div class="frow"><span class="flabel" data-i18n="f_city_l">Koht</span><span id="f-city"></span></div>
       <div class="frow"><span class="flabel" data-i18n="f_scope_l">Sait</span><span id="f-scope"></span></div>
+      <div class="frow" id="frow-reset" hidden><span class="flabel"></span><button type="button" class="chip chip-reset" onclick="resetAll()" data-i18n="clear_all">× Puhasta filtrid</button></div>
     </div>
   </nav>
 </header>
@@ -489,6 +497,11 @@ const I18N={
   t_all:"kõik", t_kontsert:"kontsert", t_festival:"festival", t_klubi:"klubi", t_reliis:"reliis", t_merch:"merch", t_muu:"muu",
   c_all:"kõik", c_mujal:"mujal Eesti", c_baltikum:"Baltikum", c_pohjamaad:"Põhjamaad", c_euroopa:"Euroopa",
   entries:"kirjet", genre_c:"žanr:", all_months:"kõik kuud", all_genres:"kõik žanrid",
+  no_results:"Selle valikuga ei leidnud midagi.",
+  no_results_hint:"Filter on liiga kitsas. Võta mõni valik maha või alusta puhtalt lehelt.",
+  no_results_hint_empty:"Praegu ei ole siin ühtegi kirjet.",
+  clear_all:"× Puhasta filtrid", remove_filter:"Eemalda see filter",
+  search_all_sites:"otsing: kõik saidid",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
@@ -542,6 +555,11 @@ const I18N={
   t_all:"all", t_kontsert:"concert", t_festival:"festival", t_klubi:"club", t_reliis:"release", t_merch:"merch", t_muu:"other",
   c_all:"all", c_mujal:"elsewhere in Estonia", c_baltikum:"Baltics", c_pohjamaad:"Nordics", c_euroopa:"Europe",
   entries:"entries", genre_c:"genre:", all_months:"all months", all_genres:"all genres",
+  no_results:"Nothing matches this selection.",
+  no_results_hint:"The filter is too narrow. Drop one of the choices or start from a clean page.",
+  no_results_hint_empty:"There are no entries here right now.",
+  clear_all:"× Clear filters", remove_filter:"Remove this filter",
+  search_all_sites:"search: all sites",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
@@ -664,13 +682,17 @@ const CITIES_MORE=[["c_baltikum","Baltikum"],["c_pohjamaad","Põhjamaad"],["c_eu
 // psych, shoegaze) metat EI anna — meta tuleb kirje juursildist (nt heavy+rock→rock, heavy+power→metal).
 // FALLBACK: kirje, mille ühestki sildist ei tule metat, kuvatakse alt'i all (100% katvus tundmatute
 // siltide korral); ILMA siltideta kirjed (nt merch) käituvad nagu enne. Vt HANDOVER.md "UI-ÜMBEREHITUS".
-const METAS=["metal","punk","core","rock","bluus","funk","alt","dark","folk"];
+// 15.08.2026: chipi nimi "bluus" -> "blues". Ülejäänud kaheksa metat on ingliskeelsed
+// (metal, punk, core, rock, funk, alt, dark, folk), seega üks eestikeelne oli lihtsalt
+// ebajärjekindlus — ja EN-vaates paistis eriti veidralt. Andmetes jääb toorsilt "bluus"
+// alles, muutub AINULT chipi nimi (vastendus allpool).
+const METAS=["metal","punk","core","rock","blues","funk","alt","dark","folk"];
 const GENRE_META={
  metal:["metal"],death:["metal"],black:["metal"],thrash:["metal"],doom:["metal"],sludge:["metal"],power:["metal"],pagan:["metal"],
  punk:["punk"],"post-punk":["punk"],
  core:["core"],grind:["core"],
  rock:["rock"],folk:["folk"],alt:["alt"],
- bluus:["bluus"],bluusrock:["bluus","rock"],"blues rock":["bluus","rock"],
+ bluus:["blues"],blues:["blues"],bluusrock:["blues","rock"],"blues rock":["blues","rock"],
  funk:["funk"],soul:["funk"],"funk/soul":["funk"],disco:["funk"],
  dark:["dark"],industrial:["dark"],ebm:["dark"],darkwave:["dark"],goth:["dark"],electro:["dark"],
  /* legacy/varusildid (E_FALLBACK + vanad andmed): */
@@ -886,7 +908,8 @@ function suggestEdit(i){
 function render(){
   const q=st.q;
   // Otsingul (q täidetud) segavaade kõigist 3 domeenist (ALLX); muidu ainult see sait (E).
-  // Žanri-metafiltrid on saidispetsiifilised → otsingurežiimis neid ei rakendata.
+  // 15.08.2026: žanrifiltrid kehtivad ka OTSINGUS. Varem lülitas otsing need vaikselt
+  // välja, aga chipid jäid põlema → filtririba näitas üht ja tulemus teist.
   // Otsing naitab alati koiki kolme saiti (ALLX); muidu kehtib skoop.
   let base=q?(ALLX.length?ALLX:E):scoped();
   // Arhiveeritud reliisid EI ela E-s (muidu tekiks kalendrisse minevikutappe) - need
@@ -895,10 +918,8 @@ function render(){
   let rows=base.filter(e=>{
     if(!matchQ(e))return false;
     if(st.type&&e.t!==st.type)return false;
-    if(!q){
-      if(st.metas.size){const em=entryMetas(e);if(![...st.metas].every(m=>em.has(m)))return false;}
-      if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
-    }
+    if(st.metas.size){const em=entryMetas(e);if(![...st.metas].every(m=>em.has(m)))return false;}
+    if(st.tags.size&&![...st.tags].every(t=>(e.g||[]).includes(t)))return false;
     if(st.city&&e.c!==st.city)return false;
     if(st.kuu&&!kuusOn(e,st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
@@ -927,11 +948,24 @@ function render(){
   document.getElementById("count").textContent=rows.length+" "+t('entries')
     +(st.day?" · "+st.day.slice(8,10)+"."+st.day.slice(5,7)+"."+st.day.slice(0,4):"")
     +(st.kuu?" · "+monthName(st.kuu.slice(5))+" "+st.kuu.slice(0,4):"")
-    +((!st.q&&(st.metas.size||st.tags.size))?" · "+t('genre_c')+" "+[...st.metas,...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
-  // Otsing kaib niikuinii koigi kolme saidi peale, seega skoobi-silt oleks seal eksitav.
+    +((st.metas.size||st.tags.size)?" · "+t('genre_c')+" "+[...st.metas,...st.tags].join("+"):"")+(st.type?" · "+t('tag_'+st.type):"");
+  // Otsing kaib alati koigi kolme saidi peale. Varem oli see VAIKIV - skoobi-chipid naitasid
+  // uht ja tulemus tuli teisest hulgast. 15.08.2026: oeldakse loenduris valja.
   if(!q&&scope.size>1)document.getElementById("count").textContent+=
     " · "+SAIDID.filter(s=>scope.has(s)).map(s=>SITE_LBL[s]).join("+");
+  else if(q)document.getElementById("count").textContent+=" · "+t('search_all_sites');
   RROWS=rows;
+  // 15.08.2026: TÜHJA TULEMUSE SEIS. Varem jäi #list lihtsalt tühjaks ja ainus vihje oli
+  // "0 kirjet" loenduris -- kasutaja ei saanud aru, kas leht on katki või filter liiga kitsas,
+  // ega näinud ühtegi väljapääsu (filtreid tuli ükshaaval tagasi klõpsata).
+  if(!rows.length){
+    document.getElementById("list").innerHTML=
+      `<div class="tyhi"><p class="tyhi-h">${t('no_results')}</p>`
+      +`<p class="tyhi-s">${t(filtreidAktiivseid()?'no_results_hint':'no_results_hint_empty')}</p>`
+      +(filtreidAktiivseid()?`<button type="button" class="archbtn" onclick="resetAll()">${t('clear_all')}</button>`:"")
+      +`</div>`;
+    return;
+  }
   document.getElementById("list").innerHTML=rows.map((e,i)=>{
     // reliis/merch ei "lae labi" - "LÄBI" silt kaib ainult urituste kohta
     const past=!e.rel&&onLabi(e);
@@ -978,10 +1012,12 @@ function cityChips(){
 }
 function kuud(){
   const m={};
-  const vis=scoped().filter(e=>{
-    const past=onLabi(e);           // sama reegel mis nimekirjas
-    return st.past||!past;
-  });
+  // 15.08.2026: kuunumbrid arvestavad NÜÜD aktiivseid filtreid. Varem tuli `vis` puhtast
+  // scoped()-ist, seega tüüp/žanr/koht/otsing jäid arvestamata ja külgriba lubas "august 30",
+  // mis klõpsates andis 0 kirjet. calBase() on täpselt sama filtrihulk, mida kasutavad juba
+  // kalendritäpid (kõik peale kuu ja päeva) -- nii räägivad ruudustik, kuuloend ja nimekiri
+  // sama juttu. lubaRel=true, sest kuud klõpsates ON reliisid nimekirjas (erinevalt päevast).
+  const vis=calBase(true);
   // Kirje laheb IGA kuu alla, mida ta katab (kuufilter kasutab sama reeglit, kuusOn),
   // aga mitte enne kaesolevat paeva: kaimasolev festival algab loendis tanasest kuust.
   vis.forEach(e=>{
@@ -1004,7 +1040,7 @@ function covers(e,isoStr){
   if(Array.isArray(e.dd)&&e.dd.length)return e.dd.indexOf(isoStr)!==-1;
   const target=dOnly(isoStr);return target>=dOnly(e.d)&&target<endDate(e);
 }
-function calBase(){ // aktiivsete filtritega (v.a kuu/päev) nähtavad kirjed — täppide alus
+function calBase(lubaRel){ // aktiivsete filtritega (v.a kuu/päev) nähtavad kirjed — täppide alus
   return scoped().filter(e=>{
     if(!matchQ(e))return false;
     if(st.type&&e.t!==st.type)return false;
@@ -1012,7 +1048,10 @@ function calBase(){ // aktiivsete filtritega (v.a kuu/päev) nähtavad kirjed �
     if(st.tags.size&&!(e.g||[]).length)return false;
     if(st.tags.size&&![...st.tags].every(g=>(e.g||[]).includes(g)))return false;
     if(st.city&&e.c!==st.city)return false;
-    if(relPeidus(e))return false;   // tapp tahendab URITUST - vt relPeidus()
+    // Kalendritapp tahendab URITUST (vt relPeidus), seega taplid reliise ei naita.
+    // Kuuloend (kuud(), lubaRel=true) naitab, sest kuud klopsates on nad nimekirjas olemas
+    // - muidu lubaks number vahem kirjeid, kui klikk pariselt annab.
+    if(!lubaRel&&relPeidus(e))return false;
     const past=onLabi(e);           // sama reegel mis nimekirjas
     if(!st.past&&past)return false;
     return true;
@@ -1279,6 +1318,40 @@ function setTag(g){
   if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);
   refresh();
 }
+// 15.08.2026 (A7): kaardilt klikitud TOORSILT (nt "post-punk", "hard trance") oli varem
+// nahtamatu filter -- ta elas ainult st.tags-is ja loenduriteksti sees, filtriribal teda ei
+// olnud. Kui tulemus oli 0, polnud ekraanil uhtegi chippi, mida eemaldada. Nuud saab iga
+// toorsilt oma eemaldatava chipi zanririba lopus. Rapil on see AINUS zanri-chippide allikas.
+// Metad, mille taga on selle saidi praeguses andmestikus vahemalt uks kirje. Chipp, mis annab
+// garanteeritult 0 tulemust, on sama viga mis kuunumbrid, mis lubasid rohkem kui andsid
+// (15.08.2026 audit). Arvutatakse E pealt, MITTE aktiivsete filtrite pealt - muidu chipid
+// hupleksid kadumise/ilmumise vahel iga kliki peale.
+function metasNahtaval(){
+  const s=new Set();
+  if(typeof entryMetas!=='function')return s;
+  (E||[]).forEach(e=>entryMetas(e).forEach(m=>s.add(m)));
+  return s;
+}
+function tagChips(){
+  if(!st.tags.size)return "";
+  return " "+[...st.tags].map(g=>
+    `<button class="chip on" aria-pressed="true" data-g="${esc(g)}" onclick="setTag(this.dataset.g)" title="${esc(t('remove_filter'))}">${esc(g)} ×</button>`
+  ).join(" ");
+}
+// Kas mone filtri kohta on midagi valitud? Otsustab, kas naidata "puhasta filtrid" nuppu.
+// Skoop (mis saidid) ja arhiivilüliti EI lahe siia -- need on vaate seaded, mitte filtrid.
+function filtreidAktiivseid(){
+  return !!(st.type||st.city||st.kuu||st.day||st.q
+            ||st.tags.size||(st.metas&&st.metas.size));
+}
+// 15.08.2026 (A1/A4): uks nupp, mis viib puhtale vaatele. Varem sai zanreid nullida
+// (clearTags), aga tuup, koht, kuu, paev ja otsing tuli igauks eraldi tagasi klopsata.
+function resetAll(){
+  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";
+  st.tags=new Set();if(st.metas)st.metas=new Set();
+  const sb=document.getElementById('f-q');if(sb)sb.value="";
+  refresh();
+}
 function setMeta(m){
   if(st.metas.has(m))st.metas.delete(m);else st.metas.add(m);
   refresh();
@@ -1287,8 +1360,13 @@ function clearTags(){st.metas=new Set();st.tags=new Set();refresh();}
 function refresh(){
   chips("f-type",TYPES,"type");cityChips();
   document.getElementById("f-tag").innerHTML=
-    `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" aria-pressed="${st.metas.size===0&&st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
-    METAS.map(m=>`<button class="chip${st.metas.has(m)?" on":""}" aria-pressed="${st.metas.has(m)}" onclick="setMeta('${m}')">${m}</button>`).join(" ");
+    (function(){const nv=metasNahtaval();return (
+      `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" aria-pressed="${st.metas.size===0&&st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
+      METAS.filter(m=>nv.has(m)||st.metas.has(m)).map(m=>`<button class="chip${st.metas.has(m)?" on":""}" aria-pressed="${st.metas.has(m)}" onclick="setMeta('${m}')">${m}</button>`).join(" ")+tagChips());})();
+  // "puhasta filtrid" rida on nahtav AINULT siis, kui midagi on valitud - muidu oleks
+  // filtriribal nupp, mis ei tee midagi.
+  const _fr=document.getElementById('frow-reset');
+  if(_fr)_fr.hidden=!filtreidAktiivseid();
   scopeChips();kuud();renderCal();render();renderRel();renderArchBtn();fbBanner();
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)

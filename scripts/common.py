@@ -156,6 +156,56 @@ def warn_handover(limit=250):
               "(vt HANDOVER §2 reegel 10).")
 
 
+# ---------------------------------------------------------------------------
+# Žanrisiltide sünonüümid (15.08.2026, Silveri otsus)
+#
+# PROBLEEM: klubi- ja rapisaidil olid filtrichippideks toorsildid otse
+# andmetest -- klubil 43 erinevat, rapil 9. Nende hulgas oli SAMU silte mitmel
+# kujul: "experimental"/"eksperimentaal", "electronic"/"elektroonika",
+# "hiphop"/"hip-hop"/"rap"/"räpp". Iga sweep tõi neid juurde.
+#
+# MIDA SEE TEEB JA MIDA MITTE: siin ühtlustatakse AINULT kirjapilt (sama žanr,
+# eri kuju -> üks kuju). Žanrite GRUPEERIMINE (breaks -> bass, darkwave -> dark)
+# EI toimu siin, vaid lehe JS-i GENRE_META kaardis -- täpselt nagu www-l. Nii ei
+# kao andmetest infot ja rühmitust saab muuta ilma andmeid puutumata.
+#
+# ⚠ Kui seda ei jooksutata KIRJUTAMISE hetkel, tekivad sünonüümid järgmisel
+# sweepil uuesti ja koristus oli ühekordne. Kutsub archive_split.split_and_write.
+TAG_SYNONYMS = {
+    "klubi": {
+        "eksperimentaal": "experimental",
+        "elektroonika": "electronic",
+    },
+    "rap": {
+        "hiphop": "räpp",
+        "hip-hop": "räpp",
+        "rap": "räpp",
+    },
+    "www": {},
+}
+
+
+def normalize_tags(e, sait):
+    """Ühtlustab kirje `g`-siltide kirjapildi (vt TAG_SYNONYMS). Muudab kirjet
+    KOHAPEAL ja tagastab True, kui midagi muutus. Järjekord säilib, duplikaadid
+    (nt "experimental" + "eksperimentaal" samal kirjel) liidetakse üheks."""
+    syn = TAG_SYNONYMS.get(sait) or {}
+    if not syn or not isinstance(e.get("g"), list):
+        return False
+    uus, nahtud = [], set()
+    for t in e["g"]:
+        if not isinstance(t, str):
+            continue
+        k = syn.get(t.strip().lower(), t)
+        if k not in nahtud:
+            nahtud.add(k)
+            uus.append(k)
+    if uus != e["g"]:
+        e["g"] = uus
+        return True
+    return False
+
+
 def end_date(e):
     """Ürituse lõppkuupäev ISO-formaadis: d2 ("PP.KK") kui olemas, muidu d.
     Aastavahetust ületav d2 (nt d=30.12, d2=02.01) -> järgmine aasta.

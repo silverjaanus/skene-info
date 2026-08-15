@@ -14,7 +14,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import (slug as _slug, load_entries as _load_entries,
-                    end_date as _end_date, is_blocked, today_local)
+                    end_date as _end_date, is_blocked, today_local,
+                    normalize_tags as _normalize_tags)
 
 TODAY = today_local().isoformat()
 
@@ -80,6 +81,17 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None,
     add(fresh, False)         # manual usaldatud; auto juba blocklist-filtreeritud
     add(prev, True)           # säilitatud kirjed: austa blocklisti
     add(archived_prev, True)
+
+    # 2b) Žanrisiltide kirjapilt ühtlaseks (15.08.2026). Käib KÕIGI kirjete peal,
+    # ka arhiivist tulnute, sest muidu jääks vana kuju ("eksperimentaal") arhiivi
+    # igaveseks alles ja klubi žanririba näitaks sama silti kaks korda.
+    # NB: see EI grupeeri žanre -- rühmitus elab lehe GENRE_META kaardis.
+    sait = data_dir.parent.name
+    if sait not in ("rap", "klubi"):
+        sait = "www"
+    n_norm = sum(1 for e in allentries if _normalize_tags(e, sait))
+    if n_norm:
+        print(f"  sildid uhtlustatud: {n_norm} kirjet ({sait})")
 
     # 3) Partitsioon
     current = [e for e in allentries if _is_current(e)]

@@ -1,2 +1,39 @@
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
-let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:""};
+// Žanri META-filtrid (15.08.2026, Silveri otsus). VAREM olid chippideks toorsildid otse
+// andmetest — 41 tükki, sh sünonüümid ja liitžanrid ("hard trance" eraldi "hard"-ist ja
+// "trance"-ist). Kaks chippi korraga tähendab JA, mis toorsiltidega andis peaaegu alati 0
+// (afro + ambient = 0 kirjet). Nüüd sama mudel mis www-l: JUURED + MODIFIKAATORID, kus
+// liitžanr tekib KOMBINATSIOONIST — hard + trance = hard trance, minimal + techno = minimal
+// techno. Kirje kaardil jäävad täpsed toorsildid alles; ainult filtririba on koondatud.
+// FALLBACK-CHIPPI EI OLE (Silveri otsus 15.08). www-l on selleks "alt", mis on seal PÄRIS
+// žanr (alternative rock, 37 kirjet) ja täidab fallbacki rolli kõrvalt. Klubis samaväärset
+// sõna ei ole ja "muu" oleks lihtsalt prügikast: praegu langeks sinna 2 kirjet, mõlemad
+// ainsa sildiga "electronic", mis klubisaidil ei ütle midagi. Sildistamata kirje jääb
+// vaikevaates ja kõigis muudes filtrites alles — teda lihtsalt ei leia ÜHEGI žanrichipi alt,
+// mis on aus, sest tema žanr ongi teadmata. Sünonüümide kirjapilti ühtlustab andmete poolel
+// scripts/common.py normalize_tags(); rühmitus elab AINULT siin.
+const METAS=["techno","house","electro","bass","dnb","ambient","dark","dub","trance","afro","hard","experimental","minimal","melodic","acid"];
+const GENRE_META={
+ techno:["techno"],
+ house:["house"],disco:["house"],garage:["house"],
+ electro:["electro"],
+ bass:["bass"],dubstep:["bass"],jungle:["bass"],breaks:["bass"],
+ dnb:["dnb"],
+ ambient:["ambient"],downtempo:["ambient"],idm:["ambient"],
+ trance:["trance"],psytrance:["trance"],
+ dub:["dub"],reggae:["dub"],dancehall:["dub"],
+ afro:["afro"],"baile funk":["afro"],
+ /* dark-electro perekond koondub üheks chipiks, täpselt nagu www-l */
+ dark:["dark"],darkwave:["dark"],industrial:["dark"],ebm:["dark"],"new wave":["dark"],
+ "synth-pop":["dark"],gothic:["dark"],"dark electro":["dark"],synth:["dark"],
+ /* modifikaatorid: kombineeruvad juurtega */
+ hard:["hard"],hardstyle:["hard"],"hard dance":["hard"],"hard trance":["hard","trance"],
+ experimental:["experimental"],noise:["experimental"],
+ minimal:["minimal"],melodic:["melodic"],acid:["acid"]
+};
+function entryMetas(e){
+ const g=e.g||[];const s=new Set();
+ g.forEach(x=>(GENRE_META[x]||[]).forEach(m=>s.add(m)));
+ return s;   // tundmatu sildiga kirje ei lange ühegi chipi alla - vt kommentaari ülal
+}
+let st={type:null,metas:new Set(),tags:new Set(),city:null,past:false,kuu:null,day:null,q:""};

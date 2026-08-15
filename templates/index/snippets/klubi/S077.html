@@ -1,2 +1,3 @@
-    `<button class="chip${st.tags.size===0?" on":""}" aria-pressed="${st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
-    tags().map(g=>`<button class="chip${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join(" ");
+    (function(){const nv=metasNahtaval();return (
+      `<button class="chip${(st.metas.size===0&&st.tags.size===0)?" on":""}" aria-pressed="${st.metas.size===0&&st.tags.size===0}" onclick="clearTags()">${t('all_genres')}</button> `+
+      METAS.filter(m=>nv.has(m)||st.metas.has(m)).map(m=>`<button class="chip${st.metas.has(m)?" on":""}" aria-pressed="${st.metas.has(m)}" onclick="setMeta('${m}')">${m}</button>`).join(" ")+tagChips());})();

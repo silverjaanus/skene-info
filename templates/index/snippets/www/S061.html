@@ -6,13 +6,17 @@ const CITIES_MORE=[["c_baltikum","Baltikum"],["c_pohjamaad","Põhjamaad"],["c_eu
 // psych, shoegaze) metat EI anna — meta tuleb kirje juursildist (nt heavy+rock→rock, heavy+power→metal).
 // FALLBACK: kirje, mille ühestki sildist ei tule metat, kuvatakse alt'i all (100% katvus tundmatute
 // siltide korral); ILMA siltideta kirjed (nt merch) käituvad nagu enne. Vt HANDOVER.md "UI-ÜMBEREHITUS".
-const METAS=["metal","punk","core","rock","bluus","funk","alt","dark","folk"];
+// 15.08.2026: chipi nimi "bluus" -> "blues". Ülejäänud kaheksa metat on ingliskeelsed
+// (metal, punk, core, rock, funk, alt, dark, folk), seega üks eestikeelne oli lihtsalt
+// ebajärjekindlus — ja EN-vaates paistis eriti veidralt. Andmetes jääb toorsilt "bluus"
+// alles, muutub AINULT chipi nimi (vastendus allpool).
+const METAS=["metal","punk","core","rock","blues","funk","alt","dark","folk"];
 const GENRE_META={
  metal:["metal"],death:["metal"],black:["metal"],thrash:["metal"],doom:["metal"],sludge:["metal"],power:["metal"],pagan:["metal"],
  punk:["punk"],"post-punk":["punk"],
  core:["core"],grind:["core"],
  rock:["rock"],folk:["folk"],alt:["alt"],
- bluus:["bluus"],bluusrock:["bluus","rock"],"blues rock":["bluus","rock"],
+ bluus:["blues"],blues:["blues"],bluusrock:["blues","rock"],"blues rock":["blues","rock"],
  funk:["funk"],soul:["funk"],"funk/soul":["funk"],disco:["funk"],
  dark:["dark"],industrial:["dark"],ebm:["dark"],darkwave:["dark"],goth:["dark"],electro:["dark"],
  /* legacy/varusildid (E_FALLBACK + vanad andmed): */
