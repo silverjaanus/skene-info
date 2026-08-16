@@ -304,7 +304,11 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 /* --- UUED RELIISID: oma riba nimekirja kohal. Nimekiri ise on puhas ajajoon,
    reliis ei hupa enam kuupaevast ette. Riba pikkus on fikseeritud (RELN), seega
    see ei kasva ka siis, kui reliise on palju. --- */
-.relbox{margin:0 0 22px;padding:0 0 16px;border-bottom:1px solid var(--joon)}
+/* ⚠ EI OLE border-bottom'i (16.08.2026, Silveri märkus). Kohe allpool on `.count`, millel on
+   oma `border-top` — kaks joont 22px vahega, mille vahel EI OLE MIDAGI. Üks eraldaja piisab.
+   Sama põhimõte kehtib igale uuele plokile siin voos: kui plokk ise on peidus, ei tohi tema
+   jooned ega vahed ekraanile jääda (vt ka [hidden] reeglit failli alguses). */
+.relbox{margin:0 0 6px;padding:0 0 16px}
 .relbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 10px}
 .rel-h{font-family:var(--mono);font-size:11px;letter-spacing:.9px;text-transform:uppercase;
   color:var(--hall);margin:0;font-weight:400}
