@@ -332,6 +332,12 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .relc-b{font-family:var(--mono);font-size:10.5px;color:var(--hall);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .relc:hover .relc-t{color:var(--accent)}
+/* --- B5d: tärn kirje pealkirja ees --- */
+.taht{background:transparent;border:0;cursor:pointer;font-size:17px;line-height:1;
+  color:var(--joon);padding:0 7px 0 0;vertical-align:baseline}
+.taht:hover{color:var(--accent)}
+.taht.on{color:var(--accent)}
+.minuban{border-left-color:var(--tint)}
 /* --- B5c: "uus alates su viimasest külastusest" --- */
 .uusban{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-family:var(--mono);
   font-size:12px;color:var(--tint);border-left:3px solid var(--accent);
@@ -513,6 +519,8 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
       </div>
       <div class="rel-strip" id="relstrip"></div>
     </section>
+    <!-- B5d: „minu nimekiri". Riba on `hidden`, kuni kasutaja on midagi tärniga märkinud. -->
+    <p class="uusban minuban" id="minuban" hidden></p>
     <!-- B5c: "uus alates su viimasest külastusest". Riba on `hidden`, kuni midagi uut ON. -->
     <p class="uusban" id="uusban" hidden></p>
     <!-- A13: aria-live -> ekraanilugeja teatab uue tulemuste arvu. Ilma selleta muutus
@@ -570,6 +578,41 @@ let VIIMATI=null;
 // nendel kirjetel, mis on saidile joudnud parast 15.08.2026 (vt archive_split kommentaari) --
 // vanemad ei margita kunagi, mis on oige: nad EI OLE uued.
 function uusSulle(e){return !!(VIIMATI&&e.lisatud&&e.lisatud>VIIMATI);}
+// ---------- B5d: MINU NIMEKIRI ----------
+// Tarn kirje juures -> kirje laheb kasutaja oma nimekirja. KOGU asi elab localStorage'is:
+// kontosid ei ole, serverisse ei saadeta midagi, GDPR-i mote ei teki. Vastutasuks on
+// nimekiri seotud SELLE brauseriga -- teises seadmes seda ei ole ja see on aus kompromiss
+// saidi jaoks, mis ei taha kasutajaid registreerida.
+//
+// UID sisaldab SAITI, sest skoobiga saab nimekirja tulla kirjeid koigilt kolmelt saidilt
+// ja kaks eri saiti voivad teoreetiliselt sama nime + kuupaeva kanda. `saitOf` annab
+// oma kirjetele SELF-i (neil `sait` valja pole) ja voorastele nende paris saidi.
+const MINU_V="skene_minu";
+let MINU=new Set();
+(function(){
+  try{const raw=localStorage.getItem(MINU_V);if(raw)MINU=new Set(JSON.parse(raw)||[]);}catch(e){}
+})();
+function minuUid(e){return saitOf(e)+"|"+(e.d||"")+"|"+(e.n||"");}
+function minuOn(e){return MINU.has(minuUid(e));}
+function minuSalvesta(){
+  try{localStorage.setItem(MINU_V,JSON.stringify([...MINU]));}catch(e){}
+}
+function toggleMinu(uid){
+  if(MINU.has(uid))MINU.delete(uid);else MINU.add(uid);
+  minuSalvesta();
+  refresh();
+}
+// Nimekirjas olevad kirjed, mis EI OLE veel labi. Moodunud kirje kaob nimekirjast vaatest
+// ise ara (aga jaab localStorage'i -- ei hakka kasutaja andmeid tema selja taga kustutama).
+function minuKirjed(){
+  const koik=scoped().concat(ARCHON?ARCHREL:[]);
+  const seen=new Set();
+  return koik.filter(e=>{
+    if(!minuOn(e)||onLabi(e))return false;
+    const u=minuUid(e);if(seen.has(u))return false;
+    seen.add(u);return true;
+  }).sort((a,b)=>effIso(a).localeCompare(effIso(b)));
+}
 const I18N={
  et:{
   title:"RAP.SKENE.INFO — üritused, merch ja reliisid ühest kohast",
@@ -614,6 +657,9 @@ const I18N={
   uus_mark:"UUS", uus_title:"Lisatud pärast su viimast külastust",
   uus_1:"uus kirje", uus_n:"uut kirjet", uus_since:"alates",
   uus_naita:"näita ainult neid", uus_koik:"× näita kõiki",
+  minu_h:"Minu nimekiri", minu_naita:"näita ainult neid",
+  minu_lisa:"Lisa oma nimekirja", minu_ara:"Eemalda oma nimekirjast",
+  minu_ics:"lae kalendrisse (.ics)",
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
@@ -677,6 +723,9 @@ const I18N={
   uus_mark:"NEW", uus_title:"Added since your last visit",
   uus_1:"new entry", uus_n:"new entries", uus_since:"since",
   uus_naita:"show only these", uus_koik:"× show all",
+  minu_h:"My list", minu_naita:"show only these",
+  minu_lisa:"Add to my list", minu_ara:"Remove from my list",
+  minu_ics:"download to calendar (.ics)",
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
@@ -741,7 +790,7 @@ const TYPES=[["t_all",null],["t_kontsert","kontsert"],["t_festival","festival"],
 const CITIES=[["c_all",null],["Tallinn","Tallinn"],["Tartu","Tartu"],["c_mujal","mujal"]];
 // qRaw = kasutaja kirjutatud otsingusona (laheb URL-i), q = norm()-itud (vordluseks).
 // aeg = ajafilter: null | "tana" | "nv" | "7p" (B5a). NB rapil metas-valja EI OLE.
-let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:"",qRaw:"",aeg:null,uus:false};
+let st={type:null,tags:new Set(),city:null,past:false,kuu:null,day:null,q:"",qRaw:"",aeg:null,uus:false,minu:false};
 let calView=(function(){try{return localStorage.getItem('skene_calview')||'cal';}catch(e){return 'cal';}})();
 let calYM={y:new Date().getFullYear(),m:new Date().getMonth()};
 // Domeeniülene otsing: SELF = see sait; ALLX = kõigi 3 saidi koondkirjed (api/events.json).
@@ -1018,6 +1067,7 @@ function render(){
     if(st.aeg&&!aegSobib(e,st.aeg))return false;
     if(st.aeg&&relPeidus(e))return false;
     if(st.uus&&!uusSulle(e))return false;   // B5c: ainult parast eelmist kulastust lisatud
+    if(st.minu&&!minuOn(e))return false;    // B5d: ainult tarniga margitud
     if(st.kuu&&!kuusOn(e,st.kuu))return false;
     if(st.day&&!covers(e,st.day))return false;
     if(st.day&&relPeidus(e))return false;
@@ -1085,7 +1135,7 @@ function render(){
     return `<div class="row${past?" past":""}">
       ${thumbHtml(e,tc)}
       <div>
-        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd"><span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
+        <p class="tit">${tahtNupp(e)}<a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd"><span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
         <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<span class="laebi">'+t('lbl_past')+'</span>':""}${uusSulle(e)?`<span class="uusmark" title="${esc(t('uus_title'))}">${t('uus_mark')}</span>`:""}${(st.q||scope.size>1)?`<a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length>1?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
@@ -1415,6 +1465,60 @@ function pickRida(e){
     +`<div class="pick-m">${fmt(e).replace(/<br>/g,"")}${koht?" · "+koht:""}</div>`
     +`${pohjus}</div></div>`;
 }
+// ---------- B5d: tarn kirje juures + riba "minu nimekiri" ----------
+function tahtNupp(e){
+  const on=minuOn(e), u=esc(minuUid(e));
+  return `<button class="taht${on?" on":""}" aria-pressed="${on}" data-u="${u}"`
+    +` title="${esc(t(on?'minu_ara':'minu_lisa'))}" aria-label="${esc(t(on?'minu_ara':'minu_lisa'))}"`
+    +` onclick="toggleMinu(this.dataset.u)">${on?"★":"☆"}</button>`;
+}
+// .ics KOIGIST nimekirja kirjetest korraga. Uksik kirje sai oma .ics-i juba varem
+// (calLinks), siin on sama loogika mitme VEVENT-iga uhes failis.
+// Blob + download-link, mitte data:-URI: pikk data:-URI kukub mones brauseris ara.
+function minuIcs(){
+  const list=minuKirjed().filter(e=>e.d&&!e.tba);
+  if(!list.length)return;
+  const esc2=s=>String(s??"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g," ");
+  const read=[];
+  list.forEach(e=>{
+    const start=dOnly(e.d), end=endDate(e);
+    const loc=(e.v||"")+(e.linn?", "+e.linn:"");
+    const uid=(String(e.n).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"event")+"-"+ymd(start)+"@skene.info";
+    read.push("BEGIN:VEVENT\nUID:"+uid+"\nSUMMARY:"+esc2(e.n)
+      +"\nDTSTART;VALUE=DATE:"+ymd(start)+"\nDTEND;VALUE=DATE:"+ymd(end)
+      +"\nLOCATION:"+esc2(loc)+"\nDESCRIPTION:"+esc2(e.ou||e.su||"")+"\nEND:VEVENT");
+  });
+  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//skene.info//minu nimekiri//ET\n"
+    +read.join("\n")+"\nEND:VCALENDAR";
+  const blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download="skene-minu-nimekiri.ics";
+  document.body.appendChild(a);a.click();
+  setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},0);
+}
+function setMinu(v){st.minu=!!v;refresh();}
+function renderMinuBan(){
+  const el=document.getElementById('minuban');if(!el)return;
+  const n=minuKirjed().length;
+  // Sama pohimote mis mujal: kui nimekiri on tuhi, ei ole riba lehel uldse.
+  el.hidden=!n;
+  if(!n)return;
+  el.innerHTML="";
+  const s=document.createElement('span');
+  s.textContent="★ "+t('minu_h')+" ("+n+")";
+  el.appendChild(s);
+  const b=document.createElement('button');
+  b.type="button";b.className="uusban-b";
+  b.textContent=st.minu?t('uus_koik'):t('minu_naita');
+  b.onclick=function(){setMinu(!st.minu);};
+  el.appendChild(b);
+  const c=document.createElement('button');
+  c.type="button";c.className="uusban-b";
+  c.textContent=t('minu_ics');
+  c.onclick=minuIcs;
+  el.appendChild(c);
+}
 // ---------- B5c: riba "N uut alates su viimasest kulastusest" ----------
 // Riba on nahtav AINULT siis, kui midagi uut pariselt ON. Esimesel kulastusel (VIIMATI=null)
 // ja siis, kui vahepeal pole midagi lisandunud, ei ole teda uldse -- sama pohimote mis
@@ -1446,7 +1550,7 @@ function renderPick(){
   const box=document.getElementById('pickbox');if(!box)return;
   // Sama reegel mis reliisiribal: filtreeritud vaates otsib kasutaja midagi konkreetset
   // ja toimetuse plokk oleks seal segav.
-  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.uus&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
+  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.uus&&!st.minu&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
   const pick=puhas?pickPool():[];
   box.hidden=!pick.length;
   if(!pick.length)return;
@@ -1456,7 +1560,7 @@ function renderRel(){
   const box=document.getElementById('relbox');if(!box)return;
   // Riba on ainult vaikevaates. Otsing, paev, kuu, tuup voi zanrivalik = kasutaja otsib
   // midagi konkreetset, siis oleks riba segav.
-  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.uus&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
+  const puhas=!st.q&&!st.day&&!st.kuu&&!st.aeg&&!st.uus&&!st.minu&&!st.type&&!st.tags.size&&!(st.metas&&st.metas.size);
   const pick=puhas?relPick():[];
   box.hidden=!pick.length;
   if(!pick.length)return;
@@ -1546,12 +1650,13 @@ function filtreidAktiivseid(){
 // need kaks eraldi valikut. Kuu ja paev on valistavad, seega maksimaalselt uks neist.
 function filtreidArv(){
   return (st.type?1:0)+(st.city?1:0)+(st.kuu?1:0)+(st.day?1:0)+(st.q?1:0)+(st.aeg?1:0)
-        +(st.uus?1:0)+st.tags.size+((st.metas&&st.metas.size)||0);
+        +(st.uus?1:0)+(st.minu?1:0)+st.tags.size+((st.metas&&st.metas.size)||0);
 }
 // 15.08.2026 (A1/A4): uks nupp, mis viib puhtale vaatele. Varem sai zanreid nullida
 // (clearTags), aga tuup, koht, kuu, paev ja otsing tuli igauks eraldi tagasi klopsata.
 function resetAll(){
-  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";st.aeg=null;st.uus=false;
+  st.type=null;st.city=null;st.kuu=null;st.day=null;st.q="";st.qRaw="";st.aeg=null;
+  st.uus=false;st.minu=false;
   st.tags=new Set();if(st.metas)st.metas=new Set();
   // ⚠ st.past PEAB siin nullituma. allRel() paneb ta true peale ja kui "puhasta filtrid" teda
   // ei puutu, jaab minevik parast reseti vaikselt sisse (URL-i jaab ?p=1) -- kasutaja vajutas
@@ -1582,6 +1687,7 @@ function urlParams(){
   // annab ta saajale TEISE tulemuse kui saatjale. Laheb URL-i sellegipoolest, et tagasi-nupp
   // ja F5 tootaksid; jagamiseks ta lihtsalt ei sobi.
   if(st.uus)p.set('u','1');
+  if(st.minu)p.set('f','1');             // f = favourites; sama isikliku filtri hoiatus mis u
   if(st.kuu)p.set('m',st.kuu);
   if(st.day)p.set('d',st.day);
   if(st.q)p.set('q',st.qRaw||st.q);
@@ -1611,6 +1717,7 @@ function urlLoe(){
   st.city=p.get('c')||null;
   st.aeg=(["tana","nv","7p"].indexOf(p.get('w'))!==-1)?p.get('w'):null;  // tundmatu vaartus -> maha
   st.uus=p.get('u')==='1';
+  st.minu=p.get('f')==='1';
   st.kuu=p.get('m')||null;
   st.day=p.get('d')||null;
   st.qRaw=(p.get('q')||"").trim();st.q=norm(st.qRaw);
@@ -1681,7 +1788,7 @@ function refresh(){
     _ftog.textContent=t('f_filters')+(n?" ("+n+")":"");
     _ftog.classList.toggle('on',n>0);
   }
-  scopeChips();kuud();renderCal();render();renderUusBan();renderPick();renderRel();renderArchBtn();fbBanner();
+  scopeChips();kuud();renderCal();render();renderMinuBan();renderUusBan();renderPick();renderRel();renderArchBtn();fbBanner();
   fookusTagasi(_fookus);   // A13: pärast kõiki innerHTML-i ülekirjutusi
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)
