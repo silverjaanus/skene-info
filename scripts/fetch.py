@@ -145,6 +145,43 @@ def src_metalstorm():
                     "su": f"https://metalstorm.net/events/event.php?event_id={eid}"})
     return out
 
+KOOSSEIS_PRAHT = re.compile(
+    r"\b(tasuta|free entry|uksed|algus|kell|esitleb|presents|"
+    r"tuur|tour|night|edition|vol\.?\s*\d)\b", re.I)
+
+
+def koosseis_pealkirjast(n):
+    """Tuletab esinejate nimed urituse pealkirjast. Tagastab [] kui kindel ei ole.
+
+    MIKS (16.08.2026): auto-allikad panid koigile kirjetele kovakodeeritult "b": [],
+    seega uhelgi automaatselt korjatud uritusel EI OLNUD KUNAGI esinejaid. Enamikul
+    juhtudel seisab koosseis pealkirjas ("Rock Friday: LOV + RAIDER") ja ta lihtsalt
+    visati ara. Manuaalne kiht kirjutab selle niikuinii ule, seega halvim, mis siin
+    juhtuda saab, on veidi vale nimi kuni sweep kirje ule vaatab.
+
+    REEGEL ON TAHTLIKULT KONSERVATIIVNE -- parem tyhi kui vale:
+      1. vota osa PARAST viimast koolonit (enne koolonit on sarja/korraldaja nimi)
+      2. tykelda AINULT " + " jargi (tuhikutega); "&" EI kolba, sest ta on sama tihti
+         bandinime sees ("Kojamees & The GANG", "Apparatus & Apparata")
+      3. kui tulemuseks on UKS tykk, tagasta [] -- yhe nimega pealkiri voib olla mis
+         tahes ("Hainz (Kosmikud) akustilise kavaga TASUTA") ja seda ei tohi arvata
+      4. kui mone tyki sees on selge mitte-nimi voi ta on ule 40 margi, loobu TERVIKUNA
+    """
+    osa = n.split(":")[-1] if ":" in n else n
+    tykid = [t.strip(" -–—•") for t in re.split(r"\s\+\s", osa)]
+    tykid = [t for t in tykid if t]
+    if len(tykid) < 2:
+        return []
+    out = []
+    for t in tykid:
+        if len(t) > 40 or KOOSSEIS_PRAHT.search(t):
+            return []
+        if len(re.sub(r"[^A-Za-zÀ-ž0-9]", "", t)) < 2:
+            return []
+        out.append(t)
+    return out
+
+
 def src_krypt():
     # proovi nii stabiilset kui eksperimentaalset endpoint'i
     for url, hdr in [
@@ -166,7 +203,8 @@ def src_krypt():
                 title = html.unescape(unicodedata.normalize("NFKC", title)).strip()
                 if not start or not title:
                     continue
-                out.append({"d": start, "t": "kontsert", "n": title, "b": [],
+                out.append({"d": start, "t": "kontsert", "n": title,
+                            "b": koosseis_pealkirjast(title),
                             "v": "The Krypt", "c": "Tallinn", "g": ["metal"],
                             "sn": "thekrypt.ee", "su": e.get("url") or e.get("link") or "https://www.thekrypt.ee/events",
                             "on_": "thekrypt.ee", "ou": "https://www.thekrypt.ee/events"})
@@ -193,7 +231,8 @@ def _wp_venue(html, base, venue, city, orgname, orgurl, link_pat):
         if not dm:
             continue
         d = f"{dm.group(3)}-{int(dm.group(2)):02d}-{int(dm.group(1)):02d}"
-        out.append({"d": d, "t": "kontsert", "n": title, "b": [], "v": venue, "c": city,
+        out.append({"d": d, "t": "kontsert", "n": title,
+                    "b": koosseis_pealkirjast(title), "v": venue, "c": city,
                     "g": ["metal"], "sn": orgname, "su": url, "on_": orgname, "ou": orgurl})
     return out
 

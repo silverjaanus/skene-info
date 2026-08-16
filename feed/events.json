@@ -775,7 +775,8 @@
    "n": "C-JAM & MAD «Metallica» tuur, II osa",
    "a": "Padise klooster 05.08, Antoniuse õu (Tartu) 06.08, Suuremõisa loss 14.08, Kolga mõis 15.08, Kirna mõis (Türi) 23.08 kell 17 (tribuutprojekt)",
    "b": [
-    "C-JAM"
+    "C-JAM",
+    "Madis „Mad“ Velström"
    ],
    "v": "Padise klooster / Antoniuse õu (Tartu) / Suuremõisa loss / Kolga mõis / Kirna mõis",
    "c": "mujal",
@@ -787,7 +788,7 @@
    "su": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
    "on_": "Kolga Mõisa Kontsert",
    "ou": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
-   "nb": "Kirna mõisa lisakuupäev 23.08 lisatud sweepis 19.07.2026 (Kolga Mõisa Kontsert FB + Barbar FB) | 07.08.2026 sweep: Piletilevi kinnitab kõik kolm ülejäänud kuupäeva (14.08 Suuremõisa, 15.08 Kolga, 23.08 Kirna); Kolga ja Kirna on VÄLJA MÜÜDUD.",
+   "nb": "Kirna mõisa lisakuupäev 23.08 lisatud sweepis 19.07.2026 (Kolga Mõisa Kontsert FB + Barbar FB) | 07.08.2026 sweep: Piletilevi kinnitab kõik kolm ülejäänud kuupäeva (14.08 Suuremõisa, 15.08 Kolga, 23.08 Kirna); Kolga ja Kirna on VÄLJA MÜÜDUD. | 16.08.2026: koosseis taiendatud Eesti Kontserdi lehelt (concert.ee/festival/c-jam-mad-metallica) — MAD = Madis Velstrom, vokaal.",
    "pu": "https://www.piletilevi.ee/search?query=metal"
   },
   {
@@ -2734,7 +2735,10 @@
    "d": "2026-09-11",
    "t": "kontsert",
    "n": "Rock Friday: LØV + RAIDER",
-   "b": [],
+   "b": [
+    "LØV",
+    "RAIDER"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
@@ -2957,7 +2961,10 @@
    "d": "2026-09-18",
    "t": "kontsert",
    "n": "Rock Friday: Feach + Metropol",
-   "b": [],
+   "b": [
+    "Feach",
+    "Metropol"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
@@ -3082,7 +3089,10 @@
    "d": "2026-09-25",
    "t": "kontsert",
    "n": "Heavy Friday: KRANG (CZ) + ELUKAS (EE)",
-   "b": [],
+   "b": [
+    "KRANG (CZ)",
+    "ELUKAS (EE)"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
@@ -3182,7 +3192,10 @@
    "d": "2026-09-26",
    "t": "kontsert",
    "n": "Metal Saturday: Riser + Arestor",
-   "b": [],
+   "b": [
+    "Riser",
+    "Arestor"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
