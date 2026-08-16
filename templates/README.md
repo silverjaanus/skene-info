@@ -22,6 +22,27 @@ Käsitsi tehtud muudatus neis kaob järgmisel genereerimisel.
     templates/<leht>/site-<sait>.json       iga pesa väärtus sellel saidil
     templates/<leht>/snippets/<sait>/*.html pikad pesaväärtused (CSS, i18n, E_FALLBACK...)
     templates/<leht>/SLOTS.md               kaart: mis igas pesas on, kõigi 3 saidi lõikes
+    templates/_yhine/*.html                 plokid, mis on samad MITMEL LEHEL (vt allpool)
+
+## Kaks eri asja: pesa vs ühine plokk
+
+Neid on kerge segamini ajada, aga nad lahendavad vastandlikke probleeme:
+
+| | `{{S001}}` pesa | `{{YHINE:nimi}}` |
+|---|---|---|
+| Küsimus | "see koht ERINEB saitide lõikes" | "see plokk on SAMA mitmel lehel" |
+| Väärtus tuleb | `site-<sait>.json`-ist | failist `templates/_yhine/nimi.html` |
+| Ulatus | ühe lehepere sees | üle lehtede (index + arhiiv) |
+
+Ühised plokid lahendatakse **enne** pesasid, seega ühises failis tohib olla `{{Snnn}}`-pesasid.
+
+**Millal kasutada `{{YHINE:...}}`:** kui sama kood peaks minema nii `index`- kui `arhiiv`-lehele
+(nt bändipaneel B5e — ~250 rida JS + CSS, kokku 6 genereeritud failis). Kopeeritud plokk on siin
+repos juba korra valu teinud: parandus läks ühte koopiasse ja teised jäid maha.
+
+**Praegu olemas:** `bnd-css`, `bnd-js`, `bnd-i18n-et`, `bnd-i18n-en` (bändipaneel, 16.08.2026).
+Uue lisamiseks tee fail `templates/_yhine/<nimi>.html` ja pane mõlemasse base.html-i
+`{{YHINE:<nimi>}}` omaette reale. Tundmatu nimi peatab generaatori veateatega.
 
 JSON-is on lühike väärtus kohe kohal; pikk viitab failile: `{"f": "snippets/www/S007.html"}`.
 

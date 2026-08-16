@@ -1,0 +1,59 @@
+/* --- B5e BANDIPANEEL (16.08.2026) -------------------------------------------
+   YHINE PLOKK: templates/_yhine/bnd-css.html. Muuda SIIN, mitte base.html-ides --
+   sama plokk laheb nii index'i kui arhiivi lehele (x3 saiti = 6 faili).
+   Bandinimi on nupp, mitte tekst. Klikk avab paneeli: kus see band veel esineb
+   (koik 3 saiti) + millal ta VIIMATI laval oli (arhiivist).
+   ⚠ Koik nimed algavad `bnd`-ga. Pohjus: lehed pannakse kokku slottidest ja
+   site-snippet voib kasutada sama nime (vt S077 `_ft` juhtum). */
+.bnb{font:inherit;background:transparent;border:0;padding:0;color:inherit;cursor:pointer;
+  border-bottom:1px dotted var(--hall);text-align:left}
+.bnb:hover,.bnb:focus{color:var(--tint);border-bottom-color:var(--tint)}
+.bnb-i{font-family:var(--mono);font-size:12px;border-bottom:0;opacity:.6;padding:0 1px;line-height:1}
+.bnb-i:hover,.bnb-i:focus{opacity:1;color:var(--tint)}
+#bndkate{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:80;
+  display:flex;align-items:center;justify-content:center;padding:20px}
+#bndkast{background:var(--paber);color:var(--tint);border:2.5px solid var(--tint);
+  box-shadow:7px 7px 0 var(--tint);width:100%;max-width:620px;max-height:84vh;overflow-y:auto;
+  padding:16px 20px 20px;position:relative}
+.bndx{position:absolute;top:8px;right:10px;background:transparent;border:0;color:var(--tint);
+  font-size:26px;line-height:1;cursor:pointer;padding:2px 6px}
+.bndx:hover{color:var(--hall)}
+.bndh{font-size:24px;font-weight:700;text-transform:uppercase;letter-spacing:-.5px;
+  padding-right:34px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.bndh .ic{display:inline-flex;gap:7px;align-items:center}
+.bndh svg{width:18px;height:18px;display:block}
+.bndst{font-family:var(--mono);font-size:11px;color:var(--hall);text-transform:uppercase;
+  letter-spacing:.6px;border-top:1px solid var(--joon);padding-top:7px;margin-top:14px}
+.bndsec .bndst:first-child{margin-top:12px}
+.bndr{display:grid;grid-template-columns:78px 1fr auto;gap:4px 10px;align-items:baseline;
+  text-decoration:none;color:inherit;padding:7px 2px;border-bottom:1px solid var(--joon)}
+.bndr:hover{background:rgba(0,0,0,.045)}
+/* ⚠ KOIK NELI POSITSIONEERITAKSE EKSPLITSIITSELT (grid-area: rida / veerg).
+   Esimene versioon andis ainult .bndsait-ile `grid-row:1` ja jattis veeru automaatseks --
+   tulemus oli, et sildi kast rannas ESIMESSE veergu ja lukkas kuupaeva + nime paremale.
+   Pohjus: grid paigutab eksplitsiitse reaga elemendid ENNE automaatseid, seega "esimene
+   vaba koht real 1" oli veel veerg 1. Poolik positsioneerimine on hullem kui mitte ykski. */
+.bndd{grid-area:1/1;font-family:var(--mono);font-size:12.5px;color:var(--hall);white-space:nowrap}
+.bndn{grid-area:1/2;font-size:15px;font-weight:700}
+.bndsait{grid-area:1/3;font-family:var(--mono);font-size:10px;font-weight:700;color:#fff;
+  padding:1px 6px;border-radius:3px;white-space:nowrap;align-self:center}
+.bndv{grid-area:2/2;font-size:12.5px;color:var(--hall)}
+/* "Viimati laval" on kogu paneeli mote -- see peab silma torkama, mitte olema uks rida
+   teiste seas. Sellepärast raam + tint-serv, mitte tavaline .bndr. */
+.bndviim{border:2px solid var(--tint);padding:9px 12px;margin-top:9px}
+.bndviim .bndr{border-bottom:0;padding:2px 0}
+.bndviim .bndst{border-top:0;margin-top:0;padding-top:0;color:var(--tint);font-weight:700}
+.bndammu{font-family:var(--mono);font-size:12px;color:var(--hall);margin-top:3px}
+.bndtyhi{font-size:13.5px;color:var(--hall);margin-top:8px;line-height:1.5}
+.bndlaen{font-family:var(--mono);font-size:12px;color:var(--hall);margin-top:12px}
+.bndkoik{font-family:var(--mono);font-size:12px;background:transparent;border:1.5px solid var(--joon);
+  color:var(--hall);padding:3px 9px;cursor:pointer;margin-top:9px}
+.bndkoik:hover{border-color:var(--tint);color:var(--tint)}
+@media(max-width:720px){
+  /* mobiilis alt tousev leht, mitte keskmodaal: pöidlaga ulatub sulgemisnupuni */
+  #bndkate{align-items:flex-end;padding:0}
+  #bndkast{max-height:88vh;box-shadow:none;border-width:2.5px 0 0;padding:14px 16px 22px}
+  /* Mobiilis kaks veergu: silt laheb oma reale nime alla, mitte selle korvale. */
+  .bndr{grid-template-columns:74px 1fr}
+  .bndsait{grid-area:3/2;justify-self:start;margin-top:2px}
+}

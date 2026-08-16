@@ -104,6 +104,7 @@ aside{position:sticky;top:16px;padding-top:16px}
 .bd a{display:inline-flex;opacity:.85}
 .bd a:hover{opacity:1}
 .bd svg{width:17px;height:17px;display:block}
+{{YHINE:bnd-css}}
 .loc{text-align:right;font-size:13.5px;color:var(--hall)}
 .loc .venue{color:var(--tint);font-weight:700;display:block;font-size:14.5px}
 .lnks{font-family:var(--mono);font-size:11px;margin-top:6px;line-height:1.9}
@@ -201,6 +202,7 @@ const I18N={
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   organizer:"korraldaja:", listen:"kuula:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
+{{YHINE:bnd-i18n-et}}
   empty_view:"Selles vaates pole kirjeid.",
 {{S013}}
   err_arch:"Arhiivi ei õnnestunud laadida.",
@@ -220,6 +222,7 @@ const I18N={
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   organizer:"organiser:", listen:"listen:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
+{{YHINE:bnd-i18n-en}}
   empty_view:"No entries in this view.",
 {{S017}}
   err_arch:"Couldn't load the archive.",
@@ -267,10 +270,7 @@ function bandIcons(b){
  }
  return ics;
 }
-function band(b){
- const ics=bandIcons(b);
- return `<span class="bd"><span>${esc(b)}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
-}
+{{YHINE:bnd-js}}
 // --- pisipilt: paris pilt (e.img) voi tuubimark; sama komplekt mis index.html-is ---
 const MARK_S='stroke="currentColor" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"';
 const MARGID={
@@ -385,7 +385,7 @@ function render(){
     return `<div class="row">
       ${thumbHtml(e,tc)}
       <div>
-        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd"><span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
+        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd">${bandNupp(e.b[0])}<span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
         <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length>1?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
@@ -406,6 +406,9 @@ function refresh(){
   document.getElementById("f-tag").innerHTML=
 {{S024}}
   aastad();kuud();render();
+  // B5e: avatud bandipaneel joonistatakse ule koos ulejaanuga -- muidu ei jouaks
+  // keelevahetus paneelini.
+  if(BNDLAHTI)bndJoonista();
 }
 function setYear(y){
   st.year=y;st.kuu=null;

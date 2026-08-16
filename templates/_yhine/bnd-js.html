@@ -1,0 +1,253 @@
+// ============================================================================
+// B5e: BANDIPOHINE AVASTAMINE (16.08.2026)
+// YHINE PLOKK: templates/_yhine/bnd-js.html. Muuda SIIN -- sama kood laheb nii
+// index'i kui arhiivi lehele, kokku kuude genereeritud faili.
+//
+// MIDA TEEB: klikk bandinimel avab paneeli -- kus see band veel esineb (koik kolm
+// saiti) ja millal ta VIIMATI laval oli. Silveri mote: "et naeks, mida oled maha
+// maganud".
+//
+// SOLTUVUSED, mis peavad lehel OLEMAS olema: esc(), surl(), t(), bandIcons(), enc().
+// Koik muu (kuupaevad, norm, saidisildid, andmed) on siin failis oma. See on
+// TEADLIK: nii ei lagune plokk, kui uks leht mone abifunktsiooni ymber tostab.
+//
+// ANDMED:
+//   tulevased -- ALLX, kui leht on selle juba laadinud (index.html), muidu kysime
+//                api/events.json ise (arhiivileht). Molemad on sama fail.
+//   moodunud  -- api/archive.json, LAISALT esimesel avamisel (~100 KB, koik 3 saiti).
+//                Malus; teist korda ei kysita.
+//
+// NIMEDE SOBITAMINE kaib TAPSE bndNorm()-itud kattuvuse jargi (`b`-massiiv voi `n`).
+// Osalist kattuvust EI tehta TEADLIKULT: "Öst" ei tohi tabada "Östlundi" ja
+// reliisipealkiri "Bänd — Album" ei tohi tabada koike, mis sisaldab sama sona.
+// Hind: sama band eri kirjapildiga ("Mr. Bungle" vs "Mr Bungle") jaab kaheks.
+// See on parem kui vale bandi ajalugu.
+//
+// SKOOP: paneel naitab AINULT uritusi, mitte reliise/merchi. "Esineb" ja "laval"
+// tahendavad lava; reliisirida ajaks siin moisted sassi.
+let BNDARH=null;        // arhiivikirjed (koik 3 saiti) voi null = pole veel laetud
+let BNDEV=null;         // tulevased, KUI leht ise ALLX-i ei paku
+let BNDARHSEIS="";      // "" | "laen" | "ok" | "katki"
+let BNDLAHTI=null;      // avatud bandi nimi originaalkujul, voi null
+let BNDKOIK=false;      // kas arhiivi vanemad kirjed on lahti klapitud
+let BNDFOOKUS=null;     // element, kuhu fookus paneeli sulgemisel tagasi laheb
+const BND_LBL={www:"METAL",rap:"RÄPP",klubi:"KLUBI"};
+const BND_BG={www:"#93392C",rap:"#2E5EAA",klubi:"#6E45A8"};
+function bndNorm(s){return (s||"").toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+function bndTana(){
+  if(typeof TODAY==='string'&&TODAY)return TODAY;
+  const n=new Date();
+  return n.getFullYear()+"-"+String(n.getMonth()+1).padStart(2,"0")+"-"+String(n.getDate()).padStart(2,"0");
+}
+// Kirje viimane paev. Mitmepaevane kirje on "labi" alles siis, kui VIIMANE paev on
+// moodas (sama reegel mis 15.08.2026 parandus nimekirjas). `d2` on kujul "PP.KK"
+// ILMA aastata -- aasta tuleb algusest, aastavahetusel jargmisest.
+function bndViimanePaev(e){
+  if(Array.isArray(e.dd)&&e.dd.length)return e.dd.slice().sort()[e.dd.length-1];
+  const d=String(e.d||"");
+  if(e.d2&&/^\d{1,2}\.\d{1,2}$/.test(String(e.d2))&&d.length>=10){
+    const osad=String(e.d2).split(".");
+    const pp=("0"+osad[0]).slice(-2), kk=("0"+osad[1]).slice(-2);
+    let a=parseInt(d.slice(0,4),10);
+    if(kk<d.slice(5,7))a++;
+    return a+"-"+kk+"-"+pp;
+  }
+  return d;
+}
+function bndSobib(e,key){
+  if((e.b||[]).some(x=>bndNorm(x)===key))return true;
+  return bndNorm(e.n||"")===key;
+}
+function bndUritus(e){return e&&e.t!=='reliis'&&e.t!=='merch';}
+// Kust tulevased kirjed tulevad, eelistuse jarjekorras.
+// 1) ALLX -- index.html on koondfeedi juba laadinud, teist korda ei kysi.
+// 2) BNDEV -- arhiivilehel, kus ALLX-i ei ole, kysime sama faili ise.
+// 3) E -- viimane olekors: kui koondfeed on katki, naitame vahemalt OMA saidi kirjeid.
+//    Arhiivilehel on E moodunud aasta kirjed, aga need kukuvad kuupaevafiltris valja.
+function bndTulevikuAllikas(){
+  if(typeof ALLX!=='undefined'&&ALLX&&ALLX.length)return ALLX;
+  if(BNDEV&&BNDEV.length)return BNDEV;
+  if(typeof E!=='undefined'&&E&&E.length)return E;
+  return [];
+}
+function bndTulevad(key){
+  const allikas=bndTulevikuAllikas();
+  const tana=bndTana();
+  return allikas.filter(e=>bndUritus(e)&&bndSobib(e,key)&&bndViimanePaev(e)>=tana)
+    .sort((a,b)=>String(a.d||"").localeCompare(String(b.d||"")));
+}
+function bndMoodunud(key){
+  if(!BNDARH)return [];
+  return BNDARH.filter(e=>bndSobib(e,key))
+    .sort((a,b)=>String(bndViimanePaev(b)).localeCompare(String(bndViimanePaev(a))));
+}
+function bndKp(iso){
+  const s=String(iso||"");
+  return s.length>=10?(s.slice(8,10)+"."+s.slice(5,7)+"."+s.slice(0,4)):s;
+}
+// "kui ammu" inimkeeles. Piirid on tahtlikult jamedad -- kasutaja tahab teada, kas ta
+// magas maha eelmise nadala voi eelmise aasta, mitte tapset paevade arvu.
+function bndAmmu(iso){
+  const a=new Date(String(iso)+"T00:00"), b=new Date(bndTana()+"T00:00");
+  const p=Math.round((b-a)/86400000);
+  if(!isFinite(p))return "";
+  if(p<=0)return t('bnd_tana');
+  if(p===1)return t('bnd_eile');
+  if(p<45)return p+" "+t('bnd_p');
+  const k=Math.round(p/30.44);
+  if(k<18)return k===1?("1 "+t('bnd_k1')):(k+" "+t('bnd_k'));
+  const v=Math.round(p/365.25);
+  return v===1?("1 "+t('bnd_a1')):(v+" "+t('bnd_a'));
+}
+// Mis kuust arhiiv uldse algab. Kirjutame selle valja, sest 08.2026 seisuga on arhiivis
+// ~2,5 kuud -- ilma selle lauseta jaaks mulje, et band pole KUNAGI esinenud.
+function bndArhAlgus(){
+  if(!BNDARH||!BNDARH.length)return "";
+  let min="";
+  BNDARH.forEach(e=>{const d=String(e.d||"");if(d&&(!min||d<min))min=d;});
+  return min?(min.slice(5,7)+"."+min.slice(0,4)):"";
+}
+// Nimi lineup'is on NUPP, mitte tekst. Ikoonid jaavad puutumata -- need viivad valja
+// (Spotify jne), nupp jaab saidi sisse (paneel).
+function band(b){
+ const ics=bandIcons(b);
+ return `<span class="bd"><button type="button" class="bnb" data-b="${esc(b)}" title="${esc(t('bnd_avab'))}" onclick="bndAva(this.dataset.b)">${esc(b)}</button>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
+}
+// Uhe esinejaga kirjel ei renderdata lineup'i uldse (nimi on juba pealkirjas), seega
+// poleks seal midagi klikkida. Ikoonide korvale laheb sama glyph, mis on paneeli sees
+// "viimati laval" rea ees -- nii on margil kogu saidil uks tahendus.
+function bandNupp(b){
+ const lbl=esc(b)+" — "+esc(t('bnd_avab'));
+ return `<button type="button" class="bnb bnb-i" data-b="${esc(b)}" title="${lbl}" aria-label="${lbl}" onclick="bndAva(this.dataset.b)">⟲</button>`;
+}
+function bndRida(e,arhiiv){
+  const sait=e.sait||(typeof SELF!=='undefined'?SELF:"www");
+  const iso=arhiiv?bndViimanePaev(e):(e.d||"");
+  const koht=[e.v,(e.linn||(e.c&&e.c!=='mujal'?e.c:""))].filter(Boolean).join(", ");
+  const sisu=`<span class="bndd">${esc(bndKp(iso))}</span>`
+    +`<span class="bndn">${esc(e.n)}</span>`
+    +`<span class="bndsait" style="background:${BND_BG[sait]||BND_BG.www}">${esc(BND_LBL[sait]||"")}</span>`
+    +(koht?`<span class="bndv">${esc(koht)}</span>`:"");
+  const u=e.ou||e.su;
+  return (u&&/^https?:\/\//i.test(u))
+    ? `<a class="bndr" href="${surl(u)}" target="_blank" rel="noopener">${sisu}</a>`
+    : `<div class="bndr">${sisu}</div>`;
+}
+function bndArhiiviOsa(key){
+  if(BNDARHSEIS==="laen")return `<p class="bndlaen">${esc(t('bnd_laen'))}</p>`;
+  if(BNDARHSEIS==="katki")return `<p class="bndtyhi">${esc(t('bnd_arh_err'))}</p>`;
+  const arh=bndMoodunud(key);
+  if(!arh.length){
+    const algus=bndArhAlgus();
+    return `<p class="bndst">${esc(t('bnd_viimati'))}</p><p class="bndtyhi">${esc(t('bnd_ei_arh'))}`
+      +(algus?` <span style="opacity:.8">(${esc(t('bnd_arh_algab'))} ${esc(algus)})</span>`:"")+`</p>`;
+  }
+  const viim=arh[0];
+  let s=`<div class="bndviim"><p class="bndst">${esc(t('bnd_viimati'))}</p>`
+    +bndRida(viim,true)
+    +`<p class="bndammu">${esc(bndAmmu(bndViimanePaev(viim)))}</p></div>`;
+  if(arh.length>1){
+    s+=`<p class="bndlaen">${esc(t('bnd_arh_n'))} ${arh.length} ${esc(t('bnd_arh_korda'))}</p>`
+      +`<button type="button" class="bndkoik" onclick="bndKoikLuliti()">`
+      +esc(t(BNDKOIK?'bnd_peida':'bnd_koik'))+`</button>`;
+    if(BNDKOIK)s+=`<div>${arh.slice(1).map(e=>bndRida(e,true)).join("")}</div>`;
+  }
+  return s;
+}
+function bndKoikLuliti(){BNDKOIK=!BNDKOIK;bndJoonista();}
+function bndJoonista(){
+  if(!BNDLAHTI)return;
+  const key=bndNorm(BNDLAHTI);
+  let kate=document.getElementById('bndkate');
+  const uusKate=!kate;
+  if(!kate){
+    kate=document.createElement('div');
+    kate.id='bndkate';
+    // Klikk TAUSTALE sulgeb; klikk kasti sees mitte. Sellepärast ev.target===kate.
+    kate.addEventListener('click',function(ev){if(ev.target===kate)bndSulge();});
+    document.body.appendChild(kate);
+    document.body.style.overflow='hidden';
+  }
+  const tul=bndTulevad(key);
+  const ics=bandIcons(BNDLAHTI);
+  kate.innerHTML=`<div id="bndkast" role="dialog" aria-modal="true" aria-label="${esc(BNDLAHTI)}">`
+    +`<button type="button" class="bndx" onclick="bndSulge()" title="${esc(t('bnd_sulge'))}" aria-label="${esc(t('bnd_sulge'))}">×</button>`
+    +`<p class="bndh">${esc(BNDLAHTI)}${ics?`<span class="ic">${ics}</span>`:""}</p>`
+    +`<div class="bndsec"><p class="bndst">${esc(t('bnd_tulevad'))}${tul.length?" · "+tul.length:""}</p>`
+    +(tul.length?tul.map(e=>bndRida(e,false)).join(""):`<p class="bndtyhi">${esc(t('bnd_ei_tule'))}</p>`)
+    +`</div><div class="bndsec">`+bndArhiiviOsa(key)+`</div></div>`;
+  // Fookus AINULT esimesel joonistusel. bndJoonista() jookseb ka siis, kui arhiiv saabub
+  // voi refresh() kutsub -- iga kord fookust nihutades hupaks ekraanilugeja tagasi algusesse
+  // ja klaviatuurikasutaja kaotaks koha, kus ta parasjagu oli.
+  if(uusKate){const x=kate.querySelector('.bndx');if(x)x.focus();}
+}
+// Arhiiv (ja vajadusel tulevased) laisalt. "katki" -> jargmisel avamisel proovime uuesti.
+function bndLaeAndmed(){
+  // ⚠ Tingimus on `typeof ALLX==='undefined'`, MITTE `!ALLX.length`. Index deklareerib
+  // `let ALLX=[]` ja taidab selle alles fetch'i vastusega -- pikkuse jargi otsustades
+  // kysiksime ?bd= lingiga avatud lehel SAMA faili teist korda, sest paneel joonistub
+  // enne, kui koondfeed kohale jouab.
+  if(typeof ALLX==='undefined'&&!BNDEV){
+    BNDEV=[];   // et teist korda ei kysiks; sisu tuleb, kui vastus saabub
+    fetch("api/events.json").then(r=>r.ok?r.json():Promise.reject())
+      .then(j=>{BNDEV=j.entries||[];bndJoonista();}).catch(()=>{});
+  }
+  if(BNDARH||BNDARHSEIS==="laen")return;
+  BNDARHSEIS="laen";
+  fetch("api/archive.json").then(r=>r.ok?r.json():Promise.reject()).then(j=>{
+    BNDARH=(j.entries||[]).filter(bndUritus);
+    BNDARHSEIS="ok";bndJoonista();
+  }).catch(()=>{BNDARHSEIS="katki";bndJoonista();});
+}
+function bndAva(b){
+  if(!b)return;
+  BNDFOOKUS=document.activeElement;
+  BNDLAHTI=b;BNDKOIK=false;
+  bndJoonista();bndLaeAndmed();bndUrlKirjuta();
+}
+function bndSulge(){
+  if(!BNDLAHTI)return;
+  BNDLAHTI=null;bndKustuta();bndUrlKirjuta();
+  try{if(BNDFOOKUS&&BNDFOOKUS.focus)BNDFOOKUS.focus();}catch(e){}
+  BNDFOOKUS=null;
+}
+// Ainult DOM-i koristus, ILMA URL-i puutumata. urlLoe()/bndUrlLoe() kasutavad seda
+// TAGASI-nupu peal, kus URL on juba oige -- kui siit kutsuks URL-i kirjutamist, tekiks
+// ajalukku lisakirje ja TAGASI vajutus ei liiguks kuskile.
+function bndKustuta(){
+  const el=document.getElementById('bndkate');if(el)el.remove();
+  document.body.style.overflow="";
+}
+// --- URL-olek ---------------------------------------------------------------------
+// Paneel laheb URL-i (?bd=Nimi): nii on link jagatav ja TAGASI-nupp sulgeb paneeli.
+// Indexil on oma tapsem URL-olek (urlParams/urlLoe, kus `bd` on juba yks parameeter
+// teiste seas) -- seal anname too temale. Arhiivilehel URL-olekut ei ole, seega
+// kirjutame ainult `bd`-parameetri ja jatame ulejaanud query puutumata.
+function bndUrlKirjuta(){
+  if(typeof urlKirjuta==='function'){urlKirjuta();return;}
+  try{
+    const p=new URLSearchParams(location.search);
+    if(BNDLAHTI)p.set('bd',BNDLAHTI);else p.delete('bd');
+    const s=p.toString();
+    history.pushState({skene:1},"",s?('?'+s):location.pathname);
+  }catch(e){}
+}
+function bndUrlLoe(){
+  let bd="";
+  try{bd=(new URLSearchParams(location.search).get('bd')||"").trim();}catch(e){}
+  if(bd){if(bd!==BNDLAHTI){BNDLAHTI=bd;BNDKOIK=false;bndJoonista();bndLaeAndmed();}}
+  else if(BNDLAHTI){BNDLAHTI=null;bndKustuta();}
+}
+// TAGASI/EDASI. Indexil teeb seda juba tema oma popstate-kuulaja (urlLoe -> bd), seega
+// seal see kuulaja ei tee midagi -- kaks kuulajat sama too peale tahendaks topeltjoonistust.
+window.addEventListener('popstate',function(){
+  if(typeof urlLoe==='function')return;
+  bndUrlLoe();
+});
+// ESC sulgeb. Modaal, mida klaviatuurilt kinni ei saa, on louks.
+document.addEventListener('keydown',function(ev){
+  if((ev.key==='Escape'||ev.key==='Esc')&&BNDLAHTI)bndSulge();
+});
+// Avamine lehe laadimisel, kui URL-is on juba ?bd=. Indexil kutsub urlLoe() sama asja --
+// teistkordne kaik on tuhikaik, sest bd===BNDLAHTI.
+bndUrlLoe();

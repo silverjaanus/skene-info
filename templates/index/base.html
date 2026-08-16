@@ -137,6 +137,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .bd a:hover{opacity:1}
 .bd svg{width:17px;height:17px;display:block}
 .tit .bd{margin-left:9px;vertical-align:middle}
+{{YHINE:bnd-css}}
 .loc{text-align:right;font-size:13.5px;color:var(--hall)}
 .loc .venue{color:var(--tint);font-weight:700;display:block;font-size:14.5px}
 .lnks{font-family:var(--mono);font-size:11px;margin-top:6px;line-height:1.9}
@@ -235,10 +236,13 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .calcell.out{color:var(--joon);opacity:.45}
 .calcell.ev{cursor:pointer}
 /* Ring on lahtri PROTSENT, mitte px: lahter on 1fr ehk voolav, seega fikseeritud px jattis
-   laiemal ekraanil ringi tuhja lahtri keskele holjuma. 92% hoiab desktopi kulgriba kalendri
-   (lahter ~25px -> ring ~23px) tapselt endisena; mobiilis loeb --dotmax lagi. */
+   laiemal ekraanil ringi tuhja lahtri keskele holjuma.
+   ⚠ 76% (oli 92% kuni 16.08.2026): kulgriba lahter on ~25px, seega ring 23px -> 19px ja
+   korvale jaab ~3px. Just seda ruumi vajab valitud paeva HALO (S021), mis kuni 16.08 sai
+   olla ainult mobiilis. Mobiili ringi see EI muuda -- seal loeb --dotmax lagi (30px),
+   sest 76% ~45px lahtrist on 34px. Kui tostad selle numbri tagasi ules, halo lammub. */
 .calcell .dnum{display:flex;align-items:center;justify-content:center;
-  width:min(92%,var(--dotmax));aspect-ratio:1;height:auto;border-radius:50%;transition:filter .1s}
+  width:min(76%,var(--dotmax));aspect-ratio:1;height:auto;border-radius:50%;transition:filter .1s}
 {{S020}}
 .calcell.ev:hover .dnum{filter:brightness(1.12)}
 {{S021}}
@@ -248,13 +252,6 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 {{S022}}
   .calbox{max-width:var(--calmax)}   /* mitte "none": voolav ruudustik venis ekraaniga, ring ei veninud */
   .calgrid{column-gap:1px}
-  /* HALO ainult mobiilis. Siin on lahter ~45px ja ring 30px, seega ringi korval on ~7px vaba
-     ruumi ja halo mahub ara. Paberivarvi vahe loob musta ringi accent-taidisest lahti - see
-     on ainus asi, mis teeb valitud paeva loetavaks ka punase laigu peal. Desktopi 190px
-     kulgribas seda ruumi POLE (1px), seal jaab kehtima S021 ohuke ring. */
-  .calcell.sel .dnum{box-shadow:0 0 0 2px var(--paber),0 0 0 3px var(--tint)}
-  .calcell.today.sel .dnum{box-shadow:0 0 0 1.6px var(--tint) inset,
-    0 0 0 2px var(--paber),0 0 0 3px var(--tint)}
 }
 /* Skoobi-chipid: oma sait on alati sees ja klikitav ei ole; teised on kinni seni,
    kuni api/events.json on laetud. */
@@ -610,6 +607,7 @@ const I18N={
   report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
 {{S048}}
   cal_google:"+ GOOGLE KALENDER",
+{{YHINE:bnd-i18n-et}}
   on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
   months:["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"]
  },
@@ -665,6 +663,7 @@ const I18N={
   report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
 {{S057}}
   cal_google:"+ GOOGLE CALENDAR",
+{{YHINE:bnd-i18n-en}}
   on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
   months:["January","February","March","April","May","June","July","August","September","October","November","December"]
  }
@@ -745,10 +744,6 @@ function bandIcons(b){
    +bandIco("https://www.youtube.com/results?search_query="+enc(b),IC.yt,'on_yt',b);
  }
  return ics;
-}
-function band(b){
- const ics=bandIcons(b);
- return `<span class="bd"><span>${esc(b)}</span>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
 }
 function pad2(n){return String(n).padStart(2,"0");}
 function dOnly(str){return new Date(str+"T00:00");}
@@ -1062,7 +1057,7 @@ function render(){
     return `<div class="row${past?" past":""}">
       ${thumbHtml(e,tc)}
       <div>
-        <p class="tit">${tahtNupp(e)}<a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd"><span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
+        <p class="tit">${tahtNupp(e)}<a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd">${bandNupp(e.b[0])}<span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
         <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${past?'<span class="laebi">'+t('lbl_past')+'</span>':""}${uusSulle(e)?`<span class="uusmark" title="${esc(t('uus_title'))}">${t('uus_mark')}</span>`:""}${(st.q||scope.size>1)?`<a href="${SITE_URL[e.sait||SELF]}" target="_blank" rel="noopener" style="display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;font-weight:700;color:#fff;text-decoration:none;background:${SITE_BG[e.sait||SELF]}">${SITE_LBL[e.sait||SELF]}</a>`:""}${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
         ${e.b&&e.b.length>1?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
@@ -1534,6 +1529,7 @@ function loadArchRel(){
     if(el){el.innerHTML='<p class="archnote"></p>';el.firstChild.textContent=t('rel_arch_err');}
   });
 }
+{{YHINE:bnd-js}}
 function setTag(g){
   if(st.tags.has(g))st.tags.delete(g);else st.tags.add(g);
   refresh();
@@ -1613,6 +1609,10 @@ function urlParams(){
   // 06.08 otsusega "skoopi ei salvestata": parameetrita külastus algab endiselt puhtalt
   // oma saidiga -- salvestamist (localStorage) ikka ei ole.
   if(scope.size>1)p.set('s',SAIDID.filter(x=>scope.has(x)).join(','));
+  // B5e: avatud bandipaneel. Erinevalt filtritest EI kitsenda see nimekirja -- ta on
+  // vaate peal olev kiht. URL-i laheb ta sellegipoolest: nii on link jagatav
+  // ("vaata, Metsatöll mangib septembris") ja TAGASI-nupp sulgeb paneeli.
+  if(BNDLAHTI)p.set('bd',BNDLAHTI);
   const s=p.toString();
   return s?('?'+s):location.pathname;
 }
@@ -1647,6 +1647,12 @@ function urlLoe(){
   const s=(p.get('s')||"").split(',').filter(Boolean);
   scope=new Set([SELF]);
   s.forEach(x=>{if(SAIDID.indexOf(x)!==-1)scope.add(x);});
+  // B5e: paneel avatakse/suletakse URL-i jargi, et TAGASI-nupp ja jagatud link tootaksid.
+  // ⚠ Siit EI TOHI kutsuda urlKirjuta()-t (bndAva/bndSulge teevad seda) -- popstate'i ajal
+  // on URL juba sihtvaartus ja lisakirje ajaloos tahendaks, et TAGASI vajutus ei liigu.
+  const bd=(p.get('bd')||"").trim();
+  if(bd){if(bd!==BNDLAHTI){BNDLAHTI=bd;BNDKOIK=false;bndJoonista();bndLaeArhiiv();}}
+  else if(BNDLAHTI){BNDLAHTI=null;bndKustuta();}
   const sb=document.getElementById('f-q');if(sb)sb.value=p.get('q')||"";
   // Jagatud link, mis kitsendab kuule, peab avanema kuuvaates -- muidu kehtiks kuufilter
   // nahtamatult (sama viga mis A15). Sama loogika paeva puhul. localStorage'i EI puutu:
@@ -1700,6 +1706,10 @@ function refresh(){
     _ftog.classList.toggle('on',n>0);
   }
   scopeChips();kuud();renderCal();render();renderMinuBan();renderUusBan();renderPick();renderRel();renderArchBtn();fbBanner();
+  // B5e: avatud bandipaneel joonistatakse ule koos ulejaanuga. Ilma selleta jaaks
+  // jagatud ?bd= lingiga avatud paneel sinna seisu, mis oli ENNE data.json-i saabumist
+  // (ehk "tulevasi esinemisi ei ole"), ja keelevahetus ei joudnud paneelini.
+  if(BNDLAHTI)bndJoonista();
   fookusTagasi(_fookus);   // A13: pärast kõiki innerHTML-i ülekirjutusi
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)

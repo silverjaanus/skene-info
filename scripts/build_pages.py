@@ -53,10 +53,32 @@ def faili_reavahetus(path):
     return "\r\n" if crlf > lf else "\n"
 
 
+def yhised(tekst, kust):
+    """Asendab {{YHINE:nimi}} margid failiga templates/_yhine/<nimi>.html.
+
+    MIKS (16.08.2026, B5e): pesad {{Snnn}} lahendavad "sama leht, kolm saiti".
+    Neid EI saa kasutada "sama plokk, kaks eri lehte" jaoks -- pesad on lehepere-sisesed
+    ja iga lehepere loeb oma site-<sait>.json-i. Bandipaneel (~200 rida JS + CSS) laheb
+    nii index'i kui arhiivi lehele TAPSELT samal kujul, ja kolmes eksemplaris kopeeritud
+    plokk on selles repos juba korra valu teinud (parandus laks uhte koopiasse, teised
+    jaid maha). {{YHINE:...}} hoiab ta UHES failis.
+    Margid lahendatakse ENNE pesasid, seega yhises failis TOHIB olla {{Snnn}}-pesasid.
+    """
+    for _ in range(5):                                  # lubame yhisel viidata teisele
+        if "{{YHINE:" not in tekst:
+            break
+        for f in sorted((TPL / "_yhine").glob("*.html")):
+            tekst = tekst.replace("{{YHINE:%s}}\n" % f.stem, rd_lf(f))
+    if "{{YHINE:" in tekst:
+        jaak = [r.strip() for r in tekst.splitlines() if "{{YHINE:" in r]
+        sys.exit("VIGA (%s): tundmatu yhine plokk: %s" % (kust, ", ".join(jaak[:3])))
+    return tekst
+
+
 def render(leht, sait, eol="\n"):
     """Asendab base.html pesad selle saidi vaartustega."""
     d = TPL / leht
-    out = rd_lf(d / "base.html")
+    out = yhised(rd_lf(d / "base.html"), "%s/%s" % (leht, sait))
     with open(d / ("site-%s.json" % sait), encoding="utf-8") as f:
         cfg = json.load(f)
     for sid, val in cfg.items():

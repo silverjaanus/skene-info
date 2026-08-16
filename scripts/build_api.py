@@ -127,13 +127,18 @@ def build():
     _write(API / "events.json", "tulevased + varsked kirjed", events)
     _write(API / "archive.json", "arhiiv (moodunud kirjed)", archive)
 
-    # Koond-events.json koopiad alamdomeenidele. Vercel routes suunab
+    # Koond-events.json JA -archive.json koopiad alamdomeenidele. Vercel routes suunab
     # rap.skene.info/api/* -> /rap/api/*, seega saidi enda otsing (index.html)
     # laeb "api/events.json" relatiivselt oma kaustast. Sama sisu koigil kolmel.
+    # archive.json lisandus 16.08.2026 (B5e bandipaneel): paneel kusib "millal see band
+    # VIIMATI laval oli" ja see vastus peab olema sama koigil kolmel saidil -- band voib
+    # olla esinenud teise alamdomeeni uritusel. Ilma koopiata annaks rap/klubi 404 ja
+    # paneeli arhiivipool oleks nendel saitidel vaikselt tuhi.
     for sub in ("rap", "klubi"):
         subapi = ROOT / sub / "api"
         subapi.mkdir(parents=True, exist_ok=True)
         _write(subapi / "events.json", "tulevased + varsked kirjed", events)
+        _write(subapi / "archive.json", "arhiiv (moodunud kirjed)", archive)
 
     return len(events), len(archive)
 
