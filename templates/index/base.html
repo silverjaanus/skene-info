@@ -27,6 +27,14 @@
   --dotmax:30px;    /* ringi labimoodu lagi */
 }
 *{box-sizing:border-box;margin:0;padding:0}
+/* ⚠ HTML-i `hidden` atribuut peidab elemendi AINULT siis, kui autori CSS ei anna talle oma
+   `display`-vaartust: brauseri oma reegel `[hidden]{display:none}` on norgem kui iga
+   klassireegel. Meil on peidetavatel plokkidel `display:flex` (.fbban, .uusban), seega
+   `el.hidden=true` ei teinud MIDAGI -- element jai ekraanile koos aarise ja polstriga.
+   Nii oli 16.08.2026-ni katki tagasiside-banneri "x" (sulged, aga banner jaab) ja uus
+   B5c riba naitas tuhja accent-aarist. See reegel parandab koik korraga ja hoiab ara,
+   et sama viga tekiks jargmise peidetava ploki juures uuesti. */
+[hidden]{display:none!important}
 body{background:var(--paber);color:var(--tint);font-family:var(--sans);font-size:16px;line-height:1.45}
 a{color:inherit}
 /* tume plakatipea (E+F ümberdisain 08.2026): kogu päis tint-taustal, žanrisõnad pealkirjana */

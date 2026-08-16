@@ -39,10 +39,34 @@ function inlineSkriptid(src) {
 }
 
 let vigu = 0, plokke = 0;
+
+// --- `hidden` peab pariselt peitma (16.08.2026) ---------------------------------
+// HTML-i `hidden` atribuut toetub brauseri reeglile `[hidden]{display:none}`, mis on
+// NORGEM kui iga klassireegel. Kui peidetaval plokil on autori CSS-is `display:flex`,
+// ei tee `el.hidden=true` MIDAGI. Nii oli katki tagasiside-banneri "x" (sulged, aga
+// banner jaab ekraanile 52px korgusena) ja uus B5c riba naitas tuhja accent-aarist.
+// Valve: kui lehel on uldse `hidden`-atribuute, peab seal olema ka `[hidden]` reegel.
+function hiddenValve(leht, src) {
+  const kasutab = /\shidden(\s|>|=)/.test(src);
+  if (!kasutab) return;
+  // ⚠ Kommentaarid MAHA enne kontrolli. Esimene versioon sellest valvest oli kasutu:
+  // ta matchis base.html-i CSS-kommentaari, kus reegel on selgituseks valja kirjutatud,
+  // ja luges seda tootavaks reegliks. Katsetasin (eemaldasin paris reegli) ja test jai
+  // roheliseks -- valve, mis ei kuku, ei ole valve.
+  const puhas = src.replace(/\/\*[\s\S]*?\*\//g, "").replace(/<!--[\s\S]*?-->/g, "");
+  if (!/\[hidden\]\s*\{[^}]*display\s*:\s*none/.test(puhas)) {
+    vigu++;
+    console.error("HIDDEN-VALVE: " + leht + " kasutab `hidden` atribuuti, aga CSS-is puudub"
+      + " reegel `[hidden]{display:none!important}`. Ilma selleta ei peida `hidden`"
+      + " elementi, millel on oma display-vaartus (nt display:flex).");
+  }
+}
+
 for (const leht of LEHED) {
   const fail = path.join(ROOT, leht);
   if (!fs.existsSync(fail)) { console.error("PUUDUB: " + leht); vigu++; continue; }
   const src = fs.readFileSync(fail, "utf8");
+  hiddenValve(leht, src);
   const plokid = inlineSkriptid(src);
   if (!plokid.length) { console.error("KAHTLANE: " + leht + " -- inline-skripti ei leitud"); vigu++; continue; }
   for (const p of plokid) {
