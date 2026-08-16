@@ -1,2 +1,8 @@
-.lnks .price{color:var(--hall);display:block;margin-top:2px}
+/* ⚠ MITTE display:block (16.08.2026, Silveri märkus). Hinnarida elab `.lnks` sees, kus read
+   eraldatakse `<br>`-idega. `<br>` PLOKK-elemendi kõrval teeb tühja rea -- ja hinnal oli
+   `<br>` mõlemal pool (enne priceLine'i, pärast "teata veast" ees), seega hinnaga kirje sai
+   KAKS tühja rida juurde. Mõõdetud: Crosslegsi `.lnks` 131px vs sama kirje ilma hinnata 66px.
+   Inline-elemendina käitub hind täpselt nagu muud `.lnks` read: `<br>` viib uuele reale ja
+   midagi üle ei jää. Kui lisad siia uue rea, hoia see samuti INLINE. */
+.lnks .price{color:var(--hall)}
 .lnks .price b{color:var(--tint)}
