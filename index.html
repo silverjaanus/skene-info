@@ -345,11 +345,6 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .relc-b{font-family:var(--mono);font-size:10.5px;color:var(--hall);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .relc:hover .relc-t{color:var(--accent)}
-/* --- B5b: kalendritellimuse rida loenduri all --- */
-.tellirida{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-family:var(--mono);
-  font-size:11.5px;margin:0 0 6px;padding:4px 0 0}
-.tellirida a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
-.tellirida a:hover{border-bottom-color:var(--accent)}
 /* --- B5d: tärn kirje pealkirja ees --- */
 .taht{background:transparent;border:0;cursor:pointer;font-size:17px;line-height:1;
   color:var(--joon);padding:0 7px 0 0;vertical-align:baseline}
@@ -528,9 +523,6 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
          nimekiri filtri peale vaikselt ja pime kasutaja ei saanud teada, kas midagi juhtus.
          "polite" = ei katkesta pooleliolevat konet. -->
     <p class="count" id="count" aria-live="polite" aria-atomic="true"></p>
-    <!-- B5b: filtripõhine kalendritellimus. Elab loenduri all, sest see kehtib TÄPSELT
-         selle valiku kohta, mida loendur parasjagu kirjeldab. -->
-    <p class="tellirida" id="tellirida"></p>
     <div id="list"></div>
     <div id="relarch"></div>
     <div class="footer">
@@ -667,10 +659,7 @@ const I18N={
   uus_naita:"näita ainult neid", uus_koik:"× näita kõiki",
   minu_h:"Minu nimekiri", minu_naita:"näita ainult neid",
   minu_lisa:"Lisa oma nimekirja", minu_ara:"Eemalda oma nimekirjast",
-  minu_ics:"lae kalendrisse (.ics)",
-  telli_cta:"📅 Telli see valik oma kalendrisse", telli_kopeeri:"kopeeri link",
-  telli_kopeeritud:"kopeeritud ✓",
-  telli_abi:"Avab kalendrirakenduse. Kalender küsib nimekirja ise regulaarselt juurde — uued üritused tulevad automaatselt. Kuupäeva- ja otsingufiltrid tellimusse ei lähe, žanr ja koht lähevad.",
+
   tag_kontsert:"kontsert", tag_festival:"festival", tag_klubi:"klubi", tag_reliis:"reliis", tag_merch:"merch", tag_muu:"muu",
   lbl_new:"uus", lbl_tba:"TBA", lbl_past:"LÄBI",
   fb_cta:"Anna SKENE.INFO kohta tagasisidet →", fb_close:"Peida",
@@ -687,7 +676,7 @@ const I18N={
   organizer:"korraldaja:", listen:"kuula:", source:"allikas:", tickets:"PILETID ↗", price:"Hind:", price_until:"kuni", price_after:"pärast",
   report_err:"✎ teata veast", report_prefix:"VEAPARANDUS — kirjuta, mis on selles kirjes valesti: ",
   f_q_l:"Otsi", ph_q:"Otsi: bänd, koht, üritus…",
-  cal_google:"+ GOOGLE KALENDER", cal_apple:"+ APPLE/ICS",
+  cal_google:"+ GOOGLE KALENDER",
   on_spotify:"Spotifys", on_ytm:"YT Musicus", on_yt:"YouTube'is", on_bc:"Bandcampis",
   months:["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"]
  },
@@ -739,10 +728,7 @@ const I18N={
   uus_naita:"show only these", uus_koik:"× show all",
   minu_h:"My list", minu_naita:"show only these",
   minu_lisa:"Add to my list", minu_ara:"Remove from my list",
-  minu_ics:"download to calendar (.ics)",
-  telli_cta:"📅 Subscribe to this selection", telli_kopeeri:"copy link",
-  telli_kopeeritud:"copied ✓",
-  telli_abi:"Opens your calendar app. The calendar re-fetches the list on its own — new events appear automatically. Date and search filters are not included; genre and place are.",
+
   tag_kontsert:"concert", tag_festival:"festival", tag_klubi:"club", tag_reliis:"release", tag_merch:"merch", tag_muu:"other",
   lbl_new:"new", lbl_tba:"TBA", lbl_past:"PAST",
   fb_cta:"Give feedback about SKENE.INFO →", fb_close:"Hide",
@@ -759,7 +745,7 @@ const I18N={
   organizer:"organiser:", listen:"listen:", source:"source:", tickets:"TICKETS ↗", price:"Price:", price_until:"until", price_after:"then",
   report_err:"✎ report error", report_prefix:"CORRECTION — tell us what's wrong with this entry: ",
   f_q_l:"Search", ph_q:"Search: band, venue, event…",
-  cal_google:"+ GOOGLE CALENDAR", cal_apple:"+ APPLE/ICS",
+  cal_google:"+ GOOGLE CALENDAR",
   on_spotify:"on Spotify", on_ytm:"on YT Music", on_yt:"on YouTube", on_bc:"on Bandcamp",
   months:["January","February","March","April","May","June","July","August","September","October","November","December"]
  }
@@ -1038,6 +1024,18 @@ function priceLine(e){
   if(h.kuni&&h.jargmine)return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b> ${t('price_until')} ${esc(h.kuni)}, ${t('price_after')} <b>${esc(h.jargmine)}</b></span>`;
   return `<span class="price">${t('price')} <b>${esc(h.praegu)}</b>${h.mark?" — "+esc(h.mark):""}</span>`;
 }
+// ⚠ AINUS KALENDRIFUNKTSIOON SAIDIL (Silveri otsus 16.08.2026): uks uritus, veebilingina.
+//
+// "+ APPLE/ICS" EEMALDATUD. See oli `data:`-URI .ics-fail ja Silver testis: EI TOOTA
+// Androidis EGA iPhone'is (ei Safaris ega Chrome'is). Pohjus: Google Calendari Android-app
+// ei registreeri end `text/calendar` failide avajaks (appi manifestis on intent-filtrid
+// ainult time/epoch ja vnd.android.cursor.item/event jaoks), ja iOS torjub data:-URI
+// allalaadimise. Fail toimis ainult arvutis -- telefonisaidil oli see surnud kaal, mis
+// nagi valja nagu tootav nupp.
+//
+// Google-link TOOTAB kõikjal, sest ta EI OLE FAIL vaid veebiaadress, mille Google ise avab.
+// ⚠ Mitme urituse jaoks sellist aadressi EI OLE OLEMAS -- render votab tapselt uhe.
+// Sellepara ei ole saidil ei "lae nimekiri kalendrisse" ega kalendritellimust.
 function calLinks(e){
   if(e.rel||e.tba)return "";
   const isFb=(u)=>u&&u.indexOf("facebook.com")!==-1;
@@ -1046,13 +1044,7 @@ function calLinks(e){
   const loc=(e.v||"")+(e.linn?", "+e.linn:"");
   const gurl="https://www.google.com/calendar/render?action=TEMPLATE&text="+enc(e.n)
     +"&dates="+ymd(start)+"/"+ymd(end)+"&location="+enc(loc)+"&details="+enc("Allikas: "+(e.su||""));
-  const icsEsc=s=>String(s??"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");
-  const uid=(String(e.n).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"event")+"-"+e.d+"@skene.info";
-  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//skene.info//ET\nBEGIN:VEVENT\nUID:"+uid+"\nSUMMARY:"+icsEsc(e.n)
-    +"\nDTSTART;VALUE=DATE:"+ymd(start)+"\nDTEND;VALUE=DATE:"+ymd(end)
-    +"\nLOCATION:"+icsEsc(loc)+"\nDESCRIPTION:"+icsEsc(e.su||"")+"\nEND:VEVENT\nEND:VCALENDAR";
-  const icsUri="data:text/calendar;charset=utf-8,"+enc(ics);
-  return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">${t('cal_google')}</a> <a class="a4" href="${icsUri}" download="skene-event.ics">${t('cal_apple')}</a>`;
+  return `<a class="a4" href="${gurl}" target="_blank" rel="noopener">${t('cal_google')}</a>`;
 }
 // --- pisipilt: paris pilt (e.img) voi tuubimark ---
 // Mark on SVG joonis, varvid tulevad CSS-ist (taust .t-* klassist, joon currentColor).
@@ -1593,47 +1585,19 @@ function pickRida(e){
     +`<div class="pick-m">${fmt(e).replace(/<br>/g,"")}${koht?" · "+koht:""}</div>`
     +`${pohjus}</div></div>`;
 }
-// ---------- B5b: FILTRIPOHINE KALENDRITELLIMUS ----------
-// "Telli see valik kalendrisse" -> webcal://www.skene.info/api/kalender?...
-// Kasutaja telefoni kalender kusib seda URL-i ise regulaarselt juurde, ehk tellimus on ELAV
-// (erinevalt uksiku kirje .ics-ist, mis on uhekordne allalaadimine).
+// ---------- KALENDRITELLIMUS: EEMALDATUD LEHELT 16.08.2026 ----------
+// Ehitasin siia "Telli see valik oma kalendrisse" (webcal) ja "minu nimekirja" .ics-i.
+// Silver testis telefonis ja MITTE KUMBKI EI TOOTANUD:
+//   - Android: Google Calendari app ei saa kalendrit URL-i jargi lisada (Google'i enda
+//     tugileht) EGA ei ava .ics-faile (appi manifestis pole text/calendar intent-filtrit).
+//   - iPhone: webcal toimib AINULT native Kalendri puhul, mitte Google Calendari appiga.
+//   - .ics-fail ei toota kummaski telefonis.
+// Ja MITME urituse jaoks ei ole olemas uhtegi veebilinki -- ei Google'il ega Apple'il.
+// Silveri otsus: ainus kalendriasi saidil on iga urituse all olev Google-link (calLinks).
 //
-// ⚠ ZANRID SAADETAKSE TOORSILTIDENA, mitte metadena. Endpointil EI OLE GENRE_META kaarti --
-// see kaart elab www ja klubi JS-is (erinevad!) ja fetch.py-s, ja neljas koopia serveris
-// oleks neljas koht, mis peab syncis pusima. Selle asemel laiendab leht valitud meta
-// toorsiltideks siin. Kasu: null duplikaati. Hind: URL on pikem.
-function metaTagideks(m){
-  if(typeof GENRE_META==='undefined')return [];
-  return Object.keys(GENRE_META).filter(k=>(GENRE_META[k]||[]).indexOf(m)!==-1);
-}
-// ⚠ AJAFILTREID (tana/nadalavahetus), paeva, kuud, otsingut ega isiklikke filtreid
-// (uus/minu) tellimusse EI PANDA. Tellimus on PUSIV: "punk Tartus" on moistlik igavesti,
-// "tana" oleks homme vale ja "minu nimekiri" soltub selle brauseri localStorage'ist.
-function tellimusUrl(skeem){
-  const p=new URLSearchParams();
-  if(st.type)p.set('t',st.type);
-  const g=new Set();
-  if(st.metas)st.metas.forEach(m=>metaTagideks(m).forEach(x=>g.add(x)));
-  st.tags.forEach(x=>g.add(x));
-  if(g.size)p.set('g',[...g].join(','));
-  if(st.city)p.set('c',st.city);
-  p.set('s',SAIDID.filter(x=>scope.has(x)).join(','));
-  return (skeem||"https")+"://www.skene.info/api/kalender?"+p.toString();
-}
-// ⚠ "Kopeeri link" nupp EEMALDATUD 16.08.2026 (Silveri otsus: "mottetu").
-// Kaks pohjust. (1) Ta ei aidanud kedagi: Androidi Google Calendari appi EI SAA kalendrit
-// URL-i jargi lisada (Google'i enda tugileht), seega kopeeritud aadressiga polnud telefonis
-// midagi peale hakata. (2) Minu clipboard-fallback avas torke korral window.prompt'i, mis
-// BLOKEERIS kogu lehe -- testides jai leht selle akna taha kinni.
-function renderTelliRida(){
-  const el=document.getElementById('tellirida');if(!el)return;
-  el.innerHTML="";
-  const a=document.createElement('a');
-  a.href=tellimusUrl("webcal");
-  a.textContent=t('telli_cta');
-  a.title=t('telli_abi');
-  el.appendChild(a);
-}
+// ⚠ ENDPOINT `api/kalender.js` JAAB ALLES ja on dokumenteeritud api.html-is. Ta tootab
+// (arvutis + iPhone'i native Kalender) ja on osa avalikust API-st, aga saidi kasutajaliideses
+// teda EI REKLAAMITA. Kui keegi kunagi tahab lehele nuppu tagasi, siis serveripool on olemas.
 // ---------- B5d: tarn kirje juures + riba "minu nimekiri" ----------
 function tahtNupp(e){
   const on=minuOn(e), u=esc(minuUid(e));
@@ -1641,31 +1605,11 @@ function tahtNupp(e){
     +` title="${esc(t(on?'minu_ara':'minu_lisa'))}" aria-label="${esc(t(on?'minu_ara':'minu_lisa'))}"`
     +` onclick="toggleMinu(this.dataset.u)">${on?"★":"☆"}</button>`;
 }
-// .ics KOIGIST nimekirja kirjetest korraga. Uksik kirje sai oma .ics-i juba varem
-// (calLinks), siin on sama loogika mitme VEVENT-iga uhes failis.
-// Blob + download-link, mitte data:-URI: pikk data:-URI kukub mones brauseris ara.
-function minuIcs(){
-  const list=minuKirjed().filter(e=>e.d&&!e.tba);
-  if(!list.length)return;
-  const esc2=s=>String(s??"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g," ");
-  const read=[];
-  list.forEach(e=>{
-    const start=dOnly(e.d), end=endDate(e);
-    const loc=(e.v||"")+(e.linn?", "+e.linn:"");
-    const uid=(String(e.n).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"event")+"-"+ymd(start)+"@skene.info";
-    read.push("BEGIN:VEVENT\nUID:"+uid+"\nSUMMARY:"+esc2(e.n)
-      +"\nDTSTART;VALUE=DATE:"+ymd(start)+"\nDTEND;VALUE=DATE:"+ymd(end)
-      +"\nLOCATION:"+esc2(loc)+"\nDESCRIPTION:"+esc2(e.ou||e.su||"")+"\nEND:VEVENT");
-  });
-  const ics="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//skene.info//minu nimekiri//ET\n"
-    +read.join("\n")+"\nEND:VCALENDAR";
-  const blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
-  const a=document.createElement('a');
-  a.href=URL.createObjectURL(blob);
-  a.download="skene-minu-nimekiri.ics";
-  document.body.appendChild(a);a.click();
-  setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},0);
-}
+// ⚠ ".ics ALLALAADIMINE EEMALDATUD" 16.08.2026. Minu nimekiri on nimekiri, MITTE
+// kalendriimport: mitme uritusega .ics ei toota kummaski telefonis (vt calLinks kommentaari)
+// ja mitme urituse kalendrisse panekuks ei ole olemas uhtegi telefonis tootavat viisi.
+// Kes tahab margitud uritusi kalendrisse, avab "naita ainult neid" ja kasutab iga kirje all
+// olevat Google-linki -- see tootab koikjal. Silveri otsus.
 function setMinu(v){st.minu=!!v;refresh();}
 function renderMinuBan(){
   const el=document.getElementById('minuban');if(!el)return;
@@ -1682,11 +1626,6 @@ function renderMinuBan(){
   b.textContent=st.minu?t('uus_koik'):t('minu_naita');
   b.onclick=function(){setMinu(!st.minu);};
   el.appendChild(b);
-  const c=document.createElement('button');
-  c.type="button";c.className="uusban-b";
-  c.textContent=t('minu_ics');
-  c.onclick=minuIcs;
-  el.appendChild(c);
 }
 // ---------- B5c: riba "N uut alates su viimasest kulastusest" ----------
 // Riba on nahtav AINULT siis, kui midagi uut pariselt ON. Esimesel kulastusel (VIIMATI=null)
@@ -1957,7 +1896,7 @@ function refresh(){
     _ftog.textContent=t('f_filters')+(n?" ("+n+")":"");
     _ftog.classList.toggle('on',n>0);
   }
-  scopeChips();kuud();renderCal();render();renderTelliRida();renderMinuBan();renderUusBan();renderPick();renderRel();renderArchBtn();fbBanner();
+  scopeChips();kuud();renderCal();render();renderMinuBan();renderUusBan();renderPick();renderRel();renderArchBtn();fbBanner();
   fookusTagasi(_fookus);   // A13: pärast kõiki innerHTML-i ülekirjutusi
 }
 // Otsimootoritele: Event-strukturandmed paris andmetest (E_FALLBACK-ist EI tee - see voib olla aegunud)

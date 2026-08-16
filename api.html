@@ -63,10 +63,13 @@ html[lang="et"] .only-en{display:none}
     <p>Arhiiv — kõik möödunud kirjed alates saidi avamisest, sama formaat.</p>
 
     <span class="url">https://www.skene.info/api/kalender?g=punk&amp;c=Tartu&amp;s=www</span>
-    <p><b>Kalendritellimus (iCalendar).</b> Tagastab <code>text/calendar</code> — vali sobiv
-    filter ja telli see oma kalendrisse, siis lisanduvad uued üritused sinna automaatselt.
-    Kalendrirakenduses ava <code>webcal://</code>-lingina (saidil on selleks nupp „Telli see
-    valik oma kalendrisse"). Parameetrid, kõik valikulised ja kombineeritavad:
+    <p><b>Kalendritellimus (iCalendar).</b> Tagastab <code>text/calendar</code> — telli see
+    oma kalendrisse, siis lisanduvad uued üritused sinna automaatselt. Ava
+    <code>webcal://</code>-lingina või kleebi aadress kalendrisse.
+    <b>⚠ Töötab arvutis ja iPhone'i sisseehitatud Kalendris.</b> Google Calendari
+    telefonirakendusse EI SAA kalendrit URL-i järgi lisada (Google'i enda piirang) — sellepärast
+    ei ole seda nuppu saidil endal, seal on iga ürituse juures eraldi „+ GOOGLE KALENDER" link,
+    mis töötab kõikjal. Parameetrid, kõik valikulised ja kombineeritavad:
     <code>g</code> = žanrisildid komadega (VÕI-loogika, <b>toorsildid</b>, mitte saidi
     žanrichippide nimed), <code>c</code> = koht, <code>t</code> = tüüp,
     <code>s</code> = saidid komadega (<code>www</code>, <code>rap</code>, <code>klubi</code>).
@@ -116,8 +119,11 @@ html[lang="et"] .only-en{display:none}
     <span class="url">https://www.skene.info/api/kalender?g=punk&amp;c=Tartu&amp;s=www</span>
     <p><b>Calendar subscription (iCalendar).</b> Returns <code>text/calendar</code> — pick a
     filter and subscribe to it, and new events show up in your calendar automatically. Open it
-    as a <code>webcal://</code> link (the site has a „Subscribe to this selection" button).
-    All parameters are optional and combinable: <code>g</code> = genre tags, comma-separated
+    as a <code>webcal://</code> link or paste the address into your calendar.
+    <b>⚠ Works on desktop and in the built-in iPhone Calendar.</b> The Google Calendar mobile
+    app cannot add a calendar by URL (Google's own limitation) — which is why the site itself
+    doesn't show this button; each event has a „+ GOOGLE CALENDAR" link instead, which works
+    everywhere. All parameters are optional and combinable: <code>g</code> = genre tags, comma-separated
     (OR logic, <b>raw tags</b>, not the site's genre chip names), <code>c</code> = place,
     <code>t</code> = type, <code>s</code> = sites, comma-separated (<code>www</code>,
     <code>rap</code>, <code>klubi</code>). Past and <code>tba</code> entries are excluded.
