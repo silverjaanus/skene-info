@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15",
+ "updated": "2026-08-16",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 114,
+ "count": 125,
  "entries": [
   {
    "sait": "www",
@@ -420,6 +420,28 @@
    "su": "https://www.facebook.com/barbarestonia/events",
    "on_": "Kolga Mõisa Kontsert",
    "ou": "https://www.facebook.com/barbarestonia/events"
+  },
+  {
+   "sait": "www",
+   "d": "2026-07-16",
+   "t": "reliis",
+   "n": "Face Collector — «Demo»",
+   "a": "2-loone demo (blackened death metal / deathgrind); täisalbum tulekul 2027",
+   "b": [
+    "Face Collector"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "death",
+    "black",
+    "grind"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://facecollector.bandcamp.com/album/demo",
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)",
+   "img": "https://www.skene.info/pildid/facecollectordemo.webp",
+   "rel": 1,
+   "lisatud": "2026-07-16"
   },
   {
    "sait": "klubi",
@@ -2693,6 +2715,40 @@
   },
   {
    "sait": "www",
+   "d": "2026-08-12",
+   "d2": "15.08",
+   "t": "festival",
+   "n": "Summer Breeze",
+   "a": "üks Saksamaa suurfestivalidest, 100+ bändi; Helloween, In Flames, Arch Enemy, Lamb of God, Saxon jt",
+   "b": [
+    "Helloween",
+    "In Flames",
+    "Arch Enemy",
+    "Saxon",
+    "Lamb Of God",
+    "Testament",
+    "Amorphis",
+    "Paradise Lost",
+    "Airbourne",
+    "Hatebreed"
+   ],
+   "v": "Dinkelsbühli lennuväli",
+   "c": "Euroopa",
+   "linn": "Dinkelsbühl, Saksamaa",
+   "g": [
+    "metal",
+    "core"
+   ],
+   "sn": "Summer Breeze",
+   "su": "https://www.summer-breeze.de/en/",
+   "hind": {
+    "praegu": "ainult päevapiletid",
+    "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval",
+    "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"
+   }
+  },
+  {
+   "sait": "www",
    "d": "2026-08-13",
    "t": "kontsert",
    "n": "Intrascendence (CL) + Pronoias (CL)",
@@ -2792,6 +2848,46 @@
    },
    "lisatud": "2026-08-10",
    "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Allikad: Rada7.ee FB events-tab (avastus) + Kivi baar / Onkel Jonkel ühine FB event (kuupäev, kellaaeg, tasuta sissepääs, koosseisukirjeldus)"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-08-14",
+   "d2": "15.08",
+   "t": "festival",
+   "n": "Eesti Hip Hop Festival 2026",
+   "a": "20. juubelifestival; lisaks Peltareiv vol 5, tänavakoss, graffitijam, tantsuvõistlus, open mic ja huumoriklubi; esinejate nimekiri täieneb",
+   "b": [
+    "Nublu",
+    "Säm",
+    "Reket",
+    "A-Rühm",
+    "Triibupasta",
+    "Clicherik & Mäx",
+    "Pitsa",
+    "Beebilõust",
+    "Hanf Kung",
+    "Lotey",
+    "KiROT",
+    "Pluuto",
+    "Bad Art",
+    "5Loops",
+    "RLV Massive",
+    "Noizmakaz",
+    "margiiela",
+    "SKIZØ & benakanister",
+    "Bro Checks"
+   ],
+   "v": "Elva",
+   "c": "mujal",
+   "g": [
+    "räpp"
+   ],
+   "sn": "eestihiphopfestival.ee",
+   "su": "https://eestihiphopfestival.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1255908596517597",
+   "pu": "https://eestihiphopfestival.ee/",
+   "nb": "koosseis täienes 28.07.2026 sweepis 11 -> 19 nime (FB event 1255908596517597). Kuupäev 14.–15.08 kinnitatud eestihiphopfestival.ee-lt (FB näitab 14.–16.08 laagri tõttu)"
   },
   {
    "sait": "www",
@@ -2993,6 +3089,44 @@
    "img": "https://www.skene.info/pildid/thetuberkuloited35parnu.webp"
   },
   {
+   "sait": "rap",
+   "d": "2026-08-14",
+   "d2": "15.08",
+   "t": "klubi",
+   "n": "VABADUs* x Interlüüd",
+   "a": "15-tunnine garaažihäng Angervaksa garaažikultuurikeskuses — live'id, DJd, töötoad, toit; Jooseppro & Lennu esitlevad uut albumit; 18+, tasuta",
+   "b": [
+    "JOOSEPPRO & LENNU",
+    "TANTSUSAABAS",
+    "KIOSK",
+    "anca b2b madeleine3000",
+    "IDM (moenarr, dj vaatab jooksvalt, celestica)",
+    "Maa-Alune (hyyru & Andrus Eerik)",
+    "deathcore04",
+    "BubbleCum (InesDaferrari, Iunsu, sorr)",
+    "3 Tüdrukut 1 Tops (HOSTILE, peipsibel, anca)"
+   ],
+   "v": "Angervaksa garaažikultuurikeskus",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "electro",
+    "bass",
+    "experimental"
+   ],
+   "sn": "Rada7.ee",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2041854056427837/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "18+; kestus 15 h (R 14.00 – L 05.00)",
+    "allikas": "FB event, kontrollitud 10.08.2026"
+   },
+   "lisatud": "2026-08-10",
+   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Korraldajad vabadus.ee + Interlüüd + Pargitiks, Kaera 14b, Põhja-Tallinn. Allikad: Rada7.ee FB events-tab + ürituse enda FB event (368 vastanut). 13.08.2026 SILVERI OTSUS (auditi triaaž): tõstetud klubi → rap, sest Jooseppro & Lennu UUE ALBUMI esiettekanne (räpp) on ürituse tuum. Klubi blocklisti läks vana kirje blokk. Kui albumi pealkiri avaldatakse, tee rap-poolele eraldi reliisikirje."
+  },
+  {
    "sait": "www",
    "d": "2026-08-14",
    "t": "festival",
@@ -3040,6 +3174,168 @@
    "ou": "https://www.facebook.com/events/4398606830355869/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Legendaarne Raadio FB events-tab + Rada7 FB events. DJ-koosseis avaldamata"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-15",
+   "t": "klubi",
+   "n": "BREAKWAVE 2026",
+   "a": "Drum & Bass pidu Valgerannas — bass kuni päikesetõusuni (21–04); Planeet special guest",
+   "b": [
+    "Hüpnoos",
+    "Planeet",
+    "Subbwell"
+   ],
+   "v": "Valgeranna Muusikatall, Audru",
+   "c": "mujal",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4067900526836481/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-15",
+   "t": "kontsert",
+   "n": "Batra (LV) + DSA + Häire + Sitalaps + Cunt Terrorist",
+   "a": "+ support; algus 19.00",
+   "b": [
+    "Batra (LV)",
+    "DSA",
+    "Häire",
+    "Sitalaps",
+    "Cunt Terrorist"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1689036142150759/",
+   "nb": "lisatud sweepis 19.07.2026 (Hell events) | 07.08.2026 sweep: Hell Tartu FB events-leht näitab TÄISKOOSSEISU 5 bändiga (varem 3) — lisatud Sitalaps ja Cunt Terrorist, nimi uuendatud."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-15",
+   "t": "kontsert",
+   "n": "Italy Unexpected",
+   "a": "algus 14.00; päevane festival: Lõuna-Itaalia vähemtuntud muusikatraditsioonid + toit, tants ja töötoad Eesti itaalia kogukonnaga",
+   "b": [
+    "Kanuteh-Zanotti Duo",
+    "Luisa Briguglio",
+    "Mundial"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro",
+    "folk"
+   ],
+   "sn": "Paavli uudiskiri",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/869742072842177/",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA klubisse (world/folk+elektro piiripealne; Mundial = Lõuna-Itaalia rituaalirütmid + elektro/klubikultuur). Allikad: Paavli 11.08 uudiskiri (spämmist päästetud) + kultuurivabrik.ee programm + FB event.",
+   "img": "https://klubi.skene.info/pildid/italyunexpected.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-15",
+   "t": "klubi",
+   "n": "Macondo Sessions - Wave Riddim",
+   "a": "algus 20.00; reggae/dancehall",
+   "b": [],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "reggae",
+    "dancehall"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1058754833477310/",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Macondo Sessions; koosseisu nimekirjavaade ei avalda → b tühi."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-15",
+   "t": "klubi",
+   "n": "Tjuun In",
+   "a": "drum & bass / jungle sari tagasi 'koduklubis' Fonoteegis, algus 22.00",
+   "b": [],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "jungle"
+   ],
+   "sn": "fonoteek.ee",
+   "su": "https://fonoteek.ee/events/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1464441879049289/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek IG (11.08 postitus 'TJUUN IN 15.08.26') + fonoteek.ee (15.08). Sari kolis Pärnu Templist / venue laienemine — Tempel RA-lehel tulevasi üritusi pole",
+   "img": "https://klubi.skene.info/pildid/tjuunin.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-15",
+   "t": "kontsert",
+   "n": "Valge Daami Rock 2026: The Tuberkuloited 35 + Elukas + O'Morales",
+   "a": "The Tuberkuloited 35. juubelikontsert Haapsalus; Elukas (EE) + O'Morales (LV); algus 18.00, alla 12a tasuta",
+   "b": [
+    "The Tuberkuloited",
+    "Elukas",
+    "O'Morales (LV)"
+   ],
+   "v": "Müristaja MC",
+   "c": "mujal",
+   "linn": "Haapsalu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/valge-daami-rock-2026",
+   "pu": "https://fienta.com/et/valge-daami-rock-2026",
+   "nb": "lisatud sweepis 19.07.2026; korraldaja Müristaja MC (Sadama 30, Haapsalu); hind Fienta ostulehel (avalehel ei kuvatud) - kontrolli",
+   "img": "https://www.skene.info/pildid/valgedaamirock2026thetuberkuloited35elukasomorales.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-15",
+   "t": "klubi",
+   "n": "horseworks: Eichenbaum / Paul Lepasson / SPDT ON-ON / Kulon / Kira",
+   "a": "horseworks naaseb TOLMi — leftfield/eksperimentaalne klubiõhtu",
+   "b": [
+    "Eichenbaum",
+    "Paul Lepasson",
+    "SPDT ON-ON",
+    "Kulon",
+    "Kira"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "experimental",
+    "electro"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "tolm.club",
+   "ou": "https://tolm.club/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: tolm.club events-leht + TOLM IG (@tolm.trt 12.08 postitus). Varasem horseworks oli RA-l — seekordset RA-eventi ei leidnud"
   }
  ]
 }

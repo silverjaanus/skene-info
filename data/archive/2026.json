@@ -250,6 +250,27 @@
    "ou": "https://www.facebook.com/barbarestonia/events"
   },
   {
+   "d": "2026-07-16",
+   "t": "reliis",
+   "n": "Face Collector — «Demo»",
+   "a": "2-loone demo (blackened death metal / deathgrind); täisalbum tulekul 2027",
+   "b": [
+    "Face Collector"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "death",
+    "black",
+    "grind"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://facecollector.bandcamp.com/album/demo",
+   "nb": "lisatud sweepis 19.07.2026 (Bandcamp discover, ilmus 16.07.2026)",
+   "img": "pildid/facecollectordemo.webp",
+   "rel": 1,
+   "lisatud": "2026-07-16"
+  },
+  {
    "d": "2026-07-17",
    "t": "kontsert",
    "n": "SFP esitleb: AJO (FIN) + Mandarones + Homebroke",
@@ -1375,6 +1396,39 @@
    "nb": "kontaktivormi sisend (Martin A., 05.08.2026); kinnitatud FB eventilt ja Anemon12 ürituste lehelt 06.08.2026 (E 10.08 kell 19.00, Ülase 12). Bändinimi FB-s stiliseeritud kujul 'KЫRP'. Hinnainfot event ei avalda."
   },
   {
+   "d": "2026-08-12",
+   "d2": "15.08",
+   "t": "festival",
+   "n": "Summer Breeze",
+   "a": "üks Saksamaa suurfestivalidest, 100+ bändi; Helloween, In Flames, Arch Enemy, Lamb of God, Saxon jt",
+   "b": [
+    "Helloween",
+    "In Flames",
+    "Arch Enemy",
+    "Saxon",
+    "Lamb Of God",
+    "Testament",
+    "Amorphis",
+    "Paradise Lost",
+    "Airbourne",
+    "Hatebreed"
+   ],
+   "v": "Dinkelsbühli lennuväli",
+   "c": "Euroopa",
+   "linn": "Dinkelsbühl, Saksamaa",
+   "g": [
+    "metal",
+    "core"
+   ],
+   "sn": "Summer Breeze",
+   "su": "https://www.summer-breeze.de/en/",
+   "hind": {
+    "praegu": "ainult päevapiletid",
+    "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval",
+    "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"
+   }
+  },
+  {
    "d": "2026-08-13",
    "t": "kontsert",
    "n": "Intrascendence (CL) + Pronoias (CL)",
@@ -1500,6 +1554,53 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/997807159746188/",
    "nb": "leitud sweepis 25.07.2026; hostid Kotka Kultuurimaja + Pettunud Kodanik + Horror Vacui; piletiinfo FB-s puudub"
+  },
+  {
+   "d": "2026-08-15",
+   "t": "kontsert",
+   "n": "Batra (LV) + DSA + Häire + Sitalaps + Cunt Terrorist",
+   "a": "+ support; algus 19.00",
+   "b": [
+    "Batra (LV)",
+    "DSA",
+    "Häire",
+    "Sitalaps",
+    "Cunt Terrorist"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1689036142150759/",
+   "nb": "lisatud sweepis 19.07.2026 (Hell events) | 07.08.2026 sweep: Hell Tartu FB events-leht näitab TÄISKOOSSEISU 5 bändiga (varem 3) — lisatud Sitalaps ja Cunt Terrorist, nimi uuendatud."
+  },
+  {
+   "d": "2026-08-15",
+   "t": "kontsert",
+   "n": "Valge Daami Rock 2026: The Tuberkuloited 35 + Elukas + O'Morales",
+   "a": "The Tuberkuloited 35. juubelikontsert Haapsalus; Elukas (EE) + O'Morales (LV); algus 18.00, alla 12a tasuta",
+   "b": [
+    "The Tuberkuloited",
+    "Elukas",
+    "O'Morales (LV)"
+   ],
+   "v": "Müristaja MC",
+   "c": "mujal",
+   "linn": "Haapsalu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/valge-daami-rock-2026",
+   "pu": "https://fienta.com/et/valge-daami-rock-2026",
+   "nb": "lisatud sweepis 19.07.2026; korraldaja Müristaja MC (Sadama 30, Haapsalu); hind Fienta ostulehel (avalehel ei kuvatud) - kontrolli",
+   "img": "pildid/valgedaamirock2026thetuberkuloited35elukasomorales.webp"
   }
  ]
 }

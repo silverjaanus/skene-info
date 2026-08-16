@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15",
+ "updated": "2026-08-16",
  "entries": [
   {
    "rel": 1,
@@ -262,27 +262,6 @@
   },
   {
    "d": "2026-08-15",
-   "t": "klubi",
-   "n": "BREAKWAVE 2026",
-   "a": "Drum & Bass pidu Valgerannas — bass kuni päikesetõusuni (21–04); Planeet special guest",
-   "b": [
-    "Hüpnoos",
-    "Planeet",
-    "Subbwell"
-   ],
-   "v": "Valgeranna Muusikatall, Audru",
-   "c": "mujal",
-   "g": [
-    "dnb",
-    "bass"
-   ],
-   "sn": "Planeet (FB)",
-   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/4067900526836481/"
-  },
-  {
-   "d": "2026-08-15",
    "d2": "16.08",
    "t": "klubi",
    "n": "WAKE UP EVENT: SUME NIGHT",
@@ -311,93 +290,6 @@
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta)",
    "img": "pildid/wakeupeventsumenight.webp"
-  },
-  {
-   "d": "2026-08-15",
-   "t": "klubi",
-   "n": "Macondo Sessions - Wave Riddim",
-   "a": "algus 20.00; reggae/dancehall",
-   "b": [],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "reggae",
-    "dancehall"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1058754833477310/",
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Macondo Sessions; koosseisu nimekirjavaade ei avalda → b tühi."
-  },
-  {
-   "d": "2026-08-15",
-   "t": "kontsert",
-   "n": "Italy Unexpected",
-   "a": "algus 14.00; päevane festival: Lõuna-Itaalia vähemtuntud muusikatraditsioonid + toit, tants ja töötoad Eesti itaalia kogukonnaga",
-   "b": [
-    "Kanuteh-Zanotti Duo",
-    "Luisa Briguglio",
-    "Mundial"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "experimental",
-    "electro",
-    "folk"
-   ],
-   "sn": "Paavli uudiskiri",
-   "su": "https://www.kultuurivabrik.ee/en/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/869742072842177/",
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA klubisse (world/folk+elektro piiripealne; Mundial = Lõuna-Itaalia rituaalirütmid + elektro/klubikultuur). Allikad: Paavli 11.08 uudiskiri (spämmist päästetud) + kultuurivabrik.ee programm + FB event.",
-   "img": "pildid/italyunexpected.webp"
-  },
-  {
-   "d": "2026-08-15",
-   "t": "klubi",
-   "n": "Tjuun In",
-   "a": "drum & bass / jungle sari tagasi 'koduklubis' Fonoteegis, algus 22.00",
-   "b": [],
-   "v": "Fonoteek",
-   "c": "Tallinn",
-   "g": [
-    "dnb",
-    "jungle"
-   ],
-   "sn": "fonoteek.ee",
-   "su": "https://fonoteek.ee/events/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1464441879049289/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek IG (11.08 postitus 'TJUUN IN 15.08.26') + fonoteek.ee (15.08). Sari kolis Pärnu Templist / venue laienemine — Tempel RA-lehel tulevasi üritusi pole",
-   "img": "pildid/tjuunin.webp"
-  },
-  {
-   "d": "2026-08-15",
-   "t": "klubi",
-   "n": "horseworks: Eichenbaum / Paul Lepasson / SPDT ON-ON / Kulon / Kira",
-   "a": "horseworks naaseb TOLMi — leftfield/eksperimentaalne klubiõhtu",
-   "b": [
-    "Eichenbaum",
-    "Paul Lepasson",
-    "SPDT ON-ON",
-    "Kulon",
-    "Kira"
-   ],
-   "v": "Tolm",
-   "c": "Tartu",
-   "g": [
-    "experimental",
-    "electro"
-   ],
-   "sn": "tolm.club",
-   "su": "https://tolm.club/",
-   "on_": "tolm.club",
-   "ou": "https://tolm.club/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; allikad: tolm.club events-leht + TOLM IG (@tolm.trt 12.08 postitus). Varasem horseworks oli RA-l — seekordset RA-eventi ei leidnud"
   },
   {
    "d": "2026-08-19",
