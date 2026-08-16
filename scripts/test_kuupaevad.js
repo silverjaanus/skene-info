@@ -33,15 +33,22 @@ const NIMED = ["pad2", "dOnly", "addDays", "isoOf", "endDate",
                "saidiJarjek", "saitOf", "interleaveSaidid", "isRel",
                "aegVahemik", "aegSobib"];
 
-function laeFn(saitFail) {
+function laeFn(saitFail, paev) {
   const src = fs.readFileSync(path.join(ROOT, saitFail), "utf8");
   const m = src.match(/const SELF="([a-z]+)"/);
   if (!m) throw new Error(saitFail + ": ei leia SELF-i");
   const kood = NIMED.map(n => grab(src, n)).join("\n")
              + "\nreturn {" + NIMED.join(",") + ",SELF};";
-  const F = new Function("TODAY", "SELF", "SAIDID", kood)(TODAY, m[1], ["www", "rap", "klubi"]);
+  const F = new Function("TODAY", "SELF", "SAIDID", kood)(paev || TODAY, m[1], ["www", "rap", "klubi"]);
   return F;
 }
+
+// ⚠ PARIS tanane kuupaev. Loogikatestid kasutavad FIKSEERITUD TODAY-d (2026-08-15), sest
+// need ei tohi kalendrist soltuda. AGA paris andmete peal jooksev invariant (test 7) peab
+// kasutama TANAST: fikseeritud kuupaev libiseb iga paevaga minevikku ja sealsed kirjed
+// kolivad arhiivi, nii et kontrollitavate kirjete arv kahaneb kuni nullini. 16.08 langes
+// see arv juba 30 vorra. Ilma selleta oleks test mone paeva parast valehairega punane.
+const TANA_PARIS = new Date().toISOString().slice(0, 10);
 
 // --- pisike testiraamistik ----------------------------------------------------
 let vigu = 0, ok = 0;
@@ -127,13 +134,15 @@ for (const fail of ["index.html", "rap/index.html", "klubi/index.html"]) {
 
   // 7. Paris andmed: uhtki kirjet, mille vahemik katab tanase, ei tohi olla "labi".
   //    (Invariant, mitte konkreetne uritus - test ei vanane koos andmetega.)
+  // ⚠ PARIS tanase kuupaevaga, mitte fikseeritud TODAY-ga -- vt TANA_PARIS kommentaari.
+  const Fp = laeFn(fail, TANA_PARIS);
   const feed = JSON.parse(fs.readFileSync(path.join(ROOT, "feed", "events.json"), "utf8"));
   let katvad = 0;
   for (const e of (feed.entries || [])) {
     if (!e.d || e.tba) continue;
-    if (!F.covers(e, TODAY)) continue;
+    if (!Fp.covers(e, TANA_PARIS)) continue;
     katvad++;
-    on(!F.onLabi(e), nimi + "paris kirje ei tohi kaduda: " + e.d + " " + e.n);
+    on(!Fp.onLabi(e), nimi + "paris kirje ei tohi kaduda: " + e.d + " " + e.n);
   }
   on(katvad > 0, nimi + "feedis leidus vahemalt uks tanast katev kirje (kontroll ei jooksnud tuhjalt)");
 
