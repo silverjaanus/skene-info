@@ -84,6 +84,31 @@ def load_fonts():
             "foot_b": _font(SANS_B, 29), "foot_r": _font(MONO_R, 21)}
 
 
+# Tekstisisene ikoonimark. Vt draw_icon() kommentaari: ⋮ ei ole Arialis olemas,
+# seega kirjutame tekstis [dots] ja joonistame margi tekstiridade sisse.
+TOKEN = "[dots]"
+TOKEN_W = 30
+TOKEN_H = 26          # ~ suurtahe korgus body-fondis (33 px)
+
+
+def rich_len(draw, text, font):
+    """textlength(), aga [dots] loeb fikseeritud laiusega."""
+    if TOKEN not in text:
+        return draw.textlength(text, font=font)
+    return sum(draw.textlength(p, font=font) for p in text.split(TOKEN)) \
+        + TOKEN_W * (text.count(TOKEN))
+
+
+def draw_rich(d, x, y, text, font, fill, accent):
+    """Joonistab rea, asendades [dots] joonistatud kolme tapiga."""
+    for i, part in enumerate(text.split(TOKEN)):
+        if i:
+            draw_icon(d, "dots", x + (TOKEN_W - TOKEN_H) / 2, y + 8, TOKEN_H, accent)
+            x += TOKEN_W
+        d.text((x, y), part, font=font, fill=fill)
+        x += d.textlength(part, font=font)
+
+
 def wrap(draw, text, font, maxw):
     """Murrab teksti laiuse jargi. Erinevalt nadalapildist EI karbi -- slaidi
     tekst on kaesolevas failis kirjas, seega ulepikk rida on minu viga, mida
@@ -91,7 +116,7 @@ def wrap(draw, text, font, maxw):
     lines, cur = [], ""
     for w in text.split():
         t = (cur + " " + w).strip()
-        if draw.textlength(t, font=font) <= maxw or not cur:
+        if rich_len(draw, t, font) <= maxw or not cur:
             cur = t
         else:
             lines.append(cur)
@@ -134,6 +159,13 @@ def draw_icon(d, name, x, y, size, colour):
     elif name == "house":
         d.polygon([(x + s / 2, y), (x + s, y + s * 0.45), (x, y + s * 0.45)], outline=colour, width=3)
         d.rectangle([x + s * 0.15, y + s * 0.45, x + s * 0.85, y + s], outline=colour, width=3)
+    elif name == "dots":          # Chrome'i ⋮ menüü
+        # ⚠ tapid peavad olema eraldi: liiga suur raadius + tihe samm annab
+        # puastse vertikaalse ploki, mis ei loe enam ⋮-na.
+        r = s * 0.105
+        for k in (0.12, 0.5, 0.88):
+            cy = y + s * k
+            d.ellipse([x + s / 2 - r, cy - r, x + s / 2 + r, cy + r], fill=colour)
     elif name == "api":
         d.line([(x + s * 0.35, y), (x + s * 0.1, y + s / 2), (x + s * 0.35, y + s)], fill=colour, width=4)
         d.line([(x + s * 0.65, y), (x + s * 0.9, y + s / 2), (x + s * 0.65, y + s)], fill=colour, width=4)
@@ -222,9 +254,9 @@ SLIDES = [
         "body": [
             ("l", "Sait käitub pärast paigaldust nagu äpp: oma ikoon, oma aken, ei mingit brauseririba."),
             ("s", "Ava www.skene.info Chrome’is."),
-            ("s", "Vajuta paremal üleval ⋮ menüü."),
+            ("s", "Vajuta paremal üleval [dots] menüüd."),
             ("s", "Vali „Installi äpp“ (või „Lisa avakuvale“)."),
-            ("n", "Chrome pakub seda sageli ka ise, riba lehe allservas."),
+            ("n", "Chrome pakub seda sageli ka ise."),
         ],
     },
     {
@@ -324,7 +356,7 @@ def draw_body(d, fonts, slide, y, accent, dry=False):
                 if not dry:
                     if i == 0:
                         d.text((MARGIN, y - 2), f"{step_no}.", font=fonts["step_n"], fill=accent)
-                    d.text((MARGIN + 70, y), ln, font=fonts["body"], fill=TINT)
+                    draw_rich(d, MARGIN + 70, y, ln, fonts["body"], TINT, accent)
                 y += 44
             y += 18
         elif kind == "n":
