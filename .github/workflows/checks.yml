@@ -42,3 +42,7 @@ jobs:
       # Slotisusteemis on see korduv oht: tukid on eraldi korras, kokku pandult mitte.
       - name: Genereeritud lehtede JS-suntaks
         run: node scripts/test_syntaks.js
+      # 16.08.2026: kalendritellimuse endpoint. ICS-i vead ei ole ekraanil naha -- nad
+      # ilmnevad alles kellegi telefoni kalendris (75-oktetine reapiir, CRLF, DTEND valispiir).
+      - name: Kalendritellimuse ICS
+        run: node scripts/test_kalender.js

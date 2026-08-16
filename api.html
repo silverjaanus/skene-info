@@ -62,6 +62,16 @@ html[lang="et"] .only-en{display:none}
     <span class="url">https://www.skene.info/feed/archive.json</span>
     <p>Arhiiv — kõik möödunud kirjed alates saidi avamisest, sama formaat.</p>
 
+    <span class="url">https://www.skene.info/api/kalender?g=punk&amp;c=Tartu&amp;s=www</span>
+    <p><b>Kalendritellimus (iCalendar).</b> Tagastab <code>text/calendar</code> — vali sobiv
+    filter ja telli see oma kalendrisse, siis lisanduvad uued üritused sinna automaatselt.
+    Kalendrirakenduses ava <code>webcal://</code>-lingina (saidil on selleks nupp „Telli see
+    valik oma kalendrisse"). Parameetrid, kõik valikulised ja kombineeritavad:
+    <code>g</code> = žanrisildid komadega (VÕI-loogika, <b>toorsildid</b>, mitte saidi
+    žanrichippide nimed), <code>c</code> = koht, <code>t</code> = tüüp,
+    <code>s</code> = saidid komadega (<code>www</code>, <code>rap</code>, <code>klubi</code>).
+    Möödunud ja <code>tba</code>-kirjed jäetakse välja. 16.08.2026.</p>
+
     <h2>Kirje väljad</h2>
     <table>
       <tr><th>väli</th><th>tähendus</th></tr>
@@ -102,6 +112,16 @@ html[lang="et"] .only-en{display:none}
     <code>{"updated", "count", "entries": [...]}</code>.</p>
     <span class="url">https://www.skene.info/feed/archive.json</span>
     <p>Archive — everything past since the site launched, same format.</p>
+
+    <span class="url">https://www.skene.info/api/kalender?g=punk&amp;c=Tartu&amp;s=www</span>
+    <p><b>Calendar subscription (iCalendar).</b> Returns <code>text/calendar</code> — pick a
+    filter and subscribe to it, and new events show up in your calendar automatically. Open it
+    as a <code>webcal://</code> link (the site has a „Subscribe to this selection" button).
+    All parameters are optional and combinable: <code>g</code> = genre tags, comma-separated
+    (OR logic, <b>raw tags</b>, not the site's genre chip names), <code>c</code> = place,
+    <code>t</code> = type, <code>s</code> = sites, comma-separated (<code>www</code>,
+    <code>rap</code>, <code>klubi</code>). Past and <code>tba</code> entries are excluded.
+    Added 2026-08-16.</p>
 
     <h2>Entry fields</h2>
     <table>
