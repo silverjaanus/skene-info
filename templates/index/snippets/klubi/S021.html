@@ -1,6 +1,13 @@
-/* TANA vs VALITUD (15.08.2026) - vt www/S021.html. Halo elab mobiili plokis, sest desktopi
-   kulgriba kalendris (lahter 25px, ring 23px) ulatuks see naabri peale. */
-.calcell.today .dnum{background:transparent;color:var(--tint);font-weight:700;box-shadow:0 0 0 1.6px var(--tint) inset}
-.calcell.today.ev .dnum{background:var(--accent);color:var(--paber)}
-.calcell.sel .dnum{box-shadow:0 0 0 2px var(--tint)}
-.calcell.today.sel .dnum{box-shadow:0 0 0 1.6px var(--tint) inset,0 0 0 2px var(--tint)}
+/* TANA vs VALITUD (15.08.2026, halo laiendatud koigile ekraanidele 16.08.2026).
+   Varem olid MOLEMAD must ring (1.6px inset vs 2px outset) ja kuna box-shadow ei liitu,
+   kirjutas .sel .today varju ule -> kui tana OLI valitud paev, oli naha ainult uks marge.
+   Kolmas reegel (.today.sel) katab molemad korraga.
+   HALO (paberivarvi vahe accent-taidise ja musta ringi vahel) oli 15.-16.08 AINULT mobiilis,
+   sest desktopi kulgribas oli ring 23px ja lahter 25px -> korvale jai 1px ja halo oleks
+   ulatunud naabri peale. 16.08 kahandasime kulgriba ringi (.dnum laius 92% -> 76% lahtrist,
+   ehk 25px lahtris 19px ring), mis annab ~3px vaba ruumi. Nuud on markistus KOIGIL
+   ekraanidel sama. ⚠ Kui muudad .dnum laiust tagasi ulespoole, tuleb halo uuesti peale. */
+.calcell.today .dnum{background:transparent;color:var(--tint);font-weight:700;box-shadow:0 0 0 1.6px var(--tint) inset} /* täna: seest tühi must ring */
+.calcell.today.ev .dnum{background:var(--accent);color:var(--paber)} /* täna + üritus: värviline täidis + must sisering */
+.calcell.sel .dnum{box-shadow:0 0 0 2px var(--paber),0 0 0 3px var(--tint)} /* valitud päev: valge halo + must ring */
+.calcell.today.sel .dnum{box-shadow:0 0 0 1.6px var(--tint) inset,0 0 0 2px var(--paber),0 0 0 3px var(--tint)} /* täna JA valitud korraga */
