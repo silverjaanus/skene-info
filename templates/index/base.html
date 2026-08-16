@@ -1429,6 +1429,11 @@ function tellimusUrl(skeem){
   p.set('s',SAIDID.filter(x=>scope.has(x)).join(','));
   return (skeem||"https")+"://www.skene.info/api/kalender?"+p.toString();
 }
+// ⚠ "Kopeeri link" nupp EEMALDATUD 16.08.2026 (Silveri otsus: "mottetu").
+// Kaks pohjust. (1) Ta ei aidanud kedagi: Androidi Google Calendari appi EI SAA kalendrit
+// URL-i jargi lisada (Google'i enda tugileht), seega kopeeritud aadressiga polnud telefonis
+// midagi peale hakata. (2) Minu clipboard-fallback avas torke korral window.prompt'i, mis
+// BLOKEERIS kogu lehe -- testides jai leht selle akna taha kinni.
 function renderTelliRida(){
   const el=document.getElementById('tellirida');if(!el)return;
   el.innerHTML="";
@@ -1437,19 +1442,6 @@ function renderTelliRida(){
   a.textContent=t('telli_cta');
   a.title=t('telli_abi');
   el.appendChild(a);
-  const b=document.createElement('button');
-  b.type="button";b.className="uusban-b";
-  b.textContent=t('telli_kopeeri');
-  b.onclick=function(){
-    const u=tellimusUrl("https");
-    const teade=()=>{b.textContent=t('telli_kopeeritud');setTimeout(()=>{b.textContent=t('telli_kopeeri');},2500);};
-    // clipboard-API vajab https-i JA kasutaja tegevust; kui ta ei ole saadaval
-    // (vana brauser, http-localhost), naitame URL-i promptis, et see ikka kattesaadav oleks.
-    if(navigator.clipboard&&navigator.clipboard.writeText){
-      navigator.clipboard.writeText(u).then(teade).catch(()=>window.prompt(t('telli_kopeeri'),u));
-    }else{window.prompt(t('telli_kopeeri'),u);}
-  };
-  el.appendChild(b);
 }
 // ---------- B5d: tarn kirje juures + riba "minu nimekiri" ----------
 function tahtNupp(e){
