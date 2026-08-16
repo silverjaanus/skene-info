@@ -124,7 +124,11 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 .qin:focus{outline:none;border-color:var(--tint)}
 .chip{font-family:var(--mono);font-size:12.5px;border:1.5px solid var(--tint);background:transparent;color:var(--tint);padding:4px 11px;cursor:pointer;border-radius:0}
 .chip:hover,.chip.on{background:var(--tint);color:var(--paber)}
-.count{font-family:var(--mono);font-size:12px;color:var(--hall);padding:12px 0 2px;border-top:1px solid var(--joon);margin-top:10px}
+/* 16.08.2026 (Silveri märkus): loenduri ümber oli liiga palju õhku — kaardi tekstist
+   jooneni 34px, joonest tekstini 12px, ja see kõik ainult ÜHE rea numbri jaoks.
+   Nüüd 12px joone kohal, 7px all. Kui muudad, mõõda mõlemat: `.relbox` padding+margin
+   annavad ülemise vahe, `.count` padding-top alumise. */
+.count{font-family:var(--mono);font-size:12px;color:var(--hall);padding:7px 0 5px;border-top:1px solid var(--joon);margin-top:6px}
 .row{border-bottom:1px solid var(--joon);padding:10px 2px;display:grid;grid-template-columns:72px 1fr 280px;gap:4px;align-items:start}
 .row:first-of-type{border-top:2.5px solid var(--tint)}
 .row.past{opacity:.55}
@@ -315,7 +319,7 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
    oma `border-top` — kaks joont 22px vahega, mille vahel EI OLE MIDAGI. Üks eraldaja piisab.
    Sama põhimõte kehtib igale uuele plokile siin voos: kui plokk ise on peidus, ei tohi tema
    jooned ega vahed ekraanile jääda (vt ka [hidden] reeglit failli alguses). */
-.relbox{margin:0 0 6px;padding:0 0 16px}
+.relbox{margin:0;padding:0}
 .relbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 10px}
 .rel-h{font-family:var(--mono);font-size:11px;letter-spacing:.9px;text-transform:uppercase;
   color:var(--hall);margin:0;font-weight:400}
