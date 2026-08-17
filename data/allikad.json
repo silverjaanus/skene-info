@@ -150,6 +150,10 @@
      "u": "https://wunderbaar.ee/"
     },
     {
+     "n": "Wunderbaar (Pärnu) FB",
+     "u": "https://www.facebook.com/profile.php?id=100078685784402&sk=events"
+    },
+    {
      "n": "Ülase12",
      "u": "https://www.facebook.com/anemon12tln/events"
     }
@@ -315,8 +319,16 @@
    "nimi": "Muud",
    "items": [
     {
+     "n": "Exanity",
+     "u": "https://www.facebook.com/exanityofficial/events"
+    },
+    {
      "n": "Fuzzolini (Bandcamp)",
      "u": "https://fuzzolini.bandcamp.com/"
+    },
+    {
+     "n": "Surju Kommunaal",
+     "u": "https://surjukommunaal.ee/"
     }
    ]
   },

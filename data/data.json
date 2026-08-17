@@ -641,6 +641,35 @@
   {
    "d": "2026-08-21",
    "t": "kontsert",
+   "n": "Exanity + Surju Kommunaal @ Wunderbaar",
+   "a": "kaks bändi Wunderbaari laval; uksed 20.00, Surju Kommunaal 21.00, Exanity 22.00, DJ 23.00. Pilet ainult uksel ja sularahas",
+   "b": [
+    "Exanity",
+    "Surju Kommunaal"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "rock",
+    "alt",
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1780280772993688/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1780280772993688/",
+   "hind": {
+    "praegu": "12€ / 15€",
+    "mark": "ainult uksel, sularahas: esimene tund 12 €, edasi 15 €",
+    "allikas": "Wunderbaari FB-lehe postitus, kontrollitud 17.08.2026"
+   },
+   "nb": "kontaktivormi sisend 16.08.2026 (Liis Virkus, Surju Kommunaali bassist). Kaks allikat: FB event 1780280772993688 (kaaskorraldajad Wunderbaar + Exanity + Surju Kommunaal, R 21.08 kell 21) ja Wunderbaari oma FB-lehe postitus (ajakava + hind). Eelmüüki ega piletimüüjat pole. Exanity (Paide) = alt-rock + elektroonika, Surju Kommunaal = punkrokkkaverbänd",
+   "lisatud": "2026-08-17"
+  },
+  {
+   "d": "2026-08-21",
+   "t": "kontsert",
    "n": "Lexsoul Dancemachine — suve ainus kontsert Tallinnas",
    "a": "algus 20.00; kuueliikmeline funk/soul-kollektiiv (aasta ansambel 2021)",
    "b": [
