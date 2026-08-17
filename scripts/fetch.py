@@ -248,7 +248,17 @@ def src_helitehas():
                      "helitehas.ee", "https://helitehas.ee/",
                      r"https://helitehas\.ee/facebook-event/[a-z0-9%\-\.]+/")
 
-SOURCES = [("metalstorm", src_metalstorm), ("krypt", src_krypt),
+# ⚠ METALSTORM ON SERVERIPOOLSEST KORJEST VÄLJAS (17.08.2026, Silveri otsus).
+# 03.08 diagnoos ("meie IP on blokis") oli poolik: 17.08 kontroll näitab, et
+# metalstorm.net on Cloudflare'i managed challenge'i taga ("Just a moment...",
+# cf_chl_opt + /cdn-cgi/challenge-platform). Seda EI SAA serveripoolse päringuga
+# läbida — ei UA, ei pausid, ei kordused. Iga jooks andis lihtsalt logirea
+# "metalstorm: VIGA HTTPError: HTTP Error 403".
+# Allikas ise EI OLE maha kantud: ta on nüüd reedeses Chrome-sweepis
+# (sweep/sources.json -> js_saidid_chrome_kihis), kus päris brauser läheb
+# challenge'ist läbi. src_metalstorm() jääb siia alles — kui CF kunagi maha
+# võetakse, piisab funktsiooni tagasi SOURCES-i lisamisest.
+SOURCES = [("krypt", src_krypt),
            ("paavli", src_paavli), ("helitehas", src_helitehas)]
 
 # ---------------- merge ----------------
@@ -261,6 +271,12 @@ def main():
         try:
             rows = fn()
             log.append(f"{name}: {len(rows)}")
+            # ⚠ 0 kirjet EI OLE viga, aga on kahtlane: sait voib olla ymber
+            # ehitatud ja parser tagastab vaikselt tyhja (17.08.2026: paavli ja
+            # helitehas andsid MOLEMAD 0, sest HTML oli muutunud — keegi ei
+            # marganud, sest logireal seisis viisakalt "paavli: 0").
+            if not rows:
+                print(f"HOIATUS: allikas '{name}' andis 0 kirjet — kontrolli, kas parser on veel elus")
             auto.extend(rows)
         except Exception as ex:
             log.append(f"{name}: VIGA {type(ex).__name__}: {ex}")

@@ -369,7 +369,7 @@
    {
     "nimi": "Piletilevi muusika",
     "url": "https://www.piletilevi.ee/piletid/muusika",
-    "nb": "JS + API 403 serverist; filtreeri räpp/hip-hop käsitsi"
+    "nb": "JS-renderdatud + API 403 serverist -> kai Chrome'iga, filtreeri rapp/hip-hop kasitsi (URL kontrollitud 17.08.2026, HTTP 200)"
    },
    {
     "nimi": "Fienta räpp-otsing",
@@ -428,6 +428,11 @@
    "nimi": "Bandsintown Tallinn metal",
    "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
    "nb": "Cloudflare blokib serverit"
+  },
+  {
+   "nimi": "Metal Storm - Eesti kontserdid",
+   "url": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+   "nb": "LISATUD 17.08.2026: oli varem serveripoolses fetch.py korjes, aga sait laks Cloudflare'i managed challenge'i taha (\"Just a moment...\") -> iga jooks andis 403. Brauseriga avaneb normaalselt, seega korje kaib nyyd SIIT. Tabelis on kuupaev + venue + koosseis; vota need kirjed, mida saidil veel pole (13 Metal Stormi kirjet on manual.json-is juba olemas - kontrolli enne lisamist). Teine allikas on tavaliselt korraldaja FB-event voi piletimyyja."
   }
  ],
  "yldised_agregaatorid": {
@@ -481,7 +486,7 @@
    {
     "nimi": "Piletilevi",
     "url": "https://www.piletilevi.ee/search?query=metal",
-    "nb": "TOOTAV OTSINGU-URL leitud 28.07.2026: /search?query=<termin>. EI TOOTA: /otsing?q= ja /piletid/muusika/rock-ja-metall (404). Zanri-alamkategooriaid EI OLE - kasuta otsingut (metal, punk, rock, rapp, techno)"
+    "nb": "TOOTAV OTSINGU-URL: /search?query=<termin> (kontrollitud 17.08.2026, HTTP 200). EI TOOTA: /otsing?q= ja /piletid/muusika/rock-ja-metal. ⚠ SISU ON JS-RENDERDATUD - serveripoolne paring annab 94 KB tyhja karpi, milles sona 'metal' ei esine. KAI AINULT CHROME'IGA. Zanri-alamkategooriaid EI OLE — kasuta otsingut (metal, punk, rock, rapp, techno). Suurim Eesti piletimyyja, seega tasub sweepis igal nadalal labi kaia."
    },
    {
     "nimi": "Ticketshop.ee",
