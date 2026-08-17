@@ -77,9 +77,12 @@ jobs:
       # job punaseks kohe ja logi utleb, MILLINE fail puudu on.
       - name: Commitimata jaanud failid
         run: |
-          if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
-            git status --porcelain --untracked-files=no
-            echo "::error::Korje muutis faile, mida 'Commit kui muutus' git add ei kata — lisa need nimekirja"
+          # ka UUED (untracked) failid: neid rebase ei blokeeri, seega nad ei
+          # tapa jooksu — nad jaavad lihtsalt VAIKSELT saidilt puudu. .gitignore
+          # kaetud failid siia ei satu.
+          if [ -n "$(git status --porcelain)" ]; then
+            git status --porcelain
+            echo "::error::Korje muutis/lõi faile, mida 'Commit kui muutus' git add ei kata — lisa need nimekirja"
             exit 1
           fi
       # nahtavus: kui moni ulaltoodud continue-on-error samm kukkus,
