@@ -1148,6 +1148,46 @@
    "nb": "lisatud 14.08.2026 (Silveri otsus: sisse); allikad Rada7 FB events + FB event; hinnainfot event-lehel polnud (ilmselt tasuta baariõhtu)"
   },
   {
+   "d": "2026-08-14",
+   "d2": "16.08",
+   "t": "festival",
+   "n": "Dark Side of the Moon 2026",
+   "a": "HALL-i iga-aastane klubifestival (9. väljaanne) — kolm ööd Noblessneris (Peetri 6)",
+   "b": [
+    "Unai Trotti",
+    "Laurine",
+    "Steffi",
+    "Blasha & Allatt",
+    "Hicham (FR)",
+    "Jeku",
+    "Ojelma",
+    "Nikolajev",
+    "Charch",
+    "Micaela Saraceno",
+    "Arto",
+    "Pavliuk",
+    "Artur Lääts",
+    "Katja Adrikova",
+    "FAKIGN",
+    "Brett Rästas",
+    "Denzel",
+    "Joni DJ",
+    "Tanel Mütt"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "house",
+    "electro"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/ee/all",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/24443143705338081/",
+   "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade | 07.08.2026 sweep: RA koosseisunimekiri on kasvanud 19 artistini — lisatud Denzel, Joni DJ ja Tanel Mütt."
+  },
+  {
    "d": "2026-08-15",
    "t": "klubi",
    "n": "BREAKWAVE 2026",
@@ -1254,6 +1294,37 @@
    "ou": "https://tolm.club/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: tolm.club events-leht + TOLM IG (@tolm.trt 12.08 postitus). Varasem horseworks oli RA-l — seekordset RA-eventi ei leidnud"
+  },
+  {
+   "d": "2026-08-15",
+   "d2": "16.08",
+   "t": "klubi",
+   "n": "WAKE UP EVENT: SUME NIGHT",
+   "b": [
+    "NEOONDREED",
+    "AURORÆ LUMA",
+    "PHANTASIA",
+    "DON NUKI",
+    "RA",
+    "SØREN"
+   ],
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1570139137798183",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1570139137798183",
+   "pu": "https://fienta.com/et/wake-up-event-sume-night-at-veetorni-aed-15-08",
+   "hind": {
+    "praegu": "5€ / 7€",
+    "mark": "eelmüük 5€, uksel 7€",
+    "allikas": "Fienta, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta)",
+   "img": "pildid/wakeupeventsumenight.webp"
   }
  ]
 }

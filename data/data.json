@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16",
+ "updated": "2026-08-17",
  "entries": [
   {
    "rel": 1,
@@ -483,30 +483,6 @@
    "ou": "https://open.spotify.com/album/5216kr1MjSN0Ta6n7R2LFE",
    "nb": "kontaktivormi sisend (Egert, peakontor@antimuusika.ee, 10.08.2026); kuupäev Spotify releaselehelt (August 8, 2026), saatja kuupäevaväli oli tühi. Teine allikas: MuusikaPlaneet 11.08.2026 https://muusikaplaneet.ee/2026/08/11/bobcat/ — salvestatud Maailma Nabala stuudios, produktsioon Martin Kikas (Ö Stuudio), fotod Joosep Ints; EP lubatud septembris 2026. Saatja pakkus žanriteks punk+rock+alt, jäeti Silveri otsusel alt+rock (MuusikaPlaneet nimetab lihtsalt alternatiivmuusikaks, lugu „peaaegu ballaad”). Ka YouTube’is: https://www.youtube.com/watch?v=DrfZcEjR5Vg",
    "img": "pildid/pluuto200bobcat.webp"
-  },
-  {
-   "d": "2026-08-16",
-   "t": "kontsert",
-   "n": "Paavli.Live: Geordie Greep (UK)",
-   "a": "Briti rokkansambli Black Midi endine frontmees; eksperimentaalne rokk, debuütsooloalbum „The New Sound“; avab Richard Jerbach",
-   "b": [
-    "Geordie Greep (UK)",
-    "Richard Jerbach"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "eksperimentaal",
-    "alternatiiv"
-   ],
-   "sn": "Fienta (Paavli Kultuurivabrik)",
-   "su": "https://fienta.com/geordie-greep-paavli",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2264781267610298/",
-   "pu": "https://fienta.com/geordie-greep-paavli",
-   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases. FB-eventi link lisatud 13.08.2026 Rada7.ee uudiskirjast (kuupäev P 16.08 + koht Paavli langevad kokku Fienta lehega) 13.08: +avaesineja Richard Jerbach (kultuurivabrik.ee programm).",
-   "img": "pildid/paavlilivegeordiegreepuk.webp"
   },
   {
    "d": "2026-08-17",
@@ -2768,7 +2744,7 @@
   }
  ],
  "log": [
-  "metalstorm: 14",
+  "metalstorm: VIGA HTTPError: HTTP Error 403: Forbidden",
   "krypt: 13",
   "paavli: 0",
   "helitehas: 0"

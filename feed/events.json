@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16",
+ "updated": "2026-08-17",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 190,
+ "count": 186,
  "entries": [
   {
    "sait": "www",
@@ -856,130 +856,6 @@
    "ou": "https://open.spotify.com/album/5216kr1MjSN0Ta6n7R2LFE",
    "nb": "kontaktivormi sisend (Egert, peakontor@antimuusika.ee, 10.08.2026); kuupäev Spotify releaselehelt (August 8, 2026), saatja kuupäevaväli oli tühi. Teine allikas: MuusikaPlaneet 11.08.2026 https://muusikaplaneet.ee/2026/08/11/bobcat/ — salvestatud Maailma Nabala stuudios, produktsioon Martin Kikas (Ö Stuudio), fotod Joosep Ints; EP lubatud septembris 2026. Saatja pakkus žanriteks punk+rock+alt, jäeti Silveri otsusel alt+rock (MuusikaPlaneet nimetab lihtsalt alternatiivmuusikaks, lugu „peaaegu ballaad”). Ka YouTube’is: https://www.youtube.com/watch?v=DrfZcEjR5Vg",
    "img": "https://www.skene.info/pildid/pluuto200bobcat.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-14",
-   "d2": "16.08",
-   "t": "festival",
-   "n": "Dark Side of the Moon 2026",
-   "a": "HALL-i iga-aastane klubifestival (9. väljaanne) — kolm ööd Noblessneris (Peetri 6)",
-   "b": [
-    "Unai Trotti",
-    "Laurine",
-    "Steffi",
-    "Blasha & Allatt",
-    "Hicham (FR)",
-    "Jeku",
-    "Ojelma",
-    "Nikolajev",
-    "Charch",
-    "Micaela Saraceno",
-    "Arto",
-    "Pavliuk",
-    "Artur Lääts",
-    "Katja Adrikova",
-    "FAKIGN",
-    "Brett Rästas",
-    "Denzel",
-    "Joni DJ",
-    "Tanel Mütt"
-   ],
-   "v": "HALL",
-   "c": "Tallinn",
-   "g": [
-    "techno",
-    "house",
-    "electro"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/ee/all",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/24443143705338081/",
-   "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade | 07.08.2026 sweep: RA koosseisunimekiri on kasvanud 19 artistini — lisatud Denzel, Joni DJ ja Tanel Mütt."
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-08-15",
-   "d2": "16.08",
-   "t": "klubi",
-   "n": "WAKE UP EVENT: SUME NIGHT",
-   "b": [
-    "NEOONDREED",
-    "AURORÆ LUMA",
-    "PHANTASIA",
-    "DON NUKI",
-    "RA",
-    "SØREN"
-   ],
-   "v": "Veetorni Aed",
-   "c": "Tallinn",
-   "g": [
-    "techno"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/1570139137798183",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1570139137798183",
-   "pu": "https://fienta.com/et/wake-up-event-sume-night-at-veetorni-aed-15-08",
-   "hind": {
-    "praegu": "5€ / 7€",
-    "mark": "eelmüük 5€, uksel 7€",
-    "allikas": "Fienta, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta)",
-   "img": "https://klubi.skene.info/pildid/wakeupeventsumenight.webp"
-  },
-  {
-   "sait": "rap",
-   "d": "2026-08-16",
-   "t": "kontsert",
-   "n": "KRS-One (US): My Philosophy European Tour 2026",
-   "a": "Boogie Down Productionsi asutaja ja New Yorgi hip-hopi elav klassik esmakordselt Tallinnas; uksed 19.00, algus 20.00",
-   "b": [
-    "KRS-One (US)"
-   ],
-   "v": "Club Privé",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Ticketshop",
-   "su": "https://ticketshop.ee/et/events/107052",
-   "pu": "https://ticketshop.ee/et/events/107052",
-   "hind": {
-    "praegu": "alates 58,29€",
-    "mark": "uksed 19.00, algus 20.00, 0+",
-    "allikas": "ticketshop.ee, kontrollitud 07.08.2026"
-   },
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 Silveri skoobiotsuse alusel: välisartisti kontsert Eestis LÄHEB kirja kõigil kolmel saidil (žanri järgi), mitte ainult Eesti artistid. KOLM allikat kinnitavad kuupäeva 16.08.2026: ticketshop.ee/et/events/107052 (piletimüüja, korraldaja LATFRO ENTERTAINMENT), Eventbrite 1984157416244 (Sunday August 16, 7-11 PM) ja allevents.in. ⚠ Ticketshopi KIRJELDUSTEKST ütleb endiselt 'June 14th, 2026' — üritus on juunist augustisse lükatud ja tekst jäänud uuendamata; kuupäevaväli ja Eventbrite ütlevad mõlemad 16.08. ⚠ FB event 1671040643909465 on KATKI (näitab 15. mai 3.00) — seda EI kasutatud ou-l. Kellaaeg: allevents ja Eventbrite ütlevad 19.00, ticketshop eristab uksed 19.00 / algus 20.00 — kirjes on ticketshopi versioon.",
-   "img": "https://rap.skene.info/pildid/krsoneusmyphilosophyeuropeantour2026.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-16",
-   "t": "kontsert",
-   "n": "Paavli.Live: Geordie Greep (UK)",
-   "a": "Briti rokkansambli Black Midi endine frontmees; eksperimentaalne rokk, debuütsooloalbum „The New Sound“; avab Richard Jerbach",
-   "b": [
-    "Geordie Greep (UK)",
-    "Richard Jerbach"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "eksperimentaal",
-    "alternatiiv"
-   ],
-   "sn": "Fienta (Paavli Kultuurivabrik)",
-   "su": "https://fienta.com/geordie-greep-paavli",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2264781267610298/",
-   "pu": "https://fienta.com/geordie-greep-paavli",
-   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases. FB-eventi link lisatud 13.08.2026 Rada7.ee uudiskirjast (kuupäev P 16.08 + koht Paavli langevad kokku Fienta lehega) 13.08: +avaesineja Richard Jerbach (kultuurivabrik.ee programm).",
-   "img": "https://www.skene.info/pildid/paavlilivegeordiegreepuk.webp"
   },
   {
    "sait": "www",
