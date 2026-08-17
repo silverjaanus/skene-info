@@ -3188,5 +3188,129 @@
   "ou": "https://www.facebook.com/events/1732656227939363/",
   "lisatud": "2026-08-14",
   "nb": "lisatud sweepis 14.08.2026; kaks allikat: venue FB event + bändi enda IG (@oulun_keskusta, tuurigraafika Viljandiga). NB samal õhtul on Viljandis ka Vermilia Tallinnas jm — kuupäev 12.09 kinnitatud event-lehelt"
+ },
+ {
+  "rel": 1,
+  "d": "2026-08-15",
+  "lisatud": "2026-08-17",
+  "t": "reliis",
+  "n": "Gutting Human — «Hell Singer» EP",
+  "a": "brutal death / goregrind EP, 14 min; Tallinn",
+  "b": [
+   "Gutting Human"
+  ],
+  "g": [
+   "metal",
+   "death"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://guttinghuman.bandcamp.com/album/hell-singer",
+  "nb": "lisatud 17.08.2026 sweepis. Kuupäev 15.08.2026 Bandcampi tag-otsingust; teine allikas: YouTube'i täisalbumi üleslaadimine (Skinned Corpse / Grindcore Death Metal Estonia kanal, 15.08)."
+ },
+ {
+  "d": "2027-08-07",
+  "d2": "08.08",
+  "lisatud": "2026-08-17",
+  "t": "festival",
+  "n": "M'era Luna 2027",
+  "a": "suur gooti/industrial festival; esimesed nimed avaldatud (lisaks Feuerschwanz, Schandmaul, Das Ich, Frozen Plasma, Alienare jt)",
+  "b": [
+   "VNV Nation",
+   "The Sisters of Mercy",
+   "Suicide Commando",
+   "Diary of Dreams",
+   "Assemblage 23"
+  ],
+  "v": "Flugplatz Hildesheim-Drispenstedt",
+  "c": "Euroopa",
+  "g": [
+   "dark",
+   "electro",
+   "ebm",
+   "goth",
+   "industrial"
+  ],
+  "sn": "meraluna.de",
+  "su": "https://meraluna.de/en/",
+  "on_": "M'era Luna",
+  "ou": "https://meraluna.de/en/",
+  "nb": "lisatud 17.08.2026: kuupäev 07.–08.08.2027 ametlikult lehelt (+ Impericon 11.08.2026); välisfestival → teadlik headliner-valik"
+ },
+ {
+  "d": "2027-08-18",
+  "d2": "21.08",
+  "lisatud": "2026-08-17",
+  "t": "festival",
+  "n": "Summer Breeze 2027",
+  "a": "30. juubeliväljaanne; 63 esimest bändi avaldatud 12.08.2026, siin valik suuremaid; eelmüük algas 17.08.2026",
+  "b": [
+   "Electric Callboy",
+   "Edguy",
+   "Children of Bodom",
+   "HammerFall",
+   "Halestorm",
+   "Lord of the Lost"
+  ],
+  "v": "Dinkelsbühl",
+  "c": "Euroopa",
+  "g": [
+   "metal",
+   "core"
+  ],
+  "sn": "summer-breeze.de",
+  "su": "https://www.summer-breeze.de/en/",
+  "on_": "Summer Breeze",
+  "ou": "https://www.summer-breeze.de/en/",
+  "nb": "lisatud 17.08.2026: kuupäev 18.–21.08.2027 ametlikult lehelt + Nuclear Blasti uudis; välisfestival → teadlik headliner-valik"
+ },
+ {
+  "d": "2027-08-04",
+  "d2": "07.08",
+  "lisatud": "2026-08-17",
+  "t": "festival",
+  "n": "Brutal Assault 2027",
+  "a": "30. juubeliväljaanne; esimesed bändid avaldatud 11.08.2026",
+  "b": [
+   "Mercyful Fate",
+   "Children of Bodom",
+   "The Sisters of Mercy"
+  ],
+  "v": "Josefovi kindlus, Jaroměř",
+  "c": "Euroopa",
+  "g": [
+   "death",
+   "black",
+   "thrash",
+   "doom"
+  ],
+  "sn": "brutalassault.cz",
+  "su": "https://brutalassault.cz/en",
+  "on_": "Brutal Assault",
+  "ou": "https://brutalassault.cz/en",
+  "pu": "https://brutalassault.cz/en/tickets",
+  "nb": "lisatud 17.08.2026: kuupäev 04.–07.08.2027 ametlik piletileht + concerts-metal; välisfestival → teadlik headliner-valik"
+ },
+ {
+  "d": "2027-05-14",
+  "d2": "17.05",
+  "lisatud": "2026-08-17",
+  "t": "festival",
+  "n": "Wave-Gotik-Treffen 2027",
+  "a": "34. WGT — maailma suurim goth/darkwave/EBM festival, ~200 esinejat üle linna",
+  "b": [],
+  "v": "Leipzig (agra jt)",
+  "c": "Euroopa",
+  "g": [
+   "dark",
+   "electro",
+   "ebm",
+   "goth",
+   "industrial"
+  ],
+  "sn": "wave-gotik-treffen.de",
+  "su": "https://www.wave-gotik-treffen.de/english/",
+  "on_": "Wave-Gotik-Treffen",
+  "ou": "https://www.wave-gotik-treffen.de/english/",
+  "nb": "lisatud 17.08.2026: kuupäev 14.–17.05.2027 ametlikult lehelt. b tühi TEADLIKULT — WGT avaldab koosseisu alles kevadel; mitte tba (kuupäev+koht kinnitatud)"
  }
 ]

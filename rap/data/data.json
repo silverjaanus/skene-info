@@ -83,6 +83,42 @@
    "img": "pildid/margiielaxchillinuhineeppealkiriavaldamata.webp"
   },
   {
+   "rel": 1,
+   "d": "2026-08-14",
+   "lisatud": "2026-08-17",
+   "t": "reliis",
+   "n": "Tommy Cash x Ikkimel — «Miss Universe»",
+   "a": "ühissingel Berliini räppari Ikkimeliga, ilmus R 14.08.2026",
+   "b": [
+    "Tommy Cash",
+    "Ikkimel"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "tommycash.lnk.to",
+   "su": "https://tommycash.lnk.to/miss-universe",
+   "nb": "lisatud 17.08.2026: leitud MuusikaPlaneedi singlivoost (artikkel 16.08.2026); teine allikas artisti enda IG-bio link"
+  },
+  {
+   "rel": 1,
+   "d": "2026-08-14",
+   "lisatud": "2026-08-17",
+   "t": "reliis",
+   "n": "ONYX x Lil Till — «linnonminu»",
+   "a": "ühissingel, 2:32; esimese kolme päevaga 10 000+ kuulamist",
+   "b": [
+    "ONYX",
+    "Lil Till"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "MuusikaPlaneet",
+   "su": "https://muusikaplaneet.ee/2026/08/17/linnonminu/",
+   "nb": "lisatud 17.08.2026: teised allikad Spotify + artisti TikTok; Genius märgib 13.08, artisti enda kanal ütleb 14.08 → 14.08"
+  },
+  {
    "d": "2026-08-19",
    "t": "klubi",
    "n": "CHECK ONE TWO",
@@ -320,6 +356,27 @@
    "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis."
   },
   {
+   "d": "2026-09-11",
+   "lisatud": "2026-08-17",
+   "t": "kontsert",
+   "n": "Patarei lõpupidu x nublu",
+   "a": "Patarei Merekindluse ööelu hüvastijätupidu; korraldaja Made In Vachina",
+   "b": [
+    "nublu"
+   ],
+   "v": "Patarei Merekindlus",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Piletitasku",
+   "su": "https://www.piletitasku.ee/et/event/10133",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2832735007090965/",
+   "pu": "https://www.piletitasku.ee/et/event/10133",
+   "nb": "lisatud 17.08.2026: allikad Piletitasku + FB event; kuupäev 11.09.2026 kinnitatud mõlemast"
+  },
+  {
    "tba": 1,
    "d": "2027-08-13",
    "d2": "14.08",
@@ -339,6 +396,26 @@
    "pu": "https://piletitasku.ee/et/event/10014",
    "img": "pildid/tartupunch2027.webp",
    "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud."
+  },
+  {
+   "d": "2027-08-13",
+   "d2": "14.08",
+   "lisatud": "2026-08-17",
+   "t": "festival",
+   "tba": 1,
+   "n": "Eesti Hip Hop Festival 2027",
+   "a": "21. festival",
+   "b": [],
+   "v": "Elva",
+   "c": "mujal",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Instagram @eestihiphopfestival",
+   "su": "https://www.instagram.com/eestihiphopfestival/",
+   "on_": "eestihiphopfestival.ee",
+   "ou": "https://eestihiphopfestival.ee/",
+   "nb": "lisatud 17.08.2026: kuupäev 13.–14.08.2027 festivali enda IG-biost; ametlik sait näitab veel 2026 → tba kuni teine kinnitus"
   }
  ]
 }
