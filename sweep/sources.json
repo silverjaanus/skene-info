@@ -433,6 +433,21 @@
    "nimi": "Metal Storm - Eesti kontserdid",
    "url": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
    "nb": "LISATUD 17.08.2026: oli varem serveripoolses fetch.py korjes, aga sait laks Cloudflare'i managed challenge'i taha (\"Just a moment...\") -> iga jooks andis 403. Brauseriga avaneb normaalselt, seega korje kaib nyyd SIIT. Tabelis on kuupaev + venue + koosseis; vota need kirjed, mida saidil veel pole (13 Metal Stormi kirjet on manual.json-is juba olemas - kontrolli enne lisamist). Teine allikas on tavaliselt korraldaja FB-event voi piletimyyja."
+  },
+  {
+   "nimi": "Paavli Kultuurivabrik (ametlik sait)",
+   "url": "https://paavli.ee/sundmused/",
+   "nb": "LISATUD 17.08.2026: oli varem fetch.py serveripoolses korjes (src_paavli), aga sait ehitati ymber ja parser tagastas VAIKSELT 0 kirjet. Mootmine: 30 event-linki lehel, kuupaev leiti 2-l, pealkiri mitte yhelgi. WP REST API /wp-json/wp/v2/sundmused ANNAB nimekirja (pealkiri+link+kategooria), aga URITUSE KUUPAEVA seal EI OLE (date = postituse avaldamise aeg, acf tyhi) -> iga kirje jaoks eraldi leht. ⚠ SEGAZANRI KOHT - filtreeri skoop kasitsi (samas nimekirjas on jalgpalli yhisvaatamisi, filmiohtuid ja peoraama). Just see on pohjus, miks automaatkorje siit maha voeti 17.08.2026: zanri arvamine pealkirja jargi ei tootanud."
+  },
+  {
+   "nimi": "Paavli Kvartal (FB events)",
+   "url": "https://www.facebook.com/Paavli.Kvartal/events",
+   "nb": "LISATUD 17.08.2026 koos ametliku saidiga (reegel: venue puhul NII FB KUI veeb). Handle voetud paavli.ee jaluse lingist (facebook.com/Paavli.Kvartal), IG on @paavli_kvartal. Klubiohtude pool on lisaks Fientas: fienta.com/o/17595 (klubi/js_saidid all)."
+  },
+  {
+   "nimi": "Helitehas (ametlik sait)",
+   "url": "https://helitehas.ee/",
+   "nb": "LISATUD 17.08.2026: oli varem fetch.py serveripoolses korjes (src_helitehas), aga sait ehitati ymber ja parser tagastas VAIKSELT 0 kirjet (8 event-linki lehel, yhelgi ei leitud kuupaeva ega zanrisona; pealkiri tuli URL-i slugist kujul 'airbourne %e2%94%82 helitehas tallinn'). WP REST API on LUKUS - /wp-json/ mistahes kujul annab 401, seega API-teed EI OLE. ⚠ SEGAZANRI KOHT - filtreeri skoop kasitsi (samas nimekirjas on jalgpalli yhisvaatamisi, filmiohtuid ja peoraama). Just see on pohjus, miks automaatkorje siit maha voeti 17.08.2026: zanri arvamine pealkirja jargi ei tootanud. FB-leht on eraldi kirjena /fb all."
   }
  ],
  "yldised_agregaatorid": {

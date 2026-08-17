@@ -258,8 +258,23 @@ def src_helitehas():
 # (sweep/sources.json -> js_saidid_chrome_kihis), kus päris brauser läheb
 # challenge'ist läbi. src_metalstorm() jääb siia alles — kui CF kunagi maha
 # võetakse, piisab funktsiooni tagasi SOURCES-i lisamisest.
-SOURCES = [("krypt", src_krypt),
-           ("paavli", src_paavli), ("helitehas", src_helitehas)]
+# ⚠ PAAVLI JA HELITEHAS ON KA VÄLJAS (17.08.2026, Silveri otsus). Mõlemad
+# tagastasid VAIKSELT 0 kirjet — logireal seisis "paavli: 0", mis nägi välja
+# nagu vastus, mitte nagu rike. Mõõdetud 17.08:
+#   * helitehas.ee: 8 event-linki lehel, ÜHELGI ei leitud kuupäeva ega
+#     žanrisõna; pealkiri tuli URL-i slugist ("airbourne %e2%94%82 helitehas
+#     tallinn"). WP REST API on LUKUS (/wp-json/ -> 401), API-teed ei ole.
+#   * paavli.ee: 30 event-linki, kuupäev leiti 2-l, pealkiri mitte ühelgi.
+#     WP REST API /wp-json/wp/v2/sundmused ANNAB nimekirja, aga ÜRITUSE
+#     KUUPÄEVA seal ei ole (date = postituse avaldamise aeg, acf tühi).
+# Sügavam põhjus, miks parserit ei parandata: mõlemad on SEGAŽANRI KOHAD
+# (jalgpalli ühisvaatamine, filmiõhtu, "Mussel Overload" kõrvuti Airbourne'i ja
+# aya (UK)-ga). Žanri arvamine pealkirja järgi ongi see osa, mis katki läks —
+# Krypt töötab just seetõttu, et on metal-klubi ja arvata pole vaja.
+# Mõlemad on nüüd reedeses Chrome-sweepis (sweep/sources.json ->
+# js_saidid_chrome_kihis + Helitehase FB-leht /fb all). Funktsioonid jäävad
+# alles, kui saidid kunagi masinloetava kuupäeva tagasi toovad.
+SOURCES = [("krypt", src_krypt)]
 
 # ---------------- merge ----------------
 
