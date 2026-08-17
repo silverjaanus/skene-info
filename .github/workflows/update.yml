@@ -85,6 +85,12 @@ jobs:
             echo "::error::Korje muutis/lõi faile, mida 'Commit kui muutus' git add ei kata — lisa need nimekirja"
             exit 1
           fi
+      # ⚠ SEE SAMM ON MEELEGA VIIMANE JA COMMIT'I JAREL: kui sweep on vahele
+      # jaanud, tahame ANDMED IKKA valja pushida ja alles siis punaseks minna.
+      # Punane job => GitHub saadab Silverile kirja (sama tee, mida mooda
+      # 17.08 vea teade kohale jouds). Vt scripts/check_sweep_varskus.py.
+      - name: Sweep varskus
+        run: python scripts/check_sweep_varskus.py
       # nahtavus: kui moni ulaltoodud continue-on-error samm kukkus,
       # laheb job SIIN punaseks — Actions-vaade ei valeta enam rohelist
       - name: Korje staatus
