@@ -66,8 +66,22 @@ jobs:
         run: |
           git config user.name "skene-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/data.json rap/data/data.json klubi/data/data.json data/manual.json rap/data/manual.json klubi/data/manual.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json klubi/api/events.json data/archive rap/data/archive klubi/data/archive
+          # ⚠ 17.08.2026: rap/api/archive.json + klubi/api/archive.json olid
+          # siit puudu (tekkisid 16.08 commit'is 1592ca3, B5e). Need jaid
+          # commitimata -> `git pull --rebase` suri "cannot pull with rebase:
+          # You have unstaged changes" (exit 128). Uus valjundfail => lisa siia.
+          git add data/data.json rap/data/data.json klubi/data/data.json data/manual.json rap/data/manual.json klubi/data/manual.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json rap/api/archive.json klubi/api/events.json klubi/api/archive.json data/archive rap/data/archive klubi/data/archive
           git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git pull --rebase origin main && git push)
+      # valve: kui korje kirjutas faili, mida ulaltoodud `git add` ei kata,
+      # jaab see commitimata ja tapab JARGMISE jooksu rebase'i. Siin laheb
+      # job punaseks kohe ja logi utleb, MILLINE fail puudu on.
+      - name: Commitimata jaanud failid
+        run: |
+          if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
+            git status --porcelain --untracked-files=no
+            echo "::error::Korje muutis faile, mida 'Commit kui muutus' git add ei kata — lisa need nimekirja"
+            exit 1
+          fi
       # nahtavus: kui moni ulaltoodud continue-on-error samm kukkus,
       # laheb job SIIN punaseks — Actions-vaade ei valeta enam rohelist
       - name: Korje staatus
