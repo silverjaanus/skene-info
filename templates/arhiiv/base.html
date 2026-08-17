@@ -385,10 +385,10 @@ function render(){
     return `<div class="row">
       ${thumbHtml(e,tc)}
       <div>
-        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd">${bandNupp(e.b[0])}<span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
+        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
         <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
-        ${e.b&&e.b.length>1?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
+        ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
       <div class="loc"><span class="venue">${esc(e.v)}</span>${(e.t==="reliis"||e.t==="merch")?"":(e.linn?esc(e.linn):(e.c==="mujal"?"":esc(e.c)))}<div class="lnks">${lnks}</div></div>
     </div>`;

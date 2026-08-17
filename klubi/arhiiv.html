@@ -131,8 +131,8 @@ aside{position:sticky;top:16px;padding-top:16px}
 .bnb{font:inherit;background:transparent;border:0;padding:0;color:inherit;cursor:pointer;
   border-bottom:1px dotted var(--hall);text-align:left}
 .bnb:hover,.bnb:focus{color:var(--tint);border-bottom-color:var(--tint)}
-.bnb-i{font-family:var(--mono);font-size:12px;border-bottom:0;opacity:.6;padding:0 1px;line-height:1}
-.bnb-i:hover,.bnb-i:focus{opacity:1;color:var(--tint)}
+/* .bnb-i (paljas ⟲ pealkirja korval) kustutatud 17.08.2026 koos bandNupp()-iga --
+   uhe esinejaga kirje naitab nuud nime lineup'is nagu koik teised. Vt bnd-js.html. */
 #bndkate{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:80;
   display:flex;align-items:center;justify-content:center;padding:20px}
 #bndkast{background:var(--paber);color:var(--tint);border:2.5px solid var(--tint);
@@ -483,13 +483,14 @@ function band(b){
  const ics=bandIcons(b);
  return `<span class="bd"><button type="button" class="bnb" data-b="${esc(b)}" title="${esc(t('bnd_avab'))}" onclick="bndAva(this.dataset.b)">${esc(b)}</button>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
 }
-// Uhe esinejaga kirjel ei renderdata lineup'i uldse (nimi on juba pealkirjas), seega
-// poleks seal midagi klikkida. Ikoonide korvale laheb sama glyph, mis on paneeli sees
-// "viimati laval" rea ees -- nii on margil kogu saidil uks tahendus.
-function bandNupp(b){
- const lbl=esc(b)+" — "+esc(t('bnd_avab'));
- return `<button type="button" class="bnb bnb-i" data-b="${esc(b)}" title="${lbl}" aria-label="${lbl}" onclick="bndAva(this.dataset.b)">⟲</button>`;
-}
+// ⚠ 17.08.2026 (Silveri otsus). VAREM: uhe esinejaga kirjel EI renderdatud lineup'i uldse,
+// vaid pealkirja korvale pandi paljas ⟲-glyph -- eeldusel "nimi on juba pealkirjas".
+// See eeldus pidas paika 48-st uhe esineja kirjest ainult 12-l; 35-l oli bandinimi peidus
+// pikemas pealkirjas ("The Crosslegs Suvelopukas", "Paavli.Live: mariin k.") ja 1-l puudus
+// hoopis. Glyph ise ei utelnud kasutajale midagi. NUUD: `lineup` renderdatakse ALATI, kui
+// `b` ei ole tuhi -- uks reegel, mitte kaks. `bandNupp()` on kustutatud; ara too tagasi.
+// Kui pealkiri ONGI bandi nimi (12 kirjet), tuleb nimi kaks korda -- see on teadlik hind
+// ette aimatava paigutuse eest.
 function bndRida(e,arhiiv){
   const sait=e.sait||(typeof SELF!=='undefined'?SELF:"www");
   const iso=arhiiv?bndViimanePaev(e):(e.d||"");
@@ -734,10 +735,10 @@ function render(){
     return `<div class="row">
       ${thumbHtml(e,tc)}
       <div>
-        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a>${e.b&&e.b.length===1?`<span class="bd">${bandNupp(e.b[0])}<span class="ic">${bandIcons(e.b[0])}</span></span>`:""}</p>
+        <p class="tit"><a href="${surl(e.ou||e.su)}" target="_blank" rel="noopener">${esc(e.n)}</a></p>
         ${e.a?`<p class="sub">${esc(e.a)}</p>`:""}
         <div class="gtags"><span class="tag ${tc}">${t('tag_'+e.t)}</span>${(e.g||[]).map(g=>`<button class="gt${st.tags.has(g)?" on":""}" aria-pressed="${st.tags.has(g)}" data-g="${esc(g)}" onclick="setTag(this.dataset.g)">${esc(g)}</button>`).join("")}</div>
-        ${e.b&&e.b.length>1?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
+        ${e.b&&e.b.length?`<div class="lineup">${e.b.map(band).join("")}</div>`:""}
       </div>
       <div class="loc"><span class="venue">${esc(e.v)}</span>${(e.t==="reliis"||e.t==="merch")?"":(e.linn?esc(e.linn):(e.c==="mujal"?"":esc(e.c)))}<div class="lnks">${lnks}</div></div>
     </div>`;

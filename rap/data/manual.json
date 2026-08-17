@@ -40,6 +40,7 @@
   "nb": "koosseis täienes 28.07.2026 sweepis 11 -> 19 nime (FB event 1255908596517597). Kuupäev 14.–15.08 kinnitatud eestihiphopfestival.ee-lt (FB näitab 14.–16.08 laagri tõttu)"
  },
  {
+  "tba": 1,
   "d": "2027-08-13",
   "d2": "14.08",
   "t": "festival",
@@ -58,7 +59,7 @@
   "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
   "pu": "https://piletitasku.ee/et/event/10014",
   "img": "pildid/tartupunch2027.webp",
-  "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata."
+  "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud."
  },
  {
   "d": "2026-08-22",
@@ -278,7 +279,7 @@
   "a": "Pulse x G5 suvelõpupidu — Arop ja Prodigy Boys live-settidega, lisaks Pulse Crew, G5 DJd ja erikülalised; kell 18–22, vanusepiiranguta (VIP 16+)",
   "b": [
    "Arop",
-   "Prodigy Boys",
+   "Prodigyboys",
    "Pulse Crew",
    "G5 DJs"
   ],

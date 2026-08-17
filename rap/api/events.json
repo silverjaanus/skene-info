@@ -1534,7 +1534,7 @@
    "a": "Pulse x G5 suvelõpupidu — Arop ja Prodigy Boys live-settidega, lisaks Pulse Crew, G5 DJd ja erikülalised; kell 18–22, vanusepiiranguta (VIP 16+)",
    "b": [
     "Arop",
-    "Prodigy Boys",
+    "Prodigyboys",
     "Pulse Crew",
     "G5 DJs"
    ],
@@ -2605,7 +2605,7 @@
    "n": "Punk & Rock Insidefest 2026",
    "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a, Tartu); 10 kinnitatud bändi, vanusepiirangut pole",
    "b": [
-    "J.M.K.E",
+    "J.M.K.E.",
     "Kurjam",
     "Nyrok City",
     "Pedigree",
@@ -3216,16 +3216,21 @@
    "d": "2026-10-03",
    "t": "kontsert",
    "n": "Rock Saturday: TERAVMOON",
-   "b": [],
+   "a": "algus 20.00; viieliikmeline rokkansambel, omalooming alternatiivrokist raskemate metalihõnguliste lugudeni",
+   "b": [
+    "Teravmoon"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
+    "rock",
     "metal"
    ],
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
    "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
+   "ou": "https://www.thekrypt.ee/events",
+   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil"
   },
   {
    "sait": "www",
@@ -4589,6 +4594,7 @@
   },
   {
    "sait": "rap",
+   "tba": 1,
    "d": "2027-08-13",
    "d2": "14.08",
    "t": "festival",
@@ -4606,7 +4612,7 @@
    "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
    "pu": "https://piletitasku.ee/et/event/10014",
    "img": "https://rap.skene.info/pildid/tartupunch2027.webp",
-   "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata."
+   "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud."
   }
  ]
 }

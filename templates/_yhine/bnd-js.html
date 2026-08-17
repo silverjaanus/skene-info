@@ -113,13 +113,14 @@ function band(b){
  const ics=bandIcons(b);
  return `<span class="bd"><button type="button" class="bnb" data-b="${esc(b)}" title="${esc(t('bnd_avab'))}" onclick="bndAva(this.dataset.b)">${esc(b)}</button>${ics?`<span class="ic">${ics}</span>`:""}</span>`;
 }
-// Uhe esinejaga kirjel ei renderdata lineup'i uldse (nimi on juba pealkirjas), seega
-// poleks seal midagi klikkida. Ikoonide korvale laheb sama glyph, mis on paneeli sees
-// "viimati laval" rea ees -- nii on margil kogu saidil uks tahendus.
-function bandNupp(b){
- const lbl=esc(b)+" — "+esc(t('bnd_avab'));
- return `<button type="button" class="bnb bnb-i" data-b="${esc(b)}" title="${lbl}" aria-label="${lbl}" onclick="bndAva(this.dataset.b)">⟲</button>`;
-}
+// ⚠ 17.08.2026 (Silveri otsus). VAREM: uhe esinejaga kirjel EI renderdatud lineup'i uldse,
+// vaid pealkirja korvale pandi paljas ⟲-glyph -- eeldusel "nimi on juba pealkirjas".
+// See eeldus pidas paika 48-st uhe esineja kirjest ainult 12-l; 35-l oli bandinimi peidus
+// pikemas pealkirjas ("The Crosslegs Suvelopukas", "Paavli.Live: mariin k.") ja 1-l puudus
+// hoopis. Glyph ise ei utelnud kasutajale midagi. NUUD: `lineup` renderdatakse ALATI, kui
+// `b` ei ole tuhi -- uks reegel, mitte kaks. `bandNupp()` on kustutatud; ara too tagasi.
+// Kui pealkiri ONGI bandi nimi (12 kirjet), tuleb nimi kaks korda -- see on teadlik hind
+// ette aimatava paigutuse eest.
 function bndRida(e,arhiiv){
   const sait=e.sait||(typeof SELF!=='undefined'?SELF:"www");
   const iso=arhiiv?bndViimanePaev(e):(e.d||"");

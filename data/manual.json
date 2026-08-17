@@ -1278,7 +1278,7 @@
   "n": "Punk & Rock Insidefest 2026",
   "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a, Tartu); 10 kinnitatud bändi, vanusepiirangut pole",
   "b": [
-   "J.M.K.E",
+   "J.M.K.E.",
    "Kurjam",
    "Nyrok City",
    "Pedigree",
@@ -1690,6 +1690,26 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/27546912968307481/",
   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper; lineup TBA (registreerimine www.raskemuusika.ee); FB kellaaeg 05.00 on ilmselt vale/placeholder"
+ },
+ {
+  "d": "2026-10-03",
+  "t": "kontsert",
+  "n": "Rock Saturday: TERAVMOON",
+  "a": "algus 20.00; viieliikmeline rokkansambel, omalooming alternatiivrokist raskemate metalihõnguliste lugudeni",
+  "b": [
+   "Teravmoon"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "metal"
+  ],
+  "sn": "thekrypt.ee",
+  "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
+  "on_": "thekrypt.ee",
+  "ou": "https://www.thekrypt.ee/events",
+  "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil"
  },
  {
   "d": "2026-11-07",
