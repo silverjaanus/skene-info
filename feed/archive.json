@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17",
+ "updated": "2026-08-18",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 129,
+ "count": 130,
  "entries": [
   {
    "sait": "www",
@@ -3460,6 +3460,34 @@
    "pu": "https://fienta.com/geordie-greep-paavli",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases. FB-eventi link lisatud 13.08.2026 Rada7.ee uudiskirjast (kuupäev P 16.08 + koht Paavli langevad kokku Fienta lehega) 13.08: +avaesineja Richard Jerbach (kultuurivabrik.ee programm).",
    "img": "https://www.skene.info/pildid/paavlilivegeordiegreepuk.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-17",
+   "t": "kontsert",
+   "n": "The Crosslegs Suvelõpukas",
+   "a": "Uksed 21.00, The Crosslegs laval 22.30",
+   "b": [
+    "The Crosslegs"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "rock"
+   ],
+   "sn": "Genialistide Klubi FB",
+   "su": "https://www.facebook.com/GenKlubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/917615671375415/",
+   "pu": "https://fienta.com/et/the-crosslegs-suvelopukas",
+   "hind": {
+    "praegu": "10€ / kohapeal 15€",
+    "mark": "esimesed 30 eelmüügipiletit 10€",
+    "allikas": "genklubi.ee, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; kaks allikat: GenKlubi FB event + genklubi.ee/events/the-crosslegs-suvelopukas + Fienta",
+   "img": "https://www.skene.info/pildid/thecrosslegssuvelopukas.webp"
   }
  ]
 }

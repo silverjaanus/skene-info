@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17",
+ "updated": "2026-08-18",
  "entries": [
   {
    "rel": 1,
@@ -501,33 +501,6 @@
    "sn": "Bandcamp",
    "su": "https://guttinghuman.bandcamp.com/album/hell-singer",
    "nb": "lisatud 17.08.2026 sweepis. Kuupäev 15.08.2026 Bandcampi tag-otsingust; teine allikas: YouTube'i täisalbumi üleslaadimine (Skinned Corpse / Grindcore Death Metal Estonia kanal, 15.08)."
-  },
-  {
-   "d": "2026-08-17",
-   "t": "kontsert",
-   "n": "The Crosslegs Suvelõpukas",
-   "a": "Uksed 21.00, The Crosslegs laval 22.30",
-   "b": [
-    "The Crosslegs"
-   ],
-   "v": "Genialistide Klubi",
-   "c": "Tartu",
-   "g": [
-    "rock"
-   ],
-   "sn": "Genialistide Klubi FB",
-   "su": "https://www.facebook.com/GenKlubi/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/917615671375415/",
-   "pu": "https://fienta.com/et/the-crosslegs-suvelopukas",
-   "hind": {
-    "praegu": "10€ / kohapeal 15€",
-    "mark": "esimesed 30 eelmüügipiletit 10€",
-    "allikas": "genklubi.ee, kontrollitud 14.08.2026"
-   },
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; kaks allikat: GenKlubi FB event + genklubi.ee/events/the-crosslegs-suvelopukas + Fienta",
-   "img": "pildid/thecrosslegssuvelopukas.webp"
   },
   {
    "d": "2026-08-19",
