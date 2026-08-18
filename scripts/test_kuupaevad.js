@@ -50,6 +50,16 @@ function laeFn(saitFail, paev) {
 // see arv juba 30 vorra. Ilma selleta oleks test mone paeva parast valehairega punane.
 const TANA_PARIS = new Date().toISOString().slice(0, 10);
 
+// 18.08.2026: TANA_PARIS uksi ei kolba kontrollpaevaks -- kalendris on tuhje paevi.
+// 18.08 oli teisipaev, mida ei katnud UKSKI kirje (kaks kaimasolevat tuuri on
+// dd-massiiviga ja neil polnud sel paeval esinemist), nii et invariandi-tsukkel
+// jooksis tuhjalt ja "ei jooksnud tuhjalt" -valve tegi CI punaseks ilma bugita.
+function isoNihe(iso, n) {
+  const d = new Date(iso + "T12:00:00Z");
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
 // --- pisike testiraamistik ----------------------------------------------------
 let vigu = 0, ok = 0;
 function on(tingimus, mida) {
@@ -135,16 +145,24 @@ for (const fail of ["index.html", "rap/index.html", "klubi/index.html"]) {
   // 7. Paris andmed: uhtki kirjet, mille vahemik katab tanase, ei tohi olla "labi".
   //    (Invariant, mitte konkreetne uritus - test ei vanane koos andmetega.)
   // ⚠ PARIS tanase kuupaevaga, mitte fikseeritud TODAY-ga -- vt TANA_PARIS kommentaari.
-  const Fp = laeFn(fail, TANA_PARIS);
   const feed = JSON.parse(fs.readFileSync(path.join(ROOT, "feed", "events.json"), "utf8"));
-  let katvad = 0;
-  for (const e of (feed.entries || [])) {
-    if (!e.d || e.tba) continue;
-    if (!Fp.covers(e, TANA_PARIS)) continue;
-    katvad++;
-    on(!Fp.onLabi(e), nimi + "paris kirje ei tohi kaduda: " + e.d + " " + e.n);
+  const kirjed = (feed.entries || []).filter(e => e.d && !e.tba);
+  // Kontrollpaev = esimene paev tanasest edasi, mida moni kirje katab (vt isoNihe).
+  // F ehitatakse SAMA paevaga, nii et invariant jaab omaks: kui kirje katab paeva X,
+  // siis paeval X ta ei tohi olla "labi".
+  let paev = null, Fp = null, katvad = 0;
+  for (let i = 0; i < 30 && katvad === 0; i++) {
+    paev = isoNihe(TANA_PARIS, i);
+    Fp = laeFn(fail, paev);
+    katvad = kirjed.filter(e => Fp.covers(e, paev)).length;
   }
-  on(katvad > 0, nimi + "feedis leidus vahemalt uks tanast katev kirje (kontroll ei jooksnud tuhjalt)");
+  on(katvad > 0, nimi + "feedis ei leidu 30 paeva jooksul uhtki katvat kirjet (kontroll jooksis tuhjalt)");
+  if (katvad > 0) {
+    for (const e of kirjed) {
+      if (!Fp.covers(e, paev)) continue;
+      on(!Fp.onLabi(e), nimi + "paris kirje ei tohi kaduda (" + paev + "): " + e.d + " " + e.n);
+    }
+  }
 
   // 8. ROUND-ROBIN SAITIDE VAHEL (Silveri otsus 15.08.2026): sama paeva sees
   //    vaheldumisi, alustades OMA saidist. Enne oli plokk (kogu oma sait, siis voorad).
