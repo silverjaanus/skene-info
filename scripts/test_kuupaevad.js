@@ -59,6 +59,14 @@ function isoNihe(iso, n) {
   d.setUTCDate(d.getUTCDate() + n);
   return d.toISOString().slice(0, 10);
 }
+// Kui laias aknas kontrollpaeva otsitakse. Kompromiss: liiga lai aken varjab
+// pariselt tuhjaks jooksnud feedi (korje katki), liiga kitsas toob valehairega
+// punase tagasi. 19.08.2026 mootmine feedi peal: jargmise 120 paeva jooksul on
+// halvim vajalik aken 6 paeva (31.10 -> 06.11), ehk 14 annab ~2x varu.
+// ⚠ Kaugem tulevik on horeda(m): 2027 kevadel on feedis 49-paevane auk. See on
+// normaalne (uritusi pole veel valja kuulutatud), aga kui see auk peaks kunagi
+// TANASENI joudma, kukub test valehairega -- siis suurenda akent, ara kustuta valvet.
+const AKEN_PAEVI = 14;
 
 // --- pisike testiraamistik ----------------------------------------------------
 let vigu = 0, ok = 0;
@@ -151,12 +159,13 @@ for (const fail of ["index.html", "rap/index.html", "klubi/index.html"]) {
   // F ehitatakse SAMA paevaga, nii et invariant jaab omaks: kui kirje katab paeva X,
   // siis paeval X ta ei tohi olla "labi".
   let paev = null, Fp = null, katvad = 0;
-  for (let i = 0; i < 30 && katvad === 0; i++) {
+  for (let i = 0; i < AKEN_PAEVI && katvad === 0; i++) {
     paev = isoNihe(TANA_PARIS, i);
     Fp = laeFn(fail, paev);
     katvad = kirjed.filter(e => Fp.covers(e, paev)).length;
   }
-  on(katvad > 0, nimi + "feedis ei leidu 30 paeva jooksul uhtki katvat kirjet (kontroll jooksis tuhjalt)");
+  on(katvad > 0, nimi + "feedis ei leidu " + AKEN_PAEVI
+     + " paeva jooksul uhtki katvat kirjet (kontroll jooksis tuhjalt)");
   if (katvad > 0) {
     for (const e of kirjed) {
       if (!Fp.covers(e, paev)) continue;
