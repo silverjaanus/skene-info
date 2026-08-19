@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18",
+ "updated": "2026-08-19",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 130,
+ "count": 131,
  "entries": [
   {
    "sait": "www",
@@ -555,6 +555,28 @@
     "praegu": "10€",
     "allikas": "tolm.club, kontrollitud 13.07.2026"
    }
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-17",
+   "lisatud": "2026-07-19",
+   "t": "reliis",
+   "n": "Face Collector — «Already Dead» (video)",
+   "a": "uue Eesti deathgrind-bändi esimene muusikavideo",
+   "b": [
+    "Face Collector"
+   ],
+   "v": "YouTube",
+   "g": [
+    "metal",
+    "death",
+    "grind"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.youtube.com/watch?v=LODdhWFp_-s",
+   "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com); video olemasolu + pealkiri + kanal (@facecollectorband) kinnitatud YouTube oEmbed kaudu 19.07.2026; täpne avaldamiskuupäev kinnitamata, d = vormi esitamise kuupäev; Silveri otsus 19.07: lisada",
+   "img": "https://www.skene.info/pildid/facecollectoralreadydeadvideo.webp"
   },
   {
    "sait": "www",
