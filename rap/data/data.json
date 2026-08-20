@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19",
+ "updated": "2026-08-20",
  "entries": [
   {
    "rel": 1,
@@ -117,59 +117,6 @@
    "sn": "MuusikaPlaneet",
    "su": "https://muusikaplaneet.ee/2026/08/17/linnonminu/",
    "nb": "lisatud 17.08.2026: teised allikad Spotify + artisti TikTok; Genius märgib 13.08, artisti enda kanal ütleb 14.08 → 14.08"
-  },
-  {
-   "d": "2026-08-19",
-   "t": "klubi",
-   "n": "CHECK ONE TWO",
-   "a": "Riigipühaeelne räpiteemaline tantsupidu — legendaarne sari uues kodus Krulli kvartalis",
-   "b": [
-    "DJ Quest",
-    "Legendaarne Raadio residendid"
-   ],
-   "v": "Legendaarne Raadiobaar (Krulli 2b)",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Legendaarne Raadio FB",
-   "su": "https://www.facebook.com/LegendaarneRaadio/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/28058248373806976/",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Legendaarne Raadio FB events-leht + ürituse enda FB event. Sari on sources.json-is juba nimetatud (Uus Laine kirje 'Check One Two peod'), aga kolis Krulli 2b-sse. Algus 22.00. Piletiinfot lehel ei ole",
-   "img": "pildid/checkonetwo.webp"
-  },
-  {
-   "d": "2026-08-19",
-   "t": "kontsert",
-   "n": "67: Jooseppro & Lennu + Vibunibu + Qotid + Sebateus",
-   "a": "Eesti underground-räpi õhtu Club Privés",
-   "b": [
-    "Jooseppro",
-    "Lennu",
-    "Vibunibu",
-    "Qotid",
-    "Sebateus"
-   ],
-   "v": "Club Privé",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Ticketer",
-   "su": "https://www.ticketer.ee",
-   "pu": "https://www.ticketer.ee",
-   "hind": {
-    "praegu": "12€",
-    "mark": "early bird; uksed 18.00, lõpp 23.00",
-    "allikas": "Ticketer, kontrollitud 07.08.2026"
-   },
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (leid ticketer.ee-st). ⚠ Esimeses voorus oli AINULT ÜKS allikas; samal päeval sai TEISE: Privé Live Clubi oma FB events-leht + ürituse FB event 959940553788441, mis kinnitab kuupäeva, koha (Harju 6) ja kellaaja 18.00–23.00. Hind 12 € (early bird) on ticketer.ee-st.",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/959940553788441/",
-   "img": "pildid/67joosepprolennuvibunibuqotidsebateus.webp"
   },
   {
    "d": "2026-08-20",
