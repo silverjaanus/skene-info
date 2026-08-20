@@ -410,7 +410,8 @@
     "mark": "eelmüük",
     "allikas": "miinusprojekt.ee, kontrollitud 17.08.2026"
    },
-   "nb": "lisatud 17.08.2026: allikad miinusprojekt.ee + FB event (D3 x Miinusprojekt) + GateMe 104116; D3 saidi kalendris 21.08 olemas"
+   "nb": "lisatud 17.08.2026: allikad miinusprojekt.ee + FB event (D3 x Miinusprojekt) + GateMe 104116; D3 saidi kalendris 21.08 olemas",
+   "img": "pildid/miinusprojektd3.webp"
   },
   {
    "d": "2026-08-22",
@@ -522,6 +523,36 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1574758524002136/",
    "nb": "lisatud 17.08.2026: allikad FB event + HUNGR/BFTV IG (lineup); piletiinfot avaldamata — kontrolli Fienta o/17855 järgmises sweepis"
+  },
+  {
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "TECHNO TUBBIES",
+   "a": "Teletubbies-teemaline community-based techno-pidu installatsioonidega Veetorni Aias; trance/hardgroove; algus 23.00; 18+; ainult sularaha",
+   "b": [
+    "YUNGÏ",
+    "WHITE GLOSS",
+    "pikkauch",
+    "Petricore",
+    "BØJIMA"
+   ],
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "trance"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1068325625763157",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1068325625763157",
+   "hind": {
+    "praegu": "5€ / 10€",
+    "mark": "5€ kuni 00.00, hiljem 10€; ainult sularaha",
+    "allikas": "FB event, kontrollitud 20.08.2026"
+   },
+   "lisatud": "2026-08-20",
+   "nb": "lisatud 20.08.2026 (Silveri leid, FB event); lineup: YUNGÏ, WHITE GLOSS, PIKKAUCH, PETRICORE b2b BØJIMA"
   },
   {
    "d": "2026-08-29",
@@ -959,7 +990,8 @@
    "sn": "Fienta",
    "su": "https://fienta.com/afro-chill-new-season-uus-laine-11-09",
    "pu": "https://fienta.com/afro-chill-new-season-uus-laine-11-09",
-   "nb": "lisatud 17.08.2026: allikad Fienta + Resident Advisor (ra.co/events/ee/all) + IG @afrochill.events. DJ-koosseis avaldamata — b tühi teadlikult, kontrolli järgmises sweepis"
+   "nb": "lisatud 17.08.2026: allikad Fienta + Resident Advisor (ra.co/events/ee/all) + IG @afrochill.events. DJ-koosseis avaldamata — b tühi teadlikult, kontrolli järgmises sweepis",
+   "img": "pildid/afrochillnewseason.webp"
   },
   {
    "d": "2026-09-11",
@@ -978,7 +1010,8 @@
    "sn": "Ticketer",
    "su": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
    "pu": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
-   "nb": "lisatud 17.08.2026: allikad Ticketer + Tartu Massive FB/IG (postitused 14.08.2026, 'Uus hooaeg algab 11.09')"
+   "nb": "lisatud 17.08.2026: allikad Ticketer + Tartu Massive FB/IG (postitused 14.08.2026, 'Uus hooaeg algab 11.09')",
+   "img": "pildid/tartumassiveblooomde.webp"
   },
   {
    "d": "2026-09-18",
@@ -1105,7 +1138,8 @@
    "sn": "Ticketer",
    "su": "https://www.ticketer.ee/ken-dark-invites-pyfel-fhoone/",
    "pu": "https://www.ticketer.ee/ken-dark-invites-pyfel-fhoone/",
-   "nb": "lisatud 17.08.2026: allikad Ticketer + Ken Dark FB event"
+   "nb": "lisatud 17.08.2026: allikad Ticketer + Ken Dark FB event",
+   "img": "pildid/kendarkinvitespyfel.webp"
   },
   {
    "d": "2026-09-26",

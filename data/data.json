@@ -479,7 +479,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://guttinghuman.bandcamp.com/album/hell-singer",
-   "nb": "lisatud 17.08.2026 sweepis. Kuupäev 15.08.2026 Bandcampi tag-otsingust; teine allikas: YouTube'i täisalbumi üleslaadimine (Skinned Corpse / Grindcore Death Metal Estonia kanal, 15.08)."
+   "nb": "lisatud 17.08.2026 sweepis. Kuupäev 15.08.2026 Bandcampi tag-otsingust; teine allikas: YouTube'i täisalbumi üleslaadimine (Skinned Corpse / Grindcore Death Metal Estonia kanal, 15.08).",
+   "img": "pildid/guttinghumanhellsingerep.webp"
   },
   {
    "d": "2026-08-20",
@@ -1667,7 +1668,8 @@
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
    "on_": "thekrypt.ee",
    "ou": "https://www.thekrypt.ee/events",
-   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil"
+   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil",
+   "img": "pildid/rocksaturdayteravmoon.webp"
   },
   {
    "d": "2026-10-03",
@@ -2356,7 +2358,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1654041912549043/",
    "pu": "https://www.ticketer.ee/maustetytot-d3-tallinn/",
-   "nb": "lisatud 18.08.2026, SILVERI OTSUS 18.08: piiripealne žanr, läheb peasaidile siltidega rock/pop. Allikad Ticketer + FB event."
+   "nb": "lisatud 18.08.2026, SILVERI OTSUS 18.08: piiripealne žanr, läheb peasaidile siltidega rock/pop. Allikad Ticketer + FB event.",
+   "img": "pildid/maustetytotfin.webp"
   },
   {
    "d": "2027-01-18",
