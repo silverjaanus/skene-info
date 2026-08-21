@@ -177,6 +177,37 @@ def warn_handover(limit=250):
               "(vt HANDOVER §2 reegel 10).")
 
 
+def warn_inbox_heartbeat(limit_paevi=2):
+    """Hoiatab, kui postkastijooksu elumark (sweep/inbox_heartbeat.json,
+    gitignore'itud) on vana voi utleb, et AgentMaili MCP puudus. 20.08.2026
+    jai jooks vaikselt tegemata — see valve teeb sarnase augu nahtavaks
+    jargmisel lokaalsel fetchil (sweep loeb valjundit ja peab hoiatuse
+    kokkuvottesse + hommikumeili panema). GitHub Actionsis fail puudub
+    (gitignore) -> vaikib, nagu warn_handover. Kutsub fetch.py."""
+    import os
+    if os.environ.get("GITHUB_ACTIONS"):
+        return
+    p = Path(__file__).resolve().parent.parent / "sweep" / "inbox_heartbeat.json"
+    if not p.exists():
+        print("HOIATUS: sweep/inbox_heartbeat.json puudub — postkastijooks pole "
+              "elumarki veel kirjutanud (uus valve 21.08.2026, vt "
+              "scripts/inbox_heartbeat.py) VOI on vaikselt katki.")
+        return
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+        vanus = (date.today() - date.fromisoformat(d["kuupaev"])).days
+    except (ValueError, KeyError) as ex:
+        print(f"HOIATUS: inbox_heartbeat.json ei parsinud ({ex})")
+        return
+    if not d.get("mcp", True):
+        print(f"HOIATUS: postkastijooks {d['kuupaev']} jooksis ILMA AgentMaili "
+              "MCP-ta — kirjad on lugemata. Kontrolli konnektori autoriseeringut.")
+    if vanus > limit_paevi:
+        print(f"HOIATUS: postkastijooksu viimane elumark on {vanus} p vana "
+              f"(piir {limit_paevi} p) — igapaevane jooks on vahele jaanud voi "
+              "vaikselt katki (20.08.2026 muster). Teata Silverile.")
+
+
 # ---------------------------------------------------------------------------
 # Žanrisiltide sünonüümid (15.08.2026, Silveri otsus)
 #

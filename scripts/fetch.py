@@ -15,7 +15,8 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info korje; +https://www.ske
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from archive_split import split_and_write
 from common import (slug, today_local, load_blocklist, load_manual, is_blocked,
-                    fail_if_manual_blocked, warn_unknown_bands, warn_handover)
+                    fail_if_manual_blocked, warn_unknown_bands, warn_handover,
+                    warn_inbox_heartbeat)
 
 TODAY = today_local().isoformat()
 
@@ -348,6 +349,7 @@ def main():
     warn_unknown_bands(ROOT / "data", merged)
     warn_meta_fallback(merged)
     warn_handover()
+    warn_inbox_heartbeat()
 
     # avalik allikate leht (guarditud: viga siin ei murra korjet)
     try:
