@@ -952,7 +952,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
-   "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks."
+   "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
+   "img": "https://www.skene.info/pildid/mustmissakhattratapes.webp"
   },
   {
    "sait": "www",
