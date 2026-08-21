@@ -50,3 +50,8 @@ jobs:
       # ilmnevad alles kellegi telefoni kalendris (75-oktetine reapiir, CRLF, DTEND valispiir).
       - name: Kalendritellimuse ICS
         run: node scripts/test_kalender.js
+      # 21.08.2026: AgentMaili "unauthenticated" karantiini avaja. Saatjakontroll on
+      # turvapiir -- katkine filter vabastaks voltsitud saatjad otse postkasti, kust
+      # Claude sisu kaevandab.
+      - name: AgentMaili webhook (mokitud)
+        run: node scripts/test_agentmail_hook.js
