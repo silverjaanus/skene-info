@@ -1,0 +1,530 @@
+{
+ "tommatud": "2026-08-21",
+ "aken": {
+  "algus": "2026-08-21",
+  "lopp": "2026-10-20"
+ },
+ "allikas": "ra.co/graphql, area 184 (All Estonia)",
+ "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
+ "kirjeid": 32,
+ "kirjed": [
+  {
+   "d": "2026-08-21",
+   "n": "Safara Festival",
+   "algus": "2026-08-21T23:00:00.000",
+   "v": "HUNGR",
+   "ala": "Tallinn",
+   "b": [
+    "Pasaporteman",
+    "Opoku",
+    "Exploited Body",
+    "Dharma Doom",
+    "TNTC",
+    "Baba Sy",
+    "Bamba",
+    "Mookie (AU)",
+    "Shah Rud",
+    "Grove",
+    "Rama (2)"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2473978",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-21",
+   "n": "𝑻𝑹𝑰𝑷𝑳𝑶𝑶𝑷 Invites Kai Galactic (JP)",
+   "algus": "2026-08-21T23:00:00.000",
+   "v": "Paavli Kultuurivabrik",
+   "ala": "Tallinn",
+   "b": [
+    "Brenna Ryan",
+    "Brett Rästas"
+   ],
+   "g": [
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2483537",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-21",
+   "n": "britiimpeerium all night long",
+   "algus": "2026-08-21T22:00:00.000",
+   "v": "Tšungel",
+   "ala": "Tallinn",
+   "b": [
+    "britiimpeerium"
+   ],
+   "g": [
+    "Pop",
+    "UK Funky"
+   ],
+   "url": "https://ra.co/events/2516518",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-21",
+   "n": "KTPSD 3",
+   "algus": "2026-08-21T23:00:00.000",
+   "v": "Tolm",
+   "ala": "All",
+   "b": [
+    "Arto",
+    "Veiko Kikas",
+    "Fok Yee",
+    "Alt666"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2513788",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-21",
+   "n": "BIRTHDAY CLUB",
+   "algus": "2026-08-21T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2513032",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-21",
+   "n": "Safara Festival",
+   "algus": "2026-08-21T23:00:00.000",
+   "v": "HUNGR",
+   "ala": "Tallinn",
+   "b": [
+    "Pasaporteman",
+    "Opoku",
+    "Exploited Body",
+    "Dharma Doom",
+    "TNTC",
+    "Baba Sy",
+    "Bamba",
+    "Mookie (AU)",
+    "Shah Rud",
+    "Grove",
+    "Rama (2)"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2473978",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-22",
+   "n": "Healer Records: Pätt / Squash / West Coast Swingaz",
+   "algus": "2026-08-22T17:00:00.000",
+   "v": "Tšungel",
+   "ala": "Tallinn",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2496240",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-22",
+   "n": "Cosmonaut",
+   "algus": "2026-08-22T23:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Cosmonaut",
+    "Ken Dark"
+   ],
+   "g": [
+    "Progressive House",
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2515792",
+   "pilet": true
+  },
+  {
+   "d": "2026-08-21",
+   "n": "britiimpeerium all night long",
+   "algus": "2026-08-21T22:00:00.000",
+   "v": "Tšungel",
+   "ala": "Tallinn",
+   "b": [
+    "britiimpeerium"
+   ],
+   "g": [
+    "Pop",
+    "UK Funky"
+   ],
+   "url": "https://ra.co/events/2516518",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-21",
+   "n": "KTPSD 3",
+   "algus": "2026-08-21T23:00:00.000",
+   "v": "Tolm",
+   "ala": "All",
+   "b": [
+    "Arto",
+    "Veiko Kikas",
+    "Fok Yee",
+    "Alt666"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2513788",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-22",
+   "n": "LA FIESTA BACARDI",
+   "algus": "2026-08-22T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Pop",
+    "Club"
+   ],
+   "url": "https://ra.co/events/2513028",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-22",
+   "n": "INTORNO AL DISCO W/ Ric Piccolo, MELISSA, WATARU YOSHIMOTO, BILLY BATTERY & DR SOUND",
+   "algus": "2026-08-22T23:00:00.000",
+   "v": "Clwds",
+   "ala": "Tallinn",
+   "b": [
+    "Ric Piccolo"
+   ],
+   "g": [
+    "House",
+    "Disco"
+   ],
+   "url": "https://ra.co/events/2515921",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-27",
+   "n": "Arto",
+   "algus": "2026-08-27T21:00:00.000",
+   "v": "Tšungel",
+   "ala": "Tallinn",
+   "b": [
+    "Arto"
+   ],
+   "g": [
+    "Electro",
+    "Minimal Techno"
+   ],
+   "url": "https://ra.co/events/2516507",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-27",
+   "n": "THROWBACK THURSDAY",
+   "algus": "2026-08-27T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2518292",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-28",
+   "n": "Laine Klubiöö: DJ Plead (AU)",
+   "algus": "2026-08-28T23:00:00.000",
+   "v": "Uus Laine",
+   "ala": "Tallinn",
+   "b": [
+    "DJ Plead",
+    "shbxsz"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2398883",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-28",
+   "n": "Alo-Indrek Võsu & Taavet Bristol",
+   "algus": "2026-08-28T22:00:00.000",
+   "v": "Tšungel",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Minimal",
+    "Minimal Techno"
+   ],
+   "url": "https://ra.co/events/2516515",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-28",
+   "n": "Tehnoülevaatus #1",
+   "algus": "2026-08-28T23:59:00.000",
+   "v": "HUNGR",
+   "ala": "Tallinn",
+   "b": [
+    "Brenna Ryan",
+    "MATĒRIA (LV)",
+    "Aeden (1)",
+    "Freya Algiz"
+   ],
+   "g": [
+    "Techno",
+    "Acid"
+   ],
+   "url": "https://ra.co/events/2517929",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-28",
+   "n": "I LOVE 90´S – MICHAEL JACKSON SPECIAL",
+   "algus": "2026-08-28T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2518294",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-29",
+   "n": "Tšungel Summer Finale",
+   "algus": "2026-08-29T15:00:00.000",
+   "v": "Tšungel",
+   "ala": "Tallinn",
+   "b": [
+    "Lill",
+    "Rummo"
+   ],
+   "g": [
+    "Tech House",
+    "Minimal"
+   ],
+   "url": "https://ra.co/events/2516511",
+   "pilet": false
+  },
+  {
+   "d": "2026-08-29",
+   "n": "PARTY BANGERS – OLD SCHOOL SPECIAL",
+   "algus": "2026-08-29T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2518297",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-04",
+   "n": "KONTRAST with Mija - Hall x SVE x culture unseen",
+   "algus": "2026-09-04T23:59:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Mija",
+    "QSLAP"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2398214",
+   "pilet": true
+  },
+  {
+   "d": "2026-09-04",
+   "n": "REDSHIFT invites Alex Wilcox",
+   "algus": "2026-09-04T23:00:00.000",
+   "v": "Tolm",
+   "ala": "All",
+   "b": [
+    "Alex Wilcox"
+   ],
+   "g": [
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2492230",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-04",
+   "n": "ERIÜRITUS: VENUS CLUB 17! 2 QUICK START LIVE",
+   "algus": "2026-09-04T22:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2515368",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-05",
+   "n": "Scorched Earth: Skee Mask",
+   "algus": "2026-09-05T22:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Skee Mask",
+    "animaTek (2)",
+    "no-a",
+    "Tanel Mütt"
+   ],
+   "g": [
+    "Techno",
+    "Bass"
+   ],
+   "url": "https://ra.co/events/2467032",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-05",
+   "n": "ERIÜRITUS: VENUS CLUB 17 & SMILERS LIVE",
+   "algus": "2026-09-05T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2515372",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-11",
+   "n": "HELLINN - CROSS BORDER EDITION",
+   "algus": "2026-09-11T23:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "In Furcht",
+    "QSLAP",
+    "MEDINA",
+    "ANNDRA",
+    "NØSARA",
+    "Discolisko",
+    "Lee Wander",
+    "Sensory Deprivation",
+    "Techno Hate Project",
+    "Jori Samarin",
+    "RSKS"
+   ],
+   "g": [
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2500210",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-11",
+   "n": "Signaal x Aparaaditehas",
+   "algus": "2026-09-11T23:00:00.000",
+   "v": "Aparaaditehas",
+   "ala": "All",
+   "b": [],
+   "g": [
+    "Electro",
+    "Minimal"
+   ],
+   "url": "https://ra.co/events/2508504",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-11",
+   "n": "Afro Chill: New Season - Uus Laine - 11.09",
+   "algus": "2026-09-11T23:00:00.000",
+   "v": "Uus Laine",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Baile Funk",
+    "Afrobeats"
+   ],
+   "url": "https://ra.co/events/2514502",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-19",
+   "n": "Healer Records: Charch / Squash",
+   "algus": "2026-09-19T17:00:00.000",
+   "v": "Tšungel",
+   "ala": "Tallinn",
+   "b": [
+    "Charch",
+    "Squash"
+   ],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2496243",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-09",
+   "n": "Laine Klubiöö: Yung Singh (UK)",
+   "algus": "2026-10-09T22:00:00.000",
+   "v": "Uus Laine",
+   "ala": "Tallinn",
+   "b": [
+    "Yung Singh",
+    "shbxsz"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2475984",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-14",
+   "n": "Carbon Based Lifeforms- Tallinn -14.10.26- Prive Club",
+   "algus": "2026-10-14T20:00:00.000",
+   "v": "Club Privé",
+   "ala": "Tallinn",
+   "b": [
+    "Carbon Based Lifeforms"
+   ],
+   "g": [
+    "Ambient",
+    "Downtempo"
+   ],
+   "url": "https://ra.co/events/2508089",
+   "pilet": true
+  },
+  {
+   "d": "2026-10-14",
+   "n": "Carbon Based Lifeforms- Tallinn -14.10.26- Prive Club",
+   "algus": "2026-10-14T20:00:00.000",
+   "v": "Club Privé",
+   "ala": "Tallinn",
+   "b": [
+    "Carbon Based Lifeforms"
+   ],
+   "g": [
+    "Ambient",
+    "Downtempo"
+   ],
+   "url": "https://ra.co/events/2508089",
+   "pilet": true
+  }
+ ]
+}
