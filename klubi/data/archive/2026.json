@@ -1325,6 +1325,41 @@
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta)",
    "img": "pildid/wakeupeventsumenight.webp"
+  },
+  {
+   "d": "2026-08-19",
+   "d2": "20.08",
+   "t": "klubi",
+   "n": "Simple Session 26 Afterparties",
+   "a": "Kaks päeva, kaks lava (välilava + siselava), 19.00–hiljani, 18+, TASUTA",
+   "b": [
+    "Reed Stark (US)",
+    "PM2AM (LV)",
+    "Kwazar (FR)",
+    "Brawz Maximum (FIN)",
+    "Muul",
+    "Lill Mõru",
+    "Tellemralf",
+    "Sam Savage"
+   ],
+   "v": "D3 & Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "breaks",
+    "house"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1619495513160178/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "Free Entry, 18+",
+    "allikas": "FB event, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus: klubi alla); korraldajad D3 + Simple Session + Fonoteek; täiskoosseis FB event-lehelt"
   }
  ]
 }

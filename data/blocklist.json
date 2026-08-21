@@ -86,5 +86,15 @@
   "d": "2026-09-11",
   "n": "Tommyboy x Wiiralt — «Greatest Splits» esitluskontsert",
   "nb": "SAIDIVAHETUS 14.08.2026 (Silveri otsus): Tommyboy on rap — kirje kolis rap/data/manual.json-i. Blokk hoiab archive_spliti vana www-koopiat tagasi toomast."
+ },
+ {
+  "d": "2026-11-26",
+  "n": "Wyatt E.",
+  "nb": "21.08.2026 sweep: vana Metal Stormi automaatkorje kirje (jäi data.json-i alles ka pärast seda, kui Metal Storm 17.08 serveripoolsest korjest maha võeti). Asendatud rikkalikuma manual-kirjega 'Wyatt E. (BE) + Five The Hierophant (UK)'. Blokk on vajalik, et archive_split ei tooks vana nime tagasi."
+ },
+ {
+  "d": "2026-08-23",
+  "n": "C-JAM & MAD «METALLICA» Kirna mõisas",
+  "nb": "21.08.2026 sweep: lisasin selle kirje ekslikult (Piletilevi + Mõisa Kontserdi FB), kuigi sama kuupäev on juba olemas tuurikirjes 'C-JAM & MAD «Metallica» tuur, II osa' (05.–23.08, Kirna mõis viimane peatus). Kirje eemaldatud manual.json-ist ja info (välja müüdud) liidetud tuurikirje nb-sse. Blokk hoiab ära, et archive_split ei tooks seda eelmisest data.json-ist tagasi."
  }
 ]

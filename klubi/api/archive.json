@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20",
+ "updated": "2026-08-21",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 134,
+ "count": 136,
  "entries": [
   {
    "sait": "www",
@@ -3583,6 +3583,63 @@
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/",
    "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-19",
+   "d2": "20.08",
+   "t": "klubi",
+   "n": "Simple Session 26 Afterparties",
+   "a": "Kaks päeva, kaks lava (välilava + siselava), 19.00–hiljani, 18+, TASUTA",
+   "b": [
+    "Reed Stark (US)",
+    "PM2AM (LV)",
+    "Kwazar (FR)",
+    "Brawz Maximum (FIN)",
+    "Muul",
+    "Lill Mõru",
+    "Tellemralf",
+    "Sam Savage"
+   ],
+   "v": "D3 & Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "breaks",
+    "house"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1619495513160178/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "Free Entry, 18+",
+    "allikas": "FB event, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus: klubi alla); korraldajad D3 + Simple Session + Fonoteek; täiskoosseis FB event-lehelt"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-08-20",
+   "t": "kontsert",
+   "n": "Don Diisel: Treinta y Quatro",
+   "a": "algus 21.00",
+   "b": [
+    "Don Diisel"
+   ],
+   "v": "Legendaarne Baar & Raadio (Krulli 2b)",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4489215714691572/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event. Hinnainfot event-lehel ei olnud"
   }
  ]
 }

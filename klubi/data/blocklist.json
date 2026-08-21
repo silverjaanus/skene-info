@@ -7,7 +7,7 @@
  {
   "d": "2026-09-04",
   "n": "Laine Label Night: Alma Negra (CH)",
-  "nb": "JÄÄB ÄRA — Fienta ürituse pealkiri 26.07.2026 seisuga 'Jääb ära | Laine Label Night: Alma Negra (CH)'. Eemaldatud manual.json-ist; blokk on vajalik, et kirje ei tuleks tagasi eelmisest data.json-ist."
+  "nb": "JÄÄB ÄRA — Fienta ürituse pealkiri 26.07.2026 seisuga 'Jääb ära | Laine Label Night: Alma Negra (CH)'. Eemaldatud manual.json-ist; blokk on vajalik, et kirje ei tuleks tagasi eelmisest data.json-ist. | 21.08.2026: kirje oli 14.08 sweepis VAATAMATA SELLELE BLOKILE manual.json-i tagasi lisatud. Fienta org-leht 17330 näitab 21.08 seisuga endiselt 'Jääb ära'. Silveri otsus 18.08: 'kui praegu jääb ära, siis jääb välja' — ÄRA lisa tagasi ilma uue kinnituseta."
  },
  {
   "b": "toxic yuri",
@@ -17,5 +17,10 @@
   "d": "2026-08-14",
   "n": "VABADUs* x Interlüüd",
   "nb": "13.08.2026: kirje tõsteti Silveri otsusega rap-poolele (albumi esiettekanne = räpp); blokk hoiab ära vana klubi-kirje tagasituleku eelmisest data.json-ist (archive_split unioon)."
+ },
+ {
+  "d": "2026-08-22",
+  "n": "The Oriental Tales: Rave at HALL",
+  "nb": "21.08.2026 sweep: kirje nimi muudeti 'The Oriental Tales: Cosmonaut @ HALL' (RA event 2515792 andis tegeliku koosseisu). Vana nimi blokitud, et archive_split ei tooks eelmisest data.json-ist vana koopiat tagasi."
  }
 ]

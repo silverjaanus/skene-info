@@ -69,6 +69,7 @@
    "Opoku (ES)",
    "Exploited Body (FI)",
    "Dharma Doom",
+   "Dharma Coil",
    "Kxster",
    "TNTC (ES)",
    "Baba Sy (ES)",
@@ -76,9 +77,16 @@
    "Mookie (AU)",
    "Shah Rud",
    "Wondering O",
-   "Romanss"
+   "Romanss",
+   "Grove",
+   "Rama (2)",
+   "MBDOJ",
+   "Organic Intelligence by Jokkoo (A/V live)",
+   "Karl Martian",
+   "Alexxandra",
+   "Smol"
   ],
-  "nb": "lineup avaldatud RA-l 13.07.2026; 28.07.2026 sweep kontrollis üle — TÄISPROGRAMMI ENDISELT POLE ('more tba'), 13 nime on jätkuvalt aktuaalne seis. Korraldaja Shelter x Jokkoo Collective (Barcelona) | 07.08.2026 sweep: RA event 2473978 üle kontrollitud — koosseis on ENDISELT 13 nime + \"more tba\", täisprogrammi ei ole avaldatud. Fienta hind 10–30€ kehtib. | 14.08.2026 sweep: Fienta kinnitab ajad R 21.08 23:00 – P 23.08 06:00; RA venue-lehe koosseis endiselt sama 13 nime seis, täisprogrammi pole.",
+  "nb": "lineup avaldatud RA-l 13.07.2026; 28.07.2026 sweep kontrollis üle — TÄISPROGRAMMI ENDISELT POLE ('more tba'), 13 nime on jätkuvalt aktuaalne seis. Korraldaja Shelter x Jokkoo Collective (Barcelona) | 07.08.2026 sweep: RA event 2473978 üle kontrollitud — koosseis on ENDISELT 13 nime + \"more tba\", täisprogrammi ei ole avaldatud. Fienta hind 10–30€ kehtib. | 14.08.2026 sweep: Fienta kinnitab ajad R 21.08 23:00 – P 23.08 06:00; RA venue-lehe koosseis endiselt sama 13 nime seis, täisprogrammi pole. | 21.08.2026 sweep: RA event 2473978 koosseis on VAHEPEAL TÄIENENUD 13 → 21 nime (juurde Grove, Rama (2), MBDOJ, Organic Intelligence by Jokkoo A/V live, Karl Martian, Alexxandra, Dharma Coil, Smol). Fienta org-leht 17855 kinnitab kuupäevad R 21.08 23:00 – P 23.08 06:00.",
   "v": "HUNGR",
   "c": "Tallinn",
   "g": [
@@ -1910,20 +1918,31 @@
  {
   "d": "2026-08-22",
   "t": "klubi",
-  "n": "The Oriental Tales: Rave at HALL",
-  "a": "bass-muusika reiv kell 23.00 (Druz & Ra; 'Mojito Kai' jt)",
-  "b": [],
+  "n": "The Oriental Tales: Cosmonaut @ HALL",
+  "a": "KaZantipi- ja Love Parade’i-aegne Cosmonaut HALLi tööstuslikus saalis, 23.00–05.00; riietus must",
+  "b": [
+   "Cosmonaut",
+   "Ken Dark",
+   "This.Is.Margus"
+  ],
   "v": "HALL",
   "c": "Tallinn",
   "g": [
-   "bass"
+   "house",
+   "techno"
   ],
-  "sn": "HALL FB",
-  "su": "https://www.facebook.com/halltallinn/events",
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2515792",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/2300496283820375/",
   "lisatud": "2026-08-14",
-  "nb": "lisatud sweepis 14.08.2026; allikad: HALL FB events-tab + korraldaja IG (@miinusprojekt_). DJ-koosseis ja pilet avaldamata — täienda"
+  "nb": "lisatud sweepis 14.08.2026; allikad: HALL FB events-tab + korraldaja IG (@miinusprojekt_). DJ-koosseis ja pilet avaldamata — täienda | 21.08.2026 sweep: RA event 2515792 annab koosseisu (Cosmonaut + Ken Dark + This.Is.Margus), žanri (progressive house / techno), kellaaja ja hinna. Varasem oletus 'Druz & Ra / Mojito Kai' EI PIDANUD paika — a-väli ja b-väli parandatud. Pealkiri täpsustatud.",
+  "hind": {
+   "praegu": "15€ / 20€",
+   "mark": "early bird 15€, tavapilet 20€ (RA Tickets / otevent.com)",
+   "allikas": "RA event + HALL FB, kontrollitud 21.08.2026"
+  },
+  "pu": "https://ra.co/events/2515792"
  },
  {
   "d": "2026-08-29",
@@ -1941,25 +1960,6 @@
   "lisatud": "2026-08-14",
   "nb": "lisatud sweepis 14.08.2026; allikad: uuslaine.com kalender + AllEvents/HappeningNext. STYLËVA varasem sama sari toimus 31.05. FB event olemas, aga otse-URL jäi lugemata — pealkiri lingib su peale",
   "img": "pildid/stylevasummernighthouseparty.webp"
- },
- {
-  "d": "2026-09-04",
-  "t": "klubi",
-  "n": "Laine Label Night: Alma Negra (CH)",
-  "a": "Baseli afro/house duo — Label Night sari, algus 20.00",
-  "b": [
-   "Alma Negra"
-  ],
-  "v": "Uus Laine",
-  "c": "Tallinn",
-  "g": [
-   "afro",
-   "house"
-  ],
-  "sn": "Fienta",
-  "su": "https://fienta.com/et/o/17330",
-  "lisatud": "2026-08-14",
-  "nb": "lisatud sweepis 14.08.2026; allikad: Fienta (Uus Laine org-leht, R 04.09 20:00) + Uus Laine FB postitus + minesinna.ee. Piletid Fientas — otse-eventi URL org-lehe kaudu. NB samal õhtul Uus Laines ka Baile do Lainão vol IV (kirje olemas) — ilmselt eri korrused/ajad, kontrolli järgmises sweepis"
  },
  {
   "d": "2026-09-11",
@@ -2278,5 +2278,195 @@
   "pu": "https://www.ticketer.ee/ken-dark-invites-pyfel-fhoone/",
   "nb": "lisatud 17.08.2026: allikad Ticketer + Ken Dark FB event",
   "img": "pildid/kendarkinvitespyfel.webp"
+ },
+ {
+  "d": "2026-08-21",
+  "t": "klubi",
+  "n": "COMPRESSRAVE X HALL (ONLY TECHNO)",
+  "a": "CompressEventsi 8. väljaanne HALLi Mesila laval, 23.00–06.00 — ainult tehno",
+  "b": [
+   "Sugar Rody",
+   "pikkauch"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "techno"
+  ],
+  "sn": "GateMe",
+  "su": "https://gateme.com/et/Estonia/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1779572749905973/",
+  "pu": "https://gateme.com/et/halltallinn/104140-compressrave-x-hall-only-techno-2108/",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad CompressEvents + HALL + Sugar Rody + pikkauch) ja GateMe Eesti-nimekiri, kus pilet on müügil. HALLi kogu programm on klubi-skoobis (sources.json). Silver oli 18.08 selle kirje otsust edasi lükanud (GateMe link saadetud) — nüüd kaks allikat koos, lisatud."
+ },
+ {
+  "d": "2026-08-22",
+  "t": "klubi",
+  "n": "INTORNO AL DISCO w/ Ric Piccolo (AR)",
+  "a": "Itali-disco ja house’i öö uues kohas Clwds (Ülase 14), 23.00–06.00; uksel sularaha",
+  "b": [
+   "Ric Piccolo (AR)",
+   "Melissa",
+   "Wataru Yoshimoto",
+   "Billy Battery",
+   "Dr Sound"
+  ],
+  "v": "Clwds",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "disco"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2515921",
+  "lisatud": "2026-08-21",
+  "hind": {
+   "praegu": "20€",
+   "mark": "uksel, ainult sularaha (\"Cash is King\")",
+   "allikas": "RA event, kontrollitud 21.08.2026"
+  },
+  "nb": "lisatud sweepis 21.08.2026. Allikas: RA event 2515921 (korraldaja freakquencydealer) + RA Eesti-nimekiri. ⚠ UUS VENUE 'Clwds' (Ülase 14, Tallinn) — sama aadress kui DIY-keskus Ülase 12 kandis; jälgi, kas tekib püsivaks allikaks. Ajakava: 00.00 Melissa, 01.00 Wataru Yoshimoto x Billy Battery, 02.00 Ric Piccolo, 04.00 Dr Sound, 06.00 B2B."
+ },
+ {
+  "d": "2026-08-27",
+  "t": "klubi",
+  "n": "Arto @ Tšungel",
+  "a": "Neljapäevane vabaõhu-DJ-õhtu Kopli 1 juures, 21.00–02.00, tasuta (21+)",
+  "b": [
+   "Arto"
+  ],
+  "v": "Tšungel",
+  "c": "Tallinn",
+  "g": [
+   "electro",
+   "techno",
+   "minimal"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2516507",
+  "lisatud": "2026-08-21",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "sissepääs tasuta, vanusepiirang 21+",
+   "allikas": "RA event, kontrollitud 21.08.2026"
+  },
+  "nb": "lisatud sweepis 21.08.2026. Allikad: RA event 2516507 + Tšungla RA venue-leht (265290). Tšungel on suvine vabaõhupaik, mille kogu programm on elektrooniline (sources.json). Kehtib PÜSIREEGEL 8 — samanädalased tasuta DJ-peod lähevad sisse."
+ },
+ {
+  "d": "2026-08-28",
+  "t": "klubi",
+  "n": "Alo-Indrek Võsu & Taavet Bristol @ Tšungel",
+  "a": "Minimal-õhtu vabas õhus, 22.00–03.00, tasuta (21+)",
+  "b": [
+   "Alo-Indrek Võsu",
+   "Taavet Bristol"
+  ],
+  "v": "Tšungel",
+  "c": "Tallinn",
+  "g": [
+   "minimal",
+   "techno"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2516515",
+  "lisatud": "2026-08-21",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "sissepääs tasuta, 21+",
+   "allikas": "RA event, kontrollitud 21.08.2026"
+  },
+  "nb": "lisatud sweepis 21.08.2026. Allikad: RA event 2516515 + Tšungla RA venue-leht. Taavet Bristol on ka I Land Soundi üks korraldajaid."
+ },
+ {
+  "d": "2026-08-29",
+  "t": "klubi",
+  "n": "Tšungel Summer Finale",
+  "a": "Suve viimane pidu Koplis: algus juba kell 15.00, lõpp 03.00, tasuta (21+)",
+  "b": [
+   "rec",
+   "Lill",
+   "Rummo",
+   "Tolli"
+  ],
+  "v": "Tšungel",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "minimal",
+   "techno"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2516511",
+  "lisatud": "2026-08-21",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "sissepääs tasuta, 21+; 15.00–03.00",
+   "allikas": "RA event, kontrollitud 21.08.2026"
+  },
+  "nb": "lisatud sweepis 21.08.2026. Allikad: RA event 2516511 + Tšungla RA venue-leht. Heli Lambda Labsilt; koosseis lõpeb '...', st võib täieneda."
+ },
+ {
+  "d": "2026-09-19",
+  "t": "klubi",
+  "n": "REBEL CAUSE × TJUUN IN @ HALL",
+  "a": "Londoni Rebel Music / Metalheadzi showcase suures saalis, Tjuun In Mesilas; uksed 23.00",
+  "b": [
+   "HLZ (UK)",
+   "OB1 (UK)",
+   "Kolectiv (UK)",
+   "Physics (UK)",
+   "Rebel Cause (UK)",
+   "L.Eazy",
+   "QBA",
+   "To-Sha",
+   "Majestim",
+   "Yohan"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "dnb",
+   "jungle"
+  ],
+  "sn": "HALL FB",
+  "su": "https://www.facebook.com/halltallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1074654078431382/",
+  "pu": "https://gateme.com/et/halltallinn/104093-rebel-cause-x-tjuun-in-rebel-music-showcase",
+  "lisatud": "2026-08-21",
+  "hind": {
+   "praegu": "10€ / 15€ eelmüük, 20€ uksel",
+   "mark": "eelmüük GateMe’s kahes hinnaklassis",
+   "allikas": "FB event + GateMe, kontrollitud 21.08.2026"
+  },
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad TJUUN IN + HALL) ja GateMe piletileht. Täiskoosseis võetud FB-eventi kirjeldusest: suur saal = Rebel Cause showcase, Mesila = Tjuun In residendid."
+ },
+ {
+  "d": "2026-10-16",
+  "t": "klubi",
+  "n": "Beats From The Vault — Dark Souls Meeting",
+  "a": "BFTV sügisõhtu HALLis, 22.00–06.00; koosseis täieneb",
+  "b": [
+   "Kabel",
+   "Krematoorium",
+   "Külmkamber"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "ebm",
+   "industrial",
+   "dark",
+   "electro"
+  ],
+  "sn": "Beats From The Vault FB",
+  "su": "https://www.facebook.com/beatsfromthevault/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/984368821317552/",
+  "pu": "https://www.bftv.ee/",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: BFTV FB events-tab + ürituse FB event (kaaskorraldajad HALL, Röntgen, 4-got-10). Koosseis on POOLIK — event ütleb 'Line-up.......loading'; teada on Kabel + Krematoorium (= MESILA laval) ja Külmkamber. Piletiviide www.bftv.ee. Kontrolli koosseisu järgmistes sweepides."
  }
 ]

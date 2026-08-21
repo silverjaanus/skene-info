@@ -26,7 +26,7 @@
   "su": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
   "on_": "Kolga Mõisa Kontsert",
   "ou": "https://www.facebook.com/kolgamoisakontsert/upcoming_hosted_events",
-  "nb": "Kirna mõisa lisakuupäev 23.08 lisatud sweepis 19.07.2026 (Kolga Mõisa Kontsert FB + Barbar FB) | 07.08.2026 sweep: Piletilevi kinnitab kõik kolm ülejäänud kuupäeva (14.08 Suuremõisa, 15.08 Kolga, 23.08 Kirna); Kolga ja Kirna on VÄLJA MÜÜDUD. | 16.08.2026: koosseis taiendatud Eesti Kontserdi lehelt (concert.ee/festival/c-jam-mad-metallica) — MAD = Madis Velstrom, vokaal.",
+  "nb": "Kirna mõisa lisakuupäev 23.08 lisatud sweepis 19.07.2026 (Kolga Mõisa Kontsert FB + Barbar FB) | 07.08.2026 sweep: Piletilevi kinnitab kõik kolm ülejäänud kuupäeva (14.08 Suuremõisa, 15.08 Kolga, 23.08 Kirna); Kolga ja Kirna on VÄLJA MÜÜDUD. | 16.08.2026: koosseis taiendatud Eesti Kontserdi lehelt (concert.ee/festival/c-jam-mad-metallica) — MAD = Madis Velstrom, vokaal. | 21.08.2026 sweep: tuuri VIIMANE kuupäev Kirna mõisas (23.08 kl 17) on VÄLJA MÜÜDUD — Piletilevi näitab 'Välja müüdud', Mõisa Kontserdi FB '[KOHAD TÄITUNUD!]'. Kaks allikat. Kirna kuupäeva kohta EI tehta eraldi kirjet (dubleeriks tuurikirjet).",
   "pu": "https://www.piletilevi.ee/search?query=metal"
  },
  {
@@ -209,12 +209,10 @@
   "t": "kontsert",
   "n": "Under the New Moon: Vermilia",
   "b": [
-   "Vermilia",
-   "Aether",
-   "Pagansarv",
-   "Bestia",
+   "Vermilia (FI)",
    "Aether (PL)",
-   "Pagansarv & Bestia"
+   "Pagansarv",
+   "Bestia"
   ],
   "v": "Rockclub Tapper",
   "c": "Tallinn",
@@ -225,7 +223,7 @@
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
   "pu": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
-  "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia.",
+  "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu.",
   "img": "pildid/underthenewmoonvermilia.webp"
  },
  {
@@ -1260,7 +1258,7 @@
   "su": "https://www.facebook.com/punkrockfestival/",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1468527551938865/",
-  "nb": "koosseis kinnitatud 28.07.2026 sweepis (FB event + Ticketer). NB algusaja ebakõla: FB ütleb 11.09 kell 15.00, Ticketer 'uksed 18.00'",
+  "nb": "koosseis kinnitatud 28.07.2026 sweepis (FB event + Ticketer). NB algusaja ebakõla: FB ütleb 11.09 kell 15.00, Ticketer 'uksed 18.00' | 21.08.2026 sweep: Rock & Roll Heaven + Punk & Rock Festival FB events-tabid kinnitavad moLEMAD 11.-12.09 kahepaevase kuupaeva.",
   "pu": "https://www.ticketer.ee/punk-rock-insidefest-2026/",
   "hind": {
    "praegu": "25€ / 30€",
@@ -3260,5 +3258,131 @@
   "pu": "https://www.ticketer.ee/maustetytot-d3-tallinn/",
   "nb": "lisatud 18.08.2026, SILVERI OTSUS 18.08: piiripealne žanr, läheb peasaidile siltidega rock/pop. Allikad Ticketer + FB event.",
   "img": "pildid/maustetytotfin.webp"
+ },
+ {
+  "d": "2026-08-25",
+  "t": "kontsert",
+  "n": "Veli-Rekka & Rokut (FI) + Beer Gardens",
+  "a": "Soome Lapimaa bändi Euroopa tuur, kaasas Eesti Beer Gardens; algus 20.00",
+  "b": [
+   "Veli-Rekka & Rokut (FI)",
+   "Beer Gardens"
+  ],
+  "v": "Konservatoorium",
+  "c": "Viljandi",
+  "g": [
+   "rock",
+   "punk"
+  ],
+  "sn": "Konservatoorium FB",
+  "su": "https://www.facebook.com/konservatoorium/events",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Konservatooriumi FB events-tab (T 25.08 20:00) + Veli-Rekka & Rokut FB tuuriteade, mis nimetab kaaslasena Beer Gardensit (EE). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ Žanr on TULETATUD (rokk/punk, Konservatoorium on rokivenue); kui täpsustub muuks, liiguta."
+ },
+ {
+  "d": "2026-09-11",
+  "t": "kontsert",
+  "n": "Rock Friday: LØV + RAIDER",
+  "a": "The Krypti reedene rokiõhtu, algus 20.00",
+  "b": [
+   "LØV",
+   "RAIDER"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "metal"
+  ],
+  "sn": "The Krypt FB",
+  "su": "https://www.facebook.com/thekrypt.tallinn/events",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata."
+ },
+ {
+  "d": "2026-09-13",
+  "t": "kontsert",
+  "n": "Odor of Decay Over Europe: Cenotaph (MEX) + Cryptworm (UK)",
+  "a": "Killtown Bookingsi Euroopa tuuri Tallinna peatus; kohalikud Deceitome ja Hirmuvalitseja",
+  "b": [
+   "Cenotaph (MEX)",
+   "Cryptworm (UK)",
+   "Deceitome",
+   "Hirmuvalitseja"
+  ],
+  "v": "Kotka Kultuurimaja",
+  "c": "Tallinn",
+  "g": [
+   "death",
+   "metal",
+   "grind"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1053510844098253/",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (13.09.2026, Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab; kolmas kinnitus Killtown Bookingsi tuurimarsruut. ⚠ FB event määrab asukohaks 'Kohtla-Järve' — see on vale silt, saal on Kotka Kultuurimaja (Ööbiku 1a, Tallinn), nagu ütleb Metal Storm ja maja enda leht. Pilet avaldamata."
+ },
+ {
+  "d": "2026-09-26",
+  "t": "kontsert",
+  "n": "Laine Live: Kurjam",
+  "a": "Eesti punkveteranid Uue Laine live-sarjas, algus 19.00",
+  "b": [
+   "Kurjam"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Uus Laine FB",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Allikas: Uus Laine FB events-tab (Laine Live sari) + sama kirje Art of Moshi FB-eventi soovitusteplokis. Pilet avaldamata — kontrolli järgmises sweepis."
+ },
+ {
+  "d": "2026-10-02",
+  "t": "kontsert",
+  "n": "Beneath Revalia — The Livonian Tour",
+  "a": "Balti tuuri Viljandi peatus, algus 18.00; korraldaja Humanity",
+  "b": [
+   "Beneath Revalia"
+  ],
+  "v": "Konservatoorium",
+  "c": "Viljandi",
+  "g": [
+   "metal",
+   "death"
+  ],
+  "sn": "Konservatoorium FB",
+  "su": "https://www.facebook.com/konservatoorium/events",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis."
+ },
+ {
+  "d": "2026-11-26",
+  "t": "kontsert",
+  "n": "Wyatt E. (BE) + Five The Hierophant (UK)",
+  "a": "Belgia ritual-doom’i Euroopa sügistuur, algus 19.00",
+  "b": [
+   "Wyatt E. (BE)",
+   "Five The Hierophant (UK)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "doom",
+   "post",
+   "eksperimentaal"
+  ],
+  "sn": "Metal Storm",
+  "su": "https://metalstorm.net/events/event.php?event_id=236314",
+  "on_": "Damn.Loud Agency",
+  "ou": "https://www.facebook.com/we.are.too.damn.loud/events",
+  "lisatud": "2026-08-21",
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avaldamata (Fienta org-lehel 17595 veel ei ole). | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle."
  }
 ]
