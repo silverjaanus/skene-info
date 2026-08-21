@@ -6,15 +6,18 @@ Iga tellija pannakse tapselt UHTE 'send:<kombo>:<keel>' ambrisse tema kategooria
 gruppide (metal/rap/klubi) + keele jargi; iga ambri kohta luuakse UKS kampaania
 -> iga tellija saab TAPSELT UHE meili, mis sisaldab AINULT tema kategooriaid.
 
-NB: see skript EI kaivita ml_sync_groups.py automaatselt - kaivita see KASITSI
-enne saatmist (grupid signup-valjast), muidu ei jou uute tellijate grupid
-ambritesse. --send ainult Silveri kasul.
+NB (muudetud 21.08.2026 audit): --send kaivitab EELSAMMUD nuud ISE ja katkestab
+nende vea korral: (1) check_send_parity.py -- jarjestus saatmistees == eelvaade
+(14.08 intsident: reegel oli kirjas, aga jai kaivitamata ja vale kiri laks valja);
+(2) ml_sync_groups.py -- uute tellijate signup-grupid ambritesse (oli varem
+kasitsi-kohustus, mida sai unustada). Ainult hadaolukorras: --skip-gates.
+--send ainult Silveri kasul.
 
 Kasutus:
   python scripts/send_weekly.py --repo . --dry-run    # naita ambrid + kirjed, ARA saada
   python scripts/send_weekly.py --repo . --send       # loo + saada kampaaniad
 """
-import argparse, json, os, sys, time, urllib.request, urllib.error, datetime as dt
+import argparse, json, os, subprocess, sys, time, urllib.request, urllib.error, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import make_weekly_email as gen
 
@@ -107,9 +110,20 @@ def create_campaign(bucket_id, lang, html_content, subject, cfg, token):
     req("POST", "/campaigns/%s/schedule" % cid, token, {"delivery": "instant"})
     return cid
 
+def gate(cmd, mis):
+    """Kohustuslik eelsamm --send'ile: jooksuta alamprotsessina, vea korral
+    KATKESTA saatmine. 21.08.2026 audit: varem olid need dokumenteeritud
+    kasitsi-kohustused (HANDOVER/PROJEKT.md), mida sai unustada -- 14.08 laks
+    kiri valja ilma parity-kontrollita ja jarjestus oli vale."""
+    print("EELSAMM: %s" % mis)
+    r = subprocess.run(cmd)
+    if r.returncode != 0:
+        raise SystemExit("VIGA: eelsamm '%s' kukkus (exit %d) -- SAATMINE KATKESTATUD. "
+                         "Paranda pohjus voi (ainult hadaolukorras) kasuta --skip-gates."
+                         % (mis, r.returncode))
+
+
 def main():
-    print("MEELESPEA: kaivita enne saatmist kasitsi 'python scripts/ml_sync_groups.py' "
-          "(see skript seda automaatselt ei tee).")
     ap = argparse.ArgumentParser()
     here = os.path.dirname(os.path.abspath(__file__))
     ap.add_argument("--repo", default=os.path.dirname(here))
@@ -127,12 +141,25 @@ def main():
                     help="sekundeid liikmelisuse ja kampaania loomise vahel (vaikimisi 30)")
     ap.add_argument("--no-intro", action="store_true",
                     help="jata data/uudiskiri-intro.json plokk kirjast valja")
+    ap.add_argument("--skip-gates", action="store_true",
+                    help="HADAOLUKORRAKS: jata --send eelsammud (parity + group-sync) vahele")
     a = ap.parse_args()
     cfg = json.load(open(a.config, encoding="utf-8"))
     token = open(a.token_file, encoding="utf-8").read().strip()
     gen.MANAGE_LINK = cfg.get("manage_link", gen.MANAGE_LINK)
     cat_groups = cfg["groups"]
     do_send = a.send and not a.dry_run
+
+    # Kohustuslikud eelsammud enne parissaatmist (vt gate() ja mooduli docstring).
+    if do_send and not a.skip_gates:
+        gate([sys.executable, os.path.join(here, "check_send_parity.py"),
+              "--repo", a.repo],
+             "check_send_parity (jarjestus saatmistees == eelvaade)")
+        gate([sys.executable, os.path.join(here, "ml_sync_groups.py"),
+              "--config", a.config, "--token-file", a.token_file],
+             "ml_sync_groups (uute tellijate grupid signup-valjast)")
+    elif do_send and a.skip_gates:
+        print("HOIATUS: --skip-gates — parity- ja group-sync eelsammud JAETI VAHELE.")
 
     ref = gen.parse_d(a.date) if a.date else dt.date.today()
     ws, we = gen.this_and_next_week(ref)
