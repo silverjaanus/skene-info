@@ -71,7 +71,13 @@
    "nimi": "Mahtra Records",
    "url": "https://www.facebook.com/mahtrarecords",
    "tyyp": "label",
-   "nb": "reliisid; Bandcamp serverist blokitud"
+   "nb": "reliisid; Bandcampi labelileht eraldi kirjena (lisatud 21.08.2026)"
+  },
+  {
+   "nimi": "Mahtra Records (Bandcamp)",
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "tyyp": "label",
+   "nb": "lisatud 21.08.2026: Khattra Tapes (Must Missa, reliis 20.08) jäi sweepist vahele, sest Mahtra oli ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud. Albumileht fetchis 21.08 serverist probleemita — vana 'Bandcamp serverist blokitud' märge ei kehti vähemalt labelilehtede kohta; kui server-fetch siiski kukub, ava Chrome-kihis (nagu bandcamp_otsing)."
   },
   {
    "nimi": "Nailboard Rock Shop",

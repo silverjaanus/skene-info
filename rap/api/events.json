@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 207,
+ "count": 208,
  "entries": [
   {
    "sait": "www",
@@ -934,6 +934,25 @@
    "pu": "https://fienta.com/et/art-of-mosh-routine-ua-de-kannabinoid-superkomfort-zakroyyy-lv-and-many-more",
    "nb": "3-päevane festival (20.08 kunstinäitus+DJd TBA, 21.08 + 22.08 kaks lava); täiskoosseis avaldatud Fientas 15.07.2026 (R 21.08: Routine, superkomfort, Zakroyyy, Cottonmoth, Around the Sun, Stefania Boiko, Pihikamber; L 22.08: Kannabinõid, Süki, Manna, Koni, Such a Vain Endeavour, Norest Souls, Homebroke, Tiny Sequoia); more tba; pilet Fientas (earlybird); korraldajad Art of Mosh + Uus Laine; lisatud 13.07.2026, rikastatud 15.07.2026",
    "img": "https://www.skene.info/pildid/artofmosh2026.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-08-20",
+   "lisatud": "2026-08-21",
+   "t": "reliis",
+   "n": "Must Missa — «Khattra Tapes»",
+   "a": "kaua kadunud proovilindistus aastast 2001 originaalkoosseisus — «Sex Beyond The Grave» demo proov, lindistatud Khattra klubis Tartus 26.04.2001; 5 lugu (Mahtra Records)",
+   "b": [
+    "Must Missa"
+   ],
+   "g": [
+    "metal",
+    "black"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
+   "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks."
   },
   {
    "sait": "www",

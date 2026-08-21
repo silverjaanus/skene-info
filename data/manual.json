@@ -3384,5 +3384,24 @@
   "ou": "https://www.facebook.com/we.are.too.damn.loud/events",
   "lisatud": "2026-08-21",
   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avaldamata (Fienta org-lehel 17595 veel ei ole). | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle."
+ },
+ {
+  "rel": 1,
+  "d": "2026-08-20",
+  "lisatud": "2026-08-21",
+  "t": "reliis",
+  "n": "Must Missa — «Khattra Tapes»",
+  "a": "kaua kadunud proovilindistus aastast 2001 originaalkoosseisus — «Sex Beyond The Grave» demo proov, lindistatud Khattra klubis Tartus 26.04.2001; 5 lugu (Mahtra Records)",
+  "b": [
+   "Must Missa"
+  ],
+  "g": [
+   "metal",
+   "black"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
+  "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
+  "img": "pildid/mustmissakhattratapes.webp"
  }
 ]
