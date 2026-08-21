@@ -65,6 +65,11 @@ jobs:
         id: ra
         continue-on-error: true
         run: python scripts/ra_dump.py
+      # 21.08.2026 audit: nadal/ kasvas piiramatult (~10 MB / 2 kuud) — hoia
+      # viimased 8 nadalat; Make loeb ainult latest.json + jooksvat nadalat.
+      - name: Nadalapiltide koristus
+        continue-on-error: true
+        run: python scripts/koristus_nadal.py
       # duplikaadi-/kummitusekontroll ENNE commit'i: kahtluse korral
       # commit'i EI tehta ja job laheb punaseks (inimene vaatab ule)
       - name: Duplikaadikontroll
@@ -77,7 +82,7 @@ jobs:
           # siit puudu (tekkisid 16.08 commit'is 1592ca3, B5e). Need jaid
           # commitimata -> `git pull --rebase` suri "cannot pull with rebase:
           # You have unstaged changes" (exit 128). Uus valjundfail => lisa siia.
-          git add data/data.json rap/data/data.json klubi/data/data.json data/manual.json rap/data/manual.json klubi/data/manual.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json rap/api/archive.json klubi/api/events.json klubi/api/archive.json data/archive rap/data/archive klubi/data/archive sweep/ra_snapshot.json
+          git add data/data.json rap/data/data.json klubi/data/data.json data/manual.json rap/data/manual.json klubi/data/manual.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json rap/api/archive.json klubi/api/events.json klubi/api/archive.json data/archive rap/data/archive klubi/data/archive sweep/ra_snapshot.json nadal/
           git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git pull --rebase origin main && git push)
       # valve: kui korje kirjutas faili, mida ulaltoodud `git add` ei kata,
       # jaab see commitimata ja tapab JARGMISE jooksu rebase'i. Siin laheb
