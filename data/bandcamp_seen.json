@@ -1,0 +1,32 @@
+{
+ "nb": "check_bandcamp.py ack-nimekiri: siin olev album on labi vaadatud (lisatud manual.json-i VOI teadlikult valja jaetud). Uus album, mida siin pole -> Andmekorje punane.",
+ "seen": [
+  "https://beyondtartu.bandcamp.com/album/bardakk-screams-of-misery",
+  "https://beyondtartu.bandcamp.com/album/black-street-gravel",
+  "https://beyondtartu.bandcamp.com/album/descent-into-depression",
+  "https://beyondtartu.bandcamp.com/album/disbaltics",
+  "https://beyondtartu.bandcamp.com/album/hiskondlikult-kahjulik-element",
+  "https://beyondtartu.bandcamp.com/album/p-ris-maailma-elu",
+  "https://beyondtartu.bandcamp.com/album/palja-silmaga-n-htav",
+  "https://beyondtartu.bandcamp.com/album/siber",
+  "https://beyondtartu.bandcamp.com/album/tampoonih-vituspataljon",
+  "https://beyondtartu.bandcamp.com/album/viinaministeerium",
+  "https://beyondtartu.bandcamp.com/album/yx",
+  "https://facecollector.bandcamp.com/album/demo",
+  "https://facecollector.bandcamp.com/track/already-dead",
+  "https://facecollector.bandcamp.com/track/letter",
+  "https://fuzzolini.bandcamp.com/album/beauty-exists-in-everyone-2",
+  "https://fuzzolini.bandcamp.com/track/balloons",
+  "https://fuzzolini.bandcamp.com/track/beauty-exists-in-everyone",
+  "https://fuzzolini.bandcamp.com/track/born-to-burn",
+  "https://fuzzolini.bandcamp.com/track/silence-at-last",
+  "https://mahtrarecords.bandcamp.com/album/forgotten-screams",
+  "https://mahtrarecords.bandcamp.com/album/karidel",
+  "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
+  "https://mahtrarecords.bandcamp.com/album/live-in-tallinn",
+  "https://mahtrarecords.bandcamp.com/album/ma-ei-talu-valgust",
+  "https://mahtrarecords.bandcamp.com/album/pimedate-metsade-s-gavustes-2",
+  "https://mahtrarecords.bandcamp.com/album/pimedus-saabugu",
+  "https://mahtrarecords.bandcamp.com/album/the-tenebrous-journey"
+ ]
+}

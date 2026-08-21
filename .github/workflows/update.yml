@@ -91,6 +91,13 @@ jobs:
       # 17.08 vea teade kohale jouds). Vt scripts/check_sweep_varskus.py.
       - name: Sweep varskus
         run: python scripts/check_sweep_varskus.py
+      # 21.08.2026 audit: uus album sources.json-i Bandcamp-kontodel (label/artist
+      # /music lehed, mida discover-otsing ei kata) -> punane + kiri Silverile.
+      # Ack kaib data/bandcamp_seen.json kaudu (vt scripts/check_bandcamp.py
+      # docstring; Must Missa / Mahtra 21.08 oppetund). Samuti commit'i JAREL:
+      # andmed pushitakse enne, valve on alert.
+      - name: Bandcampi uued albumid
+        run: python scripts/check_bandcamp.py
       # nahtavus: kui moni ulaltoodud continue-on-error samm kukkus,
       # laheb job SIIN punaseks — Actions-vaade ei valeta enam rohelist
       - name: Korje staatus
