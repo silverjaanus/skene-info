@@ -87,7 +87,9 @@ def main():
     varskeim = min(s[2] for s in olemas)
     if varskeim <= args.piir:
         print(f"Sweep on varske: viimane uus kirje {varskeim} p tagasi (piir {args.piir} p).")
-        return 0
+        # varske sisu != taielik labikaik — run-logi valve puuab osalist torget
+        rl = run_log_kontroll(args.piir)
+        return 0 if args.hoiatus else rl
 
     sonum = (f"Nadalane sweep ei ole {varskeim} paeva jooksul UHTEGI uut kirjet toonud "
              f"(piir {args.piir} p). Kontrolli, kas reedene task joosis: kas Chrome "
@@ -97,6 +99,46 @@ def main():
         return 0
     print(f"::error::{sonum}")
     return 1
+
+
+def run_log_kontroll(piir):
+    """Sweep-jooksu arvepidamise valve (21.08.2026 audit, ISEARMEERUV).
+
+    `lisatud`-kontroll ulal naeb ainult TAIELIKKU vaikust — kui FB-seanss
+    katkeb keset sweepi ja pool allikaid jaab labimata, tuleb ikkagi paar uut
+    kirjet ja koik paistab roheline. Seetottu kirjutab sweep nuud iga jooksu
+    lopus sweep/run-<kuupaev>.json (scripts/sweep_run_log.py, HANDOVER §2
+    reegel 13): allikaid / avatud / skipitud+pohjus / uusi kirjeid.
+
+    ISEARMEERUV: kuni yhtegi run-faili pole, ainult HOIATUS (uus kontract ei
+    tohi minevikku punaseks varvida). Esimese run-faili ilmumisest alates on
+    puuduv/vana fail VIGA -> punane -> kiri Silverile."""
+    failid = sorted((ROOT / "sweep").glob("run-*.json"))
+    if not failid:
+        print("HOIATUS: sweep/run-*.json puudub veel — labikaigu-valve pole "
+              "armeeritud. Esimene reedene sweep peab selle kirjutama "
+              "(scripts/sweep_run_log.py, HANDOVER §2 reegel 13).")
+        return 0
+    uusim = failid[-1]
+    try:
+        d = json.loads(uusim.read_text(encoding="utf-8"))
+        kp = date.fromisoformat(d["kuupaev"])
+    except (ValueError, KeyError) as ex:
+        print(f"::error::{uusim.name} ei parsinud ({ex}) — run-logi vorming katki")
+        return 1
+    vanus = (date.today() - kp).days
+    if vanus > piir:
+        print(f"::error::Viimane sweep-jooksu logi on {vanus} p vana ({uusim.name}, "
+              f"piir {piir} p). Kas sweep jai vahele VOI jooksis, aga jattis "
+              f"arvepidamise kirjutamata (HANDOVER §2 reegel 13) — molemad "
+              f"vajavad pilku.")
+        return 1
+    skipitud = d.get("skipitud", [])
+    print(f"Run-logi OK: {uusim.name}, avatud {d.get('avatud')}/{d.get('allikaid')}, "
+          f"skipitud {len(skipitud)}, uusi {d.get('uusi')}.")
+    for s in skipitud:
+        print(f"  skipitud: {s.get('url')} ({s.get('pohjus')})")
+    return 0
 
 
 if __name__ == "__main__":
