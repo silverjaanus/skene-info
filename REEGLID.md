@@ -106,8 +106,9 @@ lõpus. Eesmärk: Silver klikib ja kontrollib KOHE, ilma täpsustavate küsimust
 nimeloetelu või lingita kirje on reegli rikkumine.
 
 **Aegumine (21.08):** lahtine küsimus ei tohi HANDOVER §4-s määramatult rippuda — kord ja
-vaikeotsuse reegel on HANDOVER §2 reeglis 16 (21 päeva vastuseta → status quo jääb kehtima,
-tagasipööratavalt).
+vaikeotsuse reegel on HANDOVER §2 reeglis 16: otsustusmeilid on nummerdatud KOONDKIRJAD
+(kõik lahtised küsimused, uued [UUS]); Silver saab vastata OTSE meilile ("1a, 2b") ja
+postkastijooks rakendab; **5 päeva** vastuseta → status quo jääb kehtima, tagasipööratavalt.
 
 ## 9. Žanrisildid
 
