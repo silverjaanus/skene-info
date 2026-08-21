@@ -27,8 +27,10 @@
 **Tehtud skoobiotsused (pretsedendid):** bluus on www 8. metafilter (26.07); uusklassika/
 nüüdismuusika (EMA-telg) VÄLJA; industrial+metal-koosseis jääb www-le; hard trance →
 klubi; peavoolu-popprokk (Terminaator/Smilers/Shanon-klass, Käärijä-klass peavoolupopp)
-VÄLJA; venekeelne peavoolurock (Splin) VÄLJA. Skoop on SILVERI otsus, mitte mehaaniline
-reegel — žanripõhise väljajätu korral sõnasta ülevaatusküsimus (§8), mitte lõppotsus.
+VÄLJA; venekeelne peavoolurock (Splin) VÄLJA; Rada7 uudiskirja samanädalased tasuta/odavad
+DJ-peod klubi-skoobis LISAME ka siis, kui aeguvad 1–2 päevaga (02.08; kahe allika reegel
+kehtib). Skoop on SILVERI otsus, mitte mehaaniline reegel — žanripõhise väljajätu korral
+sõnasta ülevaatusküsimus (§8), mitte lõppotsus.
 
 ## 2. Geograafia
 
@@ -102,6 +104,10 @@ KÕIGE EES 1–2 lausega**, siis nimi · kuupäev · koht · KÕIK kontroll-ling
 Fienta/piletileht, RA, veebisait, Bandcamp) · 1–2 lauset miks kahtlane; taust alles
 lõpus. Eesmärk: Silver klikib ja kontrollib KOHE, ilma täpsustavate küsimusteta. Paljas
 nimeloetelu või lingita kirje on reegli rikkumine.
+
+**Aegumine (21.08):** lahtine küsimus ei tohi HANDOVER §4-s määramatult rippuda — kord ja
+vaikeotsuse reegel on HANDOVER §2 reeglis 16 (21 päeva vastuseta → status quo jääb kehtima,
+tagasipööratavalt).
 
 ## 9. Žanrisildid
 
