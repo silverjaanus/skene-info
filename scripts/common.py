@@ -142,6 +142,27 @@ def is_blocked(e, block, block_names, block_artists=None):
     return False
 
 
+def fail_if_manual_blocked(manual, block, block_names, block_artists, sait=""):
+    """Blokitud kirje manual.json-is on inimese/agendi VIGA, mitte vaikselt
+    filtreeritav olukord. Varem filtreeriti moodaminnes (fetch.py trykkis
+    HOIATUSE, rap/klubi ei sedagi) — nii tuli Alma Negra 14.08.2026 sweepiga
+    manual.json-i tagasi ja keegi ei marganud enne 21.08. Nyyd katkeb korje
+    selge veateatega. Lahendus on alati kahest yks: kustuta kirje manual.json-ist
+    VOI (kui blokk on aegunud) eemalda vastav blocklist.json-i kirje.
+    Kutsuvad koik kolm fetchi enne split_and_write'i; auto-korje kirjeid see
+    EI puuduta (nende jaoks blocklist ongi vaikne filter)."""
+    bad = [e for e in manual if is_blocked(e, block, block_names, block_artists)]
+    if not bad:
+        return
+    for e in bad:
+        print(f"VIGA: blokitud kirje manual.json-is ({sait}): "
+              f"{e.get('d', '?')} {e.get('n', '?')}")
+    raise SystemExit(
+        f"VIGA: {len(bad)} blokitud kirje(t) {sait} manual.json-is. "
+        "Kustuta kirje(d) manual.json-ist VOI eemalda vastav blocklist.json-i "
+        "kirje — vaikselt enam ei filtreerita (Alma Negra 14.08.2026 oppetund).")
+
+
 def warn_handover(limit=250):
     """Hoiatab, kui HANDOVER.md on üle limiidi kasvanud (13.08.2026 kärpereegel).
     GitHub Actionsis fail puudub (gitignore'itud) -> vaikib. Kutsub fetch.py."""

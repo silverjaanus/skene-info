@@ -15,7 +15,7 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; skene.info korje; +https://www.ske
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from archive_split import split_and_write
 from common import (slug, today_local, load_blocklist, load_manual, is_blocked,
-                    warn_unknown_bands, warn_handover)
+                    fail_if_manual_blocked, warn_unknown_bands, warn_handover)
 
 TODAY = today_local().isoformat()
 
@@ -300,14 +300,9 @@ def main():
     def key_bands(e):
         return {slug(b) for b in e.get("b", []) if b}
 
-    # blocklist kehtib ka manual.json-ile (nt kui kureeritud kirje osutub valeks/duplikaadiks)
-    manual_ok = []
-    for e in manual:
-        if is_blocked(e, block, block_names, block_artists):
-            print(f"HOIATUS: manual.json kirje blokitud: {e.get('d','')} {e.get('n','')}")
-            continue
-        manual_ok.append(e)
-    manual = manual_ok
+    # Blokitud kirje manual.json-is = viga, mis katkestab korje (varem ainult
+    # HOIATUS, mida keegi ei lugenud — Alma Negra 14.08.2026 oppetund).
+    fail_if_manual_blocked(manual, block, block_names, block_artists, sait="www")
 
     merged = list(manual)
     known = []

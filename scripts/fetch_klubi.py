@@ -11,13 +11,15 @@ ROOT = Path(__file__).resolve().parent.parent
 KLUBI = ROOT / "klubi" / "data"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from archive_split import split_and_write
-from common import load_blocklist, load_manual, is_blocked, warn_unknown_bands
+from common import (load_blocklist, load_manual, fail_if_manual_blocked,
+                    warn_unknown_bands)
 
 
 def main():
     manual = load_manual(KLUBI / "manual.json")
     block, block_names, block_artists = load_blocklist(KLUBI / "blocklist.json")
-    manual = [e for e in manual if not is_blocked(e, block, block_names, block_artists)]
+    # Blokitud kirje manual.json-is = viga, katkestab korje (vt common.py).
+    fail_if_manual_blocked(manual, block, block_names, block_artists, sait="klubi")
     n_cur, n_arch = split_and_write(KLUBI, manual, block=block, block_names=block_names,
                                     block_artists=block_artists)
     print(f"klubi: data.json {n_cur}, arhiiv {n_arch}")
