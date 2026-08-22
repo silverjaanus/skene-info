@@ -1569,8 +1569,8 @@
    "sait": "klubi",
    "d": "2026-08-28",
    "t": "klubi",
-   "n": "Laine Klubiöö: DJ Plead (AU)",
-   "a": "SUMAC labeli kaasasutaja — bass, house, broken beat, dub; Kultuuriöö-väljaanne",
+   "n": "Laine Klubiöö: DJ Plead (AU/LB)",
+   "a": "SUMAC labeli kaasasutaja — bass, house, broken beat, dub; Kultuuriöö 2026 klubiöö, 22.00–04.00",
    "b": [
     "DJ Plead",
     "shbxsz"
@@ -1587,7 +1587,14 @@
    "img": "https://klubi.skene.info/pildid/laineklubioodjpleadau.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2691396537895898/",
-   "nb": "14.08.2026 sweep: Fienta märgib pileti-eventi \"Jääb ära\", AGA FB event on aktiivne uue pealkirjaga \"Kultuuriöö Laine Klubiöö: DJ Plead\" (R 28.08 22:00) — üritus toimub ilmselt Kultuuriöö raames, piletimüük Fientas tühistatud (tõenäoliselt tasuta). pu/hind eemaldatud. KONTROLLI järgmises sweepis / Silver võib üle vaadata."
+   "nb": "SILVERI OTSUS 22.08.2026: kirje JÄÄB ALLES ja nimetati ümber ametliku pealkirja järgi. Varasem 14.08 mure (Fienta märkis \"Jääb ära\") on lahenenud — piletimüük on uue Fienta-lehe all tagasi. Kolm sõltumatut allikat, kõik Silveri saadetud: Fienta https://fienta.com/et/laine-klubioo-dj-plead-aus (pealkiri + hinnaastmed), Kultuuriöö kava https://kultuurioo.ee/events/laine-klubioo/ (28.–29.08, 22.00–04.00) ja FB event https://www.facebook.com/events/2691396537895898/. Vana nimi \"Laine Klubiöö: DJ Plead (AU)\" on blocklistis, et archive_split seda tagasi ei tooks.",
+   "pu": "https://fienta.com/et/laine-klubioo-dj-plead-aus",
+   "hind": {
+    "praegu": "7,50–15€",
+    "mark": "Fientas neli astet: Early Bird 7,50€, Regular 10€, Late Bird 12€, toetaja 15€; milline aste parasjagu müügil on, lehelt ei selgu",
+    "allikas": "Fienta, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22"
   },
   {
    "sait": "www",

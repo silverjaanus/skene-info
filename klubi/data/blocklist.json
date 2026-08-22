@@ -22,5 +22,10 @@
   "d": "2026-08-22",
   "n": "The Oriental Tales: Rave at HALL",
   "nb": "21.08.2026 sweep: kirje nimi muudeti 'The Oriental Tales: Cosmonaut @ HALL' (RA event 2515792 andis tegeliku koosseisu). Vana nimi blokitud, et archive_split ei tooks eelmisest data.json-ist vana koopiat tagasi."
+ },
+ {
+  "d": "2026-08-28",
+  "n": "Laine Klubiöö: DJ Plead (AU)",
+  "nb": "NIMEMUUTUS 22.08.2026 (Silveri otsus): kirje nimetati ümber ametliku pealkirja järgi \"Laine Klubiöö: DJ Plead (AU/LB)\" (Fienta + kultuurioo.ee + FB event). Blokk kustutab vana nime, mille archive_split muidu eelmisest data.json-ist tagasi tooks. Alles jääb uue nimega kirje."
  }
 ]

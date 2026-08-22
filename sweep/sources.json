@@ -815,6 +815,13 @@
     "veeb": "https://fonoteek.ee/events/",
     "tyyp": "venue",
     "nb": "13.08.2026: URL PARANDATUD fonoteek -> fonoteekbar (vana handle oli TU raamatukogu muusikaosakond; oige handle fonoteek.ee jalusest) + lisatud veebisait fonoteek.ee/events (piletid GateMe kaudu). lisatud 06.08.2026 (Rada7.ee uudiskirjast); plaadibaar Telliskivi 62. Juba klubi manual.json-is (Dark Side of the Moon warmup 01.08), aga allikana puudus. NB osa uritusi on plaadifirmade peod, mille baasgenre on lahtine - kontrolli koosseis ukshaaval. ⚠ kurvad uudised records'i peod (sh 'kurvad uudised 3.5' 08.08.2026) on Silveri otsusega 06.08.2026 SKOOBIST VALJAS - roster ulatub hiphopist peavoolupopini, baasgenre maaramatu. Ara lisa neid."
+   },
+   {
+    "nimi": "Wunderbaar (Pärnu)",
+    "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+    "veeb": "https://wunderbaar.ee/",
+    "tyyp": "venue",
+    "nb": "lisatud klubi-poolele 22.08.2026 SILVERI OTSUSEGA: \"kui on klubimuusika, siis ilmselgelt klubi poolele, aga seal tuleb vaadata, et oleks ikka mingi alternatiivne element sees\". Sama leht on ka peasaidi fb-nimekirjas (rokibaari kontserdid) — see kirje katab AINULT DJ-õhtud. ⚠ KURATEERI IGA ÕHTU ERALDI, ära tõmba kogu DJ-kava sisse: sisse lähevad alternatiivse elemendiga õhtud (nt 21.08 Weatherlake, minimal-tehno), välja jäävad tavalised peo-/kaver-DJ-õhtud. Otsuse näited 22.08: 28.08 DJ Möls ja 29.08 Hot n' Handsome jäid VÄLJA (peo-DJ-õhtud, alternatiivset elementi ei tuvastanud; allikad: Wunderbaari FB events + @wunderbaar IG). ⚠ wunderbaar.ee ürituste-nimekiri vananeb (17.08 õppetund) — FB-leht on primaarne."
    }
   ],
   "ig": [],
