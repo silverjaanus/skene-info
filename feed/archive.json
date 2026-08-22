@@ -3571,18 +3571,22 @@
    "d": "2026-08-19",
    "t": "kontsert",
    "n": "Paavli.Live: mariin k.",
-   "a": "Garden Sessions",
+   "a": "Garden Sessions, vabas õhus Paavli aias; algus 19.00; soojendab uhiuus neljaliikmeline Tallinna indie-kollektiiv Akusakura",
    "b": [
-    "mariin k."
+    "mariin k.",
+    "Akusakura"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
    "g": [
-    "alt"
+    "alt",
+    "shoegaze"
    ],
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/",
-   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1928450644511875/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata. RIKASTATUD 22.08.2026 postkastijooksul Paavli uudiskirjast (18.08): soojendaja Akusakura + FB event + algus 19.00, kinnitatud teise allikaga paavli.ee ürituselehelt ja @akusakura_ IG-postitusest. Silt 'shoegaze' pärineb Paavli enda uudiskirja sõnastusest ('shoegaze and dream pop') — korraldaja kirjeldus, mitte verifitseeritud taksonoomia."
   },
   {
    "sait": "klubi",
@@ -3739,9 +3743,10 @@
    "d": "2026-08-21",
    "t": "kontsert",
    "n": "Lexsoul Dancemachine — suve ainus kontsert Tallinnas",
-   "a": "algus 20.00; kuueliikmeline funk/soul-kollektiiv (aasta ansambel 2021)",
+   "a": "algus 20.00; kuueliikmeline funk/soul-kollektiiv (aasta ansambel 2021); soojendab Tallinna bänd Friction, pärast kontserti DJ-sett Mr. Lex",
    "b": [
-    "Lexsoul Dancemachine"
+    "Lexsoul Dancemachine",
+    "Friction"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -3759,7 +3764,7 @@
     "mark": "noored 20€, toetaja 40€",
     "allikas": "Fienta, kontrollitud 13.08.2026"
    },
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA: funk/soul on nüüd peasaidi skoobis uue metafiltrina (Augustibluusi pretsedent — bluus oli 8., funk on 9. katusekategooria). Allikad: FB event (Rada7 12.08 uudiskiri) + Fienta ürituseleht (algus 20.00).",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA: funk/soul on nüüd peasaidi skoobis uue metafiltrina (Augustibluusi pretsedent — bluus oli 8., funk on 9. katusekategooria). Allikad: FB event (Rada7 12.08 uudiskiri) + Fienta ürituseleht (algus 20.00). RIKASTATUD 22.08.2026 postkastijooksul Paavli uudiskirjadest (18.08 + 21.08): soojendaja Friction ja järelpeo DJ Mr. Lex; teine allikas paavli.ee ürituseleht (\"Friction on sujuv kooslus noortest\").",
    "img": "https://www.skene.info/pildid/lexsouldancemachinesuveainuskontserttallinnas.webp"
   },
   {
