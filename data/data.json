@@ -646,7 +646,9 @@
    ],
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/",
-   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata. | 22.08.2026 rikastatud: Fienta ürituseleht (Paavli org 17595) andis piletilingi ja kava kirjelduse — teine allikas kahe allika reegli täitmiseks.",
+   "a": "Ambient-pianist ja helilooja Garden Sessions'i kavas — minimalistlik klaver, analoogsüntesaatorid, vibrafon ja lintmaki sahin; lood albumilt «Raindrops» + avaldamata materjal, algus 19.00",
+   "pu": "https://fienta.com/volodja-brodsky-paavli"
   },
   {
    "d": "2026-08-26",
@@ -1190,10 +1192,11 @@
   {
    "d": "2026-09-06",
    "t": "kontsert",
-   "n": "Laine Live: Luge (CA)",
+   "n": "Laine Live: Luge (CA) + Shatter Me Whole",
    "a": "Toronto kvartett — žanrieitav noise/post-punk, keerukad grooved ja kitarrimüra; on soojendanud Lightning Bolti, Otoboke Beaveri ja Tropical Fuck Stormi",
    "b": [
-    "Luge (CA)"
+    "Luge (CA)",
+    "Shatter Me Whole"
    ],
    "v": "Uus Laine",
    "c": "Tallinn",
@@ -1206,8 +1209,9 @@
    "sn": "Fienta (Uus Laine)",
    "su": "https://fienta.com/et/laine-live-luge-ca",
    "pu": "https://fienta.com/et/laine-live-luge-ca",
-   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "pildid/lainelivelugeca.webp"
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 22.08.2026: Fienta org-leht 17330 näitab täisnime 'Laine Live: Luge (CA) + Shatter Me Whole' — kaasesineja lisatud koosseisu, pealkiri parandatud.",
+   "img": "pildid/lainelivelugeca.webp",
+   "lisatud": "2026-08-22"
   },
   {
    "d": "2026-09-11",
@@ -2213,7 +2217,8 @@
    "on_": "Damn.Loud Agency",
    "ou": "https://www.facebook.com/we.are.too.damn.loud/events",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avaldamata (Fienta org-lehel 17595 veel ei ole). | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle."
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avanes 22.08.2026 — Fienta ürituseleht (Paavli org 17595), lisatud pu. | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle.",
+   "pu": "https://fienta.com/wyatte-five-the-hierophant-tallinn"
   },
   {
    "d": "2026-11-30",

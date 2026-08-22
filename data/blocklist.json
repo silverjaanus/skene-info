@@ -101,5 +101,10 @@
   "d": "2026-08-22",
   "n": "Live!Live!Live – Antonio Tensuro / Timuti 8 / Mamu Thao",
   "nb": "EI LISATA (Silveri otsus 22.08.2026): cumbia/tropical/latin live-õhtu Paavli Kultuurivabrikus jääb skoobist VÄLJA. Küsiti postkastijooksu koondkirjas 22.08, vastus \"jääb välja\". Baasžanr ei ole kitarripõhine alternatiiv (www) ega elektrooniline (klubi); bluusi (26.07) ja funk/souli (13.08) pretsedent siia EI laiene. Allikad, mille peal otsus tehti: https://fienta.com/live-live-live-paavli + https://paavli.ee/sundmused/ + https://www.kultuurivabrik.ee/programm. Blokk on siin selleks, et Paavli programm (aktiivne allikas) seda sweepis sisse ei tooks."
+ },
+ {
+  "d": "2026-09-06",
+  "n": "Laine Live: Luge (CA)",
+  "nb": "22.08.2026 NIMEMUUTUS, mitte väljajätt: Fienta org-leht 17330 näitab ürituse täisnime 'Laine Live: Luge (CA) + Shatter Me Whole'. Manual-kirje kannab nüüd täisnime; see blokk hoiab ära vana lühema nime naasmise eelmisest data.json-ist (archive_split teeb uniooni). ÄRA eemalda ilma kirje nime uuesti muutmata."
  }
 ]

@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 200,
+ "count": 202,
  "entries": [
   {
    "sait": "www",
@@ -1270,7 +1270,9 @@
    ],
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/",
-   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata. | 22.08.2026 rikastatud: Fienta ürituseleht (Paavli org 17595) andis piletilingi ja kava kirjelduse — teine allikas kahe allika reegli täitmiseks.",
+   "a": "Ambient-pianist ja helilooja Garden Sessions'i kavas — minimalistlik klaver, analoogsüntesaatorid, vibrafon ja lintmaki sahin; lood albumilt «Raindrops» + avaldamata materjal, algus 19.00",
+   "pu": "https://fienta.com/volodja-brodsky-paavli"
   },
   {
    "sait": "www",
@@ -1593,8 +1595,7 @@
     "praegu": "7,50–15€",
     "mark": "Fientas neli astet: Early Bird 7,50€, Regular 10€, Late Bird 12€, toetaja 15€; milline aste parasjagu müügil on, lehelt ei selgu",
     "allikas": "Fienta, kontrollitud 22.08.2026"
-   },
-   "lisatud": "2026-08-22"
+   }
   },
   {
    "sait": "www",
@@ -2383,6 +2384,36 @@
    "sait": "klubi",
    "d": "2026-09-05",
    "t": "klubi",
+   "n": "Mutism x Dreamscape: Stone (UK)",
+   "a": "Uue Tallinna raadiosaate/peosarja Mutism avaüritus koos Dreamscape'iga; Londoni Stone (aka glob deejay, 3XL / NAFF) live, kõrval kohalikud live-etteasted ja DJ-setid; 20.00–02.00",
+   "b": [
+    "Stone (UK)",
+    "Echo Lucida",
+    "Celestica",
+    "Arto",
+    "Icahera",
+    "Kersten Kõrge"
+   ],
+   "v": "era",
+   "c": "Tallinn",
+   "g": [
+    "ambient",
+    "downtempo",
+    "experimental",
+    "dub"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2518434",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2518434",
+   "pu": "https://fienta.com/et/mutism-x-dreamscape",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026. Kaks allikat: RA event 2518434 (RA snapshot, ala 184) + Fienta ürituseleht (korraldaja Dreamscape MTÜ, o/28826). Koht 'era' = ERA Club, Ahtri 10a. Täiskoosseis Fienta kirjeldusest (Stone live + Echo Lucida ja Celestica live + DJ-d Arto, Icahera, Kersten Kõrge). Hinda lehel tekstina ei olnud."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-05",
+   "t": "klubi",
    "n": "Scorched Earth: Skee Mask",
    "a": "uue ööseeria avaüritus; + animaTek (live), Tanel, noa",
    "b": [
@@ -2442,10 +2473,11 @@
    "sait": "www",
    "d": "2026-09-06",
    "t": "kontsert",
-   "n": "Laine Live: Luge (CA)",
+   "n": "Laine Live: Luge (CA) + Shatter Me Whole",
    "a": "Toronto kvartett — žanrieitav noise/post-punk, keerukad grooved ja kitarrimüra; on soojendanud Lightning Bolti, Otoboke Beaveri ja Tropical Fuck Stormi",
    "b": [
-    "Luge (CA)"
+    "Luge (CA)",
+    "Shatter Me Whole"
    ],
    "v": "Uus Laine",
    "c": "Tallinn",
@@ -2458,8 +2490,9 @@
    "sn": "Fienta (Uus Laine)",
    "su": "https://fienta.com/et/laine-live-luge-ca",
    "pu": "https://fienta.com/et/laine-live-luge-ca",
-   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "https://www.skene.info/pildid/lainelivelugeca.webp"
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 22.08.2026: Fienta org-leht 17330 näitab täisnime 'Laine Live: Luge (CA) + Shatter Me Whole' — kaasesineja lisatud koosseisu, pealkiri parandatud.",
+   "img": "https://www.skene.info/pildid/lainelivelugeca.webp",
+   "lisatud": "2026-08-22"
   },
   {
    "sait": "klubi",
@@ -3674,6 +3707,41 @@
    "img": "https://klubi.skene.info/pildid/camouflagede.webp"
   },
   {
+   "sait": "klubi",
+   "d": "2026-10-17",
+   "t": "klubi",
+   "n": "NEXT LEVEL @ HALL — Mesila",
+   "a": "Üheksa DJ-d kiirete BPM-ide ja bassiraske tantsumuusika telgedel — minimal/tech house'ist hardgroove'i, dnb-st jungle'i ja hard techno'ni; 21.00–06.00",
+   "b": [
+    "Radixsort",
+    "Tasuja",
+    "Tr!nity",
+    "Mindswitch",
+    "BlackCobra",
+    "Lauri Villau",
+    "Neoondreed",
+    "kMilla (IT)",
+    "RENGO"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "dnb",
+    "jungle",
+    "bass",
+    "trance",
+    "hard"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2518611",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2518611",
+   "pu": "https://fienta.com/et/next-level-mesila",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026. Kaks allikat: RA event 2518611 (RA snapshot) + Fienta ürituseleht 'NEXT LEVEL 17. OKTOOBER // HALL - MESILA'. Täiskoosseis + ajakava Fienta kirjeldusest (21.00 Radixsort … 05.00 RENGO). Kolmas kinnitus: huvi.tallinn.ee sündmusekirje."
+  },
+  {
    "sait": "www",
    "d": "2026-10-17",
    "t": "festival",
@@ -4098,7 +4166,8 @@
    "on_": "Damn.Loud Agency",
    "ou": "https://www.facebook.com/we.are.too.damn.loud/events",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avaldamata (Fienta org-lehel 17595 veel ei ole). | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle."
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avanes 22.08.2026 — Fienta ürituseleht (Paavli org 17595), lisatud pu. | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle.",
+   "pu": "https://fienta.com/wyatte-five-the-hierophant-tallinn"
   },
   {
    "sait": "www",

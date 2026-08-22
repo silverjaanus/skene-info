@@ -1,0 +1,545 @@
+{
+ "kuupaev": "2026-08-22",
+ "allikaid": 153,
+ "avatud": 20,
+ "skipitud": [
+  {
+   "url": "https://www.facebook.com/barbarestonia/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/we.are.too.damn.loud/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/sugisproductions/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/moisakontsert/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/thekrypt.tallinn/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/helitehas/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/konservatoorium/events?locale=et_EE",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/pubijuudas/events?locale=et_EE",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/mahtrarecords",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://howlsofwinter.eu/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/fortbar.tallinn/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/ehewinkel/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/300klubi/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/UGbaar/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://wunderbaar.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/exanityofficial/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/ArtClubRoRo/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/stedingukelder/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/festivalimaja/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/urbancultureent/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/BloodBathFest/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://hardrocklaager.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/aprillikivi/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://pergerus.eu/et/tarbariitus/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/uuslaine/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/balticliveagency/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/LTipsAgencyEstonia/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://rada7.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://fienta.com/et/o/29285",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/people/Kotka-Kultuurimaja/61573068690588/?sk=events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/facecollectorband/upcoming_hosted_events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.instagram.com/damn.loud/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.instagram.com/tuum.baar/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/eestihiphopfestival/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/uuslaine/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://lukemois.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/LegendaarneRaadio/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/legendaarne/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/clubprive/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.instagram.com/eestihiphopfestival/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.instagram.com/tommycashworld/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.instagram.com/nublufy/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://legendaarne.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.piletilevi.ee/piletid/muusika",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://fienta.com/et?q=r%C3%A4pp",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.hiphop.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://chainz.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://esthiphop.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://tartupunch.com/et/avaleht-eesti/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://tourmotor.net",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://paavli.ee/sundmused/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/Paavli.Kvartal/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://helitehas.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://somo.social",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.kluub.ee",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://onlinepilet.ee",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://gateme.com/et/Estonia/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.piletimaailm.com/categories/1-muusika",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.ticketer.ee",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://ticketshop.ee/et/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://muusikaplaneet.ee/category/singel/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://tuska.fi/en/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://steelfest.fi/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://copenhell.dk/en/front-page/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://swedenrock.com/en/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.tonsofrock.no/en",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.beyondthegates.no/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://infernofestival.no/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.wacken.com/en/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.hellfest.fr",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.graspop.be",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "http://www.summer-breeze.de",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.brutalassault.cz",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.wave-gotik-treffen.de/english/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://meraluna.de/en/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/anemon12tln/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/punknrollhell/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/rollheaven/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/GenKlubi/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/punkrockfestival/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://saund.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/veriorarock.stroganoff/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/beatsfromthevault/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/AudioPlaneet/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/Arturlaats/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/kakstuba/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://vmpr.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/fonoteekbar/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://fienta.com/et?q=techno",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://tolm.club/",
+   "pohjus": "Chrome blokeeris JS-ligipaasu (BLOCKED: Cookie/query string data); RA venue-leht 2518434-tuup katab Tolmi uritused snapshotis"
+  },
+  {
+   "url": "https://www.d-3.ee/events/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://genklubi.ee/events/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://allevents.in/tallinn/raves",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://www.facebook.com/satnamest/events",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://estelmus.com/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "kontrollitud taielikult 21.08 reedeses sweepis (<24 h), see on laupaevane lisajooks — prioriteet oli RA snapshot + piletiplatvormid + poolikud kirjed"
+  }
+ ],
+ "uusi": {
+  "www": 0,
+  "rap": 0,
+  "klubi": 2
+ },
+ "markus": "Laupaevane LISASWEEP 24 h parast taielikku 21.08 sweepi. Avatud: RA snapshot (katab ra.co Eesti + venue-lehed), Fienta org 17855/17595/17330 + metal-otsing, Piletilevi otsing, HALL FB, Rada7 FB, Tapper FB, Bandcamp discover (metal/hip-hop) + check_bandcamp.py labelikontod. Uut: 2 klubi-kirjet (Mutism x Dreamscape 05.09, NEXT LEVEL 17.10) + 3 www-rikastust. IG-pilt ja uudiskiri lasksid juba 21.08 11:45; jargmine automaatne saatmine R 28.08 11:45."
+}

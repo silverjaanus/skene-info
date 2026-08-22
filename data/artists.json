@@ -858,6 +858,12 @@
         "experimental"
       ]
     },
+    "BlackCobra": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Blasha & Allatt": {
       "checked": "2026-07-25",
       "domain": "unknown",
@@ -1124,6 +1130,17 @@
         "groove metal",
         "metal",
         "death metal"
+      ]
+    },
+    "Celestica": {
+      "checked": "2026-08-22",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "melodic hardcore",
+        "hardcore",
+        "post-hardcore revival",
+        "post-hardcore"
       ]
     },
     "Cenotaph": {
@@ -1767,6 +1784,12 @@
         "latin pop",
         "italian pop"
       ]
+    },
+    "Echo Lucida": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Echolove": {
       "checked": "2026-07-19",
@@ -2787,6 +2810,12 @@
         "funk_add_to_lidarr_batch_12"
       ]
     },
+    "Icahera": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Idiot Dance Music": {
       "checked": "2026-07-28",
       "domain": "unknown",
@@ -3247,6 +3276,12 @@
       "src": "none",
       "tags": []
     },
+    "Kersten Kõrge": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Kevin": {
       "checked": "2026-08-07",
       "domain": "rap",
@@ -3661,6 +3696,12 @@
         "psychedelic",
         "drone"
       ]
+    },
+    "Lauri Villau": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Laurine": {
       "checked": "2026-07-25",
@@ -4270,6 +4311,14 @@
         "jungle"
       ]
     },
+    "Mindswitch": {
+      "checked": "2026-08-22",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonia"
+      ]
+    },
     "Miroloja": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -4485,6 +4534,12 @@
     },
     "Narasanti": {
       "checked": "2026-07-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Neoondreed": {
+      "checked": "2026-08-22",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -5302,6 +5357,12 @@
         "death metal"
       ]
     },
+    "RENGO": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "RLV Massive": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -6075,6 +6136,17 @@
       "src": "none",
       "tags": []
     },
+    "Stone": {
+      "checked": "2026-08-22",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "thrash metal",
+        "speed metal",
+        "finnish",
+        "metal"
+      ]
+    },
     "Stresssystem": {
       "checked": "2026-08-07",
       "domain": "unknown",
@@ -6368,6 +6440,12 @@
     },
     "Tarrvi Laamann": {
       "checked": "2026-07-19",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Tasuja": {
+      "checked": "2026-08-22",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -6706,6 +6784,12 @@
         "electronica",
         "witch house"
       ]
+    },
+    "Tr!nity": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Trainman Blues": {
       "checked": "2026-07-28",
@@ -7530,6 +7614,12 @@
         "instrumental"
       ]
     },
+    "kMilla": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "kaisuloom": {
       "checked": "2026-08-02",
       "domain": "unknown",
@@ -7724,5 +7814,5 @@
       "tags": []
     }
   },
-  "updated": "2026-08-21"
+  "updated": "2026-08-22"
 }

@@ -421,8 +421,7 @@
     "praegu": "7,50–15€",
     "mark": "Fientas neli astet: Early Bird 7,50€, Regular 10€, Late Bird 12€, toetaja 15€; milline aste parasjagu müügil on, lehelt ei selgu",
     "allikas": "Fienta, kontrollitud 22.08.2026"
-   },
-   "lisatud": "2026-08-22"
+   }
   },
   {
    "d": "2026-08-28",
@@ -856,6 +855,35 @@
     "allikas": "Fienta, kontrollitud 13.07.2026"
    },
    "img": "pildid/scorchedearthskeemask.webp"
+  },
+  {
+   "d": "2026-09-05",
+   "t": "klubi",
+   "n": "Mutism x Dreamscape: Stone (UK)",
+   "a": "Uue Tallinna raadiosaate/peosarja Mutism avaüritus koos Dreamscape'iga; Londoni Stone (aka glob deejay, 3XL / NAFF) live, kõrval kohalikud live-etteasted ja DJ-setid; 20.00–02.00",
+   "b": [
+    "Stone (UK)",
+    "Echo Lucida",
+    "Celestica",
+    "Arto",
+    "Icahera",
+    "Kersten Kõrge"
+   ],
+   "v": "era",
+   "c": "Tallinn",
+   "g": [
+    "ambient",
+    "downtempo",
+    "experimental",
+    "dub"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2518434",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2518434",
+   "pu": "https://fienta.com/et/mutism-x-dreamscape",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026. Kaks allikat: RA event 2518434 (RA snapshot, ala 184) + Fienta ürituseleht (korraldaja Dreamscape MTÜ, o/28826). Koht 'era' = ERA Club, Ahtri 10a. Täiskoosseis Fienta kirjeldusest (Stone live + Echo Lucida ja Celestica live + DJ-d Arto, Icahera, Kersten Kõrge). Hinda lehel tekstina ei olnud."
   },
   {
    "d": "2026-09-11",
@@ -1292,6 +1320,40 @@
    "pu": "https://www.piletitasku.ee/et/event/9391",
    "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud helitehas.ee ürituselehe + Bandsintown/Hypebot tuurigraafiku vastu 19.07.2026 (L 17.10 kell 19.30, Madara 22a); pilet Piletitasku (hind lehelt kätte ei tulnud, ei märgitud)",
    "img": "pildid/camouflagede.webp"
+  },
+  {
+   "d": "2026-10-17",
+   "t": "klubi",
+   "n": "NEXT LEVEL @ HALL — Mesila",
+   "a": "Üheksa DJ-d kiirete BPM-ide ja bassiraske tantsumuusika telgedel — minimal/tech house'ist hardgroove'i, dnb-st jungle'i ja hard techno'ni; 21.00–06.00",
+   "b": [
+    "Radixsort",
+    "Tasuja",
+    "Tr!nity",
+    "Mindswitch",
+    "BlackCobra",
+    "Lauri Villau",
+    "Neoondreed",
+    "kMilla (IT)",
+    "RENGO"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "dnb",
+    "jungle",
+    "bass",
+    "trance",
+    "hard"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2518611",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2518611",
+   "pu": "https://fienta.com/et/next-level-mesila",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026. Kaks allikat: RA event 2518611 (RA snapshot) + Fienta ürituseleht 'NEXT LEVEL 17. OKTOOBER // HALL - MESILA'. Täiskoosseis + ajakava Fienta kirjeldusest (21.00 Radixsort … 05.00 RENGO). Kolmas kinnitus: huvi.tallinn.ee sündmusekirje."
   },
   {
    "d": "2026-10-18",
