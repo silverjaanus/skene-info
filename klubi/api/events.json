@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 202,
+ "count": 207,
  "entries": [
   {
    "sait": "www",
@@ -980,6 +980,25 @@
    "ou": "https://www.facebook.com/events/1027136910083679/",
    "lisatud": "2026-08-10",
    "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). ⚠ ÜHE KORRALDAJA KAKS ALLIKAT: nii tolm.club kui FB event 1027136910083679 on TOLMi enda omad — sõltumatut teist allikat (RA/Fienta) ei ole, RA nädalavaates 17.–23.08 seda ei olnud. Kuupäev ja koht on venue enda lehelt, seega usaldusväärsed. Koosseisu EI OLE avaldatud (kirjeldus on kunstiline tekst) → tba=1; kontrolli järgmises sweepis üle | 17.08.2026: koosseis RA-lt (Arto, Veiko Kikas, Fok Yee, Alt666); kuupäev 21.–22.08 ja koht kinnitatud RA+TOLM → tba maha"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-21",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Planeet & LeHANNA — «Hei, kosmonaut»",
+   "a": "Uus dnb-singel; vokaal LeHANNA, produktsioon Planeet",
+   "b": [
+    "Planeet",
+    "LeHANNA"
+   ],
+   "g": [
+    "dnb"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://planeet.bandcamp.com/album/planeet-lehanna-hei-kosmonaut",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026. Kaks allikat: Bandcampi albumileht (released August 21, 2026) + MuusikaPlaneet 'PLANEET AVALDAS UUE SINGLI \"HEI, KOSMONAUT\", KUS TEEB KAASA LEHANNA'; kolmas kinnitus artisti YouTube'i video (üles laetud 21.08)."
   },
   {
    "sait": "klubi",
@@ -2466,8 +2485,9 @@
     "allikas": "puhastebeer.com, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566",
-   "img": "https://www.skene.info/pildid/ollepidu2026.webp"
+   "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566 | 22.08.2026: Tourmotori ürituseleht 137 näitab õllepiletite müügilinki (18€) — pu lisatud; koosseis lehel sama (Karmid Torud, DND, Elephants From Neptune, The Crosslegs).",
+   "img": "https://www.skene.info/pildid/ollepidu2026.webp",
+   "pu": "https://tourmotor.net/event/list/tickets/137"
   },
   {
    "sait": "www",
@@ -2491,8 +2511,7 @@
    "su": "https://fienta.com/et/laine-live-luge-ca",
    "pu": "https://fienta.com/et/laine-live-luge-ca",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 22.08.2026: Fienta org-leht 17330 näitab täisnime 'Laine Live: Luge (CA) + Shatter Me Whole' — kaasesineja lisatud koosseisu, pealkiri parandatud.",
-   "img": "https://www.skene.info/pildid/lainelivelugeca.webp",
-   "lisatud": "2026-08-22"
+   "img": "https://www.skene.info/pildid/lainelivelugeca.webp"
   },
   {
    "sait": "klubi",
@@ -2702,7 +2721,8 @@
    "sn": "The Krypt FB",
    "su": "https://www.facebook.com/thekrypt.tallinn/events",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata. | 22.08.2026: Fienta metal-otsing andis ürituse piletilehe (fienta.com/et/lov-raider-thekrypt) — pu lisatud.",
+   "pu": "https://fienta.com/et/lov-raider-thekrypt"
   },
   {
    "sait": "klubi",
@@ -2825,6 +2845,29 @@
    "ou": "https://www.facebook.com/events/1065529219140534/",
    "pu": "https://fienta.com/et/freakangel-guests-thekrypt",
    "img": "https://www.skene.info/pildid/freakangelpsycholiessugarrody.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-12",
+   "t": "kontsert",
+   "n": "KURIKS @ Wunderbaar",
+   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, algus 22.00",
+   "b": [
+    "Kuriks"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Wunderbaar FB",
+   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2179942736213871/",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd."
   },
   {
    "sait": "www",
@@ -3122,6 +3165,41 @@
    "nb": "lisatud sweepis 19.07.2026; korraldaja Bloodstained Metal + The Krypt; piletid uksel, hind veel avaldamata - jälgi 2b-s"
   },
   {
+   "sait": "klubi",
+   "d": "2026-09-25",
+   "t": "klubi",
+   "n": "DNB Estonia Indoor Festival 2026",
+   "a": "DNB Estonia sügisene sisefestival Helitehases, uksed 23.00–06.00, 16+",
+   "b": [
+    "Don Darkoe (AU)",
+    "Kritikal (AU)",
+    "Killin Void (AT)",
+    "Feistling (AT)",
+    "MAEDM (NL)",
+    "Turik",
+    "G11 b2b Noise",
+    "Woozie b2b Krüptoniit"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/event/104065/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1734879890838613/",
+   "pu": "https://gateme.com/et/event/104065/",
+   "hind": {
+    "praegu": "10 €",
+    "mark": "tavapilet 10€, VIP 20€, Fanstage (360° lava) 35€; hind võib uksel erineda",
+    "allikas": "GateMe, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104065 (korraldaja DNB ESTONIA, koosseis + hinnad) + DNB Estonia FB events-tab / FB event 1734879890838613. drumandbassestonia.ee suunab GateMe lehele, seega EI ole eraldi allikas. Koosseis 'headliners announced so far' — võib täieneda."
+  },
+  {
    "sait": "www",
    "d": "2026-09-25",
    "t": "kontsert",
@@ -3327,6 +3405,33 @@
    "su": "https://www.facebook.com/konservatoorium/events",
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis."
+  },
+  {
+   "sait": "rap",
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "TRIIBUPASTA x Noored & Näljased",
+   "a": "Noored & Näljased esitavad esimest korda uue albumi lugusid, lõpetuseks Triibupasta; Kultuurikatlas kell 18.00",
+   "b": [
+    "Triibupasta",
+    "Noored & Näljased",
+    "Kalamees"
+   ],
+   "v": "Kultuurikatel",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/event/104094/",
+   "pu": "https://gateme.com/et/event/104094/",
+   "hind": {
+    "praegu": "10 €",
+    "mark": "Super Early Bird 10€ (78% müüdud), Super Early VIP 18€ (18+)",
+    "allikas": "GateMe, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi."
   },
   {
    "sait": "www",
@@ -3663,6 +3768,35 @@
    "pu": "https://www.bftv.ee/",
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: BFTV FB events-tab + ürituse FB event (kaaskorraldajad HALL, Röntgen, 4-got-10). Koosseis on POOLIK — event ütleb 'Line-up.......loading'; teada on Kabel + Krematoorium (= MESILA laval) ja Külmkamber. Piletiviide www.bftv.ee. Kontrolli koosseisu järgmistes sweepides."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "SYNERGY: Neonlight (DE) + Mean Teeth",
+   "a": "Synergy naaseb — Saksa neurofunk-duo Neonlight (Blackout, Eatbrain, RAM) ja Balti neurofunk-projekt Mean Teeth; 23.00–05.00",
+   "b": [
+    "Neonlight (DE)",
+    "Mean Teeth"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/synergyneonlight",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1076202788429204/",
+   "pu": "https://fienta.com/et/synergyneonlight",
+   "hind": {
+    "praegu": "16 €",
+    "mark": "Early Bird 16€, Regular 20€, Late 24€, uksel 25€",
+    "allikas": "Fienta, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Fienta ürituseleht (koosseis, hinnaastmed, kellaajad) + FB event 1076202788429204 (host Vortex Fusion). Leitud Fienta dnb-otsingust; RA-s seda kirjet ei ole."
   },
   {
    "sait": "www",

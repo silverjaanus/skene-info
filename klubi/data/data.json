@@ -292,6 +292,24 @@
    "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). ⚠ ÜHE KORRALDAJA KAKS ALLIKAT: nii tolm.club kui FB event 1027136910083679 on TOLMi enda omad — sõltumatut teist allikat (RA/Fienta) ei ole, RA nädalavaates 17.–23.08 seda ei olnud. Kuupäev ja koht on venue enda lehelt, seega usaldusväärsed. Koosseisu EI OLE avaldatud (kirjeldus on kunstiline tekst) → tba=1; kontrolli järgmises sweepis üle | 17.08.2026: koosseis RA-lt (Arto, Veiko Kikas, Fok Yee, Alt666); kuupäev 21.–22.08 ja koht kinnitatud RA+TOLM → tba maha"
   },
   {
+   "d": "2026-08-21",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Planeet & LeHANNA — «Hei, kosmonaut»",
+   "a": "Uus dnb-singel; vokaal LeHANNA, produktsioon Planeet",
+   "b": [
+    "Planeet",
+    "LeHANNA"
+   ],
+   "g": [
+    "dnb"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://planeet.bandcamp.com/album/planeet-lehanna-hei-kosmonaut",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026. Kaks allikat: Bandcampi albumileht (released August 21, 2026) + MuusikaPlaneet 'PLANEET AVALDAS UUE SINGLI \"HEI, KOSMONAUT\", KUS TEEB KAASA LEHANNA'; kolmas kinnitus artisti YouTube'i video (üles laetud 21.08)."
+  },
+  {
    "d": "2026-08-22",
    "t": "klubi",
    "n": "Healer Records: Pätt / Squash / West Coast Swingaz",
@@ -1208,6 +1226,40 @@
    "img": "pildid/kendarkinvitespyfel.webp"
   },
   {
+   "d": "2026-09-25",
+   "t": "klubi",
+   "n": "DNB Estonia Indoor Festival 2026",
+   "a": "DNB Estonia sügisene sisefestival Helitehases, uksed 23.00–06.00, 16+",
+   "b": [
+    "Don Darkoe (AU)",
+    "Kritikal (AU)",
+    "Killin Void (AT)",
+    "Feistling (AT)",
+    "MAEDM (NL)",
+    "Turik",
+    "G11 b2b Noise",
+    "Woozie b2b Krüptoniit"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/event/104065/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1734879890838613/",
+   "pu": "https://gateme.com/et/event/104065/",
+   "hind": {
+    "praegu": "10 €",
+    "mark": "tavapilet 10€, VIP 20€, Fanstage (360° lava) 35€; hind võib uksel erineda",
+    "allikas": "GateMe, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104065 (korraldaja DNB ESTONIA, koosseis + hinnad) + DNB Estonia FB events-tab / FB event 1734879890838613. drumandbassestonia.ee suunab GateMe lehele, seega EI ole eraldi allikas. Koosseis 'headliners announced so far' — võib täieneda."
+  },
+  {
    "d": "2026-09-26",
    "t": "klubi",
    "n": "QUANTUM: THE OUTLANDER — D-Block & S-te-Fan | Hard Driver",
@@ -1298,6 +1350,34 @@
    "pu": "https://www.bftv.ee/",
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: BFTV FB events-tab + ürituse FB event (kaaskorraldajad HALL, Röntgen, 4-got-10). Koosseis on POOLIK — event ütleb 'Line-up.......loading'; teada on Kabel + Krematoorium (= MESILA laval) ja Külmkamber. Piletiviide www.bftv.ee. Kontrolli koosseisu järgmistes sweepides."
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "SYNERGY: Neonlight (DE) + Mean Teeth",
+   "a": "Synergy naaseb — Saksa neurofunk-duo Neonlight (Blackout, Eatbrain, RAM) ja Balti neurofunk-projekt Mean Teeth; 23.00–05.00",
+   "b": [
+    "Neonlight (DE)",
+    "Mean Teeth"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/synergyneonlight",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1076202788429204/",
+   "pu": "https://fienta.com/et/synergyneonlight",
+   "hind": {
+    "praegu": "16 €",
+    "mark": "Early Bird 16€, Regular 20€, Late 24€, uksel 25€",
+    "allikas": "Fienta, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Fienta ürituseleht (koosseis, hinnaastmed, kellaajad) + FB event 1076202788429204 (host Vortex Fusion). Leitud Fienta dnb-otsingust; RA-s seda kirjet ei ole."
   },
   {
    "d": "2026-10-17",

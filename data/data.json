@@ -1186,8 +1186,9 @@
     "allikas": "puhastebeer.com, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566",
-   "img": "pildid/ollepidu2026.webp"
+   "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566 | 22.08.2026: Tourmotori ürituseleht 137 näitab õllepiletite müügilinki (18€) — pu lisatud; koosseis lehel sama (Karmid Torud, DND, Elephants From Neptune, The Crosslegs).",
+   "img": "pildid/ollepidu2026.webp",
+   "pu": "https://tourmotor.net/event/list/tickets/137"
   },
   {
    "d": "2026-09-06",
@@ -1210,8 +1211,7 @@
    "su": "https://fienta.com/et/laine-live-luge-ca",
    "pu": "https://fienta.com/et/laine-live-luge-ca",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 22.08.2026: Fienta org-leht 17330 näitab täisnime 'Laine Live: Luge (CA) + Shatter Me Whole' — kaasesineja lisatud koosseisu, pealkiri parandatud.",
-   "img": "pildid/lainelivelugeca.webp",
-   "lisatud": "2026-08-22"
+   "img": "pildid/lainelivelugeca.webp"
   },
   {
    "d": "2026-09-11",
@@ -1305,7 +1305,8 @@
    "sn": "The Krypt FB",
    "su": "https://www.facebook.com/thekrypt.tallinn/events",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata. | 22.08.2026: Fienta metal-otsing andis ürituse piletilehe (fienta.com/et/lov-raider-thekrypt) — pu lisatud.",
+   "pu": "https://fienta.com/et/lov-raider-thekrypt"
   },
   {
    "d": "2026-09-12",
@@ -1374,6 +1375,28 @@
    "ou": "https://www.facebook.com/events/1732656227939363/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; kaks allikat: venue FB event + bändi enda IG (@oulun_keskusta, tuurigraafika Viljandiga). NB samal õhtul on Viljandis ka Vermilia Tallinnas jm — kuupäev 12.09 kinnitatud event-lehelt"
+  },
+  {
+   "d": "2026-09-12",
+   "t": "kontsert",
+   "n": "KURIKS @ Wunderbaar",
+   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, algus 22.00",
+   "b": [
+    "Kuriks"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Wunderbaar FB",
+   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2179942736213871/",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd."
   },
   {
    "d": "2026-09-13",

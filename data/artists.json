@@ -1675,6 +1675,18 @@
         "signalwave"
       ]
     },
+    "Don Darkoe": {
+      "checked": "2026-08-22",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drum and bass",
+        "electronic",
+        "australian",
+        "dnb",
+        "jump-up"
+      ]
+    },
     "Don Diisel": {
       "checked": "2026-08-14",
       "domain": "unclear",
@@ -2089,6 +2101,17 @@
         "minimal"
       ]
     },
+    "Feistling": {
+      "checked": "2026-08-22",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drum and bass",
+        "electronic",
+        "austrian",
+        "dnb"
+      ]
+    },
     "Fern Flower": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -2257,6 +2280,12 @@
         "noise rock",
         "alternative rock"
       ]
+    },
+    "G11 b2b Noise": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "G5 DJs": {
       "checked": "2026-08-14",
@@ -3165,6 +3194,12 @@
       "src": "none",
       "tags": []
     },
+    "Kalamees": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Kalli Talonpoika & The Sunshine Band": {
       "checked": "2026-07-28",
       "domain": "unknown",
@@ -3338,6 +3373,12 @@
     },
     "Kiindumus": {
       "checked": "2026-08-07",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Killin Void": {
+      "checked": "2026-08-22",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -3521,6 +3562,17 @@
         "classical period"
       ]
     },
+    "Kritikal": {
+      "checked": "2026-08-22",
+      "domain": "rap",
+      "src": "lastfm",
+      "tags": [
+        "rap",
+        "electronic",
+        "usa",
+        "hip-hop"
+      ]
+    },
     "Kukerpillid": {
       "checked": "2026-07-13",
       "domain": "unclear",
@@ -3533,6 +3585,12 @@
     },
     "Kulon": {
       "checked": "2026-08-02",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Kuriks": {
+      "checked": "2026-08-22",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -3714,6 +3772,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "LeHANNA": {
+      "checked": "2026-08-22",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "pop",
+        "estonian"
+      ]
     },
     "Lee Burridge": {
       "checked": "2026-07-13",
@@ -3903,6 +3970,12 @@
         "lusopunk",
         "need to rate"
       ]
+    },
+    "MAEDM": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "MALLA": {
       "checked": "2026-07-13",
@@ -4140,6 +4213,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Mean Teeth": {
+      "checked": "2026-08-22",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drum and bass",
+        "neurofunk"
+      ]
     },
     "Medina": {
       "checked": "2026-07-19",
@@ -4538,6 +4620,16 @@
       "src": "none",
       "tags": []
     },
+    "Neonlight": {
+      "checked": "2026-08-22",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drum and bass",
+        "neurofunk",
+        "techstep"
+      ]
+    },
     "Neoondreed": {
       "checked": "2026-08-22",
       "domain": "unknown",
@@ -4597,6 +4689,21 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Noored & Näljased": {
+      "checked": "2026-08-22",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "trance",
+        "electronic",
+        "soundtrack",
+        "classical",
+        "pop",
+        "special purpose artist",
+        "jungle"
+      ]
     },
     "Nora": {
       "checked": "2026-07-13",
@@ -6852,6 +6959,12 @@
         "black metal"
       ]
     },
+    "Turik": {
+      "checked": "2026-08-22",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Tut Toze": {
       "checked": "2026-08-02",
       "domain": "unknown",
@@ -7296,6 +7409,12 @@
     },
     "Wondering O": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Woozie b2b Krüptoniit": {
+      "checked": "2026-08-22",
       "domain": "unknown",
       "src": "none",
       "tags": []
