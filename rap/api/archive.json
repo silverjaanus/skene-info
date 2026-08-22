@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21",
+ "updated": "2026-08-22",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 136,
+ "count": 144,
  "entries": [
   {
    "sait": "www",
@@ -3640,6 +3640,207 @@
    "ou": "https://www.facebook.com/events/4489215714691572/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event. Hinnainfot event-lehel ei olnud"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-21",
+   "t": "kontsert",
+   "n": "Barbatos + Beatrix + külaline",
+   "b": [
+    "Barbatos",
+    "Beatrix"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "black",
+    "thrash"
+   ],
+   "sn": "Sügis Productions FB",
+   "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1999147140962621/",
+   "pu": "https://fienta.com/et/barbatos-thekrypt-tallinn",
+   "img": "https://www.skene.info/pildid/barbatosbeatrixkulaline.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-21",
+   "t": "klubi",
+   "n": "COMPRESSRAVE X HALL (ONLY TECHNO)",
+   "a": "CompressEventsi 8. väljaanne HALLi Mesila laval, 23.00–06.00 — ainult tehno",
+   "b": [
+    "Sugar Rody",
+    "pikkauch"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/Estonia/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1779572749905973/",
+   "pu": "https://gateme.com/et/halltallinn/104140-compressrave-x-hall-only-techno-2108/",
+   "lisatud": "2026-08-21",
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad CompressEvents + HALL + Sugar Rody + pikkauch) ja GateMe Eesti-nimekiri, kus pilet on müügil. HALLi kogu programm on klubi-skoobis (sources.json). Silver oli 18.08 selle kirje otsust edasi lükanud (GateMe link saadetud) — nüüd kaks allikat koos, lisatud."
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-21",
+   "t": "kontsert",
+   "n": "Exanity + Surju Kommunaal @ Wunderbaar",
+   "a": "kaks bändi Wunderbaari laval; uksed 20.00, Surju Kommunaal 21.00, Exanity 22.00, DJ 23.00. Pilet ainult uksel ja sularahas",
+   "b": [
+    "Exanity",
+    "Surju Kommunaal"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "rock",
+    "alt",
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1780280772993688/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1780280772993688/",
+   "hind": {
+    "praegu": "12€ / 15€",
+    "mark": "ainult uksel, sularahas: esimene tund 12 €, edasi 15 €",
+    "allikas": "Wunderbaari FB-lehe postitus, kontrollitud 17.08.2026"
+   },
+   "nb": "kontaktivormi sisend 16.08.2026 (Liis Virkus, Surju Kommunaali bassist). Kaks allikat: FB event 1780280772993688 (kaaskorraldajad Wunderbaar + Exanity + Surju Kommunaal, R 21.08 kell 21) ja Wunderbaari oma FB-lehe postitus (ajakava + hind). Eelmüüki ega piletimüüjat pole. Exanity (Paide) = alt-rock + elektroonika, Surju Kommunaal = punkrokkkaverbänd"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-21",
+   "t": "klubi",
+   "n": "FACTORY RESET: Tantrum Desire (UK)",
+   "a": "drum'n'bass-õhtu Kreenholmi tehasekompleksis",
+   "b": [
+    "Tantrum Desire (UK)"
+   ],
+   "v": "Kreenholm",
+   "c": "mujal",
+   "linn": "Narva",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Ticketer",
+   "su": "https://ticketer.ee/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel ÜHE allikaga (Ticketer) — kahe allika reeglist tehtud teadlik erand, sest teist allikat ei leitud ka korduval otsingul. Kui FB-event või korraldaja leht ilmub, lisa 'ou'."
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-21",
+   "t": "kontsert",
+   "n": "Lexsoul Dancemachine — suve ainus kontsert Tallinnas",
+   "a": "algus 20.00; kuueliikmeline funk/soul-kollektiiv (aasta ansambel 2021)",
+   "b": [
+    "Lexsoul Dancemachine"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "funk",
+    "soul"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/lexsoul-dancemachine-paavli",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1658178432978557/",
+   "pu": "https://fienta.com/lexsoul-dancemachine-paavli",
+   "hind": {
+    "praegu": "25€",
+    "mark": "noored 20€, toetaja 40€",
+    "allikas": "Fienta, kontrollitud 13.08.2026"
+   },
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA: funk/soul on nüüd peasaidi skoobis uue metafiltrina (Augustibluusi pretsedent — bluus oli 8., funk on 9. katusekategooria). Allikad: FB event (Rada7 12.08 uudiskiri) + Fienta ürituseleht (algus 20.00).",
+   "img": "https://www.skene.info/pildid/lexsouldancemachinesuveainuskontserttallinnas.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-21",
+   "lisatud": "2026-08-17",
+   "t": "klubi",
+   "n": "Miinusprojekt @ D3",
+   "a": "VON, KENNU, BLZZRD + TBA; uksed 23:00; 20+",
+   "b": [
+    "VON",
+    "KENNU",
+    "BLZZRD"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "miinusprojekt.ee",
+   "su": "https://miinusprojekt.ee/",
+   "on_": "Miinusprojekt",
+   "ou": "https://miinusprojekt.ee/",
+   "pu": "https://gateme.com/event/104116",
+   "hind": {
+    "praegu": "alates 10€",
+    "mark": "eelmüük",
+    "allikas": "miinusprojekt.ee, kontrollitud 17.08.2026"
+   },
+   "nb": "lisatud 17.08.2026: allikad miinusprojekt.ee + FB event (D3 x Miinusprojekt) + GateMe 104116; D3 saidi kalendris 21.08 olemas",
+   "img": "https://klubi.skene.info/pildid/miinusprojektd3.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-21",
+   "t": "kontsert",
+   "n": "Netsky (BEL)",
+   "a": "Belgia elektroonilise muusika (dnb) tipptegija Hundipea Kakaolaos",
+   "b": [
+    "Netsky"
+   ],
+   "v": "Hundipea Kakaoladu",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "electro"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "hundipea.ee",
+   "ou": "https://hundipea.ee/en/event/netsky-bel-hundipea-kakaoladu/",
+   "pu": "https://www.piletilevi.ee/en/venues/21-61-9418/hundipea-kakaoladu-tallinn",
+   "img": "https://klubi.skene.info/pildid/netskybel.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-21",
+   "t": "klubi",
+   "n": "TRIPLOOP invites Kai Galactic (JP)",
+   "a": "hüpnootiline techno; Tokyo labeli DAYBREAK asutaja",
+   "b": [
+    "Kai Galactic",
+    "Brenna Ryan",
+    "Rästas"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2483537",
+   "pu": "https://fienta.com/et/triploop-invites-kai-galactic",
+   "hind": {
+    "praegu": "10€",
+    "kuni": "07.08",
+    "jargmine": "15€",
+    "allikas": "Fienta, kontrollitud 13.07.2026"
+   },
+   "img": "https://klubi.skene.info/pildid/triploopinviteskaigalacticjp.webp",
+   "nb": " | 28.07.2026: RA venue-väli ütleb Paavli Kultuurivabrik, Fienta ütleb MOD — kirjes on MOD (Fienta = piletimüüja). Silveri kontrollida"
   }
  ]
 }

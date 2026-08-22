@@ -1,98 +1,13 @@
 {
- "tommatud": "2026-08-21",
+ "tommatud": "2026-08-22",
  "aken": {
-  "algus": "2026-08-21",
-  "lopp": "2026-10-20"
+  "algus": "2026-08-22",
+  "lopp": "2026-10-21"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 32,
+ "kirjeid": 29,
  "kirjed": [
-  {
-   "d": "2026-08-21",
-   "n": "Safara Festival",
-   "algus": "2026-08-21T23:00:00.000",
-   "v": "HUNGR",
-   "ala": "Tallinn",
-   "b": [
-    "Pasaporteman",
-    "Opoku",
-    "Exploited Body",
-    "Dharma Doom",
-    "TNTC",
-    "Baba Sy",
-    "Bamba",
-    "Mookie (AU)",
-    "Shah Rud",
-    "Grove",
-    "Rama (2)"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2473978",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-21",
-   "n": "𝑻𝑹𝑰𝑷𝑳𝑶𝑶𝑷 Invites Kai Galactic (JP)",
-   "algus": "2026-08-21T23:00:00.000",
-   "v": "Paavli Kultuurivabrik",
-   "ala": "Tallinn",
-   "b": [
-    "Brenna Ryan",
-    "Brett Rästas"
-   ],
-   "g": [
-    "Techno"
-   ],
-   "url": "https://ra.co/events/2483537",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-21",
-   "n": "britiimpeerium all night long",
-   "algus": "2026-08-21T22:00:00.000",
-   "v": "Tšungel",
-   "ala": "Tallinn",
-   "b": [
-    "britiimpeerium"
-   ],
-   "g": [
-    "Pop",
-    "UK Funky"
-   ],
-   "url": "https://ra.co/events/2516518",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-21",
-   "n": "KTPSD 3",
-   "algus": "2026-08-21T23:00:00.000",
-   "v": "Tolm",
-   "ala": "All",
-   "b": [
-    "Arto",
-    "Veiko Kikas",
-    "Fok Yee",
-    "Alt666"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2513788",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-21",
-   "n": "BIRTHDAY CLUB",
-   "algus": "2026-08-21T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2513032",
-   "pilet": false
-  },
   {
    "d": "2026-08-21",
    "n": "Safara Festival",
@@ -399,6 +314,20 @@
   },
   {
    "d": "2026-09-05",
+   "n": "Mutism x Dreamscape: Stone (UK)",
+   "algus": "2026-09-05T20:00:00.000",
+   "v": "ERA Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Ambient",
+    "Dub"
+   ],
+   "url": "https://ra.co/events/2518434",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-05",
    "n": "ERIÜRITUS: VENUS CLUB 17 & SMILERS LIVE",
    "algus": "2026-09-05T23:00:00.000",
    "v": "TBA - Venus Club",
@@ -525,6 +454,23 @@
    ],
    "url": "https://ra.co/events/2508089",
    "pilet": true
+  },
+  {
+   "d": "2026-10-17",
+   "n": "NEXT LEVEL 17.10 // Hall - MESILA // TECHNO, DNB",
+   "algus": "2026-10-17T21:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Lauri Villau",
+    "RENGO"
+   ],
+   "g": [
+    "Drum & Bass",
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2518611",
+   "pilet": false
   }
  ]
 }

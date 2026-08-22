@@ -951,70 +951,6 @@
   "img": "pildid/teknariklauncher2k26.webp"
  },
  {
-  "d": "2026-08-07",
-  "t": "kontsert",
-  "n": "Kiwanoid «Ghost Nonius» albumiesitlus",
-  "a": "vinüül-LP esitlus; lisaks Lotte Jürjendal, Galaktlan, Wondering O, !!ii; korraldajad Glitch Please + Rada7.ee",
-  "b": [
-   "kiwanoid",
-   "Lotte Jürjendal",
-   "Galaktlan",
-   "Wondering O",
-   "!!ii"
-  ],
-  "v": "Veetorni Aed (Telliskivi 59a)",
-  "c": "Tallinn",
-  "g": [
-   "experimental",
-   "ambient",
-   "electro",
-   "techno"
-  ],
-  "sn": "Facebook event",
-  "su": "https://www.facebook.com/events/912277671206602",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/912277671206602",
-  "pu": "https://fienta.com/et/kiwanoid-ghost-nonius-albumiesitlus-veetorni-aed-7-08",
-  "hind": {
-   "praegu": "10€ / 15€",
-   "mark": "eelmüük 10€, uksel 15€",
-   "allikas": "Fienta, kontrollitud 28.07.2026"
-  },
-  "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Sama albumi reliisikirje on klubi-poolel juba olemas (09.07.2026); DJ-koosseis oli lehel 'more TBA'",
-  "img": "pildid/kiwanoidghostnoniusalbumiesitlus.webp"
- },
- {
-  "d": "2026-08-07",
-  "t": "klubi",
-  "n": "ERØS INVITES: SECRET RAVE 3",
-  "b": [
-   "ERØS",
-   "THEX",
-   "CRYPTIC",
-   "KRULL"
-  ],
-  "v": "SULPS Baar",
-  "c": "Tartu",
-  "g": [
-   "techno",
-   "industrial",
-   "hard",
-   "acid"
-  ],
-  "sn": "Facebook event",
-  "su": "https://www.facebook.com/events/2825256874489164",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/2825256874489164",
-  "pu": "https://gateme.com/event/103899",
-  "hind": {
-   "praegu": "5€ / 20€",
-   "mark": "Raver 5€, Support 20€",
-   "allikas": "GateMe, kontrollitud 28.07.2026"
-  },
-  "nb": "lisatud sweepis 28.07.2026 (FB event + GateMe; asukoht oli FB-s 'secret', GateMe avaldas selle). Kaks esinejat veel TBA",
-  "img": "pildid/ersinvitessecretrave3.webp"
- },
- {
   "d": "2026-08-14",
   "t": "klubi",
   "n": "Psÿdja: OPEN AIR",
@@ -1239,31 +1175,6 @@
   "img": "pildid/meisterjaanmitteintelligentnetantsumuusika.webp"
  },
  {
-  "d": "2026-08-07",
-  "t": "klubi",
-  "n": "micaxsan Summer Fiesta",
-  "a": "Žanrivaba extended shift + üllatuskülalised puldis. Kell 22.00–03.00, tasuta sissepääs, 21+",
-  "b": [
-   "micaxsan"
-  ],
-  "v": "Tšungel",
-  "c": "Tallinn",
-  "g": [
-   "house"
-  ],
-  "sn": "Resident Advisor",
-  "su": "https://ra.co/clubs/265290",
-  "on_": "Tšungel",
-  "ou": "https://tsungel.ee/",
-  "hind": {
-   "praegu": "tasuta",
-   "allikas": "tsungel.ee / RA, kontrollitud 02.08.2026"
-  },
-  "lisatud": "2026-08-02",
-  "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
-  "img": "pildid/micaxsansummerfiesta.webp"
- },
- {
   "d": "2026-09-11",
   "t": "klubi",
   "n": "Vaip Events: Counterstrike (CZ/RSA)",
@@ -1421,62 +1332,6 @@
   "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)",
   "img": "pildid/defferarchive01.webp"
- },
- {
-  "d": "2026-08-07",
-  "t": "klubi",
-  "n": "COMPRESS x HALL (ONLY TECHNO)",
-  "a": "COMPRESSi 7. väljaanne Mesila laval — hüpnootiline tehno Funktion-One süsteemil; 23.00–06.00, 18+",
-  "b": [
-   "Meelis Vili",
-   "micaxsan",
-   "L21 (GE)",
-   "Nora",
-   "Sugar Rody",
-   "Wataru Yoshimoto (JP)"
-  ],
-  "v": "HALL",
-  "c": "Tallinn",
-  "g": [
-   "techno"
-  ],
-  "sn": "HALL FB",
-  "su": "https://www.facebook.com/halltallinn/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1678866233207126/",
-  "pu": "https://gateme.com/et/halltallinn/104078-compress-rave-x-hall-only-techno-0708",
-  "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga.",
-  "img": "pildid/compressxhallonlytechno.webp"
- },
- {
-  "d": "2026-08-07",
-  "t": "klubi",
-  "n": "Sümbioos",
-  "a": "TOLMi tantsupõrand kui arenev organism — tehno eri tüved kohtuvad ja muteeruvad; Funktion-One",
-  "b": [
-   "Sümbioos",
-   "Harbinmoths",
-   "Radixsort"
-  ],
-  "v": "Tolm",
-  "c": "Tartu",
-  "g": [
-   "techno",
-   "minimal"
-  ],
-  "sn": "tolm.club",
-  "su": "https://tolm.club/",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1370134824463009/",
-  "hind": {
-   "praegu": "10€",
-   "mark": "sularaha või kaart",
-   "allikas": "tolm.club, kontrollitud 07.08.2026"
-  },
-  "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: tolm.club ürituste-leht (koosseis, hind) + Rada7.ee FB events-tab. Peetri 26, Tartu",
-  "img": "pildid/sumbioos.webp"
  },
  {
   "d": "2026-08-08",
