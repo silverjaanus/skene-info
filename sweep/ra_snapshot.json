@@ -1,130 +1,13 @@
 {
- "tommatud": "2026-08-22",
+ "tommatud": "2026-08-23",
  "aken": {
-  "algus": "2026-08-22",
-  "lopp": "2026-10-21"
+  "algus": "2026-08-23",
+  "lopp": "2026-10-22"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 29,
+ "kirjeid": 23,
  "kirjed": [
-  {
-   "d": "2026-08-21",
-   "n": "Safara Festival",
-   "algus": "2026-08-21T23:00:00.000",
-   "v": "HUNGR",
-   "ala": "Tallinn",
-   "b": [
-    "Pasaporteman",
-    "Opoku",
-    "Exploited Body",
-    "Dharma Doom",
-    "TNTC",
-    "Baba Sy",
-    "Bamba",
-    "Mookie (AU)",
-    "Shah Rud",
-    "Grove",
-    "Rama (2)"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2473978",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-22",
-   "n": "Healer Records: Pätt / Squash / West Coast Swingaz",
-   "algus": "2026-08-22T17:00:00.000",
-   "v": "Tšungel",
-   "ala": "Tallinn",
-   "b": [
-    "Squash"
-   ],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2496240",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-22",
-   "n": "Cosmonaut",
-   "algus": "2026-08-22T23:00:00.000",
-   "v": "Hall",
-   "ala": "Tallinn",
-   "b": [
-    "Cosmonaut",
-    "Ken Dark"
-   ],
-   "g": [
-    "Progressive House",
-    "Techno"
-   ],
-   "url": "https://ra.co/events/2515792",
-   "pilet": true
-  },
-  {
-   "d": "2026-08-21",
-   "n": "britiimpeerium all night long",
-   "algus": "2026-08-21T22:00:00.000",
-   "v": "Tšungel",
-   "ala": "Tallinn",
-   "b": [
-    "britiimpeerium"
-   ],
-   "g": [
-    "Pop",
-    "UK Funky"
-   ],
-   "url": "https://ra.co/events/2516518",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-21",
-   "n": "KTPSD 3",
-   "algus": "2026-08-21T23:00:00.000",
-   "v": "Tolm",
-   "ala": "All",
-   "b": [
-    "Arto",
-    "Veiko Kikas",
-    "Fok Yee",
-    "Alt666"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2513788",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-22",
-   "n": "LA FIESTA BACARDI",
-   "algus": "2026-08-22T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2513028",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-22",
-   "n": "INTORNO AL DISCO W/ Ric Piccolo, MELISSA, WATARU YOSHIMOTO, BILLY BATTERY & DR SOUND",
-   "algus": "2026-08-22T23:00:00.000",
-   "v": "Clwds",
-   "ala": "Tallinn",
-   "b": [
-    "Ric Piccolo"
-   ],
-   "g": [
-    "House",
-    "Disco"
-   ],
-   "url": "https://ra.co/events/2515921",
-   "pilet": false
-  },
   {
    "d": "2026-08-27",
    "n": "Arto",
@@ -291,6 +174,22 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2515368",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-04",
+   "n": "I TRANCE YOU presents ARMIN VAN BUUREN UNOFFICIAL PRE-PARTY",
+   "algus": "2026-09-04T20:00:00.000",
+   "v": "Fort Bar",
+   "ala": "Tallinn",
+   "b": [
+    "Airborn"
+   ],
+   "g": [
+    "Progressive House",
+    "Trance"
+   ],
+   "url": "https://ra.co/events/2519035",
    "pilet": false
   },
   {

@@ -1696,6 +1696,45 @@
    "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata. RIKASTATUD 22.08.2026 postkastijooksul Paavli uudiskirjast (18.08): soojendaja Akusakura + FB event + algus 19.00, kinnitatud teise allikaga paavli.ee ürituselehelt ja @akusakura_ IG-postitusest. Silt 'shoegaze' pärineb Paavli enda uudiskirja sõnastusest ('shoegaze and dream pop') — korraldaja kirjeldus, mitte verifitseeritud taksonoomia."
   },
   {
+   "d": "2026-08-20",
+   "d2": "22.08",
+   "t": "festival",
+   "n": "ART OF MOSH 2026",
+   "a": "kolmepäevane (20.–22.08) kunsti- ja muusikafestival (vabaõhulava Xinhai terrassil + Uus Laine pealava); näitus, töötoad, turg; koosseis täieneb",
+   "b": [
+    "Routine (UA/DE)",
+    "superkomfort",
+    "Zakroyyy (LV)",
+    "Cottonmoth",
+    "Around the Sun",
+    "Stefania Boiko",
+    "Pihikamber",
+    "Kannabinõid",
+    "Süki (LV)",
+    "Manna",
+    "Koni",
+    "Such a Vain Endeavour",
+    "NoRest Souls (LV)",
+    "Homebroke",
+    "Tiny Sequoia (FIN)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock",
+    "stoner",
+    "punk"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1706413267228257/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1706413267228257/",
+   "pu": "https://fienta.com/et/art-of-mosh-routine-ua-de-kannabinoid-superkomfort-zakroyyy-lv-and-many-more",
+   "nb": "3-päevane festival (20.08 kunstinäitus+DJd TBA, 21.08 + 22.08 kaks lava); täiskoosseis avaldatud Fientas 15.07.2026 (R 21.08: Routine, superkomfort, Zakroyyy, Cottonmoth, Around the Sun, Stefania Boiko, Pihikamber; L 22.08: Kannabinõid, Süki, Manna, Koni, Such a Vain Endeavour, Norest Souls, Homebroke, Tiny Sequoia); more tba; pilet Fientas (earlybird); korraldajad Art of Mosh + Uus Laine; lisatud 13.07.2026, rikastatud 15.07.2026",
+   "img": "pildid/artofmosh2026.webp"
+  },
+  {
    "d": "2026-08-21",
    "t": "kontsert",
    "n": "Barbatos + Beatrix + külaline",
@@ -1771,6 +1810,78 @@
    },
    "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA: funk/soul on nüüd peasaidi skoobis uue metafiltrina (Augustibluusi pretsedent — bluus oli 8., funk on 9. katusekategooria). Allikad: FB event (Rada7 12.08 uudiskiri) + Fienta ürituseleht (algus 20.00). RIKASTATUD 22.08.2026 postkastijooksul Paavli uudiskirjadest (18.08 + 21.08): soojendaja Friction ja järelpeo DJ Mr. Lex; teine allikas paavli.ee ürituseleht (\"Friction on sujuv kooslus noortest\").",
    "img": "pildid/lexsouldancemachinesuveainuskontserttallinnas.webp"
+  },
+  {
+   "d": "2026-08-21",
+   "d2": "22.08",
+   "t": "festival",
+   "n": "Ülase Fest '26",
+   "a": "kahepäevane DIY-festival Ülase12-s: 25 bändi + DJd + performance'id; algus 21.08 kell 16.00",
+   "v": "Ülase 12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "alt"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1999285581007306",
+   "nb": "koosseis parandatud 28.07.2026: varem oli 'Frost Pisse Elend (DE)' ühe kirjena — tegelikult kolm eraldi bändi (Frost, Pisse, Elend DE); lisatud Vispel; parandatud Tavas Māsas Nāsis ja Kad Viss Beidzas",
+   "b": [
+    "Võru (DE)",
+    "Holocausts (DE)",
+    "Ognemöt",
+    "Tavas Māsas Nāsis (LV)",
+    "ZLO",
+    "Mörv (FI)",
+    "Vigri",
+    "Hävitus",
+    "Atentaat",
+    "Huiabella Fantastica",
+    "Konnahaldjas",
+    "Random Crashes (FI)",
+    "Korralagedus",
+    "Konventio (FI)",
+    "Mang Ont",
+    "Eldereater",
+    "Myteri (SWE)",
+    "Frost",
+    "Pisse",
+    "Elend (DE)",
+    "Süki (LV)",
+    "Kad Viss Beidzas (LV)",
+    "Vispel",
+    "Spat (SCO)",
+    "halb päev"
+   ],
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1999285581007306",
+   "hind": {
+    "praegu": "20€ / 30€",
+    "mark": "toetus (support): 1 päev 20€, 2 päeva 30€; DJd: DREVTH, kadaverkklanusx x lik-ur-bum, Aubery, Vispel, Monknash, Starfall",
+    "allikas": "FB event, kontrollitud 19.07.2026"
+   }
+  },
+  {
+   "d": "2026-08-22",
+   "t": "kontsert",
+   "n": "Metal Saturday: Narasanti + Innerspell",
+   "a": "Modern metal õhtu — uksed 20:00, algus 22:00, 00:00 vaba sissepääs + afterparty",
+   "b": [
+    "Narasanti",
+    "Innerspell"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metalcore",
+    "nu-metal",
+    "djent"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/narasanti-innerspell-thekrypt",
+   "pu": "https://fienta.com/et/narasanti-innerspell-thekrypt",
+   "nb": "lisatud sweepis 25.07.2026; korraldaja Sügis Productions / The Krypt (Pärnu mnt 19)",
+   "img": "pildid/metalsaturdaynarasantiinnerspell.webp"
   }
  ]
 }

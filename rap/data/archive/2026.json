@@ -362,6 +362,55 @@
    "ou": "https://www.facebook.com/events/4489215714691572/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event. Hinnainfot event-lehel ei olnud"
+  },
+  {
+   "d": "2026-08-22",
+   "t": "klubi",
+   "n": "Back 2 Bashment",
+   "a": "Bashment FM: reggae/dancehall/heavy bass; kell 22-04",
+   "b": [
+    "Bashment FM DJd",
+    "Tarrvi Laamann"
+   ],
+   "v": "Legendaarne (Krulli 2b)",
+   "c": "Tallinn",
+   "g": [
+    "dancehall",
+    "reggae",
+    "bass"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1378621834167563/",
+   "pu": "https://fienta.com/et/back-2-bashment",
+   "nb": "lisatud sweepis 19.07.2026; Bashment FM sari aastast 1998",
+   "img": "pildid/back2bashment.webp"
+  },
+  {
+   "d": "2026-08-22",
+   "t": "kontsert",
+   "n": "Räppar Mägi: Rakvere live",
+   "a": "Uksed 18.00 (Fienta järgi 19.00), kontsert 20.00; kohapeal avatud kohvik",
+   "b": [
+    "Mägi"
+   ],
+   "v": "Köster Gööcki Maja (Spordi 14)",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et?q=r%C3%A4pp",
+   "pu": "https://fienta.com/et/rappar-magi-magi-rakvere-live-concert",
+   "hind": {
+    "praegu": "15€ / kohapeal 20€",
+    "allikas": "Rakvere kultuurisündmused FB + Fienta, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; kaks allikat: Fienta + Rakvere kultuurisündmuste FB. NB pu-slug tuletatud Fienta pealkirjast — kui link ei tööta, otsi Fientast 'Räppar Mägi'",
+   "img": "pildid/rapparmagirakverelive.webp"
   }
  ]
 }
