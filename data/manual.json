@@ -641,32 +641,6 @@
   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi)"
  },
  {
-  "d": "2026-08-08",
-  "d2": "09.08",
-  "t": "festival",
-  "n": "M'era Luna",
-  "a": "gooti/dark-electro festival; Rammstein, Within Temptation, Front Line Assembly, Combichrist, Hocico jt",
-  "b": [
-   "Rammstein",
-   "Within Temptation",
-   "Front Line Assembly",
-   "Combichrist"
-  ],
-  "v": "Flugplatz Hildesheim-Drispenstedt",
-  "c": "Euroopa",
-  "linn": "Hildesheim, Saksamaa",
-  "g": [
-   "dark",
-   "electro",
-   "ebm",
-   "goth",
-   "industrial"
-  ],
-  "sn": "M'era Luna",
-  "su": "https://meraluna.de/en/",
-  "nb": "hinnaklassid kontrollimata 2026 kohta - varasematel aastatel 4 taset (666/Half Moon/Full Moon/Blood Moon), pileti pood JS-põhine"
- },
- {
   "d": "2026-08-12",
   "d2": "15.08",
   "t": "festival",
@@ -1334,31 +1308,6 @@
   },
   "nb": "lisatud sweepis 19.07.2026 (Ticketer)",
   "img": "pildid/jmke40saartetuurhiiumaa.webp"
- },
- {
-  "d": "2026-08-09",
-  "t": "kontsert",
-  "n": "The Cure + Duo Ruut + Antti Paalanen",
-  "a": "The Cure esmakordselt Eestis; külalised Duo Ruut (EE) ja Antti Paalanen (FI); algus 19.00",
-  "b": [
-   "The Cure",
-   "Duo Ruut",
-   "Antti Paalanen (FI)"
-  ],
-  "v": "Unibet Arena kvartal",
-  "c": "Tallinn",
-  "g": [
-   "rock",
-   "goth",
-   "post-punk"
-  ],
-  "sn": "L Tips Agency Estonia FB",
-  "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1928466314702496/",
-  "pu": "https://www.piletilevi.ee/piletid/C2QLJFKGYR/the-cure",
-  "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; 5,5K huvilist FB-s",
-  "img": "pildid/thecureduoruutanttipaalanen.webp"
  },
  {
   "d": "2026-09-24",
@@ -2265,29 +2214,6 @@
   "ou": "https://www.tonsofrock.no/en",
   "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA",
   "img": "pildid/tonsofrock2027.webp"
- },
- {
-  "d": "2026-08-09",
-  "t": "kontsert",
-  "n": "Blisterous (FIN) + Gangrenated + Hirmuvalitseja",
-  "a": "Õhtu täis mädanenud death metalit — Blisterous'i ja Gangrenatedi balti mini-tuuri viimane peatus (07.08 sama tuur Hellis Tartus); kohalik toetus Hirmuvalitseja. Algus 18.00, ajakava TBA",
-  "b": [
-   "Blisterous",
-   "Gangrenated",
-   "Hirmuvalitseja"
-  ],
-  "v": "Kotka Kultuurimaja",
-  "c": "Tallinn",
-  "g": [
-   "death",
-   "metal"
-  ],
-  "sn": "Secret Face Productions FB",
-  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/2287490378730502/",
-  "lisatud": "2026-08-02",
-  "nb": "lisatud sweepis 02.08.2026; piletiinfot pole avaldatud; sama mini-tuuri Tartu peatus (07.08, Hell) oli juba andmetes"
  },
  {
   "d": "2026-08-27",
