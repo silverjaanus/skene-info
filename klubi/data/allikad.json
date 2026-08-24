@@ -5,6 +5,18 @@
    "nimi": "Kohad",
    "items": [
     {
+     "n": "Aamen (Tallinn)",
+     "u": "https://ra.co/clubs/274650"
+    },
+    {
+     "n": "Bar IDA (Tallinn)",
+     "u": "https://ra.co/clubs/268078"
+    },
+    {
+     "n": "Botik (Tallinn)",
+     "u": "https://ra.co/clubs/171803"
+    },
+    {
      "n": "Copper Leg / Vaskjala loomeresidentuur",
      "u": "https://copperleg.rae.ee/"
     },
@@ -13,8 +25,16 @@
      "u": "https://www.d-3.ee/events/"
     },
     {
+     "n": "Erinevate Tubade Klubi (Tartu)",
+     "u": "https://ra.co/clubs/130421"
+    },
+    {
      "n": "Fonoteek",
      "u": "https://www.facebook.com/fonoteekbar/events"
+    },
+    {
+     "n": "Fort Bar (Tallinn)",
+     "u": "https://ra.co/clubs/277713"
     },
     {
      "n": "Genialistide Klubi (Tartu)",
@@ -29,6 +49,10 @@
      "u": "https://ra.co/clubs/235784"
     },
     {
+     "n": "Kai kunstikeskus (Tallinn)",
+     "u": "https://ra.co/clubs/229208"
+    },
+    {
      "n": "Kaks Tuba (Rapla)",
      "u": "https://www.facebook.com/kakstuba/events"
     },
@@ -37,16 +61,40 @@
      "u": "https://ra.co/clubs/147536"
     },
     {
+     "n": "Kikumu (Jäneda)",
+     "u": "https://ra.co/clubs/289641"
+    },
+    {
+     "n": "Kivi (Tartu)",
+     "u": "https://ra.co/clubs/165290"
+    },
+    {
      "n": "Kultuuriklubi Tempel (Parnu)",
      "u": "https://ra.co/clubs/151795"
+    },
+    {
+     "n": "Kära Kants (Rakvere)",
+     "u": "https://ra.co/clubs/258847"
+    },
+    {
+     "n": "Loovruum / Creative Space Tallinn",
+     "u": "https://ra.co/clubs/256380"
+    },
+    {
+     "n": "Nullpunkt (Tallinn)",
+     "u": "https://ra.co/clubs/266488"
     },
     {
      "n": "Paavli Kultuurivabrik",
      "u": "https://fienta.com/o/17595"
     },
     {
-     "n": "Tolm (Tartu)",
-     "u": "https://tolm.club/"
+     "n": "Peatus (Tallinn)",
+     "u": "https://ra.co/clubs/135627"
+    },
+    {
+     "n": "TOLM (Tartu)",
+     "u": "https://www.facebook.com/tolm.trt/events"
     },
     {
      "n": "Tšungel (Tallinn)",
@@ -74,12 +122,88 @@
    "nimi": "Korraldajad",
    "items": [
     {
+     "n": "Altarea",
+     "u": "https://ra.co/promoters/167566"
+    },
+    {
+     "n": "Amfiib / REDSHIFT",
+     "u": "https://ra.co/promoters/112914"
+    },
+    {
      "n": "Beats From The Vault (BFTV)",
      "u": "https://www.facebook.com/beatsfromthevault/events"
     },
     {
+     "n": "Crunch Tapes",
+     "u": "https://ra.co/promoters/117673"
+    },
+    {
+     "n": "Dancepunkd",
+     "u": "https://ra.co/promoters/182414"
+    },
+    {
+     "n": "Džungel (peosari)",
+     "u": "https://www.facebook.com/Dzungelparty/events"
+    },
+    {
+     "n": "Gild",
+     "u": "https://ra.co/promoters/168166"
+    },
+    {
+     "n": "IDA Radio (korraldaja)",
+     "u": "https://ra.co/promoters/152869"
+    },
+    {
+     "n": "Masta Blasta",
+     "u": "https://ra.co/promoters/112333"
+    },
+    {
+     "n": "ORBIIT",
+     "u": "https://ra.co/promoters/186216"
+    },
+    {
+     "n": "ost euro",
+     "u": "https://ra.co/promoters/154074"
+    },
+    {
+     "n": "Positive Transmitter",
+     "u": "https://ra.co/promoters/126462"
+    },
+    {
+     "n": "Selecta Events",
+     "u": "https://ra.co/promoters/114452"
+    },
+    {
      "n": "Shelter (Fienta)",
      "u": "https://fienta.com/et/o/17855"
+    },
+    {
+     "n": "Shelter (korraldaja)",
+     "u": "https://ra.co/promoters/114408"
+    },
+    {
+     "n": "Shorebitch",
+     "u": "https://ra.co/promoters/34191"
+    },
+    {
+     "n": "Signaal",
+     "u": "https://ra.co/promoters/191300"
+    },
+    {
+     "n": "Sonic Vision Events",
+     "u": "https://ra.co/promoters/166316"
+    },
+    {
+     "n": "SÜDA",
+     "u": "https://ra.co/promoters/169601"
+    },
+    {
+     "n": "Tehnoülevaatus",
+     "u": "https://ra.co/promoters/190547"
+    },
+    {
+     "n": "WAKE UP EVENT",
+     "u": "https://www.facebook.com/profile.php?id=61557037942445&sk=events"
     }
    ]
   },
@@ -123,6 +247,10 @@
     {
      "n": "Planeet (Audio Planeet)",
      "u": "https://www.facebook.com/AudioPlaneet/events"
+    },
+    {
+     "n": "Reglok (Rego Kauber)",
+     "u": "https://www.facebook.com/djreglok/events"
     }
    ]
   },

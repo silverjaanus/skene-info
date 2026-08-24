@@ -822,6 +822,31 @@
     "veeb": "https://wunderbaar.ee/",
     "tyyp": "venue",
     "nb": "lisatud klubi-poolele 22.08.2026 SILVERI OTSUSEGA: \"kui on klubimuusika, siis ilmselgelt klubi poolele, aga seal tuleb vaadata, et oleks ikka mingi alternatiivne element sees\". Sama leht on ka peasaidi fb-nimekirjas (rokibaari kontserdid) — see kirje katab AINULT DJ-õhtud. ⚠ KURATEERI IGA ÕHTU ERALDI, ära tõmba kogu DJ-kava sisse: sisse lähevad alternatiivse elemendiga õhtud (nt 21.08 Weatherlake, minimal-tehno), välja jäävad tavalised peo-/kaver-DJ-õhtud. Otsuse näited 22.08: 28.08 DJ Möls ja 29.08 Hot n' Handsome jäid VÄLJA (peo-DJ-õhtud, alternatiivset elementi ei tuvastanud; allikad: Wunderbaari FB events + @wunderbaar IG). ⚠ wunderbaar.ee ürituste-nimekiri vananeb (17.08 õppetund) — FB-leht on primaarne."
+   },
+   {
+    "nimi": "WAKE UP EVENT",
+    "url": "https://www.facebook.com/profile.php?id=61557037942445&sk=events",
+    "tyyp": "peosari",
+    "nb": "lisatud 24.08.2026 (Silveri sisend, FB event 1368576134479294). FB-kasutajanimi wake.upevent.s, aga leht on profile.php-kujul — URL peab jääma id-põhiseks. Techno + dnb reivid Tallinnas (Ü15) ja Tartus (TOLM); teeb ühispidusid Džungli ja Reglokiga. Piletid tihti Ticketeri kaudu."
+   },
+   {
+    "nimi": "Džungel (peosari)",
+    "url": "https://www.facebook.com/Dzungelparty/events",
+    "tyyp": "peosari",
+    "nb": "lisatud 24.08.2026 (Silveri sisend). Jungle/dnb peosari, eestvedaja Rego Kauber (Reglok); toob Eestis vähe mängitavat jungle-muusikat. Kattub tihti WAKE UP EVENTi kirjetega — kontrolli dubleerimist."
+   },
+   {
+    "nimi": "Reglok (Rego Kauber)",
+    "url": "https://www.facebook.com/djreglok/events",
+    "tyyp": "artist/promootor",
+    "nb": "lisatud 24.08.2026 (Silveri sisend). Jungle/dnb DJ ja promootor; seotud peosarjadega Džungel, Estonia Jungle Community, Harder & Louder, Saaremaa Jam, Ü15. linktr.ee/ReglokMusic. Isikuprofiil Rego Kauber on eraldi — lehe events-tab on piisav."
+   },
+   {
+    "nimi": "TOLM (Tartu)",
+    "url": "https://www.facebook.com/tolm.trt/events",
+    "veeb": "https://tolm.club/",
+    "tyyp": "venue",
+    "nb": "lisatud 24.08.2026 (Silveri sisend); asendab varasema js_saidid-kirje 'Tolm (Tartu)' (ainult tolm.club). Peetri 26, Tartu; club : community : safe space, 18+, avatud 23–08 ainult avalike ürituste ajal. RA venue-leht: https://ra.co/clubs/285409 (RA aadress Kalmistu 21 EI klapi FB/tolm.club aadressiga Peetri 26 — usalda venue enda oma). ⚠ MAJA LÄHEB LAMMUTAMISELE: viimane pidu 'TOLM — the end.' 12.–13.09.2026, pärast seda on allikas surnud — kontrolli 09/2026 ja arhiveeri või jälgi, kuhu kogukond kolib (amfiib.com / REDSHIFT)."
    }
   ],
   "ig": [],
@@ -866,12 +891,6 @@
     "url": "https://ra.co/clubs/265290",
     "tyyp": "venue",
     "nb": "lisatud 26.07.2026 (sweepi leid): suvine välilava-baar Kopli 1 / Balti jaam, DJd K-L, ainult elektrooniline muusika, sissepääs tasuta + uksepoliitika; oma sait tsungel.ee näitab ainult paari lähimat üritust, RA venue-leht on täielikum; Healer Recordsi suveresidentuur"
-   },
-   {
-    "nimi": "Tolm (Tartu)",
-    "url": "https://tolm.club/",
-    "tyyp": "venue",
-    "nb": "tulevased uritused + FB-event lingid otse lehel"
    },
    {
     "nimi": "Kultuuriklubi Tempel (Parnu)",
@@ -925,6 +944,202 @@
     "url": "https://copperleg.rae.ee/",
     "tyyp": "venue",
     "nb": "lisatud 14.08.2026 (koos EES-iga). Rae koolimaja, Ussiaugu tee 20, Vaskjala (Rae vald, 18 km Tallinnast). Kunstiresidentuur, Sirakase toimumiskoht; blogi kajastab residentide toid, uritusi harva - EES-i leht on urituste osas primaarne."
+   },
+   {
+    "nimi": "Bar IDA (Tallinn)",
+    "url": "https://ra.co/clubs/268078",
+    "tyyp": "venue",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Telliskivi 60a/5; IDA Raadio baar, 9 RA-uritust sel aastal. RA-l veebilinki EI OLE — kodulehe/FB otsi ules, kui ette juhtub (idaidaida.net on raadio, mitte baar)."
+   },
+   {
+    "nimi": "Nullpunkt (Tallinn)",
+    "url": "https://ra.co/clubs/266488",
+    "tyyp": "venue",
+    "veeb": "http://nullpunkt.ee",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Juhkentali 11; klubi+venue, RA-l ka korraldajana (promoter 167913, 14 uritust)."
+   },
+   {
+    "nimi": "Fort Bar (Tallinn)",
+    "url": "https://ra.co/clubs/277713",
+    "tyyp": "venue",
+    "veeb": "http://www.fortbar.ee/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Pikk 43, vanalinn; 5 RA-uritust sel aastal."
+   },
+   {
+    "nimi": "Kivi (Tartu)",
+    "url": "https://ra.co/clubs/165290",
+    "tyyp": "venue",
+    "veeb": "https://www.facebook.com/baarikivi/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Ruutli 13, Tartu; RA eventCountThisYear=0 aga varasemaid kuvatakse — hore allikas, kontrolli FB-d."
+   },
+   {
+    "nimi": "Kai kunstikeskus (Tallinn)",
+    "url": "https://ra.co/clubs/229208",
+    "tyyp": "venue",
+    "veeb": "http://www.kairesto.ee",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Mere pst 20C, Noblessner; kunstikeskus, eksperimentaalne/klubiprogramm harva. NB kairesto.ee on RESTORAN — kunstikeskuse programm on kai.center."
+   },
+   {
+    "nimi": "Kikumu (Jäneda)",
+    "url": "https://ra.co/clubs/289641",
+    "tyyp": "venue",
+    "veeb": "http://www.kikumu.ee",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Jäneda; RA-l ka korraldajana (promoter 185102 KiKuMu). Maapiirkonna reivikoht."
+   },
+   {
+    "nimi": "Peatus (Tallinn)",
+    "url": "https://ra.co/clubs/135627",
+    "tyyp": "venue",
+    "veeb": "http://www.facebook.com/PeatusTelliskivi",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Telliskivi 62 — SAMA AADRESS mis Fonoteek; kontrolli, kas kirje kaib Peatuse voi Fonoteegi alla."
+   },
+   {
+    "nimi": "Aamen (Tallinn)",
+    "url": "https://ra.co/clubs/274650",
+    "tyyp": "venue",
+    "veeb": "https://aamen.ee/en/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Vana-Viru 15; RA eventCountThisYear=0, aga aastas paar — hore allikas."
+   },
+   {
+    "nimi": "Botik (Tallinn)",
+    "url": "https://ra.co/clubs/171803",
+    "tyyp": "venue",
+    "veeb": "https://facebook.com/botikbar/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Marati 5, Pohjala tehas; baar, mis teeb elektroonilisi ohtuid."
+   },
+   {
+    "nimi": "Kära Kants (Rakvere)",
+    "url": "https://ra.co/clubs/258847",
+    "tyyp": "venue",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Tallinna 28, Rakvere; AINUS Laane-Viru koht RA Eesti nimekirjas. RA-l veebilinki ei ole — otsi FB ules."
+   },
+   {
+    "nimi": "Loovruum / Creative Space Tallinn",
+    "url": "https://ra.co/clubs/256380",
+    "tyyp": "venue",
+    "veeb": "http://creativespacetallinn.ee/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Tulika 9/11; 3 RA-uritust."
+   },
+   {
+    "nimi": "Erinevate Tubade Klubi (Tartu)",
+    "url": "https://ra.co/clubs/130421",
+    "tyyp": "venue",
+    "veeb": "https://www.facebook.com/tartuerinevatetubadeklubi/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). Kastani 24, Tartu. NB RA kirjutab nime valesti ('Erinevate Tubane Klubi')."
+   },
+   {
+    "nimi": "Shelter (korraldaja)",
+    "url": "https://ra.co/promoters/114408",
+    "tyyp": "promootor",
+    "veeb": "https://linktr.ee/shelter.tln",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 30 uritust — suurim skoobis olev korraldaja RA-l. Fienta org-leht 17855 on juba allikas; RA-leht naitab ka neid, mis Fientasse ei joua."
+   },
+   {
+    "nimi": "Altarea",
+    "url": "https://ra.co/promoters/167566",
+    "tyyp": "promootor",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 11 uritust; RA-l veebilinki ei ole."
+   },
+   {
+    "nimi": "Shorebitch",
+    "url": "https://ra.co/promoters/34191",
+    "tyyp": "promootor",
+    "veeb": "https://www.shorebitch.com",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 6 uritust."
+   },
+   {
+    "nimi": "Gild",
+    "url": "https://ra.co/promoters/168166",
+    "tyyp": "promootor",
+    "veeb": "https://linktr.ee/gildclub",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 5 uritust."
+   },
+   {
+    "nimi": "Amfiib / REDSHIFT",
+    "url": "https://ra.co/promoters/112914",
+    "tyyp": "promootor",
+    "veeb": "https://amfiib.com/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). REDSHIFT-sarja taga; TOLMi peamine kureerija. ⚠ TOLM lopetab 09/2026 — Amfiib on see niit, mille kaudu naed, KUHU kogukond kolib. amfiib.com/redshift + uudiskiri."
+   },
+   {
+    "nimi": "Sonic Vision Events",
+    "url": "https://ra.co/promoters/166316",
+    "tyyp": "promootor",
+    "veeb": "https://www.sonicvisionevents.ee",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 4 uritust; teeb HALLis (nt KONTRAST with Mija 04.09)."
+   },
+   {
+    "nimi": "Selecta Events",
+    "url": "https://ra.co/promoters/114452",
+    "tyyp": "promootor",
+    "veeb": "https://instagram.com/selecta4events/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 4 uritust."
+   },
+   {
+    "nimi": "ost euro",
+    "url": "https://ra.co/promoters/154074",
+    "tyyp": "promootor",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 4 uritust; RA-l veebilinki ei ole."
+   },
+   {
+    "nimi": "Crunch Tapes",
+    "url": "https://ra.co/promoters/117673",
+    "tyyp": "promootor",
+    "veeb": "https://crunchtapes.com",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 3 uritust; plaadifirma+peosari."
+   },
+   {
+    "nimi": "Positive Transmitter",
+    "url": "https://ra.co/promoters/126462",
+    "tyyp": "promootor",
+    "veeb": "https://www.facebook.com/PositiveTransmitterAgency/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 3 uritust; agentuur."
+   },
+   {
+    "nimi": "Dancepunkd",
+    "url": "https://ra.co/promoters/182414",
+    "tyyp": "promootor",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 3 uritust; RA-l veebilinki ei ole."
+   },
+   {
+    "nimi": "SÜDA",
+    "url": "https://ra.co/promoters/169601",
+    "tyyp": "promootor",
+    "veeb": "https://www.instagram.com/wearesuda/",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 2 uritust."
+   },
+   {
+    "nimi": "IDA Radio (korraldaja)",
+    "url": "https://ra.co/promoters/152869",
+    "tyyp": "promootor",
+    "veeb": "https://www.idaidaida.net",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 2 uritust; seotud Bar IDA-ga."
+   },
+   {
+    "nimi": "ORBIIT",
+    "url": "https://ra.co/promoters/186216",
+    "tyyp": "promootor",
+    "veeb": "https://orbiit.events",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 2 uritust."
+   },
+   {
+    "nimi": "Tehnoülevaatus",
+    "url": "https://ra.co/promoters/190547",
+    "tyyp": "promootor",
+    "veeb": "https://www.instagram.com/tehnoulevaatus",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). uus sari (Tehnoulevaatus #1 28.08 HUNGRis, juba manual.json-is); allikas puudus."
+   },
+   {
+    "nimi": "Signaal",
+    "url": "https://ra.co/promoters/191300",
+    "tyyp": "promootor",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). uus sari (Signaal x Aparaaditehas 11.09 juba manual.json-is); RA-l veebilinki ei ole — otsi FB/IG ules."
+   },
+   {
+    "nimi": "Masta Blasta",
+    "url": "https://ra.co/promoters/112333",
+    "tyyp": "promootor",
+    "nb": "lisatud 24.08.2026 (Silveri otsus, RA GraphQL-labikammimine area 184 = Eesti, 585 uritust 08/2025-12/2027 -> 40 venue'i + 80 korraldajat). 2 uritust; dub/bass-sari, tegutses TOLMis. RA-l veebilinki ei ole."
    }
   ]
  }

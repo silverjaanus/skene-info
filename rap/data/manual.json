@@ -40,7 +40,6 @@
   "nb": "koosseis täienes 28.07.2026 sweepis 11 -> 19 nime (FB event 1255908596517597). Kuupäev 14.–15.08 kinnitatud eestihiphopfestival.ee-lt (FB näitab 14.–16.08 laagri tõttu)"
  },
  {
-  "tba": 1,
   "d": "2027-08-13",
   "d2": "14.08",
   "t": "festival",
@@ -59,7 +58,8 @@
   "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
   "pu": "https://piletitasku.ee/et/event/10014",
   "img": "pildid/tartupunch2027.webp",
-  "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud."
+  "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
+  "koosseis_tba": 1
  },
  {
   "d": "2026-08-22",
@@ -409,7 +409,8 @@
    "allikas": "GateMe, kontrollitud 14.08.2026"
   },
   "lisatud": "2026-08-14",
-  "nb": "lisatud sweepis 14.08.2026; kolm allikat: Helitehas FB event + GateMe + helitehas.ee. pu viitab GateMe Helitehase lehele (otse-eventi URL polnud kindlalt loetav). NB mitte segi ajada A.V.R Arop x ProdigyBoys 28.08 Tartu üritusega (eraldi kirje)"
+  "nb": "lisatud sweepis 14.08.2026; kolm allikat: Helitehas FB event + GateMe + helitehas.ee. pu viitab GateMe Helitehase lehele (otse-eventi URL polnud kindlalt loetav). NB mitte segi ajada A.V.R Arop x ProdigyBoys 28.08 Tartu üritusega (eraldi kirje)",
+  "img": "pildid/bakkaraugustiviimanereede.webp"
  },
  {
   "d": "2026-09-11",
@@ -431,7 +432,8 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/2067993643814194/",
   "lisatud": "2026-08-14",
-  "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis."
+  "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis.",
+  "img": "pildid/tommyboyxwiiraltgreatestsplitsesitluskontsert.webp"
  },
  {
   "d": "2026-08-28",
@@ -553,7 +555,8 @@
   "su": "https://www.instagram.com/eestihiphopfestival/",
   "on_": "eestihiphopfestival.ee",
   "ou": "https://eestihiphopfestival.ee/",
-  "nb": "lisatud 17.08.2026: kuupäev 13.–14.08.2027 festivali enda IG-biost; ametlik sait näitab veel 2026 → tba kuni teine kinnitus"
+  "nb": "lisatud 17.08.2026: kuupäev 13.–14.08.2027 festivali enda IG-biost; ametlik sait näitab veel 2026 → tba kuni teine kinnitus",
+  "koosseis_tba": 1
  },
  {
   "d": "2026-10-02",
@@ -580,6 +583,7 @@
    "allikas": "GateMe, kontrollitud 22.08.2026"
   },
   "lisatud": "2026-08-22",
-  "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi."
+  "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi.",
+  "img": "pildid/triibupastaxnoorednaljased.webp"
  }
 ]
