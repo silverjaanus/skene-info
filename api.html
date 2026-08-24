@@ -90,6 +90,8 @@ html[lang="et"] .only-en{display:none}
       <tr><td>pu, hind</td><td>piletilink ja hind (<code>{praegu, mark, allikas}</code>; puudub, kui pole kinnitatud)</td></tr>
       <tr><td>img</td><td>kaanepilt, täielik URL</td></tr>
       <tr><td>rel, lisatud</td><td>reliisimärgis ja lisamiskuupäev (reliis on saidil "uus" 30 päeva alates lisamisest)</td></tr>
+      <tr><td>tba</td><td><code>1</code> = <b>kuupäev ei ole kinnitatud</b>. <code>d</code> on siis parim teadaolev oletus ja saidil kuvatakse kuupäeva asemel silt „TBA". Kalendritellimusest jäetakse need kirjed välja. Lisatud 24.08.2026 dokumentatsiooni.</td></tr>
+      <tr><td>koosseis_tba</td><td><code>1</code> = <b>koosseis on veel avaldamata</b> (<code>b</code> on tühi, aga kuupäev ja koht on kinnitatud). Eraldi väli sellepärast, et <code>tba</code> tähendab ainult kuupäeva. Lisatud 24.08.2026.</td></tr>
     </table>
 
     <h2>Kasutamine</h2>
@@ -144,6 +146,8 @@ html[lang="et"] .only-en{display:none}
       <tr><td>pu, hind</td><td>ticket link and price (<code>{praegu, mark, allikas}</code>; absent when unconfirmed)</td></tr>
       <tr><td>img</td><td>cover image, full URL</td></tr>
       <tr><td>rel, lisatud</td><td>release flag and date added (a release counts as "new" for 30 days from adding)</td></tr>
+      <tr><td>tba</td><td><code>1</code> = <b>the date is not confirmed</b>. <code>d</code> is then the best known estimate and the site shows a "TBA" label instead of the date. These entries are excluded from the calendar subscription. Documented 2026-08-24.</td></tr>
+      <tr><td>koosseis_tba</td><td><code>1</code> = <b>the line-up has not been announced yet</b> (<code>b</code> is empty, but date and venue are confirmed). A separate field because <code>tba</code> refers to the date only. Added 2026-08-24.</td></tr>
     </table>
 
     <h2>Usage</h2>
