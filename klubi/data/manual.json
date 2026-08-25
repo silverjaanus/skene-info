@@ -2059,7 +2059,7 @@
    "Icahera",
    "Kersten Kõrge"
   ],
-  "v": "era",
+  "v": "era (Peetri 5, Noblessner)",
   "c": "Tallinn",
   "g": [
    "ambient",
@@ -2073,7 +2073,7 @@
   "ou": "https://ra.co/events/2518434",
   "pu": "https://fienta.com/et/mutism-x-dreamscape",
   "lisatud": "2026-08-22",
-  "nb": "lisatud sweepis 22.08.2026. Kaks allikat: RA event 2518434 (RA snapshot, ala 184) + Fienta ürituseleht (korraldaja Dreamscape MTÜ, o/28826). ⚠ AADRESSI VASTUOLU (kontrollitud 22.08 teises jooksus): RA event ütleb 'ERA Club, Ahtri 10 A', Fienta ürituseleht ütleb kaks korda 'era • Peetri tänav 5, 10415 Tallinn' ja kirjelduses 'Location: Era (IG: @era.tallinn), Peetri 5, Noblessner'. REEGLID §3 järgi võidab ametlik pileti-/event-leht → aadressiks jääks Peetri 5 (Noblessner), aga kuna kaks poolametlikku allikat lähevad lahku, on kirjes ainult venue nimi 'era' ja aadress on Silveri üle vaadata. Täiskoosseis Fienta kirjeldusest (Stone live + Echo Lucida ja Celestica live + DJ-d Arto, Icahera, Kersten Kõrge). Hinda lehel tekstina ei olnud.",
+  "nb": "lisatud sweepis 22.08.2026. Kolm allikat: RA event 2518434 (RA snapshot, ala 184) + Fienta ürituseleht (korraldaja Dreamscape MTÜ, o/28826) + korraldaja enda kirjeldus. ✅ AADRESS OTSUSTATUD 25.08.2026 (Silveri otsus + REEGLID §3): Peetri 5, Noblessner. Fienta venue-väli ütleb 'era • Peetri tänav 5, 10415 Tallinn' JA sama lehe kirjeldus 'Location: Era (IG: @era.tallinn), Peetri 5, Noblessner' — kaks kinnitust ametlikul piletilehel. RA 'ERA Club, Ahtri 10 A' on vale ja jäetakse kõrvale. Täiskoosseis Fienta kirjeldusest. Hinda lehel tekstina ei olnud.",
   "img": "pildid/mutismxdreamscapestoneuk.webp"
  },
  {
@@ -2215,5 +2215,55 @@
   "nb": "lisatud 24.08.2026 (Silveri sisend). Kaks allikat: FB event 1368576134479294 (korraldajad WAKE UP EVENT + TOLM + Reglok + Auroræ Luma + Rego Kauber + Džungel + Regina Rebase) ja Džungli enda FB events-tab, kus sama kirje; kolmas kinnitus TOLMi events-tab. Piletilinki FB-s EI OLE (WAKE UP EVENTi lehe „Get tickets“ viitab lehele, mitte sellele üritusele) — kontrolli Ticketerist. ⚠ koosseis TBA → kontrolli järgmises sweepis. ⚠ TOLM lõpetab 12.–13.09.2026 („TOLM — the end.“), see on maja eelviimane pidu. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
   "img": "pildid/wakeupeventxdzungelback2school.webp",
   "koosseis_tba": 1
+ },
+ {
+  "d": "2026-08-26",
+  "t": "kontsert",
+  "n": "Paavli.Live: Volodja Brodsky",
+  "a": "Garden Sessions vabas õhus Paavli aialaval, algus 19.00; ambient-pianisti ja helilooja minimalistlik klaver, analoogsüntesaatorid, vibrafon, välisalvestused ja lintmaki sahin; lood albumilt «Raindrops» pluss avaldamata materjal",
+  "b": [
+   "Volodja Brodsky"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "ambient",
+   "minimal",
+   "experimental"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/paavli%e2%80%a4live-volodja-brodsky-garden-sessions/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1041510238532432",
+  "pu": "https://fienta.com/et/volodja-brodsky-paavli",
+  "lisatud": "2026-08-22",
+  "nb": "KOLITUD www-lt klubisse 25.08.2026 Silveri otsusel (baasžanr ambient, mitte kitarripõhine — REEGLID §1). Algselt lisatud www-le 02.08.2026 otsusega 'Paavli.Live sari läheb sisse'; www poolel on nüüd blocklisti kirje. Kolm allikat: paavli.ee ürituseleht + Fienta piletileht (Paavli org 17595) + kultuurivabrik.ee programm. Sildid ambient/minimal/experimental tulevad korraldaja enda sõnastusest ('ambient-muusika pianist', 'analoogambient'i eksperimentide sari Whispering Ln'), mitte verifitseeritud taksonoomiast. 'lisatud' hoitud 22.08 peal, et kolimine ei tõstaks kirjet esilehe uute sekka."
+ },
+ {
+  "d": "2026-09-27",
+  "t": "kontsert",
+  "n": "Kultuurifoorum Paabel: Omar Souleyman (SY)",
+  "a": "Süüria elektroonilise dabke'i legend Kultuurifoorum Paabeli teise päeva õhtuse programmi peaesinejana; TASUTA sissepääs. Alustas pulmalauljana ja andis välja ligi 500 live-albumit; Four Tet' produtseeritud «Wenu Wenu» (2013) ja kolm Mad Decenti albumit viisid ta globaalsesse elektroonilise muusika kaanonisse (Glastonbury, Roskilde, Bonnaroo, Pitchfork Paris)",
+  "b": [
+   "Omar Souleyman (SY)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "electro",
+   "folk",
+   "experimental"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/omar-souleyman-live-kultuurifoorum-paabel-2026/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/899579202821360",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "tasuta sissepääs; Kultuurifoorum Paabeli avalik programm 27.09",
+   "allikas": "paavli.ee, kontrollitud 25.08.2026"
+  },
+  "lisatud": "2026-08-25",
+  "nb": "lisatud 25.08.2026 Silveri otsusel ('Omar on elektroonika, nii et klubi') — 22.08 ülevaatuspunkt on sellega suletud. Kaks allikat: paavli.ee ürituseleht + kultuurivabrik.ee programminimekiri ('Sep 27 — Omar Souleyman LIVE @ Kultuurifoorum Paabel 2026'). ⚠ ALGUSAEG LAHTINE: kultuurivabrik.ee näitab 27.09 kirje juures 15.00, paavli.ee ütleb ainult, et Souleyman on ÕHTUSE programmi peaesineja — 15.00 on tõenäoliselt kogu päevaprogrammi algus, seega kellaaega kirjes ei ole. Kontrolli FB eventilt 899579202821360 enne, kui algusaeg lisatakse. Žanrisildid tulenevad korraldaja sõnastusest ('Süüria elektrooniline dabke'), mitte verifitseeritud taksonoomiast; 'folk' viitab dabke rahvatantsumuusika juurtele. Festivali üldprogramm: https://www.facebook.com/events/1750097106025439/"
  }
 ]
