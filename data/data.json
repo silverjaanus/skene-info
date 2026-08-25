@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24",
+ "updated": "2026-08-25",
  "entries": [
   {
    "rel": 1,
@@ -220,26 +220,6 @@
    "su": "https://k6utsmees.bandcamp.com/album/ma-ei-oska-elada",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
    "img": "pildid/koutsmeesmaeioskaelada.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2026-07-21",
-   "lisatud": "2026-07-25",
-   "t": "reliis",
-   "n": "Kantri Guidu Bänd — «Lappa Kotte»",
-   "a": "42 min; Eesti rock/punk; ilmus Bandcampis 21.07.2026",
-   "b": [
-    "Kantri Guidu Bänd"
-   ],
-   "g": [
-    "rock",
-    "punk"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://kantriguiduband.bandcamp.com/album/lappa-kotte",
-   "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt. 26.07.2026: 'su' viitas discover-OTSINGULE, mitte albumile — parandatud albumi lehele (pealkirja link kasutab ou||su). 13.08.2026 SILVERI OTSUS: JÄÄB peasaidile (country-domineerimise küsimus tõstatatud ja otsustatud) — ära tõsta uuesti",
-   "v": "Bandcamp",
-   "img": "pildid/kantriguidubandlappakotte.webp"
   },
   {
    "rel": 1,

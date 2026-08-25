@@ -1,8 +1,8 @@
 {
- "tommatud": "2026-08-24",
+ "tommatud": "2026-08-25",
  "aken": {
-  "algus": "2026-08-24",
-  "lopp": "2026-10-23"
+  "algus": "2026-08-25",
+  "lopp": "2026-10-24"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
@@ -164,20 +164,6 @@
   },
   {
    "d": "2026-09-04",
-   "n": "ERIÜRITUS: VENUS CLUB 17! 2 QUICK START LIVE",
-   "algus": "2026-09-04T22:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2515368",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-04",
    "n": "I TRANCE YOU presents ARMIN VAN BUUREN UNOFFICIAL PRE-PARTY",
    "algus": "2026-09-04T20:00:00.000",
    "v": "Fort Bar",
@@ -190,6 +176,20 @@
     "Trance"
    ],
    "url": "https://ra.co/events/2519035",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-04",
+   "n": "ERIÜRITUS: VENUS CLUB 17! 2 QUICK START LIVE",
+   "algus": "2026-09-04T22:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2515368",
    "pilet": false
   },
   {

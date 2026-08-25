@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24",
+ "updated": "2026-08-25",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 155,
+ "count": 156,
  "entries": [
   {
    "sait": "www",
@@ -901,6 +901,27 @@
     "mark": "uksehind (\"support\"); uksed 19.00",
     "allikas": "kontaktivorm + Facebook event, kontrollitud 11.07.2026"
    }
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-21",
+   "lisatud": "2026-07-25",
+   "t": "reliis",
+   "n": "Kantri Guidu Bänd — «Lappa Kotte»",
+   "a": "42 min; Eesti rock/punk; ilmus Bandcampis 21.07.2026",
+   "b": [
+    "Kantri Guidu Bänd"
+   ],
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://kantriguiduband.bandcamp.com/album/lappa-kotte",
+   "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt. 26.07.2026: 'su' viitas discover-OTSINGULE, mitte albumile — parandatud albumi lehele (pealkirja link kasutab ou||su). 13.08.2026 SILVERI OTSUS: JÄÄB peasaidile (country-domineerimise küsimus tõstatatud ja otsustatud) — ära tõsta uuesti",
+   "v": "Bandcamp",
+   "img": "https://www.skene.info/pildid/kantriguidubandlappakotte.webp"
   },
   {
    "sait": "www",
