@@ -78,6 +78,22 @@ ilma Eesti kuupäevata: ÜKS kirje ~5 lähima riigiga (`d`=varaseim, `d2`=hilise
   `archive_split` toob tagasi). Alles jääb rikkalikum variant (tavaliselt manual).
 - Duplikaadi RIKASTAMINE: kui uus allikas annab seni puudunud infot (pu/hind/ou/koosseis/
   yu), täienda olemasolevat kirjet — ära lihtsalt vahele jäta.
+- **SAMA KOHT + SAMA PÄEV EI OLE DUPLIKAAT (25.08.2026, Silveri otsus).** Üks maja võib
+  ühel õhtul teha mitu üritust — eri kellaajal, eri vanusepiiranguga, eri piletiga — ja
+  osalt sama koosseisuga (korraldaja oma DJ-d mängivad tavaliselt mõlemal). **Iga eraldi
+  piletiga üritus = eraldi kirje**, ka siis kui nimi, koht ja pooled esinejad kattuvad.
+  Otsustav test: **kas sama piletiga saab mõlemale?** Ei → kaks kirjet. Jah (üks pilet,
+  õhtu jaguneb lihtsalt osadeks) → üks kirje, ajad `a`-välja.
+  Näide: A.V.R 28.08.2026 Alexela Loomelava — 18.00 vanusepiiranguta 13€ ja 23.00 16+
+  24,90€, GateMe ise ütleb „kaks eraldi üritust, kummalegi eraldi pilet".
+  ⚠ `check_dupes.py` märgib sellise paari alati kahtlaseks (reegel „sama koht" vaatab
+  ainult `d` + `v` ja käivitub ka täiesti eri koosseisuga; „sama band" käivitub
+  korraldaja DJ-de pealt) → **vaigista see `data/dupe_ok.json`-is**, kirjega
+  `{"sait", "n1", "n2", "nb"}`, kus `nb` põhjendab ja viitab mõlemale piletilehele.
+  Erand on seotud NIMEDEGA, mitte kuupäevaga: kui kirje nimi muutub, lakkab erand
+  kehtimast ja hoiatus tuleb tagasi (teadlik fail-safe). Kirjete nimed peavad üksteisest
+  selgelt eristuma (nt „… (öine)"), muidu sööb `archive_split` täpne `(d, slug(n))` võti
+  ühe neist ära.
 - Lõpetuseks `python scripts/check_dupes.py`.
 - **Koodivalve (21.08):** blokitud kirje manual.json-is KATKESTAB fetchi
   (`common.fail_if_manual_blocked`) — lahendus: kustuta kirje VÕI eemalda aegunud blokk.

@@ -27,11 +27,40 @@ SAIDID = {
 }
 
 
+LUBATUD_FAIL = ROOT / "data" / "dupe_ok.json"
+
+
 def load(p):
     if not p.exists():
         return []
     raw = json.loads(p.read_text(encoding="utf-8"))
     return raw.get("entries", raw) if isinstance(raw, dict) else raw
+
+
+def laadi_lubatud():
+    """Teadlikult lubatud paarid (data/dupe_ok.json) - vt on_lubatud()."""
+    lubatud = set()
+    for k in load(LUBATUD_FAIL):
+        lubatud.add((k["sait"], frozenset({slug(k["n1"]), slug(k["n2"])})))
+    return lubatud
+
+
+def on_lubatud(sait, a, b, lubatud):
+    """Kas see paar on data/dupe_ok.json-is teadliku erandina kirjas?
+
+    Lisatud 25.08.2026 (Silveri otsus). Pohjus: `leia_dupid` markib kahtlaseks ka
+    kaks kirjet, mille ainus kokkulangevus on sama kuupaev + SAMA KOHT - see on
+    tais-positiivne iga kord, kui uks maja teeb uhel ohtul kaks ERALDI PILETIGA
+    uritust (A.V.R 28.08 Alexela Loomelava: 18.00 vanusepiiranguta ja 23.00 16+).
+    Ilma erandita laheb "Kontrollid" punaseks kuni uritus arhiivi kukub.
+
+    Vott on (sait, {slug(nimi1), slug(nimi2)}) - KUUPAEVA teadlikult ei ole votmes,
+    sest kuupaeva muutumine on just see, mida check_dupes peab edasi puudma.
+    Kui kumbki nimi muutub, lakkab erand kehtimast ja hoiatus tuleb tagasi -
+    see on TAOTLETUD (fail-safe: aegunud erand ei vaiki uut probleemi maha).
+    """
+    votme = (sait, frozenset({slug(a.get("n", "")), slug(b.get("n", ""))}))
+    return votme in lubatud
 
 
 def bandset(e):
@@ -135,11 +164,16 @@ def leia_kadunud(sait, kaust):
 
 def main():
     vigu = 0
+    lubatud = laadi_lubatud()
     for sait, kaust in SAIDID.items():
         data = load(kaust / "data.json")
         print(f"\n=== {sait} ({len(data)} kirjet data.json-is) ===")
 
-        hits = leia_dupid(data) + leia_sarjad(data)
+        koik = leia_dupid(data) + leia_sarjad(data)
+        hits = [h for h in koik if not on_lubatud(sait, h[1], h[2], lubatud)]
+        vaigistatud = len(koik) - len(hits)
+        if vaigistatud:
+            print(f"  ({vaigistatud} paari vaigistatud data/dupe_ok.json kaudu)")
         if hits:
             vigu += len(hits)
             print(f"  KAHTLASI DUPLIKAATE: {len(hits)}")
