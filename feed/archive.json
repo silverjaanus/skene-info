@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25",
+ "updated": "2026-08-26",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 156,
+ "count": 163,
  "entries": [
   {
    "sait": "www",
@@ -98,6 +98,48 @@
   },
   {
    "sait": "www",
+   "rel": 1,
+   "d": "2026-05-29",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "Surrogoat — «Consumed by the Wrath of Time»",
+   "a": "taispikk album, 11 lugu; groovy old school death metal; salvestatud Sugis Productions Studios (Are Kangus)",
+   "b": [
+    "Surrogoat"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://surrogoat.bandcamp.com/album/consumed-by-the-wrath-of-time-2",
+   "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Kuupaev loetud OTSE Bandcampi albumilehelt: 'released 29 May 2026'. Band: Louna-Eesti (Ihamaru), alustas 1999 Tartus; Metal Archives + MusicBrainz kinnitavad Eesti paritolu. NB album-URL nouab loppu '-2', ilma selleta 404.",
+   "img": "https://www.skene.info/pildid/surrogoatconsumedbythewrathoftime.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-06-06",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "SWARN — «CORPSETRADER»",
+   "a": "EP, 6 lugu; «dream-infested hallucinatory death metal»; Warhorn Records",
+   "b": [
+    "Swarn"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://swarn.bandcamp.com/album/corpsetrader",
+   "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Bandcampi albumileht (6 lugu, artist Tartu, Eesti) + No Clean Singing kajastus 13.06.2026 (jarelikult ilmunud enne seda) + Metal Archives bandileht 3540457121. KUUPAEV (06.06.2026) tugineb Bandcampile ja on TEISE ALLIKAGA KINNITAMATA - vt Tharaphita oppetund, Bandcampi kuupaev voib olla platseholder. Labeli lehel on pealkiri kujul 'Corpsetraider', bandi enda Bandcampis 'CORPSETRADER'. NB Rootsis on samanimeline heavy/thrash band (MA 3540497163) - mitte sama.",
+   "img": "https://www.skene.info/pildid/swarncorpsetrader.webp"
+  },
+  {
+   "sait": "www",
    "d": "2026-06-10",
    "t": "reliis",
    "n": "I Am Bob — «I Am Bob - EP»",
@@ -117,6 +159,47 @@
    "img": "https://www.skene.info/pildid/iambobiambobep.webp",
    "rel": 1,
    "lisatud": "2026-06-10"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-06-23",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "Kättemaksucuntor — «Eradicktetiivid»",
+   "a": "grind-laines album, 16 lugu",
+   "b": [
+    "Kättemaksucuntor"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "grind"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://k2ttemaksucuntor.bandcamp.com/album/eradicktetiivid",
+   "nb": "lisatud 26.07.2026 Rada7.ee uudiskirja (23.07.2026) põhjal; kuupäev kinnitatud Bandcampi realt 'released 23 June 2026'. Žanrisõnastus uudiskirjast ('käteka austajatele, aga ka grindi vms lainel surfijatele') — Bandcampil žanrisilte pole. Bandcampi credits: salvestas ja miksis Animoz; Uku (vokaal), Andrey (kitarr), Tuudur (bass), Sander (löökpillid). Artisti linn kinnitamata → 'c' tahtlikult tühi.",
+   "img": "https://www.skene.info/pildid/kattemaksucuntoreradicktetiivid.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-06-26",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "SHAMORGA — «IZ UMRUD»",
+   "a": "EP, 5 lugu; eksperimentaalne black metal; väljaandja UnholyIcon",
+   "b": [
+    "SHAMORGA"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "black",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://shamorga.bandcamp.com/album/iz-umrud",
+   "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. 2 allikat: Bandcampi albumileht (5 lugu) + metalarea.org kirje 'released on Juni 26, 2026, on UnholyIcon; Country: Estonia; Style: Experimental Black Metal'. Metal Archives kinnitab bandi: Eesti, Tallinn, asut. 2024, one-man projekt (Wolos).",
+   "img": "https://www.skene.info/pildid/shamorgaizumrud.webp"
   },
   {
    "sait": "www",
@@ -242,6 +325,30 @@
    "img": "https://klubi.skene.info/pildid/oudeisdiscretesensation.webp",
    "rel": 1,
    "lisatud": "2026-07-06"
+  },
+  {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-07-09",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "kiwanoid — «Ghost Nonius»",
+   "a": "eksperimentaalne elektroonika: glitch / IDM / techno; 8 lugu; vinüül-LP labelil Glitch Please (gl17tchv)",
+   "b": [
+    "kiwanoid"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "experimental",
+    "techno",
+    "electro"
+   ],
+   "sn": "biit.me / Glitch Please",
+   "su": "https://biit.me/product/ghost-nonius/",
+   "on_": "Bandcamp",
+   "ou": "https://kiwanoid.bandcamp.com/album/ghost-nonius",
+   "nb": "lisatud 26.07.2026 Rada7.ee uudiskirja (23.07.2026) põhjal; kinnitatud 2 allikaga — Bandcamp ('released 09 July 2026') + biit.me tooteleht (label Glitch Please, žanrisildid Estonian/Experimental/Glitch/IDM/Techno)",
+   "img": "https://klubi.skene.info/pildid/kiwanoidghostnonius.webp"
   },
   {
    "sait": "rap",
@@ -873,6 +980,32 @@
    "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
    "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency",
    "img": "https://www.skene.info/pildid/lennykravitzusa.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-20",
+   "lisatud": "2026-07-26",
+   "t": "reliis",
+   "n": "Tharaphita — «Öise taevaga üheks»",
+   "a": "täispikk album, 10 lugu, 47:20; esimene täispikk 12 aasta järel («Ülestõus», 2014); omakirjastus, digital",
+   "b": [
+    "Tharaphita"
+   ],
+   "g": [
+    "black",
+    "folk",
+    "pagan",
+    "death",
+    "metal"
+   ],
+   "sn": "Metal Archives",
+   "su": "https://www.metal-archives.com/albums/Tharaphita/%C3%96ise_taevaga_%C3%BCheks/1456585",
+   "on_": "Bandcamp",
+   "ou": "https://tharaphita.bandcamp.com/album/ise-taevaga-heks",
+   "nb": "lisatud 26.07.2026 Silveri märkuse peale; kinnitatud 2 allikaga — Metal Archives (release date 20.07.2026, kirje loodud samal päeval) + bändi enda FB-teade «12 pikka aastat on möödas...». NB Bandcampi credits-real seisab platseholderina «released January 1, 2026» — tegelik ilmumine 20.07.2026. Varasemad sweepid lugesid selle Bandcamp discoveris ekslikult vanaks reliisiks.",
+   "v": "Bandcamp",
+   "img": "https://www.skene.info/pildid/tharaphitaoisetaevagauheks.webp"
   },
   {
    "sait": "www",
@@ -4218,6 +4351,27 @@
     "allikas": "RA event + HALL FB, kontrollitud 21.08.2026"
    },
    "pu": "https://ra.co/events/2515792"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-25",
+   "t": "kontsert",
+   "n": "Veli-Rekka & Rokut (FI) + Beer Gardens",
+   "a": "Soome Lapimaa bändi Euroopa tuur, kaasas Eesti Beer Gardens; algus 20.00",
+   "b": [
+    "Veli-Rekka & Rokut (FI)",
+    "Beer Gardens"
+   ],
+   "v": "Konservatoorium",
+   "c": "Viljandi",
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "lisatud": "2026-08-21",
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Konservatooriumi FB events-tab (T 25.08 20:00) + Veli-Rekka & Rokut FB tuuriteade, mis nimetab kaaslasena Beer Gardensit (EE). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ Žanr on TULETATUD (rokk/punk, Konservatoorium on rokivenue); kui täpsustub muuks, liiguta."
   }
  ]
 }

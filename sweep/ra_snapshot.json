@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-08-25",
+ "tommatud": "2026-08-26",
  "aken": {
-  "algus": "2026-08-25",
-  "lopp": "2026-10-24"
+  "algus": "2026-08-26",
+  "lopp": "2026-10-25"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 23,
+ "kirjeid": 24,
  "kirjed": [
   {
    "d": "2026-08-27",
@@ -132,7 +132,7 @@
   },
   {
    "d": "2026-09-04",
-   "n": "KONTRAST with Mija - Hall x SVE x culture unseen",
+   "n": "KONTRAST: Mija (Never B Alone / Hot Meal Records)",
    "algus": "2026-09-04T23:59:00.000",
    "v": "Hall",
    "ala": "Tallinn",
@@ -306,6 +306,19 @@
     "House"
    ],
    "url": "https://ra.co/events/2496243",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-25",
+   "n": "Ken Dark Invites PYFEL",
+   "algus": "2026-09-25T23:00:00.000",
+   "v": "F-hoone",
+   "ala": "Tallinn",
+   "b": [
+    "Ken Dark"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2520906",
    "pilet": false
   },
   {
