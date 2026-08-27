@@ -2265,5 +2265,65 @@
   "lisatud": "2026-08-26",
   "nb": "lisatud 26.08.2026 postkastijooksus, Paavli Kultuurivabriku uudiskirja kaevandamisel (25.08 kiri Brodsky Garden Sessionsi kohta: «just two days after the concert, Brodsky releases Whispering Ln. Vol. II via Hidden Harmony Recordings»). Kaks allikat: uudiskiri + Bandcampi albumileht («releases 28 August 2026», 8 lugu). Bandcampi kuupäevalõksu kontroll: kuupäev EI ole platseholder — uudiskiri ütleb sõltumatult «two days after» 26.08 kontserti, mis annab sama 28.08. Sait: klubi (baasžanr ambient/minimalistlik elektroonika — sama otsus nagu Brodsky 26.08 kontsert, mis kolis 25.08 www-lt klubisse). Žanrisildid tulenevad labeli ja korraldaja sõnastusest ('minimalism', 'early electronic music', 'ambient'), mitte verifitseeritud taksonoomiast. Salvestatud 2018–2019 USA-s, sama sessioon mis esimene «Whispering Ln.» (kinnitab ka Forced Exposure'i LP-leht).",
   "img": "pildid/volodjabrodskywhisperinglnvolii.webp"
+ },
+ {
+  "d": "2026-08-28",
+  "lisatud": "2026-08-27",
+  "t": "klubi",
+  "n": "IDA Summer Finisher!",
+  "a": "IDA Radio suvelõpupidu, 20.00–04.00; 5€ kogu õhtu",
+  "b": [
+   "Susanna Raiend",
+   "Michael Holland",
+   "Roma Vjazemski",
+   "Kristopher Luigend",
+   "Siim Karro"
+  ],
+  "v": "IDA Radio (Telliskivi 60a/5)",
+  "c": "Tallinn",
+  "g": [
+   "electro"
+  ],
+  "sn": "Rada7.ee uudiskiri 26.08.2026",
+  "su": "https://www.rada7.ee/uudiskiri/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1489642676263864/",
+  "hind": {
+   "praegu": "5€",
+   "mark": "kogu õhtu (\"5€ all night long\"), uksel",
+   "allikas": "FB event, kontrollitud 27.08.2026"
+  },
+  "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 (\"IDA suvelõpupidu\") + FB event (kuupäev, kellaaeg, koosseis, hind). ⚠ Žanrisilt on ÜLDISTAV — ei ürituse leht ega uudiskiri žanri ei nimeta, IDA Radio profiil on eklektiline elektroonika/klubimuusika; täpsusta, kui allikas ütleb rohkem."
+ },
+ {
+  "d": "2026-08-28",
+  "lisatud": "2026-08-27",
+  "t": "klubi",
+  "n": "Paavli Shenanigans: END GAME (AVR)",
+  "a": "Paavli hooaja viimane oma peopäev MOD-is ja aias, 23.00–05.00, tasuta sissepääs; puldis maja oma inimesed (\"Everybody's a DJ\"), kõrval korvpall ja beer pong'i turniir",
+  "b": [
+   "celestica",
+   "anca",
+   "HOSTILE",
+   "helina the artist",
+   "milffromouterspace",
+   "deathcore04",
+   "dj ma hakkan kohe nutma"
+  ],
+  "v": "Paavli Kultuurivabrik (MOD + aed)",
+  "c": "Tallinn",
+  "g": [
+   "electro"
+  ],
+  "sn": "Paavli Kultuurivabriku uudiskiri 26.08.2026",
+  "su": "https://www.kultuurivabrik.ee",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4648570502040134/",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "tasuta sissepääs kogu õhtu",
+   "allikas": "FB event, kontrollitud 27.08.2026"
+  },
+  "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08.2026 (\"AVR takes over MOD + the garden\", doors 23:00, free entry) + Rada7.ee uudiskiri 26.08.2026; koosseis ja kellaajad FB eventist. Korraldajad Paavli Kultuurivabrik + MOD.tln. ⚠ Žanrisilt ÜLDISTAV — artistinimed on teadlikult naljanimed (\"dj ma hakkan kohe nutma\"), žanri kusagil ei nimetata; alus on MOD-i klubiprofiil."
  }
 ]

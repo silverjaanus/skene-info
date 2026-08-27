@@ -136,7 +136,10 @@
   "hind": {
    "praegu": "tasuta"
   },
-  "img": "pildid/modelcitizeniambobdjvalternomm.webp"
+  "img": "pildid/modelcitizeniambobdjvalternomm.webp",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1063635092993606/",
+  "nb": "27.08.2026: FB eventi link lisatud Rada7.ee uudiskirjast 26.08.2026 (uudiskiri: I Am Bob esimene kontsert, Bandcamp iambob.bandcamp.com/album/i-am-bob-ep)."
  },
  {
   "d": "2026-08-29",
@@ -171,7 +174,10 @@
   "sn": "Damn.Loudi FB",
   "su": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
   "pu": "https://fienta.com/et/nothing-paavli-tallinn",
-  "img": "pildid/nothinghammok.webp"
+  "img": "pildid/nothinghammok.webp",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/964226053103341/",
+  "nb": "27.08.2026: FB eventi link + uksed 19.00 Paavli Kultuurivabriku uudiskirjast 26.08.2026 (Nothing = Philadelphia shoegaze, Hammok = Norra hardcore)."
  },
  {
   "d": "2026-09-04",
@@ -2693,21 +2699,35 @@
   "d": "2026-08-29",
   "t": "kontsert",
   "n": "PUTUKA ROKK",
-  "a": "Ülase12 (Anemon12) DIY-päevaüritus Pelguaias, algus 15.00; koosseis avaldamata",
-  "b": [],
+  "a": "Ülase12 (Anemon12) DIY-päevaüritus Pelguaias: 13.00 uksed, 15.00 bändid, ~21.30 lõpp; oma grill lubatud (oma nõud)",
+  "b": [
+   "Halb Päev",
+   "Volta",
+   "Mobisa Mobisa",
+   "ÕS",
+   "Ave Maria",
+   "Üks Kõigi",
+   "Phlox",
+   "Düsentroop"
+  ],
   "v": "Pelguaed (Ehte 40)",
   "c": "Tallinn",
   "g": [
-   "punk"
+   "punk",
+   "rock"
   ],
   "sn": "Anemon12 FB",
   "su": "https://www.facebook.com/anemon12tln/events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1362464942062617/",
   "lisatud": "2026-08-14",
-  "nb": "lisatud sweepis 14.08.2026; korraldaja Anemon12/Ülase12 (event nende events-tabis). Koosseis ja hind avaldamata — täienda järgmises sweepis",
+  "nb": "lisatud sweepis 14.08.2026; korraldaja Anemon12/Ülase12 (event nende events-tabis). TÄIENDATUD 27.08.2026 postkastijooksus: koosseis Rada7.ee uudiskirjast 26.08.2026 (toimetaja loend — FB eventi kirjelduses koosseisu EI ole, seal on ainult ajakava ja hind), kellaajad + 3€ sularahahind FB eventist.",
   "img": "pildid/putukarokk.webp",
-  "koosseis_tba": 1
+  "hind": {
+   "praegu": "3€",
+   "mark": "uksel, ainult sularahas",
+   "allikas": "FB event, kontrollitud 27.08.2026"
+  }
  },
  {
   "d": "2026-09-02",
