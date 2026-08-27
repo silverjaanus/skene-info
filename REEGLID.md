@@ -24,6 +24,27 @@
 - Piiripealne baasžanr → ÄRA otsusta ise, logi ülevaatuseks (vt §8). Post-sweep kontroll:
   `scripts/classify.py`.
 
+**Mitmežanri-üritus = MITU KIRJET, üks igal sobival saidil (Silveri otsus 27.08.2026).**
+„Klubi ja rap. Võib olla ju mõlemas, kui mõlemat muusikat mängitakse." Kui ürituse enda leht
+näitab, et päriselt mängitakse mitme saidi baasžanre — tüüpiliselt mitmelavaline pidu, kus üks
+lava on hip-hop ja teine house/techno — siis EI OLE vaja valida: lisa kirje MÕLEMA (või kõigi
+kolme) saidi `manual.json`-i, saidipõhiste `g`-siltidega, ja kirjuta `nb`-sse, et kirje on
+teadlikult ka teisel saidil (nimeta fail). Näide: MIF x BUTTERCUPS – SUMMER CLOSING 29.08.2026
+Paavli — klubi (house/techno/dnb) JA rap (räpp/hiphop). ⚠ See EI ole luba peavoolu sisse tuua:
+skoobifilter (peavoolu-kommertsklubid, popp) kehtib endiselt, ja üks-lava-üritusel on ikka üks
+baasžanr ja üks sait. ⚠ Duplikaadikontroll käib saidi sees, nii et kaks kirjet eri failides ei
+tekita hoiatust — aga hoia nimi, kuupäev ja `ou` MÕLEMAS kirjes identsed, muidu lähevad nad
+paranduste käigus lahku.
+
+**Plaadipoed, plaadilaadad ja -turud on SKOOBIS, aga iga kord eraldi üle vaadata (Silver
+27.08.2026).** „See tuleb iga kord üle vaadata. Praegu läheb sisse." Formaat ise (pood/turg
+DJ-kava või tervitustega, mitte kontsert) ei ole väljajätu põhjus — laiendab 02.08.2026 otsust
+(regulaarne plaadilaat on skoobis). Sait tuleb korraldajast ja kavast, mitte formaadist:
+Plaaditurg Krulli kvartalis 30.08 → **www/metal** (kaaskorraldajad Eesti metallistid +
+estonianmetal), Helinihe plaadipoe avamispidu Nõmme turul 29.08 → **klubi** (DJ-kava).
+⚠ Vinüüle mängiv nüüdismuusika-helilooja (Tõnu Kõrvits, Ülo Krigul Helinihe peol) EI tee
+EMA-telge skoobis olevaks — see erand kehtib DJ-kavale, mitte esinejale.
+
 **Tehtud skoobiotsused (pretsedendid):** bluus on www 8. metafilter (26.07); uusklassika/
 nüüdismuusika (EMA-telg) VÄLJA; industrial+metal-koosseis jääb www-le; hard trance →
 klubi; peavoolu-popprokk (Terminaator/Smilers/Shanon-klass, Käärijä-klass peavoolupopp)

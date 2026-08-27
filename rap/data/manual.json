@@ -642,5 +642,44 @@
   },
   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 + FB event / GateMe (kuupäev, kellaaeg, koosseis, hind). Välisartist Eestis → räpi poolele (baasžanr hip-hop; majorlilkween on eestlane, Bali Baby USA-st). Korraldaja Manufaktuur OÜ / Moment tln, venue D3.",
   "img": "pildid/moment30byevertpoombalibabyus.webp"
+ },
+ {
+  "d": "2026-08-29",
+  "lisatud": "2026-08-27",
+  "t": "klubi",
+  "n": "MIF x BUTTERCUPS – SUMMER CLOSING",
+  "a": "Suve lõpupidu neljal laval: Summer Pop (välisterrass), Hip-Hop / EDM (suur saal), House / Techno (teine saal), DnB (pop-up lava); 22.30–05.00, 18+",
+  "b": [
+   "WAVĒ",
+   "NIGRONI",
+   "DAPO",
+   "Andreground",
+   "Chillikene",
+   "Tonix",
+   "Zaza",
+   "Nickz",
+   "Samo",
+   "Abbrus",
+   "Luuna"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop",
+   "electro"
+  ],
+  "sn": "Paavli Kultuurivabriku uudiskiri 26.08.2026",
+  "su": "https://www.kultuurivabrik.ee",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1415053067356482/",
+  "pu": "https://gateme.com/et/event/104147/",
+  "hind": {
+   "praegu": "15€",
+   "mark": "Regular Bird eelmüügis; uksel kallim",
+   "allikas": "GateMe, kontrollitud 27.08.2026"
+  },
+  "koosseis_tba": 1,
+  "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka klubi/data/manual.json-is."
  }
 ]
