@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 192,
+ "count": 195,
  "entries": [
   {
    "sait": "www",
@@ -513,9 +513,9 @@
    ],
    "sn": "MuusikaPlaneet",
    "su": "https://muusikaplaneet.ee/2026/07/30/plaaditurg26/",
-   "on_": "Plaaditurg FB",
-   "ou": "https://www.facebook.com/plaaditurg",
-   "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. | 02.08.2026 ÜHENDATUD: eraldi kirje 'Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)' 02.08 Haapsalus oli SAMA sarja esimene kuupäev ja tekitas otsingus duplikaadi (Silveri leid) — see on nüüd siin sees, vana kirje kustutatud + blokitud. Haapsalu kuupäeva FB event: https://fb.me/e/7dEOELsgL (allikas: kontaktivorm, Ahto-Lembit Lehtmets 28.07.2026; kinnitatud augustibluus.ee kava vastu 29.07.2026). Ülejäänud kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co. | Kirjetüüp on 'muu' — VARASEM VIGA: kirjutasin, et turu/laada tüüpi süsteemis ei ole, tegelikult 'muu' oli olemas ja just selle kirje jaoks kasutusel.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2114906936574597/",
+   "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. | 02.08.2026 ÜHENDATUD: eraldi kirje 'Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)' 02.08 Haapsalus oli SAMA sarja esimene kuupäev ja tekitas otsingus duplikaadi (Silveri leid) — see on nüüd siin sees, vana kirje kustutatud + blokitud. Haapsalu kuupäeva FB event: https://fb.me/e/7dEOELsgL (allikas: kontaktivorm, Ahto-Lembit Lehtmets 28.07.2026; kinnitatud augustibluus.ee kava vastu 29.07.2026). Ülejäänud kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co. | Kirjetüüp on 'muu' — VARASEM VIGA: kirjutasin, et turu/laada tüüpi süsteemis ei ole, tegelikult 'muu' oli olemas ja just selle kirje jaoks kasutusel. | 27.08.2026 (Silver: „korraldaja on metalimees, nii et läheb metali alla\"): 30.08 Krulli kvartali kuupäev sai oma FB eventi lingi `ou`-sse (varem oli seal Plaaditurgu üldine FB-leht, mis rikub REEGLID §3 lingireeglit). FB event kinnitab: 30.08 12.00–16.00, Krulli kvartal, kaaskorraldajad Eesti metallistid + estonianmetal + Legendaarne Raadio + Krulli kvartal → `g` rock/metal/alt on õige. Samal ajal ja samas kohas Kalamaja loometurg (mittemuusikaline, EI lisatud). Silveri püsijuhis 27.08: plaadipoe/-turu üritused vaadatakse IGA KORD eraldi üle, aga praegu on formaat sees.",
    "img": "https://www.skene.info/pildid/plaaditurgtourdeplaat2026.webp"
   },
   {
@@ -1163,7 +1163,8 @@
     "mark": "tasuta sissepääs kogu õhtu",
     "allikas": "FB event, kontrollitud 27.08.2026"
    },
-   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08.2026 (\"AVR takes over MOD + the garden\", doors 23:00, free entry) + Rada7.ee uudiskiri 26.08.2026; koosseis ja kellaajad FB eventist. Korraldajad Paavli Kultuurivabrik + MOD.tln. ⚠ Žanrisilt ÜLDISTAV — artistinimed on teadlikult naljanimed (\"dj ma hakkan kohe nutma\"), žanri kusagil ei nimetata; alus on MOD-i klubiprofiil."
+   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08.2026 (\"AVR takes over MOD + the garden\", doors 23:00, free entry) + Rada7.ee uudiskiri 26.08.2026; koosseis ja kellaajad FB eventist. Korraldajad Paavli Kultuurivabrik + MOD.tln. ⚠ Žanrisilt ÜLDISTAV — artistinimed on teadlikult naljanimed (\"dj ma hakkan kohe nutma\"), žanri kusagil ei nimetata; alus on MOD-i klubiprofiil.",
+   "img": "https://klubi.skene.info/pildid/paavlishenanigansendgameavr.webp"
   },
   {
    "sait": "klubi",
@@ -1344,6 +1345,86 @@
    "d": "2026-08-29",
    "lisatud": "2026-08-27",
    "t": "klubi",
+   "n": "MIF x BUTTERCUPS – SUMMER CLOSING",
+   "a": "Suve lõpupidu neljal laval: Summer Pop (välisterrass), Hip-Hop / EDM (suur saal), House / Techno (teine saal), DnB (pop-up lava); 22.30–05.00, 18+",
+   "b": [
+    "WAVĒ",
+    "NIGRONI",
+    "DAPO",
+    "Andreground",
+    "Chillikene",
+    "Tonix",
+    "Zaza",
+    "Nickz",
+    "Samo",
+    "Abbrus",
+    "Luuna"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "electro"
+   ],
+   "sn": "Paavli Kultuurivabriku uudiskiri 26.08.2026",
+   "su": "https://www.kultuurivabrik.ee",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1415053067356482/",
+   "pu": "https://gateme.com/et/event/104147/",
+   "hind": {
+    "praegu": "15€",
+    "mark": "Regular Bird eelmüügis; uksel kallim",
+    "allikas": "GateMe, kontrollitud 27.08.2026"
+   },
+   "koosseis_tba": 1,
+   "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka klubi/data/manual.json-is."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "MIF x BUTTERCUPS – SUMMER CLOSING",
+   "a": "Suve lõpupidu neljal laval: Summer Pop (välisterrass), Hip-Hop / EDM (suur saal), House / Techno (teine saal), DnB (pop-up lava); 22.30–05.00, 18+",
+   "b": [
+    "WAVĒ",
+    "NIGRONI",
+    "DAPO",
+    "Andreground",
+    "Chillikene",
+    "Tonix",
+    "Zaza",
+    "Nickz",
+    "Samo",
+    "Abbrus",
+    "Luuna"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno",
+    "dnb",
+    "electro"
+   ],
+   "sn": "Paavli Kultuurivabriku uudiskiri 26.08.2026",
+   "su": "https://www.kultuurivabrik.ee",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1415053067356482/",
+   "pu": "https://gateme.com/et/event/104147/",
+   "hind": {
+    "praegu": "15€",
+    "mark": "Regular Bird eelmüügis; uksel kallim",
+    "allikas": "GateMe, kontrollitud 27.08.2026"
+   },
+   "koosseis_tba": 1,
+   "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka rap/data/manual.json-is."
+  },
+  {
+   "sait": "rap",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
    "n": "MOMENT 3.0 by evert poom: Bali Baby (US)",
    "a": "Bali Baby (Atlanta) esimest korda Eestis, koos majorlilkween'iga; D3, 23.00–04.00, 18+",
    "b": [
@@ -1365,7 +1446,8 @@
     "mark": "\"täitsa õigel ajal\" 12€ (72% müüdud); VIP \"bravuuritari pakett\" 25€; \"teistest ees\" 10€ välja müüdud; uksel ja viimane laar 20€",
     "allikas": "GateMe, kontrollitud 27.08.2026"
    },
-   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 + FB event / GateMe (kuupäev, kellaaeg, koosseis, hind). Välisartist Eestis → räpi poolele (baasžanr hip-hop; majorlilkween on eestlane, Bali Baby USA-st). Korraldaja Manufaktuur OÜ / Moment tln, venue D3."
+   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 + FB event / GateMe (kuupäev, kellaaeg, koosseis, hind). Välisartist Eestis → räpi poolele (baasžanr hip-hop; majorlilkween on eestlane, Bali Baby USA-st). Korraldaja Manufaktuur OÜ / Moment tln, venue D3.",
+   "img": "https://rap.skene.info/pildid/moment30byevertpoombalibabyus.webp"
   },
   {
    "sait": "www",
@@ -1447,6 +1529,35 @@
     "mark": "uksel, ainult sularahas",
     "allikas": "FB event, kontrollitud 27.08.2026"
    }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "Plaadipood Helinihe avamispidu",
+   "a": "Nõmme turu plaadipoe Helinihe ametlik avamine, 12.00–18.00, tasuta; vinüüle mängivad nõmmekatest DJd, tervitused annab üle Marju Länik (mitte kontsert), suupisted Suitsuvares; klientidele tasuta ;paranoia kirjastuse raamat",
+   "b": [
+    "Tõnu Kõrvits",
+    "Ülo Krigul",
+    "Rhythm Doctor",
+    "Glitch Korts"
+   ],
+   "v": "Nõmme Turg (Piiri 6)",
+   "c": "Tallinn",
+   "g": [
+    "electro"
+   ],
+   "sn": "Rada7.ee uudiskiri 26.08.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1709219880131159/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "sündmus on kõigile tasuta",
+    "allikas": "FB event, kontrollitud 27.08.2026"
+   },
+   "nb": "lisatud 27.08.2026 SILVERI OTSUSEL (plaadipoe/-turu formaat on skoobis, vt REEGLID §1; sait: klubi). Kaks allikat: Rada7.ee uudiskiri 26.08 + FB event. Pood avas uksed juba juunis, 29.08 on ametlik avamine. ⚠ Žanrisilt ÜLDISTAV — tegu on DJ-kavaga plaadipoes, žanri kusagil ei nimetata; Tõnu Kõrvits ja Ülo Krigul on nüüdismuusika-heliloojad, kes siin mängivad vinüüli (esinejatena nad skoopi ei kuuluks — see kirje EI ole pretsedent EMA-teljele)."
   },
   {
    "sait": "klubi",

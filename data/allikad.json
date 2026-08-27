@@ -323,12 +323,20 @@
    "nimi": "Muud",
    "items": [
     {
+     "n": "Eesti metallistid",
+     "u": "https://www.facebook.com/metallistid/events"
+    },
+    {
      "n": "Exanity",
      "u": "https://www.facebook.com/exanityofficial/events"
     },
     {
      "n": "Fuzzolini (Bandcamp)",
      "u": "https://fuzzolini.bandcamp.com/"
+    },
+    {
+     "n": "Plaaditurg",
+     "u": "https://www.facebook.com/Plaaditurg/events"
     },
     {
      "n": "Surju Kommunaal",
