@@ -369,30 +369,6 @@
   "img": "pildid/camouflagede.webp"
  },
  {
-  "d": "2026-08-12",
-  "t": "kontsert",
-  "n": "AIGEL + 3H Company",
-  "a": "topelt-headline live: AIGEL (dark electronics, industrial tekstuurid; «Pyyala», «Tatarin») + 3H Company (eksperimentaalne räpp/IDM, ex-2H Company); uksed 19.00, show 20.00",
-  "b": [
-   "AIGEL",
-   "3H Company"
-  ],
-  "v": "Club Privé",
-  "c": "Tallinn",
-  "g": [
-   "electro",
-   "experimental",
-   "dark",
-   "hip-hop"
-  ],
-  "sn": "Resident Advisor",
-  "su": "https://ra.co/events/ee/all",
-  "on_": "RA event",
-  "ou": "https://ra.co/events/2472198",
-  "pu": "https://ra.co/events/2472198",
-  "nb": "lisatud sweepis 19.07.2026; promootorid Crunch Tapes + Positive Transmitter, RA Tickets; varem (15.07) välja jäetud ühe allika tõttu - nüüd RA event + piletid"
- },
- {
   "d": "2026-08-13",
   "t": "kontsert",
   "n": "Paavli.Live: múm (IS)",
@@ -722,26 +698,6 @@
   "pu": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
   "img": "pildid/laineklubioostateofffnlzw.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-06-07",
-  "lisatud": "2026-07-27",
-  "t": "reliis",
-  "n": "Teknarik — «Launcher 2k26»",
-  "a": "2 lugu (originaal + extended mix); «dirty, uplifting hard trance anthem»; omakirjastus",
-  "b": [
-   "Teknarik"
-  ],
-  "v": "Bandcamp",
-  "g": [
-   "trance",
-   "hard trance"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://teknarik.bandcamp.com/album/teknarik-launcher-2k26",
-  "nb": "lisatud 27.07.2026 Silveri viite peale. Kuupäev loetud OTSE Bandcampi albumilehelt: 'released 07 June 2026'. Žanr hard trance -> elektrooniline baasžanr -> klubi (13.07 žanrireegel), MITTE metal. NB: Eesti päritolu tugineb AINULT Bandcampi artistilehe asukohaväljale ('Eesti') — teist allikat ei leidnud.",
-  "img": "pildid/teknariklauncher2k26.webp"
  },
  {
   "d": "2026-08-14",
