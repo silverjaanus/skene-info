@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26",
+ "updated": "2026-08-27",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 163,
+ "count": 166,
  "entries": [
   {
    "sait": "www",
@@ -137,6 +137,27 @@
    "su": "https://swarn.bandcamp.com/album/corpsetrader",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Bandcampi albumileht (6 lugu, artist Tartu, Eesti) + No Clean Singing kajastus 13.06.2026 (jarelikult ilmunud enne seda) + Metal Archives bandileht 3540457121. KUUPAEV (06.06.2026) tugineb Bandcampile ja on TEISE ALLIKAGA KINNITAMATA - vt Tharaphita oppetund, Bandcampi kuupaev voib olla platseholder. Labeli lehel on pealkiri kujul 'Corpsetraider', bandi enda Bandcampis 'CORPSETRADER'. NB Rootsis on samanimeline heavy/thrash band (MA 3540497163) - mitte sama.",
    "img": "https://www.skene.info/pildid/swarncorpsetrader.webp"
+  },
+  {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-06-07",
+   "lisatud": "2026-07-27",
+   "t": "reliis",
+   "n": "Teknarik — «Launcher 2k26»",
+   "a": "2 lugu (originaal + extended mix); «dirty, uplifting hard trance anthem»; omakirjastus",
+   "b": [
+    "Teknarik"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "trance",
+    "hard trance"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://teknarik.bandcamp.com/album/teknarik-launcher-2k26",
+   "nb": "lisatud 27.07.2026 Silveri viite peale. Kuupäev loetud OTSE Bandcampi albumilehelt: 'released 07 June 2026'. Žanr hard trance -> elektrooniline baasžanr -> klubi (13.07 žanrireegel), MITTE metal. NB: Eesti päritolu tugineb AINULT Bandcampi artistilehe asukohaväljale ('Eesti') — teist allikat ei leidnud.",
+   "img": "https://klubi.skene.info/pildid/teknariklauncher2k26.webp"
   },
   {
    "sait": "www",
@@ -4372,6 +4393,60 @@
    "su": "https://www.facebook.com/konservatoorium/events",
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Konservatooriumi FB events-tab (T 25.08 20:00) + Veli-Rekka & Rokut FB tuuriteade, mis nimetab kaaslasena Beer Gardensit (EE). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ Žanr on TULETATUD (rokk/punk, Konservatoorium on rokivenue); kui täpsustub muuks, liiguta."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-26",
+   "t": "kontsert",
+   "n": "Paavli.Live: Volodja Brodsky",
+   "a": "Garden Sessions vabas õhus Paavli aialaval, algus 19.00; ambient-pianisti ja helilooja minimalistlik klaver, analoogsüntesaatorid, vibrafon, välisalvestused ja lintmaki sahin; lood albumilt «Raindrops» pluss avaldamata materjal",
+   "b": [
+    "Volodja Brodsky"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "ambient",
+    "minimal",
+    "experimental"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/paavli%e2%80%a4live-volodja-brodsky-garden-sessions/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1041510238532432",
+   "pu": "https://fienta.com/et/volodja-brodsky-paavli",
+   "lisatud": "2026-08-22",
+   "nb": "KOLITUD www-lt klubisse 25.08.2026 Silveri otsusel (baasžanr ambient, mitte kitarripõhine — REEGLID §1). Algselt lisatud www-le 02.08.2026 otsusega 'Paavli.Live sari läheb sisse'; www poolel on nüüd blocklisti kirje. Kolm allikat: paavli.ee ürituseleht + Fienta piletileht (Paavli org 17595) + kultuurivabrik.ee programm. Sildid ambient/minimal/experimental tulevad korraldaja enda sõnastusest ('ambient-muusika pianist', 'analoogambient'i eksperimentide sari Whispering Ln'), mitte verifitseeritud taksonoomiast. 'lisatud' hoitud 22.08 peal, et kolimine ei tõstaks kirjet esilehe uute sekka."
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-26",
+   "t": "kontsert",
+   "n": "Stresssystem (NL) + Youth Deprivation (NL) + Täielik Porno",
+   "a": "Kaks Groningeni hardcore-punk bändi ja Liivimaa Täielik Porno Helli DIY-laval; uksed 18.00, bändid 19.00",
+   "b": [
+    "Stresssystem (NL)",
+    "Youth Deprivation (NL)",
+    "Täielik Porno"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "hardcore",
+    "punk"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1629363595419575/",
+   "hind": {
+    "praegu": "5–7€",
+    "mark": "5€ esimesel tunnil, seejärel 7€; uksel",
+    "allikas": "FB event, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Hell Tartu FB events-leht + ürituse enda FB event (koosseis, kellaajad, uksehind). Bändide Bandcamp-lingid ürituse kirjelduses: stresssysteem.bandcamp.com, youthdeprivation.bandcamp.com",
+   "img": "https://www.skene.info/pildid/stresssystemnlyouthdeprivationnltaielikporno.webp"
   }
  ]
 }

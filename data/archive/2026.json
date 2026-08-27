@@ -2056,6 +2056,35 @@
    "su": "https://www.facebook.com/konservatoorium/events",
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Konservatooriumi FB events-tab (T 25.08 20:00) + Veli-Rekka & Rokut FB tuuriteade, mis nimetab kaaslasena Beer Gardensit (EE). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ Žanr on TULETATUD (rokk/punk, Konservatoorium on rokivenue); kui täpsustub muuks, liiguta."
+  },
+  {
+   "d": "2026-08-26",
+   "t": "kontsert",
+   "n": "Stresssystem (NL) + Youth Deprivation (NL) + Täielik Porno",
+   "a": "Kaks Groningeni hardcore-punk bändi ja Liivimaa Täielik Porno Helli DIY-laval; uksed 18.00, bändid 19.00",
+   "b": [
+    "Stresssystem (NL)",
+    "Youth Deprivation (NL)",
+    "Täielik Porno"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "hardcore",
+    "punk"
+   ],
+   "sn": "Hell, Tartu FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1629363595419575/",
+   "hind": {
+    "praegu": "5–7€",
+    "mark": "5€ esimesel tunnil, seejärel 7€; uksel",
+    "allikas": "FB event, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Hell Tartu FB events-leht + ürituse enda FB event (koosseis, kellaajad, uksehind). Bändide Bandcamp-lingid ürituse kirjelduses: stresssysteem.bandcamp.com, youthdeprivation.bandcamp.com",
+   "img": "pildid/stresssystemnlyouthdeprivationnltaielikporno.webp"
   }
  ]
 }

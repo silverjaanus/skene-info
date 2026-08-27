@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26",
+ "updated": "2026-08-27",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -98,27 +98,6 @@
    "su": "https://postiljon.bandcamp.com/album/hoovikontsert",
    "nb": "lisatud sweepis 02.08.2026; oli 26.07 sweepis ootel (kuupäev kinnitamata) — albumileht ütleb released May 30, 2026",
    "img": "https://www.skene.info/pildid/postiljonhoovikontsert.webp"
-  },
-  {
-   "sait": "klubi",
-   "rel": 1,
-   "d": "2026-06-07",
-   "lisatud": "2026-07-27",
-   "t": "reliis",
-   "n": "Teknarik — «Launcher 2k26»",
-   "a": "2 lugu (originaal + extended mix); «dirty, uplifting hard trance anthem»; omakirjastus",
-   "b": [
-    "Teknarik"
-   ],
-   "v": "Bandcamp",
-   "g": [
-    "trance",
-    "hard trance"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://teknarik.bandcamp.com/album/teknarik-launcher-2k26",
-   "nb": "lisatud 27.07.2026 Silveri viite peale. Kuupäev loetud OTSE Bandcampi albumilehelt: 'released 07 June 2026'. Žanr hard trance -> elektrooniline baasžanr -> klubi (13.07 žanrireegel), MITTE metal. NB: Eesti päritolu tugineb AINULT Bandcampi artistilehe asukohaväljale ('Eesti') — teist allikat ei leidnud.",
-   "img": "https://klubi.skene.info/pildid/teknariklauncher2k26.webp"
   },
   {
    "sait": "klubi",
@@ -752,60 +731,6 @@
   },
   {
    "sait": "klubi",
-   "d": "2026-08-26",
-   "t": "kontsert",
-   "n": "Paavli.Live: Volodja Brodsky",
-   "a": "Garden Sessions vabas õhus Paavli aialaval, algus 19.00; ambient-pianisti ja helilooja minimalistlik klaver, analoogsüntesaatorid, vibrafon, välisalvestused ja lintmaki sahin; lood albumilt «Raindrops» pluss avaldamata materjal",
-   "b": [
-    "Volodja Brodsky"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "ambient",
-    "minimal",
-    "experimental"
-   ],
-   "sn": "paavli.ee",
-   "su": "https://paavli.ee/sundmused/paavli%e2%80%a4live-volodja-brodsky-garden-sessions/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1041510238532432",
-   "pu": "https://fienta.com/et/volodja-brodsky-paavli",
-   "lisatud": "2026-08-22",
-   "nb": "KOLITUD www-lt klubisse 25.08.2026 Silveri otsusel (baasžanr ambient, mitte kitarripõhine — REEGLID §1). Algselt lisatud www-le 02.08.2026 otsusega 'Paavli.Live sari läheb sisse'; www poolel on nüüd blocklisti kirje. Kolm allikat: paavli.ee ürituseleht + Fienta piletileht (Paavli org 17595) + kultuurivabrik.ee programm. Sildid ambient/minimal/experimental tulevad korraldaja enda sõnastusest ('ambient-muusika pianist', 'analoogambient'i eksperimentide sari Whispering Ln'), mitte verifitseeritud taksonoomiast. 'lisatud' hoitud 22.08 peal, et kolimine ei tõstaks kirjet esilehe uute sekka."
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-26",
-   "t": "kontsert",
-   "n": "Stresssystem (NL) + Youth Deprivation (NL) + Täielik Porno",
-   "a": "Kaks Groningeni hardcore-punk bändi ja Liivimaa Täielik Porno Helli DIY-laval; uksed 18.00, bändid 19.00",
-   "b": [
-    "Stresssystem (NL)",
-    "Youth Deprivation (NL)",
-    "Täielik Porno"
-   ],
-   "v": "Hell",
-   "c": "Tartu",
-   "g": [
-    "hardcore",
-    "punk"
-   ],
-   "sn": "Hell, Tartu FB",
-   "su": "https://www.facebook.com/punknrollhell/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1629363595419575/",
-   "hind": {
-    "praegu": "5–7€",
-    "mark": "5€ esimesel tunnil, seejärel 7€; uksel",
-    "allikas": "FB event, kontrollitud 07.08.2026"
-   },
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Hell Tartu FB events-leht + ürituse enda FB event (koosseis, kellaajad, uksehind). Bändide Bandcamp-lingid ürituse kirjelduses: stresssysteem.bandcamp.com, youthdeprivation.bandcamp.com",
-   "img": "https://www.skene.info/pildid/stresssystemnlyouthdeprivationnltaielikporno.webp"
-  },
-  {
-   "sait": "klubi",
    "d": "2026-08-27",
    "t": "klubi",
    "n": "Arto @ Tšungel",
@@ -1046,6 +971,36 @@
   {
    "sait": "klubi",
    "d": "2026-08-28",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "IDA Summer Finisher!",
+   "a": "IDA Radio suvelõpupidu, 20.00–04.00; 5€ kogu õhtu",
+   "b": [
+    "Susanna Raiend",
+    "Michael Holland",
+    "Roma Vjazemski",
+    "Kristopher Luigend",
+    "Siim Karro"
+   ],
+   "v": "IDA Radio (Telliskivi 60a/5)",
+   "c": "Tallinn",
+   "g": [
+    "electro"
+   ],
+   "sn": "Rada7.ee uudiskiri 26.08.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1489642676263864/",
+   "hind": {
+    "praegu": "5€",
+    "mark": "kogu õhtu (\"5€ all night long\"), uksel",
+    "allikas": "FB event, kontrollitud 27.08.2026"
+   },
+   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 (\"IDA suvelõpupidu\") + FB event (kuupäev, kellaaeg, koosseis, hind). ⚠ Žanrisilt on ÜLDISTAV — ei ürituse leht ega uudiskiri žanri ei nimeta, IDA Radio profiil on eklektiline elektroonika/klubimuusika; täpsusta, kui allikas ütleb rohkem."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-28",
    "t": "klubi",
    "n": "KAJA: Kumu REIV x HALL",
    "a": "Kumu 20. sünnipäeva eriprogramm: kaasaegne kunst + elektrooniline muusika, koostöös klubiga HALL; kell 20.30–05",
@@ -1150,7 +1105,10 @@
    "hind": {
     "praegu": "tasuta"
    },
-   "img": "https://www.skene.info/pildid/modelcitizeniambobdjvalternomm.webp"
+   "img": "https://www.skene.info/pildid/modelcitizeniambobdjvalternomm.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1063635092993606/",
+   "nb": "27.08.2026: FB eventi link lisatud Rada7.ee uudiskirjast 26.08.2026 (uudiskiri: I Am Bob esimene kontsert, Bandcamp iambob.bandcamp.com/album/i-am-bob-ep)."
   },
   {
    "sait": "www",
@@ -1174,6 +1132,38 @@
    "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
    "img": "https://www.skene.info/pildid/metallicaacdcnightpatareicoverage.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-28",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "Paavli Shenanigans: END GAME (AVR)",
+   "a": "Paavli hooaja viimane oma peopäev MOD-is ja aias, 23.00–05.00, tasuta sissepääs; puldis maja oma inimesed (\"Everybody's a DJ\"), kõrval korvpall ja beer pong'i turniir",
+   "b": [
+    "celestica",
+    "anca",
+    "HOSTILE",
+    "helina the artist",
+    "milffromouterspace",
+    "deathcore04",
+    "dj ma hakkan kohe nutma"
+   ],
+   "v": "Paavli Kultuurivabrik (MOD + aed)",
+   "c": "Tallinn",
+   "g": [
+    "electro"
+   ],
+   "sn": "Paavli Kultuurivabriku uudiskiri 26.08.2026",
+   "su": "https://www.kultuurivabrik.ee",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4648570502040134/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "tasuta sissepääs kogu õhtu",
+    "allikas": "FB event, kontrollitud 27.08.2026"
+   },
+   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08.2026 (\"AVR takes over MOD + the garden\", doors 23:00, free entry) + Rada7.ee uudiskiri 26.08.2026; koosseis ja kellaajad FB eventist. Korraldajad Paavli Kultuurivabrik + MOD.tln. ⚠ Žanrisilt ÜLDISTAV — artistinimed on teadlikult naljanimed (\"dj ma hakkan kohe nutma\"), žanri kusagil ei nimetata; alus on MOD-i klubiprofiil."
   },
   {
    "sait": "klubi",
@@ -1350,6 +1340,34 @@
    "koosseis_tba": 1
   },
   {
+   "sait": "rap",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "MOMENT 3.0 by evert poom: Bali Baby (US)",
+   "a": "Bali Baby (Atlanta) esimest korda Eestis, koos majorlilkween'iga; D3, 23.00–04.00, 18+",
+   "b": [
+    "Bali Baby (US)",
+    "majorlilkween"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Rada7.ee uudiskiri 26.08.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1575293267509201/",
+   "pu": "https://gateme.com/et/D3Tallinn/104079-moment-30-w-evert-poom-2908-d3",
+   "hind": {
+    "praegu": "12€",
+    "mark": "\"täitsa õigel ajal\" 12€ (72% müüdud); VIP \"bravuuritari pakett\" 25€; \"teistest ees\" 10€ välja müüdud; uksel ja viimane laar 20€",
+    "allikas": "GateMe, kontrollitud 27.08.2026"
+   },
+   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 + FB event / GateMe (kuupäev, kellaaeg, koosseis, hind). Välisartist Eestis → räpi poolele (baasžanr hip-hop; majorlilkween on eestlane, Bali Baby USA-st). Korraldaja Manufaktuur OÜ / Moment tln, venue D3."
+  },
+  {
    "sait": "www",
    "d": "2026-08-29",
    "t": "kontsert",
@@ -1400,21 +1418,35 @@
    "d": "2026-08-29",
    "t": "kontsert",
    "n": "PUTUKA ROKK",
-   "a": "Ülase12 (Anemon12) DIY-päevaüritus Pelguaias, algus 15.00; koosseis avaldamata",
-   "b": [],
+   "a": "Ülase12 (Anemon12) DIY-päevaüritus Pelguaias: 13.00 uksed, 15.00 bändid, ~21.30 lõpp; oma grill lubatud (oma nõud)",
+   "b": [
+    "Halb Päev",
+    "Volta",
+    "Mobisa Mobisa",
+    "ÕS",
+    "Ave Maria",
+    "Üks Kõigi",
+    "Phlox",
+    "Düsentroop"
+   ],
    "v": "Pelguaed (Ehte 40)",
    "c": "Tallinn",
    "g": [
-    "punk"
+    "punk",
+    "rock"
    ],
    "sn": "Anemon12 FB",
    "su": "https://www.facebook.com/anemon12tln/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1362464942062617/",
    "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; korraldaja Anemon12/Ülase12 (event nende events-tabis). Koosseis ja hind avaldamata — täienda järgmises sweepis",
+   "nb": "lisatud sweepis 14.08.2026; korraldaja Anemon12/Ülase12 (event nende events-tabis). TÄIENDATUD 27.08.2026 postkastijooksus: koosseis Rada7.ee uudiskirjast 26.08.2026 (toimetaja loend — FB eventi kirjelduses koosseisu EI ole, seal on ainult ajakava ja hind), kellaajad + 3€ sularahahind FB eventist.",
    "img": "https://www.skene.info/pildid/putukarokk.webp",
-   "koosseis_tba": 1
+   "hind": {
+    "praegu": "3€",
+    "mark": "uksel, ainult sularahas",
+    "allikas": "FB event, kontrollitud 27.08.2026"
+   }
   },
   {
    "sait": "klubi",
@@ -1616,7 +1648,10 @@
    "sn": "Damn.Loudi FB",
    "su": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
    "pu": "https://fienta.com/et/nothing-paavli-tallinn",
-   "img": "https://www.skene.info/pildid/nothinghammok.webp"
+   "img": "https://www.skene.info/pildid/nothinghammok.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/964226053103341/",
+   "nb": "27.08.2026: FB eventi link + uksed 19.00 Paavli Kultuurivabriku uudiskirjast 26.08.2026 (Nothing = Philadelphia shoegaze, Hammok = Norra hardcore)."
   },
   {
    "sait": "www",

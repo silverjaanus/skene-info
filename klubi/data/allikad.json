@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26",
+ "updated": "2026-08-27",
  "groups": [
   {
    "nimi": "Kohad",
@@ -79,6 +79,10 @@
     {
      "n": "Loovruum / Creative Space Tallinn",
      "u": "https://ra.co/clubs/256380"
+    },
+    {
+     "n": "MOD (MOD.tln, Paavli Kultuurivabriku klubisaal)",
+     "u": "https://www.facebook.com/Modtln/events"
     },
     {
      "n": "Nullpunkt (Tallinn)",
@@ -269,6 +273,15 @@
     {
      "n": "Rada7.ee (FB events)",
      "u": "https://www.facebook.com/rada7.ee/events"
+    }
+   ]
+  },
+  {
+   "nimi": "Plaadifirmad ja poed",
+   "items": [
+    {
+     "n": "Hidden Harmony Recordings (label)",
+     "u": "https://hidden-harmony.bandcamp.com/music"
     }
    ]
   }
