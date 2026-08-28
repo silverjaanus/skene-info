@@ -30,3 +30,4 @@ sweep/inbox_heartbeat.json
 
 # ajutine commit-teate fail (PowerShell soob jutumargid, seega -F)
 _commitmsg.txt
+sweep/_tmp_*
