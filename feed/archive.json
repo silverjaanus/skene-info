@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27",
+ "updated": "2026-08-28",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 166,
+ "count": 176,
  "entries": [
   {
    "sait": "www",
@@ -182,6 +182,29 @@
    "lisatud": "2026-06-10"
   },
   {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-06-18",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Luurel Varas — «Putukas»",
+   "a": "Tallinna bass / house / dub",
+   "b": [
+    "Luurel Varas"
+   ],
+   "g": [
+    "bass",
+    "house",
+    "techno",
+    "dub",
+    "ambient"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://luurelvaras.bandcamp.com/album/putukas",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "https://klubi.skene.info/pildid/luurelvarasputukas.webp"
+  },
+  {
    "sait": "www",
    "rel": 1,
    "d": "2026-06-23",
@@ -306,6 +329,26 @@
   },
   {
    "sait": "www",
+   "rel": 1,
+   "d": "2026-07-05",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Mad Dreams — «Farolong»",
+   "a": "Tallinna alt-rock / grunge; ilmus ka instrumentaalversioonina",
+   "b": [
+    "Mad Dreams"
+   ],
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://maddreamsofficial.bandcamp.com/album/farolong",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
+   "img": "https://www.skene.info/pildid/maddreamsfarolong.webp"
+  },
+  {
+   "sait": "www",
    "d": "2026-07-06",
    "t": "kontsert",
    "n": "Laine Live: Molbo + Homebroke",
@@ -346,6 +389,28 @@
    "img": "https://klubi.skene.info/pildid/oudeisdiscretesensation.webp",
    "rel": 1,
    "lisatud": "2026-07-06"
+  },
+  {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-07-06",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Svet Nureka — «Serpentarium»",
+   "a": "ambient / new wave / synthpop",
+   "b": [
+    "Svet Nureka"
+   ],
+   "g": [
+    "ambient",
+    "experimental",
+    "electro",
+    "darkwave"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://svetnureka.bandcamp.com/album/serpentarium",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "https://klubi.skene.info/pildid/svetnurekaserpentarium.webp"
   },
   {
    "sait": "klubi",
@@ -983,6 +1048,26 @@
   },
   {
    "sait": "www",
+   "rel": 1,
+   "d": "2026-07-20",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Kõutsmees — «ma ei oska elada»",
+   "a": "Elva alternatiiv / punk / harsh noise",
+   "b": [
+    "Kõutsmees"
+   ],
+   "g": [
+    "punk",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://k6utsmees.bandcamp.com/album/ma-ei-oska-elada",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
+   "img": "https://www.skene.info/pildid/koutsmeesmaeioskaelada.webp"
+  },
+  {
+   "sait": "www",
    "d": "2026-07-20",
    "t": "kontsert",
    "n": "Lenny Kravitz (USA)",
@@ -1076,6 +1161,50 @@
    "nb": "leitud Bandcamp discover (estonia+punk) sweepis 25.07.2026; release-kuupäev albumi lehelt. 26.07.2026: 'su' viitas discover-OTSINGULE, mitte albumile — parandatud albumi lehele (pealkirja link kasutab ou||su). 13.08.2026 SILVERI OTSUS: JÄÄB peasaidile (country-domineerimise küsimus tõstatatud ja otsustatud) — ära tõsta uuesti",
    "v": "Bandcamp",
    "img": "https://www.skene.info/pildid/kantriguidubandlappakotte.webp"
+  },
+  {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-07-21",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Kelson — «Mordovia arena geolog»",
+   "a": "Kohtla-Järve eksperimentaal / drone / power electronics",
+   "b": [
+    "Kelson"
+   ],
+   "g": [
+    "experimental",
+    "industrial",
+    "dark",
+    "ambient"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://kelson1.bandcamp.com/album/mordovia-arena-geolog",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "https://klubi.skene.info/pildid/kelsonmordoviaarenageolog.webp"
+  },
+  {
+   "sait": "rap",
+   "rel": 1,
+   "d": "2026-07-21",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "margiiela & Chillin — «Came Through»",
+   "a": "singel, mis juhatab sisse 7. augustil ilmuva ühise EP; produtsent Emildollaz (osalenud Billboard 200 esikohaalbumi loomisel)",
+   "b": [
+    "margiiela",
+    "Chillin"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Records",
+   "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
+   "nb": "leitud 28.07.2026 legendaarne.ee uudisvoost. Kinnitatud 2 allikaga: Legendaarne Records (label, 21.07.2026 'avaldasid täna') + ERR kultuuriportaali 'Uue muusika reede' 24.07.2026, kus margiielat nimetatakse 'Eesti alternatiivräpi esindajaks'. Kuupäev võetud labeli enda teatest (21.07); ERR kajastas seda oma reedeses nädalakokkuvõttes 24.07. KOLMAS kinnitus: Spotify singel 'Came Through' (2026), (c) Legendaarne Records",
+   "on_": "Spotify",
+   "ou": "https://open.spotify.com/album/1yxEc0PKqWvffhK0Mv9mNg",
+   "img": "https://rap.skene.info/pildid/margiielachillincamethrough.webp"
   },
   {
    "sait": "www",
@@ -1459,6 +1588,26 @@
    "ou": "https://www.facebook.com/events/936894902043640/",
    "pu": "https://fienta.com/et/laine-live-industry",
    "img": "https://www.skene.info/pildid/laineliveindustrydemodelcitizen.webp"
+  },
+  {
+   "sait": "rap",
+   "rel": 1,
+   "d": "2026-07-28",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Bro Checks — «Entroopia»",
+   "a": "täispikk album, 7 lugu, 23:17; omakirjastus; esimene album pärast 2007. aastat (Spotify diskograafia järgi)",
+   "b": [
+    "Bro Checks"
+   ],
+   "v": "Spotify",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Spotify",
+   "su": "https://open.spotify.com/album/6rT7XiGT74F1ZyqmlRmg2b",
+   "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber.",
+   "img": "https://rap.skene.info/pildid/brochecksentroopia.webp"
   },
   {
    "sait": "www",
@@ -4447,6 +4596,83 @@
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Hell Tartu FB events-leht + ürituse enda FB event (koosseis, kellaajad, uksehind). Bändide Bandcamp-lingid ürituse kirjelduses: stresssysteem.bandcamp.com, youthdeprivation.bandcamp.com",
    "img": "https://www.skene.info/pildid/stresssystemnlyouthdeprivationnltaielikporno.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-27",
+   "t": "klubi",
+   "n": "Arto @ Tšungel",
+   "a": "Neljapäevane vabaõhu-DJ-õhtu Kopli 1 juures, 21.00–02.00, tasuta (21+)",
+   "b": [
+    "Arto"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "electro",
+    "techno",
+    "minimal"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2516507",
+   "lisatud": "2026-08-21",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "sissepääs tasuta, vanusepiirang 21+",
+    "allikas": "RA event, kontrollitud 21.08.2026"
+   },
+   "nb": "lisatud sweepis 21.08.2026. Allikad: RA event 2516507 + Tšungla RA venue-leht (265290). Tšungel on suvine vabaõhupaik, mille kogu programm on elektrooniline (sources.json). Kehtib PÜSIREEGEL 8 — samanädalased tasuta DJ-peod lähevad sisse."
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-27",
+   "t": "kontsert",
+   "n": "Remembering Ozzy — tribute to Black Sabbath, Ozzy Osbourne & The Pretty Reckless",
+   "a": "Live-tribuut: Black Sabbathi / Ozzy soolokarjääri hitid (Aleksander Silvese koosseis) + The Pretty Reckless (ansambel Amplituud). Kell 19.00, tasuta sissepääs",
+   "b": [
+    "Aleksander Silvese koosseis",
+    "Amplituud"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "metal"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2248809569274082/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; korraldaja Uus Laine + Aleksander Silves (event kahe hostiga)",
+   "img": "https://www.skene.info/pildid/rememberingozzytributetoblacksabbathozzyosbournetheprettyreckless.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-27",
+   "t": "kontsert",
+   "n": "SFP esitleb: Suntrace + Präänikud + Shakabrah!",
+   "b": [
+    "Suntrace (FIN)",
+    "Präänikud",
+    "Shakabrah! (FIN)"
+   ],
+   "g": [
+    "punk",
+    "melodic"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2153404468537125",
+   "nb": "Soome melo-punk/emo bändide balti tuur; uksed 19.00; kontrollitud 07.07.2026",
+   "img": "https://www.skene.info/pildid/sfpesitlebsuntracepraanikudshakabrah.webp"
   }
  ]
 }

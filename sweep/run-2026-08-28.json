@@ -1,0 +1,405 @@
+{
+ "kuupaev": "2026-08-28",
+ "allikaid": 190,
+ "avatud": 92,
+ "skipitud": [
+  {
+   "url": "https://www.facebook.com/mahtrarecords",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "(URL puudub: Nailboard Rock Shop)",
+   "pohjus": "sources.json-is URL-i ei ole"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://howlsofwinter.eu/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://wunderbaar.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://hardrocklaager.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/aprillikivi/events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://pergerus.eu/et/tarbariitus/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://fienta.com/et/o/29285",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/people/Kotka-Kultuurimaja/61573068690588/?sk=events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/facecollectorband/upcoming_hosted_events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/Plaaditurg/events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.instagram.com/damn.loud/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.instagram.com/tuum.baar/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://lukemois.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.instagram.com/eestihiphopfestival/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.instagram.com/tommycashworld/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.instagram.com/nublufy/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://legendaarne.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.piletilevi.ee/piletid/muusika",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://chainz.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://tartupunch.com/et/avaleht-eesti/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://tourmotor.net",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/Paavli.Kvartal/events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://somo.social",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.kluub.ee",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://onlinepilet.ee",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.piletimaailm.com/categories/1-muusika",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.ticketer.ee",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.piletilevi.ee/search?query=metal",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://ticketshop.ee/et/events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://muusikaplaneet.ee/category/singel/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://tuska.fi/en/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://steelfest.fi/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://copenhell.dk/en/front-page/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://swedenrock.com/en/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.tonsofrock.no/en",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.beyondthegates.no/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://infernofestival.no/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.wacken.com/en/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.hellfest.fr",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.graspop.be",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "http://www.summer-breeze.de",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.brutalassault.cz",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.wave-gotik-treffen.de/english/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://meraluna.de/en/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/rollheaven/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/punkrockfestival/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://saund.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/veriorarock.stroganoff/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/Arturlaats/events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://vmpr.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61557037942445&sk=events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/djreglok/events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://fienta.com/o/17595",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://fienta.com/et/o/17330",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://fienta.com/et/o/17855",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://genklubi.ee/events/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://allevents.in/tallinn/raves",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://www.facebook.com/satnamest/events",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://estelmus.com/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "ajaeelarve: R 03:06 jooksu tahtaeg on 11:30 (Make.com loeb latest.json); prioriteet oli Eesti venue-/korraldaja-FB events-tabid, RA snapshot ja Fienta/GateMe piletiallikad"
+  }
+ ],
+ "uusi": {
+  "www": 4,
+  "rap": 3,
+  "klubi": 12
+ },
+ "markus": "28.08.2026 reedene sweep. Avatud arvus sisaldub 38 ra.co allikat, mis on kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-08-27, HANDOVER p2 reegel 15). Lisaks 1 eemaldatud kirje (SOUND2 29.08 - Fienta \"Jaab ara\") ja 2 rikastust."
+}

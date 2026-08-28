@@ -180,6 +180,25 @@
    "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia"
   },
   {
+   "rel": 1,
+   "d": "2026-07-05",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Mad Dreams — «Farolong»",
+   "a": "Tallinna alt-rock / grunge; ilmus ka instrumentaalversioonina",
+   "b": [
+    "Mad Dreams"
+   ],
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://maddreamsofficial.bandcamp.com/album/farolong",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/maddreamsfarolong.webp"
+  },
+  {
    "d": "2026-07-06",
    "t": "kontsert",
    "n": "Laine Live: Molbo + Homebroke",
@@ -628,6 +647,25 @@
    "nb": "lisatud 26.07.2026 Silveri märkuse peale; kinnitatud 2 allikaga — Metal Archives (release date 20.07.2026, kirje loodud samal päeval) + bändi enda FB-teade «12 pikka aastat on möödas...». NB Bandcampi credits-real seisab platseholderina «released January 1, 2026» — tegelik ilmumine 20.07.2026. Varasemad sweepid lugesid selle Bandcamp discoveris ekslikult vanaks reliisiks.",
    "v": "Bandcamp",
    "img": "pildid/tharaphitaoisetaevagauheks.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-07-20",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Kõutsmees — «ma ei oska elada»",
+   "a": "Elva alternatiiv / punk / harsh noise",
+   "b": [
+    "Kõutsmees"
+   ],
+   "g": [
+    "punk",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://k6utsmees.bandcamp.com/album/ma-ei-oska-elada",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/koutsmeesmaeioskaelada.webp"
   },
   {
    "d": "2026-07-21",
@@ -2085,6 +2123,55 @@
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Hell Tartu FB events-leht + ürituse enda FB event (koosseis, kellaajad, uksehind). Bändide Bandcamp-lingid ürituse kirjelduses: stresssysteem.bandcamp.com, youthdeprivation.bandcamp.com",
    "img": "pildid/stresssystemnlyouthdeprivationnltaielikporno.webp"
+  },
+  {
+   "d": "2026-08-27",
+   "t": "kontsert",
+   "n": "Remembering Ozzy — tribute to Black Sabbath, Ozzy Osbourne & The Pretty Reckless",
+   "a": "Live-tribuut: Black Sabbathi / Ozzy soolokarjääri hitid (Aleksander Silvese koosseis) + The Pretty Reckless (ansambel Amplituud). Kell 19.00, tasuta sissepääs",
+   "b": [
+    "Aleksander Silvese koosseis",
+    "Amplituud"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "metal"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2248809569274082/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; korraldaja Uus Laine + Aleksander Silves (event kahe hostiga)",
+   "img": "pildid/rememberingozzytributetoblacksabbathozzyosbournetheprettyreckless.webp"
+  },
+  {
+   "d": "2026-08-27",
+   "t": "kontsert",
+   "n": "SFP esitleb: Suntrace + Präänikud + Shakabrah!",
+   "b": [
+    "Suntrace (FIN)",
+    "Präänikud",
+    "Shakabrah! (FIN)"
+   ],
+   "g": [
+    "punk",
+    "melodic"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "sn": "Secret Face FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2153404468537125",
+   "nb": "Soome melo-punk/emo bändide balti tuur; uksed 19.00; kontrollitud 07.07.2026",
+   "img": "pildid/sfpesitlebsuntracepraanikudshakabrah.webp"
   }
  ]
 }

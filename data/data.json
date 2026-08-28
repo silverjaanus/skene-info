@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27",
+ "updated": "2026-08-28",
  "entries": [
   {
    "rel": 1,
@@ -62,25 +62,6 @@
   },
   {
    "rel": 1,
-   "d": "2026-07-05",
-   "lisatud": "2026-07-28",
-   "t": "reliis",
-   "n": "Mad Dreams — «Farolong»",
-   "a": "Tallinna alt-rock / grunge; ilmus ka instrumentaalversioonina",
-   "b": [
-    "Mad Dreams"
-   ],
-   "g": [
-    "rock",
-    "alt"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://maddreamsofficial.bandcamp.com/album/farolong",
-   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/maddreamsfarolong.webp"
-  },
-  {
-   "rel": 1,
    "d": "2026-07-09",
    "lisatud": "2026-08-02",
    "t": "reliis",
@@ -97,25 +78,6 @@
    "su": "https://sadesemper.bandcamp.com/album/the-sun-and-others",
    "nb": "lisatud 02.08.2026. Kuupäev 09.07.2026 kinnitatud Bandcampi albumilehelt ja Apple Musicust. Artist esineb ka nime all demeeter (@demeeterrr). Žanr pop punk / folk punk — varem sekts 4 all 'piiripealne', küsimust tegelikult ei olnud: punk/alt mahub peasaidi skoopi.",
    "img": "pildid/sadesemperthesunandothers.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2026-07-20",
-   "lisatud": "2026-07-28",
-   "t": "reliis",
-   "n": "Kõutsmees — «ma ei oska elada»",
-   "a": "Elva alternatiiv / punk / harsh noise",
-   "b": [
-    "Kõutsmees"
-   ],
-   "g": [
-    "punk",
-    "alt"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://k6utsmees.bandcamp.com/album/ma-ei-oska-elada",
-   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
-   "img": "pildid/koutsmeesmaeioskaelada.webp"
   },
   {
    "rel": 1,
@@ -142,6 +104,25 @@
    "d": "2026-07-31",
    "lisatud": "2026-08-02",
    "t": "reliis",
+   "n": "Avemaria — «Kuidas vabaneda üleliigsetest hammastest»",
+   "a": "Tallinna punk / art-rock / post-punk",
+   "b": [
+    "Avemaria"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://avemariasituatsioon.bandcamp.com/album/kuidas-vabaneda-leliigsetest-hammastest",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)",
+   "img": "pildid/avemariakuidasvabanedauleliigsetesthammastest.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
    "n": "Enditian — «Kütidkorilased EP»",
    "a": "Tartu crust punk / powerviolence",
    "b": [
@@ -156,25 +137,6 @@
    "su": "https://endyendytyantyan.bandcamp.com/album/k-tidkorilased-ep",
    "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)",
    "img": "pildid/enditiankutidkorilasedep.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2026-07-31",
-   "lisatud": "2026-08-02",
-   "t": "reliis",
-   "n": "Avemaria — «Kuidas vabaneda üleliigsetest hammastest»",
-   "a": "Tallinna punk / art-rock / post-punk",
-   "b": [
-    "Avemaria"
-   ],
-   "v": "Bandcamp",
-   "g": [
-    "punk"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://avemariasituatsioon.bandcamp.com/album/kuidas-vabaneda-leliigsetest-hammastest",
-   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)",
-   "img": "pildid/avemariakuidasvabanedauleliigsetesthammastest.webp"
   },
   {
    "rel": 1,
@@ -348,55 +310,6 @@
    "img": "pildid/mustmissakhattratapes.webp"
   },
   {
-   "d": "2026-08-27",
-   "t": "kontsert",
-   "n": "SFP esitleb: Suntrace + Präänikud + Shakabrah!",
-   "b": [
-    "Suntrace (FIN)",
-    "Präänikud",
-    "Shakabrah! (FIN)"
-   ],
-   "g": [
-    "punk",
-    "melodic"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "sn": "Secret Face FB",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2153404468537125",
-   "nb": "Soome melo-punk/emo bändide balti tuur; uksed 19.00; kontrollitud 07.07.2026",
-   "img": "pildid/sfpesitlebsuntracepraanikudshakabrah.webp"
-  },
-  {
-   "d": "2026-08-27",
-   "t": "kontsert",
-   "n": "Remembering Ozzy — tribute to Black Sabbath, Ozzy Osbourne & The Pretty Reckless",
-   "a": "Live-tribuut: Black Sabbathi / Ozzy soolokarjääri hitid (Aleksander Silvese koosseis) + The Pretty Reckless (ansambel Amplituud). Kell 19.00, tasuta sissepääs",
-   "b": [
-    "Aleksander Silvese koosseis",
-    "Amplituud"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "metal"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2248809569274082/",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "FB event, kontrollitud 02.08.2026"
-   },
-   "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; korraldaja Uus Laine + Aleksander Silves (event kahe hostiga)",
-   "img": "pildid/rememberingozzytributetoblacksabbathozzyosbournetheprettyreckless.webp"
-  },
-  {
    "d": "2026-08-28",
    "t": "kontsert",
    "n": "Caliber Orders",
@@ -411,53 +324,6 @@
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna",
    "img": "pildid/caliberorders.webp"
-  },
-  {
-   "d": "2026-08-28",
-   "t": "kontsert",
-   "n": "MODEL CITIZEN + I AM BOB + DJ Valter Nõmm",
-   "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB (krautrock/post-punk, Tallinn) + DJ Valter Nõmm",
-   "b": [
-    "Model Citizen",
-    "I AM BOB"
-   ],
-   "v": "Burger Box",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "alt"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/1063635092993606",
-   "hind": {
-    "praegu": "tasuta"
-   },
-   "img": "pildid/modelcitizeniambobdjvalternomm.webp",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1063635092993606/",
-   "nb": "27.08.2026: FB eventi link lisatud Rada7.ee uudiskirjast 26.08.2026 (uudiskiri: I Am Bob esimene kontsert, Bandcamp iambob.bandcamp.com/album/i-am-bob-ep)."
-  },
-  {
-   "d": "2026-08-28",
-   "t": "kontsert",
-   "n": "Metallica & AC/DC night: Patarei + Coverage",
-   "a": "Tribüütõhtu — Patarei (Metallica) + Coverage (AC/DC); algus 21:00",
-   "b": [
-    "Patarei",
-    "Coverage"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "hard rock",
-    "tribüüt"
-   ],
-   "sn": "Fienta",
-   "su": "https://fienta.com/et/patarei-coverage-thekrypt",
-   "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
-   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
-   "img": "pildid/metallicaacdcnightpatareicoverage.webp"
   },
   {
    "d": "2026-08-28",
@@ -519,20 +385,51 @@
    "img": "pildid/kojameesthegangfucktor.webp"
   },
   {
-   "d": "2026-08-29",
+   "d": "2026-08-28",
    "t": "kontsert",
-   "n": "Ampest @ Tabasalu Päev",
+   "n": "MODEL CITIZEN + I AM BOB + DJ Valter Nõmm",
+   "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB (krautrock/post-punk, Tallinn) + DJ Valter Nõmm",
    "b": [
-    "Ampest"
+    "Model Citizen",
+    "I AM BOB"
    ],
-   "v": "Tabasalu Tui park",
-   "c": "mujal",
+   "v": "Burger Box",
+   "c": "Tallinn",
    "g": [
-    "metal"
+    "rock",
+    "alt"
    ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park",
-   "img": "pildid/ampesttabasalupaev.webp"
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1063635092993606",
+   "hind": {
+    "praegu": "tasuta"
+   },
+   "img": "pildid/modelcitizeniambobdjvalternomm.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1063635092993606/",
+   "nb": "27.08.2026: FB eventi link lisatud Rada7.ee uudiskirjast 26.08.2026 (uudiskiri: I Am Bob esimene kontsert, Bandcamp iambob.bandcamp.com/album/i-am-bob-ep)."
+  },
+  {
+   "d": "2026-08-28",
+   "t": "kontsert",
+   "n": "Metallica & AC/DC night: Patarei + Coverage",
+   "a": "Tribüütõhtu — Patarei (Metallica) + Coverage (AC/DC); algus 21:00",
+   "b": [
+    "Patarei",
+    "Coverage"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "hard rock",
+    "tribüüt"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/patarei-coverage-thekrypt",
+   "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
+   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
+   "img": "pildid/metallicaacdcnightpatareicoverage.webp"
   },
   {
    "d": "2026-08-29",
@@ -556,6 +453,22 @@
    "pu": "https://www.piletilevi.ee/piletid/VD37QERUVT/airbourne",
    "nb": "algus 19.00; korraldajad Live Nation Estonia + Helitehas; kontrollitud 09.07.2026 | 25.07.2026: soojendaja Elephants From Neptune lisatud (Helitehas FB)",
    "img": "pildid/airbourne.webp"
+  },
+  {
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Ampest @ Tabasalu Päev",
+   "b": [
+    "Ampest"
+   ],
+   "v": "Tabasalu Tui park",
+   "c": "mujal",
+   "g": [
+    "metal"
+   ],
+   "sn": "Bandsintown",
+   "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park",
+   "img": "pildid/ampesttabasalupaev.webp"
   },
   {
    "d": "2026-08-29",
@@ -585,24 +498,30 @@
   {
    "d": "2026-08-29",
    "t": "kontsert",
-   "n": "TOOL & Nine Inch Nails night: Fool + Hate Machine (FIN)",
-   "a": "Soome tribüütbändid — Fool (Tool) + Hate Machine (NIN); uksed 20:00, algus 22:00",
+   "n": "Last Gig of Summer @ Fort Bar",
+   "a": "Suve viimane kontsert Fort Baris; tasuta sissepaas, kell 19.00",
    "b": [
-    "Fool",
-    "Hate Machine"
+    "Must Ruut",
+    "KLOP",
+    "Лысый и Браззерсы"
    ],
-   "v": "The Krypt",
+   "v": "Fort Bar",
    "c": "Tallinn",
    "g": [
-    "prog",
-    "industrial",
-    "tribüüt"
+    "rock",
+    "alt",
+    "punk"
    ],
-   "sn": "Fienta",
-   "su": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
-   "pu": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
-   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
-   "img": "pildid/toolnineinchnailsnightfoolhatemachinefin.webp"
+   "sn": "Fort Bar (FB events)",
+   "su": "https://www.facebook.com/fortbar.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1706702997271534/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "FREE ENTRY, kell 19.00",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fort Bari FB events-tab + urituse FB event (kaaskorraldajad Must Ruut ja Lüssy i Brazzersy). Must Ruut = alternatiivrock (mustruut.ee)."
   },
   {
    "d": "2026-08-29",
@@ -624,29 +543,6 @@
    "pu": "https://fienta.com/et/moisapargi-sumin-metsatoll",
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis (leid Fienta metal-otsingust). Audru, Pärnumaa; algus 18.00. ⚠ Piletihinda EI õnnestunud Fienta lehelt tekstina kätte saada (hinnad on ostuvoos), seega hind-välja ei ole. Teine allikas: Fienta ürituseleht ise + Piletilevi/kohalik kajastus kontrollimata — kui leiad FB eventi, lisa see ou-le"
-  },
-  {
-   "d": "2026-08-29",
-   "t": "kontsert",
-   "n": "Tallinn Indie Shuffle: Around the Sun x YE",
-   "a": "Indie-õhtu kell 19.00–23.45",
-   "b": [
-    "Around the Sun",
-    "YE"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "alt",
-    "rock"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2426267614573170/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; allikad: Uus Laine FB event + uuslaine.com kalender. Pileti-/hinnainfot event-lehel ei olnud",
-   "img": "pildid/tallinnindieshufflearoundthesunxye.webp"
   },
   {
    "d": "2026-08-29",
@@ -681,6 +577,51 @@
     "mark": "uksel, ainult sularahas",
     "allikas": "FB event, kontrollitud 27.08.2026"
    }
+  },
+  {
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "TOOL & Nine Inch Nails night: Fool + Hate Machine (FIN)",
+   "a": "Soome tribüütbändid — Fool (Tool) + Hate Machine (NIN); uksed 20:00, algus 22:00",
+   "b": [
+    "Fool",
+    "Hate Machine"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "prog",
+    "industrial",
+    "tribüüt"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+   "pu": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
+   "img": "pildid/toolnineinchnailsnightfoolhatemachinefin.webp"
+  },
+  {
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Tallinn Indie Shuffle: Around the Sun x YE",
+   "a": "Indie-õhtu kell 19.00–23.45",
+   "b": [
+    "Around the Sun",
+    "YE"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2426267614573170/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Uus Laine FB event + uuslaine.com kalender. Pileti-/hinnainfot event-lehel ei olnud",
+   "img": "pildid/tallinnindieshufflearoundthesunxye.webp"
   },
   {
    "d": "2026-08-30",
@@ -731,6 +672,30 @@
   {
    "d": "2026-09-04",
    "t": "kontsert",
+   "n": "Black River Bluesman & Bad Mood Hudson (FIN) + Andres Roots",
+   "a": "Soome bluusiduo + Andres Roots; algus 20.00",
+   "b": [
+    "Black River Bluesman & Bad Mood Hudson",
+    "Andres Roots"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "bluus",
+    "rock"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1367280228121282/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; venue enda FB event (Koidu 13a, Viljandi). Bluus peasaidil Roots Sessioni pretsedendi järgi",
+   "img": "pildid/blackriverbluesmanbadmoodhudsonfinandresroots.webp"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "kontsert",
    "n": "Fear Factory + Crystal Lake + Hate + The Nocturnal Affair",
    "b": [
     "Fear Factory",
@@ -763,31 +728,6 @@
   {
    "d": "2026-09-04",
    "t": "kontsert",
-   "n": "Songs Of The Dead",
-   "a": "muusikud bändidest Hunta, Mört ja Cosmic Cowboys mängivad lahkunud lauljate lugusid; uksed 21:00, live 22:00, pilet 10 € (ainult sularaha)",
-   "v": "Kidrakuur",
-   "c": "Tallinn",
-   "g": [
-    "rock"
-   ],
-   "sn": "Kidrakuur (FB)",
-   "su": "https://www.facebook.com/events/1567937774772357/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1567937774772357/",
-   "b": [
-    "Songs Of The Dead"
-   ],
-   "hind": {
-    "praegu": "10€",
-    "mark": "ainult sularahas uksel; uksed 21.00, live 22.00",
-    "allikas": "FB event, kontrollitud 28.07.2026"
-   },
-   "nb": "koosseis: Marek Cram Piliste (vokaal, Hunta), Sulo Kiivit ja Martin Jyrman (kitarrid), Mikk Kerner (trummid); akustiline kava lahkunud artistide lugudest. Ainult 1 allikas (korraldaja enda FB event) — piletimüüjat polegi",
-   "img": "pildid/songsofthedead.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "kontsert",
    "n": "HAINZ (Kosmikud) akustilise kavaga",
    "a": "Kosmikute laulja Meelis 'Hainz' Hainsoo akustiline kava. Kell 20.00, tasuta sissepääs",
    "b": [
@@ -813,26 +753,54 @@
   {
    "d": "2026-09-04",
    "t": "kontsert",
-   "n": "Black River Bluesman & Bad Mood Hudson (FIN) + Andres Roots",
-   "a": "Soome bluusiduo + Andres Roots; algus 20.00",
-   "b": [
-    "Black River Bluesman & Bad Mood Hudson",
-    "Andres Roots"
-   ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
+   "n": "Songs Of The Dead",
+   "a": "muusikud bändidest Hunta, Mört ja Cosmic Cowboys mängivad lahkunud lauljate lugusid; uksed 21:00, live 22:00, pilet 10 € (ainult sularaha)",
+   "v": "Kidrakuur",
+   "c": "Tallinn",
    "g": [
-    "bluus",
     "rock"
    ],
-   "sn": "Konservatoorium FB",
-   "su": "https://www.facebook.com/konservatoorium/events",
+   "sn": "Kidrakuur (FB)",
+   "su": "https://www.facebook.com/events/1567937774772357/",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1367280228121282/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; venue enda FB event (Koidu 13a, Viljandi). Bluus peasaidil Roots Sessioni pretsedendi järgi",
-   "img": "pildid/blackriverbluesmanbadmoodhudsonfinandresroots.webp"
+   "ou": "https://www.facebook.com/events/1567937774772357/",
+   "b": [
+    "Songs Of The Dead"
+   ],
+   "hind": {
+    "praegu": "10€",
+    "mark": "ainult sularahas uksel; uksed 21.00, live 22.00",
+    "allikas": "FB event, kontrollitud 28.07.2026"
+   },
+   "nb": "koosseis: Marek Cram Piliste (vokaal, Hunta), Sulo Kiivit ja Martin Jyrman (kitarrid), Mikk Kerner (trummid); akustiline kava lahkunud artistide lugudest. Ainult 1 allikas (korraldaja enda FB event) — piletimüüjat polegi",
+   "img": "pildid/songsofthedead.webp"
+  },
+  {
+   "d": "2026-09-05",
+   "t": "kontsert",
+   "n": "Alanud on sügis",
+   "a": "Ülase12 sügishooaja avaohtu — Beer Gardensi ja Veli-Rekka & Rokuti tuurilopp; uksed 17.00, esimene bänd 17.45",
+   "b": [
+    "Väntajad",
+    "Beer Gardens",
+    "Aur",
+    "Präänikud",
+    "Nova Lux",
+    "Veli-Rekka & Rokut (FI)"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock",
+    "folk",
+    "alt"
+   ],
+   "sn": "Ülase12 / Anemon12 (FB events)",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2765050907225476/",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Anemon12 (Ülase12) FB events-tab + urituse FB event; taiskava ja kellaajad FB eventi kirjeldusest (Väntajad 17.45, Beer Gardens 18.45, Aur 19.45, Präänikud 20.45, Nova Lux 22.00, Veli-Rekka & Rokut 23.00). Piletihinda pole avaldatud."
   },
   {
    "d": "2026-09-05",
@@ -914,43 +882,6 @@
   },
   {
    "d": "2026-09-11",
-   "d2": "12.09",
-   "t": "festival",
-   "n": "Punk & Rock Insidefest 2026",
-   "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a, Tartu); 10 kinnitatud bändi, vanusepiirangut pole",
-   "b": [
-    "J.M.K.E.",
-    "Kurjam",
-    "Nyrok City",
-    "Pedigree",
-    "Soda Effect",
-    "Stepdog",
-    "Deformation",
-    "Aresto",
-    "Exanity",
-    "Sitaharakas"
-   ],
-   "v": "Klubi Rock & Roll",
-   "c": "Tartu",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Punk & Rock festival Estonia FB",
-   "su": "https://www.facebook.com/punkrockfestival/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1468527551938865/",
-   "nb": "koosseis kinnitatud 28.07.2026 sweepis (FB event + Ticketer). NB algusaja ebakõla: FB ütleb 11.09 kell 15.00, Ticketer 'uksed 18.00' | 21.08.2026 sweep: Rock & Roll Heaven + Punk & Rock Festival FB events-tabid kinnitavad moLEMAD 11.-12.09 kahepaevase kuupaeva.",
-   "pu": "https://www.ticketer.ee/punk-rock-insidefest-2026/",
-   "hind": {
-    "praegu": "25€ / 30€",
-    "mark": "kahe päeva pass: varajane ärkaja 25€, festivalipass 30€ (+Ticketeri tehingutasu); uksed 18.00",
-    "allikas": "Ticketer (NYROK MTÜ), kontrollitud 19.07.2026"
-   },
-   "img": "pildid/punkrockinsidefest2026.webp"
-  },
-  {
-   "d": "2026-09-11",
    "d2": "13.09",
    "t": "festival",
    "n": "Fuzz Salvation 2026",
@@ -988,6 +919,43 @@
   },
   {
    "d": "2026-09-11",
+   "d2": "12.09",
+   "t": "festival",
+   "n": "Punk & Rock Insidefest 2026",
+   "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a, Tartu); 10 kinnitatud bändi, vanusepiirangut pole",
+   "b": [
+    "J.M.K.E.",
+    "Kurjam",
+    "Nyrok City",
+    "Pedigree",
+    "Soda Effect",
+    "Stepdog",
+    "Deformation",
+    "Aresto",
+    "Exanity",
+    "Sitaharakas"
+   ],
+   "v": "Klubi Rock & Roll",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Punk & Rock festival Estonia FB",
+   "su": "https://www.facebook.com/punkrockfestival/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1468527551938865/",
+   "nb": "koosseis kinnitatud 28.07.2026 sweepis (FB event + Ticketer). NB algusaja ebakõla: FB ütleb 11.09 kell 15.00, Ticketer 'uksed 18.00' | 21.08.2026 sweep: Rock & Roll Heaven + Punk & Rock Festival FB events-tabid kinnitavad moLEMAD 11.-12.09 kahepaevase kuupaeva.",
+   "pu": "https://www.ticketer.ee/punk-rock-insidefest-2026/",
+   "hind": {
+    "praegu": "25€ / 30€",
+    "mark": "kahe päeva pass: varajane ärkaja 25€, festivalipass 30€ (+Ticketeri tehingutasu); uksed 18.00",
+    "allikas": "Ticketer (NYROK MTÜ), kontrollitud 19.07.2026"
+   },
+   "img": "pildid/punkrockinsidefest2026.webp"
+  },
+  {
+   "d": "2026-09-11",
    "t": "kontsert",
    "n": "Rock Friday: LØV + RAIDER",
    "a": "The Krypti reedene rokiõhtu, algus 20.00",
@@ -1007,28 +975,6 @@
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata. | 22.08.2026: Fienta metal-otsing andis ürituse piletilehe (fienta.com/et/lov-raider-thekrypt) — pu lisatud.",
    "pu": "https://fienta.com/et/lov-raider-thekrypt",
    "img": "pildid/rockfridaylvraider.webp"
-  },
-  {
-   "d": "2026-09-12",
-   "t": "kontsert",
-   "n": "Under the New Moon: Vermilia",
-   "b": [
-    "Vermilia (FI)",
-    "Aether (PL)",
-    "Pagansarv",
-    "Bestia"
-   ],
-   "v": "Rockclub Tapper",
-   "c": "Tallinn",
-   "g": [
-    "pagan",
-    "black"
-   ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
-   "pu": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
-   "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu.",
-   "img": "pildid/underthenewmoonvermilia.webp"
   },
   {
    "d": "2026-09-12",
@@ -1058,6 +1004,29 @@
   {
    "d": "2026-09-12",
    "t": "kontsert",
+   "n": "KURIKS @ Wunderbaar",
+   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, algus 22.00",
+   "b": [
+    "Kuriks"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Wunderbaar FB",
+   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2179942736213871/",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd.",
+   "img": "pildid/kurikswunderbaar.webp"
+  },
+  {
+   "d": "2026-09-12",
+   "t": "kontsert",
    "n": "Oulun_Keskusta (FIN)",
    "a": "Soome punkbänd Euroopa-tuuril (pÄts music tour: Trenčín, Bratislava, Liepāja, Viljandi); algus 22.00",
    "b": [
@@ -1080,25 +1049,24 @@
   {
    "d": "2026-09-12",
    "t": "kontsert",
-   "n": "KURIKS @ Wunderbaar",
-   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, algus 22.00",
+   "n": "Under the New Moon: Vermilia",
    "b": [
-    "Kuriks"
+    "Vermilia (FI)",
+    "Aether (PL)",
+    "Pagansarv",
+    "Bestia"
    ],
-   "v": "Wunderbaar",
-   "c": "mujal",
-   "linn": "Pärnu",
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
    "g": [
-    "rock",
-    "alt"
+    "pagan",
+    "black"
    ],
-   "sn": "Wunderbaar FB",
-   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2179942736213871/",
-   "lisatud": "2026-08-22",
-   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd.",
-   "img": "pildid/kurikswunderbaar.webp"
+   "sn": "Bandsintown",
+   "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
+   "pu": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
+   "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu.",
+   "img": "pildid/underthenewmoonvermilia.webp"
   },
   {
    "d": "2026-09-13",
@@ -1164,20 +1132,26 @@
   {
    "d": "2026-09-18",
    "t": "kontsert",
-   "n": "Rock Friday: Feach + Metropol",
+   "n": "Rock Friday: FEACH + METROPOL",
+   "a": "The Krypti underground-sari; uksed 20.00, bandid 22.00 ja 23.00, 00.00 tasuta aftekas",
    "b": [
-    "Feach",
+    "FEACH",
     "Metropol"
    ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
-    "metal"
+    "rock",
+    "punk",
+    "alt"
    ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-feach-metropol/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
+   "sn": "The Krypt (FB events)",
+   "su": "https://www.facebook.com/thekrypt.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/3438987566273311/",
+   "pu": "https://fienta.com/et/feach-metropol-thekrypt",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: The Krypti FB events-tab / urituse FB event (kaaskorraldajad Rada7.ee ja FEACH) + Fienta piletileht. FEACH = garaazirock/surf-punk.",
+   "img": "pildid/rockfridayfeachmetropol.webp"
   },
   {
    "d": "2026-09-19",
@@ -1200,6 +1174,32 @@
    "su": "https://www.facebook.com/events/1044621274573907/",
    "pu": "https://www.piletitasku.ee/et/event/10039",
    "img": "pildid/psychoterrorpedigreeapparatusapparata.webp"
+  },
+  {
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Zord (HU) + Pornogeneraatori (FI) + Wasteland Six",
+   "a": "Zordi „Puritan Fury“ tuur — esimest korda Kryptis; uksed 20.00, bandid 21.00, 00.00 tasuta aftekas",
+   "b": [
+    "Zord",
+    "Pornogeneraatori",
+    "Wasteland Six"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "thrash",
+    "metal",
+    "punk",
+    "core"
+   ],
+   "sn": "The Krypt (FB events)",
+   "su": "https://www.facebook.com/thekrypt.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/957234900742936/",
+   "pu": "https://fienta.com/et/zord-hungary-thekrypt",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (korraldajad Zord Hungary, Estonianmetal.com jt) + Fienta piletileht; kolmas kinnitus Eesti metallistide FB events-tab. Zord = Ungari old-school tehniline thrash (a 2000, Miskolc), Pornogeneraatori = Soome punk/hardcore, Wasteland Six = Tallinna groove metal.",
+   "img": "pildid/zordhupornogeneraatorifiwastelandsix.webp"
   },
   {
    "d": "2026-09-24",
@@ -1338,6 +1338,25 @@
   },
   {
    "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "Beneath Revalia — The Livonian Tour",
+   "a": "Balti tuuri Viljandi peatus, algus 18.00; korraldaja Humanity",
+   "b": [
+    "Beneath Revalia"
+   ],
+   "v": "Konservatoorium",
+   "c": "Viljandi",
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "lisatud": "2026-08-21",
+   "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis."
+  },
+  {
+   "d": "2026-10-02",
    "d2": "04.10",
    "t": "festival",
    "n": "Up In Smoke Festival 2026",
@@ -1370,23 +1389,27 @@
    "img": "pildid/upinsmokefestival2026.webp"
   },
   {
-   "d": "2026-10-02",
+   "d": "2026-10-03",
    "t": "kontsert",
-   "n": "Beneath Revalia — The Livonian Tour",
-   "a": "Balti tuuri Viljandi peatus, algus 18.00; korraldaja Humanity",
+   "n": "Batushka (PL)",
+   "a": "Damn.Loud esitleb: müstiline Poola black metal (Krzysztof Drabikowski Batushka), õigeusu liturgiline esteetika ja rituaalne lavakogemus. Kell 19.00",
    "b": [
-    "Beneath Revalia"
+    "Batushka"
    ],
-   "v": "Konservatoorium",
-   "c": "Viljandi",
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
    "g": [
-    "metal",
-    "death"
+    "black",
+    "metal"
    ],
-   "sn": "Konservatoorium FB",
-   "su": "https://www.facebook.com/konservatoorium/events",
-   "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis."
+   "sn": "Damn.Loud Agency FB",
+   "su": "https://www.facebook.com/we.are.too.damn.loud/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1583944353235720/",
+   "pu": "https://fienta.com/et/batushka-paavli",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht",
+   "img": "pildid/batushkapl.webp"
   },
   {
    "d": "2026-10-03",
@@ -1428,29 +1451,6 @@
    "ou": "https://www.thekrypt.ee/events",
    "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil",
    "img": "pildid/rocksaturdayteravmoon.webp"
-  },
-  {
-   "d": "2026-10-03",
-   "t": "kontsert",
-   "n": "Batushka (PL)",
-   "a": "Damn.Loud esitleb: müstiline Poola black metal (Krzysztof Drabikowski Batushka), õigeusu liturgiline esteetika ja rituaalne lavakogemus. Kell 19.00",
-   "b": [
-    "Batushka"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "black",
-    "metal"
-   ],
-   "sn": "Damn.Loud Agency FB",
-   "su": "https://www.facebook.com/we.are.too.damn.loud/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1583944353235720/",
-   "pu": "https://fienta.com/et/batushka-paavli",
-   "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht",
-   "img": "pildid/batushkapl.webp"
   },
   {
    "d": "2026-10-04",
@@ -2030,6 +2030,24 @@
   },
   {
    "d": "2026-12-11",
+   "tba": 1,
+   "t": "festival",
+   "n": "Sügis Extreme Fest IV (detsember, kuupäev täpsustamisel)",
+   "a": "4. väljaanne, 2-päevane ekstreemmuusika festival",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "black",
+    "grind"
+   ],
+   "sn": "IG @sugisextremefest",
+   "su": "https://www.instagram.com/sugisextremefest/",
+   "koosseis_tba": 1
+  },
+  {
+   "d": "2026-12-11",
    "t": "kontsert",
    "n": "The Ocean + Psychonaut + Pothamus",
    "b": [
@@ -2050,24 +2068,6 @@
    "nb": "10.08.2026 sweep: piletilink lisatud (Fienta)"
   },
   {
-   "d": "2026-12-11",
-   "tba": 1,
-   "t": "festival",
-   "n": "Sügis Extreme Fest IV (detsember, kuupäev täpsustamisel)",
-   "a": "4. väljaanne, 2-päevane ekstreemmuusika festival",
-   "b": [],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "death",
-    "black",
-    "grind"
-   ],
-   "sn": "IG @sugisextremefest",
-   "su": "https://www.instagram.com/sugisextremefest/",
-   "koosseis_tba": 1
-  },
-  {
    "d": "2026-12-12",
    "t": "kontsert",
    "n": "hubris. (CH): Album Release Tour '26",
@@ -2084,28 +2084,6 @@
    "sn": "Kidrakuur (FB)",
    "su": "https://www.facebook.com/events/2053170258639309/",
    "img": "pildid/hubrischalbumreleasetour26.webp"
-  },
-  {
-   "d": "2026-12-19",
-   "t": "kontsert",
-   "n": "Týr + Twilight Force + Dragonland + Vanaheim",
-   "b": [
-    "Týr",
-    "Twilight Force",
-    "Dragonland",
-    "Vanaheim"
-   ],
-   "v": "Helitehas",
-   "c": "Tallinn",
-   "g": [
-    "folk",
-    "power"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=235450",
-   "img": "pildid/tyrtwilightforcedragonlandvanaheim.webp",
-   "pu": "https://www.piletilevi.ee/piletid/Z55JPNTJJY/tyr-twilight-force-dragonland-vanaheim-2026-eu-tour",
-   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi)"
   },
   {
    "d": "2026-12-19",
@@ -2129,6 +2107,28 @@
    "pu": "https://www.ticketer.ee/maustetytot-d3-tallinn/",
    "nb": "lisatud 18.08.2026, SILVERI OTSUS 18.08: piiripealne žanr, läheb peasaidile siltidega rock/pop. Allikad Ticketer + FB event.",
    "img": "pildid/maustetytotfin.webp"
+  },
+  {
+   "d": "2026-12-19",
+   "t": "kontsert",
+   "n": "Týr + Twilight Force + Dragonland + Vanaheim",
+   "b": [
+    "Týr",
+    "Twilight Force",
+    "Dragonland",
+    "Vanaheim"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "folk",
+    "power"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=235450",
+   "img": "pildid/tyrtwilightforcedragonlandvanaheim.webp",
+   "pu": "https://www.piletilevi.ee/piletid/Z55JPNTJJY/tyr-twilight-force-dragonland-vanaheim-2026-eu-tour",
+   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi)"
   },
   {
    "d": "2027-01-18",
@@ -2411,6 +2411,29 @@
    "d": "2027-06-17",
    "d2": "20.06",
    "t": "festival",
+   "n": "Graspop Metal Meeting 2027",
+   "a": "Desseli suurfestival; koosseis avaldamata",
+   "b": [],
+   "v": "Dessel",
+   "c": "mujal",
+   "linn": "Dessel",
+   "g": [
+    "metal",
+    "rock",
+    "heavy"
+   ],
+   "sn": "graspop.be",
+   "su": "https://www.graspop.be/en/",
+   "on_": "graspop.be",
+   "ou": "https://www.graspop.be/en/",
+   "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
+   "img": "pildid/graspopmetalmeeting2027.webp",
+   "koosseis_tba": 1
+  },
+  {
+   "d": "2027-06-17",
+   "d2": "20.06",
+   "t": "festival",
    "n": "Hellfest 2027",
    "a": "Clissoni suurfestival; koosseis avaldamata",
    "b": [],
@@ -2429,29 +2452,6 @@
    "pu": "https://tickets.hellfest.fr",
    "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
    "img": "pildid/hellfest2027.webp",
-   "koosseis_tba": 1
-  },
-  {
-   "d": "2027-06-17",
-   "d2": "20.06",
-   "t": "festival",
-   "n": "Graspop Metal Meeting 2027",
-   "a": "Desseli suurfestival; koosseis avaldamata",
-   "b": [],
-   "v": "Dessel",
-   "c": "mujal",
-   "linn": "Dessel",
-   "g": [
-    "metal",
-    "rock",
-    "heavy"
-   ],
-   "sn": "graspop.be",
-   "su": "https://www.graspop.be/en/",
-   "on_": "graspop.be",
-   "ou": "https://www.graspop.be/en/",
-   "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-   "img": "pildid/graspopmetalmeeting2027.webp",
    "koosseis_tba": 1
   },
   {

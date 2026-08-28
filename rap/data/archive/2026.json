@@ -88,6 +88,27 @@
    "nb": "korraldaja Pulse Events; piletid Piletilevis; kontrollitud 07.07.2026"
   },
   {
+   "rel": 1,
+   "d": "2026-07-21",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "margiiela & Chillin — «Came Through»",
+   "a": "singel, mis juhatab sisse 7. augustil ilmuva ühise EP; produtsent Emildollaz (osalenud Billboard 200 esikohaalbumi loomisel)",
+   "b": [
+    "margiiela",
+    "Chillin"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Records",
+   "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
+   "nb": "leitud 28.07.2026 legendaarne.ee uudisvoost. Kinnitatud 2 allikaga: Legendaarne Records (label, 21.07.2026 'avaldasid täna') + ERR kultuuriportaali 'Uue muusika reede' 24.07.2026, kus margiielat nimetatakse 'Eesti alternatiivräpi esindajaks'. Kuupäev võetud labeli enda teatest (21.07); ERR kajastas seda oma reedeses nädalakokkuvõttes 24.07. KOLMAS kinnitus: Spotify singel 'Came Through' (2026), (c) Legendaarne Records",
+   "on_": "Spotify",
+   "ou": "https://open.spotify.com/album/1yxEc0PKqWvffhK0Mv9mNg",
+   "img": "pildid/margiielachillincamethrough.webp"
+  },
+  {
    "d": "2026-07-24",
    "t": "kontsert",
    "n": "Pluuto · LIVE @ Legendaarne Raadiobaar",
@@ -128,6 +149,25 @@
    "su": "https://vosufestival.ee/",
    "pu": "https://www.piletilevi.ee/series/6ECQIASEVC/vosu-rannafestival-2026",
    "img": "pildid/vosurannafestival2026.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-07-28",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Bro Checks — «Entroopia»",
+   "a": "täispikk album, 7 lugu, 23:17; omakirjastus; esimene album pärast 2007. aastat (Spotify diskograafia järgi)",
+   "b": [
+    "Bro Checks"
+   ],
+   "v": "Spotify",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Spotify",
+   "su": "https://open.spotify.com/album/6rT7XiGT74F1ZyqmlRmg2b",
+   "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber.",
+   "img": "pildid/brochecksentroopia.webp"
   },
   {
    "d": "2026-07-31",

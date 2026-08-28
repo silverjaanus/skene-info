@@ -22,6 +22,28 @@
    "img": "pildid/teknariklauncher2k26.webp"
   },
   {
+   "rel": 1,
+   "d": "2026-06-18",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Luurel Varas — «Putukas»",
+   "a": "Tallinna bass / house / dub",
+   "b": [
+    "Luurel Varas"
+   ],
+   "g": [
+    "bass",
+    "house",
+    "techno",
+    "dub",
+    "ambient"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://luurelvaras.bandcamp.com/album/putukas",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/luurelvarasputukas.webp"
+  },
+  {
    "d": "2026-07-06",
    "t": "reliis",
    "n": "Oudeis — «Discrete Sensation»",
@@ -41,6 +63,27 @@
    "img": "pildid/oudeisdiscretesensation.webp",
    "rel": 1,
    "lisatud": "2026-07-06"
+  },
+  {
+   "rel": 1,
+   "d": "2026-07-06",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Svet Nureka — «Serpentarium»",
+   "a": "ambient / new wave / synthpop",
+   "b": [
+    "Svet Nureka"
+   ],
+   "g": [
+    "ambient",
+    "experimental",
+    "electro",
+    "darkwave"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://svetnureka.bandcamp.com/album/serpentarium",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/svetnurekaserpentarium.webp"
   },
   {
    "rel": 1,
@@ -180,6 +223,27 @@
     "allikas": "Facebook event, kontrollitud 17.07.2026"
    },
    "nb": "kontaktivormi sisend (widzhit); kinnitatud FB ürituse ja Kaks Tuba lehe vastu 17.07.2026; korraldajad drumandbassestonia, Kaks Tuba ja Katlaruum"
+  },
+  {
+   "rel": 1,
+   "d": "2026-07-21",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "Kelson — «Mordovia arena geolog»",
+   "a": "Kohtla-Järve eksperimentaal / drone / power electronics",
+   "b": [
+    "Kelson"
+   ],
+   "g": [
+    "experimental",
+    "industrial",
+    "dark",
+    "ambient"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://kelson1.bandcamp.com/album/mordovia-arena-geolog",
+   "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
+   "img": "pildid/kelsonmordoviaarenageolog.webp"
   },
   {
    "d": "2026-07-24",
@@ -1693,6 +1757,31 @@
    "pu": "https://fienta.com/et/volodja-brodsky-paavli",
    "lisatud": "2026-08-22",
    "nb": "KOLITUD www-lt klubisse 25.08.2026 Silveri otsusel (baasžanr ambient, mitte kitarripõhine — REEGLID §1). Algselt lisatud www-le 02.08.2026 otsusega 'Paavli.Live sari läheb sisse'; www poolel on nüüd blocklisti kirje. Kolm allikat: paavli.ee ürituseleht + Fienta piletileht (Paavli org 17595) + kultuurivabrik.ee programm. Sildid ambient/minimal/experimental tulevad korraldaja enda sõnastusest ('ambient-muusika pianist', 'analoogambient'i eksperimentide sari Whispering Ln'), mitte verifitseeritud taksonoomiast. 'lisatud' hoitud 22.08 peal, et kolimine ei tõstaks kirjet esilehe uute sekka."
+  },
+  {
+   "d": "2026-08-27",
+   "t": "klubi",
+   "n": "Arto @ Tšungel",
+   "a": "Neljapäevane vabaõhu-DJ-õhtu Kopli 1 juures, 21.00–02.00, tasuta (21+)",
+   "b": [
+    "Arto"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "electro",
+    "techno",
+    "minimal"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2516507",
+   "lisatud": "2026-08-21",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "sissepääs tasuta, vanusepiirang 21+",
+    "allikas": "RA event, kontrollitud 21.08.2026"
+   },
+   "nb": "lisatud sweepis 21.08.2026. Allikad: RA event 2516507 + Tšungla RA venue-leht (265290). Tšungel on suvine vabaõhupaik, mille kogu programm on elektrooniline (sources.json). Kehtib PÜSIREEGEL 8 — samanädalased tasuta DJ-peod lähevad sisse."
   }
  ]
 }

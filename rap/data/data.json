@@ -1,27 +1,6 @@
 {
- "updated": "2026-08-27",
+ "updated": "2026-08-28",
  "entries": [
-  {
-   "rel": 1,
-   "d": "2026-07-21",
-   "lisatud": "2026-07-28",
-   "t": "reliis",
-   "n": "margiiela & Chillin — «Came Through»",
-   "a": "singel, mis juhatab sisse 7. augustil ilmuva ühise EP; produtsent Emildollaz (osalenud Billboard 200 esikohaalbumi loomisel)",
-   "b": [
-    "margiiela",
-    "Chillin"
-   ],
-   "g": [
-    "räpp"
-   ],
-   "sn": "Legendaarne Records",
-   "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
-   "nb": "leitud 28.07.2026 legendaarne.ee uudisvoost. Kinnitatud 2 allikaga: Legendaarne Records (label, 21.07.2026 'avaldasid täna') + ERR kultuuriportaali 'Uue muusika reede' 24.07.2026, kus margiielat nimetatakse 'Eesti alternatiivräpi esindajaks'. Kuupäev võetud labeli enda teatest (21.07); ERR kajastas seda oma reedeses nädalakokkuvõttes 24.07. KOLMAS kinnitus: Spotify singel 'Came Through' (2026), (c) Legendaarne Records",
-   "on_": "Spotify",
-   "ou": "https://open.spotify.com/album/1yxEc0PKqWvffhK0Mv9mNg",
-   "img": "pildid/margiielachillincamethrough.webp"
-  },
   {
    "rel": 1,
    "d": "2026-07-24",
@@ -42,25 +21,6 @@
    "ou": "https://open.spotify.com/album/7sZU2ZJ2Dn7zByejrQAZ4T",
    "nb": "kuupäev Silveri edastatud (06.08.2026): Sahver Recordsi enda FB-postitus 24.07.2026 16:22 «Päda uus album \"MA EI MAGA\" on väljas!». ⚠ LAHKNEVUS: Spotify albumileht näitab release-kuupäevaks 23.07.2026 — ühe päeva vahe. Kasutan labeli enda teadet Silveri juhisel; kui vaja, muuda 23.07-ks. Kaks allikat täidetud: Sahver Records FB + Spotify (8 lugu, 21:06, © 2026 sahver records). Album leitud Rada7.ee uudiskirjast 05.08; albumiesitlus 08.08 Legendaarnes on eraldi kirje.",
    "img": "pildid/padamaeimaga.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2026-07-28",
-   "lisatud": "2026-07-28",
-   "t": "reliis",
-   "n": "Bro Checks — «Entroopia»",
-   "a": "täispikk album, 7 lugu, 23:17; omakirjastus; esimene album pärast 2007. aastat (Spotify diskograafia järgi)",
-   "b": [
-    "Bro Checks"
-   ],
-   "v": "Spotify",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Spotify",
-   "su": "https://open.spotify.com/album/6rT7XiGT74F1ZyqmlRmg2b",
-   "nb": "Silveri edastatud FB-postituse link 28.07.2026. Žanrisilt EI ole otseallikast kinnitatud (Spotify ei näita žanrit, Last.fm annab fetchile 406) — järeldus tugineb eestikeelsetele lugudele, varasemale diskograafiale 2004-2007 (nt «Palume mikrid teha vabaks», «R'n'B») ja Last.fm similar-artist seostele Eesti räpi nimedega (Azma, Suur Papa, Maiduk, Turgenev, Nkn). Kui selgub teisiti, tõsta ümber.",
-   "img": "pildid/brochecksentroopia.webp"
   },
   {
    "rel": 1,
@@ -87,25 +47,6 @@
    "d": "2026-08-14",
    "lisatud": "2026-08-17",
    "t": "reliis",
-   "n": "Tommy Cash x Ikkimel — «Miss Universe»",
-   "a": "ühissingel Berliini räppari Ikkimeliga, ilmus R 14.08.2026",
-   "b": [
-    "Tommy Cash",
-    "Ikkimel"
-   ],
-   "g": [
-    "räpp"
-   ],
-   "sn": "tommycash.lnk.to",
-   "su": "https://tommycash.lnk.to/miss-universe",
-   "nb": "lisatud 17.08.2026: leitud MuusikaPlaneedi singlivoost (artikkel 16.08.2026); teine allikas artisti enda IG-bio link",
-   "img": "pildid/tommycashxikkimelmissuniverse.webp"
-  },
-  {
-   "rel": 1,
-   "d": "2026-08-14",
-   "lisatud": "2026-08-17",
-   "t": "reliis",
    "n": "ONYX x Lil Till — «linnonminu»",
    "a": "ühissingel, 2:32; esimese kolme päevaga 10 000+ kuulamist",
    "b": [
@@ -119,6 +60,25 @@
    "su": "https://muusikaplaneet.ee/2026/08/17/linnonminu/",
    "nb": "lisatud 17.08.2026: teised allikad Spotify + artisti TikTok; Genius märgib 13.08, artisti enda kanal ütleb 14.08 → 14.08",
    "img": "pildid/onyxxliltilllinnonminu.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-08-14",
+   "lisatud": "2026-08-17",
+   "t": "reliis",
+   "n": "Tommy Cash x Ikkimel — «Miss Universe»",
+   "a": "ühissingel Berliini räppari Ikkimeliga, ilmus R 14.08.2026",
+   "b": [
+    "Tommy Cash",
+    "Ikkimel"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "tommycash.lnk.to",
+   "su": "https://tommycash.lnk.to/miss-universe",
+   "nb": "lisatud 17.08.2026: leitud MuusikaPlaneedi singlivoost (artikkel 16.08.2026); teine allikas artisti enda IG-bio link",
+   "img": "pildid/tommycashxikkimelmissuniverse.webp"
   },
   {
    "d": "2026-08-28",
@@ -149,6 +109,33 @@
    "lisatud": "2026-08-10",
    "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Allikad: GateMe ürituseleht 104066 (korraldaja kristiogor OÜ, kava ja hinnad) + FB event 848856168161343 („PULSE X G5: AVR Arop X ProdigyBoys I VANUSEPIIRANGUTA“). Sama korraldajapaar (Pulse + G5) nagu 18.07 kirjes. 25.08.2026: sama õhtu hiline pool (23.00–03.30, Triibupasta, 16+) on nüüd ERALDI KIRJE — GateMe ütleb mõlemal lehel 'Tegemist on kahe eraldi üritusega ning kummalegi on vaja eraldi piletit'. Paar on check_dupes'i jaoks vaigistatud data/dupe_ok.json-is (REEGLID §5)",
    "img": "pildid/avraugustiviimanereedearopxprodigyboys.webp"
+  },
+  {
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "A.V.R — Augusti Viimane Reede: Triibupasta (öine)",
+   "a": "Pulse x G5 suvelõpupeo hiline pool: kell 23.00–03.30, 16+, eraldi pilet. Triibupasta live-set, lisaks Pulse Crew, G5 DJd ja erikülalised. Varem samal õhtul samas majas 18.00–22.00 vanusepiiranguta A.V.R (Arop x ProdigyBoys)",
+   "b": [
+    "Triibupasta",
+    "Pulse Crew",
+    "G5 DJs"
+   ],
+   "v": "Alexela Loomelava",
+   "c": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/event/103874/",
+   "pu": "https://gateme.com/et/event/103874/",
+   "hind": {
+    "praegu": "24,90€",
+    "mark": "LAST BIRD (viimased 100 piletit) 24,90€; Super Early Bird 10€, Early bird 13€, Regular Bird 16,99€, LATE BIRD 19,90€ ja mõlemad VIP-astmed välja müüdud",
+    "allikas": "GateMe, kontrollitud 25.08.2026"
+   },
+   "lisatud": "2026-08-25",
+   "nb": "lisatud 25.08.2026 Silveri otsusel (22.08 ülevaatuspunkt suletud). Kaks allikat: GateMe ürituseleht 103874 (korraldaja kristiogor OÜ, kava, hinnad, kellaajad) + @loomelava ja @insideg5 Instagrami postitused ('G5 AVR 16+ 28.08 ... ALEXELA LOOMELAVA, TARTU / PULSE CREW / G5 DJ-S / TRIIBUPASTA'). ⚠ KOOSSEIS: GateMe PEALKIRI ütleb 'Triibupasta + PRODIGYBOYS', aga sama lehe ARTISTID-loend PRODIGYBOYSi EI sisalda (ainult Triibupasta LIVE, Pulse Crew, G5 DJs, * Special Guests) ja ka mõlema Instagrami koosseis on ilma nendeta — pealkiri on ilmselt 18.00 ürituselt üle kantud. REEGLID §4 (koosseis peegeldab allikat) järgi on 'b' võetud ARTISTID-loendist. Kui FB-l ilmub kinnitus, et ProdigyBoys mängib ka öisel, lisa. ⚠ FB-eventi ei leidnud (18.00 kirjel on 848856168161343, öisel eraldi eventi google.ee otsing ei andnud) — 'ou' on seetõttu tühi, REEGLID §3: piletimüüja GateMe EI tohi olla 'ou' väljal. Duplikaadihoiatus vaigistatud data/dupe_ok.json-is (sama koht + sama päev, REEGLID §5).",
+   "img": "pildid/avraugustiviimanereedetriibupastaoine.webp"
   },
   {
    "d": "2026-08-28",
@@ -216,61 +203,6 @@
    "img": "pildid/augustiviimanerammar.webp"
   },
   {
-   "d": "2026-08-28",
-   "t": "klubi",
-   "n": "A.V.R — Augusti Viimane Reede: Triibupasta (öine)",
-   "a": "Pulse x G5 suvelõpupeo hiline pool: kell 23.00–03.30, 16+, eraldi pilet. Triibupasta live-set, lisaks Pulse Crew, G5 DJd ja erikülalised. Varem samal õhtul samas majas 18.00–22.00 vanusepiiranguta A.V.R (Arop x ProdigyBoys)",
-   "b": [
-    "Triibupasta",
-    "Pulse Crew",
-    "G5 DJs"
-   ],
-   "v": "Alexela Loomelava",
-   "c": "Tartu",
-   "g": [
-    "räpp"
-   ],
-   "sn": "GateMe",
-   "su": "https://gateme.com/et/event/103874/",
-   "pu": "https://gateme.com/et/event/103874/",
-   "hind": {
-    "praegu": "24,90€",
-    "mark": "LAST BIRD (viimased 100 piletit) 24,90€; Super Early Bird 10€, Early bird 13€, Regular Bird 16,99€, LATE BIRD 19,90€ ja mõlemad VIP-astmed välja müüdud",
-    "allikas": "GateMe, kontrollitud 25.08.2026"
-   },
-   "lisatud": "2026-08-25",
-   "nb": "lisatud 25.08.2026 Silveri otsusel (22.08 ülevaatuspunkt suletud). Kaks allikat: GateMe ürituseleht 103874 (korraldaja kristiogor OÜ, kava, hinnad, kellaajad) + @loomelava ja @insideg5 Instagrami postitused ('G5 AVR 16+ 28.08 ... ALEXELA LOOMELAVA, TARTU / PULSE CREW / G5 DJ-S / TRIIBUPASTA'). ⚠ KOOSSEIS: GateMe PEALKIRI ütleb 'Triibupasta + PRODIGYBOYS', aga sama lehe ARTISTID-loend PRODIGYBOYSi EI sisalda (ainult Triibupasta LIVE, Pulse Crew, G5 DJs, * Special Guests) ja ka mõlema Instagrami koosseis on ilma nendeta — pealkiri on ilmselt 18.00 ürituselt üle kantud. REEGLID §4 (koosseis peegeldab allikat) järgi on 'b' võetud ARTISTID-loendist. Kui FB-l ilmub kinnitus, et ProdigyBoys mängib ka öisel, lisa. ⚠ FB-eventi ei leidnud (18.00 kirjel on 848856168161343, öisel eraldi eventi google.ee otsing ei andnud) — 'ou' on seetõttu tühi, REEGLID §3: piletimüüja GateMe EI tohi olla 'ou' väljal. Duplikaadihoiatus vaigistatud data/dupe_ok.json-is (sama koht + sama päev, REEGLID §5).",
-   "img": "pildid/avraugustiviimanereedetriibupastaoine.webp"
-  },
-  {
-   "d": "2026-08-29",
-   "lisatud": "2026-08-27",
-   "t": "klubi",
-   "n": "MOMENT 3.0 by evert poom: Bali Baby (US)",
-   "a": "Bali Baby (Atlanta) esimest korda Eestis, koos majorlilkween'iga; D3, 23.00–04.00, 18+",
-   "b": [
-    "Bali Baby (US)",
-    "majorlilkween"
-   ],
-   "v": "D3",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Rada7.ee uudiskiri 26.08.2026",
-   "su": "https://www.rada7.ee/uudiskiri/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1575293267509201/",
-   "pu": "https://gateme.com/et/D3Tallinn/104079-moment-30-w-evert-poom-2908-d3",
-   "hind": {
-    "praegu": "12€",
-    "mark": "\"täitsa õigel ajal\" 12€ (72% müüdud); VIP \"bravuuritari pakett\" 25€; \"teistest ees\" 10€ välja müüdud; uksel ja viimane laar 20€",
-    "allikas": "GateMe, kontrollitud 27.08.2026"
-   },
-   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 + FB event / GateMe (kuupäev, kellaaeg, koosseis, hind). Välisartist Eestis → räpi poolele (baasžanr hip-hop; majorlilkween on eestlane, Bali Baby USA-st). Korraldaja Manufaktuur OÜ / Moment tln, venue D3.",
-   "img": "pildid/moment30byevertpoombalibabyus.webp"
-  },
-  {
    "d": "2026-08-29",
    "lisatud": "2026-08-27",
    "t": "klubi",
@@ -310,26 +242,93 @@
    "img": "pildid/mifxbuttercupssummerclosing.webp"
   },
   {
-   "d": "2026-09-11",
-   "t": "kontsert",
-   "n": "Tommyboy x Wiiralt — «Greatest Splits» esitluskontsert",
-   "a": "split-albumi «Greatest Splits» esitlus; algus 21.00",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "MOMENT 3.0 by evert poom: Bali Baby (US)",
+   "a": "Bali Baby (Atlanta) esimest korda Eestis, koos majorlilkween'iga; D3, 23.00–04.00, 18+",
    "b": [
-    "Tommyboy",
-    "Wiiralt"
+    "Bali Baby (US)",
+    "majorlilkween"
    ],
-   "v": "Kidrakuur",
+   "v": "D3",
    "c": "Tallinn",
    "g": [
     "räpp"
    ],
-   "sn": "Kidrakuur FB",
-   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "sn": "Rada7.ee uudiskiri 26.08.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2067993643814194/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis.",
-   "img": "pildid/tommyboyxwiiraltgreatestsplitsesitluskontsert.webp"
+   "ou": "https://www.facebook.com/events/1575293267509201/",
+   "pu": "https://gateme.com/et/D3Tallinn/104079-moment-30-w-evert-poom-2908-d3",
+   "hind": {
+    "praegu": "12€",
+    "mark": "\"täitsa õigel ajal\" 12€ (72% müüdud); VIP \"bravuuritari pakett\" 25€; \"teistest ees\" 10€ välja müüdud; uksel ja viimane laar 20€",
+    "allikas": "GateMe, kontrollitud 27.08.2026"
+   },
+   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 + FB event / GateMe (kuupäev, kellaaeg, koosseis, hind). Välisartist Eestis → räpi poolele (baasžanr hip-hop; majorlilkween on eestlane, Bali Baby USA-st). Korraldaja Manufaktuur OÜ / Moment tln, venue D3.",
+   "img": "pildid/moment30byevertpoombalibabyus.webp"
+  },
+  {
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "Rap Shmap invites: Richard Pohjanheimo",
+   "a": "Legendaarne Raadio saate Rap Shmap uue sarja avaohtu — kuldajastu hiphop; kell 22.00",
+   "b": [
+    "Richard Pohjanheimo",
+    "Rap Shmap"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio (FB events)",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1085624164424056/",
+   "hind": {
+    "praegu": "5€",
+    "mark": "uksel; toetab hiphopkultuuri Eestis",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Legendaarse FB events-tab + urituse FB event (korraldajad Legendaarne Raadio + Mari-Anna Miller)."
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "WAVEFEST @ Balta Hoov",
+   "a": "D3, Fonoteek ja La Copa uhine suvelopupidu kahel laval; kell 23.00, 18+",
+   "b": [
+    "reket (live)",
+    "Noored & Naljased",
+    "Goodmen",
+    "Kalamees",
+    "Ray",
+    "Sam",
+    "Olivar",
+    "Funkomatik",
+    "Nora",
+    "Tellemralf",
+    "Klormia"
+   ],
+   "v": "Balti Jaama Turu Hoov",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fonoteek (FB events)",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1037780822484243/",
+   "pu": "https://gateme.com/et/D3Tallinn/104142-wavefest-i-balta-hoov-i-0409",
+   "hind": {
+    "praegu": "12€",
+    "mark": "tipsy linnuke 12€, priority 30€; pregame valja muudud",
+    "allikas": "GateMe + FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. MITMEZANRI-URITUS (REEGLID p1): sama kirje on ka klubi/data/manual.json-is. Rapi-poolel D3 lava — reket (live) ja Noored & Naljased. Kaks allikat: urituse FB event + GateMe.",
+   "img": "pildid/wavefestbaltahoov.webp"
   },
   {
    "d": "2026-09-11",
@@ -352,6 +351,58 @@
    "pu": "https://www.piletitasku.ee/et/event/10133",
    "nb": "lisatud 17.08.2026: allikad Piletitasku + FB event; kuupäev 11.09.2026 kinnitatud mõlemast",
    "img": "pildid/patareilopupiduxnublu.webp"
+  },
+  {
+   "d": "2026-09-11",
+   "t": "kontsert",
+   "n": "Tommyboy x Wiiralt — «Greatest Splits» esitluskontsert",
+   "a": "split-albumi «Greatest Splits» esitlus; algus 21.00",
+   "b": [
+    "Tommyboy",
+    "Wiiralt"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Kidrakuur FB",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2067993643814194/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis.",
+   "img": "pildid/tommyboyxwiiraltgreatestsplitsesitluskontsert.webp"
+  },
+  {
+   "d": "2026-09-12",
+   "t": "klubi",
+   "n": "BASHMENT BIRTHDAY",
+   "a": "Bashment FM (a 1998) sunnipäevapidu — reggae, dancehall, dub; 20.00 Domino & Good Vibes, 22.00 DJd",
+   "b": [
+    "Bashment FM DJd",
+    "Domino & Good Vibes"
+   ],
+   "koosseis_tba": 1,
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "dancehall",
+    "reggae",
+    "dub"
+   ],
+   "sn": "Legendaarne Raadio (FB events)",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1412850154029535/",
+   "pu": "https://fienta.com/et/bashmentbirthday",
+   "hind": {
+    "praegu": "5–15€",
+    "mark": "Early Bird 5€ (kuni 1.09), Bashment Friend 10€, uksel 15€ (sularahas 13€), toetaja 30€",
+    "allikas": "FB event + Fienta, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (Bashment FM + Legendaarne Raadio) + Fienta piletileht. Artistide taisnimekiri veel avaldamata (\"artist lineup loading\"). Sait rap, sama loogika mis kirjel Back 2 Bashment.",
+   "img": "pildid/bashmentbirthday.webp"
   },
   {
    "d": "2026-10-02",
@@ -383,27 +434,6 @@
   {
    "d": "2027-08-13",
    "d2": "14.08",
-   "t": "festival",
-   "n": "Tartu Punch 2027",
-   "b": [],
-   "v": "Tartu Laululava",
-   "c": "mujal",
-   "linn": "Tartu",
-   "g": [
-    "räpp"
-   ],
-   "sn": "tartupunch.com",
-   "su": "https://tartupunch.com/info/",
-   "on_": "paavli.ee",
-   "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
-   "pu": "https://piletitasku.ee/et/event/10014",
-   "img": "pildid/tartupunch2027.webp",
-   "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-   "koosseis_tba": 1
-  },
-  {
-   "d": "2027-08-13",
-   "d2": "14.08",
    "lisatud": "2026-08-17",
    "t": "festival",
    "tba": 1,
@@ -420,6 +450,27 @@
    "on_": "eestihiphopfestival.ee",
    "ou": "https://eestihiphopfestival.ee/",
    "nb": "lisatud 17.08.2026: kuupäev 13.–14.08.2027 festivali enda IG-biost; ametlik sait näitab veel 2026 → tba kuni teine kinnitus",
+   "koosseis_tba": 1
+  },
+  {
+   "d": "2027-08-13",
+   "d2": "14.08",
+   "t": "festival",
+   "n": "Tartu Punch 2027",
+   "b": [],
+   "v": "Tartu Laululava",
+   "c": "mujal",
+   "linn": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "tartupunch.com",
+   "su": "https://tartupunch.com/info/",
+   "on_": "paavli.ee",
+   "ou": "https://paavli.ee/sundmused/tartu-punch-2027/",
+   "pu": "https://piletitasku.ee/et/event/10014",
+   "img": "pildid/tartupunch2027.webp",
+   "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
    "koosseis_tba": 1
   }
  ]
