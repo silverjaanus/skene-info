@@ -7,5 +7,10 @@
  {
   "b": "toxic yuri",
   "nb": "ARTISTIBLOKK 30.07.2026 (Silveri otsus): artist ei soovi olla tehisaru abil koostatud kalendris. Blokeerib KOIK selle artisti kirjed koigil kuupaevadel (b-massiiv, nimi, nimega algav reliisipealkiri) - vt scripts/common.py is_blocked. Sama blokk on koigi kolme saidi blocklistis, et zanri-umberliigitus seda ei lohuks."
+ },
+ {
+  "d": "2026-09-17",
+  "n": "MORGENSHTERN @ TALLINN",
+  "nb": "SKOOBIVALJAJATT 28.08.2026 (Silveri otsus: „MORGENSHTERN valja\"). Venekeelne peavoolu-rapp Helitehases (korraldaja Ready Events). Baaszanr on hip-hop ja valisartist Eestis laheb reeglina sisse (Bali Baby / MOMENT 3.0, 27.08), aga peavoolu-valjajatt (Splin, Kaarija) voidab: artist ei ole Eesti stseeni osa. Blokk hoiab ara, et jargmine sweep uritust uuesti sisse toob. Allikas: https://helitehas.ee/ + https://www.facebook.com/helitehas/events"
  }
 ]

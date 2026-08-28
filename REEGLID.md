@@ -45,6 +45,22 @@ estonianmetal), Helinihe plaadipoe avamispidu Nõmme turul 29.08 → **klubi** (
 ⚠ Vinüüle mängiv nüüdismuusika-helilooja (Tõnu Kõrvits, Ülo Krigul Helinihe peol) EI tee
 EMA-telge skoobis olevaks — see erand kehtib DJ-kavale, mitte esinejale.
 
+**Peavool võidab välisartisti-erandi (Silver 28.08.2026).** „MORGENSHTERN välja." Välisartist
+Eestis läheb reeglina sisse (Bali Baby / MOMENT 3.0, 27.08), AGA kui artist on staadionimõõtu
+peavoolutäht ega ole Eesti stseeni osa, võidab peavoolu-väljajätt (Splin, Käärijä). Kehtib ka
+siis, kui baasžanr (hip-hop) muidu skoopi sobiks.
+
+**Peavoolu-EDM telg on väljas ka siis, kui žanrisilt sobiks (Silver 28.08.2026).** „Armin van
+Buureni ümber tekkinud peod — välja." Trance on klubi žanrinimekirjas ja hard trance → klubi on
+pretsedent, aga AvB-tüüpi peavoolu-EDM ja selle ümber tekkivad pre-/afterparty'd jäävad välja.
+Piir: **hardstyle/hard dance underground-korraldajalt jääb sisse** (Brennan Heart 11.09,
+D-Block & S-te-Fan 26.09), peavoolu-EDM-i tähe ümber tekkinud peod mitte.
+
+**Žanriinfota DJ-õhtu jääb välja (Silver 28.08.2026).** „Wunderbaar (Pärnu) DJ-õhtud välja."
+22.08 otsus „Wunderbaar → klubi KUREERITULT iga õhtu eraldi" kehtib edasi, aga eeldab, et žanr
+on kuskilt loetav. Kui allikas annab ainult DJ-nime ja kellaaja, on vaikeotsus **välja**, mitte
+oletus. Kontsertkirjed samast majast (nt KURIKS 12.09, www) ei ole sellest puudutatud.
+
 **Tehtud skoobiotsused (pretsedendid):** bluus on www 8. metafilter (26.07); uusklassika/
 nüüdismuusika (EMA-telg) VÄLJA; industrial+metal-koosseis jääb www-le; hard trance →
 klubi; peavoolu-popprokk (Terminaator/Smilers/Shanon-klass, Käärijä-klass peavoolupopp)
