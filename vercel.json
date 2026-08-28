@@ -54,6 +54,10 @@
       "dest": "/tagasiside.html"
     },
     {
+      "src": "/dash",
+      "dest": "/dash.html"
+    },
+    {
       "handle": "filesystem"
     }
   ]

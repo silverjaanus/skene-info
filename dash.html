@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>skene.dash</title>
+<!-- skene.info kaugjuhtimispaneel. Avalik fail, aga ILMA tokenita (DASH_SECRET)
+     ei näita API midagi — kogu andmestik tuleb /api/dash kaudu. Arhitektuur:
+     PROJEKT.md 5D (Cowork-kaust). Sihilikult üks fail, null sõltuvust,
+     sama paberi-palett mis saidil. -->
+<style>
+:root{--paber:#F3F0E7;--kaart:#FBFAF5;--tint:#1A1A1A;--hall:#5A564C;--joon:#8F8A7C;
+--telliskivi:#93392C;--ploom:#4E4275;--sinep:#A8811F;--paatina:#2C5B54;
+--rap:#2E5EAA;--klubi:#6E45A8;--ok:#2C5B54;--halb:#93392C;--hoiatus:#A8811F}
+*{box-sizing:border-box}
+[hidden]{display:none!important} /* HANDOVER §1.2: hidden ei võida oma display'd ilma selleta */
+body{margin:0;background:var(--paber);color:var(--tint);
+font:15px/1.5 ui-sans-serif,system-ui,"Segoe UI",sans-serif}
+header{background:var(--tint);color:var(--paber);padding:14px 20px;display:flex;
+align-items:baseline;gap:14px;flex-wrap:wrap}
+header h1{margin:0;font-size:22px;letter-spacing:.04em}
+header h1 span{color:#D96A52}
+header .meta{color:#A6A192;font-size:13px}
+header button{margin-left:auto}
+main{max-width:1180px;margin:0 auto;padding:18px 16px 60px;display:grid;
+grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+section{background:var(--kaart);border:1px solid var(--joon);border-radius:4px;
+padding:14px 16px}
+section.lai{grid-column:1/-1}
+h2{margin:0 0 10px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--hall);border-bottom:2px solid var(--tint);padding-bottom:6px}
+button{background:var(--tint);color:var(--paber);border:0;border-radius:3px;
+padding:8px 14px;font:600 14px/1 inherit;cursor:pointer}
+button:hover{opacity:.85}
+button.teine{background:transparent;color:var(--tint);border:1px solid var(--joon)}
+button:disabled{opacity:.4;cursor:default}
+.rida{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:8px 0}
+.silt{display:inline-block;padding:2px 8px;border-radius:3px;font-size:12px;
+font-weight:700;letter-spacing:.05em}
+.silt.ok{background:var(--ok);color:#fff}.silt.halb{background:var(--halb);color:#fff}
+.silt.hoiatus{background:var(--hoiatus);color:#fff}
+.silt.neutraalne{background:var(--joon);color:#fff}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td,th{padding:5px 8px;border-bottom:1px solid #E4E0D3;text-align:left;vertical-align:top}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--hall)}
+.pisike{font-size:12.5px;color:var(--hall)}
+.hoiatused li{margin:6px 0}
+.hoiatused .halb{color:var(--halb);font-weight:700}
+.hoiatused .hoiatus{color:#7a5c10;font-weight:600}
+.hoiatused .ok{color:var(--ok)}
+#igPildid{display:flex;gap:6px;flex-wrap:wrap}
+#igPildid img{width:86px;height:86px;object-fit:cover;border:1px solid var(--joon)}
+textarea,input[type=text],input[type=password]{width:100%;border:1px solid var(--joon);
+border-radius:3px;background:#fff;padding:8px;font:13px/1.45 ui-monospace,Consolas,monospace}
+iframe{width:100%;height:520px;border:1px solid var(--joon);background:#fff}
+.otsus{border:1px solid var(--joon);border-left:4px solid var(--sinep);border-radius:3px;
+padding:10px 12px;margin:10px 0;background:#fff}
+.otsus.vastatud{border-left-color:var(--ok);opacity:.75}
+.otsus h3{margin:0 0 6px;font-size:15px}
+.otsus .valikud{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+a{color:var(--ploom)}
+.logi{font:12px/1.6 ui-monospace,Consolas,monospace;max-height:220px;overflow:auto;
+white-space:pre-wrap}
+#lukk{position:fixed;inset:0;background:var(--tint);display:flex;align-items:center;
+justify-content:center;z-index:9}
+#lukk form{background:var(--kaart);padding:24px;border-radius:4px;width:min(360px,90vw)}
+</style>
+</head>
+<body>
+<div id="lukk" hidden>
+  <form onsubmit="return lukuAva(event)">
+    <h2>skene.dash</h2>
+    <p class="pisike">Sisesta DASH_SECRET (sama, mis Verceli env-is).</p>
+    <input type="password" id="lukkToken" autocomplete="current-password" placeholder="token">
+    <p id="lukkViga" class="pisike" style="color:var(--halb)"></p>
+    <button type="submit">Ava</button>
+  </form>
+</div>
+
+<header>
+  <h1>skene<span>.dash</span></h1>
+  <span class="meta" id="metaAeg">–</span>
+  <button class="teine" onclick="varskenda()">Värskenda</button>
+</header>
+
+<main>
+<section class="lai" id="secHoiatused">
+  <h2>Hoiatused</h2>
+  <ul class="hoiatused" id="hoiatused"><li class="pisike">laen…</li></ul>
+</section>
+
+<section id="secJooksud">
+  <h2>Jooksud ja ajad</h2>
+  <table id="tblJooksud">
+    <tr><th>Jooks</th><th>Graafik</th><th>Järgmine</th></tr>
+  </table>
+  <div class="rida pisike" id="viimaneSweep">–</div>
+  <div class="rida pisike" id="ciSeis">–</div>
+  <div class="rida pisike" id="mlSeis">–</div>
+</section>
+
+<section id="secTegevused">
+  <h2>Käivita</h2>
+  <div class="rida">
+    <button onclick="lisaJob('sweep')">Käivita sweep</button>
+    <label class="pisike"><input type="checkbox" id="fullSweep"> full sweep
+      (ära jäta hiljutisi/ajaeelarve-allikaid vahele)</label>
+  </div>
+  <div class="rida">
+    <button onclick="lisaJob('postkast')">Kontrolli postkasti</button>
+    <button class="teine" onclick="dispatchKorje()">Andmekorje kohe (GitHub Actions)</button>
+  </div>
+  <p class="pisike">Sweep/postkast lähevad järjekorda; tunnipoller (09–23 igal täistunnil)
+  võtab need sinu arvutis töösse. Kui arvuti magab, jääb job ootele. Andmekorje jookseb
+  GitHubis ja algab kohe.</p>
+  <div id="queueVaade"></div>
+</section>
+
+<section class="lai" id="secOtsused">
+  <h2>Otsust ootab</h2>
+  <div id="otsused" class="pisike">laen…</div>
+</section>
+
+<section id="secIG">
+  <h2>IG nädalapostituse mustand</h2>
+  <div class="rida pisike" id="igMeta">laen…</div>
+  <div id="igPildid"></div>
+  <textarea id="igCaption" rows="10" readonly></textarea>
+  <div class="rida pisike"><span id="igPikkus">–</span></div>
+</section>
+
+<section id="secKiri">
+  <h2>Uudiskirja mustand</h2>
+  <div class="rida">
+    <button class="teine" onclick="laeKiri('et')">ET</button>
+    <button class="teine" onclick="laeKiri('en')">EN</button>
+    <span class="pisike" id="kiriMeta"></span>
+  </div>
+  <iframe id="kiriFrame" sandbox=""></iframe>
+</section>
+
+<section class="lai" id="secMarkus">
+  <h2>Märkus järgmisele jooksule</h2>
+  <p class="pisike">Nt „võta IG captionist X välja", „uudiskirja intro: …", „lisa üritus Y".
+  Läheb järjekorda; järgmine sweep/poller loeb ja arvestab.</p>
+  <div class="rida">
+    <input type="text" id="markusTekst" placeholder="märkus…">
+    <button onclick="saadaMarkus()">Saada</button>
+  </div>
+</section>
+
+<section id="secLogi">
+  <h2>Sündmuste logi</h2>
+  <div class="logi" id="logi">–</div>
+</section>
+
+<section id="secLingid">
+  <h2>Kiirlingid</h2>
+  <ul class="pisike">
+    <li><a href="https://eu1.make.com/2103413/scenarios/6485652/edit" target="_blank">Make.com IG-stsenaarium</a></li>
+    <li><a href="https://dashboard.mailerlite.com/" target="_blank">MailerLite</a></li>
+    <li><a href="https://app.agentmail.to/" target="_blank">AgentMail postkast</a></li>
+    <li><a href="https://github.com/silverjaanus/skene-info/actions" target="_blank">GitHub Actions</a></li>
+    <li><a href="https://vercel.com/dashboard" target="_blank">Vercel</a></li>
+    <li><a href="https://www.skene.info/" target="_blank">www</a> ·
+        <a href="https://rap.skene.info/" target="_blank">rap</a> ·
+        <a href="https://klubi.skene.info/" target="_blank">klubi</a> ·
+        <a href="/tagasiside-vaade.html" target="_blank">tagasiside</a></li>
+  </ul>
+</section>
+</main>
+
+<script>
+"use strict";
+var API = "/api/dash";
+var T = null;                 // token (localStorage)
+var seisData = null;          // viimane /api/dash status
+var igData = null;            // nadal/latest.json
+var feedData = null;          // /api/events.json (kõik 3 saiti, väli "sait")
+var CAPTION_PIIR = 2200, CAPTION_HOIATUS = 2100;
+
+// Ajastatud jooksud (Cowork + Actions; jitter kuni ~6 min, seega "umbes").
+// dow: 0=P..5=R..6=L, null = iga päev.
+var JOOKSUD = [
+  { nimi: "Sweep (FB/IG + allikad)", dow: 5, h: 3,  m: 6,  graafik: "R ~03:06" },
+  { nimi: "Andmekorje (GitHub Actions)", dow: null, h: 7, m: 30, graafik: "iga päev ~07:30" },
+  { nimi: "Postkastijooks (AgentMail)", dow: null, h: 11, m: 1, graafik: "iga päev ~11:01" },
+  { nimi: "IG-postitus (Make.com)", dow: 5, h: 11, m: 45, graafik: "R ~11:45" },
+  { nimi: "Uudiskirja saatmine", dow: 5, h: 11, m: 47, graafik: "R ~11:47" },
+  { nimi: "Dash-poller", dow: null, h: null, m: 4, graafik: "09–23 igal täistunnil (:04)" }
+];
+
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+function el(id) { return document.getElementById(id); }
+
+function jargmineAeg(jk) {
+  var n = new Date(), k = new Date(n);
+  if (jk.h === null) { // tunnipoller 09–23
+    k.setMinutes(jk.m, 0, 0); k.setHours(n.getHours());
+    while (k <= n || k.getHours() < 9 || k.getHours() > 23) {
+      k = new Date(k.getTime() + 3600000); k.setMinutes(jk.m, 0, 0);
+    }
+    return k;
+  }
+  k.setHours(jk.h, jk.m, 0, 0);
+  if (jk.dow === null) { if (k <= n) k.setDate(k.getDate() + 1); return k; }
+  while (k.getDay() !== jk.dow || k <= n) k.setDate(k.getDate() + 1), k.setHours(jk.h, jk.m, 0, 0);
+  return k;
+}
+function vahe(kuni) {
+  var s = Math.max(0, (kuni - new Date()) / 1000);
+  var p = Math.floor(s / 86400), h = Math.floor(s % 86400 / 3600), m = Math.floor(s % 3600 / 60);
+  return (p ? p + " p " : "") + (h ? h + " h " : "") + m + " min";
+}
+
+// ---- API ----
+function apiGet(params) {
+  return fetch(API + "?t=" + encodeURIComponent(T) + "&" + params, { cache: "no-store" })
+    .then(function (r) { return r.json(); });
+}
+function apiPost(body) {
+  body.t = T;
+  return fetch(API, { method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body) }).then(function (r) { return r.json(); });
+}
+
+// ---- lukk ----
+function lukuAva(e) {
+  e.preventDefault();
+  var t = el("lukkToken").value.trim();
+  if (!t) return false;
+  T = t;
+  apiGet("mode=status").then(function (d) {
+    if (!d.ok) { el("lukkViga").textContent = d.error || "vale token"; T = null; return; }
+    try { localStorage.setItem("dash_t", t); } catch (err) {}
+    el("lukk").hidden = true;
+    renderStatus(d); laePublic(); laeKiri("et");
+  });
+  return false;
+}
+
+// ---- renderdus ----
+function renderJooksud() {
+  var h = "<tr><th>Jooks</th><th>Graafik</th><th>Järgmine</th></tr>";
+  JOOKSUD.forEach(function (jk) {
+    var k = jargmineAeg(jk);
+    h += "<tr><td>" + esc(jk.nimi) + "</td><td>" + esc(jk.graafik) + "</td><td>" +
+      k.toLocaleString("et-EE", { weekday: "short", day: "2-digit", month: "2-digit",
+        hour: "2-digit", minute: "2-digit" }) + " <span class='pisike'>(" + vahe(k) + ")</span></td></tr>";
+  });
+  el("tblJooksud").innerHTML = h;
+}
+
+function ciSilt(x) {
+  if (!x || x.viga) return "<span class='silt neutraalne'>? " + esc(x && x.viga || "") + "</span>";
+  var ok = x.conclusion === "success";
+  var kaib = x.status !== "completed";
+  var cls = kaib ? "neutraalne" : ok ? "ok" : "halb";
+  var txt = kaib ? "käib" : ok ? "OK" : (x.conclusion || "FAIL");
+  return "<a href='" + esc(x.url) + "' target='_blank'><span class='silt " + cls + "'>" +
+    txt + "</span></a> <span class='pisike'>" + esc((x.aeg || "").replace("T", " ").slice(0, 16)) + "</span>";
+}
+
+function renderStatus(d) {
+  seisData = d;
+  el("metaAeg").textContent = "seis: " + new Date().toLocaleTimeString("et-EE");
+  // viimane sweep (dash_push.py pushitud kokkuvõte)
+  var s = d.seis;
+  el("viimaneSweep").innerHTML = s && s.run ?
+    "<b>Viimane sweep:</b>&nbsp;" + esc(s.run.kuupaev) + " — allikaid " + esc(s.run.allikaid) +
+    ", avatud " + esc(s.run.avatud) + ", skipitud " + esc(s.run.skipitud) +
+    ", uusi kirjeid " + esc(s.run.uusi) + (s.push_aeg ? " <span class='pisike'>(push " +
+    esc(s.push_aeg.slice(0, 16).replace("T", " ")) + ")</span>" : "")
+    : "<b>Viimane sweep:</b>&nbsp;pole veel pushitud (dash_push.py jookseb esimese sweepi lõpus)";
+  el("ciSeis").innerHTML = "<b>CI:</b>&nbsp;Andmekorje " + ciSilt(d.actions && d.actions.andmekorje) +
+    "&nbsp; Kontrollid " + ciSilt(d.actions && d.actions.kontrollid);
+  // MailerLite
+  var ml = d.mailerlite || {};
+  if (ml.kampaaniad && ml.kampaaniad.length) {
+    var c = ml.kampaaniad[0];
+    el("mlSeis").innerHTML = "<b>Uudiskiri (viimane):</b>&nbsp;" + esc(c.nimi) + " — saajaid " +
+      esc(c.saajaid) + ", avamisi " + esc(c.avamisi) + " (" + esc(c.avamisprotsent) + "), klikke " +
+      esc(c.klikke);
+  } else el("mlSeis").innerHTML = "<b>Uudiskiri:</b>&nbsp;<span class='pisike'>" +
+      esc(ml.viga || "statistikat pole") + "</span>";
+  // queue + käimasolev
+  var qh = "";
+  if (d.kaimas && d.kaimas.job) {
+    qh += "<div class='rida'><span class='silt hoiatus'>KÄIB</span> " +
+      esc(d.kaimas.job.tyyp) + (d.kaimas.job.full ? " (full)" : "") +
+      " <span class='pisike'>alates " + esc(d.kaimas.algus.slice(11, 16)) + "</span></div>";
+  }
+  (d.queue || []).forEach(function (x) {
+    qh += "<div class='rida'><span class='silt neutraalne'>OOTEL</span> " + esc(x.tyyp) +
+      (x.full ? " (full)" : "") + (x.markus ? " — <i>" + esc(x.markus) + "</i>" : "") +
+      " <span class='pisike'>" + esc(x.loodud.slice(5, 16).replace("T", " ")) + "</span>" +
+      " <button class='teine' onclick='tyhista(\"" + esc(x.id) + "\")'>tühista</button></div>";
+  });
+  el("queueVaade").innerHTML = qh || "<p class='pisike'>Järjekord on tühi.</p>";
+  renderOtsused(d);
+  el("logi").textContent = (d.log || []).map(function (l) {
+    return l.aeg.slice(5, 16).replace("T", " ") + "  " + l.mis;
+  }).join("\n") || "–";
+  renderHoiatused();
+}
+
+function renderOtsused(d) {
+  var vast = {};
+  (d.vastused || []).forEach(function (v) { vast[v.oid] = v; });
+  var h = "";
+  (d.otsused || []).forEach(function (o) {
+    var v = vast[o.oid];
+    h += "<div class='otsus" + (v ? " vastatud" : "") + "'><h3>" + esc(o.kysimus) + "</h3>";
+    if (o.kontekst) h += "<div>" + esc(o.kontekst) + "</div>";
+    if (o.lingid && o.lingid.length) h += "<div class='pisike'>" + o.lingid.map(function (l) {
+      return "<a href='" + esc(l) + "' target='_blank'>" + esc(l.replace(/^https?:\/\//, "").slice(0, 50)) + "</a>";
+    }).join(" · ") + "</div>";
+    if (o.vaikeotsus) h += "<div class='pisike'>Vaikeotsus (" + esc(o.tahtaeg || "5 p") + "): " +
+      esc(o.vaikeotsus) + "</div>";
+    if (v) {
+      h += "<div><b>Vastatud:</b> " + esc(v.valik) + (v.markus ? " — " + esc(v.markus) : "") +
+        (v.toodeldud ? " <span class='silt ok'>RAKENDATUD</span>"
+                     : " <span class='silt hoiatus'>OOTAB RAKENDAMIST</span>") + "</div>";
+    }
+    h += "<div class='valikud'>" + (o.valikud || []).map(function (va) {
+      return "<button class='teine' onclick='vasta(\"" + esc(o.oid) + "\",\"" + esc(va.id) + "\")'>" +
+        esc(va.id) + ") " + esc(va.tekst) + "</button>";
+    }).join("") +
+      "<button class='teine' onclick='vastaMuu(\"" + esc(o.oid) + "\")'>muu vastus…</button></div></div>";
+  });
+  el("otsused").innerHTML = h || "<p class='pisike'>Lahtisi otsustuspunkte ei ole. 🎉</p>";
+}
+
+function vasta(oid, valik) {
+  var m = prompt("Märkus (võib tühjaks jääda):", "") || "";
+  apiPost({ action: "vasta_otsus", oid: oid, valik: valik, markus: m }).then(teadeJaVarskenda);
+}
+function vastaMuu(oid) {
+  var m = prompt("Kirjuta oma vastus:", "");
+  if (m) apiPost({ action: "vasta_otsus", oid: oid, valik: "muu", markus: m }).then(teadeJaVarskenda);
+}
+
+// ---- avalikud allikad (latest.json + events.json) ----
+function laePublic() {
+  var cb = "?cb=" + Date.now();
+  fetch("/nadal/latest.json" + cb, { cache: "no-store" }).then(function (r) { return r.json(); })
+    .then(function (d) {
+      igData = d;
+      el("igMeta").innerHTML = "<b>" + esc(d.range || d.date) + "</b> · " +
+        (d.image_urls || []).length + " pilti";
+      el("igPildid").innerHTML = (d.image_urls || []).map(function (u) {
+        return "<a href='" + esc(u) + "' target='_blank'><img src='" + esc(u) + cb + "' alt=''></a>";
+      }).join("");
+      el("igCaption").value = d.caption || "";
+      var n = (d.caption || "").length;
+      el("igPikkus").innerHTML = "Caption: <b>" + n + "</b> / " + CAPTION_PIIR + " märki" +
+        (n > CAPTION_PIIR ? " <span class='silt halb'>ÜLE PIIRI — IG-postitus kukub!</span>" :
+         n > CAPTION_HOIATUS ? " <span class='silt hoiatus'>piiri lähedal</span>" :
+         " <span class='silt ok'>OK</span>");
+      renderHoiatused();
+    }).catch(function () { el("igMeta").textContent = "latest.json ei laadi"; });
+  fetch("/api/events.json" + cb, { cache: "no-store" }).then(function (r) { return r.json(); })
+    .then(function (d) { feedData = d; renderHoiatused(); })
+    .catch(function () {});
+}
+
+function renderHoiatused() {
+  var täna = new Date().toISOString().slice(0, 10);
+  var read = [];
+  function lisa(cls, txt) { read.push("<li class='" + cls + "'>" + txt + "</li>"); }
+  // CI
+  if (seisData && seisData.actions) {
+    ["andmekorje", "kontrollid"].forEach(function (k) {
+      var x = seisData.actions[k];
+      if (x && !x.viga && x.status === "completed" && x.conclusion !== "success")
+        lisa("halb", "CI PUNANE: " + esc(x.nimi || k) + " → <a href='" + esc(x.url) +
+          "' target='_blank'>vaata jooksu</a>");
+    });
+  }
+  // sweep-värskus (run-logi >8 p → sama piir mis CI valvel)
+  if (seisData && seisData.seis && seisData.seis.run) {
+    var vanus = (new Date(täna) - new Date(seisData.seis.run.kuupaev)) / 86400000;
+    if (vanus > 8) lisa("halb", "Viimane sweep-run-logi on " + Math.round(vanus) + " p vana (piir 8).");
+  }
+  // IG caption
+  if (igData) {
+    var n = (igData.caption || "").length;
+    if (n > CAPTION_PIIR) lisa("halb", "IG caption " + n + " märki — ÜLE 2200 piiri, Make'i postitus kukub (07.08 pretsedent).");
+    else if (n > CAPTION_HOIATUS) lisa("hoiatus", "IG caption " + n + " märki — piirile lähedal (kärbe elab Make'i valemis, varu ~10).");
+    var reede = jargmineAeg({ dow: 5, h: 3, m: 6 });
+    var eelmineReede = new Date(reede); eelmineReede.setDate(reede.getDate() - 7);
+    if (igData.date && new Date(igData.date) < new Date(eelmineReede.toISOString().slice(0,10)))
+      lisa("hoiatus", "IG mustand on kuupäevaga " + esc(igData.date) + " — vanem kui viimane reede.");
+  }
+  // feedi lipud
+  if (feedData && feedData.entries) {
+    var aegunudTba = feedData.entries.filter(function (e) {
+      return e.tba && e.d && e.d < täna && !e.d2;
+    }).length;
+    var koosseisuta = feedData.entries.filter(function (e) { return e.koosseis_tba; }).length;
+    if (aegunudTba) lisa("hoiatus", aegunudTba + " kirjet, kus tba-kuupäev on möödas — sweep peab üle kontrollima (§2 reegel 11).");
+    if (koosseisuta) lisa("ok", koosseisuta + " kirjet ootab koosseisu (koosseis_tba) — normaalne, sweep jälgib.");
+  }
+  el("hoiatused").innerHTML = read.length ? read.join("") :
+    "<li class='ok'>Kõik roheline — hoiatusi pole.</li>";
+}
+
+// ---- tegevused ----
+function teadeJaVarskenda(r) {
+  if (!r.ok) alert("Viga: " + (r.error || "?"));
+  varskenda();
+}
+function lisaJob(tyyp) {
+  apiPost({ action: "lisa_job", tyyp: tyyp,
+    full: tyyp === "sweep" && el("fullSweep").checked ? 1 : 0 }).then(teadeJaVarskenda);
+}
+function tyhista(id) { apiPost({ action: "tyhista_job", id: id }).then(teadeJaVarskenda); }
+function dispatchKorje() { apiPost({ action: "dispatch" }).then(teadeJaVarskenda); }
+function saadaMarkus() {
+  var m = el("markusTekst").value.trim();
+  if (!m) return;
+  apiPost({ action: "lisa_job", tyyp: "markus", markus: m }).then(function (r) {
+    if (r.ok) el("markusTekst").value = "";
+    teadeJaVarskenda(r);
+  });
+}
+function laeKiri(lang) {
+  el("kiriMeta").textContent = "laen…";
+  apiGet("mode=uudiskiri&lang=" + lang).then(function (d) {
+    el("kiriFrame").srcdoc = d.html || "<p style='font-family:sans-serif'>Mustandit pole veel — see tekib, kui sweep jooksutab dash_push.py.</p>";
+    el("kiriMeta").textContent = d.aeg ? lang.toUpperCase() + " · pushitud " +
+      d.aeg.slice(0, 16).replace("T", " ") : "mustandit pole";
+  });
+}
+
+function varskenda() {
+  if (!T) return;
+  renderJooksud();
+  apiGet("mode=status").then(function (d) {
+    if (!d.ok) {
+      if (/token/.test(d.error || "")) { el("lukk").hidden = false; return; }
+      el("metaAeg").textContent = "viga: " + (d.error || "?");
+      return;
+    }
+    renderStatus(d);
+  }).catch(function (e) { el("metaAeg").textContent = "võrguviga"; });
+  laePublic();
+}
+
+// ---- start ----
+(function () {
+  try { T = localStorage.getItem("dash_t"); } catch (e) {}
+  renderJooksud();
+  if (!T) { el("lukk").hidden = false; }
+  else { varskenda(); laeKiri("et"); }
+  setInterval(function () { if (T) renderJooksud(); }, 30000);
+  setInterval(function () { if (T) varskenda(); }, 90000);
+})();
+</script>
+</body>
+</html>
