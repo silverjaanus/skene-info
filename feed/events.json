@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 202,
+ "count": 206,
  "entries": [
   {
    "sait": "www",
@@ -692,6 +692,36 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; kolm allikat: Helitehas FB event + GateMe + helitehas.ee. pu viitab GateMe Helitehase lehele (otse-eventi URL polnud kindlalt loetav). NB mitte segi ajada A.V.R Arop x ProdigyBoys 28.08 Tartu üritusega (eraldi kirje)",
    "img": "https://rap.skene.info/pildid/bakkaraugustiviimanereede.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "Cabrio x Kultuuriöö: Kyka, Dave Storm, Low-Keys, Savo",
+   "a": "Eesti uhe vanima elektroonilise plaadifirma Cabrio ohtu Kultuurioo raames — sugavam ja atmosfaarilisem house; kell 22.00, tasuta",
+   "b": [
+    "Kyka",
+    "Dave Storm",
+    "Low-Keys",
+    "Savo"
+   ],
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "electro"
+   ],
+   "sn": "Veetorni Aed (FB events)",
+   "su": "https://www.facebook.com/veetorniaed/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2087307942177790/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "„Uritus on tasuta“ (FB event)",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Veetorni Aed, Kultuurioo, Cabrio) + Veetorni Aia FB events-tab. Cabrio on ~50 reliisiga Eesti elektroonilise muusika label, mis sugisel taasalustab valjaandmist; Dave Storm ja Kyka on labeli raudvara.",
+   "lisatud": "2026-08-28"
   },
   {
    "sait": "www",
@@ -1848,6 +1878,38 @@
    "img": "https://www.skene.info/pildid/hainzkosmikudakustilisekavaga.webp"
   },
   {
+   "sait": "rap",
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Hip Hop Hangout: 5LOOPS, Loodikud, Majaka Mandela",
+   "a": "Seitse artisti, ohtu tais hip-hopi — kolm live'i ja neli DJd; kell 20.00, toetus 5€",
+   "b": [
+    "5LOOPS",
+    "Loodikud",
+    "Majaka Mandela",
+    "DON NUKI",
+    "Sänk",
+    "Kayot",
+    "sPoom"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Loodikud (FB events)",
+   "su": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1999742447375742/",
+   "hind": {
+    "praegu": "5€",
+    "mark": "toetus, uksel; ajakava TBA",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + korraldaja Loodikute FB events-tab + kaaskorraldaja Kricki FB events-tab. ⚠ URITUS TOIMUB Legendaarne Raadio & Baaris, AGA EI OLE Legendaarse FB events-tabis (host on Loodikud) — seepargi jai see sweepist valja; Silver margis selle ise. Koosseis on TAIS (3 live + 4 DJd), TBA on ainult ajakava.",
+   "lisatud": "2026-08-28"
+  },
+  {
    "sait": "klubi",
    "d": "2026-09-04",
    "t": "klubi",
@@ -1873,6 +1935,34 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1462806018967897/",
    "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) ja GateMe piletilink (pu) HALLi FB events-tabist. Fookus: hardgroove."
+  },
+  {
+   "sait": "rap",
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Masta Robusta «RRRR» EP esitluspidu + Tümmisaun allnighter",
+   "a": "«Reipaid ridu rezzidel radadel» EP esitluskontsert + bassimuusika setid hommikutundideni; kell 22.00, enne 23.00 pilet 10€, hiljem 15€",
+   "b": [
+    "Masta Robusta"
+   ],
+   "koosseis_tba": 1,
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "bass"
+   ],
+   "sn": "Veetorni Aed (FB events)",
+   "su": "https://www.facebook.com/veetorniaed/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1067301815974527/",
+   "hind": {
+    "praegu": "10€ / 15€",
+    "mark": "enne 23.00 10€, parast 23.00 15€, parast laivi 10€",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + Veetorni Aia FB events-tab (venue) + Masta Robusta ja Tummisauna FB events-tabid (korraldajad). Masta Robusta = Rakvere produtsent/DJ, raplaadi MC Lord (Ookulm, TMF, RLV Massive), peosarja Tummisaun resident. EP on '100% Eesti rapp' hip-hopi, UK garage'i ja pungi mojudega -> sait rap. Kulalis-MCd ja oo DJd (UKG/house/grime/breaks) on FB eventis TBA -> koosseis_tba. ⚠ EP ise voib vaarida eraldi RELIISIKIRJET, kui valjalaskekuupaev kinnitub (esimene video: youtube.com/watch?v=EX2n7zd_j_M).",
+   "lisatud": "2026-08-28"
   },
   {
    "sait": "klubi",
@@ -2555,6 +2645,27 @@
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events (FB eventi ei leidnud, ou tühi)",
    "img": "https://klubi.skene.info/pildid/vaipeventscounterstrikeczrsa.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Veere – vabas õhus",
+   "a": "Veere DJ-sessioon Veetorni Aias — house, gruuv, uuem ja vanem kraam; kell 22.00, ~6 h",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Veetorni Aed (FB events)",
+   "su": "https://www.facebook.com/veetorniaed/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1942929693080721/",
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata.",
+   "lisatud": "2026-08-28"
   },
   {
    "sait": "klubi",

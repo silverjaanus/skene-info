@@ -73,12 +73,28 @@
    "nimi": "Muud",
    "items": [
     {
+     "n": "Krick (MC Krick)",
+     "u": "https://www.facebook.com/mckrick/events"
+    },
+    {
      "n": "Legendaarne (Raadio/Baar/Records)",
      "u": "https://www.facebook.com/LegendaarneRaadio/events"
     },
     {
      "n": "Legendaarne Records (FB)",
      "u": "https://www.facebook.com/legendaarne/events"
+    },
+    {
+     "n": "Loodikud",
+     "u": "https://www.facebook.com/profile.php?id=61565948540767&sk=events"
+    },
+    {
+     "n": "Masta Robusta (MC Lord)",
+     "u": "https://www.facebook.com/MastaRobusta/events"
+    },
+    {
+     "n": "Tümmisaun (peosari)",
+     "u": "https://www.facebook.com/tymmisaun/events"
     }
    ]
   },

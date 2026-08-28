@@ -241,6 +241,10 @@
    "nimi": "Muud",
    "items": [
     {
+     "n": "Cabrio (plaadifirma)",
+     "u": "https://www.facebook.com/cabrioclub/events"
+    },
+    {
      "n": "Eesti Elektroonilise Muusika Selts (EES)",
      "u": "https://estelmus.com/"
     },
@@ -255,6 +259,10 @@
     {
      "n": "Reglok (Rego Kauber)",
      "u": "https://www.facebook.com/djreglok/events"
+    },
+    {
+     "n": "Veetorni Aed (Telliskivi)",
+     "u": "https://www.facebook.com/veetorniaed/events"
     }
    ]
   },

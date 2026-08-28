@@ -344,7 +344,7 @@
     "nimi": "Legendaarne (Raadio/Baar/Records)",
     "url": "https://www.facebook.com/LegendaarneRaadio/events",
     "tyyp": "venue/label",
-    "nb": "28.07.2026: /upcoming_hosted_events andis TUHJA tulemi, /events tootab. Siin on urituste-kalender (Legendaarne Baar, Krulli 2b)"
+    "nb": "28.07.2026: /upcoming_hosted_events andis TUHJA tulemi, /events tootab. Siin on urituste-kalender (Legendaarne Baar, Krulli 2b) | ⚠ 28.08.2026: Legendaarse events-tab EI naita koiki maja uritusi — Hip Hop Hangout 04.09 toimub Legendaarses, aga host on Loodikud, seega ilmub ainult Loodikute/Kricki lehel. Kaia sweepis labi ka rap.fb Loodikud ja Krick."
    },
    {
     "nimi": "Rada7.ee (FB events)",
@@ -362,6 +362,26 @@
     "url": "https://www.facebook.com/clubprive/events",
     "tyyp": "venue",
     "nb": "lisatud 07.08.2026: Harju 6, Tallinn; 25K jälgijat, sait priveclub.ee, clubprivetln@gmail.com. ŽANRILT KIRJU ja kehtib KÕIGILE 3 saidile — augustis-oktoobris 2026 korraga eesti räpp (67), vene alt-rock, KiŠi cover-bänd, ambient-elektroonika (Carbon Based Lifeforms -> klubi) ja KRS-One. Kontrolli iga kirje žanr eraldi. NB venue ise EI hosti kõiki üritusi — KRS-One'i events-tabis polnud, sest event-admin on korraldaja (LATFRO), mitte klubi. ⚠ SILVERI OTSUS 07.08.2026: VENEKEELNE ROCK-/COVER-SKEENE ON SKOOBIST VÄLJAS — 'Ведьма и Осел' (12.09.2026, Korol i Šuti cover-bänd) ja 'Animal Jazz + Cello' (02.10.2026, Peterburi alt-rock) jäid MÕLEMAD välja. Cover-formaat ise ei ole takistus (saidil on Remembering Ozzy, Metallica & AC/DC night, C-JAM & MAD), aga see skeene ei kuulu skoopi. ÄRA küsi neid uuesti ega paku sarnaseid Privé venekeelseid rock-üritusi."
+   },
+   {
+    "nimi": "Loodikud",
+    "url": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+    "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses); Eesti rappkooslus, korraldab Hip Hop Hangout (HHHO) ohtuid Legendaarses. ⚠ Nende uritused EI ilmu Legendaarse events-tabis, seega on see leht eraldi vajalik."
+   },
+   {
+    "nimi": "Krick (MC Krick)",
+    "url": "https://www.facebook.com/mckrick/events",
+    "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses); rappar/freestyle MC, kooslustes 5LOOPS, Sirge Tuli ja Pukk Brings Dilla; Hip Hop Hangouti kaaskorraldaja."
+   },
+   {
+    "nimi": "Masta Robusta (MC Lord)",
+    "url": "https://www.facebook.com/MastaRobusta/events",
+    "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses); Rakvere produtsent/DJ/rappar, peosarja Tummisaun resident, RLV Massive."
+   },
+   {
+    "nimi": "Tümmisaun (peosari)",
+    "url": "https://www.facebook.com/tymmisaun/events",
+    "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses); bassimuusika peosari (residendid Masta Robusta & gixshu), Rakvere/Tallinn. Piiripealne rap/klubi — vaata iga ohtut eraldi."
    }
   ],
   "ig": [
@@ -868,6 +888,16 @@
     "veeb": "https://www.kultuurivabrik.ee",
     "tyyp": "venue",
     "nb": "lisatud 27.08.2026 (Paavli + Rada7 uudiskirjadest, Paavli Shenanigans: END GAME 28.08). Paavli Kultuurivabriku klubisaal — Paavli 7, Tallinn; korraldab koos majaga oma peopäevi (tasuta sissepääs, maja oma DJ-d). Peasait on Paavli oma (kultuurivabrik.ee), MOD-i üritused ei jõua alati Paavli events-tabi — jälgi mõlemat."
+   },
+   {
+    "nimi": "Veetorni Aed (Telliskivi)",
+    "url": "https://www.facebook.com/veetorniaed/events",
+    "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses); Telliskivi venue, ~90 uritust. Oli varem AINULT kirjetes (TECHNO TUBBIES, WAKE UP EVENT), allikana puudus — pime nurk. Annab nii klubi- kui rap-uritusi."
+   },
+   {
+    "nimi": "Cabrio (plaadifirma)",
+    "url": "https://www.facebook.com/cabrioclub/events",
+    "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses); uks Eesti vanimaid elektroonilise muusika plaadifirmasid (~50 reliisi), taasalustab valjaandmist sugisel 2026 — jalgi ka reliise."
    }
   ],
   "ig": [],
