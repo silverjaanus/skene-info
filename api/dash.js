@@ -101,7 +101,8 @@ async function mlSeis() {
     return { kampaaniad: (d.data || []).map(function (c) {
       const s = c.stats || {};
       return { nimi: c.name, saadetud: c.finished_at,
-               saajaid: s.sent, avamisi: s.unique_opens_count, avamisprotsent: (s.open_rate||{}).string,
+               saajaid: s.sent, avamisi: s.unique_opens_count || s.opens_count || "",
+               avamisprotsent: (s.open_rate||{}).string,
                klikke: s.clicks_count, klikiprotsent: (s.click_rate||{}).string };
     }) };
   } catch (e) { return { viga: cut(e.message, 80) }; }
