@@ -1,43 +1,13 @@
 {
- "tommatud": "2026-08-27",
+ "tommatud": "2026-08-28",
  "aken": {
-  "algus": "2026-08-27",
-  "lopp": "2026-10-26"
+  "algus": "2026-08-28",
+  "lopp": "2026-10-27"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 26,
+ "kirjeid": 25,
  "kirjed": [
-  {
-   "d": "2026-08-27",
-   "n": "Arto",
-   "algus": "2026-08-27T21:00:00.000",
-   "v": "Tšungel",
-   "ala": "Tallinn",
-   "b": [
-    "Arto"
-   ],
-   "g": [
-    "Electro",
-    "Minimal Techno"
-   ],
-   "url": "https://ra.co/events/2516507",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-27",
-   "n": "THROWBACK THURSDAY",
-   "algus": "2026-08-27T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2518292",
-   "pilet": false
-  },
   {
    "d": "2026-08-28",
    "n": "Laine Klubiöö: DJ Plead (AU)",
@@ -128,6 +98,20 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2518297",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-03",
+   "n": "THROWBACK THURSDAY",
+   "algus": "2026-09-03T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Pop",
+    "Club"
+   ],
+   "url": "https://ra.co/events/2523287",
    "pilet": false
   },
   {

@@ -60,25 +60,6 @@
  },
  {
   "rel": 1,
-  "d": "2026-07-05",
-  "lisatud": "2026-07-28",
-  "t": "reliis",
-  "n": "Mad Dreams — «Farolong»",
-  "a": "Tallinna alt-rock / grunge; ilmus ka instrumentaalversioonina",
-  "b": [
-   "Mad Dreams"
-  ],
-  "g": [
-   "rock",
-   "alt"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://maddreamsofficial.bandcamp.com/album/farolong",
-  "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
-  "img": "pildid/maddreamsfarolong.webp"
- },
- {
-  "rel": 1,
   "d": "2026-07-09",
   "lisatud": "2026-08-02",
   "t": "reliis",
@@ -95,25 +76,6 @@
   "su": "https://sadesemper.bandcamp.com/album/the-sun-and-others",
   "nb": "lisatud 02.08.2026. Kuupäev 09.07.2026 kinnitatud Bandcampi albumilehelt ja Apple Musicust. Artist esineb ka nime all demeeter (@demeeterrr). Žanr pop punk / folk punk — varem sekts 4 all 'piiripealne', küsimust tegelikult ei olnud: punk/alt mahub peasaidi skoopi.",
   "img": "pildid/sadesemperthesunandothers.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-07-20",
-  "lisatud": "2026-07-28",
-  "t": "reliis",
-  "n": "Kõutsmees — «ma ei oska elada»",
-  "a": "Elva alternatiiv / punk / harsh noise",
-  "b": [
-   "Kõutsmees"
-  ],
-  "g": [
-   "punk",
-   "alt"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://k6utsmees.bandcamp.com/album/ma-ei-oska-elada",
-  "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupaev Bandcampi albumilehelt, teise allikaga kinnitamata",
-  "img": "pildid/koutsmeesmaeioskaelada.webp"
  },
  {
   "rel": 1,
@@ -369,57 +331,6 @@
    "mark": "festivali/telkimispassid läbi müüdud (06.07.2026 seisuga), ainult day tickets saadaval",
    "allikas": "summer-breeze.de + sbtix.de, kontrollitud 06.07.2026"
   }
- },
- {
-  "d": "2026-08-13",
-  "t": "kontsert",
-  "n": "Intrascendence (CL) + Pronoias (CL)",
-  "a": "Tšiili metal'i õhtu — modernne progressiivne metal (Metal from the end of the world); sissepääs tasuta",
-  "b": [
-   "Intrascendence (CL)",
-   "Pronoias (CL)"
-  ],
-  "v": "Konservatoorium",
-  "c": "mujal",
-  "linn": "Viljandi",
-  "g": [
-   "metal",
-   "melodic"
-  ],
-  "sn": "Facebook event",
-  "su": "https://www.facebook.com/events/26934925886202649",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/26934925886202649",
-  "hind": {
-   "praegu": "Tasuta",
-   "mark": "sissepääs tasuta; algus 20.00",
-   "allikas": "Facebook event (Pronoias + Konservatoorium), kontrollitud 09.07.2026"
-  }
- },
- {
-  "d": "2026-08-13",
-  "t": "kontsert",
-  "n": "kivi live: ONKEL JONKEL",
-  "a": "Viljandi viieliikmeline eestikeelne „niši-issi-indirokk“ 2020. aastast; EP «Akadeemiline Puhkus» ja album «Kiviaeg»; algus 22.00, sissepääs tasuta",
-  "b": [
-   "Onkel Jonkel"
-  ],
-  "v": "Kivi baar",
-  "c": "Tartu",
-  "g": [
-   "rock",
-   "indie"
-  ],
-  "sn": "Rada7.ee",
-  "su": "https://www.facebook.com/rada7.ee/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1940844029937127/",
-  "hind": {
-   "praegu": "tasuta",
-   "allikas": "FB event, kontrollitud 10.08.2026"
-  },
-  "lisatud": "2026-08-10",
-  "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Allikad: Rada7.ee FB events-tab (avastus) + Kivi baar / Onkel Jonkel ühine FB event (kuupäev, kellaaeg, tasuta sissepääs, koosseisukirjeldus)"
  },
  {
   "d": "2026-08-14",

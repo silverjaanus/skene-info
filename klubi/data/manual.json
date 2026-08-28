@@ -1,69 +1,5 @@
 [
  {
-  "rel": 1,
-  "d": "2026-06-18",
-  "lisatud": "2026-07-28",
-  "t": "reliis",
-  "n": "Luurel Varas — «Putukas»",
-  "a": "Tallinna bass / house / dub",
-  "b": [
-   "Luurel Varas"
-  ],
-  "g": [
-   "bass",
-   "house",
-   "techno",
-   "dub",
-   "ambient"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://luurelvaras.bandcamp.com/album/putukas",
-  "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
-  "img": "pildid/luurelvarasputukas.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-07-06",
-  "lisatud": "2026-07-28",
-  "t": "reliis",
-  "n": "Svet Nureka — «Serpentarium»",
-  "a": "ambient / new wave / synthpop",
-  "b": [
-   "Svet Nureka"
-  ],
-  "g": [
-   "ambient",
-   "experimental",
-   "electro",
-   "darkwave"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://svetnureka.bandcamp.com/album/serpentarium",
-  "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
-  "img": "pildid/svetnurekaserpentarium.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-07-21",
-  "lisatud": "2026-07-28",
-  "t": "reliis",
-  "n": "Kelson — «Mordovia arena geolog»",
-  "a": "Kohtla-Järve eksperimentaal / drone / power electronics",
-  "b": [
-   "Kelson"
-  ],
-  "g": [
-   "experimental",
-   "industrial",
-   "dark",
-   "ambient"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://kelson1.bandcamp.com/album/mordovia-arena-geolog",
-  "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
-  "img": "pildid/kelsonmordoviaarenageolog.webp"
- },
- {
   "d": "2026-07-25",
   "rel": 1,
   "t": "reliis",
@@ -174,53 +110,6 @@
   "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)",
   "img": "pildid/defferarchive01.webp"
- },
- {
-  "d": "2026-08-13",
-  "t": "kontsert",
-  "n": "Paavli.Live: múm (IS)",
-  "a": "Islandi eksperimentaalse elektroonilise popi kollektiiv (aastast 1997); algus 19.00; avab Dominik Prok (SK)",
-  "b": [
-   "múm (IS)",
-   "Dominik Prok (SK)"
-  ],
-  "v": "Paavli Kultuurivabrik",
-  "c": "Tallinn",
-  "g": [
-   "experimental",
-   "electro",
-   "ambient"
-  ],
-  "sn": "Fienta",
-  "su": "https://fienta.com/et/mum-tallinn",
-  "pu": "https://fienta.com/et/mum-tallinn",
-  "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist) 13.08: +avaesineja Dominik Prok (Paavli uudiskiri 11.08 + kultuurivabrik.ee programm).",
-  "img": "pildid/paavlilivemumis.webp"
- },
- {
-  "d": "2026-08-13",
-  "t": "klubi",
-  "n": "VERANDA: QSLAP (all night long)",
-  "a": "algus 23.00; Paavli kasvuhoone-tantsupõrand pärast múm-i kontserti; tasuta",
-  "b": [
-   "QSLAP"
-  ],
-  "v": "Paavli Kultuurivabrik, Veranda",
-  "c": "Tallinn",
-  "g": [
-   "club",
-   "electro"
-  ],
-  "sn": "Paavli uudiskiri",
-  "su": "https://www.kultuurivabrik.ee/en/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1366117608372007/",
-  "hind": {
-   "praegu": "tasuta",
-   "allikas": "Paavli uudiskiri 11.08.2026"
-  },
-  "nb": "lisatud 13.08.2026 Paavli 11.08 uudiskirjast, mis oli 'unauthenticated' margisega spammis ja jai postkastijooksul nagemata (DKIM/DMARC autentimata — vt HANDOVER §2). Allikad: uudiskiri + kultuurivabrik.ee programm + FB event. Samanadalase tasuta peo reegel (pusireegel 8).",
-  "img": "pildid/verandaqslapallnightlong.webp"
  },
  {
   "d": "2026-08-14",
