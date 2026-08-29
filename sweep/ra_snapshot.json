@@ -1,74 +1,13 @@
 {
- "tommatud": "2026-08-28",
+ "tommatud": "2026-08-29",
  "aken": {
-  "algus": "2026-08-28",
-  "lopp": "2026-10-27"
+  "algus": "2026-08-29",
+  "lopp": "2026-10-28"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 25,
+ "kirjeid": 21,
  "kirjed": [
-  {
-   "d": "2026-08-28",
-   "n": "Laine Klubiöö: DJ Plead (AU)",
-   "algus": "2026-08-28T21:00:00.000",
-   "v": "Uus Laine",
-   "ala": "Tallinn",
-   "b": [
-    "DJ Plead",
-    "shbxsz"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2398883",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-28",
-   "n": "Alo-Indrek Võsu & Taavet Bristol",
-   "algus": "2026-08-28T22:00:00.000",
-   "v": "Tšungel",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Minimal",
-    "Minimal Techno"
-   ],
-   "url": "https://ra.co/events/2516515",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-28",
-   "n": "Tehnoülevaatus #1",
-   "algus": "2026-08-28T23:59:00.000",
-   "v": "HUNGR",
-   "ala": "Tallinn",
-   "b": [
-    "Brenna Ryan",
-    "MATĒRIA (LV)",
-    "Aeden (1)",
-    "Freya Algiz"
-   ],
-   "g": [
-    "Techno",
-    "Acid"
-   ],
-   "url": "https://ra.co/events/2517929",
-   "pilet": false
-  },
-  {
-   "d": "2026-08-28",
-   "n": "I LOVE 90´S – MICHAEL JACKSON SPECIAL",
-   "algus": "2026-08-28T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2518294",
-   "pilet": false
-  },
   {
    "d": "2026-08-29",
    "n": "Tšungel Summer Finale",

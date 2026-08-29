@@ -451,6 +451,128 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; kaks allikat: Fienta + Rakvere kultuurisündmuste FB. NB pu-slug tuletatud Fienta pealkirjast — kui link ei tööta, otsi Fientast 'Räppar Mägi'",
    "img": "pildid/rapparmagirakverelive.webp"
+  },
+  {
+   "d": "2026-08-28",
+   "t": "kontsert",
+   "n": "A.V.R — Augusti Viimane Reede: Arop x ProdigyBoys",
+   "a": "Pulse x G5 suvelõpupidu — Arop ja Prodigy Boys live-settidega, lisaks Pulse Crew, G5 DJd ja erikülalised; kell 18–22, vanusepiiranguta (VIP 16+). Sama õhtu jätkub 23.00 eraldi 16+ peoga (Triibupasta) — eraldi pilet, eraldi kirje",
+   "b": [
+    "Arop",
+    "Prodigyboys",
+    "Pulse Crew",
+    "G5 DJs"
+   ],
+   "v": "Alexela Loomelava",
+   "c": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/Estonia/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/848856168161343/",
+   "pu": "https://gateme.com/et/event/104066/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "Regular Bird 10€, Early VIP (16+) 15€; Super Early Bird 7,50€ välja müüdud",
+    "allikas": "GateMe, kontrollitud 10.08.2026"
+   },
+   "lisatud": "2026-08-10",
+   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). Allikad: GateMe ürituseleht 104066 (korraldaja kristiogor OÜ, kava ja hinnad) + FB event 848856168161343 („PULSE X G5: AVR Arop X ProdigyBoys I VANUSEPIIRANGUTA“). Sama korraldajapaar (Pulse + G5) nagu 18.07 kirjes. 25.08.2026: sama õhtu hiline pool (23.00–03.30, Triibupasta, 16+) on nüüd ERALDI KIRJE — GateMe ütleb mõlemal lehel 'Tegemist on kahe eraldi üritusega ning kummalegi on vaja eraldi piletit'. Paar on check_dupes'i jaoks vaigistatud data/dupe_ok.json-is (REEGLID §5)",
+   "img": "pildid/avraugustiviimanereedearopxprodigyboys.webp"
+  },
+  {
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "A.V.R — Augusti Viimane Reede: Triibupasta (öine)",
+   "a": "Pulse x G5 suvelõpupeo hiline pool: kell 23.00–03.30, 16+, eraldi pilet. Triibupasta live-set, lisaks Pulse Crew, G5 DJd ja erikülalised. Varem samal õhtul samas majas 18.00–22.00 vanusepiiranguta A.V.R (Arop x ProdigyBoys)",
+   "b": [
+    "Triibupasta",
+    "Pulse Crew",
+    "G5 DJs"
+   ],
+   "v": "Alexela Loomelava",
+   "c": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/event/103874/",
+   "pu": "https://gateme.com/et/event/103874/",
+   "hind": {
+    "praegu": "24,90€",
+    "mark": "LAST BIRD (viimased 100 piletit) 24,90€; Super Early Bird 10€, Early bird 13€, Regular Bird 16,99€, LATE BIRD 19,90€ ja mõlemad VIP-astmed välja müüdud",
+    "allikas": "GateMe, kontrollitud 25.08.2026"
+   },
+   "lisatud": "2026-08-25",
+   "nb": "lisatud 25.08.2026 Silveri otsusel (22.08 ülevaatuspunkt suletud). Kaks allikat: GateMe ürituseleht 103874 (korraldaja kristiogor OÜ, kava, hinnad, kellaajad) + @loomelava ja @insideg5 Instagrami postitused ('G5 AVR 16+ 28.08 ... ALEXELA LOOMELAVA, TARTU / PULSE CREW / G5 DJ-S / TRIIBUPASTA'). ⚠ KOOSSEIS: GateMe PEALKIRI ütleb 'Triibupasta + PRODIGYBOYS', aga sama lehe ARTISTID-loend PRODIGYBOYSi EI sisalda (ainult Triibupasta LIVE, Pulse Crew, G5 DJs, * Special Guests) ja ka mõlema Instagrami koosseis on ilma nendeta — pealkiri on ilmselt 18.00 ürituselt üle kantud. REEGLID §4 (koosseis peegeldab allikat) järgi on 'b' võetud ARTISTID-loendist. Kui FB-l ilmub kinnitus, et ProdigyBoys mängib ka öisel, lisa. ⚠ FB-eventi ei leidnud (18.00 kirjel on 848856168161343, öisel eraldi eventi google.ee otsing ei andnud) — 'ou' on seetõttu tühi, REEGLID §3: piletimüüja GateMe EI tohi olla 'ou' väljal. Duplikaadihoiatus vaigistatud data/dupe_ok.json-is (sama koht + sama päev, REEGLID §5).",
+   "img": "pildid/avraugustiviimanereedetriibupastaoine.webp"
+  },
+  {
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "Bakkar: Augusti Viimane Reede",
+   "a": "kell 23.00–04.00; korraldaja Bakkar Events",
+   "b": [
+    "Bakkar"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Helitehas FB",
+   "su": "https://www.facebook.com/helitehas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1630069635786106/",
+   "pu": "https://gateme.com/helitehas",
+   "hind": {
+    "praegu": "8€",
+    "mark": "First release eelmüük GateMe-s",
+    "allikas": "GateMe, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; kolm allikat: Helitehas FB event + GateMe + helitehas.ee. pu viitab GateMe Helitehase lehele (otse-eventi URL polnud kindlalt loetav). NB mitte segi ajada A.V.R Arop x ProdigyBoys 28.08 Tartu üritusega (eraldi kirje)",
+   "img": "pildid/bakkaraugustiviimanereede.webp"
+  },
+  {
+   "d": "2026-08-28",
+   "t": "klubi",
+   "n": "augusti viimane rämmar",
+   "a": "Suve viimase reede traditsioonipidu Balti Jaama Turu hoovis; kolm lava (d3 rämmar / fonoteek klämmar / SEXRADIO), uksed 23.00, lõpp ~04.00, 18+",
+   "b": [
+    "ab live (FIN)",
+    "Kermo Murel",
+    "Kohver",
+    "Päevakoer",
+    "Muul",
+    "Philgood",
+    "Elina Born",
+    "Karl Klaus",
+    "Sten Zeider",
+    "La Copa",
+    "DJ Issi",
+    "Yung Humidoor"
+   ],
+   "v": "Balti Jaama Turu hoov",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4459732620960171/",
+   "pu": "https://gateme.com/et/D3Tallinn/104120-augusti-viimane-rammar-2808-d3/",
+   "hind": {
+    "praegu": "15€",
+    "mark": "teine laar; kolmas 20€, uksel al 23.00 25€; esimene laar (10€) välja müüdud",
+    "allikas": "FB event + GateMe, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus: räpi alla); korraldajad 5MIINUST, Elina Born jt; allikad FB event + GateMe",
+   "img": "pildid/augustiviimanerammar.webp"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-28",
+ "updated": "2026-08-29",
  "entries": [
   {
    "rel": 1,
@@ -308,128 +308,6 @@
    "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
    "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
    "img": "pildid/mustmissakhattratapes.webp"
-  },
-  {
-   "d": "2026-08-28",
-   "t": "kontsert",
-   "n": "Caliber Orders",
-   "b": [
-    "Caliber Orders"
-   ],
-   "v": "Linna Bar",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108310290-caliber-orders-at-linna",
-   "img": "pildid/caliberorders.webp"
-  },
-  {
-   "d": "2026-08-28",
-   "t": "kontsert",
-   "n": "Face Collector + Hukk",
-   "a": "Face Collectori esimene live-esinemine; support Hukk; uksed 19.00, bändid 20.00",
-   "b": [
-    "Face Collector",
-    "Hukk"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "death",
-    "grind",
-    "black",
-    "sludge",
-    "doom"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://www.facebook.com/events/1034513249503694/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1034513249503694/",
-   "hind": {
-    "praegu": "7€ / 10€",
-    "mark": "uksehind; uksed 19.00, bändid 20.00",
-    "allikas": "FB eventi kirjeldus kontaktivormi vahendusel, 05.08.2026 (FB kärbib kirjelduse väljalogitud vaates)"
-   },
-   "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com, 04.08.2026); FB eventilt kinnitatud 05.08.2026: R 28.08.2026 kell 19.00, Ööbiku 1a Kristiine Tallinn, korraldaja Face Collector, 71 vastanut; mõlemad bändid Tallinnast kinnitatud Bandcampist (Face Collector blackened death/deathgrind, Hukk sludge/doom/post); piletihinda ei õnnestunud väljalogitult FB-lt otse näha",
-   "img": "pildid/facecollectorhukk.webp"
-  },
-  {
-   "d": "2026-08-28",
-   "t": "kontsert",
-   "n": "Kojamees & The GÄNG + Fucktor",
-   "a": "Rock'n'roll-õhtu Kidrakuuris; uksed 19.30, Fucktor 20.30, Kojamees & the GÄNG 22.00",
-   "b": [
-    "Kojamees & The GÄNG",
-    "Fucktor"
-   ],
-   "v": "Kidrakuur",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "punk"
-   ],
-   "sn": "Kidrakuur Kultuuriklubi (FB)",
-   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/28153477547610400/",
-   "hind": {
-    "praegu": "15€",
-    "mark": "uksel AINULT sularahas",
-    "allikas": "FB event, kontrollitud 07.08.2026"
-   },
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Kidrakuuri FB events-leht + ürituse enda FB event (kellaajad, hind, sularaha-märkus). Kidrakuuril eraldi kodulehte ürituste jaoks ei ole, seega mõlemad allikad on FB-s",
-   "img": "pildid/kojameesthegangfucktor.webp"
-  },
-  {
-   "d": "2026-08-28",
-   "t": "kontsert",
-   "n": "MODEL CITIZEN + I AM BOB + DJ Valter Nõmm",
-   "a": "MODEL CITIZEN (noise rock, EE) + I AM BOB (krautrock/post-punk, Tallinn) + DJ Valter Nõmm",
-   "b": [
-    "Model Citizen",
-    "I AM BOB"
-   ],
-   "v": "Burger Box",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "alt"
-   ],
-   "sn": "Facebook event",
-   "su": "https://www.facebook.com/events/1063635092993606",
-   "hind": {
-    "praegu": "tasuta"
-   },
-   "img": "pildid/modelcitizeniambobdjvalternomm.webp",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1063635092993606/",
-   "nb": "27.08.2026: FB eventi link lisatud Rada7.ee uudiskirjast 26.08.2026 (uudiskiri: I Am Bob esimene kontsert, Bandcamp iambob.bandcamp.com/album/i-am-bob-ep)."
-  },
-  {
-   "d": "2026-08-28",
-   "t": "kontsert",
-   "n": "Metallica & AC/DC night: Patarei + Coverage",
-   "a": "Tribüütõhtu — Patarei (Metallica) + Coverage (AC/DC); algus 21:00",
-   "b": [
-    "Patarei",
-    "Coverage"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "hard rock",
-    "tribüüt"
-   ],
-   "sn": "Fienta",
-   "su": "https://fienta.com/et/patarei-coverage-thekrypt",
-   "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
-   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
-   "img": "pildid/metallicaacdcnightpatareicoverage.webp"
   },
   {
    "d": "2026-08-29",
@@ -2634,6 +2512,6 @@
   }
  ],
  "log": [
-  "krypt: 11"
+  "krypt: 10"
  ]
 }
