@@ -3061,5 +3061,56 @@
   "on_": "Summer Breeze",
   "ou": "https://www.summer-breeze.de/en/",
   "nb": "lisatud 17.08.2026: kuupäev 18.–21.08.2027 ametlikult lehelt + Nuclear Blasti uudis; välisfestival → teadlik headliner-valik"
+ },
+ {
+  "d": "2026-09-18",
+  "t": "muu",
+  "n": "MAI SKIZO uue albumi «Valu mõte» avaldamine",
+  "a": "Albumi väljalaskeüritus meet & greet formaadis — kontserti sel päeval EI ole: kohtumine bändiga, Hooandjas albumi väljaandmist toetanute kingituste kättesaamine, esimene võimalus osta uusi plaate ja nänni. Bänd kohal alates 18.00, «kuniks on huvilisi»",
+  "b": [
+   "MAI SKIZO"
+  ],
+  "v": "Tommi Grill",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "post",
+   "punk",
+   "goth",
+   "industrial",
+   "dark",
+   "alt"
+  ],
+  "sn": "maiskizo.ee",
+  "su": "https://maiskizo.ee/mai-skizo-uue-albumi-avaldamine/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2220239358756120/",
+  "lisatud": "2026-08-30",
+  "nb": "lisatud 30.08.2026 postkastijooksus; sisend tuli kontaktivormi kaudu (Pronto, p@maiskizo.ee, 29.08.2026 22:29, skene.info vorm). KAKS ALLIKAT: bändi enda kodulehe teade maiskizo.ee 29.08.2026 + avalik FB event 2220239358756120 (72 vastanut), mõlemad ütlevad R 18.09.2026 kell 18.00, Tatari 64. Koht: «algne Tommi Grill» Ajakirjandusmaja taga (Tatari 64, Kesklinn) — FB event näitab ainult aadressi, majanimi tuleb bändi teatest. Piletit ega uksehinda kummalgi lehel EI OLE mainitud → hinnavälja teadlikult ei ole (REEGLID §3: hinda ei leiutata). Kirjetüüp «muu», sest formaat on meet & greet / plaadiesitlus, mitte kontsert (vrd Plaaditurg) — bänd ütleb ise, et plaaditutvustustuuri esinemised tulevad eraldi ja teatatakse hiljem. Žanr: bändi enda kodulehe kirjeldus «post-punk, industriaal, gooti rokk» + vormil märgitud «Rock, Alt, Industrial, Dark» → kitarripõhine baasžanr, peasait (REEGLID §1).",
+  "img": "pildid/maiskizouuealbumivalumoteavaldamine.webp"
+ },
+ {
+  "rel": 1,
+  "d": "2026-09-18",
+  "lisatud": "2026-08-30",
+  "t": "reliis",
+  "n": "MAI SKIZO — «Valu mõte»",
+  "a": "Bändi teine album, 13 lugu; post-punk / industriaal / gooti rokk Tallinnast. Seitse aastat tehtud; «Armastuse haua» sõnade autor on Mait Vaik, ülejäänu bändi omalooming",
+  "b": [
+   "MAI SKIZO"
+  ],
+  "g": [
+   "rock",
+   "post",
+   "punk",
+   "goth",
+   "industrial",
+   "dark",
+   "alt"
+  ],
+  "sn": "Spotify",
+  "su": "https://open.spotify.com/album/2BXmkqfUfg9kJHrhKgqqmO",
+  "nb": "lisatud 30.08.2026 postkastijooksus (sama kontaktivormi sisend, mis 18.09 väljalaskeüritus). KAKS ALLIKAT: bändi kodulehe teade maiskizo.ee 29.08.2026 (ametlik avaldamiskuupäev 18.09.2026) + Spotify albumileht 2BXmkqfUfg9kJHrhKgqqmO (pealkiri «Valu mõte», 13 lugu — kattub kodulehe 01.01.2026 postituse loeteluga). ⚠ KUUPÄEVA NÜANSS: bänd ütleb ise, et album on Spotifys JUBA saadaval, aga ametlik avaldamiskuupäev on 18.09.2026 — `d` järgib bändi enda ametlikku kuupäeva, mis on ka väljalaskeürituse päev. Voogedastuses on lugude nimed veidi teised kui kodulehe tracklistis («Proloog»/«Epiloog» vs «Valu mõte I/II osa», «Mai ei tea» vs «Ma ei tea»).",
+  "img": "pildid/maiskizovalumote.webp"
  }
 ]

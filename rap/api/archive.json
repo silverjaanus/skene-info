@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 196,
+ "count": 204,
  "entries": [
   {
    "sait": "www",
@@ -5150,6 +5150,102 @@
    "img": "https://rap.skene.info/pildid/augustiviimanerammar.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Airbourne",
+   "a": "Austraalia hard rocki bänd, Gutsy-tuur — esimest korda Eestis",
+   "b": [
+    "Airbourne",
+    "Elephants From Neptune"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "heavy"
+   ],
+   "sn": "Live Nation Estonia FB",
+   "su": "https://www.facebook.com/events/883197287964317",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/883197287964317",
+   "pu": "https://www.piletilevi.ee/piletid/VD37QERUVT/airbourne",
+   "nb": "algus 19.00; korraldajad Live Nation Estonia + Helitehas; kontrollitud 09.07.2026 | 25.07.2026: soojendaja Elephants From Neptune lisatud (Helitehas FB)",
+   "img": "https://www.skene.info/pildid/airbourne.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Ampest @ Tabasalu Päev",
+   "b": [
+    "Ampest"
+   ],
+   "v": "Tabasalu Tui park",
+   "c": "mujal",
+   "g": [
+    "metal"
+   ],
+   "sn": "Bandsintown",
+   "su": "https://www.bandsintown.com/e/108480540-ampest-at-tabasalu-tui-park",
+   "img": "https://www.skene.info/pildid/ampesttabasalupaev.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "J.M.K.E 40 — Saartetuur: Hiiumaa",
+   "a": "legendaarse punkbändi 40. juubeli saartetuur; algus 20.00",
+   "b": [
+    "J.M.K.E."
+   ],
+   "v": "Viscosa Kultuuritehas",
+   "c": "mujal",
+   "linn": "Kõrgessaare, Hiiumaa",
+   "g": [
+    "punk"
+   ],
+   "sn": "Ticketer",
+   "su": "https://www.ticketer.ee/jmke-40-saartetuur-hiiumaa/",
+   "pu": "https://www.ticketer.ee/jmke-40-saartetuur-hiiumaa/",
+   "hind": {
+    "praegu": "15€ / 20€",
+    "mark": "Hommikupunk 15€ / Õhtupunk 20€ (+tehingutasu); Superpunk 60€ (särk + signeeritud CD); korraldaja NYROK MTÜ",
+    "allikas": "Ticketer, kontrollitud 19.07.2026"
+   },
+   "nb": "lisatud sweepis 19.07.2026 (Ticketer)",
+   "img": "https://www.skene.info/pildid/jmke40saartetuurhiiumaa.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Last Gig of Summer @ Fort Bar",
+   "a": "Suve viimane kontsert Fort Baris; tasuta sissepaas, kell 19.00",
+   "b": [
+    "Must Ruut",
+    "KLOP",
+    "Лысый и Браззерсы"
+   ],
+   "v": "Fort Bar",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt",
+    "punk"
+   ],
+   "sn": "Fort Bar (FB events)",
+   "su": "https://www.facebook.com/fortbar.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1706702997271534/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "FREE ENTRY, kell 19.00",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fort Bari FB events-tab + urituse FB event (kaaskorraldajad Must Ruut ja Lüssy i Brazzersy). Must Ruut = alternatiivrock (mustruut.ee)."
+  },
+  {
    "sait": "rap",
    "d": "2026-08-29",
    "lisatud": "2026-08-27",
@@ -5219,6 +5315,63 @@
    "img": "https://rap.skene.info/pildid/moment30byevertpoombalibabyus.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Mõisapargi Sumin: Metsatöll + Systeam",
+   "a": "Muinastulede öö kontsert Audru mõisa ajaloolises hobuste maneežis; Metsatöll esineb Audrus esmakordselt",
+   "b": [
+    "Metsatöll",
+    "Systeam"
+   ],
+   "v": "Valgeranna Veinitall",
+   "c": "mujal",
+   "g": [
+    "folk metal",
+    "metal"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/moisapargi-sumin-metsatoll",
+   "pu": "https://fienta.com/et/moisapargi-sumin-metsatoll",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis (leid Fienta metal-otsingust). Audru, Pärnumaa; algus 18.00. ⚠ Piletihinda EI õnnestunud Fienta lehelt tekstina kätte saada (hinnad on ostuvoos), seega hind-välja ei ole. Teine allikas: Fienta ürituseleht ise + Piletilevi/kohalik kajastus kontrollimata — kui leiad FB eventi, lisa see ou-le"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "PUTUKA ROKK",
+   "a": "Ülase12 (Anemon12) DIY-päevaüritus Pelguaias: 13.00 uksed, 15.00 bändid, ~21.30 lõpp; oma grill lubatud (oma nõud)",
+   "b": [
+    "Halb Päev",
+    "Volta",
+    "Mobisa Mobisa",
+    "ÕS",
+    "Ave Maria",
+    "Üks Kõigi",
+    "Phlox",
+    "Düsentroop"
+   ],
+   "v": "Pelguaed (Ehte 40)",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Anemon12 FB",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1362464942062617/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; korraldaja Anemon12/Ülase12 (event nende events-tabis). TÄIENDATUD 27.08.2026 postkastijooksus: koosseis Rada7.ee uudiskirjast 26.08.2026 (toimetaja loend — FB eventi kirjelduses koosseisu EI ole, seal on ainult ajakava ja hind), kellaajad + 3€ sularahahind FB eventist.",
+   "img": "https://www.skene.info/pildid/putukarokk.webp",
+   "hind": {
+    "praegu": "3€",
+    "mark": "uksel, ainult sularahas",
+    "allikas": "FB event, kontrollitud 27.08.2026"
+   }
+  },
+  {
    "sait": "rap",
    "d": "2026-08-29",
    "t": "klubi",
@@ -5243,6 +5396,53 @@
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Legendaarse FB events-tab + urituse FB event (korraldajad Legendaarne Raadio + Mari-Anna Miller)."
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "TOOL & Nine Inch Nails night: Fool + Hate Machine (FIN)",
+   "a": "Soome tribüütbändid — Fool (Tool) + Hate Machine (NIN); uksed 20:00, algus 22:00",
+   "b": [
+    "Fool",
+    "Hate Machine"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "prog",
+    "industrial",
+    "tribüüt"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+   "pu": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
+   "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
+   "img": "https://www.skene.info/pildid/toolnineinchnailsnightfoolhatemachinefin.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "Tallinn Indie Shuffle: Around the Sun x YE",
+   "a": "Indie-õhtu kell 19.00–23.45",
+   "b": [
+    "Around the Sun",
+    "YE"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2426267614573170/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Uus Laine FB event + uuslaine.com kalender. Pileti-/hinnainfot event-lehel ei olnud",
+   "img": "https://www.skene.info/pildid/tallinnindieshufflearoundthesunxye.webp"
   }
  ]
 }

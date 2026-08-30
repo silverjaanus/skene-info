@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29",
+ "updated": "2026-08-30",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -333,6 +333,10 @@
     {
      "n": "Fuzzolini (Bandcamp)",
      "u": "https://fuzzolini.bandcamp.com/"
+    },
+    {
+     "n": "MAI SKIZO",
+     "u": "https://www.facebook.com/MaiSkizo/events"
     },
     {
      "n": "Plaaditurg",
