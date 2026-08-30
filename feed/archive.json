@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 204,
+ "count": 214,
  "entries": [
   {
    "sait": "www",
@@ -5217,6 +5217,25 @@
    "img": "https://www.skene.info/pildid/jmke40saartetuurhiiumaa.webp"
   },
   {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "Kinetic x TOLM",
+   "a": "kell 23.00",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "TOLM",
+   "c": "Tartu",
+   "g": [
+    "techno"
+   ],
+   "sn": "TOLM (FB events)",
+   "su": "https://www.facebook.com/tolm.trt/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1546741370251337/",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: TOLMi FB events-tab + urituse FB event. Koosseis avaldamata."
+  },
+  {
    "sait": "www",
    "d": "2026-08-29",
    "t": "kontsert",
@@ -5244,6 +5263,54 @@
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fort Bari FB events-tab + urituse FB event (kaaskorraldajad Must Ruut ja Lüssy i Brazzersy). Must Ruut = alternatiivrock (mustruut.ee)."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "Lights Out",
+   "a": "House ja UK garage hommikuni; uksed 19.00, DJd 23.00, 18+",
+   "b": [
+    "Funkomatik",
+    "Olivar",
+    "Slin",
+    "Remi"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "garage"
+   ],
+   "sn": "Fonoteek (FB events)",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2678460012550084/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "18+, uksed 19.00, DJd 23.00",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fonoteegi FB events-tab + urituse FB event (Fonoteek korraldaja)."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "LÕNGREIV vol 3",
+   "a": "kudumis-reiv (knitting rave) Marati 5a / Ankru 10-11",
+   "v": "Marati 5a / Ankru 10-11",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/marati-5a-ja-ankru-10-11713-tallinn-estonia/l%C3%B5ngreiv-vol-3-knitting-rave-vol-3/1649977260437215/",
+   "on_": "allevents.in",
+   "ou": "https://allevents.in/tallinn/",
+   "nb": "lisatud 02.08.2026. Sweepis oli ainult allevents.in; Silver leidis FB-eventi tavalise Google-otsinguga — ÕPPETUND: kui sweep-allikatest teist allikat ei tule, tee veebiotsing enne kui kirje 'ühe allikaga' kõrvale panna. Žanrisilt 'techno' on tuletatud sündmuse nimest ('reiv'), koosseisu ega žanrit FB-eventist ei kinnitatud.",
+   "img": "https://klubi.skene.info/pildid/longreivvol3.webp",
+   "koosseis_tba": 1
   },
   {
    "sait": "rap",
@@ -5284,6 +5351,48 @@
    "koosseis_tba": 1,
    "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka klubi/data/manual.json-is.",
    "img": "https://rap.skene.info/pildid/mifxbuttercupssummerclosing.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "MIF x BUTTERCUPS – SUMMER CLOSING",
+   "a": "Suve lõpupidu neljal laval: Summer Pop (välisterrass), Hip-Hop / EDM (suur saal), House / Techno (teine saal), DnB (pop-up lava); 22.30–05.00, 18+",
+   "b": [
+    "WAVĒ",
+    "NIGRONI",
+    "DAPO",
+    "Andreground",
+    "Chillikene",
+    "Tonix",
+    "Zaza",
+    "Nickz",
+    "Samo",
+    "Abbrus",
+    "Luuna"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno",
+    "dnb",
+    "electro"
+   ],
+   "sn": "Paavli Kultuurivabriku uudiskiri 26.08.2026",
+   "su": "https://www.kultuurivabrik.ee",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1415053067356482/",
+   "pu": "https://gateme.com/et/event/104147/",
+   "hind": {
+    "praegu": "15€",
+    "mark": "Regular Bird eelmüügis; uksel kallim",
+    "allikas": "GateMe, kontrollitud 27.08.2026"
+   },
+   "koosseis_tba": 1,
+   "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka rap/data/manual.json-is.",
+   "img": "https://klubi.skene.info/pildid/mifxbuttercupssummerclosing.webp"
   },
   {
    "sait": "rap",
@@ -5337,6 +5446,30 @@
    "nb": "lisatud 07.08.2026 nädalases sweepis (leid Fienta metal-otsingust). Audru, Pärnumaa; algus 18.00. ⚠ Piletihinda EI õnnestunud Fienta lehelt tekstina kätte saada (hinnad on ostuvoos), seega hind-välja ei ole. Teine allikas: Fienta ürituseleht ise + Piletilevi/kohalik kajastus kontrollimata — kui leiad FB eventi, lisa see ou-le"
   },
   {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "kontsert",
+   "n": "OMD (Orchestral Manoeuvres in the Dark)",
+   "a": "sünt-popi klassikud esmakordselt Eestis; Pirita kloostri varemed, algus 19.00 (tuleb.ee: 20.00)",
+   "b": [
+    "OMD"
+   ],
+   "v": "Pirita klooster",
+   "c": "Tallinn",
+   "g": [
+    "synth-pop",
+    "new wave",
+    "electro"
+   ],
+   "sn": "L Tips Agency Estonia FB",
+   "su": "https://www.facebook.com/LTipsAgencyEstonia/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/844301218463658/",
+   "pu": "https://bit.ly/OMDTallinn",
+   "nb": "lisatud sweepis 19.07.2026; korraldaja L Tips Agency; piletilink = korraldaja lühilink (bit.ly -> Piletilevi); žanripõhiselt klubi-poolel (Moby/OMD pretsedent)",
+   "img": "https://klubi.skene.info/pildid/omdorchestralmanoeuvresinthedark.webp"
+  },
+  {
    "sait": "www",
    "d": "2026-08-29",
    "t": "kontsert",
@@ -5372,6 +5505,35 @@
    }
   },
   {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "Plaadipood Helinihe avamispidu",
+   "a": "Nõmme turu plaadipoe Helinihe ametlik avamine, 12.00–18.00, tasuta; vinüüle mängivad nõmmekatest DJd, tervitused annab üle Marju Länik (mitte kontsert), suupisted Suitsuvares; klientidele tasuta ;paranoia kirjastuse raamat",
+   "b": [
+    "Tõnu Kõrvits",
+    "Ülo Krigul",
+    "Rhythm Doctor",
+    "Glitch Korts"
+   ],
+   "v": "Nõmme Turg (Piiri 6)",
+   "c": "Tallinn",
+   "g": [
+    "electro"
+   ],
+   "sn": "Rada7.ee uudiskiri 26.08.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1709219880131159/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "sündmus on kõigile tasuta",
+    "allikas": "FB event, kontrollitud 27.08.2026"
+   },
+   "nb": "lisatud 27.08.2026 SILVERI OTSUSEL (plaadipoe/-turu formaat on skoobis, vt REEGLID §1; sait: klubi). Kaks allikat: Rada7.ee uudiskiri 26.08 + FB event. Pood avas uksed juba juunis, 29.08 on ametlik avamine. ⚠ Žanrisilt ÜLDISTAV — tegu on DJ-kavaga plaadipoes, žanri kusagil ei nimetata; Tõnu Kõrvits ja Ülo Krigul on nüüdismuusika-heliloojad, kes siin mängivad vinüüli (esinejatena nad skoopi ei kuuluks — see kirje EI ole pretsedent EMA-teljele)."
+  },
+  {
    "sait": "rap",
    "d": "2026-08-29",
    "t": "klubi",
@@ -5396,6 +5558,57 @@
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Legendaarse FB events-tab + urituse FB event (korraldajad Legendaarne Raadio + Mari-Anna Miller)."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "STYLËVA Summer Night: House Party",
+   "a": "house-pidu kell 21.00",
+   "b": [],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "uuslaine.com",
+   "su": "https://uuslaine.com",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: uuslaine.com kalender + AllEvents/HappeningNext. STYLËVA varasem sama sari toimus 31.05. FB event olemas, aga otse-URL jäi lugemata — pealkiri lingib su peale",
+   "img": "https://klubi.skene.info/pildid/stylevasummernighthouseparty.webp",
+   "koosseis_tba": 1
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "TECHNO TUBBIES",
+   "a": "Teletubbies-teemaline community-based techno-pidu installatsioonidega Veetorni Aias; trance/hardgroove; algus 23.00; 18+; ainult sularaha",
+   "b": [
+    "YUNGÏ",
+    "WHITE GLOSS",
+    "pikkauch",
+    "Petricore",
+    "BØJIMA"
+   ],
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "trance"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1068325625763157",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1068325625763157",
+   "hind": {
+    "praegu": "5€ / 10€",
+    "mark": "5€ kuni 00.00, hiljem 10€; ainult sularaha",
+    "allikas": "FB event, kontrollitud 20.08.2026"
+   },
+   "lisatud": "2026-08-20",
+   "nb": "lisatud 20.08.2026 (Silveri leid, FB event); lineup: YUNGÏ, WHITE GLOSS, PIKKAUCH, PETRICORE b2b BØJIMA",
+   "img": "https://klubi.skene.info/pildid/technotubbies.webp"
   },
   {
    "sait": "www",
@@ -5443,6 +5656,66 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Uus Laine FB event + uuslaine.com kalender. Pileti-/hinnainfot event-lehel ei olnud",
    "img": "https://www.skene.info/pildid/tallinnindieshufflearoundthesunxye.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "Tšungel Summer Finale",
+   "a": "Suve viimane pidu Koplis: algus juba kell 15.00, lõpp 03.00, tasuta (21+)",
+   "b": [
+    "rec",
+    "Lill",
+    "Rummo",
+    "Tolli"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "minimal",
+    "techno"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2516511",
+   "lisatud": "2026-08-21",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "sissepääs tasuta, 21+; 15.00–03.00",
+    "allikas": "RA event, kontrollitud 21.08.2026"
+   },
+   "nb": "lisatud sweepis 21.08.2026. Allikad: RA event 2516511 + Tšungla RA venue-leht. Heli Lambda Labsilt; koosseis lõpeb '...', st võib täieneda."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-29",
+   "t": "festival",
+   "n": "Vaskjala SIRAKAS 2026",
+   "a": "Eesti Elektroonilise Muusika Seltsi ja Rae Kultuurikeskuse suvelõpu minifestival Vaskjala loomeresidentuuris — elektrooniline kontsertmuusika, ambient ja eksperimentaalhelid; Lau Nau esineb kvadrofoonilise soologa",
+   "b": [
+    "Lau Nau (FI)",
+    "Heta Bilaletdin (FI)",
+    "Mia-Stella Aaslaid",
+    "Lisette-Marie Viilup",
+    "Hello Upan",
+    "Andres Vihterpal",
+    "Kenn-Eerik Kannike",
+    "Baldur Björnsson (ISL)",
+    "EMA (EES ansambel)"
+   ],
+   "v": "Vaskjala loomeresidentuur (Copper Leg, endine Rae koolimaja)",
+   "c": "Vaskjala",
+   "g": [
+    "experimental",
+    "ambient",
+    "techno"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://estelmus.com/sirakas/",
+   "on_": "Korraldaja leht (EES)",
+   "ou": "https://estelmus.com/en/2026/02/27/vaskajala-sirakas-2026/",
+   "lisatud": "2026-08-14",
+   "nb": "kontaktivorm 14.08.2026 (Villem Jahu). Kaks sõltumatut allikat kinnitavad kuupäeva 29.08.2026: EES-i oma teade (estelmus.com, 27.02.2026) + Lau Nau enda kontserdikalender (launau.com/concerts — 'August 29. 2026: quadrophonic solo, Vaskjala Sirakas, Copper Leg Residency, Estonia'). Koosseis pärineb saatja kirjast, EES-i ametlikku kava ja piletiinfot polnud 14.08 seisuga veel avaldatud — ainult Lau Nau on sõltumatult kinnitatud, ülejäänud üle kontrollida, kui kava ilmub. Saatja andis ka FB-lühilingi https://fb.me/e/bxXuwJFuh, mida ei õnnestunud lahendada → ou-sse pandi EES-i oma teate leht. Žanrimärgend 'techno' pärineb saatja žanriväljalt, mitte kontrollitud kavast. SKOOP: KLUBI valitud baasžanri järgi (elektrooniline kontsertmuusika/eksperimentaalelektroonika); saatja märkis esimesena 'nüüdismuusika' — piiripealne juhtum, vt HANDOVER | VAIKEOTSUS 22.08.2026 (HANDOVER §2 reegel 16c): esitatud Silverile 14.08, 5 päeva vastuseta -> status quo, kirje JÄÄB klubisse. Üle vaadatav, ümberpööramiseks piisab ühest sõnast."
   }
  ]
 }
