@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29",
+ "updated": "2026-08-30",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 193,
+ "count": 196,
  "entries": [
   {
    "sait": "www",
@@ -5148,6 +5148,101 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud 14.08.2026 (Silveri otsus: räpi alla); korraldajad 5MIINUST, Elina Born jt; allikad FB event + GateMe",
    "img": "https://rap.skene.info/pildid/augustiviimanerammar.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "MIF x BUTTERCUPS – SUMMER CLOSING",
+   "a": "Suve lõpupidu neljal laval: Summer Pop (välisterrass), Hip-Hop / EDM (suur saal), House / Techno (teine saal), DnB (pop-up lava); 22.30–05.00, 18+",
+   "b": [
+    "WAVĒ",
+    "NIGRONI",
+    "DAPO",
+    "Andreground",
+    "Chillikene",
+    "Tonix",
+    "Zaza",
+    "Nickz",
+    "Samo",
+    "Abbrus",
+    "Luuna"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "electro"
+   ],
+   "sn": "Paavli Kultuurivabriku uudiskiri 26.08.2026",
+   "su": "https://www.kultuurivabrik.ee",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1415053067356482/",
+   "pu": "https://gateme.com/et/event/104147/",
+   "hind": {
+    "praegu": "15€",
+    "mark": "Regular Bird eelmüügis; uksel kallim",
+    "allikas": "GateMe, kontrollitud 27.08.2026"
+   },
+   "koosseis_tba": 1,
+   "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka klubi/data/manual.json-is.",
+   "img": "https://rap.skene.info/pildid/mifxbuttercupssummerclosing.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-08-29",
+   "lisatud": "2026-08-27",
+   "t": "klubi",
+   "n": "MOMENT 3.0 by evert poom: Bali Baby (US)",
+   "a": "Bali Baby (Atlanta) esimest korda Eestis, koos majorlilkween'iga; D3, 23.00–04.00, 18+",
+   "b": [
+    "Bali Baby (US)",
+    "majorlilkween"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Rada7.ee uudiskiri 26.08.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1575293267509201/",
+   "pu": "https://gateme.com/et/D3Tallinn/104079-moment-30-w-evert-poom-2908-d3",
+   "hind": {
+    "praegu": "12€",
+    "mark": "\"täitsa õigel ajal\" 12€ (72% müüdud); VIP \"bravuuritari pakett\" 25€; \"teistest ees\" 10€ välja müüdud; uksel ja viimane laar 20€",
+    "allikas": "GateMe, kontrollitud 27.08.2026"
+   },
+   "nb": "lisatud 27.08.2026 postkastijooksus. Kaks allikat: Rada7.ee uudiskiri 26.08.2026 + FB event / GateMe (kuupäev, kellaaeg, koosseis, hind). Välisartist Eestis → räpi poolele (baasžanr hip-hop; majorlilkween on eestlane, Bali Baby USA-st). Korraldaja Manufaktuur OÜ / Moment tln, venue D3.",
+   "img": "https://rap.skene.info/pildid/moment30byevertpoombalibabyus.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-08-29",
+   "t": "klubi",
+   "n": "Rap Shmap invites: Richard Pohjanheimo",
+   "a": "Legendaarne Raadio saate Rap Shmap uue sarja avaohtu — kuldajastu hiphop; kell 22.00",
+   "b": [
+    "Richard Pohjanheimo",
+    "Rap Shmap"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio (FB events)",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1085624164424056/",
+   "hind": {
+    "praegu": "5€",
+    "mark": "uksel; toetab hiphopkultuuri Eestis",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Legendaarse FB events-tab + urituse FB event (korraldajad Legendaarne Raadio + Mari-Anna Miller)."
   }
  ]
 }
