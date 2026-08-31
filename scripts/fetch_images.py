@@ -59,7 +59,13 @@ PILDIKAUST = {
 LAIUS = 216                 # 3x kuvasuurus (72 px)
 # Pilti EI KARBITA kunagi (frontendil on korgus auto) - seega lai banner ei lohu, ta on
 # lihtsalt madal riba. Piir on ainult seal, kus riba muutub liiga oheseks, et midagi naha.
-MAX_SUHE = 2.0              # laiem kui see -> jaab tuubimargi peale
+MAX_SUHE = 2.8              # laiem kui see -> jaab tuubimargi peale
+# Silveri otsus 31.08.2026: "banner voib ribana olla." Piir tosteti 2.0 -> 2.8, sest just
+# 2.0-2.8 vahemikku jaavad venue'de STANDARDBANNERID, mis olid seetottu igavesti pildita:
+# Paavli 1313x499 (2.6), HALL/Tolm 1640x720 (2.3), Masta Blasta / REDSHIFT, Carbon Based
+# Lifeforms 960x355 (2.7), SATNAM 1200x444 (2.7), Moisapargi Sumin 1200x530 (2.3).
+# Pilti EI KARBITA endiselt kunagi - lai pilt lihtsalt renderdub madala ribana.
+# Ule 2.8 (nt PLACEBO 1750x377 = 4.6) jaab endiselt valja: riba oleks 216x47 px.
 # 200 px on ikka veel ~2,8x kuvasuurus (72 px), seega teravusega on korras. Piir oli
 # varem 300, mis viskas kaotsi kogu Metal Stormi plakativaramu (nende og:image on
 # alati tapselt 200x200). Silveri otsus 02.08.2026: 200 px pilt on parem kui tuubimark.

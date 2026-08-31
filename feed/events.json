@@ -869,7 +869,8 @@
     "mark": "RA järgi; 18+",
     "allikas": "RA, kontrollitud 19.07.2026"
    },
-   "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)"
+   "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)",
+   "img": "https://klubi.skene.info/pildid/redshiftinvitesalexwilcoxus.webp"
   },
   {
    "sait": "www",
@@ -1127,7 +1128,8 @@
     "mark": "5€ kuni 00.00, 10€ parast; 18+",
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event."
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event.",
+   "img": "https://klubi.skene.info/pildid/shiftatmod.webp"
   },
   {
    "sait": "klubi",
@@ -1990,7 +1992,8 @@
    "ou": "https://paavli.ee/sundmused/paavli-club-aya-uk-live",
    "pu": "https://fienta.com/et/paavli-club-aya-uk-live",
    "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; allikad: Fienta (Paavli org-leht) + paavli.ee event-leht + Paavli FB"
+   "nb": "lisatud sweepis 14.08.2026; allikad: Fienta (Paavli org-leht) + paavli.ee event-leht + Paavli FB",
+   "img": "https://klubi.skene.info/pildid/paavliclubayauklive.webp"
   },
   {
    "sait": "www",
@@ -2441,7 +2444,8 @@
     "allikas": "paavli.ee, kontrollitud 25.08.2026"
    },
    "lisatud": "2026-08-25",
-   "nb": "lisatud 25.08.2026 Silveri otsusel ('Omar on elektroonika, nii et klubi') — 22.08 ülevaatuspunkt on sellega suletud. Kaks allikat: paavli.ee ürituseleht + kultuurivabrik.ee programminimekiri ('Sep 27 — Omar Souleyman LIVE @ Kultuurifoorum Paabel 2026'). ⚠ ALGUSAEG LAHTINE: kultuurivabrik.ee näitab 27.09 kirje juures 15.00, paavli.ee ütleb ainult, et Souleyman on ÕHTUSE programmi peaesineja — 15.00 on tõenäoliselt kogu päevaprogrammi algus, seega kellaaega kirjes ei ole. Kontrolli FB eventilt 899579202821360 enne, kui algusaeg lisatakse. Žanrisildid tulenevad korraldaja sõnastusest ('Süüria elektrooniline dabke'), mitte verifitseeritud taksonoomiast; 'folk' viitab dabke rahvatantsumuusika juurtele. Festivali üldprogramm: https://www.facebook.com/events/1750097106025439/"
+   "nb": "lisatud 25.08.2026 Silveri otsusel ('Omar on elektroonika, nii et klubi') — 22.08 ülevaatuspunkt on sellega suletud. Kaks allikat: paavli.ee ürituseleht + kultuurivabrik.ee programminimekiri ('Sep 27 — Omar Souleyman LIVE @ Kultuurifoorum Paabel 2026'). ⚠ ALGUSAEG LAHTINE: kultuurivabrik.ee näitab 27.09 kirje juures 15.00, paavli.ee ütleb ainult, et Souleyman on ÕHTUSE programmi peaesineja — 15.00 on tõenäoliselt kogu päevaprogrammi algus, seega kellaaega kirjes ei ole. Kontrolli FB eventilt 899579202821360 enne, kui algusaeg lisatakse. Žanrisildid tulenevad korraldaja sõnastusest ('Süüria elektrooniline dabke'), mitte verifitseeritud taksonoomiast; 'folk' viitab dabke rahvatantsumuusika juurtele. Festivali üldprogramm: https://www.facebook.com/events/1750097106025439/",
+   "img": "https://klubi.skene.info/pildid/kultuurifoorumpaabelomarsouleymansy.webp"
   },
   {
    "sait": "www",
@@ -4060,7 +4064,8 @@
    "pu": "https://fienta.com/et/satnam-2027",
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; leitud Fienta dnb-otsinguga, korraldaja SatNam pro (FB/IG @satnamest); PIIRIPEALNE: heaolu-/teadlikkusfestivali kallak, aga baasžanr elektrooniline tantsumuusika — kui Silver peab skoobiväliseks, eemalda | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-   "koosseis_tba": 1
+   "koosseis_tba": 1,
+   "img": "https://klubi.skene.info/pildid/satnamculturalrave2027.webp"
   },
   {
    "sait": "www",
