@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30",
+ "updated": "2026-08-31",
  "entries": [
   {
    "rel": 1,
@@ -159,34 +159,6 @@
   },
   {
    "d": "2026-08-02",
-   "d2": "30.08",
-   "dd": [
-    "2026-08-02",
-    "2026-08-09",
-    "2026-08-16",
-    "2026-08-30"
-   ],
-   "t": "muu",
-   "n": "Plaaditurg: TOUR DE PLAAT 2026",
-   "a": "Plaaditurg esimest korda tuuril — plaadipoed, plaadifirmad, artistid ja plaadikogujad: 02.08 Augustibluus / Promenaadi Tantsupaviljon (Haapsalu, kell 11), 09.08 Tallinna Keskturg, 16.08 Nõmme Turg, 30.08 Krulli kvartal (12.00–16.00, koos Kalamaja Loometuruga)",
-   "b": [],
-   "v": "tuur",
-   "c": "Tallinn",
-   "linn": "Haapsalu · Tallinn",
-   "g": [
-    "rock",
-    "metal",
-    "alt"
-   ],
-   "sn": "MuusikaPlaneet",
-   "su": "https://muusikaplaneet.ee/2026/07/30/plaaditurg26/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2114906936574597/",
-   "nb": "lisatud 02.08.2026 Silveri otsusel: 'võiks jääda sisse sest see on regulaarselt toimuv üritus kus saab osta ja müüa plaate'. NB see MUUDAB varasemat merch-reeglit ('ainult konkreetne toode, mitte sortiment') — regulaarne plaadilaat on nüüd skoobis. | 02.08.2026 ÜHENDATUD: eraldi kirje 'Augustibluusi Plaaditurg (TOUR DE PLAAT 2026)' 02.08 Haapsalus oli SAMA sarja esimene kuupäev ja tekitas otsingus duplikaadi (Silveri leid) — see on nüüd siin sees, vana kirje kustutatud + blokitud. Haapsalu kuupäeva FB event: https://fb.me/e/7dEOELsgL (allikas: kontaktivorm, Ahto-Lembit Lehtmets 28.07.2026; kinnitatud augustibluus.ee kava vastu 29.07.2026). Ülejäänud kuupäevad: muusikaplaneet.ee 30.07.2026 artikkel + Plaaditurgu enda FB/IG + krulli.co. | Kirjetüüp on 'muu' — VARASEM VIGA: kirjutasin, et turu/laada tüüpi süsteemis ei ole, tegelikult 'muu' oli olemas ja just selle kirje jaoks kasutusel. | 27.08.2026 (Silver: „korraldaja on metalimees, nii et läheb metali alla\"): 30.08 Krulli kvartali kuupäev sai oma FB eventi lingi `ou`-sse (varem oli seal Plaaditurgu üldine FB-leht, mis rikub REEGLID §3 lingireeglit). FB event kinnitab: 30.08 12.00–16.00, Krulli kvartal, kaaskorraldajad Eesti metallistid + estonianmetal + Legendaarne Raadio + Krulli kvartal → `g` rock/metal/alt on õige. Samal ajal ja samas kohas Kalamaja loometurg (mittemuusikaline, EI lisatud). Silveri püsijuhis 27.08: plaadipoe/-turu üritused vaadatakse IGA KORD eraldi üle, aga praegu on formaat sees.",
-   "img": "pildid/plaaditurgtourdeplaat2026.webp"
-  },
-  {
-   "d": "2026-08-02",
    "t": "reliis",
    "n": "klostriid — «klostriid»",
    "a": "Kuressaare punk/hardcore-kollektiivi telefoniga filmitud demo; viies lugu «solaarne» on kaver Urmas Alendri samanimelisest palast",
@@ -308,28 +280,6 @@
    "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
    "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
    "img": "pildid/mustmissakhattratapes.webp"
-  },
-  {
-   "d": "2026-08-30",
-   "t": "kontsert",
-   "n": "Nothing + Hammok",
-   "b": [
-    "Nothing",
-    "Hammok"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "shoegaze",
-    "post"
-   ],
-   "sn": "Damn.Loudi FB",
-   "su": "https://www.facebook.com/we.are.too.damn.loud/upcoming_hosted_events",
-   "pu": "https://fienta.com/et/nothing-paavli-tallinn",
-   "img": "pildid/nothinghammok.webp",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/964226053103341/",
-   "nb": "27.08.2026: FB eventi link + uksed 19.00 Paavli Kultuurivabriku uudiskirjast 26.08.2026 (Nothing = Philadelphia shoegaze, Hammok = Norra hardcore)."
   },
   {
    "d": "2026-09-02",
