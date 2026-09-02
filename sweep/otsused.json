@@ -1,0 +1,48 @@
+[
+  {
+    "oid": "2026-09-02-kolmnurk",
+    "kysimus": "Giidituurid \"Kolmnurk\" / \"Triangle\" (1980ndate punk-, kirjandus- ja LGBT+ ajalugu Vabaduse valjaku umbruses) - kas (a) lisame peasaidile, voi (b) jaavad valja?",
+    "kontekst": "Airi Triisberg / Ostra MTU (kontaktivorm 02.09, 2 kirja). Kolm kuupaeva Fientas: 13.09 17:00 (inglise k), 16.09 18:00 (eesti k), 27.09 17:00. Koht Vabaduse valjak 10, kestus 2 h, alates 8 EUR, Tallinn Fringe Festivali kavas. Muusikaline baazanr PUUDUB - see on jalutuskaik, mitte kontsert; sisu on aga otseselt punk-subkultuuri ajalugu. Pretsedent: plaadipoed/-laadad on skoobis (formaat ei ole valjajatu pohjus), aga uusklassika/EMA-telg on valjas. VASTUOLU: saatja utles, et 27.09 on ingliskeelne, aga Fienta piletileht utleb \"The tour on 13 September is in English\" ja fringe.ee listib 13.09 ingliskeelsena, 16.09 eestikeelsena - REEGLID 3 jargi voidab piletileht. 27.09 jaab Fringe'i aknast (18.08-18.09) valja, seetottu fringe.ee-l seda pole.",
+    "valikud": [
+      { "id": "a", "tekst": "Lisame peasaidile (koik 3 kuupaeva, kuupaevad/keeled piletilehe jargi)" },
+      { "id": "b", "tekst": "Jaavad valja - giidituur ei ole muusikasundmus" }
+    ],
+    "lingid": [
+      "https://fienta.com/s/kolmnurk",
+      "https://fringe.ee/tickets/guided-tour-triangle-194594/",
+      "https://fringe.ee/tickets/giidituur-kolmnurk-eesti-keeles-197166/"
+    ],
+    "vaikeotsus": "b",
+    "tahtaeg": "2026-09-07"
+  },
+  {
+    "oid": "2026-09-02-bam-trivia",
+    "kysimus": "BAM! Takeover Trivia: Drag Race Edition 02.09 Paavli Kultuurivabrik - kas (a) klubi-saidile, voi (b) valja?",
+    "kontekst": "Paavli uudiskirjast 01.09. Formaat on trivia/viktoriin + Drag Race'i episood + runway-voistlus; muusika tuleb alles parast viktoriini (Kxster, Helina Reinjarv aka Rebeka Rabota). Zanriinfot pole, muusika ei ole ohtu peaprogramm. REEGLID 1 vaikeotsus (\"zanriinfota DJ-ohtu jaab valja\") utleb valja, aga BAM! on korduv queer-peosari, nii et vastus maarab ka jargmised korrad. NB uritus on TANA - vastus moojub praktikas jargmistele kordadele.",
+    "valikud": [
+      { "id": "a", "tekst": "Klubi-saidile (BAM! peosari uldiselt sisse, kui DJ-kava on loetav)" },
+      { "id": "b", "tekst": "Valja - viktoriiniohtu ei ole muusikasundmus" }
+    ],
+    "lingid": [
+      "https://www.facebook.com/events/1969622567076692",
+      "https://kultuurivabrik.ee/"
+    ],
+    "vaikeotsus": "b",
+    "tahtaeg": "2026-09-07"
+  },
+  {
+    "oid": "2026-09-02-bumcake",
+    "kysimus": "Bumcake Sunday 06.09 Paavli Kultuurivabrik (pannkoogid + kokteilid + paevane tantsimine, uksed 13:00) - kas (a) klubi-saidile, voi (b) valja?",
+    "kontekst": "Paavli uudiskirjast 01.09 (uudiskirja pealkiri utleb ekslikult \"Saturday\", tekst ja Paavli enda leht utlevad P 06.09). Uus peokontsept, mille kirjeldus raagib toidust, joogist, kogukonnast ja \"daytime dancing\"-ust - DJ-kava ega esinejaid EI OLE kummaski allikas avaldatud. REEGLID 1 vaikeotsus zanriinfota ohtule on valja; kuupaev ja koht on aga kahe allikaga kinnitatud ning Paavli ise on klubi-skoobis.",
+    "valikud": [
+      { "id": "a", "tekst": "Klubi-saidile (paevane tantsupidu klubi-skoobis venue's laheb sisse ka ilma DJ-nimedeta)" },
+      { "id": "b", "tekst": "Valja kuni DJ-kava avaldatakse" }
+    ],
+    "lingid": [
+      "https://www.facebook.com/events/1354883890140705",
+      "https://kultuurivabrik.ee/"
+    ],
+    "vaikeotsus": "b",
+    "tahtaeg": "2026-09-07"
+  }
+]
