@@ -445,6 +445,27 @@
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: kluub.ee ürituseleht + FB event viide. Žanrid on korraldaja oma sõnastus. NB: kivibaar.ee on aegunud ja suunab võõrale värbamisdomeenile — korraldaja kanal on IG @baarikivi, seetõttu on ou-väljal FB event."
   },
   {
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "SKURM — «VIBE (EP)»",
+   "a": "IDM / electro / ambient-tehno EP",
+   "b": [
+    "SKURM"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "idm",
+    "electro",
+    "techno"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://skurm1.bandcamp.com/album/vibe-ep",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+techno, s=new esimene)",
+   "img": "pildid/skurmvibeep.webp"
+  },
+  {
    "d": "2026-08-01",
    "t": "klubi",
    "n": "Healer Records: Katja Adrikova / Kiimsask / Squash",
@@ -583,6 +604,27 @@
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: Rada7 uudiskiri + fonoteek.ee oma ürituseleht (line-up, tasuta sissepääs, 18+, uksed 23.00). Žanrisildid on kuraatori määrang — korraldaja ei kasuta lehel ühtki žanrisõna; tuletatud DSM 2026 festivali kirjest. DSM 2026 festival ise on 14.–16.08.2026 HALLis ja olemasolev festivalikirje on juba korrektne (d 2026-08-14, d2 16.08).",
    "img": "pildid/darksideofthemoonwarmupparty.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-08-01",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "DEFFER — «ARCHIVE // 01»",
+   "a": "SYNGE SOUNDSYSTEMi väljalase: dark dub / dubstep / EBM",
+   "b": [
+    "DEFFER"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "dub",
+    "dubstep",
+    "ebm"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)",
+   "img": "pildid/defferarchive01.webp"
   },
   {
    "d": "2026-08-02",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01",
+ "updated": "2026-09-02",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 217,
+ "count": 227,
  "entries": [
   {
    "sait": "www",
@@ -99,6 +99,48 @@
   {
    "sait": "www",
    "rel": 1,
+   "d": "2026-03-20",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Fuzzolini — «Beauty exists in everyone»",
+   "a": "Album, 8 lugu; Tallinna neljaliikmeline noise-rock bänd, kraut- ja psych-rocki sugemetega; väljaandja East x West Records",
+   "b": [
+    "Fuzzolini"
+   ],
+   "g": [
+    "post-punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://fuzzolini.bandcamp.com/album/beauty-exists-in-everyone-2",
+   "nb": "lisatud 02.08.2026 kontaktivormi kaudu (Valter Nõmm, valter.nomm@gmail.com, 02.08 06:49 — saabus PÄRAST hommikust inbox-checki 05:06). Kuupäev 20.03.2026 loetud Bandcampi albumilehelt; žanrisõnastus ('post-punk, noise-rock, psychedelic rock') ja bändikirjeldus on saatja omad. NB: reliis on ~4,5 kuud vana, aga Silveri otsus 02.08: lisada, sest vanadele asjadele on nähtavust vaja. Vormil oli link katki kleebitud ('https://httpshttps://...://fb.me/...') — õige aadress tuvastatud käsitsi. | 02.08.2026 (inbox-check, hiline jooks): sama reliis tuli kontaktivormi kaudu TEIST korda. Kuupäev 20.03.2026 sai teise sõltumatu kinnituse — Discogsi vinüülikirje r36834973 (2026) ja 24.03.2026 ilmunud arvustus thoughtswordsaction.com-is —, seega kahe allika reegel on täidetud ja Bandcampi kuupäev EI ole platseholder (Tharaphita-lõks välistatud). Vormis olnud katkine link peitis ka fb.me/e/5GPBPtWLw = 03.04.2026 albumiesitlus Paavli Kultuurivabrikus — möödas, ei lisatud. NB vanuse kohta: archive_split.py _featured arvestab 30-päevast akent 'lisatud', mitte 'd' järgi, seega kirje püsib esilehel 02.08–01.09 ja kolib siis ise arhiivi.",
+   "img": "https://www.skene.info/pildid/fuzzolinibeautyexistsineveryone.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-05-16",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Konfliktor — «Diivanil elatud elu»",
+   "a": "Tallinna punk / indie rock, 14 min",
+   "b": [
+    "Konfliktor"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://konfliktor.bandcamp.com/album/diivanil-elatud-elu",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover); release-kuupäev ainult albumilehelt (Tharaphita-reegel: kui ilmneb hilisem tegelik kuupäev, paranda)",
+   "img": "https://www.skene.info/pildid/konfliktordiivanilelatudelu.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
    "d": "2026-05-29",
    "lisatud": "2026-07-26",
    "t": "reliis",
@@ -116,6 +158,26 @@
    "su": "https://surrogoat.bandcamp.com/album/consumed-by-the-wrath-of-time-2",
    "nb": "lisatud 26.07.2026 auditi jarel-verifitseerimisel. Kuupaev loetud OTSE Bandcampi albumilehelt: 'released 29 May 2026'. Band: Louna-Eesti (Ihamaru), alustas 1999 Tartus; Metal Archives + MusicBrainz kinnitavad Eesti paritolu. NB album-URL nouab loppu '-2', ilma selleta 404.",
    "img": "https://www.skene.info/pildid/surrogoatconsumedbythewrathoftime.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-05-30",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Postiljon — «Hoovikontsert»",
+   "a": "Tallinna punk rock",
+   "b": [
+    "Postiljon"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://postiljon.bandcamp.com/album/hoovikontsert",
+   "nb": "lisatud sweepis 02.08.2026; oli 26.07 sweepis ootel (kuupäev kinnitamata) — albumileht ütleb released May 30, 2026",
+   "img": "https://www.skene.info/pildid/postiljonhoovikontsert.webp"
   },
   {
    "sait": "www",
@@ -411,6 +473,26 @@
    "su": "https://svetnureka.bandcamp.com/album/serpentarium",
    "nb": "leitud sweepis 28.07.2026 Bandcampi Eesti tag-otsingust; kuupäev albumilehelt, teise allikaga kinnitamata",
    "img": "https://klubi.skene.info/pildid/svetnurekaserpentarium.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-09",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Säde Semper — «The Sun and Others»",
+   "a": "Debüütalbum, 14 lugu; kirjutatud, esitatud ja produtseeritud artisti enda poolt",
+   "b": [
+    "Säde Semper"
+   ],
+   "g": [
+    "punk",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://sadesemper.bandcamp.com/album/the-sun-and-others",
+   "nb": "lisatud 02.08.2026. Kuupäev 09.07.2026 kinnitatud Bandcampi albumilehelt ja Apple Musicust. Artist esineb ka nime all demeeter (@demeeterrr). Žanr pop punk / folk punk — varem sekts 4 all 'piiripealne', küsimust tegelikult ei olnud: punk/alt mahub peasaidi skoopi.",
+   "img": "https://www.skene.info/pildid/sadesemperthesunandothers.webp"
   },
   {
    "sait": "klubi",
@@ -1692,6 +1774,27 @@
   },
   {
    "sait": "www",
+   "rel": 1,
+   "d": "2026-07-29",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "kaisuloom — «kaisuloom»",
+   "a": "black metal / blackgaze / DSBM, 2 lugu (15 min)",
+   "b": [
+    "kaisuloom"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "black",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://kaisuloom.bandcamp.com/album/kaisuloom",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+metal, s=new esimene)",
+   "img": "https://www.skene.info/pildid/kaisuloomkaisuloom.webp"
+  },
+  {
+   "sait": "www",
    "d": "2026-07-30",
    "t": "kontsert",
    "n": "Buzhold + for example John (POL) + Qaribou",
@@ -1817,6 +1920,47 @@
    "img": "https://www.skene.info/pildid/augustibluus2026.webp"
   },
   {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Avemaria — «Kuidas vabaneda üleliigsetest hammastest»",
+   "a": "Tallinna punk / art-rock / post-punk",
+   "b": [
+    "Avemaria"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://avemariasituatsioon.bandcamp.com/album/kuidas-vabaneda-leliigsetest-hammastest",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)",
+   "img": "https://www.skene.info/pildid/avemariakuidasvabanedauleliigsetesthammastest.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Enditian — «Kütidkorilased EP»",
+   "a": "Tartu crust punk / powerviolence",
+   "b": [
+    "Enditian"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "punk",
+    "hardcore"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://endyendytyantyan.bandcamp.com/album/k-tidkorilased-ep",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover)",
+   "img": "https://www.skene.info/pildid/enditiankutidkorilasedep.webp"
+  },
+  {
    "sait": "klubi",
    "d": "2026-07-31",
    "t": "klubi",
@@ -1894,6 +2038,28 @@
    "pu": "https://fienta.com/et/skizoe-ja-benakanister-plaadiesitlus",
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta",
    "img": "https://rap.skene.info/pildid/skizjabenakanisterplaadiesitlus.webp"
+  },
+  {
+   "sait": "klubi",
+   "rel": 1,
+   "d": "2026-07-31",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "SKURM — «VIBE (EP)»",
+   "a": "IDM / electro / ambient-tehno EP",
+   "b": [
+    "SKURM"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "idm",
+    "electro",
+    "techno"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://skurm1.bandcamp.com/album/vibe-ep",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+techno, s=new esimene)",
+   "img": "https://klubi.skene.info/pildid/skurmvibeep.webp"
   },
   {
    "sait": "klubi",
@@ -2062,6 +2228,28 @@
   },
   {
    "sait": "klubi",
+   "rel": 1,
+   "d": "2026-08-01",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "DEFFER — «ARCHIVE // 01»",
+   "a": "SYNGE SOUNDSYSTEMi väljalase: dark dub / dubstep / EBM",
+   "b": [
+    "DEFFER"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "dub",
+    "dubstep",
+    "ebm"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://syngesoundsystem.bandcamp.com/album/archive-01",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+electronic, s=new esimene)",
+   "img": "https://klubi.skene.info/pildid/defferarchive01.webp"
+  },
+  {
+   "sait": "klubi",
    "d": "2026-08-01",
    "t": "klubi",
    "n": "Dark Side of the Moon warmup party",
@@ -2170,6 +2358,26 @@
    },
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: kluub.ee ürituseleht + FB event viide. Žanrisildid hard techno/techno/dnb on kluub.ee omad. Korraldaja avaldab ainult inglise keeles — eestikeelne kirjeldus on kuraatori sõnastus."
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-08-01",
+   "lisatud": "2026-08-02",
+   "t": "reliis",
+   "n": "Seanus — «Seanus»",
+   "a": "Tallinna noise rock / sludge / stoner",
+   "b": [
+    "Seanus"
+   ],
+   "v": "Bandcamp",
+   "g": [
+    "rock"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://seanus.bandcamp.com/album/seanus",
+   "nb": "lisatud sweepis 02.08.2026 (Bandcamp discover estonia+rock, s=new esimene)",
+   "img": "https://www.skene.info/pildid/seanusseanus.webp"
   },
   {
    "sait": "klubi",
