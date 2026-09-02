@@ -1250,6 +1250,33 @@
  },
  {
   "d": "2026-09-13",
+  "lisatud": "2026-09-02",
+  "t": "muu",
+  "n": "Giidituur „Kolmnurk” / „Triangle” (inglise keeles)",
+  "a": "algus 17.00, kestus 2 h; ingliskeelne giidituur, giid Airi Triisberg; Tallinn Fringe Festivali kavas; 14+",
+  "b": [
+   "Airi Triisberg"
+  ],
+  "v": "Vabaduse väljak 10",
+  "c": "Tallinn",
+  "g": [
+   "punk"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://fringe.ee/tickets/guided-tour-triangle-194594/",
+  "on_": "Tallinn Fringe Festival",
+  "ou": "https://fringe.ee/tickets/guided-tour-triangle-194594/",
+  "pu": "https://fienta.com/kolmnurk-194594",
+  "hind": {
+   "praegu": "16€",
+   "mark": "early bird 12€; „Triangle trio” 39€ kolmele (13€/in); very early bird 8€ välja müüdud",
+   "allikas": "Fienta piletivaade, kontrollitud 02.09.2026"
+  },
+  "nb": "Silveri otsus 02.09.2026 kontaktivormi otsustuskirjale: \"giidituur jaab. kuupaevad vota piletiinfost, mitte meilist\". Kuupaevad/kellaajad/keeled on seetottu voetud Fienta piletilehtedelt, MITTE kontaktivormi kirjast. Tegu on 2-tunnise jalutuskaiguga (mitte kontsert): 1980ndate keskpaiga Vabaduse valjaku kolmnurk (kohvik Moskva, Varblane, Pegasus), kus jutustatakse punk-, kirjandus- ja LGBT+ kogukonna ajalugu korvuti. Zanrisilt 'punk' viitab tuuri SISULE, mitte elavale esinemisele. Korraldaja Giidituurid „Uitlejad” / MTU Ostra (uitlejad@gmail.com). Marsruut: Vabaduse valjak -> Harjumagi -> Harju tanav; toimub ka vihmase ilmaga. Kontrollitud 02.09.2026.",
+  "img": "pildid/giidituurkolmnurktriangleinglisekeeles.webp"
+ },
+ {
+  "d": "2026-09-13",
   "t": "kontsert",
   "n": "Odor of Decay Over Europe: Cenotaph (MEX) + Cryptworm (UK)",
   "a": "Killtown Bookingsi Euroopa tuuri Tallinna peatus; kohalikud Deceitome ja Hirmuvalitseja",
@@ -1273,6 +1300,33 @@
   "lisatud": "2026-08-21",
   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (13.09.2026, Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab; kolmas kinnitus Killtown Bookingsi tuurimarsruut. ⚠ FB event määrab asukohaks 'Kohtla-Järve' — see on vale silt, saal on Kotka Kultuurimaja (Ööbiku 1a, Tallinn), nagu ütleb Metal Storm ja maja enda leht. Pilet avaldamata.",
   "img": "pildid/odorofdecayovereuropecenotaphmexcryptwormuk.webp"
+ },
+ {
+  "d": "2026-09-16",
+  "lisatud": "2026-09-02",
+  "t": "muu",
+  "n": "Giidituur „Kolmnurk” (eesti keeles)",
+  "a": "algus 18.00, kestus 2 h; eestikeelne giidituur, giid Airi Triisberg; Tallinn Fringe Festivali kavas; 14+",
+  "b": [
+   "Airi Triisberg"
+  ],
+  "v": "Vabaduse väljak 10",
+  "c": "Tallinn",
+  "g": [
+   "punk"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://fringe.ee/tickets/giidituur-kolmnurk-eesti-keeles-197166/",
+  "on_": "Tallinn Fringe Festival",
+  "ou": "https://fringe.ee/tickets/giidituur-kolmnurk-eesti-keeles-197166/",
+  "pu": "https://fienta.com/kolmnurk-197166",
+  "hind": {
+   "praegu": "16€",
+   "mark": "early bird 12€; „Triangle trio” 39€ kolmele (13€/in); very early bird 8€ välja müüdud",
+   "allikas": "Fienta piletivaade, kontrollitud 02.09.2026"
+  },
+  "nb": "Silveri otsus 02.09.2026 kontaktivormi otsustuskirjale: \"giidituur jaab. kuupaevad vota piletiinfost, mitte meilist\". Kuupaevad/kellaajad/keeled on seetottu voetud Fienta piletilehtedelt, MITTE kontaktivormi kirjast. Tegu on 2-tunnise jalutuskaiguga (mitte kontsert): 1980ndate keskpaiga Vabaduse valjaku kolmnurk (kohvik Moskva, Varblane, Pegasus), kus jutustatakse punk-, kirjandus- ja LGBT+ kogukonna ajalugu korvuti. Zanrisilt 'punk' viitab tuuri SISULE, mitte elavale esinemisele. Korraldaja Giidituurid „Uitlejad” / MTU Ostra (uitlejad@gmail.com). Marsruut: Vabaduse valjak -> Harjumagi -> Harju tanav; toimub ka vihmase ilmaga. Kontrollitud 02.09.2026.",
+  "img": "pildid/giidituurkolmnurkeestikeeles.webp"
  },
  {
   "d": "2026-09-16",
@@ -1308,6 +1362,57 @@
   },
   "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel.",
   "img": "pildid/reeperbahnfestival.webp"
+ },
+ {
+  "d": "2026-09-18",
+  "t": "muu",
+  "n": "MAI SKIZO uue albumi «Valu mõte» avaldamine",
+  "a": "Albumi väljalaskeüritus meet & greet formaadis — kontserti sel päeval EI ole: kohtumine bändiga, Hooandjas albumi väljaandmist toetanute kingituste kättesaamine, esimene võimalus osta uusi plaate ja nänni. Bänd kohal alates 18.00, «kuniks on huvilisi»",
+  "b": [
+   "MAI SKIZO"
+  ],
+  "v": "Tommi Grill",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "post",
+   "punk",
+   "goth",
+   "industrial",
+   "dark",
+   "alt"
+  ],
+  "sn": "maiskizo.ee",
+  "su": "https://maiskizo.ee/mai-skizo-uue-albumi-avaldamine/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2220239358756120/",
+  "lisatud": "2026-08-30",
+  "nb": "lisatud 30.08.2026 postkastijooksus; sisend tuli kontaktivormi kaudu (Pronto, p@maiskizo.ee, 29.08.2026 22:29, skene.info vorm). KAKS ALLIKAT: bändi enda kodulehe teade maiskizo.ee 29.08.2026 + avalik FB event 2220239358756120 (72 vastanut), mõlemad ütlevad R 18.09.2026 kell 18.00, Tatari 64. Koht: «algne Tommi Grill» Ajakirjandusmaja taga (Tatari 64, Kesklinn) — FB event näitab ainult aadressi, majanimi tuleb bändi teatest. Piletit ega uksehinda kummalgi lehel EI OLE mainitud → hinnavälja teadlikult ei ole (REEGLID §3: hinda ei leiutata). Kirjetüüp «muu», sest formaat on meet & greet / plaadiesitlus, mitte kontsert (vrd Plaaditurg) — bänd ütleb ise, et plaaditutvustustuuri esinemised tulevad eraldi ja teatatakse hiljem. Žanr: bändi enda kodulehe kirjeldus «post-punk, industriaal, gooti rokk» + vormil märgitud «Rock, Alt, Industrial, Dark» → kitarripõhine baasžanr, peasait (REEGLID §1).",
+  "img": "pildid/maiskizouuealbumivalumoteavaldamine.webp"
+ },
+ {
+  "rel": 1,
+  "d": "2026-09-18",
+  "lisatud": "2026-08-30",
+  "t": "reliis",
+  "n": "MAI SKIZO — «Valu mõte»",
+  "a": "Bändi teine album, 13 lugu; post-punk / industriaal / gooti rokk Tallinnast. Seitse aastat tehtud; «Armastuse haua» sõnade autor on Mait Vaik, ülejäänu bändi omalooming",
+  "b": [
+   "MAI SKIZO"
+  ],
+  "g": [
+   "rock",
+   "post",
+   "punk",
+   "goth",
+   "industrial",
+   "dark",
+   "alt"
+  ],
+  "sn": "Spotify",
+  "su": "https://open.spotify.com/album/2BXmkqfUfg9kJHrhKgqqmO",
+  "nb": "lisatud 30.08.2026 postkastijooksus (sama kontaktivormi sisend, mis 18.09 väljalaskeüritus). KAKS ALLIKAT: bändi kodulehe teade maiskizo.ee 29.08.2026 (ametlik avaldamiskuupäev 18.09.2026) + Spotify albumileht 2BXmkqfUfg9kJHrhKgqqmO (pealkiri «Valu mõte», 13 lugu — kattub kodulehe 01.01.2026 postituse loeteluga). ⚠ KUUPÄEVA NÜANSS: bänd ütleb ise, et album on Spotifys JUBA saadaval, aga ametlik avaldamiskuupäev on 18.09.2026 — `d` järgib bändi enda ametlikku kuupäeva, mis on ka väljalaskeürituse päev. Voogedastuses on lugude nimed veidi teised kui kodulehe tracklistis («Proloog»/«Epiloog» vs «Valu mõte I/II osa», «Mai ei tea» vs «Ma ei tea»).",
+  "img": "pildid/maiskizovalumote.webp"
  },
  {
   "d": "2026-09-18",
@@ -1479,6 +1584,31 @@
   "su": "https://www.facebook.com/uuslaine/events",
   "lisatud": "2026-08-21",
   "nb": "lisatud sweepis 21.08.2026. Allikas: Uus Laine FB events-tab (Laine Live sari) + sama kirje Art of Moshi FB-eventi soovitusteplokis. Pilet avaldamata — kontrolli järgmises sweepis."
+ },
+ {
+  "d": "2026-09-27",
+  "lisatud": "2026-09-02",
+  "t": "muu",
+  "n": "Giidituur „Kolmnurk” / „Triangle” (inglise keeles)",
+  "a": "algus 17.00, kestus 2 h; ingliskeelne giidituur, giid Airi Triisberg; 14+",
+  "b": [
+   "Airi Triisberg"
+  ],
+  "v": "Vabaduse väljak 10",
+  "c": "Tallinn",
+  "g": [
+   "punk"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://fienta.com/kolmnurk-198467",
+  "pu": "https://fienta.com/kolmnurk-198467",
+  "hind": {
+   "praegu": "16€",
+   "mark": "early bird 12€; „Triangle trio” 39€ kolmele (13€/in); very early bird 8€ välja müüdud",
+   "allikas": "Fienta piletivaade, kontrollitud 02.09.2026"
+  },
+  "nb": "Silveri otsus 02.09.2026 kontaktivormi otsustuskirjale: \"giidituur jaab. kuupaevad vota piletiinfost, mitte meilist\". Kuupaevad/kellaajad/keeled on seetottu voetud Fienta piletilehtedelt, MITTE kontaktivormi kirjast. Tegu on 2-tunnise jalutuskaiguga (mitte kontsert): 1980ndate keskpaiga Vabaduse valjaku kolmnurk (kohvik Moskva, Varblane, Pegasus), kus jutustatakse punk-, kirjandus- ja LGBT+ kogukonna ajalugu korvuti. Zanrisilt 'punk' viitab tuuri SISULE, mitte elavale esinemisele. Korraldaja Giidituurid „Uitlejad” / MTU Ostra (uitlejad@gmail.com). Marsruut: Vabaduse valjak -> Harjumagi -> Harju tanav; toimub ka vihmase ilmaga. Kontrollitud 02.09.2026. NB see kuupaev jaab Fringe'i aknast (18.08-18.09) valja, seetottu fringe.ee-l lehte ei ole ja `ou` on teadlikult tuhi (REEGLID 3: piletimuuja ei tohi olla `ou`).",
+  "img": "pildid/giidituurkolmnurktriangleinglisekeeles.webp"
  },
  {
   "d": "2026-10-02",
@@ -2775,56 +2905,5 @@
   "on_": "Summer Breeze",
   "ou": "https://www.summer-breeze.de/en/",
   "nb": "lisatud 17.08.2026: kuupäev 18.–21.08.2027 ametlikult lehelt + Nuclear Blasti uudis; välisfestival → teadlik headliner-valik"
- },
- {
-  "d": "2026-09-18",
-  "t": "muu",
-  "n": "MAI SKIZO uue albumi «Valu mõte» avaldamine",
-  "a": "Albumi väljalaskeüritus meet & greet formaadis — kontserti sel päeval EI ole: kohtumine bändiga, Hooandjas albumi väljaandmist toetanute kingituste kättesaamine, esimene võimalus osta uusi plaate ja nänni. Bänd kohal alates 18.00, «kuniks on huvilisi»",
-  "b": [
-   "MAI SKIZO"
-  ],
-  "v": "Tommi Grill",
-  "c": "Tallinn",
-  "g": [
-   "rock",
-   "post",
-   "punk",
-   "goth",
-   "industrial",
-   "dark",
-   "alt"
-  ],
-  "sn": "maiskizo.ee",
-  "su": "https://maiskizo.ee/mai-skizo-uue-albumi-avaldamine/",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/2220239358756120/",
-  "lisatud": "2026-08-30",
-  "nb": "lisatud 30.08.2026 postkastijooksus; sisend tuli kontaktivormi kaudu (Pronto, p@maiskizo.ee, 29.08.2026 22:29, skene.info vorm). KAKS ALLIKAT: bändi enda kodulehe teade maiskizo.ee 29.08.2026 + avalik FB event 2220239358756120 (72 vastanut), mõlemad ütlevad R 18.09.2026 kell 18.00, Tatari 64. Koht: «algne Tommi Grill» Ajakirjandusmaja taga (Tatari 64, Kesklinn) — FB event näitab ainult aadressi, majanimi tuleb bändi teatest. Piletit ega uksehinda kummalgi lehel EI OLE mainitud → hinnavälja teadlikult ei ole (REEGLID §3: hinda ei leiutata). Kirjetüüp «muu», sest formaat on meet & greet / plaadiesitlus, mitte kontsert (vrd Plaaditurg) — bänd ütleb ise, et plaaditutvustustuuri esinemised tulevad eraldi ja teatatakse hiljem. Žanr: bändi enda kodulehe kirjeldus «post-punk, industriaal, gooti rokk» + vormil märgitud «Rock, Alt, Industrial, Dark» → kitarripõhine baasžanr, peasait (REEGLID §1).",
-  "img": "pildid/maiskizouuealbumivalumoteavaldamine.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-09-18",
-  "lisatud": "2026-08-30",
-  "t": "reliis",
-  "n": "MAI SKIZO — «Valu mõte»",
-  "a": "Bändi teine album, 13 lugu; post-punk / industriaal / gooti rokk Tallinnast. Seitse aastat tehtud; «Armastuse haua» sõnade autor on Mait Vaik, ülejäänu bändi omalooming",
-  "b": [
-   "MAI SKIZO"
-  ],
-  "g": [
-   "rock",
-   "post",
-   "punk",
-   "goth",
-   "industrial",
-   "dark",
-   "alt"
-  ],
-  "sn": "Spotify",
-  "su": "https://open.spotify.com/album/2BXmkqfUfg9kJHrhKgqqmO",
-  "nb": "lisatud 30.08.2026 postkastijooksus (sama kontaktivormi sisend, mis 18.09 väljalaskeüritus). KAKS ALLIKAT: bändi kodulehe teade maiskizo.ee 29.08.2026 (ametlik avaldamiskuupäev 18.09.2026) + Spotify albumileht 2BXmkqfUfg9kJHrhKgqqmO (pealkiri «Valu mõte», 13 lugu — kattub kodulehe 01.01.2026 postituse loeteluga). ⚠ KUUPÄEVA NÜANSS: bänd ütleb ise, et album on Spotifys JUBA saadaval, aga ametlik avaldamiskuupäev on 18.09.2026 — `d` järgib bändi enda ametlikku kuupäeva, mis on ka väljalaskeürituse päev. Voogedastuses on lugude nimed veidi teised kui kodulehe tracklistis («Proloog»/«Epiloog» vs «Valu mõte I/II osa», «Mai ei tea» vs «Ma ei tea»).",
-  "img": "pildid/maiskizovalumote.webp"
  }
 ]

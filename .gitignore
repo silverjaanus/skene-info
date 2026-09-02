@@ -1,6 +1,9 @@
 # sisemised töödokumendid — ei kuulu avalikku reposse
 HANDOVER.md
 HANDOVER-ARCHIVE.md
+# koodilõksud (tõstetud HANDOVER §1-st välja 02.09.2026); sisaldab sisemist intsidendiajalugu
+# -> sama loogika mis HANDOVERil. Kui tahad selle avalikuks, kustuta see rida.
+KOODIHOIATUSED.md
 # kärpe-eelsed koopiad (HANDOVER pole versioonihalduses -> kärbe tehakse koopiaga)
 HANDOVER*.bak-*
 SKENE-*.md
