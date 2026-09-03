@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02",
+ "updated": "2026-09-03",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -342,31 +342,6 @@
    "lisatud": "2026-08-26",
    "nb": "lisatud 26.08.2026 postkastijooksus, Paavli Kultuurivabriku uudiskirja kaevandamisel (25.08 kiri Brodsky Garden Sessionsi kohta: «just two days after the concert, Brodsky releases Whispering Ln. Vol. II via Hidden Harmony Recordings»). Kaks allikat: uudiskiri + Bandcampi albumileht («releases 28 August 2026», 8 lugu). Bandcampi kuupäevalõksu kontroll: kuupäev EI ole platseholder — uudiskiri ütleb sõltumatult «two days after» 26.08 kontserti, mis annab sama 28.08. Sait: klubi (baasžanr ambient/minimalistlik elektroonika — sama otsus nagu Brodsky 26.08 kontsert, mis kolis 25.08 www-lt klubisse). Žanrisildid tulenevad labeli ja korraldaja sõnastusest ('minimalism', 'early electronic music', 'ambient'), mitte verifitseeritud taksonoomiast. Salvestatud 2018–2019 USA-s, sama sessioon mis esimene «Whispering Ln.» (kinnitab ka Forced Exposure'i LP-leht).",
    "img": "https://klubi.skene.info/pildid/volodjabrodskywhisperinglnvolii.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-02",
-   "t": "kontsert",
-   "n": "Back to School: Nahakiin + N.H.P.O + Dehumanizer + NGR",
-   "a": "kell 17.30–22.30",
-   "b": [
-    "Nahakiin",
-    "N.H.P.O",
-    "Dehumanizer",
-    "NGR"
-   ],
-   "v": "Hell",
-   "c": "Tartu",
-   "g": [
-    "punk"
-   ],
-   "sn": "Hell (Tartu) FB",
-   "su": "https://www.facebook.com/punknrollhell/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1052123491068874/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; allikad: Hell FB events-tab + FB event (Tiigi 76a). Hinnainfot event-lehel ei olnud",
-   "img": "https://www.skene.info/pildid/backtoschoolnahakiinnhpodehumanizerngr.webp"
   },
   {
    "sait": "klubi",
@@ -2120,6 +2095,38 @@
    "pu": "https://www.ticketer.ee/ken-dark-invites-pyfel-fhoone/",
    "nb": "lisatud 17.08.2026: allikad Ticketer + Ken Dark FB event",
    "img": "https://klubi.skene.info/pildid/kendarkinvitespyfel.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-25",
+   "t": "kontsert",
+   "n": "MAI SKIZO @ 300",
+   "a": "Väike tasuta kontsert enne albumi «Valu mõte» tutvustustuuri — bänd laval umbes 22.00, kavas suur osa praegusest repertuaarist. Koha peal saab osta bändi nänni ja uut albumit nii vinüülil kui CD-l. 300 on väike koht, tasub varem kohal olla",
+   "b": [
+    "MAI SKIZO"
+   ],
+   "v": "300 klubi",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "post",
+    "punk",
+    "goth",
+    "industrial",
+    "dark",
+    "alt"
+   ],
+   "sn": "maiskizo.ee",
+   "su": "https://maiskizo.ee/laval-mai-skizo-300/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28117417077924113/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event + maiskizo.ee, kontrollitud 03.09.2026"
+   },
+   "lisatud": "2026-09-03",
+   "nb": "lisatud 03.09.2026 postkastijooksus; sisend tuli kontaktivormi kaudu (Pronto, p@maiskizo.ee, 02.09.2026 21:47, skene.info vorm). KAKS ALLIKAT: bändi enda kodulehe teade maiskizo.ee 02.09.2026 «Laval: MAI SKIZO @ 300» (300 = vanalinna rokibaar, veab Margus Pilt; kontsert tasuta, algus ~22.00, nänn ja uus album müügil) + avalik FB event 28117417077924113 (26 vastanut), mis annab kuupäeva ja kellaaja: reede 25.09.2026 kell 22.00, 300 klubi, Vene 37. ⚠ KUUPÄEV TULI FB EVENTILT — bändi kodulehe postituses kuupäeva EI OLE (vrd varasemad «Laval:» postitused, kus kuupäev on pealkirjas); vormil märgitud 25.09.2026 kattub FB eventiga. Tasuta üritus, piletimüüki ei ole → pu puudub teadlikult (REEGLID §3: hinda ei leiutata). Žanr: bändi enda kirjeldus «post-punk, industriaal, gooti rokk» + vormil «rock, industrial, alt» — sama sildistik mis 18.09 plaadiesitlusel ja reliisikirjel. Eraldi kirje 18.09 plaadiesitlusest (meet & greet, Tommi Grill) — eri koht, eri kuupäev, eri formaat.",
+   "img": "https://www.skene.info/pildid/maiskizo300.webp"
   },
   {
    "sait": "klubi",

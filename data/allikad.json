@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02",
+ "updated": "2026-09-03",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -347,12 +347,20 @@
      "u": "https://www.facebook.com/MaiSkizo/events"
     },
     {
+     "n": "Permanent Blue",
+     "u": "https://www.facebook.com/permanentblueofficial/events"
+    },
+    {
      "n": "Plaaditurg",
      "u": "https://www.facebook.com/Plaaditurg/events"
     },
     {
      "n": "Surju Kommunaal",
      "u": "https://surjukommunaal.ee/"
+    },
+    {
+     "n": "Violetscape",
+     "u": "https://www.facebook.com/Violetscape/events"
     }
    ]
   },

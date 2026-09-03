@@ -1536,6 +1536,37 @@
   "img": "pildid/therumjacksaus.webp"
  },
  {
+  "d": "2026-09-25",
+  "t": "kontsert",
+  "n": "MAI SKIZO @ 300",
+  "a": "Väike tasuta kontsert enne albumi «Valu mõte» tutvustustuuri — bänd laval umbes 22.00, kavas suur osa praegusest repertuaarist. Koha peal saab osta bändi nänni ja uut albumit nii vinüülil kui CD-l. 300 on väike koht, tasub varem kohal olla",
+  "b": [
+   "MAI SKIZO"
+  ],
+  "v": "300 klubi",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "post",
+   "punk",
+   "goth",
+   "industrial",
+   "dark",
+   "alt"
+  ],
+  "sn": "maiskizo.ee",
+  "su": "https://maiskizo.ee/laval-mai-skizo-300/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/28117417077924113/",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "FB event + maiskizo.ee, kontrollitud 03.09.2026"
+  },
+  "lisatud": "2026-09-03",
+  "nb": "lisatud 03.09.2026 postkastijooksus; sisend tuli kontaktivormi kaudu (Pronto, p@maiskizo.ee, 02.09.2026 21:47, skene.info vorm). KAKS ALLIKAT: bändi enda kodulehe teade maiskizo.ee 02.09.2026 «Laval: MAI SKIZO @ 300» (300 = vanalinna rokibaar, veab Margus Pilt; kontsert tasuta, algus ~22.00, nänn ja uus album müügil) + avalik FB event 28117417077924113 (26 vastanut), mis annab kuupäeva ja kellaaja: reede 25.09.2026 kell 22.00, 300 klubi, Vene 37. ⚠ KUUPÄEV TULI FB EVENTILT — bändi kodulehe postituses kuupäeva EI OLE (vrd varasemad «Laval:» postitused, kus kuupäev on pealkirjas); vormil märgitud 25.09.2026 kattub FB eventiga. Tasuta üritus, piletimüüki ei ole → pu puudub teadlikult (REEGLID §3: hinda ei leiutata). Žanr: bändi enda kirjeldus «post-punk, industriaal, gooti rokk» + vormil «rock, industrial, alt» — sama sildistik mis 18.09 plaadiesitlusel ja reliisikirjel. Eraldi kirje 18.09 plaadiesitlusest (meet & greet, Tommi Grill) — eri koht, eri kuupäev, eri formaat.",
+  "img": "pildid/maiskizo300.webp"
+ },
+ {
   "d": "2026-09-26",
   "t": "kontsert",
   "n": "Evestus – Ampest",

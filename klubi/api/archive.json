@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02",
+ "updated": "2026-09-03",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 227,
+ "count": 228,
  "entries": [
   {
    "sait": "www",
@@ -6003,6 +6003,31 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/964226053103341/",
    "nb": "27.08.2026: FB eventi link + uksed 19.00 Paavli Kultuurivabriku uudiskirjast 26.08.2026 (Nothing = Philadelphia shoegaze, Hammok = Norra hardcore)."
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-02",
+   "t": "kontsert",
+   "n": "Back to School: Nahakiin + N.H.P.O + Dehumanizer + NGR",
+   "a": "kell 17.30–22.30",
+   "b": [
+    "Nahakiin",
+    "N.H.P.O",
+    "Dehumanizer",
+    "NGR"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "punk"
+   ],
+   "sn": "Hell (Tartu) FB",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1052123491068874/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Hell FB events-tab + FB event (Tiigi 76a). Hinnainfot event-lehel ei olnud",
+   "img": "https://www.skene.info/pildid/backtoschoolnahakiinnhpodehumanizerngr.webp"
   }
  ]
 }
