@@ -1,27 +1,13 @@
 {
- "tommatud": "2026-09-03",
+ "tommatud": "2026-09-04",
  "aken": {
-  "algus": "2026-09-03",
-  "lopp": "2026-11-02"
+  "algus": "2026-09-04",
+  "lopp": "2026-11-03"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
  "kirjeid": 22,
  "kirjed": [
-  {
-   "d": "2026-09-03",
-   "n": "THROWBACK THURSDAY",
-   "algus": "2026-09-03T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2523287",
-   "pilet": false
-  },
   {
    "d": "2026-09-04",
    "n": "KONTRAST: Mija (Never B Alone / Hot Meal Records)",
@@ -340,6 +326,22 @@
    ],
    "url": "https://ra.co/events/2508089",
    "pilet": true
+  },
+  {
+   "d": "2026-10-16",
+   "n": "4KORDA4: mance (NL)",
+   "algus": "2026-10-16T21:00:00.000",
+   "v": "Bar IDA",
+   "ala": "Tallinn",
+   "b": [
+    "mance"
+   ],
+   "g": [
+    "House",
+    "Garage"
+   ],
+   "url": "https://ra.co/events/2528562",
+   "pilet": false
   },
   {
    "d": "2026-10-17",
