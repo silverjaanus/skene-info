@@ -253,6 +253,38 @@
    "img": "pildid/songsofthedead.webp"
   },
   {
+   "d": "2026-09-04",
+   "t": "kontsert",
+   "n": "„Lehed langevad\": Pettunud Kodanik + Ajamasin",
+   "a": "Sügise alguse kontsert Antoniuse õues; algus 18.00, lõpp 22.00",
+   "b": [
+    "Pettunud Kodanik",
+    "Ajamasin"
+   ],
+   "v": "Antoniuse õu",
+   "c": "mujal",
+   "linn": "Tartu",
+   "g": [
+    "punk",
+    "post",
+    "rock",
+    "alt"
+   ],
+   "sn": "Pettunud Kodanik (FB events)",
+   "su": "https://www.facebook.com/pettunudkodanik/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1612356200234199/",
+   "pu": "https://fienta.com/et/lehed-langevad-pettunud-kodanik-ajamasin",
+   "hind": {
+    "praegu": "10€ / 15€",
+    "mark": "eelmüügist 10€, kohapeal 15€",
+    "allikas": "Fienta, kontrollitud 04.09.2026"
+   },
+   "lisatud": "2026-09-04",
+   "nb": "SULGEB HANDOVER §4 punkti 2 (sweep 04.09, vaikeotsus (a) lisan). Sweep leidis ainult ÜHE allika (Rada7.ee events-tab) ja jättis otsustada; postkastijooks 04.09 leidis PUUDUVA TEISE ALLIKA: bändi enda FB events-tab -> ürituse FB event (facebook.com/events/1612356200234199, 230 vastanut, R 04.09 18.00 EEST, korraldajad Pettunud Kodanik + Ajamasin + Antoniuse õu) + Fienta piletileht (sama aeg 18.00–22.00, Antoniuse Õu, Lutsu 3, Tartu, 10€/15€). Kahe allika reegel on nüüd täidetud, skoop oli algusest selge (Pettunud Kodanik = Eesti post-punk, Ajamasin = est-rokk). Silver saab otsuse tagasi pöörata.",
+   "img": "pildid/lehedlangevadpettunudkodanikajamasin.webp"
+  },
+  {
    "d": "2026-09-05",
    "t": "kontsert",
    "n": "Alanud on sügis",
