@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 178,
+ "count": 180,
  "entries": [
   {
    "sait": "www",
@@ -366,6 +366,28 @@
    "img": "https://klubi.skene.info/pildid/volodjabrodskywhisperinglnvolii.webp"
   },
   {
+   "sait": "rap",
+   "rel": 1,
+   "d": "2026-09-02",
+   "lisatud": "2026-09-04",
+   "t": "reliis",
+   "n": "Masta Robusta — «Reipaid Ridu Rezzidel Radadel»",
+   "a": "autori-EP, 7 lugu; esitluspidu 04.09 Veetorni Aias",
+   "b": [
+    "Masta Robusta"
+   ],
+   "v": "Spotify",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Spotify",
+   "ou": "https://open.spotify.com/album/2EyFLtE5xhhVAyLTo5SDp6",
+   "nb": "lisatud 04.09.2026 postkastijooksus — täidab 28.08 kirje märkuse ('EP võib väärida eraldi reliisikirjet, kui väljalaskekuupäev kinnitub'). Kaks allikat: Spotify albumileht (meta music:release_date 2026-09-02, 7 lugu) + Rada7.ee uudiskiri 04.09 ('üleeilsest internettides ka nauditav' = 02.09, langeb kokku). Kolmas kinnitus: esitluspeo FB event facebook.com/events/1067301815974527 (kirje 04.09 rap/manual.json-is). Masta Robusta = MC Lord / Öökülm / TMF / RLV Massive, peosarja Tümmisaun resident.",
+   "img": "https://rap.skene.info/pildid/mastarobustareipaidridurezzidelradadel.webp"
+  },
+  {
    "sait": "klubi",
    "d": "2026-09-03",
    "d2": "06.09",
@@ -381,12 +403,21 @@
     "boipepperoni",
     "EiK",
     "Elizabete Balčus",
+    "Havryil Sydoryk",
     "La Fazani",
+    "Lotte Jürjendal",
     "Luurel Varas",
     "mariin k.",
     "Mihkel Kuusk",
-    "Planeet",
-    "Skoone"
+    "Narva Linna Sümfooniaorkester",
+    "NEURA",
+    "PLANEET",
+    "Propeller",
+    "Rita Ray",
+    "Robert Linna",
+    "Skoone",
+    "Säde Semper",
+    "Tõnu Naissoo"
    ],
    "v": "Narva Muuseum + Art Club Ro-Ro",
    "c": "mujal",
@@ -406,7 +437,8 @@
     "mark": "festivalipass, soodushind kuni 10.08; päevapilet 39€",
     "allikas": "stationnarva.ee, kontrollitud 13.07.2026"
    },
-   "img": "https://klubi.skene.info/pildid/stationnarva2026.webp"
+   "img": "https://klubi.skene.info/pildid/stationnarva2026.webp",
+   "nb": "04.09.2026 postkastijooks: koosseis sünkitud ametliku artistilehega (stationnarva.ee/artistid) — REEGLID §4 täiskoosseisu reegel. Lisandusid Havryil Sydoryk (UA), Lotte Jürjendal, Narva Linna Sümfooniaorkester, NEURA, Propeller, Rita Ray, Robert Linna, Säde Semper, Tõnu Naissoo. Avastus: Rada7.ee uudiskiri 04.09 (tõstis esile Tricky, Elizabete Balčus, Lotte Jürjendal)."
   },
   {
    "sait": "klubi",
@@ -630,7 +662,7 @@
     "mark": "enne 23.00 10€, parast 23.00 15€, parast laivi 10€",
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + Veetorni Aia FB events-tab (venue) + Masta Robusta ja Tummisauna FB events-tabid (korraldajad). Masta Robusta = Rakvere produtsent/DJ, raplaadi MC Lord (Ookulm, TMF, RLV Massive), peosarja Tummisaun resident. EP on '100% Eesti rapp' hip-hopi, UK garage'i ja pungi mojudega -> sait rap. Kulalis-MCd ja oo DJd (UKG/house/grime/breaks) on FB eventis TBA -> koosseis_tba. ⚠ EP ise voib vaarida eraldi RELIISIKIRJET, kui valjalaskekuupaev kinnitub (esimene video: youtube.com/watch?v=EX2n7zd_j_M).",
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + Veetorni Aia FB events-tab (venue) + Masta Robusta ja Tummisauna FB events-tabid (korraldajad). Masta Robusta = Rakvere produtsent/DJ, raplaadi MC Lord (Ookulm, TMF, RLV Massive), peosarja Tummisaun resident. EP on '100% Eesti rapp' hip-hopi, UK garage'i ja pungi mojudega -> sait rap. Kulalis-MCd ja oo DJd (UKG/house/grime/breaks) on FB eventis TBA -> koosseis_tba. ✅ 04.09.2026: EP ilmus 02.09.2026 -> eraldi RELIISIKIRJE LISATUD samasse faili («Reipaid Ridu Rezzidel Radadel»). Vana marge: EP voib vaarida eraldi reliisikirjet (esimene video: youtube.com/watch?v=EX2n7zd_j_M).",
    "img": "https://rap.skene.info/pildid/mastarobustarrrrepesitluspidutummisaunallnighter.webp"
   },
   {
@@ -858,6 +890,47 @@
    "pu": "https://fienta.com/et/permanentblue-violetscape-thekrypt",
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta; Permanent Blue võitis 2024 Heavy Music Band Battle'i",
    "img": "https://www.skene.info/pildid/heavysaturdaypermanentbluevioletscape.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-05",
+   "t": "klubi",
+   "n": "KORTS+KIWA=77 ehk VILSANDI TRANCE äftekas",
+   "a": "Kiwa ja Glitch Kortsu ühine 77. sünnipäevapidu; kaks lava (LIVE + DJ), uksed 20.00, kuni 04.00",
+   "b": [
+    "Kiwanoid",
+    "Glitch Korts",
+    "Art imitation",
+    "Plasma Blotter",
+    "Andres Vihterpal",
+    "Carlotta",
+    "7.lup",
+    "Liisu",
+    "roosberg",
+    "mrds",
+    "Katjakova",
+    "!!ii"
+   ],
+   "v": "Erinevate Tubade Klubi",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro",
+    "ambient"
+   ],
+   "sn": "Fienta (Erinevate Tubade Klubi)",
+   "su": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1842781066909011/",
+   "pu": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+   "hind": {
+    "praegu": "7.77–20€",
+    "mark": "esimesed 77 piletit 7.77€, tavapilet 20€, Muusikalinna noortepilet 4€",
+    "allikas": "Fienta, kontrollitud 04.09.2026"
+   },
+   "lisatud": "2026-09-04",
+   "nb": "leitud Rada7.ee uudiskirjast 04.09.2026 (postkastijooks) — REEGLID §1 pretsedent 'Rada7 uudiskirja samanädalased tasuta/odavad DJ-peod klubi-skoobis LISAME'. Kaks allikat: ürituse FB event (209 vastanut, kuupäev L 05.09 20.00–04.00 EEST) + Fienta piletileht (sama aeg, täiskoosseis kahel laval). Korraldajad: Glitch Please, Art imitati¤n, Taavi Tulev, Erinevate Tubade Klubi, Rada7.ee, paranoia publishing. ⚠ ŽANR: 'Vilsandi Trance' on peosarja NIMI, mitte žanriväide — trance-silti EI pandud; tegelik kava on eksperimentaalne elektroonika (live-lava) + DJ-lava. ⚠ ERISTUS §4 punktist 5 (Glitch Please seeria Uues Laines): see siin on 2-lavaline TANTSUPIDU klubis kuni 04.00, mitte istumiskontsert — punkti 5 väljajätu põhjendus ('istumiskontserdid') siia ei ulatu.",
+   "img": "https://klubi.skene.info/pildid/kortskiwa77ehkvilsanditranceaftekas.webp"
   },
   {
    "sait": "klubi",

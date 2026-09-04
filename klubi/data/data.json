@@ -105,12 +105,21 @@
     "boipepperoni",
     "EiK",
     "Elizabete Balčus",
+    "Havryil Sydoryk",
     "La Fazani",
+    "Lotte Jürjendal",
     "Luurel Varas",
     "mariin k.",
     "Mihkel Kuusk",
-    "Planeet",
-    "Skoone"
+    "Narva Linna Sümfooniaorkester",
+    "NEURA",
+    "PLANEET",
+    "Propeller",
+    "Rita Ray",
+    "Robert Linna",
+    "Skoone",
+    "Säde Semper",
+    "Tõnu Naissoo"
    ],
    "v": "Narva Muuseum + Art Club Ro-Ro",
    "c": "mujal",
@@ -130,7 +139,8 @@
     "mark": "festivalipass, soodushind kuni 10.08; päevapilet 39€",
     "allikas": "stationnarva.ee, kontrollitud 13.07.2026"
    },
-   "img": "pildid/stationnarva2026.webp"
+   "img": "pildid/stationnarva2026.webp",
+   "nb": "04.09.2026 postkastijooks: koosseis sünkitud ametliku artistilehega (stationnarva.ee/artistid) — REEGLID §4 täiskoosseisu reegel. Lisandusid Havryil Sydoryk (UA), Lotte Jürjendal, Narva Linna Sümfooniaorkester, NEURA, Propeller, Rita Ray, Robert Linna, Säde Semper, Tõnu Naissoo. Avastus: Rada7.ee uudiskiri 04.09 (tõstis esile Tricky, Elizabete Balčus, Lotte Jürjendal)."
   },
   {
    "d": "2026-09-04",
@@ -404,6 +414,46 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2060133962047773/",
    "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) HALLi FB events-tabist."
+  },
+  {
+   "d": "2026-09-05",
+   "t": "klubi",
+   "n": "KORTS+KIWA=77 ehk VILSANDI TRANCE äftekas",
+   "a": "Kiwa ja Glitch Kortsu ühine 77. sünnipäevapidu; kaks lava (LIVE + DJ), uksed 20.00, kuni 04.00",
+   "b": [
+    "Kiwanoid",
+    "Glitch Korts",
+    "Art imitation",
+    "Plasma Blotter",
+    "Andres Vihterpal",
+    "Carlotta",
+    "7.lup",
+    "Liisu",
+    "roosberg",
+    "mrds",
+    "Katjakova",
+    "!!ii"
+   ],
+   "v": "Erinevate Tubade Klubi",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro",
+    "ambient"
+   ],
+   "sn": "Fienta (Erinevate Tubade Klubi)",
+   "su": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1842781066909011/",
+   "pu": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+   "hind": {
+    "praegu": "7.77–20€",
+    "mark": "esimesed 77 piletit 7.77€, tavapilet 20€, Muusikalinna noortepilet 4€",
+    "allikas": "Fienta, kontrollitud 04.09.2026"
+   },
+   "lisatud": "2026-09-04",
+   "nb": "leitud Rada7.ee uudiskirjast 04.09.2026 (postkastijooks) — REEGLID §1 pretsedent 'Rada7 uudiskirja samanädalased tasuta/odavad DJ-peod klubi-skoobis LISAME'. Kaks allikat: ürituse FB event (209 vastanut, kuupäev L 05.09 20.00–04.00 EEST) + Fienta piletileht (sama aeg, täiskoosseis kahel laval). Korraldajad: Glitch Please, Art imitati¤n, Taavi Tulev, Erinevate Tubade Klubi, Rada7.ee, paranoia publishing. ⚠ ŽANR: 'Vilsandi Trance' on peosarja NIMI, mitte žanriväide — trance-silti EI pandud; tegelik kava on eksperimentaalne elektroonika (live-lava) + DJ-lava. ⚠ ERISTUS §4 punktist 5 (Glitch Please seeria Uues Laines): see siin on 2-lavaline TANTSUPIDU klubis kuni 04.00, mitte istumiskontsert — punkti 5 väljajätu põhjendus ('istumiskontserdid') siia ei ulatu.",
+   "img": "pildid/kortskiwa77ehkvilsanditranceaftekas.webp"
   },
   {
    "d": "2026-09-09",

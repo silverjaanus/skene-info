@@ -431,7 +431,7 @@
    "mark": "enne 23.00 10€, parast 23.00 15€, parast laivi 10€",
    "allikas": "FB event, kontrollitud 28.08.2026"
   },
-  "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + Veetorni Aia FB events-tab (venue) + Masta Robusta ja Tummisauna FB events-tabid (korraldajad). Masta Robusta = Rakvere produtsent/DJ, raplaadi MC Lord (Ookulm, TMF, RLV Massive), peosarja Tummisaun resident. EP on '100% Eesti rapp' hip-hopi, UK garage'i ja pungi mojudega -> sait rap. Kulalis-MCd ja oo DJd (UKG/house/grime/breaks) on FB eventis TBA -> koosseis_tba. ⚠ EP ise voib vaarida eraldi RELIISIKIRJET, kui valjalaskekuupaev kinnitub (esimene video: youtube.com/watch?v=EX2n7zd_j_M).",
+  "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + Veetorni Aia FB events-tab (venue) + Masta Robusta ja Tummisauna FB events-tabid (korraldajad). Masta Robusta = Rakvere produtsent/DJ, raplaadi MC Lord (Ookulm, TMF, RLV Massive), peosarja Tummisaun resident. EP on '100% Eesti rapp' hip-hopi, UK garage'i ja pungi mojudega -> sait rap. Kulalis-MCd ja oo DJd (UKG/house/grime/breaks) on FB eventis TBA -> koosseis_tba. ✅ 04.09.2026: EP ilmus 02.09.2026 -> eraldi RELIISIKIRJE LISATUD samasse faili («Reipaid Ridu Rezzidel Radadel»). Vana marge: EP voib vaarida eraldi reliisikirjet (esimene video: youtube.com/watch?v=EX2n7zd_j_M).",
   "img": "pildid/mastarobustarrrrepesitluspidutummisaunallnighter.webp"
  },
  {
@@ -658,5 +658,27 @@
   "img": "pildid/tartupunch2027.webp",
   "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
   "koosseis_tba": 1
+ },
+ {
+  "rel": 1,
+  "d": "2026-09-02",
+  "lisatud": "2026-09-04",
+  "t": "reliis",
+  "n": "Masta Robusta — «Reipaid Ridu Rezzidel Radadel»",
+  "a": "autori-EP, 7 lugu; esitluspidu 04.09 Veetorni Aias",
+  "b": [
+   "Masta Robusta"
+  ],
+  "v": "Spotify",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Rada7.ee uudiskiri",
+  "su": "https://www.rada7.ee/uudiskiri/",
+  "on_": "Spotify",
+  "ou": "https://open.spotify.com/album/2EyFLtE5xhhVAyLTo5SDp6",
+  "nb": "lisatud 04.09.2026 postkastijooksus — täidab 28.08 kirje märkuse ('EP võib väärida eraldi reliisikirjet, kui väljalaskekuupäev kinnitub'). Kaks allikat: Spotify albumileht (meta music:release_date 2026-09-02, 7 lugu) + Rada7.ee uudiskiri 04.09 ('üleeilsest internettides ka nauditav' = 02.09, langeb kokku). Kolmas kinnitus: esitluspeo FB event facebook.com/events/1067301815974527 (kirje 04.09 rap/manual.json-is). Masta Robusta = MC Lord / Öökülm / TMF / RLV Massive, peosarja Tümmisaun resident.",
+  "img": "pildid/mastarobustareipaidridurezzidelradadel.webp"
  }
 ]
