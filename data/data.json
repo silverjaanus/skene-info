@@ -1,6 +1,27 @@
 {
- "updated": "2026-09-03",
+ "updated": "2026-09-04",
  "entries": [
+  {
+   "d": "2026-07-20",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Tharaphita — «Öise taevaga üheks»",
+   "a": "Eesti pagan/black metali veterani uus taispikk album, 10 lugu (Öise taevaga uheks, Surmaraud, Taara pikne jt)",
+   "b": [
+    "Tharaphita"
+   ],
+   "g": [
+    "black",
+    "folk",
+    "pagan",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://tharaphita.bandcamp.com/album/ise-taevaga-heks",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Bandcampi Eesti metal-tagiotsingust. Bandcampi credits utleb 'released July 20, 2026'; album on ka Tharaphita discography-nimekirjas 'Jul 2026'. Ilmus enne selle sweepi akent, seepärast rel+lisatud (REEGLID §6).",
+   "img": "pildid/tharaphitaoisetaevagauheks.webp"
+  },
   {
    "d": "2026-08-02",
    "t": "reliis",
@@ -574,8 +595,9 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1053510844098253/",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (13.09.2026, Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab; kolmas kinnitus Killtown Bookingsi tuurimarsruut. ⚠ FB event määrab asukohaks 'Kohtla-Järve' — see on vale silt, saal on Kotka Kultuurimaja (Ööbiku 1a, Tallinn), nagu ütleb Metal Storm ja maja enda leht. Pilet avaldamata.",
-   "img": "pildid/odorofdecayovereuropecenotaphmexcryptwormuk.webp"
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (13.09.2026, Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab; kolmas kinnitus Killtown Bookingsi tuurimarsruut. ⚠ FB event määrab asukohaks 'Kohtla-Järve' — see on vale silt, saal on Kotka Kultuurimaja (Ööbiku 1a, Tallinn), nagu ütleb Metal Storm ja maja enda leht. Pilet avaldamata. | 04.09.2026 sweep: pilet avanes Fientas (fienta.com/et/cenotaph), pu lisatud.",
+   "img": "pildid/odorofdecayovereuropecenotaphmexcryptwormuk.webp",
+   "pu": "https://fienta.com/et/cenotaph"
   },
   {
    "d": "2026-09-16",
@@ -638,6 +660,54 @@
    },
    "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel.",
    "img": "pildid/reeperbahnfestival.webp"
+  },
+  {
+   "d": "2026-09-17",
+   "t": "kontsert",
+   "n": "Brait Pilvik Band",
+   "a": "algus 20.00",
+   "b": [
+    "Brait Pilvik Band"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Kidrakuur FB",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1691261979575197/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Kidrakuuri FB events-tabist (kirje looja on Kidrakuur ise). Zanr tuletatud venue'st (kitarriklubi) ja bandi nimest - TEINE ALLIKAS PUUDU, vt HANDOVER §4."
+  },
+  {
+   "d": "2026-09-18",
+   "t": "kontsert",
+   "n": "Don Brass + Surin + The Pincushions",
+   "a": "kolm Eesti bandi: alternatiivrokk, krautrock, post-rock, surf, punk ja jazz; Surinil ilmus debuutplaat «Nature Mort»",
+   "b": [
+    "Don Brass",
+    "Surin",
+    "The Pincushions"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "punk",
+    "alt",
+    "post"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/don-brass-surin/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1419798690052356",
+   "pu": "https://fienta.com/et/don-brass-surin-at-paavli-kultuurivabrik",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (+FB event). TAISKOOSSEIS: paavli.ee lisab kolmanda bandi The Pincushions, mida FB-nimes ei ole.",
+   "img": "pildid/donbrasssurinthepincushions.webp"
   },
   {
    "d": "2026-09-18",
@@ -739,6 +809,30 @@
   {
    "d": "2026-09-19",
    "t": "kontsert",
+   "n": "Taste of Moth (FIN) + Gunlock + Ethetric",
+   "a": "uksed 19.00; kavas lisaks veel uks bänd (TBA)",
+   "b": [
+    "Taste of Moth (FIN)",
+    "Gunlock",
+    "Ethetric"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Secret Face Productions FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1079845367842864/",
+   "lisatud": "2026-09-04",
+   "koosseis_tba": 1,
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Secret Face Productions FB (korraldaja) + Kotka Kultuurimaja FB events-tab (venue). Pilet avaldamata; kavas '+ TBA'."
+  },
+  {
+   "d": "2026-09-19",
+   "t": "kontsert",
    "n": "Zord (HU) + Pornogeneraatori (FI) + Wasteland Six",
    "a": "Zordi „Puritan Fury“ tuur — esimest korda Kryptis; uksed 20.00, bandid 21.00, 00.00 tasuta aftekas",
    "b": [
@@ -789,31 +883,6 @@
   {
    "d": "2026-09-25",
    "t": "kontsert",
-   "n": "The Rumjacks (AUS)",
-   "a": "Austraalia celtic punk; uksed 19.00, algus 19.30; korraldaja Winiary Bookings (PL)",
-   "b": [
-    "The Rumjacks"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108341280-the-rumjacks-at-paavli-kultuurivabrik",
-   "pu": "https://www.piletilevi.ee/piletid/EMFY6FY7W4/the-rumjacks-aus-celtic-punk-paavli-kultuurivabrik-tallinn",
-   "hind": {
-    "praegu": "20€ / 25€ / 30€",
-    "mark": "kiireim 20€, tavaeelmuuk 25€, urituse paeval 30€",
-    "allikas": "Piletilevi, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole",
-   "img": "pildid/therumjacksaus.webp"
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
    "n": "MAI SKIZO @ 300",
    "a": "Väike tasuta kontsert enne albumi «Valu mõte» tutvustustuuri — bänd laval umbes 22.00, kavas suur osa praegusest repertuaarist. Koha peal saab osta bändi nänni ja uut albumit nii vinüülil kui CD-l. 300 on väike koht, tasub varem kohal olla",
    "b": [
@@ -845,6 +914,55 @@
   {
    "d": "2026-09-25",
    "t": "kontsert",
+   "n": "The Rumjacks (AUS)",
+   "a": "Austraalia celtic punk; uksed 19.00, algus 19.30; korraldaja Winiary Bookings (PL)",
+   "b": [
+    "The Rumjacks"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Bandsintown",
+   "su": "https://www.bandsintown.com/e/108341280-the-rumjacks-at-paavli-kultuurivabrik",
+   "pu": "https://www.piletilevi.ee/piletid/EMFY6FY7W4/the-rumjacks-aus-celtic-punk-paavli-kultuurivabrik-tallinn",
+   "hind": {
+    "praegu": "20€ / 25€ / 30€",
+    "mark": "kiireim 20€, tavaeelmuuk 25€, urituse paeval 30€",
+    "allikas": "Piletilevi, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole",
+   "img": "pildid/therumjacksaus.webp"
+  },
+  {
+   "d": "2026-09-25",
+   "t": "kontsert",
+   "n": "Uranus (FIN) + Joy Palace + The Elder God",
+   "a": "uksed 19.00",
+   "b": [
+    "Uranus (FIN)",
+    "Joy Palace",
+    "The Elder God"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death",
+    "doom"
+   ],
+   "sn": "Secret Face Productions FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1538340968069323/",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Secret Face Productions FB (korraldaja) + Kotka Kultuurimaja FB events-tab (venue). Pilet avaldamata."
+  },
+  {
+   "d": "2026-09-25",
+   "t": "kontsert",
    "n": "Heavy Friday: KRANG (CZ) + ELUKAS (EE)",
    "b": [
     "KRANG (CZ)",
@@ -859,6 +977,27 @@
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%af%f0%9d%92%86%f0%9d%92%82%f0%9d%92%97%f0%9d%92%9a-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-krang-cz-elukas-ee/",
    "on_": "thekrypt.ee",
    "ou": "https://www.thekrypt.ee/events"
+  },
+  {
+   "d": "2026-09-26",
+   "t": "kontsert",
+   "n": "Beneath Revalia — The Livonian Tour (Tallinn)",
+   "a": "tuuri Tallinna kuupaev, uksed 18.00; korraldaja Humanity",
+   "b": [
+    "Beneath Revalia"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "core"
+   ],
+   "sn": "MOD.tln FB",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1381672020586171/",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026 - see oli HANDOVER §4 'jalgimisel' punkt (Beneath Revalia 26.09 MOD/Paavli). Kaks allikat: MOD.tln FB events-tab + Humanity FB event. ERALDI KIRJE Viljandi 02.10 kirjest (eri kuupaev, eri venue, eri FB event 1415447317294805)."
   },
   {
    "d": "2026-09-26",
@@ -970,7 +1109,9 @@
    "sn": "Konservatoorium FB",
    "su": "https://www.facebook.com/konservatoorium/events",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis."
+   "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis. | 04.09.2026 sweep: Konservatooriumi FB events-tabist leitud urituse enda event (1415447317294805), ou lisatud. Tuuri Tallinna kuupaev 26.09 MOD on nuud ERALDI kirje.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1415447317294805/"
   },
   {
    "d": "2026-10-02",
@@ -1044,9 +1185,10 @@
    "su": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/27546912968307481/",
-   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper; lineup TBA (registreerimine www.raskemuusika.ee); FB kellaaeg 05.00 on ilmselt vale/placeholder | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
+   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper; lineup TBA (registreerimine www.raskemuusika.ee); FB kellaaeg 05.00 on ilmselt vale/placeholder | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 04.09.2026 sweep: Fienta piletileht avatud (raskemuusika-esitluspaev-6), pu lisatud; koosseis endiselt avaldamata.",
    "img": "pildid/raskemuusikaesitluspaev6.webp",
-   "koosseis_tba": 1
+   "koosseis_tba": 1,
+   "pu": "https://fienta.com/et/raskemuusika-esitluspaev-6"
   },
   {
    "d": "2026-10-03",
@@ -1066,8 +1208,9 @@
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
    "on_": "thekrypt.ee",
    "ou": "https://www.thekrypt.ee/events",
-   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil",
-   "img": "pildid/rocksaturdayteravmoon.webp"
+   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil | 04.09.2026 sweep: Fienta piletileht leitud (teravmoon-rock-thekrypt), pu lisatud.",
+   "img": "pildid/rocksaturdayteravmoon.webp",
+   "pu": "https://fienta.com/et/teravmoon-rock-thekrypt"
   },
   {
    "d": "2026-10-04",
@@ -1157,6 +1300,29 @@
   {
    "d": "2026-10-10",
    "t": "kontsert",
+   "n": "Promethium (FIN) + Aš-Šur + Gangrenated",
+   "a": "uksed 19.00",
+   "b": [
+    "Promethium (FIN)",
+    "Aš-Šur",
+    "Gangrenated"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Kotka Kultuurimaja FB",
+   "su": "https://www.facebook.com/people/Kotka-Kultuurimaja/61573068690588/?sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2144178063199871/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Kotka Kultuurimaja FB events-tabist (venue on ka korraldaja). TEINE ALLIKAS PUUDU - pilet avaldamata, korraldaja eraldi lehte ei ole; vt HANDOVER §4."
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
    "n": "Robben Ford Trio (US) | Viljandi Kitarrifestival",
    "a": "algus 21.00; Grammy-nominendist bluusikitarristi trio",
    "b": [
@@ -1195,6 +1361,31 @@
    "img": "pildid/hardcoresuperstar.webp",
    "pu": "https://www.piletilevi.ee/piletid/7K5OLYVNBO/hardcore-superstar-swe",
    "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi)"
+  },
+  {
+   "d": "2026-10-15",
+   "t": "kontsert",
+   "n": "Malicious Death (FIN) + Sgt. Slime (FIN) + Hingerahu",
+   "a": "algus 20.00; kaks Soome thrash-bandi + Eesti heavy",
+   "b": [
+    "Malicious Death (FIN)",
+    "Sgt. Slime (FIN)",
+    "Hingerahu"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "thrash",
+    "metal",
+    "heavy"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1452626903352793/",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata."
   },
   {
    "d": "2026-10-15",
@@ -1468,6 +1659,31 @@
    "img": "pildid/kosmikudpulmadjamatused20.webp"
   },
   {
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Pink Turns Blue (DE)",
+   "a": "1985. aastast tegutsev Saksa post-punk / darkwave klassika, algus 19.00",
+   "b": [
+    "Pink Turns Blue"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "goth",
+    "darkwave",
+    "alt"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/pink-turns-blue-de/",
+   "on_": "Ametlik leht",
+   "ou": "https://paavli.ee/sundmused/pink-turns-blue-de/",
+   "pu": "https://fienta.com/et/pink-turns-blue-paavli-tallinn",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (ka Paavli Fienta org-leht 17595). ZANRIOTSUS: post-punk/darkwave kitarribandina peasaidile (REEGLID §1: gothic rock -> www); electro-industrial telg oleks klubi.",
+   "img": "pildid/pinkturnsbluede.webp"
+  },
+  {
    "d": "2026-11-15",
    "t": "kontsert",
    "n": "Paavli.Live: Gong (UK)",
@@ -1497,7 +1713,6 @@
     "Napalm Death",
     "Master",
     "Brat",
-    "Goatburner",
     "Goatburner (FI)"
    ],
    "a": "+ Goatburner (FIN); lineup täienes 11.07.2026 (Damn.Loud FB)",
@@ -1516,7 +1731,9 @@
     "allikas": "Fienta, kontrollitud 07.07.2026"
    },
    "img": "pildid/napalmdeathmasterbrat.webp",
-   "nb": "10.08.2026 sweep: Fienta ürituse pealkiri loetleb neljanda bändina Goatburner (FI) — lisatud koosseisu"
+   "nb": "10.08.2026 sweep: Fienta ürituse pealkiri loetleb neljanda bändina Goatburner (FI) — lisatud koosseisu | 04.09.2026 sweep: paavli.ee ja Damn.Loud FB event nimetavad neljanda bandina GOATBURNER (FI) - lisatud; ou -> paavli.ee urituseleht.",
+   "on_": "Ametlik leht",
+   "ou": "https://paavli.ee/sundmused/napalm-death-uk-master-us-brat-us-goatburner-fi-17-11-26-paavli-kultuurivabrik/"
   },
   {
    "d": "2026-11-20",
@@ -1644,6 +1861,28 @@
    },
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta täislineup | 28.07.2026: eemaldatud DUPLIKAAT-kirje (sama üritus oli manual.json-is topelt, t='kontsert' ja t='festival'); alles jäi festivali-kirje FB-event lingiga",
    "img": "pildid/stormovertallinnmetalfestival.webp"
+  },
+  {
+   "d": "2026-12-05",
+   "t": "kontsert",
+   "n": "Sibyl Vane LIVE @ Pubi Juudas",
+   "a": "algus 21.00",
+   "b": [
+    "Sibyl Vane"
+   ],
+   "v": "Pubi Juudas",
+   "c": "mujal",
+   "linn": "Tõrva",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Pubi Juudas FB",
+   "su": "https://www.facebook.com/pubijuudas/events?locale=et_EE",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2860307484338732/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026. Kaks allikat: Pubi Juuda FB events-tab (venue) + FB event, mille korraldaja on band ise (Sibyl Vane band, EST). Pilet avaldamata."
   },
   {
    "d": "2026-12-11",
@@ -1848,7 +2087,9 @@
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108594783-arankai-at-paavli-kultuurivabrik",
    "img": "pildid/arankai.webp",
-   "nb": "28.07.2026: kaasesineja Melrose Avenue lisatud (Bandsintown + Piletilevi) | 02.08.2026: Paavli programmileht lisab koosseisu Call Me Amour — lisatud b-sse"
+   "nb": "28.07.2026: kaasesineja Melrose Avenue lisatud (Bandsintown + Piletilevi) | 02.08.2026: Paavli programmileht lisab koosseisu Call Me Amour — lisatud b-sse | 04.09.2026 sweep: paavli.ee urituseleht loetleb kolmanda bandina CALL ME AMOUR - lisatud; ou -> paavli.ee.",
+   "on_": "Ametlik leht",
+   "ou": "https://paavli.ee/sundmused/melrose-avenue-arankai-call-me-amour-%e2%94%82-paavli-kultuurivabrik-tallinn/"
   },
   {
    "d": "2027-02-28",
@@ -2248,6 +2489,28 @@
    "on_": "Summer Breeze",
    "ou": "https://www.summer-breeze.de/en/",
    "nb": "lisatud 17.08.2026: kuupäev 18.–21.08.2027 ametlikult lehelt + Nuclear Blasti uudis; välisfestival → teadlik headliner-valik"
+  },
+  {
+   "d": "2027-09-17",
+   "t": "kontsert",
+   "n": "Gutalax (CZ)",
+   "a": "Tšehhi grindcore'i legend taas Tallinnas; Damn.Loud Agency esitleb",
+   "b": [
+    "Gutalax"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "grind",
+    "death"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/gutalax-cz/",
+   "on_": "Ametlik leht",
+   "ou": "https://paavli.ee/sundmused/gutalax-cz/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 paavli.ee sundmuste lehelt. TEINE ALLIKAS PUUDU (Damn.Loud FB events-tab seda veel ei naita, pilet avaldamata) - vt HANDOVER §4.",
+   "img": "pildid/gutalaxcz.webp"
   }
  ],
  "log": [

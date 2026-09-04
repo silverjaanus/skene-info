@@ -1233,6 +1233,26 @@
   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) HALLi FB events-tabist."
  },
  {
+  "d": "2026-09-09",
+  "t": "klubi",
+  "n": "Personal Space B2B @ TOLM",
+  "a": "algus 22.00",
+  "b": [],
+  "v": "TOLM",
+  "c": "Tartu",
+  "g": [
+   "techno",
+   "house"
+  ],
+  "sn": "TOLM FB",
+  "su": "https://www.facebook.com/tolm.trt/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1789055222095862/",
+  "lisatud": "2026-09-04",
+  "koosseis_tba": 1,
+  "nb": "leitud sweepis 04.09.2026 TOLMi FB events-tabist (korraldaja Katja Adrikova). Koosseis avaldamata; pilet avaldamata. TEINE ALLIKAS PUUDU - vt HANDOVER §4."
+ },
+ {
   "d": "2026-09-11",
   "lisatud": "2026-08-17",
   "t": "klubi",
@@ -1323,6 +1343,27 @@
  {
   "d": "2026-09-11",
   "t": "klubi",
+  "n": "Klämmar Birthday x Merlyn Uusküla DJ Set",
+  "a": "algus 23.00",
+  "b": [
+   "Merlyn Uusküla"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "disco"
+  ],
+  "sn": "Fonoteek FB",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1537213041785708/",
+  "lisatud": "2026-09-04",
+  "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist (korraldaja Fonoteek ise). Pilet/uksehind avaldamata."
+ },
+ {
+  "d": "2026-09-11",
+  "t": "klubi",
   "n": "Signaal x Aparaaditehas",
   "a": "Signaali teine väljaanne, seekord Aparaaditehases — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00; koosseis avaldamata",
   "b": [],
@@ -1346,6 +1387,27 @@
   "lisatud": "2026-08-14",
   "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
   "koosseis_tba": 1
+ },
+ {
+  "d": "2026-09-11",
+  "t": "klubi",
+  "n": "SÄRIN x Kaks Tuba klubiöö: hooaja avasündmus",
+  "a": "algus 23.00",
+  "b": [],
+  "v": "Kaks Tuba",
+  "c": "mujal",
+  "linn": "Rapla",
+  "g": [
+   "techno",
+   "house"
+  ],
+  "sn": "Kaks Tuba FB",
+  "su": "https://www.facebook.com/kakstuba/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1321536779861814/",
+  "lisatud": "2026-09-04",
+  "koosseis_tba": 1,
+  "nb": "leitud sweepis 04.09.2026 Kaks Tuba FB events-tabist (Rapla elektroonilise tantsumuusika klubi). Koosseis ja pilet avaldamata."
  },
  {
   "d": "2026-09-11",
@@ -1669,6 +1731,26 @@
  {
   "d": "2026-09-19",
   "t": "klubi",
+  "n": "Lights Out @ Fonoteek",
+  "a": "algus 23.00; Fonoteegi oma peosari",
+  "b": [],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "techno"
+  ],
+  "sn": "Fonoteek FB",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1947121552633524/",
+  "lisatud": "2026-09-04",
+  "koosseis_tba": 1,
+  "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist. Sama sarja varasem kord (29.08) on juba arhiivis - see on UUS kord, mitte duplikaat."
+ },
+ {
+  "d": "2026-09-19",
+  "t": "klubi",
   "n": "REBEL CAUSE × TJUUN IN @ HALL",
   "a": "Londoni Rebel Music / Metalheadzi showcase suures saalis, Tjuun In Mesilas; uksed 23.00",
   "b": [
@@ -1833,6 +1915,26 @@
   "lisatud": "2026-08-25",
   "nb": "lisatud 25.08.2026 Silveri otsusel ('Omar on elektroonika, nii et klubi') — 22.08 ülevaatuspunkt on sellega suletud. Kaks allikat: paavli.ee ürituseleht + kultuurivabrik.ee programminimekiri ('Sep 27 — Omar Souleyman LIVE @ Kultuurifoorum Paabel 2026'). ⚠ ALGUSAEG LAHTINE: kultuurivabrik.ee näitab 27.09 kirje juures 15.00, paavli.ee ütleb ainult, et Souleyman on ÕHTUSE programmi peaesineja — 15.00 on tõenäoliselt kogu päevaprogrammi algus, seega kellaaega kirjes ei ole. Kontrolli FB eventilt 899579202821360 enne, kui algusaeg lisatakse. Žanrisildid tulenevad korraldaja sõnastusest ('Süüria elektrooniline dabke'), mitte verifitseeritud taksonoomiast; 'folk' viitab dabke rahvatantsumuusika juurtele. Festivali üldprogramm: https://www.facebook.com/events/1750097106025439/",
   "img": "pildid/kultuurifoorumpaabelomarsouleymansy.webp"
+ },
+ {
+  "d": "2026-10-02",
+  "t": "klubi",
+  "n": "FOR:REST @ MOD",
+  "a": "algus 23.00; korraldaja Dj Punch",
+  "b": [],
+  "v": "MOD",
+  "c": "Tallinn",
+  "g": [
+   "techno",
+   "house"
+  ],
+  "sn": "MOD.tln FB",
+  "su": "https://www.facebook.com/Modtln/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2265726884185094/",
+  "lisatud": "2026-09-04",
+  "koosseis_tba": 1,
+  "nb": "leitud sweepis 04.09.2026 MOD.tln FB events-tabist. Koosseis ja pilet avaldamata."
  },
  {
   "d": "2026-10-09",

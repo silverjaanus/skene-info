@@ -1,1 +1,126 @@
-[]
+[
+  {
+    "oid": "2026-09-04-giz-medium",
+    "kysimus": "Giz Medium (FR) + Riste + Qaribou + Sur(m)prise, 12.09 Ulase12 - kas (a) lisame peasaidile, voi (b) jaab valja?",
+    "kontekst": "Leitud 04.09 sweepis Ulase12 (Anemon12) FB events-tabist. Ulase12 on DIY punk/hardcore/anarhistlik keskus ja meil on samast majast juba kirje 'Alanud on sugis' (05.09). AGA: uritusel puudub igasugune zanrimarge ja esinejate nimed (Giz Medium FR, Riste, Qaribou, Sur(m)prise) ei ole kuskil zanriga seotud; teist allikat (pilet, korraldaja leht) ei leidnud. sources.json markus utleb Ulase12 kohta 'moni uritus valjaspool skoopi'.",
+    "valikud": [
+      {
+        "id": "a",
+        "tekst": "Lisame peasaidile (Ulase12 kava on valdavalt punk/hardcore)"
+      },
+      {
+        "id": "b",
+        "tekst": "Jaab valja - zanr kinnitamata, uks allikas"
+      }
+    ],
+    "lingid": [
+      "https://www.facebook.com/events/1090644030140827/",
+      "https://www.facebook.com/anemon12tln/events"
+    ],
+    "vaikeotsus": "b",
+    "tahtaeg": "2026-09-09"
+  },
+  {
+    "oid": "2026-09-04-lehed-langevad",
+    "kysimus": "'Lehed langevad': Pettunud Kodanik + Ajamasin, 04.09 Antoniuse ou (Tartu) - kas (a) lisame peasaidile, voi (b) jaab valja?",
+    "kontekst": "Leitud 04.09 sweepis Rada7.ee FB events-tabist. Pettunud Kodanik on Eesti punkrokk ja meil on juba nende reliis (07.08 'Poorane maailm'), nii et skoop ei ole kusimus. Ainus probleem on KAHE ALLIKA REEGEL: leidsin ainult Rada7 events-tabi kirje (korraldaja Pettunud Kodanik), piletilehte ega venue lehte ei leidnud. Uritus on TANA 18.00.",
+    "valikud": [
+      {
+        "id": "a",
+        "tekst": "Lisame - band on selgelt skoobis, uks allikas piisab"
+      },
+      {
+        "id": "b",
+        "tekst": "Jaab valja - kahe allika reegel"
+      }
+    ],
+    "lingid": [
+      "https://www.facebook.com/rada7.ee/events"
+    ],
+    "vaikeotsus": "a",
+    "tahtaeg": "2026-09-09"
+  },
+  {
+    "oid": "2026-09-04-singer-vinger",
+    "kysimus": "Singer Vinger + Sopruse Puiestee, 09.10 Helitehas - kas (a) peasaidile, voi (b) valja?",
+    "kontekst": "Leitud 04.09 sweepis Helitehase FB events-tabist (korraldaja Sopruse Puiestee). Singer Vinger on Eesti klassikaline punk/uue laine band (Villu Tamme telg), Sopruse Puiestee indie/alt-rokk - molemad kitarripohised ja seega REEGLID 1 jargi www. Kahtlus tuleb sellest, et tanane formaat (suur klubi, nostalgiakontsert) on lahedal piirile 'peavoolu-popprokk VALJA' (Terminaator/Smilers-klass, Silveri otsus).",
+    "valikud": [
+      {
+        "id": "a",
+        "tekst": "Peasaidile - punk/uue laine paritolu voidab"
+      },
+      {
+        "id": "b",
+        "tekst": "Valja - peavoolu nostalgiakontsert"
+      }
+    ],
+    "lingid": [
+      "https://www.facebook.com/events/1408381801148375/",
+      "https://www.facebook.com/helitehas/events"
+    ],
+    "vaikeotsus": "a",
+    "tahtaeg": "2026-09-09"
+  },
+  {
+    "oid": "2026-09-04-hoimupaevad",
+    "kysimus": "Hoimupaevade klubioo: Marko Haavisto ja Poutahaukat + Allan Vainola ja Unenaopuudjad, 24.10 Paavli Kultuurivabrik - kas (a) peasaidile, voi (b) valja?",
+    "kontekst": "Leitud 04.09 sweepis paavli.ee sundmuste lehelt. Marko Haavisto & Poutahaukat on Soome rautalanka/roots-rokk (kitarripohine), Allan Vainola (Mr. Lawrence) Eesti alt-rokk - baazanri jargi www. Kahtlus: ohtu raam on hoimupaevade kultuuriprogramm, mitte rokikontsert, ja repertuaar kaldub rahvalikku/roots-poolde.",
+    "valikud": [
+      {
+        "id": "a",
+        "tekst": "Peasaidile - molemad on kitarripohine rokk"
+      },
+      {
+        "id": "b",
+        "tekst": "Valja - kultuuriprogramm, mitte rokikontsert"
+      }
+    ],
+    "lingid": [
+      "https://paavli.ee/sundmused/hoimupaevade-klubioo-marko-haavisto-ja-poutahaukat-allan-vainola-ja-unenaopuudjad/",
+      "https://paavli.ee/sundmused/"
+    ],
+    "vaikeotsus": "b",
+    "tahtaeg": "2026-09-09"
+  },
+  {
+    "oid": "2026-09-04-glitch-please",
+    "kysimus": "Glitch Please seeria (eksperimentaalne elektroonika, Uus Laine) - kas (a) lisame klubi-saidile molemad kirjed, voi (b) jaavad valja?",
+    "kontekst": "Kaks uritust, leitud 04.09 sweepis Helinihe FB events-tabist (korraldaja Glitch Please): 'Rinalds Maksimovs (LV) / Mart Soo / Sander Saarmets' 09.09 19:00 Uus Laine ja 'Rural Tapes (NO) + Hendrik Kaljujarv' 28.10 19:00 Uus Laine. Klubi zanrinimekirjas on 'eksperimentaal' olemas ja Uus Laine on klubi-skoobis, AGA tegu on istumiskontsertidega (19.00 algus, mitte klubioo) ja osa esinejaid tuleb vabaimpro/jazzi poolelt (Mart Soo) - REEGLID 1 utleb, et uusklassika/EMA-telg on valjas. Kui (a), lisa 'Glitch Please' ka sweep/sources.json-i.",
+    "valikud": [
+      {
+        "id": "a",
+        "tekst": "Klubi-saidile molemad (eksperimentaalne elektroonika on skoobis)"
+      },
+      {
+        "id": "b",
+        "tekst": "Valja - vabaimpro/nuudismuusika telg"
+      }
+    ],
+    "lingid": [
+      "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+      "https://www.facebook.com/uuslaine/events"
+    ],
+    "vaikeotsus": "b",
+    "tahtaeg": "2026-09-09"
+  },
+  {
+    "oid": "2026-09-04-boat-party",
+    "kysimus": "BOAT PARTY - HOUSE & TECHNO EDITION, 05.09 17:30 Lennusadam - kas (a) klubi-saidile, voi (b) valja?",
+    "kontekst": "Leitud 04.09 sweepis Fienta techno-otsingust. Zanrisilt (house & techno) on urituse enda nimes, koht on Lennusadam. Kahtlus: korraldajat ega DJ-kava ma ei tuvastanud ning laevapidu voib olla peavoolu-kommertsformaat, mille REEGLID 1 valistab (peavoolu-kommertsklubi, EDM-diskod).",
+    "valikud": [
+      {
+        "id": "a",
+        "tekst": "Klubi-saidile - zanr on selgelt kirjas"
+      },
+      {
+        "id": "b",
+        "tekst": "Valja - korraldaja/DJ-kava teadmata, kommertsformaadi risk"
+      }
+    ],
+    "lingid": [
+      "https://fienta.com/et?q=techno"
+    ],
+    "vaikeotsus": "b",
+    "tahtaeg": "2026-09-09"
+  }
+]

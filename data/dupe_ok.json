@@ -22,5 +22,11 @@
   "n1": "Giidituur „Kolmnurk” / „Triangle” (inglise keeles)",
   "n2": "Giidituur „Kolmnurk” / „Triangle” (inglise keeles)",
   "nb": "KAKS ERI SEANSSI, sama nimi ja koht, eri kuupäev: 13.09.2026 17:00 ja 27.09.2026 17:00, mõlemad Vabaduse väljak 10, mõlemad ingliskeelsed, KUMMALGI OMA PILET (Fienta kolmnurk-194594 ja kolmnurk-198467 — eraldi tootekoodid, eraldi kassa). check_dupes käivitub reegli „sama nimi + sama koht, eri kuupäev — tõenäoliselt 'd' muudeti\" pealt, aga siin EI OLE kuupäeva muudetud: korraldaja müüb kolme seanssi paralleelselt (kolmas, eestikeelne, on 16.09). Vahe: 13.09 on Tallinn Fringe Festivali (18.08–18.09) kavas, 27.09 jääb festivali aknast välja ja on ainult Fientas. Nimesid EI eristata, sest ürituse enda lehed kannavad sama pealkirja (REEGLID §4: koosseis/pealkiri peegeldab allikat); archive_split võti on (d, slug(n)) ja kuupäevad erinevad, seega kirjed ei söö teineteist. Lisatud 02.09.2026 postkastijooksus Silveri otsusel („giidituur jääb\"). Allikad: https://fienta.com/kolmnurk-194594 + https://fienta.com/kolmnurk-198467 + https://fienta.com/s/kolmnurk"
+ },
+ {
+  "sait": "www",
+  "n1": "Beneath Revalia — The Livonian Tour (Tallinn)",
+  "n2": "Beneath Revalia — The Livonian Tour",
+  "nb": "04.09.2026 sweep: sama tuuri KAKS ERINEVAT kontserti, mitte duplikaat. 26.09 Tallinn, MOD (Paavli 9), FB event https://www.facebook.com/events/1381672020586171/ ja 02.10 Viljandi, Konservatoorium (Koidu 13a), FB event https://www.facebook.com/events/1415447317294805/. Eri kuupaev, eri linn, eri venue, eri pilet. check_dupes margib nad reegli 'sama sari, eri kuupaev' jargi (nimi kattub) - vaigistatud teadlikult. Kui Tallinna kirje nimi muutub, hoiatus tuleb tagasi (fail-safe)."
  }
 ]

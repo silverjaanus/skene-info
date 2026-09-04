@@ -74,6 +74,15 @@
       "src": "none",
       "tags": []
     },
+    "5LOOPS": {
+      "checked": "2026-09-04",
+      "domain": "rap",
+      "src": "lastfm",
+      "tags": [
+        "ehh",
+        "hip-hop"
+      ]
+    },
     "5Loops": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -280,6 +289,16 @@
         "classic rock",
         "rock and indie",
         "australian rock"
+      ]
+    },
+    "Airi Triisberg": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "anime",
+        "j-pop",
+        "j-rock"
       ]
     },
     "Ale Castro": {
@@ -693,6 +712,14 @@
       "src": "none",
       "tags": []
     },
+    "Aš-Šur": {
+      "checked": "2026-09-04",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "robert ya tebya vsyu zhizn kotiroval"
+      ]
+    },
     "BLOOOM": {
       "checked": "2026-08-17",
       "domain": "unclear",
@@ -1000,6 +1027,12 @@
         "country rock",
         "southern rock"
       ]
+    },
+    "Brait Pilvik Band": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Brat": {
       "checked": "2026-07-13",
@@ -1766,6 +1799,14 @@
       "src": "none",
       "tags": []
     },
+    "Don Brass": {
+      "checked": "2026-09-04",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "classical"
+      ]
+    },
     "Don Darkoe": {
       "checked": "2026-08-22",
       "domain": "klubi",
@@ -2104,6 +2145,12 @@
         "check it",
         "rock & roll"
       ]
+    },
+    "Ethetric": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Eva-Lotta Vunder & Madis Meister": {
       "checked": "2026-07-13",
@@ -2586,6 +2633,12 @@
       "src": "none",
       "tags": []
     },
+    "Gunlock": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "GusGus": {
       "checked": "2026-07-13",
       "domain": "klubi",
@@ -2597,6 +2650,17 @@
         "techno",
         "downtempo",
         "trip-hop"
+      ]
+    },
+    "Gutalax": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "goregrind",
+        "grindcore",
+        "porngrind",
+        "czech"
       ]
     },
     "Gutting Human": {
@@ -2873,6 +2937,12 @@
         "amor",
         "maghreb"
       ]
+    },
+    "Hingerahu": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Hirmuvalitseja": {
       "checked": "2026-08-02",
@@ -3235,6 +3305,17 @@
       "src": "none",
       "tags": []
     },
+    "Joy Palace": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "alternative rock",
+        "singer-songwriter",
+        "alt-country",
+        "united states"
+      ]
+    },
     "Judas Priest": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -3445,6 +3526,17 @@
       "src": "lastfm",
       "tags": [
         "estonia"
+      ]
+    },
+    "Kayot": {
+      "checked": "2026-09-04",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "chillout",
+        "lounge",
+        "deep house",
+        "downtempo"
       ]
     },
     "Kelli Uustani, Ain Agan, Paul Daniel": {
@@ -4085,6 +4177,12 @@
       "src": "none",
       "tags": []
     },
+    "Loodikud": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Lord of the Lost": {
       "checked": "2026-08-17",
       "domain": "www",
@@ -4190,6 +4288,12 @@
       "src": "none",
       "tags": []
     },
+    "MAI SKIZO": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "MALLA": {
       "checked": "2026-07-13",
       "domain": "klubi",
@@ -4266,6 +4370,12 @@
       "src": "none",
       "tags": []
     },
+    "Majaka Mandela": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Majestim": {
       "checked": "2026-08-21",
       "domain": "klubi",
@@ -4286,6 +4396,14 @@
         "liquid funk",
         "drum n bass",
         "dnb"
+      ]
+    },
+    "Malicious Death": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "thrash metal"
       ]
     },
     "Mandarones": {
@@ -4390,6 +4508,12 @@
         "minimal synth",
         "minimal wave"
       ]
+    },
+    "Masta Robusta": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Master": {
       "checked": "2026-07-13",
@@ -4530,6 +4654,17 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Merlyn Uusküla": {
+      "checked": "2026-09-04",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonian",
+        "pop",
+        "female vocalists",
+        "all"
+      ]
     },
     "Metabora": {
       "checked": "2026-07-26",
@@ -5444,6 +5579,17 @@
       "src": "none",
       "tags": []
     },
+    "Pink Turns Blue": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "post-punk",
+        "darkwave",
+        "gothic rock",
+        "new wave"
+      ]
+    },
     "Pisse": {
       "checked": "2026-07-28",
       "domain": "www",
@@ -5656,6 +5802,17 @@
       "tags": [
         "punk",
         "germany"
+      ]
+    },
+    "Promethium": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "groove metal",
+        "heavy metal",
+        "united kingdom",
+        "england"
       ]
     },
     "Pronoias": {
@@ -6385,6 +6542,14 @@
         "death metal"
       ]
     },
+    "Sgt. Slime": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "thrash metal"
+      ]
+    },
     "Shah Rud": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -6821,6 +6986,15 @@
       "src": "none",
       "tags": []
     },
+    "Surin": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "jazz-rock",
+        "jazz"
+      ]
+    },
     "Surju Kommunaal": {
       "checked": "2026-08-17",
       "domain": "unknown",
@@ -6927,6 +7101,12 @@
         "soul and reggae",
         "pop soul"
       ]
+    },
+    "Sänk": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Sõpruse Puiestee": {
       "checked": "2026-07-13",
@@ -7053,6 +7233,12 @@
       "src": "none",
       "tags": []
     },
+    "Taste of Moth": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Tasuja": {
       "checked": "2026-08-22",
       "domain": "unknown",
@@ -7155,6 +7341,21 @@
         "rock"
       ]
     },
+    "The Elder God": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "progressive rock",
+        "progressive metal",
+        "metal",
+        "stoner rock",
+        "doom metal",
+        "doom",
+        "psychedelic rock",
+        "stoner metal"
+      ]
+    },
     "The Exploited": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -7203,6 +7404,12 @@
         "adult contemporary",
         "english"
       ]
+    },
+    "The Pincushions": {
+      "checked": "2026-09-04",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "The Rasmus": {
       "checked": "2026-07-28",
@@ -7602,6 +7809,17 @@
         "deathcore",
         "metalcore",
         "france"
+      ]
+    },
+    "Uranus": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "emo violence",
+        "screamo",
+        "black metal",
+        "hardcore"
       ]
     },
     "Urduk": {
@@ -8597,6 +8815,18 @@
         "alternative-rock"
       ]
     },
+    "sPoom": {
+      "checked": "2026-09-04",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "indie rock",
+        "indie",
+        "alternative",
+        "rock",
+        "indie pop"
+      ]
+    },
     "shbxsz": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -8668,5 +8898,5 @@
       ]
     }
   },
-  "updated": "2026-08-28"
+  "updated": "2026-09-04"
 }

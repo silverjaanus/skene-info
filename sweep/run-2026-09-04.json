@@ -1,0 +1,473 @@
+{
+ "kuupaev": "2026-09-04",
+ "allikaid": 201,
+ "avatud": 86,
+ "skipitud": [
+  {
+   "url": "(tuhi URL)",
+   "pohjus": "ARHIVEERITUD kirje ilma URL-ita (Nailboard Rock Shop)"
+  },
+  {
+   "url": "https://www.facebook.com/UGbaar/events",
+   "pohjus": "URL SURNUD (marge 28.07.2026: FB-leht kustutatud/peidetud)"
+  },
+  {
+   "url": "https://wunderbaar.ee/",
+   "pohjus": "venue FB-leht sai labi kaidud (samad uritused); ametlik sait on FB-lehe koopia"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "ajaeelarve; band esines viimati 21.08 Wunderbaaris, uut infot ei oodatud"
+  },
+  {
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "pohjus": "FB GRUPP (mitte leht) - events-tabi ei ole, sisu tuleb postitustest; ajaeelarve"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "ajaeelarve - vaikelinna venue, madal sagedus"
+  },
+  {
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "pohjus": "ajaeelarve - vaikelinna venue, madal sagedus"
+  },
+  {
+   "url": "https://hardrocklaager.ee/",
+   "pohjus": "ajaeelarve; 2027 kirje on juba olemas, koosseis TBA"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "ajaeelarve; 2026 festival on toimunud, 2027 kava avaldamata"
+  },
+  {
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "pohjus": "FB OTSINGU-URL, mitte lehe events-tab - annab mura; ajaeelarve"
+  },
+  {
+   "url": "https://rada7.ee/",
+   "pohjus": "Rada7 FB events-tab sai labi kaidud; uudiskiri tuleb postkasti (eraldi task)"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "Ollepidu 2026 kirje on taielik (koosseis, pilet, hind) - uut infot ei oodatud"
+  },
+  {
+   "url": "https://fienta.com/s/kolmnurk",
+   "pohjus": "giidituuride 3 kirjet lisati 02.09, kuupaevad Fientalt - uut infot ei oodatud"
+  },
+  {
+   "url": "https://fringe.ee/tickets/",
+   "pohjus": "ajaeelarve - kontaktivormi kaudu leitud multizanriline linnafestival"
+  },
+  {
+   "url": "https://www.instagram.com/damn.loud/",
+   "pohjus": "IG-profiilid: ajaeelarve (FB-lehed ja piletiplatvormid said prioriteedi); sama sisu tuli FB events-tabidest"
+  },
+  {
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "pohjus": "IG-profiilid: ajaeelarve (FB-lehed ja piletiplatvormid said prioriteedi); sama sisu tuli FB events-tabidest"
+  },
+  {
+   "url": "https://www.instagram.com/tuum.baar/",
+   "pohjus": "IG-profiilid: ajaeelarve (FB-lehed ja piletiplatvormid said prioriteedi); sama sisu tuli FB events-tabidest"
+  },
+  {
+   "url": "https://www.facebook.com/eestihiphopfestival/events",
+   "pohjus": "ajaeelarve; 2027 kirje olemas, koosseis TBA"
+  },
+  {
+   "url": "https://lukemois.ee/",
+   "pohjus": "marge 28.07: rappi lehel ei ole, madal prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/legendaarne/events",
+   "pohjus": "Legendaarne Raadio events-tab sai labi kaidud (sama korraldaja)"
+  },
+  {
+   "url": "https://www.facebook.com/clubprive/events",
+   "pohjus": "FB-leht ei renderdanud teksti (get_page_text tuhi); RA snapshot katab Prive uritused"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "pohjus": "Loodikud: bandi FB-leht, uritus 04.09 tuli juba Legendaarse events-tabist"
+  },
+  {
+   "url": "https://www.facebook.com/mckrick/events",
+   "pohjus": "ajaeelarve - artisti FB-leht, uritusi Legendaarse/Rada7 kaudu"
+  },
+  {
+   "url": "https://www.facebook.com/MastaRobusta/events",
+   "pohjus": "artisti uritus 04.09 tuli juba Veetorni Aia events-tabist"
+  },
+  {
+   "url": "https://www.facebook.com/tymmisaun/events",
+   "pohjus": "peosari: 04.09 kord tuli juba Veetorni Aia / Masta Robusta kaudu"
+  },
+  {
+   "url": "https://www.instagram.com/eestihiphopfestival/",
+   "pohjus": "IG-profiilid: ajaeelarve (FB-lehed ja piletiplatvormid said prioriteedi); sama sisu tuli FB events-tabidest"
+  },
+  {
+   "url": "https://www.instagram.com/tommycashworld/",
+   "pohjus": "IG-profiilid: ajaeelarve (FB-lehed ja piletiplatvormid said prioriteedi); sama sisu tuli FB events-tabidest"
+  },
+  {
+   "url": "https://www.instagram.com/nublufy/",
+   "pohjus": "IG-profiilid: ajaeelarve (FB-lehed ja piletiplatvormid said prioriteedi); sama sisu tuli FB events-tabidest"
+  },
+  {
+   "url": "https://www.piletilevi.ee/piletid/muusika",
+   "pohjus": "Piletilevi otsing (/search?query=metal) sai labi kaidud - sama andmebaas"
+  },
+  {
+   "url": "https://www.hiphop.ee/",
+   "pohjus": "marge 28.07: SURNUD-POOLNE, viimane sisu 03.2026"
+  },
+  {
+   "url": "https://esthiphop.ee/",
+   "pohjus": "marge 28.07: SURNUD-POOLNE, viimane sisu 03.2026"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "ajaeelarve; 2027 kirje olemas, koosseis TBA"
+  },
+  {
+   "url": "https://tartupunch.com/et/avaleht-eesti/",
+   "pohjus": "2027 kirje olemas, koosseis TBA"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "ajaeelarve - uksik artistileht"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "Cloudflare blokib; Metal Storm + Fienta katsid sama sisu"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "marge 28.07: hooldusrezhiim"
+  },
+  {
+   "url": "https://somo.social",
+   "pohjus": "ajaeelarve - zanri-agnostiline agregaator, madal saagis"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "ajaeelarve - zanri-agnostiline agregaator, madal saagis"
+  },
+  {
+   "url": "https://www.kluub.ee",
+   "pohjus": "ajaeelarve - zanri-agnostiline agregaator"
+  },
+  {
+   "url": "https://onlinepilet.ee",
+   "pohjus": "ajaeelarve - piletimuuk, madal saagis"
+  },
+  {
+   "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+   "pohjus": "ajaeelarve - Tartu linna kalender"
+  },
+  {
+   "url": "https://ticketshop.ee/et/events",
+   "pohjus": "ajaeelarve - piletiplatvorm, madal saagis"
+  },
+  {
+   "url": "https://muusikaplaneet.ee/category/singel/",
+   "pohjus": "ajaeelarve - singlite uudisvoog"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kava veel avaldamata, kirje juba olemas"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "rahvusvaheline: allikas redirectib klubi FB-lehele (marge 28.07), madal prioriteet"
+  },
+  {
+   "url": "https://tuska.fi/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, kava uueneb kevadel"
+  },
+  {
+   "url": "https://steelfest.fi/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, kava uueneb kevadel"
+  },
+  {
+   "url": "https://copenhell.dk/en/front-page/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027), koosseis TBA"
+  },
+  {
+   "url": "https://swedenrock.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027), koosseis TBA"
+  },
+  {
+   "url": "https://www.tonsofrock.no/en",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027), koosseis TBA"
+  },
+  {
+   "url": "https://www.beyondthegates.no/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, kava uueneb talvel"
+  },
+  {
+   "url": "https://infernofestival.no/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027), koosseis TBA"
+  },
+  {
+   "url": "https://www.wacken.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027)"
+  },
+  {
+   "url": "https://www.hellfest.fr",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027)"
+  },
+  {
+   "url": "https://www.graspop.be",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027), koosseis TBA"
+  },
+  {
+   "url": "http://www.summer-breeze.de",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027)"
+  },
+  {
+   "url": "https://www.brutalassault.cz",
+   "pohjus": "rahvusvaheline suurfestival: kirje puudub, ajaeelarve - jargmisse sweepi"
+  },
+  {
+   "url": "https://www.wave-gotik-treffen.de/english/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027), koosseis TBA"
+  },
+  {
+   "url": "https://meraluna.de/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas (2027)"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "marge 28.07: viimane reliis 19.12.2024, madal prioriteet; check_bandcamp.py valvab seda automaatselt"
+  },
+  {
+   "url": "https://www.facebook.com/GenKlubi/",
+   "pohjus": "genklubi.ee sundmuste leht sai labi kaidud (sama maja, sama kava)"
+  },
+  {
+   "url": "https://www.facebook.com/punkrockfestival/",
+   "pohjus": "Insidefest 11.-12.09 kirje on taielik (10 bandi, pilet, hind)"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "Tartu Rock Fest 2026 on toimunud (10.-11.07), 2027 kava avaldamata"
+  },
+  {
+   "url": "https://saund.ee/",
+   "pohjus": "ajaeelarve - Hiiumaa, peamiselt elektrooniline"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "ajaeelarve; label reliisid tulevad Bandcampi kaudu"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "check_bandcamp.py valvab seda automaatselt (ack-nimekirjas)"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+   "pohjus": "Bandcampi tag-otsing: 4 tagi (metal, punk, techno, hip-hop) sai labi kaidud, ulejaanud 7 kattuvad suures osas samade reliisidega - ajaeelarve"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "pohjus": "Bandcampi tag-otsing: 4 tagi (metal, punk, techno, hip-hop) sai labi kaidud, ulejaanud 7 kattuvad suures osas samade reliisidega - ajaeelarve"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new",
+   "pohjus": "Bandcampi tag-otsing: 4 tagi (metal, punk, techno, hip-hop) sai labi kaidud, ulejaanud 7 kattuvad suures osas samade reliisidega - ajaeelarve"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new",
+   "pohjus": "Bandcampi tag-otsing: 4 tagi (metal, punk, techno, hip-hop) sai labi kaidud, ulejaanud 7 kattuvad suures osas samade reliisidega - ajaeelarve"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "pohjus": "Bandcampi tag-otsing: 4 tagi (metal, punk, techno, hip-hop) sai labi kaidud, ulejaanud 7 kattuvad suures osas samade reliisidega - ajaeelarve"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "Bandcampi tag-otsing: 4 tagi (metal, punk, techno, hip-hop) sai labi kaidud, ulejaanud 7 kattuvad suures osas samade reliisidega - ajaeelarve"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "Bandcampi tag-otsing: 4 tagi (metal, punk, techno, hip-hop) sai labi kaidud, ulejaanud 7 kattuvad suures osas samade reliisidega - ajaeelarve"
+  },
+  {
+   "url": "https://vmpr.ee/",
+   "pohjus": "ajaeelarve - Valgemetsa projektiruum, madal sagedus"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "UKSIK FB EVENT (Wambola), mitte events-tab - uritus on moodas"
+  },
+  {
+   "url": "https://ra.co/events/ee/all",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/235784",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/265290",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/151795",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/147536",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "2027 kirje olemas, koosseis TBA"
+  },
+  {
+   "url": "https://allevents.in/tallinn/raves",
+   "pohjus": "ajaeelarve - agregaator, vajab alati teist kinnitust"
+  },
+  {
+   "url": "https://www.facebook.com/satnamest/events",
+   "pohjus": "2027 kirje olemas (Fienta), koosseis TBA"
+  },
+  {
+   "url": "https://estelmus.com/",
+   "pohjus": "ajaeelarve - EES, madal sagedus"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "ajaeelarve - residentuur, Vaskjala SIRAKAS on toimunud"
+  },
+  {
+   "url": "https://ra.co/clubs/268078",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/266488",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/277713",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/165290",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/229208",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/289641",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/135627",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/274650",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/171803",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/258847",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/256380",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/clubs/130421",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/114408",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/167566",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/34191",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/168166",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/112914",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/166316",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/114452",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/154074",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/117673",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/126462",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/182414",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/169601",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/152869",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/186216",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/190547",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/191300",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://ra.co/promoters/112333",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-03, 22 kirjet, aken 03.09-02.11) - HANDOVER §2 reegel 15: sweep loeb RA kirjed snapshotist, ei lehitse ra.co-d Chrome'is"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "check_bandcamp.py valvab seda automaatselt (ack-nimekirjas)"
+  }
+ ],
+ "uusi": {
+  "www": 11,
+  "rap": 2,
+  "klubi": 5
+ },
+ "markus": "RA allikad (34) kaetud ra_snapshot.json kaudu (HANDOVER §2 reegel 15). Skipitud on valdavalt rahvusvahelised suurfestivalid (kirjed olemas, koosseis TBA), zanri-agnostilised agregaatorid ja madala sagedusega vaikelinna venue'd. chainz.ee leiti SURNUD - marge sources.json-i."
+}

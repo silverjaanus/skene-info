@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03",
+ "updated": "2026-09-04",
  "entries": [
   {
    "rel": 1,
@@ -249,6 +249,26 @@
    "img": "pildid/bashmentbirthday.webp"
   },
   {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "CHECK ONE TWO",
+   "a": "Legendaarse hiphopi-peosari, algus 22.00",
+   "b": [],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1959298838071839/",
+   "lisatud": "2026-09-04",
+   "koosseis_tba": 1,
+   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (korraldaja Legendaarne Raadio, venue Krulli 2b). DJ-kava avaldamata.",
+   "img": "pildid/checkonetwo.webp"
+  },
+  {
    "d": "2026-10-02",
    "t": "kontsert",
    "n": "TRIIBUPASTA x Noored & Näljased",
@@ -274,6 +294,25 @@
    "lisatud": "2026-08-22",
    "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi.",
    "img": "pildid/triibupastaxnoorednaljased.webp"
+  },
+  {
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "BEATS 4 DA PEEPS",
+   "a": "Legendaarse hiphopi-peosari, algus 22.00",
+   "b": [],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1581962047410599/",
+   "lisatud": "2026-09-04",
+   "koosseis_tba": 1,
+   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata."
   },
   {
    "d": "2027-08-13",
