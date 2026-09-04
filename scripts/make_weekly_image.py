@@ -140,17 +140,55 @@ def ellip(draw, text, font, maxw):
         text = text[:-1]
     return text + "..."
 
+# Hinnarea eraldajad: koma AINULT siis, kui sellele ei jargne kohe number.
+# ⚠ 04.09.2026 parandus: vana kood lõikas '45,10€ / 54,50€ (VIP)' -> '45', sest
+# koma oli tingimusteta eraldaja ja eesti hinnas on koma KUMNENDKOHT.
+_HIND_SEP = re.compile(r"\s*(?:;|—|/|,(?!\d)|\s-\s)\s*")
+_HIND_SULUD = re.compile(r"\s*\([^)]*\)")
+# Hinnamark tuki seest: '25€', '45,10€', '30 EUR', 'CHF 129.50', '7.77 eur'
+_HIND_MARK = re.compile(
+    r"(?:(?:CHF|EUR|USD)\s*)?\d+(?:[.,]\d+)?\s*(?:€|\bEUR\b|\beur\b|\$|\bUSD\b)?",
+    re.IGNORECASE)
+
+
 def price_text(e):
-    """Luhike hind pildile: ainult 'praegu' number, verbose 'mark' jaetakse valja."""
+    """Hind pildile: KOIK 'praegu' hinnad kaldkriipsuga, verbose 'mark' jaetakse valja.
+
+    - `hind.mark` (pikk seletus) ei joua pildile kunagi.
+    - `praegu` tukeldatakse eraldajate järgi ja pannakse tagasi kokku " / "-ga,
+      nii et koik hinnaklassid jaavad nahtavaks (Silveri otsus 04.09.2026).
+    - Sulgudes tapsustused ('(VIP)', '(2 paeva)') visatakse ara -- rida peab mahtuma.
+    - Kumnendkoma jaab alles: '45,10€ / 54,50€ (VIP)' -> '45,10€ / 54,50€'.
+    - Vahemik uhe stringina ('15–20€') ei ole eraldaja, jaab terveks.
+    - MITME hinna korral kooritakse igast tukist selgitav sona maha
+      ('15€ eelmuuk' -> '15€'), sest hinnareale on ainult pool rida ruumi ja
+      muidu lookaks `ellip()` rea "..."-ga pooleli. UHE hinna korral jaab
+      tekst puutumata ('kontsert tasuta', 'eelmuuk -50%').
+    """
     h = e.get("hind")
     if not h:
         return None
-    p = (h.get("praegu") or "").strip()
-    for sep in [";", " — ", " - ", " / ", ",", " ("]:
-        if sep in p:
-            p = p.split(sep)[0].strip()
-    if not p:
+    raw = (h.get("praegu") or "").strip()
+    if not raw:
         return None
+
+    osad = []
+    for tykk in _HIND_SEP.split(raw):
+        tykk = _HIND_SULUD.sub("", tykk).strip(" .;,")
+        if tykk and tykk not in osad:      # dubleerivad hinnaklassid kokku
+            osad.append(tykk)
+
+    if len(osad) > 1:                       # mitu hinda -> hoia rida luhike
+        lyhi = []
+        for tykk in osad:
+            m = _HIND_MARK.search(tykk)
+            t = m.group(0).strip() if (m and any(c.isdigit() for c in m.group(0))) else tykk
+            if t and t not in lyhi:
+                lyhi.append(t)
+        osad = lyhi
+
+    p = " / ".join(osad) if osad else raw
+
     if h.get("kuni") and h.get("jargmine"):
         return f"{p} → {h['jargmine']}"
     return p
