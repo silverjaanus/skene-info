@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04",
+ "updated": "2026-09-05",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 181,
+ "count": 177,
  "entries": [
   {
    "sait": "www",
@@ -441,29 +441,6 @@
    "nb": "04.09.2026 postkastijooks: koosseis sünkitud ametliku artistilehega (stationnarva.ee/artistid) — REEGLID §4 täiskoosseisu reegel. Lisandusid Havryil Sydoryk (UA), Lotte Jürjendal, Narva Linna Sümfooniaorkester, NEURA, Propeller, Rita Ray, Robert Linna, Säde Semper, Tõnu Naissoo. Avastus: Rada7.ee uudiskiri 04.09 (tõstis esile Tricky, Elizabete Balčus, Lotte Jürjendal)."
   },
   {
-   "sait": "klubi",
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "Baile do Lainão vol IV",
-   "a": "algus 21.00; Brasiilia baile funk",
-   "b": [
-    "Yungï",
-    "El Kajakas",
-    "Santi"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "baile funk"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1237358456130739/",
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Iago Bresciani: Arte em movimento. NB FB-pealkirjas on 'vol lV' (väike L). | 17.08.2026: koosseis FB eventi pealkirjast (w/ Yungï, El Kajakas, Santi)",
-   "img": "https://klubi.skene.info/pildid/bailedolainaovoliv.webp"
-  },
-  {
    "sait": "www",
    "d": "2026-09-04",
    "t": "kontsert",
@@ -487,37 +464,6 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; venue enda FB event (Koidu 13a, Viljandi). Bluus peasaidil Roots Sessioni pretsedendi järgi",
    "img": "https://www.skene.info/pildid/blackriverbluesmanbadmoodhudsonfinandresroots.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "Extreme presents: Delta Heavy",
-   "a": "algus 21.00; ERMi ruumides",
-   "b": [
-    "Delta Heavy",
-    "Planeet",
-    "Milku & Wundermaster",
-    "Typeline"
-   ],
-   "v": "Eesti Rahva Muuseum",
-   "c": "Tartu",
-   "g": [
-    "dnb",
-    "bass"
-   ],
-   "sn": "Audio Planeet FB",
-   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1574766077658978",
-   "pu": "https://www.ticketer.ee/extreme-presents-delta-heavy-planeet-eesti-rahva-muuseumis/",
-   "hind": {
-    "praegu": "24€",
-    "mark": "Regular Bird; Early Bird välja müüdud",
-    "allikas": "Ticketer, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026 (Planeet FB + FB event + Ticketer) | 07.08.2026 sweep: Audio Planeeti FB events-leht annab täiskoosseisu — Delta Heavy, Planeet, Milku & Wundermaster, Typeline.",
-   "img": "https://klubi.skene.info/pildid/extremepresentsdeltaheavy.webp"
   },
   {
    "sait": "www",
@@ -611,33 +557,6 @@
    "img": "https://rap.skene.info/pildid/hiphophangout5loopsloodikudmajakamandela.webp"
   },
   {
-   "sait": "klubi",
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "KONTRAST with Mija — HALL x SVE x culture unseen",
-   "a": "KONTRAST-i 1. sünnipäev; Saturation stage: Unknown Horizon, JoJo; Vibrancy stage: Mija, Qslap, Nora",
-   "b": [
-    "Mija",
-    "Unknown Horizon",
-    "JoJo",
-    "Qslap",
-    "Nora"
-   ],
-   "v": "HALL",
-   "c": "Tallinn",
-   "g": [
-    "techno",
-    "house"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2398214",
-   "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen",
-   "img": "https://klubi.skene.info/pildid/kontrastwithmijahallxsvexcultureunseen.webp",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1462806018967897/",
-   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) ja GateMe piletilink (pu) HALLi FB events-tabist. Fookus: hardgroove."
-  },
-  {
    "sait": "rap",
    "d": "2026-09-04",
    "t": "klubi",
@@ -664,34 +583,6 @@
    },
    "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + Veetorni Aia FB events-tab (venue) + Masta Robusta ja Tummisauna FB events-tabid (korraldajad). Masta Robusta = Rakvere produtsent/DJ, raplaadi MC Lord (Ookulm, TMF, RLV Massive), peosarja Tummisaun resident. EP on '100% Eesti rapp' hip-hopi, UK garage'i ja pungi mojudega -> sait rap. Kulalis-MCd ja oo DJd (UKG/house/grime/breaks) on FB eventis TBA -> koosseis_tba. ✅ 04.09.2026: EP ilmus 02.09.2026 -> eraldi RELIISIKIRJE LISATUD samasse faili («Reipaid Ridu Rezzidel Radadel»). Vana marge: EP voib vaarida eraldi reliisikirjet (esimene video: youtube.com/watch?v=EX2n7zd_j_M).",
    "img": "https://rap.skene.info/pildid/mastarobustarrrrepesitluspidutummisaunallnighter.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "REDSHIFT invites Alex Wilcox (US)",
-   "a": "punk-techno; Alex Wilcox esmakordselt Eestis (hübriidsett live-vokaaliga); Paul Lepasson (SÜNK) + REDSHIFT residendid; viimane REDSHIFT Tolmus (maja läheb lammutamisele); kell 23-08; 18+",
-   "b": [
-    "Alex Wilcox (US)",
-    "Paul Lepasson"
-   ],
-   "v": "Tolm",
-   "c": "Tartu",
-   "g": [
-    "techno"
-   ],
-   "sn": "tolm.club",
-   "su": "https://tolm.club/",
-   "on_": "RA event",
-   "ou": "https://ra.co/events/2492230",
-   "pu": "https://fienta.com/et/redshift-invites-alex-wilcox",
-   "hind": {
-    "praegu": "15€",
-    "mark": "RA järgi; 18+",
-    "allikas": "RA, kontrollitud 19.07.2026"
-   },
-   "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)",
-   "img": "https://klubi.skene.info/pildid/redshiftinvitesalexwilcoxus.webp"
   },
   {
    "sait": "www",
@@ -778,45 +669,6 @@
    },
    "nb": "lisatud sweepis 28.08.2026. MITMEZANRI-URITUS (REEGLID p1): sama kirje on ka klubi/data/manual.json-is. Rapi-poolel D3 lava — reket (live) ja Noored & Naljased. Kaks allikat: urituse FB event + GateMe.",
    "img": "https://rap.skene.info/pildid/wavefestbaltahoov.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "WAVEFEST @ Balta Hoov",
-   "a": "D3, Fonoteek ja La Copa uhine suvelopupidu kahel laval; kell 23.00, 18+",
-   "b": [
-    "reket (live)",
-    "Noored & Naljased",
-    "Goodmen",
-    "Kalamees",
-    "Ray",
-    "Sam",
-    "Olivar",
-    "Funkomatik",
-    "Nora",
-    "Tellemralf",
-    "Klormia"
-   ],
-   "v": "Balti Jaama Turu Hoov",
-   "c": "Tallinn",
-   "g": [
-    "house",
-    "electro",
-    "bass"
-   ],
-   "sn": "Fonoteek (FB events)",
-   "su": "https://www.facebook.com/fonoteekbar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1037780822484243/",
-   "pu": "https://gateme.com/et/D3Tallinn/104142-wavefest-i-balta-hoov-i-0409",
-   "hind": {
-    "praegu": "12€",
-    "mark": "tipsy linnuke 12€, priority 30€; pregame valja muudud",
-    "allikas": "GateMe + FB event, kontrollitud 28.08.2026"
-   },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (korraldajad D3, Fonoteek jt) + GateMe piletileht. MITMEZANRI-URITUS (REEGLID p1): sama kirje on ka rap/data/manual.json-is, sest D3 laval on reket (live) ja Noored & Naljased, Fonoteegi laval elektroonika.",
-   "img": "https://klubi.skene.info/pildid/wavefestbaltahoov.webp"
   },
   {
    "sait": "www",
@@ -2956,7 +2808,7 @@
     "mark": "18+",
     "allikas": "RA event 2522658, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — jalgimisel.",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — LISATUD 05.09.2026.",
    "img": "https://klubi.skene.info/pildid/stf2026ayanoyokoyama34423inklingroompaavlitakeover.webp"
   },
   {
@@ -3046,6 +2898,37 @@
    "pu": "https://fienta.com/et/robben-ford-trio-us-vkf",
    "nb": "lisatud sweepis 28.07.2026; kinnitatud FB event + Fienta. Bluus on peasaidi skoobis alates 26.07.2026",
    "img": "https://www.skene.info/pildid/robbenfordtriousviljandikitarrifestival.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-10",
+   "t": "klubi",
+   "n": "STF 2026 & inklingroom & Paavli takeover: Aïsha Devi + Ayano Yokoyama & 34423",
+   "a": "Sõltumatu Tantsu Festivali klubiöö: Ayano Yokoyama ja 34423 etendus \" / \", seejärel Aïsha Devi live, siis Paavli ja inklingroomi DJ-kava; eel TAB 2026 paneel klubikultuurist arhitektuuris kell 20.00. Kell 21.00-03.00, 18+",
+   "b": [
+    "Aïsha Devi (CH)",
+    "Ayano Yokoyama & 34423"
+   ],
+   "koosseis_tba": 1,
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "club"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2524841",
+   "on_": "Ürituse leht",
+   "ou": "https://paavli.ee/sundmused/stf-2026-inklingroom-paavli-takeover-aisha-devi-ayano-yokoyama-34423-tab-2026/",
+   "pu": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
+   "hind": {
+    "praegu": "25€ / 30€ / 35€",
+    "mark": "varajane / tava / hiline, 18+",
+    "allikas": "Fienta, kontrollitud 05.09.2026"
+   },
+   "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat.",
+   "img_src": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
+   "img": "https://klubi.skene.info/pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp"
   },
   {
    "sait": "www",

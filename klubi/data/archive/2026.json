@@ -2326,6 +2326,149 @@
    "ou": "https://estelmus.com/en/2026/02/27/vaskajala-sirakas-2026/",
    "lisatud": "2026-08-14",
    "nb": "kontaktivorm 14.08.2026 (Villem Jahu). Kaks sõltumatut allikat kinnitavad kuupäeva 29.08.2026: EES-i oma teade (estelmus.com, 27.02.2026) + Lau Nau enda kontserdikalender (launau.com/concerts — 'August 29. 2026: quadrophonic solo, Vaskjala Sirakas, Copper Leg Residency, Estonia'). Koosseis pärineb saatja kirjast, EES-i ametlikku kava ja piletiinfot polnud 14.08 seisuga veel avaldatud — ainult Lau Nau on sõltumatult kinnitatud, ülejäänud üle kontrollida, kui kava ilmub. Saatja andis ka FB-lühilingi https://fb.me/e/bxXuwJFuh, mida ei õnnestunud lahendada → ou-sse pandi EES-i oma teate leht. Žanrimärgend 'techno' pärineb saatja žanriväljalt, mitte kontrollitud kavast. SKOOP: KLUBI valitud baasžanri järgi (elektrooniline kontsertmuusika/eksperimentaalelektroonika); saatja märkis esimesena 'nüüdismuusika' — piiripealne juhtum, vt HANDOVER | VAIKEOTSUS 22.08.2026 (HANDOVER §2 reegel 16c): esitatud Silverile 14.08, 5 päeva vastuseta -> status quo, kirje JÄÄB klubisse. Üle vaadatav, ümberpööramiseks piisab ühest sõnast."
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Baile do Lainão vol IV",
+   "a": "algus 21.00; Brasiilia baile funk",
+   "b": [
+    "Yungï",
+    "El Kajakas",
+    "Santi"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "baile funk"
+   ],
+   "sn": "Uus Laine FB",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1237358456130739/",
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Iago Bresciani: Arte em movimento. NB FB-pealkirjas on 'vol lV' (väike L). | 17.08.2026: koosseis FB eventi pealkirjast (w/ Yungï, El Kajakas, Santi)",
+   "img": "pildid/bailedolainaovoliv.webp"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Extreme presents: Delta Heavy",
+   "a": "algus 21.00; ERMi ruumides",
+   "b": [
+    "Delta Heavy",
+    "Planeet",
+    "Milku & Wundermaster",
+    "Typeline"
+   ],
+   "v": "Eesti Rahva Muuseum",
+   "c": "Tartu",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Audio Planeet FB",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1574766077658978",
+   "pu": "https://www.ticketer.ee/extreme-presents-delta-heavy-planeet-eesti-rahva-muuseumis/",
+   "hind": {
+    "praegu": "24€",
+    "mark": "Regular Bird; Early Bird välja müüdud",
+    "allikas": "Ticketer, kontrollitud 28.07.2026"
+   },
+   "nb": "lisatud sweepis 28.07.2026 (Planeet FB + FB event + Ticketer) | 07.08.2026 sweep: Audio Planeeti FB events-leht annab täiskoosseisu — Delta Heavy, Planeet, Milku & Wundermaster, Typeline.",
+   "img": "pildid/extremepresentsdeltaheavy.webp"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "KONTRAST with Mija — HALL x SVE x culture unseen",
+   "a": "KONTRAST-i 1. sünnipäev; Saturation stage: Unknown Horizon, JoJo; Vibrancy stage: Mija, Qslap, Nora",
+   "b": [
+    "Mija",
+    "Unknown Horizon",
+    "JoJo",
+    "Qslap",
+    "Nora"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2398214",
+   "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen",
+   "img": "pildid/kontrastwithmijahallxsvexcultureunseen.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1462806018967897/",
+   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) ja GateMe piletilink (pu) HALLi FB events-tabist. Fookus: hardgroove."
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "REDSHIFT invites Alex Wilcox (US)",
+   "a": "punk-techno; Alex Wilcox esmakordselt Eestis (hübriidsett live-vokaaliga); Paul Lepasson (SÜNK) + REDSHIFT residendid; viimane REDSHIFT Tolmus (maja läheb lammutamisele); kell 23-08; 18+",
+   "b": [
+    "Alex Wilcox (US)",
+    "Paul Lepasson"
+   ],
+   "v": "Tolm",
+   "c": "Tartu",
+   "g": [
+    "techno"
+   ],
+   "sn": "tolm.club",
+   "su": "https://tolm.club/",
+   "on_": "RA event",
+   "ou": "https://ra.co/events/2492230",
+   "pu": "https://fienta.com/et/redshift-invites-alex-wilcox",
+   "hind": {
+    "praegu": "15€",
+    "mark": "RA järgi; 18+",
+    "allikas": "RA, kontrollitud 19.07.2026"
+   },
+   "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)",
+   "img": "pildid/redshiftinvitesalexwilcoxus.webp"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "WAVEFEST @ Balta Hoov",
+   "a": "D3, Fonoteek ja La Copa uhine suvelopupidu kahel laval; kell 23.00, 18+",
+   "b": [
+    "reket (live)",
+    "Noored & Naljased",
+    "Goodmen",
+    "Kalamees",
+    "Ray",
+    "Sam",
+    "Olivar",
+    "Funkomatik",
+    "Nora",
+    "Tellemralf",
+    "Klormia"
+   ],
+   "v": "Balti Jaama Turu Hoov",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "electro",
+    "bass"
+   ],
+   "sn": "Fonoteek (FB events)",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1037780822484243/",
+   "pu": "https://gateme.com/et/D3Tallinn/104142-wavefest-i-balta-hoov-i-0409",
+   "hind": {
+    "praegu": "12€",
+    "mark": "tipsy linnuke 12€, priority 30€; pregame valja muudud",
+    "allikas": "GateMe + FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (korraldajad D3, Fonoteek jt) + GateMe piletileht. MITMEZANRI-URITUS (REEGLID p1): sama kirje on ka rap/data/manual.json-is, sest D3 laval on reket (live) ja Noored & Naljased, Fonoteegi laval elektroonika.",
+   "img": "pildid/wavefestbaltahoov.webp"
   }
  ]
 }

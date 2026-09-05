@@ -1957,8 +1957,38 @@
    "mark": "18+",
    "allikas": "RA event 2522658, kontrollitud 28.08.2026"
   },
-  "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — jalgimisel.",
+  "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — LISATUD 05.09.2026.",
   "img": "pildid/stf2026ayanoyokoyama34423inklingroompaavlitakeover.webp"
+ },
+ {
+  "d": "2026-10-10",
+  "t": "klubi",
+  "n": "STF 2026 & inklingroom & Paavli takeover: Aïsha Devi + Ayano Yokoyama & 34423",
+  "a": "Sõltumatu Tantsu Festivali klubiöö: Ayano Yokoyama ja 34423 etendus \" / \", seejärel Aïsha Devi live, siis Paavli ja inklingroomi DJ-kava; eel TAB 2026 paneel klubikultuurist arhitektuuris kell 20.00. Kell 21.00-03.00, 18+",
+  "b": [
+   "Aïsha Devi (CH)",
+   "Ayano Yokoyama & 34423"
+  ],
+  "koosseis_tba": 1,
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "club"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2524841",
+  "on_": "Ürituse leht",
+  "ou": "https://paavli.ee/sundmused/stf-2026-inklingroom-paavli-takeover-aisha-devi-ayano-yokoyama-34423-tab-2026/",
+  "pu": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
+  "hind": {
+   "praegu": "25€ / 30€ / 35€",
+   "mark": "varajane / tava / hiline, 18+",
+   "allikas": "Fienta, kontrollitud 05.09.2026"
+  },
+  "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat.",
+  "img_src": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
+  "img": "pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp"
  },
  {
   "d": "2026-10-14",

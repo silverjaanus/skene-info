@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04",
+ "updated": "2026-09-05",
  "entries": [
   {
    "d": "2026-07-25",
@@ -144,111 +144,6 @@
   },
   {
    "d": "2026-09-04",
-   "t": "klubi",
-   "n": "Baile do Lainão vol IV",
-   "a": "algus 21.00; Brasiilia baile funk",
-   "b": [
-    "Yungï",
-    "El Kajakas",
-    "Santi"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "baile funk"
-   ],
-   "sn": "Uus Laine FB",
-   "su": "https://www.facebook.com/uuslaine/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1237358456130739/",
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Iago Bresciani: Arte em movimento. NB FB-pealkirjas on 'vol lV' (väike L). | 17.08.2026: koosseis FB eventi pealkirjast (w/ Yungï, El Kajakas, Santi)",
-   "img": "pildid/bailedolainaovoliv.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "Extreme presents: Delta Heavy",
-   "a": "algus 21.00; ERMi ruumides",
-   "b": [
-    "Delta Heavy",
-    "Planeet",
-    "Milku & Wundermaster",
-    "Typeline"
-   ],
-   "v": "Eesti Rahva Muuseum",
-   "c": "Tartu",
-   "g": [
-    "dnb",
-    "bass"
-   ],
-   "sn": "Audio Planeet FB",
-   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1574766077658978",
-   "pu": "https://www.ticketer.ee/extreme-presents-delta-heavy-planeet-eesti-rahva-muuseumis/",
-   "hind": {
-    "praegu": "24€",
-    "mark": "Regular Bird; Early Bird välja müüdud",
-    "allikas": "Ticketer, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026 (Planeet FB + FB event + Ticketer) | 07.08.2026 sweep: Audio Planeeti FB events-leht annab täiskoosseisu — Delta Heavy, Planeet, Milku & Wundermaster, Typeline.",
-   "img": "pildid/extremepresentsdeltaheavy.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "KONTRAST with Mija — HALL x SVE x culture unseen",
-   "a": "KONTRAST-i 1. sünnipäev; Saturation stage: Unknown Horizon, JoJo; Vibrancy stage: Mija, Qslap, Nora",
-   "b": [
-    "Mija",
-    "Unknown Horizon",
-    "JoJo",
-    "Qslap",
-    "Nora"
-   ],
-   "v": "HALL",
-   "c": "Tallinn",
-   "g": [
-    "techno",
-    "house"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2398214",
-   "pu": "https://gateme.com/et/halltallinn/103415-1-year-of-kontrast-with-mija-hall-x-sve-x-culture-unseen",
-   "img": "pildid/kontrastwithmijahallxsvexcultureunseen.webp",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1462806018967897/",
-   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) ja GateMe piletilink (pu) HALLi FB events-tabist. Fookus: hardgroove."
-  },
-  {
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "REDSHIFT invites Alex Wilcox (US)",
-   "a": "punk-techno; Alex Wilcox esmakordselt Eestis (hübriidsett live-vokaaliga); Paul Lepasson (SÜNK) + REDSHIFT residendid; viimane REDSHIFT Tolmus (maja läheb lammutamisele); kell 23-08; 18+",
-   "b": [
-    "Alex Wilcox (US)",
-    "Paul Lepasson"
-   ],
-   "v": "Tolm",
-   "c": "Tartu",
-   "g": [
-    "techno"
-   ],
-   "sn": "tolm.club",
-   "su": "https://tolm.club/",
-   "on_": "RA event",
-   "ou": "https://ra.co/events/2492230",
-   "pu": "https://fienta.com/et/redshift-invites-alex-wilcox",
-   "hind": {
-    "praegu": "15€",
-    "mark": "RA järgi; 18+",
-    "allikas": "RA, kontrollitud 19.07.2026"
-   },
-   "nb": "lisatud sweepis 19.07.2026 (RA + tolm.club)",
-   "img": "pildid/redshiftinvitesalexwilcoxus.webp"
-  },
-  {
-   "d": "2026-09-04",
    "t": "reliis",
    "n": "Squash — «Changes (HEALER002)»",
    "a": "Tallinna Healer Recordsi teine väljaanne — house, minimal ja tech house",
@@ -268,44 +163,6 @@
    "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti techno tag-otsing). Bandcamp: 'releases September 4, 2026' — praegu eelmüügis. Tag'id: house, minimal, minimal house, progressive, tech house, techno, Tallinn",
    "img": "pildid/squashchangeshealer002.webp",
    "rel": 1
-  },
-  {
-   "d": "2026-09-04",
-   "t": "klubi",
-   "n": "WAVEFEST @ Balta Hoov",
-   "a": "D3, Fonoteek ja La Copa uhine suvelopupidu kahel laval; kell 23.00, 18+",
-   "b": [
-    "reket (live)",
-    "Noored & Naljased",
-    "Goodmen",
-    "Kalamees",
-    "Ray",
-    "Sam",
-    "Olivar",
-    "Funkomatik",
-    "Nora",
-    "Tellemralf",
-    "Klormia"
-   ],
-   "v": "Balti Jaama Turu Hoov",
-   "c": "Tallinn",
-   "g": [
-    "house",
-    "electro",
-    "bass"
-   ],
-   "sn": "Fonoteek (FB events)",
-   "su": "https://www.facebook.com/fonoteekbar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1037780822484243/",
-   "pu": "https://gateme.com/et/D3Tallinn/104142-wavefest-i-balta-hoov-i-0409",
-   "hind": {
-    "praegu": "12€",
-    "mark": "tipsy linnuke 12€, priority 30€; pregame valja muudud",
-    "allikas": "GateMe + FB event, kontrollitud 28.08.2026"
-   },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (korraldajad D3, Fonoteek jt) + GateMe piletileht. MITMEZANRI-URITUS (REEGLID p1): sama kirje on ka rap/data/manual.json-is, sest D3 laval on reket (live) ja Noored & Naljased, Fonoteegi laval elektroonika.",
-   "img": "pildid/wavefestbaltahoov.webp"
   },
   {
    "d": "2026-09-05",
@@ -1205,8 +1062,38 @@
     "mark": "18+",
     "allikas": "RA event 2522658, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — jalgimisel.",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — LISATUD 05.09.2026.",
    "img": "pildid/stf2026ayanoyokoyama34423inklingroompaavlitakeover.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "klubi",
+   "n": "STF 2026 & inklingroom & Paavli takeover: Aïsha Devi + Ayano Yokoyama & 34423",
+   "a": "Sõltumatu Tantsu Festivali klubiöö: Ayano Yokoyama ja 34423 etendus \" / \", seejärel Aïsha Devi live, siis Paavli ja inklingroomi DJ-kava; eel TAB 2026 paneel klubikultuurist arhitektuuris kell 20.00. Kell 21.00-03.00, 18+",
+   "b": [
+    "Aïsha Devi (CH)",
+    "Ayano Yokoyama & 34423"
+   ],
+   "koosseis_tba": 1,
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "club"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2524841",
+   "on_": "Ürituse leht",
+   "ou": "https://paavli.ee/sundmused/stf-2026-inklingroom-paavli-takeover-aisha-devi-ayano-yokoyama-34423-tab-2026/",
+   "pu": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
+   "hind": {
+    "praegu": "25€ / 30€ / 35€",
+    "mark": "varajane / tava / hiline, 18+",
+    "allikas": "Fienta, kontrollitud 05.09.2026"
+   },
+   "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat.",
+   "img_src": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
+   "img": "pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp"
   },
   {
    "d": "2026-10-14",
