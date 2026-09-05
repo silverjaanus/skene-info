@@ -665,6 +665,100 @@
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Legendaarse FB events-tab + urituse FB event (korraldajad Legendaarne Raadio + Mari-Anna Miller)."
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Hip Hop Hangout: 5LOOPS, Loodikud, Majaka Mandela",
+   "a": "Seitse artisti, ohtu tais hip-hopi — kolm live'i ja neli DJd; kell 20.00, toetus 5€",
+   "b": [
+    "5LOOPS",
+    "Loodikud",
+    "Majaka Mandela",
+    "DON NUKI",
+    "Sänk",
+    "Kayot",
+    "sPoom"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Loodikud (FB events)",
+   "su": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1999742447375742/",
+   "hind": {
+    "praegu": "5€",
+    "mark": "toetus, uksel; ajakava TBA",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + korraldaja Loodikute FB events-tab + kaaskorraldaja Kricki FB events-tab. ⚠ URITUS TOIMUB Legendaarne Raadio & Baaris, AGA EI OLE Legendaarse FB events-tabis (host on Loodikud) — seepargi jai see sweepist valja; Silver margis selle ise. Koosseis on TAIS (3 live + 4 DJd), TBA on ainult ajakava.",
+   "img": "pildid/hiphophangout5loopsloodikudmajakamandela.webp"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "Masta Robusta «RRRR» EP esitluspidu + Tümmisaun allnighter",
+   "a": "«Reipaid ridu rezzidel radadel» EP esitluskontsert + bassimuusika setid hommikutundideni; kell 22.00, enne 23.00 pilet 10€, hiljem 15€",
+   "b": [
+    "Masta Robusta"
+   ],
+   "koosseis_tba": 1,
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "bass"
+   ],
+   "sn": "Veetorni Aed (FB events)",
+   "su": "https://www.facebook.com/veetorniaed/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1067301815974527/",
+   "hind": {
+    "praegu": "10€ / 15€",
+    "mark": "enne 23.00 10€, parast 23.00 15€, parast laivi 10€",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kolm allikat: urituse FB event + Veetorni Aia FB events-tab (venue) + Masta Robusta ja Tummisauna FB events-tabid (korraldajad). Masta Robusta = Rakvere produtsent/DJ, raplaadi MC Lord (Ookulm, TMF, RLV Massive), peosarja Tummisaun resident. EP on '100% Eesti rapp' hip-hopi, UK garage'i ja pungi mojudega -> sait rap. Kulalis-MCd ja oo DJd (UKG/house/grime/breaks) on FB eventis TBA -> koosseis_tba. ✅ 04.09.2026: EP ilmus 02.09.2026 -> eraldi RELIISIKIRJE LISATUD samasse faili («Reipaid Ridu Rezzidel Radadel»). Vana marge: EP voib vaarida eraldi reliisikirjet (esimene video: youtube.com/watch?v=EX2n7zd_j_M).",
+   "img": "pildid/mastarobustarrrrepesitluspidutummisaunallnighter.webp"
+  },
+  {
+   "d": "2026-09-04",
+   "t": "klubi",
+   "n": "WAVEFEST @ Balta Hoov",
+   "a": "D3, Fonoteek ja La Copa uhine suvelopupidu kahel laval; kell 23.00, 18+",
+   "b": [
+    "reket (live)",
+    "Noored & Naljased",
+    "Goodmen",
+    "Kalamees",
+    "Ray",
+    "Sam",
+    "Olivar",
+    "Funkomatik",
+    "Nora",
+    "Tellemralf",
+    "Klormia"
+   ],
+   "v": "Balti Jaama Turu Hoov",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fonoteek (FB events)",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1037780822484243/",
+   "pu": "https://gateme.com/et/D3Tallinn/104142-wavefest-i-balta-hoov-i-0409",
+   "hind": {
+    "praegu": "12€",
+    "mark": "tipsy linnuke 12€, priority 30€; pregame valja muudud",
+    "allikas": "GateMe + FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. MITMEZANRI-URITUS (REEGLID p1): sama kirje on ka klubi/data/manual.json-is. Rapi-poolel D3 lava — reket (live) ja Noored & Naljased. Kaks allikat: urituse FB event + GateMe.",
+   "img": "pildid/wavefestbaltahoov.webp"
   }
  ]
 }

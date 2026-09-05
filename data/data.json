@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04",
+ "updated": "2026-09-05",
  "entries": [
   {
    "d": "2026-07-20",
@@ -42,28 +42,6 @@
    "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti metal+punk tag-otsing). Bandcampi credits-rida: released August 2, 2026. Tag'id lehel: punk, hardcore, hardcore punk, metal punk, Kuressaare. 5 lugu, name-your-price. Koosseis kirjelduses: steven, juss, jaak ja rass",
    "img": "pildid/klostriidklostriid.webp",
    "rel": 1
-  },
-  {
-   "rel": 1,
-   "d": "2026-08-04",
-   "lisatud": "2026-08-05",
-   "t": "reliis",
-   "n": "Face Collector — «Letter» (video)",
-   "a": "teine muusikavideo 2026. aasta demolt",
-   "b": [
-    "Face Collector"
-   ],
-   "v": "YouTube",
-   "g": [
-    "metal",
-    "death",
-    "grind",
-    "black"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://www.youtube.com/watch?v=EwQVEK9k0Wo",
-   "nb": "kontaktivormi sisend (Martin, facecollectorband@gmail.com, 04.08.2026); YouTube kanal @facecollectorband, esilinastus 04.08.2026 (kontrollitud 05.08.2026); «Letter» on demo 1. pala, video on märgitud ka Bandcampis (facecollector.bandcamp.com/album/demo)",
-   "img": "pildid/facecollectorlettervideo.webp"
   },
   {
    "rel": 1,
@@ -145,144 +123,6 @@
    "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
    "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
    "img": "pildid/mustmissakhattratapes.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "kontsert",
-   "n": "Black River Bluesman & Bad Mood Hudson (FIN) + Andres Roots",
-   "a": "Soome bluusiduo + Andres Roots; algus 20.00",
-   "b": [
-    "Black River Bluesman & Bad Mood Hudson",
-    "Andres Roots"
-   ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
-   "g": [
-    "bluus",
-    "rock"
-   ],
-   "sn": "Konservatoorium FB",
-   "su": "https://www.facebook.com/konservatoorium/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1367280228121282/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; venue enda FB event (Koidu 13a, Viljandi). Bluus peasaidil Roots Sessioni pretsedendi järgi",
-   "img": "pildid/blackriverbluesmanbadmoodhudsonfinandresroots.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "kontsert",
-   "n": "Fear Factory + Crystal Lake + Hate + The Nocturnal Affair",
-   "b": [
-    "Fear Factory",
-    "Crystal Lake",
-    "Hate",
-    "The Nocturnal Affair"
-   ],
-   "v": "Helitehas",
-   "c": "Tallinn",
-   "g": [
-    "industrial",
-    "death",
-    "metal",
-    "core"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=233011",
-   "on_": "helitehas.ee",
-   "ou": "https://helitehas.ee/facebook-event/fear-factory-crystal-lake-hate-the-nocturnal-affair-%E2%94%82-helitehas-tallinn/",
-   "pu": "https://www.piletilevi.ee/piletid/SITNCCKZR2/fear-factory-cybernetic-domination-tour",
-   "a": "Cybernetic Domination Tour; uksed 19.00; korraldaja Live Nation Estonia",
-   "hind": {
-    "praegu": "45,10€ / 54,50€ (VIP)",
-    "mark": "+ agenditasu; alates 7. eluaastast, alla 16 täiskasvanuga",
-    "allikas": "Piletilevi, kontrollitud 28.07.2026"
-   },
-   "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud",
-   "img": "pildid/fearfactorycrystallakehatethenocturnalaffair.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "kontsert",
-   "n": "HAINZ (Kosmikud) akustilise kavaga",
-   "a": "Kosmikute laulja Meelis 'Hainz' Hainsoo akustiline kava. Kell 20.00, tasuta sissepääs",
-   "b": [
-    "HAINZ"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "rock"
-   ],
-   "sn": "The Krypt FB",
-   "su": "https://www.facebook.com/thekrypt.tallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1356360360018147/",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "FB event, kontrollitud 02.08.2026"
-   },
-   "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud The Krypt FB + Sügis Productions FB events-tabid",
-   "img": "pildid/hainzkosmikudakustilisekavaga.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "kontsert",
-   "n": "Songs Of The Dead",
-   "a": "muusikud bändidest Hunta, Mört ja Cosmic Cowboys mängivad lahkunud lauljate lugusid; uksed 21:00, live 22:00, pilet 10 € (ainult sularaha)",
-   "v": "Kidrakuur",
-   "c": "Tallinn",
-   "g": [
-    "rock"
-   ],
-   "sn": "Kidrakuur (FB)",
-   "su": "https://www.facebook.com/events/1567937774772357/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1567937774772357/",
-   "b": [
-    "Songs Of The Dead"
-   ],
-   "hind": {
-    "praegu": "10€",
-    "mark": "ainult sularahas uksel; uksed 21.00, live 22.00",
-    "allikas": "FB event, kontrollitud 28.07.2026"
-   },
-   "nb": "koosseis: Marek Cram Piliste (vokaal, Hunta), Sulo Kiivit ja Martin Jyrman (kitarrid), Mikk Kerner (trummid); akustiline kava lahkunud artistide lugudest. Ainult 1 allikas (korraldaja enda FB event) — piletimüüjat polegi",
-   "img": "pildid/songsofthedead.webp"
-  },
-  {
-   "d": "2026-09-04",
-   "t": "kontsert",
-   "n": "„Lehed langevad\": Pettunud Kodanik + Ajamasin",
-   "a": "Sügise alguse kontsert Antoniuse õues; algus 18.00, lõpp 22.00",
-   "b": [
-    "Pettunud Kodanik",
-    "Ajamasin"
-   ],
-   "v": "Antoniuse õu",
-   "c": "mujal",
-   "linn": "Tartu",
-   "g": [
-    "punk",
-    "post",
-    "rock",
-    "alt"
-   ],
-   "sn": "Pettunud Kodanik (FB events)",
-   "su": "https://www.facebook.com/pettunudkodanik/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1612356200234199/",
-   "pu": "https://fienta.com/et/lehed-langevad-pettunud-kodanik-ajamasin",
-   "hind": {
-    "praegu": "10€ / 15€",
-    "mark": "eelmüügist 10€, kohapeal 15€",
-    "allikas": "Fienta, kontrollitud 04.09.2026"
-   },
-   "lisatud": "2026-09-04",
-   "nb": "SULGEB HANDOVER §4 punkti 2 (sweep 04.09, vaikeotsus (a) lisan). Sweep leidis ainult ÜHE allika (Rada7.ee events-tab) ja jättis otsustada; postkastijooks 04.09 leidis PUUDUVA TEISE ALLIKA: bändi enda FB events-tab -> ürituse FB event (facebook.com/events/1612356200234199, 230 vastanut, R 04.09 18.00 EEST, korraldajad Pettunud Kodanik + Ajamasin + Antoniuse õu) + Fienta piletileht (sama aeg 18.00–22.00, Antoniuse Õu, Lutsu 3, Tartu, 10€/15€). Kahe allika reegel on nüüd täidetud, skoop oli algusest selge (Pettunud Kodanik = Eesti post-punk, Ajamasin = est-rokk). Silver saab otsuse tagasi pöörata.",
-   "img": "pildid/lehedlangevadpettunudkodanikajamasin.webp"
   },
   {
    "d": "2026-09-05",
@@ -2546,6 +2386,6 @@
   }
  ],
  "log": [
-  "krypt: 10"
+  "krypt: 9"
  ]
 }

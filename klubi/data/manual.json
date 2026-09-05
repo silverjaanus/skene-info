@@ -48,47 +48,6 @@
  },
  {
   "d": "2026-08-21",
-  "t": "klubi",
-  "n": "COMPRESSRAVE X HALL (ONLY TECHNO)",
-  "a": "CompressEventsi 8. väljaanne HALLi Mesila laval, 23.00–06.00 — ainult tehno",
-  "b": [
-   "Sugar Rody",
-   "pikkauch"
-  ],
-  "v": "HALL",
-  "c": "Tallinn",
-  "g": [
-   "techno"
-  ],
-  "sn": "GateMe",
-  "su": "https://gateme.com/et/Estonia/",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1779572749905973/",
-  "pu": "https://gateme.com/et/halltallinn/104140-compressrave-x-hall-only-techno-2108/",
-  "lisatud": "2026-08-21",
-  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad CompressEvents + HALL + Sugar Rody + pikkauch) ja GateMe Eesti-nimekiri, kus pilet on müügil. HALLi kogu programm on klubi-skoobis (sources.json). Silver oli 18.08 selle kirje otsust edasi lükanud (GateMe link saadetud) — nüüd kaks allikat koos, lisatud.",
-  "img": "pildid/compressravexhallonlytechno.webp"
- },
- {
-  "d": "2026-08-21",
-  "t": "klubi",
-  "n": "FACTORY RESET: Tantrum Desire (UK)",
-  "a": "drum'n'bass-õhtu Kreenholmi tehasekompleksis",
-  "b": [
-   "Tantrum Desire (UK)"
-  ],
-  "v": "Kreenholm",
-  "c": "mujal",
-  "linn": "Narva",
-  "g": [
-   "dnb"
-  ],
-  "sn": "Ticketer",
-  "su": "https://ticketer.ee/",
-  "nb": "lisatud 02.08.2026 Silveri otsusel ÜHE allikaga (Ticketer) — kahe allika reeglist tehtud teadlik erand, sest teist allikat ei leitud ka korduval otsingul. Kui FB-event või korraldaja leht ilmub, lisa 'ou'."
- },
- {
-  "d": "2026-08-21",
   "d2": "22.08",
   "t": "klubi",
   "n": "KTPSD 3 @ TOLM",
@@ -112,56 +71,6 @@
   "lisatud": "2026-08-10",
   "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni). ⚠ ÜHE KORRALDAJA KAKS ALLIKAT: nii tolm.club kui FB event 1027136910083679 on TOLMi enda omad — sõltumatut teist allikat (RA/Fienta) ei ole, RA nädalavaates 17.–23.08 seda ei olnud. Kuupäev ja koht on venue enda lehelt, seega usaldusväärsed. Koosseisu EI OLE avaldatud (kirjeldus on kunstiline tekst) → tba=1; kontrolli järgmises sweepis üle | 17.08.2026: koosseis RA-lt (Arto, Veiko Kikas, Fok Yee, Alt666); kuupäev 21.–22.08 ja koht kinnitatud RA+TOLM → tba maha",
   "img": "pildid/ktpsd3tolm.webp"
- },
- {
-  "d": "2026-08-21",
-  "lisatud": "2026-08-17",
-  "t": "klubi",
-  "n": "Miinusprojekt @ D3",
-  "a": "VON, KENNU, BLZZRD + TBA; uksed 23:00; 20+",
-  "b": [
-   "VON",
-   "KENNU",
-   "BLZZRD"
-  ],
-  "v": "D3",
-  "c": "Tallinn",
-  "g": [
-   "techno"
-  ],
-  "sn": "miinusprojekt.ee",
-  "su": "https://miinusprojekt.ee/",
-  "on_": "Miinusprojekt",
-  "ou": "https://miinusprojekt.ee/",
-  "pu": "https://gateme.com/event/104116",
-  "hind": {
-   "praegu": "alates 10€",
-   "mark": "eelmüük",
-   "allikas": "miinusprojekt.ee, kontrollitud 17.08.2026"
-  },
-  "nb": "lisatud 17.08.2026: allikad miinusprojekt.ee + FB event (D3 x Miinusprojekt) + GateMe 104116; D3 saidi kalendris 21.08 olemas",
-  "img": "pildid/miinusprojektd3.webp"
- },
- {
-  "d": "2026-08-21",
-  "t": "kontsert",
-  "n": "Netsky (BEL)",
-  "a": "Belgia elektroonilise muusika (dnb) tipptegija Hundipea Kakaolaos",
-  "b": [
-   "Netsky"
-  ],
-  "v": "Hundipea Kakaoladu",
-  "c": "Tallinn",
-  "g": [
-   "dnb",
-   "electro"
-  ],
-  "sn": "Planeet (FB)",
-  "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
-  "on_": "hundipea.ee",
-  "ou": "https://hundipea.ee/en/event/netsky-bel-hundipea-kakaoladu/",
-  "pu": "https://www.piletilevi.ee/en/venues/21-61-9418/hundipea-kakaoladu-tallinn",
-  "img": "pildid/netskybel.webp"
  },
  {
   "d": "2026-08-21",
@@ -227,33 +136,6 @@
    "allikas": "Fienta + RA, kontrollitud 28.07.2026"
   },
   "img": "pildid/safarafestival.webp"
- },
- {
-  "d": "2026-08-21",
-  "t": "klubi",
-  "n": "TRIPLOOP invites Kai Galactic (JP)",
-  "a": "hüpnootiline techno; Tokyo labeli DAYBREAK asutaja",
-  "b": [
-   "Kai Galactic",
-   "Brenna Ryan",
-   "Rästas"
-  ],
-  "v": "MOD",
-  "c": "Tallinn",
-  "g": [
-   "techno"
-  ],
-  "sn": "Resident Advisor",
-  "su": "https://ra.co/events/2483537",
-  "pu": "https://fienta.com/et/triploop-invites-kai-galactic",
-  "hind": {
-   "praegu": "10€",
-   "kuni": "07.08",
-   "jargmine": "15€",
-   "allikas": "Fienta, kontrollitud 13.07.2026"
-  },
-  "img": "pildid/triploopinviteskaigalacticjp.webp",
-  "nb": " | 28.07.2026: RA venue-väli ütleb Paavli Kultuurivabrik, Fienta ütleb MOD — kirjes on MOD (Fienta = piletimüüja). Silveri kontrollida"
  },
  {
   "d": "2026-08-22",
