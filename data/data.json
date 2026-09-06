@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05",
+ "updated": "2026-09-06",
  "entries": [
   {
    "d": "2026-07-20",
@@ -123,88 +123,6 @@
    "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
    "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
    "img": "pildid/mustmissakhattratapes.webp"
-  },
-  {
-   "d": "2026-09-05",
-   "t": "kontsert",
-   "n": "Alanud on sügis",
-   "a": "Ülase12 sügishooaja avaohtu — Beer Gardensi ja Veli-Rekka & Rokuti tuurilopp; uksed 17.00, esimene bänd 17.45",
-   "b": [
-    "Väntajad",
-    "Beer Gardens",
-    "Aur",
-    "Präänikud",
-    "Nova Lux",
-    "Veli-Rekka & Rokut (FI)"
-   ],
-   "v": "Ülase12",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "rock",
-    "folk",
-    "alt"
-   ],
-   "sn": "Ülase12 / Anemon12 (FB events)",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2765050907225476/",
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Anemon12 (Ülase12) FB events-tab + urituse FB event; taiskava ja kellaajad FB eventi kirjeldusest (Väntajad 17.45, Beer Gardens 18.45, Aur 19.45, Präänikud 20.45, Nova Lux 22.00, Veli-Rekka & Rokut 23.00). Piletihinda pole avaldatud."
-  },
-  {
-   "d": "2026-09-05",
-   "t": "kontsert",
-   "n": "Heavy Saturday: Permanent Blue + Violetscape",
-   "a": "kaks Eesti alternatiiv- ja raskemuusika bändi The Kryptis; uksed 20.00, bändid 22.00, kell 00.00 tasuta aftekas",
-   "b": [
-    "Permanent Blue",
-    "Violetscape"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "prog",
-    "alt"
-   ],
-   "sn": "Sügis Productions FB",
-   "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1517057606835718/",
-   "pu": "https://fienta.com/et/permanentblue-violetscape-thekrypt",
-   "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta; Permanent Blue võitis 2024 Heavy Music Band Battle'i",
-   "img": "pildid/heavysaturdaypermanentbluevioletscape.webp"
-  },
-  {
-   "d": "2026-09-05",
-   "t": "festival",
-   "n": "Õllepidu 2026",
-   "a": "Pühaste pruulikoja 10. sünnipäeva õllefestival: 35 pruulikoda Eestist ja välismaalt + bändid. Väravad 14.00; sissepääs kontserdile tasuta, õllede degusteerimiseks eraldi piletid",
-   "b": [
-    "Karmid Torud",
-    "DND",
-    "Elephants From Neptune",
-    "The Crosslegs"
-   ],
-   "v": "Pühaste Pruulikoda (Tähe 133c)",
-   "c": "Tartu",
-   "g": [
-    "rock",
-    "punk"
-   ],
-   "sn": "Tourmotor",
-   "su": "https://tourmotor.net",
-   "on_": "Ametlik leht",
-   "ou": "https://puhastebeer.com/ollepidu",
-   "hind": {
-    "praegu": "kontsert tasuta",
-    "mark": "õllepilet eelmüügis 18€ / kohapeal 24€ (sis. peoklaas + 6 žetooni); VIP 75€/88€",
-    "allikas": "puhastebeer.com, kontrollitud 02.08.2026"
-   },
-   "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566 | 22.08.2026: Tourmotori ürituseleht 137 näitab õllepiletite müügilinki (18€) — pu lisatud; koosseis lehel sama (Karmid Torud, DND, Elephants From Neptune, The Crosslegs).",
-   "img": "pildid/ollepidu2026.webp",
-   "pu": "https://tourmotor.net/event/list/tickets/137"
   },
   {
    "d": "2026-09-06",
@@ -1623,11 +1541,16 @@
     "stoner"
    ],
    "sn": "Baltic Live Agency FB",
-   "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+   "su": "https://www.facebook.com/balticliveagency/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1413551483860652/",
    "pu": "https://www.piletilevi.ee/piletid/3EJHJLGL23/mustasch-swe",
-   "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht",
+   "hind": {
+    "praegu": "44€ / 69€ (VIP)",
+    "mark": "Early Bird 44€, VIP 69€ (kiirem sissepääs + VIP rõdu, eraldi baar/garderoob); + agenditasu 3,30–5,20€; uksed 19.00; vanusepiiranguta",
+    "allikas": "Piletilevi, kontrollitud 06.09.2026"
+   },
+   "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht. 06.09.2026 postkastijooks: HANDOVER §4 jälgimispunkt („Helitehase FB events-tab ei näidanud 04.09\") SULETUD — Piletilevi ürituseleht on aktiivne, müük käib, kuupäev R 20.11.2026 19.00 Helitehas kinnitatud; hind lisatud. `su` viidi REEGLID §3 vormi (/events, mitte /upcoming_hosted_events).",
    "img": "pildid/mustaschswe.webp"
   },
   {
@@ -2386,6 +2309,6 @@
   }
  ],
  "log": [
-  "krypt: 9"
+  "krypt: 8"
  ]
 }

@@ -2318,11 +2318,16 @@
    "stoner"
   ],
   "sn": "Baltic Live Agency FB",
-  "su": "https://www.facebook.com/balticliveagency/upcoming_hosted_events",
+  "su": "https://www.facebook.com/balticliveagency/events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1413551483860652/",
   "pu": "https://www.piletilevi.ee/piletid/3EJHJLGL23/mustasch-swe",
-  "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht",
+  "hind": {
+   "praegu": "44€ / 69€ (VIP)",
+   "mark": "Early Bird 44€, VIP 69€ (kiirem sissepääs + VIP rõdu, eraldi baar/garderoob); + agenditasu 3,30–5,20€; uksed 19.00; vanusepiiranguta",
+   "allikas": "Piletilevi, kontrollitud 06.09.2026"
+  },
+  "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht. 06.09.2026 postkastijooks: HANDOVER §4 jälgimispunkt („Helitehase FB events-tab ei näidanud 04.09\") SULETUD — Piletilevi ürituseleht on aktiivne, müük käib, kuupäev R 20.11.2026 19.00 Helitehas kinnitatud; hind lisatud. `su` viidi REEGLID §3 vormi (/events, mitte /upcoming_hosted_events).",
   "img": "pildid/mustaschswe.webp"
  },
  {
