@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06",
+ "updated": "2026-09-07",
  "entries": [
   {
    "d": "2026-07-25",
@@ -89,80 +89,6 @@
    "lisatud": "2026-08-26",
    "nb": "lisatud 26.08.2026 postkastijooksus, Paavli Kultuurivabriku uudiskirja kaevandamisel (25.08 kiri Brodsky Garden Sessionsi kohta: «just two days after the concert, Brodsky releases Whispering Ln. Vol. II via Hidden Harmony Recordings»). Kaks allikat: uudiskiri + Bandcampi albumileht («releases 28 August 2026», 8 lugu). Bandcampi kuupäevalõksu kontroll: kuupäev EI ole platseholder — uudiskiri ütleb sõltumatult «two days after» 26.08 kontserti, mis annab sama 28.08. Sait: klubi (baasžanr ambient/minimalistlik elektroonika — sama otsus nagu Brodsky 26.08 kontsert, mis kolis 25.08 www-lt klubisse). Žanrisildid tulenevad labeli ja korraldaja sõnastusest ('minimalism', 'early electronic music', 'ambient'), mitte verifitseeritud taksonoomiast. Salvestatud 2018–2019 USA-s, sama sessioon mis esimene «Whispering Ln.» (kinnitab ka Forced Exposure'i LP-leht).",
    "img": "pildid/volodjabrodskywhisperinglnvolii.webp"
-  },
-  {
-   "d": "2026-09-03",
-   "d2": "06.09",
-   "t": "festival",
-   "n": "Station Narva 2026",
-   "a": "Narva muusika- ja linnafestival; muusikaprogramm 4.–5.09 Narva Muuseumis (Hermanni linnus) + ööpeod Ro-Ro kultuuriklubis",
-   "b": [
-    "Tricky",
-    "GusGus",
-    "SADU",
-    "MALLA",
-    "ALIKA",
-    "boipepperoni",
-    "EiK",
-    "Elizabete Balčus",
-    "Havryil Sydoryk",
-    "La Fazani",
-    "Lotte Jürjendal",
-    "Luurel Varas",
-    "mariin k.",
-    "Mihkel Kuusk",
-    "Narva Linna Sümfooniaorkester",
-    "NEURA",
-    "PLANEET",
-    "Propeller",
-    "Rita Ray",
-    "Robert Linna",
-    "Skoone",
-    "Säde Semper",
-    "Tõnu Naissoo"
-   ],
-   "v": "Narva Muuseum + Art Club Ro-Ro",
-   "c": "mujal",
-   "g": [
-    "electro",
-    "house",
-    "dnb",
-    "bass"
-   ],
-   "sn": "Planeet (FB)",
-   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
-   "on_": "stationnarva.ee",
-   "ou": "https://www.stationnarva.ee/",
-   "pu": "https://www.piletilevi.ee/series/F3WNFTCFRE/station-narva-2026",
-   "hind": {
-    "praegu": "59€",
-    "mark": "festivalipass, soodushind kuni 10.08; päevapilet 39€",
-    "allikas": "stationnarva.ee, kontrollitud 13.07.2026"
-   },
-   "img": "pildid/stationnarva2026.webp",
-   "nb": "04.09.2026 postkastijooks: koosseis sünkitud ametliku artistilehega (stationnarva.ee/artistid) — REEGLID §4 täiskoosseisu reegel. Lisandusid Havryil Sydoryk (UA), Lotte Jürjendal, Narva Linna Sümfooniaorkester, NEURA, Propeller, Rita Ray, Robert Linna, Säde Semper, Tõnu Naissoo. Avastus: Rada7.ee uudiskiri 04.09 (tõstis esile Tricky, Elizabete Balčus, Lotte Jürjendal)."
-  },
-  {
-   "d": "2026-09-04",
-   "t": "reliis",
-   "n": "Squash — «Changes (HEALER002)»",
-   "a": "Tallinna Healer Recordsi teine väljaanne — house, minimal ja tech house",
-   "b": [
-    "Squash"
-   ],
-   "g": [
-    "house",
-    "minimal",
-    "techno"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://healerrecords.bandcamp.com/album/changes-healer002",
-   "on_": "Bandcamp",
-   "ou": "https://healerrecords.bandcamp.com/album/changes-healer002",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti techno tag-otsing). Bandcamp: 'releases September 4, 2026' — praegu eelmüügis. Tag'id: house, minimal, minimal house, progressive, tech house, techno, Tallinn",
-   "img": "pildid/squashchangeshealer002.webp",
-   "rel": 1
   },
   {
    "d": "2026-09-09",

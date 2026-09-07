@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-09-06",
+ "tommatud": "2026-09-07",
  "aken": {
-  "algus": "2026-09-06",
-  "lopp": "2026-11-05"
+  "algus": "2026-09-07",
+  "lopp": "2026-11-06"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 16,
+ "kirjeid": 18,
  "kirjed": [
   {
    "d": "2026-09-11",
@@ -261,6 +261,35 @@
     "Techno"
    ],
    "url": "https://ra.co/events/2518611",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "Laine Klubiöö: mi-el (UK)",
+   "algus": "2026-11-06T23:00:00.000",
+   "v": "Uus Laine",
+   "ala": "Tallinn",
+   "b": [
+    "mi-el"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2494767",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "HEVI: Teddy Killerz & Tantrum Desire",
+   "algus": "2026-11-06T22:30:00.000",
+   "v": "Helitehas",
+   "ala": "Tallinn",
+   "b": [
+    "Teddy Killerz",
+    "Tantrum Desire"
+   ],
+   "g": [
+    "Drum & Bass"
+   ],
+   "url": "https://ra.co/events/2516539",
    "pilet": false
   }
  ]

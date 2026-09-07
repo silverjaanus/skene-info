@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 252,
+ "count": 254,
  "entries": [
   {
    "sait": "www",
@@ -6072,6 +6072,59 @@
   },
   {
    "sait": "klubi",
+   "d": "2026-09-03",
+   "d2": "06.09",
+   "t": "festival",
+   "n": "Station Narva 2026",
+   "a": "Narva muusika- ja linnafestival; muusikaprogramm 4.–5.09 Narva Muuseumis (Hermanni linnus) + ööpeod Ro-Ro kultuuriklubis",
+   "b": [
+    "Tricky",
+    "GusGus",
+    "SADU",
+    "MALLA",
+    "ALIKA",
+    "boipepperoni",
+    "EiK",
+    "Elizabete Balčus",
+    "Havryil Sydoryk",
+    "La Fazani",
+    "Lotte Jürjendal",
+    "Luurel Varas",
+    "mariin k.",
+    "Mihkel Kuusk",
+    "Narva Linna Sümfooniaorkester",
+    "NEURA",
+    "PLANEET",
+    "Propeller",
+    "Rita Ray",
+    "Robert Linna",
+    "Skoone",
+    "Säde Semper",
+    "Tõnu Naissoo"
+   ],
+   "v": "Narva Muuseum + Art Club Ro-Ro",
+   "c": "mujal",
+   "g": [
+    "electro",
+    "house",
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeet (FB)",
+   "su": "https://www.facebook.com/AudioPlaneet/upcoming_hosted_events",
+   "on_": "stationnarva.ee",
+   "ou": "https://www.stationnarva.ee/",
+   "pu": "https://www.piletilevi.ee/series/F3WNFTCFRE/station-narva-2026",
+   "hind": {
+    "praegu": "59€",
+    "mark": "festivalipass, soodushind kuni 10.08; päevapilet 39€",
+    "allikas": "stationnarva.ee, kontrollitud 13.07.2026"
+   },
+   "img": "https://klubi.skene.info/pildid/stationnarva2026.webp",
+   "nb": "04.09.2026 postkastijooks: koosseis sünkitud ametliku artistilehega (stationnarva.ee/artistid) — REEGLID §4 täiskoosseisu reegel. Lisandusid Havryil Sydoryk (UA), Lotte Jürjendal, Narva Linna Sümfooniaorkester, NEURA, Propeller, Rita Ray, Robert Linna, Säde Semper, Tõnu Naissoo. Avastus: Rada7.ee uudiskiri 04.09 (tõstis esile Tricky, Elizabete Balčus, Lotte Jürjendal)."
+  },
+  {
+   "sait": "klubi",
    "d": "2026-09-04",
    "t": "klubi",
    "n": "Baile do Lainão vol IV",
@@ -6348,6 +6401,29 @@
    },
    "nb": "koosseis: Marek Cram Piliste (vokaal, Hunta), Sulo Kiivit ja Martin Jyrman (kitarrid), Mikk Kerner (trummid); akustiline kava lahkunud artistide lugudest. Ainult 1 allikas (korraldaja enda FB event) — piletimüüjat polegi",
    "img": "https://www.skene.info/pildid/songsofthedead.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-04",
+   "t": "reliis",
+   "n": "Squash — «Changes (HEALER002)»",
+   "a": "Tallinna Healer Recordsi teine väljaanne — house, minimal ja tech house",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "house",
+    "minimal",
+    "techno"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://healerrecords.bandcamp.com/album/changes-healer002",
+   "on_": "Bandcamp",
+   "ou": "https://healerrecords.bandcamp.com/album/changes-healer002",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti techno tag-otsing). Bandcamp: 'releases September 4, 2026' — praegu eelmüügis. Tag'id: house, minimal, minimal house, progressive, tech house, techno, Tallinn",
+   "img": "https://klubi.skene.info/pildid/squashchangeshealer002.webp",
+   "rel": 1
   },
   {
    "sait": "rap",
