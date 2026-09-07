@@ -111,5 +111,10 @@
   "d": "2026-08-26",
   "n": "Paavli.Live: Volodja Brodsky",
   "nb": "KOLITUD KLUBISSE 25.08.2026 (Silveri otsus): Volodja Brodsky on ambient-pianist (Fienta ja paavli.ee moodustavad tema 'ambient-muusika pianist ja helilooja'), baasžanr ei ole kitarripõhine -> REEGLID §1 järgi klubi.skene.info. Kirje elab nüüd klubi/data/manual.json-is. Blokk on vajalik, sest archive_split toob www eelmisest data.json-ist kustutatud kirje muidu tagasi."
+ },
+ {
+  "d": "2026-09-26",
+  "n": "Laine Live: Kurjam",
+  "nb": "07.09.2026 NIMEMUUTUS, mitte väljajätt: Piletitasku event 10176 ja Uus Laine oma FB/IG näitavad ürituse täisnime 'Laine Live: Kurjam + ZLO' (teine bänd ZLO = Psychoterrori veteranid). Manual-kirje kannab nüüd täisnime; see blokk hoiab ära vana lühema nime naasmise eelmisest data.json-ist (archive_split teeb uniooni). Sama muster nagu 'Laine Live: Luge (CA)' 22.08.2026. ÄRA eemalda ilma kirje nime uuesti muutmata."
  }
 ]

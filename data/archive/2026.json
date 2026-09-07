@@ -1465,6 +1465,27 @@
    "img": "pildid/plaaditurgtourdeplaat2026.webp"
   },
   {
+   "d": "2026-08-02",
+   "t": "reliis",
+   "n": "klostriid — «klostriid»",
+   "a": "Kuressaare punk/hardcore-kollektiivi telefoniga filmitud demo; viies lugu «solaarne» on kaver Urmas Alendri samanimelisest palast",
+   "b": [
+    "klostriid"
+   ],
+   "g": [
+    "punk",
+    "hardcore"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://klostriid.bandcamp.com/",
+   "on_": "Bandcamp",
+   "ou": "https://klostriid.bandcamp.com/",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti metal+punk tag-otsing). Bandcampi credits-rida: released August 2, 2026. Tag'id lehel: punk, hardcore, hardcore punk, metal punk, Kuressaare. 5 lugu, name-your-price. Koosseis kirjelduses: steven, juss, jaak ja rass",
+   "img": "pildid/klostriidklostriid.webp",
+   "rel": 1
+  },
+  {
    "d": "2026-08-03",
    "t": "kontsert",
    "n": "Kranium + Wasteland-6 + Sabancaya",
@@ -2934,6 +2955,29 @@
    "nb": "lisatud sweepis 02.08.2026; varasem 1-allika leid (tourmotor, sweep 28.07) sai kinnituse: puhastebeer.com/ollepidu + FB event 2230476007729566 | 22.08.2026: Tourmotori ürituseleht 137 näitab õllepiletite müügilinki (18€) — pu lisatud; koosseis lehel sama (Karmid Torud, DND, Elephants From Neptune, The Crosslegs).",
    "img": "pildid/ollepidu2026.webp",
    "pu": "https://tourmotor.net/event/list/tickets/137"
+  },
+  {
+   "d": "2026-09-06",
+   "t": "kontsert",
+   "n": "Laine Live: Luge (CA) + Shatter Me Whole",
+   "a": "Toronto kvartett — žanrieitav noise/post-punk, keerukad grooved ja kitarrimüra; on soojendanud Lightning Bolti, Otoboke Beaveri ja Tropical Fuck Stormi",
+   "b": [
+    "Luge (CA)",
+    "Shatter Me Whole"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "noise",
+    "alternatiiv",
+    "rock"
+   ],
+   "sn": "Fienta (Uus Laine)",
+   "su": "https://fienta.com/et/laine-live-luge-ca",
+   "pu": "https://fienta.com/et/laine-live-luge-ca",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 22.08.2026: Fienta org-leht 17330 näitab täisnime 'Laine Live: Luge (CA) + Shatter Me Whole' — kaasesineja lisatud koosseisu, pealkiri parandatud.",
+   "img": "pildid/lainelivelugeca.webp"
   }
  ]
 }

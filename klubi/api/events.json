@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06",
+ "updated": "2026-09-07",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 159,
+ "count": 157,
  "entries": [
   {
    "sait": "www",
@@ -107,28 +107,6 @@
    "lisatud": "2026-08-10",
    "nb": "lisatud 10.08.2026 nädalases sweepis (hilinenud jooks — arvuti oli reedel kinni) (Bandcampi Eesti techno + experimental tag-otsing). Bandcamp: released July 30, 2026, 15 lugu, 59 min. Tag'id: Tallinn, ambient electronic, glitch, breakbeat, piano, experimental, drum & bass, lo-fi, techno, Estonia",
    "img": "https://klubi.skene.info/pildid/alexpeipmanmachinepartyoriginalsoundtrack.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-08-02",
-   "t": "reliis",
-   "n": "klostriid — «klostriid»",
-   "a": "Kuressaare punk/hardcore-kollektiivi telefoniga filmitud demo; viies lugu «solaarne» on kaver Urmas Alendri samanimelisest palast",
-   "b": [
-    "klostriid"
-   ],
-   "g": [
-    "punk",
-    "hardcore"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://klostriid.bandcamp.com/",
-   "on_": "Bandcamp",
-   "ou": "https://klostriid.bandcamp.com/",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti metal+punk tag-otsing). Bandcampi credits-rida: released August 2, 2026. Tag'id lehel: punk, hardcore, hardcore punk, metal punk, Kuressaare. 5 lugu, name-your-price. Koosseis kirjelduses: steven, juss, jaak ja rass",
-   "img": "https://www.skene.info/pildid/klostriidklostriid.webp",
-   "rel": 1
   },
   {
    "sait": "www",
@@ -419,30 +397,6 @@
    "rel": 1
   },
   {
-   "sait": "www",
-   "d": "2026-09-06",
-   "t": "kontsert",
-   "n": "Laine Live: Luge (CA) + Shatter Me Whole",
-   "a": "Toronto kvartett — žanrieitav noise/post-punk, keerukad grooved ja kitarrimüra; on soojendanud Lightning Bolti, Otoboke Beaveri ja Tropical Fuck Stormi",
-   "b": [
-    "Luge (CA)",
-    "Shatter Me Whole"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "noise",
-    "alternatiiv",
-    "rock"
-   ],
-   "sn": "Fienta (Uus Laine)",
-   "su": "https://fienta.com/et/laine-live-luge-ca",
-   "pu": "https://fienta.com/et/laine-live-luge-ca",
-   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 22.08.2026: Fienta org-leht 17330 näitab täisnime 'Laine Live: Luge (CA) + Shatter Me Whole' — kaasesineja lisatud koosseisu, pealkiri parandatud.",
-   "img": "https://www.skene.info/pildid/lainelivelugeca.webp"
-  },
-  {
    "sait": "klubi",
    "d": "2026-09-09",
    "t": "klubi",
@@ -643,7 +597,7 @@
    "d2": "12.09",
    "t": "festival",
    "n": "Punk & Rock Insidefest 2026",
-   "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a, Tartu); 10 kinnitatud bändi, vanusepiirangut pole",
+   "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a, Tartu); 10 bändi, uksed 18.00, muusika 19.00; vanusepiirangut pole (alla 14-aastane täisealise saatjaga), aftekas Lege bar & stage",
    "b": [
     "J.M.K.E.",
     "Kurjam",
@@ -652,7 +606,7 @@
     "Soda Effect",
     "Stepdog",
     "Deformation",
-    "Aresto",
+    "Arestor",
     "Exanity",
     "Sitaharakas"
    ],
@@ -666,12 +620,12 @@
    "su": "https://www.facebook.com/punkrockfestival/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1468527551938865/",
-   "nb": "koosseis kinnitatud 28.07.2026 sweepis (FB event + Ticketer). NB algusaja ebakõla: FB ütleb 11.09 kell 15.00, Ticketer 'uksed 18.00' | 21.08.2026 sweep: Rock & Roll Heaven + Punk & Rock Festival FB events-tabid kinnitavad moLEMAD 11.-12.09 kahepaevase kuupaeva.",
+   "nb": "koosseis kinnitatud 28.07.2026 sweepis (FB event + Ticketer). 21.08.2026 sweep: Rock & Roll Heaven + Punk & Rock Festival FB events-tabid kinnitavad molemad 11.-12.09 kahepaevase kuupaeva. | 07.09.2026 postkastijooks: ALGUSAJA EBAKÕLA LAHENDATUD — FB event ütleb nüüd samuti 'Sep 11 at 6:00 PM', st uksed 18.00 mõlemas allikas (varem FB 15.00). Bändinimi parandatud 'Aresto' -> 'Arestor' (Võru thrash metal bänd, kinnitatud FB ajakava + bändi oma FB/IG + DIGAR). Varajase ärkaja 25 € pass on Ticketerist kadunud, alles ainult 30 € festivalipass.",
    "pu": "https://www.ticketer.ee/punk-rock-insidefest-2026/",
    "hind": {
-    "praegu": "25€ / 30€",
-    "mark": "kahe päeva pass: varajane ärkaja 25€, festivalipass 30€ (+Ticketeri tehingutasu); uksed 18.00",
-    "allikas": "Ticketer (NYROK MTÜ), kontrollitud 19.07.2026"
+    "praegu": "30 € / kohapeal 25–40 €",
+    "mark": "eelmüük Ticketerist: kahe päeva festivalipass 30 € + tehingutasu 1,70 €; kohapeal SULARAHAS päevapilet 25 €, kahepäevapilet 40 €. Uksed 18.00, muusika 19.00",
+    "allikas": "Ticketer + korraldaja FB event, kontrollitud 07.09.2026"
    },
    "img": "https://www.skene.info/pildid/punkrockinsidefest2026.webp"
   },
@@ -1903,10 +1857,11 @@
    "sait": "www",
    "d": "2026-09-26",
    "t": "kontsert",
-   "n": "Laine Live: Kurjam",
-   "a": "Eesti punkveteranid Uue Laine live-sarjas, algus 19.00",
+   "n": "Laine Live: Kurjam + ZLO",
+   "a": "Eesti punkveteranid Uue Laine live-sarjas; koos ZLO-ga (Psychoterrori veteranide koosseis, tähistab 25. sünnipäeva), algus 19.00",
    "b": [
-    "Kurjam"
+    "Kurjam",
+    "ZLO"
    ],
    "v": "Uus Laine",
    "c": "Tallinn",
@@ -1917,7 +1872,16 @@
    "sn": "Uus Laine FB",
    "su": "https://www.facebook.com/uuslaine/events",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Allikas: Uus Laine FB events-tab (Laine Live sari) + sama kirje Art of Moshi FB-eventi soovitusteplokis. Pilet avaldamata — kontrolli järgmises sweepis."
+   "nb": "lisatud sweepis 21.08.2026. Allikas: Uus Laine FB events-tab (Laine Live sari) + sama kirje Art of Moshi FB-eventi soovitusteplokis. | 07.09.2026 postkastijooks: PILET TULI — Piletitasku event 10176 (15,90 / 20,90 €), sealtkaudu ka ürituse oma FB event. Ürituse AMETLIK nimi on 'Laine Live: Kurjam + ZLO' ja koosseisus on teine bänd ZLO — mõlemad parandatud. Kaks allikat: Uus Laine FB + Piletitasku.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1735341387688557",
+   "pu": "https://www.piletitasku.ee/et/event/10176",
+   "hind": {
+    "praegu": "15,90 € / 20,90 €",
+    "mark": "eelmüük Piletitaskust, kaks hinnaastet; sissepääs 19.00",
+    "allikas": "Piletitasku, kontrollitud 07.09.2026"
+   },
+   "img": "https://www.skene.info/pildid/lainelivekurjamzlo.webp"
   },
   {
    "sait": "www",
