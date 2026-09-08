@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07",
+ "updated": "2026-09-08",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -800,7 +800,7 @@
    "d": "2026-09-12",
    "t": "kontsert",
    "n": "KURIKS @ Wunderbaar",
-   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, algus 22.00",
+   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, uksed 20.00, live 22.00",
    "b": [
     "Kuriks"
    ],
@@ -816,7 +816,12 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2179942736213871/",
    "lisatud": "2026-08-22",
-   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd.",
+   "hind": {
+    "praegu": "10€",
+    "mark": "uksehind; uksed 20.00, live 22.00; pilet kaotab väljudes kehtivuse",
+    "allikas": "FB eventi kirjeldus, kontrollitud 08.09.2026"
+   },
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd. | 08.09.2026 postkastijooks: uksehind LEITUD — 10€, uksed 20.00, live 22.00. Info oli FB eventi kirjelduse 'See more' taga (väljalogitud vaates kärbitud, avatud DOM-ist); online-piletimüüki ei ole, seega `pu` jääb tühjaks.",
    "img": "https://www.skene.info/pildid/kurikswunderbaar.webp"
   },
   {
