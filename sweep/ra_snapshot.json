@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-09-07",
+ "tommatud": "2026-09-08",
  "aken": {
-  "algus": "2026-09-07",
-  "lopp": "2026-11-06"
+  "algus": "2026-09-08",
+  "lopp": "2026-11-07"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 18,
+ "kirjeid": 20,
  "kirjed": [
   {
    "d": "2026-09-11",
@@ -99,6 +99,23 @@
   },
   {
    "d": "2026-09-12",
+   "n": "MOD CLUB: DJ Aleksi b2b QSLAP all night long",
+   "algus": "2026-09-12T23:00:00.000",
+   "v": "MOD",
+   "ala": "Tallinn",
+   "b": [
+    "QSLAP",
+    "DJ Aleksi"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2531479",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-12",
    "n": "URBAN NIGHT",
    "algus": "2026-09-12T23:00:00.000",
    "v": "TBA - Venus Club",
@@ -123,6 +140,23 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2529333",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-18",
+   "n": "DANGER from Estonia with pam (NTS radio) + Kadri-Ann DJ & DJ Canada",
+   "algus": "2026-09-18T22:00:00.000",
+   "v": "Bar IDA",
+   "ala": "Tallinn",
+   "b": [
+    "pam (unofficial)",
+    "Kadri-Ann"
+   ],
+   "g": [
+    "Experimental",
+    "Club"
+   ],
+   "url": "https://ra.co/events/2530834",
    "pilet": false
   },
   {
