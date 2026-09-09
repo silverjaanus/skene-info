@@ -2120,19 +2120,25 @@
   },
   {
    "d": "2027-02-04",
-   "d2": "07.02",
+   "d2": "06.02",
    "t": "festival",
    "n": "Howls of Winter 2027",
-   "a": "Black Revalia talvine black-metal festival (XIV); koht ja kava täpsustamisel",
-   "b": [],
-   "v": "TBA",
+   "a": "Black Revalia talvine black-metal festival (XIV), kolm paeva; algus 04.02 kell 18.00. Koosseis avaldatakse osade kaupa - viis nime kinnitatud, \"...more to be unveiled\"",
+   "b": [
+    "Vortex of End (FR)",
+    "Curse Upon a Prayer (FIN)",
+    "Faceless Entity (NL)",
+    "Häxenzijrkell (DE)",
+    "Folteraar (NL)"
+   ],
+   "v": "Rockclub Tapper",
    "c": "Tallinn",
    "g": [
     "black"
    ],
    "sn": "howlsofwinter.eu",
    "su": "https://howlsofwinter.eu/",
-   "nb": "Piletid: eelmüük septembris 2026, hinnad TBA; kava veel avaldamata | 07.08.2026 sweep: howlsofwinter.eu endiselt ainult \"Tickets: TBA (pre-sale starts in the September, prices TBA)\" — koosseisu ega piletiinfot pole. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 24.08.2026: kuupaev PARANDATUD 04.–06.02 -> 04.–07.02.2027 ja koht kinnitatud (Rockclub Tapper) — VANARAUD FB event 820457767723378 (Thu 4 Feb – Sun 7 Feb 2027) + AllEvents Tallinn; howlsofwinter.eu ise ei kanna kuupaeva, ainult 'Tickets: TBA'.",
+   "nb": "Piletid: eelmüük septembris 2026, hinnad TBA; kava veel avaldamata | 07.08.2026 sweep: howlsofwinter.eu endiselt ainult \"Tickets: TBA (pre-sale starts in the September, prices TBA)\" — koosseisu ega piletiinfot pole. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 24.08.2026: kuupaev PARANDATUD 04.–06.02 -> 04.–07.02.2027 ja koht kinnitatud (Rockclub Tapper) — VANARAUD FB event 820457767723378 (Thu 4 Feb – Sun 7 Feb 2027) + AllEvents Tallinn; howlsofwinter.eu ise ei kanna kuupaeva, ainult 'Tickets: TBA'. | ⚠ 09.09.2026 PARANDUS (Silveri leid): `v` oli endiselt \"TBA\", KUIGI selle kirje enda 24.08 nb utleb \"koht kinnitatud (Rockclub Tapper)\" - 24.08 sweep kirjutas jarelduse markmesse, aga EI kandnud seda vaartuse valja. Nuud v = Rockclub Tapper (FB event 820457767723378 naitab kohaks Rockclub Tapper, Vaari 4, Tallinn). SAMAS jooksus lisatud KOOSSEIS: FB eventis on viis nime (Vortex of End (FR), Curse Upon a Prayer (FI), Faceless Entity (NL), Häxenzijrkell (DE), Folteraar (NL)) + \"...more to be unveiled\" -> koosseis_tba JÄÄB. Piletid endiselt TBA (howlsofwinter.eu: \"pre-sale starts in the September, prices TBA\"). ÕPPETUND: 09.09 sweepi samm 2b nagi seda kirjet poolikute nimekirjas, aga EI AVANUD selle `ou`-d - juhend nouab su JA ou avamist, mina vaatasin ainult `su` (howlsofwinter.eu), mis on tuhi leht. | ⚠ 09.09.2026 TEINE PARANDUS samas kirjes: d2 oli 07.02, sest 24.08 sweep luges selle FB eventi LOPUAJAST (Feb 4 6 PM - Feb 7 1 AM). See on tapselt sama loks nagu Hard Rock Laagril: FB lopuaeg on viimase oo lopp, mitte kavapaev. FB eventi enda tekst utleb \"Three days of pure black metal underground\" ja algus on 04.02 -> kavapaevad on 04., 05. ja 06.02.2027. d2 parandatud 07.02 -> 06.02 (= algne 04.-06.02, mille 24.08 sweep ekslikult \"parandas\"). REEGEL: mitmepaevase urituse kestus votta korraldaja TEKSTIST, mitte FB timestamp'ist.",
    "ou": "https://www.facebook.com/events/820457767723378",
    "on_": "Facebook event",
    "koosseis_tba": 1
@@ -2445,7 +2451,7 @@
   },
   {
    "d": "2027-07-02",
-   "d2": "04.07",
+   "d2": "03.07",
    "t": "festival",
    "n": "Hard Rock Laager 2027",
    "a": "Eesti pikaajaline raskemuusikafestival Vana-Vigalas; koosseis avaldamata",
@@ -2460,8 +2466,11 @@
    ],
    "sn": "Hard Rock Laager FB",
    "su": "https://www.facebook.com/hardrocklaager",
-   "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel taidetud alles nuud: Piletilevi listib urituse (seal 02.-03.07), korraldaja FB-event utleb 02.-04.07 - kirjes on korraldaja kuupaev. hardrocklaager.ee seisab endiselt 2026 peal. Koosseis TBA | 07.08.2026 sweep: hardrocklaager.ee esileht kannab endiselt HRL2026 sisu; 2027 kuupäevad 02.–04.07.2027, koosseis avaldamata. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-   "koosseis_tba": 1
+   "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel taidetud alles nuud: Piletilevi listib urituse (seal 02.-03.07), korraldaja FB-event utleb 02.-04.07 - kirjes on korraldaja kuupaev. hardrocklaager.ee seisab endiselt 2026 peal. Koosseis TBA | 07.08.2026 sweep: hardrocklaager.ee esileht kannab endiselt HRL2026 sisu; 2027 kuupäevad 02.–04.07.2027, koosseis avaldamata. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | ✅ 09.09.2026 KUUPÄEV LAHENDATUD (vana lahtine punkt \"FB 02.-04.07 vs Piletilevi 02.-03.07\"): korraldaja OMA tekst FB eventis 1374003391332146 utleb sonaselgelt \"2027. aasta festival toimub 2.-3. juulil Vana-Vigalas, tuues publiku ette kahel paeval kahel laval\" -> ÕIGE on 02.-03.07. FB eventi lopuaeg (4. juuli 11.00) on telkimise/hommikune lahkumisaeg, mitte kavapaev. Piletilevi utles algusest peale sama. d2 parandatud 04.07 -> 03.07; lisatud ou (FB event) ja pu (Piletilevi ZNT5XS726H). Koosseis on endiselt avaldamata (koosseis_tba jaab).",
+   "koosseis_tba": 1,
+   "ou": "https://www.facebook.com/events/1374003391332146/",
+   "on_": "Facebook event",
+   "pu": "https://www.piletilevi.ee/piletid/ZNT5XS726H/hard-rock-laager-2027"
   },
   {
    "d": "2027-07-28",

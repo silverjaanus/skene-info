@@ -627,5 +627,33 @@
   "img": "pildid/tartupunch2027.webp",
   "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
   "koosseis_tba": 1
+ },
+ {
+  "d": "2026-09-26",
+  "t": "kontsert",
+  "n": "EiK LIVE",
+  "a": "Algus 17.00, vanusepiiranguta (alla 12-aastased koos taiskasvanud saatjaga). Laval: Mattias Tirmaste (kitarr, vokaal), Rein Fuks (trummid, backtrackid), Taali Lehtla (bass, vokaal)",
+  "b": [
+   "EiK"
+  ],
+  "v": "Tallinna Kruiisiterminal",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Fienta uudiskiri (Silveri edastatud 09.09.2026)",
+  "su": "https://fienta.com/et/eik-live-x-tallinna-kruiisiterminal",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/929348839559939",
+  "pu": "https://fienta.com/et/eik-live-x-tallinna-kruiisiterminal",
+  "hind": {
+   "praegu": "20 EUR taispilet, 15 EUR kuni 15-aastased (Regular Bird); Noored Early Bird 10 EUR veel saadaval",
+   "mark": "Taispilet Early Bird 15 EUR on VALJA MUUDUD",
+   "allikas": "Fienta ostuvaade, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "SILVERI OTSUS 09.09.2026: 'eik on ju rapp' -> RAP-SAIT. Postkastijooksu vaikeotsus oli (a) peasait (alt/punk), Silver pooras umber. Kaks allikat: FB event 929348839559939 (korraldajad Made in Vachina + EiK) + Fienta piletileht; kuupaev ja kellaaeg kattuvad molemas (26.09.2026 kell 17.00). Zanr on korraldaja enda tekstis teadlikult lai ('punkar, rappar, indie-mees, elektroonik'; EMA nominatsioon aasta alternatiivalbum) - saidivalik on Silveri oma, mitte allikast tuletatud. Uks kirje, uks sait: uritus on uhelavaline (REEGLID 1 mitmezanri-reegel eeldab mitut lava).",
+  "img": "pildid/eiklive.webp"
  }
 ]

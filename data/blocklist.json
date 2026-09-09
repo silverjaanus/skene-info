@@ -126,5 +126,23 @@
   "d": "2027-02-12",
   "n": "Baby Lasagna",
   "nb": "SILVERI OTSUS 09.09.2026: VALJA. Horvaatia artist Marko Purisic esineb bandiga 12.02.2027 Paavli Kultuurivabrikus; paavli.ee kirjeldab teda kui Eurovisiooniga tugevalt seotud nime. REEGLID 1 peavoolu-erand voidab (sama loogika mis Kaarija). Allikas: https://paavli.ee/sundmused/baby-lasagna-12-02-2027-paavli-kultuurivabrik-tallinn/ . Blokk on VAJALIK, sest paavli.ee programm on aktiivne allikas."
+ },
+ {
+  "d": "2026-09-12",
+  "n": "Noche Marbella - Reggaeton Night",
+  "nb": "SILVERI OTSUS 09.09.2026: 'reggaeton jaab valja'. Noche Marbella - Reggaeton Night, 12.09.2026 uksed 23.00 Paavli Kultuurivabrik, 18+. Baasazanr reggaeton ei ole uheski zanriteljes ja kava on rahvusvahelised peavoolutahed (Bad Bunny, Karol G, J Balvin, Daddy Yankee) -> REEGLID 1 peavoolu kommertsklubi VALJAS. Blokk on VAJALIK, sest Paavli programm ja kultuurivabrik.ee on aktiivsed allikad. https://fienta.com/et/noche-marbella-tln | https://www.facebook.com/events/1395042712693269"
+ },
+ {
+  "n": "Noche Marbella",
+  "nb": "Daatumita nimeblokk sama otsuse alusel (peosari, mitte uksikuritus). SILVERI OTSUS 09.09.2026: 'reggaeton jaab valja'. Noche Marbella - Reggaeton Night, 12.09.2026 uksed 23.00 Paavli Kultuurivabrik, 18+. Baasazanr reggaeton ei ole uheski zanriteljes ja kava on rahvusvahelised peavoolutahed (Bad Bunny, Karol G, J Balvin, Daddy Yankee) -> REEGLID 1 peavoolu kommertsklubi VALJAS. Blokk on VAJALIK, sest Paavli programm ja kultuurivabrik.ee on aktiivsed allikad. https://fienta.com/et/noche-marbella-tln | https://www.facebook.com/events/1395042712693269"
+ },
+ {
+  "d": "2026-09-26",
+  "n": "JAMES HYPE LIVE @ TALLINNA KRUIISITERMINAL",
+  "nb": "SILVERI OTSUS 09.09.2026: 'hype jaab valja'. JAMES HYPE LIVE @ TALLINNA KRUIISITERMINAL, 26.09.2026 kell 23.00 - 27.09 kell 04.00, Kruiisiterminal (Logi 4), 18+. Briti chart-house'i DJ (Ferrari, More Than Friends, Tomorrowland 2026) -> REEGLID 1 peavoolu-EDM telg on valjas (AvB pretsedent 28.08). Blokk on VAJALIK, sest korraldaja Made in Vachina Events lisati 09.09.2026 sweep/sources.json-i. NB kui uritus tuleb tagasi TEISE NIMEGA, laienda blokki (nimeblokk voi artistiblokk {'b': 'James Hype'} koigil kolmel saidil). https://fienta.com/et/james-hype-live-at-tallinna-kruiisiterminal | https://www.facebook.com/events/1409008667755193"
+ },
+ {
+  "n": "James Hype",
+  "nb": "Daatumita nimeblokk sama otsuse alusel. SILVERI OTSUS 09.09.2026: 'hype jaab valja'. JAMES HYPE LIVE @ TALLINNA KRUIISITERMINAL, 26.09.2026 kell 23.00 - 27.09 kell 04.00, Kruiisiterminal (Logi 4), 18+. Briti chart-house'i DJ (Ferrari, More Than Friends, Tomorrowland 2026) -> REEGLID 1 peavoolu-EDM telg on valjas (AvB pretsedent 28.08). Blokk on VAJALIK, sest korraldaja Made in Vachina Events lisati 09.09.2026 sweep/sources.json-i. NB kui uritus tuleb tagasi TEISE NIMEGA, laienda blokki (nimeblokk voi artistiblokk {'b': 'James Hype'} koigil kolmel saidil). https://fienta.com/et/james-hype-live-at-tallinna-kruiisiterminal | https://www.facebook.com/events/1409008667755193"
  }
 ]
