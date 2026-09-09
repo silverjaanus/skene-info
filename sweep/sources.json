@@ -345,6 +345,12 @@
    "url": "https://lonksbaar.ee",
    "tyyp": "venue",
    "nb": "lisatud 08.09.2026 koos FB-lehega (REEGLID §3: uksik FB-URL on pime nurk). 08.09 seisuga sait on 'Coming soon' / 'Kannata veits veel... 04.09.2026' - kava veel ei ole, kontakt info@lonksbaar.ee. Kontrolli jargmises sweepis, kas urituste kava on avaldatud."
+  },
+  {
+   "nimi": "Made in Vachina Events",
+   "url": "https://www.facebook.com/madeinvachina.kimjongun/events",
+   "tyyp": "promootor",
+   "nb": "lisatud 09.09.2026 postkastijooksus (Fienta uudiskiri: EiK LIVE 26.09 + James Hype 26.09 Kruiisiterminal). HOIATUS: kava on VALDAVALT SKOOBIVALINE peavool (John Newman, NOEP, James Hype, Einmusik) - kontrolli iga uritus eraldi, vaikimisi valja; erandiks Eesti alt-artistid nagu EiK. Veebisaiti ei leidnud, kontakt rainer@madeinvachina.com"
   }
  ],
  "ig": [
@@ -955,6 +961,18 @@
     "url": "https://www.facebook.com/IDARadio/events",
     "tyyp": "venue",
     "nb": "lisatud 09.09.2026 sweepis. Bar IDA (Telliskivi 60a/5) programmi korraldab IDA Radio FB-lehe alt - RA snapshot naitas Bar IDA uritusi (DANGER from Estonia 18.09, 4KORDA4 16.10), aga allikat ennast POLNUD sources.json-is => nadalane tasuta/odav klubiprogramm oli PIME NURK. Kava: enamik ohtusid on nimelised DJ-ohtud, kureeri iga kord eraldi (REEGLID 1: zanriinfota DJ-ohtu jaab valja)."
+   },
+   {
+    "nimi": "Huba Club (Tartu)",
+    "url": "https://www.facebook.com/hubbaclubba/events",
+    "tyyp": "venue",
+    "nb": "lisatud 09.09.2026. Alternatiivne kultuuriklubi ja sundmusruum ajaloolises villas, Kalevi 13, Tartu (huba.club). Leitud RA kaudu; Tartu klubiprogramm oli senini oue katmata. Vt ka kluub.ee, mis nende uritusi loetleb."
+   },
+   {
+    "nimi": "Vaip Events",
+    "url": "https://www.facebook.com/vaipevents/events",
+    "tyyp": "promootor",
+    "nb": "lisatud 09.09.2026 postkastijooksus (Paavli uudiskirjast: Counterstrike 11.09 Paavli); dnb/hard dnb promootor, FB-leht vaike (~88 jalgijat), veebisaiti ei leidnud - FB on ainus allikas, kontrolli igas sweepis"
    }
   ],
   "ig": [],

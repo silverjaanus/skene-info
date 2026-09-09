@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 174,
+ "count": 180,
  "entries": [
   {
    "sait": "www",
@@ -375,6 +375,38 @@
   },
   {
    "sait": "klubi",
+   "d": "2026-09-10",
+   "t": "klubi",
+   "n": "Raadio EKA @ Bar IDA",
+   "a": "uksed 20.00; Raadio EKA kooliaasta avapidu Bar IDA-s, kuus EKA diskorit, Siim Pojeng live'is",
+   "b": [
+    "Neonsport",
+    "Simoji",
+    "DJ Canada",
+    "Siim Pojeng",
+    "evalution",
+    "Kokotov"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "electro"
+   ],
+   "sn": "IDA Radio FB",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1607550260880484/",
+   "hind": {
+    "praegu": "5-7 EUR",
+    "mark": "7 EUR, EKA tudengile ISIC-kaardiga 5 EUR; uksel",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: urituse leht zanrit SONAGA ei nimeta (kunstiakadeemia diskorite pidu IDA Radio baaris) - g-sildid on konservatiivsed, mitte lehelt tsiteeritud."
+  },
+  {
+   "sait": "klubi",
    "d": "2026-09-11",
    "lisatud": "2026-08-17",
    "t": "klubi",
@@ -421,6 +453,36 @@
    },
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026 (hard trance/hardstyle → klubi, Teknariku pretsedent); allikad: GateMe + FB event (Hard Nation, Helitehas, Summerstart Festival) + hardnation.ee viide. ou on FB otsingu-URL kuju — kui ei tööta, otsi 'BRENNAN HEART @ HELITEHAS'"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-09-11",
+   "t": "kontsert",
+   "n": "Chillin & Margiiela «Terve linn näeb» albumiesitlus",
+   "a": "algus 21.00; varske plaadi esimene esitus publiku ees. Karjakoer, Diwo ja Margiiela & Chillin live'is, Blondemunk DJ-setiga",
+   "b": [
+    "Margiiela",
+    "Chillin",
+    "Karjakoer",
+    "Diwo",
+    "Blondemunk"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1081244117728685/",
+   "hind": {
+    "praegu": "5 EUR",
+    "mark": "kohapeal",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026 Legendaarne Records + Legendaarne Raadio FB events-tabidest. Kaks allikat: FB event (taiskava + hind + algusaeg) + Legendaarne Raadio IG-postitus (google.ee kaudu), mis kinnitab sama: 'mehed tegid koostoos EP nimega Terve linn naeb ja soovivad selle lives ette kanda'. TAHELEPANU: FB event nimetab valjalaset ALBUMIKS, IG-postitus EP-ks - jargisin urituse enda pealkirja. See sulgeb HANDOVER-i lahtise punkti 'margiiela x Chillin EP pealkiri' - pealkiri on «Terve linn näeb». Koht: Krulli 2b (Legendaarne Raadiobaar)."
   },
   {
    "sait": "www",
@@ -501,6 +563,35 @@
     "mark": "RA: 15/20/25€; 18+; algus 23.59",
     "allikas": "Resident Advisor event 2500210, kontrollitud 10.08.2026"
    }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Haigla Pidu @ Bar IDA",
+   "a": "septembrikuu Haigla Pidu Bar IDA terrassil ja sisesaalis, residendid hommikuni",
+   "b": [
+    "Jan Tomson",
+    "Kris Luigend",
+    "Ats Luik"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "techno"
+   ],
+   "sn": "IDA Radio FB",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2491677638008025/",
+   "hind": {
+    "praegu": "10 EUR",
+    "mark": "uksel",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta; Haigla Pidu on tuntud techno/house-peosari, sildid seetottu konservatiivsed."
   },
   {
    "sait": "klubi",
@@ -634,7 +725,8 @@
    },
    "lisatud": "2026-08-14",
    "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-   "koosseis_tba": 1
+   "koosseis_tba": 1,
+   "img": "https://klubi.skene.info/pildid/signaalxaparaaditehas.webp"
   },
   {
    "sait": "klubi",
@@ -709,7 +801,12 @@
    "n": "Vaip Events: Counterstrike (CZ/RSA)",
    "a": "DnB-legend Counterstrike (Algorythm Recordings; 100+ reliisi mh Ram, PRSPCT, Let It Roll) taas Tallinnas + kohalikud DJ-d. Uksed 23.00–05.00, 18+",
    "b": [
-    "Counterstrike"
+    "Counterstrike",
+    "Conflict (EST)",
+    "Xenny",
+    "EL.Gaudy",
+    "Deadshot",
+    "Cancel"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -724,8 +821,10 @@
     "allikas": "Fienta, kontrollitud 02.08.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events (FB eventi ei leidnud, ou tühi)",
-   "img": "https://klubi.skene.info/pildid/vaipeventscounterstrikeczrsa.webp"
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events. RIKASTATUD 09.09.2026 postkastijooksus (Paavli uudiskiri): FB event leitud (ou), taiskoosseis lisatud - koosseis oli FB 'See more' taga (Xenny, EL.Gaudy, Conflict, Counterstrike, Deadshot, Cancel), uksed 23.00.",
+   "img": "https://klubi.skene.info/pildid/vaipeventscounterstrikeczrsa.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/936069779136728/"
   },
   {
    "sait": "klubi",
@@ -907,7 +1006,12 @@
    "su": "https://www.facebook.com/Modtln/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1721914672261983/",
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event (korraldajad MOD.tln + QSLAP). Piletiinfot FB-s ei ole."
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event (korraldajad MOD.tln + QSLAP + Paavli). RIKASTATUD 09.09.2026: sissepaas TASUTA ('FREE ENTRY ALL NIGHT') - info oli FB 'See more' taga, kinnitab ka Paavli uudiskiri. Online-piletimuuki ei ole, pu jaab tuhjaks.",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "FREE ENTRY ALL NIGHT",
+    "allikas": "FB event + Paavli uudiskiri, kontrollitud 09.09.2026"
+   }
   },
   {
    "sait": "www",
@@ -1036,8 +1140,7 @@
    "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu. | 09.09.2026 sweep: TAISKOOSSEIS + pilet. Rockclub Tapperi FB events-tab naitab urituse taisnime, milles on peale Vermilia veel Aether (PL) ning Pagansarv & Bestia; kirjes oli varem ainult Vermilia. Kaks allikat: FB event 2217604032409882 (kaaskorraldajad Vermilia + Estonianmetal.com) + Fienta piletileht.",
    "img": "https://www.skene.info/pildid/underthenewmoonvermilia.webp",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2217604032409882/",
-   "lisatud": "2026-09-09"
+   "ou": "https://www.facebook.com/events/2217604032409882/"
   },
   {
    "sait": "www",
@@ -1223,7 +1326,11 @@
    "t": "klubi",
    "n": "CHECK ONE TWO",
    "a": "Legendaarse hiphopi-peosari, algus 22.00",
-   "b": [],
+   "b": [
+    "Critikal",
+    "Quest",
+    "Paul Oja"
+   ],
    "v": "Legendaarne Raadio & Baar",
    "c": "Tallinn",
    "g": [
@@ -1234,8 +1341,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1959298838071839/",
    "lisatud": "2026-09-04",
-   "koosseis_tba": 1,
-   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (korraldaja Legendaarne Raadio, venue Krulli 2b). DJ-kava avaldamata.",
+   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (korraldaja Legendaarne Raadio, venue Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1959298838071839 loetleb DJ-d Critikal, Quest ja Paul Oja ('silmipimestav skratsshow'). Pilet ostetakse uksel, hinda eventis ei nimetata -> pu ja hind jaavad tuhjaks. C12 on Eesti kauim raapipidude sari, kord kuus.",
    "img": "https://rap.skene.info/pildid/checkonetwo.webp"
   },
   {
@@ -1266,7 +1372,8 @@
     "allikas": "RA event 2530834, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "leitud sweepis 09.09.2026 RA snapshotist (sweep/ra_snapshot.json, tommatud 09.09). Kaks allikat: RA event 2530834 (korraldaja DANGER from Estonia, zanrisildid Experimental/Club, koht Bar IDA) + RA venue/korraldaja leht. Bar IDA ei ole veel sources.json-is eraldi allikana - lisatud koos selle sweepiga."
+   "nb": "leitud sweepis 09.09.2026 RA snapshotist (sweep/ra_snapshot.json, tommatud 09.09). Kaks allikat: RA event 2530834 (korraldaja DANGER from Estonia, zanrisildid Experimental/Club, koht Bar IDA) + RA venue/korraldaja leht. Bar IDA ei ole veel sources.json-is eraldi allikana - lisatud koos selle sweepiga.",
+   "img": "https://klubi.skene.info/pildid/dangerfromestoniapamntsradio.webp"
   },
   {
    "sait": "www",
@@ -1512,7 +1619,8 @@
    "su": "https://ra.co/clubs/265290",
    "on_": "RA event",
    "ou": "https://ra.co/events/2496243",
-   "nb": "leitud sweepis 26.07.2026; kinnitatud RA ürituse- ja venue-lehel (Tšungel)"
+   "nb": "leitud sweepis 26.07.2026; kinnitatud RA ürituse- ja venue-lehel (Tšungel)",
+   "img": "https://klubi.skene.info/pildid/healerrecordscharchsquash.webp"
   },
   {
    "sait": "klubi",
@@ -1595,6 +1703,33 @@
    },
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad TJUUN IN + HALL) ja GateMe piletileht. Täiskoosseis võetud FB-eventi kirjeldusest: suur saal = Rebel Cause showcase, Mesila = Tjuun In residendid.",
    "img": "https://klubi.skene.info/pildid/rebelcausetjuuninhall.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-19",
+   "t": "klubi",
+   "n": "Rütmika: mava b2b klmn @ Bar IDA",
+   "a": "uksed 21.00; mava b2b klmn terve oo",
+   "b": [
+    "mava",
+    "klmn"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "club"
+   ],
+   "sn": "IDA Radio FB",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2267155270767092/",
+   "hind": {
+    "praegu": "tasuta / 5 EUR",
+    "mark": "esimesed 2 tundi tasuta, seejarel 5 EUR; uksel",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta, ainult 'mava b2b klmn all night' - g on ainult 'club', ei leiutanud."
   },
   {
    "sait": "www",
@@ -1901,6 +2036,33 @@
    "img": "https://www.skene.info/pildid/therumjacksaus.webp",
    "on_": "Paavli Kultuurivabrik",
    "ou": "https://paavli.ee/sundmused/the-rumjacks-25-09-26-paavli-kultuurivabrik-tallinn/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-25",
+   "t": "klubi",
+   "n": "Tracked Beats: Eesti 90ndate trackeri-underground",
+   "a": "90ndate Eesti arvutimuusika oo Bar IDA-s: live-esinejad mangivad oma varast loomingut otse trackeri-tarkvarast, voimalik et autentsel 90ndate raual; puldis LaksFM",
+   "b": [
+    "Vonsuck",
+    "Mjak6i Zn2k",
+    "Holycen",
+    "Mr. Neutron",
+    "LaksFM"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "electro",
+    "experimental",
+    "club"
+   ],
+   "sn": "IDA Radio FB",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1584962266610851/",
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR on lehel SONASELGELT kirjas: 90ndate tracker-/moodulmuusika, 'raw modules, crunchy samples, frantic patterns' - Eesti arvuti-underground. Kaaskorraldaja Ilmar Kerm. Hinda lehel ei nimetatud."
   },
   {
    "sait": "www",
@@ -2244,6 +2406,37 @@
     "mark": "uksel",
     "allikas": "paavli.ee uritusleht, kontrollitud 09.09.2026"
    }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-02",
+   "t": "klubi",
+   "n": "Huba Club: Sam Oak (FI) + KEÏDAS (FI) + Rudi",
+   "a": "21.00-03.00, 18+, tasuta sissepaas; Sam Oak kahetunnine dub techno / electro / techno set, KEÏDAS Helsingi house-selektor, veterandiskor Rudi Afro-funk",
+   "b": [
+    "Sam Oak (FIN)",
+    "KEÏDAS (FIN)",
+    "Rudi"
+   ],
+   "v": "Huba Club",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "house",
+    "electro"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/ee/all",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2532395",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "RA event-lehel 'Cost 0', 18+",
+    "allikas": "RA event 2532395, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "PARANDUS 09.09.2026 (Silveri leid): jatsin selle esmalt VALESTI valja pohjendusega 'asukoht kinnitamata', sest vaatasin ainult GraphQL-i valjundit, kus area oli 'All' - urituse ENDA lehel on aadress mustvalgel kirjas: Huba Club, Kalevi tn 13, 3. korrus, 51010 Tartu. Sama viga nagu 02.09 'zanrit pole' juhtum: puudumise vaide tegemine ILMA urituse oma lehte avamata. Kaks allikat: RA event 2532395 (koht, kellaaeg, koosseis, zanrisildid Progressive House / Techno, korraldaja House Garden FINLAND) + huba.club (Tartu alternatiivne kultuuriklubi, Kalevi 13; lmk.ee ja kluub.ee kinnitavad sama aadressi). Huba Club lisatud ka sources.json-i.",
+   "img": "https://klubi.skene.info/pildid/hubaclubsamoakfikeidasfirudi.webp"
   },
   {
    "sait": "www",
@@ -2822,7 +3015,8 @@
     "allikas": "RA event 2528562, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "leitud sweepis 09.09.2026 RA snapshotist. Kaks allikat: RA event 2528562 (zanrisildid House/Garage, koht Bar IDA) + RA Eesti sundmuste loend. Peosari 4KORDA4."
+   "nb": "leitud sweepis 09.09.2026 RA snapshotist. Kaks allikat: RA event 2528562 (zanrisildid House/Garage, koht Bar IDA) + RA Eesti sundmuste loend. Peosari 4KORDA4.",
+   "img": "https://klubi.skene.info/pildid/4korda4mancenl.webp"
   },
   {
    "sait": "klubi",
@@ -3080,7 +3274,15 @@
    "t": "klubi",
    "n": "BEATS 4 DA PEEPS",
    "a": "Legendaarse hiphopi-peosari, algus 22.00",
-   "b": [],
+   "b": [
+    "Critikal",
+    "Bandit",
+    "Tarrvi (Bashment FM)",
+    "Koldun",
+    "Typicalflow",
+    "Propazha",
+    "J.O.C"
+   ],
    "v": "Legendaarne Raadio & Baar",
    "c": "Tallinn",
    "g": [
@@ -3091,8 +3293,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1581962047410599/",
    "lisatud": "2026-09-04",
-   "koosseis_tba": 1,
-   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata."
+   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1581962047410599: DJ-d Critikal, Bandit, Tarrvi (Bashment FM), Koldun; MC-d Typicalflow, Propazha, J.O.C + special guests. Peosari alates 1996. Hinda eventis ei nimetata."
   },
   {
    "sait": "www",

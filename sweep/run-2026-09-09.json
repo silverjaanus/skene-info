@@ -1,0 +1,773 @@
+{
+ "kuupaev": "2026-09-09",
+ "allikaid": 208,
+ "avatud": 18,
+ "skipitud": [
+  {
+   "url": "https://www.facebook.com/barbarestonia/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/we.are.too.damn.loud/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/moisakontsert/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/helitehas/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/pubijuudas/events?locale=et_EE",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/mahtrarecords",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://howlsofwinter.eu/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/fortbar.tallinn/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/ehewinkel/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/300klubi/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/UGbaar/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://wunderbaar.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/exanityofficial/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/ArtClubRoRo/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/stedingukelder/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/festivalimaja/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/urbancultureent/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/BloodBathFest/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://hardrocklaager.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/aprillikivi/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://pergerus.eu/et/tarbariitus/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/uuslaine/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/balticliveagency/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/LTipsAgencyEstonia/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/rada7.ee/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://rada7.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fienta.com/et/o/29285",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/facecollectorband/upcoming_hosted_events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/Plaaditurg/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/metallistid/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/MaiSkizo/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fienta.com/s/kolmnurk",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fringe.ee/tickets/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/permanentblueofficial/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/Violetscape/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/paarlonksu/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://lonksbaar.ee",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/madeinvachina.kimjongun/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.instagram.com/damn.loud/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.instagram.com/tuum.baar/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/eestihiphopfestival/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/uuslaine/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://lukemois.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/rada7.ee/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/clubprive/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/mckrick/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/MastaRobusta/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/tymmisaun/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.instagram.com/eestihiphopfestival/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.instagram.com/tommycashworld/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.instagram.com/nublufy/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.piletilevi.ee/piletid/muusika",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://fienta.com/et?q=r%C3%A4pp",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://www.hiphop.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://esthiphop.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://tartupunch.com/et/avaleht-eesti/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://tourmotor.net",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://fienta.com/et?q=metal",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://somo.social",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://www.kluub.ee",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://onlinepilet.ee",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://gateme.com/et/Estonia/",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://www.piletimaailm.com/categories/1-muusika",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://www.ticketer.ee",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://www.piletilevi.ee/search?query=metal",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://ticketshop.ee/et/events",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://muusikaplaneet.ee/category/singel/",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://tuska.fi/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://steelfest.fi/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://copenhell.dk/en/front-page/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://swedenrock.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.tonsofrock.no/en",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.beyondthegates.no/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://infernofestival.no/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.wacken.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.hellfest.fr",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.graspop.be",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "http://www.summer-breeze.de",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.brutalassault.cz",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.wave-gotik-treffen.de/english/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://meraluna.de/en/",
+   "pohjus": "rahvusvaheline suurfestival: kirje juba olemas, koosseis TBA - madal sagedus, ei avanud"
+  },
+  {
+   "url": "https://www.facebook.com/anemon12tln/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/punknrollhell/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/rollheaven/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/GenKlubi/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/punkrockfestival/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://saund.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/veriorarock.stroganoff/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "Bandcampi tag-otsing: valve check_bandcamp.py katab, sel jooksul ei avanud"
+  },
+  {
+   "url": "https://www.facebook.com/beatsfromthevault/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/AudioPlaneet/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/Arturlaats/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/kakstuba/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://vmpr.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/rada7.ee/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61557037942445&sk=events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/Dzungelparty/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/djreglok/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/tolm.trt/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/veetorniaed/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/cabrioclub/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/erinevatetubadeklubi/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://www.facebook.com/vaipevents/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://ra.co/events/ee/all",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/235784",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://fienta.com/o/17595",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fienta.com/et/o/17330",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fienta.com/et/o/17855",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://fienta.com/et?q=techno",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://ra.co/clubs/265290",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/151795",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://www.d-3.ee/events/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://ra.co/clubs/147536",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://genklubi.ee/events/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://allevents.in/tallinn/raves",
+   "pohjus": "zanri-agnostiline agregaator: ajaeelarve, ei avanud sel jooksul"
+  },
+  {
+   "url": "https://www.facebook.com/satnamest/events",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://estelmus.com/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  },
+  {
+   "url": "https://ra.co/clubs/268078",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/266488",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/277713",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/165290",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/229208",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/289641",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/135627",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/274650",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/171803",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/258847",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/256380",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/clubs/130421",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/114408",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/167566",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/34191",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/168166",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/112914",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/166316",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/114452",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/154074",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/117673",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/126462",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/182414",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/169601",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/152869",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/186216",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/190547",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/191300",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://ra.co/promoters/112333",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 09.09.2026, 21 kirjet) - REEGLID/HANDOVER 2 reegel 15"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "ajaeelarve: ei jounud sel jooksul avada (jooks oli ajakavavaline lisajooks, fookus suurima saagikusega allikatel)"
+  }
+ ],
+ "uusi": {
+  "www": 9,
+  "rap": 1,
+  "klubi": 12
+ },
+ "markus": "Ajakavavaline lisajooks K 09.09 (cron on R 03:06). Kaks vooru: esimene peatus commiti eel, sest repos tootas paralleelne sessioon; Silveri korraldusel viidud lopuni. Silveri otsused samas jooksus: Baby Lasagna VALJA (blocklist), Bar IDA programm SISSE (uus allikas, 4 kirjet), Huba Club Tartus PARANDATUD sisse (esmane valjajatt oli vale - asukoht oli urituse lehel olemas). chainz.ee eemaldatud (surnud, teine kinnitus)."
+}
