@@ -34,3 +34,7 @@ sweep/inbox_heartbeat.json
 # ajutine commit-teate fail (PowerShell soob jutumargid, seega -F)
 _commitmsg.txt
 sweep/_tmp_*
+
+# jooksude ajutised abiskriptid ja logid repo juurkaustas (09.09.2026: tmp_i5.log/.err
+# lipsasid `git add -A`-ga commiti, sest jooksev python hoidis faile ja Remove-Item kukkus)
+tmp_*
