@@ -297,6 +297,36 @@
    "img": "pildid/underthenewmoonvermilia.webp"
   },
   {
+   "d": "2026-09-12",
+   "t": "kontsert",
+   "n": "Giz Medium (FR) + Riste + Qaribou + Sur(m)prise",
+   "a": "Folkpunk-õhtu Ülase12-s, esinejad Prantsusmaalt ja Eestist; uksed 19.00, lõpp 23.00",
+   "b": [
+    "Giz Medium (FR)",
+    "Riste",
+    "Qaribou",
+    "Sur(m)prise"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "folk",
+    "alt"
+   ],
+   "sn": "Anemon12 (FB events)",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1090644030140827/",
+   "hind": {
+    "praegu": "5 € / 7 €",
+    "mark": "korraldaja sõnastuses „support või damage\": tavaliselt 7 €, õpilastele ja „muudele salapärastele inimestele\" 5 €; ainult uksel",
+    "allikas": "FB eventi kirjeldus, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "⚠ PARANDUS 09.09.2026 — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. 04.09 sweep väitis „žanrit ei ole kuskil kirjas\" ja kirje jäi selle pärast välja. VÄIDE OLI VALE: žanr ON ürituse enda FB-kirjelduses kaks korda kirjas — „12.09 tuleb folkpunk muusikat erinevatest euroopanurkadest\" ja „Giz Medium on prantsusmaalt pärit folkpunk artist\". Tekst oli „See more\" taga (sama lõks nagu 08.09 Kuriks ja 05.08 Face Collector) — täistekst tuli DOM-ist. Folkpunk = punk, REEGLID §1 järgi selgelt peasaidi skoobis; sama profiil nagu 05.09 „Alanud on sügis\" kirjel samast majast. Kahe allika reegel täidetud: (1) FB event facebook.com/events/1090644030140827 (L 12.09.2026 19.00-23.00, Ülase tn 12, korraldaja Anemon12, 89 vastanut, hind ja uksekell kirjelduses) + (2) allevents.in sama kuupäev/kellaaeg/koht + Ülase12 oma IG (@ylase12) sama tekst. Esinejate omad lehed: busstoppress.bandcamp.com (Giz Medium, Bus Stop Press) ja qaribou.bandcamp.com/album/mu-korteris-on-gaasileke (Qaribou). Online-piletimüüki ei ole, hind on uksel → `pu` tühi. Silver saab tagasi pöörata (\"1b\" → kustuta + pane blokk tagasi)."
+  },
+  {
    "d": "2026-09-13",
    "lisatud": "2026-09-02",
    "t": "muu",

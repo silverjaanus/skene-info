@@ -163,6 +163,30 @@ vaikeotsuse reegel on HANDOVER §2 reeglis 16: otsustusmeilid on nummerdatud KOO
 (kõik lahtised küsimused, uued [UUS]); Silver saab vastata OTSE meilile ("1a, 2b") ja
 postkastijooks rakendab; **5 päeva** vastuseta → status quo jääb kehtima, tagasipööratavalt.
 
+### ⚠⚠ OTSELINK ON KOHUSTUSLIK — KEHTIB KA KOKKUVÕTETELE (Silver 09.09.2026)
+
+**Iga kord, kui mainid Silverile ühte konkreetset üritust — ükskõik mis kirjas, ükskõik kas
+küsid, teatad või ainult raporteerid — peab selle ürituse juures olema OTSELINK ÜRITUSE ENDA
+LEHELE.** Reegel ei piirdu lahtiste küsimustega: see kehtib ka **rakendunud vaikeotsuste,
+lisatud kirjete, väljajäetute ja "mis tehtud" kokkuvõtete** kohta.
+
+- **Otselink = ürituse OMA leht:** `facebook.com/events/<id>`, Fienta/Piletitasku/Piletilevi/
+  Ticketer ürituseleht, RA event, venue ürituseleht. **EI kõlba:** korraldaja või venue
+  esileht ega events-tab (`/events`, `/sundmused`), piletimüüja otsingutulemus, agregaatori
+  kataloogileht. Need on avastusallikad (`su`/`sn`), mitte kontroll-lingid.
+- **Väljajäetud üritusel peab link olema SAMUTI.** Silver ei saa väljajätmist üle kontrollida,
+  kui ta ei näe, mis üritusest jutt käib. „Jäi välja, žanr kinnitamata" ilma lingita on kasutu.
+- **Iga punkt ütleb ka, MIS see üritus on** (žanr/formaat), **millal ja kus** — mitte ainult
+  esinejate nimed. Paljas nimi + otsus = reegli rikkumine.
+- Kui otselinki EI ÕNNESTU leida, kirjuta see välja („otselinki ei leidnud, otsisin X, Y, Z")
+  — see on ise info. Ära jäta lünka vaikselt.
+
+**Miks (09.09.2026):** vaikeotsuste kiri loetles viis üritust, millest kolmel polnud ühtegi
+linki. Silver: „näiteks number 1 — mis see on ja miks see välja jäi? sa pidid alati panema
+mulle ka lingi, et ma saaks kontrollida." Kui link OLEKS kirjas olnud, oleks kohe näha olnud,
+et punkt 1 jäi välja vale väite alusel — žanr (folkpunk) seisis ürituse enda kirjelduses.
+Lingi puudumine ei ole vormiviga: see PEIDAB sisulised vead.
+
 ## 9. Žanrisildid
 
 www lame nimekiri: `rock, metal, death, black, thrash, doom, sludge, grind, stoner,
