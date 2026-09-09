@@ -934,8 +934,21 @@
    "d": "2026-10-03",
    "t": "festival",
    "n": "Raskemuusika Esitluspäev 6",
-   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev Tapperis; bändidele avatud registreerimine (raskemuusika.ee), koosseis selgumisel",
-   "b": [],
+   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev: 12 esinejat, 12 Eesti raskemuusika reliisi aastast 2026. Igal bändil 20 min lava, vahetuste ajal linastuvad Eesti uuemad muusikavideod. Tharaphita ja Pantokraator EI mängi kontsertkava, vaid annavad kohapeal avaliku intervjuu oma albumist; ülejäänud 10 esinevad live'is. Uksed 17.00, esimene bänd 17.20, kava ~keskööni; kohapeal muusika- ja nännimüük (ka kaardimakse). Vanusepiiranguta, kuni 15-aastastele (k.a) tasuta",
+   "b": [
+    "Tharaphita",
+    "Pantokraator",
+    "Laura Prits",
+    "Freakangel",
+    "Surrogoat",
+    "The Primer",
+    "Artifer",
+    "Diversion Ends",
+    "Sunkiller",
+    "Fumantum",
+    "Kurivaim",
+    "Mobisa Mobisa"
+   ],
    "v": "Rockclub Tapper",
    "c": "Tallinn",
    "g": [
@@ -946,10 +959,14 @@
    "su": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/27546912968307481/",
-   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper; lineup TBA (registreerimine www.raskemuusika.ee); FB kellaaeg 05.00 on ilmselt vale/placeholder | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 04.09.2026 sweep: Fienta piletileht avatud (raskemuusika-esitluspaev-6), pu lisatud; koosseis endiselt avaldamata.",
+   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. | 04.09.2026 sweep: Fienta piletileht avatud, pu lisatud. | 09.09.2026 (Silveri sisend, Estonianmetal.com FB plakat): TAISKOOSSEIS AVALDATUD — 12 esinejat, `koosseis_tba` maha voetud. Kaks allikat: Fienta ametlik urituseleht (loetleb koik 12 + nende 2026. a reliisid, tahestikus) + korraldaja plakat (sama 12, billing-jarjekorras — `b` jargib plakatit). ⚠ Tharaphita ja Pantokraator on kavas INTERVJUUDENA, mitte live-kavaga (Fienta tekst) — seetottu on see `a`-valjas kirjas, et koosseisurida ei eksitaks. ⚠ VARASEM KAHTLUS LAHENDATUD: kirjes seisis 'FB kellaaeg 05.00 on ilmselt vale/placeholder' — 09.09 seisuga naitab FB event 5 PM ja Fienta 17:00–23:55, st algus on 17.00 ja vastuolu ei ole.",
    "img": "pildid/raskemuusikaesitluspaev6.webp",
-   "koosseis_tba": 1,
-   "pu": "https://fienta.com/et/raskemuusika-esitluspaev-6"
+   "pu": "https://fienta.com/et/raskemuusika-esitluspaev-6",
+   "hind": {
+    "praegu": "12€",
+    "mark": "eelmüügi sooduspilet kuni 25.09.2026; kuni 15-aastastele (k.a) tasuta; hilisemat hinda pole veel avaldatud",
+    "allikas": "Fienta, kontrollitud 09.09.2026"
+   }
   },
   {
    "d": "2026-10-03",
@@ -1021,6 +1038,36 @@
   },
   {
    "d": "2026-10-09",
+   "t": "kontsert",
+   "n": "Singer Vinger + Sõpruse Puiestee",
+   "a": "Eesti punk-roki ja indie legendid ühel õhtul; uksed 19.00, algus 20.00",
+   "b": [
+    "Singer Vinger",
+    "Sõpruse Puiestee"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "Helitehas (FB events)",
+   "su": "https://www.facebook.com/helitehas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1408381801148375/",
+   "pu": "https://www.piletitasku.ee/et/event/10151",
+   "hind": {
+    "praegu": "31,90 € / 47,90 €",
+    "mark": "tavapilet 29 € + teenustasu = 31,90 €; VIP 45 € + teenustasu = 47,90 € (eraldi sissepääs, garderoob, rõdu, baar, WC)",
+    "allikas": "Piletitasku, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "SULGEB HANDOVER §4 punkti 3 — VAIKEOTSUS (a) www rakendus 09.09.2026 (küsitud 04.09 koondkirjas, 5 päeva vastuseta; §2 reegel 16). Postkastijooks 09.09 kontrollis žanri üle enne lisamist: Helitehase OMA ürituselehe tekst ütleb sõna-sõnalt \"Singer Vingeri kompromissitu punk-rock-energia\" ja \"Eesti rock- ja indiemuusika kaks suurt legendi\" — kitarripõhine punk/alt, EI ole peavoolu-popprokk (REEGLID §1 piir Terminaator/Smilers-klass ei kohaldu). Kaks sõltumatut allikat: helitehas.ee/facebook-event/singer-vinger-ja-sopruse-puiestee-9-oktoobril-helitehases/ (venue oma leht, uksed 19.00) + Piletitasku event/10151 (R 09.10.2026 20.00, Madara 22a, sissepääs 19.00, hinnad 31,90/47,90 €, korraldaja E&H ENTERTAINMENT OÜ) + FB event 1408381801148375. ⚠ Piletitasku kirjelduses on korraldaja näpukas \"neljapäeval\" — 09.10.2026 on REEDE, nii päise kuupäev kui FB event kinnitavad reedet. Silver saab otsuse tagasi pöörata (\"3b\" → kustuta + blocklist).",
+   "img": "pildid/singervingersoprusepuiestee.webp"
+  },
+  {
+   "d": "2026-10-09",
    "d2": "10.10",
    "t": "festival",
    "n": "Tarbariitus",
@@ -1057,36 +1104,6 @@
    "a": "Tartu black metal festival; 12 bändi kinnitatud (sh Tuisk EST, H8blst LIT industrial black), rohkem tulekul",
    "nb": "koosseis täienes 19.07.2026 sweepis (pergerus.eu: +Tuisk, +H8blst); rohkem bände tulekul | 07.08.2026 sweep: pergerus.eu/et/tarbariitus koosseisuleht loetleb 14 bändi (varem kirjes 12) + märkus \"Rohkem bände tulekul!\" — b viidud lehe seisu.",
    "img": "pildid/tarbariitus.webp"
-  },
-  {
-   "d": "2026-10-09",
-   "t": "kontsert",
-   "n": "Singer Vinger + Sõpruse Puiestee",
-   "a": "Eesti punk-roki ja indie legendid ühel õhtul; uksed 19.00, algus 20.00",
-   "b": [
-    "Singer Vinger",
-    "Sõpruse Puiestee"
-   ],
-   "v": "Helitehas",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "rock",
-    "alt"
-   ],
-   "sn": "Helitehas (FB events)",
-   "su": "https://www.facebook.com/helitehas/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1408381801148375/",
-   "pu": "https://www.piletitasku.ee/et/event/10151",
-   "hind": {
-    "praegu": "31,90 € / 47,90 €",
-    "mark": "tavapilet 29 € + teenustasu = 31,90 €; VIP 45 € + teenustasu = 47,90 € (eraldi sissepääs, garderoob, rõdu, baar, WC)",
-    "allikas": "Piletitasku, kontrollitud 09.09.2026"
-   },
-   "lisatud": "2026-09-09",
-   "nb": "SULGEB HANDOVER §4 punkti 3 — VAIKEOTSUS (a) www rakendus 09.09.2026 (küsitud 04.09 koondkirjas, 5 päeva vastuseta; §2 reegel 16). Postkastijooks 09.09 kontrollis žanri üle enne lisamist: Helitehase OMA ürituselehe tekst ütleb sõna-sõnalt \"Singer Vingeri kompromissitu punk-rock-energia\" ja \"Eesti rock- ja indiemuusika kaks suurt legendi\" — kitarripõhine punk/alt, EI ole peavoolu-popprokk (REEGLID §1 piir Terminaator/Smilers-klass ei kohaldu). Kaks sõltumatut allikat: helitehas.ee/facebook-event/singer-vinger-ja-sopruse-puiestee-9-oktoobril-helitehases/ (venue oma leht, uksed 19.00) + Piletitasku event/10151 (R 09.10.2026 20.00, Madara 22a, sissepääs 19.00, hinnad 31,90/47,90 €, korraldaja E&H ENTERTAINMENT OÜ) + FB event 1408381801148375. ⚠ Piletitasku kirjelduses on korraldaja näpukas \"neljapäeval\" — 09.10.2026 on REEDE, nii päise kuupäev kui FB event kinnitavad reedet. Silver saab otsuse tagasi pöörata (\"3b\" → kustuta + blocklist).",
-   "img": "pildid/singervingersoprusepuiestee.webp"
   },
   {
    "d": "2026-10-10",

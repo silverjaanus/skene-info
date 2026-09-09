@@ -2042,8 +2042,21 @@
    "d": "2026-10-03",
    "t": "festival",
    "n": "Raskemuusika Esitluspäev 6",
-   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev Tapperis; bändidele avatud registreerimine (raskemuusika.ee), koosseis selgumisel",
-   "b": [],
+   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev: 12 esinejat, 12 Eesti raskemuusika reliisi aastast 2026. Igal bändil 20 min lava, vahetuste ajal linastuvad Eesti uuemad muusikavideod. Tharaphita ja Pantokraator EI mängi kontsertkava, vaid annavad kohapeal avaliku intervjuu oma albumist; ülejäänud 10 esinevad live'is. Uksed 17.00, esimene bänd 17.20, kava ~keskööni; kohapeal muusika- ja nännimüük (ka kaardimakse). Vanusepiiranguta, kuni 15-aastastele (k.a) tasuta",
+   "b": [
+    "Tharaphita",
+    "Pantokraator",
+    "Laura Prits",
+    "Freakangel",
+    "Surrogoat",
+    "The Primer",
+    "Artifer",
+    "Diversion Ends",
+    "Sunkiller",
+    "Fumantum",
+    "Kurivaim",
+    "Mobisa Mobisa"
+   ],
    "v": "Rockclub Tapper",
    "c": "Tallinn",
    "g": [
@@ -2054,10 +2067,14 @@
    "su": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/27546912968307481/",
-   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper; lineup TBA (registreerimine www.raskemuusika.ee); FB kellaaeg 05.00 on ilmselt vale/placeholder | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 04.09.2026 sweep: Fienta piletileht avatud (raskemuusika-esitluspaev-6), pu lisatud; koosseis endiselt avaldamata.",
+   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. | 04.09.2026 sweep: Fienta piletileht avatud, pu lisatud. | 09.09.2026 (Silveri sisend, Estonianmetal.com FB plakat): TAISKOOSSEIS AVALDATUD — 12 esinejat, `koosseis_tba` maha voetud. Kaks allikat: Fienta ametlik urituseleht (loetleb koik 12 + nende 2026. a reliisid, tahestikus) + korraldaja plakat (sama 12, billing-jarjekorras — `b` jargib plakatit). ⚠ Tharaphita ja Pantokraator on kavas INTERVJUUDENA, mitte live-kavaga (Fienta tekst) — seetottu on see `a`-valjas kirjas, et koosseisurida ei eksitaks. ⚠ VARASEM KAHTLUS LAHENDATUD: kirjes seisis 'FB kellaaeg 05.00 on ilmselt vale/placeholder' — 09.09 seisuga naitab FB event 5 PM ja Fienta 17:00–23:55, st algus on 17.00 ja vastuolu ei ole.",
    "img": "https://www.skene.info/pildid/raskemuusikaesitluspaev6.webp",
-   "koosseis_tba": 1,
-   "pu": "https://fienta.com/et/raskemuusika-esitluspaev-6"
+   "pu": "https://fienta.com/et/raskemuusika-esitluspaev-6",
+   "hind": {
+    "praegu": "12€",
+    "mark": "eelmüügi sooduspilet kuni 25.09.2026; kuni 15-aastastele (k.a) tasuta; hilisemat hinda pole veel avaldatud",
+    "allikas": "Fienta, kontrollitud 09.09.2026"
+   }
   },
   {
    "sait": "www",
