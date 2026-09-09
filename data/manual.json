@@ -934,6 +934,36 @@
  {
   "d": "2026-09-12",
   "t": "kontsert",
+  "n": "Giz Medium (FR) + Riste + Qaribou + Sur(m)prise",
+  "a": "Folkpunk-õhtu Ülase12-s, esinejad Prantsusmaalt ja Eestist; uksed 19.00, lõpp 23.00",
+  "b": [
+   "Giz Medium (FR)",
+   "Riste",
+   "Qaribou",
+   "Sur(m)prise"
+  ],
+  "v": "Ülase12",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "folk",
+   "alt"
+  ],
+  "sn": "Anemon12 (FB events)",
+  "su": "https://www.facebook.com/anemon12tln/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1090644030140827/",
+  "hind": {
+   "praegu": "5 € / 7 €",
+   "mark": "korraldaja sõnastuses „support või damage\": tavaliselt 7 €, õpilastele ja „muudele salapärastele inimestele\" 5 €; ainult uksel",
+   "allikas": "FB eventi kirjeldus, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "⚠ PARANDUS 09.09.2026 — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. 04.09 sweep väitis „žanrit ei ole kuskil kirjas\" ja kirje jäi selle pärast välja. VÄIDE OLI VALE: žanr ON ürituse enda FB-kirjelduses kaks korda kirjas — „12.09 tuleb folkpunk muusikat erinevatest euroopanurkadest\" ja „Giz Medium on prantsusmaalt pärit folkpunk artist\". Tekst oli „See more\" taga (sama lõks nagu 08.09 Kuriks ja 05.08 Face Collector) — täistekst tuli DOM-ist. Folkpunk = punk, REEGLID §1 järgi selgelt peasaidi skoobis; sama profiil nagu 05.09 „Alanud on sügis\" kirjel samast majast. Kahe allika reegel täidetud: (1) FB event facebook.com/events/1090644030140827 (L 12.09.2026 19.00-23.00, Ülase tn 12, korraldaja Anemon12, 89 vastanut, hind ja uksekell kirjelduses) + (2) allevents.in sama kuupäev/kellaaeg/koht + Ülase12 oma IG (@ylase12) sama tekst. Esinejate omad lehed: busstoppress.bandcamp.com (Giz Medium, Bus Stop Press) ja qaribou.bandcamp.com/album/mu-korteris-on-gaasileke (Qaribou). Online-piletimüüki ei ole, hind on uksel → `pu` tühi. Silver saab tagasi pöörata (\"1b\" → kustuta + pane blokk tagasi)."
+ },
+ {
+  "d": "2026-09-12",
+  "t": "kontsert",
   "n": "KURIKS @ Wunderbaar",
   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, uksed 20.00, live 22.00",
   "b": [
@@ -984,9 +1014,9 @@
  {
   "d": "2026-09-12",
   "t": "kontsert",
-  "n": "Under the New Moon: Vermilia",
+  "n": "Under the New Moon - Tallinn: Vermilia (FI) + Aether (PL) + Pagansarv & Bestia",
   "b": [
-   "Vermilia (FI)",
+   "Vermilia (FIN)",
    "Aether (PL)",
    "Pagansarv",
    "Bestia"
@@ -999,9 +1029,11 @@
   ],
   "sn": "Bandsintown",
   "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
-  "pu": "https://fienta.com/et/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
-  "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu.",
-  "img": "pildid/underthenewmoonvermilia.webp"
+  "pu": "https://fienta.com/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
+  "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu. | 09.09.2026 sweep: TAISKOOSSEIS + pilet. Rockclub Tapperi FB events-tab naitab urituse taisnime, milles on peale Vermilia veel Aether (PL) ning Pagansarv & Bestia; kirjes oli varem ainult Vermilia. Kaks allikat: FB event 2217604032409882 (kaaskorraldajad Vermilia + Estonianmetal.com) + Fienta piletileht.",
+  "img": "pildid/underthenewmoonvermilia.webp",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2217604032409882/"
  },
  {
   "d": "2026-09-13",
@@ -1038,8 +1070,8 @@
   "b": [
    "Cenotaph (MEX)",
    "Cryptworm (UK)",
-   "Deceitome",
-   "Hirmuvalitseja"
+   "Hirmuvalitseja",
+   "Deceitome"
   ],
   "v": "Kotka Kultuurimaja",
   "c": "Tallinn",
@@ -1053,9 +1085,14 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1053510844098253/",
   "lisatud": "2026-08-21",
-  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (13.09.2026, Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab; kolmas kinnitus Killtown Bookingsi tuurimarsruut. ⚠ FB event määrab asukohaks 'Kohtla-Järve' — see on vale silt, saal on Kotka Kultuurimaja (Ööbiku 1a, Tallinn), nagu ütleb Metal Storm ja maja enda leht. Pilet avaldamata. | 04.09.2026 sweep: pilet avanes Fientas (fienta.com/et/cenotaph), pu lisatud.",
+  "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (13.09.2026, Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab; kolmas kinnitus Killtown Bookingsi tuurimarsruut. ⚠ FB event määrab asukohaks 'Kohtla-Järve' — see on vale silt, saal on Kotka Kultuurimaja (Ööbiku 1a, Tallinn), nagu ütleb Metal Storm ja maja enda leht. Pilet avaldamata. | 04.09.2026 sweep: pilet avanes Fientas (fienta.com/et/cenotaph), pu lisatud. | 09.09.2026 sweep: TAISKOOSSEIS. Kotka Kultuurimaja FB event nimetab lisaks Cenotaphile ja Cryptwormile ka Hirmuvalitseja (black/death) ja UUE KOOSSEISUGA esmakordselt ules astuva Deceitome. Lisaks uksehind 15 EUR ja uksed 19.00 (Killtown Bookings koostoo).",
   "img": "pildid/odorofdecayovereuropecenotaphmexcryptwormuk.webp",
-  "pu": "https://fienta.com/et/cenotaph"
+  "pu": "https://fienta.com/et/cenotaph",
+  "hind": {
+   "praegu": "15 EUR",
+   "mark": "uksel; uksed 19.00",
+   "allikas": "Kotka Kultuurimaja FB event, kontrollitud 09.09.2026"
+  }
  },
  {
   "d": "2026-09-16",
@@ -1138,7 +1175,37 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1691261979575197/",
   "lisatud": "2026-09-04",
-  "nb": "leitud sweepis 04.09.2026 Kidrakuuri FB events-tabist (kirje looja on Kidrakuur ise). Zanr tuletatud venue'st (kitarriklubi) ja bandi nimest - TEINE ALLIKAS PUUDU, vt HANDOVER §4."
+  "nb": "leitud sweepis 04.09.2026 Kidrakuuri FB events-tabist (kirje looja on Kidrakuur ise). Zanr tuletatud venue'st (kitarriklubi) ja bandi nimest - TEINE ALLIKAS PUUDU, vt HANDOVER §4. | 09.09.2026 sweep: pilet TULI - Fienta (brait-pilvik-band), link Kidrakuuri FB eventist. Uksed 20.00, band ca 21.00.",
+  "pu": "https://fienta.com/et/brait-pilvik-band",
+  "img": "pildid/braitpilvikband.webp"
+ },
+ {
+  "d": "2026-09-17",
+  "t": "kontsert",
+  "n": "Taste of Moth (FIN) x Morbitech",
+  "a": "uksed 20.00, sissepaas 5 EUR; Tampere alt-metal (Veli-Matti Lappi, Juho Karihuhta, Roni Kulmala, Joona Keronen, Johannes Laitila) + Louna-Eesti death metal",
+  "b": [
+   "Taste of Moth (FIN)",
+   "Morbitech"
+  ],
+  "v": "Konservatoorium",
+  "c": "Viljandi",
+  "g": [
+   "metal",
+   "alt",
+   "death"
+  ],
+  "sn": "Konservatoorium FB",
+  "su": "https://www.facebook.com/konservatoorium/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1396406555347258/",
+  "hind": {
+   "praegu": "5 EUR",
+   "mark": "uksel",
+   "allikas": "Konservatooriumi FB-postitus, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "lisatud sweepis 09.09.2026. Kaks allikat: Konservatooriumi FB event (kaaskorraldaja Kaleo Ghidora, taiskoosseis liikmenimedega) + Konservatooriumi enda FB-postitus (uksed 20.00, sissepaas 5 EUR), lisaks allevents.in kirje. TAHELEPANU / JALGIMISPUNKT: google.ee otsing tostis esile Taste of Mothi IG-postituse tekstiga 'Unfortunately Morbitech had to cancel the show at Viljandi' - postituse kuupaev jai tuvastamata ja Konservatooriumi OMA postitus (3 paeva vana) nimetab Morbitechi endiselt kavas. Jatsin b-sse molemad venue enda varskeima teate jargi; kontrolli jargmises sweepis uritusesehe uuesti."
  },
  {
   "d": "2026-09-18",
@@ -1341,6 +1408,30 @@
  {
   "d": "2026-09-25",
   "t": "kontsert",
+  "n": "Heavy Friday: KRANG (CZ) + ELUKAS (EE)",
+  "a": "uksed 20.00, bandid 22.00, 00.00 tasuta aftekas",
+  "b": [
+   "KRANG (CZ)",
+   "Elukas"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "metal",
+   "rock"
+  ],
+  "sn": "The Krypt (FB events)",
+  "su": "https://www.facebook.com/thekrypt.tallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1637504547963967/",
+  "pu": "https://fienta.com/et/krang-elukas-thekrypt",
+  "lisatud": "2026-09-09",
+  "nb": "manuaalkirje 09.09.2026: uritus tuli juba auto-allikast (thekrypt.ee), AGA ilma piletilingita. Ainus eesmark on lisada pu + ajakava. Kaks allikat: FB event (kaaskorraldajad The Krypt + Rada7.ee) + Fienta piletileht.",
+  "img": "pildid/heavyfridaykrangczelukasee.webp"
+ },
+ {
+  "d": "2026-09-25",
+  "t": "kontsert",
   "n": "MAI SKIZO @ 300",
   "a": "Väike tasuta kontsert enne albumi «Valu mõte» tutvustustuuri — bänd laval umbes 22.00, kavas suur osa praegusest repertuaarist. Koha peal saab osta bändi nänni ja uut albumit nii vinüülil kui CD-l. 300 on väike koht, tasub varem kohal olla",
   "b": [
@@ -1391,8 +1482,10 @@
    "mark": "kiireim 20€, tavaeelmuuk 25€, urituse paeval 30€",
    "allikas": "Piletilevi, kontrollitud 28.07.2026"
   },
-  "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole",
-  "img": "pildid/therumjacksaus.webp"
+  "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht (varem oli ainult avastusallikas).",
+  "img": "pildid/therumjacksaus.webp",
+  "on_": "Paavli Kultuurivabrik",
+  "ou": "https://paavli.ee/sundmused/the-rumjacks-25-09-26-paavli-kultuurivabrik-tallinn/"
  },
  {
   "d": "2026-09-25",
@@ -1500,6 +1593,29 @@
   "img": "pildid/lainelivekurjamzlo.webp"
  },
  {
+  "d": "2026-09-26",
+  "t": "kontsert",
+  "n": "Metal Saturday: Riser + Arestor",
+  "a": "uksed 20.00, bandid 22.00, 00.00 tasuta aftekas",
+  "b": [
+   "Riser",
+   "Arestor"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "metal"
+  ],
+  "sn": "The Krypt (FB events)",
+  "su": "https://www.facebook.com/thekrypt.tallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1406946311286428/",
+  "pu": "https://fienta.com/et/riser-arestor-thekrypt",
+  "lisatud": "2026-09-09",
+  "nb": "manuaalkirje 09.09.2026: uritus tuli juba auto-allikast (thekrypt.ee) ilma piletilingita; siin lisatud pu + ajakava. Kaks allikat: FB event + Fienta piletileht.",
+  "img": "pildid/metalsaturdayriserarestor.webp"
+ },
+ {
   "d": "2026-09-27",
   "lisatud": "2026-09-02",
   "t": "muu",
@@ -1544,6 +1660,59 @@
   "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis. | 04.09.2026 sweep: Konservatooriumi FB events-tabist leitud urituse enda event (1415447317294805), ou lisatud. Tuuri Tallinna kuupaev 26.09 MOD on nuud ERALDI kirje.",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1415447317294805/"
+ },
+ {
+  "d": "2026-10-02",
+  "t": "kontsert",
+  "n": "Black metal Friday: Nocturnal Exorcism (FI) + Grom",
+  "a": "uksed 20.00, show 22.00, 00.00 tasuta aftekas; Sugis Productions toob Nocturnal Exorcismi esimest korda Eestisse",
+  "b": [
+   "Nocturnal Exorcism (FIN)",
+   "Grom"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "metal"
+  ],
+  "sn": "Sugis Productions FB",
+  "su": "https://www.facebook.com/sugisproductions/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2971837509858151/",
+  "pu": "https://fienta.com/et/nocturnalexorcism-grom-thekrypt",
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026. Kaks allikat: FB event (kaaskorraldajad The Krypt + Nocturnal Exorcism) + Fienta piletileht. Nocturnal Exorcism moodustatud Soomes 2024 (bandcamp), Grom Tallinnast 1997.",
+  "img": "pildid/blackmetalfridaynocturnalexorcismfigrom.webp"
+ },
+ {
+  "d": "2026-10-02",
+  "t": "kontsert",
+  "n": "Skoone & Friends - Mexican Tour Fundraiser",
+  "a": "Damn.Loud Agency esitleb; sissepaas annetuspohine, miinimum 5 EUR, kogu tulu Skoone Mehhiko tuuri toetuseks; kolmas esineja veel kinnitamata",
+  "b": [
+   "Skoone",
+   "Paskontrole (LV)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "core"
+  ],
+  "sn": "Paavli Kultuurivabrik",
+  "su": "https://paavli.ee/sundmused/",
+  "on_": "Paavli Kultuurivabrik",
+  "ou": "https://paavli.ee/sundmused/skoone-friends-mexican-tour-fundraiser/",
+  "hind": {
+   "praegu": "alates 5 EUR",
+   "mark": "annetuspohine sissepaas, miinimum 5 EUR",
+   "allikas": "paavli.ee uritusleht, kontrollitud 09.09.2026"
+  },
+  "koosseis_tba": 1,
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 paavli.ee sundmuste lehelt. Kaks allikat: paavli.ee uritusleht + Paavli FB event (viidatud lehelt). Line-up on lehel kirjas kujul 'Skoone / Paskontrole (LV) / + TBA' -> koosseis_tba jaab kuni kolmas nimi avaldatakse. Skoone = 80ndate hardcore punk, Paskontrole = Lati hardcore punk.",
+  "img": "pildid/skoonefriendsmexicantourfundraiser.webp"
  },
  {
   "d": "2026-10-02",
@@ -1775,6 +1944,30 @@
   "a": "Tartu black metal festival; 12 bändi kinnitatud (sh Tuisk EST, H8blst LIT industrial black), rohkem tulekul",
   "nb": "koosseis täienes 19.07.2026 sweepis (pergerus.eu: +Tuisk, +H8blst); rohkem bände tulekul | 07.08.2026 sweep: pergerus.eu/et/tarbariitus koosseisuleht loetleb 14 bändi (varem kirjes 12) + märkus \"Rohkem bände tulekul!\" — b viidud lehe seisu.",
   "img": "pildid/tarbariitus.webp"
+ },
+ {
+  "d": "2026-10-10",
+  "t": "kontsert",
+  "n": "Doomed Saturday: Taak + Procession (LV)",
+  "a": "uksed 20.00, show 22.00, 00.00 tasuta aftekas; Sugis Productions",
+  "b": [
+   "Taak",
+   "Procession (LV)"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "doom",
+   "metal"
+  ],
+  "sn": "Sugis Productions FB",
+  "su": "https://www.facebook.com/sugisproductions/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1801945377483453/",
+  "pu": "https://fienta.com/et/taak-procession-thekrypt",
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026. Kaks allikat: FB event (kaaskorraldajad The Krypt + Taak) + Fienta piletileht.",
+  "img": "pildid/doomedsaturdaytaakprocessionlv.webp"
  },
  {
   "d": "2026-10-10",
@@ -2063,6 +2256,36 @@
   "img": "pildid/suddenlightslv.webp"
  },
  {
+  "d": "2026-10-30",
+  "t": "kontsert",
+  "n": "Tuur 20 Raisk: Elukas + Sulferdust (FIN) + Raisk",
+  "a": "RAISK 20. juubelituur; 20.00 uksed, 21.00 Elukas, 22.00 Sulferdust (FIN), 23.00 Raisk",
+  "b": [
+   "Elukas",
+   "Sulferdust (FIN)",
+   "Raisk"
+  ],
+  "v": "Kidrakuur",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "punk"
+  ],
+  "sn": "Kidrakuur Kultuuriklubi FB",
+  "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1408077784590238/",
+  "pu": "https://fienta.com/et/tuur-20-raisk",
+  "hind": {
+   "praegu": "15-20 EUR",
+   "mark": "Fienta eelmuuk 15 EUR, kohapeal 20 EUR",
+   "allikas": "FB event, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 Kidrakuuri FB events-tabist. Kaks allikat: FB event (korraldajad RAISK + Elukas) + Fienta piletileht. Tuuri teine kuupaev (Tartu/Parnu/Rakvere/Viljandi) oli 09.09 seisuga veel lahtine - kontrolli jargmistes sweepides.",
+  "img": "pildid/tuur20raiskelukassulferdustfinraisk.webp"
+ },
+ {
   "d": "2026-11-07",
   "t": "kontsert",
   "n": "Metal Saturday: Surrogoat + Dead Shape Figure (FI)",
@@ -2181,8 +2404,10 @@
   "sn": "Fienta (Paavli Kultuurivabrik)",
   "su": "https://fienta.com/gong-tallinn",
   "pu": "https://fienta.com/gong-tallinn",
-  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-  "img": "pildid/paavlilivegonguk.webp"
+  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht.",
+  "img": "pildid/paavlilivegonguk.webp",
+  "on_": "Paavli Kultuurivabrik",
+  "ou": "https://paavli.ee/sundmused/paavli%e2%80%a4live-gong-uk/"
  },
  {
   "d": "2026-11-17",
@@ -2266,6 +2491,33 @@
   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avanes 22.08.2026 — Fienta ürituseleht (Paavli org 17595), lisatud pu. | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle.",
   "pu": "https://fienta.com/wyatte-five-the-hierophant-tallinn",
   "img": "pildid/wyattebefivethehierophantuk.webp"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "kontsert",
+  "n": "Burn Still XX Anniversary",
+  "a": "Damn.Loud Agency esitleb; Eesti hardcore'i uks nimekamaid bande tahistab 20. tegutsemisaastat erikulalistega. Lowfuture toob lavale albumi 'III' taies mahus",
+  "b": [
+   "Burn Still",
+   "Out of Breath (FIN)",
+   "Lowfuture",
+   "Nooseweight (LT)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "core",
+   "metal",
+   "punk"
+  ],
+  "sn": "Paavli Kultuurivabrik",
+  "su": "https://paavli.ee/sundmused/",
+  "on_": "Paavli Kultuurivabrik",
+  "ou": "https://paavli.ee/sundmused/burn-still-xx-anniversary/",
+  "pu": "https://fienta.com/et/burn-still-xx-paavli",
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026. Kaks allikat: paavli.ee uritusleht (taiskoosseis 4 bandi) + Fienta piletileht. Taiskoosseisu reegel: lehel olid koik neli, mitte ainult peaesineja.",
+  "img": "pildid/burnstillxxanniversary.webp"
  },
  {
   "d": "2026-11-30",
@@ -2406,7 +2658,33 @@
   "su": "https://metalstorm.net/events/event.php?event_id=235376",
   "img": "pildid/theoceanpsychonautpothamus.webp",
   "pu": "https://fienta.com/et/the-ocean-psychonaut-pothamus-paavli-tallinn",
-  "nb": "10.08.2026 sweep: piletilink lisatud (Fienta)"
+  "nb": "10.08.2026 sweep: piletilink lisatud (Fienta) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht.",
+  "on_": "Paavli Kultuurivabrik",
+  "ou": "https://paavli.ee/sundmused/the-ocean-de-psychonaut-be-pothamus-be/"
+ },
+ {
+  "d": "2026-12-12",
+  "t": "kontsert",
+  "n": "Rotting Christ (GR)",
+  "a": "Damn.Loud Agency esitleb; Kreeka black metali suurkujud, esineja(d) soojenduseks veel kinnitamata",
+  "b": [
+   "Rotting Christ (GR)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "metal",
+   "extreme"
+  ],
+  "sn": "Paavli Kultuurivabrik",
+  "su": "https://paavli.ee/sundmused/",
+  "on_": "Paavli Kultuurivabrik",
+  "ou": "https://paavli.ee/sundmused/rotting-christ-gr-support/",
+  "pu": "https://fienta.com/et/rotting-christ-tallinn-paavli",
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026. Kaks allikat: paavli.ee uritusleht + Fienta piletileht. Pealkirjas on 'ROTTING CHRIST (GR) + SUPPORT' - soojendaja nimi pole avaldatud, seega b-s ainult peaesineja.",
+  "img": "pildid/rottingchristgr.webp"
  },
  {
   "d": "2026-12-12",
@@ -2998,33 +3276,34 @@
   "img": "pildid/gutalaxcz.webp"
  },
  {
-  "d": "2026-09-12",
+  "d": "2026-10-24",
   "t": "kontsert",
-  "n": "Giz Medium (FR) + Riste + Qaribou + Sur(m)prise",
-  "a": "Folkpunk-õhtu Ülase12-s, esinejad Prantsusmaalt ja Eestist; uksed 19.00, lõpp 23.00",
+  "n": "Hõimupäevade klubiöö: Marko Haavisto ja Poutahaukat + Allan Vainola ja Unenäopüüdjad",
+  "a": "Fenno-Ugria hõimupäevade kontsertõhtu; uksed 19.30, Allan Vainola ja Unenäopüüdjad 20.00, Marko Haavisto ja Poutahaukat 21.00",
   "b": [
-   "Giz Medium (FR)",
-   "Riste",
-   "Qaribou",
-   "Sur(m)prise"
+   "Marko Haavisto ja Poutahaukat (FIN)",
+   "Allan Vainola ja Unenäopüüdjad"
   ],
-  "v": "Ülase12",
+  "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
   "g": [
-   "punk",
-   "folk",
-   "alt"
+   "rock",
+   "alt",
+   "folk"
   ],
-  "sn": "Anemon12 (FB events)",
-  "su": "https://www.facebook.com/anemon12tln/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1090644030140827/",
+  "sn": "Paavli Kultuurivabrik (sündmused)",
+  "su": "https://paavli.ee/sundmused/",
+  "on_": "Paavli üritusleht",
+  "ou": "https://paavli.ee/sundmused/hoimupaevade-klubioo-marko-haavisto-ja-poutahaukat-allan-vainola-ja-unenaopuudjad/",
+  "pu": "https://fienta.com/et/marko-haavisto-ja-poutahaukat-allan-vainola-ja-unenaopuudjad-tallinnas-paavlis",
   "hind": {
-   "praegu": "5 € / 7 €",
-   "mark": "korraldaja sõnastuses „support või damage\": tavaliselt 7 €, õpilastele ja „muudele salapärastele inimestele\" 5 €; ainult uksel",
-   "allikas": "FB eventi kirjeldus, kontrollitud 09.09.2026"
+   "praegu": "20 € / 25 €",
+   "mark": "„Varane ärkaja\" 20 €, „Hilisem virguja\" 25 €",
+   "allikas": "Fienta, kontrollitud 09.09.2026"
   },
   "lisatud": "2026-09-09",
-  "nb": "⚠ PARANDUS 09.09.2026 — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. 04.09 sweep väitis „žanrit ei ole kuskil kirjas\" ja kirje jäi selle pärast välja. VÄIDE OLI VALE: žanr ON ürituse enda FB-kirjelduses kaks korda kirjas — „12.09 tuleb folkpunk muusikat erinevatest euroopanurkadest\" ja „Giz Medium on prantsusmaalt pärit folkpunk artist\". Tekst oli „See more\" taga (sama lõks nagu 08.09 Kuriks ja 05.08 Face Collector) — täistekst tuli DOM-ist. Folkpunk = punk, REEGLID §1 järgi selgelt peasaidi skoobis; sama profiil nagu 05.09 „Alanud on sügis\" kirjel samast majast. Kahe allika reegel täidetud: (1) FB event facebook.com/events/1090644030140827 (L 12.09.2026 19.00-23.00, Ülase tn 12, korraldaja Anemon12, 89 vastanut, hind ja uksekell kirjelduses) + (2) allevents.in sama kuupäev/kellaaeg/koht + Ülase12 oma IG (@ylase12) sama tekst. Esinejate omad lehed: busstoppress.bandcamp.com (Giz Medium, Bus Stop Press) ja qaribou.bandcamp.com/album/mu-korteris-on-gaasileke (Qaribou). Online-piletimüüki ei ole, hind on uksel → `pu` tühi. Silver saab tagasi pöörata (\"1b\" → kustuta + pane blokk tagasi)."
+  "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Marko Haavisto & Poutahaukat = Soome rautalanka/roots-rokk (kantri, bluus, rokk; 14 albumit, Kaurismäki filmidest tuntud „Paha vaanii\"), Allan Vainola = Vennaskonna laulukirjutaja soolokoosseisuga, Fienta kirjeldus seob Unenäopüüdjad otse Vennaskonna varasema loominguga. Mõlemad kitarripõhised → REEGLID §1 peasait. Kahe allika reegel täidetud: Paavli oma üritusleht (kellaajad, koosseis) + Fienta piletileht (L 24.10.2026 20.00–25.10 00.00, uksed 19.30, korraldaja Fenno-Ugria Asutus MTÜ, 20/25 €). FB event: https://www.facebook.com/events/1773615643962455",
+  "img": "pildid/hoimupaevadeklubioomarkohaavistojapoutahaukatallanvainolajaunenaopuudjad.webp",
+  "img_src": "https://paavli.ee/sundmused/hoimupaevade-klubioo-marko-haavisto-ja-poutahaukat-allan-vainola-ja-unenaopuudjad/"
  }
 ]

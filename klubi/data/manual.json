@@ -853,6 +853,46 @@
  {
   "d": "2026-09-05",
   "t": "klubi",
+  "n": "KORTS+KIWA=77 ehk VILSANDI TRANCE äftekas",
+  "a": "Kiwa ja Glitch Kortsu ühine 77. sünnipäevapidu; kaks lava (LIVE + DJ), uksed 20.00, kuni 04.00",
+  "b": [
+   "Kiwanoid",
+   "Glitch Korts",
+   "Art imitation",
+   "Plasma Blotter",
+   "Andres Vihterpal",
+   "Carlotta",
+   "7.lup",
+   "Liisu",
+   "roosberg",
+   "mrds",
+   "Katjakova",
+   "!!ii"
+  ],
+  "v": "Erinevate Tubade Klubi",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "electro",
+   "ambient"
+  ],
+  "sn": "Fienta (Erinevate Tubade Klubi)",
+  "su": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1842781066909011/",
+  "pu": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+  "hind": {
+   "praegu": "7.77–20€",
+   "mark": "esimesed 77 piletit 7.77€, tavapilet 20€, Muusikalinna noortepilet 4€",
+   "allikas": "Fienta, kontrollitud 04.09.2026"
+  },
+  "lisatud": "2026-09-04",
+  "nb": "leitud Rada7.ee uudiskirjast 04.09.2026 (postkastijooks) — REEGLID §1 pretsedent 'Rada7 uudiskirja samanädalased tasuta/odavad DJ-peod klubi-skoobis LISAME'. Kaks allikat: ürituse FB event (209 vastanut, kuupäev L 05.09 20.00–04.00 EEST) + Fienta piletileht (sama aeg, täiskoosseis kahel laval). Korraldajad: Glitch Please, Art imitati¤n, Taavi Tulev, Erinevate Tubade Klubi, Rada7.ee, paranoia publishing. ⚠ ŽANR: 'Vilsandi Trance' on peosarja NIMI, mitte žanriväide — trance-silti EI pandud; tegelik kava on eksperimentaalne elektroonika (live-lava) + DJ-lava. ⚠ ERISTUS §4 punktist 5 (Glitch Please seeria Uues Laines): see siin on 2-lavaline TANTSUPIDU klubis kuni 04.00, mitte istumiskontsert — punkti 5 väljajätu põhjendus ('istumiskontserdid') siia ei ulatu.",
+  "img": "pildid/kortskiwa77ehkvilsanditranceaftekas.webp"
+ },
+ {
+  "d": "2026-09-05",
+  "t": "klubi",
   "n": "Mutism x Dreamscape: Stone (UK)",
   "a": "Uue Tallinna raadiosaate/peosarja Mutism avaüritus koos Dreamscape'iga; Londoni Stone (aka glob deejay, 3XL / NAFF) live, kõrval kohalikud live-etteasted ja DJ-setid; 20.00–02.00",
   "b": [
@@ -1304,6 +1344,35 @@
  {
   "d": "2026-09-18",
   "t": "klubi",
+  "n": "DANGER from Estonia: pam (NTS radio)",
+  "a": "eksperimentaalne klubiohtu Bar IDAs; pam (NTS radio) koos Kadri-Ann DJ ja DJ Canadaga",
+  "b": [
+   "pam",
+   "Kadri-Ann",
+   "DJ Canada"
+  ],
+  "v": "Bar IDA",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "club",
+   "electro"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/ee/all",
+  "on_": "Resident Advisor",
+  "ou": "https://ra.co/events/2530834",
+  "hind": {
+   "praegu": "5-10 EUR",
+   "mark": "RA event-lehe hinnavahemik",
+   "allikas": "RA event 2530834, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 RA snapshotist (sweep/ra_snapshot.json, tommatud 09.09). Kaks allikat: RA event 2530834 (korraldaja DANGER from Estonia, zanrisildid Experimental/Club, koht Bar IDA) + RA venue/korraldaja leht. Bar IDA ei ole veel sources.json-is eraldi allikana - lisatud koos selle sweepiga."
+ },
+ {
+  "d": "2026-09-18",
+  "t": "klubi",
   "n": "Halal Club invites: Stanislav Tolkachev",
   "a": "Berliinis tegutsev Ukraina päritolu eksperimentaal-techno klassik, hybrid set; kell 23.00",
   "b": [
@@ -1493,6 +1562,37 @@
   "img": "pildid/rebelcausetjuuninhall.webp"
  },
  {
+  "d": "2026-09-19",
+  "t": "klubi",
+  "n": "VABADUS* @ MOD",
+  "a": "algus 22.00, tasuta, 18+; terve ohtu mangivad ainult naisartistid",
+  "b": [
+   "3 tudrukut 1 tops",
+   "DJ Nanette Manoir",
+   "Miauf",
+   "4MD4K",
+   "Rosy"
+  ],
+  "v": "MOD",
+  "c": "Tallinn",
+  "g": [
+   "club",
+   "house",
+   "electro"
+  ],
+  "sn": "MOD.tln FB",
+  "su": "https://www.facebook.com/Modtln/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1617672983023507/",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "sissepaas tasuta, 18+",
+   "allikas": "paavli.ee uritusleht + FB event, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (korraldaja vabadus.ee) + paavli.ee sundmuste leht, mis annab sama taiskoosseisu. Taiskoosseisu reegel: koik viis nime lehelt."
+ },
+ {
   "d": "2026-09-25",
   "t": "klubi",
   "n": "DNB Estonia Indoor Festival 2026",
@@ -1575,6 +1675,86 @@
   "img": "pildid/sonicimpactsournoispllempl.webp"
  },
  {
+  "d": "2026-09-25",
+  "t": "klubi",
+  "n": "Stereo @ Fonoteek",
+  "a": "hooaja avaohtu; house music all night. Uksed 19.00, DJ-d 23.00",
+  "b": [
+   "MHKL",
+   "ARU (Pikku Kaiten)"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "Fonoteek (FB events)",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1437975388390533/",
+  "hind": {
+   "praegu": "5-7 EUR",
+   "mark": "FB 'going' nimekirjas 5 EUR (list sulgub 22.00), tavapilet 7 EUR; uksel",
+   "allikas": "FB event, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 Fonoteegi FB events-tabist. Kaks allikat: Fonoteegi FB events-tab + urituse enda FB event (koosseis, kellaajad, hind)."
+ },
+ {
+  "d": "2026-09-26",
+  "t": "klubi",
+  "n": "Disco Disco Good Good @ Fonoteek",
+  "a": "disco vibe'iga house, 70ndate klassikud ja funk-hyperpop. Uksed 19.00, DJ-d 23.00, 20+",
+  "b": [
+   "Kyka",
+   "Widenski"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "disco",
+   "house"
+  ],
+  "sn": "Fonoteek (FB events)",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1749030026345281/",
+  "hind": {
+   "praegu": "5-7 EUR",
+   "mark": "FB going/interested kuni 00.00 5 EUR, tavapilet 7 EUR; uksel",
+   "allikas": "FB event, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 Fonoteegi FB events-tabist. Kaks allikat: Fonoteegi FB events-tab + urituse enda FB event (kaaskorraldaja Kyka)."
+ },
+ {
+  "d": "2026-09-26",
+  "t": "klubi",
+  "n": "IDA Off Air: Paabel Afterparty",
+  "a": "Kultuurifoorum Paabeli peoohtu klubis MOD; algus 22.00. Piletite eelmuuk oli 09.09 seisuga veel avaldamata",
+  "b": [
+   "Josey Rebelle",
+   "Xterea",
+   "Sansibar",
+   "Nikolajev & Ats"
+  ],
+  "v": "MOD",
+  "c": "Tallinn",
+  "g": [
+   "club",
+   "house",
+   "electro",
+   "experimental"
+  ],
+  "sn": "MOD.tln FB",
+  "su": "https://www.facebook.com/Modtln/events",
+  "on_": "Paavli Kultuurivabrik",
+  "ou": "https://paavli.ee/sundmused/ida-off-air-paabel-afterparty/",
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (facebook.com/events/1054641947349414, korraldaja IDA Radio) + paavli.ee uritusleht, mis annab taiskoosseisu (Josey Rebelle TTT/Open Ground DJ, Xterea 5 Gate Temple LIVE, Sansibar Sin Sistema LIVE, Nikolajev & Ats IDA DJ). Pilet: paavli.ee utleb 'piletite eelmuuk & lisainfo uuel nadalal' -> pu jaab tuhjaks, kontrolli jargmises sweepis.",
+  "img": "pildid/idaoffairpaabelafterparty.webp"
+ },
+ {
   "d": "2026-09-26",
   "t": "klubi",
   "n": "QUANTUM: THE OUTLANDER — D-Block & S-te-Fan | Hard Driver",
@@ -1628,7 +1808,12 @@
   "t": "klubi",
   "n": "FOR:REST @ MOD",
   "a": "algus 23.00; korraldaja Dj Punch",
-  "b": [],
+  "b": [
+   "Octal Industries",
+   "Exit Safe Mode",
+   "Kulon",
+   "Punch"
+  ],
   "v": "MOD",
   "c": "Tallinn",
   "g": [
@@ -1640,8 +1825,12 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/2265726884185094/",
   "lisatud": "2026-09-04",
-  "koosseis_tba": 1,
-  "nb": "leitud sweepis 04.09.2026 MOD.tln FB events-tabist. Koosseis ja pilet avaldamata."
+  "nb": "leitud sweepis 04.09.2026 MOD.tln FB events-tabist. Koosseis ja pilet avaldamata. | 09.09.2026 sweep: KOOSSEIS + HIND TULID. paavli.ee uritusleht (FOR:REST @ MOD, 02.10.2026): Octal Industries (hybrid set), Exit Safe Mode (DJ), Kulon (DJ), Punch (DJ), support; 10 EUR. Kaks allikat: MOD.tln FB event 2265726884185094 + paavli.ee.",
+  "hind": {
+   "praegu": "10 EUR",
+   "mark": "uksel",
+   "allikas": "paavli.ee uritusleht, kontrollitud 09.09.2026"
+  }
  },
  {
   "d": "2026-10-09",
@@ -1743,6 +1932,33 @@
   "ou": "https://www.facebook.com/events/1574357314264409/",
   "lisatud": "2026-08-07",
   "nb": "lisatud 07.08.2026, teine voor — leid tuli Privé Live Clubi FB events-lehelt, mis lisati allikaks KRS-One'i kontrollimise käigus. Algus 20.00, korraldaja Aeon Psy Events. Kaks allikat: venue oma events-leht + ürituse FB event. ⚠ Piletilinki FB-lehel tekstina ei ole (ainult 'Find tickets' nupp), seega pu puudub — täienda, kui piletimüük avaneb."
+ },
+ {
+  "d": "2026-10-16",
+  "t": "klubi",
+  "n": "4KORDA4: mance (NL)",
+  "a": "house ja garage Bar IDAs",
+  "b": [
+   "mance (NL)"
+  ],
+  "v": "Bar IDA",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "garage",
+   "club"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/ee/all",
+  "on_": "Resident Advisor",
+  "ou": "https://ra.co/events/2528562",
+  "hind": {
+   "praegu": "5-10 EUR",
+   "mark": "RA event-lehe hinnavahemik",
+   "allikas": "RA event 2528562, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 RA snapshotist. Kaks allikat: RA event 2528562 (zanrisildid House/Garage, koht Bar IDA) + RA Eesti sundmuste loend. Peosari 4KORDA4."
  },
  {
   "d": "2026-10-16",
@@ -1878,6 +2094,34 @@
   "pu": "https://www.piletitasku.ee/et/event/9392",
   "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)",
   "img": "pildid/camouflagede.webp"
+ },
+ {
+  "d": "2026-11-06",
+  "t": "klubi",
+  "n": "HEVI: Teddy Killerz & Tantrum Desire",
+  "a": "22.30-04.00, 18+; kaks rahvusvahelist drum & bass'i nime uhel laval",
+  "b": [
+   "Teddy Killerz",
+   "Tantrum Desire"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/ee/all",
+  "on_": "Resident Advisor",
+  "ou": "https://ra.co/events/2516539",
+  "pu": "https://gateme.com/et/event/104106/",
+  "hind": {
+   "praegu": "25 EUR",
+   "mark": "RA event-lehe hind; GateMe's eelmuugi soodustus",
+   "allikas": "RA event 2516539 + GateMe, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 RA snapshotist. Kolm allikat: RA event 2516539 (korraldaja Hevi Events) + GateMe piletileht (104106, R 6. nov 22.30 - L 7. nov 04.00) + Helitehase IG-postitus (google.ee kaudu, sama kellaaeg ja piletilink).",
+  "img": "pildid/heviteddykillerztantrumdesire.webp"
  },
  {
   "d": "2026-11-06",
@@ -2060,43 +2304,57 @@
   "koosseis_tba": 1
  },
  {
-  "d": "2026-09-05",
-  "t": "klubi",
-  "n": "KORTS+KIWA=77 ehk VILSANDI TRANCE äftekas",
-  "a": "Kiwa ja Glitch Kortsu ühine 77. sünnipäevapidu; kaks lava (LIVE + DJ), uksed 20.00, kuni 04.00",
+  "d": "2026-09-09",
+  "t": "kontsert",
+  "n": "Rinalds Maksimovs (LV) + Mart Soo + Sander Saarmets",
+  "a": "Glitch Please seeria eksperimentaalse muusika õhtu, kolm sooloesinemist; uksed 19.00, algus 19.30",
   "b": [
-   "Kiwanoid",
-   "Glitch Korts",
-   "Art imitation",
-   "Plasma Blotter",
-   "Andres Vihterpal",
-   "Carlotta",
-   "7.lup",
-   "Liisu",
-   "roosberg",
-   "mrds",
-   "Katjakova",
-   "!!ii"
+   "Rinalds Maksimovs (LV)",
+   "Mart Soo",
+   "Sander Saarmets"
   ],
-  "v": "Erinevate Tubade Klubi",
+  "v": "Uus Laine",
   "c": "Tallinn",
   "g": [
    "experimental",
-   "electro",
-   "ambient"
+   "ambient",
+   "electro"
   ],
-  "sn": "Fienta (Erinevate Tubade Klubi)",
-  "su": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+  "sn": "Glitch Please (FB events)",
+  "su": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
   "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1842781066909011/",
-  "pu": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
+  "ou": "https://www.facebook.com/events/29042619995328755",
+  "pu": "https://fienta.com/et/rinalds-maksimovs-mart-soo-sander-saarmets",
   "hind": {
-   "praegu": "7.77–20€",
-   "mark": "esimesed 77 piletit 7.77€, tavapilet 20€, Muusikalinna noortepilet 4€",
-   "allikas": "Fienta, kontrollitud 04.09.2026"
+   "praegu": "7 € / 15 € / 25 €",
+   "mark": "Student ja Senior Bird 7 €, Regular Bird 15 €, Generous Bird 25 €",
+   "allikas": "Fienta, kontrollitud 09.09.2026"
   },
-  "lisatud": "2026-09-04",
-  "nb": "leitud Rada7.ee uudiskirjast 04.09.2026 (postkastijooks) — REEGLID §1 pretsedent 'Rada7 uudiskirja samanädalased tasuta/odavad DJ-peod klubi-skoobis LISAME'. Kaks allikat: ürituse FB event (209 vastanut, kuupäev L 05.09 20.00–04.00 EEST) + Fienta piletileht (sama aeg, täiskoosseis kahel laval). Korraldajad: Glitch Please, Art imitati¤n, Taavi Tulev, Erinevate Tubade Klubi, Rada7.ee, paranoia publishing. ⚠ ŽANR: 'Vilsandi Trance' on peosarja NIMI, mitte žanriväide — trance-silti EI pandud; tegelik kava on eksperimentaalne elektroonika (live-lava) + DJ-lava. ⚠ ERISTUS §4 punktist 5 (Glitch Please seeria Uues Laines): see siin on 2-lavaline TANTSUPIDU klubis kuni 04.00, mitte istumiskontsert — punkti 5 väljajätu põhjendus ('istumiskontserdid') siia ei ulatu.",
-  "img": "pildid/kortskiwa77ehkvilsanditranceaftekas.webp"
+  "lisatud": "2026-09-09",
+  "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Balti eksperimentaalskeene sooloõhtu: Maksimovs (LV trummar/helilooja, debüütalbum „Rincore\"), Mart Soo ja Sander Saarmets — improvisatsiooni ja komposisiooni piirimail, elektrooniline helidisain. Kahe allika reegel täidetud: Fienta piletileht (K 09.09.2026 19.00–22.00, uksed 19.00, kontsert 19.30) + Uus Laine oma kalender uuslaine.com + FB event. ⚠ Sama korraldaja 05.09 TANTSUPIDU (KORTS+KIWA=77) on eraldi kirje, ära liida.",
+  "img": "pildid/rinaldsmaksimovslvmartsoosandersaarmets.webp"
+ },
+ {
+  "d": "2026-10-28",
+  "t": "kontsert",
+  "n": "Rural Tapes (NO) + Hendrik Kaljujärv",
+  "a": "Glitch Please seeria; Rural Tapes esitleb linti «Alien Territories Vol. 2» (lindimasinad, diktofonid, süntesaatorid); 19.00–22.00",
+  "b": [
+   "Rural Tapes (NO)",
+   "Hendrik Kaljujärv"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "ambient",
+   "electro"
+  ],
+  "sn": "Glitch Please (FB events)",
+  "su": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1936940123644928",
+  "lisatud": "2026-09-09",
+  "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Rural Tapes = Arne Kjelsrud Mathisen (NO), üle 80 väljaande; Euroopa sooloturnee okt–nov 2026 uue lindi «Alien Territories Vol. 2» toel; ambient/lindiloomingu telg (viited Terry Rileyle, Enole, Frippile). Hendrik Kaljujärv (EE) teatri- ja helikunstnik. Kahe allika reegel täidetud: FB event (K 28.10.2026 19.00–22.00, korraldajad Glitch Please + Rural Tapes) + Uus Laine oma kalender uuslaine.com. Artisti oma leht: https://ruraltapes.bandcamp.com/ . ⚠ Piletimüüki 09.09 seisuga EI OLE (Uus Laine kalendris „info\", mitte „piletid\"; Fientas kirjet ei ole) → `pu` ja `hind` tühjad, kontrolli sweepis."
  }
 ]

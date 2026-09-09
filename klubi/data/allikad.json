@@ -53,6 +53,10 @@
      "u": "https://ra.co/clubs/235784"
     },
     {
+     "n": "IDA Radio / Bar IDA",
+     "u": "https://www.facebook.com/IDARadio/events"
+    },
+    {
      "n": "Kai kunstikeskus (Tallinn)",
      "u": "https://ra.co/clubs/229208"
     },
@@ -286,6 +290,10 @@
   {
    "nimi": "Meedia / kogukond",
    "items": [
+    {
+     "n": "IDA Radio (idaidaida.net)",
+     "u": "https://idaidaida.net/"
+    },
     {
      "n": "Rada7.ee (FB events)",
      "u": "https://www.facebook.com/rada7.ee/events"

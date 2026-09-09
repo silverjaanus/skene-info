@@ -282,6 +282,28 @@
   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Legendaarse FB events-tab + urituse FB event (korraldajad Legendaarne Raadio + Mari-Anna Miller)."
  },
  {
+  "rel": 1,
+  "d": "2026-09-02",
+  "lisatud": "2026-09-04",
+  "t": "reliis",
+  "n": "Masta Robusta — «Reipaid Ridu Rezzidel Radadel»",
+  "a": "autori-EP, 7 lugu; esitluspidu 04.09 Veetorni Aias",
+  "b": [
+   "Masta Robusta"
+  ],
+  "v": "Spotify",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Rada7.ee uudiskiri",
+  "su": "https://www.rada7.ee/uudiskiri/",
+  "on_": "Spotify",
+  "ou": "https://open.spotify.com/album/2EyFLtE5xhhVAyLTo5SDp6",
+  "nb": "lisatud 04.09.2026 postkastijooksus — täidab 28.08 kirje märkuse ('EP võib väärida eraldi reliisikirjet, kui väljalaskekuupäev kinnitub'). Kaks allikat: Spotify albumileht (meta music:release_date 2026-09-02, 7 lugu) + Rada7.ee uudiskiri 04.09 ('üleeilsest internettides ka nauditav' = 02.09, langeb kokku). Kolmas kinnitus: esitluspeo FB event facebook.com/events/1067301815974527 (kirje 04.09 rap/manual.json-is). Masta Robusta = MC Lord / Öökülm / TMF / RLV Massive, peosarja Tümmisaun resident.",
+  "img": "pildid/mastarobustareipaidridurezzidelradadel.webp"
+ },
+ {
   "d": "2026-09-04",
   "t": "klubi",
   "n": "Hip Hop Hangout: 5LOOPS, Loodikud, Majaka Mandela",
@@ -380,6 +402,36 @@
  },
  {
   "d": "2026-09-11",
+  "t": "kontsert",
+  "n": "Chillin & Margiiela «Terve linn näeb» albumiesitlus",
+  "a": "algus 21.00; varske plaadi esimene esitus publiku ees. Karjakoer, Diwo ja Margiiela & Chillin live'is, Blondemunk DJ-setiga",
+  "b": [
+   "Margiiela",
+   "Chillin",
+   "Karjakoer",
+   "Diwo",
+   "Blondemunk"
+  ],
+  "v": "Legendaarne Raadio & Baar",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "Legendaarne Raadio FB",
+  "su": "https://www.facebook.com/LegendaarneRaadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1081244117728685/",
+  "hind": {
+   "praegu": "5 EUR",
+   "mark": "kohapeal",
+   "allikas": "FB event, kontrollitud 09.09.2026"
+  },
+  "lisatud": "2026-09-09",
+  "nb": "leitud sweepis 09.09.2026 Legendaarne Records + Legendaarne Raadio FB events-tabidest. Kaks allikat: FB event (taiskava + hind + algusaeg) + Legendaarne Raadio IG-postitus (google.ee kaudu), mis kinnitab sama: 'mehed tegid koostoos EP nimega Terve linn naeb ja soovivad selle lives ette kanda'. TAHELEPANU: FB event nimetab valjalaset ALBUMIKS, IG-postitus EP-ks - jargisin urituse enda pealkirja. See sulgeb HANDOVER-i lahtise punkti 'margiiela x Chillin EP pealkiri' - pealkiri on «Terve linn näeb». Koht: Krulli 2b (Legendaarne Raadiobaar)."
+ },
+ {
+  "d": "2026-09-11",
   "lisatud": "2026-08-17",
   "t": "kontsert",
   "n": "Patarei lõpupidu x nublu",
@@ -458,7 +510,11 @@
   "t": "klubi",
   "n": "CHECK ONE TWO",
   "a": "Legendaarse hiphopi-peosari, algus 22.00",
-  "b": [],
+  "b": [
+   "Critikal",
+   "Quest",
+   "Paul Oja"
+  ],
   "v": "Legendaarne Raadio & Baar",
   "c": "Tallinn",
   "g": [
@@ -470,8 +526,7 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1959298838071839/",
   "lisatud": "2026-09-04",
-  "koosseis_tba": 1,
-  "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (korraldaja Legendaarne Raadio, venue Krulli 2b). DJ-kava avaldamata.",
+  "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (korraldaja Legendaarne Raadio, venue Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1959298838071839 loetleb DJ-d Critikal, Quest ja Paul Oja ('silmipimestav skratsshow'). Pilet ostetakse uksel, hinda eventis ei nimetata -> pu ja hind jaavad tuhjaks. C12 on Eesti kauim raapipidude sari, kord kuus.",
   "img": "pildid/checkonetwo.webp"
  },
  {
@@ -507,7 +562,15 @@
   "t": "klubi",
   "n": "BEATS 4 DA PEEPS",
   "a": "Legendaarse hiphopi-peosari, algus 22.00",
-  "b": [],
+  "b": [
+   "Critikal",
+   "Bandit",
+   "Tarrvi (Bashment FM)",
+   "Koldun",
+   "Typicalflow",
+   "Propazha",
+   "J.O.C"
+  ],
   "v": "Legendaarne Raadio & Baar",
   "c": "Tallinn",
   "g": [
@@ -519,8 +582,7 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1581962047410599/",
   "lisatud": "2026-09-04",
-  "koosseis_tba": 1,
-  "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata."
+  "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1581962047410599: DJ-d Critikal, Bandit, Tarrvi (Bashment FM), Koldun; MC-d Typicalflow, Propazha, J.O.C + special guests. Peosari alates 1996. Hinda eventis ei nimetata."
  },
  {
   "d": "2027-08-13",
@@ -565,27 +627,5 @@
   "img": "pildid/tartupunch2027.webp",
   "nb": "02.08.2026 PARANDATUD (Silveri otsus): koht oli VALE — kirjes seisis Paavli Kultuurivabrik (Tallinn). Festivali enda sait tartupunch.com/info ütleb Tartu Laululava (Laulupeo pst 25, Tartu), sama ütleb FB event. Paavli on korraldaja/promootor, mitte toimumiskoht — paavli.ee/sundmused loetleb ürituse oma programmis, kuid see ei tähenda Paavli saali. Kuupäev 13.–14.08.2027 kinnitub mõlemas. Koosseis avaldamata. | 17.08.2026: lisatud tba-lipp. Kirje oli AINUS b-tühjadest ilma tba-ta, seega ei jõudnud ta iga sweepi TBA-ülevaatusesse (HANDOVER §2 reegel 11). Kontrollitud google.ee-ga 17.08: müügil on ainult festivalipassid (piletitasku 10014), esinejaid pole avaldatud. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
   "koosseis_tba": 1
- },
- {
-  "rel": 1,
-  "d": "2026-09-02",
-  "lisatud": "2026-09-04",
-  "t": "reliis",
-  "n": "Masta Robusta — «Reipaid Ridu Rezzidel Radadel»",
-  "a": "autori-EP, 7 lugu; esitluspidu 04.09 Veetorni Aias",
-  "b": [
-   "Masta Robusta"
-  ],
-  "v": "Spotify",
-  "g": [
-   "räpp",
-   "hiphop"
-  ],
-  "sn": "Rada7.ee uudiskiri",
-  "su": "https://www.rada7.ee/uudiskiri/",
-  "on_": "Spotify",
-  "ou": "https://open.spotify.com/album/2EyFLtE5xhhVAyLTo5SDp6",
-  "nb": "lisatud 04.09.2026 postkastijooksus — täidab 28.08 kirje märkuse ('EP võib väärida eraldi reliisikirjet, kui väljalaskekuupäev kinnitub'). Kaks allikat: Spotify albumileht (meta music:release_date 2026-09-02, 7 lugu) + Rada7.ee uudiskiri 04.09 ('üleeilsest internettides ka nauditav' = 02.09, langeb kokku). Kolmas kinnitus: esitluspeo FB event facebook.com/events/1067301815974527 (kirje 04.09 rap/manual.json-is). Masta Robusta = MC Lord / Öökülm / TMF / RLV Massive, peosarja Tümmisaun resident.",
-  "img": "pildid/mastarobustareipaidridurezzidelradadel.webp"
  }
 ]

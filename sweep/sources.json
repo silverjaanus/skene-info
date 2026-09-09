@@ -466,12 +466,6 @@
     "nb": "SURNUD-POOLNE 28.07.2026: viimane sisu 03.2026, enne seda 2023 13.08.2026: pooleldi seiskunud — kontrolli harvemalt (~kord kuus)."
    },
    {
-    "nimi": "chainz.ee",
-    "url": "https://chainz.ee/",
-    "tyyp": "meedia",
-    "nb": "lisatud 15.07.2026; AKTIIVNE Eesti hiphopi meediaplatvorm + kogukond - koondab uudised/saated/reliisid/üritused; ka Chainz Fest 2026 (suvi, uus formaat); tugevaim uus räpp-allikas | 04.09.2026 SWEEP: URL SURNUD - chainz.ee tagastab veebimajutus.ee teate \"Koduleht on suletud\". Enne eemaldamist kontrolli veel uks kord jargmises sweepis."
-   },
-   {
     "nimi": "esthiphop.ee",
     "url": "https://esthiphop.ee/",
     "tyyp": "meedia",
@@ -955,6 +949,12 @@
     "tyyp": "peosari",
     "veeb": "https://fienta.com/et/kiwa-korts-77-5-09-erinevate-tubade-klubi",
     "nb": "lisatud 04.09.2026 postkastijooksus. Eksperimentaalse elektroonika korraldaja (Helinihe/Glitch Please). ⚠ SKOOP ON LAHTINE: HANDOVER §4 punkt 5 küsib, kas seeria ISTUMISKONTSERDID Uues Laines kuuluvad klubi-skoopi (vaikeotsus (b) välja, tähtaeg 09.09). Allikas lisatud jälgimiseks; 05.09 tantsupidu läks sisse Rada7 pretsedendi alusel."
+   },
+   {
+    "nimi": "IDA Radio / Bar IDA",
+    "url": "https://www.facebook.com/IDARadio/events",
+    "tyyp": "venue",
+    "nb": "lisatud 09.09.2026 sweepis. Bar IDA (Telliskivi 60a/5) programmi korraldab IDA Radio FB-lehe alt - RA snapshot naitas Bar IDA uritusi (DANGER from Estonia 18.09, 4KORDA4 16.10), aga allikat ennast POLNUD sources.json-is => nadalane tasuta/odav klubiprogramm oli PIME NURK. Kava: enamik ohtusid on nimelised DJ-ohtud, kureeri iga kord eraldi (REEGLID 1: zanriinfota DJ-ohtu jaab valja)."
    }
   ],
   "ig": [],
@@ -1255,6 +1255,12 @@
     "veeb": "https://www.facebook.com/hiddenharmonyrecordings/",
     "tyyp": "label",
     "nb": "lisatud 26.08.2026 (Paavli Kultuurivabriku uudiskirjast, Volodja Brodsky «Whispering Ln. Vol. II» 28.08). Tallinna label — meditatiivne/eksperimentaalne/ambient-vinüül. Reegel §3: NII Bandcamp KUI FB-leht. Bandcampi /music leht näitab kõiki väljaandeid; release-kuupäev kontrolli alati albumi enda lehelt. | 28.08.2026: check_bandcamp laks CI-s PUNASEKS (Andmekorje run 33087702464), sest label lisati alles 26.08 ja kogu 15-albumiline TAGAKATALOOG luges 'uueks'. ACK tehtud 28.08 postkastijooksus: 14 albumit on tagakataloog 2020-02.2026 (datePublished kontrollitud) -> teadlik valjajatt, reliisimudel ei nae ette tagantjarele lisamist; 15. ehk Volodja Brodsky 'Whispering Ln. Vol. II' (28.08.2026) oli juba klubi/data/manual.json-is. Koik 15 URL-i on data/bandcamp_seen.json-is (27 -> 42 kirjet). EDASPIDI: uue Bandcampi allika lisamisel acki SAMAS commitis ka olemasolev kataloog, muidu laheb jargmine Andmekorje automaatselt punaseks."
+   },
+   {
+    "nimi": "IDA Radio (idaidaida.net)",
+    "url": "https://idaidaida.net/",
+    "tyyp": "meedia",
+    "nb": "lisatud 09.09.2026; IDA Radio veebisait, Bar IDA kava ja saated (REEGLID 3: FB + veebisait koos)"
    }
   ]
  }
