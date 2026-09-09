@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08",
+ "updated": "2026-09-09",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 155,
+ "count": 156,
  "entries": [
   {
    "sait": "www",
@@ -2184,6 +2184,37 @@
   {
    "sait": "www",
    "d": "2026-10-09",
+   "t": "kontsert",
+   "n": "Singer Vinger + Sõpruse Puiestee",
+   "a": "Eesti punk-roki ja indie legendid ühel õhtul; uksed 19.00, algus 20.00",
+   "b": [
+    "Singer Vinger",
+    "Sõpruse Puiestee"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "Helitehas (FB events)",
+   "su": "https://www.facebook.com/helitehas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1408381801148375/",
+   "pu": "https://www.piletitasku.ee/et/event/10151",
+   "hind": {
+    "praegu": "31,90 € / 47,90 €",
+    "mark": "tavapilet 29 € + teenustasu = 31,90 €; VIP 45 € + teenustasu = 47,90 € (eraldi sissepääs, garderoob, rõdu, baar, WC)",
+    "allikas": "Piletitasku, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "SULGEB HANDOVER §4 punkti 3 — VAIKEOTSUS (a) www rakendus 09.09.2026 (küsitud 04.09 koondkirjas, 5 päeva vastuseta; §2 reegel 16). Postkastijooks 09.09 kontrollis žanri üle enne lisamist: Helitehase OMA ürituselehe tekst ütleb sõna-sõnalt \"Singer Vingeri kompromissitu punk-rock-energia\" ja \"Eesti rock- ja indiemuusika kaks suurt legendi\" — kitarripõhine punk/alt, EI ole peavoolu-popprokk (REEGLID §1 piir Terminaator/Smilers-klass ei kohaldu). Kaks sõltumatut allikat: helitehas.ee/facebook-event/singer-vinger-ja-sopruse-puiestee-9-oktoobril-helitehases/ (venue oma leht, uksed 19.00) + Piletitasku event/10151 (R 09.10.2026 20.00, Madara 22a, sissepääs 19.00, hinnad 31,90/47,90 €, korraldaja E&H ENTERTAINMENT OÜ) + FB event 1408381801148375. ⚠ Piletitasku kirjelduses on korraldaja näpukas \"neljapäeval\" — 09.10.2026 on REEDE, nii päise kuupäev kui FB event kinnitavad reedet. Silver saab otsuse tagasi pöörata (\"3b\" → kustuta + blocklist).",
+   "img": "https://www.skene.info/pildid/singervingersoprusepuiestee.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-09",
    "d2": "10.10",
    "t": "festival",
    "n": "Tarbariitus",
@@ -3914,7 +3945,8 @@
    "su": "https://www.summer-breeze.de/en/",
    "on_": "Summer Breeze",
    "ou": "https://www.summer-breeze.de/en/",
-   "nb": "lisatud 17.08.2026: kuupäev 18.–21.08.2027 ametlikult lehelt + Nuclear Blasti uudis; välisfestival → teadlik headliner-valik"
+   "nb": "lisatud 17.08.2026: kuupäev 18.–21.08.2027 ametlikult lehelt + Nuclear Blasti uudis; välisfestival → teadlik headliner-valik",
+   "img": "https://www.skene.info/pildid/summerbreeze2027.webp"
   },
   {
    "sait": "www",

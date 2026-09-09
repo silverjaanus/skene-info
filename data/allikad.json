@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08",
+ "updated": "2026-09-09",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -64,6 +64,14 @@
     {
      "n": "Art Club Ro-Ro (Narva)",
      "u": "https://www.facebook.com/ArtClubRoRo/events"
+    },
+    {
+     "n": "Baar Lonks (LONKS)",
+     "u": "https://www.facebook.com/paarlonksu/events"
+    },
+    {
+     "n": "Baar Lonks (veebisait)",
+     "u": "https://lonksbaar.ee"
     },
     {
      "n": "Festivali maja (Võru)",
