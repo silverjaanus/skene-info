@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-09-08",
+ "tommatud": "2026-09-09",
  "aken": {
-  "algus": "2026-09-08",
-  "lopp": "2026-11-07"
+  "algus": "2026-09-09",
+  "lopp": "2026-11-08"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 20,
+ "kirjeid": 21,
  "kirjed": [
   {
    "d": "2026-09-11",
@@ -186,6 +186,23 @@
    ],
    "g": [],
    "url": "https://ra.co/events/2520906",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-02",
+   "n": "Huba Club",
+   "algus": "2026-10-02T21:00:00.000",
+   "v": "Huba Club",
+   "ala": "All",
+   "b": [
+    "Sam Oak",
+    "KEÏDAS"
+   ],
+   "g": [
+    "Progressive House",
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2532395",
    "pilet": false
   },
   {
