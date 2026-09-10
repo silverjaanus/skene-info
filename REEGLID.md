@@ -111,6 +111,15 @@ ilma Eesti kuupäevata: ÜKS kirje ~5 lähima riigiga (`d`=varaseim, `d2`=hilise
 
 - Enne lisamist kontrolli NII nime KUI bändi järgi NII `manual.json`-ist KUI
   `blocklist.json`-ist.
+- **⚠⚠ MÖÖDUNUD KUUPÄEVAGA KIRJE (eelkõige RELIIS): kontrolli KA `data/archive/<aasta>.json`-i**
+  (10.09.2026 õppetund). `manual.json` EI ole ajaloofail — `prune_manual.py` koristab möödunud
+  kirjed sealt ära, ja `check_dupes.py` vaatab ainult `data.json`-i, kus möödunud kirjet samuti
+  pole. Nii et „manual.json-is pole" EI tähenda „saidil pole". 10.09 lisasin Surrogoat —
+  «Consumed by the Wrath of Time» (29.05.2026) „uue" kirjena; ta oli arhiivis juba 26.07.2026-st
+  ja minu variant kirjutas rikkalikuma üle (kadusid salvestuskoht, Metal Archives/MusicBrainz
+  kinnitus ja `-2`-URL-i lõks). Päästis alles `git show HEAD:data/archive/<aasta>.json` diff enne
+  commiti. Kui kirje on arhiivis olemas → **RIKASTA seda** (REEGLID §5 rikkalikum variant),
+  ära kirjuta üle; `lisatud` jääb esialgseks.
 - Kustutamisel/kuupäevamuutusel lisa SAMAS voorus blocklisti vana `d`+`n` (muidu
   `archive_split` toob tagasi). Alles jääb rikkalikum variant (tavaliselt manual).
 - Duplikaadi RIKASTAMINE: kui uus allikas annab seni puudunud infot (pu/hind/ou/koosseis/
@@ -143,6 +152,19 @@ ilma Eesti kuupäevata: ÜKS kirje ~5 lähima riigiga (`d`=varaseim, `d2`=hilise
   otse arhiivi. Merchil `d` = `lisatud`; merch-kirje AINULT päriselt uue kauba kohta.
 - **Bandcampi kuupäevalõks (Tharaphita 26.07):** "released ..." rida võib olla
   platseholder — ristkontrolli credits/Metal Archives/labeli leht/artisti enda teade.
+
+**⚠ TAGANTJÄRELE LISATAV VANEM RELIIS: `lisatud` = VÄLJALASKEKUUPÄEV (Silveri otsus 10.09.2026).**
+„Lisa, aga mitte esilehele vaid reliiside lehele õigesse kohta." Kuude-vanune reliis on skoobis ja
+lisatakse, AGA ta ei tohi maanduda esilehe „Uued reliisid" ribale. `_featured()` (`archive_split.py`
+JA `index.html`) ütleb „uus", kui `rel` + `lisatud` ja `täna − lisatud ≤ 30 p`, seega:
+- **värske reliis** (kuni ~kuu vana) → `lisatud` = päris lisamiskuupäev → esilehele, nagu seni;
+- **vanem reliis** (üle ~kuu) → `lisatud` = **sama mis `d`** → `_featured` on False, kirje kukub
+  `data/archive/<aasta>.json`-i oma kuupäeva kohale ja paistab reliiside vaates (index „Kõik
+  reliisid" → „Näita arhiivi") ning `arhiiv.html` reliis-filtris.
+⚠ **`rel: 1` PEAB alles jääma ka vanal reliisil** — `loadArchRel()` (`index.html`) filtreerib
+arhiivikirjeid `if(!e.rel)return;`, ilma `rel`-ita KAOB kirje reliiside vaatest sootuks.
+⚠ Ära „paranda" sellist `lisatud`-i tänase kuupäeva vastu; kirje `nb` ütleb seda ka ise välja.
+Pretsedent: Esitluspäev 6 kuus reliisi (Artifer 21.01 … Freakangel 26.06), lisatud 10.09.2026.
 
 ## 7. Arhiiv
 
