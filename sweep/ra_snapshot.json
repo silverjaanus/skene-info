@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-09-09",
+ "tommatud": "2026-09-10",
  "aken": {
-  "algus": "2026-09-09",
-  "lopp": "2026-11-08"
+  "algus": "2026-09-10",
+  "lopp": "2026-11-09"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 21,
+ "kirjeid": 23,
  "kirjed": [
   {
    "d": "2026-09-11",
@@ -45,6 +45,20 @@
     "Minimal"
    ],
    "url": "https://ra.co/events/2508504",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-11",
+   "n": "NightVision @clubstudio",
+   "algus": "2026-09-11T23:00:00.000",
+   "v": "Club Studio",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House",
+    "Garage"
+   ],
+   "url": "https://ra.co/events/2533256",
    "pilet": false
   },
   {
@@ -157,6 +171,28 @@
     "Club"
    ],
    "url": "https://ra.co/events/2530834",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-18",
+   "n": "Halal Club invites: Stanislav Tolkachev",
+   "algus": "2026-09-18T23:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Stanislav Tolkachev",
+    "FAKIGN",
+    "Labrighli",
+    "Valdagger",
+    "Charch",
+    "pikkauch",
+    "Scvmfvcks"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2533508",
    "pilet": false
   },
   {
