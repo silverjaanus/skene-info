@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09",
+ "updated": "2026-09-10",
  "entries": [
   {
    "d": "2026-07-20",
@@ -203,7 +203,7 @@
    "d": "2026-09-12",
    "t": "kontsert",
    "n": "Freakangel + PsycHolies + Sugar Rody",
-   "a": "Balti tuur — industrial metal, dark electro, EBM, synthwave (PsycHolies IT)",
+   "a": "Balti tuuri AINUS Eesti kuupäev — industrial metal, dark electro, EBM, synthwave ja dark disco (PsycHolies IT, album «DEEP» / Trisol Music). Kell 21.00–02.00",
    "b": [
     "Freakangel",
     "PsycHolies",
@@ -222,7 +222,13 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1065529219140534/",
    "pu": "https://fienta.com/et/freakangel-guests-thekrypt",
-   "img": "pildid/freakangelpsycholiessugarrody.webp"
+   "img": "pildid/freakangelpsycholiessugarrody.webp",
+   "hind": {
+    "praegu": "20 € eelmüük / 25 € uksel",
+    "mark": "piiratud eelmüügipilet 15 € on VÄLJA MÜÜDUD; Eesti Raskemuusikaliidu liikmetele kood \"Thekrypt_raskemuusika\" annab 5 € soodustust",
+    "allikas": "Fienta ostuvaade, kontrollitud 10.09.2026"
+   },
+   "nb": "10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri, september 2026): Fienta ostuvaade avatud — eelmüük 20 €, uksel 25 €, piiratud 15 € välja müüdud; kellaaeg 21.00–02.00 (Fienta). Liikmete sooduskood on uudiskirjast, mitte avalik hind."
   },
   {
    "d": "2026-09-12",
@@ -1067,7 +1073,7 @@
    "d": "2026-10-03",
    "t": "festival",
    "n": "Raskemuusika Esitluspäev 6",
-   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev: 12 esinejat, 12 Eesti raskemuusika reliisi aastast 2026. Igal bändil 20 min lava, vahetuste ajal linastuvad Eesti uuemad muusikavideod. Tharaphita ja Pantokraator EI mängi kontsertkava, vaid annavad kohapeal avaliku intervjuu oma albumist; ülejäänud 10 esinevad live'is. Uksed 17.00, esimene bänd 17.20, kava ~keskööni; kohapeal muusika- ja nännimüük (ka kaardimakse). Vanusepiiranguta, kuni 15-aastastele (k.a) tasuta",
+   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev: 12 esinejat, 12 Eesti raskemuusika reliisi aastast 2026. Igal bändil 20 min lava, vahetuste ajal linastuvad Eesti uuemad muusikavideod. Tharaphita ja Pantokraator EI mängi kontsertkava, vaid annavad kohapeal avaliku intervjuu oma albumist (küsitlevad vastavalt Eero Soomere ja Andres Oja); ülejäänud 10 esinevad live'is. Uksed 17.00, esimene bänd 17.20, kava ~keskööni; kohapeal muusika- ja nännimüük (ka kaardimakse). Vanusepiiranguta, kuni 15-aastastele (k.a) tasuta",
    "b": [
     "Tharaphita",
     "Pantokraator",
@@ -1092,7 +1098,7 @@
    "su": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/27546912968307481/",
-   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. | 04.09.2026 sweep: Fienta piletileht avatud, pu lisatud. | 09.09.2026 (Silveri sisend, Estonianmetal.com FB plakat): TAISKOOSSEIS AVALDATUD — 12 esinejat, `koosseis_tba` maha voetud. Kaks allikat: Fienta ametlik urituseleht (loetleb koik 12 + nende 2026. a reliisid, tahestikus) + korraldaja plakat (sama 12, billing-jarjekorras — `b` jargib plakatit). ⚠ Tharaphita ja Pantokraator on kavas INTERVJUUDENA, mitte live-kavaga (Fienta tekst) — seetottu on see `a`-valjas kirjas, et koosseisurida ei eksitaks. ⚠ VARASEM KAHTLUS LAHENDATUD: kirjes seisis 'FB kellaaeg 05.00 on ilmselt vale/placeholder' — 09.09 seisuga naitab FB event 5 PM ja Fienta 17:00–23:55, st algus on 17.00 ja vastuolu ei ole.",
+   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. | 04.09.2026 sweep: Fienta piletileht avatud, pu lisatud. | 09.09.2026 (Silveri sisend, Estonianmetal.com FB plakat): TAISKOOSSEIS AVALDATUD — 12 esinejat, `koosseis_tba` maha voetud. Kaks allikat: Fienta ametlik urituseleht (loetleb koik 12 + nende 2026. a reliisid, tahestikus) + korraldaja plakat (sama 12, billing-jarjekorras — `b` jargib plakatit). ⚠ Tharaphita ja Pantokraator on kavas INTERVJUUDENA, mitte live-kavaga (Fienta tekst) — seetottu on see `a`-valjas kirjas, et koosseisurida ei eksitaks. ⚠ VARASEM KAHTLUS LAHENDATUD: kirjes seisis 'FB kellaaeg 05.00 on ilmselt vale/placeholder' — 09.09 seisuga naitab FB event 5 PM ja Fienta 17:00–23:55, st algus on 17.00 ja vastuolu ei ole. | 10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri, september 2026): intervjueerijad nimeliselt — Tharaphitat küsitleb Eero Soomere (Goresoerd), Pantokraatorit Andres Oja (Deemon, Sfinks). Uudiskiri lisab ka välisdelegaadid (Mercury Booking / Vilnius, Ditto Concerts + Melna Piktdiena / Riia, Gunnar Sauermann / Prophecy Records, Jarek Szubrycht / Mystic Festival) — need on tööstuskülalised, mitte esinejad, seepärast kirjesse ei lähe.",
    "img": "pildid/raskemuusikaesitluspaev6.webp",
    "pu": "https://fienta.com/et/raskemuusika-esitluspaev-6",
    "hind": {
@@ -1535,10 +1541,15 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=228078",
-   "a": "algus 18.30",
-   "nb": "koht täpsustatud 28.07.2026 (Unibet Arena Black Box, mitte peasaal); allikas Piletilevi | 10.08.2026 sweep: piletilink lisatud (Piletilevi)",
+   "a": "uksed 17.30, algus 18.30; vanusepiirang puudub; Baltikumi ainus show",
+   "nb": "koht täpsustatud 28.07.2026 (Unibet Arena Black Box, mitte peasaal); allikas Piletilevi | 10.08.2026 sweep: piletilink lisatud (Piletilevi) | 10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri): hind + uksed 17.30 + vanusepiiranguta Piletilevi lehelt. ⚠ Uudiskiri väidab \"norm hind 69 €\", Piletilevi kuvab 77,20–87,90 € — ürituse ametlik piletileht võidab (REEGLID §3). ⚠ Piletilevi lehe tekstis seisab endiselt vana teade \"avalik müük algab 28. novembril\" (2025. a müügistart), see EI ole värske info. `ou` jääb tühjaks: Piletilevi on piletimüüja, mitte korraldaja (REEGLID §3); korraldaja Baltic Live Agency.",
    "img": "pildid/amonamarthsoilworkorbitculture.webp",
-   "pu": "https://www.piletilevi.ee/piletid/6JXC45L6H2/amon-amarth-orbit-culture-soilwork-2026"
+   "pu": "https://www.piletilevi.ee/piletid/6JXC45L6H2/amon-amarth-orbit-culture-soilwork-2026",
+   "hind": {
+    "praegu": "77,20–87,90 €",
+    "mark": "Piletilevi kuvatav lõpphind (General Access nominaal alates 59 €, Fan Zone alates 79 €, lisandub agenditasu 4,40–6,60 €); Eesti Raskemuusikaliidu liikmetele kood \"LIIKMEHIND\" 59 € kuni septembri lõpuni",
+    "allikas": "Piletilevi, kontrollitud 10.09.2026"
+   }
   },
   {
    "d": "2026-10-29",

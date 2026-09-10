@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "oid": "2026-09-10-esitluspaev-vanad-reliisid",
+  "kysimus": "Kas lisada Raskemuusika Esitluspäev 6 kavas olevad VANEMAD 2026. a reliisid (jaanuar–juuni) tagantjärele saidile?",
+  "kontekst": "Eesti Raskemuusikaliidu septembri uudiskiri loetleb 03.10 Esitluspäeva 12 esineja 2026. a reliisid. Kuus neist on kaht allikat pidi kinnitatud (uudiskiri + Bandcamp/Spotify), aga 6–8 kuud vanad. Senised reliisikirjed on saidile jõudnud paari nädala jooksul ilmumisest (vanim erand Tharaphita, 6 nädalat). rel+lisatud hoiaks neid esilehel 30 päeva 'uue reliisina' — korraga 6 tükki kahekordistaks esilehe reliisiploki. Žanriliselt on kõik selgelt skoobis. Pantokraatori album on veel ILMUMATA (oktoober), Kurivaimu 'Kuuratsanikud' on singel, Laura Pritsi ja Sunkilleri reliisidele otselinki ei leidnud — need jäävad välja igal juhul.",
+  "valikud": [
+   {"id": "a", "tekst": "Lisan kõik kuus kontrollitut (Artifer 21.01, The Primer 06.03, Mobisa Mobisa 12.03, Diversion Ends 13.03, Surrogoat 29.05, Freakangel 26.06)"},
+   {"id": "b", "tekst": "Ei lisa ühtegi — 03.10 kirjes on juba kõik 12 bändi nimeliselt kirjas (VAIKEOTSUS)"},
+   {"id": "c", "tekst": "Lisan ainult värskeima — Freakangel «Control (Extended)» EP, 26.06.2026"}
+  ],
+  "lingid": [
+   "https://www.facebook.com/events/27546912968307481/",
+   "https://fienta.com/et/raskemuusika-esitluspaev-6",
+   "https://artifer.bandcamp.com/album/the-end-is-only-the-beginning",
+   "https://theprimerband.bandcamp.com/album/perpetual-cycles-of-violence",
+   "https://mobisamobisa.bandcamp.com/album/secretly-dangerous",
+   "https://surrogoat.bandcamp.com/album/consumed-by-the-wrath-of-time-2",
+   "https://freakangel.bandcamp.com/album/control-extended",
+   "https://panto.ee/albums"
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-09-15"
+ }
+]

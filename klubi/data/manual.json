@@ -2513,5 +2513,28 @@
   "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist) | zanr 15.08.2026: RA 2026 zanrisildid House+Minimal (ra.co/events/2445948); sama joon 2024-2026 (Lee Burridge, Cabanne, Traumer, D Julz). TULETATUD eelmisest aastast, 2027 koosseis avaldamata | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
   "img": "pildid/ilandsound2027.webp",
   "koosseis_tba": 1
+ },
+ {
+  "d": "2026-09-12",
+  "rel": 1,
+  "t": "reliis",
+  "n": "Fumantum — «Elephant»",
+  "a": "Martin Sepa (Tallinn) drone / dark ambient -projekti uus 9-loouline album; Bandcampis eeltellimisel 7 €. Fumantum esitleb seda 03.10 Raskemuusika Esitluspäeval Tapperis",
+  "b": [
+   "Fumantum"
+  ],
+  "g": [
+   "ambient",
+   "dark",
+   "industrial",
+   "experimental"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://fumantum.bandcamp.com/album/elephant",
+  "on_": "Bandcamp",
+  "ou": "https://fumantum.bandcamp.com/album/elephant",
+  "lisatud": "2026-09-10",
+  "nb": "lisatud 10.09.2026 postkastijooksus (Silveri edastatud Eesti Raskemuusikaliidu uudiskiri, september 2026 — uudiskiri loetleb Esitluspaev 6 esinejate 2026. a reliisid). Kaks allikat: uudiskiri + Bandcampi album (\"releases September 12, 2026\", eeltellimus, 9 lugu, 2 lugu juba kuulatavad). Bandcampi tag'id: ambient, choir, contemporary folk, dark ambient, drone, industrial, neoclassical, noise, ritual ambient, Tallinn. KLUBI, mitte www: baasžanr on elektrooniline (drone/dark ambient), sama loogika nagu sama artisti «IIII» kirjel 25.07.2026 — Esitluspaeva metal-kontekst ei muuda baasžanri (REEGLID §1).",
+  "img": "pildid/fumantumelephant.webp"
  }
 ]

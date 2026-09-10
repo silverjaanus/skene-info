@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09",
+ "updated": "2026-09-10",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -347,6 +347,10 @@
      "u": "https://www.facebook.com/metallistid/events"
     },
     {
+     "n": "Eesti Raskemuusikaliit",
+     "u": "https://www.facebook.com/Raskemuusikaliit/events"
+    },
+    {
      "n": "Exanity",
      "u": "https://www.facebook.com/exanityofficial/events"
     },
@@ -383,6 +387,10 @@
   {
    "nimi": "Meedia / kogukond",
    "items": [
+    {
+     "n": "heavymusic.ee (Raskemuusikaliidu uudised)",
+     "u": "https://heavymusic.ee/uudised/"
+    },
     {
      "n": "Rada7.ee (FB events)",
      "u": "https://www.facebook.com/rada7.ee/events"
