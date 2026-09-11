@@ -30,7 +30,7 @@ TELLISKIVI="#93392C"; PLOOM="#4E4275"; SINEP="#A8811F"; PAATINA="#2C5B54"
 TYPE_COLOR={"kontsert":TELLISKIVI,"festival":SINEP,"klubi":PLOOM,"reliis":PAATINA,"merch":PAATINA}
 # kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat, tuup jaab tekstina
 CAT_COLOR={"metal":"#93392C","rap":"#2E5EAA","klubi":"#6E45A8"}
-CAT_LABEL={"et":{"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"},"en":{"metal":"METAL","rap":"RAP","klubi":"CLUB"}}
+CAT_LABEL={"et":{"metal":"METAL","rap":"RAP","klubi":"KLUBI"},"en":{"metal":"METAL","rap":"RAP","klubi":"CLUB"}}
 # --- tume plakatipais (saidi E+F umberdisain 08.2026) ---
 # Saidi paises on zanrisonad pealkirjana heledatel tunnusvarvidel tumedal tindil.
 # Meilis ei saa kasutada -webkit-text-stroke'i ega opacity't (Outlook), seega

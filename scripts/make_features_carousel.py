@@ -72,10 +72,25 @@ def _font(cands, size):
     return ImageFont.load_default()
 
 
+# ---- ekraanifont (brand 09.2026): Anton zanrisonade ja slaidipealkirjade jaoks ----
+# Vt make_weekly_image.py sama nimega konstandi kommentaari: suurused valitud nii,
+# et suurtahtede korgus (font.getbbox("METAL")) jaab Arial Boldiga vorreldavaks.
+ANTON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          "assets", "fonts", "Anton-Regular.ttf")
+
+def _display_font(anton_size, fallback_size):
+    if os.path.exists(ANTON_PATH):
+        try:
+            return ImageFont.truetype(ANTON_PATH, anton_size)
+        except Exception:
+            pass
+    return _font(SANS_B, fallback_size)
+
+
 def load_fonts():
-    return {"gword": _font(SANS_B, 54), "kicker": _font(MONO_R, 20),
+    return {"gword": _display_font(46, 54), "kicker": _font(MONO_R, 20),
             "kicker_b": _font(MONO_B, 20),
-            "h2": _font(SANS_B, 52), "h2s": _font(SANS_B, 42),
+            "h2": _display_font(43, 52), "h2s": _display_font(35, 42),
             "sub": _font(MONO_R, 26),
             "lead": _font(SANS_B, 40),
             "body": _font(SANS_R, 33),
@@ -172,7 +187,9 @@ def draw_icon(d, name, x, y, size, colour):
 
 
 def pick_logo(logo_dir):
-    variants = ["v1", "v2", "v5", "v8", "v9", "v10"]
+    # Brand 09.2026: uus logo, 10 valmiskarvitud variandiga (nadal-1..nadal-10),
+    # kleebitakse AS-IS (ei tindita) -- sama loogika mis make_weekly_image.py-s.
+    variants = [f"nadal-{i}" for i in range(1, 11)]
     random.shuffle(variants)
     for v in variants:
         p = os.path.join(logo_dir, f"{v}.png")
@@ -181,6 +198,8 @@ def pick_logo(logo_dir):
     return None
 
 
+# NB brand 09.2026: allolev tint_logo() ei ole enam kasutuses (vt pick_logo()
+# + draw_head()). Jaetud alles vana v1..v10 logo jaoks.
 def tint_logo(path, size, colour):
     im = Image.open(path).convert("RGBA")
     r, g, b, a = im.split()
@@ -218,7 +237,7 @@ SLIDES = [
         "body": [
             ("b", "Iga kirje pealkirja ees on tärn. Vajuta ja kirje läheb sinu nimekirja."),
             ("b", "Nimekirja kohale tekib riba, kust saab „näita ainult neid“."),
-            ("b", "Skoobirea RÄPP ja KLUBI nuppudega korjad kõigi kolme saidi kirjed ühte nimekirja."),
+            ("b", "Skoobirea RAP ja KLUBI nuppudega korjad kõigi kolme saidi kirjed ühte nimekirja."),
             ("n", "Nimekiri elab sinu enda brauseris. Kontot ei ole, meile ei saadeta midagi — aga teises telefonis on ta tühi."),
         ],
     },
@@ -310,7 +329,7 @@ def draw_head(img, d, fonts, logo_path):
     heledad: postitus raagib kogu vorgustikust, mitte uhe nadala sisust."""
     d.rectangle([0, 0, W, HEAD_H], fill=TINT)
     if logo_path:
-        logo = tint_logo(logo_path, LOGO_SIZE, PABER)
+        logo = Image.open(logo_path).convert("RGBA").resize((LOGO_SIZE, LOGO_SIZE), Image.LANCZOS)
         img.paste(logo, LOGO_XY, logo)
     gx = GWORD_X
     for c in CAT_ORDER:
@@ -319,7 +338,7 @@ def draw_head(img, d, fonts, logo_path):
     kx = GWORD_X
     d.text((kx, KICKER_Y), "SKENE.INFO", font=fonts["kicker_b"], fill=PABER)
     kx += d.textlength("SKENE.INFO", font=fonts["kicker_b"])
-    d.text((kx, KICKER_Y), "  ▪  eesti alternatiiv  ▪  üks võrgustik",
+    d.text((kx, KICKER_Y), "  ▪  Eesti UG-muusika ühest kohast",
            font=fonts["kicker"], fill=HDRMUTED)
 
 

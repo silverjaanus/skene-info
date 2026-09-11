@@ -44,12 +44,17 @@ CAT_WORD = {"metal": "METAL", "rap": "RAP", "klubi": "KLUBI"}
 # sait -> (failinimi, domeen, esile tostetud kategooria(d), alarida)
 SAIDID = {
     "www": ("cover.png", "SKENE.INFO", ["metal", "rap", "klubi"],
-            "üritused · merch · reliisid — ühest kohast"),
+            "üritused · merch · reliisid"),
     "rap": ("cover-rap.png", "RAP.SKENE.INFO", ["rap"],
             "eesti räpp ja hip-hop — üritused, merch, reliisid"),
     "klubi": ("cover-klubi.png", "KLUBI.SKENE.INFO", ["klubi"],
               "klubikultuur ja elektroonika — üritused ja reliisid"),
 }
+
+# Brand 09.2026: alamsaidi kaanel on "+" saidi enda varvis (sait-*.png). www-kaas naitab
+# koiki kolme skeenet korraga = vorgustiku koht -> valge "+" (vorgustik.png). Reegel:
+# vorgustiku kohtades valge pluss, saidi kohtades saidi varvi pluss. --logo = override.
+SITE_LOGO_DEFAULT = {"www": "vorgustik", "rap": "sait-rap", "klubi": "sait-klubi"}
 
 
 def _font(cands, size):
@@ -73,7 +78,24 @@ MONO_B = ["C:/Windows/Fonts/consolab.ttf",
           "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
           "/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf"]
 
+# ---- ekraanifont (brand 09.2026): Anton zanrisonade jaoks ----
+# Vt make_weekly_image.py sama nimega konstandi kommentaari: suurus valitud nii,
+# et suurtahtede korgus (font.getbbox("METAL")) jaab Arial Boldiga vorreldavaks.
+ANTON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          "assets", "fonts", "Anton-Regular.ttf")
 
+def _display_font(anton_size, fallback_size):
+    if os.path.exists(ANTON_PATH):
+        try:
+            return ImageFont.truetype(ANTON_PATH, anton_size)
+        except Exception:
+            pass
+    return _font(SANS_B, fallback_size)
+
+
+# NB brand 09.2026: allolev tint_logo() ei ole enam kasutuses (uued sait-*.png
+# / nadal-*.png logod kleebitakse as-is, vt render()). Jaetud alles vana
+# v1..v10 logo jaoks.
 def tint_logo(path, size, colour):
     """Sama loogika mis make_weekly_image.tint_logo: must tint -> antud varv."""
     im = Image.open(path).convert("RGBA")
@@ -85,12 +107,12 @@ def tint_logo(path, size, colour):
     return out.resize((size, size), Image.LANCZOS)
 
 
-def render(sait, logo_variant):
+def render(sait, logo_variant=None):
     failinimi, domeen, esile, alarida = SAIDID[sait]
     img = Image.new("RGB", (W, H), TINT)
     d = ImageDraw.Draw(img)
 
-    f_word = _font(SANS_B, 96)
+    f_word = _display_font(80, 96)
     f_dom = _font(MONO_B, 40)
     f_sub = _font(MONO_R, 30)
     f_foot = _font(MONO_R, 26)
@@ -100,10 +122,13 @@ def render(sait, logo_variant):
     # TOP nihutab kogu ploki vertikaalselt keskele (jaluse joone kohal olevas alas).
     # Ilma selleta istub sisu ulemises kolmandikus ja alumine pool jaab tuhi.
     TOP = 128
+    # vaikimisi saidipohine logo (+ on saidi varvis); --logo lipp voib ule kirjutada
+    logo_variant = logo_variant or SITE_LOGO_DEFAULT[sait]
     logo_path = os.path.join(LOGO_DIR, logo_variant + ".png")
     if os.path.exists(logo_path):
-        img.paste(tint_logo(logo_path, logo_size, PABER), (M, TOP - 2),
-                  tint_logo(logo_path, logo_size, PABER))
+        # uued logod (sait-*.png, nadal-*.png) on juba valmiskarvitud -- kleebitakse AS-IS
+        logo = Image.open(logo_path).convert("RGBA").resize((logo_size, logo_size), Image.LANCZOS)
+        img.paste(logo, (M, TOP - 2), logo)
 
     x0 = M + logo_size + 44
 
@@ -124,7 +149,7 @@ def render(sait, logo_variant):
     # joon + jalus
     jy = H - 118
     d.line([(M, jy), (W - M, jy)], fill=(0x3A, 0x38, 0x33), width=2)
-    d.text((M, jy + 30), "eesti alternatiiv  ▪  üks võrgustik", font=f_foot, fill=HDRMUTED)
+    d.text((M, jy + 30), "Eesti UG-muusika ühest kohast", font=f_foot, fill=HDRMUTED)
     tekst = "skene.info"
     d.text((W - M - d.textlength(tekst, font=f_dom), jy + 20), tekst, font=f_dom, fill=PABER)
 
@@ -137,7 +162,8 @@ def render(sait, logo_variant):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sait", choices=list(SAIDID) + ["koik"], default="koik")
-    ap.add_argument("--logo", default="v1", help="logovariant scripts/assets/logo-st")
+    ap.add_argument("--logo", default=None,
+                    help="logovariant scripts/assets/logo-st (vaikimisi saidipohine sait-*.png)")
     a = ap.parse_args()
     saidid = list(SAIDID) if a.sait == "koik" else [a.sait]
     for s in saidid:

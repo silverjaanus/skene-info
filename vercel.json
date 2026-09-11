@@ -21,7 +21,7 @@
       "continue": true
     },
     {
-      "src": "/(nadal|icons)/(.*)",
+      "src": "/(nadal|icons|fonts)/(.*)",
       "headers": {
         "Cache-Control": "public, max-age=86400"
       },

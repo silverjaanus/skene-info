@@ -52,7 +52,7 @@ TYPE_LABEL = {"kontsert": "KONTSERT", "festival": "FESTIVAL", "klubi": "KLUBI",
               "reliis": "UUS RELIIS", "merch": "MERCH"}
 # kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat karussellis
 CAT_COLOR = {"metal": (0x93,0x39,0x2C), "rap": (0x2E,0x5E,0xAA), "klubi": (0x6E,0x45,0xA8)}
-CAT_LABEL_IMG = {"metal":"METAL","rap":"RÄPP","klubi":"KLUBI"}
+CAT_LABEL_IMG = {"metal":"METAL","rap":"RAP","klubi":"KLUBI"}
 
 # ---- tume plakatipea (saidi paise umberdisain 08.2026, commit 3066137) ----
 # Saidi paises on zanrisonad METAL / RAP / KLUBI pealkirjana tumedal tindil:
@@ -99,10 +99,26 @@ MONO_B = ["C:/Windows/Fonts/consolab.ttf",
           "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
           "/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf"]
 
+# ---- ekraanifont (brand 09.2026): Anton zanrisonade ja suure pealkirja jaoks ----
+# Anton on korgem/kitsam kui Arial Bold samal px-suurusel, seega kasutame eri
+# suurust nii, et suurtahtede korgus (font.getbbox("METAL")) jaab endisega
+# vorreldavaks. Kui Anton-faili ei leita, langeb tagasi Arial Boldile ENDISES
+# suuruses (mitte Antoni suuruses), et fallback ei jaaks liiga vaikeseks.
+ANTON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          "assets", "fonts", "Anton-Regular.ttf")
+
+def _display_font(anton_size, fallback_size):
+    if os.path.exists(ANTON_PATH):
+        try:
+            return ImageFont.truetype(ANTON_PATH, anton_size)
+        except Exception:
+            pass
+    return _font(SANS_B, fallback_size)
+
 def load_fonts():
     return {"eyebrow": _font(MONO_R, 24), "h1": _font(SANS_B, 80),
-            "gword": _font(SANS_B, 54), "kicker": _font(MONO_R, 20),
-            "kicker_b": _font(MONO_B, 20), "h2": _font(SANS_B, 38),
+            "gword": _display_font(46, 54), "kicker": _font(MONO_R, 20),
+            "kicker_b": _font(MONO_B, 20), "h2": _display_font(31, 38),
             "sub": _font(MONO_R, 26), "date": _font(MONO_B, 38),
             "wday": _font(MONO_R, 19), "tag": _font(MONO_B, 18),
             "title": _font(SANS_B, 35), "title_s": _font(SANS_B, 29),
@@ -238,7 +254,9 @@ def paginate(d, fonts, entries):
     return pages
 
 def pick_logo(logo_dir):
-    variants = ["v1", "v2", "v5", "v8", "v9", "v10"]
+    # Brand 09.2026: uus logo, 10 valmiskarvitud variandiga (nadal-1..nadal-10),
+    # kleebitakse AS-IS (ei tindita) -- juhuslik varvivalik tuli saidi paisest siia.
+    variants = [f"nadal-{i}" for i in range(1, 11)]
     random.shuffle(variants)
     for v in variants:
         p = os.path.join(logo_dir, f"{v}.png")
@@ -246,6 +264,9 @@ def pick_logo(logo_dir):
             return p
     return None
 
+# NB brand 09.2026: allolev tint_logo() ei ole enam kasutuses (uus nadal-*.png
+# logo kleebitakse as-is, vt pick_logo() + render_page()). Jaetud alles vana
+# v1..v10 logo jaoks, kuni juht otsustab need failid kustutada.
 def tint_logo(path, size, colour):
     """Varvib logo TINDI umber antud varvi ja teeb tausta labipaistvaks.
 
@@ -269,9 +290,10 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
     cats_present = set(cats_present or CAT_ORDER)
     d.rectangle([0, 0, W, HEAD_H], fill=TINT)
 
-    # logo vasakule, tint heledaks (tumedal taustal); sama variant koigil lehtedel
+    # logo vasakule; uus logo on juba valmiskarvitud (nadal-*.png), kleebitakse
+    # AS-IS (ei tindita) -- sama variant koigil lehtedel
     if logo_path:
-        logo = tint_logo(logo_path, LOGO_SIZE, PABER)
+        logo = Image.open(logo_path).convert("RGBA").resize((LOGO_SIZE, LOGO_SIZE), Image.LANCZOS)
         img.paste(logo, LOGO_XY, logo)
 
     # zanrisonad pealkirjana: esindatud kategooriad heledad, ulejaanud tuhmid
@@ -285,7 +307,7 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
     kx = GWORD_X
     d.text((kx, KICKER_Y), "SKENE.INFO", font=fonts["kicker_b"], fill=PABER)
     kx += d.textlength("SKENE.INFO", font=fonts["kicker_b"])
-    d.text((kx, KICKER_Y), "  ▪  eesti alternatiiv  ▪  üks võrgustik",
+    d.text((kx, KICKER_Y), "  ▪  Eesti UG-muusika ühest kohast",
            font=fonts["kicker"], fill=HDRMUTED)
 
     # ---- pealkirjarida heledal ----
