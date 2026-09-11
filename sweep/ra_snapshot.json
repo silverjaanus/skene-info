@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-09-10",
+ "tommatud": "2026-09-11",
  "aken": {
-  "algus": "2026-09-10",
-  "lopp": "2026-11-09"
+  "algus": "2026-09-11",
+  "lopp": "2026-11-10"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 23,
+ "kirjeid": 29,
  "kirjed": [
   {
    "d": "2026-09-11",
@@ -35,20 +35,6 @@
   },
   {
    "d": "2026-09-11",
-   "n": "Signaal x Aparaaditehas",
-   "algus": "2026-09-11T23:00:00.000",
-   "v": "Aparaaditehas",
-   "ala": "All",
-   "b": [],
-   "g": [
-    "Electro",
-    "Minimal"
-   ],
-   "url": "https://ra.co/events/2508504",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-11",
    "n": "NightVision @clubstudio",
    "algus": "2026-09-11T23:00:00.000",
    "v": "Club Studio",
@@ -59,6 +45,20 @@
     "Garage"
    ],
    "url": "https://ra.co/events/2533256",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-11",
+   "n": "Signaal x Aparaaditehas",
+   "algus": "2026-09-11T23:00:00.000",
+   "v": "Aparaaditehas",
+   "ala": "All",
+   "b": [],
+   "g": [
+    "Electro",
+    "Minimal"
+   ],
+   "url": "https://ra.co/events/2508504",
    "pilet": false
   },
   {
@@ -157,6 +157,32 @@
    "pilet": false
   },
   {
+   "d": "2026-09-12",
+   "n": "Daniel Levi albumi 'Home Away From Home' esitluskontsert",
+   "algus": "2026-09-12T19:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2534236",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-12",
+   "n": "Still Out / Ale Castro / Fonoteek",
+   "algus": "2026-09-12T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [
+    "Ale Castro"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2534239",
+   "pilet": false
+  },
+  {
    "d": "2026-09-18",
    "n": "DANGER from Estonia with pam (NTS radio) + Kadri-Ann DJ & DJ Canada",
    "algus": "2026-09-18T22:00:00.000",
@@ -196,6 +222,19 @@
    "pilet": false
   },
   {
+   "d": "2026-09-18",
+   "n": "Sublime",
+   "algus": "2026-09-18T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [
+    "Degs"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2534242",
+   "pilet": false
+  },
+  {
    "d": "2026-09-19",
    "n": "Healer Records: Charch / Squash",
    "algus": "2026-09-19T17:00:00.000",
@@ -212,6 +251,20 @@
    "pilet": false
   },
   {
+   "d": "2026-09-19",
+   "n": "Lights Out I Fonoteek",
+   "algus": "2026-09-19T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House",
+    "Garage"
+   ],
+   "url": "https://ra.co/events/2534245",
+   "pilet": false
+  },
+  {
    "d": "2026-09-25",
    "n": "Ken Dark Invites PYFEL",
    "algus": "2026-09-25T23:00:00.000",
@@ -222,6 +275,30 @@
    ],
    "g": [],
    "url": "https://ra.co/events/2520906",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-25",
+   "n": "Stereo",
+   "algus": "2026-09-25T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2534247",
+   "pilet": false
+  },
+  {
+   "d": "2026-09-26",
+   "n": "DISCO DISCO GOOD GOOD I Fonoteek",
+   "algus": "2026-09-26T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco"
+   ],
+   "url": "https://ra.co/events/2534249",
    "pilet": false
   },
   {

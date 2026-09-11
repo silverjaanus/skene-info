@@ -19,31 +19,6 @@
   "img": "pildid/planeetlehannaheikosmonaut.webp"
  },
  {
-  "d": "2026-08-27",
-  "t": "klubi",
-  "n": "Arto @ Tšungel",
-  "a": "Neljapäevane vabaõhu-DJ-õhtu Kopli 1 juures, 21.00–02.00, tasuta (21+)",
-  "b": [
-   "Arto"
-  ],
-  "v": "Tšungel",
-  "c": "Tallinn",
-  "g": [
-   "electro",
-   "techno",
-   "minimal"
-  ],
-  "sn": "Resident Advisor",
-  "su": "https://ra.co/events/2516507",
-  "lisatud": "2026-08-21",
-  "hind": {
-   "praegu": "tasuta",
-   "mark": "sissepääs tasuta, vanusepiirang 21+",
-   "allikas": "RA event, kontrollitud 21.08.2026"
-  },
-  "nb": "lisatud sweepis 21.08.2026. Allikad: RA event 2516507 + Tšungla RA venue-leht (265290). Tšungel on suvine vabaõhupaik, mille kogu programm on elektrooniline (sources.json). Kehtib PÜSIREEGEL 8 — samanädalased tasuta DJ-peod lähevad sisse."
- },
- {
   "d": "2026-08-28",
   "t": "klubi",
   "n": "Alo-Indrek Võsu & Taavet Bristol @ Tšungel",
