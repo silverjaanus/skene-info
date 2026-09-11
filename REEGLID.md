@@ -61,6 +61,28 @@ D-Block & S-te-Fan 26.09), peavoolu-EDM-i tähe ümber tekkinud peod mitte.
 on kuskilt loetav. Kui allikas annab ainult DJ-nime ja kellaaja, on vaikeotsus **välja**, mitte
 oletus. Kontsertkirjed samast majast (nt KURIKS 12.09, www) ei ole sellest puudutatud.
 
+**⚠ KINNITATUD JA LAIENDATUD 11.09.2026 (Silver: „mõlemad kaks välja") — reegel kehtib ka
+KUREERITUD klubi-majades ja ka siis, kui MAJA žanriprofiil on teada.** Sweep küsis kaks
+punkti ja mõlemad said vastuseks (a) = välja:
+
+1. **Kureeritud maja ei päri žanrit oma üritustele.** Kui ürituse ENDA leht ei ütle žanrit,
+   ei tohi seda tuletada venue RA-profiilist ega maja ülejäänud kavast. Pretsedendid, mis
+   jäid VÄLJA: *Laine Afters: KXSTER* (R 18.09.2026 kl 22.00, Uus Laine —
+   https://www.facebook.com/events/1745788516691544/) ja *PAUL LEPASSON :: hubba clubba*
+   (R 11.09.2026 kl 21.00, Huba Club, Kalevi 13 Tartu —
+   https://www.facebook.com/events/2490998401387602/; maja RA-profiil ütleb „Progressive
+   House, Techno", aga ürituse leht ei ütle midagi → sellest EI PIISA).
+2. **Plaadipoe/-turu erand kehtib DJ-KAVALE, mitte NIMELISELE ESINEJALE** — see oli juba
+   kirjas ülalpool (Helinihe/Tõnu Kõrvitsa lõik) ja on nüüd otsusega kinnitatud. Pretsedent,
+   mis jäi VÄLJA: *Kuulamisõhtu: Lai Tsung Yun (TW)* (K 30.09.2026 kl 18.30, Nõmme turg /
+   plaadipood Helinihe — https://www.facebook.com/events/1591269805716885/).
+   Võrdluseks SISSE jäi *Musumäe Plaaditurg // DJ Glitch Korts* (P 13.09.2026, Musumägi —
+   https://www.facebook.com/events/1762190875022093/), sest seal ON DJ-kava.
+
+⚠ **Sweep EI tohi neid uuesti ülevaatusesse tõsta** — otsus on tehtud. Kui sama sari tuleb
+tagasi ja ürituse enda leht ütleb seekord žanri välja, on see UUS olukord ja kirje läheb
+tavakorras sisse.
+
 **Tehtud skoobiotsused (pretsedendid):** bluus on www 8. metafilter (26.07); uusklassika/
 nüüdismuusika (EMA-telg) VÄLJA; industrial+metal-koosseis jääb www-le; hard trance →
 klubi; peavoolu-popprokk (Terminaator/Smilers/Shanon-klass, Käärijä-klass peavoolupopp)
