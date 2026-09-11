@@ -1,0 +1,557 @@
+{
+ "kuupaev": "2026-09-11",
+ "allikaid": 212,
+ "avatud": 76,
+ "skipitud": [
+  {
+   "url": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/moisakontsert/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/mahtrarecords",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://howlsofwinter.eu/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/fortbar.tallinn/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/ehewinkel/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/UGbaar/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://wunderbaar.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/exanityofficial/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/ArtClubRoRo/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/stedingukelder/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/festivalimaja/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/urbancultureent/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/BloodBathFest/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://hardrocklaager.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/aprillikivi/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://pergerus.eu/et/tarbariitus/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/balticliveagency/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/LTipsAgencyEstonia/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://rada7.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://fienta.com/et/o/29285",
+   "pohjus": "Fienta: kaetud ULDOTSINGUGA (q=metal/punk/rock/techno/house/dnb/rave/hardcore/doom/black/elektroonika/rapp/hip-hop), eraldi org-lehte ei avatud"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/facecollectorband/upcoming_hosted_events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/Plaaditurg/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/metallistid/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/MaiSkizo/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://fienta.com/s/kolmnurk",
+   "pohjus": "Fienta: kaetud ULDOTSINGUGA (q=metal/punk/rock/techno/house/dnb/rave/hardcore/doom/black/elektroonika/rapp/hip-hop), eraldi org-lehte ei avatud"
+  },
+  {
+   "url": "https://fringe.ee/tickets/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/permanentblueofficial/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/Violetscape/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://lonksbaar.ee",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/madeinvachina.kimjongun/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/BlackRevalia/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/Raskemuusikaliit/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.instagram.com/damn.loud/",
+   "pohjus": "IG-profiil: ajaeelarve; IG-kava dubleerib sama korraldaja FB events-tabi"
+  },
+  {
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "pohjus": "IG-profiil: ajaeelarve; IG-kava dubleerib sama korraldaja FB events-tabi"
+  },
+  {
+   "url": "https://www.instagram.com/tuum.baar/",
+   "pohjus": "IG-profiil: ajaeelarve; IG-kava dubleerib sama korraldaja FB events-tabi"
+  },
+  {
+   "url": "https://www.facebook.com/eestihiphopfestival/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://lukemois.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/legendaarne/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/mckrick/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/MastaRobusta/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/tymmisaun/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.instagram.com/eestihiphopfestival/",
+   "pohjus": "IG-profiil: ajaeelarve; IG-kava dubleerib sama korraldaja FB events-tabi"
+  },
+  {
+   "url": "https://www.instagram.com/tommycashworld/",
+   "pohjus": "IG-profiil: ajaeelarve; IG-kava dubleerib sama korraldaja FB events-tabi"
+  },
+  {
+   "url": "https://www.instagram.com/nublufy/",
+   "pohjus": "IG-profiil: ajaeelarve; IG-kava dubleerib sama korraldaja FB events-tabi"
+  },
+  {
+   "url": "https://legendaarne.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.piletilevi.ee/piletid/muusika",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.hiphop.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://esthiphop.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://tartupunch.com/et/avaleht-eesti/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://tourmotor.net",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/Paavli.Kvartal/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://helitehas.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://somo.social",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.kluub.ee",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://onlinepilet.ee",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://gateme.com/et/Estonia/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.piletimaailm.com/categories/1-muusika",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.ticketer.ee",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.piletilevi.ee/search?query=metal",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://ticketshop.ee/et/events",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://muusikaplaneet.ee/category/singel/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://tuska.fi/en/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://steelfest.fi/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://copenhell.dk/en/front-page/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://swedenrock.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.tonsofrock.no/en",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.beyondthegates.no/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://infernofestival.no/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.wacken.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.hellfest.fr",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.graspop.be",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "http://www.summer-breeze.de",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.brutalassault.cz",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://www.wave-gotik-treffen.de/english/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://meraluna.de/en/",
+   "pohjus": "rahvusvaheline suurfestival: kava ei muutu nadalaga, kirjed juba data.json-is koos koosseisuga"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/rollheaven/",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/punkrockfestival/",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://saund.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/veriorarock.stroganoff/",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "Bandcampi tag-otsing: ajaeelarve; metal+punk sai labi kaidud, ulejaanud 9 silti jargmisel jooksul"
+  },
+  {
+   "url": "https://www.facebook.com/beatsfromthevault/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/AudioPlaneet/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/Arturlaats/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://vmpr.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61557037942445&sk=events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/Dzungelparty/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/djreglok/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/cabrioclub/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://www.facebook.com/vaipevents/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://fienta.com/o/17595",
+   "pohjus": "Fienta: kaetud ULDOTSINGUGA (q=metal/punk/rock/techno/house/dnb/rave/hardcore/doom/black/elektroonika/rapp/hip-hop), eraldi org-lehte ei avatud"
+  },
+  {
+   "url": "https://fienta.com/et/o/17330",
+   "pohjus": "Fienta: kaetud ULDOTSINGUGA (q=metal/punk/rock/techno/house/dnb/rave/hardcore/doom/black/elektroonika/rapp/hip-hop), eraldi org-lehte ei avatud"
+  },
+  {
+   "url": "https://fienta.com/et/o/17855",
+   "pohjus": "Fienta: kaetud ULDOTSINGUGA (q=metal/punk/rock/techno/house/dnb/rave/hardcore/doom/black/elektroonika/rapp/hip-hop), eraldi org-lehte ei avatud"
+  },
+  {
+   "url": "https://www.d-3.ee/events/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://genklubi.ee/events/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://allevents.in/tallinn/raves",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://www.facebook.com/satnamest/events",
+   "pohjus": "FB-leht: ajaeelarve (jooks R 03:06, pilt+uudiskiri 11:45) - vahele jaanud FB-lehed on jargmise jooksu prioriteet"
+  },
+  {
+   "url": "https://estelmus.com/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  },
+  {
+   "url": "https://idaidaida.net/",
+   "pohjus": "veebisait/agregaator: ajaeelarve; sisu kattub avatud korraldaja- ja piletilehtedega"
+  }
+ ],
+ "uusi": {
+  "www": 8,
+  "rap": 0,
+  "klubi": 3
+ },
+ "markus": "Reedene sweep. RA kirjed (34 klubi/promootorit + ra.co/events/ee/all) kaetud sweep/ra_snapshot.json kaudu (tommatud 10.09, 1 p vana). metalstorm.net avati, aga sisu ei laadinud (sisselogimissein). Rikastusi 4: Beneath Revalia 26.09 ja 02.10 (pu + koosseis parandatud: esineja on Humanity, mitte Beneath Revalia), BASHMENT BIRTHDAY koosseis, Veere->Viimane Veeremine nimemuutus + blocklist."
+}

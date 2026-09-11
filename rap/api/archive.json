@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10",
+ "updated": "2026-09-11",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 263,
+ "count": 264,
  "entries": [
   {
    "sait": "www",
@@ -7019,6 +7019,38 @@
    "lisatud": "2026-09-09",
    "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Balti eksperimentaalskeene sooloõhtu: Maksimovs (LV trummar/helilooja, debüütalbum „Rincore\"), Mart Soo ja Sander Saarmets — improvisatsiooni ja komposisiooni piirimail, elektrooniline helidisain. Kahe allika reegel täidetud: Fienta piletileht (K 09.09.2026 19.00–22.00, uksed 19.00, kontsert 19.30) + Uus Laine oma kalender uuslaine.com + FB event. ⚠ Sama korraldaja 05.09 TANTSUPIDU (KORTS+KIWA=77) on eraldi kirje, ära liida.",
    "img": "https://klubi.skene.info/pildid/rinaldsmaksimovslvmartsoosandersaarmets.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-10",
+   "t": "klubi",
+   "n": "Raadio EKA @ Bar IDA",
+   "a": "uksed 20.00; Raadio EKA kooliaasta avapidu Bar IDA-s, kuus EKA diskorit, Siim Pojeng live'is",
+   "b": [
+    "Neonsport",
+    "Simoji",
+    "DJ Canada",
+    "Siim Pojeng",
+    "evalution",
+    "Kokotov"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "electro"
+   ],
+   "sn": "IDA Radio FB",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1607550260880484/",
+   "hind": {
+    "praegu": "5-7 EUR",
+    "mark": "7 EUR, EKA tudengile ISIC-kaardiga 5 EUR; uksel",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: urituse leht zanrit SONAGA ei nimeta (kunstiakadeemia diskorite pidu IDA Radio baaris) - g-sildid on konservatiivsed, mitte lehelt tsiteeritud."
   }
  ]
 }

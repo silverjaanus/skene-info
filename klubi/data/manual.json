@@ -1230,7 +1230,7 @@
  {
   "d": "2026-09-11",
   "t": "klubi",
-  "n": "Veere – vabas õhus",
+  "n": "Viimane Veeremine Veetornis",
   "a": "Veere DJ-sessioon Veetorni Aias — house, gruuv, uuem ja vanem kraam; kell 22.00, ~6 h",
   "b": [],
   "koosseis_tba": 1,
@@ -1244,7 +1244,7 @@
   "su": "https://www.facebook.com/veetorniaed/events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1942929693080721/",
-  "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata."
+  "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata. | 11.09.2026 sweep: ⚠ NIMEMUUTUS — sama FB event (1942929693080721) kannab nüüd pealkirja „Viimane Veeremine Veetornis“ (korraldaja Täna Tallinn), vana nimi „Veere – vabas õhus“ on läinud blocklisti, et archive_split seda tagasi ei tooks."
  },
  {
   "d": "2026-09-11",
@@ -2465,5 +2465,80 @@
   "lisatud": "2026-09-10",
   "nb": "lisatud 10.09.2026 postkastijooksus (Silveri edastatud Eesti Raskemuusikaliidu uudiskiri, september 2026 — uudiskiri loetleb Esitluspaev 6 esinejate 2026. a reliisid). Kaks allikat: uudiskiri + Bandcampi album (\"releases September 12, 2026\", eeltellimus, 9 lugu, 2 lugu juba kuulatavad). Bandcampi tag'id: ambient, choir, contemporary folk, dark ambient, drone, industrial, neoclassical, noise, ritual ambient, Tallinn. KLUBI, mitte www: baasžanr on elektrooniline (drone/dark ambient), sama loogika nagu sama artisti «IIII» kirjel 25.07.2026 — Esitluspaeva metal-kontekst ei muuda baasžanri (REEGLID §1).",
   "img": "pildid/fumantumelephant.webp"
+ },
+ {
+  "d": "2026-09-18",
+  "t": "klubi",
+  "n": "Hardstyle Addendum: 8-BIT — BITCRUSHR (NO)",
+  "a": "hardstyle'i klassikast rawstyle'i ja hardcore'ini; uksed 23.00, kuni 04.00; dresscode 8-bit / retro / neoon",
+  "b": [
+   "BITCRUSHR",
+   "Blownoizer",
+   "SM2KK",
+   "Cryptic"
+  ],
+  "v": "Kultuuriklubi Tempel",
+  "c": "Pärnu",
+  "g": [
+   "hardstyle",
+   "hard dance",
+   "hard"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et/hardstyle-addendum-8-bit-bitcrushr-at-kultuuriklubi-tempel",
+  "pu": "https://fienta.com/et/hardstyle-addendum-8-bit-bitcrushr-at-kultuuriklubi-tempel",
+  "hind": {
+   "praegu": "2–10 €",
+   "mark": "astmeline eelmüük, kalleim aste Lazy Bird 10 €",
+   "allikas": "Fienta, kontrollitud 11.09.2026"
+  },
+  "lisatud": "2026-09-11",
+  "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta ürituseleht (korraldaja White Noise Events / Hardstyle Addendum) + Kultuuriklubi Tempel kui sources.json-i klubi-allikas (ra.co/clubs/151795). Skoop: underground-korraldaja hardstyle/rawstyle/hardcore jääb sisse (REEGLID §1, pretsedendid Brennan Heart 11.09 ja D-Block & S-te-Fan 26.09); peavoolu-EDM oleks välja.",
+  "img": "pildid/hardstyleaddendum8bitbitcrushrno.webp"
+ },
+ {
+  "d": "2026-09-25",
+  "t": "klubi",
+  "n": "Masta Blasta @ MOD",
+  "a": "Tartu bassimuusika-korraldaja Masta Blasta MODis; 23.00–05.00, UK-continuumi bassimuusika",
+  "b": [],
+  "koosseis_tba": 1,
+  "v": "MOD",
+  "c": "Tallinn",
+  "g": [
+   "bass",
+   "dnb",
+   "breaks"
+  ],
+  "sn": "MOD.tln (FB events)",
+  "su": "https://www.facebook.com/Modtln/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1769046797744420/",
+  "lisatud": "2026-09-11",
+  "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Masta Blasta + MOD.tln) + MOD.tln events-tab. Korraldaja on ka sources.json-is (ra.co/promoters/112333). Ürituse kirjeldus: „bass music … across the wider UK continuum“. DJ-koosseis pole veel avaldatud → koosseis_tba. Pilet/uksehind avaldamata.",
+  "img": "pildid/mastablastamod.webp"
+ },
+ {
+  "d": "2026-09-13",
+  "t": "klubi",
+  "n": "Musumäe Plaaditurg // DJ Glitch Korts",
+  "a": "plaaditurg Musumäel koos DJ Glitch Kortsu kavaga; algus 12.00",
+  "b": [
+   "DJ Glitch Korts"
+  ],
+  "v": "Musumägi",
+  "c": "Tallinn",
+  "g": [
+   "disco",
+   "experimental",
+   "electro"
+  ],
+  "sn": "Glitch Please (FB events)",
+  "su": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1762190875022093/",
+  "lisatud": "2026-09-11",
+  "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (korraldaja Plaaditurg) + Glitch Please / Helinihe events-tab. Skoop: plaadilaadad ja -turud on skoobis, sait tuleb kavast, mitte formaadist (REEGLID §1, Silveri otsus 27.08.2026) — DJ-kava tuleb Glitch Pleaselt (eksperimentaalne elektroonika), seega klubi; võrdluseks Plaaditurg Krulli kvartalis 30.08 läks www-le metalli-kaaskorraldajate tõttu. ⚠ Silver: see on üks neist, mis tuleb „iga kord eraldi üle vaadata“.",
+  "img": "pildid/musumaeplaaditurgdjglitchkorts.webp"
  }
 ]

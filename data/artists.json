@@ -795,6 +795,12 @@
         "robert ya tebya vsyu zhizn kotiroval"
       ]
     },
+    "BITCRUSHR": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "BLOOOM": {
       "checked": "2026-08-17",
       "domain": "unclear",
@@ -1083,6 +1089,12 @@
       "tags": [
         "melodic death metal"
       ]
+    },
+    "Blownoizer": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Body Count": {
       "checked": "2026-07-13",
@@ -1398,6 +1410,17 @@
         "ethereal wave"
       ]
     },
+    "Childbeater": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "punk",
+        "hardcore",
+        "estonia",
+        "powerviolence"
+      ]
+    },
     "Children Of Bodom": {
       "checked": "2026-08-02",
       "domain": "www",
@@ -1560,6 +1583,25 @@
         "ukrainian"
       ]
     },
+    "CryBaby": {
+      "checked": "2026-09-11",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "folk",
+        "singer-songwriter",
+        "pop",
+        "british"
+      ]
+    },
+    "Cryptic": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "death metal"
+      ]
+    },
     "Cryptworm": {
       "checked": "2026-08-21",
       "domain": "www",
@@ -1597,6 +1639,16 @@
       "tags": [
         "estonian",
         "folk"
+      ]
+    },
+    "Curse Upon a Prayer": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "black metal",
+        "finnish",
+        "finnish black metal"
       ]
     },
     "CyHra": {
@@ -1673,6 +1725,12 @@
         "uk",
         "britannique"
       ]
+    },
+    "DJ Glitch Korts": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "DJ Issi": {
       "checked": "2026-08-17",
@@ -1825,6 +1883,15 @@
       "tags": [
         "death metal",
         "estonia"
+      ]
+    },
+    "Decultivate": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "chaotic hardcore",
+        "hardcore"
       ]
     },
     "Def Leppard": {
@@ -2095,6 +2162,12 @@
     },
     "E.X.E.X.": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "EESTIYARDIE": {
+      "checked": "2026-09-11",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -2416,6 +2489,12 @@
         "eesti"
       ]
     },
+    "FEEMA": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Faasinihe": {
       "checked": "2026-07-28",
       "domain": "www",
@@ -2430,6 +2509,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Faceless Entity": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "black metal",
+        "raw black metal"
+      ]
     },
     "Fakign (live)": {
       "checked": "2026-08-28",
@@ -2490,6 +2578,17 @@
       "src": "none",
       "tags": []
     },
+    "Fhtagn": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "doom metal",
+        "estonian",
+        "stoner metal"
+      ]
+    },
     "Five Finger Death Punch": {
       "checked": "2026-08-02",
       "domain": "www",
@@ -2529,6 +2628,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Folteraar": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "black metal",
+        "raw black metal"
+      ]
     },
     "Fool": {
       "checked": "2026-07-25",
@@ -2949,6 +3057,12 @@
         "thrash metal"
       ]
     },
+    "Haaveet": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Habur": {
       "checked": "2026-07-26",
       "domain": "unknown",
@@ -3249,6 +3363,15 @@
         "gruzilla"
       ]
     },
+    "Humanity": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "death metal",
+        "progressive metal"
+      ]
+    },
     "Hurmet Ilus": {
       "checked": "2026-08-28",
       "domain": "unknown",
@@ -3266,6 +3389,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Häxenzijrkell": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "black metal",
+        "german"
+      ]
     },
     "Hüpnoos": {
       "checked": "2026-07-13",
@@ -3467,6 +3599,17 @@
         "tech-trance"
       ]
     },
+    "J.O.C.": {
+      "checked": "2026-09-11",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "trance",
+        "electronic",
+        "electronica",
+        "tech-trance"
+      ]
+    },
     "JOOSEPPRO & LENNU": {
       "checked": "2026-08-14",
       "domain": "klubi",
@@ -3631,6 +3774,17 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "KONI": {
+      "checked": "2026-09-11",
+      "domain": "rap",
+      "src": "lastfm",
+      "tags": [
+        "rap",
+        "hip-hop",
+        "poland",
+        "hiphop"
+      ]
     },
     "KRANG": {
       "checked": "2026-09-09",
@@ -3812,6 +3966,17 @@
         "post-rock"
       ]
     },
+    "Katarsis": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "post-punk",
+        "lithuania",
+        "alternative rock",
+        "post-rock"
+      ]
+    },
     "Katja Adrikova": {
       "checked": "2026-07-25",
       "domain": "unclear",
@@ -3951,6 +4116,12 @@
         "uk"
       ]
     },
+    "Kingwhip": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Kira": {
       "checked": "2026-08-14",
       "domain": "www",
@@ -3987,6 +4158,12 @@
     },
     "Klormia": {
       "checked": "2026-08-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Klostriid": {
+      "checked": "2026-09-11",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -4514,6 +4691,17 @@
       "tags": [
         "estonia",
         "estonian"
+      ]
+    },
+    "Lilixelbe": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "powerviolence",
+        "hardcore",
+        "thrashcore",
+        "punk"
       ]
     },
     "Lill": {
@@ -5688,6 +5876,12 @@
       "src": "none",
       "tags": []
     },
+    "O.V.M": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "OB1": {
       "checked": "2026-08-21",
       "domain": "klubi",
@@ -5789,6 +5983,12 @@
         "sublime frequencies",
         "syrian"
       ]
+    },
+    "One Eye Out": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Onkel Jonkel": {
       "checked": "2026-08-14",
@@ -6922,6 +7122,15 @@
       "src": "none",
       "tags": []
     },
+    "Rückwater": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "stoner rock",
+        "rock"
+      ]
+    },
     "SADU": {
       "checked": "2026-07-13",
       "domain": "unclear",
@@ -6963,6 +7172,12 @@
     },
     "SKURM": {
       "checked": "2026-08-02",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "SM2KK": {
+      "checked": "2026-09-11",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -7103,6 +7318,12 @@
         "rap",
         "metalcore"
       ]
+    },
+    "Sarcophakiss": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Satyricon": {
       "checked": "2026-07-19",
@@ -7251,6 +7472,12 @@
         "j-pop",
         "j-hip hop"
       ]
+    },
+    "Shrapnelle": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Sibyl Vane": {
       "checked": "2026-07-13",
@@ -7588,6 +7815,14 @@
         "death metal",
         "groove metal",
         "nu metal"
+      ]
+    },
+    "Stupid F": {
+      "checked": "2026-09-11",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "ehh"
       ]
     },
     "Subbwell": {
@@ -8234,6 +8469,12 @@
         "rock"
       ]
     },
+    "Theoretik": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "This.Is.Margus": {
       "checked": "2026-08-21",
       "domain": "unclear",
@@ -8389,6 +8630,12 @@
       "src": "none",
       "tags": []
     },
+    "Traumapunkt": {
+      "checked": "2026-09-11",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Tribal Gaze": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -8406,6 +8653,17 @@
         "electronic",
         "downtempo",
         "trip hop"
+      ]
+    },
+    "Trigger": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "grindcore",
+        "powerviolence",
+        "death metal",
+        "hard rock"
       ]
     },
     "Triibupasta": {
@@ -8803,6 +9061,17 @@
       "tags": [
         "deep house",
         "trip-hop"
+      ]
+    },
+    "Vortex of End": {
+      "checked": "2026-09-11",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "black metal",
+        "french",
+        "french black metal",
+        "blackened death metal"
       ]
     },
     "Väntajad": {
@@ -9743,5 +10012,5 @@
       ]
     }
   },
-  "updated": "2026-09-09"
+  "updated": "2026-09-11"
 }

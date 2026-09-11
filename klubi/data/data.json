@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10",
+ "updated": "2026-09-11",
  "entries": [
   {
    "d": "2026-08-21",
@@ -42,37 +42,6 @@
    "lisatud": "2026-08-26",
    "nb": "lisatud 26.08.2026 postkastijooksus, Paavli Kultuurivabriku uudiskirja kaevandamisel (25.08 kiri Brodsky Garden Sessionsi kohta: «just two days after the concert, Brodsky releases Whispering Ln. Vol. II via Hidden Harmony Recordings»). Kaks allikat: uudiskiri + Bandcampi albumileht («releases 28 August 2026», 8 lugu). Bandcampi kuupäevalõksu kontroll: kuupäev EI ole platseholder — uudiskiri ütleb sõltumatult «two days after» 26.08 kontserti, mis annab sama 28.08. Sait: klubi (baasžanr ambient/minimalistlik elektroonika — sama otsus nagu Brodsky 26.08 kontsert, mis kolis 25.08 www-lt klubisse). Žanrisildid tulenevad labeli ja korraldaja sõnastusest ('minimalism', 'early electronic music', 'ambient'), mitte verifitseeritud taksonoomiast. Salvestatud 2018–2019 USA-s, sama sessioon mis esimene «Whispering Ln.» (kinnitab ka Forced Exposure'i LP-leht).",
    "img": "pildid/volodjabrodskywhisperinglnvolii.webp"
-  },
-  {
-   "d": "2026-09-10",
-   "t": "klubi",
-   "n": "Raadio EKA @ Bar IDA",
-   "a": "uksed 20.00; Raadio EKA kooliaasta avapidu Bar IDA-s, kuus EKA diskorit, Siim Pojeng live'is",
-   "b": [
-    "Neonsport",
-    "Simoji",
-    "DJ Canada",
-    "Siim Pojeng",
-    "evalution",
-    "Kokotov"
-   ],
-   "v": "Bar IDA",
-   "c": "Tallinn",
-   "g": [
-    "club",
-    "electro"
-   ],
-   "sn": "IDA Radio FB",
-   "su": "https://www.facebook.com/IDARadio/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1607550260880484/",
-   "hind": {
-    "praegu": "5-7 EUR",
-    "mark": "7 EUR, EKA tudengile ISIC-kaardiga 5 EUR; uksel",
-    "allikas": "FB event, kontrollitud 09.09.2026"
-   },
-   "lisatud": "2026-09-09",
-   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: urituse leht zanrit SONAGA ei nimeta (kunstiakadeemia diskorite pidu IDA Radio baaris) - g-sildid on konservatiivsed, mitte lehelt tsiteeritud."
   },
   {
    "d": "2026-09-11",
@@ -314,7 +283,7 @@
   {
    "d": "2026-09-11",
    "t": "klubi",
-   "n": "Veere – vabas õhus",
+   "n": "Viimane Veeremine Veetornis",
    "a": "Veere DJ-sessioon Veetorni Aias — house, gruuv, uuem ja vanem kraam; kell 22.00, ~6 h",
    "b": [],
    "koosseis_tba": 1,
@@ -328,7 +297,8 @@
    "su": "https://www.facebook.com/veetorniaed/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1942929693080721/",
-   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata."
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata. | 11.09.2026 sweep: ⚠ NIMEMUUTUS — sama FB event (1942929693080721) kannab nüüd pealkirja „Viimane Veeremine Veetornis“ (korraldaja Täna Tallinn), vana nimi „Veere – vabas õhus“ on läinud blocklisti, et archive_split seda tagasi ei tooks.",
+   "lisatud": "2026-09-11"
   },
   {
    "d": "2026-09-11",
@@ -481,6 +451,29 @@
    "img": "pildid/fumantumelephant.webp"
   },
   {
+   "d": "2026-09-13",
+   "t": "klubi",
+   "n": "Musumäe Plaaditurg // DJ Glitch Korts",
+   "a": "plaaditurg Musumäel koos DJ Glitch Kortsu kavaga; algus 12.00",
+   "b": [
+    "DJ Glitch Korts"
+   ],
+   "v": "Musumägi",
+   "c": "Tallinn",
+   "g": [
+    "disco",
+    "experimental",
+    "electro"
+   ],
+   "sn": "Glitch Please (FB events)",
+   "su": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1762190875022093/",
+   "lisatud": "2026-09-11",
+   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (korraldaja Plaaditurg) + Glitch Please / Helinihe events-tab. Skoop: plaadilaadad ja -turud on skoobis, sait tuleb kavast, mitte formaadist (REEGLID §1, Silveri otsus 27.08.2026) — DJ-kava tuleb Glitch Pleaselt (eksperimentaalne elektroonika), seega klubi; võrdluseks Plaaditurg Krulli kvartalis 30.08 läks www-le metalli-kaaskorraldajate tõttu. ⚠ Silver: see on üks neist, mis tuleb „iga kord eraldi üle vaadata“.",
+   "img": "pildid/musumaeplaaditurgdjglitchkorts.webp"
+  },
+  {
    "d": "2026-09-18",
    "t": "klubi",
    "n": "DANGER from Estonia: pam (NTS radio)",
@@ -605,6 +598,36 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek.ee (18.09). Piletilink event-lehel olemas ('Find tickets'), täpne URL lugemata — täienda",
    "img": "pildid/sublimedegsuk.webp"
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "Hardstyle Addendum: 8-BIT — BITCRUSHR (NO)",
+   "a": "hardstyle'i klassikast rawstyle'i ja hardcore'ini; uksed 23.00, kuni 04.00; dresscode 8-bit / retro / neoon",
+   "b": [
+    "BITCRUSHR",
+    "Blownoizer",
+    "SM2KK",
+    "Cryptic"
+   ],
+   "v": "Kultuuriklubi Tempel",
+   "c": "Pärnu",
+   "g": [
+    "hardstyle",
+    "hard dance",
+    "hard"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/hardstyle-addendum-8-bit-bitcrushr-at-kultuuriklubi-tempel",
+   "pu": "https://fienta.com/et/hardstyle-addendum-8-bit-bitcrushr-at-kultuuriklubi-tempel",
+   "hind": {
+    "praegu": "2–10 €",
+    "mark": "astmeline eelmüük, kalleim aste Lazy Bird 10 €",
+    "allikas": "Fienta, kontrollitud 11.09.2026"
+   },
+   "lisatud": "2026-09-11",
+   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta ürituseleht (korraldaja White Noise Events / Hardstyle Addendum) + Kultuuriklubi Tempel kui sources.json-i klubi-allikas (ra.co/clubs/151795). Skoop: underground-korraldaja hardstyle/rawstyle/hardcore jääb sisse (REEGLID §1, pretsedendid Brennan Heart 11.09 ja D-Block & S-te-Fan 26.09); peavoolu-EDM oleks välja.",
+   "img": "pildid/hardstyleaddendum8bitbitcrushrno.webp"
   },
   {
    "d": "2026-09-19",
@@ -892,6 +915,28 @@
    "ou": "https://www.facebook.com/events/1584962266610851/",
    "lisatud": "2026-09-09",
    "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR on lehel SONASELGELT kirjas: 90ndate tracker-/moodulmuusika, 'raw modules, crunchy samples, frantic patterns' - Eesti arvuti-underground. Kaaskorraldaja Ilmar Kerm. Hinda lehel ei nimetatud."
+  },
+  {
+   "d": "2026-09-25",
+   "t": "klubi",
+   "n": "Masta Blasta @ MOD",
+   "a": "Tartu bassimuusika-korraldaja Masta Blasta MODis; 23.00–05.00, UK-continuumi bassimuusika",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "dnb",
+    "breaks"
+   ],
+   "sn": "MOD.tln (FB events)",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1769046797744420/",
+   "lisatud": "2026-09-11",
+   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Masta Blasta + MOD.tln) + MOD.tln events-tab. Korraldaja on ka sources.json-is (ra.co/promoters/112333). Ürituse kirjeldus: „bass music … across the wider UK continuum“. DJ-koosseis pole veel avaldatud → koosseis_tba. Pilet/uksehind avaldamata.",
+   "img": "pildid/mastablastamod.webp"
   },
   {
    "d": "2026-09-26",
