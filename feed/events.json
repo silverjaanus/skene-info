@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 188,
+ "count": 189,
  "entries": [
   {
    "sait": "www",
@@ -272,6 +272,29 @@
    "img": "https://rap.skene.info/pildid/mastarobustareipaidridurezzidelradadel.webp"
   },
   {
+   "sait": "rap",
+   "rel": 1,
+   "d": "2026-09-04",
+   "lisatud": "2026-09-11",
+   "t": "reliis",
+   "n": "KOSMOS & DEW8 — «Viimaste Asjade Teadus»",
+   "a": "17 looga luulealbum plaadifirmalt Dieu Huit Records — Siim Sinamäe (Kosmos) ja Siim Parisoo (DEW8) ühisalbum, mis liigub luule ja hiphopi vahelisel alal. Kaasa teeb Genka, taustavokaalidel Margaret Kelomees. Ilmus voogedastuses R 04.09.2026; vinüül müügil Dieu Huiti poes",
+   "b": [
+    "KOSMOS",
+    "DEW8",
+    "Genka"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "ERR kultuur",
+   "su": "https://kultuur.err.ee/1610128657/kosmos-ja-dew8-avaldasid-luulealbumi-viimase-asjade-teadus",
+   "on_": "Spotify",
+   "ou": "https://open.spotify.com/album/2diFsCN13E8lfANoWj74oL",
+   "pu": "https://dewdewdew.com/et/tooted/kosmos-dew8-vat-lp-classic",
+   "nb": "lisatud 11.09.2026 postkastijooksus, leitud Rada7.ee uudiskirjast 10.09.2026 ('Värskest kodumaisest muusikast tasub klappidesse tiksuma panna Kosmose ja Dew8 album'). Kaks sõltumatut allikat kuupäeva jaoks: ERR kultuur 04.09.2026 kl 14.32 ('Plaadifirma Dieu Huit Records andis välja...') + ERR 'Uue muusika reede' sama päeva koond; 04.09.2026 oli reede. Kolmas kinnitus: MuusikaPlaneet 04.09 ja Spotify albumileht. ⚠ Vinüül-LP ja albumi läbilõike video on Dieu Huiti kanalis juba aprillist 2026 ja kuulamisõhtu toimus juuni paiku — VOOGEDASTUSSE jõudis album alles 04.09, seepärast on `d` = 04.09, mitte kevad. Žanrisildid on standardsed (räpp/hiphop); 'luulealbum' / 'luule-räpp' on artistide ja Genka enda sõnastus ERR-i loos, mitte eraldi silt. Vinüülilink `pu` = Dieu Huiti oma pood dewdewdew.com (classic LP; müügil ka graniit/reesus/miraaz ja bundle)."
+  },
+  {
    "sait": "www",
    "d": "2026-09-05",
    "t": "reliis",
@@ -378,10 +401,10 @@
   {
    "sait": "www",
    "d": "2026-09-11",
-   "d2": "13.09",
+   "d2": "12.09",
    "t": "festival",
    "n": "Fuzz Salvation 2026",
-   "a": "Alternatiivrokk-festival 4. korda; 10 esinejat kahel ohtul, ka eksperimentaalne tantsumuusika (Idiot Dance Music)",
+   "a": "Alternatiivrokk-festival 4. korda, 11.–12.09 Von Krahlis; 10 esinejat kahel ohtul + DJ-d, ka eksperimentaalne tantsumuusika (Idiot Dance Music lopetab teise oo). Uksed 19.00. R: DJ Kurbade tudrukute klubi 19.00, Embus 20.00, Giuseppe Perverdi Big Band 21.00, Kalli Talonpoika & The Sunshine Band 22.00, Phlox + DJ 23.00, Paul Cole & The Great Outdoors 00.00. L: DJ Ingrid Kohtla & DJ Peipsibel 19.00, Model Citizen 20.00, PX Band 21.00, Fuzzolini 22.00, From Grotto 23.00, Idiot Dance Music 00.00",
    "b": [
     "Paul Cole & The Great Outdoors",
     "Embus",
@@ -392,7 +415,10 @@
     "PX Band",
     "Fuzzolini",
     "From Grotto (FIN)",
-    "Idiot Dance Music"
+    "Idiot Dance Music",
+    "DJ Kurbade Tüdrukute Klubi",
+    "DJ Ingrid Kohtla",
+    "DJ Peipsibel"
    ],
    "v": "Von Krahli kohvik",
    "c": "Tallinn",
@@ -410,7 +436,7 @@
     "mark": "early bird 25 EUR (2 paeva); support 40 EUR",
     "allikas": "kontaktivorm + Fienta, kontrollitud 26.07.2026"
    },
-   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame) | 02.08.2026: SILVERI OTSUS — Paul Cole & The Great Outdoors LISATUD kavasse korraldaja kinnituse alusel (a-vali 9 -> 10 esinejat). Ainus allikas on korraldaja enda kaks kontaktivormi teadet (26.07 ja 01.08); Fienta ametlik kava seda veel ei kajasta. Kui Fienta/FB-event hiljem raagib vastu, kontrolli uuesti. | 07.08.2026 sweep: Fienta org-leht 29285 ütleb R 11.09 – P 13.09 (varem kirjes lõpp 12.09).",
+   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame) | 02.08.2026: SILVERI OTSUS — Paul Cole & The Great Outdoors LISATUD kavasse korraldaja kinnituse alusel (a-vali 9 -> 10 esinejat). Ainus allikas on korraldaja enda kaks kontaktivormi teadet (26.07 ja 01.08); Fienta ametlik kava seda veel ei kajasta. Kui Fienta/FB-event hiljem raagib vastu, kontrolli uuesti. | 07.08.2026 sweep: Fienta org-leht 29285 ütleb R 11.09 – P 13.09 (varem kirjes lõpp 12.09). | ⚠ 11.09.2026 postkastijooks: `d2` PARANDATUD TAGASI 12.09-le. 07.08 muudatus luges Fienta org-lehe TOORAJATEMPLIT ('R 11.09 19:00 – P 13.09 02:00'), aga see 02.00 on laupäeva öö LÕPP, mitte kolmas päev. Fienta ürituselehe enda tekst ütleb kaks korda välja 'kahepäevase programmiga' ja 'toimub 11. ja 12. septembril', ajakavas on ainult reede ja laupäev; Rada7.ee uudiskiri 10.09 nimetab samuti 'kahepäevaseks minifestivaliks'. Sama viga, mille kohta HANDOVER §4 juba hoiatab (Howls of Winter õppetund 09.09: mitmepäevase ürituse kestus võta korraldaja TEKSTIST, mitte timestamp'ist). | 11.09.2026: TÄISAJAKAVA + DJ-d lisatud (Fienta ürituseleht, 2. allikas Rada7 uudiskiri, mõlemad annavad samad DJ-d: R Kurbade Tüdrukute Klubi, L Ingrid Kohtla + Peipsibel). ✅ Paul Cole & The Great Outdoors, mille Silver 02.08 korraldaja sõna peale sisse lubas, SEISAB NÜÜD ka Fienta ametlikus ajakavas (R 00.00) — 02.08 otsus on kinnitust saanud. NB Fienta proosatekst ütleb ikka 'üheksa esinejat', ajakava loetleb 10 bändi — proosa on aegunud.",
    "img": "https://www.skene.info/pildid/fuzzsalvation2026.webp"
   },
   {
@@ -595,8 +621,14 @@
    "d": "2026-09-11",
    "t": "klubi",
    "n": "Signaal x Aparaaditehas",
-   "a": "Signaali teine väljaanne, seekord Aparaaditehases — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00; koosseis avaldamata",
-   "b": [],
+   "a": "Signaali teine väljaanne, seekord Aparaaditehase Armastuse saalis — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00",
+   "b": [
+    "Mysty",
+    "Habur",
+    "Arto",
+    "Pletnev (LT)",
+    "Kulon b2b Kokotov"
+   ],
    "v": "Aparaaditehas (Kastani 42)",
    "c": "Tartu",
    "g": [
@@ -608,15 +640,14 @@
    "su": "https://ra.co/events/2508504",
    "on_": "Resident Advisor",
    "ou": "https://ra.co/events/2508504",
-   "pu": "https://ra.co/events/2508504",
+   "pu": "https://fienta.com/et/signaal-x-aparaaditehas",
    "hind": {
     "praegu": "5€",
-    "mark": "first release eelmüük RA-l",
-    "allikas": "ra.co, kontrollitud 14.08.2026"
+    "mark": "early bird / first release eelmüük Fientas; 18+",
+    "allikas": "Fienta + aparaaditehas.ee, kontrollitud 11.09.2026"
    },
    "lisatud": "2026-08-14",
-   "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-   "koosseis_tba": 1,
+   "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 11.09.2026 postkastijooks: KOOSSEIS AVALDATUD, `koosseis_tba` maha. Kaks soltumatut allikat, mis loetlevad sama viit nime: venue oma urituseleht https://www.aparaaditehas.ee/uritused/pidu-signaal-x-aparaaditehas/ (Mysty, Habur, Arto, Pletnev (LT), Kulon b2b Kokotov) + Rada7.ee uudiskiri 10.09.2026. ⚠ Urituse RA-leht (2508504) ja Fienta piletileht utlevad 11.09 seisuga ENDISELT 'Lineup TBA!' — koosseis tuli venue lehelt. Venue leht tapsustab ka saali: Armastuse saal. Piletilink vahetatud RA-lt Fientale (FB event 875386048728541 viitab Fientale).",
    "img": "https://klubi.skene.info/pildid/signaalxaparaaditehas.webp"
   },
   {
@@ -647,7 +678,7 @@
    "lisatud": "2026-08-17",
    "t": "klubi",
    "n": "Tartu Massive: BLOOOM (DE)",
-   "a": "dnb-sarja 18. hooaja avapidu; 23:00",
+   "a": "dnb-sarja 18. hooaja avapidu; 23.00–04.00",
    "b": [
     "BLOOOM"
    ],
@@ -658,8 +689,10 @@
    ],
    "sn": "Ticketer",
    "su": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4454576378190151/",
    "pu": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
-   "nb": "lisatud 17.08.2026: allikad Ticketer + Tartu Massive FB/IG (postitused 14.08.2026, 'Uus hooaeg algab 11.09')",
+   "nb": "lisatud 17.08.2026: allikad Ticketer + Tartu Massive FB/IG (postitused 14.08.2026, 'Uus hooaeg algab 11.09') | 11.09.2026 postkastijooks (Rada7 uudiskiri 10.09): FB event leitud ja lisatud `ou`-sse (4454576378190151, korraldajad Tartu Massive + DEFFENLO + Well Played Events + Klubi Gutenberg jt); FB kinnitab kellaaja 23.00–04.00 ja sama Ticketeri piletilingi. Toetavat koosseisu uritusel eraldi valja ei oelda, ainult BLOOOM (DE).",
    "img": "https://klubi.skene.info/pildid/tartumassiveblooomde.webp"
   },
   {
@@ -735,8 +768,7 @@
    "su": "https://www.facebook.com/veetorniaed/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1942929693080721/",
-   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata. | 11.09.2026 sweep: ⚠ NIMEMUUTUS — sama FB event (1942929693080721) kannab nüüd pealkirja „Viimane Veeremine Veetornis“ (korraldaja Täna Tallinn), vana nimi „Veere – vabas õhus“ on läinud blocklisti, et archive_split seda tagasi ei tooks.",
-   "lisatud": "2026-09-11"
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata. | 11.09.2026 sweep: ⚠ NIMEMUUTUS — sama FB event (1942929693080721) kannab nüüd pealkirja „Viimane Veeremine Veetornis“ (korraldaja Täna Tallinn), vana nimi „Veere – vabas õhus“ on läinud blocklisti, et archive_split seda tagasi ei tooks."
   },
   {
    "sait": "klubi",

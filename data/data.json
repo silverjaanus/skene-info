@@ -129,10 +129,10 @@
   },
   {
    "d": "2026-09-11",
-   "d2": "13.09",
+   "d2": "12.09",
    "t": "festival",
    "n": "Fuzz Salvation 2026",
-   "a": "Alternatiivrokk-festival 4. korda; 10 esinejat kahel ohtul, ka eksperimentaalne tantsumuusika (Idiot Dance Music)",
+   "a": "Alternatiivrokk-festival 4. korda, 11.–12.09 Von Krahlis; 10 esinejat kahel ohtul + DJ-d, ka eksperimentaalne tantsumuusika (Idiot Dance Music lopetab teise oo). Uksed 19.00. R: DJ Kurbade tudrukute klubi 19.00, Embus 20.00, Giuseppe Perverdi Big Band 21.00, Kalli Talonpoika & The Sunshine Band 22.00, Phlox + DJ 23.00, Paul Cole & The Great Outdoors 00.00. L: DJ Ingrid Kohtla & DJ Peipsibel 19.00, Model Citizen 20.00, PX Band 21.00, Fuzzolini 22.00, From Grotto 23.00, Idiot Dance Music 00.00",
    "b": [
     "Paul Cole & The Great Outdoors",
     "Embus",
@@ -143,7 +143,10 @@
     "PX Band",
     "Fuzzolini",
     "From Grotto (FIN)",
-    "Idiot Dance Music"
+    "Idiot Dance Music",
+    "DJ Kurbade Tüdrukute Klubi",
+    "DJ Ingrid Kohtla",
+    "DJ Peipsibel"
    ],
    "v": "Von Krahli kohvik",
    "c": "Tallinn",
@@ -161,7 +164,7 @@
     "mark": "early bird 25 EUR (2 paeva); support 40 EUR",
     "allikas": "kontaktivorm + Fienta, kontrollitud 26.07.2026"
    },
-   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame) | 02.08.2026: SILVERI OTSUS — Paul Cole & The Great Outdoors LISATUD kavasse korraldaja kinnituse alusel (a-vali 9 -> 10 esinejat). Ainus allikas on korraldaja enda kaks kontaktivormi teadet (26.07 ja 01.08); Fienta ametlik kava seda veel ei kajasta. Kui Fienta/FB-event hiljem raagib vastu, kontrolli uuesti. | 07.08.2026 sweep: Fienta org-leht 29285 ütleb R 11.09 – P 13.09 (varem kirjes lõpp 12.09).",
+   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame) | 02.08.2026: SILVERI OTSUS — Paul Cole & The Great Outdoors LISATUD kavasse korraldaja kinnituse alusel (a-vali 9 -> 10 esinejat). Ainus allikas on korraldaja enda kaks kontaktivormi teadet (26.07 ja 01.08); Fienta ametlik kava seda veel ei kajasta. Kui Fienta/FB-event hiljem raagib vastu, kontrolli uuesti. | 07.08.2026 sweep: Fienta org-leht 29285 ütleb R 11.09 – P 13.09 (varem kirjes lõpp 12.09). | ⚠ 11.09.2026 postkastijooks: `d2` PARANDATUD TAGASI 12.09-le. 07.08 muudatus luges Fienta org-lehe TOORAJATEMPLIT ('R 11.09 19:00 – P 13.09 02:00'), aga see 02.00 on laupäeva öö LÕPP, mitte kolmas päev. Fienta ürituselehe enda tekst ütleb kaks korda välja 'kahepäevase programmiga' ja 'toimub 11. ja 12. septembril', ajakavas on ainult reede ja laupäev; Rada7.ee uudiskiri 10.09 nimetab samuti 'kahepäevaseks minifestivaliks'. Sama viga, mille kohta HANDOVER §4 juba hoiatab (Howls of Winter õppetund 09.09: mitmepäevase ürituse kestus võta korraldaja TEKSTIST, mitte timestamp'ist). | 11.09.2026: TÄISAJAKAVA + DJ-d lisatud (Fienta ürituseleht, 2. allikas Rada7 uudiskiri, mõlemad annavad samad DJ-d: R Kurbade Tüdrukute Klubi, L Ingrid Kohtla + Peipsibel). ✅ Paul Cole & The Great Outdoors, mille Silver 02.08 korraldaja sõna peale sisse lubas, SEISAB NÜÜD ka Fienta ametlikus ajakavas (R 00.00) — 02.08 otsus on kinnitust saanud. NB Fienta proosatekst ütleb ikka 'üheksa esinejat', ajakava loetleb 10 bändi — proosa on aegunud.",
    "img": "pildid/fuzzsalvation2026.webp"
   },
   {

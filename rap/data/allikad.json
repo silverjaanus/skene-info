@@ -69,6 +69,10 @@
    "nimi": "Muud",
    "items": [
     {
+     "n": "Dieu Huit Records / DEWDEWDEW (pood + reliisid)",
+     "u": "https://dewdewdew.com/et"
+    },
+    {
      "n": "Krick (MC Krick)",
      "u": "https://www.facebook.com/mckrick/events"
     },
@@ -91,6 +95,15 @@
     {
      "n": "Tümmisaun (peosari)",
      "u": "https://www.facebook.com/tymmisaun/events"
+    }
+   ]
+  },
+  {
+   "nimi": "Plaadifirmad ja poed",
+   "items": [
+    {
+     "n": "Dieu Huit Records (FB)",
+     "u": "https://www.facebook.com/dieuhuitrecords"
     }
    ]
   },

@@ -425,6 +425,18 @@
     "nb": "lisatud 28.07.2026 Silveri viite peale. Labeli enda FB-leht; urituste-tab on hetkel ainult 'Past', aga jalgi"
    },
    {
+    "nimi": "Dieu Huit Records (FB)",
+    "url": "https://www.facebook.com/dieuhuitrecords",
+    "tyyp": "label",
+    "nb": "lisatud 11.09.2026 postkastijooksus (Rada7.ee uudiskiri 10.09 -> KOSMOS & DEW8 «Viimaste Asjade Teadus», ilmus 04.09.2026). Eesti alternatiivse muusika label, EST. 2020, Tartu, ~250 jalgijat. FB-leht kajastab reliise vahe -> POHIALLIKAS ON LABELI OMA POOD, vt jargmine kirje. IG: instagram.com/dieuhuitrecords"
+   },
+   {
+    "nimi": "Dieu Huit Records / DEWDEWDEW (pood + reliisid)",
+    "url": "https://dewdewdew.com/et",
+    "tyyp": "label/pood",
+    "nb": "lisatud 11.09.2026. Labeli oma e-pood: iga reliis saab siia tootelehe (nt /et/tooted/kosmos-dew8-vat-lp-classic), seega uus vinuul = uus reliis. Jargib REEGLID §3 reeglit 'NII FB-leht KUI veebisait' — FB-leht uksi oleks pime nurk, sest reliisid elavad saidil. Artistid mh DEW8, KOSMOS."
+   },
+   {
     "nimi": "Privé Live Club (Club Privé)",
     "url": "https://www.facebook.com/clubprive/events",
     "tyyp": "venue",
@@ -879,6 +891,18 @@
     "url": "https://www.facebook.com/Arturlaats/events",
     "tyyp": "artist",
     "nb": "lisatud 13.07.2026 (Silver); ISIKUPROFIIL (mitte leht), seotud HALL/hall.vision, soundcloud.com/arturlaats; 13.07.2026 upcoming events tuhi - hore allikas"
+   },
+   {
+    "nimi": "Tartu Massive",
+    "url": "https://www.facebook.com/TartuMassive/events",
+    "tyyp": "peosari",
+    "nb": "lisatud 11.09.2026 postkastijooksus (Rada7.ee uudiskiri 10.09). Tartu vanim dnb-peosari, 11.09.2026 algas 18. hooaeg (BLOOOM, DE); ~2,9K jalgijat, toimub Klubis Gutenberg Aparaaditehases, piletid ticketer.ee. Korraldajaring: DEFFENLO, DJ Moose, Well Played Events, Tehnikatiim."
+   },
+   {
+    "nimi": "Klubi Gutenberg (Tartu, Aparaaditehas)",
+    "url": "https://www.facebook.com/KlubiGutenberg/events",
+    "tyyp": "venue",
+    "nb": "lisatud 11.09.2026 samas jooksus. Klubi Aparaaditehases (Kastani 42, Tartu), ~1,8K jalgijat; Tartu Massive'i pohikodu, aga majal on ka oma kava. NB Aparaaditehas ise on juba eraldi allikas — Gutenberg on maja SEES olev klubi ja tema uritused ei pruugi Aparaaditehase kavas paista."
    },
    {
     "nimi": "Kaks Tuba (Rapla)",

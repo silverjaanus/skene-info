@@ -1131,8 +1131,14 @@
   "d": "2026-09-11",
   "t": "klubi",
   "n": "Signaal x Aparaaditehas",
-  "a": "Signaali teine väljaanne, seekord Aparaaditehases — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00; koosseis avaldamata",
-  "b": [],
+  "a": "Signaali teine väljaanne, seekord Aparaaditehase Armastuse saalis — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00",
+  "b": [
+   "Mysty",
+   "Habur",
+   "Arto",
+   "Pletnev (LT)",
+   "Kulon b2b Kokotov"
+  ],
   "v": "Aparaaditehas (Kastani 42)",
   "c": "Tartu",
   "g": [
@@ -1144,15 +1150,14 @@
   "su": "https://ra.co/events/2508504",
   "on_": "Resident Advisor",
   "ou": "https://ra.co/events/2508504",
-  "pu": "https://ra.co/events/2508504",
+  "pu": "https://fienta.com/et/signaal-x-aparaaditehas",
   "hind": {
    "praegu": "5€",
-   "mark": "first release eelmüük RA-l",
-   "allikas": "ra.co, kontrollitud 14.08.2026"
+   "mark": "early bird / first release eelmüük Fientas; 18+",
+   "allikas": "Fienta + aparaaditehas.ee, kontrollitud 11.09.2026"
   },
   "lisatud": "2026-08-14",
-  "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-  "koosseis_tba": 1,
+  "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 11.09.2026 postkastijooks: KOOSSEIS AVALDATUD, `koosseis_tba` maha. Kaks soltumatut allikat, mis loetlevad sama viit nime: venue oma urituseleht https://www.aparaaditehas.ee/uritused/pidu-signaal-x-aparaaditehas/ (Mysty, Habur, Arto, Pletnev (LT), Kulon b2b Kokotov) + Rada7.ee uudiskiri 10.09.2026. ⚠ Urituse RA-leht (2508504) ja Fienta piletileht utlevad 11.09 seisuga ENDISELT 'Lineup TBA!' — koosseis tuli venue lehelt. Venue leht tapsustab ka saali: Armastuse saal. Piletilink vahetatud RA-lt Fientale (FB event 875386048728541 viitab Fientale).",
   "img": "pildid/signaalxaparaaditehas.webp"
  },
  {
@@ -1181,7 +1186,7 @@
   "lisatud": "2026-08-17",
   "t": "klubi",
   "n": "Tartu Massive: BLOOOM (DE)",
-  "a": "dnb-sarja 18. hooaja avapidu; 23:00",
+  "a": "dnb-sarja 18. hooaja avapidu; 23.00–04.00",
   "b": [
    "BLOOOM"
   ],
@@ -1192,8 +1197,10 @@
   ],
   "sn": "Ticketer",
   "su": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4454576378190151/",
   "pu": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
-  "nb": "lisatud 17.08.2026: allikad Ticketer + Tartu Massive FB/IG (postitused 14.08.2026, 'Uus hooaeg algab 11.09')",
+  "nb": "lisatud 17.08.2026: allikad Ticketer + Tartu Massive FB/IG (postitused 14.08.2026, 'Uus hooaeg algab 11.09') | 11.09.2026 postkastijooks (Rada7 uudiskiri 10.09): FB event leitud ja lisatud `ou`-sse (4454576378190151, korraldajad Tartu Massive + DEFFENLO + Well Played Events + Klubi Gutenberg jt); FB kinnitab kellaaja 23.00–04.00 ja sama Ticketeri piletilingi. Toetavat koosseisu uritusel eraldi valja ei oelda, ainult BLOOOM (DE).",
   "img": "pildid/tartumassiveblooomde.webp"
  },
  {

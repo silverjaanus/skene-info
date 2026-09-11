@@ -81,6 +81,28 @@
    "img": "pildid/mastarobustareipaidridurezzidelradadel.webp"
   },
   {
+   "rel": 1,
+   "d": "2026-09-04",
+   "lisatud": "2026-09-11",
+   "t": "reliis",
+   "n": "KOSMOS & DEW8 — «Viimaste Asjade Teadus»",
+   "a": "17 looga luulealbum plaadifirmalt Dieu Huit Records — Siim Sinamäe (Kosmos) ja Siim Parisoo (DEW8) ühisalbum, mis liigub luule ja hiphopi vahelisel alal. Kaasa teeb Genka, taustavokaalidel Margaret Kelomees. Ilmus voogedastuses R 04.09.2026; vinüül müügil Dieu Huiti poes",
+   "b": [
+    "KOSMOS",
+    "DEW8",
+    "Genka"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "ERR kultuur",
+   "su": "https://kultuur.err.ee/1610128657/kosmos-ja-dew8-avaldasid-luulealbumi-viimase-asjade-teadus",
+   "on_": "Spotify",
+   "ou": "https://open.spotify.com/album/2diFsCN13E8lfANoWj74oL",
+   "pu": "https://dewdewdew.com/et/tooted/kosmos-dew8-vat-lp-classic",
+   "nb": "lisatud 11.09.2026 postkastijooksus, leitud Rada7.ee uudiskirjast 10.09.2026 ('Värskest kodumaisest muusikast tasub klappidesse tiksuma panna Kosmose ja Dew8 album'). Kaks sõltumatut allikat kuupäeva jaoks: ERR kultuur 04.09.2026 kl 14.32 ('Plaadifirma Dieu Huit Records andis välja...') + ERR 'Uue muusika reede' sama päeva koond; 04.09.2026 oli reede. Kolmas kinnitus: MuusikaPlaneet 04.09 ja Spotify albumileht. ⚠ Vinüül-LP ja albumi läbilõike video on Dieu Huiti kanalis juba aprillist 2026 ja kuulamisõhtu toimus juuni paiku — VOOGEDASTUSSE jõudis album alles 04.09, seepärast on `d` = 04.09, mitte kevad. Žanrisildid on standardsed (räpp/hiphop); 'luulealbum' / 'luule-räpp' on artistide ja Genka enda sõnastus ERR-i loos, mitte eraldi silt. Vinüülilink `pu` = Dieu Huiti oma pood dewdewdew.com (classic LP; müügil ka graniit/reesus/miraaz ja bundle)."
+  },
+  {
    "d": "2026-09-11",
    "t": "kontsert",
    "n": "Chillin & Margiiela «Terve linn näeb» albumiesitlus",
