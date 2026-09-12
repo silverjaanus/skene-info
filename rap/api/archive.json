@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11",
+ "updated": "2026-09-12",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 264,
+ "count": 280,
  "entries": [
   {
    "sait": "www",
@@ -3362,6 +3362,28 @@
    "sn": "M'era Luna",
    "su": "https://meraluna.de/en/",
    "nb": "hinnaklassid kontrollimata 2026 kohta - varasematel aastatel 4 taset (666/Half Moon/Full Moon/Blood Moon), pileti pood JS-põhine"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-08-08",
+   "lisatud": "2026-08-12",
+   "t": "reliis",
+   "n": "Pluuto 200 – „Bobcat”",
+   "a": "antimuusika-ansambli debüütsingel; bändi eesmärk on järgmise 50 aastaga välja anda 200 lugu",
+   "b": [
+    "Pluuto 200"
+   ],
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://open.spotify.com/album/5216kr1MjSN0Ta6n7R2LFE",
+   "on_": "Spotify",
+   "ou": "https://open.spotify.com/album/5216kr1MjSN0Ta6n7R2LFE",
+   "nb": "kontaktivormi sisend (Egert, peakontor@antimuusika.ee, 10.08.2026); kuupäev Spotify releaselehelt (August 8, 2026), saatja kuupäevaväli oli tühi. Teine allikas: MuusikaPlaneet 11.08.2026 https://muusikaplaneet.ee/2026/08/11/bobcat/ — salvestatud Maailma Nabala stuudios, produktsioon Martin Kikas (Ö Stuudio), fotod Joosep Ints; EP lubatud septembris 2026. Saatja pakkus žanriteks punk+rock+alt, jäeti Silveri otsusel alt+rock (MuusikaPlaneet nimetab lihtsalt alternatiivmuusikaks, lugu „peaaegu ballaad”). Ka YouTube’is: https://www.youtube.com/watch?v=DrfZcEjR5Vg",
+   "img": "https://www.skene.info/pildid/pluuto200bobcat.webp"
   },
   {
    "sait": "rap",
@@ -7051,6 +7073,401 @@
    },
    "lisatud": "2026-09-09",
    "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: urituse leht zanrit SONAGA ei nimeta (kunstiakadeemia diskorite pidu IDA Radio baaris) - g-sildid on konservatiivsed, mitte lehelt tsiteeritud."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "lisatud": "2026-08-17",
+   "t": "klubi",
+   "n": "Afro Chill: New Season",
+   "a": "afro-house'i sarja uue hooaja avapidu; 23:00–04:00",
+   "b": [],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "afro",
+    "house"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/afro-chill-new-season-uus-laine-11-09",
+   "pu": "https://fienta.com/afro-chill-new-season-uus-laine-11-09",
+   "nb": "lisatud 17.08.2026: allikad Fienta + Resident Advisor (ra.co/events/ee/all) + IG @afrochill.events. DJ-koosseis avaldamata — b tühi teadlikult, kontrolli järgmises sweepis",
+   "img": "https://klubi.skene.info/pildid/afrochillnewseason.webp",
+   "koosseis_tba": 1
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Brennan Heart (NL): Special Rave",
+   "a": "Hollandi hardstyle-suurnimi; Hard Nation x Summerstart Festival, algus 22.00",
+   "b": [
+    "Brennan Heart"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "trance",
+    "hard dance"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/helitehas",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/brennan-heart-helitehas-110926/",
+   "pu": "https://gateme.com/helitehas",
+   "hind": {
+    "praegu": "eelmüük -50%",
+    "mark": "GateMe eelmüük, täpne hind lehel",
+    "allikas": "GateMe, kontrollitud 14.08.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026 (hard trance/hardstyle → klubi, Teknariku pretsedent); allikad: GateMe + FB event (Hard Nation, Helitehas, Summerstart Festival) + hardnation.ee viide. ou on FB otsingu-URL kuju — kui ei tööta, otsi 'BRENNAN HEART @ HELITEHAS'"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-09-11",
+   "t": "kontsert",
+   "n": "Chillin & Margiiela «Terve linn näeb» albumiesitlus",
+   "a": "algus 21.00; varske plaadi esimene esitus publiku ees. Karjakoer, Diwo ja Margiiela & Chillin live'is, Blondemunk DJ-setiga",
+   "b": [
+    "Margiiela",
+    "Chillin",
+    "Karjakoer",
+    "Diwo",
+    "Blondemunk"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1081244117728685/",
+   "hind": {
+    "praegu": "5 EUR",
+    "mark": "kohapeal",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026 Legendaarne Records + Legendaarne Raadio FB events-tabidest. Kaks allikat: FB event (taiskava + hind + algusaeg) + Legendaarne Raadio IG-postitus (google.ee kaudu), mis kinnitab sama: 'mehed tegid koostoos EP nimega Terve linn naeb ja soovivad selle lives ette kanda'. TAHELEPANU: FB event nimetab valjalaset ALBUMIKS, IG-postitus EP-ks - jargisin urituse enda pealkirja. See sulgeb HANDOVER-i lahtise punkti 'margiiela x Chillin EP pealkiri' - pealkiri on «Terve linn näeb». Koht: Krulli 2b (Legendaarne Raadiobaar)."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "HELLINN: Cross-Border Edition",
+   "a": "4 kollektiivi Eestist ja Soomest, high-energy/hard techno & schranz: In Furcht (DE) x QSLAP (EE) x Medina (BR); HALL x Gridmoth x ARTICLE6; algus 23.59",
+   "b": [
+    "In Furcht (DE)",
+    "QSLAP",
+    "MEDINA (BR)",
+    "ANNDRA",
+    "Bebe Veloure",
+    "Discolisko",
+    "Jori Samarin",
+    "Kirsmode",
+    "Lee Wander",
+    "NØSARA",
+    "RSKS",
+    "Sensory Deprivation",
+    "STRNDBRG",
+    "Sukran Kin",
+    "Techno Hate Project"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "hard"
+   ],
+   "sn": "HALL FB",
+   "su": "https://www.facebook.com/halltallinn/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/876184442221379/",
+   "nb": "lisatud sweepis 19.07.2026; GateMe eelmüük olemas (-40%), otselink puudu - lisa pu kui leitav | 28.07.2026: GateMe otselink lisatud | 10.08.2026 sweep: RA event 2500210 avaldas TÄISKOOSSEISU — 3 nime asemel 15 (residendid neljast kollektiivist: Article 6, GRIDMOTH, Musta Kolhoosi, HEL:BOUNCE). Lisatud ka hinnaastmed 15/20/25€ | 28.08.2026 sweep: hinnaastmed GateMe lehelt (Phase 1 20€), RA event 2500210 kinnitab kuupaeva ja koosseisu.",
+   "pu": "https://gateme.com/et/halltallinn/104001-hellinn-cross-border-edition-in-furchtde-x-qslapee-x-medinabr/",
+   "img": "https://klubi.skene.info/pildid/hellinncrossborderedition.webp",
+   "hind": {
+    "praegu": "15–25€",
+    "mark": "RA: 15/20/25€; 18+; algus 23.59",
+    "allikas": "Resident Advisor event 2500210, kontrollitud 10.08.2026"
+   }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Haigla Pidu @ Bar IDA",
+   "a": "septembrikuu Haigla Pidu Bar IDA terrassil ja sisesaalis, residendid hommikuni",
+   "b": [
+    "Jan Tomson",
+    "Kris Luigend",
+    "Ats Luik"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "techno"
+   ],
+   "sn": "IDA Radio FB",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2491677638008025/",
+   "hind": {
+    "praegu": "10 EUR",
+    "mark": "uksel",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta; Haigla Pidu on tuntud techno/house-peosari, sildid seetottu konservatiivsed."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Klämmar Birthday x Merlyn Uusküla DJ Set",
+   "a": "algus 23.00",
+   "b": [
+    "Merlyn Uusküla"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1537213041785708/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist (korraldaja Fonoteek ise). Pilet/uksehind avaldamata."
+  },
+  {
+   "sait": "rap",
+   "d": "2026-09-11",
+   "lisatud": "2026-08-17",
+   "t": "kontsert",
+   "n": "Patarei lõpupidu x nublu",
+   "a": "Patarei Merekindluse ööelu hüvastijätupidu; korraldaja Made In Vachina",
+   "b": [
+    "nublu"
+   ],
+   "v": "Patarei Merekindlus",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Piletitasku",
+   "su": "https://www.piletitasku.ee/et/event/10133",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2832735007090965/",
+   "pu": "https://www.piletitasku.ee/et/event/10133",
+   "nb": "lisatud 17.08.2026: allikad Piletitasku + FB event; kuupäev 11.09.2026 kinnitatud mõlemast",
+   "img": "https://rap.skene.info/pildid/patareilopupiduxnublu.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-11",
+   "t": "kontsert",
+   "n": "Rock Friday: LØV + RAIDER",
+   "a": "The Krypti reedene rokiõhtu, algus 20.00",
+   "b": [
+    "LØV",
+    "RAIDER"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "metal"
+   ],
+   "sn": "The Krypt FB",
+   "su": "https://www.facebook.com/thekrypt.tallinn/events",
+   "lisatud": "2026-08-21",
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata. | 22.08.2026: Fienta metal-otsing andis ürituse piletilehe (fienta.com/et/lov-raider-thekrypt) — pu lisatud.",
+   "pu": "https://fienta.com/et/lov-raider-thekrypt",
+   "img": "https://www.skene.info/pildid/rockfridaylvraider.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Signaal x Aparaaditehas",
+   "a": "Signaali teine väljaanne, seekord Aparaaditehase Armastuse saalis — dub ja electro läbisegi, Eesti ja välis-DJ-d; 23.00–07.00",
+   "b": [
+    "Mysty",
+    "Habur",
+    "Arto",
+    "Pletnev (LT)",
+    "Kulon b2b Kokotov"
+   ],
+   "v": "Aparaaditehas (Kastani 42)",
+   "c": "Tartu",
+   "g": [
+    "electro",
+    "minimal",
+    "dub"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2508504",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2508504",
+   "pu": "https://fienta.com/et/signaal-x-aparaaditehas",
+   "hind": {
+    "praegu": "5€",
+    "mark": "early bird / first release eelmüük Fientas; 18+",
+    "allikas": "Fienta + aparaaditehas.ee, kontrollitud 11.09.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud 14.08.2026 (Silveri otsus + RA event-leht 2508504, promoter Signaal); lineup TBA — täienda, kui avaldatakse | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 11.09.2026 postkastijooks: KOOSSEIS AVALDATUD, `koosseis_tba` maha. Kaks soltumatut allikat, mis loetlevad sama viit nime: venue oma urituseleht https://www.aparaaditehas.ee/uritused/pidu-signaal-x-aparaaditehas/ (Mysty, Habur, Arto, Pletnev (LT), Kulon b2b Kokotov) + Rada7.ee uudiskiri 10.09.2026. ⚠ Urituse RA-leht (2508504) ja Fienta piletileht utlevad 11.09 seisuga ENDISELT 'Lineup TBA!' — koosseis tuli venue lehelt. Venue leht tapsustab ka saali: Armastuse saal. Piletilink vahetatud RA-lt Fientale (FB event 875386048728541 viitab Fientale).",
+   "img": "https://klubi.skene.info/pildid/signaalxaparaaditehas.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "SÄRIN x Kaks Tuba klubiöö: hooaja avasündmus",
+   "a": "algus 23.00",
+   "b": [],
+   "v": "Kaks Tuba",
+   "c": "mujal",
+   "linn": "Rapla",
+   "g": [
+    "techno",
+    "house"
+   ],
+   "sn": "Kaks Tuba FB",
+   "su": "https://www.facebook.com/kakstuba/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1321536779861814/",
+   "lisatud": "2026-09-04",
+   "koosseis_tba": 1,
+   "nb": "leitud sweepis 04.09.2026 Kaks Tuba FB events-tabist (Rapla elektroonilise tantsumuusika klubi). Koosseis ja pilet avaldamata."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "lisatud": "2026-08-17",
+   "t": "klubi",
+   "n": "Tartu Massive: BLOOOM (DE)",
+   "a": "dnb-sarja 18. hooaja avapidu; 23.00–04.00",
+   "b": [
+    "BLOOOM"
+   ],
+   "v": "Klubi Gutenberg (Aparaaditehas)",
+   "c": "Tartu",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Ticketer",
+   "su": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4454576378190151/",
+   "pu": "https://www.ticketer.ee/tartu-massive-1109-blooom/",
+   "nb": "lisatud 17.08.2026: allikad Ticketer + Tartu Massive FB/IG (postitused 14.08.2026, 'Uus hooaeg algab 11.09') | 11.09.2026 postkastijooks (Rada7 uudiskiri 10.09): FB event leitud ja lisatud `ou`-sse (4454576378190151, korraldajad Tartu Massive + DEFFENLO + Well Played Events + Klubi Gutenberg jt); FB kinnitab kellaaja 23.00–04.00 ja sama Ticketeri piletilingi. Toetavat koosseisu uritusel eraldi valja ei oelda, ainult BLOOOM (DE).",
+   "img": "https://klubi.skene.info/pildid/tartumassiveblooomde.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-09-11",
+   "t": "kontsert",
+   "n": "Tommyboy x Wiiralt — «Greatest Splits» esitluskontsert",
+   "a": "split-albumi «Greatest Splits» esitlus; algus 21.00",
+   "b": [
+    "Tommyboy",
+    "Wiiralt"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Kidrakuur FB",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2067993643814194/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis.",
+   "img": "https://rap.skene.info/pildid/tommyboyxwiiraltgreatestsplitsesitluskontsert.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Vaip Events: Counterstrike (CZ/RSA)",
+   "a": "DnB-legend Counterstrike (Algorythm Recordings; 100+ reliisi mh Ram, PRSPCT, Let It Roll) taas Tallinnas + kohalikud DJ-d. Uksed 23.00–05.00, 18+",
+   "b": [
+    "Counterstrike",
+    "Conflict (EST)",
+    "Xenny",
+    "EL.Gaudy",
+    "Deadshot",
+    "Cancel"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Paavli programm",
+   "su": "https://www.kultuurivabrik.ee/en/events",
+   "pu": "https://fienta.com/et/counterstrike",
+   "hind": {
+    "praegu": "eelmüük Fientas, uksel 25€",
+    "allikas": "Fienta, kontrollitud 02.08.2026"
+   },
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events. RIKASTATUD 09.09.2026 postkastijooksus (Paavli uudiskiri): FB event leitud (ou), taiskoosseis lisatud - koosseis oli FB 'See more' taga (Xenny, EL.Gaudy, Conflict, Counterstrike, Deadshot, Cancel), uksed 23.00.",
+   "img": "https://klubi.skene.info/pildid/vaipeventscounterstrikeczrsa.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/936069779136728/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "Viimane Veeremine Veetornis",
+   "a": "Veere DJ-sessioon Veetorni Aias — house, gruuv, uuem ja vanem kraam; kell 22.00, ~6 h",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "Veetorni Aed",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Veetorni Aed (FB events)",
+   "su": "https://www.facebook.com/veetorniaed/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1942929693080721/",
+   "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses). Kaks allikat: urituse FB event (korraldajad Tana Tallinn, Veere fm jt) + Veetorni Aia FB events-tab. ⚠ KUUPAEV ON EDASI LUKATUD — FB event utleb „Event has been postponed due to the weather!“ ja kirjelduses seisab veel vana tekst „augusti eel-viimasel nadalavahetusel“; kehtiv kuupaev FB-s on 11.09. DJ-koosseis avaldamata. | 11.09.2026 sweep: ⚠ NIMEMUUTUS — sama FB event (1942929693080721) kannab nüüd pealkirja „Viimane Veeremine Veetornis“ (korraldaja Täna Tallinn), vana nimi „Veere – vabas õhus“ on läinud blocklisti, et archive_split seda tagasi ei tooks."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-11",
+   "t": "klubi",
+   "n": "WAKE UP EVENT x Džungel: BACK 2 SCHOOL",
+   "a": "WAKE UP EVENTi ja jungle-peosarja Džungel ühispidu TOLMi viimasel hooajal — techno „ja ta sõbrad“ ning dnb/jungle; 22.00–08.00, 18+; koosseis avaldamata (kirjelduses „LINE-UP: TBA x3“)",
+   "b": [],
+   "v": "Tolm (Peetri 26)",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "dnb",
+    "jungle"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1368576134479294",
+   "on_": "WAKE UP EVENT",
+   "ou": "https://www.facebook.com/events/1368576134479294",
+   "lisatud": "2026-08-24",
+   "nb": "lisatud 24.08.2026 (Silveri sisend). Kaks allikat: FB event 1368576134479294 (korraldajad WAKE UP EVENT + TOLM + Reglok + Auroræ Luma + Rego Kauber + Džungel + Regina Rebase) ja Džungli enda FB events-tab, kus sama kirje; kolmas kinnitus TOLMi events-tab. Piletilinki FB-s EI OLE (WAKE UP EVENTi lehe „Get tickets“ viitab lehele, mitte sellele üritusele) — kontrolli Ticketerist. ⚠ koosseis TBA → kontrolli järgmises sweepis. ⚠ TOLM lõpetab 12.–13.09.2026 („TOLM — the end.“), see on maja eelviimane pidu. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
+   "img": "https://klubi.skene.info/pildid/wakeupeventxdzungelback2school.webp",
+   "koosseis_tba": 1
   }
  ]
 }
