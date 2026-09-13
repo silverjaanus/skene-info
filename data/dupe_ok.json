@@ -28,5 +28,11 @@
   "n1": "Beneath Revalia — The Livonian Tour (Tallinn)",
   "n2": "Beneath Revalia — The Livonian Tour",
   "nb": "04.09.2026 sweep: sama tuuri KAKS ERINEVAT kontserti, mitte duplikaat. 26.09 Tallinn, MOD (Paavli 9), FB event https://www.facebook.com/events/1381672020586171/ ja 02.10 Viljandi, Konservatoorium (Koidu 13a), FB event https://www.facebook.com/events/1415447317294805/. Eri kuupaev, eri linn, eri venue, eri pilet. check_dupes margib nad reegli 'sama sari, eri kuupaev' jargi (nimi kattub) - vaigistatud teadlikult. Kui Tallinna kirje nimi muutub, hoiatus tuleb tagasi (fail-safe)."
+ },
+ {
+  "sait": "www",
+  "n1": "Town Flesh & Ixtlan LIVE",
+  "n2": "Town Flesh — «The Town Flesh Extended Play»",
+  "nb": "25.09.2026: KONTSERT ja RELIIS, mitte duplikaat — sama muster nagu MAI SKIZO 18.09 paaril. Town Fleshi debüüt-EP ilmub 25.09 (t=reliis, rel=1, Bandcamp) ja samal õhtul on Uus Laines esitluskontsert koos Ixtlaniga (t=kontsert, Fienta 10 €). check_dupes käivitub reegli „sama band“ pealt (mõlemal b sisaldab Town Fleshi) — vale-positiivne. Lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk). Allikad: https://www.facebook.com/events/1604783617845350/ + https://fienta.com/et/town-flesh-ixtlan-live + https://townflesh.bandcamp.com/album/the-town-flesh-extended-play"
  }
 ]

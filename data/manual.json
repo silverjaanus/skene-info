@@ -3316,5 +3316,55 @@
   "lisatud": "2026-09-11",
   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: albumi Bandcamp-leht (released September 5, 2026; sildid metal / doom / post-metal / post-rock / sludge / stoner, Tartu; 9 lugu) + bandcamp.com/discover/estonia+metal?s=new loend. Artisti enda kirjeldus: „Fhtagn is instrumental stoner/doom/post-metal band“. ⚠ ÄRA AJA SEGI Seattle'i eksperimentaalkooslusega aadressil fhtagn.bandcamp.com — Eesti bänd on fhtagn1.bandcamp.com. Reliis on alla kuu vana, seega lisatud = tänane kuupäev (REEGLID §6) ja kirje läheb esilehe „Uued reliisid“ ribale.",
   "img": "pildid/fhtagnulgumereulmad.webp"
+ },
+ {
+  "d": "2026-09-25",
+  "t": "kontsert",
+  "n": "Town Flesh & Ixtlan LIVE",
+  "a": "Kaks uut Eesti indie-bändi: Tallinna viisiku Town Flesh debüüt-EP esitlus samal päeval, kui EP ilmub, ja Pärnu-Tallinna neliku Ixtlan pealinna debüüt; algus 19.00",
+  "b": [
+   "Town Flesh",
+   "Ixtlan"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "alt",
+   "rock"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://fienta.com/et/town-flesh-ixtlan-live",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1604783617845350/",
+  "pu": "https://fienta.com/et/town-flesh-ixtlan-live",
+  "hind": {
+   "praegu": "10 €",
+   "mark": "eelmüük; lisaks vabatahtliku summaga „Supporter“ pilet",
+   "allikas": "Fienta, kontrollitud 13.09.2026"
+  },
+  "lisatud": "2026-09-13",
+  "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KOLM ALLIKAT: ürituse FB event 1604783617845350 (R 25.09.2026 kl 19.00 EEST, Uus Laine, Vana-Kalamaja 1; korraldajad Uus Laine + Ixtlan + Town Flesh) + Fienta piletileht town-flesh-ixtlan-live (10 €, sama kuupäev ja koht) + Town Fleshi Bandcampi EP-leht, mis kinnitab sama ilmumispäeva. ŽANRIOTSUS: korraldaja tekst ütleb kaks korda „Eesti indie maastik“ / „Estonian indie scene“; Town Flesh on kitarripõhine indie (60ndate psühh, 80ndate jangle, 90ndate alternatiiv; liikmeid mh Holy Motorsist), Ixtlan eestikeelne unistav indie — REEGLID §1 kitarripõhine alternatiiv, sildid alt+rock nagu varasematel Uus Laine indie-kirjetel (Tallinn Indie Shuffle 29.08, Laine Live sari). Samal päeval ilmub Town Fleshi EP → eraldi reliisikirje.",
+  "img": "pildid/townfleshixtlanlive.webp"
+ },
+ {
+  "rel": 1,
+  "d": "2026-09-25",
+  "lisatud": "2026-09-13",
+  "t": "reliis",
+  "n": "Town Flesh — «The Town Flesh Extended Play»",
+  "a": "Tallinna indie-viisiku debüüt-EP, 6 lugu: kaks uut psühhedeelset pala („9 in the Afternoon“, „The Secret Public“), varem ilmunud singlid ning Pia Frausi ja The Lunacy Of Flowersi remiksid",
+  "b": [
+   "Town Flesh"
+  ],
+  "v": "",
+  "c": "Tallinn",
+  "g": [
+   "alt",
+   "rock"
+  ],
+  "sn": "Bandcamp",
+  "su": "https://townflesh.bandcamp.com/album/the-town-flesh-extended-play",
+  "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KAKS ALLIKAT: albumi Bandcamp-leht („releases 25 September 2026“, 6 lugu, tracklist olemas) + Fienta/FB ürituseleht „Town Flesh & Ixtlan LIVE“, mis ütleb, et bänd esitleb EP-d „samal päeval, kui see ilmub“ (25.09) — Bandcampi kuupäev ei ole seega platseholder (REEGLID §6 kuupäevalõks kontrollitud). Bändi enda kirjeldus: indie-viisik, mõjutused 60ndate psühh / 80ndate jangle / 90ndate alternatiiv, liikmeid mh Holy Motorsist ja The Boondocksist; remiksid Pia Fraus (EE dreampop) ja The Lunacy Of Flowers (UK darkwave). Reliis on värskem kui 30 päeva → lisatud = tänane kuupäev, kirje läheb esilehe „Uued reliisid“ ribale (REEGLID §6).",
+  "img": "pildid/townfleshthetownfleshextendedplay.webp"
  }
 ]

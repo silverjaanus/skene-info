@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12",
+ "updated": "2026-09-13",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 176,
+ "count": 171,
  "entries": [
   {
    "sait": "www",
@@ -299,85 +299,6 @@
    "img": "https://www.skene.info/pildid/fhtagnulgumereulmad.webp"
   },
   {
-   "sait": "www",
-   "d": "2026-09-11",
-   "d2": "12.09",
-   "t": "festival",
-   "n": "Fuzz Salvation 2026",
-   "a": "Alternatiivrokk-festival 4. korda, 11.–12.09 Von Krahlis; 10 esinejat kahel ohtul + DJ-d, ka eksperimentaalne tantsumuusika (Idiot Dance Music lopetab teise oo). Uksed 19.00. R: DJ Kurbade tudrukute klubi 19.00, Embus 20.00, Giuseppe Perverdi Big Band 21.00, Kalli Talonpoika & The Sunshine Band 22.00, Phlox + DJ 23.00, Paul Cole & The Great Outdoors 00.00. L: DJ Ingrid Kohtla & DJ Peipsibel 19.00, Model Citizen 20.00, PX Band 21.00, Fuzzolini 22.00, From Grotto 23.00, Idiot Dance Music 00.00",
-   "b": [
-    "Paul Cole & The Great Outdoors",
-    "Embus",
-    "Giuseppe Perverdi Big Band",
-    "Kalli Talonpoika & The Sunshine Band",
-    "Phlox",
-    "Model Citizen",
-    "PX Band",
-    "Fuzzolini",
-    "From Grotto (FIN)",
-    "Idiot Dance Music",
-    "DJ Kurbade Tüdrukute Klubi",
-    "DJ Ingrid Kohtla",
-    "DJ Peipsibel"
-   ],
-   "v": "Von Krahli kohvik",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "alt"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://fienta.com/et/fuzz-salvation-2026",
-   "on_": "Facebook event",
-   "ou": "https://fb.me/e/5GPBPtWLw",
-   "pu": "https://fienta.com/et/fuzz-salvation-2026",
-   "hind": {
-    "praegu": "30 EUR (2 paeva) / 15 EUR (1 paev)",
-    "mark": "early bird 25 EUR (2 paeva); support 40 EUR",
-    "allikas": "kontaktivorm + Fienta, kontrollitud 26.07.2026"
-   },
-   "nb": "Submitteri (korraldaja Valter Nomm) kavas oli reedel ka Paul Cole & The Great Outdoors (00:00), kuid 26.07 Fienta ametlik kava loetleb 9 esinejat ilma selleta. | 28.07.2026: üks sweep-allikas väidab, et koht on Von Krahli TEATER (mitte kohvik) — teine allikas kinnitab 'Von Krahli kohvik'. Jäetud muutmata, Silveri kontrollida | 01.08.2026: korraldaja Valter Nomm saatis veaparandusvormi (2. kord), kus kinnitab, et esimese paeva kavasse LISATI Paul Cole & The Great Outdoors. Fienta ametlik leht (uuendatud 26.07) loetleb endiselt 9 esinejat ilma selleta, soltumatut teist allikat pole -> bandi EI lisatud avalikku kavasse, Silveri otsustada (kas usaldame korraldajat ja lisame) | 02.08.2026: SILVERI OTSUS — Paul Cole & The Great Outdoors LISATUD kavasse korraldaja kinnituse alusel (a-vali 9 -> 10 esinejat). Ainus allikas on korraldaja enda kaks kontaktivormi teadet (26.07 ja 01.08); Fienta ametlik kava seda veel ei kajasta. Kui Fienta/FB-event hiljem raagib vastu, kontrolli uuesti. | 07.08.2026 sweep: Fienta org-leht 29285 ütleb R 11.09 – P 13.09 (varem kirjes lõpp 12.09). | ⚠ 11.09.2026 postkastijooks: `d2` PARANDATUD TAGASI 12.09-le. 07.08 muudatus luges Fienta org-lehe TOORAJATEMPLIT ('R 11.09 19:00 – P 13.09 02:00'), aga see 02.00 on laupäeva öö LÕPP, mitte kolmas päev. Fienta ürituselehe enda tekst ütleb kaks korda välja 'kahepäevase programmiga' ja 'toimub 11. ja 12. septembril', ajakavas on ainult reede ja laupäev; Rada7.ee uudiskiri 10.09 nimetab samuti 'kahepäevaseks minifestivaliks'. Sama viga, mille kohta HANDOVER §4 juba hoiatab (Howls of Winter õppetund 09.09: mitmepäevase ürituse kestus võta korraldaja TEKSTIST, mitte timestamp'ist). | 11.09.2026: TÄISAJAKAVA + DJ-d lisatud (Fienta ürituseleht, 2. allikas Rada7 uudiskiri, mõlemad annavad samad DJ-d: R Kurbade Tüdrukute Klubi, L Ingrid Kohtla + Peipsibel). ✅ Paul Cole & The Great Outdoors, mille Silver 02.08 korraldaja sõna peale sisse lubas, SEISAB NÜÜD ka Fienta ametlikus ajakavas (R 00.00) — 02.08 otsus on kinnitust saanud. NB Fienta proosatekst ütleb ikka 'üheksa esinejat', ajakava loetleb 10 bändi — proosa on aegunud.",
-   "img": "https://www.skene.info/pildid/fuzzsalvation2026.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-11",
-   "d2": "12.09",
-   "t": "festival",
-   "n": "Punk & Rock Insidefest 2026",
-   "a": "kahepäevane punk/rock festival klubis Rock & Roll (Tiigi 76a, Tartu); 10 bändi, uksed 18.00, muusika 19.00; vanusepiirangut pole (alla 14-aastane täisealise saatjaga), aftekas Lege bar & stage",
-   "b": [
-    "J.M.K.E.",
-    "Kurjam",
-    "Nyrok City",
-    "Pedigree",
-    "Soda Effect",
-    "Stepdog",
-    "Deformation",
-    "Arestor",
-    "Exanity",
-    "Sitaharakas"
-   ],
-   "v": "Klubi Rock & Roll",
-   "c": "Tartu",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Punk & Rock festival Estonia FB",
-   "su": "https://www.facebook.com/punkrockfestival/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1468527551938865/",
-   "nb": "koosseis kinnitatud 28.07.2026 sweepis (FB event + Ticketer). 21.08.2026 sweep: Rock & Roll Heaven + Punk & Rock Festival FB events-tabid kinnitavad molemad 11.-12.09 kahepaevase kuupaeva. | 07.09.2026 postkastijooks: ALGUSAJA EBAKÕLA LAHENDATUD — FB event ütleb nüüd samuti 'Sep 11 at 6:00 PM', st uksed 18.00 mõlemas allikas (varem FB 15.00). Bändinimi parandatud 'Aresto' -> 'Arestor' (Võru thrash metal bänd, kinnitatud FB ajakava + bändi oma FB/IG + DIGAR). Varajase ärkaja 25 € pass on Ticketerist kadunud, alles ainult 30 € festivalipass.",
-   "pu": "https://www.ticketer.ee/punk-rock-insidefest-2026/",
-   "hind": {
-    "praegu": "30 € / kohapeal 25–40 €",
-    "mark": "eelmüük Ticketerist: kahe päeva festivalipass 30 € + tehingutasu 1,70 €; kohapeal SULARAHAS päevapilet 25 €, kahepäevapilet 40 €. Uksed 18.00, muusika 19.00",
-    "allikas": "Ticketer + korraldaja FB event, kontrollitud 07.09.2026"
-   },
-   "img": "https://www.skene.info/pildid/punkrockinsidefest2026.webp"
-  },
-  {
    "sait": "rap",
    "d": "2026-09-12",
    "t": "klubi",
@@ -412,38 +333,6 @@
    "img": "https://rap.skene.info/pildid/bashmentbirthday.webp"
   },
   {
-   "sait": "www",
-   "d": "2026-09-12",
-   "t": "kontsert",
-   "n": "Freakangel + PsycHolies + Sugar Rody",
-   "a": "Balti tuuri AINUS Eesti kuupäev — industrial metal, dark electro, EBM, synthwave ja dark disco (PsycHolies IT, album «DEEP» / Trisol Music). Kell 21.00–02.00",
-   "b": [
-    "Freakangel",
-    "PsycHolies",
-    "Sugar Rody"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "industrial",
-    "ebm",
-    "electro",
-    "darkwave"
-   ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108591058-freakangel-at-the-krypt",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1065529219140534/",
-   "pu": "https://fienta.com/et/freakangel-guests-thekrypt",
-   "img": "https://www.skene.info/pildid/freakangelpsycholiessugarrody.webp",
-   "hind": {
-    "praegu": "20 € eelmüük / 25 € uksel",
-    "mark": "piiratud eelmüügipilet 15 € on VÄLJA MÜÜDUD; Eesti Raskemuusikaliidu liikmetele kood \"Thekrypt_raskemuusika\" annab 5 € soodustust",
-    "allikas": "Fienta ostuvaade, kontrollitud 10.09.2026"
-   },
-   "nb": "10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri, september 2026): Fienta ostuvaade avatud — eelmüük 20 €, uksel 25 €, piiratud 15 € välja müüdud; kellaaeg 21.00–02.00 (Fienta). Liikmete sooduskood on uudiskirjast, mitte avalik hind."
-  },
-  {
    "sait": "klubi",
    "d": "2026-09-12",
    "rel": 1,
@@ -466,66 +355,6 @@
    "lisatud": "2026-09-10",
    "nb": "lisatud 10.09.2026 postkastijooksus (Silveri edastatud Eesti Raskemuusikaliidu uudiskiri, september 2026 — uudiskiri loetleb Esitluspaev 6 esinejate 2026. a reliisid). Kaks allikat: uudiskiri + Bandcampi album (\"releases September 12, 2026\", eeltellimus, 9 lugu, 2 lugu juba kuulatavad). Bandcampi tag'id: ambient, choir, contemporary folk, dark ambient, drone, industrial, neoclassical, noise, ritual ambient, Tallinn. KLUBI, mitte www: baasžanr on elektrooniline (drone/dark ambient), sama loogika nagu sama artisti «IIII» kirjel 25.07.2026 — Esitluspaeva metal-kontekst ei muuda baasžanri (REEGLID §1).",
    "img": "https://klubi.skene.info/pildid/fumantumelephant.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-12",
-   "t": "kontsert",
-   "n": "Giz Medium (FR) + Riste + Qaribou + Sur(m)prise",
-   "a": "Folkpunk-õhtu Ülase12-s, esinejad Prantsusmaalt ja Eestist; uksed 19.00, lõpp 23.00",
-   "b": [
-    "Giz Medium (FR)",
-    "Riste",
-    "Qaribou",
-    "Sur(m)prise"
-   ],
-   "v": "Ülase12",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "folk",
-    "alt"
-   ],
-   "sn": "Anemon12 (FB events)",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1090644030140827/",
-   "hind": {
-    "praegu": "5 € / 7 €",
-    "mark": "korraldaja sõnastuses „support või damage\": tavaliselt 7 €, õpilastele ja „muudele salapärastele inimestele\" 5 €; ainult uksel",
-    "allikas": "FB eventi kirjeldus, kontrollitud 09.09.2026"
-   },
-   "lisatud": "2026-09-09",
-   "nb": "⚠ PARANDUS 09.09.2026 — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. 04.09 sweep väitis „žanrit ei ole kuskil kirjas\" ja kirje jäi selle pärast välja. VÄIDE OLI VALE: žanr ON ürituse enda FB-kirjelduses kaks korda kirjas — „12.09 tuleb folkpunk muusikat erinevatest euroopanurkadest\" ja „Giz Medium on prantsusmaalt pärit folkpunk artist\". Tekst oli „See more\" taga (sama lõks nagu 08.09 Kuriks ja 05.08 Face Collector) — täistekst tuli DOM-ist. Folkpunk = punk, REEGLID §1 järgi selgelt peasaidi skoobis; sama profiil nagu 05.09 „Alanud on sügis\" kirjel samast majast. Kahe allika reegel täidetud: (1) FB event facebook.com/events/1090644030140827 (L 12.09.2026 19.00-23.00, Ülase tn 12, korraldaja Anemon12, 89 vastanut, hind ja uksekell kirjelduses) + (2) allevents.in sama kuupäev/kellaaeg/koht + Ülase12 oma IG (@ylase12) sama tekst. Esinejate omad lehed: busstoppress.bandcamp.com (Giz Medium, Bus Stop Press) ja qaribou.bandcamp.com/album/mu-korteris-on-gaasileke (Qaribou). Online-piletimüüki ei ole, hind on uksel → `pu` tühi. Silver saab tagasi pöörata (\"1b\" → kustuta + pane blokk tagasi)."
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-12",
-   "t": "kontsert",
-   "n": "KURIKS @ Wunderbaar",
-   "a": "Lauri Kuriksi (ex-Wyrm Sub Terra) alternatiivroki-koosseis Pärnu rokibaaris, uksed 20.00, live 22.00",
-   "b": [
-    "Kuriks"
-   ],
-   "v": "Wunderbaar",
-   "c": "mujal",
-   "linn": "Pärnu",
-   "g": [
-    "rock",
-    "alt"
-   ],
-   "sn": "Wunderbaar FB",
-   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2179942736213871/",
-   "lisatud": "2026-08-22",
-   "hind": {
-    "praegu": "10€",
-    "mark": "uksehind; uksed 20.00, live 22.00; pilet kaotab väljudes kehtivuse",
-    "allikas": "FB eventi kirjeldus, kontrollitud 08.09.2026"
-   },
-   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd. | 08.09.2026 postkastijooks: uksehind LEITUD — 10€, uksed 20.00, live 22.00. Info oli FB eventi kirjelduse 'See more' taga (väljalogitud vaates kärbitud, avatud DOM-ist); online-piletimüüki ei ole, seega `pu` jääb tühjaks.",
-   "img": "https://www.skene.info/pildid/kurikswunderbaar.webp"
   },
   {
    "sait": "klubi",
@@ -553,29 +382,6 @@
     "mark": "FREE ENTRY ALL NIGHT",
     "allikas": "FB event + Paavli uudiskiri, kontrollitud 09.09.2026"
    }
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-12",
-   "t": "kontsert",
-   "n": "Oulun_Keskusta (FIN)",
-   "a": "Soome punkbänd Euroopa-tuuril (pÄts music tour: Trenčín, Bratislava, Liepāja, Viljandi); algus 22.00",
-   "b": [
-    "Oulun_Keskusta"
-   ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
-   "g": [
-    "punk"
-   ],
-   "sn": "Konservatoorium FB",
-   "su": "https://www.facebook.com/konservatoorium/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1732656227939363/",
-   "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; kaks allikat: venue FB event + bändi enda IG (@oulun_keskusta, tuurigraafika Viljandiga). NB samal õhtul on Viljandis ka Vermilia Tallinnas jm — kuupäev 12.09 kinnitatud event-lehelt",
-   "img": "https://www.skene.info/pildid/oulunkeskustafin.webp"
   },
   {
    "sait": "klubi",
@@ -657,31 +463,6 @@
    },
    "nb": "lisatud sweepis 28.08.2026. Kolm allikat: RA event 2522744 + Fienta piletileht + urituse FB event; TOLMi FB events-tab kinnitab (12.-13.09). Taiskoosseis 24 nime RA-lt ja Fientalt. TOLM lopetab tegevuse, maja lammutatakse.",
    "img": "https://klubi.skene.info/pildid/tolmtheend.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-12",
-   "t": "kontsert",
-   "n": "Under the New Moon - Tallinn: Vermilia (FI) + Aether (PL) + Pagansarv & Bestia",
-   "b": [
-    "Vermilia (FIN)",
-    "Aether (PL)",
-    "Pagansarv",
-    "Bestia"
-   ],
-   "v": "Rockclub Tapper",
-   "c": "Tallinn",
-   "g": [
-    "pagan",
-    "black"
-   ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108591158-vermilia-at-rockclub-tapper",
-   "pu": "https://fienta.com/under-the-new-moon-tallinn-vermilia-aether-pagansarv-bestia",
-   "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu. | 09.09.2026 sweep: TAISKOOSSEIS + pilet. Rockclub Tapperi FB events-tab naitab urituse taisnime, milles on peale Vermilia veel Aether (PL) ning Pagansarv & Bestia; kirjes oli varem ainult Vermilia. Kaks allikat: FB event 2217604032409882 (kaaskorraldajad Vermilia + Estonianmetal.com) + Fienta piletileht.",
-   "img": "https://www.skene.info/pildid/underthenewmoonvermilia.webp",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2217604032409882/"
   },
   {
    "sait": "www",
@@ -1736,6 +1517,58 @@
    "ou": "https://paavli.ee/sundmused/the-rumjacks-25-09-26-paavli-kultuurivabrik-tallinn/"
   },
   {
+   "sait": "www",
+   "d": "2026-09-25",
+   "t": "kontsert",
+   "n": "Town Flesh & Ixtlan LIVE",
+   "a": "Kaks uut Eesti indie-bändi: Tallinna viisiku Town Flesh debüüt-EP esitlus samal päeval, kui EP ilmub, ja Pärnu-Tallinna neliku Ixtlan pealinna debüüt; algus 19.00",
+   "b": [
+    "Town Flesh",
+    "Ixtlan"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/et/town-flesh-ixtlan-live",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1604783617845350/",
+   "pu": "https://fienta.com/et/town-flesh-ixtlan-live",
+   "hind": {
+    "praegu": "10 €",
+    "mark": "eelmüük; lisaks vabatahtliku summaga „Supporter“ pilet",
+    "allikas": "Fienta, kontrollitud 13.09.2026"
+   },
+   "lisatud": "2026-09-13",
+   "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KOLM ALLIKAT: ürituse FB event 1604783617845350 (R 25.09.2026 kl 19.00 EEST, Uus Laine, Vana-Kalamaja 1; korraldajad Uus Laine + Ixtlan + Town Flesh) + Fienta piletileht town-flesh-ixtlan-live (10 €, sama kuupäev ja koht) + Town Fleshi Bandcampi EP-leht, mis kinnitab sama ilmumispäeva. ŽANRIOTSUS: korraldaja tekst ütleb kaks korda „Eesti indie maastik“ / „Estonian indie scene“; Town Flesh on kitarripõhine indie (60ndate psühh, 80ndate jangle, 90ndate alternatiiv; liikmeid mh Holy Motorsist), Ixtlan eestikeelne unistav indie — REEGLID §1 kitarripõhine alternatiiv, sildid alt+rock nagu varasematel Uus Laine indie-kirjetel (Tallinn Indie Shuffle 29.08, Laine Live sari). Samal päeval ilmub Town Fleshi EP → eraldi reliisikirje.",
+   "img": "https://www.skene.info/pildid/townfleshixtlanlive.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-09-25",
+   "lisatud": "2026-09-13",
+   "t": "reliis",
+   "n": "Town Flesh — «The Town Flesh Extended Play»",
+   "a": "Tallinna indie-viisiku debüüt-EP, 6 lugu: kaks uut psühhedeelset pala („9 in the Afternoon“, „The Secret Public“), varem ilmunud singlid ning Pia Frausi ja The Lunacy Of Flowersi remiksid",
+   "b": [
+    "Town Flesh"
+   ],
+   "v": "",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://townflesh.bandcamp.com/album/the-town-flesh-extended-play",
+   "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KAKS ALLIKAT: albumi Bandcamp-leht („releases 25 September 2026“, 6 lugu, tracklist olemas) + Fienta/FB ürituseleht „Town Flesh & Ixtlan LIVE“, mis ütleb, et bänd esitleb EP-d „samal päeval, kui see ilmub“ (25.09) — Bandcampi kuupäev ei ole seega platseholder (REEGLID §6 kuupäevalõks kontrollitud). Bändi enda kirjeldus: indie-viisik, mõjutused 60ndate psühh / 80ndate jangle / 90ndate alternatiiv, liikmeid mh Holy Motorsist ja The Boondocksist; remiksid Pia Fraus (EE dreampop) ja The Lunacy Of Flowers (UK darkwave). Reliis on värskem kui 30 päeva → lisatud = tänane kuupäev, kirje läheb esilehe „Uued reliisid“ ribale (REEGLID §6).",
+   "img": "https://www.skene.info/pildid/townfleshthetownfleshextendedplay.webp"
+  },
+  {
    "sait": "klubi",
    "d": "2026-09-25",
    "t": "klubi",
@@ -2466,8 +2299,7 @@
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-rockshock-night-flies/",
    "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "lisatud": "2026-09-12"
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "sait": "klubi",
@@ -2940,8 +2772,7 @@
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%af%f0%9d%92%86%f0%9d%92%82%f0%9d%92%97%f0%9d%92%9a-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-unreal-monstercouq/",
    "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "lisatud": "2026-09-12"
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "sait": "klubi",
@@ -3661,8 +3492,7 @@
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%ad%f0%9d%92%90%f0%9d%92%8d%f0%9d%92%8c-%f0%9d%91%b4%f0%9d%92%86%f0%9d%92%95%f0%9d%92%82%f0%9d%92%8d-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82/",
    "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "lisatud": "2026-09-12"
+   "ou": "https://www.thekrypt.ee/events"
   },
   {
    "sait": "www",

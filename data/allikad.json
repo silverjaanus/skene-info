@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12",
+ "updated": "2026-09-13",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -246,6 +246,10 @@
     {
      "n": "Mahtra Records (Bandcamp)",
      "u": "https://mahtrarecords.bandcamp.com/music"
+    },
+    {
+     "n": "Turtlewave (plaadifirma, FB)",
+     "u": "https://www.facebook.com/turtlewave.label/events"
     }
    ]
   },
@@ -377,6 +381,10 @@
     {
      "n": "Surju Kommunaal",
      "u": "https://surjukommunaal.ee/"
+    },
+    {
+     "n": "Town Flesh (Bandcamp)",
+     "u": "https://townflesh.bandcamp.com/"
     },
     {
      "n": "Violetscape",
