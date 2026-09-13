@@ -116,6 +116,23 @@ ilma Eesti kuupäevata: ÜKS kirje ~5 lähima riigiga (`d`=varaseim, `d2`=hilise
 - **Allika lisamisel NII FB-leht KUI veebisait/Bandcamp** — üksik FB-URL on pime nurk
   (Mahtra/Must Missa 21.08 õppetund). FB URL-i vorm: `facebook.com/<handle>/events`
   (MITTE `/upcoming_hosted_events` — 28.07 tühi tulem 7 lehel).
+- **⚠⚠ FB EVENTS-TAB TULEB ALATI LAHTI TEHA (Silveri püsireegel 13.09.2026).** „Events-tab
+  tuleb lahti teha, muidu jäävad asjad märkamata." Venue/korraldaja **veebikava, RA-profiil,
+  piletimüüja leht ega uudiskiri EI ASENDA** FB events-tabi — need näitavad ainult seda, mida
+  maja ise oma kavva paneb. **Põhjus:** kui üritust korraldab ERAISIK (mitte leht), ei jõua ta
+  maja veebiprogrammi ega ühegi korraldajalehe events-tabi — ainus masinloetav koht on **venue
+  FB events-tab**. Kehtib igale sweepile ja igale postkastijooksule, ka siis kui maja veebikava
+  paistab värske.
+  - Vorm: `facebook.com/<handle>/events` (MITTE `/upcoming_hosted_events`, vt eelmist punkti).
+  - Vaata **„Upcoming" nimekiri LÕPUNI**, mitte ainult esimesi kirjeid.
+  - Iga rida ütleb ka korraldaja („Event by …") — kui seal on **isikunimi, mitte leht**, siis
+    seda üritust EI OLE mujal ja teine allikas tuleb otsida esinejate lehtedelt.
+  - **Pretsedent 13.09.2026:** *ALUK TODOLO (FR) + Mang Ont + Forgotten Sunrise Syndrone*,
+    N 24.09.2026 Rockclub Tapper (https://www.facebook.com/events/1826473062041845/) — jäi
+    sweepil märkamata, sest korraldajad on kolm eraisikut ja Tapperi veebikavas seda ei olnud;
+    Tapperi FB events-tabis seisis ta kogu aeg. Silver leidis selle ise ja saatis lingi.
+  - ⚠ Events-tab ise on **avastusallikas** (`su`/`sn`), MITTE kontroll-link — otselink peab
+    ikka olema ürituse oma leht (§8).
 - **Meta-hügieen:** FB/IG postituste väliseid linke ära kliki pimesi; Meta kontodel ainult
   lehtede vaatamine; Claude ei posita ise.
 
