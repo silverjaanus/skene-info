@@ -248,7 +248,11 @@
    "lisatud": "2026-09-04",
    "nb": "leitud sweepis 04.09.2026 Kidrakuuri FB events-tabist (kirje looja on Kidrakuur ise). Zanr tuletatud venue'st (kitarriklubi) ja bandi nimest - TEINE ALLIKAS PUUDU, vt HANDOVER §4. | 09.09.2026 sweep: pilet TULI - Fienta (brait-pilvik-band), link Kidrakuuri FB eventist. Uksed 20.00, band ca 21.00.",
    "pu": "https://fienta.com/et/brait-pilvik-band",
-   "img": "pildid/braitpilvikband.webp"
+   "img": "pildid/braitpilvikband.webp",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-09-17",
@@ -378,7 +382,11 @@
    "ou": "https://www.facebook.com/events/3438987566273311/",
    "pu": "https://fienta.com/et/feach-metropol-thekrypt",
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: The Krypti FB events-tab / urituse FB event (kaaskorraldajad Rada7.ee ja FEACH) + Fienta piletileht. FEACH = garaazirock/surf-punk.",
-   "img": "pildid/rockfridayfeachmetropol.webp"
+   "img": "pildid/rockfridayfeachmetropol.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-09-18",
@@ -476,7 +484,11 @@
    "ou": "https://www.facebook.com/events/957234900742936/",
    "pu": "https://fienta.com/et/zord-hungary-thekrypt",
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (korraldajad Zord Hungary, Estonianmetal.com jt) + Fienta piletileht; kolmas kinnitus Eesti metallistide FB events-tab. Zord = Ungari old-school tehniline thrash (a 2000, Miskolc), Pornogeneraatori = Soome punk/hardcore, Wasteland Six = Tallinna groove metal.",
-   "img": "pildid/zordhupornogeneraatorifiwastelandsix.webp"
+   "img": "pildid/zordhupornogeneraatorifiwastelandsix.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-09-24",
@@ -557,7 +569,11 @@
    "pu": "https://fienta.com/et/krang-elukas-thekrypt",
    "lisatud": "2026-09-09",
    "nb": "manuaalkirje 09.09.2026: uritus tuli juba auto-allikast (thekrypt.ee), AGA ilma piletilingita. Ainus eesmark on lisada pu + ajakava. Kaks allikat: FB event (kaaskorraldajad The Krypt + Rada7.ee) + Fienta piletileht.",
-   "img": "pildid/heavyfridaykrangczelukasee.webp"
+   "img": "pildid/heavyfridaykrangczelukasee.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-09-25",
@@ -689,7 +705,11 @@
    "pu": "https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu",
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta tuuriseeria leht (kuupäevavalikus 25.09 Klubi Rock & Roll Tartu JA 02.10 Konservatoorium Viljandi) + sama lehe korraldajakirjeldus (Tomi Tooming / Humanity). ⚠ ESINEJA ON HUMANITY, „Beneath Revalia“ on TUURI nimi, mitte bändi nimi — varasemates kirjetes (26.09 ja 02.10) oli see vale ja parandatud samas sweepis. ⚠ Fienta ET- ja EN-tekst on Tartu koosseisu osas vastuolus: eesti keeles „Shrapnelle ja Morbitech“, inglise keeles „Shrapnelle and Deceitome“ — kirjes on ET-versioon. Ürituse enda FB-eventi ei õnnestunud leida (otsisin Klubi Rock & Roll / Humanity kaudu).",
-   "img": "pildid/beneathrevaliathelivonianabysstourtartu.webp"
+   "img": "pildid/beneathrevaliathelivonianabysstourtartu.webp",
+   "hind": {
+    "praegu": "10–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-09-25",
@@ -850,7 +870,11 @@
    "pu": "https://fienta.com/et/riser-arestor-thekrypt",
    "lisatud": "2026-09-09",
    "nb": "manuaalkirje 09.09.2026: uritus tuli juba auto-allikast (thekrypt.ee) ilma piletilingita; siin lisatud pu + ajakava. Kaks allikat: FB event + Fienta piletileht.",
-   "img": "pildid/metalsaturdayriserarestor.webp"
+   "img": "pildid/metalsaturdayriserarestor.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-09-27",
@@ -928,7 +952,11 @@
    "ou": "https://www.facebook.com/events/1415447317294805/",
    "koosseis_tba": 1,
    "pu": "https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu",
-   "img": "pildid/beneathrevaliathelivoniantour.webp"
+   "img": "pildid/beneathrevaliathelivoniantour.webp",
+   "hind": {
+    "praegu": "10–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-02",
@@ -952,7 +980,11 @@
    "pu": "https://fienta.com/et/nocturnalexorcism-grom-thekrypt",
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026. Kaks allikat: FB event (kaaskorraldajad The Krypt + Nocturnal Exorcism) + Fienta piletileht. Nocturnal Exorcism moodustatud Soomes 2024 (bandcamp), Grom Tallinnast 1997.",
-   "img": "pildid/blackmetalfridaynocturnalexorcismfigrom.webp"
+   "img": "pildid/blackmetalfridaynocturnalexorcismfigrom.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-02",
@@ -1037,7 +1069,11 @@
    "pu": "https://fienta.com/et/batushka-paavli",
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht",
-   "img": "pildid/batushkapl.webp"
+   "img": "pildid/batushkapl.webp",
+   "hind": {
+    "praegu": "25–39 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-03",
@@ -1097,7 +1133,11 @@
    "ou": "https://www.thekrypt.ee/events",
    "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil | 04.09.2026 sweep: Fienta piletileht leitud (teravmoon-rock-thekrypt), pu lisatud.",
    "img": "pildid/rocksaturdayteravmoon.webp",
-   "pu": "https://fienta.com/et/teravmoon-rock-thekrypt"
+   "pu": "https://fienta.com/et/teravmoon-rock-thekrypt",
+   "hind": {
+    "praegu": "15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-04",
@@ -1143,7 +1183,11 @@
    "ou": "https://www.facebook.com/events/1281090940578721",
    "pu": "https://fienta.com/et/kaschalot-vkf26",
    "nb": "lisatud sweepis 28.07.2026; kinnitatud FB event + Fienta. Eesti math-rock/post-rock, kitarripohine -> peasait",
-   "img": "pildid/kaschalotviljandikitarrifestival.webp"
+   "img": "pildid/kaschalotviljandikitarrifestival.webp",
+   "hind": {
+    "praegu": "15–20 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-09",
@@ -1251,7 +1295,11 @@
    "pu": "https://fienta.com/et/taak-procession-thekrypt",
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026. Kaks allikat: FB event (kaaskorraldajad The Krypt + Taak) + Fienta piletileht.",
-   "img": "pildid/doomedsaturdaytaakprocessionlv.webp"
+   "img": "pildid/doomedsaturdaytaakprocessionlv.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-10",
@@ -1297,7 +1345,11 @@
    "ou": "https://www.facebook.com/events/844275598724150",
    "pu": "https://fienta.com/et/robben-ford-trio-us-vkf",
    "nb": "lisatud sweepis 28.07.2026; kinnitatud FB event + Fienta. Bluus on peasaidi skoobis alates 26.07.2026",
-   "img": "pildid/robbenfordtriousviljandikitarrifestival.webp"
+   "img": "pildid/robbenfordtriousviljandikitarrifestival.webp",
+   "hind": {
+    "praegu": "45–50 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-10",
@@ -1692,7 +1744,11 @@
    "ou": "https://www.facebook.com/events/1600512088086457/",
    "pu": "https://fienta.com/et/deadshapefigure-surrogoat-thekrypt",
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta otsing",
-   "img": "pildid/metalsaturdaysurrogoatdeadshapefigurefi.webp"
+   "img": "pildid/metalsaturdaysurrogoatdeadshapefigurefi.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-11-11",
@@ -1710,7 +1766,11 @@
    "su": "https://metalstorm.net/events/event.php?event_id=233881",
    "img": "pildid/theobsessed.webp",
    "pu": "https://fienta.com/et/the-obsessed-us-von-krahl",
-   "nb": "10.08.2026 sweep: piletilink lisatud (Fienta)"
+   "nb": "10.08.2026 sweep: piletilink lisatud (Fienta)",
+   "hind": {
+    "praegu": "20–30 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-11-13",
@@ -1768,7 +1828,11 @@
    "pu": "https://fienta.com/et/pink-turns-blue-paavli-tallinn",
    "lisatud": "2026-09-04",
    "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (ka Paavli Fienta org-leht 17595). ZANRIOTSUS: post-punk/darkwave kitarribandina peasaidile (REEGLID §1: gothic rock -> www); electro-industrial telg oleks klubi.",
-   "img": "pildid/pinkturnsbluede.webp"
+   "img": "pildid/pinkturnsbluede.webp",
+   "hind": {
+    "praegu": "15–30 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-11-15",
@@ -1792,7 +1856,11 @@
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht.",
    "img": "pildid/paavlilivegonguk.webp",
    "on_": "Paavli Kultuurivabrik",
-   "ou": "https://paavli.ee/sundmused/paavli%e2%80%a4live-gong-uk/"
+   "ou": "https://paavli.ee/sundmused/paavli%e2%80%a4live-gong-uk/",
+   "hind": {
+    "praegu": "25 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-11-17",
@@ -1875,7 +1943,11 @@
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avanes 22.08.2026 — Fienta ürituseleht (Paavli org 17595), lisatud pu. | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle.",
    "pu": "https://fienta.com/wyatte-five-the-hierophant-tallinn",
-   "img": "pildid/wyattebefivethehierophantuk.webp"
+   "img": "pildid/wyattebefivethehierophantuk.webp",
+   "hind": {
+    "praegu": "20 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-11-28",
@@ -1902,7 +1974,11 @@
    "pu": "https://fienta.com/et/burn-still-xx-paavli",
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026. Kaks allikat: paavli.ee uritusleht (taiskoosseis 4 bandi) + Fienta piletileht. Taiskoosseisu reegel: lehel olid koik neli, mitte ainult peaesineja.",
-   "img": "pildid/burnstillxxanniversary.webp"
+   "img": "pildid/burnstillxxanniversary.webp",
+   "hind": {
+    "praegu": "20 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-11-28",
@@ -1941,7 +2017,11 @@
    "su": "https://www.bandsintown.com/e/108569164-chelsea-wolfe-at-helitehas",
    "img": "pildid/chelseawolfeaawilliams.webp",
    "pu": "https://fienta.com/et/chelsea-wolfe-aa-william-helitehas-tallinn",
-   "nb": "10.08.2026 sweep: piletilink lisatud (Fienta)"
+   "nb": "10.08.2026 sweep: piletilink lisatud (Fienta)",
+   "hind": {
+    "praegu": "39–49 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-12-01",
@@ -2063,7 +2143,11 @@
    "pu": "https://fienta.com/et/the-ocean-psychonaut-pothamus-paavli-tallinn",
    "nb": "10.08.2026 sweep: piletilink lisatud (Fienta) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht.",
    "on_": "Paavli Kultuurivabrik",
-   "ou": "https://paavli.ee/sundmused/the-ocean-de-psychonaut-be-pothamus-be/"
+   "ou": "https://paavli.ee/sundmused/the-ocean-de-psychonaut-be-pothamus-be/",
+   "hind": {
+    "praegu": "20–39 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-12-12",
@@ -2087,7 +2171,11 @@
    "pu": "https://fienta.com/et/rotting-christ-tallinn-paavli",
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026. Kaks allikat: paavli.ee uritusleht + Fienta piletileht. Pealkirjas on 'ROTTING CHRIST (GR) + SUPPORT' - soojendaja nimi pole avaldatud, seega b-s ainult peaesineja.",
-   "img": "pildid/rottingchristgr.webp"
+   "img": "pildid/rottingchristgr.webp",
+   "hind": {
+    "praegu": "20–39 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-12-12",
@@ -2200,7 +2288,11 @@
    "pu": "https://fienta.com/et/katarsis-acoustic-tallinn",
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: paavli.ee ürituseleht + Fienta piletileht (lisaks FB event 2535662990192990). Korraldaja kirjeldab bändi kui alternatiivroki, post-pungi ja indie'i vahel liikuvat; 2025. aasta kontsert müüdi välja. Avalik piletimüük algas 11.09.2026 kell 12.",
-   "img": "pildid/katarsisltunplugged.webp"
+   "img": "pildid/katarsisltunplugged.webp",
+   "hind": {
+    "praegu": "35 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2027-01-28",
@@ -2346,7 +2438,11 @@
    "sn": "Fienta",
    "su": "https://fienta.com/et/tramhaus-tallinn-paavli",
    "pu": "https://fienta.com/et/tramhaus-tallinn-paavli",
-   "img": "pildid/paavlilivetramhaus.webp"
+   "img": "pildid/paavlilivetramhaus.webp",
+   "hind": {
+    "praegu": "15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2027-04-20",

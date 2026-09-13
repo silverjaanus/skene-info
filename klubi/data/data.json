@@ -243,7 +243,11 @@
    "pu": "https://fienta.com/et/paavli-club-aya-uk-live",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Fienta (Paavli org-leht) + paavli.ee event-leht + Paavli FB",
-   "img": "pildid/paavliclubayauklive.webp"
+   "img": "pildid/paavliclubayauklive.webp",
+   "hind": {
+    "praegu": "12–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-09-18",
@@ -788,7 +792,11 @@
    "ou": "https://ra.co/events/2475984",
    "nb": "lisatud sweepis 19.07.2026; pilet leitud Fientast 26.07.2026",
    "pu": "https://fienta.com/et/laine-klubioo-yung-singh",
-   "img": "pildid/laineklubiooyungsinghuk.webp"
+   "img": "pildid/laineklubiooyungsinghuk.webp",
+   "hind": {
+    "praegu": "12 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-09",
@@ -1007,7 +1015,11 @@
    "pu": "https://fienta.com/et/next-level-mesila",
    "lisatud": "2026-08-22",
    "nb": "lisatud sweepis 22.08.2026. Kaks allikat: RA event 2518611 (RA snapshot) + Fienta ürituseleht 'NEXT LEVEL 17. OKTOOBER // HALL - MESILA'. Täiskoosseis + ajakava Fienta kirjeldusest (21.00 Radixsort … 05.00 RENGO). Kolmas kinnitus: huvi.tallinn.ee sündmusekirje.",
-   "img": "pildid/nextlevelhallmesila.webp"
+   "img": "pildid/nextlevelhallmesila.webp",
+   "hind": {
+    "praegu": "15–20 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-10-18",
@@ -1101,7 +1113,11 @@
    "su": "https://fienta.com/et/laine-klubioo-mi-el-uk",
    "pu": "https://fienta.com/et/laine-klubioo-mi-el-uk",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "pildid/laineklubioomieluk.webp"
+   "img": "pildid/laineklubioomieluk.webp",
+   "hind": {
+    "praegu": "6 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-11-21",
@@ -1148,7 +1164,11 @@
    "ou": "https://www.facebook.com/events/1028764386206264",
    "pu": "https://fienta.com/et/lane8",
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Piiripealne: suur nimi, aga baasžanr melodic/progressive house — sama loogika mis Netskyl",
-   "img": "pildid/lane8europetour.webp"
+   "img": "pildid/lane8europetour.webp",
+   "hind": {
+    "praegu": "35–40 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-12-04",
@@ -1170,7 +1190,11 @@
    "pu": "https://fienta.com/et/laine-klubioo-adobeprincess-us",
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: Uus Laine Fienta org-leht 17330 + ürituse enda Fienta leht (kirjeldus). Hinda ei ole veel lehel tekstina näha",
-   "img": "pildid/laineklubiooadobeprincessus.webp"
+   "img": "pildid/laineklubiooadobeprincessus.webp",
+   "hind": {
+    "praegu": "6 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2026-12-11",
@@ -1191,7 +1215,11 @@
    "su": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
    "pu": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
-   "img": "pildid/laineklubioostateofffnlzw.webp"
+   "img": "pildid/laineklubioostateofffnlzw.webp",
+   "hind": {
+    "praegu": "6 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2027-03-12",
@@ -1238,7 +1266,11 @@
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; leitud Fienta dnb-otsinguga, korraldaja SatNam pro (FB/IG @satnamest); PIIRIPEALNE: heaolu-/teadlikkusfestivali kallak, aga baasžanr elektrooniline tantsumuusika — kui Silver peab skoobiväliseks, eemalda | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
    "koosseis_tba": 1,
-   "img": "pildid/satnamculturalrave2027.webp"
+   "img": "pildid/satnamculturalrave2027.webp",
+   "hind": {
+    "praegu": "75–199 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   },
   {
    "d": "2027-07-15",
