@@ -235,6 +235,16 @@ Lingi puudumine ei ole vormiviga: see PEIDAB sisulised vead.
 
 www lame nimekiri: `rock, metal, death, black, thrash, doom, sludge, grind, stoner,
 power, heavy, folk, pagan, industrial, ebm, darkwave, goth, dark, electro, shoegaze,
-post, symphonic, punk, melodic, extreme, alt, core` (+ bluus metafiltrina). Rap ja klubi
-kasutavad oma failides juba käibivaid silte (frontend ehitab chipid andmetest;
+indie, post, symphonic, punk, melodic, extreme, alt, core` (+ bluus metafiltrina).
+
+**`indie` lisatud 13.09.2026 (Silver: „võib indie panna uue tagina ka").** Käitub nagu
+`shoegaze`: on MODIFIKAATOR, mitte metafilter — `GENRE_META`-s teda EI OLE ja kood teda ei
+tunne, seega ta paistab kirje kaardil sildina, aga meta tuleb juursildist (`alt`/`rock`).
+⚠ Pane indie-kirjele ALATI ka juursilt, muidu kukub kirje `warn_meta_fallback`-i (kuvatakse
+`alt` all, sweep teatab sellest kokkuvõttes). Kui indie peaks kunagi saama OMA chipi filtri
+reas, on see suurem töö: `METAS` + `GENRE_META` kolmes sünkis kohas (`scripts/fetch.py`,
+`templates/index/snippets/www/S061.html`, `templates/arhiiv/snippets/www/S019.html`) +
+`build_pages.py` uuesti; valvab `check_meta_sync.py`.
+
+Rap ja klubi kasutavad oma failides juba käibivaid silte (frontend ehitab chipid andmetest;
 kirjapildi ühtlustus `common.TAG_SYNONYMS`). Liitsilte ei ole.

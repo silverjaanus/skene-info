@@ -503,6 +503,39 @@
    "img": "pildid/balticbstourmemoirafinegresfinportread.webp"
   },
   {
+   "d": "2026-09-24",
+   "t": "kontsert",
+   "n": "ALUK TODOLO (FR) + Mang Ont + Forgotten Sunrise Syndrone",
+   "a": "Prantsuse instrumentaalne okultrock/avangardne black-trio Aluk Todolo esimest korda üle 15 aasta Eestis; Tartu instrumentaalne stoner/doom-trio Mang Ont ja Forgotten Sunrise'i elektrooniline/dark ambient kõrvalprojekt. Uksed 19.00, uksehind 25 €",
+   "b": [
+    "Aluk Todolo",
+    "Mang Ont",
+    "Forgotten Sunrise Syndrone"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "black",
+    "doom",
+    "stoner",
+    "metal",
+    "rock",
+    "dark"
+   ],
+   "sn": "Rockclub Tapper (FB events)",
+   "su": "https://www.facebook.com/rockclubtapper/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1826473062041845/",
+   "hind": {
+    "praegu": "25 €",
+    "mark": "uksehind, online-piletimüüki ei ole; uksed 19.00",
+    "allikas": "ürituse FB-kirjeldus, kontrollitud 13.09.2026"
+   },
+   "lisatud": "2026-09-13",
+   "nb": "lisatud 13.09.2026 Silveri sisendina (saatis fb.me/e/264Kgp0ofi vestluses). KOLM ALLIKAT: ürituse FB event 1826473062041845 (N 24.09.2026 kl 19.00 EEST, Rockclub Tapper, Pärnu mnt 158g) + Mang Ondi enda FB-lehe postitus 12.09 („Varsti Tallinnas!“, https://www.facebook.com/mangont) + Rockclub Tapperi FB events-tab, kus üritus seisab. ⚠ MIKS SWEEP SEDA EI PÜÜDNUD: korraldajad on kolm ERAISIKUT (Holden Bonne Laamann, Anders Melts, Kaido Haavandi), mitte leht — üritus ei jõua Tapperi veebiprogrammi ega ühegi korraldajalehe events-tabi; ainus masinloetav koht on Tapperi FB events-tab. Bändide taust ürituse enda kirjeldusest: Aluk Todolo = 2004. aastast tegutsev instrumentaalne okultrocki trio (kraut + okultne black; esines SUNN O))) kutsel Roadburn 2011-l), Mang Ont = 2011. aastal Tartus alustanud instrumentaalne stoner/doom-trio (https://mangont.bandcamp.com/), Forgotten Sunrise Syndrone = Forgotten Sunrise'i elektrooniline/dark ambient kõrvalprojekt. ⚠ Rockfreaks.net tuurinimekiri näitab Aluk Todolol AINULT Helsingi kuupäeva (25.09, KULT) — Tallinna kuupäev on seal puudu, seega agregaatorit teise allikana EI kasutatud.",
+   "img": "pildid/aluktodolofrmangontforgottensunrisesyndrone.webp"
+  },
+  {
    "d": "2026-09-25",
    "t": "kontsert",
    "n": "Heavy Friday: KRANG (CZ) + ELUKAS (EE)",
@@ -670,6 +703,7 @@
    "v": "Uus Laine",
    "c": "Tallinn",
    "g": [
+    "indie",
     "alt",
     "rock"
    ],
@@ -684,7 +718,7 @@
     "allikas": "Fienta, kontrollitud 13.09.2026"
    },
    "lisatud": "2026-09-13",
-   "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KOLM ALLIKAT: ürituse FB event 1604783617845350 (R 25.09.2026 kl 19.00 EEST, Uus Laine, Vana-Kalamaja 1; korraldajad Uus Laine + Ixtlan + Town Flesh) + Fienta piletileht town-flesh-ixtlan-live (10 €, sama kuupäev ja koht) + Town Fleshi Bandcampi EP-leht, mis kinnitab sama ilmumispäeva. ŽANRIOTSUS: korraldaja tekst ütleb kaks korda „Eesti indie maastik“ / „Estonian indie scene“; Town Flesh on kitarripõhine indie (60ndate psühh, 80ndate jangle, 90ndate alternatiiv; liikmeid mh Holy Motorsist), Ixtlan eestikeelne unistav indie — REEGLID §1 kitarripõhine alternatiiv, sildid alt+rock nagu varasematel Uus Laine indie-kirjetel (Tallinn Indie Shuffle 29.08, Laine Live sari). Samal päeval ilmub Town Fleshi EP → eraldi reliisikirje.",
+   "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KOLM ALLIKAT: ürituse FB event 1604783617845350 (R 25.09.2026 kl 19.00 EEST, Uus Laine, Vana-Kalamaja 1; korraldajad Uus Laine + Ixtlan + Town Flesh) + Fienta piletileht town-flesh-ixtlan-live (10 €, sama kuupäev ja koht) + Town Fleshi Bandcampi EP-leht, mis kinnitab sama ilmumispäeva. ŽANRIOTSUS: korraldaja tekst ütleb kaks korda „Eesti indie maastik“ / „Estonian indie scene“; Town Flesh on kitarripõhine indie (60ndate psühh, 80ndate jangle, 90ndate alternatiiv; liikmeid mh Holy Motorsist), Ixtlan eestikeelne unistav indie — REEGLID §1 kitarripõhine alternatiiv, sildid alt+rock nagu varasematel Uus Laine indie-kirjetel (Tallinn Indie Shuffle 29.08, Laine Live sari). Samal päeval ilmub Town Fleshi EP → eraldi reliisikirje. ⚠ SILT MUUDETUD 13.09.2026: Silver lubas „indie“ uue sildina — lisatud `g` ette. Meta-filtrit see ei muuda (indie ei ole GENRE_META-s, nagu shoegaze'igi pole), kirje jääb `alt`/`rock` metasse ja `indie` paistab kaardi sildina.",
    "img": "pildid/townfleshixtlanlive.webp"
   },
   {
@@ -700,12 +734,13 @@
    "v": "",
    "c": "Tallinn",
    "g": [
+    "indie",
     "alt",
     "rock"
    ],
    "sn": "Bandcamp",
    "su": "https://townflesh.bandcamp.com/album/the-town-flesh-extended-play",
-   "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KAKS ALLIKAT: albumi Bandcamp-leht („releases 25 September 2026“, 6 lugu, tracklist olemas) + Fienta/FB ürituseleht „Town Flesh & Ixtlan LIVE“, mis ütleb, et bänd esitleb EP-d „samal päeval, kui see ilmub“ (25.09) — Bandcampi kuupäev ei ole seega platseholder (REEGLID §6 kuupäevalõks kontrollitud). Bändi enda kirjeldus: indie-viisik, mõjutused 60ndate psühh / 80ndate jangle / 90ndate alternatiiv, liikmeid mh Holy Motorsist ja The Boondocksist; remiksid Pia Fraus (EE dreampop) ja The Lunacy Of Flowers (UK darkwave). Reliis on värskem kui 30 päeva → lisatud = tänane kuupäev, kirje läheb esilehe „Uued reliisid“ ribale (REEGLID §6).",
+   "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KAKS ALLIKAT: albumi Bandcamp-leht („releases 25 September 2026“, 6 lugu, tracklist olemas) + Fienta/FB ürituseleht „Town Flesh & Ixtlan LIVE“, mis ütleb, et bänd esitleb EP-d „samal päeval, kui see ilmub“ (25.09) — Bandcampi kuupäev ei ole seega platseholder (REEGLID §6 kuupäevalõks kontrollitud). Bändi enda kirjeldus: indie-viisik, mõjutused 60ndate psühh / 80ndate jangle / 90ndate alternatiiv, liikmeid mh Holy Motorsist ja The Boondocksist; remiksid Pia Fraus (EE dreampop) ja The Lunacy Of Flowers (UK darkwave). Reliis on värskem kui 30 päeva → lisatud = tänane kuupäev, kirje läheb esilehe „Uued reliisid“ ribale (REEGLID §6). ⚠ SILT MUUDETUD 13.09.2026: Silver lubas „indie“ uue sildina — lisatud `g` ette. Meta-filtrit see ei muuda (indie ei ole GENRE_META-s, nagu shoegaze'igi pole), kirje jääb `alt`/`rock` metasse ja `indie` paistab kaardi sildina.",
    "img": "pildid/townfleshthetownfleshextendedplay.webp"
   },
   {
