@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 172,
+ "count": 169,
  "entries": [
   {
    "sait": "www",
@@ -299,40 +299,6 @@
    "img": "https://www.skene.info/pildid/fhtagnulgumereulmad.webp"
   },
   {
-   "sait": "rap",
-   "d": "2026-09-12",
-   "t": "klubi",
-   "n": "BASHMENT BIRTHDAY",
-   "a": "Bashment FM (a 1998) sunnipäevapidu — reggae, dancehall, dub; 20.00 Domino & Good Vibes, 22.00 DJd",
-   "b": [
-    "Päda",
-    "Stupid F",
-    "J.O.C.",
-    "FEEMA",
-    "EESTIYARDIE",
-    "Domino & Good Vibes"
-   ],
-   "v": "Legendaarne Raadio & Baar",
-   "c": "Tallinn",
-   "g": [
-    "dancehall",
-    "reggae",
-    "dub"
-   ],
-   "sn": "Legendaarne Raadio (FB events)",
-   "su": "https://www.facebook.com/LegendaarneRaadio/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1412850154029535/",
-   "pu": "https://fienta.com/et/bashmentbirthday",
-   "hind": {
-    "praegu": "5–15€",
-    "mark": "Early Bird 5€ (kuni 1.09), Bashment Friend 10€, uksel 15€ (sularahas 13€), toetaja 30€",
-    "allikas": "FB event + Fienta, kontrollitud 28.08.2026"
-   },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (Bashment FM + Legendaarne Raadio) + Fienta piletileht. Artistide taisnimekiri veel avaldamata (\"artist lineup loading\"). Sait rap, sama loogika mis kirjel Back 2 Bashment. | 11.09.2026 sweep RIKASTUS: koosseis on nüüd Fienta ürituselehel väljas → koosseis_tba maha. Puldis ja mikris: Päda (Sahver Records), Stupid F (RVL Massiv), J.O.C. (Def Räädu Massive), FEEMA (JM, DancehallLifeLine), kohtunikuks EESTIYARDIE (JM, Domino Referee). Allikas: https://fienta.com/et/bashmentbirthday",
-   "img": "https://rap.skene.info/pildid/bashmentbirthday.webp"
-  },
-  {
    "sait": "klubi",
    "d": "2026-09-12",
    "rel": 1,
@@ -355,62 +321,6 @@
    "lisatud": "2026-09-10",
    "nb": "lisatud 10.09.2026 postkastijooksus (Silveri edastatud Eesti Raskemuusikaliidu uudiskiri, september 2026 — uudiskiri loetleb Esitluspaev 6 esinejate 2026. a reliisid). Kaks allikat: uudiskiri + Bandcampi album (\"releases September 12, 2026\", eeltellimus, 9 lugu, 2 lugu juba kuulatavad). Bandcampi tag'id: ambient, choir, contemporary folk, dark ambient, drone, industrial, neoclassical, noise, ritual ambient, Tallinn. KLUBI, mitte www: baasžanr on elektrooniline (drone/dark ambient), sama loogika nagu sama artisti «IIII» kirjel 25.07.2026 — Esitluspaeva metal-kontekst ei muuda baasžanri (REEGLID §1).",
    "img": "https://klubi.skene.info/pildid/fumantumelephant.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-09-12",
-   "t": "klubi",
-   "n": "MOD club: dj aleksi (FI) b2b QSLAP",
-   "a": "ALL NIGHT LONG; kell 23.00, 18+",
-   "b": [
-    "dj aleksi (FI)",
-    "QSLAP"
-   ],
-   "v": "MOD",
-   "c": "Tallinn",
-   "g": [
-    "house",
-    "techno"
-   ],
-   "sn": "MOD.tln (FB events)",
-   "su": "https://www.facebook.com/Modtln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1721914672261983/",
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event (korraldajad MOD.tln + QSLAP + Paavli). RIKASTATUD 09.09.2026: sissepaas TASUTA ('FREE ENTRY ALL NIGHT') - info oli FB 'See more' taga, kinnitab ka Paavli uudiskiri. Online-piletimuuki ei ole, pu jaab tuhjaks.",
-   "hind": {
-    "praegu": "tasuta",
-    "mark": "FREE ENTRY ALL NIGHT",
-    "allikas": "FB event + Paavli uudiskiri, kontrollitud 09.09.2026"
-   }
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-09-12",
-   "t": "klubi",
-   "n": "Still Out: Ale Castro",
-   "a": "Still Out esimest korda Fonoteegis; deep house; kell 23.00",
-   "b": [
-    "Ale Castro",
-    "Kurly Beats",
-    "Hurmet Ilus",
-    "Annemai"
-   ],
-   "v": "Fonoteek",
-   "c": "Tallinn",
-   "g": [
-    "house",
-    "disco"
-   ],
-   "sn": "Fonoteek (FB events)",
-   "su": "https://www.facebook.com/fonoteekbar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2111895319741370/",
-   "hind": {
-    "praegu": "10€",
-    "mark": "FB eventi kirjeldusest",
-    "allikas": "FB event, kontrollitud 28.08.2026"
-   },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fonoteegi FB events-tab + urituse FB event (korraldajad Still Out + Fonoteek)."
   },
   {
    "sait": "klubi",

@@ -3105,6 +3105,60 @@
    "nb": "lisatud 24.08.2026 (Silveri sisend). Kaks allikat: FB event 1368576134479294 (korraldajad WAKE UP EVENT + TOLM + Reglok + Auroræ Luma + Rego Kauber + Džungel + Regina Rebase) ja Džungli enda FB events-tab, kus sama kirje; kolmas kinnitus TOLMi events-tab. Piletilinki FB-s EI OLE (WAKE UP EVENTi lehe „Get tickets“ viitab lehele, mitte sellele üritusele) — kontrolli Ticketerist. ⚠ koosseis TBA → kontrolli järgmises sweepis. ⚠ TOLM lõpetab 12.–13.09.2026 („TOLM — the end.“), see on maja eelviimane pidu. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
    "img": "pildid/wakeupeventxdzungelback2school.webp",
    "koosseis_tba": 1
+  },
+  {
+   "d": "2026-09-12",
+   "t": "klubi",
+   "n": "MOD club: dj aleksi (FI) b2b QSLAP",
+   "a": "ALL NIGHT LONG; kell 23.00, 18+",
+   "b": [
+    "dj aleksi (FI)",
+    "QSLAP"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "MOD.tln (FB events)",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1721914672261983/",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event (korraldajad MOD.tln + QSLAP + Paavli). RIKASTATUD 09.09.2026: sissepaas TASUTA ('FREE ENTRY ALL NIGHT') - info oli FB 'See more' taga, kinnitab ka Paavli uudiskiri. Online-piletimuuki ei ole, pu jaab tuhjaks.",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "FREE ENTRY ALL NIGHT",
+    "allikas": "FB event + Paavli uudiskiri, kontrollitud 09.09.2026"
+   }
+  },
+  {
+   "d": "2026-09-12",
+   "t": "klubi",
+   "n": "Still Out: Ale Castro",
+   "a": "Still Out esimest korda Fonoteegis; deep house; kell 23.00",
+   "b": [
+    "Ale Castro",
+    "Kurly Beats",
+    "Hurmet Ilus",
+    "Annemai"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Fonoteek (FB events)",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2111895319741370/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "FB eventi kirjeldusest",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fonoteegi FB events-tab + urituse FB event (korraldajad Still Out + Fonoteek)."
   }
  ]
 }
