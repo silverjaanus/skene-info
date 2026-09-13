@@ -829,9 +829,8 @@
   "su": "https://paavli.ee/sundmused/don-brass-surin/",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1419798690052356",
-  "pu": "https://fienta.com/et/don-brass-surin-at-paavli-kultuurivabrik",
   "lisatud": "2026-09-04",
-  "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (+FB event). TAISKOOSSEIS: paavli.ee lisab kolmanda bandi The Pincushions, mida FB-nimes ei ole.",
+  "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (+FB event). TAISKOOSSEIS: paavli.ee lisab kolmanda bandi The Pincushions, mida FB-nimes ei ole. ⚠ 13.09.2026: Fienta piletileht (don-brass-surin-at-paavli-kultuurivabrik) annab 404 KOIGIS variantides, kuigi kultuurivabrik.ee loetleb urituse endiselt 18.09 kl 19.00 ja paavli.ee 'Osta pilet' viitab samale surnud lingile. Piletimuuk on ilmselt loppenud voi kolinud uksele -> `pu` EEMALDATUD, et kulastaja ei satuks 404-le. FB event ja paavli.ee jaavad.",
   "img": "pildid/donbrasssurinthepincushions.webp"
  },
  {
@@ -1838,13 +1837,12 @@
   ],
   "sn": "Fienta",
   "su": "https://fienta.com/et/clowny-business-tallinn",
-  "pu": "https://fienta.com/et/clowny-business-tallinn",
   "hind": {
    "praegu": "10€ eelmüük / 12€ uksel",
    "allikas": "Fienta, kontrollitud 02.08.2026"
   },
   "lisatud": "2026-08-02",
-  "nb": "lisatud sweepis 02.08.2026; kinnitatud Fienta + Bandsintown; FB eventi ei leidnud (ou tühi)",
+  "nb": "lisatud sweepis 02.08.2026; kinnitatud Fienta + Bandsintown; FB eventi ei leidnud (ou tühi) ⚠ 13.09.2026: Fienta leht (clowny-business-tallinn) annab 404 -> `pu` EEMALDATUD. NB: `su` osutab samale surnud lehele, seega sellel kirjel EI OLE enam elavat allikat — jargmises sweepis kontrolli Tapperi FB events-tabist, kas uritus toimub, ja leia uus allikas voi votta kirje maha. Hind (10/12 €) parineb 02.08 Fienta lehelt.",
   "img": "pildid/clownybusinessagarwaenfinsoldstrych9.webp"
  },
  {
