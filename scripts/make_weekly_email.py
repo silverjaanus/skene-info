@@ -31,7 +31,7 @@ TYPE_COLOR={"kontsert":TELLISKIVI,"festival":SINEP,"klubi":PLOOM,"reliis":PAATIN
 # kategooria (alamdomeen) varvid + sildid — VARV eristab kategooriat, tuup jaab tekstina
 CAT_COLOR={"metal":"#93392C","rap":"#2E5EAA","klubi":"#6E45A8"}
 CAT_LABEL={"et":{"metal":"METAL","rap":"RAP","klubi":"KLUBI"},"en":{"metal":"METAL","rap":"RAP","klubi":"CLUB"}}
-# --- tume plakatipais (saidi E+F umberdisain 08.2026) ---
+# --- tume plakatipais (saidi kujundus; kastlogo lisatud 09.2026, commit d485965) ---
 # Saidi paises on zanrisonad pealkirjana heledatel tunnusvarvidel tumedal tindil.
 # Meilis ei saa kasutada -webkit-text-stroke'i ega opacity't (Outlook), seega
 # "valjas" sonad on eelarvutatud tuhmid toonid = sama varv 45% tindi taustal
@@ -42,6 +42,13 @@ CAT_DIM={"metal":"#703E33","rap":"#405473","klubi":"#5A4777"}
 CAT_WORD={"metal":"METAL","rap":"RAP","klubi":"KLUBI"}             # brandisonad = saidil, molemas keeles
 CAT_SITE={"metal":"https://www.skene.info/","rap":"https://rap.skene.info/","klubi":"https://klubi.skene.info/"}
 CAT_HOST={"metal":"skene.info","rap":"rap.skene.info","klubi":"klubi.skene.info"}
+# Kastlogo paises. Meiliklient ei oska SVG-d (saidil on inline-SVG) ega naeks
+# scripts/assets/ faile -- logo peab olema PNG-na saidil. Failid teeb
+# `python scripts/make_mail_logos.py` (icons/mail-logo-*.png, tumedale lamestatud).
+# Brandireegel: uhe teema kiri kannab oma saidi varvi "+", mitme teema kiri
+# (= vorgustik) valget "+". ?v= sunnib meilikliendi vahemalu logo vahetusel uuenema.
+LOGO_BASE="https://www.skene.info/icons/mail-logo-"
+LOGO_VER="2026-09"
 # MailerLite eelistuste/loobumise link (grupid subscriber-managed); kinnita ML manage-tag
 MANAGE_LINK="{$preferences}"
 # Multi-uudiskirja cross-promo ("Sa tellid ainult metal-uudiskirja...") on praegu VÄLJAS.
@@ -59,8 +66,8 @@ INTRO=None
 I18N={
  "et":{
   "lang_attr":"et",
-  "kicker":"SKENE.INFO &middot; Eesti alternatiiv",
-  "umbrella_alt":"eesti alternatiiv","umbrella_net":"üks võrgustik",
+  "umbrella":"Eesti UG-muusika ühest kohast",
+  "tagline":"Üritused, merch ja reliisid.",
   "title":"Tulevad üritused",
   "site_cta":"Kõik üritused &amp; artistid &rarr; skene.info",
   "entry_1":"kirje","entry_n":"kirjet",
@@ -75,15 +82,15 @@ I18N={
             "Vali teemad juurde &mdash; kõik tuleb ühes kirjas, ilma et postkast täituks. "
             "Iga teema saab eraldi välja lülitada.",
   "promo_btn":"Halda teemasid &rarr;",
-  "foot_tag":"üritused &middot; reliisid &middot; merch &middot; uudiskiri korra nädalas",
+  "foot_tag":"Üritused, merch ja reliisid. &middot; Uudiskiri korra nädalas.",
   "foot_prefs":"Halda eelistusi","foot_unsub":"Loobu",
   "foot_why":"Saad seda kirja, sest liitusid skene.info uudiskirjaga ja kinnitasid tellimuse.",
   "subject":"skene.info nädalakiri &mdash; {range}",
  },
  "en":{
   "lang_attr":"en",
-  "kicker":"SKENE.INFO &middot; Estonian alternative",
-  "umbrella_alt":"estonian alternative","umbrella_net":"one network",
+  "umbrella":"Estonian underground music in one place",
+  "tagline":"Events, merch and releases.",
   "title":"Upcoming events",
   "site_cta":"All events &amp; artists &rarr; skene.info",
   "entry_1":"entry","entry_n":"entries",
@@ -98,7 +105,7 @@ I18N={
             "Add topics &mdash; everything arrives in one email without flooding your inbox. "
             "Each topic can be switched off separately.",
   "promo_btn":"Manage topics &rarr;",
-  "foot_tag":"events &middot; releases &middot; merch &middot; new every week",
+  "foot_tag":"Events, merch and releases. &middot; One email a week.",
   "foot_prefs":"Manage preferences","foot_unsub":"Unsubscribe",
   "foot_why":"You're receiving this because you subscribed to the skene.info newsletter and confirmed it.",
   "subject":"skene.info weekly &mdash; {range}",
@@ -258,6 +265,7 @@ def build_html(entries, ws, we, lang, cats):
     accent=CAT_COLOR[solo] if solo else TELLISKIVI
     cta_url=CAT_SITE[solo] if solo else SITE_URL
     cta_txt=L["site_cta"].replace("skene.info", CAT_HOST[solo]) if solo else L["site_cta"]
+    logo_url=f"{LOGO_BASE}{solo or 'vorgustik'}.png?v={LOGO_VER}"
     intro_html=intro_block(lang, accent)
     promo_html=""
     if missing:
@@ -287,18 +295,36 @@ def build_html(entries, ws, we, lang, cats):
     return f"""<!DOCTYPE html>
 <html lang="{L['lang_attr']}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>skene.info</title></head>
+<title>skene.info</title>
+<style>
+/* Ainus media query kirjas: kitsal ekraanil ei mahu logo + "METAL RAP KLUBI"
+   korvuti 600 px paisereale. Gmaili app, Apple Mail ja Outlook mobiilis
+   toetavad seda; kes ei toeta, saab vaikimisi suuruse (= senine kaitumine). */
+@media only screen and (max-width:480px){{
+  .gw{{font-size:22px !important;letter-spacing:0 !important;}}
+  .mlogo{{width:44px !important;height:44px !important;}}
+  .mlogo-cell{{width:44px !important;padding-right:12px !important;}}
+}}
+</style></head>
 <body style="margin:0;padding:0;background:{PABER};">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PABER};">
 <tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:{KAART};border:1px solid {JOON};">
 
-  <!-- pais: tume plakatipea (saidi kujundus 08.2026) -->
-  <tr><td style="background:{TINT};padding:22px 28px 18px;border-bottom:3px solid {PABER};">
-    <div style="font:700 30px/1 Arial,Helvetica,sans-serif;letter-spacing:2px;mso-line-height-rule:exactly;">{gwords}</div>
-    <div style="font:400 12px/1.4 'Courier New',monospace;color:{HDRMUTED};letter-spacing:1px;margin:12px 0 0;">
-      <b style="color:{PABER};">SKENE.INFO</b> &#9642; {L['umbrella_alt']} &#9642; {L['umbrella_net']}
-    </div>
+  <!-- pais: kastlogo + zanrisonad + katusrida (saidi kujundus 09.2026) -->
+  <tr><td style="background:{TINT};padding:20px 28px 18px;border-bottom:3px solid {PABER};">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td valign="top" width="58" class="mlogo-cell" style="width:58px;padding:2px 18px 0 0;">
+        <a href="{SITE_URL}" style="text-decoration:none;"><img src="{logo_url}" width="58" height="58" alt="SKENE.INFO" class="mlogo" style="display:block;width:58px;height:58px;border:0;outline:none;text-decoration:none;"></a>
+      </td>
+      <td valign="top">
+        <div class="gw" style="font:700 30px/1 Arial,Helvetica,sans-serif;letter-spacing:1px;mso-line-height-rule:exactly;">{gwords}</div>
+        <div style="font:400 12px/1.4 'Courier New',monospace;color:{HDRMUTED};letter-spacing:1px;margin:11px 0 0;">
+          <b style="color:{PABER};">SKENE.INFO</b> &#9642; {L['umbrella']}
+        </div>
+        <div style="font:400 12px/1.4 Arial,Helvetica,sans-serif;color:{JOON};margin:5px 0 0;">{L['tagline']}</div>
+      </td>
+    </tr></table>
   </td></tr>
 
 {intro_html}
