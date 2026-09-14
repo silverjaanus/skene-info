@@ -205,6 +205,17 @@ arhiivikirjeid `if(!e.rel)return;`, ilma `rel`-ita KAOB kirje reliiside vaatest 
 ⚠ Ära „paranda" sellist `lisatud`-i tänase kuupäeva vastu; kirje `nb` ütleb seda ka ise välja.
 Pretsedent: Esitluspäev 6 kuus reliisi (Artifer 21.01 … Freakangel 26.06), lisatud 10.09.2026.
 
+**⚠⚠ UUE BANDCAMPI ALLIKA TAGAKATALOOGI EI TOODA (Silveri otsus 14.09.2026: „ei vanu asju pole
+küll vaja tuua").** Kui konto lisatakse `sweep/sources.json`-i, näitab `check_bandcamp.py` kogu
+tema senist kataloogi „uuena" ja CI läheb punaseks. **Õige käitumine: vanad reliisid ackitakse
+`data/bandcamp_seen.json`-i TEADLIKU VÄLJAJÄTUNA, saidile neid ei lisata** — saidile läheb ainult
+see, mis ilmub PÄRAST konto jälgimisele võtmist. Ülalkirjeldatud vana-reliisi mehhanism
+(`lisatud` = `d`) jääb alles, aga see on ERAND Silveri nimelise otsuse jaoks (nt Esitluspäeva
+partii), mitte vaikekäitumine uue allika puhul. Pretsedent: Mang Ondi 7 reliisi 2015–2024
+(https://mangont.bandcamp.com/music) jäeti 14.09.2026 välja; bänd ise jääb saidile esinejana ja
+`sources.json`-i allikana. ⚠ Sama kehtib ka albumi ÜKSIKLUGUDE kohta: kui `/track/`-link kuulub
+juba lisatud albumi juurde (`"inAlbum"` lehe HTML-is), eraldi reliisikirjet EI tehta — ack ainult.
+
 ## 7. Arhiiv
 
 Akumuleeruv, genereeritud (`archive_split.py`): möödunud kirjed `data/archive/<aasta>.json`,
