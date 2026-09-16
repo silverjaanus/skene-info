@@ -841,6 +841,36 @@
   }
  },
  {
+  "d": "2026-09-18",
+  "t": "kontsert",
+  "n": "Septemberfest 2026 x Punk on põhiline!",
+  "a": "Septemberfesti punkõhtu C.F. Hahn Pubis: «üheks õhtuks vallutab Septemberfesti lava korralik Eesti pungirokk»; kavas ka PMV plaadiesitlus. Algus 18.00, sissepääs tasuta",
+  "b": [
+   "Aitäh Ema",
+   "Kolm Põrsakest ja Metssiga",
+   "PMV",
+   "Veriora Raudvara koos Aapo Ilvesega",
+   "Surju Kommunaal"
+  ],
+  "v": "C.F. Hahn Pub",
+  "c": "mujal",
+  "linn": "Pärnu",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://tanaparnus.ee/uritus/septemberfest-2026-x-punk-on-pohiline-18-09-2026/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1062842679625386/",
+  "lisatud": "2026-09-16",
+  "nb": "lisatud 16.09.2026 postkastijooksus; sisend tuli skene.info kontaktivormi kaudu (Liis Virkus, liis@virkus.ee, 15.09.2026 16.20, žanriks märgitud «punk, rock»). KAKS ALLIKAT: ürituse oma FB event 1062842679625386 (korraldajad C.F.Hahn Pub, AITÄH EMA ja Siim Hinsberg; 164 vastanut; R 18.09.2026 kl 18.00, Riia mnt 129a Pärnu) + tanaparnus.ee ürituseleht, mis annab TÄISKOOSSEISU ja hinna («Tasuta») — FB-kirjeldus on sisselogimata kärbitud, seepärast on `su` koosseisu allikas. Koosseis on tanaparnus.ee kujul; kontaktivormi sisend ütles sama, kirjapildiga «3 Põrsakest & Metssiga». Kellaaeg ja koht kattuvad mõlemas allikas. Osa Septemberfest 2026 sarjast (19.09 lõpupidu on puhkpilliorkester + tantsuõhtu → skoobist väljas).",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "tanaparnus.ee ürituseleht, kontrollitud 16.09.2026"
+  }
+ },
+ {
   "d": "2026-09-19",
   "t": "kontsert",
   "n": "Psychoterror + Pedigree + Apparatus & Apparata",
@@ -1685,6 +1715,39 @@
   "img": "pildid/wardruna.webp",
   "nb": "07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Last.fm sildid ambient/folk/celtic/neofolk), kirje JÄÄB PEASAIDILE. Ära tõsta järgmistes sweepides. | 10.08.2026 sweep: piletilink lisatud (Piletilevi)",
   "pu": "https://www.piletilevi.ee/piletid/GSEOBOB67K/wardruna-finland-estonia-2026"
+ },
+ {
+  "d": "2026-10-16",
+  "t": "kontsert",
+  "n": "Kurjam + MAI SKIZO @ The Krypt",
+  "a": "Sügis Productionsi õhtu Kryptis: Kurjami punk ja MAI SKIZO tume post-punk/gooti kõlapilt; ühtlasi MAI SKIZO uue albumi «Valu mõte» tutvustustuuri avakontsert (esmakordselt müügil plaadid ja nänn). Uksed 20.00, muusika 22.00, 00.00 tasuta aftekas",
+  "b": [
+   "Kurjam",
+   "MAI SKIZO"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "rock",
+   "post",
+   "goth",
+   "industrial",
+   "dark",
+   "alt"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://fienta.com/et/kurjam-maiskizo-oktoober-thekrypt",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1592055805747436/",
+  "pu": "https://fienta.com/et/kurjam-maiskizo-oktoober-thekrypt",
+  "lisatud": "2026-09-16",
+  "nb": "lisatud 16.09.2026 postkastijooksus; sisend tuli skene.info kontaktivormi kaudu (Pronto, p@maiskizo.ee, 15.09.2026 16.08, žanriks märgitud «Punk, Rock, Goth, Industrial»). KAKS ALLIKAT: ürituse oma FB event 1592055805747436 (korraldajad The Krypt, Rada7.ee, Kurjam, MAI SKIZO, Estonianmetal.com, Eesti metallistid, Sügis Productions; 45 vastanut) + Fienta piletileht, mis annab hinna ja ajakava. ⚠ KELLAAEG: FB event ütleb 21.00–02.00 ja Fienta sama, aga mõlema tekst ütleb «20:00 uksed, 22:00 muusika, 00:00 aftekas» — `a`-s on korraldaja tekst, sest see on täpsem. Eraldi kirje 26.09 «Laine Live: Kurjam + ZLO» omast (eri kuupäev, eri venue, eri koosseis) ja 18.09 MAI SKIZO plaadiesitlusest. Žanr: Kurjam = punk (kurjam.bandcamp.com), MAI SKIZO = post-punk/industriaal/gooti rokk (maiskizo.ee) → kitarripõhine baasžanr, peasait (REEGLID §1).",
+  "hind": {
+   "praegu": "15 € / 20 €",
+   "mark": "eelmüük 15 €, tavapilet 20 €",
+   "allikas": "Fienta, kontrollitud 16.09.2026"
+  }
  },
  {
   "d": "2026-10-17",
