@@ -22,25 +22,6 @@
  },
  {
   "rel": 1,
-  "d": "2026-08-15",
-  "lisatud": "2026-08-17",
-  "t": "reliis",
-  "n": "Gutting Human — «Hell Singer» EP",
-  "a": "brutal death / goregrind EP, 14 min; Tallinn",
-  "b": [
-   "Gutting Human"
-  ],
-  "g": [
-   "metal",
-   "death"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://guttinghuman.bandcamp.com/album/hell-singer",
-  "nb": "lisatud 17.08.2026 sweepis. Kuupäev 15.08.2026 Bandcampi tag-otsingust; teine allikas: YouTube'i täisalbumi üleslaadimine (Skinned Corpse / Grindcore Death Metal Estonia kanal, 15.08).",
-  "img": "pildid/guttinghumanhellsingerep.webp"
- },
- {
-  "rel": 1,
   "d": "2026-08-20",
   "lisatud": "2026-08-21",
   "t": "reliis",
@@ -57,30 +38,6 @@
   "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
   "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
   "img": "pildid/mustmissakhattratapes.webp"
- },
- {
-  "d": "2026-09-02",
-  "t": "kontsert",
-  "n": "Back to School: Nahakiin + N.H.P.O + Dehumanizer + NGR",
-  "a": "kell 17.30–22.30",
-  "b": [
-   "Nahakiin",
-   "N.H.P.O",
-   "Dehumanizer",
-   "NGR"
-  ],
-  "v": "Hell",
-  "c": "Tartu",
-  "g": [
-   "punk"
-  ],
-  "sn": "Hell (Tartu) FB",
-  "su": "https://www.facebook.com/punknrollhell/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1052123491068874/",
-  "lisatud": "2026-08-14",
-  "nb": "lisatud sweepis 14.08.2026; allikad: Hell FB events-tab + FB event (Tiigi 76a). Hinnainfot event-lehel ei olnud",
-  "img": "pildid/backtoschoolnahakiinnhpodehumanizerngr.webp"
  },
  {
   "d": "2026-09-04",

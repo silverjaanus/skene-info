@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-09-16",
+ "tommatud": "2026-09-17",
  "aken": {
-  "algus": "2026-09-16",
-  "lopp": "2026-11-15"
+  "algus": "2026-09-17",
+  "lopp": "2026-11-16"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 32,
+ "kirjeid": 33,
  "kirjed": [
   {
    "d": "2026-09-17",
@@ -298,6 +298,20 @@
    ],
    "url": "https://ra.co/events/2532395",
    "pilet": false
+  },
+  {
+   "d": "2026-10-03",
+   "n": "Reggaeton Party (Tallinn) October 2026",
+   "algus": "2026-10-03T23:00:00.000",
+   "v": "Club Privé",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Reggaeton",
+    "Dembow"
+   ],
+   "url": "https://ra.co/events/2538624",
+   "pilet": true
   },
   {
    "d": "2026-10-09",

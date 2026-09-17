@@ -2178,6 +2178,25 @@
    "img": "pildid/valgedaamirock2026thetuberkuloited35elukasomorales.webp"
   },
   {
+   "rel": 1,
+   "d": "2026-08-15",
+   "lisatud": "2026-08-17",
+   "t": "reliis",
+   "n": "Gutting Human — «Hell Singer» EP",
+   "a": "brutal death / goregrind EP, 14 min; Tallinn",
+   "b": [
+    "Gutting Human"
+   ],
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://guttinghuman.bandcamp.com/album/hell-singer",
+   "nb": "lisatud 17.08.2026 sweepis. Kuupäev 15.08.2026 Bandcampi tag-otsingust; teine allikas: YouTube'i täisalbumi üleslaadimine (Skinned Corpse / Grindcore Death Metal Estonia kanal, 15.08).",
+   "img": "pildid/guttinghumanhellsingerep.webp"
+  },
+  {
    "d": "2026-08-16",
    "t": "kontsert",
    "n": "Paavli.Live: Geordie Greep (UK)",
@@ -3431,6 +3450,33 @@
     "mark": "uksel; uksed 19.00",
     "allikas": "Kotka Kultuurimaja FB event, kontrollitud 09.09.2026"
    }
+  },
+  {
+   "d": "2026-09-16",
+   "lisatud": "2026-09-02",
+   "t": "muu",
+   "n": "Giidituur „Kolmnurk” (eesti keeles)",
+   "a": "algus 18.00, kestus 2 h; eestikeelne giidituur, giid Airi Triisberg; Tallinn Fringe Festivali kavas; 14+",
+   "b": [
+    "Airi Triisberg"
+   ],
+   "v": "Vabaduse väljak 10",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fringe.ee/tickets/giidituur-kolmnurk-eesti-keeles-197166/",
+   "on_": "Tallinn Fringe Festival",
+   "ou": "https://fringe.ee/tickets/giidituur-kolmnurk-eesti-keeles-197166/",
+   "pu": "https://fienta.com/kolmnurk-197166",
+   "hind": {
+    "praegu": "16€",
+    "mark": "early bird 12€; „Triangle trio” 39€ kolmele (13€/in); very early bird 8€ välja müüdud",
+    "allikas": "Fienta piletivaade, kontrollitud 02.09.2026"
+   },
+   "nb": "Silveri otsus 02.09.2026 kontaktivormi otsustuskirjale: \"giidituur jaab. kuupaevad vota piletiinfost, mitte meilist\". Kuupaevad/kellaajad/keeled on seetottu voetud Fienta piletilehtedelt, MITTE kontaktivormi kirjast. Tegu on 2-tunnise jalutuskaiguga (mitte kontsert): 1980ndate keskpaiga Vabaduse valjaku kolmnurk (kohvik Moskva, Varblane, Pegasus), kus jutustatakse punk-, kirjandus- ja LGBT+ kogukonna ajalugu korvuti. Zanrisilt 'punk' viitab tuuri SISULE, mitte elavale esinemisele. Korraldaja Giidituurid „Uitlejad” / MTU Ostra (uitlejad@gmail.com). Marsruut: Vabaduse valjak -> Harjumagi -> Harju tanav; toimub ka vihmase ilmaga. Kontrollitud 02.09.2026.",
+   "img": "pildid/giidituurkolmnurkeestikeeles.webp"
   }
  ]
 }
