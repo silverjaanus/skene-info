@@ -616,7 +616,7 @@
    "Boipepperoni"
   ],
   "v": "Reeperbahn (St. Pauli)",
-  "c": "mujal",
+  "c": "Euroopa",
   "linn": "Hamburg",
   "g": [
    "metal",
@@ -634,7 +634,7 @@
    "mark": "'Spotlight On Heavy' pilet (raskemuusika programm); üldine festivalipilet on eraldi",
    "allikas": "reeperbahnfestival.com, kontrollitud 27.07.2026"
   },
-  "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel.",
+  "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel. | PARANDUS 18.09.2026 sweepis: `c` oli „mujal“, mis on EESTI-sisene ämber (Tallinn/Tartu/mujal) — seetõttu sattus Hamburgi festival 18.09 nädalapildi ja IG-captioni Eesti-filtrist läbi. Õige väärtus on „Euroopa“ (nagu Wacken, Up In Smoke).",
   "img": "pildid/reeperbahnfestival.webp"
  },
  {
@@ -2668,7 +2668,7 @@
    "Sever"
   ],
   "v": "Gdańsk Letnica",
-  "c": "mujal",
+  "c": "Euroopa",
   "linn": "Gdańsk",
   "g": [
    "metal",
@@ -2683,7 +2683,7 @@
   "on_": "mysticfestival.pl",
   "ou": "https://www.mysticfestival.pl/en/home/",
   "pu": "https://tickets.mysticfestival.pl/en",
-  "nb": "lisatud 27.07.2026 Silveri viitel (Raskemuusikaliidu uudiskiri: Eesti Bloodfeather + Sever võitsid showcase-kohad). Kuupäev + koht '10-12.06.2027 GDAŃSK LETNICA' loetud OTSE mysticfestival.pl kodulehe kehast + piletileht tickets.mysticfestival.pl viitab 2027-le. NB lehe meta-title on veel vana 2026-editsiooni peal (3-6.06.2026 Stocznia) — usaldada keha, mitte metat. Blind Bird piletid müügil (täpne hind kinnitamata). Täiskoosseis 90+ bändi lehel, siin ainult Eesti bändid + valik peaesinejaid. 02.08.2026: 'img' teadlikult tühi — lehe og:image on panga (Pekao) sponsorlogo, mitte festivali pilt.",
+  "nb": "lisatud 27.07.2026 Silveri viitel (Raskemuusikaliidu uudiskiri: Eesti Bloodfeather + Sever võitsid showcase-kohad). Kuupäev + koht '10-12.06.2027 GDAŃSK LETNICA' loetud OTSE mysticfestival.pl kodulehe kehast + piletileht tickets.mysticfestival.pl viitab 2027-le. NB lehe meta-title on veel vana 2026-editsiooni peal (3-6.06.2026 Stocznia) — usaldada keha, mitte metat. Blind Bird piletid müügil (täpne hind kinnitamata). Täiskoosseis 90+ bändi lehel, siin ainult Eesti bändid + valik peaesinejaid. 02.08.2026: 'img' teadlikult tühi — lehe og:image on panga (Pekao) sponsorlogo, mitte festivali pilt. | PARANDUS 18.09.2026 sweepis: `c` oli „mujal“ (Eesti-sisene ämber) → „Euroopa“; sama viga mis Reeperbahnil, leiti nädalapildi filtri kaudu.",
   "img": ""
  },
  {
