@@ -1,0 +1,477 @@
+{
+ "kuupaev": "2026-09-18",
+ "allikaid": 224,
+ "avatud": 108,
+ "skipitud": [
+  {
+   "url": "https://www.facebook.com/mahtrarecords",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "pohjus": "Bandcampi konto: check_bandcamp.py valvab uusi albumeid automaatselt (CI), tag-otsingud avatud"
+  },
+  {
+   "url": "https://howlsofwinter.eu/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/UGbaar/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://wunderbaar.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/ArtClubRoRo/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/stedingukelder/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/festivalimaja/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://hardrocklaager.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://rada7.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://fienta.com/et/o/29285",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/facecollectorband/upcoming_hosted_events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://fienta.com/s/kolmnurk",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://fringe.ee/tickets/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/Violetscape/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://lonksbaar.ee",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/madeinvachina.kimjongun/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.instagram.com/damn.loud/",
+   "pohjus": "IG: sisselogimata feed ei renderdu Chrome-kihis, FB-pool kaetud (sama korraldaja events-tab avatud)"
+  },
+  {
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "pohjus": "IG: sisselogimata feed ei renderdu Chrome-kihis, FB-pool kaetud (sama korraldaja events-tab avatud)"
+  },
+  {
+   "url": "https://www.instagram.com/tuum.baar/",
+   "pohjus": "IG: sisselogimata feed ei renderdu Chrome-kihis, FB-pool kaetud (sama korraldaja events-tab avatud)"
+  },
+  {
+   "url": "https://lukemois.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/dieuhuitrecords",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://dewdewdew.com/et",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/mckrick/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.instagram.com/eestihiphopfestival/",
+   "pohjus": "IG: sisselogimata feed ei renderdu Chrome-kihis, FB-pool kaetud (sama korraldaja events-tab avatud)"
+  },
+  {
+   "url": "https://www.instagram.com/tommycashworld/",
+   "pohjus": "IG: sisselogimata feed ei renderdu Chrome-kihis, FB-pool kaetud (sama korraldaja events-tab avatud)"
+  },
+  {
+   "url": "https://www.instagram.com/nublufy/",
+   "pohjus": "IG: sisselogimata feed ei renderdu Chrome-kihis, FB-pool kaetud (sama korraldaja events-tab avatud)"
+  },
+  {
+   "url": "https://legendaarne.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.piletilevi.ee/piletid/muusika",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://tartupunch.com/et/avaleht-eesti/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://onlinepilet.ee",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://gateme.com/et/Estonia/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.piletimaailm.com/categories/1-muusika",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://ticketshop.ee/et/events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://tuska.fi/en/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://steelfest.fi/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://copenhell.dk/en/front-page/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://swedenrock.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.tonsofrock.no/en",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.beyondthegates.no/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://infernofestival.no/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.wacken.com/en/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.hellfest.fr",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.graspop.be",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "http://www.summer-breeze.de",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.brutalassault.cz",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://www.wave-gotik-treffen.de/english/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://meraluna.de/en/",
+   "pohjus": "rahvusvaheline suurfestival: 2027 kirje on saidil juba olemas, koosseisu-taiendus ei ole nouetav (REEGLID §4 valisfestivali erand)"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "Bandcampi konto: check_bandcamp.py valvab uusi albumeid automaatselt (CI), tag-otsingud avatud"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://saund.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/veriorarock.stroganoff/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "Bandcampi konto: check_bandcamp.py valvab uusi albumeid automaatselt (CI), tag-otsingud avatud"
+  },
+  {
+   "url": "https://townflesh.bandcamp.com/",
+   "pohjus": "Bandcampi konto: check_bandcamp.py valvab uusi albumeid automaatselt (CI), tag-otsingud avatud"
+  },
+  {
+   "url": "https://mangont.bandcamp.com/",
+   "pohjus": "Bandcampi konto: check_bandcamp.py valvab uusi albumeid automaatselt (CI), tag-otsingud avatud"
+  },
+  {
+   "url": "https://vmpr.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://www.facebook.com/people/White-Noise-Events/61553131574943/?sk=events",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://ra.co/events/ee/all",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://fienta.com/o/17595",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://fienta.com/et/o/17330",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://fienta.com/et/o/17855",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://ra.co/clubs/265290",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/151795",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/147536",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://estelmus.com/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "ajaeelarve: madala tootlusega/uinuv allikas, eelmistes sweepides 0 uut"
+  },
+  {
+   "url": "https://ra.co/clubs/268078",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/266488",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/277713",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/165290",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/229208",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/289641",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/135627",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/274650",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/171803",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/258847",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/256380",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/130421",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/114408",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/167566",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/34191",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/168166",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/112914",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/166316",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/114452",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/154074",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/117673",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/126462",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/182414",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/169601",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/152869",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/186216",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/190547",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/191300",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/112333",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "Bandcampi konto: check_bandcamp.py valvab uusi albumeid automaatselt (CI), tag-otsingud avatud"
+  },
+  {
+   "url": "https://ra.co/clubs/291356",
+   "pohjus": "RA kaetud sweep/ra_snapshot.json kaudu (tommatud 17.09, 1 p vana; HANDOVER §2 reegel 15)"
+  }
+ ],
+ "uusi": {
+  "www": 10,
+  "rap": 1,
+  "klubi": 13
+ },
+ "markus": ""
+}

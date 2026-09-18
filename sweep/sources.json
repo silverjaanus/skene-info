@@ -631,6 +631,11 @@
     "nimi": "MuusikaPlaneet",
     "url": "https://muusikaplaneet.ee/category/singel/",
     "nb": "lisatud 12.08.2026 (Pluuto 200 „Bobcat” kontaktivormi kirje teine allikas): kodumaisele muusikale pühendatud uudistesait, kategooriad Singel / Album / Video / Live; žanri-agnostiline, kehtib kõigile kolmele saidile — filtreeri skoop. Otsing töötab kujul /?s=<märksõna>, artiklite URL /YYYY/MM/DD/slug/. Statiline HTML, Chrome-kihti ei vaja."
+   },
+   {
+    "nimi": "Mood (musicofourdesire)",
+    "url": "https://events.musicofourdesire.com/tallinn",
+    "nb": "lisatud 18.09.2026 sweepis: agregaator, mis näitab koosseise ka siis, kui FB-kirjeldus on sisselogimata kärbitud (Shelter Helper 5 koosseis tuli sealt). ⚠ /tallinn koondleht viskab client-side vea — kasuta google.ee site-otsingut konkreetse ürituse peale."
    }
   ]
  },
@@ -1039,6 +1044,16 @@
     "url": "https://www.facebook.com/vaipevents/events",
     "tyyp": "promootor",
     "nb": "lisatud 09.09.2026 postkastijooksus (Paavli uudiskirjast: Counterstrike 11.09 Paavli); dnb/hard dnb promootor, FB-leht vaike (~88 jalgijat), veebisaiti ei leidnud - FB on ainus allikas, kontrolli igas sweepis"
+   },
+   {
+    "nimi": "White Noise Events",
+    "url": "https://www.facebook.com/people/White-Noise-Events/61553131574943/?sk=events",
+    "nb": "lisatud 18.09.2026 sweepis (leitud allevents.in/tallinn/raves ja Fienta kaudu). Hard techno / DnB / rawstyle korraldaja (Ego Ennok, ego.ennok@whitenoise-events.ee); üritused HALLis ja Helitehases, piletid Fientas. ⚠ FB-lehe täpne handle on KINNITAMATA — FB lehtede otsing annab lehe „White Noise Events“ (Party Center, 315 jälgijat), aga URL-i ei saanud kätte; kontrolli järgmises sweepis. Veebisait: whitenoise-events.ee (meilidomeeni järgi, kinnitamata)."
+   },
+   {
+    "nimi": "HUNGR (Tallinn) FB",
+    "url": "https://www.facebook.com/FeelTheHungr/events",
+    "nb": "lisatud 18.09.2026: sources.json-is oli ainult RA venue-leht (ra.co/clubs/235784), mis EI näita eelseisvaid üritusi (ainult „Past Events“) — FB events-tab näitab. ⚠ MAJA SULGEB: sulgemisnädalavahetus 09.–11.10.2026 („The Last Bite“), pärast seda võib allika arhiveerida."
    }
   ],
   "ig": [],
@@ -1345,6 +1360,16 @@
     "url": "https://idaidaida.net/",
     "tyyp": "meedia",
     "nb": "lisatud 09.09.2026; IDA Radio veebisait, Bar IDA kava ja saated (REEGLID 3: FB + veebisait koos)"
+   },
+   {
+    "nimi": "White Noise Events (Fienta korraldajaleht)",
+    "url": "https://fienta.com/et?q=white+noise",
+    "nb": "lisatud 18.09.2026: korraldaja piletid on Fientas (OVERDRIVE 20.11 HALL, Pulsation Estonia 28.11 Helitehas)."
+   },
+   {
+    "nimi": "Clwds (Tallinn)",
+    "url": "https://ra.co/clubs/291356",
+    "nb": "lisatud 18.09.2026: Ülase 14 klubi, kust tuli Rave To The Grave 09.10 (I TRANCE YOU). ⚠ RA klubi-ID on KINNITAMATA — ürituseleht ra.co/events/2535428 viitab venue'le Clwds, aga klubi-lehe ID-d ei kontrollinud; paranda järgmises sweepis."
    }
   ]
  }

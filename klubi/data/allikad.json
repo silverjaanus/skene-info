@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17",
+ "updated": "2026-09-18",
  "groups": [
   {
    "nimi": "Kohad",
@@ -273,6 +273,10 @@
      "u": "https://www.facebook.com/cabrioclub/events"
     },
     {
+     "n": "Clwds (Tallinn)",
+     "u": "https://ra.co/clubs/291356"
+    },
+    {
      "n": "Eesti Elektroonilise Muusika Selts (EES)",
      "u": "https://estelmus.com/"
     },
@@ -291,6 +295,14 @@
     {
      "n": "Veetorni Aed (Telliskivi)",
      "u": "https://www.facebook.com/veetorniaed/events"
+    },
+    {
+     "n": "White Noise Events",
+     "u": "https://www.facebook.com/people/White-Noise-Events/61553131574943/?sk=events"
+    },
+    {
+     "n": "White Noise Events (Fienta korraldajaleht)",
+     "u": "https://fienta.com/et?q=white+noise"
     }
    ]
   },

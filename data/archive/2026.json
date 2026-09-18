@@ -3477,6 +3477,61 @@
    },
    "nb": "Silveri otsus 02.09.2026 kontaktivormi otsustuskirjale: \"giidituur jaab. kuupaevad vota piletiinfost, mitte meilist\". Kuupaevad/kellaajad/keeled on seetottu voetud Fienta piletilehtedelt, MITTE kontaktivormi kirjast. Tegu on 2-tunnise jalutuskaiguga (mitte kontsert): 1980ndate keskpaiga Vabaduse valjaku kolmnurk (kohvik Moskva, Varblane, Pegasus), kus jutustatakse punk-, kirjandus- ja LGBT+ kogukonna ajalugu korvuti. Zanrisilt 'punk' viitab tuuri SISULE, mitte elavale esinemisele. Korraldaja Giidituurid „Uitlejad” / MTU Ostra (uitlejad@gmail.com). Marsruut: Vabaduse valjak -> Harjumagi -> Harju tanav; toimub ka vihmase ilmaga. Kontrollitud 02.09.2026.",
    "img": "pildid/giidituurkolmnurkeestikeeles.webp"
+  },
+  {
+   "d": "2026-09-17",
+   "t": "kontsert",
+   "n": "Brait Pilvik Band",
+   "a": "algus 20.00",
+   "b": [
+    "Brait Pilvik Band"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Kidrakuur FB",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1691261979575197/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Kidrakuuri FB events-tabist (kirje looja on Kidrakuur ise). Zanr tuletatud venue'st (kitarriklubi) ja bandi nimest - TEINE ALLIKAS PUUDU, vt HANDOVER §4. | 09.09.2026 sweep: pilet TULI - Fienta (brait-pilvik-band), link Kidrakuuri FB eventist. Uksed 20.00, band ca 21.00.",
+   "pu": "https://fienta.com/et/brait-pilvik-band",
+   "img": "pildid/braitpilvikband.webp",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "d": "2026-09-17",
+   "t": "kontsert",
+   "n": "Taste of Moth (FIN) x Morbitech",
+   "a": "uksed 20.00, sissepaas 5 EUR; Tampere alt-metal (Veli-Matti Lappi, Juho Karihuhta, Roni Kulmala, Joona Keronen, Johannes Laitila) + Louna-Eesti death metal",
+   "b": [
+    "Taste of Moth (FIN)",
+    "Morbitech"
+   ],
+   "v": "Konservatoorium",
+   "c": "Viljandi",
+   "g": [
+    "metal",
+    "alt",
+    "death"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1396406555347258/",
+   "hind": {
+    "praegu": "5 EUR",
+    "mark": "uksel",
+    "allikas": "Konservatooriumi FB-postitus, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026. Kaks allikat: Konservatooriumi FB event (kaaskorraldaja Kaleo Ghidora, taiskoosseis liikmenimedega) + Konservatooriumi enda FB-postitus (uksed 20.00, sissepaas 5 EUR), lisaks allevents.in kirje. TAHELEPANU / JALGIMISPUNKT: google.ee otsing tostis esile Taste of Mothi IG-postituse tekstiga 'Unfortunately Morbitech had to cancel the show at Viljandi' - postituse kuupaev jai tuvastamata ja Konservatooriumi OMA postitus (3 paeva vana) nimetab Morbitechi endiselt kavas. Jatsin b-sse molemad venue enda varskeima teate jargi; kontrolli jargmises sweepis uritusesehe uuesti."
   }
  ]
 }
