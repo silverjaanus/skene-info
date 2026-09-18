@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 184,
+ "count": 186,
  "entries": [
   {
    "sait": "www",
@@ -316,6 +316,43 @@
    },
    "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel. | PARANDUS 18.09.2026 sweepis: `c` oli „mujal“, mis on EESTI-sisene ämber (Tallinn/Tartu/mujal) — seetõttu sattus Hamburgi festival 18.09 nädalapildi ja IG-captioni Eesti-filtrist läbi. Õige väärtus on „Euroopa“ (nagu Wacken, Up In Smoke).",
    "img": "https://www.skene.info/pildid/reeperbahnfestival.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "360° Tartu x MERIMELL",
+   "a": "kell 22.00–04.00, 18+; hard groove techno, Boiler room’ist inspireeritud 360-kraadi lava + 360 underground stage",
+   "b": [
+    "MERIMELL",
+    "INDRA SMITH",
+    "L21 (GE)",
+    "DNKA (LV)",
+    "MaQ",
+    "32 BLOCK",
+    "ACID GROOVES (GE)",
+    "VAAN",
+    "360 residendid"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "acid",
+    "club"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1627694482254063/",
+   "pu": "https://sviby.com/et/e/chxh1e",
+   "hind": {
+    "praegu": "10€",
+    "mark": "tavapilet; first ravers 6€, varajane 8€, hiline & uksel 15€; garderoob 2€",
+    "allikas": "Sviby/Piletikeskus, kontrollitud 18.09.2026"
+   },
+   "lisatud": "2026-09-18",
+   "nb": "lisatud postkastijooksus 18.09.2026 Rada7.ee uudiskirjast („Suffering is not a guarantee of art“, 18.09). Kaks allikat: ürituse oma FB event (R 18.09.2026 22.00–04.00, korraldajad Prime Moments events, Genialistide Klubi, Piletikeskus/Sviby, 360 Events) + Sviby piletileht, kust tulid koosseis, ajakava ja hinnad. Žanr kinnitatud ürituse ENDA lehelt („hard groove beats“, „MERIMELL (Techno)“), mitte uudiskirjast. Samapäevane lisandus — REEGLID §1 Rada7 samanädalaste peo-pretsedent (02.08.2026)."
   },
   {
    "sait": "rap",
@@ -1968,6 +2005,30 @@
    "lisatud": "2026-09-09",
    "nb": "PARANDUS 09.09.2026 (Silveri leid): jatsin selle esmalt VALESTI valja pohjendusega 'asukoht kinnitamata', sest vaatasin ainult GraphQL-i valjundit, kus area oli 'All' - urituse ENDA lehel on aadress mustvalgel kirjas: Huba Club, Kalevi tn 13, 3. korrus, 51010 Tartu. Sama viga nagu 02.09 'zanrit pole' juhtum: puudumise vaide tegemine ILMA urituse oma lehte avamata. Kaks allikat: RA event 2532395 (koht, kellaaeg, koosseis, zanrisildid Progressive House / Techno, korraldaja House Garden FINLAND) + huba.club (Tartu alternatiivne kultuuriklubi, Kalevi 13; lmk.ee ja kluub.ee kinnitavad sama aadressi). Huba Club lisatud ka sources.json-i.",
    "img": "https://klubi.skene.info/pildid/hubaclubsamoakfikeidasfirudi.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "KIN DZA DZA × AURORA ASTRA",
+   "a": "algus 19.00; kaks Tallinna bändi ühel õhtul — KIN DZA DZA (modern metal) ja AURORA ASTRA (sci-fi progressive metal)",
+   "b": [
+    "KIN DZA DZA",
+    "Aurora Astra"
+   ],
+   "v": "Fort Bar",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "heavy",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/fortbar.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1139666062020228/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud kontaktivormist 18.09.2026 (esitaja Jevgeni Belorussov, KIN DZA DZA laulja — bänd ise pakkus). Kaks allikat: ürituse oma FB event (R 02.10.2026 19.00 EEST, Fort Bar, Pikk 43; korraldajad KIN DZA DZA - Таллин, Fort bar, Aurora Astra) + Fort Bari enda FB events-tab, kus üritus on „Upcoming“ all sama kuupäeva ja kellaajaga. ⚠ Fort Bari veebikava (fortbar.ee/eventsthismonth) on aegunud — seisab endiselt juuli 2026 — ja Songkicki venue-leht näitab 0 eelseisvat, seega need EI kõlvanud teiseks allikaks. Žanr esitaja sõnul modern/progressive/sci-fi metal; mõlemad bändid on Tallinna omad (kindzadzatallinn.bandcamp.com, facebook.com/auroraastraband). Hinda EI lisatud: esitaja ütles „tickets at the door“, aga ürituse leht summat ei nimeta."
   },
   {
    "sait": "klubi",

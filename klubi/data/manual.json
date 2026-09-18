@@ -2407,5 +2407,41 @@
   "ou": "https://www.facebook.com/events/2260883634764571/",
   "lisatud": "2026-09-18",
   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + HUNGRi FB events-tab ja maja enda postitus („as hungr gets closer to closing its doors“, 236 huvilist). Koosseis avaldamata → koosseis_tba. HUNGR oli sources.json-is ainult RA venue-lehena (ra.co/clubs/235784), mis eelseisvaid üritusi EI näita; FB events-tab lisatud sama sweepiga."
+ },
+ {
+  "d": "2026-09-18",
+  "t": "klubi",
+  "n": "360° Tartu x MERIMELL",
+  "a": "kell 22.00–04.00, 18+; hard groove techno, Boiler room’ist inspireeritud 360-kraadi lava + 360 underground stage",
+  "b": [
+   "MERIMELL",
+   "INDRA SMITH",
+   "L21 (GE)",
+   "DNKA (LV)",
+   "MaQ",
+   "32 BLOCK",
+   "ACID GROOVES (GE)",
+   "VAAN",
+   "360 residendid"
+  ],
+  "v": "Genialistide Klubi",
+  "c": "Tartu",
+  "g": [
+   "techno",
+   "acid",
+   "club"
+  ],
+  "sn": "Rada7.ee uudiskiri",
+  "su": "https://www.rada7.ee/uudiskiri/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1627694482254063/",
+  "pu": "https://sviby.com/et/e/chxh1e",
+  "hind": {
+   "praegu": "10€",
+   "mark": "tavapilet; first ravers 6€, varajane 8€, hiline & uksel 15€; garderoob 2€",
+   "allikas": "Sviby/Piletikeskus, kontrollitud 18.09.2026"
+  },
+  "lisatud": "2026-09-18",
+  "nb": "lisatud postkastijooksus 18.09.2026 Rada7.ee uudiskirjast („Suffering is not a guarantee of art“, 18.09). Kaks allikat: ürituse oma FB event (R 18.09.2026 22.00–04.00, korraldajad Prime Moments events, Genialistide Klubi, Piletikeskus/Sviby, 360 Events) + Sviby piletileht, kust tulid koosseis, ajakava ja hinnad. Žanr kinnitatud ürituse ENDA lehelt („hard groove beats“, „MERIMELL (Techno)“), mitte uudiskirjast. Samapäevane lisandus — REEGLID §1 Rada7 samanädalaste peo-pretsedent (02.08.2026)."
  }
 ]

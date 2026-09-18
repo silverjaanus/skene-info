@@ -113,7 +113,7 @@
    "nimi": "Fort Bar",
    "url": "https://www.facebook.com/fortbar.tallinn/events",
    "tyyp": "venue",
-   "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna väike kontsertpaik; URL kontrollida sweepis"
+   "nb": "lisatud 09.07.2026 (heavymusic.ee); Tallinna vanalinna väike kontsertpaik; URL kontrollida sweepis | 18.09.2026 KONTROLLITUD postkastijooksus: FB events-tab töötab ja näitab eelseisvaid üritusi. ⚠ fortbar.ee/eventsthismonth on AEGUNUD (18.09 seisuga seisab endiselt „July 2026“) ja Songkicki venue-leht (4490803) näitab 0 eelseisvat — kumbki EI kõlba teiseks allikaks, kasuta FB events-tabi."
   },
   {
    "nimi": "Winkel",
@@ -375,6 +375,12 @@
    "url": "https://www.facebook.com/profile.php?id=100043304575899&sk=events",
    "tyyp": "venue",
    "nb": "lisatud 16.09.2026 postkastijooksus (kontaktivormi sisend: Septemberfest 2026 x Punk on põhiline!, 18.09). Pärnu pubi Riia mnt 129a; FB-leht on profile.php-tüüpi, seepärast &sk=events, mitte /events. Veebisait https://www.villemipubid.ee/hahn-pubi (Villemi Pubid kett). Kava on ka agregaatoris https://tanaparnus.ee/toimumiskoht/c-f-hahn-pub/, mis annab täiskoosseisu ja hinna, kui FB-kirjeldus on sisselogimata kärbitud. ⚠ Enamik kava on skoobist väljas (iganädalane mälumäng, puhkpilliorkester, tantsuõhtud) — kontrolli üksikõhtuid, mitte tervet kava."
+  },
+  {
+   "nimi": "Kivi baar (Tartu)",
+   "url": "https://www.facebook.com/kivibaar/events",
+   "tyyp": "venue",
+   "nb": "lisatud 18.09.2026 postkastijooksus (Rada7.ee uudiskirjast: „Märt Rannamäe allnighter“ R 18.09.2026, https://www.facebook.com/events/1037608655930900/). Rüütli 13, Tartu. ⚠ ŽANR KINNITAMATA: ürituse enda FB-leht on sisselogimata kärbitud („Raadiomik… See more“) ega ütle žanri välja; uudiskiri nimetas „nu-disco fookus 6h“, aga see on toimetaja sõna. Paigutatud esialgu fb-plokki (sama muster mis LONKS). Kui kava osutub elektrooniliseks, TÕSTA klubi.fb alla. Otsus HANDOVER §4-s."
   }
  ],
  "ig": [
@@ -1054,6 +1060,13 @@
     "nimi": "HUNGR (Tallinn) FB",
     "url": "https://www.facebook.com/FeelTheHungr/events",
     "nb": "lisatud 18.09.2026: sources.json-is oli ainult RA venue-leht (ra.co/clubs/235784), mis EI näita eelseisvaid üritusi (ainult „Past Events“) — FB events-tab näitab. ⚠ MAJA SULGEB: sulgemisnädalavahetus 09.–11.10.2026 („The Last Bite“), pärast seda võib allika arhiveerida."
+   },
+   {
+    "nimi": "Prime Moments events",
+    "url": "https://www.facebook.com/primemomentsevents/events",
+    "tyyp": "promootor",
+    "veeb": "https://primemoments.events",
+    "nb": "lisatud 18.09.2026 postkastijooksus — 360° Tartu x MERIMELL (18.09.2026, Genialistide Klubi) korraldaja. Boiler room’i-stiilis 360-kraadi techno-peosari Tartus; piletid Sviby/Piletikeskuse kaudu (https://sviby.com/et/o/PRIMEMOMENTSAGENCYOU). PRIME MOMENTS AGENCY OÜ, team@primemoments.events. ⚠ FB events-tabi URL tuletatud, kontrolli järgmises sweepis."
    }
   ],
   "ig": [],

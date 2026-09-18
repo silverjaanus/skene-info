@@ -3507,5 +3507,28 @@
   "su": "https://karagrind.bandcamp.com/album/k-ragrind",
   "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti punk-tag'i otsingust (sources.json bandcamp_otsing). Väljalaskekuupäev 12.09.2026 kinnitatud Bandcampi albumilehe 'released 12 September 2026' realt JA google.ee otsitulemuse kirjeldusest. Tallinn. ⚠ Ainult üks päris-allikas (Bandcamp) — bändil ei õnnestunud FB/IG lehte kinnitada, otsisin google.ee-st. Kuupäev on 6 päeva vana, seega lisatud = tänane (esilehe 'uued reliisid' riba, REEGLID §6).",
   "img": "pildid/karagrindkaragrind.webp"
+ },
+ {
+  "d": "2026-10-02",
+  "t": "kontsert",
+  "n": "KIN DZA DZA × AURORA ASTRA",
+  "a": "algus 19.00; kaks Tallinna bändi ühel õhtul — KIN DZA DZA (modern metal) ja AURORA ASTRA (sci-fi progressive metal)",
+  "b": [
+   "KIN DZA DZA",
+   "Aurora Astra"
+  ],
+  "v": "Fort Bar",
+  "c": "Tallinn",
+  "g": [
+   "metal",
+   "heavy",
+   "alt"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://www.facebook.com/fortbar.tallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1139666062020228/",
+  "lisatud": "2026-09-18",
+  "nb": "lisatud kontaktivormist 18.09.2026 (esitaja Jevgeni Belorussov, KIN DZA DZA laulja — bänd ise pakkus). Kaks allikat: ürituse oma FB event (R 02.10.2026 19.00 EEST, Fort Bar, Pikk 43; korraldajad KIN DZA DZA - Таллин, Fort bar, Aurora Astra) + Fort Bari enda FB events-tab, kus üritus on „Upcoming“ all sama kuupäeva ja kellaajaga. ⚠ Fort Bari veebikava (fortbar.ee/eventsthismonth) on aegunud — seisab endiselt juuli 2026 — ja Songkicki venue-leht näitab 0 eelseisvat, seega need EI kõlvanud teiseks allikaks. Žanr esitaja sõnul modern/progressive/sci-fi metal; mõlemad bändid on Tallinna omad (kindzadzatallinn.bandcamp.com, facebook.com/auroraastraband). Hinda EI lisatud: esitaja ütles „tickets at the door“, aga ürituse leht summat ei nimeta."
  }
 ]
