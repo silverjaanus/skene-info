@@ -1,1 +1,82 @@
-[]
+[
+ {
+  "oid": "2026-09-17-rahvuskultuuride-etnotelg",
+  "kysimus": "Kas Rahvuskultuuride paevade etno-/kultuuriuritused on skoobis?",
+  "kontekst": "KIIRE: molemad uritused on KAES (19.-20.09), Paavli uudiskiri toi nad 19.09 postkastijooksus uuesti ette. (1) Aafrika haaled Tallinnas - L 19.09.2026 kl 13.00-18.00 Paavli Kultuurivabrik, TASUTA: MTU Abantu Kultuuri paevane kava, traditsiooniline Benini tants, moodne afrotants, PERKUSSIOONITOOTUBA, moeetendus, vestlusring identiteedist. (2) MEHHIKO ELAV MAA 2 - P 20.09.2026 kl 14.00 Paavli, annetuse eest: peresobralik mehhiko kultuuri paev (muusika, toit, kogukond). MIKS KAHTLANE: baaszanr ei ole kitarrialternatiiv, hiphop ega elektroonika, seega REEGLID par 1 jargi valjas - AGA afro on klubi elavas sildinimekirjas ja perkussioonitootuba on paris muusikaprogramm, nii et mehaaniline valjajatt ei ole ilmne. Mehhiko puhul on muusikaprogramm veel hagusam. TAUST: 11.09 sweepis jai latino samal pohjusel valja; see on sama telg teist korda, seega tasub korra loplikult otsustada, nagu bluus sai 26.07 www 8. metafiltriks.",
+  "valikud": [
+   {"id": "a", "tekst": "Jaavad valja, nagu seni (VAIKEOTSUS)"},
+   {"id": "b", "tekst": "Votame telje sisse, vahemalt kui kavas on paris muusikaprogramm (perkussioon, DJ, live) -> klubi/www vastavalt kavale"}
+  ],
+  "lingid": [
+   "https://www.facebook.com/events/1744728326548251",
+   "https://paavli.ee/sundmused/aafrika-haaled-tallinnas-rahvuskultuuride-paevad-2026/",
+   "https://www.facebook.com/events/1311017571240779",
+   "https://paavli.ee/sundmused/mehhiko-elav-maa-2/"
+  ],
+  "vaikeotsus": "a",
+  "tahtaeg": "2026-09-22"
+ },
+ {
+  "oid": "2026-09-18-plaadilaat-ilma-dj-kavata",
+  "kysimus": "Kas plaadilaat ILMA DJ-kavata on skoobis?",
+  "kontekst": "RAHVUSVAHELINE PLAADILAAT / International Record Fair - P 04.10.2026 kl 12.00, Tartu Ulikooli raamatukogu, korraldaja Psuhhoteek. Otselinki urituse enda lehele EI leidnud - nahtav ainult Plaaditurgu FB events-tabis, urituse enda FB event ID-d ei onnestunud katte saada. MIKS KAHTLANE: plaadilaat on 27.08 otsuse jargi skoobis (praegu laheb sisse), AGA 11.09 otsus kitsendas erandi DJ-KAVAGA uritustele; selle laada kohta zanri- ega DJ-infot ei ole. Samast allikast ka Psuhhodisko 12. rahvusvaheline konverents - KASSETT! L 03.10.2026 kl 12.00 samas majas; see on konverents, mitte muusikaprogramm -> ettepanek on jatta valja soltumata sellest punktist.",
+  "valikud": [
+   {"id": "a", "tekst": "Jaab valja - 11.09 otsus utleb, et plaadipoe/-turu erand kehtib DJ-KAVALE (VAIKEOTSUS)"},
+   {"id": "b", "tekst": "Plaadilaat ise on skoobis ka ilma DJ-kavata, sest formaat on sama mis Plaaditurg Krullis"}
+  ],
+  "lingid": [
+   "https://www.facebook.com/Plaaditurg/events"
+  ],
+  "vaikeotsus": "a",
+  "tahtaeg": "2026-09-23"
+ },
+ {
+  "oid": "2026-09-18-zanr-ainult-uudiskirjast",
+  "kysimus": "Kas urituse zanr tohib tulla AINULT uudiskirjast, kui urituse enda leht zanri ei utle?",
+  "kontekst": "PRAEGU ON SIIN PARIS VASTUOLU: postkastijooksu samm 2b lubab toimetaja zanrisona kasutada (kui nb-s valja oeldud), REEGLID par 1 (11.09) keelab zanriinfota DJ-ohtu. Naide: Mart Rannamae allnighter - R 18.09.2026 kl 20.00, Kivi baar, Ruutli 13, Tartu, korraldaja Kivi baar, kuuetunnine DJ-allnighter uhe DJ-ga. Urituse enda FB-leht on sisselogimata karbitud (90ndatel oli Eesti elu ulme... See more) ega utle zanri valja; ainus zanrivaide on Ivo Rada7 uudiskirjas: ei pidavat tulema nostalgiahitid, vaid nu-disco fookus 6h jarjest. Kui (b), laheks klubi manual.json-i siltidega house/disco; kui (a), jaab valja. Uritus ise on juba moodas - otsus kehtib peamiselt edaspidiseks. Kivi baar on lisatud sweep/sources.json fb-plokki zanrimargega KINNITAMATA.",
+  "valikud": [
+   {"id": "a", "tekst": "Ei - REEGLID par 1 jargi jaab zanriinfota DJ-ohtu valja, ka siis kui Rada7 utleb zanri (VAIKEOTSUS)"},
+   {"id": "b", "tekst": "Jah - toimetaja sona loeb zanriallikaks, kui see on nb-s valja oeldud"}
+  ],
+  "lingid": [
+   "https://www.facebook.com/events/1037608655930900/",
+   "https://www.rada7.ee/uudiskiri/"
+  ],
+  "vaikeotsus": "a",
+  "tahtaeg": "2026-09-23"
+ },
+ {
+  "oid": "2026-09-18-scvmfvcks-united-untitled",
+  "kysimus": "Scvmfvcks - United untitled: kas lisame, kui artisti Eesti-seost ei onnestu kinnitada?",
+  "kontekst": "Reliis, 9 lugu, ilmus 01.09.2026, label ost euro. Bandcampi kirjeldus: punk in spirit but drenched in the pulse of electronica, hardcore, nostalgia, ghostly sonic textures -> baaszanr elektrooniline, seega klubi. MIKS KAHTLANE: label ost euro kirjeldab end tahtlikult haguselt - nine-o-nine workout club and experimental live platform located SOMEWHERE IN EASTERN EUROPE - ja ma ei leidnud uhtegi allikat, mis utleks artisti voi labeli asukohaks Eestit. Klubi on ainult Eesti. Kahe allika reegel on taidetud (Rada7 uudiskiri + Bandcamp), takerdub AINULT geograafia taha. Sama artist mangis 18.09 Hallis Halal Clubil, see on ainus Eesti-seos. Kuupaev 01.09.2026 tuleb Bandcampi released realt, Tharaphita-loksu vastu ristkontrollida ei onnestunud.",
+  "valikud": [
+   {"id": "a", "tekst": "Ei - klubi on ainult Eesti ja label utleb ise ainult Eastern Europe (VAIKEOTSUS)"},
+   {"id": "b", "tekst": "Jah - Eestis esinev tegija loeb, kuna Scvmfvcks mangis 18.09 Hallis Halal Clubil"}
+  ],
+  "lingid": [
+   "https://osteuro.bandcamp.com/album/united-untitled",
+   "https://osteuro.bandcamp.com/",
+   "https://www.facebook.com/events/1284010840358736/",
+   "https://www.rada7.ee/uudiskiri/"
+  ],
+  "vaikeotsus": "a",
+  "tahtaeg": "2026-09-23"
+ },
+ {
+  "oid": "2026-09-18-zebra-island-fools-gold",
+  "kysimus": "Zebra Island - Fool's Gold: kas dream-pop/shoegaze single on www skoobis?",
+  "kontekst": "Single SEKs096, Seksound, avaldatud SoundCloudis 14.09.2026. Eesti (Tallinn) bandi comeback-single Seksoundi alt - Seksound on Pia Frausi liikmete 2004. a asutatud Tallinna label. Koosseis on kitarripohine (Rasmus Lill, Helina Risti, Lauri Raus kitarril jt). MIKS KAHTLANE: baaszanr on piiripealne - allikad utlevad dreamy pop and shoegaze, The Baltic Scene pre-historic futurepop, SoundCloudi enda zanrisilt on lihtsalt Pop. Shoegaze on www sildinimekirjas, aga dream pop / futurepop ei ole kitarrialternatiiv REEGLID par 1 mottes. Ei lisanud kumbagi poolt ise valides.",
+  "valikud": [
+   {"id": "a", "tekst": "Jaab valja - baaszanr on unelev popp, mitte kitarrialternatiiv (VAIKEOTSUS)"},
+   {"id": "b", "tekst": "Sisse www-le, siltidega shoegaze + indie + alt"}
+  ],
+  "lingid": [
+   "https://soundcloud.com/seksound/seks096-zebra-island-fools",
+   "https://seksound.bandcamp.com/",
+   "https://estonianworld.com/culture/zebra-island-releases-debut-album/",
+   "https://www.rada7.ee/uudiskiri/"
+  ],
+  "vaikeotsus": "a",
+  "tahtaeg": "2026-09-23"
+ }
+]
