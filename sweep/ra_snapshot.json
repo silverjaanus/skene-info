@@ -1,92 +1,13 @@
 {
- "tommatud": "2026-09-18",
+ "tommatud": "2026-09-19",
  "aken": {
-  "algus": "2026-09-18",
-  "lopp": "2026-11-17"
+  "algus": "2026-09-19",
+  "lopp": "2026-11-18"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 32,
+ "kirjeid": 27,
  "kirjed": [
-  {
-   "d": "2026-09-18",
-   "n": "Halal Club invites: Stanislav Tolkachev",
-   "algus": "2026-09-18T23:00:00.000",
-   "v": "Hall",
-   "ala": "Tallinn",
-   "b": [
-    "Stanislav Tolkachev",
-    "FAKIGN",
-    "Labrighli",
-    "Valdagger",
-    "Charch",
-    "pikkauch",
-    "Scvmfvcks"
-   ],
-   "g": [
-    "Techno",
-    "House"
-   ],
-   "url": "https://ra.co/events/2533508",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-18",
-   "n": "DANGER from Estonia with pam (NTS radio) + Kadri-Ann DJ & DJ Canada",
-   "algus": "2026-09-18T22:00:00.000",
-   "v": "Bar IDA",
-   "ala": "Tallinn",
-   "b": [
-    "pam (unofficial)",
-    "Kadri-Ann"
-   ],
-   "g": [
-    "Experimental",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2530834",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-18",
-   "n": "Sublime",
-   "algus": "2026-09-18T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [
-    "Degs"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2534242",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-18",
-   "n": "CANDY SHOP",
-   "algus": "2026-09-18T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "R&B"
-   ],
-   "url": "https://ra.co/events/2534941",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-18",
-   "n": "PLASTIK",
-   "algus": "2026-09-18T23:00:00.000",
-   "v": "MOD",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Minimal"
-   ],
-   "url": "https://ra.co/events/2537408",
-   "pilet": false
-  },
   {
    "d": "2026-09-19",
    "n": "Healer Records: Charch / Squash",

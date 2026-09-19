@@ -3233,6 +3233,202 @@
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (korraldaja Plaaditurg) + Glitch Please / Helinihe events-tab. Skoop: plaadilaadad ja -turud on skoobis, sait tuleb kavast, mitte formaadist (REEGLID §1, Silveri otsus 27.08.2026) — DJ-kava tuleb Glitch Pleaselt (eksperimentaalne elektroonika), seega klubi; võrdluseks Plaaditurg Krulli kvartalis 30.08 läks www-le metalli-kaaskorraldajate tõttu. ⚠ Silver: see on üks neist, mis tuleb „iga kord eraldi üle vaadata“.",
    "img": "pildid/musumaeplaaditurgdjglitchkorts.webp"
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "DANGER from Estonia: pam (NTS radio)",
+   "a": "eksperimentaalne klubiohtu Bar IDAs; pam (NTS radio) koos Kadri-Ann DJ ja DJ Canadaga",
+   "b": [
+    "pam",
+    "Kadri-Ann",
+    "DJ Canada"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "club",
+    "electro"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/ee/all",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2530834",
+   "hind": {
+    "praegu": "5-10 EUR",
+    "mark": "RA event-lehe hinnavahemik",
+    "allikas": "RA event 2530834, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026 RA snapshotist (sweep/ra_snapshot.json, tommatud 09.09). Kaks allikat: RA event 2530834 (korraldaja DANGER from Estonia, zanrisildid Experimental/Club, koht Bar IDA) + RA venue/korraldaja leht. Bar IDA ei ole veel sources.json-is eraldi allikana - lisatud koos selle sweepiga.",
+   "img": "pildid/dangerfromestoniapamntsradio.webp"
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "Halal Club invites: Stanislav Tolkachev",
+   "a": "Berliinis tegutsev Ukraina päritolu eksperimentaal-techno klassik, hybrid set; kell 23.00",
+   "b": [
+    "Stanislav Tolkachev"
+   ],
+   "koosseis_tba": 1,
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "industrial",
+    "experimental"
+   ],
+   "sn": "HALL (FB events)",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1284010840358736/",
+   "pu": "https://gateme.com/halltallinn/104157-halal-club-invites-stanislav-tolkachev-hybrid-set",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: HALLi FB events-tab / urituse FB event (korraldajad Halal Club, Rada7.ee, HALL) + GateMe piletileht. Ulejaanud koosseis avaldamata.",
+   "img": "pildid/halalclubinvitesstanislavtolkachev.webp"
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "PLASTIK @ MOD",
+   "a": "Plaadipoe Plastik klubiohtu, all night long; kell 23.00",
+   "b": [
+    "Plastik",
+    "kiimsask",
+    "mrt"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco",
+    "club"
+   ],
+   "sn": "MOD.tln (FB events)",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2175646252991932/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "support 10€ (FB eventi kirjeldus)",
+    "allikas": "FB event, kontrollitud 28.08.2026"
+   },
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event (korraldajad Plastik + MOD.tln)."
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "Paavli.Club: aya (UK) LIVE",
+   "a": "UK eksperimentaalse klubimuusika artist aya live'iga, algus 23.00",
+   "b": [
+    "aya"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "bass"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/o/17595",
+   "on_": "Paavli Kvartal",
+   "ou": "https://paavli.ee/sundmused/paavli-club-aya-uk-live",
+   "pu": "https://fienta.com/et/paavli-club-aya-uk-live",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Fienta (Paavli org-leht) + paavli.ee event-leht + Paavli FB",
+   "img": "pildid/paavliclubayauklive.webp",
+   "hind": {
+    "praegu": "12–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "Sublime: DEGS (UK)",
+   "a": "UK drum & bass vokalist/artist DEGS, algus 23.00",
+   "b": [
+    "DEGS"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "fonoteek.ee",
+   "su": "https://fonoteek.ee/events/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1084699890894500/",
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek.ee (18.09). Piletilink event-lehel olemas ('Find tickets'), täpne URL lugemata — täienda",
+   "img": "pildid/sublimedegsuk.webp"
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "Hardstyle Addendum: 8-BIT — BITCRUSHR (NO)",
+   "a": "hardstyle'i klassikast rawstyle'i ja hardcore'ini; uksed 23.00, kuni 04.00; dresscode 8-bit / retro / neoon",
+   "b": [
+    "BITCRUSHR",
+    "Blownoizer",
+    "SM2KK",
+    "Cryptic"
+   ],
+   "v": "Kultuuriklubi Tempel",
+   "c": "Pärnu",
+   "g": [
+    "hardstyle",
+    "hard dance",
+    "hard"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/hardstyle-addendum-8-bit-bitcrushr-at-kultuuriklubi-tempel",
+   "pu": "https://fienta.com/et/hardstyle-addendum-8-bit-bitcrushr-at-kultuuriklubi-tempel",
+   "hind": {
+    "praegu": "2–10 €",
+    "mark": "astmeline eelmüük, kalleim aste Lazy Bird 10 €",
+    "allikas": "Fienta, kontrollitud 11.09.2026"
+   },
+   "lisatud": "2026-09-11",
+   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta ürituseleht (korraldaja White Noise Events / Hardstyle Addendum) + Kultuuriklubi Tempel kui sources.json-i klubi-allikas (ra.co/clubs/151795). Skoop: underground-korraldaja hardstyle/rawstyle/hardcore jääb sisse (REEGLID §1, pretsedendid Brennan Heart 11.09 ja D-Block & S-te-Fan 26.09); peavoolu-EDM oleks välja.",
+   "img": "pildid/hardstyleaddendum8bitbitcrushrno.webp"
+  },
+  {
+   "d": "2026-09-18",
+   "t": "klubi",
+   "n": "360° Tartu x MERIMELL",
+   "a": "kell 22.00–04.00, 18+; hard groove techno, Boiler room’ist inspireeritud 360-kraadi lava + 360 underground stage",
+   "b": [
+    "MERIMELL",
+    "INDRA SMITH",
+    "L21 (GE)",
+    "DNKA (LV)",
+    "MaQ",
+    "32 BLOCK",
+    "ACID GROOVES (GE)",
+    "VAAN",
+    "360 residendid"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "acid",
+    "club"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1627694482254063/",
+   "pu": "https://sviby.com/et/e/chxh1e",
+   "hind": {
+    "praegu": "10€",
+    "mark": "tavapilet; first ravers 6€, varajane 8€, hiline & uksel 15€; garderoob 2€",
+    "allikas": "Sviby/Piletikeskus, kontrollitud 18.09.2026"
+   },
+   "lisatud": "2026-09-18",
+   "nb": "lisatud postkastijooksus 18.09.2026 Rada7.ee uudiskirjast („Suffering is not a guarantee of art“, 18.09). Kaks allikat: ürituse oma FB event (R 18.09.2026 22.00–04.00, korraldajad Prime Moments events, Genialistide Klubi, Piletikeskus/Sviby, 360 Events) + Sviby piletileht, kust tulid koosseis, ajakava ja hinnad. Žanr kinnitatud ürituse ENDA lehelt („hard groove beats“, „MERIMELL (Techno)“), mitte uudiskirjast. Samapäevane lisandus — REEGLID §1 Rada7 samanädalaste peo-pretsedent (02.08.2026)."
   }
  ]
 }

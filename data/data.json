@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18",
+ "updated": "2026-09-19",
  "entries": [
   {
    "d": "2026-07-20",
@@ -121,59 +121,6 @@
    "img": "pildid/reeperbahnfestival.webp"
   },
   {
-   "d": "2026-09-18",
-   "t": "kontsert",
-   "n": "Don Brass + Surin + The Pincushions",
-   "a": "kolm Eesti bandi: alternatiivrokk, krautrock, post-rock, surf, punk ja jazz; Surinil ilmus debuutplaat «Nature Mort»",
-   "b": [
-    "Don Brass",
-    "Surin",
-    "The Pincushions"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "punk",
-    "alt",
-    "post"
-   ],
-   "sn": "paavli.ee",
-   "su": "https://paavli.ee/sundmused/don-brass-surin/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1419798690052356",
-   "lisatud": "2026-09-04",
-   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (+FB event). TAISKOOSSEIS: paavli.ee lisab kolmanda bandi The Pincushions, mida FB-nimes ei ole. ⚠ 13.09.2026: Fienta piletileht (don-brass-surin-at-paavli-kultuurivabrik) annab 404 KOIGIS variantides, kuigi kultuurivabrik.ee loetleb urituse endiselt 18.09 kl 19.00 ja paavli.ee 'Osta pilet' viitab samale surnud lingile. Piletimuuk on ilmselt loppenud voi kolinud uksele -> `pu` EEMALDATUD, et kulastaja ei satuks 404-le. FB event ja paavli.ee jaavad.",
-   "img": "pildid/donbrasssurinthepincushions.webp"
-  },
-  {
-   "d": "2026-09-18",
-   "t": "muu",
-   "n": "MAI SKIZO uue albumi «Valu mõte» avaldamine",
-   "a": "Albumi väljalaskeüritus meet & greet formaadis — kontserti sel päeval EI ole: kohtumine bändiga, Hooandjas albumi väljaandmist toetanute kingituste kättesaamine, esimene võimalus osta uusi plaate ja nänni. Bänd kohal alates 18.00, «kuniks on huvilisi»",
-   "b": [
-    "MAI SKIZO"
-   ],
-   "v": "Tommi Grill",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "post",
-    "punk",
-    "goth",
-    "industrial",
-    "dark",
-    "alt"
-   ],
-   "sn": "maiskizo.ee",
-   "su": "https://maiskizo.ee/mai-skizo-uue-albumi-avaldamine/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2220239358756120/",
-   "lisatud": "2026-08-30",
-   "nb": "lisatud 30.08.2026 postkastijooksus; sisend tuli kontaktivormi kaudu (Pronto, p@maiskizo.ee, 29.08.2026 22:29, skene.info vorm). KAKS ALLIKAT: bändi enda kodulehe teade maiskizo.ee 29.08.2026 + avalik FB event 2220239358756120 (72 vastanut), mõlemad ütlevad R 18.09.2026 kell 18.00, Tatari 64. Koht: «algne Tommi Grill» Ajakirjandusmaja taga (Tatari 64, Kesklinn) — FB event näitab ainult aadressi, majanimi tuleb bändi teatest. Piletit ega uksehinda kummalgi lehel EI OLE mainitud → hinnavälja teadlikult ei ole (REEGLID §3: hinda ei leiutata). Kirjetüüp «muu», sest formaat on meet & greet / plaadiesitlus, mitte kontsert (vrd Plaaditurg) — bänd ütleb ise, et plaaditutvustustuuri esinemised tulevad eraldi ja teatatakse hiljem. Žanr: bändi enda kodulehe kirjeldus «post-punk, industriaal, gooti rokk» + vormil märgitud «Rock, Alt, Industrial, Dark» → kitarripõhine baasžanr, peasait (REEGLID §1).",
-   "img": "pildid/maiskizouuealbumivalumoteavaldamine.webp"
-  },
-  {
    "rel": 1,
    "d": "2026-09-18",
    "lisatud": "2026-08-30",
@@ -196,91 +143,6 @@
    "su": "https://open.spotify.com/album/2BXmkqfUfg9kJHrhKgqqmO",
    "nb": "lisatud 30.08.2026 postkastijooksus (sama kontaktivormi sisend, mis 18.09 väljalaskeüritus). KAKS ALLIKAT: bändi kodulehe teade maiskizo.ee 29.08.2026 (ametlik avaldamiskuupäev 18.09.2026) + Spotify albumileht 2BXmkqfUfg9kJHrhKgqqmO (pealkiri «Valu mõte», 13 lugu — kattub kodulehe 01.01.2026 postituse loeteluga). ⚠ KUUPÄEVA NÜANSS: bänd ütleb ise, et album on Spotifys JUBA saadaval, aga ametlik avaldamiskuupäev on 18.09.2026 — `d` järgib bändi enda ametlikku kuupäeva, mis on ka väljalaskeürituse päev. Voogedastuses on lugude nimed veidi teised kui kodulehe tracklistis («Proloog»/«Epiloog» vs «Valu mõte I/II osa», «Mai ei tea» vs «Ma ei tea»).",
    "img": "pildid/maiskizovalumote.webp"
-  },
-  {
-   "d": "2026-09-18",
-   "t": "kontsert",
-   "n": "Rock Friday: FEACH + METROPOL",
-   "a": "The Krypti underground-sari; uksed 20.00, bandid 22.00 ja 23.00, 00.00 tasuta aftekas",
-   "b": [
-    "FEACH",
-    "Metropol"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "punk",
-    "alt"
-   ],
-   "sn": "The Krypt (FB events)",
-   "su": "https://www.facebook.com/thekrypt.tallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/3438987566273311/",
-   "pu": "https://fienta.com/et/feach-metropol-thekrypt",
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: The Krypti FB events-tab / urituse FB event (kaaskorraldajad Rada7.ee ja FEACH) + Fienta piletileht. FEACH = garaazirock/surf-punk.",
-   "img": "pildid/rockfridayfeachmetropol.webp",
-   "hind": {
-    "praegu": "13–15 €",
-    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
-  },
-  {
-   "d": "2026-09-18",
-   "t": "kontsert",
-   "n": "Septemberfest 2026 x Punk on põhiline!",
-   "a": "Septemberfesti punkõhtu C.F. Hahn Pubis: «üheks õhtuks vallutab Septemberfesti lava korralik Eesti pungirokk»; kavas ka PMV plaadiesitlus. Algus 18.00, sissepääs tasuta",
-   "b": [
-    "Aitäh Ema",
-    "Kolm Põrsakest ja Metssiga",
-    "PMV",
-    "Veriora Raudvara koos Aapo Ilvesega",
-    "Surju Kommunaal"
-   ],
-   "v": "C.F. Hahn Pub",
-   "c": "mujal",
-   "linn": "Pärnu",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://tanaparnus.ee/uritus/septemberfest-2026-x-punk-on-pohiline-18-09-2026/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1062842679625386/",
-   "lisatud": "2026-09-16",
-   "nb": "lisatud 16.09.2026 postkastijooksus; sisend tuli skene.info kontaktivormi kaudu (Liis Virkus, liis@virkus.ee, 15.09.2026 16.20, žanriks märgitud «punk, rock»). KAKS ALLIKAT: ürituse oma FB event 1062842679625386 (korraldajad C.F.Hahn Pub, AITÄH EMA ja Siim Hinsberg; 164 vastanut; R 18.09.2026 kl 18.00, Riia mnt 129a Pärnu) + tanaparnus.ee ürituseleht, mis annab TÄISKOOSSEISU ja hinna («Tasuta») — FB-kirjeldus on sisselogimata kärbitud, seepärast on `su` koosseisu allikas. Koosseis on tanaparnus.ee kujul; kontaktivormi sisend ütles sama, kirjapildiga «3 Põrsakest & Metssiga». Kellaaeg ja koht kattuvad mõlemas allikas. Osa Septemberfest 2026 sarjast (19.09 lõpupidu on puhkpilliorkester + tantsuõhtu → skoobist väljas).",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "tanaparnus.ee ürituseleht, kontrollitud 16.09.2026"
-   },
-   "img": "pildid/septemberfest2026xpunkonpohiline.webp"
-  },
-  {
-   "d": "2026-09-18",
-   "t": "kontsert",
-   "n": "Korralagedus + Traumapunkt + Klostriid + O.V.M",
-   "a": "punk/hardcore-õhtu Ülase12 sotsiaalkeskuses, algus 19.00",
-   "b": [
-    "Korralagedus",
-    "Traumapunkt",
-    "Klostriid",
-    "O.V.M"
-   ],
-   "v": "Ülase12",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "core",
-    "metal"
-   ],
-   "sn": "Ülase12 / Anemon12 (FB events)",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2892340987805075/",
-   "lisatud": "2026-09-11",
-   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Žanr kinnitatud bändide Bandcampist, mille lingid on ürituse enda kirjelduses: klostriid.bandcamp.com/album/klostriid sildid punk / hardcore / hardcore punk / metal (Kuressaare) ja oskarivasakmunand.bandcamp.com (O.V.M). Pilet ja uksehind ei ole avaldatud — Ülase12 on DIY-sotsiaalkeskus.",
-   "img": "pildid/korralagedustraumapunktklostriidovm.webp"
   },
   {
    "d": "2026-09-19",
@@ -2968,6 +2830,6 @@
   }
  ],
  "log": [
-  "krypt: 11"
+  "krypt: 10"
  ]
 }
