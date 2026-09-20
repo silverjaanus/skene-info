@@ -3479,6 +3479,41 @@
    "img": "pildid/giidituurkolmnurkeestikeeles.webp"
   },
   {
+   "d": "2026-09-16",
+   "d2": "19.09",
+   "t": "festival",
+   "n": "Reeperbahn Festival",
+   "a": "Euroopa suurim klubifestival Hamburgis; uus žanriprogramm 'Heavy Reeperbahn' (raskemuusika kontserdid, showcase'd, MoreCore Music Awards, konverents). Eesti raskemuusikat esindavad Intrepid (16.09 Baalsaalis), lisaks The Boondocks, YASMYN, Puuluup ja Boipepperoni",
+   "b": [
+    "Intrepid",
+    "The Boondocks",
+    "YASMYN",
+    "Puuluup",
+    "Boipepperoni"
+   ],
+   "v": "Reeperbahn (St. Pauli)",
+   "c": "Euroopa",
+   "linn": "Hamburg",
+   "g": [
+    "metal",
+    "rock",
+    "alt",
+    "core"
+   ],
+   "sn": "reeperbahnfestival.com",
+   "su": "https://www.reeperbahnfestival.com/en/spotlight-heavy-reeperbahn",
+   "on_": "Heavy Reeperbahn",
+   "ou": "https://www.reeperbahnfestival.com/en/spotlight-heavy-reeperbahn",
+   "pu": "https://tickets.infield.live/event/spotlight-on-heavy-reeperbahn-errtvb",
+   "hind": {
+    "praegu": "49€",
+    "mark": "'Spotlight On Heavy' pilet (raskemuusika programm); üldine festivalipilet on eraldi",
+    "allikas": "reeperbahnfestival.com, kontrollitud 27.07.2026"
+   },
+   "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel. | PARANDUS 18.09.2026 sweepis: `c` oli „mujal“, mis on EESTI-sisene ämber (Tallinn/Tartu/mujal) — seetõttu sattus Hamburgi festival 18.09 nädalapildi ja IG-captioni Eesti-filtrist läbi. Õige väärtus on „Euroopa“ (nagu Wacken, Up In Smoke).",
+   "img": "pildid/reeperbahnfestival.webp"
+  },
+  {
    "d": "2026-09-17",
    "t": "kontsert",
    "n": "Brait Pilvik Band",
@@ -3670,6 +3705,82 @@
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Žanr kinnitatud bändide Bandcampist, mille lingid on ürituse enda kirjelduses: klostriid.bandcamp.com/album/klostriid sildid punk / hardcore / hardcore punk / metal (Kuressaare) ja oskarivasakmunand.bandcamp.com (O.V.M). Pilet ja uksehind ei ole avaldatud — Ülase12 on DIY-sotsiaalkeskus.",
    "img": "pildid/korralagedustraumapunktklostriidovm.webp"
+  },
+  {
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Psychoterror + Pedigree + Apparatus & Apparata",
+   "a": "Üks õhtu, kolm Eesti kooslust legendaarses Kinomajas",
+   "b": [
+    "Psychoterror",
+    "Pedigree",
+    "Apparatus & Apparata"
+   ],
+   "v": "KuKu Klubi",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "industrial",
+    "ebm"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1044621274573907/",
+   "pu": "https://www.piletitasku.ee/et/event/10039",
+   "img": "pildid/psychoterrorpedigreeapparatusapparata.webp"
+  },
+  {
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Taste of Moth (FIN) + Gunlock + Ethetric + Model Citizen",
+   "a": "uksed 19.00",
+   "b": [
+    "Taste of Moth (FIN)",
+    "Gunlock",
+    "Ethetric",
+    "Model Citizen"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Secret Face Productions FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1079845367842864/",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Secret Face Productions FB (korraldaja) + Kotka Kultuurimaja FB events-tab (venue). Pilet avaldamata; kavas '+ TBA'. | RIKASTATUD 18.09.2026 sweepis: Secret Face Productions ja Kotka Kultuurimaja FB events-tabid näitavad nüüd täiskoosseisu — neljas bänd on Model Citizen, koosseis_tba maha."
+  },
+  {
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Zord (HU) + Pornogeneraatori (FI) + Wasteland Six",
+   "a": "Zordi „Puritan Fury“ tuur — esimest korda Kryptis; uksed 20.00, bandid 21.00, 00.00 tasuta aftekas",
+   "b": [
+    "Zord",
+    "Pornogeneraatori",
+    "Wasteland Six"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "thrash",
+    "metal",
+    "punk",
+    "core"
+   ],
+   "sn": "The Krypt (FB events)",
+   "su": "https://www.facebook.com/thekrypt.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/957234900742936/",
+   "pu": "https://fienta.com/et/zord-hungary-thekrypt",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (korraldajad Zord Hungary, Estonianmetal.com jt) + Fienta piletileht; kolmas kinnitus Eesti metallistide FB events-tab. Zord = Ungari old-school tehniline thrash (a 2000, Miskolc), Pornogeneraatori = Soome punk/hardcore, Wasteland Six = Tallinna groove metal.",
+   "img": "pildid/zordhupornogeneraatorifiwastelandsix.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   }
  ]
 }

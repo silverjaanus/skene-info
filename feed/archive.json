@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19",
+ "updated": "2026-09-20",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 314,
+ "count": 325,
  "entries": [
   {
    "sait": "www",
@@ -8028,6 +8028,42 @@
   },
   {
    "sait": "www",
+   "d": "2026-09-16",
+   "d2": "19.09",
+   "t": "festival",
+   "n": "Reeperbahn Festival",
+   "a": "Euroopa suurim klubifestival Hamburgis; uus žanriprogramm 'Heavy Reeperbahn' (raskemuusika kontserdid, showcase'd, MoreCore Music Awards, konverents). Eesti raskemuusikat esindavad Intrepid (16.09 Baalsaalis), lisaks The Boondocks, YASMYN, Puuluup ja Boipepperoni",
+   "b": [
+    "Intrepid",
+    "The Boondocks",
+    "YASMYN",
+    "Puuluup",
+    "Boipepperoni"
+   ],
+   "v": "Reeperbahn (St. Pauli)",
+   "c": "Euroopa",
+   "linn": "Hamburg",
+   "g": [
+    "metal",
+    "rock",
+    "alt",
+    "core"
+   ],
+   "sn": "reeperbahnfestival.com",
+   "su": "https://www.reeperbahnfestival.com/en/spotlight-heavy-reeperbahn",
+   "on_": "Heavy Reeperbahn",
+   "ou": "https://www.reeperbahnfestival.com/en/spotlight-heavy-reeperbahn",
+   "pu": "https://tickets.infield.live/event/spotlight-on-heavy-reeperbahn-errtvb",
+   "hind": {
+    "praegu": "49€",
+    "mark": "'Spotlight On Heavy' pilet (raskemuusika programm); üldine festivalipilet on eraldi",
+    "allikas": "reeperbahnfestival.com, kontrollitud 27.07.2026"
+   },
+   "nb": "lisatud 27.07.2026 Silveri viitel. Festival + kuupäevad (16.–19.09.2026 Hamburg) + Heavy Reeperbahni programm kinnitatud reeperbahnfestival.com/spotlight-heavy-reeperbahn pealt; Eesti koosseis (Intrepid + The Boondocks, YASMYN, Puuluup, Boipepperoni) pärineb Eesti Raskemuusikaliidu juuli-uudiskirjast. Silveri otsus: lisada festivalina, mitte eraldi showcase'ina. Täiskoosseis (sadu bände üle žanrite) festivali lehel. | PARANDUS 18.09.2026 sweepis: `c` oli „mujal“, mis on EESTI-sisene ämber (Tallinn/Tartu/mujal) — seetõttu sattus Hamburgi festival 18.09 nädalapildi ja IG-captioni Eesti-filtrist läbi. Õige väärtus on „Euroopa“ (nagu Wacken, Up In Smoke).",
+   "img": "https://www.skene.info/pildid/reeperbahnfestival.webp"
+  },
+  {
+   "sait": "www",
    "d": "2026-09-17",
    "t": "kontsert",
    "n": "Brait Pilvik Band",
@@ -8452,6 +8488,279 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek.ee (18.09). Piletilink event-lehel olemas ('Find tickets'), täpne URL lugemata — täienda",
    "img": "https://klubi.skene.info/pildid/sublimedegsuk.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Bedless Bones + Martin Dupont",
+   "a": "Paper Cuts 17. sunnipaeva pidu; algus 19.00, lopp 23.00. Martin Dupont (Marseille 1980) esineb ESMAKORDSELT Eestis: prantsuse elektro, new wave ja cold wave. Bedless Bones = Kadri Sammel, darkwave / EBM / techno / industrial / IDM",
+   "b": [
+    "Bedless Bones",
+    "Martin Dupont"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "darkwave",
+    "ebm",
+    "electro",
+    "industrial"
+   ],
+   "sn": "bedlessbones.com",
+   "su": "https://www.bedlessbones.com/shows",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1569431970945474",
+   "pu": "https://fienta.com/et/martin-dupont",
+   "hind": {
+    "praegu": "35€",
+    "mark": "Late Bird 35€, Supporter Bird 50€",
+    "allikas": "Fienta, kontrollitud 17.09.2026"
+   },
+   "nb": "rikastatud 17.09.2026 postkastijooksus (Paavli Kultuurivabriku uudiskiri). Varem oli kirjel ainult bedlessbones.com ja puudusid ou/pu/hind. Kolm allikat: paavli.ee urituseleht (https://paavli.ee/sundmused/martin-dupontfr-bedless-bones/) + FB event + Fienta (korraldaja Paper Cuts OU). Zanr klubi-teljel: cold wave / elektro baasžanr, REEGLID §1 dark-electro pere.",
+   "img": "https://klubi.skene.info/pildid/bedlessbonesmartindupont.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-19",
+   "t": "klubi",
+   "n": "Healer Records: Charch / Squash",
+   "a": "Healer Recordsi suveresidentuuri lõpetav õhtu Tšungelis",
+   "b": [
+    "Charch",
+    "Squash"
+   ],
+   "v": "Tšungel",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/clubs/265290",
+   "on_": "RA event",
+   "ou": "https://ra.co/events/2496243",
+   "nb": "leitud sweepis 26.07.2026; kinnitatud RA ürituse- ja venue-lehel (Tšungel)",
+   "img": "https://klubi.skene.info/pildid/healerrecordscharchsquash.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Legendaarne LIVE: Rikošett",
+   "a": "uksed 20.00, LIVE 21.00; 2020. aastate alguses alustanud räppar, debüütalbum «Must lammas» (2025)",
+   "b": [
+    "Rikošett"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "pu": "https://fienta.com/et/legendaarne-live-rikosett",
+   "sn": "Legendaarne Raadio (FB events)",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1057463263944898/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Legendaarne Raadio) + Fienta üritusleht (L 19.09 20:00–23:00, Legendaarne Raadio, Krulli 2b). Rikošett = hip-hop artist (Fienta: „2020. aastate algusest kohalikus hip-hop skenes“), debüütalbum «Must lammas» 2025 → rap.skene.info. Piletihind Fienta lehel tekstina ei paista (ostuvoos).",
+   "img": "https://rap.skene.info/pildid/legendaarneliverikosett.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-19",
+   "t": "klubi",
+   "n": "Lights Out @ Fonoteek",
+   "a": "algus 23.00; Fonoteegi oma peosari",
+   "b": [],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "Fonoteek FB",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1947121552633524/",
+   "lisatud": "2026-09-04",
+   "koosseis_tba": 1,
+   "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist. Sama sarja varasem kord (29.08) on juba arhiivis - see on UUS kord, mitte duplikaat."
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Psychoterror + Pedigree + Apparatus & Apparata",
+   "a": "Üks õhtu, kolm Eesti kooslust legendaarses Kinomajas",
+   "b": [
+    "Psychoterror",
+    "Pedigree",
+    "Apparatus & Apparata"
+   ],
+   "v": "KuKu Klubi",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "industrial",
+    "ebm"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1044621274573907/",
+   "pu": "https://www.piletitasku.ee/et/event/10039",
+   "img": "https://www.skene.info/pildid/psychoterrorpedigreeapparatusapparata.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-19",
+   "t": "klubi",
+   "n": "REBEL CAUSE × TJUUN IN @ HALL",
+   "a": "Londoni Rebel Music / Metalheadzi showcase suures saalis, Tjuun In Mesilas; uksed 23.00",
+   "b": [
+    "HLZ (UK)",
+    "OB1 (UK)",
+    "Kolectiv (UK)",
+    "Physics (UK)",
+    "Rebel Cause (UK)",
+    "L.Eazy",
+    "QBA",
+    "To-Sha",
+    "Majestim",
+    "Yohan"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "jungle"
+   ],
+   "sn": "HALL FB",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1074654078431382/",
+   "pu": "https://gateme.com/et/halltallinn/104093-rebel-cause-x-tjuun-in-rebel-music-showcase",
+   "lisatud": "2026-08-21",
+   "hind": {
+    "praegu": "10€ / 15€ eelmüük, 20€ uksel",
+    "mark": "eelmüük GateMe’s kahes hinnaklassis",
+    "allikas": "FB event + GateMe, kontrollitud 21.08.2026"
+   },
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad TJUUN IN + HALL) ja GateMe piletileht. Täiskoosseis võetud FB-eventi kirjeldusest: suur saal = Rebel Cause showcase, Mesila = Tjuun In residendid.",
+   "img": "https://klubi.skene.info/pildid/rebelcausetjuuninhall.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-19",
+   "t": "klubi",
+   "n": "Rütmika: mava b2b klmn @ Bar IDA",
+   "a": "uksed 21.00; mava b2b klmn terve oo",
+   "b": [
+    "mava",
+    "klmn"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "club"
+   ],
+   "sn": "IDA Radio FB",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2267155270767092/",
+   "hind": {
+    "praegu": "tasuta / 5 EUR",
+    "mark": "esimesed 2 tundi tasuta, seejarel 5 EUR; uksel",
+    "allikas": "FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta, ainult 'mava b2b klmn all night' - g on ainult 'club', ei leiutanud."
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Taste of Moth (FIN) + Gunlock + Ethetric + Model Citizen",
+   "a": "uksed 19.00",
+   "b": [
+    "Taste of Moth (FIN)",
+    "Gunlock",
+    "Ethetric",
+    "Model Citizen"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Secret Face Productions FB",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1079845367842864/",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Secret Face Productions FB (korraldaja) + Kotka Kultuurimaja FB events-tab (venue). Pilet avaldamata; kavas '+ TBA'. | RIKASTATUD 18.09.2026 sweepis: Secret Face Productions ja Kotka Kultuurimaja FB events-tabid näitavad nüüd täiskoosseisu — neljas bänd on Model Citizen, koosseis_tba maha."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-19",
+   "t": "klubi",
+   "n": "VABADUS* @ MOD",
+   "a": "algus 22.00, tasuta, 18+; terve ohtu mangivad ainult naisartistid",
+   "b": [
+    "3 tudrukut 1 tops",
+    "DJ Nanette Manoir",
+    "Miauf",
+    "4MD4K",
+    "Rosy"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "house",
+    "electro"
+   ],
+   "sn": "MOD.tln FB",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1617672983023507/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "sissepaas tasuta, 18+",
+    "allikas": "paavli.ee uritusleht + FB event, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (korraldaja vabadus.ee) + paavli.ee sundmuste leht, mis annab sama taiskoosseisu. Taiskoosseisu reegel: koik viis nime lehelt."
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-19",
+   "t": "kontsert",
+   "n": "Zord (HU) + Pornogeneraatori (FI) + Wasteland Six",
+   "a": "Zordi „Puritan Fury“ tuur — esimest korda Kryptis; uksed 20.00, bandid 21.00, 00.00 tasuta aftekas",
+   "b": [
+    "Zord",
+    "Pornogeneraatori",
+    "Wasteland Six"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "thrash",
+    "metal",
+    "punk",
+    "core"
+   ],
+   "sn": "The Krypt (FB events)",
+   "su": "https://www.facebook.com/thekrypt.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/957234900742936/",
+   "pu": "https://fienta.com/et/zord-hungary-thekrypt",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: urituse FB event (korraldajad Zord Hungary, Estonianmetal.com jt) + Fienta piletileht; kolmas kinnitus Eesti metallistide FB events-tab. Zord = Ungari old-school tehniline thrash (a 2000, Miskolc), Pornogeneraatori = Soome punk/hardcore, Wasteland Six = Tallinna groove metal.",
+   "img": "https://www.skene.info/pildid/zordhupornogeneraatorifiwastelandsix.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   }
  ]
 }
