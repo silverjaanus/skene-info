@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20",
+ "updated": "2026-09-21",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 162,
+ "count": 161,
  "entries": [
   {
    "sait": "www",
@@ -79,26 +79,6 @@
    "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
    "nb": "tulevane reliis, kuupäev kinnitatud 2 allikaga (Legendaarne Records 21.07.2026 + ERR kultuur 24.07.2026): 'ilmub 7. augustil, kuus lugu'. EP PEALKIRI ON VEEL AVALDAMATA (tba) - täienda, kui välja kuulutatakse | 21.08.2026 sweep (TBA-ülekontroll): pealkiri EI OLE endiselt avaldatud. Kontrollitud legendaarne.ee uudisvoost (viimane margiiela-uudis on 21.07 singliteade, uuemat pole) ja google.ee otsinguga — ainus tabamus on meie enda rap.skene.info kirje. Reliisi kuupäev 07.08 on möödas; tba jääb kuni pealkiri selgub.",
    "img": "https://rap.skene.info/pildid/margiielaxchillinuhineeppealkiriavaldamata.webp"
-  },
-  {
-   "sait": "www",
-   "rel": 1,
-   "d": "2026-08-20",
-   "lisatud": "2026-08-21",
-   "t": "reliis",
-   "n": "Must Missa — «Khattra Tapes»",
-   "a": "kaua kadunud proovilindistus aastast 2001 originaalkoosseisus — «Sex Beyond The Grave» demo proov, lindistatud Khattra klubis Tartus 26.04.2001; 5 lugu (Mahtra Records)",
-   "b": [
-    "Must Missa"
-   ],
-   "g": [
-    "metal",
-    "black"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://mahtrarecords.bandcamp.com/album/khattra-tapes",
-   "nb": "lisatud 21.08.2026. Kaks allikat: Mahtra Recordsi Bandcampi albumileht (release-kuupäev 20.08.2026 kinnitatud lehelt) + labeli enda Bandcamp-fännimeil Silverile 20.08 23:22. 21.08 sweep ei püüdnud: Mahtra allikas oli sources.json-is ainult FB-URL-iga ja discover-tag-otsing seda ei näidanud — Bandcampi labelileht lisatud samal päeval eraldi allikaks.",
-   "img": "https://www.skene.info/pildid/mustmissakhattratapes.webp"
   },
   {
    "sait": "klubi",
