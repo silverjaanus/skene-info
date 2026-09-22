@@ -61,6 +61,30 @@ D-Block & S-te-Fan 26.09), peavoolu-EDM-i tähe ümber tekkinud peod mitte.
 on kuskilt loetav. Kui allikas annab ainult DJ-nime ja kellaaja, on vaikeotsus **välja**, mitte
 oletus. Kontsertkirjed samast majast (nt KURIKS 12.09, www) ei ole sellest puudutatud.
 
+**⚠⚠ LAIENDATUD 22.09.2026 — UUDISKIRI EI OLE ŽANRIALLIKAS (Silver: „pigem nii, et jääb välja.
+kui tekib kahtlus võib alati mult üle küsida").** Kui ürituse ENDA leht žanrit ei ütle, EI TOHI
+žanrit võtta ka toimetaja/uudiskirja sõnast (Rada7, Paavli jt) — üritus jääb **välja**, ka siis
+kui uudiskiri žanri nimetab. Pretsedent, mis jäi VÄLJA: *Märt Rannamäe allnighter* R 18.09.2026
+Kivi baar, Tartu (https://www.facebook.com/events/1037608655930900/) — ürituse FB-leht on
+sisselogimata kärbitud, ainus žanriväide oli Rada7 uudiskirjas („nu-disco fookus 6h järjest").
+
+⚠ **SEE TÜHISTAB postkastijooksu sammu 2b lubaduse** („Genre wording taken from the newsletter
+may be used in `a`/`g`, but say so in `nb`") — see rida oli REEGLID §1-ga vastuolus ja KAOTAB
+kehtivuse. Uudiskiri jääb **avastusallikaks** (`sn`/`su`) ja täidab kahe allika reeglist ÜHE
+poole, aga žanrit sealt EI võeta.
+
+✅ **ESKALATSIOON (Silveri sõnastus): „kui tekib kahtlus võib alati mult üle küsida."** Kui üritus
+tundub sisuliselt skoopi kuuluvat, aga žanr on ainult uudiskirjas — ÄRA lisa ega vaikselt viska
+välja: pane §8 vormis ülevaatuspunkt (küsimus + valikud + KÕIK lingid) ja küsi. Vaikeotsus on
+**välja**, aga küsimine on alati lubatud ja eelistatud oletamisele.
+
+⚠ **ERAND, mis EI OLE pretsedent:** *Psühhodisko esitleb: väga hea pidu kahel korrusel 2026!*
+(L 03.10.2026, Kultuuriklubi Salong — klubi `manual.json`) lisati 22.09 tuletatud žanrisiltidega
+(`disco` + `experimental` sarja nimest „psühhodisko" ja vinüüli-/kasseti-DJ formaadist), kuigi
+ürituse leht žanrit ei ütle. Alus oli **Silveri nimeline luba samas vestluses** („aga õhtul toimub
+ka pidu, selle võib küll sisse panna"), mitte see reegel. Ära kasuta seda kirjet argumendina
+teiste žanriinfota õhtute lisamiseks.
+
 **⚠ KINNITATUD JA LAIENDATUD 11.09.2026 (Silver: „mõlemad kaks välja") — reegel kehtib ka
 KUREERITUD klubi-majades ja ka siis, kui MAJA žanriprofiil on teada.** Sweep küsis kaks
 punkti ja mõlemad said vastuseks (a) = välja:
