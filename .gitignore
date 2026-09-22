@@ -1,11 +1,17 @@
-# sisemised töödokumendid — ei kuulu avalikku reposse
+# sisemised töödokumendid — ei kuulu avalikku reposse.
+# ⚠ NEED ON VERSIOONIHALDUSES PRIVAATSES REPOS (22.09.2026):
+#   github.com/silverjaanus/skene-info-priv, bare gitdir C:\Users\Silver\Documents\skene-info-priv.git
+#   Failid EI OLE kuhugi kolinud — samad teed, lihtsalt teine repo. Vt TOOVOOG.md §0.
+#   Commit: priv.bat add <fail> / priv.bat commit -m "..." / priv.bat push
+TOOVOOG.md
 HANDOVER.md
 HANDOVER-ARCHIVE.md
 # koodilõksud (tõstetud HANDOVER §1-st välja 02.09.2026); sisaldab sisemist intsidendiajalugu
 # -> sama loogika mis HANDOVERil. Kui tahad selle avalikuks, kustuta see rida.
 KOODIHOIATUSED.md
-# kärpe-eelsed koopiad (HANDOVER pole versioonihalduses -> kärbe tehakse koopiaga)
+# kärpe-eelsed koopiad (ajalugu on nüüd priv-repos, aga koopia enne kärbet ei tee halba)
 HANDOVER*.bak-*
+priv.bat
 SKENE-*.md
 postitused/
 skene-cover-*.png

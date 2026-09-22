@@ -174,7 +174,8 @@ def warn_handover(limit=250):
     if n > limit:
         print(f"HOIATUS: HANDOVER.md on {n} rida (piir {limit}) — tee kärbe SAMAS "
               "sessioonis: valmis plokid verbatim HANDOVER-ARCHIVE.md lõppu "
-              "(vt HANDOVER §2 reegel 10).")
+              "(vt TOOVOOG.md §1 reegel 10). NB: mõlemad failid on PRIVAATSES "
+              "repos — commit `priv.bat`-iga, mitte tavalise `git add`-iga.")
 
 
 def warn_inbox_heartbeat(limit_paevi=2):

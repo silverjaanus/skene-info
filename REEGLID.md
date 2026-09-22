@@ -5,7 +5,8 @@
 > promptides ning triivisid lahku; kaks päris vastuolu tuli sealt).
 > PROJEKT.md, HANDOVER ja taskipromptid VIITAVAD siia; kui mõni neist ütleb midagi muud,
 > **võidab see fail**. Reegli muutmine = muuda SIIN (+ commit), mitte koopiates.
-> Töövoo-/protsessireeglid (run-logi, pick, TBA-kontroll, kärped) elavad HANDOVER §2-s.
+> Töövoo-/protsessireeglid (run-logi, pick, TBA-kontroll, kärped) elavad **`TOOVOOG.md` §1-s**
+> (kolisid sinna 22.09.2026 HANDOVER §2-st; numeratsioon ei muutunud, „reegel 14" on sama reegel).
 
 ## 1. Alamdomeen — puhtalt žanripõhine (13.07.2026)
 
@@ -255,7 +256,7 @@ lõpus. Eesmärk: Silver klikib ja kontrollib KOHE, ilma täpsustavate küsimust
 nimeloetelu või lingita kirje on reegli rikkumine.
 
 **Aegumine (21.08):** lahtine küsimus ei tohi HANDOVER §4-s määramatult rippuda — kord ja
-vaikeotsuse reegel on HANDOVER §2 reeglis 16: otsustusmeilid on nummerdatud KOONDKIRJAD
+vaikeotsuse reegel on `TOOVOOG.md` §1 reeglis 16: otsustusmeilid on nummerdatud KOONDKIRJAD
 (kõik lahtised küsimused, uued [UUS]); Silver saab vastata OTSE meilile ("1a, 2b") ja
 postkastijooks rakendab; **5 päeva** vastuseta → status quo jääb kehtima, tagasipööratavalt.
 
