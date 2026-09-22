@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 326,
+ "count": 327,
  "entries": [
   {
    "sait": "www",
@@ -4840,6 +4840,26 @@
    "ou": "https://hundipea.ee/en/event/netsky-bel-hundipea-kakaoladu/",
    "pu": "https://www.piletilevi.ee/en/venues/21-61-9418/hundipea-kakaoladu-tallinn",
    "img": "https://klubi.skene.info/pildid/netskybel.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-08-21",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Planeet & LeHANNA — «Hei, kosmonaut»",
+   "a": "Uus dnb-singel; vokaal LeHANNA, produktsioon Planeet",
+   "b": [
+    "Planeet",
+    "LeHANNA"
+   ],
+   "g": [
+    "dnb"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://planeet.bandcamp.com/album/planeet-lehanna-hei-kosmonaut",
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026. Kaks allikat: Bandcampi albumileht (released August 21, 2026) + MuusikaPlaneet 'PLANEET AVALDAS UUE SINGLI \"HEI, KOSMONAUT\", KUS TEEB KAASA LEHANNA'; kolmas kinnitus artisti YouTube'i video (üles laetud 21.08).",
+   "img": "https://klubi.skene.info/pildid/planeetlehannaheikosmonaut.webp"
   },
   {
    "sait": "klubi",
