@@ -149,5 +149,25 @@
   "d": "2026-09-19",
   "n": "Taste of Moth (FIN) + Gunlock + Ethetric",
   "nb": "18.09.2026 NIMEMUUTUS, mitte väljajätt: Secret Face Productionsi ja Kotka Kultuurimaja FB events-tabid näitavad nüüd täiskoosseisu ja ürituse täisnime — neljas bänd on Model Citizen. Manual-kirje kannab nüüd nime „Taste of Moth (FIN) + Gunlock + Ethetric + Model Citizen“; see blokk hoiab ära vana lühema nime naasmise eelmisest data.json-ist (archive_split teeb uniooni). Sama muster nagu „Laine Live: Luge (CA)“ 22.08.2026. ÄRA eemalda ilma kirje nime uuesti muutmata. https://www.facebook.com/events/1079845367842864/"
+ },
+ {
+  "d": "2026-10-11",
+  "n": "Paavli․Live: Brushy One String (JM)",
+  "nb": "VÄLJA 22.09.2026, SILVERI OTSUS (§4 punkt 6 = (a)): „Brushy jääb välja“. P 11.10.2026 uksed 19.00, Paavli Kultuurivabrik, piletid 20–30 €. https://paavli.ee/sundmused/paavli%e2%80%a4live-brushy-one-string-jm/ · https://www.facebook.com/events/4398845213776343 · https://fienta.com/et/brushy-one-string-tallinn . Põhjus: baasžanr on reggae/folk, mis ei ole REEGLID §1 kitarrialternatiiv — bluusi-metafilter ja ühe keelega kitarr ei kaalu seda üles. ⚠ Blokk on siin sellepärast, et Paavli on jälgitav allikas ja sweep leiaks kirje muidu uuesti."
+ },
+ {
+  "d": "2026-11-19",
+  "n": "Light in Babylon (TUR)",
+  "nb": "VÄLJA 18.09.2026 sweepis ja kinnitatud 22.09 postkastijooksus: korraldaja enda sõnastus on „Türgi etnofolgi ansambel“ (santur + vokaal, Vahemere ja Lähis-Ida traditsioonid) — etno-telg, mis jäi §4 punkti 1 vaikeotsusega (a) välja. N 19.11.2026, Paavli Kultuurivabrik. https://paavli.ee/sundmused/light-in-babylon-tur/ · https://www.facebook.com/events/1009551288805380 . ⚠ Tagasipööratav — vaikeotsus, mitte Silveri nimeline vastus."
+ },
+ {
+  "d": "2026-10-04",
+  "n": "Rahvusvaheline KASSETI- ja PLAADILAAT",
+  "nb": "VÄLJA 22.09.2026, SILVERI OTSUS (§4 punkt 2 = (a)): „Kas plaadilaat ILMA DJ-kavata on skoobis? — jääb välja“. P 04.10.2026 12.00–16.00, Tartu Ülikooli raamatukogu fuaje, korraldaja Psühhoteek; rõhuga kassetidel. ✅ OTSELINK LEITUD 22.09 (18.09 seisuga puudus): https://www.facebook.com/events/1391181926411244 — tuli konverentsi enda FB eventi kavast https://www.facebook.com/events/1587168699731051 . Põhjus: 11.09 otsus kitsendas plaadipoe/-turu erandi DJ-KAVAGA üritustele ja sellel laadal DJ-kava ei ole. ⚠ SAMA konverentsi ÕHTUNE PIDU (L 03.10, https://www.facebook.com/events/1061146646757152) LÄKS SISSE klubi manual.json-i — seal ON DJ-kava."
+ },
+ {
+  "d": "2026-10-03",
+  "n": "Psühhodisko 12. rahvusvaheline konverents - KASSETT!",
+  "nb": "VÄLJA 22.09.2026: konverents (ettekanded, näitus, filmiprogramm), mitte muusikaprogramm — ettepanek oli jätta välja sõltumata §4 punktist 2 ja Silver kinnitas punkti 2 väljajätu. L 03.10.2026 12.00, Tartu Ülikooli raamatukogu muusikasaal. https://www.facebook.com/events/1587168699731051 ⚠ Sama õhtu PIDU (Kultuuriklubi Salong) ON saidil."
  }
 ]

@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 160,
+ "count": 162,
  "entries": [
   {
    "sait": "www",
@@ -240,6 +240,26 @@
    "su": "https://karagrind.bandcamp.com/album/k-ragrind",
    "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti punk-tag'i otsingust (sources.json bandcamp_otsing). Väljalaskekuupäev 12.09.2026 kinnitatud Bandcampi albumilehe 'released 12 September 2026' realt JA google.ee otsitulemuse kirjeldusest. Tallinn. ⚠ Ainult üks päris-allikas (Bandcamp) — bändil ei õnnestunud FB/IG lehte kinnitada, otsisin google.ee-st. Kuupäev on 6 päeva vana, seega lisatud = tänane (esilehe 'uued reliisid' riba, REEGLID §6).",
    "img": "https://www.skene.info/pildid/karagrindkaragrind.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-15",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Zebra Island - «Fool's Gold»",
+   "a": "Singel; bändi esimene uus lugu pärast kümneaastast pausi. Muusika Rasmus Lill, Helina Risti, Ivar Mägi; sõnad Helina Risti; produtsent Rasmus Lill",
+   "b": [
+    "Zebra Island"
+   ],
+   "g": [
+    "shoegaze",
+    "indie",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://seksound.bandcamp.com/track/fools-gold",
+   "lisatud": "2026-09-22",
+   "nb": "LISATUD 22.09.2026 Silveri otsusega (§4 punkt 5 = (b)): „sisse www-le, sildid shoegaze + indie + alt — shoegaze on www sildinimekirjas ja bändil on päris kitarrikoosseis“. Leitud Rada7.ee uudiskirjast 18.09. ⚠ KUUPÄEV RISTKONTROLLITUD (REEGLID §6 Bandcampi-lõks): Bandcampi lugu ütleb „released 15 September 2026“ ja Seksoundi enda FB/IG teade ütleb „RELEASE DATE: 15.09.2026“ — need kaks kattuvad, seega d = 15.09. SoundCloudi üleslaadimine on 14.09.2026 18:34 UTC (eellüles) ja allstarz.ee väidab 18. septembrit (hilisem ülevõte) — kumbagi EI kasutatud. Neli allikat: Bandcamp https://seksound.bandcamp.com/track/fools-gold · SoundCloud https://soundcloud.com/seksound/seks096-zebra-island-fools · ERR „Uue muusika reede“ 18.09 https://kultuur.err.ee/uue-muusika-reede · MuusikaPlaneet 22.09 (videoteade). Seksound = Pia Frausi liikmete 2004. a asutatud Tallinna label. ⚠ Kataloogikood SEKs096."
   },
   {
    "sait": "www",
@@ -1474,6 +1494,39 @@
    "hind": {
     "praegu": "25–39 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-03",
+   "t": "klubi",
+   "n": "Psühhodisko esitleb: väga hea pidu kahel korrusel 2026!",
+   "a": "Kahel korrusel; FB event ütleb algust 18.00, konverentsi kava ütleb DJ-kava 22.00–03.00",
+   "b": [
+    "Jussi Kantonen (FI)",
+    "Dr. Smeđi Šećer (HR)",
+    "Andreas McKeough",
+    "Ahto Külvet (Psühhoteek)",
+    "Liverbox & Payperclip (FI)",
+    "Raimonds Mežaks (LV)",
+    "Berk Vaher"
+   ],
+   "v": "Tartu Kirjanduse Maja / Kultuuriklubi Salong",
+   "c": "Tartu",
+   "g": [
+    "disco",
+    "experimental"
+   ],
+   "sn": "Kultuuriklubi Salong (FB events)",
+   "su": "https://www.facebook.com/kultuuriklubisalong/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1061146646757152",
+   "lisatud": "2026-09-22",
+   "nb": "LISATUD 22.09.2026 Silveri otsusega: plaadilaat ise jäi välja (§4 punkt 2 = (a)), aga „õhtul toimub ka pidu, selle võib küll sisse panna“. Psühhodisko 12. rahvusvahelise konverentsi „KASSETT!“ õhtuprogramm; vinüüli- ja kassetiDJd Eestist, Soomest, Lätist ja Horvaatiast. Sissepääs TASUTA (ürituse enda leht: „Pääs prii“). KOLM ALLIKAT: ürituse oma FB event 1061146646757152 · Kultuuriklubi Salongi (venue) FB events-tab, kus 03.10 kirje seisab · konverentsi enda FB event https://www.facebook.com/events/1587168699731051 , mille kava punkt 4 ütleb „L 03.10 22:00 - 03:00 ... Tartu Kirjanduse majas / Kultuuriklubis Salong“. ⚠ KELLAAEG on vastuoluline: FB eventi päis ütleb 18.00, korraldaja kava ütleb 22.00–03.00 — mõlemad on a-väljal, midagi ei ole valitud ega leiutatud. ⚠ ŽANRISILDID on tuletatud sarja nimest („Psühhodisko“ = psühhedeelne disko) ja vinüüli-/kasseti-DJ formaadist — ürituse leht ise žanrinimekirja EI anna. | ⚠ SAMA konverentsi plaadilaat P 04.10 (https://www.facebook.com/events/1391181926411244) JÄI TEADLIKULT VÄLJA ja on klubi blocklistis; konverents ise L 03.10 UTLIB-is (https://www.facebook.com/events/1587168699731051) samuti väljas.",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "Pääs prii",
+    "allikas": "ürituse FB event, kontrollitud 22.09.2026"
    }
   },
   {

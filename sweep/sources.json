@@ -837,6 +837,12 @@
     "url": "https://mangont.bandcamp.com/",
     "tyyp": "band",
     "nb": "lisatud 13.09.2026 Silveri sisendina (ALUK TODOLO + Mang Ont 24.09 Tapper). 2011. aastal Tartus alustanud instrumentaalne stoner/doom-trio, oma kirjeldus „Stone age shaman doom“. FB: https://www.facebook.com/mangont (bänd postitab sinna oma kontserte, 12.09 „Varsti Tallinnas!“); YouTube: https://www.youtube.com/@mangont5610."
+   },
+   {
+    "nimi": "Seksound Record Label",
+    "url": "https://seksound.bandcamp.com/music",
+    "tyyp": "label",
+    "nb": "lisatud 22.09.2026 postkastijooksus (Zebra Island — «Fool's Gold», Silveri otsus §4 punkt 5 = (b)). Tallinna label, asutatud 2004 Pia Frausi liikmete poolt; dream pop / shoegaze / indie (Ans. Andur, Pia Fraus, Imandra Lake, Wolfredt, Zebra Island jt). FB https://www.facebook.com/seksound · SoundCloud https://soundcloud.com/seksound (⚠ SoundCloudis on täpne üleslaadimise datetime, aga see on EELLAADIMINE — päris release-kuupäev võta Bandcampilt ja labeli FB/IG teatest; Zebra Islandil erinesid need ühe päeva võrra). ⚠ TAGAKATALOOG ACKITUD 22.09 data/bandcamp_seen.json-i TEADLIKU VÄLJAJÄTUNA (REEGLID §6, 14.09 reegel) — saidile läheb ainult see, mis ilmub PÄRAST 22.09.2026. ⚠ ŽANRIHOIATUS: enamik katalooogist on dream pop, mis EI OLE REEGLID §1 kitarrialternatiiv — iga uus reliis vajab eraldi žanriotsust, Silveri 5b vastus puudutas ÜHTE reliisi, mitte kogu labelit."
    }
   ]
  },
@@ -1067,6 +1073,18 @@
     "tyyp": "promootor",
     "veeb": "https://primemoments.events",
     "nb": "lisatud 18.09.2026 postkastijooksus — 360° Tartu x MERIMELL (18.09.2026, Genialistide Klubi) korraldaja. Boiler room’i-stiilis 360-kraadi techno-peosari Tartus; piletid Sviby/Piletikeskuse kaudu (https://sviby.com/et/o/PRIMEMOMENTSAGENCYOU). PRIME MOMENTS AGENCY OÜ, team@primemoments.events. ⚠ FB events-tabi URL tuletatud, kontrolli järgmises sweepis."
+   },
+   {
+    "nimi": "Kultuuriklubi Salong (Tartu)",
+    "url": "https://www.facebook.com/kultuuriklubisalong/events",
+    "tyyp": "venue",
+    "nb": "lisatud 22.09.2026 postkastijooksus (Psühhodisko pidu 03.10). Vanemuise 19, Tartu; Tartu Kirjanduse Maja alla kuuluv kultuuriklubi hubase baariga, ~3,8 tuh FB-jälgijat. Veebisait https://kirjandusemaja.ee/ (⚠ 22.09 seisuga andis web_fetch tühja keha — JS-renderdatud, kasuta brauserikihti), IG @kultuuriklubisalong. ⚠ SEGAŽANRIGA MAJA — kava on suures osas skoobist VÄLJAS (kirjanduslikud teisipäevad, mälumäng, filmifestival, näitused); filtreeri üksikõhtuid, mitte tervet kava. Peod ja kontserdid on see, mida siit otsida."
+   },
+   {
+    "nimi": "Psühhoteek",
+    "url": "https://www.facebook.com/psyhhoteek/events",
+    "tyyp": "korraldaja",
+    "nb": "lisatud 22.09.2026 postkastijooksus. Psühhodisko rahvusvaheliste konverentside ja pidude korraldaja (12. konverents „KASSETT!“ 03.–04.10.2026 Tartus); vinüüli- ja kassetikogujate telg, peod DJ-kavaga. ⚠ FB-handle EI OLE 22.09 seisuga kinnitatud — tuletatud nimest; üritused on seni leitud Kultuuriklubi Salongi ja Plaaditurgu events-tabide kaudu. KONTROLLI järgmises sweepis ja paranda URL, kui see 404-b. ⚠ SKOOBIPIIR (Silveri otsus 22.09): DJ-kavaga PIDU läheb sisse, PLAADILAAT ja KONVERENTS ei lähe — mõlemad on klubi ja www blocklistis."
    }
   ],
   "ig": [],

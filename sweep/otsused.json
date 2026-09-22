@@ -1,109 +1,21 @@
 [
  {
-  "oid": "2026-09-18-plaadilaat-ilma-dj-kavata",
-  "kysimus": "Kas plaadilaat ILMA DJ-kavata on skoobis?",
-  "kontekst": "RAHVUSVAHELINE PLAADILAAT / International Record Fair - P 04.10.2026 kl 12.00, Tartu Ulikooli raamatukogu, korraldaja Psuhhoteek. Otselinki urituse enda lehele EI leidnud - nahtav ainult Plaaditurgu FB events-tabis, urituse enda FB event ID-d ei onnestunud katte saada. MIKS KAHTLANE: plaadilaat on 27.08 otsuse jargi skoobis (praegu laheb sisse), AGA 11.09 otsus kitsendas erandi DJ-KAVAGA uritustele; selle laada kohta zanri- ega DJ-infot ei ole. Samast allikast ka Psuhhodisko 12. rahvusvaheline konverents - KASSETT! L 03.10.2026 kl 12.00 samas majas; see on konverents, mitte muusikaprogramm -> ettepanek on jatta valja soltumata sellest punktist.",
-  "valikud": [
-   {
-    "id": "a",
-    "tekst": "Jaab valja - 11.09 otsus utleb, et plaadipoe/-turu erand kehtib DJ-KAVALE (VAIKEOTSUS)"
-   },
-   {
-    "id": "b",
-    "tekst": "Plaadilaat ise on skoobis ka ilma DJ-kavata, sest formaat on sama mis Plaaditurg Krullis"
-   }
-  ],
-  "lingid": [
-   "https://www.facebook.com/Plaaditurg/events"
-  ],
-  "vaikeotsus": "a",
-  "tahtaeg": "2026-09-23"
- },
- {
-  "oid": "2026-09-18-zanr-ainult-uudiskirjast",
+  "oid": "2026-09-22-zanr-ainult-uudiskirjast-kordus",
   "kysimus": "Kas urituse zanr tohib tulla AINULT uudiskirjast, kui urituse enda leht zanri ei utle?",
-  "kontekst": "PRAEGU ON SIIN PARIS VASTUOLU: postkastijooksu samm 2b lubab toimetaja zanrisona kasutada (kui nb-s valja oeldud), REEGLID par 1 (11.09) keelab zanriinfota DJ-ohtu. Naide: Mart Rannamae allnighter - R 18.09.2026 kl 20.00, Kivi baar, Ruutli 13, Tartu, korraldaja Kivi baar, kuuetunnine DJ-allnighter uhe DJ-ga. Urituse enda FB-leht on sisselogimata karbitud (90ndatel oli Eesti elu ulme... See more) ega utle zanri valja; ainus zanrivaide on Ivo Rada7 uudiskirjas: ei pidavat tulema nostalgiahitid, vaid nu-disco fookus 6h jarjest. Kui (b), laheks klubi manual.json-i siltidega house/disco; kui (a), jaab valja. Uritus ise on juba moodas - otsus kehtib peamiselt edaspidiseks. Kivi baar on lisatud sweep/sources.json fb-plokki zanrimargega KINNITAMATA.",
+  "kontekst": "KORDUSKUSIMUS. 22.09 vastasid: 'mis uritus? sa toid ainult naite aga ei raakinud uritusest. mart rannamae jaab igal juhul valja.' Konkreetne uritus ON rakendatud - Mart Rannamae allnighter (R 18.09.2026 kl 20.00, Kivi baar, Ruutli 13, Tartu, kuuetunnine DJ-allnighter uhe DJ-ga, https://www.facebook.com/events/1037608655930900/) jai VALJA. Aga see oli ainus naide ja sellega jai REEGEL vastuseta, mistottu kusin uuesti. MIKS SEE LOENDAB: praegu on repos ISEENDAGA VASTUOLUS kaks reeglit - postkastijooksu samm 2b LUBAB toimetaja (nt Rada7 Ivo) zanrisona kasutada, kui see on kirje nb-valjal valja oeldud; REEGLID par 1 (11.09 otsus) KEELAB zanriinfota DJ-ohtu lisada. Uks neist peab muutuma, muidu teeb iga jooks selle valiku uuesti ja erinevalt. Naite juures oli ainus zanrivaide Ivo uudiskirjas ('ei pidavat tulema nostalgiahitid, vaid nu-disco fookus 6h jarjest'); urituse enda FB-leht on sisselogimata karbitud ega utle zanri.",
   "valikud": [
    {
     "id": "a",
-    "tekst": "Ei - REEGLID par 1 jargi jaab zanriinfota DJ-ohtu valja, ka siis kui Rada7 utleb zanri (VAIKEOTSUS)"
+    "tekst": "Ei - REEGLID par 1 votab: zanriinfota DJ-ohtu jaab valja ka siis, kui uudiskiri utleb zanri. Parandan sammu 2b. (VAIKEOTSUS)"
    },
    {
     "id": "b",
-    "tekst": "Jah - toimetaja sona loeb zanriallikaks, kui see on nb-s valja oeldud"
+    "tekst": "Jah - toimetaja sona loeb zanriallikaks, kui see on nb-s valja oeldud. Parandan REEGLID par 1."
    }
   ],
   "lingid": [
    "https://www.facebook.com/events/1037608655930900/",
    "https://www.rada7.ee/uudiskiri/"
-  ],
-  "vaikeotsus": "a",
-  "tahtaeg": "2026-09-23"
- },
- {
-  "oid": "2026-09-18-scvmfvcks-united-untitled",
-  "kysimus": "Scvmfvcks - United untitled: kas lisame, kui artisti Eesti-seost ei onnestu kinnitada?",
-  "kontekst": "Reliis, 9 lugu, ilmus 01.09.2026, label ost euro. Bandcampi kirjeldus: punk in spirit but drenched in the pulse of electronica, hardcore, nostalgia, ghostly sonic textures -> baaszanr elektrooniline, seega klubi. MIKS KAHTLANE: label ost euro kirjeldab end tahtlikult haguselt - nine-o-nine workout club and experimental live platform located SOMEWHERE IN EASTERN EUROPE - ja ma ei leidnud uhtegi allikat, mis utleks artisti voi labeli asukohaks Eestit. Klubi on ainult Eesti. Kahe allika reegel on taidetud (Rada7 uudiskiri + Bandcamp), takerdub AINULT geograafia taha. Sama artist mangis 18.09 Hallis Halal Clubil, see on ainus Eesti-seos. Kuupaev 01.09.2026 tuleb Bandcampi released realt, Tharaphita-loksu vastu ristkontrollida ei onnestunud.",
-  "valikud": [
-   {
-    "id": "a",
-    "tekst": "Ei - klubi on ainult Eesti ja label utleb ise ainult Eastern Europe (VAIKEOTSUS)"
-   },
-   {
-    "id": "b",
-    "tekst": "Jah - Eestis esinev tegija loeb, kuna Scvmfvcks mangis 18.09 Hallis Halal Clubil"
-   }
-  ],
-  "lingid": [
-   "https://osteuro.bandcamp.com/album/united-untitled",
-   "https://osteuro.bandcamp.com/",
-   "https://www.facebook.com/events/1284010840358736/",
-   "https://www.rada7.ee/uudiskiri/"
-  ],
-  "vaikeotsus": "a",
-  "tahtaeg": "2026-09-23"
- },
- {
-  "oid": "2026-09-18-zebra-island-fools-gold",
-  "kysimus": "Zebra Island - Fool's Gold: kas dream-pop/shoegaze single on www skoobis?",
-  "kontekst": "Single SEKs096, Seksound, avaldatud SoundCloudis 14.09.2026. Eesti (Tallinn) bandi comeback-single Seksoundi alt - Seksound on Pia Frausi liikmete 2004. a asutatud Tallinna label. Koosseis on kitarripohine (Rasmus Lill, Helina Risti, Lauri Raus kitarril jt). MIKS KAHTLANE: baaszanr on piiripealne - allikad utlevad dreamy pop and shoegaze, The Baltic Scene pre-historic futurepop, SoundCloudi enda zanrisilt on lihtsalt Pop. Shoegaze on www sildinimekirjas, aga dream pop / futurepop ei ole kitarrialternatiiv REEGLID par 1 mottes. Ei lisanud kumbagi poolt ise valides.",
-  "valikud": [
-   {
-    "id": "a",
-    "tekst": "Jaab valja - baaszanr on unelev popp, mitte kitarrialternatiiv (VAIKEOTSUS)"
-   },
-   {
-    "id": "b",
-    "tekst": "Sisse www-le, siltidega shoegaze + indie + alt"
-   }
-  ],
-  "lingid": [
-   "https://soundcloud.com/seksound/seks096-zebra-island-fools",
-   "https://seksound.bandcamp.com/",
-   "https://estonianworld.com/culture/zebra-island-releases-debut-album/",
-   "https://www.rada7.ee/uudiskiri/"
-  ],
-  "vaikeotsus": "a",
-  "tahtaeg": "2026-09-23"
- },
- {
-  "oid": "2026-09-22-brushy-one-string",
-  "kysimus": "Kas Brushy One String (JM) - reggae/folk/bluus uhe keelega kitarril - on www skoobis?",
-  "kontekst": "Paavli.Live: Brushy One String (JM) - P 11.10.2026, uksed 19.00, Paavli Kultuurivabrik, Paavli 7, Tallinn. Piletid 20-30 EUR, vanusepiiranguta. Jamaica soloartist, kes mangib kasitsi tehtud UHE KEELEGA kitarri; korraldaja sonastus: 'Jamaica traditsioonides kantud ning reggae, folgi ja bluusiga segatud', rikkalik baritonhaal, dokfilmid RiseUp ja The King of One String. MIKS KAHTLANE: baaszanr on piiripealne - reggae ei ole uhegi kolme saidi baaszanr, AGA bluus on www 8. metafilter (26.07 otsus) ja instrument on kitarr. Sari Paavli.LIVE on ise zanriagnostiline (varem Swans, William Basinski, John Maus), seega sari ei otsusta. Kahe allika reegel TAIDETUD (uudiskiri + paavli.ee urituseleht + Fienta + FB event); takerdub AINULT zanri taha. Avastusallikas: Paavli Kultuurivabriku uudiskiri 21.09.",
-  "valikud": [
-   {
-    "id": "a",
-    "tekst": "Jaab valja - baaszanr on reggae/folk, mitte REEGLID par 1 kitarrialternatiiv (VAIKEOTSUS)"
-   },
-   {
-    "id": "b",
-    "tekst": "Sisse www-le, sildid folk + bluus-telg - bluus ON www metafilter ja esineja on kitarrist"
-   }
-  ],
-  "lingid": [
-   "https://paavli.ee/sundmused/paavli%e2%80%a4live-brushy-one-string-jm/",
-   "https://www.facebook.com/events/4398845213776343",
-   "https://fienta.com/et/brushy-one-string-tallinn"
   ],
   "vaikeotsus": "a",
   "tahtaeg": "2026-09-27"
