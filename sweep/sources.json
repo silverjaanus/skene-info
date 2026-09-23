@@ -393,6 +393,12 @@
    "url": "https://baar.terminal.ee/",
    "tyyp": "pood/kultuuripunkt",
    "nb": "lisatud 23.09.2026 koos FB-lehega (REEGLID §3: üksik FB-URL on pime nurk). Esilehe sektsioon „Programm“ loetleb tulevased üritused kujul „DD.MM kellaaeg nimi“ ja lingib OTSE FB-üritusele (facebook.com/<id>) — mugav teine allikas kuupäeva ristkontrolliks. ⚠ Kava on lühike (2 kirjet 23.09 seisuga), nii et FB events-tab jääb põhiallikaks (REEGLID §3 püsireegel 13.09). Pood ise: https://www.terminal.ee"
+  },
+  {
+   "nimi": "Wavy (Tartu, dnb/jungle)",
+   "url": "https://www.facebook.com/Wavydnb/events",
+   "tyyp": "promootor",
+   "nb": "lisatud 23.09.2026 postkastijooksus (kontaktivormi sisend: „SAGEDUSED KIVIS“ R 02.10.2026 Kivi baaris, https://www.facebook.com/events/910600521899427/). Kivi baari kaaskorraldaja, dnb/jungle/house liin Tartus; venue ise on juba sources.json-is (Kivi baar (Tartu))."
   }
  ],
  "ig": [
