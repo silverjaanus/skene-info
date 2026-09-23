@@ -74,6 +74,18 @@ may be used in `a`/`g`, but say so in `nb`") — see rida oli REEGLID §1-ga vas
 kehtivuse. Uudiskiri jääb **avastusallikaks** (`sn`/`su`) ja täidab kahe allika reeglist ÜHE
 poole, aga žanrit sealt EI võeta.
 
+✅⚠ **PIIR TÄPSUSTATUD 23.09.2026 — KONTAKTIVORMI ŽANRIVÄLI ON ŽANRIALLIKAS (Silver: „las üritus
+läheb sisse ja metal").** Ülalolev keeld puudutab **kolmanda osapoole toimetajat** (uudiskiri,
+agregaator, venue RA-profiil). **Korraldaja või artisti ENDA väide kontaktivormi `Zanrid`-väljal
+LOEB** — ka siis, kui ürituse enda leht žanrit ei ütle. Pretsedent: *Terminal Arrivals: Valter
+Nõmm* L 26.09.2026, Terminal Records&Bar (https://www.facebook.com/events/1325265632846584/) —
+FB-leht ütleb kategooriaks ainult „Music", vormi saatis esineja ise (valter.nomm@gmail.com) ja
+kirjutas „experimental, rock noise rock" → **www**, sildid `rock` + `alt`.
+⚠ Kaks kitsendust jäävad kehtima: (1) **kahe allika reegel** kehtib ikka — žanr võib tulla
+vormilt, aga kuupäev/koht/toimumine tuleb kinnitada kahest sõltumatust kohast (siin: ürituse
+FB-leht + venue veebikava https://baar.terminal.ee/); (2) **sildid peavad olema §9 kanoonilisest
+nimekirjast** — vormi sõnastust ei kopeerita toorelt (`noise`, `experimental` ei ole silte).
+
 ✅ **ESKALATSIOON (Silveri sõnastus): „kui tekib kahtlus võib alati mult üle küsida."** Kui üritus
 tundub sisuliselt skoopi kuuluvat, aga žanr on ainult uudiskirjas — ÄRA lisa ega vaikselt viska
 välja: pane §8 vormis ülevaatuspunkt (küsimus + valikud + KÕIK lingid) ja küsi. Vaikeotsus on
@@ -247,13 +259,46 @@ Akumuleeruv, genereeritud (`archive_split.py`): möödunud kirjed `data/archive/
 allikast kadunud möödunud üritus EI kao. Käsitsi ei kustutata midagi. Manual.json EI ole
 ajaloofail (`prune_manual.py` koristab).
 
-## 8. Ülevaatuspunkt Silverile = täisinfo + lingid (Silveri püsireegel 21.08)
+## 8. Ülevaatuspunkt Silverile = lühike küsimus + link (Silveri püsireegel 21.08, ümber tehtud 23.09.2026)
 
-Iga kirje, mis läheb HANDOVER §4-i või meili Silveri otsustada: **küsimus/valikud (a/b)
-KÕIGE EES 1–2 lausega**, siis nimi · kuupäev · koht · KÕIK kontroll-lingid (FB event,
-Fienta/piletileht, RA, veebisait, Bandcamp) · 1–2 lauset miks kahtlane; taust alles
-lõpus. Eesmärk: Silver klikib ja kontrollib KOHE, ilma täpsustavate küsimusteta. Paljas
-nimeloetelu või lingita kirje on reegli rikkumine.
+### ⚠⚠ MEILI VORM ON RANGE (Silver 23.09.2026: „praegu on üritus ise nii suure hulga teksti sisse peidetud et ma ei saa aru")
+
+Otsustusmeili punkt koosneb **täpselt neljast reast, selles järjekorras**. Rohkem EI kirjutata.
+
+```
+N. <ürituse nimi> — <kuupäev> kl <aeg>, <koht>, <hind/tasuta>
+<otselink>
+
+Kas lisame? (a) <valik>  (b) <valik>  (c) <valik>
+
+Miks küsin: <1–3 lauset, ainult see, mis otsust mõjutab>
+```
+
+- **ÜRITUS TULEB ESIMESENA, mitte küsimus.** Silver peab ühe pilguga nägema, MILLEST jutt käib,
+  enne kui ta loeb küsimust. 23.09 tegin vastupidi (küsimus ees, üritus lõikude taha peidetud) ja
+  see oli kasutu: „sa alustad teemat, et kas lisame, siis on hunnik teksti aga millest üldse jutt
+  käib?" ⚠ See TÜHISTAB vana 21.08 sõnastuse („küsimus/valikud KÕIGE EES").
+- **Link on OMAETTE REAL, lause sees peitmata.** Klikitav ilma otsimiseta.
+- **ÜKS link punkti kohta** — ürituse enda leht (§8 otselingi mõiste allpool). Muud allikad,
+  mida kontrollisid, jäävad HANDOVER-isse, mitte kirja. Erand: kui otselinki EI OLE olemas,
+  pane parim olemasolev ja ütle ühe lausega, mida otsisid.
+- **„Miks küsin" on 1–3 lauset.** Ainult see, mis otsust mõjutab. Taustalõike, bändi elulugu,
+  reeglite tsiteerimist, pretsedendiloetelusid, „mis sai tehtud ilma küsimata" plokke,
+  commit-numbreid ja ASCII-eraldajaid kirja **EI PANDA** — need kuuluvad HANDOVER-isse.
+- **Kiri lõpeb ühe reaga:** „Vasta otse sellele kirjale (nt '1a')."
+- Mitu punkti = sama vorm nummerdatult, tühi rida vahele. Kiri on ikka KOONDKIRI (kõik lahtised
+  punktid, uued [UUS]), aga iga punkt on nelja rea pikkune.
+
+**Mõõdupuu:** kui punkt on pikem kui ~8 rida, on ta liiga pikk — kärbi „miks küsin" osa.
+Silver: „kui on küsimus siis küsi lihtsalt, anna lühike põhjendus miks sa küsid ja link.
+rohkem pole vaja."
+
+### HANDOVER §4 kirje on ERI ASI — seal võib pikk olla
+
+Faili `sweep/otsused.json` (ja sealt renderduv HANDOVER §4) võtab KÕIK kontroll-lingid, kogu
+tausta ja põhjenduse — see on arhiiv, mida loeb järgmine jooks, mitte Silver hommikul. Meili
+läheb sellest ainult ülalkirjeldatud neli rida. Ehk: **`lingid` ja `kontekst` täidetakse
+põhjalikult, aga kirja neid ei kopeerita.**
 
 **Aegumine (21.08):** lahtine küsimus ei tohi HANDOVER §4-s määramatult rippuda — kord ja
 vaikeotsuse reegel on `TOOVOOG.md` §1 reeglis 16: otsustusmeilid on nummerdatud KOONDKIRJAD
@@ -277,6 +322,14 @@ lisatud kirjete, väljajäetute ja "mis tehtud" kokkuvõtete** kohta.
   esinejate nimed. Paljas nimi + otsus = reegli rikkumine.
 - Kui otselinki EI ÕNNESTU leida, kirjuta see välja („otselinki ei leidnud, otsisin X, Y, Z")
   — see on ise info. Ära jäta lünka vaikselt.
+
+⚠ **KUIDAS 09.09 ja 23.09 reeglid KOOS käivad (lahendatud 23.09.2026).** 09.09 reegel ütleb:
+KUI mainid üritust, PEAB link kaasas olema. See EI ütle, et pead kõike mainima. 23.09 vorm
+ütleb, MIS kirja üldse läheb: ainult lahtised küsimused, neli rida kumbki. **„Mis sai tehtud",
+„mis jäi välja", „mis rakendus" kokkuvõtted lähevad HANDOVER-isse, mitte otsustusmeili** —
+seal on niikuinii iga ürituse juures link (09.09 reegel kehtib HANDOVER-is täies mahus). Kui
+Silver peab midagi tehtust TEADMA (nt vaikeotsus rakendus ja üritus kadus saidilt), siis läheb
+see kirja — aga sama nelja rea vormis, mitte lõiguna.
 
 **Miks (09.09.2026):** vaikeotsuste kiri loetles viis üritust, millest kolmel polnud ühtegi
 linki. Silver: „näiteks number 1 — mis see on ja miks see välja jäi? sa pidid alati panema

@@ -3287,5 +3287,30 @@
   "su": "https://seksound.bandcamp.com/track/fools-gold",
   "lisatud": "2026-09-22",
   "nb": "LISATUD 22.09.2026 Silveri otsusega (§4 punkt 5 = (b)): „sisse www-le, sildid shoegaze + indie + alt — shoegaze on www sildinimekirjas ja bändil on päris kitarrikoosseis“. Leitud Rada7.ee uudiskirjast 18.09. ⚠ KUUPÄEV RISTKONTROLLITUD (REEGLID §6 Bandcampi-lõks): Bandcampi lugu ütleb „released 15 September 2026“ ja Seksoundi enda FB/IG teade ütleb „RELEASE DATE: 15.09.2026“ — need kaks kattuvad, seega d = 15.09. SoundCloudi üleslaadimine on 14.09.2026 18:34 UTC (eellüles) ja allstarz.ee väidab 18. septembrit (hilisem ülevõte) — kumbagi EI kasutatud. Neli allikat: Bandcamp https://seksound.bandcamp.com/track/fools-gold · SoundCloud https://soundcloud.com/seksound/seks096-zebra-island-fools · ERR „Uue muusika reede“ 18.09 https://kultuur.err.ee/uue-muusika-reede · MuusikaPlaneet 22.09 (videoteade). Seksound = Pia Frausi liikmete 2004. a asutatud Tallinna label. ⚠ Kataloogikood SEKs096."
+ },
+ {
+  "d": "2026-09-26",
+  "t": "muu",
+  "n": "Terminal Arrivals: Valter Nõmm",
+  "a": "DJ-/plaadiõhtu sarjas „Terminal Arrivals“: Valter Nõmm (mürarokibändi Shelton San vokalist ja kitarrist) mängib oma viimase aja plaadileide. Algus 21.00, sissepääs tasuta. Lauabroneering: https://tinyurl.com/recordsandbar / +372 5380 5534",
+  "b": [
+   "Valter Nõmm"
+  ],
+  "v": "Terminal Records&Bar",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "kontaktivorm",
+  "su": "https://baar.terminal.ee/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1325265632846584/",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "sissepääs tasuta; lauabroneering soovi korral",
+   "allikas": "ürituse FB-leht, kontrollitud 23.09.2026"
+  },
+  "nb": "LISATUD 23.09.2026 Silveri otsusega (otsustuspunkt 2026-09-23-terminal-arrivals-valter-nomm = (a)): „las üritus läheb sisse ja metal“. Tuli kontaktivormi kaudu 22.09 klubi.skene.info vormilt, saatja valter.nomm@gmail.com ehk esineja ise; Silver suunas www-le. ⚠ ŽANRIALLIKAS ON KONTAKTIVORM, MITTE ÜRITUSE LEHT: ürituse enda FB-leht žanrit ei ütle (kategooria lihtsalt „Music“), vormi Zanrid-väli ütles „experimental, rock noise rock“ — sildid rock + alt on sellest tuletatud („noise“ ja „experimental“ ei ole www kanoonilises sildinimekirjas, REEGLID §9). See otsus on ÜHTLASI PÜSIREEGEL: kontaktivormi žanriväli LOEB žanriallikaks, erinevalt uudiskirjast (REEGLID §1, 22.09 otsus). Kaks allikat: ürituse FB-leht + venue veebikava https://baar.terminal.ee/ („Programm“: „26.09 21.00 Terminal Arrivals: Valter Nõmm“) — kuupäev ja kellaaeg kattuvad. Terminal Records&Bar (Telliskivi 60/2 I hoone) lisati samal päeval sweep/sources.json-i; ⚠ maja kava on SEGA (viktoriin, muusikadokid, jazz-jämm, DJ-sari, aeg-ajalt kontsert), nii et maja ise ei ole žanriallikas — iga üritus kaalu eraldi."
  }
 ]
