@@ -23,37 +23,6 @@
   "img": "pildid/volodjabrodskywhisperinglnvolii.webp"
  },
  {
-  "d": "2026-09-10",
-  "t": "klubi",
-  "n": "Raadio EKA @ Bar IDA",
-  "a": "uksed 20.00; Raadio EKA kooliaasta avapidu Bar IDA-s, kuus EKA diskorit, Siim Pojeng live'is",
-  "b": [
-   "Neonsport",
-   "Simoji",
-   "DJ Canada",
-   "Siim Pojeng",
-   "evalution",
-   "Kokotov"
-  ],
-  "v": "Bar IDA",
-  "c": "Tallinn",
-  "g": [
-   "club",
-   "electro"
-  ],
-  "sn": "IDA Radio FB",
-  "su": "https://www.facebook.com/IDARadio/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1607550260880484/",
-  "hind": {
-   "praegu": "5-7 EUR",
-   "mark": "7 EUR, EKA tudengile ISIC-kaardiga 5 EUR; uksel",
-   "allikas": "FB event, kontrollitud 09.09.2026"
-  },
-  "lisatud": "2026-09-09",
-  "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: urituse leht zanrit SONAGA ei nimeta (kunstiakadeemia diskorite pidu IDA Radio baaris) - g-sildid on konservatiivsed, mitte lehelt tsiteeritud."
- },
- {
   "d": "2026-09-11",
   "lisatud": "2026-08-17",
   "t": "klubi",
