@@ -162,6 +162,41 @@ def leia_kadunud(sait, kaust):
     return kummitused
 
 
+# --- c-valja kontroll (lisatud 25.09.2026) -----------------------------------
+# MIKS: 25.09 sweepil selgus, et VIIEL Eesti kirjel oli `c` valjal LINNA NIMI
+# ("Viljandi", "Torva", "Parnu") ja mitte amber. `common.EESTI` on
+# {"Tallinn","Tartu","mujal"}, seega `in_scope()` tagastas False ja need kirjed
+# kukkusid VAIKSELT nadalapildilt, IG-captionist JA uudiskirjast valja -- ilma
+# uhegi veateateta. Uks neist (Uranus + As-Sur + Joy Palace 26.09 Konservatoorium,
+# Viljandi) oli lisatud 18.09 sweepiga ja puudus 18.09 postitusest taielikult.
+# Vastassuunas sama viga: 6 valisfestivali olid `c: "mujal"` ja oleksid Eesti
+# kirjetena filtrist labi lainud (sama muster nagu Reeperbahn/Mystic 18.09).
+# Oige muster: c = Tallinn | Tartu | mujal (Eesti); c = Euroopa (ainult www,
+# valismaa); TAPNE LINN laheb `linn`-valjale, MITTE `c`-le.
+C_EESTI = {"Tallinn", "Tartu", "mujal"}
+C_LUBATUD = {"www": C_EESTI | {"Euroopa"}, "rap": C_EESTI, "klubi": C_EESTI}
+
+
+def kontrolli_c(sait, kaust):
+    """Tagastab vigade nimekirja manual.json-i `c`-valja kohta."""
+    vead = []
+    lubatud = C_LUBATUD[sait]
+    for e in load(kaust / "manual.json"):
+        c = e.get("c")
+        reliis = e.get("t") in ("reliis", "merch")
+        if not c:
+            if not reliis:
+                vead.append((e, "c PUUDUB (uritusel peab olema)"))
+            continue
+        if c not in lubatud:
+            if c in ("Euroopa",):
+                vead.append((e, f"c={c!r} -- {sait} on AINULT Eesti"))
+            else:
+                vead.append((e, f"c={c!r} ei ole amber -- tapne linn kuulub `linn`-valjale, "
+                                f"c peab olema mujal/Tallinn/Tartu"))
+    return vead
+
+
 def main():
     vigu = 0
     lubatud = laadi_lubatud()
@@ -183,6 +218,13 @@ def main():
                 print(f"       B: {kirjeldus(b)}")
         else:
             print("  duplikaate ei leitud")
+
+        c_vead = kontrolli_c(sait, kaust)
+        if c_vead:
+            vigu += len(c_vead)
+            print(f"  C-VALJA VIGU (kirje kaob VAIKSELT nadalapildilt/captionist/uudiskirjast): {len(c_vead)}")
+            for e, pohjus in c_vead:
+                print(f"   - {e.get('d','?')} {e.get('n','?')[:55]!r}: {pohjus}")
 
         kumm = leia_kadunud(sait, kaust)
         if kumm:

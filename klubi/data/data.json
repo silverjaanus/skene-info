@@ -713,6 +713,34 @@
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + HUNGRi FB events-tab ja maja enda postitus („as hungr gets closer to closing its doors“, 236 huvilist). Koosseis avaldamata → koosseis_tba. HUNGR oli sources.json-is ainult RA venue-lehena (ra.co/clubs/235784), mis eelseisvaid üritusi EI näita; FB events-tab lisatud sama sweepiga."
   },
   {
+   "d": "2026-10-09",
+   "t": "klubi",
+   "n": "Tartu Massive: Changing Faces (SK)",
+   "a": "uksed 23.00, lõpp 04.00, 18+; Tartu Massive'i 18. hooaeg, külaline esineb Eestis esmakordselt",
+   "b": [
+    "Changing Faces (SK)"
+   ],
+   "v": "Klubi Gutenberg",
+   "c": "Tartu",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Klubi Gutenbergi FB events-tab",
+   "su": "https://www.facebook.com/KlubiGutenberg/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1434611688578124/",
+   "pu": "https://www.ticketer.ee/tartumassive-changingfaces",
+   "lisatud": "2026-09-25",
+   "koosseis_tba": 1,
+   "hind": {
+    "praegu": "10 €",
+    "mark": "early bird, piiratud kogus; lisandub Ticketeri tehingutasu 0,70 €",
+    "allikas": "Ticketer, kontrollitud 25.09.2026"
+   },
+   "nb": "leitud järelejooksus 25.09.2026 Klubi Gutenbergi FB events-tabist. Kaks allikat: ürituse FB event (korraldajad Tartu Massive + Klubi Gutenberg + 2) + Ticketeri piletileht (R 9. oktoober, uksed 23.00, Kastani 42, 18+) — kuupäev, kellaaeg ja koht kattuvad. Žanr KORRALDAJA ENDA lehelt: Tartu Massive — „monthly drum & bass event that takes place in Tartu“ (asutatud 2008); ürituse FB-leht kannab ka silti „Dance“. Residentide nimed avaldamata → koosseis_tba."
+  },
+  {
    "d": "2026-10-10",
    "t": "klubi",
    "n": "STF 2026 & inklingroom & Paavli takeover: Aïsha Devi + Ayano Yokoyama & 34423",

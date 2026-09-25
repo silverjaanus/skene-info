@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 166,
+ "count": 169,
  "entries": [
   {
    "sait": "www",
@@ -356,6 +356,32 @@
    "sait": "www",
    "d": "2026-09-25",
    "t": "kontsert",
+   "n": "DND + Pettunud Kodanik",
+   "a": "algus 20.00; DND alustab sügist kontserdiga Lõuna-Eestis",
+   "b": [
+    "DND",
+    "Pettunud Kodanik"
+   ],
+   "v": "Võru Kannel",
+   "c": "mujal",
+   "linn": "Võru",
+   "g": [
+    "rock",
+    "alt",
+    "post",
+    "punk"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1287892906446194/",
+   "lisatud": "2026-09-25",
+   "nb": "leitud jarelejooksus 25.09.2026 Rada7 FB events-tabist. Kaks allikat: urituse FB event (korraldajad Ulmelung + Pettunud Kodanik + 2) + Voru Kandle ENDA FB-postitus („25. september on Kandles kohal DND, Pettunud Kodanik… 25. sept 20.0“, google.ee kaudu), kuupaev/kellaaeg/koht kattuvad; kolmas Kagu-Eesti postitus. Zanr urituse enda lehelt: „legendaarne Tartu alternatiivroki ansambel DND“; Pettunud Kodaniku oma leht: „Navigeerume meeletus postpungikaoses. Tartu.“ Pilet/uksehind lehel avaldamata."
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-25",
+   "t": "kontsert",
    "n": "Haaveet (FIN) + Nova Lux + Volta",
    "a": "„ilus sügisene muusika, nagu Kaurismäki filmis“; algus 19.00",
    "b": [
@@ -571,7 +597,8 @@
    "n": "The Rumjacks (AUS)",
    "a": "Austraalia celtic punk; uksed 19.00, algus 19.30; korraldaja Winiary Bookings (PL)",
    "b": [
-    "The Rumjacks"
+    "The Rumjacks",
+    "Tabloited"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -587,7 +614,7 @@
     "mark": "kiireim 20€, tavaeelmuuk 25€, urituse paeval 30€",
     "allikas": "Piletilevi, kontrollitud 28.07.2026"
    },
-   "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht (varem oli ainult avastusallikas).",
+   "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht (varem oli ainult avastusallikas). | 25.09.2026 jarelejooks, RIKASTUS: urituse FB event (https://www.facebook.com/events/2384404665379203/, korraldajad WiniaryBookings + Tabloited + Paavli Kultuurivabrik) nimetab SOOJENDAJAT, keda kirjes ei olnud — Tabloited, Eesti punkrockband aastast 2016. Lisatud b-sse.",
    "img": "https://www.skene.info/pildid/therumjacksaus.webp",
    "on_": "Paavli Kultuurivabrik",
    "ou": "https://paavli.ee/sundmused/the-rumjacks-25-09-26-paavli-kultuurivabrik-tallinn/"
@@ -1980,6 +2007,35 @@
    "img": "https://www.skene.info/pildid/tarbariitus.webp"
   },
   {
+   "sait": "klubi",
+   "d": "2026-10-09",
+   "t": "klubi",
+   "n": "Tartu Massive: Changing Faces (SK)",
+   "a": "uksed 23.00, lõpp 04.00, 18+; Tartu Massive'i 18. hooaeg, külaline esineb Eestis esmakordselt",
+   "b": [
+    "Changing Faces (SK)"
+   ],
+   "v": "Klubi Gutenberg",
+   "c": "Tartu",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Klubi Gutenbergi FB events-tab",
+   "su": "https://www.facebook.com/KlubiGutenberg/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1434611688578124/",
+   "pu": "https://www.ticketer.ee/tartumassive-changingfaces",
+   "lisatud": "2026-09-25",
+   "koosseis_tba": 1,
+   "hind": {
+    "praegu": "10 €",
+    "mark": "early bird, piiratud kogus; lisandub Ticketeri tehingutasu 0,70 €",
+    "allikas": "Ticketer, kontrollitud 25.09.2026"
+   },
+   "nb": "leitud järelejooksus 25.09.2026 Klubi Gutenbergi FB events-tabist. Kaks allikat: ürituse FB event (korraldajad Tartu Massive + Klubi Gutenberg + 2) + Ticketeri piletileht (R 9. oktoober, uksed 23.00, Kastani 42, 18+) — kuupäev, kellaaeg ja koht kattuvad. Žanr KORRALDAJA ENDA lehelt: Tartu Massive — „monthly drum & bass event that takes place in Tartu“ (asutatud 2008); ürituse FB-leht kannab ka silti „Dance“. Residentide nimed avaldamata → koosseis_tba."
+  },
+  {
    "sait": "www",
    "d": "2026-10-10",
    "t": "kontsert",
@@ -3324,6 +3380,32 @@
     "praegu": "20 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    }
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-28",
+   "t": "kontsert",
+   "n": "Aircraft (UA/DE) + Gentle Ropes",
+   "a": "algus 19.00, lopp 23.00; Aircrafti live-set katab 15 aasta kataloogi, keskmes uus EP «Тигролови» („Tiger Hunters“, kuus lugu)",
+   "b": [
+    "Aircraft (UA/DE)",
+    "Gentle Ropes"
+   ],
+   "v": "Fort bar",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "punk",
+    "shoegaze",
+    "alt"
+   ],
+   "sn": "Fort bar FB events-tab",
+   "su": "https://www.facebook.com/fortbar.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1625942459052921/",
+   "pu": "https://ra.co/events/2537589",
+   "lisatud": "2026-09-25",
+   "nb": "leitud sweepis 25.09.2026 Fort bari FB events-tabist. Kaks allikat: urituse FB event (korraldajad Aircraft + Fort bar) + RA ureituseleht (L 28.11.2026 19.00–23.00, Fort Bar, Pikk 43; promootor Danyil Merkulov = artist ise), kuupaev ja koosseis kattuvad. ⚠ SAIDIVALIK ON SILVERI OTSUS 25.09.2026 („laheb metali lehele“) — urituse FB-leht zanrit ei utle ja RA pani ta elektroonika-poolele, seega sweep kusis ule. ZANR tuleb RA ureituselehe kirjeldusest, mille kirjutas artist ise: RA sildid „New Wave, Post-Punk“ + tekst „dream pop, shoegaze, synth-driven melancholy and dark electronic textures“, „atmospheric guitars, synthesizers, drum machines“. Aircraft asutatud Kiievis 2011 (Danyil Merkulov), praegu Berliinis. Hinda RA lehel ei nimetata (piletiwidgeti taga)."
   },
   {
    "sait": "www",

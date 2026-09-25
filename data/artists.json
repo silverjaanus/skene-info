@@ -351,6 +351,16 @@
         "australian rock"
       ]
     },
+    "Aircraft (UA/DE)": {
+      "checked": "2026-09-25",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "japanese",
+        "j-pop",
+        "likedis auto"
+      ]
+    },
     "Airi Triisberg": {
       "checked": "2026-09-04",
       "domain": "www",
@@ -1479,6 +1489,19 @@
         "brutal death metal",
         "technical death metal",
         "goregrind"
+      ]
+    },
+    "Changing Faces": {
+      "checked": "2026-09-25",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "rnb",
+        "female vocalists",
+        "90s",
+        "girl groups",
+        "soul",
+        "drum and bass"
       ]
     },
     "Charch": {
@@ -3009,6 +3032,17 @@
         "rap",
         "eesti",
         "hip-hop"
+      ]
+    },
+    "Gentle Ropes": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "gothic rock",
+        "post-punk",
+        "coldwave",
+        "darkwave"
       ]
     },
     "Geordie Greep": {
@@ -8744,6 +8778,17 @@
       "tags": [
         "classic pop and rock",
         "soul"
+      ]
+    },
+    "Tabloited": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "punk",
+        "diy",
+        "estonian",
+        "ramopunk"
       ]
     },
     "Tanel Mütt": {
