@@ -903,7 +903,7 @@
   "d": "2026-09-26",
   "t": "klubi",
   "n": "IDA Off Air: Paabel Afterparty",
-  "a": "Kultuurifoorum Paabeli peoohtu klubis MOD; algus 22.00. Piletite eelmuuk oli 09.09 seisuga veel avaldamata",
+  "a": "Kultuurifoorum Paabeli peoõhtu klubis MOD; 22.00–05.00",
   "b": [
    "Josey Rebelle",
    "Xterea",
@@ -923,8 +923,14 @@
   "on_": "Paavli Kultuurivabrik",
   "ou": "https://paavli.ee/sundmused/ida-off-air-paabel-afterparty/",
   "lisatud": "2026-09-09",
-  "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (facebook.com/events/1054641947349414, korraldaja IDA Radio) + paavli.ee uritusleht, mis annab taiskoosseisu (Josey Rebelle TTT/Open Ground DJ, Xterea 5 Gate Temple LIVE, Sansibar Sin Sistema LIVE, Nikolajev & Ats IDA DJ). Pilet: paavli.ee utleb 'piletite eelmuuk & lisainfo uuel nadalal' -> pu jaab tuhjaks, kontrolli jargmises sweepis.",
-  "img": "pildid/idaoffairpaabelafterparty.webp"
+  "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (facebook.com/events/1054641947349414, korraldaja IDA Radio) + paavli.ee uritusleht, mis annab taiskoosseisu (Josey Rebelle TTT/Open Ground DJ, Xterea 5 Gate Temple LIVE, Sansibar Sin Sistema LIVE, Nikolajev & Ats IDA DJ). Pilet: paavli.ee utleb 'piletite eelmuuk & lisainfo uuel nadalal' -> pu jaab tuhjaks, kontrolli jargmises sweepis. ⚠ RIKASTATUD 25.09.2026 postkastijooksus: pilet AVALDATUD, `pu` + `hind` lisatud (09.09 märkus „kontrolli järgmises sweepis“ on sellega suletud). Hind piletimüüjalt (REEGLID §3): Fienta ürituseleht ütleb early bird 8 €, üritusepäeva eelmüük 10 €, uksel 15 €; sama leht kinnitab ka kuupäeva 26.09.2026 22.00–05.00, koha MOD (Paavli 9) ja sama nelja esineja koosseisu. Teine allikas: Paavli Kultuurivabriku enda uudiskiri 24.09.2026, mis annab identsed hinnaastmed. `ou` jääb paavli.ee ürituselehele (REEGLID §3: piletimüüja EI TOHI olla `ou`-väljal).",
+  "img": "pildid/idaoffairpaabelafterparty.webp",
+  "pu": "https://fienta.com/et/ida-off-air-paabel-afterparty-w-josey-rebelle-xterea-sansibar-nikolajev-ats",
+  "hind": {
+   "praegu": "8 €",
+   "mark": "early bird; üritusepäeva eelmüük 10 €, uksel 15 €",
+   "allikas": "Fienta, kontrollitud 25.09.2026"
+  }
  },
  {
   "d": "2026-09-26",
@@ -1646,8 +1652,12 @@
   "t": "klubi",
   "n": "Masta Blasta @ MOD",
   "a": "Tartu bassimuusika-korraldaja Masta Blasta MODis; 23.00–05.00, UK-continuumi bassimuusika",
-  "b": [],
-  "koosseis_tba": 1,
+  "b": [
+   "Cärol",
+   "Kässar",
+   "Habur",
+   "Konsap"
+  ],
   "v": "MOD",
   "c": "Tallinn",
   "g": [
@@ -1660,7 +1670,7 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1769046797744420/",
   "lisatud": "2026-09-11",
-  "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Masta Blasta + MOD.tln) + MOD.tln events-tab. Korraldaja on ka sources.json-is (ra.co/promoters/112333). Ürituse kirjeldus: „bass music … across the wider UK continuum“. DJ-koosseis pole veel avaldatud → koosseis_tba. Pilet/uksehind avaldamata.",
+  "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Masta Blasta + MOD.tln) + MOD.tln events-tab. Korraldaja on ka sources.json-is (ra.co/promoters/112333). Ürituse kirjeldus: „bass music … across the wider UK continuum“. DJ-koosseis pole veel avaldatud → koosseis_tba. Pilet/uksehind avaldamata. ⚠ RIKASTATUD 25.09.2026 postkastijooksus: DJ-koosseis avaldatud, `koosseis_tba` eemaldatud. KAKS SÕLTUMATUT ALLIKAT nimetavad samad neli nime: (1) venue/kaaskorraldaja Paavli Kultuurivabriku ENDA uudiskiri 24.09.2026 („Behind the decks: CÄROL, Kässar, HABUR and KONSAP. Doors at 23:00“) ja (2) Rada7.ee uudiskiri 24.09.2026 („puldis Cärol, Kässar, Habur ja Konsap“). Nimekuju võetud Rada7 tavakirjapildist. Žanrisilte EI muudetud — need on ürituse enda FB-lehe tekstist („bass music … across the wider UK continuum“), uudiskiri ei ole žanriallikas (REEGLID §1). Pilet/uksehind endiselt avaldamata.",
   "img": "pildid/mastablastamod.webp"
  },
  {

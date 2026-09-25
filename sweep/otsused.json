@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "oid": "2026-09-25-riste-supipaev-lp-remaster",
+  "kysimus": "Riste — «Supipäev (LP remaster 2026)», ilmus 15.09.2026 Bandcampis, 14 lugu. Kas 2023. aasta albumi 2026. remaster / vinüülikordustrükk läheb www-le reliisina?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "Jätta välja — kordustrükk on tagakataloog, saidile läheb ainult uus looming (14.09 pretsedent: „ei vanu asju pole küll vaja tuua\")."
+   },
+   {
+    "id": "b",
+    "tekst": "Lisada www-le reliisina, d = 2026-09-15, rel + lisatud = 2026-09-15; sildid punk + folk + alt (samad, mis Riste 12.09 folkpunk-õhtu kirjel)."
+   }
+  ],
+  "vaikeotsus": "a",
+  "tahtaeg": "2026-09-30",
+  "lingid": [
+   "https://ristesofiekaar.bandcamp.com/album/supip-ev-lp-remaster-2026",
+   "https://www.facebook.com/events/1962707430915134/"
+  ],
+  "kontekst": "Leitud 25.09.2026 postkastijooksus Rada7.ee uudiskirjast 24.09.2026 („Kinomajas tähistab Riste aga seda, et album «Supipäev» jõudis vinüülile\"; esitluskontsert 24.09 Kinomajas koos Pastacase ja Richard Jerbachiga — see kontsert ISE on juba möödas, seda ei backfilli). KAKS ALLIKAT ON OLEMAS: (1) albumi Bandcamp-leht, mis ütleb „released 15 September 2026\" ja credits'ites „lindistatud 2023. aasta veebruaris türi proovikas. esimest korda välja antud 2023. aasta märtsis degenerate undergroundi alt\" — REEGLID §6 Bandcampi kuupäevalõks on seega kontrollitud, credits kinnitab, et 15.09.2026 on remasteri, mitte originaali kuupäev; (2) Rada7 uudiskiri + 24.09 esitluskontserdi FB event, mis mõlemad kinnitavad vinüüli ilmumist septembris 2026. MIKS KÜSIN: kaks reeglit osutavad vastassuunda. REEGLID §6 (14.09 Mang Ondi otsus) ütleb, et tagakataloogi saidile ei tooda — ja see ON 2023. aasta album. Samal ajal EI OLE tegu uue Bandcampi allika tagakataloogi hulgi-importimisega (see oli 14.09 otsuse tegelik kontekst): see on ÜKS konkreetne 2026. aastal tehtud remaster, millel on oma vinüülväljalase ja oma esitluskontsert, ehk artisti jaoks päris 2026. sündmus. Artist ise on juba www-l (Giz Medium + Riste + Qaribou + Sur(m)prise 12.09.2026 Ülase12, sildid punk + folk + alt), seega žanriliselt skoobis. Bandcampi lehel ei ole žanrisilte — (b) puhul tuleksid sildid artisti olemasolevalt kirjelt, mitte lehelt. Vastus annab ka PÜSIREEGLI: kas remaster/kordustrükk/vinüülväljalase üldse loeb reliisiks REEGLID §6 mõttes. ristesofiekaar.bandcamp.com EI ole sweep/sources.json-is, seega check_bandcamp seda ei valva ja acki ei vaja — (a) korral ei jää midagi rippuma.",
+  "lisatud": "2026-09-25"
+ }
+]
