@@ -3395,7 +3395,7 @@
     "Cryptic"
    ],
    "v": "Kultuuriklubi Tempel",
-   "c": "Pärnu",
+   "c": "mujal",
    "g": [
     "hardstyle",
     "hard dance",
@@ -3411,7 +3411,8 @@
    },
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta ürituseleht (korraldaja White Noise Events / Hardstyle Addendum) + Kultuuriklubi Tempel kui sources.json-i klubi-allikas (ra.co/clubs/151795). Skoop: underground-korraldaja hardstyle/rawstyle/hardcore jääb sisse (REEGLID §1, pretsedendid Brennan Heart 11.09 ja D-Block & S-te-Fan 26.09); peavoolu-EDM oleks välja.",
-   "img": "pildid/hardstyleaddendum8bitbitcrushrno.webp"
+   "img": "pildid/hardstyleaddendum8bitbitcrushrno.webp",
+   "linn": "Pärnu"
   },
   {
    "d": "2026-09-18",

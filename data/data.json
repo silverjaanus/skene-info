@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-25",
  "entries": [
   {
    "d": "2026-07-20",
@@ -108,63 +108,6 @@
    "su": "https://open.spotify.com/album/2BXmkqfUfg9kJHrhKgqqmO",
    "nb": "lisatud 30.08.2026 postkastijooksus (sama kontaktivormi sisend, mis 18.09 väljalaskeüritus). KAKS ALLIKAT: bändi kodulehe teade maiskizo.ee 29.08.2026 (ametlik avaldamiskuupäev 18.09.2026) + Spotify albumileht 2BXmkqfUfg9kJHrhKgqqmO (pealkiri «Valu mõte», 13 lugu — kattub kodulehe 01.01.2026 postituse loeteluga). ⚠ KUUPÄEVA NÜANSS: bänd ütleb ise, et album on Spotifys JUBA saadaval, aga ametlik avaldamiskuupäev on 18.09.2026 — `d` järgib bändi enda ametlikku kuupäeva, mis on ka väljalaskeürituse päev. Voogedastuses on lugude nimed veidi teised kui kodulehe tracklistis («Proloog»/«Epiloog» vs «Valu mõte I/II osa», «Mai ei tea» vs «Ma ei tea»).",
    "img": "pildid/maiskizovalumote.webp"
-  },
-  {
-   "d": "2026-09-24",
-   "t": "kontsert",
-   "n": "Baltic BS Tour: Memoira (FIN) + EGRES (FIN) + Portread",
-   "a": "Baltic Bloodstained Metal Tour; showtime 21.00; piletid uksel (hind TBA), ajakava TBA",
-   "b": [
-    "Memoira (FIN)",
-    "EGRES (FIN)",
-    "Portread"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "symphonic",
-    "prog"
-   ],
-   "sn": "Sügis Productions FB",
-   "su": "https://www.facebook.com/sugisproductions/upcoming_hosted_events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1536748294619794/",
-   "nb": "lisatud sweepis 19.07.2026; korraldaja Bloodstained Metal + The Krypt; piletid uksel, hind veel avaldamata - jälgi 2b-s",
-   "img": "pildid/balticbstourmemoirafinegresfinportread.webp"
-  },
-  {
-   "d": "2026-09-24",
-   "t": "kontsert",
-   "n": "ALUK TODOLO (FR) + Mang Ont + Forgotten Sunrise Syndrone",
-   "a": "Prantsuse instrumentaalne okultrock/avangardne black-trio Aluk Todolo esimest korda üle 15 aasta Eestis; Tartu instrumentaalne stoner/doom-trio Mang Ont ja Forgotten Sunrise'i elektrooniline/dark ambient kõrvalprojekt. Uksed 19.00, uksehind 25 €",
-   "b": [
-    "Aluk Todolo",
-    "Mang Ont",
-    "Forgotten Sunrise Syndrone"
-   ],
-   "v": "Rockclub Tapper",
-   "c": "Tallinn",
-   "g": [
-    "black",
-    "doom",
-    "stoner",
-    "metal",
-    "rock",
-    "dark"
-   ],
-   "sn": "Rockclub Tapper (FB events)",
-   "su": "https://www.facebook.com/rockclubtapper/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1826473062041845/",
-   "hind": {
-    "praegu": "25 €",
-    "mark": "uksehind, online-piletimüüki ei ole; uksed 19.00",
-    "allikas": "ürituse FB-kirjeldus, kontrollitud 13.09.2026"
-   },
-   "lisatud": "2026-09-13",
-   "nb": "lisatud 13.09.2026 Silveri sisendina (saatis fb.me/e/264Kgp0ofi vestluses). KOLM ALLIKAT: ürituse FB event 1826473062041845 (N 24.09.2026 kl 19.00 EEST, Rockclub Tapper, Pärnu mnt 158g) + Mang Ondi enda FB-lehe postitus 12.09 („Varsti Tallinnas!“, https://www.facebook.com/mangont) + Rockclub Tapperi FB events-tab, kus üritus seisab. ⚠ MIKS SWEEP SEDA EI PÜÜDNUD: korraldajad on kolm ERAISIKUT (Holden Bonne Laamann, Anders Melts, Kaido Haavandi), mitte leht — üritus ei jõua Tapperi veebiprogrammi ega ühegi korraldajalehe events-tabi; ainus masinloetav koht on Tapperi FB events-tab. Bändide taust ürituse enda kirjeldusest: Aluk Todolo = 2004. aastast tegutsev instrumentaalne okultrocki trio (kraut + okultne black; esines SUNN O))) kutsel Roadburn 2011-l), Mang Ont = 2011. aastal Tartus alustanud instrumentaalne stoner/doom-trio (https://mangont.bandcamp.com/), Forgotten Sunrise Syndrone = Forgotten Sunrise'i elektrooniline/dark ambient kõrvalprojekt. ⚠ Rockfreaks.net tuurinimekiri näitab Aluk Todolol AINULT Helsingi kuupäeva (25.09, KULT) — Tallinna kuupäev on seal puudu, seega agregaatorit teise allikana EI kasutatud.",
-   "img": "pildid/aluktodolofrmangontforgottensunrisesyndrone.webp"
   },
   {
    "d": "2026-09-25",
@@ -506,7 +449,7 @@
     "Joy Palace"
    ],
    "v": "Konservatoorium",
-   "c": "Viljandi",
+   "c": "mujal",
    "g": [
     "death",
     "metal",
@@ -517,7 +460,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/27551155547893250/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Konservatoorium + Uranus) + Konservatooriumi FB events-tab. Soome death'n'roll. ⚠ FB asukohaväli ütleb 'Lossi 42/1' — Konservatoorium on Koidu 13a, Viljandi; kirjes on venue nimi. Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Konservatoorium + Uranus) + Konservatooriumi FB events-tab. Soome death'n'roll. ⚠ FB asukohaväli ütleb 'Lossi 42/1' — Konservatoorium on Koidu 13a, Viljandi; kirjes on venue nimi. Pilet/uksehind avaldamata.",
+   "linn": "Viljandi"
   },
   {
    "d": "2026-09-26",
@@ -622,6 +566,34 @@
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Hell, Tartu) + Hell, Tartu FB events-tab. Tiigi 76a. Pilet/uksehind avaldamata."
   },
   {
+   "d": "2026-09-28",
+   "t": "kontsert",
+   "n": "LILIxELBE (CZ) + Decultivate (CZ) + Trigger (DE) + In Obscurity Revealed (MX) + Koni + Childbeater",
+   "a": "algus 18.00; kuus bandi Tsehhist, Saksamaalt, Mehhikost ja Eestist; korraldaja sonastus „kuus bandi ule maailma kommiraha eest“",
+   "b": [
+    "LILIxELBE (CZ)",
+    "Decultivate (CZ)",
+    "Trigger (DE)",
+    "In Obscurity Revealed (MX)",
+    "Koni",
+    "Childbeater"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "grind",
+    "death",
+    "metal"
+   ],
+   "sn": "Konservatooriumi FB events-tab",
+   "su": "https://www.facebook.com/konservatoorium/events?locale=et_EE",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2178578089753939/",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Konservatoorium + Kaleo Ghidora) + Konservatooriumi ENDA kuukava-postitus „SEPTEMBER 2026 ver.2“ (google.ee tulem kinnitab E 28.09 18.00, Koidu 13a Viljandi). Sama tuuripakett nagu 27.09 Ulase12 kirjel (https://www.facebook.com/events/1793462062082892/), mille leht utleb zanri valja: Trigger = 90ndate grindcore; In Obscurity Revealed (MX) = death metal (sama band on 29.09 Ulase12 kirjel). ZANR tuleb seega ESINEJATE ja sama paketi urituse enda lehelt, MITTE venue profiilist (REEGLID §1). ⚠ classify.py kontrollib. Pilet/uksehind avaldamata."
+  },
+  {
    "d": "2026-09-29",
    "t": "kontsert",
    "n": "TESA + Thousand Hands + Pühak + In Obscurity Revealed + Kubong",
@@ -657,7 +629,7 @@
     "Deceitome"
    ],
    "v": "Konservatoorium",
-   "c": "Viljandi",
+   "c": "mujal",
    "g": [
     "metal",
     "death"
@@ -674,7 +646,8 @@
    "hind": {
     "praegu": "10–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "linn": "Viljandi"
   },
   {
    "d": "2026-10-02",
@@ -870,9 +843,9 @@
    ],
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil | 04.09.2026 sweep: Fienta piletileht leitud (teravmoon-rock-thekrypt), pu lisatud.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1608781534228631/",
+   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil | 04.09.2026 sweep: Fienta piletileht leitud (teravmoon-rock-thekrypt), pu lisatud. | 25.09.2026 sweep: ou-vali oli AVASTUSALLIKAS (thekrypt.ee/events, venue uldine kava) — REEGLID §3/§8 noavad urituse ENDA lehte. Asendatud FB eventiga 1608781534228631 (kinnitatud: L 3.10.2026 20.00–02.00, The Krypt); venue veebikava jai su-le.",
    "img": "pildid/rocksaturdayteravmoon.webp",
    "pu": "https://fienta.com/et/teravmoon-rock-thekrypt",
    "hind": {
@@ -903,6 +876,29 @@
    "ou": "https://www.facebook.com/events/1044384211758247/",
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Hell, Tartu + ZLO) + Hell, Tartu FB events-tab. „Mõnus, sotsiaalse sõnumiga laetud vanakooli punkrokk.“ ⚠ EI OLE duplikaat 26.09 „Laine Live: Kurjam + ZLO“ omaga (eri kuupäev, eri linn, eri koosseis). Pilet/uksehind avaldamata."
+  },
+  {
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "Dramamama & JAXY",
+   "a": "algus 19.00; uhiskontsert, tahistatakse 30 aasta moodumist JAXY tegutsemise algusest",
+   "b": [
+    "Dramamama",
+    "JAXY"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Genialistide Klubi FB events-tab",
+   "su": "https://www.facebook.com/GenKlubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1359246889628472/",
+   "pu": "https://sviby.com/et/e/lm9ho1",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad WD Events + Genialistide Klubi + JAXY + DRAMAMAMA) + Sviby piletileht. Zanr tuleb BANDI ENDA FB-lehelt (DRAMAMAMA: „Official Facebook page for Estonian rock band“) — mitte venue profiilist (REEGLID §1); Dramamama on saidil juba esinejana Tartu Rock Fest 2026 kirjes. JAXY oma leht utleb ainult „Music with vocals“. ⚠ classify.py kontrollib sildid. Hinda FB-lehel ei nimetata."
   },
   {
    "d": "2026-10-04",
@@ -1026,17 +1022,25 @@
   {
    "d": "2026-10-09",
    "t": "kontsert",
-   "n": "Rock Friday: ROCKSHOCK + NIGHT FLIES",
-   "b": [],
+   "n": "Rock Friday: Rockshock + Night Flies",
+   "a": "uksed 20.00 (venue veebikava), show 21.00–02.00 (FB event + Fienta); Rock Friday on Krypti sari, mis toob underground- ja soltumatud bandid lavale",
+   "b": [
+    "Rockshock",
+    "Night Flies"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
-    "metal"
+    "rock",
+    "alt"
    ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-rockshock-night-flies/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
+   "sn": "The Krypt veebikava",
+   "su": "https://www.thekrypt.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4723584894544525/",
+   "pu": "https://fienta.com/et/rockshock-nightflies-thekrypt",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Night Flies + Rockshock cover band) + Fienta piletileht, mille kuupaev/kellaaeg (R 9.10 21.00–02.00) kattub; kolmas The Krypti enda veebikava thekrypt.ee/events. Zanr urituse enda lehelt: „originaalset alternatiivrokki ja legendaarseid hard rock’i hitte“. ⚠ Kellaaeg: veebikava utleb 20.00, FB+Fienta 21.00 — molemad a-valjal, ei valinud. Hinda lehel ei nimetata (Fienta widgeti taga), seetottu hind tuhi."
   },
   {
    "d": "2026-10-10",
@@ -1125,7 +1129,7 @@
     "CryBaby"
    ],
    "v": "Pubi Juudas",
-   "c": "Tõrva",
+   "c": "mujal",
    "g": [
     "rock",
     "bluus"
@@ -1137,7 +1141,8 @@
    "pu": "https://gateme.com/et/pubijuudas/104235-jimi-hendrix-84",
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad CryBaby + Pubi Juudas) + GateMe piletileht. CryBaby FB-leht ütleb žanriks blues/rock — bluus on www 8. metafilter (otsus 26.07.2026).",
-   "img": "pildid/jimihendrix84crybaby.webp"
+   "img": "pildid/jimihendrix84crybaby.webp",
+   "linn": "Tõrva"
   },
   {
    "d": "2026-10-10",
@@ -1380,20 +1385,28 @@
   {
    "d": "2026-10-17",
    "t": "kontsert",
-   "n": "Heavy Saturday: UNREAL + MONSTERCÖUQ",
+   "n": "Heavy Saturday: Un-Real + Monstercöuq",
+   "a": "uksed 20.00 (venue veebikava), show 21.00–02.00 (FB event + Fienta); heavy metal ja punk",
    "b": [
-    "UNREAL",
-    "MONSTERCÖUQ"
+    "Un-Real",
+    "Monstercöuq"
    ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
-    "metal"
+    "heavy",
+    "metal",
+    "thrash",
+    "power",
+    "punk"
    ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/%f0%9d%91%af%f0%9d%92%86%f0%9d%92%82%f0%9d%92%97%f0%9d%92%9a-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-unreal-monstercouq/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events"
+   "sn": "The Krypt veebikava",
+   "su": "https://www.thekrypt.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1741261913798786/",
+   "pu": "https://fienta.com/et/unreal-monstercouq-thekrypt",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Monstercöuq jt) + Fienta piletileht (L 17.10 21.00–02.00, kattub); kolmas The Krypti veebikava. Zanr urituse enda lehelt: „Laupaeval, 17. oktoobril votavad Krypti lava ule heavy metal ja punk“ — Un-Real klassikaline heavy metal + thrash/power, Monstercöuq Eesti punkrock. ⚠ Kellaaeg: veebikava 20.00 vs FB/Fienta 21.00, molemad a-valjal. Hinda lehel ei nimetata."
   },
   {
    "d": "2026-10-22",
@@ -2338,7 +2351,7 @@
    "a": "Oslo extreme metal festival; koosseis avaldamata",
    "b": [],
    "v": "Rockefeller / John Dee jt",
-   "c": "mujal",
+   "c": "Euroopa",
    "linn": "Oslo",
    "g": [
     "black",
@@ -2448,7 +2461,7 @@
    "a": "Rootsi suurim hard rock / heavy metal festival; koosseis avaldamata",
    "b": [],
    "v": "Norje, Sölvesborg",
-   "c": "mujal",
+   "c": "Euroopa",
    "linn": "Sölvesborg",
    "g": [
     "rock",
@@ -2499,7 +2512,7 @@
    "a": "Desseli suurfestival; koosseis avaldamata",
    "b": [],
    "v": "Dessel",
-   "c": "mujal",
+   "c": "Euroopa",
    "linn": "Dessel",
    "g": [
     "metal",
@@ -2522,7 +2535,7 @@
    "a": "Clissoni suurfestival; koosseis avaldamata",
    "b": [],
    "v": "Clisson",
-   "c": "mujal",
+   "c": "Euroopa",
    "linn": "Clisson",
    "g": [
     "metal",
@@ -2546,7 +2559,7 @@
    "a": "Kopenhaageni metal-festival Refshaleoenil; koosseis avaldamata",
    "b": [],
    "v": "Refshaleøen",
-   "c": "mujal",
+   "c": "Euroopa",
    "linn": "Kopenhaagen",
    "g": [
     "metal",
@@ -2568,7 +2581,7 @@
    "a": "Oslo Ekebergsletta suurfestival; koosseis avaldamata",
    "b": [],
    "v": "Ekebergsletta",
-   "c": "mujal",
+   "c": "Euroopa",
    "linn": "Oslo",
    "g": [
     "rock",

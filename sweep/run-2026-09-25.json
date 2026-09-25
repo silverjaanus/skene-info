@@ -1,0 +1,853 @@
+{
+ "kuupaev": "2026-09-25",
+ "allikaid": 233,
+ "avatud": 23,
+ "skipitud": [
+  {
+   "url": "https://www.facebook.com/barbarestonia/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/we.are.too.damn.loud/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/sugisproductions/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/moisakontsert/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/mahtrarecords",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "Nailboard Rock Shop",
+   "pohjus": "sources.json-is URL puudub (Nailboard Rock Shop) - vajab taitmist"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://howlsofwinter.eu/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/ehewinkel/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/300klubi/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/UGbaar/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://wunderbaar.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/exanityofficial/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/ArtClubRoRo/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/groups/112392415448166/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.kultuurikeskus.ee/underground/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/stedingukelder/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/festivalimaja/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/urbancultureent/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/BloodBathFest/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://hardrocklaager.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/aprillikivi/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://pergerus.eu/et/tarbariitus/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/events/search/?q=hetk%20tuberkuloited",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/balticliveagency/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/LTipsAgencyEstonia/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/rada7.ee/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://rada7.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/et/o/29285",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/facecollectorband/upcoming_hosted_events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/Plaaditurg/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/metallistid/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/MaiSkizo/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/s/kolmnurk",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fringe.ee/tickets/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/permanentblueofficial/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/Violetscape/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/paarlonksu/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://lonksbaar.ee",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/madeinvachina.kimjongun/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/BlackRevalia/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/Raskemuusikaliit/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://heavymusic.ee/uudised/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100043304575899&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/kivibaar/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/TerminalRecordsandBar/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://baar.terminal.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/Wavydnb/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.instagram.com/damn.loud/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.instagram.com/sugisextremefest/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.instagram.com/tuum.baar/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/eestihiphopfestival/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://lukemois.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/rada7.ee/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/legendaarne/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/dieuhuitrecords",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://dewdewdew.com/et",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/mckrick/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/MastaRobusta/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/tymmisaun/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.instagram.com/eestihiphopfestival/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.instagram.com/tommycashworld/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.instagram.com/nublufy/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://legendaarne.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.piletilevi.ee/piletid/muusika",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/et?q=r%C3%A4pp",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.hiphop.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://esthiphop.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://tartupunch.com/et/avaleht-eesti/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://tourmotor.net",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/et?q=metal",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/Paavli.Kvartal/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://helitehas.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://somo.social",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.kluub.ee",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://onlinepilet.ee",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://kultuuriaken.tartu.ee/et/syndmused",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://gateme.com/et/Estonia/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.piletimaailm.com/categories/1-muusika",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.ticketer.ee",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.piletilevi.ee/search?query=metal",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://ticketshop.ee/et/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://muusikaplaneet.ee/category/singel/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://events.musicofourdesire.com/tallinn",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://tuska.fi/en/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://steelfest.fi/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://copenhell.dk/en/front-page/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://swedenrock.com/en/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.tonsofrock.no/en",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.beyondthegates.no/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://infernofestival.no/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.wacken.com/en/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.hellfest.fr",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.graspop.be",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "http://www.summer-breeze.de",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.brutalassault.cz",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.wave-gotik-treffen.de/english/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://meraluna.de/en/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/punkrockfestival/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://saund.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/veriorarock.stroganoff/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://townflesh.bandcamp.com/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/turtlewave.label/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://mangont.bandcamp.com/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://seksound.bandcamp.com/music",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/AudioPlaneet/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/Arturlaats/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/TartuMassive/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/KlubiGutenberg/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/kakstuba/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://vmpr.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/rada7.ee/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61557037942445&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/Dzungelparty/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/djreglok/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/tolm.trt/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/veetorniaed/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/cabrioclub/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/erinevatetubadeklubi/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/hubbaclubba/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/vaipevents/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/people/White-Noise-Events/61553131574943/?sk=events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/FeelTheHungr/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/primemomentsevents/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/kultuuriklubisalong/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/psyhhoteek/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://ra.co/events/ee/all",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/235784",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://fienta.com/o/17595",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/et/o/17330",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/et/o/17855",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/et?q=techno",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://ra.co/clubs/265290",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/151795",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://www.d-3.ee/events/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://ra.co/clubs/147536",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://genklubi.ee/events/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://allevents.in/tallinn/raves",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://www.facebook.com/satnamest/events",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://estelmus.com/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://ra.co/clubs/268078",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/266488",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/277713",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/165290",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/229208",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/289641",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/135627",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/274650",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/171803",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/258847",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/256380",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/clubs/130421",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/114408",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/167566",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/34191",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/168166",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/112914",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/166316",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/114452",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/154074",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/117673",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/126462",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/182414",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/169601",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/152869",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/186216",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/190547",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/191300",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://ra.co/promoters/112333",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://idaidaida.net/",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://fienta.com/et?q=white+noise",
+   "pohjus": "ajaeelarve: Claude desktop appi sild oli maas 00:05-00:24 UTC ja flappis veel ~20 min (git status hangus, index.lock), jooks algas ~40 min hiljem"
+  },
+  {
+   "url": "https://ra.co/clubs/291356",
+   "pohjus": "kaetud sweep/ra_snapshot.json kaudu (tommatud 2026-09-24, 1 p vana -> TOOVOOG reegel 15 lubab)"
+  }
+ ],
+ "uusi": {
+  "www": 4,
+  "rap": 1,
+  "klubi": 1
+ },
+ "markus": "25.09 sweep: jooks algas ~40 min hiljem, sest Claude desktop appi sild kukkus ara (00:05-00:24 UTC) ja flappis veel; git index.lock jai hangunud git statusest maha ja tuli eemaldada. RA kirjed loetud snapshotist (24.09). Lisaks 11 andmeparandust: c-vali oli 5 Eesti kirjel linna nimi (Viljandi/Torva/Parnu) -> need kukkusid VAIKSELT nadalapildi/uudiskirja Eesti-filtrist valja (common.EESTI = Tallinn/Tartu/mujal), ja 6 valisfestivali 2027 olid c=mujal -> oleksid ekslikult Eesti kirjeteks loetud. Teravmoon 03.10 ou-vali osutas venue uldisele kavale, asendatud FB eventiga."
+}

@@ -65,6 +65,20 @@
       "src": "none",
       "tags": []
     },
+    "32 BLOCK": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "360 residendid": {
+      "checked": "2026-09-25",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "hip hop"
+      ]
+    },
     "3H Company": {
       "checked": "2026-07-19",
       "domain": "rap",
@@ -147,6 +161,12 @@
         "alternative rock",
         "power pop"
       ]
+    },
+    "ACID GROOVES": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "AIGEL": {
       "checked": "2026-07-19",
@@ -293,6 +313,12 @@
         "black metal",
         "suomi metalli"
       ]
+    },
+    "Ahto Külvet (Psühhoteek)": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Ainar": {
       "checked": "2026-07-26",
@@ -485,6 +511,12 @@
       "tags": [
         "brutal death metal"
       ]
+    },
+    "Andreas McKeough": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Andreas Sepp": {
       "checked": "2026-08-14",
@@ -758,6 +790,21 @@
         "pakistan"
       ]
     },
+    "Aurora Astra": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "classical",
+        "synthpop",
+        "pop",
+        "progressive rock",
+        "experimental",
+        "singer-songwriter",
+        "new wave"
+      ]
+    },
     "Austra": {
       "checked": "2026-07-15",
       "domain": "klubi",
@@ -1013,6 +1060,12 @@
     },
     "Beneath Revalia": {
       "checked": "2026-08-21",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Berk Vaher": {
+      "checked": "2026-09-25",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -1372,6 +1425,19 @@
         "rock",
         "soul",
         "jazz"
+      ]
+    },
+    "Carlotta (LIVE + DJ set)": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "alternative rock",
+        "american",
+        "post-grunge",
+        "pop rock",
+        "alternative-rock"
       ]
     },
     "Catch Your Breath": {
@@ -1851,6 +1917,12 @@
         "estonian"
       ]
     },
+    "DNKA": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "DON NUKI": {
       "checked": "2026-07-28",
       "domain": "unknown",
@@ -2153,6 +2225,21 @@
         "vgm"
       ]
     },
+    "Dr. Smeđi Šećer": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "jazz",
+        "folk",
+        "blues",
+        "funk",
+        "soul",
+        "psychedelic rock",
+        "blues rock",
+        "rhythm and blues"
+      ]
+    },
     "Dragonland": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -2162,6 +2249,17 @@
         "symphonic metal",
         "swedish",
         "symphonic power metal"
+      ]
+    },
+    "Dramamama": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "estonian",
+        "rock",
+        "eesti",
+        "alternative rock"
       ]
     },
     "Dreadpin": {
@@ -2192,6 +2290,12 @@
         "paganism",
         "nature"
       ]
+    },
+    "Drumux": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Druz x Ra": {
       "checked": "2026-07-26",
@@ -3566,6 +3670,21 @@
         "hard dance"
       ]
     },
+    "INDRA SMITH": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "american",
+        "singer-songwriter",
+        "usa",
+        "indie rock",
+        "folk rock",
+        "indie",
+        "américain"
+      ]
+    },
     "Iberi": {
       "checked": "2026-07-13",
       "domain": "unclear",
@@ -3783,6 +3902,12 @@
         "tech-trance"
       ]
     },
+    "JAXY": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "JOOSEPPRO & LENNU": {
       "checked": "2026-08-14",
       "domain": "klubi",
@@ -3800,6 +3925,12 @@
     },
     "JU:LY": {
       "checked": "2026-09-18",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Jaan": {
+      "checked": "2026-09-25",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -3925,6 +4056,14 @@
       "src": "none",
       "tags": []
     },
+    "Jussi Kantonen": {
+      "checked": "2026-09-25",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "jazz"
+      ]
+    },
     "K&M": {
       "checked": "2026-09-18",
       "domain": "rap",
@@ -3952,6 +4091,18 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "KIN DZA DZA": {
+      "checked": "2026-09-25",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "darkpsy",
+        "psytrance",
+        "psychedelic trance",
+        "psychedelic",
+        "dark psy"
+      ]
     },
     "KIOSK": {
       "checked": "2026-08-14",
@@ -4707,6 +4858,12 @@
       "src": "none",
       "tags": []
     },
+    "L. Lukyann": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "L.Eazy": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -4751,6 +4908,17 @@
         "electronic",
         "electronica",
         "japanese"
+      ]
+    },
+    "LILIxELBE": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "hardcore",
+        "powerviolence",
+        "thrashcore",
+        "punk"
       ]
     },
     "La Copa": {
@@ -4968,6 +5136,21 @@
         "german audiobook reader"
       ]
     },
+    "Liverbox & Payperclip": {
+      "checked": "2026-09-25",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "trance",
+        "electronic",
+        "soundtrack",
+        "classical",
+        "pop",
+        "special purpose artist",
+        "jungle"
+      ]
+    },
     "Loann Lukyann": {
       "checked": "2026-08-28",
       "domain": "unknown",
@@ -5144,6 +5327,16 @@
         "electronic"
       ]
     },
+    "MERIMELL": {
+      "checked": "2026-09-25",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "trance",
+        "techno",
+        "acid"
+      ]
+    },
     "MHKL": {
       "checked": "2026-09-09",
       "domain": "unknown",
@@ -5177,6 +5370,18 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "MaQ": {
+      "checked": "2026-09-25",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "rap",
+        "hardcore",
+        "ehh",
+        "all",
+        "maq"
+      ]
     },
     "Maa-Alune (hyyru & Andrus Eerik)": {
       "checked": "2026-08-14",
@@ -5735,6 +5940,14 @@
         "psychedelic rock"
       ]
     },
+    "Monstercöuq": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "metal"
+      ]
+    },
     "Mookie": {
       "checked": "2026-07-13",
       "domain": "rap",
@@ -5986,6 +6199,12 @@
     },
     "Nico Stojan": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Night Flies": {
+      "checked": "2026-09-25",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -7082,6 +7301,18 @@
       "src": "none",
       "tags": []
     },
+    "Raimonds Mežaks": {
+      "checked": "2026-09-25",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "jazz",
+        "composer",
+        "latvian",
+        "soviet pop",
+        "estrada"
+      ]
+    },
     "Rainer Raski": {
       "checked": "2026-08-28",
       "domain": "unknown",
@@ -7309,6 +7540,12 @@
     },
     "Robotorr": {
       "checked": "2026-07-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Rockshock": {
+      "checked": "2026-09-25",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -9177,6 +9414,20 @@
         "doom metal"
       ]
     },
+    "Un-Real": {
+      "checked": "2026-09-25",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "heavy metal",
+        "estonian",
+        "tallinn",
+        "tallinn underground",
+        "estonian metal",
+        "progressive metal",
+        "thrash metal"
+      ]
+    },
     "Unai Trotti": {
       "checked": "2026-07-25",
       "domain": "unknown",
@@ -9246,6 +9497,12 @@
       "src": "none",
       "tags": []
     },
+    "VAAN": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "VKS": {
       "checked": "2026-07-19",
       "domain": "unknown",
@@ -9293,6 +9550,12 @@
         "east coast hip hop",
         "hardcore hip hop"
       ]
+    },
+    "Valter Nõmm": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Valu": {
       "checked": "2026-08-07",
@@ -9554,6 +9817,23 @@
       "src": "musicbrainz",
       "tags": [
         "what?"
+      ]
+    },
+    "Waterlogger": {
+      "checked": "2026-09-25",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Wavy": {
+      "checked": "2026-09-25",
+      "domain": "rap",
+      "src": "lastfm",
+      "tags": [
+        "german",
+        "norwegian",
+        "german rap",
+        "russemusikk"
       ]
     },
     "West Coast Swingaz": {
@@ -9835,6 +10115,16 @@
         "black metal",
         "experimental",
         "seen live"
+      ]
+    },
+    "Zebra Island": {
+      "checked": "2026-09-25",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "dream pop",
+        "synthpop",
+        "indie"
       ]
     },
     "Zetod & Verska Naase": {
@@ -10457,5 +10747,5 @@
       ]
     }
   },
-  "updated": "2026-09-18"
+  "updated": "2026-09-25"
 }

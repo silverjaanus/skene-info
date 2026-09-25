@@ -1622,7 +1622,7 @@
    "Cryptic"
   ],
   "v": "Kultuuriklubi Tempel",
-  "c": "Pärnu",
+  "c": "mujal",
   "g": [
    "hardstyle",
    "hard dance",
@@ -1638,7 +1638,8 @@
   },
   "lisatud": "2026-09-11",
   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta ürituseleht (korraldaja White Noise Events / Hardstyle Addendum) + Kultuuriklubi Tempel kui sources.json-i klubi-allikas (ra.co/clubs/151795). Skoop: underground-korraldaja hardstyle/rawstyle/hardcore jääb sisse (REEGLID §1, pretsedendid Brennan Heart 11.09 ja D-Block & S-te-Fan 26.09); peavoolu-EDM oleks välja.",
-  "img": "pildid/hardstyleaddendum8bitbitcrushrno.webp"
+  "img": "pildid/hardstyleaddendum8bitbitcrushrno.webp",
+  "linn": "Pärnu"
  },
  {
   "d": "2026-09-25",
@@ -2070,5 +2071,25 @@
    "mark": "Pääs prii",
    "allikas": "ürituse FB event, kontrollitud 22.09.2026"
   }
+ },
+ {
+  "d": "2026-10-03",
+  "t": "klubi",
+  "n": "TJUUN IN — Vinyl Classics Special",
+  "a": "algus 22.00; TJUUN IN vinuulieri Fonoteegis — „Back to the roots. Back to the bass.“",
+  "b": [],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "dnb",
+   "bass"
+  ],
+  "sn": "Fonoteegi FB events-tab",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1699521024471626/",
+  "lisatud": "2026-09-25",
+  "koosseis_tba": 1,
+  "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (KAKS korraldajat — TJUUN IN + Fonoteek) + Fonoteegi events-tab; pretsedent samale mustrile on 23.09.2026 SAGEDUSED KIVIS. Zanr tuleb urituse enda tekstist („Back to the bass“) + KORRALDAJA ENDA lehe kirjeldusest (TJUUN IN: „Dnb event series and radioshow in Estonia“) — see on korraldaja oma vaide, mitte kolmanda osapoole toimetaja (REEGLID §1). Sari on saidil juba varem (19.09 HALL, 24.07 Makoto). DJ-kava ja hind avaldamata."
  }
 ]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-25",
  "entries": [
   {
    "rel": 1,
@@ -118,6 +118,28 @@
    "lisatud": "2026-08-22",
    "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi.",
    "img": "pildid/triibupastaxnoorednaljased.webp"
+  },
+  {
+   "d": "2026-10-14",
+   "t": "kontsert",
+   "n": "Legendaarne Live: Genka / Paul Oja XXX Unplugged",
+   "a": "algus 18.00; vestlusohtu ja akustiline kontsert — 30 aastat Genka ja Paul Oja koostoost (esimene kogunemine Kopli tanava korteris oktoobris 1996)",
+   "b": [
+    "Genka",
+    "Paul Oja"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1794619661553912/",
+   "pu": "https://fienta.com/et/vestlusohtu-ja-akustiline-konsert-genka-paul-oja-xxx",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Legendaarne Raadio + Genka + paul oja) + Fienta piletileht („vestlusohtu ja akustiline kontsert“). Zanr urituse enda lehelt: „Keriti kassette, korrati vihikusse kritseldatud riime“ + moodustajad on Eesti hiphopi vundament (Genka / Pohjamaade Hirm). Hinda lehel ei nimetata (Fienta widgeti taga)."
   },
   {
    "d": "2026-10-23",
