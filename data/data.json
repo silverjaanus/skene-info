@@ -83,7 +83,8 @@
    "sn": "Bandcamp",
    "su": "https://seksound.bandcamp.com/track/fools-gold",
    "lisatud": "2026-09-22",
-   "nb": "LISATUD 22.09.2026 Silveri otsusega (§4 punkt 5 = (b)): „sisse www-le, sildid shoegaze + indie + alt — shoegaze on www sildinimekirjas ja bändil on päris kitarrikoosseis“. Leitud Rada7.ee uudiskirjast 18.09. ⚠ KUUPÄEV RISTKONTROLLITUD (REEGLID §6 Bandcampi-lõks): Bandcampi lugu ütleb „released 15 September 2026“ ja Seksoundi enda FB/IG teade ütleb „RELEASE DATE: 15.09.2026“ — need kaks kattuvad, seega d = 15.09. SoundCloudi üleslaadimine on 14.09.2026 18:34 UTC (eellüles) ja allstarz.ee väidab 18. septembrit (hilisem ülevõte) — kumbagi EI kasutatud. Neli allikat: Bandcamp https://seksound.bandcamp.com/track/fools-gold · SoundCloud https://soundcloud.com/seksound/seks096-zebra-island-fools · ERR „Uue muusika reede“ 18.09 https://kultuur.err.ee/uue-muusika-reede · MuusikaPlaneet 22.09 (videoteade). Seksound = Pia Frausi liikmete 2004. a asutatud Tallinna label. ⚠ Kataloogikood SEKs096."
+   "nb": "LISATUD 22.09.2026 Silveri otsusega (§4 punkt 5 = (b)): „sisse www-le, sildid shoegaze + indie + alt — shoegaze on www sildinimekirjas ja bändil on päris kitarrikoosseis“. Leitud Rada7.ee uudiskirjast 18.09. ⚠ KUUPÄEV RISTKONTROLLITUD (REEGLID §6 Bandcampi-lõks): Bandcampi lugu ütleb „released 15 September 2026“ ja Seksoundi enda FB/IG teade ütleb „RELEASE DATE: 15.09.2026“ — need kaks kattuvad, seega d = 15.09. SoundCloudi üleslaadimine on 14.09.2026 18:34 UTC (eellüles) ja allstarz.ee väidab 18. septembrit (hilisem ülevõte) — kumbagi EI kasutatud. Neli allikat: Bandcamp https://seksound.bandcamp.com/track/fools-gold · SoundCloud https://soundcloud.com/seksound/seks096-zebra-island-fools · ERR „Uue muusika reede“ 18.09 https://kultuur.err.ee/uue-muusika-reede · MuusikaPlaneet 22.09 (videoteade). Seksound = Pia Frausi liikmete 2004. a asutatud Tallinna label. ⚠ Kataloogikood SEKs096.",
+   "img": "pildid/zebraislandfoolsgold.webp"
   },
   {
    "rel": 1,
@@ -512,7 +513,8 @@
     "mark": "sissepääs tasuta; lauabroneering soovi korral",
     "allikas": "ürituse FB-leht, kontrollitud 23.09.2026"
    },
-   "nb": "LISATUD 23.09.2026 Silveri otsusega (otsustuspunkt 2026-09-23-terminal-arrivals-valter-nomm = (a)): „las üritus läheb sisse ja metal“. Tuli kontaktivormi kaudu 22.09 klubi.skene.info vormilt, saatja valter.nomm@gmail.com ehk esineja ise; Silver suunas www-le. ⚠ ŽANRIALLIKAS ON KONTAKTIVORM, MITTE ÜRITUSE LEHT: ürituse enda FB-leht žanrit ei ütle (kategooria lihtsalt „Music“), vormi Zanrid-väli ütles „experimental, rock noise rock“ — sildid rock + alt on sellest tuletatud („noise“ ja „experimental“ ei ole www kanoonilises sildinimekirjas, REEGLID §9). See otsus on ÜHTLASI PÜSIREEGEL: kontaktivormi žanriväli LOEB žanriallikaks, erinevalt uudiskirjast (REEGLID §1, 22.09 otsus). Kaks allikat: ürituse FB-leht + venue veebikava https://baar.terminal.ee/ („Programm“: „26.09 21.00 Terminal Arrivals: Valter Nõmm“) — kuupäev ja kellaaeg kattuvad. Terminal Records&Bar (Telliskivi 60/2 I hoone) lisati samal päeval sweep/sources.json-i; ⚠ maja kava on SEGA (viktoriin, muusikadokid, jazz-jämm, DJ-sari, aeg-ajalt kontsert), nii et maja ise ei ole žanriallikas — iga üritus kaalu eraldi."
+   "nb": "LISATUD 23.09.2026 Silveri otsusega (otsustuspunkt 2026-09-23-terminal-arrivals-valter-nomm = (a)): „las üritus läheb sisse ja metal“. Tuli kontaktivormi kaudu 22.09 klubi.skene.info vormilt, saatja valter.nomm@gmail.com ehk esineja ise; Silver suunas www-le. ⚠ ŽANRIALLIKAS ON KONTAKTIVORM, MITTE ÜRITUSE LEHT: ürituse enda FB-leht žanrit ei ütle (kategooria lihtsalt „Music“), vormi Zanrid-väli ütles „experimental, rock noise rock“ — sildid rock + alt on sellest tuletatud („noise“ ja „experimental“ ei ole www kanoonilises sildinimekirjas, REEGLID §9). See otsus on ÜHTLASI PÜSIREEGEL: kontaktivormi žanriväli LOEB žanriallikaks, erinevalt uudiskirjast (REEGLID §1, 22.09 otsus). Kaks allikat: ürituse FB-leht + venue veebikava https://baar.terminal.ee/ („Programm“: „26.09 21.00 Terminal Arrivals: Valter Nõmm“) — kuupäev ja kellaaeg kattuvad. Terminal Records&Bar (Telliskivi 60/2 I hoone) lisati samal päeval sweep/sources.json-i; ⚠ maja kava on SEGA (viktoriin, muusikadokid, jazz-jämm, DJ-sari, aeg-ajalt kontsert), nii et maja ise ei ole žanriallikas — iga üritus kaalu eraldi.",
+   "img": "pildid/terminalarrivalsvalternomm.webp"
   },
   {
    "d": "2026-09-27",
@@ -924,7 +926,8 @@
    "ou": "https://www.facebook.com/events/1359246889628472/",
    "pu": "https://sviby.com/et/e/lm9ho1",
    "lisatud": "2026-09-25",
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad WD Events + Genialistide Klubi + JAXY + DRAMAMAMA) + Sviby piletileht. Zanr tuleb BANDI ENDA FB-lehelt (DRAMAMAMA: „Official Facebook page for Estonian rock band“) — mitte venue profiilist (REEGLID §1); Dramamama on saidil juba esinejana Tartu Rock Fest 2026 kirjes. JAXY oma leht utleb ainult „Music with vocals“. ⚠ classify.py kontrollib sildid. Hinda FB-lehel ei nimetata."
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad WD Events + Genialistide Klubi + JAXY + DRAMAMAMA) + Sviby piletileht. Zanr tuleb BANDI ENDA FB-lehelt (DRAMAMAMA: „Official Facebook page for Estonian rock band“) — mitte venue profiilist (REEGLID §1); Dramamama on saidil juba esinejana Tartu Rock Fest 2026 kirjes. JAXY oma leht utleb ainult „Music with vocals“. ⚠ classify.py kontrollib sildid. Hinda FB-lehel ei nimetata.",
+   "img": "pildid/dramamamajaxy.webp"
   },
   {
    "d": "2026-10-04",
@@ -1066,7 +1069,8 @@
    "ou": "https://www.facebook.com/events/4723584894544525/",
    "pu": "https://fienta.com/et/rockshock-nightflies-thekrypt",
    "lisatud": "2026-09-25",
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Night Flies + Rockshock cover band) + Fienta piletileht, mille kuupaev/kellaaeg (R 9.10 21.00–02.00) kattub; kolmas The Krypti enda veebikava thekrypt.ee/events. Zanr urituse enda lehelt: „originaalset alternatiivrokki ja legendaarseid hard rock’i hitte“. ⚠ Kellaaeg: veebikava utleb 20.00, FB+Fienta 21.00 — molemad a-valjal, ei valinud. Hinda lehel ei nimetata (Fienta widgeti taga), seetottu hind tuhi."
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Night Flies + Rockshock cover band) + Fienta piletileht, mille kuupaev/kellaaeg (R 9.10 21.00–02.00) kattub; kolmas The Krypti enda veebikava thekrypt.ee/events. Zanr urituse enda lehelt: „originaalset alternatiivrokki ja legendaarseid hard rock’i hitte“. ⚠ Kellaaeg: veebikava utleb 20.00, FB+Fienta 21.00 — molemad a-valjal, ei valinud. Hinda lehel ei nimetata (Fienta widgeti taga), seetottu hind tuhi.",
+   "img": "pildid/rockfridayrockshocknightflies.webp"
   },
   {
    "d": "2026-10-10",
@@ -1432,7 +1436,8 @@
    "ou": "https://www.facebook.com/events/1741261913798786/",
    "pu": "https://fienta.com/et/unreal-monstercouq-thekrypt",
    "lisatud": "2026-09-25",
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Monstercöuq jt) + Fienta piletileht (L 17.10 21.00–02.00, kattub); kolmas The Krypti veebikava. Zanr urituse enda lehelt: „Laupaeval, 17. oktoobril votavad Krypti lava ule heavy metal ja punk“ — Un-Real klassikaline heavy metal + thrash/power, Monstercöuq Eesti punkrock. ⚠ Kellaaeg: veebikava 20.00 vs FB/Fienta 21.00, molemad a-valjal. Hinda lehel ei nimetata."
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Monstercöuq jt) + Fienta piletileht (L 17.10 21.00–02.00, kattub); kolmas The Krypti veebikava. Zanr urituse enda lehelt: „Laupaeval, 17. oktoobril votavad Krypti lava ule heavy metal ja punk“ — Un-Real klassikaline heavy metal + thrash/power, Monstercöuq Eesti punkrock. ⚠ Kellaaeg: veebikava 20.00 vs FB/Fienta 21.00, molemad a-valjal. Hinda lehel ei nimetata.",
+   "img": "pildid/heavysaturdayunrealmonstercouq.webp"
   },
   {
    "d": "2026-10-22",
