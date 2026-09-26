@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25",
+ "updated": "2026-09-26",
  "entries": [
   {
    "d": "2026-07-20",
@@ -111,201 +111,6 @@
    "img": "pildid/maiskizovalumote.webp"
   },
   {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "Heavy Friday: KRANG (CZ) + ELUKAS (EE)",
-   "a": "uksed 20.00, bandid 22.00, 00.00 tasuta aftekas",
-   "b": [
-    "KRANG (CZ)",
-    "Elukas"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "rock"
-   ],
-   "sn": "The Krypt (FB events)",
-   "su": "https://www.facebook.com/thekrypt.tallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1637504547963967/",
-   "pu": "https://fienta.com/et/krang-elukas-thekrypt",
-   "lisatud": "2026-09-09",
-   "nb": "manuaalkirje 09.09.2026: uritus tuli juba auto-allikast (thekrypt.ee), AGA ilma piletilingita. Ainus eesmark on lisada pu + ajakava. Kaks allikat: FB event (kaaskorraldajad The Krypt + Rada7.ee) + Fienta piletileht.",
-   "img": "pildid/heavyfridaykrangczelukasee.webp",
-   "hind": {
-    "praegu": "13–15 €",
-    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "MAI SKIZO @ 300",
-   "a": "Väike tasuta kontsert enne albumi «Valu mõte» tutvustustuuri — bänd laval umbes 22.00, kavas suur osa praegusest repertuaarist. Koha peal saab osta bändi nänni ja uut albumit nii vinüülil kui CD-l. 300 on väike koht, tasub varem kohal olla",
-   "b": [
-    "MAI SKIZO"
-   ],
-   "v": "300 klubi",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "post",
-    "punk",
-    "goth",
-    "industrial",
-    "dark",
-    "alt"
-   ],
-   "sn": "maiskizo.ee",
-   "su": "https://maiskizo.ee/laval-mai-skizo-300/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/28117417077924113/",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "FB event + maiskizo.ee, kontrollitud 03.09.2026"
-   },
-   "lisatud": "2026-09-03",
-   "nb": "lisatud 03.09.2026 postkastijooksus; sisend tuli kontaktivormi kaudu (Pronto, p@maiskizo.ee, 02.09.2026 21:47, skene.info vorm). KAKS ALLIKAT: bändi enda kodulehe teade maiskizo.ee 02.09.2026 «Laval: MAI SKIZO @ 300» (300 = vanalinna rokibaar, veab Margus Pilt; kontsert tasuta, algus ~22.00, nänn ja uus album müügil) + avalik FB event 28117417077924113 (26 vastanut), mis annab kuupäeva ja kellaaja: reede 25.09.2026 kell 22.00, 300 klubi, Vene 37. ⚠ KUUPÄEV TULI FB EVENTILT — bändi kodulehe postituses kuupäeva EI OLE (vrd varasemad «Laval:» postitused, kus kuupäev on pealkirjas); vormil märgitud 25.09.2026 kattub FB eventiga. Tasuta üritus, piletimüüki ei ole → pu puudub teadlikult (REEGLID §3: hinda ei leiutata). Žanr: bändi enda kirjeldus «post-punk, industriaal, gooti rokk» + vormil «rock, industrial, alt» — sama sildistik mis 18.09 plaadiesitlusel ja reliisikirjel. Eraldi kirje 18.09 plaadiesitlusest (meet & greet, Tommi Grill) — eri koht, eri kuupäev, eri formaat.",
-   "img": "pildid/maiskizo300.webp"
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "The Rumjacks (AUS)",
-   "a": "Austraalia celtic punk; uksed 19.00, algus 19.30; korraldaja Winiary Bookings (PL)",
-   "b": [
-    "The Rumjacks",
-    "Tabloited"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Bandsintown",
-   "su": "https://www.bandsintown.com/e/108341280-the-rumjacks-at-paavli-kultuurivabrik",
-   "pu": "https://www.piletilevi.ee/piletid/EMFY6FY7W4/the-rumjacks-aus-celtic-punk-paavli-kultuurivabrik-tallinn",
-   "hind": {
-    "praegu": "20€ / 25€ / 30€",
-    "mark": "kiireim 20€, tavaeelmuuk 25€, urituse paeval 30€",
-    "allikas": "Piletilevi, kontrollitud 28.07.2026"
-   },
-   "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht (varem oli ainult avastusallikas). | 25.09.2026 jarelejooks, RIKASTUS: urituse FB event (https://www.facebook.com/events/2384404665379203/, korraldajad WiniaryBookings + Tabloited + Paavli Kultuurivabrik) nimetab SOOJENDAJAT, keda kirjes ei olnud — Tabloited, Eesti punkrockband aastast 2016. Lisatud b-sse.",
-   "img": "pildid/therumjacksaus.webp",
-   "on_": "Paavli Kultuurivabrik",
-   "ou": "https://paavli.ee/sundmused/the-rumjacks-25-09-26-paavli-kultuurivabrik-tallinn/"
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "Uranus (FIN) + Joy Palace + The Elder God",
-   "a": "uksed 19.00",
-   "b": [
-    "Uranus (FIN)",
-    "Joy Palace",
-    "The Elder God"
-   ],
-   "v": "Kotka Kultuurimaja",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "death",
-    "doom"
-   ],
-   "sn": "Secret Face Productions FB",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1538340968069323/",
-   "lisatud": "2026-09-04",
-   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Secret Face Productions FB (korraldaja) + Kotka Kultuurimaja FB events-tab (venue). Pilet avaldamata."
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "Haaveet (FIN) + Nova Lux + Volta",
-   "a": "„ilus sügisene muusika, nagu Kaurismäki filmis“; algus 19.00",
-   "b": [
-    "Haaveet",
-    "Nova Lux",
-    "Volta"
-   ],
-   "v": "Ülase12",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "punk",
-    "alt"
-   ],
-   "sn": "Ülase12 / Anemon12 (FB events)",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2341620356656330/",
-   "lisatud": "2026-09-11",
-   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event + Anemon12 events-tab. Žanr kontrollitud Haaveet Bandcampist (sildid rock, suomirock, rautalanka, surf; Helsingi) — kitarripõhine, seega www. Pilet/uksehind avaldamata.",
-   "img": "pildid/haaveetfinnovaluxvolta.webp"
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "Beneath Revalia — The Livonian Abyss Tour (Tartu)",
-   "a": "Humanity tuuri Tartu peatus; uksed 18.00, bändid 19.00",
-   "b": [
-    "Humanity",
-    "Shrapnelle",
-    "Morbitech",
-    "Sarcophakiss"
-   ],
-   "v": "Klubi Rock & Roll",
-   "c": "Tartu",
-   "g": [
-    "metal",
-    "death",
-    "core"
-   ],
-   "sn": "Fienta (tuuriseeria)",
-   "su": "https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu",
-   "pu": "https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu",
-   "lisatud": "2026-09-11",
-   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta tuuriseeria leht (kuupäevavalikus 25.09 Klubi Rock & Roll Tartu JA 02.10 Konservatoorium Viljandi) + sama lehe korraldajakirjeldus (Tomi Tooming / Humanity). ⚠ ESINEJA ON HUMANITY, „Beneath Revalia“ on TUURI nimi, mitte bändi nimi — varasemates kirjetes (26.09 ja 02.10) oli see vale ja parandatud samas sweepis. ⚠ Fienta ET- ja EN-tekst on Tartu koosseisu osas vastuolus: eesti keeles „Shrapnelle ja Morbitech“, inglise keeles „Shrapnelle and Deceitome“ — kirjes on ET-versioon. Ürituse enda FB-eventi ei õnnestunud leida (otsisin Klubi Rock & Roll / Humanity kaudu).",
-   "img": "pildid/beneathrevaliathelivonianabysstourtartu.webp",
-   "hind": {
-    "praegu": "10–15 €",
-    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "Town Flesh & Ixtlan LIVE",
-   "a": "Kaks uut Eesti indie-bändi: Tallinna viisiku Town Flesh debüüt-EP esitlus samal päeval, kui EP ilmub, ja Pärnu-Tallinna neliku Ixtlan pealinna debüüt; algus 19.00",
-   "b": [
-    "Town Flesh",
-    "Ixtlan"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "indie",
-    "alt",
-    "rock"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://fienta.com/et/town-flesh-ixtlan-live",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1604783617845350/",
-   "pu": "https://fienta.com/et/town-flesh-ixtlan-live",
-   "hind": {
-    "praegu": "10 €",
-    "mark": "eelmüük; lisaks vabatahtliku summaga „Supporter“ pilet",
-    "allikas": "Fienta, kontrollitud 13.09.2026"
-   },
-   "lisatud": "2026-09-13",
-   "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KOLM ALLIKAT: ürituse FB event 1604783617845350 (R 25.09.2026 kl 19.00 EEST, Uus Laine, Vana-Kalamaja 1; korraldajad Uus Laine + Ixtlan + Town Flesh) + Fienta piletileht town-flesh-ixtlan-live (10 €, sama kuupäev ja koht) + Town Fleshi Bandcampi EP-leht, mis kinnitab sama ilmumispäeva. ŽANRIOTSUS: korraldaja tekst ütleb kaks korda „Eesti indie maastik“ / „Estonian indie scene“; Town Flesh on kitarripõhine indie (60ndate psühh, 80ndate jangle, 90ndate alternatiiv; liikmeid mh Holy Motorsist), Ixtlan eestikeelne unistav indie — REEGLID §1 kitarripõhine alternatiiv, sildid alt+rock nagu varasematel Uus Laine indie-kirjetel (Tallinn Indie Shuffle 29.08, Laine Live sari). Samal päeval ilmub Town Fleshi EP → eraldi reliisikirje. ⚠ SILT MUUDETUD 13.09.2026: Silver lubas „indie“ uue sildina — lisatud `g` ette. Meta-filtrit see ei muuda (indie ei ole GENRE_META-s, nagu shoegaze'igi pole), kirje jääb `alt`/`rock` metasse ja `indie` paistab kaardi sildina.",
-   "img": "pildid/townfleshixtlanlive.webp"
-  },
-  {
    "rel": 1,
    "d": "2026-09-25",
    "lisatud": "2026-09-13",
@@ -326,31 +131,6 @@
    "su": "https://townflesh.bandcamp.com/album/the-town-flesh-extended-play",
    "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KAKS ALLIKAT: albumi Bandcamp-leht („releases 25 September 2026“, 6 lugu, tracklist olemas) + Fienta/FB ürituseleht „Town Flesh & Ixtlan LIVE“, mis ütleb, et bänd esitleb EP-d „samal päeval, kui see ilmub“ (25.09) — Bandcampi kuupäev ei ole seega platseholder (REEGLID §6 kuupäevalõks kontrollitud). Bändi enda kirjeldus: indie-viisik, mõjutused 60ndate psühh / 80ndate jangle / 90ndate alternatiiv, liikmeid mh Holy Motorsist ja The Boondocksist; remiksid Pia Fraus (EE dreampop) ja The Lunacy Of Flowers (UK darkwave). Reliis on värskem kui 30 päeva → lisatud = tänane kuupäev, kirje läheb esilehe „Uued reliisid“ ribale (REEGLID §6). ⚠ SILT MUUDETUD 13.09.2026: Silver lubas „indie“ uue sildina — lisatud `g` ette. Meta-filtrit see ei muuda (indie ei ole GENRE_META-s, nagu shoegaze'igi pole), kirje jääb `alt`/`rock` metasse ja `indie` paistab kaardi sildina.",
    "img": "pildid/townfleshthetownfleshextendedplay.webp"
-  },
-  {
-   "d": "2026-09-25",
-   "t": "kontsert",
-   "n": "DND + Pettunud Kodanik",
-   "a": "algus 20.00; DND alustab sügist kontserdiga Lõuna-Eestis",
-   "b": [
-    "DND",
-    "Pettunud Kodanik"
-   ],
-   "v": "Võru Kannel",
-   "c": "mujal",
-   "linn": "Võru",
-   "g": [
-    "rock",
-    "alt",
-    "post",
-    "punk"
-   ],
-   "sn": "Rada7.ee FB events-tab",
-   "su": "https://www.facebook.com/rada7.ee/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1287892906446194/",
-   "lisatud": "2026-09-25",
-   "nb": "leitud jarelejooksus 25.09.2026 Rada7 FB events-tabist. Kaks allikat: urituse FB event (korraldajad Ulmelung + Pettunud Kodanik + 2) + Voru Kandle ENDA FB-postitus („25. september on Kandles kohal DND, Pettunud Kodanik… 25. sept 20.0“, google.ee kaudu), kuupaev/kellaaeg/koht kattuvad; kolmas Kagu-Eesti postitus. Zanr urituse enda lehelt: „legendaarne Tartu alternatiivroki ansambel DND“; Pettunud Kodaniku oma leht: „Navigeerume meeletus postpungikaoses. Tartu.“ Pilet/uksehind lehel avaldamata."
   },
   {
    "d": "2026-09-26",
@@ -2813,6 +2593,6 @@
   }
  ],
  "log": [
-  "krypt: 9"
+  "krypt: 8"
  ]
 }
