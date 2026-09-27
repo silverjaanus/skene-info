@@ -1,59 +1,13 @@
 {
- "tommatud": "2026-09-26",
+ "tommatud": "2026-09-27",
  "aken": {
-  "algus": "2026-09-26",
-  "lopp": "2026-11-25"
+  "algus": "2026-09-27",
+  "lopp": "2026-11-26"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 24,
+ "kirjeid": 21,
  "kirjed": [
-  {
-   "d": "2026-09-26",
-   "n": "IDA Off Air - Paabel Afterparty",
-   "algus": "2026-09-26T22:00:00.000",
-   "v": "MOD Club",
-   "ala": "Tallinn",
-   "b": [
-    "Josey Rebelle",
-    "Xterea",
-    "Sansibar",
-    "Nikolajev"
-   ],
-   "g": [
-    "Minimal",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2545141",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-26",
-   "n": "DISCO DISCO GOOD GOOD I Fonoteek",
-   "algus": "2026-09-26T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco"
-   ],
-   "url": "https://ra.co/events/2534249",
-   "pilet": false
-  },
-  {
-   "d": "2026-09-26",
-   "n": "TERMINAATOR LIVE",
-   "algus": "2026-09-26T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2534953",
-   "pilet": false
-  },
   {
    "d": "2026-09-27",
    "n": "Culture Forum Paabel: Omar Souleyman (SY)",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-26",
+ "updated": "2026-09-27",
  "entries": [
   {
    "d": "2026-09-12",
@@ -43,108 +43,6 @@
    "su": "https://narayanarecords.bandcamp.com/",
    "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti techno-tag'i otsingust (sources.json bandcamp_otsing). Kaks allikat: Bandcamp (Narayana records, Tallinn, Estonia; released September 12, 2026) + plaadifirma Narayana Records Instagrami teade 12.09 („STATE — New EP out today“). Kuupäev 6 päeva vana → lisatud = tänane (esilehe „uued reliisid“ riba, REEGLID §6).",
    "img": "pildid/qbicrubicstate.webp"
-  },
-  {
-   "d": "2026-09-26",
-   "t": "klubi",
-   "n": "Disco Disco Good Good @ Fonoteek",
-   "a": "disco vibe'iga house, 70ndate klassikud ja funk-hyperpop. Uksed 19.00, DJ-d 23.00, 20+",
-   "b": [
-    "Kyka",
-    "Widenski"
-   ],
-   "v": "Fonoteek",
-   "c": "Tallinn",
-   "g": [
-    "disco",
-    "house"
-   ],
-   "sn": "Fonoteek (FB events)",
-   "su": "https://www.facebook.com/fonoteekbar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1749030026345281/",
-   "hind": {
-    "praegu": "5-7 EUR",
-    "mark": "FB going/interested kuni 00.00 5 EUR, tavapilet 7 EUR; uksel",
-    "allikas": "FB event, kontrollitud 09.09.2026"
-   },
-   "lisatud": "2026-09-09",
-   "nb": "leitud sweepis 09.09.2026 Fonoteegi FB events-tabist. Kaks allikat: Fonoteegi FB events-tab + urituse enda FB event (kaaskorraldaja Kyka)."
-  },
-  {
-   "d": "2026-09-26",
-   "t": "klubi",
-   "n": "IDA Off Air: Paabel Afterparty",
-   "a": "Kultuurifoorum Paabeli peoõhtu klubis MOD; 22.00–05.00",
-   "b": [
-    "Josey Rebelle",
-    "Xterea",
-    "Sansibar",
-    "Nikolajev & Ats"
-   ],
-   "v": "MOD",
-   "c": "Tallinn",
-   "g": [
-    "club",
-    "house",
-    "electro",
-    "experimental"
-   ],
-   "sn": "MOD.tln FB",
-   "su": "https://www.facebook.com/Modtln/events",
-   "on_": "Paavli Kultuurivabrik",
-   "ou": "https://paavli.ee/sundmused/ida-off-air-paabel-afterparty/",
-   "lisatud": "2026-09-09",
-   "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (facebook.com/events/1054641947349414, korraldaja IDA Radio) + paavli.ee uritusleht, mis annab taiskoosseisu (Josey Rebelle TTT/Open Ground DJ, Xterea 5 Gate Temple LIVE, Sansibar Sin Sistema LIVE, Nikolajev & Ats IDA DJ). Pilet: paavli.ee utleb 'piletite eelmuuk & lisainfo uuel nadalal' -> pu jaab tuhjaks, kontrolli jargmises sweepis. ⚠ RIKASTATUD 25.09.2026 postkastijooksus: pilet AVALDATUD, `pu` + `hind` lisatud (09.09 märkus „kontrolli järgmises sweepis“ on sellega suletud). Hind piletimüüjalt (REEGLID §3): Fienta ürituseleht ütleb early bird 8 €, üritusepäeva eelmüük 10 €, uksel 15 €; sama leht kinnitab ka kuupäeva 26.09.2026 22.00–05.00, koha MOD (Paavli 9) ja sama nelja esineja koosseisu. Teine allikas: Paavli Kultuurivabriku enda uudiskiri 24.09.2026, mis annab identsed hinnaastmed. `ou` jääb paavli.ee ürituselehele (REEGLID §3: piletimüüja EI TOHI olla `ou`-väljal).",
-   "img": "pildid/idaoffairpaabelafterparty.webp",
-   "pu": "https://fienta.com/et/ida-off-air-paabel-afterparty-w-josey-rebelle-xterea-sansibar-nikolajev-ats",
-   "hind": {
-    "praegu": "8 €",
-    "mark": "early bird; üritusepäeva eelmüük 10 €, uksel 15 €",
-    "allikas": "Fienta, kontrollitud 25.09.2026"
-   }
-  },
-  {
-   "d": "2026-09-26",
-   "t": "klubi",
-   "n": "QUANTUM: THE OUTLANDER — D-Block & S-te-Fan | Hard Driver",
-   "a": "Shock Eventsi hardstyle-suurpidu; algus 22.30",
-   "b": [
-    "D-Block & S-te-Fan (NL)",
-    "Hard Driver (NL)"
-   ],
-   "v": "Kammivabrik",
-   "c": "mujal",
-   "linn": "Tartu",
-   "g": [
-    "hardstyle"
-   ],
-   "sn": "Ticketer",
-   "su": "https://www.ticketer.ee/quantum-the-outlander-d-block-s-te-fan",
-   "on_": "Shock Events FB",
-   "ou": "https://www.facebook.com/shockeventsest",
-   "nb": "lisatud 02.08.2026 Silveri otsusel: 'klubi alla'. Jäi 02.08 sweepis välja kui 'kommerts-hard-dance' — Silver otsustas teisiti, järgides hard trance'i pretsedenti (hard dance = klubi-skoop, mitte väljas). Korraldaja Shock Events (Võru)."
-  },
-  {
-   "d": "2026-09-26",
-   "t": "klubi",
-   "n": "CompressRave x HALL",
-   "a": "algus 23.00",
-   "b": [],
-   "koosseis_tba": 1,
-   "v": "HALL",
-   "c": "Tallinn",
-   "g": [
-    "techno",
-    "bass",
-    "dnb"
-   ],
-   "sn": "HALL (FB events)",
-   "su": "https://www.facebook.com/halltallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1799615644404816/",
-   "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja CompressEvents) + HALLi FB events-tab. DJ-koosseis ei ole lehel avaldatud → koosseis_tba. Pilet/uksehind avaldamata."
   },
   {
    "d": "2026-09-27",
