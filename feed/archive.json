@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-09-28",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 356,
+ "count": 360,
  "entries": [
   {
    "sait": "www",
@@ -9611,6 +9611,115 @@
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Konservatoorium + Uranus) + Konservatooriumi FB events-tab. Soome death'n'roll. ⚠ FB asukohaväli ütleb 'Lossi 42/1' — Konservatoorium on Koidu 13a, Viljandi; kirjes on venue nimi. Pilet/uksehind avaldamata.",
    "linn": "Viljandi"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-27",
+   "t": "kontsert",
+   "n": "Decultivate (CZ) + Lilixelbe (CZ) + Trigger (DE) + Childbeater + KONI",
+   "a": "grindcore/hardcore-õhtu, 18.00–23.00",
+   "b": [
+    "Decultivate",
+    "Lilixelbe",
+    "Trigger",
+    "Childbeater",
+    "KONI"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "grind",
+    "core",
+    "punk",
+    "extreme"
+   ],
+   "sn": "Ülase12 / Anemon12 (FB events)",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1793462062082892/",
+   "lisatud": "2026-09-11",
+   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event + Anemon12 events-tab. Trigger (DE) on ürituse kirjelduse järgi 2006. aastast tegutsev, 90ndate grindcore'i juurtega projekt. Pilet/uksehind avaldamata.",
+   "img": "https://www.skene.info/pildid/decultivateczlilixelbecztriggerdechildbeaterkoni.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-27",
+   "lisatud": "2026-09-02",
+   "t": "muu",
+   "n": "Giidituur „Kolmnurk” / „Triangle” (inglise keeles)",
+   "a": "algus 17.00, kestus 2 h; ingliskeelne giidituur, giid Airi Triisberg; 14+",
+   "b": [
+    "Airi Triisberg"
+   ],
+   "v": "Vabaduse väljak 10",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/kolmnurk-198467",
+   "pu": "https://fienta.com/kolmnurk-198467",
+   "hind": {
+    "praegu": "16€",
+    "mark": "early bird 12€; „Triangle trio” 39€ kolmele (13€/in); very early bird 8€ välja müüdud",
+    "allikas": "Fienta piletivaade, kontrollitud 02.09.2026"
+   },
+   "nb": "Silveri otsus 02.09.2026 kontaktivormi otsustuskirjale: \"giidituur jaab. kuupaevad vota piletiinfost, mitte meilist\". Kuupaevad/kellaajad/keeled on seetottu voetud Fienta piletilehtedelt, MITTE kontaktivormi kirjast. Tegu on 2-tunnise jalutuskaiguga (mitte kontsert): 1980ndate keskpaiga Vabaduse valjaku kolmnurk (kohvik Moskva, Varblane, Pegasus), kus jutustatakse punk-, kirjandus- ja LGBT+ kogukonna ajalugu korvuti. Zanrisilt 'punk' viitab tuuri SISULE, mitte elavale esinemisele. Korraldaja Giidituurid „Uitlejad” / MTU Ostra (uitlejad@gmail.com). Marsruut: Vabaduse valjak -> Harjumagi -> Harju tanav; toimub ka vihmase ilmaga. Kontrollitud 02.09.2026. NB see kuupaev jaab Fringe'i aknast (18.08-18.09) valja, seetottu fringe.ee-l lehte ei ole ja `ou` on teadlikult tuhi (REEGLID 3: piletimuuja ei tohi olla `ou`).",
+   "img": "https://www.skene.info/pildid/giidituurkolmnurktriangleinglisekeeles.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-09-27",
+   "t": "kontsert",
+   "n": "Kultuurifoorum Paabel: Omar Souleyman (SY)",
+   "a": "Süüria elektroonilise dabke'i legend Kultuurifoorum Paabeli teise päeva õhtuse programmi peaesinejana; TASUTA sissepääs. Alustas pulmalauljana ja andis välja ligi 500 live-albumit; Four Tet' produtseeritud «Wenu Wenu» (2013) ja kolm Mad Decenti albumit viisid ta globaalsesse elektroonilise muusika kaanonisse (Glastonbury, Roskilde, Bonnaroo, Pitchfork Paris)",
+   "b": [
+    "Omar Souleyman (SY)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "electro",
+    "folk",
+    "experimental"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/omar-souleyman-live-kultuurifoorum-paabel-2026/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/899579202821360",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "tasuta sissepääs; Kultuurifoorum Paabeli avalik programm 27.09",
+    "allikas": "paavli.ee, kontrollitud 25.08.2026"
+   },
+   "lisatud": "2026-08-25",
+   "nb": "lisatud 25.08.2026 Silveri otsusel ('Omar on elektroonika, nii et klubi') — 22.08 ülevaatuspunkt on sellega suletud. Kaks allikat: paavli.ee ürituseleht + kultuurivabrik.ee programminimekiri ('Sep 27 — Omar Souleyman LIVE @ Kultuurifoorum Paabel 2026'). ⚠ ALGUSAEG LAHTINE: kultuurivabrik.ee näitab 27.09 kirje juures 15.00, paavli.ee ütleb ainult, et Souleyman on ÕHTUSE programmi peaesineja — 15.00 on tõenäoliselt kogu päevaprogrammi algus, seega kellaaega kirjes ei ole. Kontrolli FB eventilt 899579202821360 enne, kui algusaeg lisatakse. Žanrisildid tulenevad korraldaja sõnastusest ('Süüria elektrooniline dabke'), mitte verifitseeritud taksonoomiast; 'folk' viitab dabke rahvatantsumuusika juurtele. Festivali üldprogramm: https://www.facebook.com/events/1750097106025439/",
+   "img": "https://klubi.skene.info/pildid/kultuurifoorumpaabelomarsouleymansy.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-09-27",
+   "t": "kontsert",
+   "n": "Uranus (FIN) + Joy Palace + Aš-Šur",
+   "a": "URANUS Over Estonia '26 minituuri kolmas ja viimane kontsert; 20.00–23.59",
+   "b": [
+    "Uranus (FIN)",
+    "Joy Palace",
+    "Aš-Šur"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "death",
+    "metal",
+    "rock"
+   ],
+   "sn": "Secret Face Productions (FB events)",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/829924156832270/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Hell, Tartu) + Hell, Tartu FB events-tab. Tiigi 76a. Pilet/uksehind avaldamata."
   }
  ]
 }

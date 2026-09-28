@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-09-28",
  "entries": [
   {
    "d": "2026-09-12",
@@ -43,34 +43,6 @@
    "su": "https://narayanarecords.bandcamp.com/",
    "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti techno-tag'i otsingust (sources.json bandcamp_otsing). Kaks allikat: Bandcamp (Narayana records, Tallinn, Estonia; released September 12, 2026) + plaadifirma Narayana Records Instagrami teade 12.09 („STATE — New EP out today“). Kuupäev 6 päeva vana → lisatud = tänane (esilehe „uued reliisid“ riba, REEGLID §6).",
    "img": "pildid/qbicrubicstate.webp"
-  },
-  {
-   "d": "2026-09-27",
-   "t": "kontsert",
-   "n": "Kultuurifoorum Paabel: Omar Souleyman (SY)",
-   "a": "Süüria elektroonilise dabke'i legend Kultuurifoorum Paabeli teise päeva õhtuse programmi peaesinejana; TASUTA sissepääs. Alustas pulmalauljana ja andis välja ligi 500 live-albumit; Four Tet' produtseeritud «Wenu Wenu» (2013) ja kolm Mad Decenti albumit viisid ta globaalsesse elektroonilise muusika kaanonisse (Glastonbury, Roskilde, Bonnaroo, Pitchfork Paris)",
-   "b": [
-    "Omar Souleyman (SY)"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "electro",
-    "folk",
-    "experimental"
-   ],
-   "sn": "paavli.ee",
-   "su": "https://paavli.ee/sundmused/omar-souleyman-live-kultuurifoorum-paabel-2026/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/899579202821360",
-   "hind": {
-    "praegu": "tasuta",
-    "mark": "tasuta sissepääs; Kultuurifoorum Paabeli avalik programm 27.09",
-    "allikas": "paavli.ee, kontrollitud 25.08.2026"
-   },
-   "lisatud": "2026-08-25",
-   "nb": "lisatud 25.08.2026 Silveri otsusel ('Omar on elektroonika, nii et klubi') — 22.08 ülevaatuspunkt on sellega suletud. Kaks allikat: paavli.ee ürituseleht + kultuurivabrik.ee programminimekiri ('Sep 27 — Omar Souleyman LIVE @ Kultuurifoorum Paabel 2026'). ⚠ ALGUSAEG LAHTINE: kultuurivabrik.ee näitab 27.09 kirje juures 15.00, paavli.ee ütleb ainult, et Souleyman on ÕHTUSE programmi peaesineja — 15.00 on tõenäoliselt kogu päevaprogrammi algus, seega kellaaega kirjes ei ole. Kontrolli FB eventilt 899579202821360 enne, kui algusaeg lisatakse. Žanrisildid tulenevad korraldaja sõnastusest ('Süüria elektrooniline dabke'), mitte verifitseeritud taksonoomiast; 'folk' viitab dabke rahvatantsumuusika juurtele. Festivali üldprogramm: https://www.facebook.com/events/1750097106025439/",
-   "img": "pildid/kultuurifoorumpaabelomarsouleymansy.webp"
   },
   {
    "d": "2026-10-02",
