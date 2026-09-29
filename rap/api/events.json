@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 139,
+ "count": 141,
  "entries": [
   {
    "sait": "www",
@@ -285,35 +285,6 @@
    "su": "https://townflesh.bandcamp.com/album/the-town-flesh-extended-play",
    "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KAKS ALLIKAT: albumi Bandcamp-leht („releases 25 September 2026“, 6 lugu, tracklist olemas) + Fienta/FB ürituseleht „Town Flesh & Ixtlan LIVE“, mis ütleb, et bänd esitleb EP-d „samal päeval, kui see ilmub“ (25.09) — Bandcampi kuupäev ei ole seega platseholder (REEGLID §6 kuupäevalõks kontrollitud). Bändi enda kirjeldus: indie-viisik, mõjutused 60ndate psühh / 80ndate jangle / 90ndate alternatiiv, liikmeid mh Holy Motorsist ja The Boondocksist; remiksid Pia Fraus (EE dreampop) ja The Lunacy Of Flowers (UK darkwave). Reliis on värskem kui 30 päeva → lisatud = tänane kuupäev, kirje läheb esilehe „Uued reliisid“ ribale (REEGLID §6). ⚠ SILT MUUDETUD 13.09.2026: Silver lubas „indie“ uue sildina — lisatud `g` ette. Meta-filtrit see ei muuda (indie ei ole GENRE_META-s, nagu shoegaze'igi pole), kirje jääb `alt`/`rock` metasse ja `indie` paistab kaardi sildina.",
    "img": "https://www.skene.info/pildid/townfleshthetownfleshextendedplay.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-09-28",
-   "t": "kontsert",
-   "n": "LILIxELBE (CZ) + Decultivate (CZ) + Trigger (DE) + In Obscurity Revealed (MX) + Koni + Childbeater",
-   "a": "algus 18.00; kuus bandi Tsehhist, Saksamaalt, Mehhikost ja Eestist; korraldaja sonastus „kuus bandi ule maailma kommiraha eest“",
-   "b": [
-    "LILIxELBE (CZ)",
-    "Decultivate (CZ)",
-    "Trigger (DE)",
-    "In Obscurity Revealed (MX)",
-    "Koni",
-    "Childbeater"
-   ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
-   "g": [
-    "grind",
-    "death",
-    "metal"
-   ],
-   "sn": "Konservatooriumi FB events-tab",
-   "su": "https://www.facebook.com/konservatoorium/events?locale=et_EE",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2178578089753939/",
-   "lisatud": "2026-09-25",
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Konservatoorium + Kaleo Ghidora) + Konservatooriumi ENDA kuukava-postitus „SEPTEMBER 2026 ver.2“ (google.ee tulem kinnitab E 28.09 18.00, Koidu 13a Viljandi). Sama tuuripakett nagu 27.09 Ulase12 kirjel (https://www.facebook.com/events/1793462062082892/), mille leht utleb zanri valja: Trigger = 90ndate grindcore; In Obscurity Revealed (MX) = death metal (sama band on 29.09 Ulase12 kirjel). ZANR tuleb seega ESINEJATE ja sama paketi urituse enda lehelt, MITTE venue profiilist (REEGLID §1). ⚠ classify.py kontrollib. Pilet/uksehind avaldamata."
   },
   {
    "sait": "www",
@@ -1906,6 +1877,23 @@
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Last Penance + Anemon12) + Anemon12/Ülase12 events-tab. Varssavi dark metal/hardcore (album «Heathens»). Pilet/uksehind avaldamata."
   },
   {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "BATTLE OF METAL — MEXICO vs ESTONIA",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%ad%f0%9d%92%90%f0%9d%92%8d%f0%9d%92%8c-%f0%9d%91%b4%f0%9d%92%86%f0%9d%92%95%f0%9d%92%82%f0%9d%92%8d-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82-2/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-09-29"
+  },
+  {
    "sait": "rap",
    "d": "2026-10-23",
    "t": "klubi",
@@ -1986,6 +1974,23 @@
    "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Marko Haavisto & Poutahaukat = Soome rautalanka/roots-rokk (kantri, bluus, rokk; 14 albumit, Kaurismäki filmidest tuntud „Paha vaanii\"), Allan Vainola = Vennaskonna laulukirjutaja soolokoosseisuga, Fienta kirjeldus seob Unenäopüüdjad otse Vennaskonna varasema loominguga. Mõlemad kitarripõhised → REEGLID §1 peasait. Kahe allika reegel täidetud: Paavli oma üritusleht (kellaajad, koosseis) + Fienta piletileht (L 24.10.2026 20.00–25.10 00.00, uksed 19.30, korraldaja Fenno-Ugria Asutus MTÜ, 20/25 €). FB event: https://www.facebook.com/events/1773615643962455",
    "img": "https://www.skene.info/pildid/hoimupaevadeklubioomarkohaavistojapoutahaukatallanvainolajaunenaopuudjad.webp",
    "img_src": "https://paavli.ee/sundmused/hoimupaevade-klubioo-marko-haavisto-ja-poutahaukat-allan-vainola-ja-unenaopuudjad/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-25",
+   "t": "kontsert",
+   "n": "Halloween Flea Market vol. 3",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/halloween-flea-market-vol-3/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-09-29"
   },
   {
    "sait": "www",
@@ -2110,6 +2115,23 @@
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026 Kidrakuuri FB events-tabist. Kaks allikat: FB event (korraldajad RAISK + Elukas) + Fienta piletileht. Tuuri teine kuupaev (Tartu/Parnu/Rakvere/Viljandi) oli 09.09 seisuga veel lahtine - kontrolli jargmistes sweepides.",
    "img": "https://www.skene.info/pildid/tuur20raiskelukassulferdustfinraisk.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Monster Ball – Halloween Party in Tallinn 2026",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/monster-ball-halloween-party-in-tallinn-2026/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-09-29"
   },
   {
    "sait": "www",
