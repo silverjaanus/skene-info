@@ -3727,6 +3727,30 @@
    "img": "pildid/korralagedustraumapunktklostriidovm.webp"
   },
   {
+   "rel": 1,
+   "d": "2026-09-18",
+   "lisatud": "2026-08-30",
+   "t": "reliis",
+   "n": "MAI SKIZO — «Valu mõte»",
+   "a": "Bändi teine album, 13 lugu; post-punk / industriaal / gooti rokk Tallinnast. Seitse aastat tehtud; «Armastuse haua» sõnade autor on Mait Vaik, ülejäänu bändi omalooming",
+   "b": [
+    "MAI SKIZO"
+   ],
+   "g": [
+    "rock",
+    "post",
+    "punk",
+    "goth",
+    "industrial",
+    "dark",
+    "alt"
+   ],
+   "sn": "Spotify",
+   "su": "https://open.spotify.com/album/2BXmkqfUfg9kJHrhKgqqmO",
+   "nb": "lisatud 30.08.2026 postkastijooksus (sama kontaktivormi sisend, mis 18.09 väljalaskeüritus). KAKS ALLIKAT: bändi kodulehe teade maiskizo.ee 29.08.2026 (ametlik avaldamiskuupäev 18.09.2026) + Spotify albumileht 2BXmkqfUfg9kJHrhKgqqmO (pealkiri «Valu mõte», 13 lugu — kattub kodulehe 01.01.2026 postituse loeteluga). ⚠ KUUPÄEVA NÜANSS: bänd ütleb ise, et album on Spotifys JUBA saadaval, aga ametlik avaldamiskuupäev on 18.09.2026 — `d` järgib bändi enda ametlikku kuupäeva, mis on ka väljalaskeürituse päev. Voogedastuses on lugude nimed veidi teised kui kodulehe tracklistis («Proloog»/«Epiloog» vs «Valu mõte I/II osa», «Mai ei tea» vs «Ma ei tea»).",
+   "img": "pildid/maiskizovalumote.webp"
+  },
+  {
    "d": "2026-09-19",
    "t": "kontsert",
    "n": "Psychoterror + Pedigree + Apparatus & Apparata",
@@ -4347,6 +4371,32 @@
    "ou": "https://www.facebook.com/events/2178578089753939/",
    "lisatud": "2026-09-25",
    "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Konservatoorium + Kaleo Ghidora) + Konservatooriumi ENDA kuukava-postitus „SEPTEMBER 2026 ver.2“ (google.ee tulem kinnitab E 28.09 18.00, Koidu 13a Viljandi). Sama tuuripakett nagu 27.09 Ulase12 kirjel (https://www.facebook.com/events/1793462062082892/), mille leht utleb zanri valja: Trigger = 90ndate grindcore; In Obscurity Revealed (MX) = death metal (sama band on 29.09 Ulase12 kirjel). ZANR tuleb seega ESINEJATE ja sama paketi urituse enda lehelt, MITTE venue profiilist (REEGLID §1). ⚠ classify.py kontrollib. Pilet/uksehind avaldamata."
+  },
+  {
+   "d": "2026-09-29",
+   "t": "kontsert",
+   "n": "TESA + Thousand Hands + Pühak + In Obscurity Revealed + Kubong",
+   "a": "algus 18.00",
+   "b": [
+    "TESA",
+    "Thousand Hands",
+    "Pühak",
+    "In Obscurity Revealed",
+    "Kubong"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "punk",
+    "core"
+   ],
+   "sn": "Ülase12 / Anemon12 (FB events)",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2252037512315293/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Koosseis ürituse pealkirjast (viis bändi). Pilet/uksehind avaldamata (Ülase12 on annetuspõhine DIY-keskus)."
   }
  ]
 }
