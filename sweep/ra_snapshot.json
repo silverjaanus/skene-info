@@ -1,8 +1,8 @@
 {
- "tommatud": "2026-09-30",
+ "tommatud": "2026-10-01",
  "aken": {
-  "algus": "2026-09-30",
-  "lopp": "2026-11-29"
+  "algus": "2026-10-01",
+  "lopp": "2026-11-30"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
@@ -172,7 +172,9 @@
    "v": "Paavli Kultuurivabrik",
    "ala": "Tallinn",
    "b": [
-    "Aïsha Devi"
+    "Aïsha Devi",
+    "Shah Rud",
+    "Wash Electra"
    ],
    "g": [
     "Trance",
