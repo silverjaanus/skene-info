@@ -591,6 +591,11 @@
    "nimi": "Helitehas (ametlik sait)",
    "url": "https://helitehas.ee/",
    "nb": "LISATUD 17.08.2026: oli varem fetch.py serveripoolses korjes (src_helitehas), aga sait ehitati ymber ja parser tagastas VAIKSELT 0 kirjet (8 event-linki lehel, yhelgi ei leitud kuupaeva ega zanrisona; pealkiri tuli URL-i slugist kujul 'airbourne %e2%94%82 helitehas tallinn'). WP REST API on LUKUS - /wp-json/ mistahes kujul annab 401, seega API-teed EI OLE. ⚠ SEGAZANRI KOHT - filtreeri skoop kasitsi (samas nimekirjas on jalgpalli yhisvaatamisi, filmiohtuid ja peoraama). Just see on pohjus, miks automaatkorje siit maha voeti 17.08.2026: zanri arvamine pealkirja jargi ei tootanud. FB-leht on eraldi kirjena /fb all."
+  },
+  {
+   "nimi": "Uus Laine (veebikava)",
+   "url": "https://uuslaine.com/",
+   "nb": "lisatud postkastijooksus 01.10.2026: REEGLID §3 'NII FB-leht KUI veebisait' — seni oli ainult FB events-tab. Veebikava loetleb Laine Live/Klubiöö üritused koos Fienta/Piletitasku/FB-linkidega (laine.bar suunab siia); siit leiti 01.10 Phlox+Surin 31.10 ja Art of Mosh Halloween 30.10. Filtreeri DJ/klubiõhtud klubi poolele."
   }
  ],
  "yldised_agregaatorid": {

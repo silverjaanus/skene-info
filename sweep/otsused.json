@@ -1,24 +1,48 @@
 [
  {
-  "oid": "2026-09-25-riste-supipaev-lp-remaster",
-  "kysimus": "Riste — «Supipäev (LP remaster 2026)», ilmus 15.09.2026 Bandcampis, 14 lugu. Kas 2023. aasta albumi 2026. remaster / vinüülikordustrükk läheb www-le reliisina?",
+  "oid": "2026-10-01-alonette-crooked-mouth",
+  "kysimus": "Laine Live: Alonette + Crooked Mouth (LT) — L 07.11.2026, Uus Laine, 12–15 €. Kas lisame www-le?",
   "valikud": [
    {
     "id": "a",
-    "tekst": "Jätta välja — kordustrükk on tagakataloog, saidile läheb ainult uus looming (14.09 pretsedent: „ei vanu asju pole küll vaja tuua\")."
+    "tekst": "Lisada www-le, sildid folk + post + rock + alt."
    },
    {
     "id": "b",
-    "tekst": "Lisada www-le reliisina, d = 2026-09-15, rel + lisatud = 2026-09-15; sildid punk + folk + alt (samad, mis Riste 12.09 folkpunk-õhtu kirjel)."
+    "tekst": "Jätta välja — Alonette folk-pop ei ole kitarripõhine alternatiiv."
    }
   ],
-  "vaikeotsus": "a",
-  "tahtaeg": "2026-09-30",
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-10-06",
   "lingid": [
-   "https://ristesofiekaar.bandcamp.com/album/supip-ev-lp-remaster-2026",
-   "https://www.facebook.com/events/1962707430915134/"
+   "https://www.facebook.com/events/911703998325554",
+   "https://fienta.com/et/laine-live-alonette-crooked-mouth",
+   "https://uuslaine.com/"
   ],
-  "kontekst": "Leitud 25.09.2026 postkastijooksus Rada7.ee uudiskirjast 24.09.2026 („Kinomajas tähistab Riste aga seda, et album «Supipäev» jõudis vinüülile\"; esitluskontsert 24.09 Kinomajas koos Pastacase ja Richard Jerbachiga — see kontsert ISE on juba möödas, seda ei backfilli). KAKS ALLIKAT ON OLEMAS: (1) albumi Bandcamp-leht, mis ütleb „released 15 September 2026\" ja credits'ites „lindistatud 2023. aasta veebruaris türi proovikas. esimest korda välja antud 2023. aasta märtsis degenerate undergroundi alt\" — REEGLID §6 Bandcampi kuupäevalõks on seega kontrollitud, credits kinnitab, et 15.09.2026 on remasteri, mitte originaali kuupäev; (2) Rada7 uudiskiri + 24.09 esitluskontserdi FB event, mis mõlemad kinnitavad vinüüli ilmumist septembris 2026. MIKS KÜSIN: kaks reeglit osutavad vastassuunda. REEGLID §6 (14.09 Mang Ondi otsus) ütleb, et tagakataloogi saidile ei tooda — ja see ON 2023. aasta album. Samal ajal EI OLE tegu uue Bandcampi allika tagakataloogi hulgi-importimisega (see oli 14.09 otsuse tegelik kontekst): see on ÜKS konkreetne 2026. aastal tehtud remaster, millel on oma vinüülväljalase ja oma esitluskontsert, ehk artisti jaoks päris 2026. sündmus. Artist ise on juba www-l (Giz Medium + Riste + Qaribou + Sur(m)prise 12.09.2026 Ülase12, sildid punk + folk + alt), seega žanriliselt skoobis. Bandcampi lehel ei ole žanrisilte — (b) puhul tuleksid sildid artisti olemasolevalt kirjelt, mitte lehelt. Vastus annab ka PÜSIREEGLI: kas remaster/kordustrükk/vinüülväljalase üldse loeb reliisiks REEGLID §6 mõttes. ristesofiekaar.bandcamp.com EI ole sweep/sources.json-is, seega check_bandcamp seda ei valva ja acki ei vaja — (a) korral ei jää midagi rippuma.",
-  "lisatud": "2026-09-25"
+  "kontekst": "Leitud 01.10.2026 postkastijooksus Fienta uudiskirjast 30.09. Kaks allikat olemas: Uus Laine veebikava (linkib FB eventi 911703998325554) + Fienta piletileht (korraldaja OÜ Uus Laine; Early Bird 12 € läbi müüdud, tavapilet 15 €, noortepilet 7,50 €). Žanr ürituse ENDA (Fienta) tekstist: Alonette = folk-pop + 70ndate roki mõjud + kaasaegne eksperiment; Crooked Mouth (LT) = 'post-industrial folk music' — neofolk, acid folk, post-punk. MIKS KÜSIN: Crooked Mouth sobiks www-le selgelt (neofolk/post-punk), Alonette folk-pop on piiripealne (REEGLID §1: piiripealne baasžanr → küsi). FB eventi ei saanud lugeda (robots), kellaaeg avaldamata.",
+  "lisatud": "2026-10-01"
+ },
+ {
+  "oid": "2026-10-01-pantokraator-45-kontserdid",
+  "kysimus": "Pantokraator — Shakespeare Sonetid + Panto 45: K 21.10.2026 kl 19.00 Alexela Kontserdimaja (Tallinn) ja N 22.10 kl 19.00 Vanemuise kontserdimaja (Tartu), 39–59 €. Kas lisame www-le?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "Lisada www-le kaks kirjet (silt rock), album on juba reliisina sees."
+   },
+   {
+    "id": "b",
+    "tekst": "Jätta välja — staažikas peavoolurokk suures kontserdisaalis (Terminaatori/Smilersi telg)."
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-10-06",
+  "lingid": [
+   "https://www.piletilevi.ee/piletid/MTWWT36SQM/pantokraator-shakespeare-sonetid-panto-45",
+   "https://www.piletilevi.ee/piletid/75GPGAVEV5/pantokraator-shakespeare-sonetid-panto-45",
+   "https://panto.ee/"
+  ],
+  "kontekst": "Leitud 01.10.2026 postkastijooksus Pantokraatori albumi kontrollimisel (bändi leht panto.ee viitab kahele esitluskontserdile). Kaks allikat: panto.ee + Piletilevi ürituselehed (korraldaja ELC Promotion OÜ; Tartu 39–59 €, Tallinna hind lehel avaldamata; külalised Lauri Saatpalu, Jaan Sööt, Triinu Taul, Kaie Mikheim, Mait Karm). Album «William Shakespeare'i sonetid» (20.09.2026) LISATI www-le reliisina, sest see on HANDOVER-is jälgitud Esitluspäev 6 reliis (bänd on Raskemuusikaliidu Esitluspäeva kavas). MIKS KÜSIN: kontsert on 45. juubeli tähistamine suures kontserdisaalis koos peavoolu-külalistega — piir 'raskemuusika' ja 'peavoolurokk' (REEGLID §1 pretsedent Terminaator/Smilers VÄLJA) vahel on Silveri otsus. FB eventi otsimata (Piletilevi lehed on ürituse enda lehed).",
+  "lisatud": "2026-10-01"
  }
 ]

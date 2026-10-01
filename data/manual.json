@@ -627,10 +627,12 @@
   "d": "2026-10-02",
   "t": "kontsert",
   "n": "Beneath Revalia — The Livonian Tour",
-  "a": "Balti tuuri Viljandi peatus, algus 18.00; korraldaja Humanity",
+  "a": "Balti tuuri Viljandi peatus; uksed 18.00, bändid 19.00; korraldaja Humanity",
   "b": [
    "Humanity",
-   "Deceitome"
+   "Shrapnelle",
+   "Deceitome",
+   "Sarcophakiss (LV)"
   ],
   "v": "Konservatoorium",
   "c": "mujal",
@@ -641,15 +643,15 @@
   "sn": "Konservatoorium FB",
   "su": "https://www.facebook.com/konservatoorium/events",
   "lisatud": "2026-08-21",
-  "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis. | 04.09.2026 sweep: Konservatooriumi FB events-tabist leitud urituse enda event (1415447317294805), ou lisatud. Tuuri Tallinna kuupaev 26.09 MOD on nuud ERALDI kirje. | 11.09.2026 sweep RIKASTUS: TEINE ALLIKAS LEITUD — Fienta tuuriseeria (https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu) sisaldab kuupäevavalikus ka 02.10 Konservatoorium Viljandi → pu lisatud. ⚠ PARANDUS: senine b oli [\"Beneath Revalia\"], aga see on TUURI nimi — esineja on Humanity. Viljandi täpset koosseisu korraldaja veel eraldi välja ei ütle; tuuri viiest lisabändist on tärniga (kuupäevapõhised) Deceitome*, Theoretik* ja Morbitech*, Tartu sai Morbitechi ja Tallinn Theoretiku → Viljandisse jääb Deceitome, aga see on TULETUS, mitte korraldaja sõna → koosseis_tba jääb püsti.",
+  "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis. | 04.09.2026 sweep: Konservatooriumi FB events-tabist leitud urituse enda event (1415447317294805), ou lisatud. Tuuri Tallinna kuupaev 26.09 MOD on nuud ERALDI kirje. | 11.09.2026 sweep RIKASTUS: TEINE ALLIKAS LEITUD — Fienta tuuriseeria (https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu) sisaldab kuupäevavalikus ka 02.10 Konservatoorium Viljandi → pu lisatud. ⚠ PARANDUS: senine b oli [\"Beneath Revalia\"], aga see on TUURI nimi — esineja on Humanity. Viljandi täpset koosseisu korraldaja veel eraldi välja ei ütle; tuuri viiest lisabändist on tärniga (kuupäevapõhised) Deceitome*, Theoretik* ja Morbitech*, Tartu sai Morbitechi ja Tallinn Theoretiku → Viljandisse jääb Deceitome, aga see on TULETUS, mitte korraldaja sõna → koosseis_tba jääb püsti. | 01.10.2026 postkastijooks RIKASTUS: KOOSSEIS KINNITATUD kahest allikast — Fienta tuurileht (https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu: 02.10 Viljandi = Humanity, Shrapnelle, Deceitome, Sarcophakiss (LV), uksed 18.00 / bändid 19.00, 10/15 €) + Rada7.ee uudiskiri 30.09 (samad neli nime). koosseis_tba maha.",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1415447317294805/",
-  "koosseis_tba": 1,
   "pu": "https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu",
   "img": "pildid/beneathrevaliathelivoniantour.webp",
   "hind": {
    "praegu": "10–15 €",
-   "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   "mark": "noortepilet 10 €, tavapilet 15 €",
+   "allikas": "Fienta, kontrollitud 01.10.2026"
   },
   "linn": "Viljandi"
  },
@@ -3180,5 +3182,79 @@
   "ou": "https://www.facebook.com/events/1287892906446194/",
   "lisatud": "2026-09-25",
   "nb": "leitud jarelejooksus 25.09.2026 Rada7 FB events-tabist. Kaks allikat: urituse FB event (korraldajad Ulmelung + Pettunud Kodanik + 2) + Voru Kandle ENDA FB-postitus („25. september on Kandles kohal DND, Pettunud Kodanik… 25. sept 20.0“, google.ee kaudu), kuupaev/kellaaeg/koht kattuvad; kolmas Kagu-Eesti postitus. Zanr urituse enda lehelt: „legendaarne Tartu alternatiivroki ansambel DND“; Pettunud Kodaniku oma leht: „Navigeerume meeletus postpungikaoses. Tartu.“ Pilet/uksehind lehel avaldamata."
+ },
+ {
+  "d": "2026-09-20",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Pantokraator — «William Shakespeare'i sonetid»",
+  "a": "Eesti rokiveterani uus album, 10 lugu: Shakespeare'i sonetid Harald Rajametsa tõlkes; triloogia 2. osa (1. osa «Déjà vu» 2025, 3. osa «Eesti» 2027); CD + LP; albumi müügitulu läheb vähifondile Kingitud Elu",
+  "b": [
+   "Pantokraator"
+  ],
+  "g": [
+   "rock"
+  ],
+  "sn": "panto.ee",
+  "su": "https://panto.ee/albums",
+  "on_": "Spotify",
+  "ou": "https://open.spotify.com/album/7yVhAbt7iF6CwDxlrNqN5p",
+  "lisatud": "2026-10-01",
+  "nb": "lisatud postkastijooksus 01.10.2026. Leitud Rada7.ee uudiskirjast 30.09 (Spotify-link). Kaks allikat: bändi enda leht panto.ee/albums (\"ilmus 20.09.2026\", CD + LP, Rahva Raamatu müügilingid) + Spotify albumileht (10 lugu, 20.09.2026). Üks neljast HANDOVER-is jälgitud Esitluspäev 6 reliisist (03.10 Tapper, Pantokraator annab seal intervjuu). Silt 'rock' bändi enda lehelt (\"Rock Band\"). Esitluskontserdid 21.10 Alexela ja 22.10 Vanemuise kontserdimaja EI ole lisatud — skoobiküsimus Silverile (HANDOVER §4)."
+ },
+ {
+  "d": "2026-10-31",
+  "t": "kontsert",
+  "n": "Laine Halloween Live: Phlox + Surin",
+  "a": "Halloweeni live: Eesti progeroki legend Phlox (keerukad rütmid + saksofon) ja Tallinna Surin (krautrock, post-rock, surf, punk, jazz)",
+  "b": [
+   "Phlox",
+   "Surin"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "post",
+   "punk",
+   "alt"
+  ],
+  "sn": "uuslaine.com",
+  "su": "https://uuslaine.com/",
+  "pu": "https://fienta.com/et/laine-halloween-live-phlox-surin",
+  "hind": {
+   "praegu": "10 €",
+   "allikas": "Fienta, kontrollitud 01.10.2026"
+  },
+  "lisatud": "2026-10-01",
+  "nb": "lisatud postkastijooksus 01.10.2026 (leitud Uus Laine kava kontrollimisel Fienta uudiskirja Alonette-kirje järel). Kaks allikat: Uus Laine veebikava (uuslaine.com, 31.10) + Fienta piletileht (korraldaja OÜ Uus Laine; žanrikirjeldus sealt). Ürituse FB-eventi venue kava ei lingi → ou tühi (Fienta ei tohi olla ou). Kellaaeg avaldamata."
+ },
+ {
+  "d": "2026-10-30",
+  "t": "kontsert",
+  "n": "Art of Mosh (Halloween Edition): City Dog (UK) + Norest Souls (LV) + Homebroke",
+  "a": "uksed 19.00, live 20.00–22.30; Art of Mosh halloweeni-õhtu",
+  "b": [
+   "City Dog (UK)",
+   "Norest Souls (LV)",
+   "Homebroke"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "post",
+   "alt"
+  ],
+  "sn": "uuslaine.com",
+  "su": "https://uuslaine.com/",
+  "pu": "https://fienta.com/et/art-of-mosh-halloween-edition-city-dog-uk-norest-souls-lv-homebroke-ee",
+  "hind": {
+   "praegu": "12,99 €",
+   "mark": "Early Spooky Bird",
+   "allikas": "Fienta, kontrollitud 01.10.2026"
+  },
+  "lisatud": "2026-10-01",
+  "nb": "lisatud postkastijooksus 01.10.2026 (Uus Laine kava). Kaks allikat: Uus Laine veebikava (30.10) + Fienta piletileht (korraldaja Art of Mosh OÜ). Ürituse leht žanrit ei ütle → žanr ESINEJATELT: City Dog = post-punk/punk/rock/shoegaze (TMW artistileht https://tmw.ee/artists/city-dog), Homebroke on www-l varem punk/post-punk siltidega (Laine Live 06.07.2026). Art of Mosh festival 20.–22.08 on www-l pretsedent. FB-eventi venue kava ei lingi → ou tühi."
  }
 ]
