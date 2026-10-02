@@ -1,26 +1,6 @@
 {
- "updated": "2026-10-01",
+ "updated": "2026-10-02",
  "entries": [
-  {
-   "rel": 1,
-   "tba": 1,
-   "d": "2026-08-07",
-   "lisatud": "2026-07-28",
-   "t": "reliis",
-   "n": "margiiela x Chillin — ühine EP (pealkiri avaldamata)",
-   "a": "kuuest loost koosnev ühine EP; esimene singel «Came Through» ilmus 21.07; margiiela sooloalbum tulekul sügisel",
-   "b": [
-    "margiiela",
-    "Chillin"
-   ],
-   "g": [
-    "räpp"
-   ],
-   "sn": "Legendaarne Records",
-   "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
-   "nb": "tulevane reliis, kuupäev kinnitatud 2 allikaga (Legendaarne Records 21.07.2026 + ERR kultuur 24.07.2026): 'ilmub 7. augustil, kuus lugu'. EP PEALKIRI ON VEEL AVALDAMATA (tba) - täienda, kui välja kuulutatakse | 21.08.2026 sweep (TBA-ülekontroll): pealkiri EI OLE endiselt avaldatud. Kontrollitud legendaarne.ee uudisvoost (viimane margiiela-uudis on 21.07 singliteade, uuemat pole) ja google.ee otsinguga — ainus tabamus on meie enda rap.skene.info kirje. Reliisi kuupäev 07.08 on möödas; tba jääb kuni pealkiri selgub.",
-   "img": "pildid/margiielaxchillinuhineeppealkiriavaldamata.webp"
-  },
   {
    "rel": 1,
    "d": "2026-09-02",
@@ -93,6 +73,57 @@
    "img": "pildid/triibupastaxnoorednaljased.webp"
   },
   {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "CHECK ONE TWO",
+   "a": "pikaaegne räpipidu, DJ-d + skrätsshow; algus 22.00",
+   "b": [
+    "Critikal",
+    "Quest",
+    "Paul Oja"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1077124981715982/",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event + Legendaarne Raadio FB events-tab. Žanr ürituse tekstist („räpipidu ... hiphopi alustala dj-ing\").",
+   "img": "pildid/checkonetwo.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "MIXTÄPE",
+   "a": "hiphop, rnb, vinüüliskrätš; PM2AM all nite long; 23.00, 20+",
+   "b": [
+    "PM2AM"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fonoteegi FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1422302986531880/",
+   "hind": {
+    "praegu": "5/7 € (FB Going) / 10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Fonoteek + PM2AM) + Fonoteegi FB events-tab. Žanr ürituse tekstist („Night full of hiphop, rnb, vinyl scratching\")."
+  },
+  {
    "d": "2026-10-14",
    "t": "kontsert",
    "n": "Legendaarne Live: Genka / Paul Oja XXX Unplugged",
@@ -114,6 +145,34 @@
    "lisatud": "2026-09-25",
    "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Legendaarne Raadio + Genka + paul oja) + Fienta piletileht („vestlusohtu ja akustiline kontsert“). Zanr urituse enda lehelt: „Keriti kassette, korrati vihikusse kritseldatud riime“ + moodustajad on Eesti hiphopi vundament (Genka / Pohjamaade Hirm). Hinda lehel ei nimetata (Fienta widgeti taga).",
    "img": "pildid/legendaarnelivegenkapaulojaxxxunplugged.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "kontsert",
+   "n": "TÖÖKOJA TURNIIR: Jobska & MACI, Budmurdaq, Feloonia, Boomphunkz",
+   "a": "albumi «OLME» esitlustuuri Tallinna kontsert; uksed 20.00",
+   "b": [
+    "Jobska & MACI",
+    "Budmurdaq",
+    "Feloonia",
+    "Boomphunkz",
+    "Abrakudumada (DJ)"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Jobska & MACI Instagram",
+   "su": "https://www.instagram.com/p/DditMAmIba4/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4400709513406842/",
+   "hind": {
+    "praegu": "5 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Töökoda Records + Budmurdaq + Legendaarne Raadio) + Jobska & MACI IG-postitus. Žanr: Töökoda Records räpialbum «OLME» (Bandcamp hip-hop)."
   },
   {
    "d": "2026-10-23",
@@ -140,6 +199,87 @@
    "ou": "https://www.facebook.com/events/1581962047410599/",
    "lisatud": "2026-09-04",
    "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1581962047410599: DJ-d Critikal, Bandit, Tarrvi (Bashment FM), Koldun; MC-d Typicalflow, Propazha, J.O.C + special guests. Peosari alates 1996. Hinda eventis ei nimetata."
+  },
+  {
+   "d": "2026-10-24",
+   "t": "kontsert",
+   "n": "Funktsioon 20 @ Helitehas: Lil Till x Prodigyboys x Hayya",
+   "a": "sügisvaheaja alguse pidu; 23.00–04.00; + special guests ja DJ-d",
+   "b": [
+    "Lil Till",
+    "Prodigyboys",
+    "Hayya"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "helitehas.ee kava",
+   "su": "https://helitehas.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2565100007645182/",
+   "pu": "https://gateme.com/helitehas/104249-funktsioon-20-helitehas-lil-till-x-prodigyboys-x-hayya",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Funktsioon + Helitehas) + helitehas.ee kava + GateMe. Žanr esinejatelt (Lil Till, Prodigyboys = Eesti räpp), ürituse tekst žanrit ei nimeta.",
+   "img": "pildid/funktsioon20helitehasliltillxprodigyboysxhayya.webp"
+  },
+  {
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Naistekas: räpp ja reiv",
+   "a": "kaheosaline: räpp (family friendly) + reiv (adults only); SinSilja videosingli «Kõhuplastika» esitlus; uksed 20.00",
+   "b": [
+    "SinSilja",
+    "Luulediiler",
+    "Tiiu",
+    "Killing Sinatra",
+    "NEOONDREED"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/naistekas-rapp-ja-reiv",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/27803554589321814/",
+   "pu": "https://fienta.com/et/naistekas-rapp-ja-reiv",
+   "hind": {
+    "praegu": "13 € kohapeal",
+    "allikas": "Fienta tekst, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Legendaarne Raadio) + Fienta piletileht (R 13.11 20:00 – 04:00). Žanr ürituse tekstist: „räpp ja reiv\". ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII rap/data/manual.json KUI klubi/data/manual.json failis — hoia n, d, ou mõlemas identsed.",
+   "img": "pildid/naistekasrappjareiv.webp"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "AZMA suur juubelikontsert",
+   "a": "AZMA 10; 18.00–23.00, vanusepiiranguta",
+   "b": [
+    "AZMA",
+    "Maxtract",
+    "Daniel Veinbergs",
+    "Utoopia",
+    "MC Kenny",
+    "Mari-Liis Müürsepp",
+    "Sim Kares (DJ)",
+    "Tommy Montana (DJ)"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "azma.ee",
+   "su": "https://azma.ee/sein/etn/azma-suur-juubelikontsert/",
+   "pu": "https://fienta.com/et/azma-suur-juubelikontsert",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: artisti oma leht azma.ee + Fienta piletileht. Žanr ürituse tekstist (räpparid, klassikaline hip-hop). FB eventi ei leidnud → ou tühi.",
+   "img": "pildid/azmasuurjuubelikontsert.webp"
   },
   {
    "d": "2027-08-13",

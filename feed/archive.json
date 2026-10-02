@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01",
+ "updated": "2026-10-02",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 364,
+ "count": 365,
  "entries": [
   {
    "sait": "www",
@@ -3245,6 +3245,28 @@
    "ou": "https://treski.ee/festival",
    "pu": "https://piletikeskus.ee/et/e/hl03ia",
    "img": "https://klubi.skene.info/pildid/treskifest2026.webp"
+  },
+  {
+   "sait": "rap",
+   "rel": 1,
+   "d": "2026-08-07",
+   "lisatud": "2026-07-28",
+   "t": "reliis",
+   "n": "margiiela x Chillin — «TLN» (Terve Linn Näeb)",
+   "a": "kuuest loost koosnev ühine EP; esimene singel «Came Through» ilmus 21.07; margiiela sooloalbum tulekul sügisel",
+   "b": [
+    "margiiela",
+    "Chillin"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Records",
+   "su": "https://legendaarne.ee/margiiela-x-chillin-uus-singel-ja-ep/",
+   "nb": "tulevane reliis, kuupäev kinnitatud 2 allikaga (Legendaarne Records 21.07.2026 + ERR kultuur 24.07.2026): 'ilmub 7. augustil, kuus lugu'. EP PEALKIRI ON VEEL AVALDAMATA (tba) - täienda, kui välja kuulutatakse | 21.08.2026 sweep (TBA-ülekontroll): pealkiri EI OLE endiselt avaldatud. Kontrollitud legendaarne.ee uudisvoost (viimane margiiela-uudis on 21.07 singliteade, uuemat pole) ja google.ee otsinguga — ainus tabamus on meie enda rap.skene.info kirje. Reliisi kuupäev 07.08 on möödas; tba jääb kuni pealkiri selgub. | 02.10.2026 sweep (samm 2b): EP PEALKIRI SELGUNUD — «TLN» aka «Terve Linn Näeb»: Legendaarne Records FB (fanlink.tv/TLNEP) + Chillin/margiiela IG-postitus; albumiesitlus 11.09 Krulli 2b (Legendaarne Records FB events-tab). `tba` maha.",
+   "img": "https://rap.skene.info/pildid/margiielaxchillinuhineeppealkiriavaldamata.webp",
+   "on_": "fanlink",
+   "ou": "https://fanlink.tv/TLNEP"
   },
   {
    "sait": "klubi",
