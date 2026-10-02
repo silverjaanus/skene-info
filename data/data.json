@@ -337,7 +337,11 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1139666062020228/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud kontaktivormist 18.09.2026 (esitaja Jevgeni Belorussov, KIN DZA DZA laulja — bänd ise pakkus). Kaks allikat: ürituse oma FB event (R 02.10.2026 19.00 EEST, Fort Bar, Pikk 43; korraldajad KIN DZA DZA - Таллин, Fort bar, Aurora Astra) + Fort Bari enda FB events-tab, kus üritus on „Upcoming“ all sama kuupäeva ja kellaajaga. ⚠ Fort Bari veebikava (fortbar.ee/eventsthismonth) on aegunud — seisab endiselt juuli 2026 — ja Songkicki venue-leht näitab 0 eelseisvat, seega need EI kõlvanud teiseks allikaks. Žanr esitaja sõnul modern/progressive/sci-fi metal; mõlemad bändid on Tallinna omad (kindzadzatallinn.bandcamp.com, facebook.com/auroraastraband). Hinda EI lisatud: esitaja ütles „tickets at the door“, aga ürituse leht summat ei nimeta."
+   "nb": "lisatud kontaktivormist 18.09.2026 (esitaja Jevgeni Belorussov, KIN DZA DZA laulja — bänd ise pakkus). Kaks allikat: ürituse oma FB event (R 02.10.2026 19.00 EEST, Fort Bar, Pikk 43; korraldajad KIN DZA DZA - Таллин, Fort bar, Aurora Astra) + Fort Bari enda FB events-tab, kus üritus on „Upcoming“ all sama kuupäeva ja kellaajaga. ⚠ Fort Bari veebikava (fortbar.ee/eventsthismonth) on aegunud — seisab endiselt juuli 2026 — ja Songkicki venue-leht näitab 0 eelseisvat, seega need EI kõlvanud teiseks allikaks. Žanr esitaja sõnul modern/progressive/sci-fi metal; mõlemad bändid on Tallinna omad (kindzadzatallinn.bandcamp.com, facebook.com/auroraastraband). Hinda EI lisatud: esitaja ütles „tickets at the door“, aga ürituse leht summat ei nimeta. | 02.10.2026 järelkontroll (samm 2b): FB event: pilet uksel 10 € sularahas.",
+   "hind": {
+    "praegu": "10 € (uksel, sularahas)",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "d": "2026-10-02",
@@ -473,7 +477,11 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1044384211758247/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Hell, Tartu + ZLO) + Hell, Tartu FB events-tab. „Mõnus, sotsiaalse sõnumiga laetud vanakooli punkrokk.“ ⚠ EI OLE duplikaat 26.09 „Laine Live: Kurjam + ZLO“ omaga (eri kuupäev, eri linn, eri koosseis). Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Hell, Tartu + ZLO) + Hell, Tartu FB events-tab. „Mõnus, sotsiaalse sõnumiga laetud vanakooli punkrokk.“ ⚠ EI OLE duplikaat 26.09 „Laine Live: Kurjam + ZLO“ omaga (eri kuupäev, eri linn, eri koosseis). Pilet/uksehind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB event: toetus 8 € (esimesel tunnil) / 10 €.",
+   "hind": {
+    "praegu": "8 € esimesel tunnil / 10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "d": "2026-10-03",
@@ -2153,7 +2161,12 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2860307484338732/",
    "lisatud": "2026-09-04",
-   "nb": "leitud sweepis 04.09.2026. Kaks allikat: Pubi Juuda FB events-tab (venue) + FB event, mille korraldaja on band ise (Sibyl Vane band, EST). Pilet avaldamata."
+   "nb": "leitud sweepis 04.09.2026. Kaks allikat: Pubi Juuda FB events-tab (venue) + FB event, mille korraldaja on band ise (Sibyl Vane band, EST). Pilet avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB eventist pilet Piletitaskus, eelmüük 20 € / uksel 25 €.",
+   "pu": "https://www.piletitasku.ee/et/event/10344",
+   "hind": {
+    "praegu": "20 € eelmüük / 25 € uksel",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "d": "2026-12-11",
@@ -2253,7 +2266,11 @@
    "img": "pildid/hubrischalbumreleasetour26.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2053170258639309/",
-   "nb": " | RIKASTATUD 18.09.2026 sweepis: ürituse FB event tõstetud su-lt ou-le (pealkirja-link viib nüüd ürituse enda lehele), avastusallikaks Kidrakuuri FB events-tab."
+   "nb": "RIKASTATUD 18.09.2026 sweepis: ürituse FB event tõstetud su-lt ou-le (pealkirja-link viib nüüd ürituse enda lehele), avastusallikaks Kidrakuuri FB events-tab. | 02.10.2026 järelkontroll (samm 2b): FB event: pilet 10 € ainult sularahas uksel.",
+   "hind": {
+    "praegu": "10 € (uksel, sularahas)",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "d": "2026-12-19",

@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 188,
+ "count": 190,
  "entries": [
   {
    "sait": "www",
@@ -399,7 +399,11 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2007188509958484/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja IDA Radio) + IDA Radio FB events-tab. Bar IDA on ka RA-s (ra.co/clubs/268078). Uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja IDA Radio) + IDA Radio FB events-tab. Bar IDA on ka RA-s (ra.co/clubs/268078). Uksehind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB event: 5 € enne / 10 € pärast keskööd.",
+   "hind": {
+    "praegu": "5 € enne keskööd / 10 € pärast",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "sait": "www",
@@ -593,7 +597,11 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1139666062020228/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud kontaktivormist 18.09.2026 (esitaja Jevgeni Belorussov, KIN DZA DZA laulja — bänd ise pakkus). Kaks allikat: ürituse oma FB event (R 02.10.2026 19.00 EEST, Fort Bar, Pikk 43; korraldajad KIN DZA DZA - Таллин, Fort bar, Aurora Astra) + Fort Bari enda FB events-tab, kus üritus on „Upcoming“ all sama kuupäeva ja kellaajaga. ⚠ Fort Bari veebikava (fortbar.ee/eventsthismonth) on aegunud — seisab endiselt juuli 2026 — ja Songkicki venue-leht näitab 0 eelseisvat, seega need EI kõlvanud teiseks allikaks. Žanr esitaja sõnul modern/progressive/sci-fi metal; mõlemad bändid on Tallinna omad (kindzadzatallinn.bandcamp.com, facebook.com/auroraastraband). Hinda EI lisatud: esitaja ütles „tickets at the door“, aga ürituse leht summat ei nimeta."
+   "nb": "lisatud kontaktivormist 18.09.2026 (esitaja Jevgeni Belorussov, KIN DZA DZA laulja — bänd ise pakkus). Kaks allikat: ürituse oma FB event (R 02.10.2026 19.00 EEST, Fort Bar, Pikk 43; korraldajad KIN DZA DZA - Таллин, Fort bar, Aurora Astra) + Fort Bari enda FB events-tab, kus üritus on „Upcoming“ all sama kuupäeva ja kellaajaga. ⚠ Fort Bari veebikava (fortbar.ee/eventsthismonth) on aegunud — seisab endiselt juuli 2026 — ja Songkicki venue-leht näitab 0 eelseisvat, seega need EI kõlvanud teiseks allikaks. Žanr esitaja sõnul modern/progressive/sci-fi metal; mõlemad bändid on Tallinna omad (kindzadzatallinn.bandcamp.com, facebook.com/auroraastraband). Hinda EI lisatud: esitaja ütles „tickets at the door“, aga ürituse leht summat ei nimeta. | 02.10.2026 järelkontroll (samm 2b): FB event: pilet uksel 10 € sularahas.",
+   "hind": {
+    "praegu": "10 € (uksel, sularahas)",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "sait": "klubi",
@@ -601,8 +609,9 @@
    "t": "klubi",
    "n": "OI-EI 8. sünnipäev @ Fonoteek",
    "a": "algus 23.00",
-   "b": [],
-   "koosseis_tba": 1,
+   "b": [
+    "LILL + friends"
+   ],
    "v": "Fonoteek",
    "c": "Tallinn",
    "g": [
@@ -615,7 +624,11 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/961743000276203/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Fonoteek) + Fonoteegi FB events-tab. OI-EI on Fonoteegi püsiv peosari. Koosseis lehel avaldamata → koosseis_tba. Uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Fonoteek) + Fonoteegi FB events-tab. OI-EI on Fonoteegi püsiv peosari. Koosseis lehel avaldamata → koosseis_tba. Uksehind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB eventist koosseis „LILL + friends = 4x4 all nite long“ ja pilet 8 € terve öö; koosseis_tba maha.",
+   "hind": {
+    "praegu": "8 € terve öö",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "sait": "klubi",
@@ -970,7 +983,11 @@
    "t": "klubi",
    "n": "TJUUN IN — Vinyl Classics Special",
    "a": "algus 22.00; TJUUN IN vinuulieri Fonoteegis — „Back to the roots. Back to the bass.“",
-   "b": [],
+   "b": [
+    "L.EAZY",
+    "TO-SHA",
+    "QBA"
+   ],
    "v": "Fonoteek",
    "c": "Tallinn",
    "g": [
@@ -982,8 +999,7 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1699521024471626/",
    "lisatud": "2026-09-25",
-   "koosseis_tba": 1,
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (KAKS korraldajat — TJUUN IN + Fonoteek) + Fonoteegi events-tab; pretsedent samale mustrile on 23.09.2026 SAGEDUSED KIVIS. Zanr tuleb urituse enda tekstist („Back to the bass“) + KORRALDAJA ENDA lehe kirjeldusest (TJUUN IN: „Dnb event series and radioshow in Estonia“) — see on korraldaja oma vaide, mitte kolmanda osapoole toimetaja (REEGLID §1). Sari on saidil juba varem (19.09 HALL, 24.07 Makoto). DJ-kava ja hind avaldamata."
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (KAKS korraldajat — TJUUN IN + Fonoteek) + Fonoteegi events-tab; pretsedent samale mustrile on 23.09.2026 SAGEDUSED KIVIS. Zanr tuleb urituse enda tekstist („Back to the bass“) + KORRALDAJA ENDA lehe kirjeldusest (TJUUN IN: „Dnb event series and radioshow in Estonia“) — see on korraldaja oma vaide, mitte kolmanda osapoole toimetaja (REEGLID §1). Sari on saidil juba varem (19.09 HALL, 24.07 Makoto). DJ-kava ja hind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB eventist koosseis L.EAZY, TO-SHA, QBA (DnB/jungle vinüülid); koosseis_tba maha."
   },
   {
    "sait": "www",
@@ -1008,7 +1024,11 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1044384211758247/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Hell, Tartu + ZLO) + Hell, Tartu FB events-tab. „Mõnus, sotsiaalse sõnumiga laetud vanakooli punkrokk.“ ⚠ EI OLE duplikaat 26.09 „Laine Live: Kurjam + ZLO“ omaga (eri kuupäev, eri linn, eri koosseis). Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Hell, Tartu + ZLO) + Hell, Tartu FB events-tab. „Mõnus, sotsiaalse sõnumiga laetud vanakooli punkrokk.“ ⚠ EI OLE duplikaat 26.09 „Laine Live: Kurjam + ZLO“ omaga (eri kuupäev, eri linn, eri koosseis). Pilet/uksehind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB event: toetus 8 € (esimesel tunnil) / 10 €.",
+   "hind": {
+    "praegu": "8 € esimesel tunnil / 10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "sait": "www",
@@ -1268,7 +1288,11 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1517701900122042/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Fonoteek) + Fonoteegi FB events-tab. Koosseis lehel avaldamata → koosseis_tba. Uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Fonoteek) + Fonoteegi FB events-tab. Koosseis lehel avaldamata → koosseis_tba. Uksehind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB event: FB Going kuni 00:00 7 € / tavapilet 10 €. ⚠ Žanrit ürituse leht ei ütle („Premium Underground“) — kirje lisati varem, vaata üle.",
+   "hind": {
+    "praegu": "7 € (FB Going kuni 00:00) / 10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "sait": "klubi",
@@ -1377,7 +1401,11 @@
    "n": "Tartu Massive: Changing Faces (SK)",
    "a": "uksed 23.00, lõpp 04.00, 18+; Tartu Massive'i 18. hooaeg, külaline esineb Eestis esmakordselt",
    "b": [
-    "Changing Faces (SK)"
+    "Changing Faces (SK)",
+    "Kling",
+    "Rabelus FM",
+    "Deffenlo",
+    "Romm & Moose"
    ],
    "v": "Klubi Gutenberg",
    "c": "Tartu",
@@ -1391,13 +1419,12 @@
    "ou": "https://www.facebook.com/events/1434611688578124/",
    "pu": "https://www.ticketer.ee/tartumassive-changingfaces",
    "lisatud": "2026-09-25",
-   "koosseis_tba": 1,
    "hind": {
     "praegu": "10 €",
     "mark": "early bird, piiratud kogus; lisandub Ticketeri tehingutasu 0,70 €",
     "allikas": "Ticketer, kontrollitud 25.09.2026"
    },
-   "nb": "leitud järelejooksus 25.09.2026 Klubi Gutenbergi FB events-tabist. Kaks allikat: ürituse FB event (korraldajad Tartu Massive + Klubi Gutenberg + 2) + Ticketeri piletileht (R 9. oktoober, uksed 23.00, Kastani 42, 18+) — kuupäev, kellaaeg ja koht kattuvad. Žanr KORRALDAJA ENDA lehelt: Tartu Massive — „monthly drum & bass event that takes place in Tartu“ (asutatud 2008); ürituse FB-leht kannab ka silti „Dance“. Residentide nimed avaldamata → koosseis_tba.",
+   "nb": "leitud järelejooksus 25.09.2026 Klubi Gutenbergi FB events-tabist. Kaks allikat: ürituse FB event (korraldajad Tartu Massive + Klubi Gutenberg + 2) + Ticketeri piletileht (R 9. oktoober, uksed 23.00, Kastani 42, 18+) — kuupäev, kellaaeg ja koht kattuvad. Žanr KORRALDAJA ENDA lehelt: Tartu Massive — „monthly drum & bass event that takes place in Tartu“ (asutatud 2008); ürituse FB-leht kannab ka silti „Dance“. Residentide nimed avaldamata → koosseis_tba. | 02.10.2026 järelkontroll (samm 2b): FB eventist täiskoosseis (Kling, Rabelus FM, Deffenlo, Romm & Moose); koosseis_tba maha.",
    "img": "https://klubi.skene.info/pildid/tartumassivechangingfacessk.webp"
   },
   {
@@ -2012,6 +2039,34 @@
    },
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Töökoda Records + Budmurdaq + Legendaarne Raadio) + Jobska & MACI IG-postitus. Žanr: Töökoda Records räpialbum «OLME» (Bandcamp hip-hop)."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "WAVE · HIGHER TOGETHER",
+   "a": "house-õhtu Pubi Juudases; 23.00, 18+",
+   "b": [
+    "DJ Alan",
+    "DJ Nor",
+    "DJ Kris"
+   ],
+   "v": "Pubi Juudas",
+   "c": "mujal",
+   "linn": "Tõrva",
+   "g": [
+    "house"
+   ],
+   "sn": "Pubi Juudase FB events-tab",
+   "su": "https://www.facebook.com/pubijuudas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2174496550085002/",
+   "hind": {
+    "praegu": "7 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Pubi Juudas) + Pubi Juudase FB events-tab. Žanr ürituse tekstist („kvaliteetse house muusika peopaik“)."
   },
   {
    "sait": "www",
@@ -3339,6 +3394,27 @@
    "img": "https://klubi.skene.info/pildid/naistekasrappjareiv.webp"
   },
   {
+   "sait": "rap",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "PILVEPIIR #FOFKIN",
+   "a": "räpikontsert noortele Kevin Polli (Fofkin) mälestuseks; Kadrina huvikeskus 19.00–22.30; esinejad selguvad",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "Kadrina huvikeskus",
+   "c": "mujal",
+   "linn": "Kadrina",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Masta Robusta FB events-tab",
+   "su": "https://www.facebook.com/MastaRobusta/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1392205469794718/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Kadrina Kultuurikoda + Masta Robusta jt) + Masta Robusta FB events-tab. Žanr ürituse tekstist („korralik räpikontsert“). Koosseis „juba varsti“ → koosseis_tba."
+  },
+  {
    "sait": "www",
    "d": "2026-11-13",
    "t": "kontsert",
@@ -3971,7 +4047,12 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2860307484338732/",
    "lisatud": "2026-09-04",
-   "nb": "leitud sweepis 04.09.2026. Kaks allikat: Pubi Juuda FB events-tab (venue) + FB event, mille korraldaja on band ise (Sibyl Vane band, EST). Pilet avaldamata."
+   "nb": "leitud sweepis 04.09.2026. Kaks allikat: Pubi Juuda FB events-tab (venue) + FB event, mille korraldaja on band ise (Sibyl Vane band, EST). Pilet avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB eventist pilet Piletitaskus, eelmüük 20 € / uksel 25 €.",
+   "pu": "https://www.piletitasku.ee/et/event/10344",
+   "hind": {
+    "praegu": "20 € eelmüük / 25 € uksel",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "sait": "klubi",
@@ -4101,7 +4182,11 @@
    "img": "https://www.skene.info/pildid/hubrischalbumreleasetour26.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2053170258639309/",
-   "nb": " | RIKASTATUD 18.09.2026 sweepis: ürituse FB event tõstetud su-lt ou-le (pealkirja-link viib nüüd ürituse enda lehele), avastusallikaks Kidrakuuri FB events-tab."
+   "nb": "RIKASTATUD 18.09.2026 sweepis: ürituse FB event tõstetud su-lt ou-le (pealkirja-link viib nüüd ürituse enda lehele), avastusallikaks Kidrakuuri FB events-tab. | 02.10.2026 järelkontroll (samm 2b): FB event: pilet 10 € ainult sularahas uksel.",
+   "hind": {
+    "praegu": "10 € (uksel, sularahas)",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   },
   {
    "sait": "www",

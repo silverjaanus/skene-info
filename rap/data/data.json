@@ -300,6 +300,26 @@
    "img": "pildid/naistekasrappjareiv.webp"
   },
   {
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "PILVEPIIR #FOFKIN",
+   "a": "räpikontsert noortele Kevin Polli (Fofkin) mälestuseks; Kadrina huvikeskus 19.00–22.30; esinejad selguvad",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "Kadrina huvikeskus",
+   "c": "mujal",
+   "linn": "Kadrina",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Masta Robusta FB events-tab",
+   "su": "https://www.facebook.com/MastaRobusta/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1392205469794718/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Kadrina Kultuurikoda + Masta Robusta jt) + Masta Robusta FB events-tab. Žanr ürituse tekstist („korralik räpikontsert“). Koosseis „juba varsti“ → koosseis_tba."
+  },
+  {
    "d": "2026-11-14",
    "t": "kontsert",
    "n": "AZMA suur juubelikontsert",
