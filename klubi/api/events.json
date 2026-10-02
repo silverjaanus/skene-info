@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 190,
+ "count": 192,
  "entries": [
   {
    "sait": "www",
@@ -1130,6 +1130,31 @@
   {
    "sait": "klubi",
    "d": "2026-10-09",
+   "t": "klubi",
+   "n": "Afterparty@HALL: Dance Floor of Democracy",
+   "a": "ERSO muusikud esitavad Kenn-Eerik Kannikese albumi «Computations» (seade Karl Tipp), seejärel klubiöö; uksed 21.30",
+   "b": [
+    "ERSO muusikud: Kenn-Eerik Kannike «Computations»",
+    "Chloe Lula (Tresor, DE)",
+    "Miia Magia (FI)",
+    "Ciara May (IE)"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4351455641759250/",
+   "pu": "https://gateme.com/halltallinn/104317-afterpartyhall-dance-floor-of-democracy",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis (eelmises jooksus jäi tekst poolikult loetuks). Kaks allikat: FB event (HALL + Prantsuse Instituut jt) + GateMe piletileht. Žanr ürituse tekstist („the Estonian National Symphony Orchestra meets techno“, Tresori DJ). Dance Floor of Democracy konverentsi järelpidu."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-09",
    "d2": "11.10",
    "t": "klubi",
    "n": "HUNGR Closing Weekend: The Last Bite",
@@ -1736,6 +1761,32 @@
   },
   {
    "sait": "www",
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Vennaskond — Trahteris Postipoiss",
+   "a": "18.00 Tõnu Trubetsky raamatuesitlus; 19.00 Lambivalgus, 20.00 Traumapunkt, 21.00 PööLoY GLääNZ, 22.00 Vennaskond, 00.30 DJ Danel Rinaldo; 18+",
+   "b": [
+    "Vennaskond",
+    "PööLoY GLääNZ",
+    "Traumapunkt",
+    "Lambivalgus",
+    "Danel Rinaldo (DJ)"
+   ],
+   "v": "Trahter Postipoiss",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "tanaparnus.ee",
+   "su": "https://tanaparnus.ee/uritus/vennaskond-10-10-2026/",
+   "pu": "https://fienta.com/et/vennaskond-postipoisis",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis (Fienta otsing 'vennaskond'). Kaks allikat: Fienta piletileht + tanaparnus.ee. Žanr Fienta tekstist („legendaarne Eesti punkrock-ansambel“). FB eventi ei leidnud → ou tühi."
+  },
+  {
+   "sait": "www",
    "d": "2026-10-12",
    "t": "kontsert",
    "n": "Hardcore Superstar",
@@ -2084,8 +2135,10 @@
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=228103",
    "img": "https://www.skene.info/pildid/wardruna.webp",
-   "nb": "07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Last.fm sildid ambient/folk/celtic/neofolk), kirje JÄÄB PEASAIDILE. Ära tõsta järgmistes sweepides. | 10.08.2026 sweep: piletilink lisatud (Piletilevi)",
-   "pu": "https://www.piletilevi.ee/piletid/GSEOBOB67K/wardruna-finland-estonia-2026"
+   "nb": "07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Last.fm sildid ambient/folk/celtic/neofolk), kirje JÄÄB PEASAIDILE. Ära tõsta järgmistes sweepides. | 10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 järelkontroll: FB event `ou`-sse (leitud google.ee kaudu; agregaator jääb `su`-le).",
+   "pu": "https://www.piletilevi.ee/piletid/GSEOBOB67K/wardruna-finland-estonia-2026",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2743926262447193/"
   },
   {
    "sait": "klubi",
@@ -2358,12 +2411,15 @@
    "sn": "Fienta",
    "su": "https://fienta.com/et/clowny-business-tallinn",
    "hind": {
-    "praegu": "10€ eelmüük / 12€ uksel",
-    "allikas": "Fienta, kontrollitud 02.08.2026"
+    "praegu": "10 € eelmüük / 15 € uksel",
+    "allikas": "FB event, kontrollitud 02.10.2026"
    },
    "lisatud": "2026-08-02",
-   "nb": "lisatud sweepis 02.08.2026; kinnitatud Fienta + Bandsintown; FB eventi ei leidnud (ou tühi) ⚠ 13.09.2026: Fienta leht (clowny-business-tallinn) annab 404 -> `pu` EEMALDATUD. NB: `su` osutab samale surnud lehele, seega sellel kirjel EI OLE enam elavat allikat — jargmises sweepis kontrolli Tapperi FB events-tabist, kas uritus toimub, ja leia uus allikas voi votta kirje maha. Hind (10/12 €) parineb 02.08 Fienta lehelt.",
-   "img": "https://www.skene.info/pildid/clownybusinessagarwaenfinsoldstrych9.webp"
+   "nb": "lisatud sweepis 02.08.2026; kinnitatud Fienta + Bandsintown; FB eventi ei leidnud (ou tühi) ⚠ 13.09.2026: Fienta leht (clowny-business-tallinn) annab 404 -> `pu` EEMALDATUD. NB: `su` osutab samale surnud lehele, seega sellel kirjel EI OLE enam elavat allikat — jargmises sweepis kontrolli Tapperi FB events-tabist, kas uritus toimub, ja leia uus allikas voi votta kirje maha. Hind (10/12 €) parineb 02.08 Fienta lehelt. | 02.10.2026 järelkontroll: ⚠ ÜRITUS EDASI LÜKATUD — FB eventi pealkiri „POSTPONED!“, uut kuupäeva pole. Fienta piletileht (clowny-business-tallinn) annab 404 ja korraldaja Fienta-lehel Tallinna kuupäeva enam ei ole. `tba` pandud (kuupäev kinnitamata), `pu` eemaldatud. Järgmises sweepis kontrolli uut kuupäeva või eemalda.",
+   "img": "https://www.skene.info/pildid/clownybusinessagarwaenfinsoldstrych9.webp",
+   "tba": 1,
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1399222555392108/"
   },
   {
    "sait": "www",
@@ -4330,9 +4386,11 @@
    ],
    "sn": "Bandsintown",
    "su": "https://www.bandsintown.com/e/108417356-the-rasmus-at-helitehas",
-   "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi otsing. Pileti otselinki ei fikseeritud | 10.08.2026 sweep: piletilink lisatud (Piletilevi)",
+   "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi otsing. Pileti otselinki ei fikseeritud | 10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 järelkontroll: FB event `ou`-sse (leitud google.ee kaudu; agregaator jääb `su`-le).",
    "img": "https://www.skene.info/pildid/therasmus.webp",
-   "pu": "https://www.piletilevi.ee/piletid/I6MPWKHDCX/the-rasmus"
+   "pu": "https://www.piletilevi.ee/piletid/I6MPWKHDCX/the-rasmus",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/974924465336121/"
   },
   {
    "sait": "www",
@@ -4425,7 +4483,11 @@
    ],
    "sn": "Metal Storm",
    "su": "https://metalstorm.net/events/event.php?event_id=232554",
-   "img": "https://www.skene.info/pildid/whitechapelsylosis200stabwoundstribalgaze.webp"
+   "img": "https://www.skene.info/pildid/whitechapelsylosis200stabwoundstribalgaze.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1876921630365046/",
+   "pu": "https://fienta.com/et/whitechapel-sylosis-tallinn-helitehas",
+   "nb": "02.10.2026 järelkontroll: FB event `ou`-sse, piletileht `pu`-sse (leitud google.ee kaudu; agregaator jääb `su`-le)."
   },
   {
    "sait": "www",
@@ -4609,7 +4671,9 @@
    "su": "https://metalstorm.net/events/event.php?event_id=235453",
    "img": "https://www.skene.info/pildid/tarjafrissontuur.webp",
    "pu": "https://www.piletilevi.ee/piletid/742VYAAXHI/tarja-turunen-tallinn",
-   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi)"
+   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 järelkontroll: FB event `ou`-sse (leitud google.ee kaudu; agregaator jääb `su`-le).",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1482771706923000/"
   },
   {
    "sait": "www",
@@ -4629,7 +4693,9 @@
    "su": "https://metalstorm.net/events/event.php?event_id=235199",
    "img": "https://www.skene.info/pildid/sabaton.webp",
    "pu": "https://www.piletilevi.ee/piletid/CAMPNPS7VF/sabaton-the-legendary-tour",
-   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi)"
+   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 järelkontroll: FB event `ou`-sse (leitud google.ee kaudu; agregaator jääb `su`-le).",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1333961378681134/"
   },
   {
    "sait": "www",
