@@ -1,27 +1,13 @@
 {
- "tommatud": "2026-10-01",
+ "tommatud": "2026-10-02",
  "aken": {
-  "algus": "2026-10-01",
-  "lopp": "2026-11-30"
+  "algus": "2026-10-02",
+  "lopp": "2026-12-01"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 30,
+ "kirjeid": 33,
  "kirjed": [
-  {
-   "d": "2026-10-01",
-   "n": "URBAN NIGHT",
-   "algus": "2026-10-01T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2545680",
-   "pilet": false
-  },
   {
    "d": "2026-10-02",
    "n": "Huba Club",
@@ -90,6 +76,20 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2545696",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-08",
+   "n": "THROWBACK THURSDAY",
+   "algus": "2026-10-08T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Pop",
+    "Club"
+   ],
+   "url": "https://ra.co/events/2551633",
    "pilet": false
   },
   {
@@ -166,6 +166,20 @@
    "pilet": false
   },
   {
+   "d": "2026-10-09",
+   "n": "ELAMUS SPA ESITLEB: VENUS REWIND",
+   "algus": "2026-10-09T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2551637",
+   "pilet": false
+  },
+  {
    "d": "2026-10-10",
    "n": "STF 2026: Aïsha Devi + Ayano Yokoyama & 34423",
    "algus": "2026-10-10T21:00:00.000",
@@ -181,6 +195,20 @@
     "Experimental"
    ],
    "url": "https://ra.co/events/2524841",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-10",
+   "n": "BIRTHDAY CLUB",
+   "algus": "2026-10-10T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Pop",
+    "Club"
+   ],
+   "url": "https://ra.co/events/2551646",
    "pilet": false
   },
   {
@@ -229,6 +257,20 @@
     "Garage"
    ],
    "url": "https://ra.co/events/2528562",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-16",
+   "n": "COSMODROME",
+   "algus": "2026-10-16T22:00:00.000",
+   "v": "KAI Estonia",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Progressive House",
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2551115",
    "pilet": false
   },
   {
