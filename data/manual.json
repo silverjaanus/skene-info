@@ -3880,5 +3880,33 @@
   "pu": "https://fienta.com/et/vennaskond-postipoisis",
   "lisatud": "2026-10-02",
   "nb": "lisatud 02.10.2026 järelkontrollis (Fienta otsing 'vennaskond'). Kaks allikat: Fienta piletileht + tanaparnus.ee. Žanr Fienta tekstist („legendaarne Eesti punkrock-ansambel“). FB eventi ei leidnud → ou tühi."
+ },
+ {
+  "d": "2026-12-05",
+  "t": "kontsert",
+  "n": "ROCK TO RAVE",
+  "a": "„kontsert muutub klubiks“: live-raskemuusikast elektroonilise järelpeoni; uksed 20.00, 18+, mahutavus 150",
+  "b": [
+   "Aurora Astra",
+   "FNQ",
+   "Sheseva",
+   "Lana Dushe"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "sn": "Fienta",
+  "su": "https://fienta.com/et/rock-to-rave",
+  "pu": "https://fienta.com/et/rock-to-rave",
+  "hind": {
+   "praegu": "12 € early bird / 15 € / 20 € uksel",
+   "allikas": "Fienta tekst, kontrollitud 02.10.2026"
+  },
+  "lisatud": "2026-10-02",
+  "nb": "lisatud 02.10.2026 Silveri otsusega („jah“ — lisada mõlemale saidile, kuigi ainus allikas on Fienta piletileht; Mood ainult peegeldab Fientat). ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII data/manual.json KUI klubi/data/manual.json failis — hoia n, d, pu mõlemas identsed. Kava Fienta tekstist: 20.30 Aurora Astra (progressiivne meloodiline metal, live), 21.30 FNQ (industriaalrokk + live-elektroonika), 22.30 Sheseva (tume techno-kabaree), 22.45 Lana Dushe (techno/industriaal-rave). FB eventi ei leidnud → ou tühi; järgmises sweepis otsi.",
+  "g": [
+   "metal",
+   "industrial",
+   "electro"
+  ]
  }
 ]
