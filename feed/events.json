@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 190,
+ "count": 191,
  "entries": [
   {
    "sait": "www",
@@ -1733,6 +1733,32 @@
    "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat.",
    "img_src": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
    "img": "https://klubi.skene.info/pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Vennaskond — Trahteris Postipoiss",
+   "a": "18.00 Tõnu Trubetsky raamatuesitlus; 19.00 Lambivalgus, 20.00 Traumapunkt, 21.00 PööLoY GLääNZ, 22.00 Vennaskond, 00.30 DJ Danel Rinaldo; 18+",
+   "b": [
+    "Vennaskond",
+    "PööLoY GLääNZ",
+    "Traumapunkt",
+    "Lambivalgus",
+    "Danel Rinaldo (DJ)"
+   ],
+   "v": "Trahter Postipoiss",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "tanaparnus.ee",
+   "su": "https://tanaparnus.ee/uritus/vennaskond-10-10-2026/",
+   "pu": "https://fienta.com/et/vennaskond-postipoisis",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis (Fienta otsing 'vennaskond'). Kaks allikat: Fienta piletileht + tanaparnus.ee. Žanr Fienta tekstist („legendaarne Eesti punkrock-ansambel“). FB eventi ei leidnud → ou tühi."
   },
   {
    "sait": "www",
