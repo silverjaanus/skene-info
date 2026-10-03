@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02",
+ "updated": "2026-10-03",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 365,
+ "count": 370,
  "entries": [
   {
    "sait": "www",
@@ -9852,6 +9852,148 @@
    },
    "lisatud": "2026-09-29",
    "nb": "kontaktivormi sisend 28.09.2026 (skene.info vorm, Zanrid: noise, drone, ambient). KLUBI: baaszanr eksperimentaalne elektroonika (noise/drone/ambient), sama loogika nagu Fumantumi reliisikirjetel (REEGLID §1). Kaks allikat: FB event (K 30.09 19:00, Cabaret Volta, Volta 5; host CAPE WRATH, Cabaret Volta, Mark Rennie) + Cape Wrathi IG plakat 21.09 ('September 30th @cabaret volta'). Venue veebikava volta7.art oli aegunud (2025). Sildid vormi zanrivälja järgi (noise/drone -> experimental)."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "Beneath Revalia — The Livonian Tour",
+   "a": "Balti tuuri Viljandi peatus; uksed 18.00, bändid 19.00; korraldaja Humanity",
+   "b": [
+    "Humanity",
+    "Shrapnelle",
+    "Deceitome",
+    "Sarcophakiss (LV)"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "lisatud": "2026-08-21",
+   "nb": "lisatud sweepis 21.08.2026. Allikas: Konservatooriumi FB events-tab (R 02.10 18:00, korraldaja Humanity). ⚠ TEINE ALLIKAS PUUDU — koosseis (kas on toetavaid bände) ja pilet kontrollida järgmises sweepis. | 04.09.2026 sweep: Konservatooriumi FB events-tabist leitud urituse enda event (1415447317294805), ou lisatud. Tuuri Tallinna kuupaev 26.09 MOD on nuud ERALDI kirje. | 11.09.2026 sweep RIKASTUS: TEINE ALLIKAS LEITUD — Fienta tuuriseeria (https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu) sisaldab kuupäevavalikus ka 02.10 Konservatoorium Viljandi → pu lisatud. ⚠ PARANDUS: senine b oli [\"Beneath Revalia\"], aga see on TUURI nimi — esineja on Humanity. Viljandi täpset koosseisu korraldaja veel eraldi välja ei ütle; tuuri viiest lisabändist on tärniga (kuupäevapõhised) Deceitome*, Theoretik* ja Morbitech*, Tartu sai Morbitechi ja Tallinn Theoretiku → Viljandisse jääb Deceitome, aga see on TULETUS, mitte korraldaja sõna → koosseis_tba jääb püsti. | 01.10.2026 postkastijooks RIKASTUS: KOOSSEIS KINNITATUD kahest allikast — Fienta tuurileht (https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu: 02.10 Viljandi = Humanity, Shrapnelle, Deceitome, Sarcophakiss (LV), uksed 18.00 / bändid 19.00, 10/15 €) + Rada7.ee uudiskiri 30.09 (samad neli nime). koosseis_tba maha.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1415447317294805/",
+   "pu": "https://fienta.com/et/s/beneath-revalia-the-livonian-abyss-tour-tartu",
+   "img": "https://www.skene.info/pildid/beneathrevaliathelivoniantour.webp",
+   "hind": {
+    "praegu": "10–15 €",
+    "mark": "noortepilet 10 €, tavapilet 15 €",
+    "allikas": "Fienta, kontrollitud 01.10.2026"
+   },
+   "linn": "Viljandi"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "Black metal Friday: Nocturnal Exorcism (FI) + Grom",
+   "a": "uksed 20.00, show 22.00, 00.00 tasuta aftekas; Sugis Productions toob Nocturnal Exorcismi esimest korda Eestisse",
+   "b": [
+    "Nocturnal Exorcism (FIN)",
+    "Grom"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "black",
+    "metal"
+   ],
+   "sn": "Sugis Productions FB",
+   "su": "https://www.facebook.com/sugisproductions/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2971837509858151/",
+   "pu": "https://fienta.com/et/nocturnalexorcism-grom-thekrypt",
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026. Kaks allikat: FB event (kaaskorraldajad The Krypt + Nocturnal Exorcism) + Fienta piletileht. Nocturnal Exorcism moodustatud Soomes 2024 (bandcamp), Grom Tallinnast 1997.",
+   "img": "https://www.skene.info/pildid/blackmetalfridaynocturnalexorcismfigrom.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "Goodman & Viljanen live @ 300 klubi",
+   "a": "Soome hardrocki tandem, kavas rocki ja hardrocki klassikud; 22.00–03.00",
+   "b": [
+    "Goodman & Viljanen (FIN)"
+   ],
+   "v": "300 klubi",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "heavy"
+   ],
+   "sn": "300 klubi FB events-tab",
+   "su": "https://www.facebook.com/300klubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1836338661144255/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 Silveri otsusega (vastus „(b) www“). Kaks allikat: FB event (300 klubi) + 300 klubi FB events-tab. Žanr ürituse tekstist („hardrocki tandem“, rock ja hardrock klassikud)."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "KIN DZA DZA × AURORA ASTRA",
+   "a": "algus 19.00; kaks Tallinna bändi ühel õhtul — KIN DZA DZA (modern metal) ja AURORA ASTRA (sci-fi progressive metal)",
+   "b": [
+    "KIN DZA DZA",
+    "Aurora Astra"
+   ],
+   "v": "Fort Bar",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "heavy",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/fortbar.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1139666062020228/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud kontaktivormist 18.09.2026 (esitaja Jevgeni Belorussov, KIN DZA DZA laulja — bänd ise pakkus). Kaks allikat: ürituse oma FB event (R 02.10.2026 19.00 EEST, Fort Bar, Pikk 43; korraldajad KIN DZA DZA - Таллин, Fort bar, Aurora Astra) + Fort Bari enda FB events-tab, kus üritus on „Upcoming“ all sama kuupäeva ja kellaajaga. ⚠ Fort Bari veebikava (fortbar.ee/eventsthismonth) on aegunud — seisab endiselt juuli 2026 — ja Songkicki venue-leht näitab 0 eelseisvat, seega need EI kõlvanud teiseks allikaks. Žanr esitaja sõnul modern/progressive/sci-fi metal; mõlemad bändid on Tallinna omad (kindzadzatallinn.bandcamp.com, facebook.com/auroraastraband). Hinda EI lisatud: esitaja ütles „tickets at the door“, aga ürituse leht summat ei nimeta. | 02.10.2026 järelkontroll (samm 2b): FB event: pilet uksel 10 € sularahas.",
+   "hind": {
+    "praegu": "10 € (uksel, sularahas)",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "Skoone & Friends - Mexican Tour Fundraiser",
+   "a": "sissepääs annetuspõhine, miinimum 5 €; kogu tulu Skoone Mehhiko-tuuri toetuseks",
+   "b": [
+    "Skoone",
+    "Paskontrole (LV)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Paavli Kultuurivabrik",
+   "su": "https://paavli.ee/sundmused/",
+   "on_": "Paavli Kultuurivabrik",
+   "ou": "https://paavli.ee/sundmused/skoone-friends-mexican-tour-fundraiser/",
+   "hind": {
+    "praegu": "alates 5 €",
+    "mark": "annetus uksel",
+    "allikas": "paavli.ee üritusleht"
+   },
+   "koosseis_tba": 1,
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026 paavli.ee sundmuste lehelt. Kaks allikat: paavli.ee uritusleht + Paavli FB event (viidatud lehelt). Line-up on lehel kirjas kujul 'Skoone / Paskontrole (LV) / + TBA' -> koosseis_tba jaab kuni kolmas nimi avaldatakse. Skoone = 80ndate hardcore punk, Paskontrole = Lati hardcore punk. | RIKASTATUD 18.09.2026 sweepis: paavli.ee üritusleht avaldas koosseisu (Skoone + Paskontrole (LV) + TBA) ja sissepääsu (annetuspõhine, min 5 €). koosseis_tba JÄÄB, sest kavas on veel '+ TBA'. https://paavli.ee/sundmused/skoone-friends-mexican-tour-fundraiser/",
+   "img": "https://www.skene.info/pildid/skoonefriendsmexicantourfundraiser.webp"
   }
  ]
 }
