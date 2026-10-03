@@ -1,44 +1,13 @@
 {
- "tommatud": "2026-10-02",
+ "tommatud": "2026-10-03",
  "aken": {
-  "algus": "2026-10-02",
-  "lopp": "2026-12-01"
+  "algus": "2026-10-03",
+  "lopp": "2026-12-02"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 33,
+ "kirjeid": 31,
  "kirjed": [
-  {
-   "d": "2026-10-02",
-   "n": "Huba Club",
-   "algus": "2026-10-02T21:00:00.000",
-   "v": "Huba Club",
-   "ala": "All",
-   "b": [
-    "Sam Oak",
-    "KEÏDAS"
-   ],
-   "g": [
-    "Progressive House",
-    "Techno"
-   ],
-   "url": "https://ra.co/events/2532395",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-02",
-   "n": "CANDY SHOP",
-   "algus": "2026-10-02T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "R&B"
-   ],
-   "url": "https://ra.co/events/2545685",
-   "pilet": false
-  },
   {
    "d": "2026-10-03",
    "n": "Reggaeton Party (Tallinn) October 2026",

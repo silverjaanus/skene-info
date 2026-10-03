@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02",
+ "updated": "2026-10-03",
  "entries": [
   {
    "rel": 1,
@@ -44,58 +44,6 @@
    "pu": "https://dewdewdew.com/et/tooted/kosmos-dew8-vat-lp-classic",
    "nb": "lisatud 11.09.2026 postkastijooksus, leitud Rada7.ee uudiskirjast 10.09.2026 ('Värskest kodumaisest muusikast tasub klappidesse tiksuma panna Kosmose ja Dew8 album'). Kaks sõltumatut allikat kuupäeva jaoks: ERR kultuur 04.09.2026 kl 14.32 ('Plaadifirma Dieu Huit Records andis välja...') + ERR 'Uue muusika reede' sama päeva koond; 04.09.2026 oli reede. Kolmas kinnitus: MuusikaPlaneet 04.09 ja Spotify albumileht. ⚠ Vinüül-LP ja albumi läbilõike video on Dieu Huiti kanalis juba aprillist 2026 ja kuulamisõhtu toimus juuni paiku — VOOGEDASTUSSE jõudis album alles 04.09, seepärast on `d` = 04.09, mitte kevad. Žanrisildid on standardsed (räpp/hiphop); 'luulealbum' / 'luule-räpp' on artistide ja Genka enda sõnastus ERR-i loos, mitte eraldi silt. Vinüülilink `pu` = Dieu Huiti oma pood dewdewdew.com (classic LP; müügil ka graniit/reesus/miraaz ja bundle).",
    "img": "pildid/kosmosdew8viimasteasjadeteadus.webp"
-  },
-  {
-   "d": "2026-10-02",
-   "t": "kontsert",
-   "n": "TRIIBUPASTA x Noored & Näljased",
-   "a": "Noored & Näljased esitavad esimest korda uue albumi lugusid, lõpetuseks Triibupasta; Kultuurikatlas kell 18.00",
-   "b": [
-    "Triibupasta",
-    "Noored & Näljased",
-    "Kalamees"
-   ],
-   "v": "Kultuurikatel",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "GateMe",
-   "su": "https://gateme.com/et/event/104094/",
-   "pu": "https://gateme.com/et/event/104094/",
-   "hind": {
-    "praegu": "10 €",
-    "mark": "Super Early Bird 10€ (78% müüdud), Super Early VIP 18€ (18+)",
-    "allikas": "GateMe, kontrollitud 22.08.2026"
-   },
-   "lisatud": "2026-08-22",
-   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi.",
-   "img": "pildid/triibupastaxnoorednaljased.webp"
-  },
-  {
-   "d": "2026-10-02",
-   "t": "klubi",
-   "n": "Santino Blaq & Henny Smith @ Legendaarne",
-   "a": "Legendaarne Raadio saate The Function tegijad plaadimängijate taga terve õhtu; algus 22.00",
-   "b": [
-    "Santino Blaq",
-    "Henny Smith"
-   ],
-   "v": "Legendaarne Raadio & Baar",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Legendaarne Raadio FB events-tab",
-   "su": "https://www.facebook.com/LegendaarneRaadio/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1698989151831067/",
-   "hind": {
-    "praegu": "5 €",
-    "allikas": "FB event, kontrollitud 02.10.2026"
-   },
-   "lisatud": "2026-10-02",
-   "nb": "lisatud 02.10.2026 sweepi järelkontrollis. Kaks allikat: FB event + Legendaarne Raadio FB events-tab. Žanr ürituse tekstist (räpisaate The Function DJ-d, „Eesti uuema aja räpi ... arendus“)."
   },
   {
    "d": "2026-10-09",

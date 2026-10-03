@@ -1017,6 +1017,58 @@
    "lisatud": "2026-09-09",
    "nb": "SILVERI OTSUS 09.09.2026: 'eik on ju rapp' -> RAP-SAIT. Postkastijooksu vaikeotsus oli (a) peasait (alt/punk), Silver pooras umber. Kaks allikat: FB event 929348839559939 (korraldajad Made in Vachina + EiK) + Fienta piletileht; kuupaev ja kellaaeg kattuvad molemas (26.09.2026 kell 17.00). Zanr on korraldaja enda tekstis teadlikult lai ('punkar, rappar, indie-mees, elektroonik'; EMA nominatsioon aasta alternatiivalbum) - saidivalik on Silveri oma, mitte allikast tuletatud. Uks kirje, uks sait: uritus on uhelavaline (REEGLID 1 mitmezanri-reegel eeldab mitut lava).",
    "img": "pildid/eiklive.webp"
+  },
+  {
+   "d": "2026-10-02",
+   "t": "kontsert",
+   "n": "TRIIBUPASTA x Noored & Näljased",
+   "a": "Noored & Näljased esitavad esimest korda uue albumi lugusid, lõpetuseks Triibupasta; Kultuurikatlas kell 18.00",
+   "b": [
+    "Triibupasta",
+    "Noored & Näljased",
+    "Kalamees"
+   ],
+   "v": "Kultuurikatel",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/event/104094/",
+   "pu": "https://gateme.com/et/event/104094/",
+   "hind": {
+    "praegu": "10 €",
+    "mark": "Super Early Bird 10€ (78% müüdud), Super Early VIP 18€ (18+)",
+    "allikas": "GateMe, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi.",
+   "img": "pildid/triibupastaxnoorednaljased.webp"
+  },
+  {
+   "d": "2026-10-02",
+   "t": "klubi",
+   "n": "Santino Blaq & Henny Smith @ Legendaarne",
+   "a": "Legendaarne Raadio saate The Function tegijad plaadimängijate taga terve õhtu; algus 22.00",
+   "b": [
+    "Santino Blaq",
+    "Henny Smith"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1698989151831067/",
+   "hind": {
+    "praegu": "5 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 sweepi järelkontrollis. Kaks allikat: FB event + Legendaarne Raadio FB events-tab. Žanr ürituse tekstist (räpisaate The Function DJ-d, „Eesti uuema aja räpi ... arendus“)."
   }
  ]
 }
