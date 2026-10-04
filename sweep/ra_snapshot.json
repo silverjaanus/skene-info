@@ -1,52 +1,13 @@
 {
- "tommatud": "2026-10-03",
+ "tommatud": "2026-10-04",
  "aken": {
-  "algus": "2026-10-03",
-  "lopp": "2026-12-02"
+  "algus": "2026-10-04",
+  "lopp": "2026-12-03"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 31,
+ "kirjeid": 28,
  "kirjed": [
-  {
-   "d": "2026-10-03",
-   "n": "Reggaeton Party (Tallinn) October 2026",
-   "algus": "2026-10-03T23:00:00.000",
-   "v": "Club Privé",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Reggaeton",
-    "Dembow"
-   ],
-   "url": "https://ra.co/events/2538624",
-   "pilet": true
-  },
-  {
-   "d": "2026-10-03",
-   "n": "MAISON DIO GRAND OPENING with BOMBOSSA BROTHERS",
-   "algus": "2026-10-03T21:00:00.000",
-   "v": "Maison Dio Tallinn",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [],
-   "url": "https://ra.co/events/2547567",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-03",
-   "n": "KARL-ERIK TAUKAR BAND LIVE",
-   "algus": "2026-10-03T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2545696",
-   "pilet": false
-  },
   {
    "d": "2026-10-08",
    "n": "THROWBACK THURSDAY",
@@ -107,7 +68,7 @@
   },
   {
    "d": "2026-10-09",
-   "n": "NEON TECHNO BEATS — YOUR HAPPY PLACE",
+   "n": "NEON TECHNO BEATS",
    "algus": "2026-10-09T23:59:00.000",
    "v": "Club Nine",
    "ala": "Tallinn",

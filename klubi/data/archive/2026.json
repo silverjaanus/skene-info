@@ -4147,6 +4147,105 @@
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (CompressEvents + HALL) + GateMe piletileht. Žanr ürituse nimest/tekstist („only techno all night long\").",
    "img": "pildid/compressravexhallonlytechno.webp"
+  },
+  {
+   "d": "2026-10-03",
+   "t": "klubi",
+   "n": "Bar IDA: DJ Tapes (Jahtari)",
+   "a": "algus 22.00",
+   "b": [
+    "DJ Tapes (Jahtari)"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "dub",
+    "bass",
+    "electro"
+   ],
+   "sn": "IDA Radio (FB events)",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1380331124184564/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja IDA Radio) + IDA Radio FB events-tab. Jahtari on Leipzigi digital-dub plaadifirma. Uksehind avaldamata."
+  },
+  {
+   "d": "2026-10-03",
+   "t": "klubi",
+   "n": "Psühhodisko esitleb: väga hea pidu kahel korrusel 2026!",
+   "a": "Kahel korrusel; FB event ütleb algust 18.00, konverentsi kava ütleb DJ-kava 22.00–03.00",
+   "b": [
+    "Jussi Kantonen (FI)",
+    "Dr. Smeđi Šećer (HR)",
+    "Andreas McKeough",
+    "Ahto Külvet (Psühhoteek)",
+    "Liverbox & Payperclip (FI)",
+    "Raimonds Mežaks (LV)",
+    "Berk Vaher"
+   ],
+   "v": "Tartu Kirjanduse Maja / Kultuuriklubi Salong",
+   "c": "Tartu",
+   "g": [
+    "disco",
+    "experimental"
+   ],
+   "sn": "Kultuuriklubi Salong (FB events)",
+   "su": "https://www.facebook.com/kultuuriklubisalong/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1061146646757152",
+   "lisatud": "2026-09-22",
+   "nb": "LISATUD 22.09.2026 Silveri otsusega: plaadilaat ise jäi välja (§4 punkt 2 = (a)), aga „õhtul toimub ka pidu, selle võib küll sisse panna“. Psühhodisko 12. rahvusvahelise konverentsi „KASSETT!“ õhtuprogramm; vinüüli- ja kassetiDJd Eestist, Soomest, Lätist ja Horvaatiast. Sissepääs TASUTA (ürituse enda leht: „Pääs prii“). KOLM ALLIKAT: ürituse oma FB event 1061146646757152 · Kultuuriklubi Salongi (venue) FB events-tab, kus 03.10 kirje seisab · konverentsi enda FB event https://www.facebook.com/events/1587168699731051 , mille kava punkt 4 ütleb „L 03.10 22:00 - 03:00 ... Tartu Kirjanduse majas / Kultuuriklubis Salong“. ⚠ KELLAAEG on vastuoluline: FB eventi päis ütleb 18.00, korraldaja kava ütleb 22.00–03.00 — mõlemad on a-väljal, midagi ei ole valitud ega leiutatud. ⚠ ŽANRISILDID on tuletatud sarja nimest („Psühhodisko“ = psühhedeelne disko) ja vinüüli-/kasseti-DJ formaadist — ürituse leht ise žanrinimekirja EI anna. | ⚠ SAMA konverentsi plaadilaat P 04.10 (https://www.facebook.com/events/1391181926411244) JÄI TEADLIKULT VÄLJA ja on klubi blocklistis; konverents ise L 03.10 UTLIB-is (https://www.facebook.com/events/1587168699731051) samuti väljas.",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "Pääs prii",
+    "allikas": "ürituse FB event, kontrollitud 22.09.2026"
+   }
+  },
+  {
+   "d": "2026-10-03",
+   "t": "klubi",
+   "n": "TJUUN IN — Vinyl Classics Special",
+   "a": "algus 22.00; TJUUN IN vinuulieri Fonoteegis — „Back to the roots. Back to the bass.“",
+   "b": [
+    "L.EAZY",
+    "TO-SHA",
+    "QBA"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Fonoteegi FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1699521024471626/",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (KAKS korraldajat — TJUUN IN + Fonoteek) + Fonoteegi events-tab; pretsedent samale mustrile on 23.09.2026 SAGEDUSED KIVIS. Zanr tuleb urituse enda tekstist („Back to the bass“) + KORRALDAJA ENDA lehe kirjeldusest (TJUUN IN: „Dnb event series and radioshow in Estonia“) — see on korraldaja oma vaide, mitte kolmanda osapoole toimetaja (REEGLID §1). Sari on saidil juba varem (19.09 HALL, 24.07 Makoto). DJ-kava ja hind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB eventist koosseis L.EAZY, TO-SHA, QBA (DnB/jungle vinüülid); koosseis_tba maha."
+  },
+  {
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "NEOONDREED x ANNIKA",
+   "a": "20.00–05.00",
+   "b": [
+    "NEOONDREED",
+    "ANNIKA"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "industrial"
+   ],
+   "sn": "Kivi baari FB events-tab",
+   "su": "https://www.facebook.com/kivibaar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2008483696499148/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event + Kivi baari FB events-tab. Žanr ürituse tekstist („kiire techno, industriaalne toorus, katkised rütmid\")."
   }
  ]
 }
