@@ -4534,6 +4534,150 @@
    "ou": "https://www.facebook.com/events/1836338661144255/",
    "lisatud": "2026-10-02",
    "nb": "lisatud 02.10.2026 Silveri otsusega (vastus „(b) www“). Kaks allikat: FB event (300 klubi) + 300 klubi FB events-tab. Žanr ürituse tekstist („hardrocki tandem“, rock ja hardrock klassikud)."
+  },
+  {
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "Batushka (PL)",
+   "a": "Damn.Loud esitleb: müstiline Poola black metal (Krzysztof Drabikowski Batushka), õigeusu liturgiline esteetika ja rituaalne lavakogemus. Kell 19.00",
+   "b": [
+    "Batushka"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "black",
+    "metal"
+   ],
+   "sn": "Damn.Loud Agency FB",
+   "su": "https://www.facebook.com/we.are.too.damn.loud/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1583944353235720/",
+   "pu": "https://fienta.com/et/batushka-paavli",
+   "lisatud": "2026-08-02",
+   "nb": "lisatud sweepis 02.08.2026; kontaktivormi vihje (Leho, 31.07) mis 01.08 verifitseerimist ei läbinud, on nüüd kinnitatud KOLME allikaga: Damn.Loud Agency FB event + kultuurivabrik.ee programm (03.10) + Fienta piletileht",
+   "img": "pildid/batushkapl.webp",
+   "hind": {
+    "praegu": "25–39 €",
+    "mark": "VÄLJA MÜÜDUD (Fienta: kõik piletid välja müüdud, kontrollitud 03.10.2026; Paavli uudiskiri 02.10 „SOLD OUT“)",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "d": "2026-10-03",
+   "t": "festival",
+   "n": "Raskemuusika Esitluspäev 6",
+   "a": "Eesti Raskemuusikaliidu iga-aastane esitluspäev: 12 esinejat, 12 Eesti raskemuusika reliisi aastast 2026. Igal bändil 20 min lava, vahetuste ajal linastuvad Eesti uuemad muusikavideod. Tharaphita ja Pantokraator EI mängi kontsertkava, vaid annavad kohapeal avaliku intervjuu oma albumist (küsitlevad vastavalt Eero Soomere ja Andres Oja); ülejäänud 10 esinevad live'is. Uksed 17.00, esimene bänd 17.20, kava ~keskööni; kohapeal muusika- ja nännimüük (ka kaardimakse). Vanusepiiranguta, kuni 15-aastastele (k.a) tasuta",
+   "b": [
+    "Tharaphita",
+    "Pantokraator",
+    "Laura Prits",
+    "Freakangel",
+    "Surrogoat",
+    "The Primer",
+    "Artifer",
+    "Diversion Ends",
+    "Sunkiller",
+    "Fumantum",
+    "Kurivaim",
+    "Mobisa Mobisa"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "rock"
+   ],
+   "sn": "Rockclub Tapper FB",
+   "su": "https://www.facebook.com/rockclubtapper/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/27546912968307481/",
+   "nb": "leitud sweepis 25.07.2026; korraldaja Eesti Raskemuusikaliit + Rockclub Tapper | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. | 04.09.2026 sweep: Fienta piletileht avatud, pu lisatud. | 09.09.2026 (Silveri sisend, Estonianmetal.com FB plakat): TAISKOOSSEIS AVALDATUD — 12 esinejat, `koosseis_tba` maha voetud. Kaks allikat: Fienta ametlik urituseleht (loetleb koik 12 + nende 2026. a reliisid, tahestikus) + korraldaja plakat (sama 12, billing-jarjekorras — `b` jargib plakatit). ⚠ Tharaphita ja Pantokraator on kavas INTERVJUUDENA, mitte live-kavaga (Fienta tekst) — seetottu on see `a`-valjas kirjas, et koosseisurida ei eksitaks. ⚠ VARASEM KAHTLUS LAHENDATUD: kirjes seisis 'FB kellaaeg 05.00 on ilmselt vale/placeholder' — 09.09 seisuga naitab FB event 5 PM ja Fienta 17:00–23:55, st algus on 17.00 ja vastuolu ei ole. | 10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri, september 2026): intervjueerijad nimeliselt — Tharaphitat küsitleb Eero Soomere (Goresoerd), Pantokraatorit Andres Oja (Deemon, Sfinks). Uudiskiri lisab ka välisdelegaadid (Mercury Booking / Vilnius, Ditto Concerts + Melna Piktdiena / Riia, Gunnar Sauermann / Prophecy Records, Jarek Szubrycht / Mystic Festival) — need on tööstuskülalised, mitte esinejad, seepärast kirjesse ei lähe.",
+   "img": "pildid/raskemuusikaesitluspaev6.webp",
+   "pu": "https://fienta.com/et/raskemuusika-esitluspaev-6",
+   "hind": {
+    "praegu": "12€",
+    "mark": "eelmüügi sooduspilet kuni 25.09.2026; kuni 15-aastastele (k.a) tasuta; hilisemat hinda pole veel avaldatud",
+    "allikas": "Fienta, kontrollitud 09.09.2026"
+   }
+  },
+  {
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "Rock Saturday: TERAVMOON",
+   "a": "algus 20.00; viieliikmeline rokkansambel, omalooming alternatiivrokist raskemate metalihõnguliste lugudeni",
+   "b": [
+    "Teravmoon"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-teravmoon-2/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1608781534228631/",
+   "nb": "manuaalkirje 17.08.2026: AINUS eesmärk on täita b-väli. Auto-allikas (src_krypt) korjab selle ürituse õigesti, aga koosseis_pealkirjast() jätab b tühjaks, sest koolonijärgne osa on ÜKS nimi (reegel nõuab 2+ tükki). Kui muudad seda reeglit fetch.py-s, võib selle manuaalkirje kustutada. Allikad: thekrypt.ee ürituseleht (viieliikmeline bänd, algus 20.00, facebook.com/Teravmoon) + Fienta + FB event (kaaskorraldaja Teravmoon). Bändi enda kirjapilt on 'Teravmoon', pealkirja TERAVMOON on plakatistiil | 04.09.2026 sweep: Fienta piletileht leitud (teravmoon-rock-thekrypt), pu lisatud. | 25.09.2026 sweep: ou-vali oli AVASTUSALLIKAS (thekrypt.ee/events, venue uldine kava) — REEGLID §3/§8 noavad urituse ENDA lehte. Asendatud FB eventiga 1608781534228631 (kinnitatud: L 3.10.2026 20.00–02.00, The Krypt); venue veebikava jai su-le.",
+   "img": "pildid/rocksaturdayteravmoon.webp",
+   "pu": "https://fienta.com/et/teravmoon-rock-thekrypt",
+   "hind": {
+    "praegu": "15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "ZLO + Täielik Porno! + Nahakiin + Vigri",
+   "a": "ZLO 25. juubeli teine tähistamine; algus 19.00",
+   "b": [
+    "ZLO",
+    "Täielik Porno!",
+    "Nahakiin",
+    "Vigri"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Hell, Tartu (FB events)",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1044384211758247/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Hell, Tartu + ZLO) + Hell, Tartu FB events-tab. „Mõnus, sotsiaalse sõnumiga laetud vanakooli punkrokk.“ ⚠ EI OLE duplikaat 26.09 „Laine Live: Kurjam + ZLO“ omaga (eri kuupäev, eri linn, eri koosseis). Pilet/uksehind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB event: toetus 8 € (esimesel tunnil) / 10 €.",
+   "hind": {
+    "praegu": "8 € esimesel tunnil / 10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
+  },
+  {
+   "d": "2026-10-03",
+   "t": "kontsert",
+   "n": "Dramamama & JAXY",
+   "a": "algus 19.00; uhiskontsert, tahistatakse 30 aasta moodumist JAXY tegutsemise algusest",
+   "b": [
+    "Dramamama",
+    "JAXY"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Genialistide Klubi FB events-tab",
+   "su": "https://www.facebook.com/GenKlubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1359246889628472/",
+   "pu": "https://sviby.com/et/e/lm9ho1",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad WD Events + Genialistide Klubi + JAXY + DRAMAMAMA) + Sviby piletileht. Zanr tuleb BANDI ENDA FB-lehelt (DRAMAMAMA: „Official Facebook page for Estonian rock band“) — mitte venue profiilist (REEGLID §1); Dramamama on saidil juba esinejana Tartu Rock Fest 2026 kirjes. JAXY oma leht utleb ainult „Music with vocals“. ⚠ classify.py kontrollib sildid. Hinda FB-lehel ei nimetata.",
+   "img": "pildid/dramamamajaxy.webp"
   }
  ]
 }

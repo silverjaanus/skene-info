@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03",
+ "updated": "2026-10-04",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -136,6 +136,10 @@
     {
      "n": "Rock & Roll Heaven (Tartu)",
      "u": "https://www.facebook.com/rollheaven/"
+    },
+    {
+     "n": "SAAR CULT",
+     "u": "https://www.facebook.com/saarcult/events"
     },
     {
      "n": "Stedingu Kelder (Võru)",
@@ -283,6 +287,10 @@
     {
      "n": "@damn.loud",
      "u": "https://www.instagram.com/damn.loud/"
+    },
+    {
+     "n": "@saar_cult",
+     "u": "https://www.instagram.com/saar_cult/"
     },
     {
      "n": "@sugisextremefest",

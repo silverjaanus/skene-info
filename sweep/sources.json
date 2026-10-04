@@ -44,6 +44,12 @@
    "nb": "URL kinnitatud 05.07.2026; tapper.ee/events on 404"
   },
   {
+   "nimi": "SAAR CULT",
+   "url": "https://www.facebook.com/saarcult/events",
+   "tyyp": "venue",
+   "nb": "lisatud 04.10.2026 (Silveri sisend: Saar Cult 8 jäi sweepil märkamata). Tätoveerimisstuudio + kultuuripaik, alates 10.10.2026 uues kohas Kopli 25, Tallinn (varem Paavli 2a). Oma veebisaiti pole — IG @saar_cult on 'ig' all. Korraldab ise üritusi (Saar Cult 8, The Weeping Abyss + Ethetric), lisaks võõrüritused (SFP, Estoner, Kaschalot)."
+  },
+  {
    "nimi": "Helitehas",
    "url": "https://www.facebook.com/helitehas/events",
    "tyyp": "venue",
@@ -415,6 +421,11 @@
    "nimi": "@tuum.baar",
    "url": "https://www.instagram.com/tuum.baar/",
    "nb": "kinnitatud 05.07.2026: Tartu metal/rock baar (Lai 30), aga vaid 10 postitust, viimased 2025 - hõre allikas"
+  },
+  {
+   "nimi": "@saar_cult",
+   "url": "https://www.instagram.com/saar_cult/",
+   "nb": "lisatud 04.10.2026 koos FB-lehega (fb → SAAR CULT); venue Kopli 25, Tallinn, veebisaiti pole"
   }
  ],
  "rap": {

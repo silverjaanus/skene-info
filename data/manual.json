@@ -1502,7 +1502,8 @@
   "hind": {
    "praegu": "20 € eelmüük / 25 € uksel",
    "allikas": "FB event, kontrollitud 02.10.2026"
-  }
+  },
+  "img": "pildid/sibylvanelivepubijuudas.webp"
  },
  {
   "d": "2026-12-11",
@@ -3662,7 +3663,8 @@
   "su": "https://tanaparnus.ee/uritus/vennaskond-10-10-2026/",
   "pu": "https://fienta.com/et/vennaskond-postipoisis",
   "lisatud": "2026-10-02",
-  "nb": "lisatud 02.10.2026 järelkontrollis (Fienta otsing 'vennaskond'). Kaks allikat: Fienta piletileht + tanaparnus.ee. Žanr Fienta tekstist („legendaarne Eesti punkrock-ansambel“). FB eventi ei leidnud → ou tühi."
+  "nb": "lisatud 02.10.2026 järelkontrollis (Fienta otsing 'vennaskond'). Kaks allikat: Fienta piletileht + tanaparnus.ee. Žanr Fienta tekstist („legendaarne Eesti punkrock-ansambel“). FB eventi ei leidnud → ou tühi.",
+  "img": "pildid/vennaskondtrahterispostipoiss.webp"
  },
  {
   "d": "2026-12-05",
@@ -3690,6 +3692,94 @@
    "metal",
    "industrial",
    "electro"
-  ]
+  ],
+  "img": "pildid/rocktorave.webp"
+ },
+ {
+  "d": "2026-10-10",
+  "t": "kontsert",
+  "n": "Saar Cult 8",
+  "a": "SAAR CULTi 8. sünnipäev ja uue koha avamine; algus 14.00, lisaks tätoveerimisala",
+  "b": [
+   "Borm Bubu",
+   "Mobisa Mobisa",
+   "Mört",
+   "Hukk",
+   "Model Citizen",
+   "Mang Ont",
+   "Fumantum"
+  ],
+  "v": "SAAR CULT",
+  "c": "Tallinn",
+  "g": [
+   "metal",
+   "rock",
+   "punk",
+   "doom",
+   "sludge",
+   "black",
+   "stoner",
+   "dark"
+  ],
+  "sn": "SAAR CULT FB events-tab",
+  "su": "https://www.facebook.com/saarcult/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1770551210661045/",
+  "lisatud": "2026-10-04",
+  "nb": "lisatud 04.10.2026 Silveri sisendist (jäi sweepil märkamata, sest SAAR CULTi FB-lehte polnud sources.json-is — nüüd on). Kaks allikat: ürituse FB event (korraldaja SAAR CULT, täiskoosseis + tätoveerijad kirjelduses) + Mördi FB-postitus https://www.facebook.com/m8rtband/posts/1523546039798344/. Žanrid: Mört = black/forest punk'n'roll (Bandcamp), Borm Bubu = math rock/doom metal/jazz (Bandcamp, MuusikaPlaneet), Mobisa Mobisa = rock/stoner, Hukk = post-metal/doom/sludge, Model Citizen = post-punk, Mang Ont = black/doom (varasemad kirjed), Fumantum = dark ambient (klubi-artist, siin üks seitsmest — üks lava, seega üks kirje www-s). Pilet/uksehind avaldamata."
+ },
+ {
+  "d": "2026-10-16",
+  "t": "kontsert",
+  "n": "The Weeping Abyss + Ethetric",
+  "a": "SAAR CULTi stuudio avamine; algus 18.30 (FB event), Ethetricu IG ütleb uksed 19.00",
+  "b": [
+   "The Weeping Abyss",
+   "Ethetric"
+  ],
+  "v": "SAAR CULT",
+  "c": "Tallinn",
+  "g": [
+   "metal",
+   "doom",
+   "death",
+   "black"
+  ],
+  "sn": "SAAR CULT FB events-tab",
+  "su": "https://www.facebook.com/saarcult/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1433455302218174/",
+  "lisatud": "2026-10-04",
+  "nb": "lisatud 04.10.2026 SAAR CULTi events-tabi läbivaatusel (Saar Cult 8 kontrolli käigus). Kaks allikat: ürituse FB event (korraldaja SAAR CULT) + Ethetricu IG-postitus 02.10.2026 https://www.instagram.com/ethetric.band/p/DeABzv4MJKo/ (16.10, Kopli 25, uksed 19.00). Žanr: The Weeping Abyss = depressive doom metal death/black/sludge mõjudega (FB/IG bio, Mood), Ethetric = metal (varasemad kirjed: death/black/core). Pilet avaldamata."
+ },
+ {
+  "d": "2026-10-24",
+  "t": "kontsert",
+  "n": "Kaschalot + Wolfredt",
+  "a": "uksed 20.00, kontsert 21.00; Wolfredti esimene kontsert vokaaliga uue materjaliga",
+  "b": [
+   "Kaschalot",
+   "Wolfredt"
+  ],
+  "v": "SAAR CULT",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "post",
+   "alt",
+   "shoegaze"
+  ],
+  "sn": "SAAR CULT FB events-tab",
+  "su": "https://www.facebook.com/saarcult/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1601450665061775/",
+  "pu": "https://fienta.com/et/kaschalot-wolfredt-24-10-at-saar-cult",
+  "hind": {
+   "praegu": "12 € (eelmüük)",
+   "allikas": "Fienta, kontrollitud 04.10.2026"
+  },
+  "lisatud": "2026-10-04",
+  "nb": "lisatud 04.10.2026 SAAR CULTi events-tabi läbivaatusel (Saar Cult 8 kontrolli käigus). Kaks allikat: ürituse FB event (korraldajad Kaschalot + SAAR CULT + Wolfredt) + Fienta piletileht; lisaks MuusikaPlaneet https://muusikaplaneet.ee/2026/10/02/saarcult241026/. Žanr Fienta tekstist: Kaschalot = math-rock/post-rock/prog emo- ja hardcore-juurtega (sama bänd 08.10 Viljandi kirjes), Wolfredt = post-rock (kohati doom/post-metal), liigub tumedama shoegaze'i poole.",
+  "img": "pildid/kaschalotwolfredt.webp"
  }
 ]
