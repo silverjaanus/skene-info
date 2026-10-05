@@ -838,6 +838,27 @@
    "img": "pildid/koutsmeesmaeioskaelada.webp"
   },
   {
+   "d": "2026-07-20",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Tharaphita — «Öise taevaga üheks»",
+   "a": "Eesti pagan/black metali veterani uus taispikk album, 10 lugu (Öise taevaga uheks, Surmaraud, Taara pikne jt)",
+   "b": [
+    "Tharaphita"
+   ],
+   "g": [
+    "black",
+    "folk",
+    "pagan",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://tharaphita.bandcamp.com/album/ise-taevaga-heks",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Bandcampi Eesti metal-tagiotsingust. Bandcampi credits utleb 'released July 20, 2026'; album on ka Tharaphita discography-nimekirjas 'Jul 2026'. Ilmus enne selle sweepi akent, seepärast rel+lisatud (REEGLID §6).",
+   "img": "pildid/tharaphitaoisetaevagauheks.webp"
+  },
+  {
    "d": "2026-07-21",
    "t": "kontsert",
    "n": "Hez (Panama) + Hävitus + Korralagedus + Volta",
@@ -4536,6 +4557,39 @@
    "nb": "lisatud 02.10.2026 Silveri otsusega (vastus „(b) www“). Kaks allikat: FB event (300 klubi) + 300 klubi FB events-tab. Žanr ürituse tekstist („hardrocki tandem“, rock ja hardrock klassikud)."
   },
   {
+   "d": "2026-10-02",
+   "d2": "04.10",
+   "t": "festival",
+   "n": "Up In Smoke Festival 2026",
+   "a": "Šveitsi raskeim indoor-festival (stoner/doom/psych); laval Eesti bänd Kannabinõid (L 03.10). Ka Zeal & Ardor, 1000mods, Ufomammut, Slomosa, Tito & Tarantula jt",
+   "b": [
+    "Kannabinõid",
+    "Zeal & Ardor",
+    "1000mods",
+    "Ufomammut",
+    "Slomosa",
+    "Belzebong",
+    "Tito & Tarantula"
+   ],
+   "v": "Konzertfabrik Z7",
+   "c": "Euroopa",
+   "linn": "Pratteln, Šveits",
+   "g": [
+    "stoner",
+    "doom",
+    "psych"
+   ],
+   "sn": "Z7 Konzertfabrik",
+   "su": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
+   "pu": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
+   "hind": {
+    "praegu": "CHF 129.50 (3-päeva pilet)",
+    "mark": "uksed 16.00, algus 17.00; sleepover/camper piletid kohapeal",
+    "allikas": "z-7.ch, kontrollitud 07.07.2026"
+   },
+   "img": "pildid/upinsmokefestival2026.webp"
+  },
+  {
    "d": "2026-10-03",
    "t": "kontsert",
    "n": "Batushka (PL)",
@@ -4678,6 +4732,30 @@
    "lisatud": "2026-09-25",
    "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad WD Events + Genialistide Klubi + JAXY + DRAMAMAMA) + Sviby piletileht. Zanr tuleb BANDI ENDA FB-lehelt (DRAMAMAMA: „Official Facebook page for Estonian rock band“) — mitte venue profiilist (REEGLID §1); Dramamama on saidil juba esinejana Tartu Rock Fest 2026 kirjes. JAXY oma leht utleb ainult „Music with vocals“. ⚠ classify.py kontrollib sildid. Hinda FB-lehel ei nimetata.",
    "img": "pildid/dramamamajaxy.webp"
+  },
+  {
+   "d": "2026-10-04",
+   "t": "kontsert",
+   "n": "Dead By April + CyHra",
+   "b": [
+    "Dead By April",
+    "CyHra"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "core",
+    "melodic",
+    "death"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=236269",
+   "img": "pildid/deadbyaprilcyhra.webp",
+   "pu": "https://www.piletilevi.ee/piletid/F4XKRDGJOE/dead-by-april-swe",
+   "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 sweep: lisatud ürituse FB event `ou`-sse (korraldaja FB events-tabist); agregaator jääb `su`-le.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1327980026192365/"
   }
  ]
 }

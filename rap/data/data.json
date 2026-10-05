@@ -1,27 +1,6 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-05",
  "entries": [
-  {
-   "rel": 1,
-   "d": "2026-09-02",
-   "lisatud": "2026-09-04",
-   "t": "reliis",
-   "n": "Masta Robusta — «Reipaid Ridu Rezzidel Radadel»",
-   "a": "autori-EP, 7 lugu; esitluspidu 04.09 Veetorni Aias",
-   "b": [
-    "Masta Robusta"
-   ],
-   "v": "Spotify",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Rada7.ee uudiskiri",
-   "su": "https://www.rada7.ee/uudiskiri/",
-   "on_": "Spotify",
-   "ou": "https://open.spotify.com/album/2EyFLtE5xhhVAyLTo5SDp6",
-   "nb": "lisatud 04.09.2026 postkastijooksus — täidab 28.08 kirje märkuse ('EP võib väärida eraldi reliisikirjet, kui väljalaskekuupäev kinnitub'). Kaks allikat: Spotify albumileht (meta music:release_date 2026-09-02, 7 lugu) + Rada7.ee uudiskiri 04.09 ('üleeilsest internettides ka nauditav' = 02.09, langeb kokku). Kolmas kinnitus: esitluspeo FB event facebook.com/events/1067301815974527 (kirje 04.09 rap/manual.json-is). Masta Robusta = MC Lord / Öökülm / TMF / RLV Massive, peosarja Tümmisaun resident.",
-   "img": "pildid/mastarobustareipaidridurezzidelradadel.webp"
-  },
   {
    "rel": 1,
    "d": "2026-09-04",
