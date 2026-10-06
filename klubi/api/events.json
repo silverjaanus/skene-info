@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 170,
+ "count": 172,
  "entries": [
   {
    "sait": "rap",
@@ -2152,6 +2152,23 @@
    "sait": "www",
    "d": "2026-10-30",
    "t": "kontsert",
+   "n": "ROCK TO RAVE",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/rock-to-rave-2/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-10-06"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-30",
+   "t": "kontsert",
    "n": "Sudden Lights (LV)",
    "a": "Läti indie-rock; TALK TO ME TOUR",
    "b": [
@@ -2464,6 +2481,26 @@
     "praegu": "6 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    }
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Rock Friday: THE SOUND + RAIDER",
+   "b": [
+    "THE SOUND",
+    "RAIDER"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-the-sound-raider/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-10-06"
   },
   {
    "sait": "www",

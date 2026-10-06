@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-10-05",
+ "tommatud": "2026-10-06",
  "aken": {
-  "algus": "2026-10-05",
-  "lopp": "2026-12-04"
+  "algus": "2026-10-06",
+  "lopp": "2026-12-05"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 29,
+ "kirjeid": 31,
  "kirjed": [
   {
    "d": "2026-10-08",
@@ -35,6 +35,22 @@
    "g": [],
    "url": "https://ra.co/events/2475984",
    "pilet": false
+  },
+  {
+   "d": "2026-10-09",
+   "n": "NEON TECHNO BEATS",
+   "algus": "2026-10-09T23:59:00.000",
+   "v": "Club Nine",
+   "ala": "Tallinn",
+   "b": [
+    "DJ Krazy-9"
+   ],
+   "g": [
+    "Techno",
+    "Acid"
+   ],
+   "url": "https://ra.co/events/2549186",
+   "pilet": true
   },
   {
    "d": "2026-10-09",
@@ -68,19 +84,17 @@
   },
   {
    "d": "2026-10-09",
-   "n": "NEON TECHNO BEATS",
-   "algus": "2026-10-09T23:59:00.000",
-   "v": "Club Nine",
+   "n": "ELAMUS SPA ESITLEB: VENUS REWIND",
+   "algus": "2026-10-09T23:00:00.000",
+   "v": "TBA - Venus Club",
    "ala": "Tallinn",
-   "b": [
-    "DJ Krazy-9"
-   ],
+   "b": [],
    "g": [
-    "Techno",
-    "Acid"
+    "Disco",
+    "Pop"
    ],
-   "url": "https://ra.co/events/2549186",
-   "pilet": true
+   "url": "https://ra.co/events/2551637",
+   "pilet": false
   },
   {
    "d": "2026-10-09",
@@ -93,20 +107,6 @@
     "House"
    ],
    "url": "https://ra.co/events/2548930",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "ELAMUS SPA ESITLEB: VENUS REWIND",
-   "algus": "2026-10-09T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2551637",
    "pilet": false
   },
   {
@@ -222,6 +222,20 @@
    "pilet": false
   },
   {
+   "d": "2026-10-16",
+   "n": "SKY PLUS AFTERPARTY",
+   "algus": "2026-10-16T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2554128",
+   "pilet": false
+  },
+  {
    "d": "2026-10-17",
    "n": "NEXT LEVEL 17.10 // Hall - MESILA // TECHNO, DNB",
    "algus": "2026-10-17T21:00:00.000",
@@ -300,6 +314,25 @@
    ],
    "url": "https://ra.co/events/2535243",
    "pilet": true
+  },
+  {
+   "d": "2026-10-30",
+   "n": "HEAVEN OR HELL - Halloween rave at CLUB Hall",
+   "algus": "2026-10-30T23:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Katja Adrikova",
+    "QSLAP",
+    "Bianca",
+    "MEDINA"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2553575",
+   "pilet": false
   },
   {
    "d": "2026-11-06",
