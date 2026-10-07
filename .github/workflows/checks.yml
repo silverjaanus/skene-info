@@ -55,3 +55,8 @@ jobs:
       # Claude sisu kaevandab.
       - name: AgentMaili webhook (mokitud)
         run: node scripts/test_agentmail_hook.js
+      # 07.10.2026: 28.08 lisatud CSP blokeeris MailerLite'i -> uudiskirjaga liitumine oli
+      # 6 nadalat vaikselt katki. Iga valine fetch/vorm/skript peab olema CSP-s lubatud.
+      # KOODIHOIATUSED.md p 12.
+      - name: CSP lubab koik valised sihid
+        run: python scripts/check_csp.py
