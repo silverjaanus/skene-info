@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-10-06",
+ "tommatud": "2026-10-07",
  "aken": {
-  "algus": "2026-10-06",
-  "lopp": "2026-12-05"
+  "algus": "2026-10-07",
+  "lopp": "2026-12-06"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 31,
+ "kirjeid": 33,
  "kirjed": [
   {
    "d": "2026-10-08",
@@ -110,6 +110,20 @@
    "pilet": false
   },
   {
+   "d": "2026-10-09",
+   "n": "AFRO HOUSE & MELODIC NIGHT",
+   "algus": "2026-10-09T22:00:00.000",
+   "v": "Tallinn Afro Empire",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Progressive House",
+    "Afro House"
+   ],
+   "url": "https://ra.co/events/2554452",
+   "pilet": false
+  },
+  {
    "d": "2026-10-10",
    "n": "STF 2026: Aïsha Devi + Ayano Yokoyama & 34423",
    "algus": "2026-10-10T21:00:00.000",
@@ -139,6 +153,20 @@
     "Club"
    ],
    "url": "https://ra.co/events/2551646",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-09",
+   "n": "AFRO HOUSE & MELODIC NIGHT",
+   "algus": "2026-10-09T22:00:00.000",
+   "v": "Tallinn Afro Empire",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Progressive House",
+    "Afro House"
+   ],
+   "url": "https://ra.co/events/2554452",
    "pilet": false
   },
   {
