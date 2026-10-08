@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -584,9 +584,11 @@
    "n": "STF 2026: Ayano Yokoyama & 34423 + inklingroom & Paavli takeover",
    "a": "Sõltumatu Tantsu Festivali klubiohtu Paavlis — Tokyo koreograafi ja produtsendi etendus \" / \", seejärel DJd; kell 21.00, 18+",
    "b": [
-    "Ayano Yokoyama & 34423"
+    "Ayano Yokoyama & 34423",
+    "AUBERY",
+    "Hexarlequinette",
+    "Mia"
    ],
-   "koosseis_tba": 1,
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
    "g": [
@@ -595,13 +597,13 @@
    ],
    "sn": "Resident Advisor",
    "su": "https://ra.co/events/2522658",
-   "pu": "https://fienta.com/et?q=STF%202026",
+   "pu": "https://fienta.com/et/s/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
    "hind": {
     "praegu": "20€",
     "mark": "18+",
     "allikas": "RA event 2522658, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — LISATUD 05.09.2026. | 02.10.2026 sweep: lisatud FB event (Sõltumatu Tantsu Lava, MOD events-tab).",
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — LISATUD 05.09.2026. | 02.10.2026 sweep: lisatud FB event (Sõltumatu Tantsu Lava, MOD events-tab). | 08.10.2026 postkastijooks: Fienta uudiskiri 07.10 + Fienta seeriaileht (R 9. okt 21:00 + 10.10 kuupaev) - pu tapsustatud konkreetse piletilehe peale; DJ-kava avaldatud (kohalikud DJd AUBERY, Hexarlequinette, Mia), koosseis_tba eemaldatud.",
    "img": "https://klubi.skene.info/pildid/stf2026ayanoyokoyama34423inklingroompaavlitakeover.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/923802290770315/"
