@@ -60,6 +60,10 @@
       "dest": "/dash.html"
     },
     {
+      "src": "/liitu/?",
+      "dest": "/liitu.html"
+    },
+    {
       "handle": "filesystem"
     }
   ]

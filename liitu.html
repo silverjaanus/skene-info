@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telli nädalakiri — skene.info</title>
+<meta name="description" content="Eesti UG-muusika nädalakiri: kontserdid, klubiõhtud, festivalid ja uued reliisid igal reedel sinu postkasti. Tasuta.">
+<meta property="og:title" content="skene.info nädalakiri — Eesti UG-muusika igal reedel postkasti">
+<meta property="og:description" content="Metal, rap ja klubi. Kontserdid, festivalid ja uued reliisid. Tasuta, üks kiri nädalas.">
+<meta property="og:url" content="https://www.skene.info/liitu">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.skene.info/liitu">
+<link rel="icon" href="/icons/mail-logo-metal.png">
+<script defer src="/_vercel/insights/script.js"></script>
+<style>
+:root{
+  --paber:#F3F0E7; --tint:#1A1A1A; --hall:#5A564C; --joon:#8F8A7C;
+  --telliskivi:#93392C; --paatina:#2C5B54; --bri:#D96A52; --hdrmuted:#A6A192;
+  --metal:#D96A52; --rap:#6E9BE0; --klubi:#A87FE8;
+  --sans:"Helvetica Neue",Helvetica,Arial,ui-sans-serif,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,Menlo,monospace;
+}
+@font-face{font-family:"Anton";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Anton";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html,body{background:var(--tint)}
+body{color:var(--paber);font-family:var(--sans);font-size:16px;line-height:1.5;min-height:100vh}
+a{color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding:22px 20px 48px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:3px solid var(--paber);padding-bottom:14px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+#logo{display:block;width:52px;height:52px;flex:none}
+#logo .fr,#logo .sk,#logo .inf{fill:var(--paber)}
+#logo .pl{fill:var(--bri)}
+.umb{font-family:var(--mono);font-size:12px;letter-spacing:1px;color:var(--hdrmuted)}
+.umb b{color:var(--paber)}
+.langsw{display:flex;border:1.5px solid var(--joon);flex:none}
+.langsw button{font-family:var(--mono);font-size:11.5px;background:transparent;color:var(--hdrmuted);border:0;padding:3px 9px;cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.langsw button.on{background:var(--paber);color:var(--tint)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bri);margin:30px 0 10px}
+h1{font-family:"Anton",var(--sans);font-weight:400;text-transform:uppercase;font-size:clamp(38px,9vw,64px);line-height:.98;letter-spacing:.01em;margin-bottom:16px}
+.lead{font-size:17px;color:#DCD8CC;max-width:52ch;margin-bottom:8px}
+.live{font-family:var(--mono);font-size:13px;color:var(--hdrmuted);margin:6px 0 0;min-height:1.5em}
+.live b{color:var(--paber)}
+form{margin-top:26px}
+.qh{font-family:var(--mono);font-size:12.5px;letter-spacing:.6px;text-transform:uppercase;color:var(--hdrmuted);margin-bottom:10px}
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:6px}
+.cat{position:relative;display:block;cursor:pointer}
+.cat input{position:absolute;opacity:0;width:1px;height:1px}
+.cat .box{display:flex;flex-direction:column;gap:4px;border:2px solid var(--wc);padding:12px 10px 11px;height:100%;transition:background .12s}
+.cat .w{font-family:"Anton",var(--sans);font-size:clamp(24px,6vw,34px);line-height:1;text-transform:uppercase;color:var(--wc)}
+.cat .d{font-size:12.5px;line-height:1.35;color:var(--hdrmuted)}
+.cat input:checked + .box{background:var(--wc)}
+.cat input:checked + .box .w,.cat input:checked + .box .d{color:var(--tint)}
+.cat input:focus-visible + .box{outline:3px solid var(--paber);outline-offset:2px}
+.cat .tick{font-family:var(--mono);font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--wc)}
+.cat input:checked + .box .tick{color:var(--tint)}
+.c-metal{--wc:var(--metal)} .c-rap{--wc:var(--rap)} .c-klubi{--wc:var(--klubi)}
+.row{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
+.row input{flex:1 1 220px;min-width:0;font:inherit;font-size:17px;padding:13px 14px;border:2px solid var(--paber);background:var(--paber);color:var(--tint);border-radius:0}
+.row input:focus{outline:3px solid var(--bri);outline-offset:1px}
+.row button{flex:0 0 auto;font-family:var(--mono);font-size:14px;letter-spacing:.5px;text-transform:uppercase;font-weight:700;background:var(--bri);color:var(--tint);border:2px solid var(--bri);padding:13px 22px;cursor:pointer}
+.row button:hover{background:var(--paber);border-color:var(--paber)}
+.row button[disabled]{opacity:.5;cursor:default}
+.err{font-family:var(--mono);font-size:13px;color:#FF9A85;margin-top:10px}
+.done{border:2px solid var(--paber);padding:16px 18px;margin-top:26px;font-size:16.5px}
+.done b{display:block;font-family:"Anton",var(--sans);font-weight:400;text-transform:uppercase;font-size:28px;line-height:1;margin-bottom:8px;color:var(--bri)}
+.fine{font-family:var(--mono);font-size:12px;color:var(--hdrmuted);margin-top:16px;line-height:1.6;max-width:60ch}
+.fine a{color:var(--paber)}
+.what{margin-top:40px;border-top:1px solid #3A3833;padding-top:20px}
+.what h2{font-family:var(--mono);font-size:12.5px;letter-spacing:.6px;text-transform:uppercase;color:var(--hdrmuted);font-weight:400;margin-bottom:10px}
+.what ul{list-style:none}
+.what li{padding:6px 0 6px 18px;position:relative;font-size:15.5px;color:#DCD8CC}
+.what li::before{content:"+";position:absolute;left:0;color:var(--bri);font-weight:700}
+.foot{margin-top:36px;font-family:var(--mono);font-size:12px;color:var(--hdrmuted)}
+.foot a{color:var(--paber);text-decoration:none;border-bottom:1px solid var(--joon)}
+@media(max-width:420px){.cat .d{display:none}.cat .box{padding:12px 8px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="brand" href="/" aria-label="skene.info avaleht">
+      <svg id="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SKENE.INFO"><path class="fr" fill-rule="evenodd" d="M0,0H100V100.0H0ZM6.00,6.00V47.00H94.00V6.00ZM6.00,53.00V94.00H94.00V53.00Z"/><path class="sk" d="M21.24 40.69Q17.43 40.69 15.74 38.79Q14.05 36.89 14.05 32.74V30.01H19.56V33.50Q19.56 34.46 19.86 35.01Q20.15 35.56 20.88 35.56Q21.64 35.56 21.93 35.11Q22.23 34.67 22.23 33.66Q22.23 32.37 21.970 31.51Q21.72 30.65 21.09 29.86Q20.47 29.08 19.36 28.03L16.86 25.66Q14.05 23.01 14.05 19.60Q14.05 16.04 15.71 14.17Q17.36 12.30 20.50 12.30Q24.33 12.30 25.94 14.35Q27.55 16.39 27.55 20.55H21.88V18.64Q21.88 18.07 21.55 17.75Q21.23 17.43 20.67 17.43Q20.01 17.43 19.70 17.81Q19.39 18.18 19.39 18.76Q19.39 19.35 19.71 20.03Q20.02 20.71 20.96 21.60L24.17 24.69Q25.14 25.61 25.95 26.63Q26.76 27.65 27.25 29.01Q27.74 30.36 27.74 32.31Q27.74 36.24 26.29 38.46Q24.84 40.69 21.24 40.69ZM29.59 40.44V12.55H35.10V23.72L37.70 12.55H43.31L40.19 25.32L43.96 40.44H38.18L35.14 26.94V40.44ZM44.91 40.44V12.55H56.06V17.94H50.58V23.37H55.84V28.62H50.58V35.00H56.43V40.44ZM58.26 40.44V12.55H64.00L66.56 25.91V12.55H71.95V40.44H66.50L63.71 26.49V40.44ZM74.42 40.44V12.55H85.57V17.94H80.09V23.37H85.35V28.62H80.09V35.00H85.94V40.44Z"/><path class="pl" d="M14.85,70.81H17.59V68.06H22.98V70.81H25.72V76.19H22.98V78.94H17.59V76.19H14.85Z"/><path class="inf" d="M34.92 87.44V59.55H40.30V87.44ZM42.52 87.44V59.55H48.25L50.82 72.91V59.55H56.21V87.44H50.76L47.97 73.5V87.44ZM58.68 87.44V59.55H69.83V64.99H64.29V69.42H69.54V74.79H64.29V87.44ZM78.27 87.69Q74.93 87.69 73.16 85.67Q71.40 83.65 71.40 79.83V66.59Q71.40 63.01 73.150 61.15Q74.90 59.30 78.27 59.30Q81.65 59.30 83.40 61.15Q85.15 63.01 85.15 66.59V79.83Q85.15 83.65 83.38 85.67Q81.62 87.69 78.27 87.69ZM78.32 82.56Q79.59 82.56 79.59 80.10V66.49Q79.59 64.43 78.35 64.43Q76.96 64.43 76.96 66.54V80.13Q76.96 81.43 77.27 81.99Q77.59 82.56 78.32 82.56Z"/></svg>
+      <span class="umb"><b>SKENE.INFO</b><br><span data-i18n="umb">Eesti UG-muusika ühest kohast</span></span>
+    </a>
+    <div class="langsw" role="group" aria-label="Keel / Language">
+      <button type="button" data-lang="et" onclick="setLang('et')">EE</button>
+      <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+
+  <p class="eyebrow" data-i18n="eyebrow">Nädalakiri · tasuta</p>
+  <h1 data-i18n="h1">Nädala UG-kontserdid igal reedel sinu postkasti</h1>
+  <p class="lead" data-i18n="lead">Kontserdid, klubiõhtud, festivalid ja uued reliisid ühes kirjas. Üks kiri nädalas, loobuda saad igal ajal.</p>
+  <p class="live" id="live" aria-live="polite"></p>
+
+  <form id="f" onsubmit="return go(event)" novalidate>
+    <p class="qh" data-i18n="qh">Mis sind huvitab? Valitud teemad tulevad ühes kirjas.</p>
+    <div class="cats">
+      <label class="cat c-metal"><input type="checkbox" name="cat" value="metal"><span class="box"><span class="w">Metal</span><span class="d" data-i18n="d_metal">metal, punk, rock, alternatiiv</span></span></label>
+      <label class="cat c-rap"><input type="checkbox" name="cat" value="rap"><span class="box"><span class="w">Rap</span><span class="d" data-i18n="d_rap">Eesti räpp ja hiphop</span></span></label>
+      <label class="cat c-klubi"><input type="checkbox" name="cat" value="klubi"><span class="box"><span class="w">Klubi</span><span class="d" data-i18n="d_klubi">tehno, bass, klubiõhtud</span></span></label>
+    </div>
+    <div class="row">
+      <input type="email" id="em" name="email" required autocomplete="email" inputmode="email" data-i18n-ph="ph" placeholder="sinu@email.ee" aria-label="E-post">
+      <button type="submit" id="btn" data-i18n="btn">Telli →</button>
+    </div>
+    <p class="err" id="err" hidden></p>
+    <p class="fine" data-i18n-html="fine">Saadame kinnituskirja. Tellimus hakkab kehtima, kui klikid selles olevale lingile. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
+  </form>
+  <div class="done" id="done" hidden><b data-i18n="done_h">Peaaegu valmis</b><span data-i18n="done">Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui kirja paari minuti jooksul ei tule, vaata rämpsposti või Gmailis vahelehte „Kampaaniad“. Saatja on uudiskiri@skene.info.</span></div>
+
+  <div class="what">
+    <h2 data-i18n="what_h">Mis kirjas on</h2>
+    <ul>
+      <li data-i18n="w1">Järgmise nädala kontserdid, klubiõhtud ja festivalid koos piletilinkidega</li>
+      <li data-i18n="w2">Uued Eesti reliisid ja merch</li>
+      <li data-i18n="w3">Ainult sinu valitud teemad, ilma reklaamita</li>
+    </ul>
+  </div>
+
+  <p class="foot"><a href="/" data-i18n="foot_site">→ Vaata kõiki üritusi skene.info-s</a></p>
+</div>
+<script>
+var ML_SUBSCRIBE="https://assets.mailerlite.com/jsonp/2500383/forms/192538337521698456/subscribe";
+var I18N={
+ et:{
+  page_title:"Telli nädalakiri — skene.info",
+  umb:"Eesti UG-muusika ühest kohast",
+  eyebrow:"Nädalakiri · tasuta",
+  h1:"Nädala UG-kontserdid igal reedel sinu postkasti",
+  lead:"Kontserdid, klubiõhtud, festivalid ja uued reliisid ühes kirjas. Üks kiri nädalas, loobuda saad igal ajal.",
+  live1:"Järgmise 7 päeva jooksul on skene.info-s <b>{n} üritus</b>.",
+  liveN:"Järgmise 7 päeva jooksul on skene.info-s <b>{n} üritust</b>.",
+  qh:"Mis sind huvitab? Valitud teemad tulevad ühes kirjas.",
+  d_metal:"metal, punk, rock, alternatiiv", d_rap:"Eesti räpp ja hiphop", d_klubi:"tehno, bass, klubiõhtud",
+  ph:"sinu@email.ee", btn:"Telli →", sending:"Saadan…",
+  e_cat:"Vali vähemalt üks teema.", e_email:"Kontrolli e-posti aadressi.", e_fail:"Tellimine ebaõnnestus. Proovi hetke pärast uuesti.",
+  fine:"Saadame kinnituskirja. Tellimus hakkab kehtima, kui klikid selles olevale lingile. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
+  done_h:"Peaaegu valmis",
+  done:"Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui kirja paari minuti jooksul ei tule, vaata rämpsposti või Gmailis vahelehte „Kampaaniad“. Saatja on uudiskiri@skene.info.",
+  what_h:"Mis kirjas on",
+  w1:"Järgmise nädala kontserdid, klubiõhtud ja festivalid koos piletilinkidega",
+  w2:"Uued Eesti reliisid ja merch",
+  w3:"Ainult sinu valitud teemad, ilma reklaamita",
+  foot_site:"→ Vaata kõiki üritusi skene.info-s"
+ },
+ en:{
+  page_title:"Get the weekly newsletter — skene.info",
+  umb:"Estonian underground music in one place",
+  eyebrow:"Weekly newsletter · free",
+  h1:"This week's underground gigs in your inbox every Friday",
+  lead:"Concerts, club nights, festivals and new releases in one email. Once a week, unsubscribe anytime.",
+  live1:"In the next 7 days skene.info lists <b>{n} event</b>.",
+  liveN:"In the next 7 days skene.info lists <b>{n} events</b>.",
+  qh:"What are you into? Your picks come in one email.",
+  d_metal:"metal, punk, rock, alternative", d_rap:"Estonian rap and hip-hop", d_klubi:"techno, bass, club nights",
+  ph:"you@email.com", btn:"Subscribe →", sending:"Sending…",
+  e_cat:"Pick at least one topic.", e_email:"Please check the email address.", e_fail:"Subscription failed. Please try again in a moment.",
+  fine:"We'll send a confirmation email. Your subscription starts when you click the link in it. See our <a href=\"/privaatsus.html\">privacy notice</a>.",
+  done_h:"Almost done",
+  done:"We've sent you a confirmation email — click the link in it to complete your subscription. If it doesn't arrive within a couple of minutes, check your spam folder or Gmail's Promotions tab. The sender is uudiskiri@skene.info.",
+  what_h:"What's in it",
+  w1:"Next week's concerts, club nights and festivals with ticket links",
+  w2:"New Estonian releases and merch",
+  w3:"Only the topics you picked, no ads",
+  foot_site:"→ See all events on skene.info"
+ }
+};
+var LANG=(function(){try{return localStorage.getItem('skene_lang')||'et';}catch(e){return 'et';}})();
+var LIVE=null;
+function t(k){var d=I18N[LANG]||I18N.et;return d[k]!==undefined?d[k]:(I18N.et[k]!==undefined?I18N.et[k]:k);}
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(function(el){el.textContent=t(el.getAttribute('data-i18n'));});
+  document.querySelectorAll('[data-i18n-html]').forEach(function(el){el.innerHTML=t(el.getAttribute('data-i18n-html'));});
+  document.querySelectorAll('[data-i18n-ph]').forEach(function(el){el.placeholder=t(el.getAttribute('data-i18n-ph'));});
+  document.title=t('page_title');
+  document.documentElement.setAttribute('lang',LANG);
+  document.querySelectorAll('.langsw button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===LANG);});
+  showLive();
+}
+function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}applyI18n();}
+function showLive(){var el=document.getElementById('live');if(LIVE===null||LIVE<3){el.innerHTML='';return;}el.innerHTML=t(LIVE===1?'live1':'liveN').replace('{n}',LIVE);}
+
+/* allikas: ?ref=kleeps-tapper või utm_source=ig_bio → MailerLite kliendiväli `allikas` (näitab, kust tellija tuli) */
+var SRC=(function(){var p=new URLSearchParams(location.search);
+  var s=p.get('ref')||[p.get('utm_source'),p.get('utm_campaign')].filter(Boolean).join(':')||'otse';
+  return ('liitu:'+s).replace(/[^\w:.\-]/g,'').slice(0,60);})();
+/* eelvalik: ?t=rap  või ?t=metal,klubi  (QR-kleeps, reklaam, partner); muidu metal */
+(function(){
+  var p=new URLSearchParams(location.search), want=(p.get('t')||'metal').toLowerCase().split(',');
+  document.querySelectorAll('input[name=cat]').forEach(function(c){c.checked=want.indexOf(c.value)>=0;});
+  if(!document.querySelector('input[name=cat]:checked'))document.querySelector('input[value=metal]').checked=true;
+})();
+
+/* loendur: tulevased üritused järgmise 7 päeva jooksul (reliisid ja merch välja) */
+fetch('/api/events.json').then(function(r){return r.ok?r.json():null;}).then(function(j){
+  if(!j||!j.entries)return;
+  var now=new Date();now.setHours(0,0,0,0);var end=new Date(now.getTime()+7*864e5);
+  LIVE=j.entries.filter(function(e){
+    if(!e.d||e.tba||e.t==='reliis'||e.t==='merch')return false;
+    var d=new Date(e.d+'T00:00:00');return d>=now&&d<end;
+  }).length;
+  showLive();
+}).catch(function(){});
+
+function err(k){var e=document.getElementById('err');e.textContent=t(k);e.hidden=false;}
+function go(ev){
+  ev.preventDefault();
+  document.getElementById('err').hidden=true;
+  var em=document.getElementById('em').value.trim();
+  var cats=[].slice.call(document.querySelectorAll('input[name=cat]:checked')).map(function(c){return c.value;});
+  if(!cats.length){err('e_cat');return false;}
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){err('e_email');return false;}
+  var btn=document.getElementById('btn');btn.disabled=true;btn.textContent=t('sending');
+  var fail=function(){btn.disabled=false;btn.textContent=t('btn');err('e_fail');};
+  fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},
+    body:'fields%5Bemail%5D='+encodeURIComponent(em)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&fields%5Bgrupid%5D='+encodeURIComponent(cats.join(','))+'&fields%5Ballikas%5D='+encodeURIComponent(SRC)+'&ml-submit=1&anticsrf=true'})
+    .then(function(r){if(!r.ok)throw 0;return r.json();})
+    .then(function(resp){if(resp&&resp.success===false){fail();return;}
+      document.getElementById('f').hidden=true;document.getElementById('done').hidden=false;
+      try{window.va&&window.va('event',{name:'liitu'});}catch(e){}})
+    .catch(fail);
+  return false;
+}
+applyI18n();
+</script>
+</body>
+</html>
