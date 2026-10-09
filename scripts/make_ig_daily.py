@@ -87,11 +87,13 @@ def render_story(sections, day, out_path, repo):
     y = 400
     limit = H - 400
     hidden = 0
+    peidus = []   # [(label, peidetud, kas osa naidati)]
     for label, sday, items in sections:
         if not items:
             continue
         if y + 200 > limit:
             hidden += len(items)
+            peidus.append((label, len(items), False))
             continue
         d.text((M - 6, y), label, font=big, fill=mwi.PABER)
         lw = d.textlength(label, font=big)
@@ -105,6 +107,7 @@ def render_story(sections, day, out_path, repo):
             rh = len(tlines) * 52 + 70
             if y + rh > limit:
                 hidden += len(items) - i
+                peidus.append((label, len(items) - i, i > 0))
                 break
             col = mwi.CAT_BRIGHT.get(e.get("_cat"), mwi.HDRMUTED)
             lbl = mwi.CAT_WORD.get(e.get("_cat"), "")
@@ -120,7 +123,10 @@ def render_story(sections, day, out_path, repo):
             y += rh
         y += 40
     if hidden:
-        d.text((M, min(y, limit + 20)), f"+ veel {hidden} — vaata skene.info", font=f["more"], fill=mwi.CAT_BRIGHT["metal"])
+        # 09.10: eristame paevad, muidu "+ veel 25" tundus kui tanane arv
+        osad = [f"{lab.lower()}{' veel' if osa else ''} {n}" for lab, n, osa in peidus]
+        d.text((M, min(y, limit + 20)), "+ " + ", ".join(osad) + " üritust: skene.info",
+               font=f["more"], fill=mwi.CAT_BRIGHT["metal"])
     fy = H - 300
     d.line([(M, fy), (W - M, fy)], fill=mwi.HDRMUTED, width=2)
     d.text((M, fy + 26), "Kõik üritused ja piletid: skene.info", font=f["foot_b"], fill=mwi.PABER)
