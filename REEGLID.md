@@ -144,6 +144,7 @@ ilma Eesti kuupäevata: ÜKS kirje ~5 lähima riigiga (`d`=varaseim, `d2`=hilise
 - **Piletimüüja ≠ korraldaja (26.07):** Fienta/Ticketer/Piletilevi/GateMe jt EI TOHI olla
   `on_`/`ou` väljal (frontend näitab "korraldaja:"). Piletilink → `pu` (võib olla ka
   `su`/`sn`). Kui ürituse oma lehte pole, jäta `ou` tühjaks.
+- **⚠ ERAND (Silver 09.10.2026): „kui on ikkagi piletimüügi leht siis pole kahte allikat vaja“.** Kui üritusel on piletimüüja leht (Fienta, Piletilevi, Piletitasku, Piletikeskus/Sviby, GateMe, Ticketer, Tourmotor jt) ja sealt loeb kuupäeva, koha ja koosseisu, piisab sellest ühest allikast. Žanrinõue (§1) kehtib edasi — piletileht peab ka žanri ütlema või see peab tulema ürituse/artisti enda lehelt.
 - **Kahe allika reegel:** iga üritus kinnita vähemalt 2 sõltumatu allikaga (korraldaja/FB
   event + piletimüüja VÕI venue leht VÕI RA). Ristkontrolli kuupäev/koht/koosseis;
   pilet+hind piletimüüjalt. **Kuupäeva verifitseerimine:** ametlik pileti-/event-leht

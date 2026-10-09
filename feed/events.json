@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 203,
+ "count": 207,
  "entries": [
   {
    "sait": "rap",
@@ -2367,6 +2367,31 @@
    "sait": "www",
    "d": "2026-10-24",
    "t": "kontsert",
+   "n": "Live out of Jar: I Am Bob",
+   "a": "Live out of Jari 6. hooaja avapidu; DJ-d Andres Rohtma ja Wrong Hotel; 20.00 DJ, 22.00 I Am Bob",
+   "b": [
+    "I Am Bob"
+   ],
+   "v": "Krabi",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Tourmotor",
+   "su": "https://tourmotor.net",
+   "pu": "https://tourmotor.net/event/i-am-bob-krabis-139",
+   "hind": {
+    "praegu": "5–10 €",
+    "allikas": "Tourmotor, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Tourmotor (žanr: noise rock, space music, krautrock; Maike Lond, Raul Reinup, Renzo van Steenbergen)."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-24",
+   "t": "kontsert",
    "n": "Sibyl Vane — VORTEX Autumn Tour @ Tartu + Aino & Hajonneet (FIN)",
    "a": "VORTEX-albumi sügistuur; koosseis Helena Randlaht, Meelis Tauk, Heiko Leesment, Kristo Otter",
    "b": [
@@ -3203,6 +3228,31 @@
   },
   {
    "sait": "www",
+   "d": "2026-11-07",
+   "t": "kontsert",
+   "n": "Surgent & Ocean Districts albumiesitlused Tartus + Mobisa Mobisa",
+   "a": "Surgent «Sin Eater» + Ocean Districts «Pulsar» topelt-albumiesitlus; uksed 20.00, Mobisa Mobisa 20.30, Ocean Districts 21.30, Surgent 22.30",
+   "b": [
+    "Surgent",
+    "Ocean Districts",
+    "Mobisa Mobisa"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "death",
+    "metal",
+    "post",
+    "core"
+   ],
+   "sn": "Fienta rock-otsing",
+   "su": "https://fienta.com/et?q=rock",
+   "pu": "https://fienta.com/et/208655",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta piletileht (žanr: „progressiivne death metal“, post-hardcore/post-rock)."
+  },
+  {
+   "sait": "www",
    "d": "2026-11-08",
    "t": "kontsert",
    "n": "Sari Schorr — Running Wild European Tour 2026",
@@ -3342,6 +3392,27 @@
    "pu": "https://www.piletilevi.ee/series/KURXMI47WG/kosmikud-pulmad-ja-matused-20",
    "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 02.08.2026 (Silveri otsus 'pane kõik kuupäevad'): kogu tuur loetud Piletilevi seeria-lehelt piletilevi.ee/series/KURXMI47WG — 13.11 Pärnu, 14.11 Järvakandi, 20.11 Tõrva, 21.11 Viljandi, 27.11 + 28.11 Tartu, 04.12 Tallinn (Viikate), 05.12 Helsingi (Korjaamo). d/d2 = 13.11–04.12 (Eesti osa); Helsingi kirjas ainult a-vallas, sest kalender on Eesti-keskne. Bänd Viikate 04.12 lisatud b-massiivi.",
    "img": "https://www.skene.info/pildid/kosmikudpulmadjamatused20.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Laine Live: Chauncy (DE/UA)",
+   "a": "Berliini alt-rock bänd; 19.00–23.00; korraldaja Art of Mosh",
+   "b": [
+    "Chauncy (DE/UA)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Fienta rock-otsing",
+   "su": "https://fienta.com/et?q=rock",
+   "pu": "https://fienta.com/et/laine-live-chauncy-de-ua",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Art of Mosh OÜ): „alternative rock band based in Berlin ... heavy guitars“."
   },
   {
    "sait": "www",
@@ -3559,6 +3630,28 @@
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event + GateMe + helitehas.ee kava („Holland · hardstyle\"). Hardstyle Eesti pikaajaliselt korraldajalt jääb skoopi (REEGLID §1, Brennan Heart 11.09 pretsedent).",
    "img": "https://klubi.skene.info/pildid/hardnation16bdayxrandnl.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "PUNK ÖÖ — Kojamees and the Gäng",
+   "a": "Tarmo „Kojamees“ Kruusimäe (Vennaskonna algkoosseisu bassist, Kulo) + üllatuskülalised; 20.00–02.00",
+   "b": [
+    "Kojamees and the Gäng"
+   ],
+   "v": "Trahter Postipoiss",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Fienta punk-otsing",
+   "su": "https://fienta.com/et?q=punk",
+   "pu": "https://fienta.com/et/punk-oo-kojamees-and-the-gang",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Parim Pidu OÜ / Trahter Postipoiss)."
   },
   {
    "sait": "www",
