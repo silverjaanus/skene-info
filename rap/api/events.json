@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 186,
+ "count": 187,
  "entries": [
   {
    "sait": "rap",
@@ -2455,6 +2455,34 @@
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026 Kidrakuuri FB events-tabist. Kaks allikat: FB event (korraldajad RAISK + Elukas) + Fienta piletileht. Tuuri teine kuupaev (Tartu/Parnu/Rakvere/Viljandi) oli 09.09 seisuga veel lahtine - kontrolli jargmistes sweepides.",
    "img": "https://www.skene.info/pildid/tuur20raiskelukassulferdustfinraisk.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-30",
+   "t": "kontsert",
+   "n": "ZORG «Tuli tuha all» esitluskontsert",
+   "a": "audiovisuaalne ~1,5 h kontsert taustavideotega; 21.00–02.00",
+   "b": [
+    "ZORG"
+   ],
+   "v": "Pubi Juudas",
+   "c": "mujal",
+   "linn": "Tõrva",
+   "g": [
+    "industrial",
+    "metal"
+   ],
+   "sn": "Pubi Juudas FB events-tab",
+   "su": "https://www.facebook.com/pubijuudas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/968271056340718/",
+   "pu": "https://gateme.com/et/pubijuudas/104359-zorg-tuli-tuha-all-esitluskontsert/",
+   "hind": {
+    "praegu": "10 € eelmüük",
+    "allikas": "GateMe, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri sisendi peale („zorg is industrial“). Kaks allikat: FB event (Pubi Juudas + ZORG) + GateMe piletileht (korraldaja Pubi Juudas OÜ; tekst: „ZORG on Eesti metalbänd ... segab hip hopi, industriaali, trip hopi“). Industrial METAL → www (REEGLID §1). Album «Tuli tuha all» ilmus 01.10.2025 → reliisikirjet ei tehtud (üle aasta vana)."
   },
   {
    "sait": "klubi",
