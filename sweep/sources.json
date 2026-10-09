@@ -509,6 +509,36 @@
         "nimi": "Tümmisaun (peosari)",
         "url": "https://www.facebook.com/tymmisaun/events",
         "nb": "lisatud 28.08.2026 Silveri sisendina (saatis FB-lingid vestluses); bassimuusika peosari (residendid Masta Robusta & gixshu), Rakvere/Tallinn. Piiripealne rap/klubi — vaata iga ohtut eraldi."
+      },
+      {
+        "nimi": "5MIINUST",
+        "url": "https://www.facebook.com/5miinust/upcoming_hosted_events",
+        "tyyp": "artist",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). 25K jälgijat, hostib ise üritusi (rämmar-peod D3-s, Räpilaulupidu 2027, Arctic Pulse Tartus). ⚠ 5MIINUST RÖST 16.12 Alexela = Huumoriklubi stand-up roast, MITTE kontsert → välja."
+      },
+      {
+        "nimi": "Genka",
+        "url": "https://www.facebook.com/GenkaEstonia/upcoming_hosted_events",
+        "tyyp": "artist",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). 17K jälgijat; booking maris@planet.ee."
+      },
+      {
+        "nimi": "nublu",
+        "url": "https://www.facebook.com/nublufy/upcoming_hosted_events",
+        "tyyp": "artist",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). 22K jälgijat; esinemised United Stage (kaarel@unitedstage.ee). 09.10 events-tab tühi — jälgi."
+      },
+      {
+        "nimi": "pluuto",
+        "url": "https://www.facebook.com/poisspluutolt/upcoming_hosted_events",
+        "tyyp": "artist",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). 102K jälgijat; booking Ekstaas. 09.10 events-tab tühi — jälgi."
+      },
+      {
+        "nimi": "A-Rühm",
+        "url": "https://www.facebook.com/aryhmofficial/upcoming_hosted_events",
+        "tyyp": "artist",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). EHHF 2026 esineja, old-school hip-hop. 09.10 events-tab tühi — jälgi."
       }
     ],
     "ig": [
@@ -576,6 +606,18 @@
         "nimi": "Fienta hip hop-otsing",
         "url": "https://fienta.com/et?q=hip+hop",
         "nb": "lisatud 09.10.2026"
+      },
+      {
+        "nimi": "Philly Joe's (Sviby korraldajaleht)",
+        "url": "https://sviby.com/et/o/phillyjoes",
+        "tyyp": "venue",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). Sari „Rap Meets Jazz“ (100 % hiphopiklassika live-jazzbändiga) + aeg-ajalt hip-hop jam'id; jazziõhtud ise skoobist väljas."
+      },
+      {
+        "nimi": "Bandsintown — Tallinn hip-hop",
+        "url": "https://www.bandsintown.com/c/tallinn-estonia/all-dates/genre/hip-hop",
+        "tyyp": "agregaator",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). Žanrifilter ebatäpne (seal ka Hollywood Undead, 200 Stab Wounds) — kontrolli iga kirje. Leidis EiK 2509 ja Privé venekeelseid hip-hop-üritusi (skoobiotsus Silverilt ootel)."
       }
     ]
   },
@@ -1483,6 +1525,12 @@
         "nimi": "Clwds (Tallinn)",
         "url": "https://ra.co/clubs/291356",
         "nb": "lisatud 18.09.2026: Ülase 14 klubi, kust tuli Rave To The Grave 09.10 (I TRANCE YOU). ⚠ RA klubi-ID on KINNITAMATA — ürituseleht ra.co/events/2535428 viitab venue'le Clwds, aga klubi-lehe ID-d ei kontrollinud; paranda järgmises sweepis."
+      },
+      {
+        "nimi": "Dreamscape Festival (Fienta)",
+        "url": "https://fienta.com/et/dreamscape-festival-2027",
+        "tyyp": "festival",
+        "nb": "lisatud 09.10.2026 õhtul (Claude, Silveri palve „otsi räpiallikaid juurde“). Paavlis, 12.–14.03.2027, koosseis avaldamata; info https://linktr.ee/dreamscape.tln"
       }
     ]
   }

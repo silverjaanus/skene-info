@@ -437,5 +437,31 @@
   "lisatud": "2026-10-09",
   "nb": "lisatud järelkäigus 09.10.2026 Silveri vihje peale (Piletikeskuse link). Kaks allikat: Piletikeskus piletileht + FB event (Philly Joe's Tallinn; ka Rada7 events-tabis).",
   "img": "pildid/rapmeetsjazz100sammalhabe.webp"
+ },
+ {
+  "d": "2027-07-29",
+  "t": "kontsert",
+  "n": "Eesti Suur Räpilaulupidu",
+  "a": "Õhtud Anuga 2027 raames: Eesti räpi eri põlvkonnad ühel laval, live-bänd ja WAF-koor, publik räpib kaasa (laulik sissepääsul); 19.00–23.00. Esinejate nimekiri täieneb.",
+  "b": [
+   "5MIINUST",
+   "Genka",
+   "Reket",
+   "triibupasta"
+  ],
+  "koosseis_tba": 1,
+  "v": "Tartu Laululava",
+  "c": "Tartu",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "5MIINUST FB events-tab",
+  "su": "https://www.facebook.com/5miinust/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1086686604008572/",
+  "pu": "https://www.piletilevi.ee/piletid/O2TKFRAET4/ohtud-anuga-kutsub-eesti-suur-rapilaulupidu",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud 09.10.2026 õhtul räpiallikate otsingus. FB event (korraldajad Õhtud Anuga, 5MIINUST, VV Productions) + Piletilevi piletileht (REEGLID §3 piletimüügi erand). Erikülalised An-Marlen ja Liis Lemsalu, õhtujuht Anu Välba — b-sse ei pandud, sest nad pole räpparid. Hind Piletilevist kontrollimata (JS)."
  }
 ]
