@@ -1,0 +1,37 @@
+name: IG mainimised
+
+# Uued IG kommentaarid / märkimised / DM-id -> Telegrami (@SilveriPC_bot) koos vastuse mustanditega.
+# Ise midagi ei postita. NB: avalik repo -> logidesse ainult arvud.
+on:
+  schedule:
+    - cron: "0 6,15 * * *"   # 09:00 ja 18:00 suveajal (08/17 talveajal)
+  workflow_dispatch: {}
+
+concurrency:
+  group: ig-mainimised
+  cancel-in-progress: false
+
+jobs:
+  kontroll:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      models: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Kogu ja saada
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: "1810496014"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/ig_mainimised.py
+      - name: Salvesta seis
+        run: |
+          git config user.name "skene-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ig/mainimised_seis.json
+          git diff --cached --quiet || (git commit -m "ig mainimised seis" && git pull --rebase origin main && git push)
