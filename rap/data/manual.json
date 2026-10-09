@@ -488,5 +488,35 @@
   },
   "lisatud": "2026-10-09",
   "nb": "lisatud 09.10.2026 Silveri otsusega („jep“) — žanrit ega koosseisu üritus ei ütle, aga korraldaja on 5MIINUST (+ D3). Kaks allikat: FB event + GateMe piletileht."
+ },
+ {
+  "d": "2026-12-12",
+  "t": "kontsert",
+  "n": "ARCTIC PULSE VOL. 2: BLACK ICE",
+  "a": "Pulse Eventsi ja 5MIINUSTi talvepidu Tartus: live-esinejad + Pulse'i DJ-d (Luffy, Tømi, NSET, Tate, Trev); 23.00–05.00, 18+. Eelmine Arctic Pulse müüdi välja.",
+  "b": [
+   "5MIINUST",
+   "Suur Papa",
+   "Clicherik & Mäx",
+   "Getter Jaani"
+  ],
+  "v": "Tartu Kammivabrik",
+  "c": "Tartu",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "5MIINUST FB events-tab",
+  "su": "https://www.facebook.com/5miinust/upcoming_hosted_events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/27573441862329580/",
+  "pu": "https://gateme.com/et/event/104314/",
+  "hind": {
+   "praegu": "22 € / VIP 34 € / Ultra VIP 80 €",
+   "mark": "Early Bird 18 € ja Early VIP 29 € välja müüdud; hind tõuseb partiide kaupa",
+   "allikas": "GateMe, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud 09.10.2026 Silveri otsusega („jah“), kuigi koosseisus on peavoolupopp (Getter Jaani, Clicherik & Mäx) — peaesinejad 5MIINUST ja Suur Papa. Kaks allikat: FB event (Pulse Events + 5MIINUST) + GateMe piletileht (korraldaja Lepapuu OÜ). FB näitab aadressina Teguri 28A = Kammivabrik."
  }
 ]
