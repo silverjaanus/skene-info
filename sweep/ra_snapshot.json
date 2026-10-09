@@ -1,27 +1,13 @@
 {
- "tommatud": "2026-10-08",
+ "tommatud": "2026-10-09",
  "aken": {
-  "algus": "2026-10-08",
-  "lopp": "2026-12-07"
+  "algus": "2026-10-09",
+  "lopp": "2026-12-08"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 35,
+ "kirjeid": 34,
  "kirjed": [
-  {
-   "d": "2026-10-08",
-   "n": "THROWBACK THURSDAY",
-   "algus": "2026-10-08T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2551633",
-   "pilet": false
-  },
   {
    "d": "2026-10-09",
    "n": "Laine Klubiöö: Yung Singh (UK)",
@@ -70,6 +56,20 @@
   },
   {
    "d": "2026-10-09",
+   "n": "NightVision @Studio",
+   "algus": "2026-10-09T23:00:00.000",
+   "v": "Club Studio",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House",
+    "Garage"
+   ],
+   "url": "https://ra.co/events/2556000",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-09",
    "n": "STF 2026: Ayano Yokoyama & 34423 inklingroom & Paavli takeover",
    "algus": "2026-10-09T19:00:00.000",
    "v": "Paavli Kultuurivabrik",
@@ -94,20 +94,6 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2551637",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "NightVision @Studio",
-   "algus": "2026-10-09T23:00:00.000",
-   "v": "Club Studio",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "House",
-    "Garage"
-   ],
-   "url": "https://ra.co/events/2556000",
    "pilet": false
   },
   {
@@ -484,9 +470,13 @@
    "ala": "Tallinn",
    "b": [
     "Silat Beksi",
-    "Fedo (UA)"
+    "Fedo (UA)",
+    "Lill"
    ],
-   "g": [],
+   "g": [
+    "Breakbeat",
+    "House"
+   ],
    "url": "https://ra.co/events/2556652",
    "pilet": false
   },
