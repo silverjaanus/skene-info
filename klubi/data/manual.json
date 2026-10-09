@@ -1695,7 +1695,12 @@
   "pu": "https://fienta.com/et/laine-klubioo-tapes-all-night-long",
   "lisatud": "2026-10-02",
   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: RA event + Fienta piletileht + uuslaine.com. Žanr Fienta tekstist („dub, disco, lo-fi house & techno\").",
-  "img": "pildid/laineklubiootapesallnightlong.webp"
+  "img": "pildid/laineklubiootapesallnightlong.webp",
+  "hind": {
+   "praegu": "5 €",
+   "mark": "Early Bird",
+   "allikas": "Fienta, kontrollitud 09.10.2026"
+  }
  },
  {
   "d": "2027-01-15",
@@ -1717,7 +1722,12 @@
   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Fienta piletileht + uuslaine.com kava. Žanr Fienta tekstist (gqom, grime, kuduro, bubbling; raw percussion + deep bass). | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
   "img": "pildid/laineklubiootnonl.webp",
   "ou": "https://www.facebook.com/events/3161287294081137/",
-  "on_": "Facebook event"
+  "on_": "Facebook event",
+  "hind": {
+   "praegu": "6 €",
+   "mark": "Early Bird",
+   "allikas": "Fienta, kontrollitud 09.10.2026"
+  }
  },
  {
   "d": "2026-11-13",
@@ -2074,5 +2084,29 @@
   "lisatud": "2026-10-09",
   "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Fonoteek + Tripsy, „part of the Estonian minimal story“) + GateMe piletileht; RA snapshotis ka ra.co/events/2556652.",
   "img": "pildid/fedoxsilatbeksiallnightlong.webp"
+ },
+ {
+  "d": "2026-10-09",
+  "t": "klubi",
+  "n": "Downtempo õhtu koos Astridiga (Starfall)",
+  "a": "23.00-03.00; „Mõnus õhtu downtempo biitidega\", FFO: Burial, Nujabes, Four Tet",
+  "b": [
+   "Astrid (STRFLL)"
+  ],
+  "v": "Genialistide Klubi",
+  "c": "Tartu",
+  "g": [
+   "downtempo"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tartu/37131f72-1d53-4c13-81ca-76016b7f769b",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1476759321016356",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "kluub.ee, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud postkastijooksus 09.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + FB event (korraldajad STRFLL ja Genialistide Klubi). Žanr ürituse enda FB-tekstist: downtempo, FFO Burial/Nujabes/Four Tet."
  }
 ]

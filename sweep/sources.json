@@ -405,6 +405,13 @@
       "url": "https://www.facebook.com/Wavydnb/events",
       "tyyp": "promootor",
       "nb": "lisatud 23.09.2026 postkastijooksus (kontaktivormi sisend: „SAGEDUSED KIVIS“ R 02.10.2026 Kivi baaris, https://www.facebook.com/events/910600521899427/). Kivi baari kaaskorraldaja, dnb/jungle/house liin Tartus; venue ise on juba sources.json-is (Kivi baar (Tartu))."
+    },
+    {
+      "nimi": "STRFLL (Astrid / Starfall)",
+      "url": "https://www.facebook.com/strfll/events",
+      "tyyp": "artist",
+      "sait": "klubi",
+      "nb": "lisatud postkastijooksus 09.10.2026 (kluub.ee Tartu: Downtempo õhtu koos Astridiga, Genialistide Klubi 09.10). Tartu downtempo/'bedroom drag beats' DJ, https://linktr.ee/strfll. ⚠ FB-lehe URL tuletatud nimest, kontrolli järgmises sweepis."
     }
   ],
   "ig": [
@@ -650,7 +657,7 @@
       {
         "nimi": "Kluub.ee",
         "url": "https://www.kluub.ee/et/events/tallinn",
-        "nb": "linnapõhine ööelu-agregaator (Tallinn + Tartu). 09.10.2026 (Silver): IGAPÄEVANE KLUBI-ALLIKAS - käiakse läbi postkastijooksu sammus 2c. Sisu on peamiselt FB-üritustest kokku korjatud (pildid kaustas facebook-events/), igal üritusel oma püsiv URL /events/tallinn/<uuid>, olemas koht/esinejad/hind/piletilink (Fienta, Piletikeskus, Piletitasku, GateMe). Näitab AINULT tänast + nädalavahetust -> sobib samanädalaste odavate DJ-pidude jaoks, mitte nädalasse sweepi. Kluub.ee = ÜKS allikas, kahe allika reegel kehtib (teine: ürituse FB-leht/piletimüüja/RA). Tartu leht (/et/events/tartu) oli 09.10.2026 seisuga vananenud (ainult juuli üritused) - kontrolli, kas on taastunud. Peavoolu disko/hitipeod (nt Best Of 2010s, D3) on skoobist väljas."
+        "nb": "linnapõhine ööelu-agregaator (Tallinn + Tartu). 09.10.2026 (Silver): IGAPÄEVANE KLUBI-ALLIKAS - käiakse läbi postkastijooksu sammus 2c. Sisu on peamiselt FB-üritustest kokku korjatud (pildid kaustas facebook-events/), igal üritusel oma püsiv URL /events/tallinn/<uuid>, olemas koht/esinejad/hind/piletilink (Fienta, Piletikeskus, Piletitasku, GateMe). Näitab AINULT tänast + nädalavahetust -> sobib samanädalaste odavate DJ-pidude jaoks, mitte nädalasse sweepi. Kluub.ee = ÜKS allikas, kahe allika reegel kehtib (teine: ürituse FB-leht/piletimüüja/RA). Tartu leht (/et/events/tartu) oli 09.10.2026 seisuga vananenud (ainult juuli üritused) - kontrolli, kas on taastunud. Peavoolu disko/hitipeod (nt Best Of 2010s, D3) on skoobist väljas. | 09.10.2026 postkastijooksus Tartu leht TAASTUNUD (8.-10.10 üritused nähtavad) - käi edaspidi ka Tartu leht läbi."
       },
       {
         "nimi": "Onlinepilet.ee",
