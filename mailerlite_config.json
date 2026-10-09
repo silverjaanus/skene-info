@@ -1,6 +1,6 @@
 {
   "api_base": "https://connect.mailerlite.com/api",
-  "from_name": "skene.info",
+  "from_name": "Silver / skene.info",
   "from_email": "uudiskiri@skene.info",
   "subject": {
     "et": "skene.info nädalakiri — {range}",
