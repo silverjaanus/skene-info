@@ -358,6 +358,24 @@ def build_html(entries, ws, we, lang, cats):
 </td></tr></table>
 </body></html>"""
 
+# UTM-margendid koigile skene.info linkidele (09.10.2026, kasvuplaan): Verceli analuutikas
+# on siis naha, kui palju liiklust uudiskiri toob. Eelistuste-leht jaab puutumata (tok-link).
+import re as _re
+_UTM = "utm_source=uudiskiri&amp;utm_medium=email&amp;utm_campaign=nadalakiri"
+def add_utm(h):
+    def rep(m):
+        url = m.group(1)
+        if "eelistused" in url or "utm_" in url:
+            return m.group(0)
+        base, hsh = (url.split("#", 1) + [""])[:2]
+        sep = "&amp;" if "?" in base else "?"
+        return 'href="' + base + sep + _UTM + ("#" + hsh if hsh else "") + '"'
+    return _re.sub(r'href="(https://(?:www\.|rap\.|klubi\.)?skene\.info/[^"]*)"', rep, h)
+
+_build_html_raw = build_html
+def build_html(entries, ws, we, lang, cats):
+    return add_utm(_build_html_raw(entries, ws, we, lang, cats))
+
 # ---------------- MailerLite API (uus API: connect.mailerlite.com) ----------------
 
 def _plain(s):
