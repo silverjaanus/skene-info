@@ -72,7 +72,9 @@ def main():
         print("IG_TOKEN puudub (GitHubi secret seadistamata) -- ei postita."); return
     if a.check:
         me = call("GET", f"{VER}/me", {"fields": "user_id,username", "access_token": token})
-        print(f"Token OK: @{me.get('username')} ({me.get('user_id')})"); return
+        print(f"Token OK: @{me.get('username')} ({me.get('user_id')})")
+        refresh(token)   # kontrollib ka uuenduse + salvestamise ahelat
+        return
     if not a.dry_run:
         refresh(token)
 
