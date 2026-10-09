@@ -1,0 +1,36 @@
+name: IG story
+
+# 09.10.2026 kasvuplaan etapp 2: Make.com-il pole Instagrami story-moodulit,
+# seega postitame otse Instagrami API-ga. Pilt + ig/today.json tulevad Andmekorjest
+# (07:30). Lüliti: data/ig_seaded.json "story". Võti: repo secret IG_TOKEN.
+on:
+  schedule:
+    - cron: "0 7 * * 2,4,6"   # T/N/L 07:00 UTC (10:00 suveajal, 09:00 talveajal)
+  workflow_dispatch: {}
+
+concurrency:
+  group: ig-story
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Postita story
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python scripts/ig_publish.py
+      - name: Logi commit
+        run: |
+          git config user.name "skene-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -f ig/postitatud.json ]; then git add ig/postitatud.json; fi
+          git diff --cached --quiet || (git commit -m "ig story $(date -u +%F)" && git pull --rebase origin main && git push)
