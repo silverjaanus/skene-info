@@ -2,11 +2,16 @@ name: IG story
 
 # 09.10.2026 kasvuplaan etapp 2: Make.com-il pole Instagrami story-moodulit,
 # seega postitame otse Instagrami API-ga. Pilt + ig/today.json tulevad Andmekorjest
-# (07:30). Lüliti: data/ig_seaded.json "story". Võti: repo secret ZERNIO_API_KEY.
+# (07:30). Lüliti: data/ig_seaded.json "story". Võti: repo secret IG_TOKEN (oma Meta app).
 on:
   schedule:
-    - cron: "0 7 * * 2,4"   # T/N (Zernio tasuta = 10 postitust kuus; laupaeva story teeb Silver ise) 07:00 UTC (10:00 suveajal, 09:00 talveajal)
-  workflow_dispatch: {}
+    - cron: "0 7 * * 2,4"   # T/N 07:00 UTC
+  workflow_dispatch:
+    inputs:
+      kontroll:
+        description: "Ainult kontrolli tokenit (ei postita)"
+        type: boolean
+        default: true
 
 concurrency:
   group: ig-story
@@ -26,9 +31,8 @@ jobs:
           python-version: "3.12"
       - name: Postita story
         env:
-          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
-          ZERNIO_ACCOUNT_ID: ${{ secrets.ZERNIO_ACCOUNT_ID }}
-        run: python scripts/ig_publish.py
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python scripts/ig_publish.py ${{ inputs.kontroll && '--check' || '' }}
       - name: Logi commit
         run: |
           git config user.name "skene-bot"

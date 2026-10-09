@@ -2,34 +2,36 @@
 # -*- coding: utf-8 -*-
 """ig_publish.py -- postitab tanase Instagrami story (kasvuplaan, etapp 2, 09.10.2026).
 
-Make.com-il pole story-moodulit, seega postitame otse Instagrami API-ga
-(Zernio API, sest Meta arendajakonto jai SMS-i taha). Jookseb GitHub Actionsis
-(.github/workflows/ig_story.yml) iga paev ~10:00.
+Postitab otse Instagrami API-ga (Instagram Login), oma Meta app
+"skene.info postitaja" (2331682427587673). Jookseb GitHub Actionsis
+(.github/workflows/ig_story.yml).
 
 Postitab AINULT siis, kui:
   - ig/today.json["date"] == tana (Europe/Tallinn)
   - ig/today.json["story"]["postita"] == true  (luliti: data/ig_seaded.json)
   - tanast storyt pole veel postitatud (ig/postitatud.json)
-  - keskkonnas on ZERNIO_API_KEY (GitHubi secret, seda EI hoita repos);
-    valikuline ZERNIO_ACCOUNT_ID, muidu leitakse uhendatud Instagrami konto ise
+  - keskkonnas on IG_TOKEN (GitHubi secret, seda EI hoita repos)
 
-Kasutus:  python scripts/ig_publish.py [--dry-run]
+Token kehtib 60 paeva; iga jooks pikendab seda (refresh_access_token).
+
+Kasutus:  python scripts/ig_publish.py [--dry-run] [--check]
 """
-import argparse, datetime as dt, json, os, sys, time, urllib.parse, urllib.request, urllib.error
+import argparse, json, os, sys, time, urllib.parse, urllib.request, urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import today_local
 
-IG_USER_ID = "17841409504581888"     # @skene.info (sama, mida Make kasutab)
-GRAPH = "https://graph.facebook.com"
+IG_USER_ID = "17841409504581888"     # @skene.info
+GRAPH = "https://graph.instagram.com"
+VER = "v23.0"
 
 
 def call(method, path, params):
-    data = urllib.parse.urlencode(params).encode()
+    data = urllib.parse.urlencode(params)
     if method == "GET":
-        req = urllib.request.Request(f"{GRAPH}/{path}?{data.decode()}")
+        req = urllib.request.Request(f"{GRAPH}/{path}?{data}")
     else:
-        req = urllib.request.Request(f"{GRAPH}/{path}", data=data, method="POST")
+        req = urllib.request.Request(f"{GRAPH}/{path}", data=data.encode(), method="POST")
     try:
         return json.loads(urllib.request.urlopen(req, timeout=60).read())
     except urllib.error.HTTPError as e:
@@ -37,36 +39,34 @@ def call(method, path, params):
         sys.exit(f"VIGA {e.code} {path}: {body[:500]}")
 
 
-ZERNIO = "https://zernio.com/api/v1"
-
-
-def zernio(method, path, key, body=None):
-    req = urllib.request.Request(f"{ZERNIO}/{path}", method=method,
-                                 data=json.dumps(body).encode() if body is not None else None,
-                                 headers={"Authorization": "Bearer " + key, "Content-Type": "application/json",
-                                          "Accept": "application/json"})
+def refresh(token):
+    """Pikenda tokenit (lubatud, kui token on >24 h vana). Viga siin ei peata postitamist."""
     try:
-        r = urllib.request.urlopen(req, timeout=120)
-        return r.status, json.loads(r.read() or b"{}")
+        r = urllib.request.urlopen(f"{GRAPH}/refresh_access_token?grant_type=ig_refresh_token&access_token="
+                                   + urllib.parse.quote(token), timeout=30)
+        d = json.loads(r.read())
+        paevi = int(d.get("expires_in", 0)) // 86400
+        muutus = d.get("access_token") not in (None, token)
+        print(f"Token pikendatud: kehtib {paevi} paeva" + (" (UUS token -- uuenda IG_TOKEN!)" if muutus else ""))
     except urllib.error.HTTPError as e:
-        sys.exit(f"VIGA Zernio {e.code} {path}: {e.read().decode('utf-8', 'replace')[:500]}")
-
-
-def zernio_ig_account(key):
-    """Leia ühendatud Instagrami konto id (kui ZERNIO_ACCOUNT_ID pole antud)."""
-    _, d = zernio("GET", "accounts", key)
-    items = d.get("accounts") if isinstance(d, dict) else d
-    for x in items or []:
-        if (x.get("platform") or "").lower() == "instagram":
-            return x.get("_id") or x.get("id")
-    sys.exit(f"VIGA: Zernios pole Instagrami kontot ühendatud ({json.dumps(d)[:300]})")
+        print(f"Tokeni pikendus ei onnestunud ({e.code}): {e.read().decode('utf-8', 'replace')[:200]}")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--check", action="store_true", help="ainult kontrolli, kas token tootab")
     a = ap.parse_args()
+
+    token = os.environ.get("IG_TOKEN", "").strip()
+    if not token:
+        print("IG_TOKEN puudub (GitHubi secret seadistamata) -- ei postita."); return
+    if a.check:
+        me = call("GET", f"{VER}/me", {"fields": "user_id,username", "access_token": token})
+        print(f"Token OK: @{me.get('username')} ({me.get('user_id')})"); return
+    if not a.dry_run:
+        refresh(token)
 
     today = today_local().isoformat()
     tj = json.load(open(os.path.join(a.repo, "ig", "today.json"), encoding="utf-8"))
@@ -82,36 +82,28 @@ def main():
     log = json.load(open(logp, encoding="utf-8")) if os.path.exists(logp) else {}
     if today in log:
         print(f"Tänane story juba postitatud: {log[today]}"); return
-
-    # 09.10.2026: Meta arendajakonto jäi SMS-i taha (vt HANDOVER-ARCHIVE 08.07),
-    # seega postitame Zernio (endine Late) kaudu. Tasuta pakett = 10 postitust kuus,
-    # sellepärast käib automaatika ainult T + N; laupäeva story teeb Silver ise.
-    key = os.environ.get("ZERNIO_API_KEY", "").strip()
-    if not key:
-        print("ZERNIO_API_KEY puudub (GitHubi secret seadistamata) -- ei postita."); return
     if a.dry_run:
         print(f"DRY-RUN: postitaksin {st['image_url']}"); return
 
-    acc = os.environ.get("ZERNIO_ACCOUNT_ID", "").strip() or zernio_ig_account(key)
-    body = {"mediaItems": [{"type": "image", "url": st["image_url"]}],
-            "platforms": [{"platform": "instagram", "accountId": acc,
-                           "platformSpecificData": {"contentType": "story"}}],
-            "publishNow": True}
-    code, p = zernio("POST", "posts", key, body)
-    post = p.get("post", p)
-    plats = post.get("platforms") or p.get("platforms") or []
-    if code != 201 or post.get("status") not in ("published", None):
-        errs = "; ".join(str(x.get("errorMessage")) for x in plats if x.get("errorMessage"))
-        sys.exit(f"VIGA Zernio {code}: status={post.get('status')} {errs or json.dumps(p)[:400]}")
-    url = next((x.get("platformPostUrl") for x in plats if x.get("platformPostUrl")), None)
-    log[today] = {"zernio_post": post.get("_id") or post.get("id"), "url": url, "image_url": st["image_url"]}
-    # hoia logi lühike (30 päeva)
+    c = call("POST", f"{VER}/{IG_USER_ID}/media",
+             {"image_url": st["image_url"], "media_type": "STORIES", "access_token": token})
+    cid = c["id"]
+    for _ in range(30):
+        s = call("GET", f"{VER}/{cid}", {"fields": "status_code", "access_token": token})
+        if s.get("status_code") == "FINISHED":
+            break
+        if s.get("status_code") in ("ERROR", "EXPIRED"):
+            sys.exit(f"VIGA: meedia töötlus {s}")
+        time.sleep(5)
+    p = call("POST", f"{VER}/{IG_USER_ID}/media_publish", {"creation_id": cid, "access_token": token})
+
+    log[today] = {"media_id": p.get("id"), "image_url": st["image_url"]}
     keep = sorted(log)[-30:]
     log = {k: log[k] for k in keep}
     with open(logp, "w", encoding="utf-8") as f:
         json.dump(log, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print(f"OK: story postitatud {url or ''}")
+    print(f"OK: story postitatud (media {p.get('id')})")
 
 
 if __name__ == "__main__":
