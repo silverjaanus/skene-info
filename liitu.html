@@ -10,7 +10,7 @@
 <meta property="og:url" content="https://www.skene.info/liitu">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://www.skene.info/liitu">
-<link rel="icon" href="/icons/mail-logo-metal.png">
+<link rel="icon" href="https://www.skene.info/icons/mail-logo-metal.png">
 <script defer src="/_vercel/insights/script.js"></script>
 <style>
 :root{
@@ -108,7 +108,7 @@ form{margin-top:26px}
       <button type="submit" id="btn" data-i18n="btn">Telli →</button>
     </div>
     <p class="err" id="err" hidden></p>
-    <p class="fine" data-i18n-html="fine">Saadame kinnituskirja. Tellimus hakkab kehtima, kui klikid selles olevale lingile. Vt <a href="/privaatsus.html">privaatsust</a>.</p>
+    <p class="fine" data-i18n-html="fine">Saadame kinnituskirja. Tellimus hakkab kehtima, kui klikid selles olevale lingile. Vt <a href="https://www.skene.info/privaatsus.html">privaatsust</a>.</p>
   </form>
   <div class="done" id="done" hidden><b data-i18n="done_h">Peaaegu valmis</b><span data-i18n="done">Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui kirja paari minuti jooksul ei tule, vaata rämpsposti või Gmailis vahelehte „Kampaaniad“. Saatja on uudiskiri@skene.info.</span></div>
 
@@ -138,7 +138,7 @@ var I18N={
   d_metal:"metal, punk, rock, alternatiiv", d_rap:"Eesti räpp ja hiphop", d_klubi:"tehno, bass, klubiõhtud",
   ph:"sinu@email.ee", btn:"Telli →", sending:"Saadan…",
   e_cat:"Vali vähemalt üks teema.", e_email:"Kontrolli e-posti aadressi.", e_fail:"Tellimine ebaõnnestus. Proovi hetke pärast uuesti.",
-  fine:"Saadame kinnituskirja. Tellimus hakkab kehtima, kui klikid selles olevale lingile. Vt <a href=\"/privaatsus.html\">privaatsust</a>.",
+  fine:"Saadame kinnituskirja. Tellimus hakkab kehtima, kui klikid selles olevale lingile. Vt <a href=\"https://www.skene.info/privaatsus.html\">privaatsust</a>.",
   done_h:"Peaaegu valmis",
   done:"Saatsime sulle kinnituskirja — kliki selles olevale lingile, et tellimus lõpule viia. Kui kirja paari minuti jooksul ei tule, vaata rämpsposti või Gmailis vahelehte „Kampaaniad“. Saatja on uudiskiri@skene.info.",
   what_h:"Mis kirjas on",
@@ -159,7 +159,7 @@ var I18N={
   d_metal:"metal, punk, rock, alternative", d_rap:"Estonian rap and hip-hop", d_klubi:"techno, bass, club nights",
   ph:"you@email.com", btn:"Subscribe →", sending:"Sending…",
   e_cat:"Pick at least one topic.", e_email:"Please check the email address.", e_fail:"Subscription failed. Please try again in a moment.",
-  fine:"We'll send a confirmation email. Your subscription starts when you click the link in it. See our <a href=\"/privaatsus.html\">privacy notice</a>.",
+  fine:"We'll send a confirmation email. Your subscription starts when you click the link in it. See our <a href=\"https://www.skene.info/privaatsus.html\">privacy notice</a>.",
   done_h:"Almost done",
   done:"We've sent you a confirmation email — click the link in it to complete your subscription. If it doesn't arrive within a couple of minutes, check your spam folder or Gmail's Promotions tab. The sender is uudiskiri@skene.info.",
   what_h:"What's in it",
@@ -185,18 +185,20 @@ function setLang(l){LANG=l;try{localStorage.setItem('skene_lang',l);}catch(e){}a
 function showLive(){var el=document.getElementById('live');if(LIVE===null||LIVE<3){el.innerHTML='';return;}el.innerHTML=t(LIVE===1?'live1':'liveN').replace('{n}',LIVE);}
 
 /* allikas: ?ref=kleeps-tapper või utm_source=ig_bio → MailerLite kliendiväli `allikas` (näitab, kust tellija tuli) */
+/* alamsait: rap.skene.info/liitu ja klubi.skene.info/liitu serveerivad sama faili (vercel.json) */
+var HOSTCAT=/^rap\./.test(location.hostname)?'rap':(/^klubi\./.test(location.hostname)?'klubi':'metal');
 var SRC=(function(){var p=new URLSearchParams(location.search);
   var s=p.get('ref')||[p.get('utm_source'),p.get('utm_campaign')].filter(Boolean).join(':')||'otse';
-  return ('liitu:'+s).replace(/[^\w:.\-]/g,'').slice(0,60);})();
-/* eelvalik: ?t=rap  või ?t=metal,klubi  (QR-kleeps, reklaam, partner); muidu metal */
+  return ('liitu'+(HOSTCAT==='metal'?'':'-'+HOSTCAT)+':'+s).replace(/[^\w:.\-]/g,'').slice(0,60);})();
+/* eelvalik: ?t=rap  või ?t=metal,klubi  (QR-kleeps, reklaam, partner); muidu alamsaidi teema */
 (function(){
-  var p=new URLSearchParams(location.search), want=(p.get('t')||'metal').toLowerCase().split(',');
+  var p=new URLSearchParams(location.search), want=(p.get('t')||HOSTCAT).toLowerCase().split(',');
   document.querySelectorAll('input[name=cat]').forEach(function(c){c.checked=want.indexOf(c.value)>=0;});
   if(!document.querySelector('input[name=cat]:checked'))document.querySelector('input[value=metal]').checked=true;
 })();
 
 /* loendur: tulevased üritused järgmise 7 päeva jooksul (reliisid ja merch välja) */
-fetch('/api/events.json').then(function(r){return r.ok?r.json():null;}).then(function(j){
+fetch('https://www.skene.info/api/events.json').then(function(r){return r.ok?r.json():null;}).then(function(j){
   if(!j||!j.entries)return;
   var now=new Date();now.setHours(0,0,0,0);var end=new Date(now.getTime()+7*864e5);
   LIVE=j.entries.filter(function(e){

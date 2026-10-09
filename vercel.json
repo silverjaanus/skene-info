@@ -28,6 +28,26 @@
       "continue": true
     },
     {
+      "src": "/liitu/?",
+      "has": [
+        {
+          "type": "host",
+          "value": "rap.skene.info"
+        }
+      ],
+      "dest": "/liitu.html"
+    },
+    {
+      "src": "/liitu/?",
+      "has": [
+        {
+          "type": "host",
+          "value": "klubi.skene.info"
+        }
+      ],
+      "dest": "/liitu.html"
+    },
+    {
       "src": "/(.*)",
       "has": [
         {
