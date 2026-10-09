@@ -84,6 +84,10 @@
       "dest": "/liitu.html"
     },
     {
+      "src": "/(tallinn|tartu)/?",
+      "dest": "/$1.html"
+    },
+    {
       "handle": "filesystem"
     }
   ]

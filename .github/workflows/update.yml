@@ -78,6 +78,11 @@ jobs:
         run: |
           pip install -q pillow
           python scripts/make_ig_daily.py
+      # 09.10.2026 kasvuplaan etapp 4: staatilised linnalehed Google'ile
+      # (www.skene.info/tallinn, /tartu) koigi kolme saidi tulevastest uritustest.
+      - name: Linnalehed
+        continue-on-error: true
+        run: python scripts/build_seo.py
       # duplikaadi-/kummitusekontroll ENNE commit'i: kahtluse korral
       # commit'i EI tehta ja job laheb punaseks (inimene vaatab ule)
       - name: Duplikaadikontroll
@@ -90,7 +95,7 @@ jobs:
           # siit puudu (tekkisid 16.08 commit'is 1592ca3, B5e). Need jaid
           # commitimata -> `git pull --rebase` suri "cannot pull with rebase:
           # You have unstaged changes" (exit 128). Uus valjundfail => lisa siia.
-          git add data/data.json rap/data/data.json klubi/data/data.json data/manual.json rap/data/manual.json klubi/data/manual.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json rap/api/archive.json klubi/api/events.json klubi/api/archive.json data/archive rap/data/archive klubi/data/archive sweep/ra_snapshot.json nadal/ ig/
+          git add data/data.json rap/data/data.json klubi/data/data.json data/manual.json rap/data/manual.json klubi/data/manual.json data/allikad.json rap/data/allikad.json klubi/data/allikad.json feed/events.json feed/archive.json rap/api/events.json rap/api/archive.json klubi/api/events.json klubi/api/archive.json data/archive rap/data/archive klubi/data/archive sweep/ra_snapshot.json nadal/ ig/ tallinn.html tartu.html
           git diff --cached --quiet || (git commit -m "andmekorje $(date -u +%F)" && git pull --rebase origin main && git push)
       # valve: kui korje kirjutas faili, mida ulaltoodud `git add` ei kata,
       # jaab see commitimata ja tapab JARGMISE jooksu rebase'i. Siin laheb
