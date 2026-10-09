@@ -123,7 +123,7 @@ tavakorras sisse.
 **Tehtud skoobiotsused (pretsedendid):** bluus on www 8. metafilter (26.07); uusklassika/
 nüüdismuusika (EMA-telg) VÄLJA; industrial+metal-koosseis jääb www-le; hard trance →
 klubi; peavoolu-popprokk (Terminaator/Smilers/Shanon-klass, Käärijä-klass peavoolupopp)
-VÄLJA; venekeelne peavoolurock (Splin) VÄLJA; Eesti räppari (5MIINUST) korraldatud/peaesinetud pidu läheb rap-saidile ka siis, kui koosseisus on peavoolupoppi (ARCTIC PULSE 12.12, Silver 09.10.2026) ja ka siis, kui koosseis/žanr on veel teatamata (halloweeni rämmar 30.10); Venemaa/Ukraina räpparite tuurikontserdid (Club Privé jt) VÄLJA — „jääb välja“, Silver 09.10.2026 (The Chemodan, вышел покурить, Johnyboy, UNNV; Kavabanga 09.10 oli ühekordne erand, ära küsi uuesti); Rada7 uudiskirja samanädalased tasuta/odavad
+VÄLJA; venekeelne peavoolurock (Splin) VÄLJA; Eesti räppari (5MIINUST) korraldatud/peaesinetud pidu läheb rap-saidile ka siis, kui koosseisus on peavoolupoppi (ARCTIC PULSE 12.12, Silver 09.10.2026) ja ka siis, kui koosseis/žanr on veel teatamata (halloweeni rämmar 30.10); Venemaa/Ukraina räpparite tuurikontserdid (Club Privé jt) VÄLJA — „jääb välja“, Silver 09.10.2026 (The Chemodan, вышел покурить, Johnyboy, UNNV; Kavabanga 09.10 oli ühekordne erand, ära küsi uuesti); breiktantsu-/tänavatantsu-battle'id (Eesti Tänavatantsijate Liit, Battle Day jms) VÄLJA — tantsuvõistlus, mitte kontsert (Silver 09.10.2026); Rada7 uudiskirja samanädalased tasuta/odavad
 DJ-peod klubi-skoobis LISAME ka siis, kui aeguvad 1–2 päevaga (02.08; kahe allika reegel
 kehtib). Skoop on SILVERI otsus, mitte mehaaniline reegel — žanripõhise väljajätu korral
 sõnasta ülevaatusküsimus (§8), mitte lõppotsus.
