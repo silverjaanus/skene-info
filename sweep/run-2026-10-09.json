@@ -1,0 +1,157 @@
+{
+ "kuupaev": "2026-10-09",
+ "allikaid": 237,
+ "avatud": 201,
+ "skipitud": [
+  {
+   "url": "Nailboard Rock Shop",
+   "pohjus": "URL puudub (arhiveeritud allikas)"
+  },
+  {
+   "url": "https://ra.co/events/ee/all",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/235784",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/265290",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/151795",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/147536",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/268078",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/266488",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/277713",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/165290",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/229208",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/289641",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/135627",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/274650",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/171803",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/258847",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/256380",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/130421",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/114408",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/167566",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/34191",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/168166",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/112914",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/166316",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/114452",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/154074",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/117673",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/126462",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/182414",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/169601",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/152869",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/186216",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/190547",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/191300",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/112333",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/291356",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-08, TOOVOOG reegel 15)"
+  }
+ ],
+ "uusi": {
+  "www": 12,
+  "rap": 0,
+  "klubi": 6
+ },
+ "markus": "FB events-tab naitas peidetud Chrome'i aknas ainult 8 esimest (visibilityState hidden); kompenseeritud venue veebikavade, Fienta, GateMe, Metal Storm, Bandsintown ja google.ee-ga"
+}

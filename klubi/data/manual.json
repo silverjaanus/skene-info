@@ -395,9 +395,10 @@
   "a": "Sõltumatu Tantsu Festivali klubiöö: Ayano Yokoyama ja 34423 etendus \" / \", seejärel Aïsha Devi live, siis Paavli ja inklingroomi DJ-kava; eel TAB 2026 paneel klubikultuurist arhitektuuris kell 20.00. Kell 21.00-03.00, 18+",
   "b": [
    "Aïsha Devi (CH)",
-   "Ayano Yokoyama & 34423"
+   "Ayano Yokoyama & 34423",
+   "Shah Rud",
+   "Wash Electra"
   ],
-  "koosseis_tba": 1,
   "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
   "g": [
@@ -414,7 +415,7 @@
    "mark": "varajane / tava / hiline, 18+",
    "allikas": "Fienta, kontrollitud 05.09.2026"
   },
-  "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat.",
+  "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat. | 09.10.2026 sweep: RA snapshot (ra.co/events/2524841) + paavli.ee → b += Shah Rud, Wash Electra.",
   "img_src": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
   "img": "pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp"
  },
@@ -1094,7 +1095,13 @@
   "n": "Dreamscape Club Night: Kode9 (UK / Hyperdub)",
   "a": "Dreamscape toob Tallinna Hyperdubi asutaja Kode9",
   "b": [
-   "Kode9 (UK)"
+   "Kode9 (UK)",
+   "Silvia Kastel",
+   "Gary Gwadera",
+   "Type1",
+   "Nikolajev",
+   "Susanna Raiend",
+   "Wash Electra"
   ],
   "v": "Paavli Kultuurivabrik",
   "c": "Tallinn",
@@ -1109,7 +1116,7 @@
   "on_": "Resident Advisor",
   "ou": "https://ra.co/events/2537635",
   "lisatud": "2026-09-18",
-  "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata.",
+  "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata. | 09.10.2026 sweep: täiskoosseis RA ürituselehelt (ra.co/events/2537635, snapshot 08.10).",
   "img": "pildid/dreamscapeclubnightkode9ukhyperdub.webp"
  },
  {
@@ -1568,7 +1575,12 @@
   "t": "kontsert",
   "n": "HEAVEN OR HELL – Halloween rave at CLUB HALL",
   "a": "kaks lava: HELL (hard bounce, hard techno) / HEAVEN (house, minimal, hardgroove); 23.00–09.00; koostöös Carnival Groteska",
-  "b": [],
+  "b": [
+   "Katja Adrikova",
+   "QSLAP",
+   "Bianca",
+   "MEDINA"
+  ],
   "v": "HALL",
   "c": "Tallinn",
   "g": [
@@ -1582,8 +1594,7 @@
   "ou": "https://www.facebook.com/events/1577923170486216/",
   "pu": "https://gateme.com/event/104298",
   "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Club Horse Race + HALL) + GateMe. Žanr ürituse tekstist. Koosseis avaldamata.",
-  "koosseis_tba": 1,
+  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Club Horse Race + HALL) + GateMe. Žanr ürituse tekstist. Koosseis avaldamata. | 09.10.2026 sweep: koosseis RA ürituselehelt (ra.co/events/2553575) — FB event + RA = kaks allikat.",
   "img": "pildid/heavenorhellhalloweenraveatclubhall.webp"
  },
  {
@@ -1870,5 +1881,158 @@
    "techno",
    "industrial"
   ]
+ },
+ {
+  "d": "2026-10-10",
+  "t": "klubi",
+  "n": "COMPRESS RAVE x HALL (only techno)",
+  "a": "Mesila lava, L 10.10 23.00 – P 11.10 07.00",
+  "b": [
+   "Katja Adrikova",
+   "Sugar Rody",
+   "Meelis Vili",
+   "Brenna Ryan",
+   "YourMoveton",
+   "Bryan Vanem"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "techno"
+  ],
+  "sn": "GateMe (Eesti)",
+  "su": "https://gateme.com/et/Estonia/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4589571827854476/",
+  "pu": "https://gateme.com/et/halltallinn/104364-compress-rave-x-hall-only-techno/",
+  "hind": {
+   "praegu": "10 € (Regular Raver)",
+   "mark": "Rave Squad 4 piletit 40 €",
+   "allikas": "GateMe, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: HALLi FB events-tab/FB event (CompressEvents) + GateMe piletileht (korraldaja Lisetech OÜ, koosseis, „only techno“)."
+ },
+ {
+  "d": "2026-10-16",
+  "t": "klubi",
+  "n": "Plurrr @ Uus Laine",
+  "a": "heategevuslik klubiõhtu (kasum MTÜ Neli Käppa); 2 live't + 4 DJ-setti, 20.30–03.00, 16+",
+  "b": [
+   "Sugar Rody (live)",
+   "Deep Horse (live)",
+   "VΛCERΛCE",
+   "Pikkauch",
+   "Stunfisk / Mm Delicious",
+   "Bryan Vanem"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "dark",
+   "ebm",
+   "techno",
+   "house",
+   "garage"
+  ],
+  "sn": "Uus Laine FB events-tab",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1474597377892984/",
+  "pu": "https://fienta.com/et/plurrr-at-uus-laine",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (MTÜ Plurrr) + Fienta piletileht (žanrid korraldaja tekstist: dark disco, EBM, techno, house, UK garage). Sugar Rody erikülalised Dmitri Darling (Freakangel) & Daniel Solo."
+ },
+ {
+  "d": "2026-10-17",
+  "t": "kontsert",
+  "n": "Glitch Please: EIII (LV) + Abaris Moerae (FI) + V4R1 (EE)",
+  "a": "varajane õhtu 19.00–21.00; annetuspõhine sissepääs",
+  "b": [
+   "EIII (LV)",
+   "Abaris Moerae (FI)",
+   "V4R1"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "ambient",
+   "electro"
+  ],
+  "sn": "Helinihe / Glitch Please FB events-tab",
+  "su": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/3055594851457337/",
+  "pu": "https://fienta.com/et/eiii-lv-abaris-moerae-fi-v4r1-ee-17-10-uus-laine",
+  "hind": {
+   "praegu": "annetuspõhine",
+   "allikas": "Fienta, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Glitch Please, Rada7.ee) + Fienta (Läti/Eesti/Soome elektroonilise muusika õhtu; EIII eksperimentaalne helikunstnik/ambient)."
+ },
+ {
+  "d": "2026-10-06",
+  "t": "reliis",
+  "rel": 1,
+  "n": "y-Twokoop — «Alarm Collector»",
+  "a": "12-looline album (Tallinn)",
+  "b": [
+   "y-Twokoop"
+  ],
+  "g": [
+   "experimental",
+   "jungle",
+   "electro"
+  ],
+  "sn": "Bandcamp discover (Eesti, electronic/techno/experimental)",
+  "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://y2koop.bandcamp.com/album/alarm-collector",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid braindance, IDM, jungle."
+ },
+ {
+  "d": "2026-10-02",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Thing — «Outer Levels»",
+  "a": "13-looline album (Tartu)",
+  "b": [
+   "Thing"
+  ],
+  "g": [
+   "dnb",
+   "jungle",
+   "ambient"
+  ],
+  "sn": "Bandcamp discover (Eesti, electronic/techno/experimental)",
+  "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://thingmusic.bandcamp.com/album/outer-levels",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid drum & bass, jungle, ambient electronic, future garage."
+ },
+ {
+  "d": "2026-10-01",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Zabytoe Slovo — «Words.» [PBG001]",
+  "a": "5-looline EP, Pobeg Records (Tallinn)",
+  "b": [
+   "Zabytoe Slovo"
+  ],
+  "g": [
+   "breaks",
+   "house",
+   "experimental"
+  ],
+  "sn": "Bandcamp discover (Eesti, electronic/techno/experimental)",
+  "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://pobegrecords.bandcamp.com/album/words-pbg001",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud sweepis 09.10.2026. released October 1, 2026; sildid breakbeat, lofi house, future garage, experimental."
  }
 ]

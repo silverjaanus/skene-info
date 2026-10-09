@@ -842,20 +842,21 @@
    "t": "reliis",
    "rel": 1,
    "n": "Tharaphita — «Öise taevaga üheks»",
-   "a": "Eesti pagan/black metali veterani uus taispikk album, 10 lugu (Öise taevaga uheks, Surmaraud, Taara pikne jt)",
+   "a": "kuues album; CD Werewolf Promotion, LP 23.10 Nailboard Records, kassett Gatekeeper",
    "b": [
     "Tharaphita"
    ],
    "g": [
     "black",
-    "folk",
     "pagan",
     "metal"
    ],
-   "sn": "Bandcamp",
-   "su": "https://tharaphita.bandcamp.com/album/ise-taevaga-heks",
-   "lisatud": "2026-09-04",
-   "nb": "leitud sweepis 04.09.2026 Bandcampi Eesti metal-tagiotsingust. Bandcampi credits utleb 'released July 20, 2026'; album on ka Tharaphita discography-nimekirjas 'Jul 2026'. Ilmus enne selle sweepi akent, seepärast rel+lisatud (REEGLID §6).",
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://tharaphita.bandcamp.com/album/ise-taevaga-heks",
+   "lisatud": "2026-07-20",
+   "nb": "lisatud sweepis 09.10.2026. Bandcamp released July 20, 2026 (digitaal); Fienta esitluskontserdi tekst kinnitab: digitaalselt kuulatav, LP 23.10. VANEM RELIIS → lisatud = d (REEGLID §6), ei lähe esilehele.",
    "img": "pildid/tharaphitaoisetaevagauheks.webp"
   },
   {
@@ -3748,30 +3749,6 @@
    "img": "pildid/korralagedustraumapunktklostriidovm.webp"
   },
   {
-   "rel": 1,
-   "d": "2026-09-18",
-   "lisatud": "2026-08-30",
-   "t": "reliis",
-   "n": "MAI SKIZO — «Valu mõte»",
-   "a": "Bändi teine album, 13 lugu; post-punk / industriaal / gooti rokk Tallinnast. Seitse aastat tehtud; «Armastuse haua» sõnade autor on Mait Vaik, ülejäänu bändi omalooming",
-   "b": [
-    "MAI SKIZO"
-   ],
-   "g": [
-    "rock",
-    "post",
-    "punk",
-    "goth",
-    "industrial",
-    "dark",
-    "alt"
-   ],
-   "sn": "Spotify",
-   "su": "https://open.spotify.com/album/2BXmkqfUfg9kJHrhKgqqmO",
-   "nb": "lisatud 30.08.2026 postkastijooksus (sama kontaktivormi sisend, mis 18.09 väljalaskeüritus). KAKS ALLIKAT: bändi kodulehe teade maiskizo.ee 29.08.2026 (ametlik avaldamiskuupäev 18.09.2026) + Spotify albumileht 2BXmkqfUfg9kJHrhKgqqmO (pealkiri «Valu mõte», 13 lugu — kattub kodulehe 01.01.2026 postituse loeteluga). ⚠ KUUPÄEVA NÜANSS: bänd ütleb ise, et album on Spotifys JUBA saadaval, aga ametlik avaldamiskuupäev on 18.09.2026 — `d` järgib bändi enda ametlikku kuupäeva, mis on ka väljalaskeürituse päev. Voogedastuses on lugude nimed veidi teised kui kodulehe tracklistis («Proloog»/«Epiloog» vs «Valu mõte I/II osa», «Mai ei tea» vs «Ma ei tea»).",
-   "img": "pildid/maiskizovalumote.webp"
-  },
-  {
    "d": "2026-09-19",
    "t": "kontsert",
    "n": "Psychoterror + Pedigree + Apparatus & Apparata",
@@ -4778,6 +4755,34 @@
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Rene Paul + Eesti Bluus) + Fienta piletileht. Žanr ürituse tekstist (bluus, boogie-woogie); bluus on www metafilter (REEGLID §1).",
    "img": "pildid/bluusikontsertrenepaul.webp"
+  },
+  {
+   "d": "2026-10-08",
+   "t": "kontsert",
+   "n": "Kaschalot | Viljandi Kitarrifestival",
+   "a": "algus 21.30; korraldajad Viljandi Kitarrifestival + Konservatoorium + Argo Vals",
+   "b": [
+    "Kaschalot"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "rock",
+    "alt",
+    "prog"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1281090940578721",
+   "pu": "https://fienta.com/et/kaschalot-vkf26",
+   "nb": "lisatud sweepis 28.07.2026; kinnitatud FB event + Fienta. Eesti math-rock/post-rock, kitarripohine -> peasait",
+   "img": "pildid/kaschalotviljandikitarrifestival.webp",
+   "hind": {
+    "praegu": "15–20 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
   }
  ]
 }
