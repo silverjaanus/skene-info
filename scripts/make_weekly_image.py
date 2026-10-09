@@ -405,6 +405,95 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
     img.save(out_path, "JPEG", quality=90)
     return out_path
 
+# ---- kaane- ja liitumisslaid (kasvuplaan, etapp 2, 09.10.2026) ----
+# Karusselli 1. slaid = kaas suure numbriga (mitte nimekiri), viimane = uudiskirja
+# kutse. Instagrami piir on 10 slaidi -> uritusi kuni EVENT_PAGES lehte.
+EVENT_PAGES = MAX_PAGES - 2
+
+def _dark_frame(img, d, fonts, logo_path, cats_present):
+    """Uhine tume tagi + logo + zanrisonad (sama pais mis uritustelehtedel)."""
+    d.rectangle([0, 0, W, H], fill=TINT)
+    if logo_path:
+        logo = Image.open(logo_path).convert("RGBA").resize((LOGO_SIZE, LOGO_SIZE), Image.LANCZOS)
+        img.paste(logo, LOGO_XY, logo)
+    gx = GWORD_X
+    for c in CAT_ORDER:
+        col = (CAT_BRIGHT if c in cats_present else CAT_DIM)[c]
+        d.text((gx, GWORD_Y), CAT_WORD[c], font=fonts["gword"], fill=col)
+        gx += d.textlength(CAT_WORD[c], font=fonts["gword"]) + 26
+    kx = GWORD_X
+    d.text((kx, KICKER_Y), "SKENE.INFO", font=fonts["kicker_b"], fill=PABER)
+    kx += d.textlength("SKENE.INFO", font=fonts["kicker_b"])
+    d.text((kx, KICKER_Y), "  ▪  Eesti UG-muusika ühest kohast", font=fonts["kicker"], fill=HDRMUTED)
+
+def _rng_text(ws, we):
+    if ws.month == we.month:
+        return f"{ws.day}.–{we.day}. {KUUD_GEN[ws.month]}"
+    return f"{ws.day}. {KUUD_GEN[ws.month]} – {we.day}. {KUUD_GEN[we.month]}"
+
+def render_cover(sel, ws, we, logo_path, out_path, fonts, cats_present):
+    img = Image.new("RGB", (W, H), TINT)
+    d = ImageDraw.Draw(img)
+    _dark_frame(img, d, fonts, logo_path, cats_present)
+    n_ev = sum(1 for e in sel if not is_release(e))
+    n_rel = len(sel) - n_ev
+    big = _display_font(330, 300)
+    lab = _display_font(110, 100)
+    y = 200
+    d.text((MARGIN - 8, y), str(n_ev), font=big, fill=PABER)
+    y += big.getbbox("0")[3] + 40
+    d.text((MARGIN, y), "ÜRITUST" if n_ev != 1 else "ÜRITUS", font=lab, fill=CAT_BRIGHT["metal"])
+    y += lab.getbbox("Ü")[3] + 34
+    d.text((MARGIN, y), _rng_text(ws, we).upper(), font=fonts["sub"], fill=PABER)
+    y += 50
+    if n_rel:
+        d.text((MARGIN, y), f"+ {n_rel} uut reliisi" if n_rel != 1 else "+ 1 uus reliis",
+               font=fonts["sub"], fill=HDRMUTED)
+        y += 50
+    # kategooriate kaupa: METAL 30 · RAP 6 · KLUBI 13 (ainult esindatud)
+    y = max(y + 30, H - 300)
+    x = MARGIN
+    for c in CAT_ORDER:
+        n = sum(1 for e in sel if e.get("_cat") == c)
+        if not n:
+            continue
+        t = f"{CAT_WORD[c]} {n}"
+        d.text((x, y), t, font=fonts["gword"], fill=CAT_BRIGHT[c])
+        x += d.textlength(t, font=fonts["gword"]) + 40
+    d.line([(MARGIN, H - 160), (W - MARGIN, H - 160)], fill=HDRMUTED, width=2)
+    sw = "SIRVI EDASI  →"
+    d.text((W - MARGIN - d.textlength(sw, font=fonts["foot_b"]), H - 120), sw, font=fonts["foot_b"], fill=PABER)
+    d.text((MARGIN, H - 120), "skene.info", font=fonts["foot_b"], fill=PABER)
+    img.save(out_path, "JPEG", quality=90)
+    return out_path
+
+def render_cta(logo_path, out_path, fonts, cats_present):
+    img = Image.new("RGB", (W, H), TINT)
+    d = ImageDraw.Draw(img)
+    _dark_frame(img, d, fonts, logo_path, cats_present)
+    big = _display_font(150, 120)
+    y = 300
+    for ln in ("TELLI SEE", "NIMEKIRI"):
+        d.text((MARGIN, y), ln, font=big, fill=PABER)
+        y += 170
+    sub = _display_font(64, 56)
+    d.text((MARGIN, y + 20), "IGAL REEDEL SINU POSTKASTI", font=sub, fill=CAT_BRIGHT["metal"])
+    y += 150
+    for ln in ("Tasuta. Üks kiri nädalas.", "Vali ise: metal, rap või klubi.", "Loobuda saad igal ajal."):
+        d.text((MARGIN, y), ln, font=fonts["title"], fill=PABER)
+        y += 54
+    # nupp
+    by = H - 300
+    btn = "LINK PROFIILIS  →  skene.info/liitu"
+    bw = d.textlength(btn, font=fonts["foot_b"])
+    d.rectangle([MARGIN, by, MARGIN + bw + 56, by + 88], fill=CAT_BRIGHT["metal"])
+    d.text((MARGIN + 28, by + 26), btn, font=fonts["foot_b"], fill=TINT)
+    d.text((MARGIN, H - 120), "skene.info", font=fonts["foot_b"], fill=PABER)
+    ig = "@skene.info"
+    d.text((W - MARGIN - d.textlength(ig, font=fonts["foot_b"]), H - 120), ig, font=fonts["foot_b"], fill=PABER)
+    img.save(out_path, "JPEG", quality=90)
+    return out_path
+
 def page_path(base_out, i):
     """1. leht = base_out; jargmised -2, -3 jne enne laiendit."""
     if i == 1:
@@ -488,10 +577,10 @@ def main():
     pages = paginate(d0, fonts, sel)
 
     overflow = 0
-    if len(pages) > MAX_PAGES:
-        cut = pages[MAX_PAGES:]
+    if len(pages) > EVENT_PAGES:
+        cut = pages[EVENT_PAGES:]
         overflow = sum(len(p) for p in cut)
-        pages = pages[:MAX_PAGES]
+        pages = pages[:EVENT_PAGES]
         # viimasele lehele peab "+N veel" rida ara mahtuma
         last = pages[-1]
         while last and START_Y + sum(r[1] for r in last) > ROW_LIMIT - 50:
@@ -503,13 +592,21 @@ def main():
     # zanrisonad paises: heledad need kategooriad, mis sel nadalal PARISELT esinevad
     # (kogu karusselli peale, mitte lehe kaupa -- muidu vilguks pais slaidide vahel)
     cats_present = {e.get("_cat") for e in sel if e.get("_cat")}
-    paths = []
+    # 1. slaid = kaas, siis uritustelehed, viimane = uudiskirja kutse (09.10.2026)
+    paths = [render_cover(sel, ws, we, logo_path, page_path(out, 1), fonts, cats_present)]
     for i, rows in enumerate(pages, start=1):
         p = render_page(rows, ws, we, len(sel), i, n_pages, logo_path,
-                        page_path(out, i), fonts,
+                        page_path(out, i + 1), fonts,
                         overflow=(overflow if i == n_pages else 0),
                         cats_present=cats_present)
         paths.append(p)
+    paths.append(render_cta(logo_path, page_path(out, n_pages + 2), fonts, cats_present))
+    # vana jooksu ulejaanud lehed (nt eelmine kord 10 lehte, nuud 9) maha, muidu
+    # make_weekly_caption.py korjaks need jarjestikuse numbri jargi kaasa
+    k = n_pages + 3
+    while os.path.exists(page_path(out, k)):
+        os.remove(page_path(out, k))
+        k += 1
 
     shown = sum(len(p_) for p_ in pages)
     print(f"OK: {shown} kirjet {n_pages} pildil"

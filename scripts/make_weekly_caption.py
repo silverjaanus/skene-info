@@ -77,7 +77,29 @@ CAPTION_LIMIT = 2150  # IG piir on 2200; varu, et Make'i valemi kärbe (backstop
                       # 2522-margise captioniga, kärbe poole sõna pealt = gibberish
 
 
+HASHTAGS_LUHI = "#skeneinfo #eestimetal #eestirap #techno #tallinn"
+
+
 def build_caption(sel, rng):
+    """LÜHIKE caption (kasvuplaan, etapp 2, 09.10.2026): 2 rida konksu + uudiskirja
+    kutse + 5 teemaviidet. Nimekiri ise on piltidel ja saidil -- pikk nimekiri
+    captionis ei too salvestusi ega jagamisi. Vana pikk vorm: build_caption_pikk().
+    Tagastab (caption, 0), et allkirjaga sobituks."""
+    n_ev = sum(1 for e in sel if not is_release(e))
+    n_rel = len(sel) - n_ev
+    osa = f"{n_ev} üritust" if n_ev != 1 else "1 üritus"
+    if n_rel:
+        osa += f" ja {n_rel} uut reliisi" if n_rel != 1 else " ja 1 uus reliis"
+    cap = ("TULEVAD ÜRITUSED · " + rng
+           + "\n" + osa + ": metal, rap ja klubi. Sirvi pilte →"
+           + "\n\nTelli see nimekiri igal reedel oma postkasti: link on profiilis."
+           + "\nKõik üritused ja piletid: skene.info"
+           + "\nAnna tagasisidet: skene.info/tagasiside"
+           + "\n\n" + HASHTAGS_LUHI)
+    return cap, 0
+
+
+def build_caption_pikk(sel, rng):
     """Paneb captioni kokku ja hoiab selle ISE alla IG piiri (13.08.2026):
     kui pikk, asendab viimased uritused reaga '+ veel N uritust' — mitte
     kunagi poolelt sonalt maha loigatud teksti."""
