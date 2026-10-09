@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 217,
+ "count": 218,
  "entries": [
   {
    "sait": "rap",
@@ -2789,6 +2789,31 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud 09.10.2026 Silveri sisendi peale („zorg is industrial“). Kaks allikat: FB event (Pubi Juudas + ZORG) + GateMe piletileht (korraldaja Pubi Juudas OÜ; tekst: „ZORG on Eesti metalbänd ... segab hip hopi, industriaali, trip hopi“). Industrial METAL → www (REEGLID §1). Album «Tuli tuha all» ilmus 01.10.2025 → reliisikirjet ei tehtud (üle aasta vana).",
    "img": "https://www.skene.info/pildid/zorgtulituhaallesitluskontsert.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-10-30",
+   "t": "klubi",
+   "n": "halloweeni rämmar",
+   "a": "5MIINUSTi rämmar-pidu D3 pimedates ruumides, halloweeni teemal; 23.00–05.00, kostüümiga odavam. Esinejad selguvad.",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "5MIINUST FB events-tab",
+   "su": "https://www.facebook.com/5miinust/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1630103371789677/",
+   "pu": "https://gateme.com/et/D3Tallinn/104374-halloweeni-rammar-i-3010-i-d3",
+   "hind": {
+    "praegu": "15 € / 12 € kostüümiga",
+    "allikas": "FB event, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri otsusega („jep“) — žanrit ega koosseisu üritus ei ütle, aga korraldaja on 5MIINUST (+ D3). Kaks allikat: FB event + GateMe piletileht."
   },
   {
    "sait": "klubi",
