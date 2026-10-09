@@ -1,4 +1,4 @@
 {
-  "_kommentaar": "Instagrami paevase sisu postitamise lulitid (make_ig_daily.py -> ig/today.json -> Make.com). false = pilt tehakse, aga Make ei postita. Muuda true-ks alles parast Silveri heakskiitu.",
-  "story": false
+  "_kommentaar": "Instagrami paevase sisu postitamise lulitid (make_ig_daily.py -> ig/today.json -> Make.com). false = pilt tehakse, aga Make ei postita. Muuda true-ks alles parast Silveri heakskiitu. 09.10: Silver lülitas sisse (T/N/L automaatselt).",
+  "story": true
 }

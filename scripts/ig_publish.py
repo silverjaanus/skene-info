@@ -12,7 +12,8 @@ Postitab AINULT siis, kui:
   - tanast storyt pole veel postitatud (ig/postitatud.json)
   - keskkonnas on IG_TOKEN (GitHubi secret, seda EI hoita repos)
 
-Token kehtib 60 paeva; iga jooks pikendab seda (refresh_access_token).
+Token kehtib 60 paeva; iga jooks pikendab seda (refresh_access_token) ja
+workflow salvestab uue tokeni tagasi secret'isse (vajab secret'it GH_PAT).
 
 Kasutus:  python scripts/ig_publish.py [--dry-run] [--check]
 """
@@ -46,8 +47,15 @@ def refresh(token):
                                    + urllib.parse.quote(token), timeout=30)
         d = json.loads(r.read())
         paevi = int(d.get("expires_in", 0)) // 86400
-        muutus = d.get("access_token") not in (None, token)
-        print(f"Token pikendatud: kehtib {paevi} paeva" + (" (UUS token -- uuenda IG_TOKEN!)" if muutus else ""))
+        uus = d.get("access_token")
+        muutus = uus not in (None, token)
+        print(f"Token pikendatud: kehtib {paevi} paeva" + (" (uus token)" if muutus else ""))
+        # workflow salvestab uue tokeni secret'isse (gh secret set, GH_PAT)
+        out = os.environ.get("IG_NEW_TOKEN_FILE")
+        if muutus and out:
+            print(f"::add-mask::{uus}")
+            with open(out, "w") as f:
+                f.write(uus)
     except urllib.error.HTTPError as e:
         print(f"Tokeni pikendus ei onnestunud ({e.code}): {e.read().decode('utf-8', 'replace')[:200]}")
 

@@ -1,11 +1,11 @@
 name: IG story
 
-# 09.10.2026 kasvuplaan etapp 2: Make.com-il pole Instagrami story-moodulit,
-# seega postitame otse Instagrami API-ga. Pilt + ig/today.json tulevad Andmekorjest
-# (07:30). Lüliti: data/ig_seaded.json "story". Võti: repo secret IG_TOKEN (oma Meta app).
+# 09.10.2026 kasvuplaan etapp 2: postitame story otse Instagrami API-ga (oma Meta app).
+# Pilt + ig/today.json tulevad Andmekorjest (07:30). Lüliti: data/ig_seaded.json "story".
+# Secretid: IG_TOKEN (Instagram), GH_PAT (et uuendatud IG_TOKEN tagasi salvestada).
 on:
   schedule:
-    - cron: "0 7 * * 2,4"   # T/N 07:00 UTC
+    - cron: "0 7 * * 2,4,6"   # T/N/L 07:00 UTC (10:00 suveajal, 09:00 talveajal)
   workflow_dispatch:
     inputs:
       kontroll:
@@ -32,7 +32,18 @@ jobs:
       - name: Postita story
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_NEW_TOKEN_FILE: ${{ runner.temp }}/ig_token
         run: python scripts/ig_publish.py ${{ inputs.kontroll && '--check' || '' }}
+      - name: Salvesta uuendatud token
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          f="${{ runner.temp }}/ig_token"
+          if [ -s "$f" ]; then
+            if [ -n "$GH_TOKEN" ]; then gh secret set IG_TOKEN --repo "$GITHUB_REPOSITORY" < "$f" && echo "IG_TOKEN uuendatud";
+            else echo "::warning::GH_PAT puudub -- uus IG_TOKEN jai salvestamata"; fi
+            rm -f "$f"
+          fi
       - name: Logi commit
         run: |
           git config user.name "skene-bot"
