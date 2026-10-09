@@ -405,5 +405,37 @@
   "ou": "https://www.facebook.com/events/1392205469794718/",
   "lisatud": "2026-10-02",
   "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Kadrina Kultuurikoda + Masta Robusta jt) + Masta Robusta FB events-tab. Žanr ürituse tekstist („korralik räpikontsert“). Koosseis „juba varsti“ → koosseis_tba."
+ },
+ {
+  "d": "2026-10-09",
+  "t": "kontsert",
+  "n": "Rap Meets Jazz 100 — Sammalhabe",
+  "a": "sarja 4. hooaja avapidu: live-jazzbänd mängib 100% hiphopklassikuid; Philly Joe's mahutab 100 inimest; algus 21.00",
+  "b": [
+   "Sammalhabe",
+   "Mathei Florea",
+   "Robert Rebane",
+   "Ramuel Tafenau"
+  ],
+  "v": "Philly Joe's Jazz Club",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop",
+   "jazz"
+  ],
+  "sn": "Piletikeskus (Silveri vihje)",
+  "su": "https://piletikeskus.ee/et/e/2u1wqt",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1080495744366820/",
+  "pu": "https://piletikeskus.ee/et/e/2u1wqt",
+  "hind": {
+   "praegu": "20 € / 25 € eelmüük / 30 € kohapeal",
+   "mark": "toetajapilet 50 €",
+   "allikas": "piletikeskus.ee, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026 Silveri vihje peale (Piletikeskuse link). Kaks allikat: Piletikeskus piletileht + FB event (Philly Joe's Tallinn; ka Rada7 events-tabis).",
+  "img": "pildid/rapmeetsjazz100sammalhabe.webp"
  }
 ]

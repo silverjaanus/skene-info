@@ -1014,7 +1014,8 @@
   "t": "kontsert",
   "n": "The Obsessed",
   "b": [
-   "The Obsessed"
+   "The Obsessed",
+   "Estoner"
   ],
   "v": "Von Krahl",
   "c": "Tallinn",
@@ -1025,11 +1026,13 @@
   "su": "https://metalstorm.net/events/event.php?event_id=233881",
   "img": "pildid/theobsessed.webp",
   "pu": "https://fienta.com/et/the-obsessed-us-von-krahl",
-  "nb": "10.08.2026 sweep: piletilink lisatud (Fienta)",
+  "nb": "10.08.2026 sweep: piletilink lisatud (Fienta) | 09.10.2026 järelkäik: FB event (UCE Agency, Rada7) — soojendaja Estoner lisatud, ou = FB event, pu Fienta.",
   "hind": {
    "praegu": "20–30 €",
    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-  }
+  },
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1505236101107317/"
  },
  {
   "d": "2026-11-13",
@@ -3253,8 +3256,10 @@
   "su": "https://uuslaine.com/",
   "pu": "https://fienta.com/et/laine-live-belgrado-bcn",
   "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Fienta piletileht + uuslaine.com kava. Žanr Fienta tekstist (1980ndate Euroopa post-punk, Barcelona DIY). FB eventi ei leidnud (Uus Laine FB events-tab näitab akna peidus olekus ainult 8 esimest) → ou tühi.",
-  "img": "pildid/lainelivebelgradobcn.webp"
+  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Fienta piletileht + uuslaine.com kava. Žanr Fienta tekstist (1980ndate Euroopa post-punk, Barcelona DIY). FB eventi ei leidnud (Uus Laine FB events-tab näitab akna peidus olekus ainult 8 esimest) → ou tühi. | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
+  "img": "pildid/lainelivebelgradobcn.webp",
+  "ou": "https://www.facebook.com/events/1045329701648631/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-11-21",
@@ -4110,5 +4115,214 @@
   "lisatud": "2026-10-09",
   "nb": "lisatud järelkäigus 09.10.2026 (Kinomaja FB events-tab näitas ainult möödunuid). Kaks allikat: Piletitasku (korraldaja Maaaluste Muusade Büroo OÜ: „legendaarne Tartu alternatiivrokiansambel DND“) + FB event (KuKu klubi).",
   "img": "pildid/dndtallinnakinomajas.webp"
+ },
+ {
+  "d": "2026-10-10",
+  "t": "kontsert",
+  "n": "Metal Bullet 2026",
+  "a": "Valga Rockiklubi 25. hooaeg; uksed 20.00, 21.00–02.00",
+  "b": [
+   "Overcast Rain",
+   "Woundgiver"
+  ],
+  "v": "Valga Rockiklubi",
+  "c": "mujal",
+  "linn": "Valga",
+  "g": [
+   "metal"
+  ],
+  "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2266012114198265/",
+  "hind": {
+   "praegu": "10 €",
+   "mark": "15 € kombopilet koos 03.10 Punk Rock Live'iga",
+   "allikas": "FB event, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. FB event (Valga Rockiklubi + Overcast Rain + Woundgiver kaaskorraldajad); rockiklubi.ee näitab „No events“. ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata."
+ },
+ {
+  "d": "2026-11-05",
+  "t": "kontsert",
+  "n": "Dead Shape Figure (FI) + Surrogoat + Morbitech",
+  "a": "uksed 20.00, bändid 21.00",
+  "b": [
+   "Dead Shape Figure (FI)",
+   "Surrogoat",
+   "Morbitech"
+  ],
+  "v": "Konservatoorium",
+  "c": "mujal",
+  "linn": "Viljandi",
+  "g": [
+   "death",
+   "metal"
+  ],
+  "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1119478640614138/",
+  "hind": {
+   "praegu": "10 € sularahas / 13 € kaardiga",
+   "allikas": "FB event, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. FB event (Konservatoorium + Dead Shape Figure + Surrogoat); sama tuur kui 07.11 Krypt (Bandsintown). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata."
+ },
+ {
+  "d": "2026-11-14",
+  "t": "kontsert",
+  "n": "Estoner (uue albumi esitlus) + Düsentroop + Metropol",
+  "a": "«Black Metal Uus Lõpp» esitlus Viljandis",
+  "b": [
+   "Estoner",
+   "Düsentroop",
+   "Metropol"
+  ],
+  "v": "Konservatoorium",
+  "c": "mujal",
+  "linn": "Viljandi",
+  "g": [
+   "stoner",
+   "sludge",
+   "metal"
+  ],
+  "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1466503588634550/",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. FB event (Konservatoorium + Estoner); albumireliis juba saidil (20.10). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata."
+ },
+ {
+  "d": "2026-10-23",
+  "t": "kontsert",
+  "n": "MAI SKIZO @ Kära Kants",
+  "a": "uue albumi «Valu mõte» tutvustus; plaadid ja merch kohapeal",
+  "b": [
+   "MAI SKIZO"
+  ],
+  "v": "Kära Kants",
+  "c": "mujal",
+  "linn": "Rakvere",
+  "g": [
+   "punk",
+   "rock",
+   "post",
+   "goth",
+   "industrial",
+   "dark",
+   "alt"
+  ],
+  "sn": "MAI SKIZO FB events-tab",
+  "su": "https://www.facebook.com/MaiSkizo/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1104264962050657/",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. FB event (MAI SKIZO + Kära Kantsi korraldaja Oleg Knjazev). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata."
+ },
+ {
+  "d": "2026-10-30",
+  "t": "kontsert",
+  "n": "Andres Roots: 30 aastat laval",
+  "a": "slaidkitarristi 30. lavajuubel; algus 21.45",
+  "b": [
+   "Andres Roots"
+  ],
+  "v": "Endla Jazzklubi Teatrikohvikus",
+  "c": "mujal",
+  "linn": "Pärnu",
+  "g": [
+   "bluus"
+  ],
+  "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/968495912888532/",
+  "pu": "https://piletikeskus.ee/et/e/42p1dw",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Endla Jazzklubi + Andres Roots) + Piletikeskus piletileht. Bluus → www (REEGLID §1).",
+  "img": "pildid/andresroots30aastatlaval.webp"
+ },
+ {
+  "d": "2026-11-08",
+  "t": "kontsert",
+  "n": "Sari Schorr — Running Wild European Tour 2026",
+  "a": "USA bluusroki laulja esimene Eesti kontsert",
+  "b": [
+   "Sari Schorr (US)"
+  ],
+  "v": "Võru kultuurimaja Kannel",
+  "c": "mujal",
+  "linn": "Võru",
+  "g": [
+   "bluus",
+   "rock"
+  ],
+  "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/27934430142811833/",
+  "pu": "https://vorukannel.ee/sundmused/shari-shorr-running-wild",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Võru Kannel) + vorukannel.ee ürituseleht (piletid).",
+  "img": "pildid/sarischorrrunningwildeuropeantour2026.webp"
+ },
+ {
+  "d": "2026-12-12",
+  "t": "festival",
+  "n": "MUST LAINE II",
+  "a": "metalliõhtu Pärnu rannas; uksed 19.00, bändid 20.00. Goresoerdi viimane kontsert selles koosseisus",
+  "b": [
+   "Goresoerd",
+   "Pridian",
+   "GØK2",
+   "Skratten"
+  ],
+  "v": "Kultuuriklubi Tempel",
+  "c": "mujal",
+  "linn": "Pärnu",
+  "g": [
+   "death",
+   "core",
+   "metal",
+   "folk",
+   "post"
+  ],
+  "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1760468235160635/",
+  "pu": "https://sviby.com/et/e/iq2f4a",
+  "hind": {
+   "praegu": "25 € eelmüük / 30 € uksel",
+   "mark": "VIP laud 40 € / VIP 10 365 €",
+   "allikas": "FB event, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Kultuuriklubi Tempel, GØK2 jt) + sviby.com piletileht. Koosseis FB eventi tekstist.",
+  "img": "pildid/mustlaineii.webp"
+ },
+ {
+  "d": "2026-11-19",
+  "t": "kontsert",
+  "n": "Laine Live: Night Flies",
+  "a": "kaks setti: 20.00 ja 21.30; uksed 19.00",
+  "b": [
+   "Night Flies"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "rock"
+  ],
+  "sn": "Uus Laine FB events-tab (sisselogitud)",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1818039866049500/",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. FB event (Night Flies + Uus Laine kaaskorraldajad). Night Flies on saidil rockbändina (Krypt Rock Friday 09.10). ⚠ Kahe allika tõlgendus: venue + artist samal eventil."
  }
 ]

@@ -677,12 +677,14 @@
   "sn": "Fienta (Uus Laine)",
   "su": "https://fienta.com/et/laine-klubioo-mi-el-uk",
   "pu": "https://fienta.com/et/laine-klubioo-mi-el-uk",
-  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
+  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
   "img": "pildid/laineklubioomieluk.webp",
   "hind": {
    "praegu": "6 €",
    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-  }
+  },
+  "ou": "https://www.facebook.com/events/929842166782733/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-11-21",
@@ -754,12 +756,14 @@
   "su": "https://fienta.com/et/o/17330",
   "pu": "https://fienta.com/et/laine-klubioo-adobeprincess-us",
   "lisatud": "2026-08-07",
-  "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: Uus Laine Fienta org-leht 17330 + ürituse enda Fienta leht (kirjeldus). Hinda ei ole veel lehel tekstina näha",
+  "nb": "lisatud 07.08.2026 nädalases sweepis. Allikad: Uus Laine Fienta org-leht 17330 + ürituse enda Fienta leht (kirjeldus). Hinda ei ole veel lehel tekstina näha | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
   "img": "pildid/laineklubiooadobeprincessus.webp",
   "hind": {
    "praegu": "6 €",
    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-  }
+  },
+  "ou": "https://www.facebook.com/events/1024730253499189/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-12-11",
@@ -779,12 +783,14 @@
   "sn": "Fienta (Uus Laine)",
   "su": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
   "pu": "https://fienta.com/et/laine-klubioo-state-offf-nl-zw",
-  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht)",
+  "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
   "img": "pildid/laineklubioostateofffnlzw.webp",
   "hind": {
    "praegu": "6 €",
    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-  }
+  },
+  "ou": "https://www.facebook.com/events/1334015095509689/",
+  "on_": "Facebook event"
  },
  {
   "d": "2027-03-12",
@@ -1708,8 +1714,10 @@
   "su": "https://uuslaine.com/",
   "pu": "https://fienta.com/et/laine-klubioo-t-no-nl",
   "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Fienta piletileht + uuslaine.com kava. Žanr Fienta tekstist (gqom, grime, kuduro, bubbling; raw percussion + deep bass).",
-  "img": "pildid/laineklubiootnonl.webp"
+  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Fienta piletileht + uuslaine.com kava. Žanr Fienta tekstist (gqom, grime, kuduro, bubbling; raw percussion + deep bass). | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
+  "img": "pildid/laineklubiootnonl.webp",
+  "ou": "https://www.facebook.com/events/3161287294081137/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-11-13",
@@ -2043,5 +2051,28 @@
   "lisatud": "2026-10-09",
   "nb": "lisatud sweepis 09.10.2026. released October 1, 2026; sildid breakbeat, lofi house, future garage, experimental.",
   "img": "pildid/zabytoeslovowordspbg001.webp"
+ },
+ {
+  "d": "2026-11-20",
+  "t": "klubi",
+  "n": "FEDO x Silat Beksi all night long",
+  "a": "Fonoteek x Tripsy",
+  "b": [
+   "Silat Beksi",
+   "FEDO"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "minimal"
+  ],
+  "sn": "Fonoteek FB events-tab (sisselogitud)",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1653195789655360/",
+  "pu": "https://gateme.com/et/fonoteek/104338-fedo-x-silat-beksi-all-night-long-fonoteek-i-2011",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Fonoteek + Tripsy, „part of the Estonian minimal story“) + GateMe piletileht; RA snapshotis ka ra.co/events/2556652.",
+  "img": "pildid/fedoxsilatbeksiallnightlong.webp"
  }
 ]

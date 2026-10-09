@@ -564,6 +564,11 @@
         "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
         "tyyp": "artist",
         "nb": "lisatud 28.07.2026 (Silveri FB-leid: album «Entroopia» 28.07.2026); underground-räppar, aktiivne 2004-2007 ja nüüd taas; ~17 kuulajat/kuu, meediakajastust pole - Spotify artistileht on ainus jälgitav voog. NB: žanrisilt kaudselt tuletatud, vt manual.json kirje 'nb'"
+      },
+      {
+        "nimi": "Fienta hip hop-otsing",
+        "url": "https://fienta.com/et?q=hip+hop",
+        "nb": "lisatud 09.10.2026"
       }
     ]
   },
@@ -612,6 +617,16 @@
       "nimi": "Tallinna Kinomaja (Piletitasku asukohaleht)",
       "url": "https://www.piletitasku.ee/et/location/1726",
       "nb": "lisatud 09.10.2026: Kinomaja FB events-tab näitab ainult möödunuid; Piletitasku asukohaleht näitab tulevasi (DND 16.10, Sibyl Vane 23.10, JMKE 09.10)."
+    },
+    {
+      "nimi": "Fienta rock-otsing",
+      "url": "https://fienta.com/et?q=rock",
+      "nb": "lisatud 09.10.2026 järelkäigus (rock-otsing tõi Surgent & Ocean Districts 07.11, Chauncy 13.11)"
+    },
+    {
+      "nimi": "Fienta punk-otsing",
+      "url": "https://fienta.com/et?q=punk",
+      "nb": "lisatud 09.10.2026 järelkäigus (rock-otsing tõi Surgent & Ocean Districts 07.11, Chauncy 13.11)"
     }
   ],
   "yldised_agregaatorid": {
@@ -681,6 +696,21 @@
         "nimi": "Mood (musicofourdesire)",
         "url": "https://events.musicofourdesire.com/tallinn",
         "nb": "lisatud 18.09.2026 sweepis: agregaator, mis näitab koosseise ka siis, kui FB-kirjeldus on sisselogimata kärbitud (Shelter Helper 5 koosseis tuli sealt). ⚠ /tallinn koondleht viskab client-side vea — kasuta google.ee site-otsingut konkreetse ürituse peale."
+      },
+      {
+        "nimi": "Piletikeskus / Sviby",
+        "url": "https://piletikeskus.ee/et",
+        "nb": "lisatud 09.10.2026 (Silveri vihje: Rap Meets Jazz 100, Andres Roots 30.10, Must Laine II = sviby.com sama platvorm)"
+      },
+      {
+        "nimi": "Piletitasku",
+        "url": "https://www.piletitasku.ee/et",
+        "nb": "lisatud 09.10.2026: asukohalehed /et/location/<id> (Kinomaja 1726) näitavad tulevasi; Sibyl Vane tuur, DND, JMKE"
+      },
+      {
+        "nimi": "Võru kultuurimaja Kannel (kava)",
+        "url": "https://vorukannel.ee/sundmused",
+        "nb": "lisatud 09.10.2026: Sari Schorr 08.11, Randy Hansen 15.10 (tribute, välja)"
       }
     ]
   },
