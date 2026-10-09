@@ -479,7 +479,7 @@ def render_cta(logo_path, out_path, fonts, cats_present):
     sub = _display_font(64, 56)
     d.text((MARGIN, y + 20), "IGAL REEDEL SINU POSTKASTI", font=sub, fill=CAT_BRIGHT["metal"])
     y += 150
-    for ln in ("Tasuta. Üks kiri nädalas.", "Vali ise: metal, rap või klubi.", "Loobuda saad igal ajal."):
+    for ln in ("Tasuta. Üks kiri nädalas.", "Vali ise: metal, rap, klubi või kõik koos.", "Loobuda saad igal ajal."):
         d.text((MARGIN, y), ln, font=fonts["title"], fill=PABER)
         y += 54
     # nupp

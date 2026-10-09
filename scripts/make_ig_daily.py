@@ -99,7 +99,11 @@ def render_story(sections, day, out_path, repo):
                font=f["sub"], fill=mwi.CAT_BRIGHT["metal"])
         y += 225
         for i, e in enumerate(items):
-            if y + 130 > limit:
+            tx = M + 120   # uhine veerg, et pealkirjad oleksid uhel joonel
+            # nimi TAISPIKKUSES (Silver 09.10): murrame mitmele reale, ei kärbi
+            tlines = mwi.wrap(d, e.get("n", ""), title, W - M - tx, 4)
+            rh = len(tlines) * 52 + 70
+            if y + rh > limit:
                 hidden += len(items) - i
                 break
             col = mwi.CAT_BRIGHT.get(e.get("_cat"), mwi.HDRMUTED)
@@ -107,12 +111,13 @@ def render_story(sections, day, out_path, repo):
             tw = d.textlength(lbl, font=tag)
             d.rectangle([M, y + 6, M + tw + 18, y + 38], fill=col)
             d.text((M + 9, y + 9), lbl, font=tag, fill=mwi.TINT)
-            tx = M + 120   # uhine veerg, et pealkirjad oleksid uhel joonel
-            d.text((tx, y), mwi.ellip(d, e.get("n", ""), title, W - M - tx),
-                   font=title, fill=mwi.PABER)
-            d.text((tx, y + 56), mwi.ellip(d, loc_text(e), venue, W - M - tx),
+            ty = y
+            for ln in tlines:
+                d.text((tx, ty), ln, font=title, fill=mwi.PABER)
+                ty += 52
+            d.text((tx, ty + 4), mwi.ellip(d, loc_text(e), venue, W - M - tx),
                    font=venue, fill=mwi.HDRMUTED)
-            y += 122
+            y += rh
         y += 40
     if hidden:
         d.text((M, min(y, limit + 20)), f"+ veel {hidden} — vaata skene.info", font=f["more"], fill=mwi.CAT_BRIGHT["metal"])
