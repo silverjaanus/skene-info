@@ -33,6 +33,8 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_NEW_TOKEN_FILE: ${{ runner.temp }}/ig_token
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: "1810496014"
         run: python scripts/ig_publish.py ${{ inputs.kontroll && '--check' || '' }}
       - name: Salvesta uuendatud token
         env:

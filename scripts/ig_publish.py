@@ -114,6 +114,24 @@ def main():
         json.dump(log, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print(f"OK: story postitatud (media {p.get('id')})")
+    telegram_pilt(st["image_url"])
+
+
+def telegram_pilt(url):
+    """Saada Silverile originaalpilt Telegrami, et ta saaks selle oma kontol täies kvaliteedis jagada."""
+    tok = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    if not tok:
+        return
+    cap = ("📸 skene.info story on üleval. Tahad oma kontol jagada? Salvesta see pilt ja lisa lingikleeps: "
+           "skene.info/liitu?utm_source=ig_story")
+    data = urllib.parse.urlencode({"chat_id": os.environ.get("TELEGRAM_CHAT_ID") or "1810496014",
+                                   "caption": cap, "document": url}).encode()
+    try:
+        # sendDocument, mitte sendPhoto: Telegram ei pakista faili, kvaliteet jääb originaaliks
+        urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/sendDocument", data=data, timeout=60)
+        print("Telegrami saadetud")
+    except Exception as e:
+        print(f"Telegram ei õnnestunud: {type(e).__name__}")
 
 
 if __name__ == "__main__":
