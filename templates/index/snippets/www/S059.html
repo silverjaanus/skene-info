@@ -10,7 +10,7 @@ function subscribeNl(ev,f){
   if(!cats.length)cats=[SITE_CAT];
   var ok=function(){f.innerHTML='<p class="fdone">'+t('nl_done')+'</p>';};
   var fail=function(){if(btn)btn.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent=t('nl_err');};
-  fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&fields%5Bgrupid%5D='+encodeURIComponent(cats.join(','))+'&ml-submit=1&anticsrf=true'})
+  fetch(ML_SUBSCRIBE,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'fields%5Bemail%5D='+encodeURIComponent(email)+'&fields%5Bkeel%5D='+encodeURIComponent(LANG)+'&fields%5Bgrupid%5D='+encodeURIComponent(cats.join(','))+'&fields%5Ballikas%5D='+encodeURIComponent('sait:'+SITE_CAT)+'&ml-submit=1&anticsrf=true'})
     .then(function(r){if(!r.ok)throw 0;return r.json();})
     .then(function(resp){if(resp&&resp.success===false){fail();}else{ok();}})
     .catch(function(){fail();});

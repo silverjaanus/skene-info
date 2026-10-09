@@ -442,6 +442,8 @@ aside{position:sticky;top:16px;padding-top:16px;max-height:calc(100vh - 32px);ov
 {{S078}}
 {{S034}}
     if(matchMedia('(min-width:901px)').matches)document.querySelectorAll('aside .cdet').forEach(function(d){d.open=true;});
+    /* uudiskiri on vaikimisi lahti ka mobiilis; kui kasutaja selle kinni paneb, jääb see talle kinni (Silver 09.10.2026: „ei taha, et see tüütu oleks") */
+    (function(){var d=document.querySelector('aside .nldet'),k='skene_nl_kinni',c=false;if(!d)return;try{c=localStorage.getItem(k)==='1';}catch(e){}d.open=!c;d.addEventListener('toggle',function(){try{if(d.open)localStorage.removeItem(k);else localStorage.setItem(k,'1');}catch(e){}});})();
 {{S035}}
     function toggleFilters(){var f=document.getElementById('filters');if(!f)return;var o=f.classList.toggle('open');var b=document.getElementById('ftog');if(b)b.setAttribute('aria-expanded',o?'true':'false');}</script>
   </aside>
