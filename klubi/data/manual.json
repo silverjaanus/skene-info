@@ -1640,7 +1640,8 @@
   "on_": "RA event",
   "ou": "https://ra.co/events/2549210",
   "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: RA event (koosseis + sildid Techno, House) + Mood + huvi.tallinn.ee. HALL FB events-tab ei näidanud seda (ainult 8 esimest). Pilet avaldamata."
+  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: RA event (koosseis + sildid Techno, House) + Mood + huvi.tallinn.ee. HALL FB events-tab ei näidanud seda (ainult 8 esimest). Pilet avaldamata.",
+  "img": "pildid/helios5y.webp"
  },
  {
   "d": "2026-11-13",
@@ -1853,7 +1854,8 @@
   "ou": "https://www.facebook.com/events/4351455641759250/",
   "pu": "https://gateme.com/halltallinn/104317-afterpartyhall-dance-floor-of-democracy",
   "lisatud": "2026-10-02",
-  "nb": "lisatud 02.10.2026 järelkontrollis (eelmises jooksus jäi tekst poolikult loetuks). Kaks allikat: FB event (HALL + Prantsuse Instituut jt) + GateMe piletileht. Žanr ürituse tekstist („the Estonian National Symphony Orchestra meets techno“, Tresori DJ). Dance Floor of Democracy konverentsi järelpidu."
+  "nb": "lisatud 02.10.2026 järelkontrollis (eelmises jooksus jäi tekst poolikult loetuks). Kaks allikat: FB event (HALL + Prantsuse Instituut jt) + GateMe piletileht. Žanr ürituse tekstist („the Estonian National Symphony Orchestra meets techno“, Tresori DJ). Dance Floor of Democracy konverentsi järelpidu.",
+  "img": "pildid/afterpartyhalldancefloorofdemocracy.webp"
  },
  {
   "d": "2026-12-05",
@@ -1880,7 +1882,8 @@
   "g": [
    "techno",
    "industrial"
-  ]
+  ],
+  "img": "pildid/rocktorave.webp"
  },
  {
   "d": "2026-10-10",
@@ -1911,7 +1914,8 @@
    "allikas": "GateMe, kontrollitud 09.10.2026"
   },
   "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: HALLi FB events-tab/FB event (CompressEvents) + GateMe piletileht (korraldaja Lisetech OÜ, koosseis, „only techno“)."
+  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: HALLi FB events-tab/FB event (CompressEvents) + GateMe piletileht (korraldaja Lisetech OÜ, koosseis, „only techno“).",
+  "img": "pildid/compressravexhallonlytechno.webp"
  },
  {
   "d": "2026-10-16",
@@ -1941,7 +1945,8 @@
   "ou": "https://www.facebook.com/events/1474597377892984/",
   "pu": "https://fienta.com/et/plurrr-at-uus-laine",
   "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (MTÜ Plurrr) + Fienta piletileht (žanrid korraldaja tekstist: dark disco, EBM, techno, house, UK garage). Sugar Rody erikülalised Dmitri Darling (Freakangel) & Daniel Solo."
+  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (MTÜ Plurrr) + Fienta piletileht (žanrid korraldaja tekstist: dark disco, EBM, techno, house, UK garage). Sugar Rody erikülalised Dmitri Darling (Freakangel) & Daniel Solo.",
+  "img": "pildid/plurrruuslaine.webp"
  },
  {
   "d": "2026-10-17",
@@ -1970,7 +1975,8 @@
    "allikas": "Fienta, kontrollitud 09.10.2026"
   },
   "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Glitch Please, Rada7.ee) + Fienta (Läti/Eesti/Soome elektroonilise muusika õhtu; EIII eksperimentaalne helikunstnik/ambient)."
+  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Glitch Please, Rada7.ee) + Fienta (Läti/Eesti/Soome elektroonilise muusika õhtu; EIII eksperimentaalne helikunstnik/ambient).",
+  "img": "pildid/glitchpleaseeiiilvabarismoeraefiv4r1ee.webp"
  },
  {
   "d": "2026-10-06",
@@ -1991,7 +1997,8 @@
   "on_": "Bandcamp",
   "ou": "https://y2koop.bandcamp.com/album/alarm-collector",
   "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid braindance, IDM, jungle."
+  "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid braindance, IDM, jungle.",
+  "img": "pildid/ytwokoopalarmcollector.webp"
  },
  {
   "d": "2026-10-02",
@@ -2012,7 +2019,8 @@
   "on_": "Bandcamp",
   "ou": "https://thingmusic.bandcamp.com/album/outer-levels",
   "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid drum & bass, jungle, ambient electronic, future garage."
+  "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid drum & bass, jungle, ambient electronic, future garage.",
+  "img": "pildid/thingouterlevels.webp"
  },
  {
   "d": "2026-10-01",
@@ -2033,6 +2041,7 @@
   "on_": "Bandcamp",
   "ou": "https://pobegrecords.bandcamp.com/album/words-pbg001",
   "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. released October 1, 2026; sildid breakbeat, lofi house, future garage, experimental."
+  "nb": "lisatud sweepis 09.10.2026. released October 1, 2026; sildid breakbeat, lofi house, future garage, experimental.",
+  "img": "pildid/zabytoeslovowordspbg001.webp"
  }
 ]

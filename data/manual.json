@@ -1359,7 +1359,9 @@
   "a": "4. väljaanne, 2-päevane ekstreemmuusika festival",
   "b": [
    "Draugveil (UA/CZ)",
-   "Epäkristus (FIN)"
+   "Epäkristus (FIN)",
+   "Pedigree",
+   "Tinner (AX)"
   ],
   "v": "The Krypt",
   "c": "Tallinn",
@@ -1371,7 +1373,7 @@
   "sn": "IG @sugisextremefest",
   "su": "https://www.instagram.com/sugisextremefest/",
   "koosseis_tba": 1,
-  "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb.",
+  "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb. | 09.10.2026 järelkäik: Fienta lehel koosseis +PEDIGREE (EE, industrial metal), +TINNER (AX, d-beat/crust); „more band announcements coming soon“.",
   "d2": "12.12",
   "pu": "https://fienta.com/et/sugis-extreme-fest-4",
   "img": "pildid/sugisextremefestiv.webp"
@@ -3941,6 +3943,172 @@
    "allikas": "GateMe, kontrollitud 09.10.2026"
   },
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 Silveri sisendi peale („zorg is industrial“). Kaks allikat: FB event (Pubi Juudas + ZORG) + GateMe piletileht (korraldaja Pubi Juudas OÜ; tekst: „ZORG on Eesti metalbänd ... segab hip hopi, industriaali, trip hopi“). Industrial METAL → www (REEGLID §1). Album «Tuli tuha all» ilmus 01.10.2025 → reliisikirjet ei tehtud (üle aasta vana)."
+  "nb": "lisatud 09.10.2026 Silveri sisendi peale („zorg is industrial“). Kaks allikat: FB event (Pubi Juudas + ZORG) + GateMe piletileht (korraldaja Pubi Juudas OÜ; tekst: „ZORG on Eesti metalbänd ... segab hip hopi, industriaali, trip hopi“). Industrial METAL → www (REEGLID §1). Album «Tuli tuha all» ilmus 01.10.2025 → reliisikirjet ei tehtud (üle aasta vana).",
+  "img": "pildid/zorgtulituhaallesitluskontsert.webp"
+ },
+ {
+  "d": "2026-10-23",
+  "t": "kontsert",
+  "n": "Sibyl Vane — VORTEX Autumn Tour @ Tallinn + Aino & Hajonneet (FIN)",
+  "a": "VORTEX-albumi sügistuur; koosseis Helena Randlaht, Meelis Tauk, Heiko Leesment, Kristo Otter",
+  "b": [
+   "Sibyl Vane",
+   "Aino & Hajonneet (FIN)"
+  ],
+  "v": "Kinomaja",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "Piletitasku (Sibyl Vane VORTEX sügistuur)",
+  "su": "https://www.piletitasku.ee/et/performance/26121",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1089594000115148/",
+  "pu": "https://www.piletitasku.ee/et/event/10340",
+  "hind": {
+   "praegu": "21,20 € / 26,20 €",
+   "mark": "Piletitasku hinnad koos teenustasuga",
+   "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: Piletitasku tuurileht + sibylvane.ee/shows (ja ürituse FB event). Tuur: 17.10 Sindi Rock, 23.10 Tallinn, 24.10 Tartu, 04.12 Viljandi, 05.12 Tõrva (eraldi kirje olemas), 11.12 Pärnu.",
+  "img": "pildid/sibylvanevortexautumntourtallinnainohajonneetfin.webp"
+ },
+ {
+  "d": "2026-10-24",
+  "t": "kontsert",
+  "n": "Sibyl Vane — VORTEX Autumn Tour @ Tartu + Aino & Hajonneet (FIN)",
+  "a": "VORTEX-albumi sügistuur; koosseis Helena Randlaht, Meelis Tauk, Heiko Leesment, Kristo Otter",
+  "b": [
+   "Sibyl Vane",
+   "Aino & Hajonneet (FIN)"
+  ],
+  "v": "Genialistide Klubi",
+  "c": "Tartu",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "Piletitasku (Sibyl Vane VORTEX sügistuur)",
+  "su": "https://www.piletitasku.ee/et/performance/26121",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2587908015004937/",
+  "pu": "https://www.piletitasku.ee/et/event/10341",
+  "hind": {
+   "praegu": "21,20 € / 26,20 €",
+   "mark": "Piletitasku hinnad koos teenustasuga",
+   "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: Piletitasku tuurileht + sibylvane.ee/shows (ja ürituse FB event). Tuur: 17.10 Sindi Rock, 23.10 Tallinn, 24.10 Tartu, 04.12 Viljandi, 05.12 Tõrva (eraldi kirje olemas), 11.12 Pärnu.",
+  "img": "pildid/sibylvanevortexautumntourtartuainohajonneetfin.webp"
+ },
+ {
+  "d": "2026-12-04",
+  "t": "kontsert",
+  "n": "Sibyl Vane — VORTEX Autumn Tour @ Viljandi",
+  "a": "VORTEX-albumi sügistuur; koosseis Helena Randlaht, Meelis Tauk, Heiko Leesment, Kristo Otter",
+  "b": [
+   "Sibyl Vane"
+  ],
+  "v": "Konservatoorium",
+  "c": "mujal",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "Piletitasku (Sibyl Vane VORTEX sügistuur)",
+  "su": "https://www.piletitasku.ee/et/performance/26121",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1040121435583210/",
+  "pu": "https://www.piletitasku.ee/et/event/10343",
+  "hind": {
+   "praegu": "16,20 € / 21,20 €",
+   "mark": "Piletitasku hinnad koos teenustasuga",
+   "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: Piletitasku tuurileht + sibylvane.ee/shows (ja ürituse FB event). Tuur: 17.10 Sindi Rock, 23.10 Tallinn, 24.10 Tartu, 04.12 Viljandi, 05.12 Tõrva (eraldi kirje olemas), 11.12 Pärnu.",
+  "linn": "Viljandi",
+  "img": "pildid/sibylvanevortexautumntourviljandi.webp"
+ },
+ {
+  "d": "2026-12-11",
+  "t": "kontsert",
+  "n": "Sibyl Vane — VORTEX Autumn Tour @ Pärnu",
+  "a": "VORTEX-albumi sügistuur; koosseis Helena Randlaht, Meelis Tauk, Heiko Leesment, Kristo Otter",
+  "b": [
+   "Sibyl Vane"
+  ],
+  "v": "Wunderbaar",
+  "c": "mujal",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "Piletitasku (Sibyl Vane VORTEX sügistuur)",
+  "su": "https://www.piletitasku.ee/et/performance/26121",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1825563585549141/",
+  "pu": "https://www.piletitasku.ee/et/event/10342",
+  "hind": {
+   "praegu": "21,20 € / 26,20 €",
+   "mark": "Piletitasku hinnad koos teenustasuga",
+   "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: Piletitasku tuurileht + sibylvane.ee/shows (ja ürituse FB event). Tuur: 17.10 Sindi Rock, 23.10 Tallinn, 24.10 Tartu, 04.12 Viljandi, 05.12 Tõrva (eraldi kirje olemas), 11.12 Pärnu.",
+  "linn": "Pärnu",
+  "img": "pildid/sibylvanevortexautumntourparnu.webp"
+ },
+ {
+  "d": "2027-08-06",
+  "d2": "07.08",
+  "t": "festival",
+  "n": "Tartu Rock Fest 2027",
+  "a": "kahepäevane rockifestival Tartu Laululaval; koosseis avaldamata",
+  "b": [],
+  "koosseis_tba": 1,
+  "v": "Tartu Laululava",
+  "c": "Tartu",
+  "g": [
+   "rock",
+   "metal"
+  ],
+  "sn": "onlinepilet.ee (Tartu Kontsert)",
+  "su": "https://onlinepilet.ee",
+  "pu": "https://www.piletilevi.ee/piletid/DLKE7LS6FF/tartu-rock-fest-2027-kahe-paeva-pilet",
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: onlinepilet.ee (korraldaja Tartu Kontserdi pood: „TARTU ROCK FEST TULEB TAAS! 6.–7. AUGUST 2027“) + Piletilevi (kahe päeva pilet + päevapiletid 06.08 17.00 / 07.08 16.00). Ürituse FB eventi 2027 kohta ei leitud → ou tühi.",
+  "img": "pildid/tarturockfest2027.webp"
+ },
+ {
+  "d": "2026-10-16",
+  "t": "kontsert",
+  "n": "DND Tallinna Kinomajas",
+  "a": "Tartu alternatiivrokibänd DND; algus 20.00",
+  "b": [
+   "DND"
+  ],
+  "v": "Kinomaja",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "Piletitasku (Tallinna Kinomaja)",
+  "su": "https://www.piletitasku.ee/et/location/1726",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/36327951886820731/",
+  "pu": "https://www.piletitasku.ee/et/event/9965",
+  "hind": {
+   "praegu": "25 € / 30 € toimumispäeval ja uksel",
+   "mark": "+ 0,90 € tehingutasu",
+   "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+  },
+  "lisatud": "2026-10-09",
+  "nb": "lisatud järelkäigus 09.10.2026 (Kinomaja FB events-tab näitas ainult möödunuid). Kaks allikat: Piletitasku (korraldaja Maaaluste Muusade Büroo OÜ: „legendaarne Tartu alternatiivrokiansambel DND“) + FB event (KuKu klubi).",
+  "img": "pildid/dndtallinnakinomajas.webp"
  }
 ]
