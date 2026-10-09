@@ -85,7 +85,7 @@ def main():
 
     # 09.10.2026: Meta arendajakonto jäi SMS-i taha (vt HANDOVER-ARCHIVE 08.07),
     # seega postitame Zernio (endine Late) kaudu. Tasuta pakett = 10 postitust kuus,
-    # sellepärast käib automaatika ainult N + L; teisipäeva story teeb Silver ise.
+    # sellepärast käib automaatika ainult T + N; laupäeva story teeb Silver ise.
     key = os.environ.get("ZERNIO_API_KEY", "").strip()
     if not key:
         print("ZERNIO_API_KEY puudub (GitHubi secret seadistamata) -- ei postita."); return
