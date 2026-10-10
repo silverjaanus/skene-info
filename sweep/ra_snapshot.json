@@ -1,128 +1,13 @@
 {
- "tommatud": "2026-10-09",
+ "tommatud": "2026-10-10",
  "aken": {
-  "algus": "2026-10-09",
-  "lopp": "2026-12-08"
+  "algus": "2026-10-10",
+  "lopp": "2026-12-09"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 34,
+ "kirjeid": 28,
  "kirjed": [
-  {
-   "d": "2026-10-09",
-   "n": "Laine Klubiöö: Yung Singh (UK)",
-   "algus": "2026-10-09T22:00:00.000",
-   "v": "Uus Laine",
-   "ala": "Tallinn",
-   "b": [
-    "Yung Singh",
-    "shbxsz"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2475984",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "NEON TECHNO BEATS",
-   "algus": "2026-10-09T23:59:00.000",
-   "v": "Club Nine",
-   "ala": "Tallinn",
-   "b": [
-    "DJ Krazy-9"
-   ],
-   "g": [
-    "Techno",
-    "Acid"
-   ],
-   "url": "https://ra.co/events/2549186",
-   "pilet": true
-  },
-  {
-   "d": "2026-10-09",
-   "n": "RAVE TO THE GRAVE",
-   "algus": "2026-10-09T23:00:00.000",
-   "v": "Clwds",
-   "ala": "Tallinn",
-   "b": [
-    "Airborn"
-   ],
-   "g": [
-    "Trance",
-    "Techno"
-   ],
-   "url": "https://ra.co/events/2535428",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "NightVision @Studio",
-   "algus": "2026-10-09T23:00:00.000",
-   "v": "Club Studio",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "House",
-    "Garage"
-   ],
-   "url": "https://ra.co/events/2556000",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "STF 2026: Ayano Yokoyama & 34423 inklingroom & Paavli takeover",
-   "algus": "2026-10-09T19:00:00.000",
-   "v": "Paavli Kultuurivabrik",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Experimental",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2522658",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "ELAMUS SPA ESITLEB: VENUS REWIND",
-   "algus": "2026-10-09T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2551637",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "VERTIGO x MAISON DIO - 015",
-   "algus": "2026-10-09T21:00:00.000",
-   "v": "Maison Dio Tallinn",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2548930",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "AFRO HOUSE & MELODIC NIGHT",
-   "algus": "2026-10-09T22:00:00.000",
-   "v": "Tallinn Afro Empire",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Progressive House",
-    "Afro House"
-   ],
-   "url": "https://ra.co/events/2554452",
-   "pilet": false
-  },
   {
    "d": "2026-10-10",
    "n": "STF 2026: Aïsha Devi + Ayano Yokoyama & 34423",
@@ -200,6 +85,20 @@
    ],
    "url": "https://ra.co/events/2508089",
    "pilet": true
+  },
+  {
+   "d": "2026-10-15",
+   "n": "THROWBACK THURSDAY",
+   "algus": "2026-10-15T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2557861",
+   "pilet": false
   },
   {
    "d": "2026-10-16",
@@ -342,6 +241,20 @@
    ],
    "url": "https://ra.co/events/2535243",
    "pilet": true
+  },
+  {
+   "d": "2026-10-24",
+   "n": "GENKA & PAUL OJA: 30 YEARS ON STAGE",
+   "algus": "2026-10-24T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Hip-Hop",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2557853",
+   "pilet": false
   },
   {
    "d": "2026-10-30",

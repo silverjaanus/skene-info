@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "groups": [
   {
    "nimi": "Festivalid",
@@ -20,6 +20,10 @@
     {
      "n": "Luke mõis",
      "u": "https://lukemois.ee/"
+    },
+    {
+     "n": "Philly Joe's (Sviby korraldajaleht)",
+     "u": "https://sviby.com/et/o/phillyjoes"
     },
     {
      "n": "Privé Live Club (Club Privé)",
@@ -69,6 +73,10 @@
    "nimi": "Muud",
    "items": [
     {
+     "n": "Bandsintown — Tallinn hip-hop",
+     "u": "https://www.bandsintown.com/c/tallinn-estonia/all-dates/genre/hip-hop"
+    },
+    {
      "n": "Dieu Huit Records / DEWDEWDEW (pood + reliisid)",
      "u": "https://dewdewdew.com/et"
     },
@@ -111,8 +119,28 @@
    "nimi": "Artistid",
    "items": [
     {
+     "n": "5MIINUST",
+     "u": "https://www.facebook.com/5miinust/upcoming_hosted_events"
+    },
+    {
+     "n": "A-Rühm",
+     "u": "https://www.facebook.com/aryhmofficial/upcoming_hosted_events"
+    },
+    {
      "n": "Bro Checks (Spotify)",
      "u": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX"
+    },
+    {
+     "n": "Genka",
+     "u": "https://www.facebook.com/GenkaEstonia/upcoming_hosted_events"
+    },
+    {
+     "n": "nublu",
+     "u": "https://www.facebook.com/nublufy/upcoming_hosted_events"
+    },
+    {
+     "n": "pluuto",
+     "u": "https://www.facebook.com/poisspluutolt/upcoming_hosted_events"
     }
    ]
   }

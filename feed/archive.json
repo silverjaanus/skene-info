@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 401,
+ "count": 406,
  "entries": [
   {
    "sait": "www",
@@ -10676,6 +10676,58 @@
    "nb": "lisatud postkastijooksus 09.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + FB event (korraldajad STRFLL ja Genialistide Klubi). Žanr ürituse enda FB-tekstist: downtempo, FFO Burial/Nujabes/Four Tet."
   },
   {
+   "sait": "www",
+   "d": "2026-10-09",
+   "t": "kontsert",
+   "n": "J.M.K.E. + Nyrok City + Tuvipoeg",
+   "a": "kolm Eesti punkbändi Kinomajas; algus 20.00",
+   "b": [
+    "J.M.K.E.",
+    "Nyrok City",
+    "Tuvipoeg"
+   ],
+   "v": "Kinomaja",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1008377478667968/",
+   "pu": "https://www.piletitasku.ee/et/event/10112",
+   "hind": {
+    "praegu": "25 € varakult / 30 € hiljem",
+    "mark": "+ Piletitasku teenustasu",
+    "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Kuku-Kinomaja, „kolm Eesti punkbändi“) + Piletitasku piletileht (korraldaja Maaaluste Muusade Büroo OÜ, R 09.10 20.00 Tallinna Kinomaja). Leitud Rada7 events-tabist.",
+   "img": "https://www.skene.info/pildid/jmkenyrokcitytuvipoeg.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-10-09",
+   "t": "kontsert",
+   "n": "Kavabanga Depo Kolibri",
+   "a": "Ukraina räpitrio suur soolokontsert; 19.00–23.00",
+   "b": [
+    "Kavabanga Depo Kolibri"
+   ],
+   "v": "Club Privé",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Privé Live Club FB events-tab",
+   "su": "https://www.facebook.com/clubprive/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28844671171803456/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 Silveri otsusega (vastus „(b) rap-saidile“, välisartisti erand nagu Bali Baby / MOMENT). Kaks allikat: FB event (Privé Live Club) + Privé FB events-tab. Pilet: eventi piletilink on google-lühilink, hinda ei lisatud."
+  },
+  {
    "sait": "klubi",
    "d": "2026-10-09",
    "t": "klubi",
@@ -10702,6 +10754,38 @@
     "praegu": "12 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    }
+  },
+  {
+   "sait": "rap",
+   "d": "2026-10-09",
+   "t": "kontsert",
+   "n": "Rap Meets Jazz 100 — Sammalhabe",
+   "a": "sarja 4. hooaja avapidu: live-jazzbänd mängib 100% hiphopklassikuid; Philly Joe's mahutab 100 inimest; algus 21.00",
+   "b": [
+    "Sammalhabe",
+    "Mathei Florea",
+    "Robert Rebane",
+    "Ramuel Tafenau"
+   ],
+   "v": "Philly Joe's Jazz Club",
+   "c": "Tallinn",
+   "g": [
+    "räpp",
+    "jazz"
+   ],
+   "sn": "Piletikeskus (Silveri vihje)",
+   "su": "https://piletikeskus.ee/et/e/2u1wqt",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1080495744366820/",
+   "pu": "https://piletikeskus.ee/et/e/2u1wqt",
+   "hind": {
+    "praegu": "20 € / 25 € eelmüük / 30 € kohapeal",
+    "mark": "toetajapilet 50 €",
+    "allikas": "piletikeskus.ee, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026 Silveri vihje peale (Piletikeskuse link). Kaks allikat: Piletikeskus piletileht + FB event (Philly Joe's Tallinn; ka Rada7 events-tabis).",
+   "img": "https://rap.skene.info/pildid/rapmeetsjazz100sammalhabe.webp"
   },
   {
    "sait": "klubi",
@@ -10740,6 +10824,31 @@
    "ou": "https://ra.co/events/2535428",
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht (täiskoosseis, ajakava, 10 €, 18+) + RA lehelt lingitud FB event. Korraldaja I TRANCE YOU (EE), Clwds (Ülase 14). ⚠ Sama korraldaja AvB-eelpidu jäi 28.08.2026 VÄLJA (blocklist) — see otsus puudutas Armin van Buureni telge, mitte korraldajat; iseseisev trance/techno-reiv on skoobis (hard trance → klubi pretsedent)."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-09",
+   "t": "kontsert",
+   "n": "Rock Friday: Rockshock + Night Flies",
+   "a": "uksed 20.00 (venue veebikava), show 21.00–02.00 (FB event + Fienta); Rock Friday on Krypti sari, mis toob underground- ja soltumatud bandid lavale",
+   "b": [
+    "Rockshock",
+    "Night Flies"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "The Krypt veebikava",
+   "su": "https://www.thekrypt.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4723584894544525/",
+   "pu": "https://fienta.com/et/rockshock-nightflies-thekrypt",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Night Flies + Rockshock cover band) + Fienta piletileht, mille kuupaev/kellaaeg (R 9.10 21.00–02.00) kattub; kolmas The Krypti enda veebikava thekrypt.ee/events. Zanr urituse enda lehelt: „originaalset alternatiivrokki ja legendaarseid hard rock’i hitte“. ⚠ Kellaaeg: veebikava utleb 20.00, FB+Fienta 21.00 — molemad a-valjal, ei valinud. Hinda lehel ei nimetata (Fienta widgeti taga), seetottu hind tuhi.",
+   "img": "https://www.skene.info/pildid/rockfridayrockshocknightflies.webp"
   },
   {
    "sait": "klubi",
@@ -10796,6 +10905,37 @@
    "img": "https://klubi.skene.info/pildid/stf2026ayanoyokoyama34423inklingroompaavlitakeover.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/923802290770315/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-09",
+   "t": "kontsert",
+   "n": "Singer Vinger + Sõpruse Puiestee",
+   "a": "Eesti punk-roki ja indie legendid ühel õhtul; uksed 19.00, algus 20.00",
+   "b": [
+    "Singer Vinger",
+    "Sõpruse Puiestee"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "Helitehas (FB events)",
+   "su": "https://www.facebook.com/helitehas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1408381801148375/",
+   "pu": "https://www.piletitasku.ee/et/event/10151",
+   "hind": {
+    "praegu": "31,90 € / 47,90 €",
+    "mark": "tavapilet 29 € + teenustasu = 31,90 €; VIP 45 € + teenustasu = 47,90 € (eraldi sissepääs, garderoob, rõdu, baar, WC)",
+    "allikas": "Piletitasku, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "SULGEB HANDOVER §4 punkti 3 — VAIKEOTSUS (a) www rakendus 09.09.2026 (küsitud 04.09 koondkirjas, 5 päeva vastuseta; §2 reegel 16). Postkastijooks 09.09 kontrollis žanri üle enne lisamist: Helitehase OMA ürituselehe tekst ütleb sõna-sõnalt \"Singer Vingeri kompromissitu punk-rock-energia\" ja \"Eesti rock- ja indiemuusika kaks suurt legendi\" — kitarripõhine punk/alt, EI ole peavoolu-popprokk (REEGLID §1 piir Terminaator/Smilers-klass ei kohaldu). Kaks sõltumatut allikat: helitehas.ee/facebook-event/singer-vinger-ja-sopruse-puiestee-9-oktoobril-helitehases/ (venue oma leht, uksed 19.00) + Piletitasku event/10151 (R 09.10.2026 20.00, Madara 22a, sissepääs 19.00, hinnad 31,90/47,90 €, korraldaja E&H ENTERTAINMENT OÜ) + FB event 1408381801148375. ⚠ Piletitasku kirjelduses on korraldaja näpukas \"neljapäeval\" — 09.10.2026 on REEDE, nii päise kuupäev kui FB event kinnitavad reedet. Silver saab otsuse tagasi pöörata (\"3b\" → kustuta + blocklist).",
+   "img": "https://www.skene.info/pildid/singervingersoprusepuiestee.webp"
   },
   {
    "sait": "klubi",

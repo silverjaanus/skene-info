@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "entries": [
   {
    "rel": 1,
@@ -23,57 +23,6 @@
    "pu": "https://dewdewdew.com/et/tooted/kosmos-dew8-vat-lp-classic",
    "nb": "lisatud 11.09.2026 postkastijooksus, leitud Rada7.ee uudiskirjast 10.09.2026 ('Värskest kodumaisest muusikast tasub klappidesse tiksuma panna Kosmose ja Dew8 album'). Kaks sõltumatut allikat kuupäeva jaoks: ERR kultuur 04.09.2026 kl 14.32 ('Plaadifirma Dieu Huit Records andis välja...') + ERR 'Uue muusika reede' sama päeva koond; 04.09.2026 oli reede. Kolmas kinnitus: MuusikaPlaneet 04.09 ja Spotify albumileht. ⚠ Vinüül-LP ja albumi läbilõike video on Dieu Huiti kanalis juba aprillist 2026 ja kuulamisõhtu toimus juuni paiku — VOOGEDASTUSSE jõudis album alles 04.09, seepärast on `d` = 04.09, mitte kevad. Žanrisildid on standardsed (räpp/hiphop); 'luulealbum' / 'luule-räpp' on artistide ja Genka enda sõnastus ERR-i loos, mitte eraldi silt. Vinüülilink `pu` = Dieu Huiti oma pood dewdewdew.com (classic LP; müügil ka graniit/reesus/miraaz ja bundle).",
    "img": "pildid/kosmosdew8viimasteasjadeteadus.webp"
-  },
-  {
-   "d": "2026-10-09",
-   "t": "kontsert",
-   "n": "Kavabanga Depo Kolibri",
-   "a": "Ukraina räpitrio suur soolokontsert; 19.00–23.00",
-   "b": [
-    "Kavabanga Depo Kolibri"
-   ],
-   "v": "Club Privé",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Privé Live Club FB events-tab",
-   "su": "https://www.facebook.com/clubprive/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/28844671171803456/",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud 02.10.2026 Silveri otsusega (vastus „(b) rap-saidile“, välisartisti erand nagu Bali Baby / MOMENT). Kaks allikat: FB event (Privé Live Club) + Privé FB events-tab. Pilet: eventi piletilink on google-lühilink, hinda ei lisatud."
-  },
-  {
-   "d": "2026-10-09",
-   "t": "kontsert",
-   "n": "Rap Meets Jazz 100 — Sammalhabe",
-   "a": "sarja 4. hooaja avapidu: live-jazzbänd mängib 100% hiphopklassikuid; Philly Joe's mahutab 100 inimest; algus 21.00",
-   "b": [
-    "Sammalhabe",
-    "Mathei Florea",
-    "Robert Rebane",
-    "Ramuel Tafenau"
-   ],
-   "v": "Philly Joe's Jazz Club",
-   "c": "Tallinn",
-   "g": [
-    "räpp",
-    "jazz"
-   ],
-   "sn": "Piletikeskus (Silveri vihje)",
-   "su": "https://piletikeskus.ee/et/e/2u1wqt",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1080495744366820/",
-   "pu": "https://piletikeskus.ee/et/e/2u1wqt",
-   "hind": {
-    "praegu": "20 € / 25 € eelmüük / 30 € kohapeal",
-    "mark": "toetajapilet 50 €",
-    "allikas": "piletikeskus.ee, kontrollitud 09.10.2026"
-   },
-   "lisatud": "2026-10-09",
-   "nb": "lisatud järelkäigus 09.10.2026 Silveri vihje peale (Piletikeskuse link). Kaks allikat: Piletikeskus piletileht + FB event (Philly Joe's Tallinn; ka Rada7 events-tabis).",
-   "img": "pildid/rapmeetsjazz100sammalhabe.webp"
   },
   {
    "d": "2026-10-10",

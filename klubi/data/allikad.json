@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "groups": [
   {
    "nimi": "Kohad",
@@ -87,6 +87,10 @@
     {
      "n": "Klubi Gutenberg (Tartu, Aparaaditehas)",
      "u": "https://www.facebook.com/KlubiGutenberg/events"
+    },
+    {
+     "n": "Kohvik Tops (Tallinn)",
+     "u": "https://www.kluub.ee/et/tops"
     },
     {
      "n": "Kultuuriklubi Salong (Tartu)",
@@ -254,6 +258,10 @@
   {
    "nimi": "Festivalid",
    "items": [
+    {
+     "n": "Dreamscape Festival (Fienta)",
+     "u": "https://fienta.com/et/dreamscape-festival-2027"
+    },
     {
      "n": "I Land Sound",
      "u": "https://ilandsound.ee/en/"
