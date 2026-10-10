@@ -2129,14 +2129,33 @@ function injectLD(){
     if(!el){el=document.createElement('script');el.type='application/ld+json';el.id='ldjson';document.head.appendChild(el);}
     // !onLabi(e) — kaimasolev mitmepaevane uritus jaab strukturandmetesse ka teisel paeval.
     // startDate jaab ALATI paris alguskuupaevaks (schema.org ootab seda), lisaks endDate.
+    // Search Console 10.10.2026: puudusid image, organizer, endDate, offers.availability.
+    // Pilt: kirje enda pilt (absoluutne URL), muidu saidi og:image. validFrom jaab valja -
+    // muugi algust me ei tea ja valet kuupaeva ei kirjuta.
+    const http=u=>!!u&&/^https?:\/\//i.test(u);
+    const ogImg=(document.querySelector('meta[property="og:image"]')||{}).content||"";
+    const absImg=u=>/^(?:https:\/\/(?:www|rap|klubi)\.skene\.info\/)?pildid\/[A-Za-z0-9._-]+\.(webp|jpg|jpeg|png)$/i.test(String(u??""))?new URL(u,location.origin+"/").href:"";
     const list=(E||[]).filter(e=>e.d&&!e.tba&&!onLabi(e)&&e.t!=='reliis'&&e.t!=='merch').slice(0,30)
       .map((e,i)=>{
-        const ev={"@type":"Event","name":e.n,"startDate":e.d,"eventStatus":"https://schema.org/EventScheduled"};
-        const lopp=lastIso(e);if(lopp>e.d)ev.endDate=lopp;
+        const ev={"@type":"Event","name":e.n,"startDate":e.d,"eventStatus":"https://schema.org/EventScheduled",
+          "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"};
+        const lopp=lastIso(e);ev.endDate=lopp>e.d?lopp:e.d;
         if(e.v)ev.location={"@type":"Place","name":e.v,"address":e.linn||e.c||"Eesti"};
-        const u=e.ou||e.su;if(u&&/^https?:\/\//i.test(u))ev.url=u;
+        const u=e.ou||e.su;if(http(u))ev.url=u;
         if(e.a)ev.description=e.a;
-        if(e.pu&&/^https?:\/\//i.test(e.pu))ev.offers={"@type":"Offer","url":e.pu};
+        const img=absImg(e.img)||ogImg;if(img)ev.image=[img];
+        // on_ on tihti lingi silt ("Facebook event", "Bandcamp", domeen) - korraldajaks ainult paris nimi
+        if(e.on_&&!/^(facebook event|bandcamp|spotify|youtube|instagram|resident advisor|ra event|ametlik leht|ürituse leht|.*üritusleht|piletitasku|piletilevi|piletikeskus|fienta)$/i.test(e.on_.trim())&&!/^[\w.-]+\.[a-z]{2,}$/i.test(e.on_.trim()))
+          ev.organizer={"@type":"Organization","name":e.on_,...(http(e.ou)?{url:e.ou}:{})};
+        if(http(e.pu)){
+          const h=(e.hind&&typeof e.hind==='object')?e.hind:{};
+          const o={"@type":"Offer","url":e.pu,"priceCurrency":"EUR",
+            "availability":/VÄLJA MÜÜDUD/i.test(h.mark||"")?"https://schema.org/SoldOut":"https://schema.org/InStock"};
+          const pr=String(h.praegu||"").toLowerCase();
+          if(pr.startsWith('tasuta'))o.price="0";
+          else{const m=pr.match(/(\d+(?:[.,]\d{1,2})?)/);if(m)o.price=m[1].replace(',','.');}
+          ev.offers=o;
+        }
         if(e.b&&e.b.length)ev.performer=e.b.slice(0,10).map(b=>({"@type":"MusicGroup","name":b}));
         return {"@type":"ListItem","position":i+1,"item":ev};
       });

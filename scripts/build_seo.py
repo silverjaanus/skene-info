@@ -99,6 +99,9 @@ def offer(e):
     praegu = (h.get("praegu") or "").lower()
     if "VÄLJA MÜÜDUD" in (h.get("mark") or "").upper():
         o["availability"] = "https://schema.org/SoldOut"
+    else:
+        o["availability"] = "https://schema.org/InStock"
+    # validFrom jaab teadlikult valja: muugi algust me ei tea.
     if praegu.startswith("tasuta"):
         o["price"] = "0"
     else:
@@ -106,6 +109,17 @@ def offer(e):
         if m:
             o["price"] = m.group(1).replace(",", ".")
     return o
+
+
+LINGISILT = re.compile(r"^(facebook event|bandcamp|spotify|youtube|instagram|resident advisor|ra event|ametlik leht|"
+                       r"ürituse leht|.*üritusleht|piletitasku|piletilevi|piletikeskus|fienta)$", re.I)
+DOMEEN = re.compile(r"^[\w.-]+\.[a-z]{2,}$", re.I)
+
+
+def korraldaja_nimi(s):
+    """on_ on tihti lingi silt ("Facebook event", domeen), mitte korraldaja - need ei lahe organizer'iks."""
+    s = (s or "").strip()
+    return bool(s) and not LINGISILT.match(s) and not DOMEEN.match(s)
 
 
 def ld_event(e, naita, linn_nimi, sait):
@@ -123,15 +137,17 @@ def ld_event(e, naita, linn_nimi, sait):
         },
     }
     lopp = end_date(e)
-    if lopp > naita:
-        ev["endDate"] = lopp
+    ev["endDate"] = lopp if lopp > naita else naita
     u = e.get("ou") if url_ok(e.get("ou")) else e.get("su")
     if url_ok(u):
         ev["url"] = u
     if e.get("a"):
         ev["description"] = e["a"][:300]
-    if e.get("img"):
-        ev["image"] = host + "/" + e["img"].lstrip("/")
+    ev["image"] = [host + "/" + e["img"].lstrip("/") if e.get("img") else "https://www.skene.info/icons/cover.png"]
+    if korraldaja_nimi(e.get("on_")):
+        ev["organizer"] = {"@type": "Organization", "name": e["on_"]}
+        if url_ok(e.get("ou")):
+            ev["organizer"]["url"] = e["ou"]
     if e.get("b"):
         ev["performer"] = [{"@type": "PerformingGroup", "name": b} for b in e["b"][:12]]
     o = offer(e)
