@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "entries": [
   {
    "d": "2026-09-12",
@@ -157,124 +157,6 @@
   },
   {
    "d": "2026-10-09",
-   "t": "klubi",
-   "n": "Laine Klubiöö: Yung Singh (UK)",
-   "b": [
-    "Yung Singh (UK)",
-    "shbxsz"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "club",
-    "bass",
-    "house"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/ee/all",
-   "on_": "RA event",
-   "ou": "https://ra.co/events/2475984",
-   "nb": "lisatud sweepis 19.07.2026; pilet leitud Fientast 26.07.2026",
-   "pu": "https://fienta.com/et/laine-klubioo-yung-singh",
-   "img": "pildid/laineklubiooyungsinghuk.webp",
-   "hind": {
-    "praegu": "12 €",
-    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
-  },
-  {
-   "d": "2026-10-09",
-   "t": "klubi",
-   "n": "STF 2026: Ayano Yokoyama & 34423 + inklingroom & Paavli takeover",
-   "a": "Sõltumatu Tantsu Festivali klubiohtu Paavlis — Tokyo koreograafi ja produtsendi etendus \" / \", seejärel DJd; kell 21.00, 18+",
-   "b": [
-    "Ayano Yokoyama & 34423",
-    "AUBERY",
-    "Hexarlequinette",
-    "Mia"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "experimental",
-    "club"
-   ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2522658",
-   "pu": "https://fienta.com/et/s/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
-   "hind": {
-    "praegu": "20€",
-    "mark": "18+",
-    "allikas": "RA event 2522658, kontrollitud 28.08.2026"
-   },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — LISATUD 05.09.2026. | 02.10.2026 sweep: lisatud FB event (Sõltumatu Tantsu Lava, MOD events-tab). | 08.10.2026 postkastijooks: Fienta uudiskiri 07.10 + Fienta seeriaileht (R 9. okt 21:00 + 10.10 kuupaev) - pu tapsustatud konkreetse piletilehe peale; DJ-kava avaldatud (kohalikud DJd AUBERY, Hexarlequinette, Mia), koosseis_tba eemaldatud.",
-   "img": "pildid/stf2026ayanoyokoyama34423inklingroompaavlitakeover.webp",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/923802290770315/"
-  },
-  {
-   "d": "2026-10-09",
-   "t": "klubi",
-   "n": "Rulers Of The Deep @ Fonoteek",
-   "a": "algus 23.00",
-   "b": [],
-   "koosseis_tba": 1,
-   "v": "Fonoteek",
-   "c": "Tallinn",
-   "g": [
-    "house",
-    "techno"
-   ],
-   "sn": "Fonoteek (FB events)",
-   "su": "https://www.facebook.com/fonoteekbar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1517701900122042/",
-   "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Fonoteek) + Fonoteegi FB events-tab. Koosseis lehel avaldamata → koosseis_tba. Uksehind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB event: FB Going kuni 00:00 7 € / tavapilet 10 €. ⚠ Žanrit ürituse leht ei ütle („Premium Underground“) — kirje lisati varem, vaata üle.",
-   "hind": {
-    "praegu": "7 € (FB Going kuni 00:00) / 10 €",
-    "allikas": "FB event, kontrollitud 02.10.2026"
-   }
-  },
-  {
-   "d": "2026-10-09",
-   "t": "klubi",
-   "n": "Rave To The Grave",
-   "a": "kaks lava, 23.00–07.00, 18+. MAIN STAGE: Speaking Robot, JU:LY, Romasys, Frankie Pyro, Airborn, Yurdabass, open decks. VINYL ONLY: Martin Grey (progressive + hard trance set), ZAS, Wilbach, Wandal",
-   "b": [
-    "Speaking Robot",
-    "JU:LY",
-    "Romasys",
-    "Frankie Pyro",
-    "Airborn",
-    "Yurdabass",
-    "Martin Grey",
-    "ZAS",
-    "Wilbach",
-    "Wandal"
-   ],
-   "v": "Clwds",
-   "c": "Tallinn",
-   "g": [
-    "trance",
-    "techno",
-    "acid",
-    "electro"
-   ],
-   "hind": {
-    "praegu": "10 €",
-    "mark": "pilet",
-    "allikas": "Resident Advisor"
-   },
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2535428",
-   "on_": "Resident Advisor",
-   "ou": "https://ra.co/events/2535428",
-   "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht (täiskoosseis, ajakava, 10 €, 18+) + RA lehelt lingitud FB event. Korraldaja I TRANCE YOU (EE), Clwds (Ülase 14). ⚠ Sama korraldaja AvB-eelpidu jäi 28.08.2026 VÄLJA (blocklist) — see otsus puudutas Armin van Buureni telge, mitte korraldajat; iseseisev trance/techno-reiv on skoobis (hard trance → klubi pretsedent)."
-  },
-  {
-   "d": "2026-10-09",
    "d2": "11.10",
    "t": "klubi",
    "n": "HUNGR Closing Weekend: The Last Bite",
@@ -301,115 +183,6 @@
     "allikas": "Fienta tekst, kontrollitud 02.10.2026"
    },
    "img": "pildid/hungrclosingweekendthelastbite.webp"
-  },
-  {
-   "d": "2026-10-09",
-   "t": "klubi",
-   "n": "Tartu Massive: Changing Faces (SK)",
-   "a": "uksed 23.00, lõpp 04.00, 18+; Tartu Massive'i 18. hooaeg, külaline esineb Eestis esmakordselt",
-   "b": [
-    "Changing Faces (SK)",
-    "Kling",
-    "Rabelus FM",
-    "Deffenlo",
-    "Romm & Moose"
-   ],
-   "v": "Klubi Gutenberg",
-   "c": "Tartu",
-   "g": [
-    "dnb",
-    "bass"
-   ],
-   "sn": "Klubi Gutenbergi FB events-tab",
-   "su": "https://www.facebook.com/KlubiGutenberg/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1434611688578124/",
-   "pu": "https://www.ticketer.ee/tartumassive-changingfaces",
-   "lisatud": "2026-09-25",
-   "hind": {
-    "praegu": "10 €",
-    "mark": "early bird, piiratud kogus; lisandub Ticketeri tehingutasu 0,70 €",
-    "allikas": "Ticketer, kontrollitud 25.09.2026"
-   },
-   "nb": "leitud järelejooksus 25.09.2026 Klubi Gutenbergi FB events-tabist. Kaks allikat: ürituse FB event (korraldajad Tartu Massive + Klubi Gutenberg + 2) + Ticketeri piletileht (R 9. oktoober, uksed 23.00, Kastani 42, 18+) — kuupäev, kellaaeg ja koht kattuvad. Žanr KORRALDAJA ENDA lehelt: Tartu Massive — „monthly drum & bass event that takes place in Tartu“ (asutatud 2008); ürituse FB-leht kannab ka silti „Dance“. Residentide nimed avaldamata → koosseis_tba. | 02.10.2026 järelkontroll (samm 2b): FB eventist täiskoosseis (Kling, Rabelus FM, Deffenlo, Romm & Moose); koosseis_tba maha.",
-   "img": "pildid/tartumassivechangingfacessk.webp"
-  },
-  {
-   "d": "2026-10-09",
-   "t": "kontsert",
-   "n": "top _ồng III // jaan kliin & LD-50 allnighter",
-   "a": "uksed 20.00, DJ 22.00–04.00",
-   "b": [
-    "jaan kliin",
-    "LD-50"
-   ],
-   "v": "Kivi baar",
-   "c": "Tartu",
-   "g": [
-    "dub",
-    "breaks",
-    "techno",
-    "trance"
-   ],
-   "sn": "Kivi baari FB events-tab",
-   "su": "https://www.facebook.com/kivibaar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2128205934453359/",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "FB event, kontrollitud 02.10.2026"
-   },
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Kivi baar + Top _ồng) + Kivi baari FB events-tab. Žanr ürituse tekstist („triphop, dub, breaks, techno, trance & beyond\")."
-  },
-  {
-   "d": "2026-10-09",
-   "t": "klubi",
-   "n": "Afterparty@HALL: Dance Floor of Democracy",
-   "a": "ERSO muusikud esitavad Kenn-Eerik Kannikese albumi «Computations» (seade Karl Tipp), seejärel klubiöö; uksed 21.30",
-   "b": [
-    "ERSO muusikud: Kenn-Eerik Kannike «Computations»",
-    "Chloe Lula (Tresor, DE)",
-    "Miia Magia (FI)",
-    "Ciara May (IE)"
-   ],
-   "v": "HALL",
-   "c": "Tallinn",
-   "g": [
-    "techno"
-   ],
-   "sn": "HALL FB events-tab",
-   "su": "https://www.facebook.com/halltallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/4351455641759250/",
-   "pu": "https://gateme.com/halltallinn/104317-afterpartyhall-dance-floor-of-democracy",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud 02.10.2026 järelkontrollis (eelmises jooksus jäi tekst poolikult loetuks). Kaks allikat: FB event (HALL + Prantsuse Instituut jt) + GateMe piletileht. Žanr ürituse tekstist („the Estonian National Symphony Orchestra meets techno“, Tresori DJ). Dance Floor of Democracy konverentsi järelpidu.",
-   "img": "pildid/afterpartyhalldancefloorofdemocracy.webp"
-  },
-  {
-   "d": "2026-10-09",
-   "t": "klubi",
-   "n": "Downtempo õhtu koos Astridiga (Starfall)",
-   "a": "23.00-03.00; „Mõnus õhtu downtempo biitidega\", FFO: Burial, Nujabes, Four Tet",
-   "b": [
-    "Astrid (STRFLL)"
-   ],
-   "v": "Genialistide Klubi",
-   "c": "Tartu",
-   "g": [
-    "downtempo"
-   ],
-   "sn": "kluub.ee",
-   "su": "https://www.kluub.ee/et/events/tartu/37131f72-1d53-4c13-81ca-76016b7f769b",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1476759321016356",
-   "hind": {
-    "praegu": "tasuta",
-    "allikas": "kluub.ee, kontrollitud 09.10.2026"
-   },
-   "lisatud": "2026-10-09",
-   "nb": "lisatud postkastijooksus 09.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + FB event (korraldajad STRFLL ja Genialistide Klubi). Žanr ürituse enda FB-tekstist: downtempo, FFO Burial/Nujabes/Four Tet."
   },
   {
    "d": "2026-10-10",
@@ -505,6 +278,31 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Kaks allikat: HALLi FB events-tab/FB event (CompressEvents) + GateMe piletileht (korraldaja Lisetech OÜ, koosseis, „only techno“).",
    "img": "pildid/compressravexhallonlytechno.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "klubi",
+   "n": "uju | Kohvik Tops",
+   "a": "DJ-õhtu, kell 21.00–03.00; ürituse enda kirjeldus: „dub, house +& jms“",
+   "b": [
+    "uju"
+   ],
+   "v": "Kohvik Tops",
+   "c": "Tallinn",
+   "g": [
+    "dub",
+    "house"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/688d8ebf-147b-4a67-82ca-1fce01300087",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1621485039330626",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee + FB event, kontrollitud 10.10.2026"
+   },
+   "lisatud": "2026-10-10",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 10.10.2026. Kaks allikat: ürituse FB event (korraldaja TOPS, Soo 15) + kluub.ee. Žanr ürituse enda tekstist."
   },
   {
    "d": "2026-10-14",
