@@ -2142,7 +2142,18 @@ function injectLD(){
         const lopp=lastIso(e);ev.endDate=lopp>e.d?lopp:e.d;
         if(e.v)ev.location={"@type":"Place","name":e.v,"address":e.linn||e.c||"Eesti"};
         const u=e.ou||e.su;if(http(u))ev.url=u;
+        // Search Console 11.10.2026: description puudus. Ilma a-ta pane kokku nimest, esinejatest ja kohast
+        // (sama loogika mis scripts/build_seo.py varukirjeldus). Tuupi (e.t) ei kasuta - see on tihti ebatapne.
         if(e.a)ev.description=e.a;
+        else{
+          const osad=[String(e.n||"").trim().replace(/\.$/,"")];
+          const bd=(e.b||[]).filter(Boolean);
+          if(bd.length&&!(bd.length===1&&String(e.n||"").toLowerCase().includes(bd[0].toLowerCase())))osad.push("Esinevad: "+bd.slice(0,12).join(", "));
+          const v=String(e.v||"").trim(),ln=String(e.linn||e.c||"").trim(),ln2=(ln&&ln!=="mujal")?ln:"";
+          const koht=(!ln2||v.toLowerCase().includes(ln2.toLowerCase()))?v:[v,ln2].filter(Boolean).join(", ");
+          if(koht)osad.push("Toimumiskoht: "+koht);
+          ev.description=osad.filter(Boolean).join(". ")+".";
+        }
         const img=absImg(e.img)||ogImg;if(img)ev.image=[img];
         // on_ on tihti lingi silt ("Facebook event", "Bandcamp", domeen) - korraldajaks ainult paris nimi
         if(e.on_&&!/^(facebook event|bandcamp|spotify|youtube|instagram|resident advisor|ra event|ametlik leht|ürituse leht|.*üritusleht|piletitasku|piletilevi|piletikeskus|fienta)$/i.test(e.on_.trim())&&!/^[\w.-]+\.[a-z]{2,}$/i.test(e.on_.trim()))

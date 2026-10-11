@@ -122,6 +122,21 @@ def korraldaja_nimi(s):
     return bool(s) and not LINGISILT.match(s) and not DOMEEN.match(s)
 
 
+def varukirjeldus(e, linn_nimi):
+    """Search Console 11.10.2026: "Missing field description". Kui kirjel pole `a`-d,
+    pane kokku ainult olemasolevatest valjadest (nimi, esinejad, koht) - mitte midagi
+    valja moeldud. Uritusetuupi (t) EI kasuta: see on tihti ebatapne (nt kirbuturg = kontsert)."""
+    osad = [(e.get("n") or "").strip().rstrip(".")]
+    bandid = [b for b in (e.get("b") or []) if b]
+    if bandid and not (len(bandid) == 1 and bandid[0].lower() in (e.get("n") or "").lower()):
+        osad.append("Esinevad: " + ", ".join(bandid[:12]))
+    v = (e.get("v") or "").strip()
+    koht = v if (not linn_nimi or linn_nimi.lower() in v.lower()) else ", ".join(x for x in (v, linn_nimi) if x)
+    if koht:
+        osad.append("Toimumiskoht: " + koht)
+    return ". ".join(o for o in osad if o) + "."
+
+
 def ld_event(e, naita, linn_nimi, sait):
     _, _, pildiprefiks, host, _, _ = sait
     ev = {
@@ -141,8 +156,7 @@ def ld_event(e, naita, linn_nimi, sait):
     u = e.get("ou") if url_ok(e.get("ou")) else e.get("su")
     if url_ok(u):
         ev["url"] = u
-    if e.get("a"):
-        ev["description"] = e["a"][:300]
+    ev["description"] = (e.get("a") or varukirjeldus(e, linn_nimi))[:300]
     ev["image"] = [host + "/" + e["img"].lstrip("/") if e.get("img") else "https://www.skene.info/icons/cover.png"]
     if korraldaja_nimi(e.get("on_")):
         ev["organizer"] = {"@type": "Organization", "name": e["on_"]}
