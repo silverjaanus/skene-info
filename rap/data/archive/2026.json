@@ -1141,6 +1141,57 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud järelkäigus 09.10.2026 Silveri vihje peale (Piletikeskuse link). Kaks allikat: Piletikeskus piletileht + FB event (Philly Joe's Tallinn; ka Rada7 events-tabis).",
    "img": "pildid/rapmeetsjazz100sammalhabe.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "CHECK ONE TWO",
+   "a": "pikaaegne räpipidu, DJ-d + skrätsshow; algus 22.00",
+   "b": [
+    "Critikal",
+    "Quest",
+    "Paul Oja"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1077124981715982/",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event + Legendaarne Raadio FB events-tab. Žanr ürituse tekstist („räpipidu ... hiphopi alustala dj-ing\").",
+   "img": "pildid/checkonetwo.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "MIXTÄPE",
+   "a": "hiphop, rnb, vinüüliskrätš; PM2AM all nite long; 23.00, 20+",
+   "b": [
+    "PM2AM"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fonoteegi FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1422302986531880/",
+   "hind": {
+    "praegu": "5/7 € (FB Going) / 10 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Fonoteek + PM2AM) + Fonoteegi FB events-tab. Žanr ürituse tekstist („Night full of hiphop, rnb, vinyl scratching\")."
   }
  ]
 }

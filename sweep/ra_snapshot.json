@@ -1,59 +1,13 @@
 {
- "tommatud": "2026-10-10",
+ "tommatud": "2026-10-11",
  "aken": {
-  "algus": "2026-10-10",
-  "lopp": "2026-12-09"
+  "algus": "2026-10-11",
+  "lopp": "2026-12-10"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 28,
+ "kirjeid": 26,
  "kirjed": [
-  {
-   "d": "2026-10-10",
-   "n": "STF 2026: Aïsha Devi + Ayano Yokoyama & 34423",
-   "algus": "2026-10-10T21:00:00.000",
-   "v": "Paavli Kultuurivabrik",
-   "ala": "Tallinn",
-   "b": [
-    "Aïsha Devi",
-    "Shah Rud",
-    "Wash Electra"
-   ],
-   "g": [
-    "Trance",
-    "Experimental"
-   ],
-   "url": "https://ra.co/events/2524841",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-10",
-   "n": "BIRTHDAY CLUB",
-   "algus": "2026-10-10T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2551646",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-09",
-   "n": "AFRO HOUSE & MELODIC NIGHT",
-   "algus": "2026-10-09T22:00:00.000",
-   "v": "Tallinn Afro Empire",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Progressive House",
-    "Afro House"
-   ],
-   "url": "https://ra.co/events/2554452",
-   "pilet": false
-  },
   {
    "d": "2026-10-14",
    "n": "Carbon Based Lifeforms- Tallinn -14.10.26- Prive Club",
@@ -160,6 +114,19 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2554128",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-16",
+   "n": "NOËP INVITES: MOKSI (NL) I D3",
+   "algus": "2026-10-16T23:00:00.000",
+   "v": "D3",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2558074",
    "pilet": false
   },
   {

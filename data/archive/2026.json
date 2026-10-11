@@ -4867,6 +4867,287 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Kuku-Kinomaja, „kolm Eesti punkbändi“) + Piletitasku piletileht (korraldaja Maaaluste Muusade Büroo OÜ, R 09.10 20.00 Tallinna Kinomaja). Leitud Rada7 events-tabist.",
    "img": "pildid/jmkenyrokcitytuvipoeg.webp"
+  },
+  {
+   "d": "2026-10-09",
+   "d2": "10.10",
+   "t": "festival",
+   "n": "Tarbariitus",
+   "b": [
+    "Fern Flower",
+    "Ziemienieki (LAT)",
+    "Tuisk",
+    "H8BLST (LIT)",
+    "Burial Moon",
+    "Sisyphean (LIT)",
+    "Loathfinder (PL)",
+    "Moonstruck (FIN)",
+    "Indren (ITA)",
+    "Unholy Obscurity (AUT)",
+    "Drengskapur (DE)",
+    "Ziegenhorn",
+    "Odium Humani Generis (PL)",
+    "Black Raptus (ITA)"
+   ],
+   "v": "Klubi Rock & Roll",
+   "c": "Tartu",
+   "g": [
+    "black",
+    "doom"
+   ],
+   "sn": "pergerus.eu",
+   "su": "https://pergerus.eu/tarbariitus",
+   "pu": "https://fienta.com/tarbariitus-3",
+   "hind": {
+    "praegu": "21€ / 39€ / 60€",
+    "mark": "kolm hinnaklassi mahu järgi (Youth Inferno / Black Standard / Supporter of the Rite), mitte kuupäeva järgi - eelmüük kuni 08.10.2026",
+    "allikas": "fienta.com, kontrollitud 06.07.2026"
+   },
+   "a": "Tartu black metal festival; 12 bändi kinnitatud (sh Tuisk EST, H8blst LIT industrial black), rohkem tulekul",
+   "nb": "koosseis täienes 19.07.2026 sweepis (pergerus.eu: +Tuisk, +H8blst); rohkem bände tulekul | 07.08.2026 sweep: pergerus.eu/et/tarbariitus koosseisuleht loetleb 14 bändi (varem kirjes 12) + märkus \"Rohkem bände tulekul!\" — b viidud lehe seisu.",
+   "img": "pildid/tarbariitus.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Doomed Saturday: Taak + Procession (LV)",
+   "a": "uksed 20.00, show 22.00, 00.00 tasuta aftekas; Sugis Productions",
+   "b": [
+    "Taak",
+    "Procession (LV)"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "doom",
+    "metal"
+   ],
+   "sn": "Sugis Productions FB",
+   "su": "https://www.facebook.com/sugisproductions/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1801945377483453/",
+   "pu": "https://fienta.com/et/taak-procession-thekrypt",
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026. Kaks allikat: FB event (kaaskorraldajad The Krypt + Taak) + Fienta piletileht.",
+   "img": "pildid/doomedsaturdaytaakprocessionlv.webp",
+   "hind": {
+    "praegu": "13–15 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Promethium (FIN) + Aš-Šur + Gangrenated",
+   "a": "uksed 19.00",
+   "b": [
+    "Promethium (FIN)",
+    "Aš-Šur",
+    "Gangrenated"
+   ],
+   "v": "Kotka Kultuurimaja",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "death"
+   ],
+   "sn": "Kotka Kultuurimaja FB",
+   "su": "https://www.facebook.com/people/Kotka-Kultuurimaja/61573068690588/?sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2144178063199871/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Kotka Kultuurimaja FB events-tabist (venue on ka korraldaja). TEINE ALLIKAS PUUDU - pilet avaldamata, korraldaja eraldi lehte ei ole; vt HANDOVER §4."
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Robben Ford Trio (US) | Viljandi Kitarrifestival",
+   "a": "algus 21.00; Grammy-nominendist bluusikitarristi trio",
+   "b": [
+    "Robben Ford Trio"
+   ],
+   "v": "Eesti Parimusmuusika Ait",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "bluus",
+    "rock"
+   ],
+   "sn": "Konservatoorium / VKF FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/844275598724150",
+   "pu": "https://fienta.com/et/robben-ford-trio-us-vkf",
+   "nb": "lisatud sweepis 28.07.2026; kinnitatud FB event + Fienta. Bluus on peasaidi skoobis alates 26.07.2026",
+   "img": "pildid/robbenfordtriousviljandikitarrifestival.webp",
+   "hind": {
+    "praegu": "45–50 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Jimi Hendrix 84 — CryBaby",
+   "a": "CryBaby tähistab Jimi Hendrixi 84. sünniaastapäeva; uksed 21.00, algus 22.00",
+   "b": [
+    "CryBaby"
+   ],
+   "v": "Pubi Juudas",
+   "c": "mujal",
+   "g": [
+    "rock",
+    "bluus"
+   ],
+   "sn": "Pubi Juudas (FB events)",
+   "su": "https://www.facebook.com/pubijuudas/events?locale=et_EE",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2743858512675551/",
+   "pu": "https://gateme.com/et/pubijuudas/104235-jimi-hendrix-84",
+   "lisatud": "2026-09-11",
+   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad CryBaby + Pubi Juudas) + GateMe piletileht. CryBaby FB-leht ütleb žanriks blues/rock — bluus on www 8. metafilter (otsus 26.07.2026).",
+   "img": "pildid/jimihendrix84crybaby.webp",
+   "linn": "Tõrva"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Hauntees (FIN) + Hello Killu + Buzhold + The Lunacy of Flowers + Flesh on Stage (FR/JP)",
+   "a": "algus 18.00",
+   "b": [
+    "Hauntees (FIN)",
+    "Hello Killu",
+    "Buzhold",
+    "The Lunacy of Flowers",
+    "Flesh on Stage (FR/JP)"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "Ülase12 / Anemon12 (FB events)",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2276807216194209/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Ürituse kirjeldus lingib iga bändi Bandcampi (Hauntees «Shadows Forming», Hello Killu, Buzhold «What It Meant»). Pilet/uksehind avaldamata."
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Laine Live: The Tuberkuloited 35",
+   "a": "35. sünnipäeva tähistamise viimane live Tallinnas; algus 20.00",
+   "b": [
+    "The Tuberkuloited"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Uus Laine veebikava",
+   "su": "https://uuslaine.com/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/3155456567981890/",
+   "pu": "https://www.piletitasku.ee/et/event/10401",
+   "hind": {
+    "praegu": "21,20 € / 26,20 €",
+    "allikas": "Piletitasku, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Uus Laine + Rada7.ee) + Piletitasku piletileht (L 10.10 20:00) + uuslaine.com. Sildid samad mis varasematel Tuberkuloited 35 kirjetel (Rakvere 17.07, Pärnu 14.08). Oli 01.10 postkastijooksu järelnimekirjas.",
+   "img": "pildid/lainelivethetuberkuloited35.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Vennaskond — Trahteris Postipoiss",
+   "a": "18.00 Tõnu Trubetsky raamatuesitlus; 19.00 Lambivalgus, 20.00 Traumapunkt, 21.00 PööLoY GLääNZ, 22.00 Vennaskond, 00.30 DJ Danel Rinaldo; 18+",
+   "b": [
+    "Vennaskond",
+    "PööLoY GLääNZ",
+    "Traumapunkt",
+    "Lambivalgus",
+    "Danel Rinaldo (DJ)"
+   ],
+   "v": "Trahter Postipoiss",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "tanaparnus.ee",
+   "su": "https://tanaparnus.ee/uritus/vennaskond-10-10-2026/",
+   "pu": "https://fienta.com/et/vennaskond-postipoisis",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis (Fienta otsing 'vennaskond'). Kaks allikat: Fienta piletileht + tanaparnus.ee. Žanr Fienta tekstist („legendaarne Eesti punkrock-ansambel“). FB eventi ei leidnud → ou tühi.",
+   "img": "pildid/vennaskondtrahterispostipoiss.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Saar Cult 8",
+   "a": "SAAR CULTi 8. sünnipäev ja uue koha avamine; algus 14.00, lisaks tätoveerimisala",
+   "b": [
+    "Borm Bubu",
+    "Mobisa Mobisa",
+    "Mört",
+    "Hukk",
+    "Model Citizen",
+    "Mang Ont",
+    "Fumantum"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "rock",
+    "punk",
+    "doom",
+    "sludge",
+    "black",
+    "stoner",
+    "dark"
+   ],
+   "sn": "SAAR CULT FB events-tab",
+   "su": "https://www.facebook.com/saarcult/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1770551210661045/",
+   "lisatud": "2026-10-04",
+   "nb": "lisatud 04.10.2026 Silveri sisendist (jäi sweepil märkamata, sest SAAR CULTi FB-lehte polnud sources.json-is — nüüd on). Kaks allikat: ürituse FB event (korraldaja SAAR CULT, täiskoosseis + tätoveerijad kirjelduses) + Mördi FB-postitus https://www.facebook.com/m8rtband/posts/1523546039798344/. Žanrid: Mört = black/forest punk'n'roll (Bandcamp), Borm Bubu = math rock/doom metal/jazz (Bandcamp, MuusikaPlaneet), Mobisa Mobisa = rock/stoner, Hukk = post-metal/doom/sludge, Model Citizen = post-punk, Mang Ont = black/doom (varasemad kirjed), Fumantum = dark ambient (klubi-artist, siin üks seitsmest — üks lava, seega üks kirje www-s). Pilet/uksehind avaldamata.",
+   "img": "pildid/saarcult8.webp"
+  },
+  {
+   "d": "2026-10-10",
+   "t": "kontsert",
+   "n": "Metal Bullet 2026",
+   "a": "Valga Rockiklubi 25. hooaeg; uksed 20.00, 21.00–02.00",
+   "b": [
+    "Overcast Rain",
+    "Woundgiver"
+   ],
+   "v": "Valga Rockiklubi",
+   "c": "mujal",
+   "linn": "Valga",
+   "g": [
+    "metal"
+   ],
+   "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2266012114198265/",
+   "hind": {
+    "praegu": "10 €",
+    "mark": "15 € kombopilet koos 03.10 Punk Rock Live'iga",
+    "allikas": "FB event, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026. FB event (Valga Rockiklubi + Overcast Rain + Woundgiver kaaskorraldajad); rockiklubi.ee näitab „No events“. ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata."
   }
  ]
 }
