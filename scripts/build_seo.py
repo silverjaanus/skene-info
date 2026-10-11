@@ -162,6 +162,9 @@ def ld_event(e, naita, linn_nimi, sait):
         ev["organizer"] = {"@type": "Organization", "name": e["on_"]}
         if url_ok(e.get("ou")):
             ev["organizer"]["url"] = e["ou"]
+    elif e.get("v"):
+        # Silver 11.10.2026: kui paris korraldajat pole, on korraldajaks toimumiskoht
+        ev["organizer"] = {"@type": "Organization", "name": e["v"]}
     if e.get("b"):
         ev["performer"] = [{"@type": "PerformingGroup", "name": b} for b in e["b"][:12]]
     o = offer(e)

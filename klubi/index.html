@@ -2225,6 +2225,8 @@ function injectLD(){
         // on_ on tihti lingi silt ("Facebook event", "Bandcamp", domeen) - korraldajaks ainult paris nimi
         if(e.on_&&!/^(facebook event|bandcamp|spotify|youtube|instagram|resident advisor|ra event|ametlik leht|ürituse leht|.*üritusleht|piletitasku|piletilevi|piletikeskus|fienta)$/i.test(e.on_.trim())&&!/^[\w.-]+\.[a-z]{2,}$/i.test(e.on_.trim()))
           ev.organizer={"@type":"Organization","name":e.on_,...(http(e.ou)?{url:e.ou}:{})};
+        // Silver 11.10.2026: kui paris korraldajat pole, on korraldajaks toimumiskoht
+        else if(e.v)ev.organizer={"@type":"Organization","name":e.v};
         if(http(e.pu)){
           const h=(e.hind&&typeof e.hind==='object')?e.hind:{};
           const o={"@type":"Offer","url":e.pu,"priceCurrency":"EUR",
