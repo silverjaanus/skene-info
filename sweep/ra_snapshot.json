@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-10-11",
+ "tommatud": "2026-10-12",
  "aken": {
-  "algus": "2026-10-11",
-  "lopp": "2026-12-10"
+  "algus": "2026-10-12",
+  "lopp": "2026-12-11"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 26,
+ "kirjeid": 29,
  "kirjed": [
   {
    "d": "2026-10-14",
@@ -130,6 +130,24 @@
    "pilet": false
   },
   {
+   "d": "2026-10-16",
+   "n": "B.I.A - Balta Integrated Audio",
+   "algus": "2026-10-16T23:00:00.000",
+   "v": "Baltachill",
+   "ala": "Tallinn",
+   "b": [
+    "Erkin Antov",
+    "Vahtra",
+    "Renno Paat"
+   ],
+   "g": [
+    "House",
+    "Disco"
+   ],
+   "url": "https://ra.co/events/2558930",
+   "pilet": false
+  },
+  {
    "d": "2026-10-17",
    "n": "NEXT LEVEL 17.10 // Hall - MESILA // TECHNO, DNB",
    "algus": "2026-10-17T21:00:00.000",
@@ -240,6 +258,17 @@
     "House"
    ],
    "url": "https://ra.co/events/2553575",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-30",
+   "n": "TALLINN FASHION WEEK OFFICIAL AFTERPARTY · Maison Dio",
+   "algus": "2026-10-30T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2558555",
    "pilet": false
   },
   {
@@ -417,6 +446,21 @@
     "Minimal Techno"
    ],
    "url": "https://ra.co/events/2512671",
+   "pilet": false
+  },
+  {
+   "d": "2026-12-11",
+   "n": "Laine Klubiöö: State OFFF (NL/ZW)",
+   "algus": "2026-12-11T23:00:00.000",
+   "v": "Uus Laine",
+   "ala": "Tallinn",
+   "b": [
+    "State OFFF"
+   ],
+   "g": [
+    "Gqom"
+   ],
+   "url": "https://ra.co/events/2494777",
    "pilet": false
   }
  ]
