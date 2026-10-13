@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -39,6 +39,10 @@
     {
      "n": "Mõisa Kontsert (Kolga mõis)",
      "u": "https://www.facebook.com/moisakontsert/events"
+    },
+    {
+     "n": "OFFLINE CLUB (Tartu, house/hardgroove/speed garage)",
+     "u": "https://www.kluub.ee/et/offline-club"
     },
     {
      "n": "Roots Session",
