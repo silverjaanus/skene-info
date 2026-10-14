@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 191,
+ "count": 193,
  "entries": [
   {
    "sait": "klubi",
@@ -669,6 +669,60 @@
    },
    "lisatud": "2026-10-13",
    "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 13.10.2026. Kaks allikat: kluub.ee (FB eventi põhjal) + GateMe piletileht (R 16.10.2026 22.00–04.00, Genialistide Klubi, sama koosseis). Žanr ürituse enda tekstist: „From HARD TECHNO to SCHRANZ and TECHNO\"."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "Elektröönika 2nd Birthday Bash",
+   "a": "Elektröönika 2. sünnipäev, kaks lava ja kaheksa DJ-d, 4x4; DJ-d 23.00–04.00, 20+",
+   "b": [
+    "Kaarel Sein",
+    "Elektröönika (JoJo, Milpak, Will, Löukii)",
+    "Birddy",
+    "Pahv",
+    "Kendik"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/60738c04-f45f-4dfd-8d2c-5dadcc96fd9a",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2428863947645596",
+   "hind": {
+    "praegu": "5 € (FB Going kuni 00.00), tavapilet 7 €",
+    "allikas": "FB event + kluub.ee, kontrollitud 14.10.2026"
+   },
+   "lisatud": "2026-10-14",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 14.10.2026. Kaks allikat: FB event (korraldajad Fonoteek + Elektröönika, Telliskivi 62) + kluub.ee. Žanr: kluub.ee silt Techno + ürituse tekst „4x4 helilained“."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "Helina The Artist | Kohvik Tops",
+   "a": "DJ-õhtu 22.00–03.00; ürituse enda kirjeldus: amapiano, afro, latin vibes",
+   "b": [
+    "Helina The Artist"
+   ],
+   "v": "Kohvik Tops",
+   "c": "Tallinn",
+   "g": [
+    "afro"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/bd2bda4f-1b42-4aea-8595-22d8a725cca9",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/852026691270254",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee + FB event, kontrollitud 14.10.2026"
+   },
+   "lisatud": "2026-10-14",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 14.10.2026. Kaks allikat: FB event (korraldaja TOPS, Soo 15) + kluub.ee. Žanr ürituse enda tekstist (amapiano, afrobeats, latin)."
   },
   {
    "sait": "www",
