@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-10-13",
+ "tommatud": "2026-10-14",
  "aken": {
-  "algus": "2026-10-13",
-  "lopp": "2026-12-12"
+  "algus": "2026-10-14",
+  "lopp": "2026-12-13"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 32,
+ "kirjeid": 33,
  "kirjed": [
   {
    "d": "2026-10-14",
@@ -239,6 +239,19 @@
    ],
    "url": "https://ra.co/events/2535243",
    "pilet": true
+  },
+  {
+   "d": "2026-10-23",
+   "n": "Stereo",
+   "algus": "2026-10-23T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2560085",
+   "pilet": false
   },
   {
    "d": "2026-10-24",

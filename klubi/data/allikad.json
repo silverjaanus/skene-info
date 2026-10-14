@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "groups": [
   {
    "nimi": "Kohad",
@@ -299,6 +299,10 @@
     {
      "n": "Eesti Elektroonilise Muusika Selts (EES)",
      "u": "https://estelmus.com/"
+    },
+    {
+     "n": "Elektröönika (DJ-kollektiiv, Tallinn)",
+     "u": "https://www.facebook.com/elektroenika/events"
     },
     {
      "n": "Fienta klubi-otsing",
