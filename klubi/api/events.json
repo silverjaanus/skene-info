@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 192,
+ "count": 190,
  "entries": [
   {
    "sait": "klubi",
@@ -396,53 +396,6 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid punk, punk rock; asukoht Tallinn.",
    "img": "https://www.skene.info/pildid/20261006.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-10-14",
-   "t": "kontsert",
-   "n": "Carbon Based Lifeforms (SWE)",
-   "a": "Göteborgi ambient/psybient-duo (Johannes Hedberg & Daniel Ringström) — aeglaselt hingavad tekstuurid ja downtempo-rütmid",
-   "b": [
-    "Carbon Based Lifeforms (SWE)"
-   ],
-   "v": "Club Privé",
-   "c": "Tallinn",
-   "g": [
-    "ambient",
-    "electronic",
-    "downtempo"
-   ],
-   "sn": "Privé Live Club (FB)",
-   "su": "https://www.facebook.com/clubprive/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1574357314264409/",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026, teine voor — leid tuli Privé Live Clubi FB events-lehelt, mis lisati allikaks KRS-One'i kontrollimise käigus. Algus 20.00, korraldaja Aeon Psy Events. Kaks allikat: venue oma events-leht + ürituse FB event. ⚠ Piletilinki FB-lehel tekstina ei ole (ainult 'Find tickets' nupp), seega pu puudub — täienda, kui piletimüük avaneb."
-  },
-  {
-   "sait": "rap",
-   "d": "2026-10-14",
-   "t": "kontsert",
-   "n": "Legendaarne Live: Genka / Paul Oja XXX Unplugged",
-   "a": "algus 18.00; vestlusohtu ja akustiline kontsert — 30 aastat Genka ja Paul Oja koostoost (esimene kogunemine Kopli tanava korteris oktoobris 1996)",
-   "b": [
-    "Genka",
-    "Paul Oja"
-   ],
-   "v": "Legendaarne Raadio & Baar",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Legendaarne Raadio FB events-tab",
-   "su": "https://www.facebook.com/LegendaarneRaadio/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1794619661553912/",
-   "pu": "https://fienta.com/et/vestlusohtu-ja-akustiline-konsert-genka-paul-oja-xxx",
-   "lisatud": "2026-09-25",
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Legendaarne Raadio + Genka + paul oja) + Fienta piletileht („vestlusohtu ja akustiline kontsert“). Zanr urituse enda lehelt: „Keriti kassette, korrati vihikusse kritseldatud riime“ + moodustajad on Eesti hiphopi vundament (Genka / Pohjamaade Hirm). Hinda lehel ei nimetata (Fienta widgeti taga).",
-   "img": "https://rap.skene.info/pildid/legendaarnelivegenkapaulojaxxxunplugged.webp"
   },
   {
    "sait": "www",

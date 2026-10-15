@@ -1,29 +1,13 @@
 {
- "tommatud": "2026-10-14",
+ "tommatud": "2026-10-15",
  "aken": {
-  "algus": "2026-10-14",
-  "lopp": "2026-12-13"
+  "algus": "2026-10-15",
+  "lopp": "2026-12-14"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 33,
+ "kirjeid": 37,
  "kirjed": [
-  {
-   "d": "2026-10-14",
-   "n": "Carbon Based Lifeforms- Tallinn -14.10.26- Prive Club",
-   "algus": "2026-10-14T20:00:00.000",
-   "v": "Club Privé",
-   "ala": "Tallinn",
-   "b": [
-    "Carbon Based Lifeforms"
-   ],
-   "g": [
-    "Ambient",
-    "Downtempo"
-   ],
-   "url": "https://ra.co/events/2508089",
-   "pilet": true
-  },
   {
    "d": "2026-10-14",
    "n": "Carbon Based Lifeforms- Tallinn -14.10.26- Prive Club",
@@ -161,6 +145,17 @@
    "pilet": false
   },
   {
+   "d": "2026-10-16",
+   "n": "DIO RECORDS with Kurly",
+   "algus": "2026-10-16T20:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2561262",
+   "pilet": false
+  },
+  {
    "d": "2026-10-17",
    "n": "NEXT LEVEL 17.10 // Hall - MESILA // TECHNO, DNB",
    "algus": "2026-10-17T21:00:00.000",
@@ -220,6 +215,28 @@
     "House"
    ],
    "url": "https://ra.co/events/2549205",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-17",
+   "n": "DIO SOCIETY · Saturday nights",
+   "algus": "2026-10-17T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2561244",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-16",
+   "n": "DIO RECORDS with Kurly",
+   "algus": "2026-10-16T20:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2561262",
    "pilet": false
   },
   {
@@ -311,6 +328,20 @@
    "pilet": false
   },
   {
+   "d": "2026-10-30",
+   "n": "UKF ESTONIA 2026: NERO (UK) - LUUDE (AUS) - HALLOWEEN",
+   "algus": "2026-10-30T22:00:00.000",
+   "v": "Kultuurikatel",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Drum & Bass",
+    "Bass"
+   ],
+   "url": "https://ra.co/events/2561213",
+   "pilet": false
+  },
+  {
    "d": "2026-10-31",
    "n": "Klämmar x Halloween",
    "algus": "2026-10-31T23:00:00.000",
@@ -321,6 +352,17 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2559419",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-31",
+   "n": "HALLOWEEN AT DIO",
+   "algus": "2026-10-31T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2561232",
    "pilet": false
   },
   {
