@@ -1,1 +1,51 @@
-[]
+[
+ {
+  "oid": "ule-heli-2026",
+  "lisatud": "2026-10-15",
+  "tahtaeg": "2026-10-20",
+  "kysimus": "Üle Heli 2026 (N 22.–P 25.10, Tallinn: Kanuti Gildi SAAL, Mustpeade maja, ARS, Eesti Nüüdismuusika Keskus) – kas eksperimentaalse heli festival läheb klubi-saidile või jääb välja (nüüdismuusika/EMA-telg)?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "välja – nüüdismuusika/elektroakustika (EMA-telje pretsedent)"
+   },
+   {
+    "id": "b",
+    "tekst": "klubi – üks katusekirje 22.–25.10 (sildid experimental-telg: ambient/electro), pu = Fienta"
+   },
+   {
+    "id": "c",
+    "tekst": "klubi – ainult 23.10 Modulatsioonipalee (Thomas Ankersmit Serge-süntidel jt) + 24.10 Ööklubi ARS-is"
+   }
+  ],
+  "vaikeotsus": "a",
+  "lingid": [
+   "https://fienta.com/et/ule-heli-2026",
+   "https://www.facebook.com/events/1964000258320104/",
+   "https://ule-heli.ee"
+  ],
+  "kontekst": "Leitud Fienta uudiskirjast 14.10. Fienta leht: kava 22.10 AVAavarus (Küberstuudio, Kismabande jt), 23.10 Modulatsioonipalee (Ekke Västrik, Thomas Ankersmit (DE) Serge-süntesaatorid, Sofia Zaiceva & Andreas Trobollowich), 24.10 Sfääriline õhtu + kl 22 Ööklubi ARS D Hoovimajas (esinejad avaldamata), 25.10 Lõpukõver; piletid 10–15 €, pass 40 €. Korraldaja ise ütleb, et festival keskendub 'žanrimääratluste asemel' heli tähendusele – žanrit pole; toetajad EMTA, Nüüdismuusika Keskus, Elektroakustiliste Heliloojate Ühing. Klubi skoobis on 'experimental electronics', aga REEGLID §1 pretsedent: nüüdismuusika (EMA-telg) välja."
+ },
+ {
+  "oid": "kluub-rockabilly-2026-10-17",
+  "lisatud": "2026-10-15",
+  "tahtaeg": "2026-10-17",
+  "kysimus": "Rockabilly Night – Rusty Roaders, L 17.10 kl 21.30, Ray's Music Bar (Ülikooli 5, Tartu), tasuta – kas rockabilly kuulub www rock-skoopi?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "välja – retro rock'n'roll/tantsubaari õhtu, mitte alternatiivne kitarrimuusika"
+   },
+   {
+    "id": "b",
+    "tekst": "www, sildid rock (+ edaspidi rockabilly-õhtud Ray'sis tavakorras sisse)"
+   }
+  ],
+  "vaikeotsus": "a",
+  "lingid": [
+   "https://www.facebook.com/events/1097930909316997",
+   "https://www.kluub.ee/et/events/tartu/e90627a6-9d75-4b0e-bf2b-1827534fd2de"
+  ],
+  "kontekst": "kluub.ee (samm 2c) + FB event (korraldajad Ray's 50's and 60's Music Bar + Rusty Roaders, bändi FB-leht: 'Estonian Rockabilly band'). Kaks allikat olemas, küsimus on ainult skoobis. Üritus on juba laupäeval – vastus R 16.10 jõuab veel rakendada."
+ }
+]

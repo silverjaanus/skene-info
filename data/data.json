@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "entries": [
   {
    "rel": 1,
@@ -213,35 +213,6 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid punk, punk rock; asukoht Tallinn.",
    "img": "pildid/20261006.webp"
-  },
-  {
-   "d": "2026-10-14",
-   "t": "kontsert",
-   "n": "SFP esitleb: Malicious Death (FIN) + Sgt. Slime (FIN) + Hingerahu + Hirmuvalitseja",
-   "a": "Soome thrasherite Balti tuur; 17.00–21.59",
-   "b": [
-    "Malicious Death (FIN)",
-    "Sgt. Slime (FIN)",
-    "Hingerahu",
-    "Hirmuvalitseja"
-   ],
-   "v": "SAAR CULT",
-   "c": "Tallinn",
-   "g": [
-    "thrash",
-    "metal",
-    "heavy"
-   ],
-   "sn": "Secret Face Productions (FB events)",
-   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2114804919248182/",
-   "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab. ⚠ EI OLE duplikaat 15.10 Konservatooriumi (Viljandi) kirjega — sama tuur, eri kuupäev, eri linn, Tallinna kavas lisaks Hirmuvalitseja. Pilet/uksehind avaldamata. | 02.10.2026 sweep: FB event näitab nüüd toimumiskohana SAAR CULT (mitte Kotka Kultuurimaja); pilet 10 € sulas. Žanrid eventilt: Malicious Death thrash, Sgt. Slime crossover/thrash, Hirmuvalitseja raw death, Hingerahu heavy/doom.",
-   "hind": {
-    "praegu": "10 € (ainult sularahas)",
-    "allikas": "FB event, kontrollitud 02.10.2026"
-   }
   },
   {
    "d": "2026-10-15",
@@ -1254,6 +1225,33 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Rockclub Tapper, The Tyrants jt) + Fienta piletileht (soojendajad Süngehel ja The Tyrants; LP 23.10 Nailboard Records). Leitud ka Fienta metal-otsingust.",
    "img": "pildid/tharaphitaoisetaevagauheksplaadiesitlussungehelthetyrants.webp"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Jimi Hendrix 84 — CryBaby (Tartu)",
+   "a": "CryBaby tähistab Jimi Hendrixi 84. sünniaastapäeva, rock & roll; algus 21.00. CryBaby asutati 1992 Hendrixi 50. sünnipäeva tähistamiseks, traditsioon kestnud 34 aastat",
+   "b": [
+    "CryBaby"
+   ],
+   "v": "Püssirohukelder",
+   "c": "mujal",
+   "linn": "Tartu",
+   "g": [
+    "rock",
+    "bluus"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/07d16da5-487f-4ea4-b601-bc90e547f111",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1046829621531554",
+   "hind": {
+    "praegu": "15 €",
+    "mark": "kannumeestele tasuta",
+    "allikas": "FB event, kontrollitud 15.10.2026"
+   },
+   "lisatud": "2026-10-15",
+   "nb": "lisatud postkastijooksus 15.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + ürituse FB event (korraldajad CryBaby + Püssirohukelder; 31.10 kl 21, Lossi 28 Tartu, pilet 15 €). Žanr: CryBaby FB-leht 'Blues / Rock' (sama kui 10.10 Juuda kirjel). Online-piletilinki ei leitud."
   },
   {
    "d": "2026-10-31",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 427,
+ "count": 428,
  "entries": [
   {
    "sait": "www",
@@ -11592,6 +11592,36 @@
    },
    "lisatud": "2026-10-10",
    "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 10.10.2026. Kaks allikat: ürituse FB event (korraldaja TOPS, Soo 15) + kluub.ee. Žanr ürituse enda tekstist."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-14",
+   "t": "kontsert",
+   "n": "SFP esitleb: Malicious Death (FIN) + Sgt. Slime (FIN) + Hingerahu + Hirmuvalitseja",
+   "a": "Soome thrasherite Balti tuur; 17.00–21.59",
+   "b": [
+    "Malicious Death (FIN)",
+    "Sgt. Slime (FIN)",
+    "Hingerahu",
+    "Hirmuvalitseja"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "thrash",
+    "metal",
+    "heavy"
+   ],
+   "sn": "Secret Face Productions (FB events)",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2114804919248182/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Kotka Kultuurimaja) + Kotka Kultuurimaja FB events-tab. ⚠ EI OLE duplikaat 15.10 Konservatooriumi (Viljandi) kirjega — sama tuur, eri kuupäev, eri linn, Tallinna kavas lisaks Hirmuvalitseja. Pilet/uksehind avaldamata. | 02.10.2026 sweep: FB event näitab nüüd toimumiskohana SAAR CULT (mitte Kotka Kultuurimaja); pilet 10 € sulas. Žanrid eventilt: Malicious Death thrash, Sgt. Slime crossover/thrash, Hirmuvalitseja raw death, Hingerahu heavy/doom.",
+   "hind": {
+    "praegu": "10 € (ainult sularahas)",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   }
   }
  ]
 }

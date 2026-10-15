@@ -419,6 +419,27 @@
       "tyyp": "promootor",
       "sait": "klubi",
       "nb": "lisatud postkastijooksus 13.10.2026 (kluub.ee Tartu: OFFLINE @ Klubi Gutenberg 16.10, FB event https://www.facebook.com/events/1594452135361569). Tartu peosari, house/hardgroove/speed garage, piletid GateMe. ⚠ FB-lehe handle leidmata, kluub.ee korraldajaleht ajutiselt - leia FB/IG järgmises sweepis."
+    },
+    {
+      "nimi": "Püssirohukelder (Tartu pubi)",
+      "url": "https://www.kluub.ee/et/events/tartu",
+      "tyyp": "venue",
+      "sait": "www",
+      "nb": "lisatud postkastijooksus 15.10.2026 (kluub.ee, CryBaby/Jimi Hendrix 84 31.10). Lossi 28 Tartu, aeg-ajalt rock/bluusi-kontserdid (FB soovitas ka Magnetic Band – Gunnar Graps 75, 13.11). FB lehe handle leidmata – leia sweepis ja lisa facebook.com/<handle>/events."
+    },
+    {
+      "nimi": "Ray's 50's and 60's Music Bar (Tartu)",
+      "url": "https://www.kluub.ee/et/events/tartu",
+      "tyyp": "venue",
+      "sait": "www",
+      "nb": "lisatud postkastijooksus 15.10.2026 (kluub.ee, Rusty Roaders Rockabilly Night 17.10). Ülikooli 5 Tartu, rock'n'roll/rockabilly baar. Skoop (rockabilly) ootab Silveri otsust sweep/otsused.json oid kluub-rockabilly-2026-10-17."
+    },
+    {
+      "nimi": "Üle Heli festival (MTÜ Hea Uus Heli, Tallinn)",
+      "url": "https://fienta.com/et/ule-heli-2026",
+      "tyyp": "korraldaja",
+      "sait": "klubi",
+      "nb": "lisatud postkastijooksus 15.10.2026 (Fienta uudiskiri 14.10). Eksperimentaalse heli/elektroakustika festival 22.-25.10.2026, FB https://www.facebook.com/events/1964000258320104/. Skoop ootab Silveri otsust (oid ule-heli-2026)."
     }
   ],
   "ig": [

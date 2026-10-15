@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -136,6 +136,10 @@
     {
      "n": "Pubi Juudas",
      "u": "https://www.facebook.com/pubijuudas/events?locale=et_EE"
+    },
+    {
+     "n": "Püssirohukelder (Tartu pubi)",
+     "u": "https://www.kluub.ee/et/events/tartu"
     },
     {
      "n": "Rock & Roll Heaven (Tartu)",
@@ -429,6 +433,10 @@
     {
      "n": "Violetscape",
      "u": "https://www.facebook.com/Violetscape/events"
+    },
+    {
+     "n": "Üle Heli festival (MTÜ Hea Uus Heli, Tallinn)",
+     "u": "https://fienta.com/et/ule-heli-2026"
     }
    ]
   },
