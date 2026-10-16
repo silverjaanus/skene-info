@@ -283,8 +283,10 @@
   "su": "https://azma.ee/sein/etn/azma-suur-juubelikontsert/",
   "pu": "https://fienta.com/et/azma-suur-juubelikontsert",
   "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: artisti oma leht azma.ee + Fienta piletileht. Žanr ürituse tekstist (räpparid, klassikaline hip-hop). FB eventi ei leidnud → ou tühi.",
-  "img": "pildid/azmasuurjuubelikontsert.webp"
+  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: artisti oma leht azma.ee + Fienta piletileht. Žanr ürituse tekstist (räpparid, klassikaline hip-hop). FB eventi ei leidnud → ou tühi. | 16.10.2026 sweep: rikastatud (ou).",
+  "img": "pildid/azmasuurjuubelikontsert.webp",
+  "ou": "https://www.facebook.com/events/857342057404133/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-10-02",
@@ -410,7 +412,8 @@
   "ou": "https://www.facebook.com/events/1086686604008572/",
   "pu": "https://www.piletilevi.ee/piletid/O2TKFRAET4/ohtud-anuga-kutsub-eesti-suur-rapilaulupidu",
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 õhtul räpiallikate otsingus. FB event (korraldajad Õhtud Anuga, 5MIINUST, VV Productions) + Piletilevi piletileht (REEGLID §3 piletimüügi erand). Erikülalised An-Marlen ja Liis Lemsalu, õhtujuht Anu Välba — b-sse ei pandud, sest nad pole räpparid. Hind Piletilevist kontrollimata (JS)."
+  "nb": "lisatud 09.10.2026 õhtul räpiallikate otsingus. FB event (korraldajad Õhtud Anuga, 5MIINUST, VV Productions) + Piletilevi piletileht (REEGLID §3 piletimüügi erand). Erikülalised An-Marlen ja Liis Lemsalu, õhtujuht Anu Välba — b-sse ei pandud, sest nad pole räpparid. Hind Piletilevist kontrollimata (JS).",
+  "img": "pildid/eestisuurrapilaulupidu.webp"
  },
  {
   "d": "2026-10-30",
@@ -435,7 +438,8 @@
    "allikas": "FB event, kontrollitud 09.10.2026"
   },
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 Silveri otsusega („jep“) — žanrit ega koosseisu üritus ei ütle, aga korraldaja on 5MIINUST (+ D3). Kaks allikat: FB event + GateMe piletileht."
+  "nb": "lisatud 09.10.2026 Silveri otsusega („jep“) — žanrit ega koosseisu üritus ei ütle, aga korraldaja on 5MIINUST (+ D3). Kaks allikat: FB event + GateMe piletileht.",
+  "img": "pildid/halloweenirammar.webp"
  },
  {
   "d": "2026-12-12",
@@ -465,6 +469,73 @@
    "allikas": "GateMe, kontrollitud 09.10.2026"
   },
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 Silveri otsusega („jah“), kuigi koosseisus on peavoolupopp (Getter Jaani, Clicherik & Mäx) — peaesinejad 5MIINUST ja Suur Papa. Kaks allikat: FB event (Pulse Events + 5MIINUST) + GateMe piletileht (korraldaja Lepapuu OÜ). FB näitab aadressina Teguri 28A = Kammivabrik."
+  "nb": "lisatud 09.10.2026 Silveri otsusega („jah“), kuigi koosseisus on peavoolupopp (Getter Jaani, Clicherik & Mäx) — peaesinejad 5MIINUST ja Suur Papa. Kaks allikat: FB event (Pulse Events + 5MIINUST) + GateMe piletileht (korraldaja Lepapuu OÜ). FB näitab aadressina Teguri 28A = Kammivabrik.",
+  "img": "pildid/arcticpulsevol2blackice.webp"
+ },
+ {
+  "d": "2026-10-31",
+  "t": "klubi",
+  "n": "Buttercups Halloween",
+  "a": "Buttercupsi halloweenipidu: kostüümid, dekoratsioonid, hip-hop; 22.30, 18+",
+  "b": [],
+  "koosseis_tba": 1,
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/buttercups-halloween/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2336436893836188",
+  "pu": "https://gateme.com/ru/Paavlikultuurivabrik-stellar/104386-buttercups-halloween/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. paavli.ee ürituseleht + FB event + GateMe. Žanr ürituse tekstist („любимый хип-хоп“); Buttercupsi pretsedent (MIF x Buttercups 29.08 rap+klubi).",
+  "img": "pildid/buttercupshalloween.webp"
+ },
+ {
+  "d": "2026-11-06",
+  "t": "klubi",
+  "n": "BAD JAM @ Legendaarne Raadio & Baar",
+  "a": "DJ Bad J: classic & blazin' upfront R&B, hip-hop, afro & dancehall; 22.00",
+  "b": [
+   "DJ Bad J"
+  ],
+  "v": "Legendaarne Raadio",
+  "c": "Tallinn",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Legendaarne Raadio FB events-tab",
+  "su": "https://www.facebook.com/LegendaarneRaadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1105078858557961/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS."
+ },
+ {
+  "d": "2026-11-20",
+  "t": "kontsert",
+  "n": "RAJOONIKAS: Suur Papa | Bad Art | LSteelo",
+  "a": "963 Recordsi esimene Rajoonikas Tallinnas",
+  "b": [
+   "Suur Papa",
+   "Bad Art",
+   "LSteelo"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/suur-papa-bad-art-lsteelo-rajoonikas/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2102323184057710",
+  "pu": "https://gateme.com/et/Paavlikultuurivabrik-stellar/104387-rajoonikas-suur-papa-bad-art-l-steelo/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. paavli.ee ürituseleht + FB event + GateMe.",
+  "img": "pildid/rajoonikassuurpapabadartlsteelo.webp"
  }
 ]

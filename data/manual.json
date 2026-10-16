@@ -550,7 +550,10 @@
    "mark": "eelmüük kuni 16.10; toetajapilet 50€; õpilane/pensionär/puue 26€; uksed 18.00, esimene bänd 19.00",
    "allikas": "Fienta (Tori Valla Kultuurikeskus), kontrollitud 12.07.2026"
   },
-  "img": "pildid/sindirock2026.webp"
+  "img": "pildid/sindirock2026.webp",
+  "ou": "https://www.facebook.com/events/990247623812582/",
+  "on_": "Facebook event",
+  "nb": "16.10.2026 sweep: rikastatud (ou)."
  },
  {
   "d": "2026-10-17",
@@ -675,8 +678,10 @@
   ],
   "sn": "suddenlights.lv",
   "su": "https://www.suddenlights.lv/lv/concerts",
-  "nb": "lisatud 02.08.2026 Silveri otsusel. Varem oli sekts 4 all '1 allikaga ootel' — bändi enda tuurikalender kinnitas.",
-  "img": "pildid/suddenlightslv.webp"
+  "nb": "lisatud 02.08.2026 Silveri otsusel. Varem oli sekts 4 all '1 allikaga ootel' — bändi enda tuurikalender kinnitas. | 16.10.2026 sweep: rikastatud (ou).",
+  "img": "pildid/suddenlightslv.webp",
+  "ou": "https://www.facebook.com/events/1551860096473388/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-10-30",
@@ -1015,9 +1020,9 @@
   ],
   "sn": "Metal Storm",
   "su": "https://metalstorm.net/events/event.php?event_id=232956",
-  "on_": "tapper.ee",
-  "ou": "https://www.tapper.ee/event/master-boot-record-ita-fulci-ita/",
-  "nb": "27.07.2026: rikastatud Rockclub Tapperi enda ürituselehelt (Silveri viide) — kirjeldus, žanrid (oli ainult industrial+electro, tegelikult ka death metal), vanusepiirang 0+. KORRALDAJA on tapperi lehe järgi UCE Agency, mitte Tapper ise; UCE-l puudub ürituse URL, seetõttu on 'korraldaja' väljal venue enda ürituseleht (sama muster nagu helitehas.ee kirjetel). Piletilinki lehel EI OLE.",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2108837996557550/",
+  "nb": "27.07.2026: rikastatud Rockclub Tapperi enda ürituselehelt (Silveri viide) — kirjeldus, žanrid (oli ainult industrial+electro, tegelikult ka death metal), vanusepiirang 0+. KORRALDAJA on tapperi lehe järgi UCE Agency, mitte Tapper ise; UCE-l puudub ürituse URL, seetõttu on 'korraldaja' väljal venue enda ürituseleht (sama muster nagu helitehas.ee kirjetel). Piletilinki lehel EI OLE. | 16.10.2026 sweep: rikastatud (ou).",
   "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno",
   "img": "pildid/masterbootrecordfulciarottenbit.webp"
  },
@@ -1091,7 +1096,8 @@
    "Draugveil (UA/CZ)",
    "Epäkristus (FIN)",
    "Pedigree",
-   "Tinner (AX)"
+   "Tinner (AX)",
+   "Scythrow (FI)"
   ],
   "v": "The Krypt",
   "c": "Tallinn",
@@ -1103,10 +1109,12 @@
   "sn": "IG @sugisextremefest",
   "su": "https://www.instagram.com/sugisextremefest/",
   "koosseis_tba": 1,
-  "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb. | 09.10.2026 järelkäik: Fienta lehel koosseis +PEDIGREE (EE, industrial metal), +TINNER (AX, d-beat/crust); „more band announcements coming soon“.",
+  "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb. | 09.10.2026 järelkäik: Fienta lehel koosseis +PEDIGREE (EE, industrial metal), +TINNER (AX, d-beat/crust); „more band announcements coming soon“. | 16.10.2026 sweep: rikastatud (ou, b+Scythrow (FI)).",
   "d2": "12.12",
   "pu": "https://fienta.com/et/sugis-extreme-fest-4",
-  "img": "pildid/sugisextremefestiv.webp"
+  "img": "pildid/sugisextremefestiv.webp",
+  "ou": "https://www.facebook.com/events/1599952971787970/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-12-11",
@@ -2717,8 +2725,10 @@
   "su": "https://paavli.ee/sundmused/",
   "pu": "https://fienta.com/et/brujeria-tallinn-paavli",
   "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: paavli.ee kava + Fienta piletileht (T 09.03.2027 19:00). Žanr Fienta tekstist (deathgrind). FB eventi ei leidnud (Damn.Loud events-tab näitab ainult 8 esimest) → ou tühi.",
-  "img": "pildid/brujeriauscriminalcl.webp"
+  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: paavli.ee kava + Fienta piletileht (T 09.03.2027 19:00). Žanr Fienta tekstist (deathgrind). FB eventi ei leidnud (Damn.Loud events-tab näitab ainult 8 esimest) → ou tühi. | 16.10.2026 sweep: rikastatud (ou).",
+  "img": "pildid/brujeriauscriminalcl.webp",
+  "ou": "https://www.facebook.com/events/1398240485793699/",
+  "on_": "Facebook event"
  },
  {
   "d": "2027-07-02",
@@ -3172,8 +3182,10 @@
   "su": "https://fienta.com/o/17595",
   "pu": "https://fienta.com/katarsis-unplugged-tallinn",
   "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. Fienta korraldajaleht: „Katarsis Unplugged | Tallinn - ADDITIONAL DATE!“ N 21.01 19.00 + 20.01 „Sold out“. Teine allikas: Paavli Kultuurivabriku Fienta-leht = sama korraldaja; paavli.ee üritusleht kinnitab sarja. Eraldi piletiga → eraldi kirje (REEGLID §5), dupe_ok-is.",
-  "img": "pildid/katarsisltunpluggedlisakontsert.webp"
+  "nb": "lisatud sweepis 09.10.2026. Fienta korraldajaleht: „Katarsis Unplugged | Tallinn - ADDITIONAL DATE!“ N 21.01 19.00 + 20.01 „Sold out“. Teine allikas: Paavli Kultuurivabriku Fienta-leht = sama korraldaja; paavli.ee üritusleht kinnitab sarja. Eraldi piletiga → eraldi kirje (REEGLID §5), dupe_ok-is. | 16.10.2026 sweep: rikastatud (ou).",
+  "img": "pildid/katarsisltunpluggedlisakontsert.webp",
+  "ou": "https://www.facebook.com/events/2189069794987992/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-10-02",
@@ -3707,7 +3719,10 @@
   "su": "https://fienta.com/et?q=rock",
   "pu": "https://fienta.com/et/208655",
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta piletileht (žanr: „progressiivne death metal“, post-hardcore/post-rock)."
+  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta piletileht (žanr: „progressiivne death metal“, post-hardcore/post-rock). | 16.10.2026 sweep: rikastatud (ou).",
+  "ou": "https://www.facebook.com/events/1770487310831114/",
+  "on_": "Facebook event",
+  "img": "pildid/surgentoceandistrictsalbumiesitlusedtartusmobisamobisa.webp"
  },
  {
   "d": "2026-11-13",
@@ -3727,7 +3742,8 @@
   "su": "https://fienta.com/et?q=rock",
   "pu": "https://fienta.com/et/laine-live-chauncy-de-ua",
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Art of Mosh OÜ): „alternative rock band based in Berlin ... heavy guitars“."
+  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Art of Mosh OÜ): „alternative rock band based in Berlin ... heavy guitars“.",
+  "img": "pildid/lainelivechauncydeua.webp"
  },
  {
   "d": "2026-11-14",
@@ -3748,7 +3764,8 @@
   "su": "https://fienta.com/et?q=punk",
   "pu": "https://fienta.com/et/punk-oo-kojamees-and-the-gang",
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Parim Pidu OÜ / Trahter Postipoiss)."
+  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Parim Pidu OÜ / Trahter Postipoiss).",
+  "img": "pildid/punkookojameesandthegang.webp"
  },
  {
   "d": "2026-10-24",
@@ -3772,7 +3789,8 @@
    "allikas": "Tourmotor, kontrollitud 09.10.2026"
   },
   "lisatud": "2026-10-09",
-  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Tourmotor (žanr: noise rock, space music, krautrock; Maike Lond, Raul Reinup, Renzo van Steenbergen)."
+  "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Tourmotor (žanr: noise rock, space music, krautrock; Maike Lond, Raul Reinup, Renzo van Steenbergen).",
+  "img": "pildid/liveoutofjariambob.webp"
  },
  {
   "d": "2026-11-13",
@@ -3982,5 +4000,368 @@
   },
   "lisatud": "2026-10-15",
   "nb": "lisatud postkastijooksus 15.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + ürituse FB event (korraldajad CryBaby + Püssirohukelder; 31.10 kl 21, Lossi 28 Tartu, pilet 15 €). Žanr: CryBaby FB-leht 'Blues / Rock' (sama kui 10.10 Juuda kirjel). Online-piletilinki ei leitud."
+ },
+ {
+  "d": "2026-10-17",
+  "t": "kontsert",
+  "n": "CAUSE A RIOT (FI) + I Am Bob + Mittekunagimaa",
+  "a": "Helsingi melodic hardcore bänd Cause a Riot Ülase12-s; algus 19.00",
+  "b": [
+   "Cause a Riot (FI)",
+   "I Am Bob",
+   "Mittekunagimaa"
+  ],
+  "v": "Ülase12",
+  "c": "Tallinn",
+  "g": [
+   "punk",
+   "core"
+  ],
+  "sn": "Rada7.ee FB events-tab",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2587689351678799/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad Anemon12 + Fedja Skunk, kaks lehte) + Rada7.ee events-tab. Žanr ürituse tekstist: „CAUSE A RIOT, a melodic hardcore 4-piece band from Helsinki“. Piletiinfot lehel pole."
+ },
+ {
+  "d": "2026-11-06",
+  "t": "kontsert",
+  "n": "Magnetic Band — Gunnar Graps 75",
+  "a": "Eesti rokkmuusika legend Magnetic Band viimase koosseisuga Gunnar Grapsi mälestuseks; algus 21.00",
+  "b": [
+   "Magnetic Band"
+  ],
+  "v": "Pubi Juudas",
+  "c": "mujal",
+  "linn": "Tõrva",
+  "g": [
+   "rock",
+   "heavy"
+  ],
+  "sn": "Pubi Juudas FB events-tab",
+  "su": "https://www.facebook.com/pubijuudas/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1658214545847314/",
+  "pu": "https://gateme.com/et/pubijuudas/104397-magnetic-band-gunnar-graps-75-i-torva-juudas/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Pubi Juudas) + GateMe piletileht. Žanr ürituse tekstist („Eesti rokkmuusika legend“).",
+  "img": "pildid/magneticbandgunnargraps75.webp"
+ },
+ {
+  "d": "2026-11-06",
+  "t": "kontsert",
+  "n": "PööLoY GLääNZ 37 @ Kära Kants",
+  "a": "bändi 37. sünnipäevakontsert, „vana kuld ja uuem hõbe“; kontserdi algus 23.00",
+  "b": [
+   "PööLoY GLääNZ"
+  ],
+  "v": "Kära Kants",
+  "c": "mujal",
+  "linn": "Rakvere",
+  "g": [
+   "rock",
+   "punk"
+  ],
+  "sn": "Kära Kants FB grupp (events)",
+  "su": "https://www.facebook.com/groups/112392415448166/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1023951770721225/",
+  "hind": {
+   "praegu": "7 € kannumeestele / 8 €",
+   "allikas": "FB event, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad PööLoY GLääNZ + Oleg Knjazev) + Kära Kantsi grupi events-list. Žanr ürituse tekstist („tuleb ja rockib“)."
+ },
+ {
+  "d": "2026-11-06",
+  "t": "kontsert",
+  "n": "Jimi Hendrix 84 — CryBaby (Viljandi)",
+  "a": "CryBaby tähistab Jimi Hendrixi 84. sünniaastapäeva, rock & roll; uksed 20.00, algus 21.30",
+  "b": [
+   "CryBaby"
+  ],
+  "v": "Konservatoorium",
+  "c": "mujal",
+  "linn": "Viljandi",
+  "g": [
+   "rock",
+   "bluus"
+  ],
+  "sn": "Konservatoorium FB events-tab",
+  "su": "https://www.facebook.com/konservatoorium/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/29046245604969513/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad CryBaby + Konservatoorium + Martti Muda). ⚠ FB asukohaväljal on ekslikult Püssirohukelder (Tartu kontserdi koopia), pealkiri ja kaaskorraldaja ütlevad Konservatoorium Viljandi. Sarnane Tartu kontsert 31.10 on eraldi kirje."
+ },
+ {
+  "d": "2026-11-07",
+  "t": "kontsert",
+  "n": "The Tuberkuloited — Kuressaare Karikaturniiri afterparty",
+  "a": "korvpalliturniiri järelpidu Ööklubis Diva, live The Tuberkuloited + DJ Tõnu G; uksed 23.00",
+  "b": [
+   "The Tuberkuloited"
+  ],
+  "v": "Ööklubi Diva",
+  "c": "mujal",
+  "linn": "Kuressaare",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Fienta avalik API (EE)",
+  "su": "https://fienta.com/l-7-11-the-tuberkuloited-kuressaare-karikaturniir-2026-korvapalli-afterparty",
+  "pu": "https://fienta.com/l-7-11-the-tuberkuloited-kuressaare-karikaturniir-2026-korvapalli-afterparty",
+  "hind": {
+   "praegu": "13 €",
+   "mark": "tavapilet 18 € alates 26.10",
+   "allikas": "Fienta, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. Fienta piletileht (REEGLID §3 piletimüüja-erand). Sildid samad mis teistel Tuberkuloited kirjetel.",
+  "img": "pildid/thetuberkuloitedkuressaarekarikaturniiriafterparty.webp"
+ },
+ {
+  "d": "2026-11-20",
+  "t": "kontsert",
+  "n": "Heavy Friday: Metal Metuusala + Goodman & Viljanen (FI)",
+  "a": "kaks tribüüt-/kaverbändi: Goodman & Viljanen (hard rock klassika akustiliselt) ja Metal Metuusala (80-90ndate hevi ja grunge); uksed 20.00, show 22.00, 00.00 tasuta aftekas",
+  "b": [
+   "Metal Metuusala",
+   "Goodman & Viljanen (FI)"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "heavy",
+   "rock"
+  ],
+  "sn": "The Krypt FB events-tab",
+  "su": "https://www.facebook.com/thekrypt.tallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/3375441239511338/",
+  "pu": "https://fienta.com/et/goodmanviljanen-metalmetuusala-thekrypt",
+  "hind": {
+   "praegu": "15 €",
+   "allikas": "Fienta, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (The Krypt + Sügis Productions) + Fienta. ⚠ Kaverbändid — Goodman & Viljanen 02.10 300 klubis lisati Silveri otsusega (b); sama telg, kui ei sobi, eemalda.",
+  "img": "pildid/heavyfridaymetalmetuusalagoodmanviljanenfi.webp"
+ },
+ {
+  "d": "2026-11-21",
+  "t": "kontsert",
+  "n": "Ocean Districts «Pulsar» esitluskontsert + Mobisa Mobisa",
+  "a": "uue albumi „Pulsar“ Tallinna esitlus, tunnine set uue ja vana materjaliga; õhtu avab Mobisa Mobisa",
+  "b": [
+   "Ocean Districts",
+   "Mobisa Mobisa"
+  ],
+  "v": "SAAR CULT",
+  "c": "Tallinn",
+  "g": [
+   "post",
+   "core",
+   "rock",
+   "alt"
+  ],
+  "sn": "Rada7.ee FB events-tab",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2380568782683420/",
+  "pu": "https://fienta.com/et/ocean-districts-pulsar-esitluskontsert-mobisa-mobisa-vinuuliesitlus",
+  "hind": {
+   "praegu": "alates 15 €",
+   "allikas": "Fienta, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Ocean Districts + Mobisa Mobisa) + Fienta. Žanr Fienta tekstist: post-hardcore, post-rock, alternatiivrock.",
+  "img": "pildid/oceandistrictspulsaresitluskontsertmobisamobisa.webp"
+ },
+ {
+  "d": "2026-12-05",
+  "t": "kontsert",
+  "n": "Legendide Õhtu: Propeller, Singer Vinger & Pretty Affair (FI)",
+  "a": "õhtujuht Vahur Kersna; Propeller (punk-rock), Singer Vinger (rock), Pretty Affair (Soome rock)",
+  "b": [
+   "Propeller",
+   "Singer Vinger",
+   "Pretty Affair (FI)"
+  ],
+  "v": "Linda rahvamaja",
+  "c": "mujal",
+  "linn": "Kobela",
+  "g": [
+   "punk",
+   "rock"
+  ],
+  "sn": "Fienta avalik API (EE)",
+  "su": "https://fienta.com/legendide-ohtu-propeller-singer-vinger-pretty-affair-fi-ja-vahur-kersnalinda-rahvamajas",
+  "pu": "https://fienta.com/legendide-ohtu-propeller-singer-vinger-pretty-affair-fi-ja-vahur-kersnalinda-rahvamajas",
+  "hind": {
+   "praegu": "alates 23 €",
+   "allikas": "Fienta, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. Fienta piletileht (piletimüüja-erand); žanr Fienta tekstist („Eesti punk-roki elav legend“, „rokkansambel“). ⚠ Piiripealne nostalgiaõhtu — kui peavoolu-telg, eemalda.",
+  "img": "pildid/legendideohtupropellersingervingerprettyaffairfi.webp"
+ },
+ {
+  "d": "2026-12-18",
+  "t": "kontsert",
+  "n": "Metal Friday: Maleva + Dreadpin",
+  "a": "Maleva 20. aastapäeva erikontsert + progressiivne metal Dreadpin; uksed 20.00, kontsert 22.00, 00.00 tasuta afterparty",
+  "b": [
+   "Maleva",
+   "Dreadpin"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "death",
+   "thrash",
+   "metal"
+  ],
+  "sn": "The Krypt FB events-tab",
+  "su": "https://www.facebook.com/thekrypt.tallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1663294159139722/",
+  "pu": "https://fienta.com/maleva-dreadpin-thekrypt",
+  "hind": {
+   "praegu": "alates 13 €",
+   "allikas": "Fienta, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (The Krypt) + Fienta (Sügis Productions).",
+  "img": "pildid/metalfridaymalevadreadpin.webp"
+ },
+ {
+  "d": "2027-06-24",
+  "d2": "26.06",
+  "t": "festival",
+  "n": "Kilkim Žaibu XXVII",
+  "a": "Balti kultuuri ja ekstreemmuusika festival Lėnase järve kaldal; koosseis avaldamata",
+  "b": [],
+  "koosseis_tba": 1,
+  "v": "Ukmergė",
+  "c": "Euroopa",
+  "linn": "Ukmergė (Leedu)",
+  "g": [
+   "black",
+   "death",
+   "folk",
+   "pagan"
+  ],
+  "sn": "kilkimzaibu.com",
+  "su": "https://kilkimzaibu.com/en",
+  "ou": "https://kilkimzaibu.com/en",
+  "on_": "kilkimzaibu.com",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. Ametlik festivalisait (sources.json rahvusvaheline/baltikum): „2027 June 24 - 26, Ukmergė“, piletimüük käib. Koosseis TBA.",
+  "img": "pildid/kilkimzaibuxxvii.webp"
+ },
+ {
+  "d": "2026-10-12",
+  "t": "reliis",
+  "rel": 1,
+  "n": "dšihhingo — «lakkamatu küttimine»",
+  "b": [
+   "dšihhingo"
+  ],
+  "g": [
+   "death",
+   "sludge",
+   "metal"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://dihhingo.bandcamp.com/album/lakkamatu-k-ttimine",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released October 12, 2026; Tallinn; sildid death metal, sludge, experimental.",
+  "img": "pildid/dsihhingolakkamatukuttimine.webp"
+ },
+ {
+  "d": "2026-10-10",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Tuisk — «Samblasängi»",
+  "b": [
+   "Tuisk"
+  ],
+  "g": [
+   "black",
+   "pagan"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://warhorn.bandcamp.com/album/samblas-ngi",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released October 10, 2026 (Warhorn); sildid atmospheric/pagan black metal.",
+  "img": "pildid/tuisksamblasangi.webp"
+ },
+ {
+  "d": "2026-10-01",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Burn Still — «Straight Outta MySpace»",
+  "a": "demode ja kaverite kogumik",
+  "b": [
+   "Burn Still"
+  ],
+  "g": [
+   "metal",
+   "core"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://burnstill.bandcamp.com/album/straight-outta-myspace",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released October 1, 2026; sildid metalcore, demos, cover. Burn Still XX Anniversary 28.11 Paavli.",
+  "img": "pildid/burnstillstraightouttamyspace.webp"
+ },
+ {
+  "d": "2026-09-30",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Tabloited — «Mässaja» (ft. KillBaba Kaare)",
+  "a": "singel",
+  "b": [
+   "Tabloited"
+  ],
+  "g": [
+   "punk"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://tabloited.bandcamp.com/album/m-ssaja-ft-killbaba-kaare",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released September 30, 2026; sildid crossover, punk, melodic.",
+  "img": "pildid/tabloitedmassajaftkillbabakaare.webp"
+ },
+ {
+  "d": "2026-08-07",
+  "t": "reliis",
+  "rel": 1,
+  "n": "AITÄH EMA! — «Aega Maha Tiksub Kell» EP",
+  "b": [
+   "AITÄH EMA!"
+  ],
+  "g": [
+   "punk"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://aitahema.bandcamp.com/album/aega-maha-tiksub-kell-ep",
+  "lisatud": "2026-08-07",
+  "nb": "lisatud sweepis 16.10.2026. released August 7, 2026 (Pärnu; street punk/oi). Vanem reliis → lisatud = d (REEGLID §6), ei lähe esilehele.",
+  "img": "pildid/aitahemaaegamahatiksubkellep.webp"
  }
 ]

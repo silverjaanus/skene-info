@@ -594,13 +594,15 @@
   "su": "https://fienta.com/et/satnam-2027",
   "pu": "https://fienta.com/et/satnam-2027",
   "lisatud": "2026-08-02",
-  "nb": "lisatud sweepis 02.08.2026; leitud Fienta dnb-otsinguga, korraldaja SatNam pro (FB/IG @satnamest); PIIRIPEALNE: heaolu-/teadlikkusfestivali kallak, aga baasžanr elektrooniline tantsumuusika — kui Silver peab skoobiväliseks, eemalda | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
+  "nb": "lisatud sweepis 02.08.2026; leitud Fienta dnb-otsinguga, korraldaja SatNam pro (FB/IG @satnamest); PIIRIPEALNE: heaolu-/teadlikkusfestivali kallak, aga baasžanr elektrooniline tantsumuusika — kui Silver peab skoobiväliseks, eemalda | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 16.10.2026 sweep: rikastatud (ou).",
   "koosseis_tba": 1,
   "img": "pildid/satnamculturalrave2027.webp",
   "hind": {
    "praegu": "75–199 €",
    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-  }
+  },
+  "ou": "https://www.facebook.com/events/1515134463157827/",
+  "on_": "Facebook event"
  },
  {
   "d": "2027-07-15",
@@ -889,8 +891,10 @@
   "sn": "White Noise Events / Fienta",
   "su": "https://fienta.com/et/pulsation-estonia-2026-metrik-subsonic",
   "lisatud": "2026-09-18",
-  "nb": "lisatud sweepis 18.09.2026. Kaks allikat: Fienta üritusleht (täiskoosseis, ajakava) + huvi.tallinn.ee ürituseleht ja korraldaja Instagrami teade. Metrik on Hospital Recordsi artist (album «AWAKE»). ⚠ OTSELINK: ürituse enda FB event ID-d ei õnnestunud kinnitada — `ou` teadlikult tühi (piletimüüja ei tohi `ou`-l olla, REEGLID §3). Hinda Fienta lehel tekstina ei paista (ostuvoos); VIP-lauad 300–740 € ei ole piletihind.",
-  "img": "pildid/pulsationestonia2026metrikuksubsonicuk.webp"
+  "nb": "lisatud sweepis 18.09.2026. Kaks allikat: Fienta üritusleht (täiskoosseis, ajakava) + huvi.tallinn.ee ürituseleht ja korraldaja Instagrami teade. Metrik on Hospital Recordsi artist (album «AWAKE»). ⚠ OTSELINK: ürituse enda FB event ID-d ei õnnestunud kinnitada — `ou` teadlikult tühi (piletimüüja ei tohi `ou`-l olla, REEGLID §3). Hinda Fienta lehel tekstina ei paista (ostuvoos); VIP-lauad 300–740 € ei ole piletihind. | 16.10.2026 sweep: rikastatud (ou).",
+  "img": "pildid/pulsationestonia2026metrikuksubsonicuk.webp",
+  "ou": "https://www.facebook.com/events/1818048599199392/",
+  "on_": "Facebook event"
  },
  {
   "d": "2026-10-09",
@@ -1934,5 +1938,262 @@
   },
   "lisatud": "2026-10-14",
   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 14.10.2026. Kaks allikat: FB event (korraldaja TOPS, Soo 15) + kluub.ee. Žanr ürituse enda tekstist (amapiano, afrobeats, latin)."
+ },
+ {
+  "d": "2026-10-17",
+  "t": "klubi",
+  "n": "Joaveski Ambient",
+  "a": "Konverteri ja „Stalkeri“ teemapargi õhtu vanas papivabrikus: valguskunsti rada 18.00, plaadimuusika The Source: All Meanings of Ambient, live Out-Or / Marko Sula jt",
+  "b": [
+   "Out-Or",
+   "Marko Sula",
+   "The Source"
+  ],
+  "v": "Joaveski papivabrik",
+  "c": "mujal",
+  "linn": "Joaveski (Kuusalu)",
+  "g": [
+   "ambient",
+   "experimental"
+  ],
+  "sn": "Fienta avalik API (EE) + Rada7.ee FB events-tab",
+  "su": "https://fienta.com/joaveski-ambient",
+  "pu": "https://fienta.com/joaveski-ambient",
+  "hind": {
+   "praegu": "20 € eelmüük",
+   "mark": "kohapeal 25 € (sularaha)",
+   "allikas": "Fienta, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. Fienta (MTÜ Tsoon) + Rada7.ee events-tab (FB 987915164341471). Žanr ürituse nimest ja kavast (ambient)."
+ },
+ {
+  "d": "2026-10-23",
+  "t": "klubi",
+  "n": "Stereo @ Fonoteek",
+  "a": "Fonoteegi reedeõhtu, DJ-d 23.00–04.00",
+  "b": [],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "Fonoteek FB events-tab + RA",
+  "su": "https://ra.co/events/2560085",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1628101482194327/",
+  "pu": "https://gateme.com/event/104408/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek) + RA event (žanr RA lehelt: House) + GateMe. ⚠ Žanr ainult RA ürituselehe sildist."
+ },
+ {
+  "d": "2026-10-24",
+  "t": "klubi",
+  "n": "DISCO DISCO GOOD GOOD",
+  "a": "disco ja groove öö läbi; 23.00–04.00",
+  "b": [
+   "Kyka",
+   "DJ Widenski"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "disco"
+  ],
+  "sn": "Fonoteek FB events-tab",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2692215804565314/",
+  "pu": "https://gateme.com/event/104406/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek, Kyka, DJ Widenski) + RA (Disco) + GateMe."
+ },
+ {
+  "d": "2026-10-30",
+  "t": "klubi",
+  "n": "Afro Chill: Masquerade Ball",
+  "a": "maskiball Aafrika rütmidega, 23.00–05.00",
+  "b": [],
+  "koosseis_tba": 1,
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "afro"
+  ],
+  "sn": "Uus Laine FB events-tab",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1129003822798778/",
+  "pu": "https://fienta.com/afro-chill-masquerade-ball",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Afro Chill + Uus Laine) + Fienta. Žanr ürituse tekstist („African rhythms“), sama telg mis Helina The Artist (afro)."
+ },
+ {
+  "d": "2026-11-06",
+  "t": "klubi",
+  "n": "Rulers Of The Deep w/ Seamus Haji (UK)",
+  "a": "Big Love label night — house; 23.00–04.00",
+  "b": [
+   "Seamus Haji (UK)",
+   "Rulers Of The Deep"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "Fonoteek FB events-tab",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1153204140606875/",
+  "pu": "https://gateme.com/event/104417/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek + Rulers of The Deep) + GateMe. Žanr ürituse tekstist („two house music powerhouses“)."
+ },
+ {
+  "d": "2026-11-13",
+  "t": "klubi",
+  "n": "Tartu Massive: PRIMATE (BE)",
+  "a": "jump-up drum & bass; 23.00–04.00, 18+",
+  "b": [
+   "Primate (BE)"
+  ],
+  "v": "Klubi Gutenberg",
+  "c": "Tartu",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Rada7.ee FB events-tab",
+  "su": "https://www.facebook.com/rada7.ee/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1344435037602259/",
+  "pu": "https://www.ticketer.ee/tartumassive-primate",
+  "hind": {
+   "praegu": "13 € early bird",
+   "allikas": "Ticketer, kontrollitud 16.10.2026"
+  },
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Tartu Massive jt) + Ticketer."
+ },
+ {
+  "d": "2027-03-26",
+  "t": "klubi",
+  "n": "Selecta: ANDY C (UK)",
+  "a": "drum & bassi legend Andy C Selecta peol Kultuurikatlas; 22.00–04.00",
+  "b": [
+   "Andy C (UK)"
+  ],
+  "v": "Kultuurikatel",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Planeet FB events-tab",
+  "su": "https://www.facebook.com/AudioPlaneet/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/877451332062127/",
+  "pu": "https://gateme.com/et/event/104416/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Selecta events + Planeet) + GateMe."
+ },
+ {
+  "d": "2027-04-16",
+  "t": "klubi",
+  "n": "Angerfist @ Helitehas",
+  "a": "hardcore/gabber-žanri üks tuntumaid artiste",
+  "b": [
+   "Angerfist (NL)"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "hardstyle",
+   "hard dance"
+  ],
+  "sn": "Helitehas FB events-tab",
+  "su": "https://www.facebook.com/helitehas/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2139598826639385/",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. FB event (Baltic Live Agency + Helitehas + Piletitasku kaaskorraldajana). Žanr ürituse tekstist (hardcore, gabber); hard dance pretsedent (Brennan Heart). Piletilink veel avaldamata (FB viitab Piletilevi korraldajalehele)."
+ },
+ {
+  "d": "2026-10-14",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Wombat — «The Beep EP» (PLRX-EP1)",
+  "b": [
+   "Wombat"
+  ],
+  "g": [
+   "techno",
+   "house",
+   "acid"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://polarwax.bandcamp.com/album/the-beep-ep-plrx-ep1",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released October 14, 2026 (Polar Wax); tech house, acid house, bleep techno."
+ },
+ {
+  "d": "2026-10-09",
+  "t": "reliis",
+  "rel": 1,
+  "n": "P0LARIS — «Polar» (PLRX-004)",
+  "b": [
+   "P0LARIS"
+  ],
+  "g": [
+   "dnb",
+   "jungle"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://polarwax.bandcamp.com/album/polar-plrx-004",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released October 9, 2026 (Polar Wax); atmospheric/jungle dnb."
+ },
+ {
+  "d": "2026-10-09",
+  "t": "reliis",
+  "rel": 1,
+  "n": "8891 — «/,//,///,////_EP»",
+  "b": [
+   "8891"
+  ],
+  "g": [
+   "dnb",
+   "jungle",
+   "experimental"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://8891music.bandcamp.com/album/ep",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released October 9, 2026; dnb, jungle, experimental."
+ },
+ {
+  "d": "2026-10-08",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Tomokii — «Derealization»",
+  "b": [
+   "Tomokii"
+  ],
+  "g": [
+   "dnb",
+   "jungle",
+   "ambient"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://tomokii.bandcamp.com/album/derealization",
+  "lisatud": "2026-10-16",
+  "nb": "lisatud sweepis 16.10.2026. released October 8, 2026; dnb, breakcore, jungle, ambient."
  }
 ]

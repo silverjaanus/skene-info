@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 430,
+ "count": 432,
  "entries": [
   {
    "sait": "www",
@@ -2965,6 +2965,26 @@
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud RA venue-leht + tsungel.ee",
    "img": "https://klubi.skene.info/pildid/klmntsungel.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-08-07",
+   "t": "reliis",
+   "rel": 1,
+   "n": "AITÄH EMA! — «Aega Maha Tiksub Kell» EP",
+   "b": [
+    "AITÄH EMA!"
+   ],
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://aitahema.bandcamp.com/album/aega-maha-tiksub-kell-ep",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud sweepis 16.10.2026. released August 7, 2026 (Pärnu; street punk/oi). Vanem reliis → lisatud = d (REEGLID §6), ei lähe esilehele.",
+   "img": "https://www.skene.info/pildid/aitahemaaegamahatiksubkellep.webp"
   },
   {
    "sait": "www",
@@ -11669,6 +11689,32 @@
     "praegu": "10 € (ainult sularahas)",
     "allikas": "FB event, kontrollitud 02.10.2026"
    }
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-15",
+   "t": "kontsert",
+   "n": "Malicious Death (FIN) + Sgt. Slime (FIN) + Hingerahu",
+   "a": "algus 20.00; kaks Soome thrash-bandi + Eesti heavy",
+   "b": [
+    "Malicious Death (FIN)",
+    "Sgt. Slime (FIN)",
+    "Hingerahu"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "thrash",
+    "metal",
+    "heavy"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1452626903352793/",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata."
   }
  ]
 }

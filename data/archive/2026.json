@@ -1858,6 +1858,25 @@
    "img": "pildid/pettunudkodanikfeatandreassepppooranemaailm.webp"
   },
   {
+   "d": "2026-08-07",
+   "t": "reliis",
+   "rel": 1,
+   "n": "AITÄH EMA! — «Aega Maha Tiksub Kell» EP",
+   "b": [
+    "AITÄH EMA!"
+   ],
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://aitahema.bandcamp.com/album/aega-maha-tiksub-kell-ep",
+   "lisatud": "2026-08-07",
+   "nb": "lisatud sweepis 16.10.2026. released August 7, 2026 (Pärnu; street punk/oi). Vanem reliis → lisatud = d (REEGLID §6), ei lähe esilehele.",
+   "img": "pildid/aitahemaaegamahatiksubkellep.webp"
+  },
+  {
    "d": "2026-08-08",
    "t": "kontsert",
    "n": "Räpina Jack",
@@ -5223,6 +5242,31 @@
     "praegu": "10 € (ainult sularahas)",
     "allikas": "FB event, kontrollitud 02.10.2026"
    }
+  },
+  {
+   "d": "2026-10-15",
+   "t": "kontsert",
+   "n": "Malicious Death (FIN) + Sgt. Slime (FIN) + Hingerahu",
+   "a": "algus 20.00; kaks Soome thrash-bandi + Eesti heavy",
+   "b": [
+    "Malicious Death (FIN)",
+    "Sgt. Slime (FIN)",
+    "Hingerahu"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "thrash",
+    "metal",
+    "heavy"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1452626903352793/",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata."
   }
  ]
 }
