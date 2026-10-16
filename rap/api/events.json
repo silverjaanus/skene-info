@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 219,
+ "count": 220,
  "entries": [
   {
    "sait": "klubi",
@@ -3468,6 +3468,35 @@
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event + GateMe + helitehas.ee kava („Holland · hardstyle\"). Hardstyle Eesti pikaajaliselt korraldajalt jääb skoopi (REEGLID §1, Brennan Heart 11.09 pretsedent).",
    "img": "https://klubi.skene.info/pildid/hardnation16bdayxrandnl.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Ocean Districts „Pulsar“ albumiesitlus | Rakvere",
+   "a": "uue albumi „Pulsar“ esitlus; uued ja vanad lood; uksed 22.00, bänd 23.00",
+   "b": [
+    "Ocean Districts"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "post",
+    "core",
+    "rock",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1478859237437292",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1478859237437292",
+   "hind": {
+    "praegu": "8 €",
+    "allikas": "FB eventi tekst, kontrollitud 16.10.2026"
+   },
+   "lisatud": "2026-10-16",
+   "nb": "SILVERI OTSUS 16.10.2026 (\"pane kära kants sisse\") - sweep/otsused.json oid ocean-districts-rakvere-2026-11-14 valik (a). Kontaktivorm 15.10 (Ocean Districts); ainus allikas bändi FB event, Kära Kantsi grupp seda 16.10 ei näidanud. Sildid samad mis 21.11 SAAR CULT esitlusel."
   },
   {
    "sait": "www",
