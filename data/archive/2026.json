@@ -5267,6 +5267,113 @@
    "ou": "https://www.facebook.com/events/1452626903352793/",
    "lisatud": "2026-09-04",
    "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata."
+  },
+  {
+   "d": "2026-10-16",
+   "t": "kontsert",
+   "n": "Wardruna",
+   "b": [
+    "Wardruna"
+   ],
+   "v": "Alexela Kontserdimaja",
+   "c": "Tallinn",
+   "g": [
+    "folk"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=228103",
+   "img": "pildid/wardruna.webp",
+   "nb": "07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Last.fm sildid ambient/folk/celtic/neofolk), kirje JÄÄB PEASAIDILE. Ära tõsta järgmistes sweepides. | 10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 järelkontroll: FB event `ou`-sse (leitud google.ee kaudu; agregaator jääb `su`-le).",
+   "pu": "https://www.piletilevi.ee/piletid/GSEOBOB67K/wardruna-finland-estonia-2026",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2743926262447193/"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "kontsert",
+   "n": "Kurjam + MAI SKIZO @ The Krypt",
+   "a": "Sügis Productionsi õhtu Kryptis: Kurjami punk ja MAI SKIZO tume post-punk/gooti kõlapilt; ühtlasi MAI SKIZO uue albumi «Valu mõte» tutvustustuuri avakontsert (esmakordselt müügil plaadid ja nänn). Uksed 20.00, muusika 22.00, 00.00 tasuta aftekas",
+   "b": [
+    "Kurjam",
+    "MAI SKIZO"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock",
+    "post",
+    "goth",
+    "industrial",
+    "dark",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/et/kurjam-maiskizo-oktoober-thekrypt",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1592055805747436/",
+   "pu": "https://fienta.com/et/kurjam-maiskizo-oktoober-thekrypt",
+   "lisatud": "2026-09-16",
+   "nb": "lisatud 16.09.2026 postkastijooksus; sisend tuli skene.info kontaktivormi kaudu (Pronto, p@maiskizo.ee, 15.09.2026 16.08, žanriks märgitud «Punk, Rock, Goth, Industrial»). KAKS ALLIKAT: ürituse oma FB event 1592055805747436 (korraldajad The Krypt, Rada7.ee, Kurjam, MAI SKIZO, Estonianmetal.com, Eesti metallistid, Sügis Productions; 45 vastanut) + Fienta piletileht, mis annab hinna ja ajakava. ⚠ KELLAAEG: FB event ütleb 21.00–02.00 ja Fienta sama, aga mõlema tekst ütleb «20:00 uksed, 22:00 muusika, 00:00 aftekas» — `a`-s on korraldaja tekst, sest see on täpsem. Eraldi kirje 26.09 «Laine Live: Kurjam + ZLO» omast (eri kuupäev, eri venue, eri koosseis) ja 18.09 MAI SKIZO plaadiesitlusest. Žanr: Kurjam = punk (kurjam.bandcamp.com), MAI SKIZO = post-punk/industriaal/gooti rokk (maiskizo.ee) → kitarripõhine baasžanr, peasait (REEGLID §1).",
+   "hind": {
+    "praegu": "15 € / 20 €",
+    "mark": "eelmüük 15 €, tavapilet 20 €",
+    "allikas": "Fienta, kontrollitud 16.09.2026"
+   },
+   "img": "pildid/kurjammaiskizothekrypt.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "kontsert",
+   "n": "The Weeping Abyss + Ethetric",
+   "a": "SAAR CULTi stuudio avamine; algus 18.30 (FB event), Ethetricu IG ütleb uksed 19.00",
+   "b": [
+    "The Weeping Abyss",
+    "Ethetric"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "doom",
+    "death",
+    "black"
+   ],
+   "sn": "SAAR CULT FB events-tab",
+   "su": "https://www.facebook.com/saarcult/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1433455302218174/",
+   "lisatud": "2026-10-04",
+   "nb": "lisatud 04.10.2026 SAAR CULTi events-tabi läbivaatusel (Saar Cult 8 kontrolli käigus). Kaks allikat: ürituse FB event (korraldaja SAAR CULT) + Ethetricu IG-postitus 02.10.2026 https://www.instagram.com/ethetric.band/p/DeABzv4MJKo/ (16.10, Kopli 25, uksed 19.00). Žanr: The Weeping Abyss = depressive doom metal death/black/sludge mõjudega (FB/IG bio, Mood), Ethetric = metal (varasemad kirjed: death/black/core). Pilet avaldamata.",
+   "img": "pildid/theweepingabyssethetric.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "kontsert",
+   "n": "DND Tallinna Kinomajas",
+   "a": "Tartu alternatiivrokibänd DND; algus 20.00",
+   "b": [
+    "DND"
+   ],
+   "v": "Kinomaja",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Piletitasku (Tallinna Kinomaja)",
+   "su": "https://www.piletitasku.ee/et/location/1726",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/36327951886820731/",
+   "pu": "https://www.piletitasku.ee/et/event/9965",
+   "hind": {
+    "praegu": "25 € / 30 € toimumispäeval ja uksel",
+    "mark": "+ 0,90 € tehingutasu",
+    "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026 (Kinomaja FB events-tab näitas ainult möödunuid). Kaks allikat: Piletitasku (korraldaja Maaaluste Muusade Büroo OÜ: „legendaarne Tartu alternatiivrokiansambel DND“) + FB event (KuKu klubi).",
+   "img": "pildid/dndtallinnakinomajas.webp"
   }
  ]
 }

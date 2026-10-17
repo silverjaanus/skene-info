@@ -4686,6 +4686,288 @@
    "ou": "https://www.facebook.com/events/1574357314264409/",
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026, teine voor — leid tuli Privé Live Clubi FB events-lehelt, mis lisati allikaks KRS-One'i kontrollimise käigus. Algus 20.00, korraldaja Aeon Psy Events. Kaks allikat: venue oma events-leht + ürituse FB event. ⚠ Piletilinki FB-lehel tekstina ei ole (ainult 'Find tickets' nupp), seega pu puudub — täienda, kui piletimüük avaneb."
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "4KORDA4: mance (NL)",
+   "a": "house ja garage Bar IDAs",
+   "b": [
+    "mance (NL)"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "garage",
+    "club"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/ee/all",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2528562",
+   "hind": {
+    "praegu": "5-10 EUR",
+    "mark": "RA event-lehe hinnavahemik",
+    "allikas": "RA event 2528562, kontrollitud 09.09.2026"
+   },
+   "lisatud": "2026-09-09",
+   "nb": "leitud sweepis 09.09.2026 RA snapshotist. Kaks allikat: RA event 2528562 (zanrisildid House/Garage, koht Bar IDA) + RA Eesti sundmuste loend. Peosari 4KORDA4.",
+   "img": "pildid/4korda4mancenl.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "Beats From The Vault — Dark Souls Meeting",
+   "a": "BFTV sügisõhtu HALLis, 22.00–06.00; koosseis täieneb",
+   "b": [
+    "Kabel",
+    "Krematoorium",
+    "Külmkamber"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "ebm",
+    "industrial",
+    "dark",
+    "electro"
+   ],
+   "sn": "Beats From The Vault FB",
+   "su": "https://www.facebook.com/beatsfromthevault/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/984368821317552/",
+   "pu": "https://www.bftv.ee/",
+   "lisatud": "2026-08-21",
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: BFTV FB events-tab + ürituse FB event (kaaskorraldajad HALL, Röntgen, 4-got-10). Koosseis on POOLIK — event ütleb 'Line-up.......loading'; teada on Kabel + Krematoorium (= MESILA laval) ja Külmkamber. Piletiviide www.bftv.ee. Kontrolli koosseisu järgmistes sweepides.",
+   "img": "pildid/beatsfromthevaultdarksoulsmeeting.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "SYNERGY: Neonlight (DE) + Mean Teeth",
+   "a": "Synergy naaseb — Saksa neurofunk-duo Neonlight (Blackout, Eatbrain, RAM) ja Balti neurofunk-projekt Mean Teeth; 23.00–05.00",
+   "b": [
+    "Neonlight (DE)",
+    "Mean Teeth"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/synergyneonlight",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1076202788429204/",
+   "pu": "https://fienta.com/et/synergyneonlight",
+   "hind": {
+    "praegu": "16 €",
+    "mark": "Early Bird 16€, Regular 20€, Late 24€, uksel 25€",
+    "allikas": "Fienta, kontrollitud 22.08.2026"
+   },
+   "lisatud": "2026-08-22",
+   "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Fienta ürituseleht (koosseis, hinnaastmed, kellaajad) + FB event 1076202788429204 (host Vortex Fusion). Leitud Fienta dnb-otsingust; RA-s seda kirjet ei ole.",
+   "img": "pildid/synergyneonlightdemeanteeth.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "WAVE · HIGHER TOGETHER",
+   "a": "house-õhtu Pubi Juudases; 23.00, 18+",
+   "b": [
+    "DJ Alan",
+    "DJ Nor",
+    "DJ Kris"
+   ],
+   "v": "Pubi Juudas",
+   "c": "mujal",
+   "linn": "Tõrva",
+   "g": [
+    "house"
+   ],
+   "sn": "Pubi Juudase FB events-tab",
+   "su": "https://www.facebook.com/pubijuudas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2174496550085002/",
+   "hind": {
+    "praegu": "7 €",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Pubi Juudas) + Pubi Juudase FB events-tab. Žanr ürituse tekstist („kvaliteetse house muusika peopaik“)."
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "Plurrr @ Uus Laine",
+   "a": "heategevuslik klubiõhtu (kasum MTÜ Neli Käppa); 2 live't + 4 DJ-setti, 20.30–03.00, 16+",
+   "b": [
+    "Sugar Rody (live)",
+    "Deep Horse (live)",
+    "VΛCERΛCE",
+    "Pikkauch",
+    "Stunfisk / Mm Delicious",
+    "Bryan Vanem"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "dark",
+    "ebm",
+    "techno",
+    "house",
+    "garage"
+   ],
+   "sn": "Uus Laine FB events-tab",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1474597377892984/",
+   "pu": "https://fienta.com/et/plurrr-at-uus-laine",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (MTÜ Plurrr) + Fienta piletileht (žanrid korraldaja tekstist: dark disco, EBM, techno, house, UK garage). Sugar Rody erikülalised Dmitri Darling (Freakangel) & Daniel Solo.",
+   "img": "pildid/plurrruuslaine.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "ERØS INVITES: „4 is 4 you“ RAVE",
+   "a": "22.00–04.00; hard techno, schranz, techno; ERØSi avaldamata uus muusika",
+   "b": [
+    "ERØS",
+    "Cryptic",
+    "INDRA",
+    "INSENER",
+    "THEX"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/70e1c787-e10c-4490-83e4-7818b3e65da9",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2190614538153437",
+   "pu": "https://gateme.com/et/genklubi/104243-ers-invites-4-is-4-you-rave-genialistide-klubi-1610/",
+   "hind": {
+    "praegu": "4–20 €",
+    "mark": "Blind raver 4 € (eelmüük läbi), Raver 10 €, Support 20 € (+kingitus)",
+    "allikas": "GateMe, kontrollitud 13.10.2026"
+   },
+   "lisatud": "2026-10-13",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 13.10.2026. Kaks allikat: kluub.ee (FB eventi põhjal) + GateMe piletileht (R 16.10.2026 22.00–04.00, Genialistide Klubi, sama koosseis). Žanr ürituse enda tekstist: „From HARD TECHNO to SCHRANZ and TECHNO\".",
+   "img": "pildid/ersinvites4is4yourave.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "OFFLINE @ Klubi Gutenberg",
+   "a": "23.00–04.00; house, hardgroove, speed garage",
+   "b": [
+    "GABS",
+    "San Pablo",
+    "Lynxie"
+   ],
+   "v": "Klubi Gutenberg",
+   "c": "Tartu",
+   "g": [
+    "house"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/6ff2d849-cd6e-49a3-9ec8-8f6834c03106",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1594452135361569",
+   "pu": "https://gateme.com/et/event/104234/",
+   "hind": {
+    "praegu": "7–8 €",
+    "mark": "early bird 7 €, tavapilet 8 €; kohapeal sularaha/kaart",
+    "allikas": "kluub.ee (ürituse tekst), kontrollitud 13.10.2026"
+   },
+   "lisatud": "2026-10-13",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 13.10.2026. Kaks allikat: FB event (korraldaja OFFLINE CLUB) + kluub.ee; GateMe piletileht lingitud, aga ei avanenud kontrolliks. Žanr ürituse enda tekstist: „house/hardgroove ja speed garage\" (ise nimetab end „popp ja noortepärane\").",
+   "img": "pildid/offlineklubigutenberg.webp"
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "Rave Alert DJs",
+   "a": "23.00–05.00; Rave Alert sarja spin-off: techno, acid, breakbeat, UK hardcore",
+   "b": [
+    "DJ Margus K",
+    "DJ Hyyru",
+    "DJ Andrus-Eerik (Maa-alune)"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "dnb",
+    "breaks"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/76013dcc-2307-455d-8e52-e6cab8618e5c",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1151348594131481",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee + FB event, kontrollitud 13.10.2026"
+   },
+   "lisatud": "2026-10-13",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 13.10.2026. Kaks allikat: FB event (korraldaja Kivi baar, Rüütli 13) + kluub.ee. Žanr ürituse enda tekstist: DnB, techno, UK hardcore, breakbeat."
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "Elektröönika 2nd Birthday Bash",
+   "a": "Elektröönika 2. sünnipäev, kaks lava ja kaheksa DJ-d, 4x4; DJ-d 23.00–04.00, 20+",
+   "b": [
+    "Kaarel Sein",
+    "Elektröönika (JoJo, Milpak, Will, Löukii)",
+    "Birddy",
+    "Pahv",
+    "Kendik"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/60738c04-f45f-4dfd-8d2c-5dadcc96fd9a",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2428863947645596",
+   "hind": {
+    "praegu": "5 € (FB Going kuni 00.00), tavapilet 7 €",
+    "allikas": "FB event + kluub.ee, kontrollitud 14.10.2026"
+   },
+   "lisatud": "2026-10-14",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 14.10.2026. Kaks allikat: FB event (korraldajad Fonoteek + Elektröönika, Telliskivi 62) + kluub.ee. Žanr: kluub.ee silt Techno + ürituse tekst „4x4 helilained“."
+  },
+  {
+   "d": "2026-10-16",
+   "t": "klubi",
+   "n": "Helina The Artist | Kohvik Tops",
+   "a": "DJ-õhtu 22.00–03.00; ürituse enda kirjeldus: amapiano, afro, latin vibes",
+   "b": [
+    "Helina The Artist"
+   ],
+   "v": "Kohvik Tops",
+   "c": "Tallinn",
+   "g": [
+    "afro"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/bd2bda4f-1b42-4aea-8595-22d8a725cca9",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/852026691270254",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee + FB event, kontrollitud 14.10.2026"
+   },
+   "lisatud": "2026-10-14",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 14.10.2026. Kaks allikat: FB event (korraldaja TOPS, Soo 15) + kluub.ee. Žanr ürituse enda tekstist (amapiano, afrobeats, latin)."
   }
  ]
 }
