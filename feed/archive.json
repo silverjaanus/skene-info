@@ -447,7 +447,8 @@
    "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
    "on_": "paavli.ee",
    "ou": "https://paavli.ee/sundmused/blood-incantation-us-nate-mercereau-de/",
-   "img": "https://www.skene.info/pildid/bloodincantationnatemercereau.webp"
+   "img": "https://www.skene.info/pildid/bloodincantationnatemercereau.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -550,7 +551,8 @@
    "sn": "uuslaine.com",
    "su": "https://uuslaine.com/",
    "pu": "https://fienta.com/et/laine-live-molbo",
-   "img": "https://www.skene.info/pildid/lainelivemolbohomebroke.webp"
+   "img": "https://www.skene.info/pildid/lainelivemolbohomebroke.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -683,7 +685,8 @@
    "sn": "Uus Laine FB",
    "su": "https://www.facebook.com/events/1752234862578425/",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1752234862578425/"
+   "ou": "https://www.facebook.com/events/1752234862578425/",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -1175,7 +1178,8 @@
    "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2987434444793647/",
-   "nb": "Koidu 13a, Viljandi; algus 20.00; uksehind FB eventilt; kontrollitud 09.07.2026"
+   "nb": "Koidu 13a, Viljandi; algus 20.00; uksehind FB eventilt; kontrollitud 09.07.2026",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "www",
@@ -1225,7 +1229,8 @@
     "praegu": "39€ / 30€ (noor)",
     "mark": "Early Bird 35€ välja müüdud; Late Bird 45€; vanusepiiranguta; algus 19.00",
     "allikas": "Fienta, kontrollitud 07.07.2026"
-   }
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -1289,7 +1294,8 @@
    "ou": "https://www.facebook.com/events/832943499451786/",
    "pu": "https://www.piletilevi.ee/piletid/6WLPVVHNFU/lenny-kravitz-usa",
    "nb": "lisatud 14.07.2026 (Silveri leid); korraldaja Baltic Live Agency",
-   "img": "https://www.skene.info/pildid/lennykravitzusa.webp"
+   "img": "https://www.skene.info/pildid/lennykravitzusa.webp",
+   "vu": "https://unibetarena.ee/"
   },
   {
    "sait": "www",
@@ -1716,7 +1722,8 @@
    "on_": "helitehas.ee",
    "ou": "https://helitehas.ee/facebook-event/arch-enemy-helitehas/",
    "pu": "https://www.piletilevi.ee/piletid/5Z3ZKJNZVS/arch-enemy-back-to-the-root-of-all-evil-tour-2026",
-   "img": "https://www.skene.info/pildid/archenemy.webp"
+   "img": "https://www.skene.info/pildid/archenemy.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "klubi",
@@ -1834,7 +1841,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/936894902043640/",
    "pu": "https://fienta.com/et/laine-live-industry",
-   "img": "https://www.skene.info/pildid/laineliveindustrydemodelcitizen.webp"
+   "img": "https://www.skene.info/pildid/laineliveindustrydemodelcitizen.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "rap",
@@ -2028,7 +2036,8 @@
    ],
    "sn": "Kidrakuur (FB)",
    "su": "https://www.facebook.com/events/2142728216515425/",
-   "img": "https://www.skene.info/pildid/rootssessionxtrainmanblues.webp"
+   "img": "https://www.skene.info/pildid/rootssessionxtrainmanblues.webp",
+   "vu": "https://kidrakuur.ee/"
   },
   {
    "sait": "www",
@@ -2051,7 +2060,8 @@
    "su": "https://www.facebook.com/uuslaine/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2799696610387934/",
-   "img": "https://www.skene.info/pildid/undergroundlainemotelliskronklefinirwinartprojekthotkommunist.webp"
+   "img": "https://www.skene.info/pildid/undergroundlainemotelliskronklefinirwinartprojekthotkommunist.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -2414,7 +2424,8 @@
     "mark": "10€ sularahas, 13€ kaardiga; uksemuuk, piletimuujat pole",
     "allikas": "FB event, kontrollitud 28.07.2026"
    },
-   "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel osaliselt: venue events-loend + urituse enda leht (molemad FB). Kaudne kinnitus: Motelli Skronkle ja Hot Kommunist on samal nadalal juba kinnitatud Eesti-tuuril (30.07 Uus Laine, 07.08 Kara Kants)"
+   "nb": "lisatud sweepis 28.07.2026. Kahe allika reegel osaliselt: venue events-loend + urituse enda leht (molemad FB). Kaudne kinnitus: Motelli Skronkle ja Hot Kommunist on samal nadalal juba kinnitatud Eesti-tuuril (30.07 Uus Laine, 07.08 Kara Kants)",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -2491,7 +2502,8 @@
    "ou": "https://www.facebook.com/events/785734627786593",
    "pu": "https://www.piletilevi.ee/piletid/STG5MS57M5/gogol-bordello",
    "nb": "gypsy punk; korraldaja M.P.3; kontrollitud 09.07.2026",
-   "img": "https://www.skene.info/pildid/gogolbordello.webp"
+   "img": "https://www.skene.info/pildid/gogolbordello.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "klubi",
@@ -2869,7 +2881,8 @@
    ],
    "sn": "paavli.ee",
    "su": "https://paavli.ee/sundmused/",
-   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Paavli.Live on teadlikult žanriülene sari; žanrisilt 'alt' on üldistus, otseallikast kinnitamata."
+   "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Paavli.Live on teadlikult žanriülene sari; žanrisilt 'alt' on üldistus, otseallikast kinnitamata.",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -3732,7 +3745,8 @@
     "praegu": "Tasuta",
     "mark": "sissepääs tasuta; algus 20.00",
     "allikas": "Facebook event (Pronoias + Konservatoorium), kontrollitud 09.07.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -4479,7 +4493,8 @@
    "ou": "https://www.facebook.com/events/2264781267610298/",
    "pu": "https://fienta.com/geordie-greep-paavli",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht); Damn.Loud korraldab sama tuuri Vilniuse kuupäeva 12.08 Loftases. FB-eventi link lisatud 13.08.2026 Rada7.ee uudiskirjast (kuupäev P 16.08 + koht Paavli langevad kokku Fienta lehega) 13.08: +avaesineja Richard Jerbach (kultuurivabrik.ee programm).",
-   "img": "https://www.skene.info/pildid/paavlilivegeordiegreepuk.webp"
+   "img": "https://www.skene.info/pildid/paavlilivegeordiegreepuk.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -4507,7 +4522,8 @@
    },
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; kaks allikat: GenKlubi FB event + genklubi.ee/events/the-crosslegs-suvelopukas + Fienta",
-   "img": "https://www.skene.info/pildid/thecrosslegssuvelopukas.webp"
+   "img": "https://www.skene.info/pildid/thecrosslegssuvelopukas.webp",
+   "vu": "https://genklubi.ee/"
   },
   {
    "sait": "rap",
@@ -4585,7 +4601,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1928450644511875/",
    "nb": "lisatud 02.08.2026 Silveri otsusel (Paavli.Live sari LÄHEB SISSE). Žanrisilt 'alt' on üldistus, otseallikast kinnitamata. RIKASTATUD 22.08.2026 postkastijooksul Paavli uudiskirjast (18.08): soojendaja Akusakura + FB event + algus 19.00, kinnitatud teise allikaga paavli.ee ürituselehelt ja @akusakura_ IG-postitusest. Silt 'shoegaze' pärineb Paavli enda uudiskirja sõnastusest ('shoegaze and dream pop') — korraldaja kirjeldus, mitte verifitseeritud taksonoomia.",
-   "img": "https://www.skene.info/pildid/paavlilivemariink.webp"
+   "img": "https://www.skene.info/pildid/paavlilivemariink.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -4661,7 +4678,8 @@
    "ou": "https://www.facebook.com/events/1706413267228257/",
    "pu": "https://fienta.com/et/art-of-mosh-routine-ua-de-kannabinoid-superkomfort-zakroyyy-lv-and-many-more",
    "nb": "3-päevane festival (20.08 kunstinäitus+DJd TBA, 21.08 + 22.08 kaks lava); täiskoosseis avaldatud Fientas 15.07.2026 (R 21.08: Routine, superkomfort, Zakroyyy, Cottonmoth, Around the Sun, Stefania Boiko, Pihikamber; L 22.08: Kannabinõid, Süki, Manna, Koni, Such a Vain Endeavour, Norest Souls, Homebroke, Tiny Sequoia); more tba; pilet Fientas (earlybird); korraldajad Art of Mosh + Uus Laine; lisatud 13.07.2026, rikastatud 15.07.2026",
-   "img": "https://www.skene.info/pildid/artofmosh2026.webp"
+   "img": "https://www.skene.info/pildid/artofmosh2026.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "rap",
@@ -4724,7 +4742,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1999147140962621/",
    "pu": "https://fienta.com/et/barbatos-thekrypt-tallinn",
-   "img": "https://www.skene.info/pildid/barbatosbeatrixkulaline.webp"
+   "img": "https://www.skene.info/pildid/barbatosbeatrixkulaline.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -4777,7 +4796,8 @@
     "mark": "ainult uksel, sularahas: esimene tund 12 €, edasi 15 €",
     "allikas": "Wunderbaari FB-lehe postitus, kontrollitud 17.08.2026"
    },
-   "nb": "kontaktivormi sisend 16.08.2026 (Liis Virkus, Surju Kommunaali bassist). Kaks allikat: FB event 1780280772993688 (kaaskorraldajad Wunderbaar + Exanity + Surju Kommunaal, R 21.08 kell 21) ja Wunderbaari oma FB-lehe postitus (ajakava + hind). Eelmüüki ega piletimüüjat pole. Exanity (Paide) = alt-rock + elektroonika, Surju Kommunaal = punkrokkkaverbänd"
+   "nb": "kontaktivormi sisend 16.08.2026 (Liis Virkus, Surju Kommunaali bassist). Kaks allikat: FB event 1780280772993688 (kaaskorraldajad Wunderbaar + Exanity + Surju Kommunaal, R 21.08 kell 21) ja Wunderbaari oma FB-lehe postitus (ajakava + hind). Eelmüüki ega piletimüüjat pole. Exanity (Paide) = alt-rock + elektroonika, Surju Kommunaal = punkrokkkaverbänd",
+   "vu": "https://wunderbaar.ee/"
   },
   {
    "sait": "klubi",
@@ -4852,7 +4872,8 @@
     "allikas": "Fienta, kontrollitud 13.08.2026"
    },
    "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA: funk/soul on nüüd peasaidi skoobis uue metafiltrina (Augustibluusi pretsedent — bluus oli 8., funk on 9. katusekategooria). Allikad: FB event (Rada7 12.08 uudiskiri) + Fienta ürituseleht (algus 20.00). RIKASTATUD 22.08.2026 postkastijooksul Paavli uudiskirjadest (18.08 + 21.08): soojendaja Friction ja järelpeo DJ Mr. Lex; teine allikas paavli.ee ürituseleht (\"Friction on sujuv kooslus noortest\").",
-   "img": "https://www.skene.info/pildid/lexsouldancemachinesuveainuskontserttallinnas.webp"
+   "img": "https://www.skene.info/pildid/lexsouldancemachinesuveainuskontserttallinnas.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -5149,7 +5170,8 @@
    "su": "https://fienta.com/et/narasanti-innerspell-thekrypt",
    "pu": "https://fienta.com/et/narasanti-innerspell-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; korraldaja Sügis Productions / The Krypt (Pärnu mnt 19)",
-   "img": "https://www.skene.info/pildid/metalsaturdaynarasantiinnerspell.webp"
+   "img": "https://www.skene.info/pildid/metalsaturdaynarasantiinnerspell.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "rap",
@@ -5226,7 +5248,8 @@
    "sn": "Konservatoorium FB",
    "su": "https://www.facebook.com/konservatoorium/events",
    "lisatud": "2026-08-21",
-   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Konservatooriumi FB events-tab (T 25.08 20:00) + Veli-Rekka & Rokut FB tuuriteade, mis nimetab kaaslasena Beer Gardensit (EE). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ Žanr on TULETATUD (rokk/punk, Konservatoorium on rokivenue); kui täpsustub muuks, liiguta."
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Konservatooriumi FB events-tab (T 25.08 20:00) + Veli-Rekka & Rokut FB tuuriteade, mis nimetab kaaslasena Beer Gardensit (EE). Pilet/uksehind avaldamata — kontrolli järgmises sweepis. ⚠ Žanr on TULETATUD (rokk/punk, Konservatoorium on rokivenue); kui täpsustub muuks, liiguta.",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -5335,7 +5358,8 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; korraldaja Uus Laine + Aleksander Silves (event kahe hostiga)",
-   "img": "https://www.skene.info/pildid/rememberingozzytributetoblacksabbathozzyosbournetheprettyreckless.webp"
+   "img": "https://www.skene.info/pildid/rememberingozzytributetoblacksabbathozzyosbournetheprettyreckless.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -5657,7 +5681,8 @@
    },
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Kidrakuuri FB events-leht + ürituse enda FB event (kellaajad, hind, sularaha-märkus). Kidrakuuril eraldi kodulehte ürituste jaoks ei ole, seega mõlemad allikad on FB-s",
-   "img": "https://www.skene.info/pildid/kojameesthegangfucktor.webp"
+   "img": "https://www.skene.info/pildid/kojameesthegangfucktor.webp",
+   "vu": "https://kidrakuur.ee/"
   },
   {
    "sait": "klubi",
@@ -5736,7 +5761,8 @@
    "su": "https://fienta.com/et/patarei-coverage-thekrypt",
    "pu": "https://fienta.com/et/patarei-coverage-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
-   "img": "https://www.skene.info/pildid/metallicaacdcnightpatareicoverage.webp"
+   "img": "https://www.skene.info/pildid/metallicaacdcnightpatareicoverage.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -5881,7 +5907,8 @@
    "ou": "https://www.facebook.com/events/883197287964317",
    "pu": "https://www.piletilevi.ee/piletid/VD37QERUVT/airbourne",
    "nb": "algus 19.00; korraldajad Live Nation Estonia + Helitehas; kontrollitud 09.07.2026 | 25.07.2026: soojendaja Elephants From Neptune lisatud (Helitehas FB)",
-   "img": "https://www.skene.info/pildid/airbourne.webp"
+   "img": "https://www.skene.info/pildid/airbourne.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "www",
@@ -6341,7 +6368,8 @@
    "su": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
    "pu": "https://fienta.com/et/nineinchnails-tool-tribute-thekrypt",
    "nb": "lisatud sweepis 25.07.2026; The Krypt / Sügis Productions",
-   "img": "https://www.skene.info/pildid/toolnineinchnailsnightfoolhatemachinefin.webp"
+   "img": "https://www.skene.info/pildid/toolnineinchnailsnightfoolhatemachinefin.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",
@@ -6365,7 +6393,8 @@
    "ou": "https://www.facebook.com/events/2426267614573170/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Uus Laine FB event + uuslaine.com kalender. Pileti-/hinnainfot event-lehel ei olnud",
-   "img": "https://www.skene.info/pildid/tallinnindieshufflearoundthesunxye.webp"
+   "img": "https://www.skene.info/pildid/tallinnindieshufflearoundthesunxye.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -6448,7 +6477,8 @@
    "img": "https://www.skene.info/pildid/nothinghammok.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/964226053103341/",
-   "nb": "27.08.2026: FB eventi link + uksed 19.00 Paavli Kultuurivabriku uudiskirjast 26.08.2026 (Nothing = Philadelphia shoegaze, Hammok = Norra hardcore)."
+   "nb": "27.08.2026: FB eventi link + uksed 19.00 Paavli Kultuurivabriku uudiskirjast 26.08.2026 (Nothing = Philadelphia shoegaze, Hammok = Norra hardcore).",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -6596,7 +6626,8 @@
    "ou": "https://www.facebook.com/events/1367280228121282/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; venue enda FB event (Koidu 13a, Viljandi). Bluus peasaidil Roots Sessioni pretsedendi järgi",
-   "img": "https://www.skene.info/pildid/blackriverbluesmanbadmoodhudsonfinandresroots.webp"
+   "img": "https://www.skene.info/pildid/blackriverbluesmanbadmoodhudsonfinandresroots.webp",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -6660,7 +6691,8 @@
     "allikas": "Piletilevi, kontrollitud 28.07.2026"
    },
    "nb": "TOPELTKONTROLL TEHTUD 28.07.2026: Tallinna kuupäev KINNITUB (Piletilevi + helitehas.ee) — varasem kahtlus (ainult Vilniuse kuupäev Damn.Loud FB-s) on ümber lükatud",
-   "img": "https://www.skene.info/pildid/fearfactorycrystallakehatethenocturnalaffair.webp"
+   "img": "https://www.skene.info/pildid/fearfactorycrystallakehatethenocturnalaffair.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "www",
@@ -6686,7 +6718,8 @@
    },
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud The Krypt FB + Sügis Productions FB events-tabid",
-   "img": "https://www.skene.info/pildid/hainzkosmikudakustilisekavaga.webp"
+   "img": "https://www.skene.info/pildid/hainzkosmikudakustilisekavaga.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "rap",
@@ -6851,7 +6884,8 @@
     "allikas": "FB event, kontrollitud 28.07.2026"
    },
    "nb": "koosseis: Marek Cram Piliste (vokaal, Hunta), Sulo Kiivit ja Martin Jyrman (kitarrid), Mikk Kerner (trummid); akustiline kava lahkunud artistide lugudest. Ainult 1 allikas (korraldaja enda FB event) — piletimüüjat polegi",
-   "img": "https://www.skene.info/pildid/songsofthedead.webp"
+   "img": "https://www.skene.info/pildid/songsofthedead.webp",
+   "vu": "https://kidrakuur.ee/"
   },
   {
    "sait": "klubi",
@@ -7081,7 +7115,8 @@
    "ou": "https://www.facebook.com/events/1517057606835718/",
    "pu": "https://fienta.com/et/permanentblue-violetscape-thekrypt",
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta; Permanent Blue võitis 2024 Heavy Music Band Battle'i",
-   "img": "https://www.skene.info/pildid/heavysaturdaypermanentbluevioletscape.webp"
+   "img": "https://www.skene.info/pildid/heavysaturdaypermanentbluevioletscape.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -7270,7 +7305,8 @@
    "su": "https://fienta.com/et/laine-live-luge-ca",
    "pu": "https://fienta.com/et/laine-live-luge-ca",
    "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 22.08.2026: Fienta org-leht 17330 näitab täisnime 'Laine Live: Luge (CA) + Shatter Me Whole' — kaasesineja lisatud koosseisu, pealkiri parandatud.",
-   "img": "https://www.skene.info/pildid/lainelivelugeca.webp"
+   "img": "https://www.skene.info/pildid/lainelivelugeca.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -7652,7 +7688,8 @@
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: The Krypti FB events-tab + Sügis Productionsi FB events-tab. Pilet/uksehind avaldamata. | 22.08.2026: Fienta metal-otsing andis ürituse piletilehe (fienta.com/et/lov-raider-thekrypt) — pu lisatud.",
    "pu": "https://fienta.com/et/lov-raider-thekrypt",
-   "img": "https://www.skene.info/pildid/rockfridaylvraider.webp"
+   "img": "https://www.skene.info/pildid/rockfridaylvraider.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -7895,7 +7932,8 @@
     "mark": "piiratud eelmüügipilet 15 € on VÄLJA MÜÜDUD; Eesti Raskemuusikaliidu liikmetele kood \"Thekrypt_raskemuusika\" annab 5 € soodustust",
     "allikas": "Fienta ostuvaade, kontrollitud 10.09.2026"
    },
-   "nb": "10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri, september 2026): Fienta ostuvaade avatud — eelmüük 20 €, uksel 25 €, piiratud 15 € välja müüdud; kellaaeg 21.00–02.00 (Fienta). Liikmete sooduskood on uudiskirjast, mitte avalik hind."
+   "nb": "10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri, september 2026): Fienta ostuvaade avatud — eelmüük 20 €, uksel 25 €, piiratud 15 € välja müüdud; kellaaeg 21.00–02.00 (Fienta). Liikmete sooduskood on uudiskirjast, mitte avalik hind.",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -7979,7 +8017,8 @@
     "allikas": "FB eventi kirjeldus, kontrollitud 08.09.2026"
    },
    "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Wunderbaari FB events-tab + ürituse FB event (kaaskorraldajad Wunderbaar JA bänd Kuriks). Žanr kinnitatud eraldi: Kuriks = 2024. aastal loodud madalale häälestatud alternatiivroki/raskemuusika bänd (Lauri Kuriks, ex-Wyrm Sub Terra). ⚠ ÄRA aja segi kirjega 'Laine Live: Kurjam' (26.09) — teine bänd. | 08.09.2026 postkastijooks: uksehind LEITUD — 10€, uksed 20.00, live 22.00. Info oli FB eventi kirjelduse 'See more' taga (väljalogitud vaates kärbitud, avatud DOM-ist); online-piletimüüki ei ole, seega `pu` jääb tühjaks.",
-   "img": "https://www.skene.info/pildid/kurikswunderbaar.webp"
+   "img": "https://www.skene.info/pildid/kurikswunderbaar.webp",
+   "vu": "https://wunderbaar.ee/"
   },
   {
    "sait": "klubi",
@@ -8029,7 +8068,8 @@
    "ou": "https://www.facebook.com/events/1732656227939363/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; kaks allikat: venue FB event + bändi enda IG (@oulun_keskusta, tuurigraafika Viljandiga). NB samal õhtul on Viljandis ka Vermilia Tallinnas jm — kuupäev 12.09 kinnitatud event-lehelt",
-   "img": "https://www.skene.info/pildid/oulunkeskustafin.webp"
+   "img": "https://www.skene.info/pildid/oulunkeskustafin.webp",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -8135,7 +8175,8 @@
    "nb": "ou/pu Fientast, kinnitatud 25.07.2026 (2. allikas Bandsintowni kõrvale) | 07.08.2026 sweep: Rockclub Tapperi FB events-leht annab täiskoosseisu — Vermilia (FI) + Aether (PL) + Pagansarv & Bestia. | 21.08.2026 sweep: b-massiiv puhastatud dublikaatidest (oli 6 kirjet 4 esineja kohta), Tapperi FB kinnitab koosseisu. | 09.09.2026 sweep: TAISKOOSSEIS + pilet. Rockclub Tapperi FB events-tab naitab urituse taisnime, milles on peale Vermilia veel Aether (PL) ning Pagansarv & Bestia; kirjes oli varem ainult Vermilia. Kaks allikat: FB event 2217604032409882 (kaaskorraldajad Vermilia + Estonianmetal.com) + Fienta piletileht.",
    "img": "https://www.skene.info/pildid/underthenewmoonvermilia.webp",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2217604032409882/"
+   "ou": "https://www.facebook.com/events/2217604032409882/",
+   "vu": "https://www.tapper.ee/"
   },
   {
    "sait": "www",
@@ -8312,7 +8353,8 @@
    "hind": {
     "praegu": "10 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://kidrakuur.ee/"
   },
   {
    "sait": "www",
@@ -8342,7 +8384,8 @@
    },
    "lisatud": "2026-09-09",
    "nb": "lisatud sweepis 09.09.2026. Kaks allikat: Konservatooriumi FB event (kaaskorraldaja Kaleo Ghidora, taiskoosseis liikmenimedega) + Konservatooriumi enda FB-postitus (uksed 20.00, sissepaas 5 EUR), lisaks allevents.in kirje. TAHELEPANU / JALGIMISPUNKT: google.ee otsing tostis esile Taste of Mothi IG-postituse tekstiga 'Unfortunately Morbitech had to cancel the show at Viljandi' - postituse kuupaev jai tuvastamata ja Konservatooriumi OMA postitus (3 paeva vana) nimetab Morbitechi endiselt kavas. Jatsin b-sse molemad venue enda varskeima teate jargi; kontrolli jargmises sweepis uritusesehe uuesti.",
-   "linn": "Viljandi"
+   "linn": "Viljandi",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -8462,7 +8505,8 @@
    "ou": "https://www.facebook.com/events/1419798690052356",
    "lisatud": "2026-09-04",
    "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (+FB event). TAISKOOSSEIS: paavli.ee lisab kolmanda bandi The Pincushions, mida FB-nimes ei ole. ⚠ 13.09.2026: Fienta piletileht (don-brass-surin-at-paavli-kultuurivabrik) annab 404 KOIGIS variantides, kuigi kultuurivabrik.ee loetleb urituse endiselt 18.09 kl 19.00 ja paavli.ee 'Osta pilet' viitab samale surnud lingile. Piletimuuk on ilmselt loppenud voi kolinud uksele -> `pu` EEMALDATUD, et kulastaja ei satuks 404-le. FB event ja paavli.ee jaavad.",
-   "img": "https://www.skene.info/pildid/donbrasssurinthepincushions.webp"
+   "img": "https://www.skene.info/pildid/donbrasssurinthepincushions.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -8660,7 +8704,8 @@
    "hind": {
     "praegu": "13–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",
@@ -8987,7 +9032,8 @@
    "hind": {
     "praegu": "13–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",
@@ -9021,7 +9067,8 @@
    },
    "lisatud": "2026-09-13",
    "nb": "lisatud 13.09.2026 Silveri sisendina (saatis fb.me/e/264Kgp0ofi vestluses). KOLM ALLIKAT: ürituse FB event 1826473062041845 (N 24.09.2026 kl 19.00 EEST, Rockclub Tapper, Pärnu mnt 158g) + Mang Ondi enda FB-lehe postitus 12.09 („Varsti Tallinnas!“, https://www.facebook.com/mangont) + Rockclub Tapperi FB events-tab, kus üritus seisab. ⚠ MIKS SWEEP SEDA EI PÜÜDNUD: korraldajad on kolm ERAISIKUT (Holden Bonne Laamann, Anders Melts, Kaido Haavandi), mitte leht — üritus ei jõua Tapperi veebiprogrammi ega ühegi korraldajalehe events-tabi; ainus masinloetav koht on Tapperi FB events-tab. Bändide taust ürituse enda kirjeldusest: Aluk Todolo = 2004. aastast tegutsev instrumentaalne okultrocki trio (kraut + okultne black; esines SUNN O))) kutsel Roadburn 2011-l), Mang Ont = 2011. aastal Tartus alustanud instrumentaalne stoner/doom-trio (https://mangont.bandcamp.com/), Forgotten Sunrise Syndrone = Forgotten Sunrise'i elektrooniline/dark ambient kõrvalprojekt. ⚠ Rockfreaks.net tuurinimekiri näitab Aluk Todolol AINULT Helsingi kuupäeva (25.09, KULT) — Tallinna kuupäev on seal puudu, seega agregaatorit teise allikana EI kasutatud.",
-   "img": "https://www.skene.info/pildid/aluktodolofrmangontforgottensunrisesyndrone.webp"
+   "img": "https://www.skene.info/pildid/aluktodolofrmangontforgottensunrisesyndrone.webp",
+   "vu": "https://www.tapper.ee/"
   },
   {
    "sait": "www",
@@ -9046,7 +9093,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1536748294619794/",
    "nb": "lisatud sweepis 19.07.2026; korraldaja Bloodstained Metal + The Krypt; piletid uksel, hind veel avaldamata - jälgi 2b-s",
-   "img": "https://www.skene.info/pildid/balticbstourmemoirafinegresfinportread.webp"
+   "img": "https://www.skene.info/pildid/balticbstourmemoirafinegresfinportread.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",
@@ -9193,7 +9241,8 @@
    "hind": {
     "praegu": "13–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -9383,7 +9432,8 @@
    "nb": "lisatud sweepis 28.07.2026; kinnitatud Bandsintown + Piletilevi. FB-eventi ei ole | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht (varem oli ainult avastusallikas). | 25.09.2026 jarelejooks, RIKASTUS: urituse FB event (https://www.facebook.com/events/2384404665379203/, korraldajad WiniaryBookings + Tabloited + Paavli Kultuurivabrik) nimetab SOOJENDAJAT, keda kirjes ei olnud — Tabloited, Eesti punkrockband aastast 2016. Lisatud b-sse.",
    "img": "https://www.skene.info/pildid/therumjacksaus.webp",
    "on_": "Paavli Kultuurivabrik",
-   "ou": "https://paavli.ee/sundmused/the-rumjacks-25-09-26-paavli-kultuurivabrik-tallinn/"
+   "ou": "https://paavli.ee/sundmused/the-rumjacks-25-09-26-paavli-kultuurivabrik-tallinn/",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -9414,7 +9464,8 @@
    },
    "lisatud": "2026-09-13",
    "nb": "lisatud 13.09.2026 postkastijooksus (kontaktivorm, Sander Varusk 12.09). KOLM ALLIKAT: ürituse FB event 1604783617845350 (R 25.09.2026 kl 19.00 EEST, Uus Laine, Vana-Kalamaja 1; korraldajad Uus Laine + Ixtlan + Town Flesh) + Fienta piletileht town-flesh-ixtlan-live (10 €, sama kuupäev ja koht) + Town Fleshi Bandcampi EP-leht, mis kinnitab sama ilmumispäeva. ŽANRIOTSUS: korraldaja tekst ütleb kaks korda „Eesti indie maastik“ / „Estonian indie scene“; Town Flesh on kitarripõhine indie (60ndate psühh, 80ndate jangle, 90ndate alternatiiv; liikmeid mh Holy Motorsist), Ixtlan eestikeelne unistav indie — REEGLID §1 kitarripõhine alternatiiv, sildid alt+rock nagu varasematel Uus Laine indie-kirjetel (Tallinn Indie Shuffle 29.08, Laine Live sari). Samal päeval ilmub Town Fleshi EP → eraldi reliisikirje. ⚠ SILT MUUDETUD 13.09.2026: Silver lubas „indie“ uue sildina — lisatud `g` ette. Meta-filtrit see ei muuda (indie ei ole GENRE_META-s, nagu shoegaze'igi pole), kirje jääb `alt`/`rock` metasse ja `indie` paistab kaardi sildina.",
-   "img": "https://www.skene.info/pildid/townfleshixtlanlive.webp"
+   "img": "https://www.skene.info/pildid/townfleshixtlanlive.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -9626,7 +9677,8 @@
     "allikas": "Fienta, kontrollitud 28.07.2026"
    },
    "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta + tapper.ee). ZANRIOTSUS: Evestus on dark-electro/industrial, aga koosseis on metal-poolne (Ampest) ja venue rokiklubi -> peasait, sama loogika mis Freakangelil (Silveri otsus 27.07). Silver voib klubisse tosta | 07.08.2026 SILVERI OTSUS: classify.py soovitas klubi-poolt (Evestuse Last.fm sildid industrial/electronic/industrial rock), kirje JÄÄB PEASAIDILE — baasžanr on industrial ROCK ja kaasesineja Ampest on metal. Ära tõsta järgmistes sweepides.",
-   "img": "https://www.skene.info/pildid/evestusampest.webp"
+   "img": "https://www.skene.info/pildid/evestusampest.webp",
+   "vu": "https://www.tapper.ee/"
   },
   {
    "sait": "klubi",
@@ -9690,7 +9742,8 @@
     "mark": "eelmüük Piletitaskust, kaks hinnaastet; sissepääs 19.00",
     "allikas": "Piletitasku, kontrollitud 07.09.2026"
    },
-   "img": "https://www.skene.info/pildid/lainelivekurjamzlo.webp"
+   "img": "https://www.skene.info/pildid/lainelivekurjamzlo.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -9718,7 +9771,8 @@
    "hind": {
     "praegu": "13–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -9793,7 +9847,8 @@
    "ou": "https://www.facebook.com/events/27551155547893250/",
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Konservatoorium + Uranus) + Konservatooriumi FB events-tab. Soome death'n'roll. ⚠ FB asukohaväli ütleb 'Lossi 42/1' — Konservatoorium on Koidu 13a, Viljandi; kirjes on venue nimi. Pilet/uksehind avaldamata.",
-   "linn": "Viljandi"
+   "linn": "Viljandi",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "www",
@@ -9931,7 +9986,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2178578089753939/",
    "lisatud": "2026-09-25",
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Konservatoorium + Kaleo Ghidora) + Konservatooriumi ENDA kuukava-postitus „SEPTEMBER 2026 ver.2“ (google.ee tulem kinnitab E 28.09 18.00, Koidu 13a Viljandi). Sama tuuripakett nagu 27.09 Ulase12 kirjel (https://www.facebook.com/events/1793462062082892/), mille leht utleb zanri valja: Trigger = 90ndate grindcore; In Obscurity Revealed (MX) = death metal (sama band on 29.09 Ulase12 kirjel). ZANR tuleb seega ESINEJATE ja sama paketi urituse enda lehelt, MITTE venue profiilist (REEGLID §1). ⚠ classify.py kontrollib. Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad Konservatoorium + Kaleo Ghidora) + Konservatooriumi ENDA kuukava-postitus „SEPTEMBER 2026 ver.2“ (google.ee tulem kinnitab E 28.09 18.00, Koidu 13a Viljandi). Sama tuuripakett nagu 27.09 Ulase12 kirjel (https://www.facebook.com/events/1793462062082892/), mille leht utleb zanri valja: Trigger = 90ndate grindcore; In Obscurity Revealed (MX) = death metal (sama band on 29.09 Ulase12 kirjel). ZANR tuleb seega ESINEJATE ja sama paketi urituse enda lehelt, MITTE venue profiilist (REEGLID §1). ⚠ classify.py kontrollib. Pilet/uksehind avaldamata.",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "www",
@@ -10048,7 +10104,8 @@
     "mark": "noortepilet 10 €, tavapilet 15 €",
     "allikas": "Fienta, kontrollitud 01.10.2026"
    },
-   "linn": "Viljandi"
+   "linn": "Viljandi",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "www",
@@ -10077,7 +10134,8 @@
    "hind": {
     "praegu": "13–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -10327,7 +10385,8 @@
    "koosseis_tba": 1,
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026 paavli.ee sundmuste lehelt. Kaks allikat: paavli.ee uritusleht + Paavli FB event (viidatud lehelt). Line-up on lehel kirjas kujul 'Skoone / Paskontrole (LV) / + TBA' -> koosseis_tba jaab kuni kolmas nimi avaldatakse. Skoone = 80ndate hardcore punk, Paskontrole = Lati hardcore punk. | RIKASTATUD 18.09.2026 sweepis: paavli.ee üritusleht avaldas koosseisu (Skoone + Paskontrole (LV) + TBA) ja sissepääsu (annetuspõhine, min 5 €). koosseis_tba JÄÄB, sest kavas on veel '+ TBA'. https://paavli.ee/sundmused/skoone-friends-mexican-tour-fundraiser/",
-   "img": "https://www.skene.info/pildid/skoonefriendsmexicantourfundraiser.webp"
+   "img": "https://www.skene.info/pildid/skoonefriendsmexicantourfundraiser.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "rap",
@@ -10441,7 +10500,8 @@
     "praegu": "25–39 €",
     "mark": "VÄLJA MÜÜDUD (Fienta: kõik piletid välja müüdud, kontrollitud 03.10.2026; Paavli uudiskiri 02.10 „SOLD OUT“)",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -10466,7 +10526,8 @@
    "pu": "https://sviby.com/et/e/lm9ho1",
    "lisatud": "2026-09-25",
    "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad WD Events + Genialistide Klubi + JAXY + DRAMAMAMA) + Sviby piletileht. Zanr tuleb BANDI ENDA FB-lehelt (DRAMAMAMA: „Official Facebook page for Estonian rock band“) — mitte venue profiilist (REEGLID §1); Dramamama on saidil juba esinejana Tartu Rock Fest 2026 kirjes. JAXY oma leht utleb ainult „Music with vocals“. ⚠ classify.py kontrollib sildid. Hinda FB-lehel ei nimetata.",
-   "img": "https://www.skene.info/pildid/dramamamajaxy.webp"
+   "img": "https://www.skene.info/pildid/dramamamajaxy.webp",
+   "vu": "https://genklubi.ee/"
   },
   {
    "sait": "klubi",
@@ -10561,7 +10622,8 @@
     "praegu": "12€",
     "mark": "eelmüügi sooduspilet kuni 25.09.2026; kuni 15-aastastele (k.a) tasuta; hilisemat hinda pole veel avaldatud",
     "allikas": "Fienta, kontrollitud 09.09.2026"
-   }
+   },
+   "vu": "https://www.tapper.ee/"
   },
   {
    "sait": "www",
@@ -10588,7 +10650,8 @@
    "hind": {
     "praegu": "15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -10666,7 +10729,8 @@
    "pu": "https://www.piletilevi.ee/piletid/F4XKRDGJOE/dead-by-april-swe",
    "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 sweep: lisatud ürituse FB event `ou`-sse (korraldaja FB events-tabist); agregaator jääb `su`-le.",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1327980026192365/"
+   "ou": "https://www.facebook.com/events/1327980026192365/",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "klubi",
@@ -10709,7 +10773,8 @@
    "pu": "https://fienta.com/et/rene-paul-bk-0710",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Rene Paul + Eesti Bluus) + Fienta piletileht. Žanr ürituse tekstist (bluus, boogie-woogie); bluus on www metafilter (REEGLID §1).",
-   "img": "https://www.skene.info/pildid/bluusikontsertrenepaul.webp"
+   "img": "https://www.skene.info/pildid/bluusikontsertrenepaul.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -10738,7 +10803,8 @@
    "hind": {
     "praegu": "15–20 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -10994,7 +11060,8 @@
    "pu": "https://fienta.com/et/rockshock-nightflies-thekrypt",
    "lisatud": "2026-09-25",
    "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Night Flies + Rockshock cover band) + Fienta piletileht, mille kuupaev/kellaaeg (R 9.10 21.00–02.00) kattub; kolmas The Krypti enda veebikava thekrypt.ee/events. Zanr urituse enda lehelt: „originaalset alternatiivrokki ja legendaarseid hard rock’i hitte“. ⚠ Kellaaeg: veebikava utleb 20.00, FB+Fienta 21.00 — molemad a-valjal, ei valinud. Hinda lehel ei nimetata (Fienta widgeti taga), seetottu hind tuhi.",
-   "img": "https://www.skene.info/pildid/rockfridayrockshocknightflies.webp"
+   "img": "https://www.skene.info/pildid/rockfridayrockshocknightflies.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -11081,7 +11148,8 @@
    },
    "lisatud": "2026-09-09",
    "nb": "SULGEB HANDOVER §4 punkti 3 — VAIKEOTSUS (a) www rakendus 09.09.2026 (küsitud 04.09 koondkirjas, 5 päeva vastuseta; §2 reegel 16). Postkastijooks 09.09 kontrollis žanri üle enne lisamist: Helitehase OMA ürituselehe tekst ütleb sõna-sõnalt \"Singer Vingeri kompromissitu punk-rock-energia\" ja \"Eesti rock- ja indiemuusika kaks suurt legendi\" — kitarripõhine punk/alt, EI ole peavoolu-popprokk (REEGLID §1 piir Terminaator/Smilers-klass ei kohaldu). Kaks sõltumatut allikat: helitehas.ee/facebook-event/singer-vinger-ja-sopruse-puiestee-9-oktoobril-helitehases/ (venue oma leht, uksed 19.00) + Piletitasku event/10151 (R 09.10.2026 20.00, Madara 22a, sissepääs 19.00, hinnad 31,90/47,90 €, korraldaja E&H ENTERTAINMENT OÜ) + FB event 1408381801148375. ⚠ Piletitasku kirjelduses on korraldaja näpukas \"neljapäeval\" — 09.10.2026 on REEDE, nii päise kuupäev kui FB event kinnitavad reedet. Silver saab otsuse tagasi pöörata (\"3b\" → kustuta + blocklist).",
-   "img": "https://www.skene.info/pildid/singervingersoprusepuiestee.webp"
+   "img": "https://www.skene.info/pildid/singervingersoprusepuiestee.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "www",
@@ -11273,7 +11341,8 @@
    "hind": {
     "praegu": "13–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",
@@ -11353,7 +11422,8 @@
    },
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Uus Laine + Rada7.ee) + Piletitasku piletileht (L 10.10 20:00) + uuslaine.com. Sildid samad mis varasematel Tuberkuloited 35 kirjetel (Rakvere 17.07, Pärnu 14.08). Oli 01.10 postkastijooksu järelnimekirjas.",
-   "img": "https://www.skene.info/pildid/lainelivethetuberkuloited35.webp"
+   "img": "https://www.skene.info/pildid/lainelivethetuberkuloited35.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "rap",
@@ -11585,7 +11655,8 @@
    "pu": "https://fienta.com/et/vennaskond-postipoisis",
    "lisatud": "2026-10-02",
    "nb": "lisatud 02.10.2026 järelkontrollis (Fienta otsing 'vennaskond'). Kaks allikat: Fienta piletileht + tanaparnus.ee. Žanr Fienta tekstist („legendaarne Eesti punkrock-ansambel“). FB eventi ei leidnud → ou tühi.",
-   "img": "https://www.skene.info/pildid/vennaskondtrahterispostipoiss.webp"
+   "img": "https://www.skene.info/pildid/vennaskondtrahterispostipoiss.webp",
+   "vu": "https://postipoiss.ee/"
   },
   {
    "sait": "klubi",
@@ -11714,7 +11785,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1452626903352793/",
    "lisatud": "2026-09-04",
-   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata."
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata.",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "klubi",
@@ -11921,7 +11993,8 @@
     "mark": "eelmüük 15 €, tavapilet 20 €",
     "allikas": "Fienta, kontrollitud 16.09.2026"
    },
-   "img": "https://www.skene.info/pildid/kurjammaiskizothekrypt.webp"
+   "img": "https://www.skene.info/pildid/kurjammaiskizothekrypt.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -12308,7 +12381,8 @@
    "pu": "https://fienta.com/et/unreal-monstercouq-thekrypt",
    "lisatud": "2026-09-25",
    "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Monstercöuq jt) + Fienta piletileht (L 17.10 21.00–02.00, kattub); kolmas The Krypti veebikava. Zanr urituse enda lehelt: „Laupaeval, 17. oktoobril votavad Krypti lava ule heavy metal ja punk“ — Un-Real klassikaline heavy metal + thrash/power, Monstercöuq Eesti punkrock. ⚠ Kellaaeg: veebikava 20.00 vs FB/Fienta 21.00, molemad a-valjal. Hinda lehel ei nimetata.",
-   "img": "https://www.skene.info/pildid/heavysaturdayunrealmonstercouq.webp"
+   "img": "https://www.skene.info/pildid/heavysaturdayunrealmonstercouq.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -12470,7 +12544,8 @@
    },
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Koidu 13a, Viljandi. Kaks allikat: Konservatooriumi FB events-leht + ürituse enda FB event (koosseis, hind, kellaajad). ⚠ Žanrisildid on kuraatori määrang — korraldaja kirjeldab õhtut ainult sõnaga 'depressiivne'; Fern Flower on Tarbariituse (folk black metal) koosseisus, mis toetab metal-poolt. Silveril üle vaadata",
-   "img": "https://www.skene.info/pildid/sygisviirastus.webp"
+   "img": "https://www.skene.info/pildid/sygisviirastus.webp",
+   "vu": "https://www.facebook.com/konservatoorium"
   }
  ]
 }
