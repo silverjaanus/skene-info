@@ -19,6 +19,19 @@ from common import (slug as _slug, load_entries as _load_entries,
 
 TODAY = today_local().isoformat()
 
+# Toimumiskohtade kodulehed (Silver 18.10.2026): Search Console "Missing field url (in organizer)".
+# Kui kirjel pole päris korraldajat, on korraldajaks toimumiskoht (v) - selle url tuleb siit.
+# Üks ühine kaart kõigile kolmele saidile; kirjesse kirjutatakse väli `vu`.
+KOHAD_FILE = Path(__file__).resolve().parent.parent / "data" / "kohad.json"
+
+
+def _load_kohad():
+    try:
+        d = json.loads(KOHAD_FILE.read_text(encoding="utf-8"))
+        return {k: v for k, v in d.items() if isinstance(v, str) and v.startswith("http")}
+    except (OSError, ValueError):
+        return {}
+
 
 def _key(e):
     return (e.get("d", ""), _slug(e.get("n", "")))
@@ -126,6 +139,16 @@ def split_and_write(data_dir, fresh, log=None, block=None, block_names=None,
     n_norm = sum(1 for e in allentries if _normalize_tags(e, sait))
     if n_norm:
         print(f"  sildid uhtlustatud: {n_norm} kirjet ({sait})")
+
+    # 2c) Toimumiskoha koduleht (vu) data/kohad.json-ist. Kaart on tõeallikas:
+    # kohta, mida kaardil pole, `vu` ei saa (ja vana väärtus kustutatakse).
+    kohad = _load_kohad()
+    for e in allentries:
+        vu = kohad.get((e.get("v") or "").strip())
+        if vu:
+            e["vu"] = vu
+        else:
+            e.pop("vu", None)
 
     # 3) Partitsioon
     current = [e for e in allentries if _is_current(e)]

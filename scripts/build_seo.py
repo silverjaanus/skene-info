@@ -165,6 +165,9 @@ def ld_event(e, naita, linn_nimi, sait):
     elif e.get("v"):
         # Silver 11.10.2026: kui paris korraldajat pole, on korraldajaks toimumiskoht
         ev["organizer"] = {"@type": "Organization", "name": e["v"]}
+        # Silver 18.10.2026: koha koduleht data/kohad.json-ist (archive_split kirjutab `vu`)
+        if url_ok(e.get("vu")):
+            ev["organizer"]["url"] = e["vu"]
     if e.get("b"):
         ev["performer"] = [{"@type": "PerformingGroup", "name": b} for b in e["b"][:12]]
     o = offer(e)
