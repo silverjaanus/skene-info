@@ -287,7 +287,8 @@
    "ou": "https://ra.co/events/2535243",
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2535243 (žanrid Techno/House) + paavli.ee sündmuste kava. Pilet/uksehind avaldamata.",
-   "img": "pildid/kontrastintroversiondemakatao.webp"
+   "img": "pildid/kontrastintroversiondemakatao.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "d": "2026-10-23",
@@ -307,7 +308,8 @@
    "pu": "https://gateme.com/event/104408/",
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek) + RA event (žanr RA lehelt: House) + GateMe. ⚠ Žanr ainult RA ürituselehe sildist.",
-   "img": "pildid/stereofonoteek.webp"
+   "img": "pildid/stereofonoteek.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "d": "2026-10-24",
@@ -330,7 +332,8 @@
    "pu": "https://gateme.com/event/104406/",
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek, Kyka, DJ Widenski) + RA (Disco) + GateMe.",
-   "img": "pildid/discodiscogoodgood.webp"
+   "img": "pildid/discodiscogoodgood.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "d": "2026-10-28",
@@ -353,7 +356,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1936940123644928",
    "lisatud": "2026-09-09",
-   "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Rural Tapes = Arne Kjelsrud Mathisen (NO), üle 80 väljaande; Euroopa sooloturnee okt–nov 2026 uue lindi «Alien Territories Vol. 2» toel; ambient/lindiloomingu telg (viited Terry Rileyle, Enole, Frippile). Hendrik Kaljujärv (EE) teatri- ja helikunstnik. Kahe allika reegel täidetud: FB event (K 28.10.2026 19.00–22.00, korraldajad Glitch Please + Rural Tapes) + Uus Laine oma kalender uuslaine.com. Artisti oma leht: https://ruraltapes.bandcamp.com/ . ⚠ Piletimüüki 09.09 seisuga EI OLE (Uus Laine kalendris „info\", mitte „piletid\"; Fientas kirjet ei ole) → `pu` ja `hind` tühjad, kontrolli sweepis."
+   "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Rural Tapes = Arne Kjelsrud Mathisen (NO), üle 80 väljaande; Euroopa sooloturnee okt–nov 2026 uue lindi «Alien Territories Vol. 2» toel; ambient/lindiloomingu telg (viited Terry Rileyle, Enole, Frippile). Hendrik Kaljujärv (EE) teatri- ja helikunstnik. Kahe allika reegel täidetud: FB event (K 28.10.2026 19.00–22.00, korraldajad Glitch Please + Rural Tapes) + Uus Laine oma kalender uuslaine.com. Artisti oma leht: https://ruraltapes.bandcamp.com/ . ⚠ Piletimüüki 09.09 seisuga EI OLE (Uus Laine kalendris „info\", mitte „piletid\"; Fientas kirjet ei ole) → `pu` ja `hind` tühjad, kontrolli sweepis.",
+   "vu": "https://uuslaine.com/"
   },
   {
    "d": "2026-10-30",
@@ -401,7 +405,8 @@
    "pu": "https://fienta.com/afro-chill-masquerade-ball",
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Afro Chill + Uus Laine) + Fienta. Žanr ürituse tekstist („African rhythms“), sama telg mis Helina The Artist (afro).",
-   "img": "pildid/afrochillmasqueradeball.webp"
+   "img": "pildid/afrochillmasqueradeball.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "d": "2026-10-31",
@@ -453,7 +458,8 @@
    },
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026 RA snapshotist. Kolm allikat: RA event 2516539 (korraldaja Hevi Events) + GateMe piletileht (104106, R 6. nov 22.30 - L 7. nov 04.00) + Helitehase IG-postitus (google.ee kaudu, sama kellaaeg ja piletilink).",
-   "img": "pildid/heviteddykillerztantrumdesire.webp"
+   "img": "pildid/heviteddykillerztantrumdesire.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "d": "2026-11-06",
@@ -480,7 +486,8 @@
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    },
    "ou": "https://www.facebook.com/events/929842166782733/",
-   "on_": "Facebook event"
+   "on_": "Facebook event",
+   "vu": "https://uuslaine.com/"
   },
   {
    "d": "2026-11-06",
@@ -526,7 +533,8 @@
    "pu": "https://gateme.com/event/104417/",
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek + Rulers of The Deep) + GateMe. Žanr ürituse tekstist („two house music powerhouses“).",
-   "img": "pildid/rulersofthedeepwseamushajiuk.webp"
+   "img": "pildid/rulersofthedeepwseamushajiuk.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "d": "2026-11-07",
@@ -579,7 +587,8 @@
    "ou": "https://ra.co/events/2537635",
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata. | 09.10.2026 sweep: täiskoosseis RA ürituselehelt (ra.co/events/2537635, snapshot 08.10).",
-   "img": "pildid/dreamscapeclubnightkode9ukhyperdub.webp"
+   "img": "pildid/dreamscapeclubnightkode9ukhyperdub.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "d": "2026-11-13",
@@ -660,7 +669,8 @@
    },
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Tartu Massive jt) + Ticketer.",
-   "img": "pildid/tartumassiveprimatebe.webp"
+   "img": "pildid/tartumassiveprimatebe.webp",
+   "vu": "https://www.klubigutenberg.ee/"
   },
   {
    "d": "2026-11-14",
@@ -683,7 +693,8 @@
    "pu": "https://gateme.com/helitehas/104256-ran-d-hard-nation-16-sunnipaev-helitehas-141126/",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event + GateMe + helitehas.ee kava („Holland · hardstyle\"). Hardstyle Eesti pikaajaliselt korraldajalt jääb skoopi (REEGLID §1, Brennan Heart 11.09 pretsedent).",
-   "img": "pildid/hardnation16bdayxrandnl.webp"
+   "img": "pildid/hardnation16bdayxrandnl.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "d": "2026-11-20",
@@ -744,7 +755,8 @@
     "praegu": "5 €",
     "mark": "Early Bird",
     "allikas": "Fienta, kontrollitud 09.10.2026"
-   }
+   },
+   "vu": "https://uuslaine.com/"
   },
   {
    "d": "2026-11-20",
@@ -767,7 +779,8 @@
    "pu": "https://gateme.com/et/fonoteek/104338-fedo-x-silat-beksi-all-night-long-fonoteek-i-2011",
    "lisatud": "2026-10-09",
    "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Fonoteek + Tripsy, „part of the Estonian minimal story“) + GateMe piletileht; RA snapshotis ka ra.co/events/2556652.",
-   "img": "pildid/fedoxsilatbeksiallnightlong.webp"
+   "img": "pildid/fedoxsilatbeksiallnightlong.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "d": "2026-11-21",
@@ -790,7 +803,8 @@
    "pu": "https://www.piletilevi.ee/saalid/pohjala-tehas",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; kolm allikat: Baltic Live Agency FB event + Piletilevi (L 21.11.2026 21:00, Kalosseumi saal) + MuusikaPlaneet uudis. pu viitab Piletilevi saali-lehele (otse-eventi URL polnud otsingust loetav). NB samal õhtul Lane 8 Noblessneri Valukojas (kirje olemas)",
-   "img": "pildid/fatboyslimuk.webp"
+   "img": "pildid/fatboyslimuk.webp",
+   "vu": "https://pohjalatehas.ee/"
   },
   {
    "d": "2026-11-21",
@@ -847,7 +861,8 @@
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: Fienta üritusleht (täiskoosseis, ajakava) + huvi.tallinn.ee ürituseleht ja korraldaja Instagrami teade. Metrik on Hospital Recordsi artist (album «AWAKE»). ⚠ OTSELINK: ürituse enda FB event ID-d ei õnnestunud kinnitada — `ou` teadlikult tühi (piletimüüja ei tohi `ou`-l olla, REEGLID §3). Hinda Fienta lehel tekstina ei paista (ostuvoos); VIP-lauad 300–740 € ei ole piletihind. | 16.10.2026 sweep: rikastatud (ou).",
    "img": "pildid/pulsationestonia2026metrikuksubsonicuk.webp",
    "ou": "https://www.facebook.com/events/1818048599199392/",
-   "on_": "Facebook event"
+   "on_": "Facebook event",
+   "vu": "https://helitehas.ee/"
   },
   {
    "d": "2026-12-04",
@@ -875,7 +890,8 @@
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    },
    "ou": "https://www.facebook.com/events/1024730253499189/",
-   "on_": "Facebook event"
+   "on_": "Facebook event",
+   "vu": "https://uuslaine.com/"
   },
   {
    "d": "2026-12-05",
@@ -903,7 +919,8 @@
     "techno",
     "industrial"
    ],
-   "img": "pildid/rocktorave.webp"
+   "img": "pildid/rocktorave.webp",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "d": "2026-12-11",
@@ -930,7 +947,8 @@
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    },
    "ou": "https://www.facebook.com/events/1334015095509689/",
-   "on_": "Facebook event"
+   "on_": "Facebook event",
+   "vu": "https://uuslaine.com/"
   },
   {
    "d": "2027-01-15",
@@ -957,7 +975,8 @@
     "praegu": "6 €",
     "mark": "Early Bird",
     "allikas": "Fienta, kontrollitud 09.10.2026"
-   }
+   },
+   "vu": "https://uuslaine.com/"
   },
   {
    "d": "2027-03-12",
@@ -984,7 +1003,8 @@
    "img": "pildid/dreamscapefestival2027.webp",
    "koosseis_tba": 1,
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/965232562692927/"
+   "ou": "https://www.facebook.com/events/965232562692927/",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "d": "2027-03-26",
@@ -1006,7 +1026,8 @@
    "pu": "https://gateme.com/et/event/104416/",
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Selecta events + Planeet) + GateMe.",
-   "img": "pildid/selectaandycuk.webp"
+   "img": "pildid/selectaandycuk.webp",
+   "vu": "https://kultuurikatel.ee/"
   },
   {
    "d": "2027-04-16",
@@ -1027,7 +1048,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2139598826639385/",
    "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (Baltic Live Agency + Helitehas + Piletitasku kaaskorraldajana). Žanr ürituse tekstist (hardcore, gabber); hard dance pretsedent (Brennan Heart). Piletilink veel avaldamata (FB viitab Piletilevi korraldajalehele)."
+   "nb": "lisatud sweepis 16.10.2026. FB event (Baltic Live Agency + Helitehas + Piletitasku kaaskorraldajana). Žanr ürituse tekstist (hardcore, gabber); hard dance pretsedent (Brennan Heart). Piletilink veel avaldamata (FB viitab Piletilevi korraldajalehele).",
+   "vu": "https://helitehas.ee/"
   },
   {
    "d": "2027-07-01",
@@ -1055,7 +1077,8 @@
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    },
    "ou": "https://www.facebook.com/events/1515134463157827/",
-   "on_": "Facebook event"
+   "on_": "Facebook event",
+   "vu": "https://mustjoe.ee/"
   },
   {
    "d": "2027-07-15",
