@@ -5374,6 +5374,121 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud järelkäigus 09.10.2026 (Kinomaja FB events-tab näitas ainult möödunuid). Kaks allikat: Piletitasku (korraldaja Maaaluste Muusade Büroo OÜ: „legendaarne Tartu alternatiivrokiansambel DND“) + FB event (KuKu klubi).",
    "img": "pildid/dndtallinnakinomajas.webp"
+  },
+  {
+   "d": "2026-10-17",
+   "t": "festival",
+   "n": "Sindi Rock 2026",
+   "a": "Eesti vanim rockfestival (aastast 1969); peaesineja Kosmikud, The Tuberkuloited 35, Sibyl Vane (album VORTEX), EiK, Raev",
+   "b": [
+    "Kosmikud",
+    "The Tuberkuloited",
+    "Sibyl Vane",
+    "EiK",
+    "Raev"
+   ],
+   "v": "Sindi Seltsimaja",
+   "c": "mujal",
+   "linn": "Sindi",
+   "g": [
+    "rock",
+    "alt",
+    "punk",
+    "metal",
+    "thrash"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/sindirock2026",
+   "pu": "https://fienta.com/et/sindirock2026",
+   "hind": {
+    "praegu": "26€ (varajane) / 31€ (eelmüük) / 35€ (uksel)",
+    "mark": "eelmüük kuni 16.10; toetajapilet 50€; õpilane/pensionär/puue 26€; uksed 18.00, esimene bänd 19.00",
+    "allikas": "Fienta (Tori Valla Kultuurikeskus), kontrollitud 12.07.2026"
+   },
+   "img": "pildid/sindirock2026.webp",
+   "ou": "https://www.facebook.com/events/990247623812582/",
+   "on_": "Facebook event",
+   "nb": "16.10.2026 sweep: rikastatud (ou)."
+  },
+  {
+   "d": "2026-10-17",
+   "t": "kontsert",
+   "n": "Sygisviirastus",
+   "a": "Tume sügisõhtu Viljandi Konservatooriumis: Valu, Silmus, Fern Flower ja Kiindumus; uksed 20.00, bändid 21.00",
+   "b": [
+    "Valu",
+    "Silmus",
+    "Fern Flower",
+    "Kiindumus"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "g": [
+    "black metal",
+    "post-punk",
+    "metal"
+   ],
+   "sn": "Konservatoorium FB",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1539358507343722/",
+   "hind": {
+    "praegu": "10€",
+    "allikas": "FB event, kontrollitud 07.08.2026"
+   },
+   "lisatud": "2026-08-07",
+   "nb": "lisatud 07.08.2026 nädalases sweepis. Koidu 13a, Viljandi. Kaks allikat: Konservatooriumi FB events-leht + ürituse enda FB event (koosseis, hind, kellaajad). ⚠ Žanrisildid on kuraatori määrang — korraldaja kirjeldab õhtut ainult sõnaga 'depressiivne'; Fern Flower on Tarbariituse (folk black metal) koosseisus, mis toetab metal-poolt. Silveril üle vaadata",
+   "img": "pildid/sygisviirastus.webp"
+  },
+  {
+   "d": "2026-10-17",
+   "t": "kontsert",
+   "n": "Heavy Saturday: Un-Real + Monstercöuq",
+   "a": "uksed 20.00 (venue veebikava), show 21.00–02.00 (FB event + Fienta); heavy metal ja punk",
+   "b": [
+    "Un-Real",
+    "Monstercöuq"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "heavy",
+    "metal",
+    "thrash",
+    "power",
+    "punk"
+   ],
+   "sn": "The Krypt veebikava",
+   "su": "https://www.thekrypt.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1741261913798786/",
+   "pu": "https://fienta.com/et/unreal-monstercouq-thekrypt",
+   "lisatud": "2026-09-25",
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (korraldajad The Krypt + Monstercöuq jt) + Fienta piletileht (L 17.10 21.00–02.00, kattub); kolmas The Krypti veebikava. Zanr urituse enda lehelt: „Laupaeval, 17. oktoobril votavad Krypti lava ule heavy metal ja punk“ — Un-Real klassikaline heavy metal + thrash/power, Monstercöuq Eesti punkrock. ⚠ Kellaaeg: veebikava 20.00 vs FB/Fienta 21.00, molemad a-valjal. Hinda lehel ei nimetata.",
+   "img": "pildid/heavysaturdayunrealmonstercouq.webp"
+  },
+  {
+   "d": "2026-10-17",
+   "t": "kontsert",
+   "n": "CAUSE A RIOT (FI) + I Am Bob + Mittekunagimaa",
+   "a": "Helsingi melodic hardcore bänd Cause a Riot Ülase12-s; algus 19.00",
+   "b": [
+    "Cause a Riot (FI)",
+    "I Am Bob",
+    "Mittekunagimaa"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2587689351678799/",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad Anemon12 + Fedja Skunk, kaks lehte) + Rada7.ee events-tab. Žanr ürituse tekstist: „CAUSE A RIOT, a melodic hardcore 4-piece band from Helsinki“. Piletiinfot lehel pole."
   }
  ]
 }
