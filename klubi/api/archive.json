@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 458,
+ "count": 460,
  "entries": [
   {
    "sait": "www",
@@ -1680,7 +1680,8 @@
     "praegu": "10.90€",
     "mark": "sisaldab RA teenustasu; 18+",
     "allikas": "Resident Advisor, kontrollitud 13.07.2026"
-   }
+   },
+   "vu": "https://www.klubitempel.ee/"
   },
   {
    "sait": "rap",
@@ -1795,7 +1796,8 @@
     "mark": "late bird",
     "allikas": "GateMe, kontrollitud 13.07.2026"
    },
-   "img": "https://klubi.skene.info/pildid/selectaaphroditeuk.webp"
+   "img": "https://klubi.skene.info/pildid/selectaaphroditeuk.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -2480,7 +2482,8 @@
    },
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026 Rada7.ee uudiskirja (30.07.2026) põhjal; Silveri protsessiotsus samanädalaste tasuta pidude kohta. Kinnitatud 2 allikaga: Rada7 uudiskiri + fonoteek.ee oma ürituseleht (line-up, tasuta sissepääs, 18+, uksed 23.00). Žanrisildid on kuraatori määrang — korraldaja ei kasuta lehel ühtki žanrisõna; tuletatud DSM 2026 festivali kirjest. DSM 2026 festival ise on 14.–16.08.2026 HALLis ja olemasolev festivalikirje on juba korrektne (d 2026-08-14, d2 16.08).",
-   "img": "https://klubi.skene.info/pildid/darksideofthemoonwarmupparty.webp"
+   "img": "https://klubi.skene.info/pildid/darksideofthemoonwarmupparty.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "www",
@@ -3202,7 +3205,8 @@
    "su": "https://fienta.com/paavli-club-festival-2026",
    "pu": "https://fienta.com/paavli-club-festival-2026",
    "nb": "leitud sweepis 26.07.2026; täiskoosseis Fienta ürituselehelt (2 päeva); toetab Liveurope",
-   "img": "https://klubi.skene.info/pildid/paavliclubfestival2026.webp"
+   "img": "https://klubi.skene.info/pildid/paavliclubfestival2026.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -3769,7 +3773,8 @@
    "su": "https://fienta.com/et/mum-tallinn",
    "pu": "https://fienta.com/et/mum-tallinn",
    "nb": "lisatud sweepis 19.07.2026; Paavli.Live sari; FB event olemas (280+ huvilist) 13.08: +avaesineja Dominik Prok (Paavli uudiskiri 11.08 + kultuurivabrik.ee programm).",
-   "img": "https://klubi.skene.info/pildid/paavlilivemumis.webp"
+   "img": "https://klubi.skene.info/pildid/paavlilivemumis.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -3949,7 +3954,8 @@
    "su": "https://www.facebook.com/uuslaine/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/4539110306374626/",
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Rhythm Doctor (UK) — DJ alates 1978."
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Rhythm Doctor (UK) — DJ alates 1978.",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -4074,7 +4080,8 @@
    "ou": "https://www.facebook.com/events/2856795201350623/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026 (samanädalase peo reegel); allikad: Fonoteegi FB event + fonoteek.ee events-leht (14.08)",
-   "img": "https://klubi.skene.info/pildid/rulersofthedeeplowkeys.webp"
+   "img": "https://klubi.skene.info/pildid/rulersofthedeeplowkeys.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -4320,7 +4327,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/869742072842177/",
    "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA klubisse (world/folk+elektro piiripealne; Mundial = Lõuna-Itaalia rituaalirütmid + elektro/klubikultuur). Allikad: Paavli 11.08 uudiskiri (spämmist päästetud) + kultuurivabrik.ee programm + FB event.",
-   "img": "https://klubi.skene.info/pildid/italyunexpected.webp"
+   "img": "https://klubi.skene.info/pildid/italyunexpected.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -4339,7 +4347,8 @@
    "su": "https://www.facebook.com/uuslaine/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1058754833477310/",
-   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Macondo Sessions; koosseisu nimekirjavaade ei avalda → b tühi."
+   "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Macondo Sessions; koosseisu nimekirjavaade ei avalda → b tühi.",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -4360,7 +4369,8 @@
    "ou": "https://www.facebook.com/events/1464441879049289/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek IG (11.08 postitus 'TJUUN IN 15.08.26') + fonoteek.ee (15.08). Sari kolis Pärnu Templist / venue laienemine — Tempel RA-lehel tulevasi üritusi pole",
-   "img": "https://klubi.skene.info/pildid/tjuunin.webp"
+   "img": "https://klubi.skene.info/pildid/tjuunin.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "www",
@@ -5274,7 +5284,8 @@
    "pu": "https://fienta.com/et/volodja-brodsky-paavli",
    "lisatud": "2026-08-22",
    "nb": "KOLITUD www-lt klubisse 25.08.2026 Silveri otsusel (baasžanr ambient, mitte kitarripõhine — REEGLID §1). Algselt lisatud www-le 02.08.2026 otsusega 'Paavli.Live sari läheb sisse'; www poolel on nüüd blocklisti kirje. Kolm allikat: paavli.ee ürituseleht + Fienta piletileht (Paavli org 17595) + kultuurivabrik.ee programm. Sildid ambient/minimal/experimental tulevad korraldaja enda sõnastusest ('ambient-muusika pianist', 'analoogambient'i eksperimentide sari Whispering Ln'), mitte verifitseeritud taksonoomiast. 'lisatud' hoitud 22.08 peal, et kolimine ei tõstaks kirjet esilehe uute sekka.",
-   "img": "https://klubi.skene.info/pildid/paavlilivevolodjabrodsky.webp"
+   "img": "https://klubi.skene.info/pildid/paavlilivevolodjabrodsky.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -5712,7 +5723,8 @@
     "praegu": "7,50–15€",
     "mark": "Fientas neli astet: Early Bird 7,50€, Regular 10€, Late Bird 12€, toetaja 15€; milline aste parasjagu müügil on, lehelt ei selgu",
     "allikas": "Fienta, kontrollitud 22.08.2026"
-   }
+   },
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -6028,7 +6040,8 @@
     "mark": "18+, uksed 19.00, DJd 23.00",
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fonoteegi FB events-tab + urituse FB event (Fonoteek korraldaja)."
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fonoteegi FB events-tab + urituse FB event (Fonoteek korraldaja).",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -6129,7 +6142,8 @@
    },
    "koosseis_tba": 1,
    "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka rap/data/manual.json-is.",
-   "img": "https://klubi.skene.info/pildid/mifxbuttercupssummerclosing.webp"
+   "img": "https://klubi.skene.info/pildid/mifxbuttercupssummerclosing.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "rap",
@@ -6313,7 +6327,8 @@
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: uuslaine.com kalender + AllEvents/HappeningNext. STYLËVA varasem sama sari toimus 31.05. FB event olemas, aga otse-URL jäi lugemata — pealkiri lingib su peale",
    "img": "https://klubi.skene.info/pildid/stylevasummernighthouseparty.webp",
-   "koosseis_tba": 1
+   "koosseis_tba": 1,
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -6601,7 +6616,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1237358456130739/",
    "nb": "lisatud 13.08.2026 SILVERI OTSUSEGA (auditi triaaž; 10.08 sweepis piiripealsena väljas). Allikad: Uus Laine FB events-leht + ürituse enda FB event. Hinda FB nimekirjavaade ei avalda — ei leiutatud. Korraldaja Iago Bresciani: Arte em movimento. NB FB-pealkirjas on 'vol lV' (väike L). | 17.08.2026: koosseis FB eventi pealkirjast (w/ Yungï, El Kajakas, Santi)",
-   "img": "https://klubi.skene.info/pildid/bailedolainaovoliv.webp"
+   "img": "https://klubi.skene.info/pildid/bailedolainaovoliv.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -7359,7 +7375,8 @@
    },
    "lisatud": "2026-09-09",
    "nb": "SILVERI OTSUS 09.09.2026 (\"4 jääb sisse\" / \"5 sisse\") — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. Vastus võidab vaikeotsuse (HANDOVER §2 reegel 16b). Balti eksperimentaalskeene sooloõhtu: Maksimovs (LV trummar/helilooja, debüütalbum „Rincore\"), Mart Soo ja Sander Saarmets — improvisatsiooni ja komposisiooni piirimail, elektrooniline helidisain. Kahe allika reegel täidetud: Fienta piletileht (K 09.09.2026 19.00–22.00, uksed 19.00, kontsert 19.30) + Uus Laine oma kalender uuslaine.com + FB event. ⚠ Sama korraldaja 05.09 TANTSUPIDU (KORTS+KIWA=77) on eraldi kirje, ära liida.",
-   "img": "https://klubi.skene.info/pildid/rinaldsmaksimovslvmartsoosandersaarmets.webp"
+   "img": "https://klubi.skene.info/pildid/rinaldsmaksimovslvmartsoosandersaarmets.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -7412,7 +7429,8 @@
    "pu": "https://fienta.com/afro-chill-new-season-uus-laine-11-09",
    "nb": "lisatud 17.08.2026: allikad Fienta + Resident Advisor (ra.co/events/ee/all) + IG @afrochill.events. DJ-koosseis avaldamata — b tühi teadlikult, kontrolli järgmises sweepis",
    "img": "https://klubi.skene.info/pildid/afrochillnewseason.webp",
-   "koosseis_tba": 1
+   "koosseis_tba": 1,
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -7440,7 +7458,8 @@
     "allikas": "GateMe, kontrollitud 14.08.2026"
    },
    "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026 (hard trance/hardstyle → klubi, Teknariku pretsedent); allikad: GateMe + FB event (Hard Nation, Helitehas, Summerstart Festival) + hardnation.ee viide. ou on FB otsingu-URL kuju — kui ei tööta, otsi 'BRENNAN HEART @ HELITEHAS'"
+   "nb": "lisatud sweepis 14.08.2026 (hard trance/hardstyle → klubi, Teknariku pretsedent); allikad: GateMe + FB event (Hard Nation, Helitehas, Summerstart Festival) + hardnation.ee viide. ou on FB otsingu-URL kuju — kui ei tööta, otsi 'BRENNAN HEART @ HELITEHAS'",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "rap",
@@ -7604,7 +7623,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1537213041785708/",
    "lisatud": "2026-09-04",
-   "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist (korraldaja Fonoteek ise). Pilet/uksehind avaldamata."
+   "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist (korraldaja Fonoteek ise). Pilet/uksehind avaldamata.",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "rap",
@@ -7823,7 +7843,8 @@
    "nb": "lisatud sweepis 02.08.2026; kinnitatud kultuurivabrik.ee programm + Fienta; korraldaja Vaip Events. RIKASTATUD 09.09.2026 postkastijooksus (Paavli uudiskiri): FB event leitud (ou), taiskoosseis lisatud - koosseis oli FB 'See more' taga (Xenny, EL.Gaudy, Conflict, Counterstrike, Deadshot, Cancel), uksed 23.00.",
    "img": "https://klubi.skene.info/pildid/vaipeventscounterstrikeczrsa.webp",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/936069779136728/"
+   "ou": "https://www.facebook.com/events/936069779136728/",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -8073,6 +8094,27 @@
   },
   {
    "sait": "klubi",
+   "rel": 1,
+   "d": "2026-09-12",
+   "lisatud": "2026-09-18",
+   "t": "reliis",
+   "n": "Qbic RUbic — «STATE»",
+   "a": "kolmeloouline EP: Immersion → Comprehension → Contemplation",
+   "b": [
+    "Qbic RUbic"
+   ],
+   "g": [
+    "techno",
+    "psytrance",
+    "electro"
+   ],
+   "sn": "Bandcamp (Narayana Records)",
+   "su": "https://narayanarecords.bandcamp.com/",
+   "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti techno-tag'i otsingust (sources.json bandcamp_otsing). Kaks allikat: Bandcamp (Narayana records, Tallinn, Estonia; released September 12, 2026) + plaadifirma Narayana Records Instagrami teade 12.09 („STATE — New EP out today“). Kuupäev 6 päeva vana → lisatud = tänane (esilehe „uued reliisid“ riba, REEGLID §6).",
+   "img": "https://klubi.skene.info/pildid/qbicrubicstate.webp"
+  },
+  {
+   "sait": "klubi",
    "d": "2026-09-12",
    "t": "klubi",
    "n": "Still Out: Ale Castro",
@@ -8098,7 +8140,8 @@
     "mark": "FB eventi kirjeldusest",
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fonoteegi FB events-tab + urituse FB event (korraldajad Still Out + Fonoteek)."
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Fonoteegi FB events-tab + urituse FB event (korraldajad Still Out + Fonoteek).",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -8423,7 +8466,8 @@
    },
    "lisatud": "2026-09-18",
    "nb": "lisatud postkastijooksus 18.09.2026 Rada7.ee uudiskirjast („Suffering is not a guarantee of art“, 18.09). Kaks allikat: ürituse oma FB event (R 18.09.2026 22.00–04.00, korraldajad Prime Moments events, Genialistide Klubi, Piletikeskus/Sviby, 360 Events) + Sviby piletileht, kust tulid koosseis, ajakava ja hinnad. Žanr kinnitatud ürituse ENDA lehelt („hard groove beats“, „MERIMELL (Techno)“), mitte uudiskirjast. Samapäevane lisandus — REEGLID §1 Rada7 samanädalaste peo-pretsedent (02.08.2026).",
-   "img": "https://klubi.skene.info/pildid/360tartuxmerimell.webp"
+   "img": "https://klubi.skene.info/pildid/360tartuxmerimell.webp",
+   "vu": "https://genklubi.ee/"
   },
   {
    "sait": "rap",
@@ -8563,7 +8607,8 @@
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: Fienta ürituseleht (korraldaja White Noise Events / Hardstyle Addendum) + Kultuuriklubi Tempel kui sources.json-i klubi-allikas (ra.co/clubs/151795). Skoop: underground-korraldaja hardstyle/rawstyle/hardcore jääb sisse (REEGLID §1, pretsedendid Brennan Heart 11.09 ja D-Block & S-te-Fan 26.09); peavoolu-EDM oleks välja.",
    "img": "https://klubi.skene.info/pildid/hardstyleaddendum8bitbitcrushrno.webp",
-   "linn": "Pärnu"
+   "linn": "Pärnu",
+   "vu": "https://www.klubitempel.ee/"
   },
   {
    "sait": "www",
@@ -8675,7 +8720,8 @@
    "hind": {
     "praegu": "12–15 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -8759,7 +8805,8 @@
    "ou": "https://www.facebook.com/events/1084699890894500/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Fonoteegi FB event + fonoteek.ee (18.09). Piletilink event-lehel olemas ('Find tickets'), täpne URL lugemata — täienda",
-   "img": "https://klubi.skene.info/pildid/sublimedegsuk.webp"
+   "img": "https://klubi.skene.info/pildid/sublimedegsuk.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -8790,7 +8837,8 @@
     "allikas": "Fienta, kontrollitud 17.09.2026"
    },
    "nb": "rikastatud 17.09.2026 postkastijooksus (Paavli Kultuurivabriku uudiskiri). Varem oli kirjel ainult bedlessbones.com ja puudusid ou/pu/hind. Kolm allikat: paavli.ee urituseleht (https://paavli.ee/sundmused/martin-dupontfr-bedless-bones/) + FB event + Fienta (korraldaja Paper Cuts OU). Zanr klubi-teljel: cold wave / elektro baasžanr, REEGLID §1 dark-electro pere.",
-   "img": "https://klubi.skene.info/pildid/bedlessbonesmartindupont.webp"
+   "img": "https://klubi.skene.info/pildid/bedlessbonesmartindupont.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -8856,7 +8904,8 @@
    "ou": "https://www.facebook.com/events/1947121552633524/",
    "lisatud": "2026-09-04",
    "koosseis_tba": 1,
-   "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist. Sama sarja varasem kord (29.08) on juba arhiivis - see on UUS kord, mitte duplikaat."
+   "nb": "leitud sweepis 04.09.2026 Fonoteegi FB events-tabist. Sama sarja varasem kord (29.08) on juba arhiivis - see on UUS kord, mitte duplikaat.",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "www",
@@ -9160,7 +9209,8 @@
    },
    "lisatud": "2026-08-22",
    "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104065 (korraldaja DNB ESTONIA, koosseis + hinnad) + DNB Estonia FB events-tab / FB event 1734879890838613. drumandbassestonia.ee suunab GateMe lehele, seega EI ole eraldi allikas. Koosseis 'headliners announced so far' — võib täieneda.",
-   "img": "https://klubi.skene.info/pildid/dnbestoniaindoorfestival2026.webp"
+   "img": "https://klubi.skene.info/pildid/dnbestoniaindoorfestival2026.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "www",
@@ -9377,7 +9427,8 @@
     "allikas": "FB event, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "leitud sweepis 09.09.2026 Fonoteegi FB events-tabist. Kaks allikat: Fonoteegi FB events-tab + urituse enda FB event (koosseis, kellaajad, hind)."
+   "nb": "leitud sweepis 09.09.2026 Fonoteegi FB events-tabist. Kaks allikat: Fonoteegi FB events-tab + urituse enda FB event (koosseis, kellaajad, hind).",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -9617,7 +9668,8 @@
     "allikas": "FB event, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "leitud sweepis 09.09.2026 Fonoteegi FB events-tabist. Kaks allikat: Fonoteegi FB events-tab + urituse enda FB event (kaaskorraldaja Kyka)."
+   "nb": "leitud sweepis 09.09.2026 Fonoteegi FB events-tabist. Kaks allikat: Fonoteegi FB events-tab + urituse enda FB event (kaaskorraldaja Kyka).",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "rap",
@@ -9932,7 +9984,8 @@
    },
    "lisatud": "2026-08-25",
    "nb": "lisatud 25.08.2026 Silveri otsusel ('Omar on elektroonika, nii et klubi') — 22.08 ülevaatuspunkt on sellega suletud. Kaks allikat: paavli.ee ürituseleht + kultuurivabrik.ee programminimekiri ('Sep 27 — Omar Souleyman LIVE @ Kultuurifoorum Paabel 2026'). ⚠ ALGUSAEG LAHTINE: kultuurivabrik.ee näitab 27.09 kirje juures 15.00, paavli.ee ütleb ainult, et Souleyman on ÕHTUSE programmi peaesineja — 15.00 on tõenäoliselt kogu päevaprogrammi algus, seega kellaaega kirjes ei ole. Kontrolli FB eventilt 899579202821360 enne, kui algusaeg lisatakse. Žanrisildid tulenevad korraldaja sõnastusest ('Süüria elektrooniline dabke'), mitte verifitseeritud taksonoomiast; 'folk' viitab dabke rahvatantsumuusika juurtele. Festivali üldprogramm: https://www.facebook.com/events/1750097106025439/",
-   "img": "https://klubi.skene.info/pildid/kultuurifoorumpaabelomarsouleymansy.webp"
+   "img": "https://klubi.skene.info/pildid/kultuurifoorumpaabelomarsouleymansy.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -10298,7 +10351,8 @@
    "hind": {
     "praegu": "8 € terve öö",
     "allikas": "FB event, kontrollitud 02.10.2026"
-   }
+   },
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -10675,7 +10729,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1699521024471626/",
    "lisatud": "2026-09-25",
-   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (KAKS korraldajat — TJUUN IN + Fonoteek) + Fonoteegi events-tab; pretsedent samale mustrile on 23.09.2026 SAGEDUSED KIVIS. Zanr tuleb urituse enda tekstist („Back to the bass“) + KORRALDAJA ENDA lehe kirjeldusest (TJUUN IN: „Dnb event series and radioshow in Estonia“) — see on korraldaja oma vaide, mitte kolmanda osapoole toimetaja (REEGLID §1). Sari on saidil juba varem (19.09 HALL, 24.07 Makoto). DJ-kava ja hind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB eventist koosseis L.EAZY, TO-SHA, QBA (DnB/jungle vinüülid); koosseis_tba maha."
+   "nb": "lisatud sweepis 25.09.2026. Kaks allikat: urituse FB event (KAKS korraldajat — TJUUN IN + Fonoteek) + Fonoteegi events-tab; pretsedent samale mustrile on 23.09.2026 SAGEDUSED KIVIS. Zanr tuleb urituse enda tekstist („Back to the bass“) + KORRALDAJA ENDA lehe kirjeldusest (TJUUN IN: „Dnb event series and radioshow in Estonia“) — see on korraldaja oma vaide, mitte kolmanda osapoole toimetaja (REEGLID §1). Sari on saidil juba varem (19.09 HALL, 24.07 Makoto). DJ-kava ja hind avaldamata. | 02.10.2026 järelkontroll (samm 2b): FB eventist koosseis L.EAZY, TO-SHA, QBA (DnB/jungle vinüülid); koosseis_tba maha.",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "www",
@@ -10855,7 +10910,8 @@
     "allikas": "kluub.ee, kontrollitud 09.10.2026"
    },
    "lisatud": "2026-10-09",
-   "nb": "lisatud postkastijooksus 09.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + FB event (korraldajad STRFLL ja Genialistide Klubi). Žanr ürituse enda FB-tekstist: downtempo, FFO Burial/Nujabes/Four Tet."
+   "nb": "lisatud postkastijooksus 09.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + FB event (korraldajad STRFLL ja Genialistide Klubi). Žanr ürituse enda FB-tekstist: downtempo, FFO Burial/Nujabes/Four Tet.",
+   "vu": "https://genklubi.ee/"
   },
   {
    "sait": "klubi",
@@ -10965,7 +11021,8 @@
    "hind": {
     "praegu": "12 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "rap",
@@ -11086,7 +11143,8 @@
    "hind": {
     "praegu": "7 € (FB Going kuni 00:00) / 10 €",
     "allikas": "FB event, kontrollitud 02.10.2026"
-   }
+   },
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -11117,7 +11175,8 @@
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: RA event 2522658 (korraldajad inklingroom + Paavli Kultuurivabrik) + Fienta STF 2026 kava (R 9. okt 21:00, Paavli Kultuurivabrik). Ulejaanud DJ-kava TBA. Vt ka 10.10 Paavli takeover Aisha Deviga — LISATUD 05.09.2026. | 02.10.2026 sweep: lisatud FB event (Sõltumatu Tantsu Lava, MOD events-tab). | 08.10.2026 postkastijooks: Fienta uudiskiri 07.10 + Fienta seeriaileht (R 9. okt 21:00 + 10.10 kuupaev) - pu tapsustatud konkreetse piletilehe peale; DJ-kava avaldatud (kohalikud DJd AUBERY, Hexarlequinette, Mia), koosseis_tba eemaldatud.",
    "img": "https://klubi.skene.info/pildid/stf2026ayanoyokoyama34423inklingroompaavlitakeover.webp",
    "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/923802290770315/"
+   "ou": "https://www.facebook.com/events/923802290770315/",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -11222,7 +11281,8 @@
     "allikas": "Ticketer, kontrollitud 25.09.2026"
    },
    "nb": "leitud järelejooksus 25.09.2026 Klubi Gutenbergi FB events-tabist. Kaks allikat: ürituse FB event (korraldajad Tartu Massive + Klubi Gutenberg + 2) + Ticketeri piletileht (R 9. oktoober, uksed 23.00, Kastani 42, 18+) — kuupäev, kellaaeg ja koht kattuvad. Žanr KORRALDAJA ENDA lehelt: Tartu Massive — „monthly drum & bass event that takes place in Tartu“ (asutatud 2008); ürituse FB-leht kannab ka silti „Dance“. Residentide nimed avaldamata → koosseis_tba. | 02.10.2026 järelkontroll (samm 2b): FB eventist täiskoosseis (Kling, Rabelus FM, Deffenlo, Romm & Moose); koosseis_tba maha.",
-   "img": "https://klubi.skene.info/pildid/tartumassivechangingfacessk.webp"
+   "img": "https://klubi.skene.info/pildid/tartumassivechangingfacessk.webp",
+   "vu": "https://www.klubigutenberg.ee/"
   },
   {
    "sait": "klubi",
@@ -11593,7 +11653,8 @@
    },
    "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat. | 09.10.2026 sweep: RA snapshot (ra.co/events/2524841) + paavli.ee → b += Shah Rud, Wash Electra.",
    "img_src": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
-   "img": "https://klubi.skene.info/pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp"
+   "img": "https://klubi.skene.info/pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -11904,7 +11965,8 @@
    },
    "lisatud": "2026-10-13",
    "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 13.10.2026. Kaks allikat: kluub.ee (FB eventi põhjal) + GateMe piletileht (R 16.10.2026 22.00–04.00, Genialistide Klubi, sama koosseis). Žanr ürituse enda tekstist: „From HARD TECHNO to SCHRANZ and TECHNO\".",
-   "img": "https://klubi.skene.info/pildid/ersinvites4is4yourave.webp"
+   "img": "https://klubi.skene.info/pildid/ersinvites4is4yourave.webp",
+   "vu": "https://genklubi.ee/"
   },
   {
    "sait": "klubi",
@@ -11933,7 +11995,8 @@
     "allikas": "FB event + kluub.ee, kontrollitud 14.10.2026"
    },
    "lisatud": "2026-10-14",
-   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 14.10.2026. Kaks allikat: FB event (korraldajad Fonoteek + Elektröönika, Telliskivi 62) + kluub.ee. Žanr: kluub.ee silt Techno + ürituse tekst „4x4 helilained“."
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 14.10.2026. Kaks allikat: FB event (korraldajad Fonoteek + Elektröönika, Telliskivi 62) + kluub.ee. Žanr: kluub.ee silt Techno + ürituse tekst „4x4 helilained“.",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -12024,7 +12087,8 @@
    },
    "lisatud": "2026-10-13",
    "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 13.10.2026. Kaks allikat: FB event (korraldaja OFFLINE CLUB) + kluub.ee; GateMe piletileht lingitud, aga ei avanenud kontrolliks. Žanr ürituse enda tekstist: „house/hardgroove ja speed garage\" (ise nimetab end „popp ja noortepärane\").",
-   "img": "https://klubi.skene.info/pildid/offlineklubigutenberg.webp"
+   "img": "https://klubi.skene.info/pildid/offlineklubigutenberg.webp",
+   "vu": "https://www.klubigutenberg.ee/"
   },
   {
    "sait": "klubi",
@@ -12056,7 +12120,8 @@
    "pu": "https://fienta.com/et/plurrr-at-uus-laine",
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (MTÜ Plurrr) + Fienta piletileht (žanrid korraldaja tekstist: dark disco, EBM, techno, house, UK garage). Sugar Rody erikülalised Dmitri Darling (Freakangel) & Daniel Solo.",
-   "img": "https://klubi.skene.info/pildid/plurrruuslaine.webp"
+   "img": "https://klubi.skene.info/pildid/plurrruuslaine.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "klubi",
@@ -12115,7 +12180,8 @@
    },
    "lisatud": "2026-08-22",
    "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: Fienta ürituseleht (koosseis, hinnaastmed, kellaajad) + FB event 1076202788429204 (host Vortex Fusion). Leitud Fienta dnb-otsingust; RA-s seda kirjet ei ole.",
-   "img": "https://klubi.skene.info/pildid/synergyneonlightdemeanteeth.webp"
+   "img": "https://klubi.skene.info/pildid/synergyneonlightdemeanteeth.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
@@ -12322,7 +12388,8 @@
    "ou": "https://helitehas.ee/facebook-event/camouflage-live-tallinn-17-oktoober-2026/",
    "pu": "https://www.piletitasku.ee/et/event/9391",
    "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud helitehas.ee ürituselehe + Bandsintown/Hypebot tuurigraafiku vastu 19.07.2026 (L 17.10 kell 19.30, Madara 22a); pilet Piletitasku (hind lehelt kätte ei tulnud, ei märgitud)",
-   "img": "https://klubi.skene.info/pildid/camouflagede.webp"
+   "img": "https://klubi.skene.info/pildid/camouflagede.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "klubi",
@@ -12353,7 +12420,8 @@
    },
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Glitch Please, Rada7.ee) + Fienta (Läti/Eesti/Soome elektroonilise muusika õhtu; EIII eksperimentaalne helikunstnik/ambient).",
-   "img": "https://klubi.skene.info/pildid/glitchpleaseeiiilvabarismoeraefiv4r1ee.webp"
+   "img": "https://klubi.skene.info/pildid/glitchpleaseeiiilvabarismoeraefiv4r1ee.webp",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -12437,7 +12505,8 @@
    "pu": "https://gateme.com/fonoteek/104281-klap-fonoteek-i-1710",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Fonoteek + boipepperoni) + RA event + GateMe. Žanr ürituse tekstist („tekno püha kolmainsus\").",
-   "img": "https://klubi.skene.info/pildid/klap.webp"
+   "img": "https://klubi.skene.info/pildid/klap.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "klubi",
@@ -12546,6 +12615,29 @@
    "nb": "lisatud 07.08.2026 nädalases sweepis. Koidu 13a, Viljandi. Kaks allikat: Konservatooriumi FB events-leht + ürituse enda FB event (koosseis, hind, kellaajad). ⚠ Žanrisildid on kuraatori määrang — korraldaja kirjeldab õhtut ainult sõnaga 'depressiivne'; Fern Flower on Tarbariituse (folk black metal) koosseisus, mis toetab metal-poolt. Silveril üle vaadata",
    "img": "https://www.skene.info/pildid/sygisviirastus.webp",
    "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-18",
+   "t": "kontsert",
+   "n": "Camouflage (DE)",
+   "a": "Saksa süntpopi legend esmakordselt Tartus — «The Great Commandment», «Love Is A Shield», «Suspicious Love»",
+   "b": [
+    "Camouflage"
+   ],
+   "v": "Vanemuise Kontserdimaja",
+   "c": "Tartu",
+   "g": [
+    "electro",
+    "darkwave"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://concerts.hypebot.com/artist/c/21784-camouflage",
+   "on_": "Piletitasku",
+   "ou": "https://www.piletitasku.ee/et/event/9392",
+   "pu": "https://www.piletitasku.ee/et/event/9392",
+   "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)",
+   "img": "https://klubi.skene.info/pildid/camouflagede.webp"
   }
  ]
 }

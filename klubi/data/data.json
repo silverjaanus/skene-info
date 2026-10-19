@@ -1,26 +1,6 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "entries": [
-  {
-   "rel": 1,
-   "d": "2026-09-12",
-   "lisatud": "2026-09-18",
-   "t": "reliis",
-   "n": "Qbic RUbic — «STATE»",
-   "a": "kolmeloouline EP: Immersion → Comprehension → Contemplation",
-   "b": [
-    "Qbic RUbic"
-   ],
-   "g": [
-    "techno",
-    "psytrance",
-    "electro"
-   ],
-   "sn": "Bandcamp (Narayana Records)",
-   "su": "https://narayanarecords.bandcamp.com/",
-   "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti techno-tag'i otsingust (sources.json bandcamp_otsing). Kaks allikat: Bandcamp (Narayana records, Tallinn, Estonia; released September 12, 2026) + plaadifirma Narayana Records Instagrami teade 12.09 („STATE — New EP out today“). Kuupäev 6 päeva vana → lisatud = tänane (esilehe „uued reliisid“ riba, REEGLID §6).",
-   "img": "pildid/qbicrubicstate.webp"
-  },
   {
    "d": "2026-09-23",
    "t": "reliis",
@@ -216,28 +196,6 @@
    "img": "pildid/wombatthebeepepplrxep1.webp"
   },
   {
-   "d": "2026-10-18",
-   "t": "kontsert",
-   "n": "Camouflage (DE)",
-   "a": "Saksa süntpopi legend esmakordselt Tartus — «The Great Commandment», «Love Is A Shield», «Suspicious Love»",
-   "b": [
-    "Camouflage"
-   ],
-   "v": "Vanemuise Kontserdimaja",
-   "c": "Tartu",
-   "g": [
-    "electro",
-    "darkwave"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://concerts.hypebot.com/artist/c/21784-camouflage",
-   "on_": "Piletitasku",
-   "ou": "https://www.piletitasku.ee/et/event/9392",
-   "pu": "https://www.piletitasku.ee/et/event/9392",
-   "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)",
-   "img": "pildid/camouflagede.webp"
-  },
-  {
    "d": "2026-10-22",
    "d2": "25.10",
    "t": "festival",
@@ -310,6 +268,34 @@
    "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek) + RA event (žanr RA lehelt: House) + GateMe. ⚠ Žanr ainult RA ürituselehe sildist.",
    "img": "pildid/stereofonoteek.webp",
    "vu": "https://fonoteek.ee/"
+  },
+  {
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "// OH MY DUB //",
+   "a": "uksed 20.00, DJ-d 22.00–05.00; bassline, UK garage, dubstep, drum & bass",
+   "b": [
+    "AJ Mutated (Mutated Forms)",
+    "Kalev K",
+    "Studios"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "bass",
+    "dnb",
+    "dub"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/2cd22f82-4bb4-4795-b23f-eef567d902d6",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1638815874701079",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee + FB event, kontrollitud 19.10.2026"
+   },
+   "lisatud": "2026-10-19",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 19.10.2026. Kaks allikat: FB event (korraldaja Kivi baar) + kluub.ee. Žanr ürituse enda tekstist: bassline, UK garage, dubstep, drum & bass."
   },
   {
    "d": "2026-10-24",
