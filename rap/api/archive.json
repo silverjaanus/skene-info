@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 460,
+ "count": 461,
  "entries": [
   {
    "sait": "www",
@@ -1125,7 +1125,8 @@
    "su": "https://www.facebook.com/helitehas/upcoming_hosted_events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1360094812731353",
-   "nb": "korraldaja Pulse Events; piletid Piletilevis; kontrollitud 07.07.2026"
+   "nb": "korraldaja Pulse Events; piletid Piletilevis; kontrollitud 07.07.2026",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "www",
@@ -5506,7 +5507,8 @@
    },
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; kolm allikat: Helitehas FB event + GateMe + helitehas.ee. pu viitab GateMe Helitehase lehele (otse-eventi URL polnud kindlalt loetav). NB mitte segi ajada A.V.R Arop x ProdigyBoys 28.08 Tartu üritusega (eraldi kirje)",
-   "img": "https://rap.skene.info/pildid/bakkaraugustiviimanereede.webp"
+   "img": "https://rap.skene.info/pildid/bakkaraugustiviimanereede.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "klubi",
@@ -6100,7 +6102,8 @@
    },
    "koosseis_tba": 1,
    "nb": "lisatud 27.08.2026 SILVERI OTSUSEL: „klubi ja rap. võib olla ju mõlemas, kui mõlemat muusikat mängitakse\" — sama üritus on TEADLIKULT kahel saidil (klubi + rap), sest lavad katavad mõlemat baasžanri. Vt REEGLID §1 „Mitmežanri-üritus”. Kaks allikat: Paavli Kultuurivabriku uudiskiri 26.08 + FB event / GateMe. ⚠ Koosseis EI OLE ametlik — GateMe ütleb „full line-up coming soon\", nimed on Paavli uudiskirjast; `koosseis_tba` jääb kuni ametliku loendini. Korraldajad MIF Promo, WAVĒ, DAPO, Buttercups tm + Paavli; piletimüüjal TULIKAD OÜ. Kirje on ka klubi/data/manual.json-is.",
-   "img": "https://rap.skene.info/pildid/mifxbuttercupssummerclosing.webp"
+   "img": "https://rap.skene.info/pildid/mifxbuttercupssummerclosing.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "klubi",
@@ -7811,7 +7814,8 @@
    "ou": "https://www.facebook.com/events/2067993643814194/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; venue events-tab + FB event (Masina 1). Kui album ilmub, tee eraldi reliisikirje | 14.08.2026: kolis www-poolelt rap-poolele (Silveri otsus: Tommyboy on räppar; classify soovitas sama). www blocklistis.",
-   "img": "https://rap.skene.info/pildid/tommyboyxwiiraltgreatestsplitsesitluskontsert.webp"
+   "img": "https://rap.skene.info/pildid/tommyboyxwiiraltgreatestsplitsesitluskontsert.webp",
+   "vu": "https://kidrakuur.ee/"
   },
   {
    "sait": "klubi",
@@ -8220,6 +8224,27 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2217604032409882/",
    "vu": "https://www.tapper.ee/"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-09-12",
+   "lisatud": "2026-09-18",
+   "t": "reliis",
+   "n": "käragrind — «käragrind»",
+   "a": "5-looline debüüt, 14 minutit: hauda pedodega · puud ja loodus · noored juba hauas · suur yahu · lõbulaul",
+   "b": [
+    "käragrind"
+   ],
+   "g": [
+    "grind",
+    "punk",
+    "core"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://karagrind.bandcamp.com/album/k-ragrind",
+   "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti punk-tag'i otsingust (sources.json bandcamp_otsing). Väljalaskekuupäev 12.09.2026 kinnitatud Bandcampi albumilehe 'released 12 September 2026' realt JA google.ee otsitulemuse kirjeldusest. Tallinn. ⚠ Ainult üks päris-allikas (Bandcamp) — bändil ei õnnestunud FB/IG lehte kinnitada, otsisin google.ee-st. Kuupäev on 6 päeva vana, seega lisatud = tänane (esilehe 'uued reliisid' riba, REEGLID §6).",
+   "img": "https://www.skene.info/pildid/karagrindkaragrind.webp"
   },
   {
    "sait": "www",
@@ -10468,7 +10493,8 @@
    },
    "lisatud": "2026-08-22",
    "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi.",
-   "img": "https://rap.skene.info/pildid/triibupastaxnoorednaljased.webp"
+   "img": "https://rap.skene.info/pildid/triibupastaxnoorednaljased.webp",
+   "vu": "https://kultuurikatel.ee/"
   },
   {
    "sait": "www",
@@ -11508,7 +11534,8 @@
     "allikas": "FB event, kontrollitud 02.10.2026"
    },
    "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Fonoteek + PM2AM) + Fonoteegi FB events-tab. Žanr ürituse tekstist („Night full of hiphop, rnb, vinyl scratching\")."
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Fonoteek + PM2AM) + Fonoteegi FB events-tab. Žanr ürituse tekstist („Night full of hiphop, rnb, vinyl scratching\").",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "www",

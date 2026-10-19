@@ -1,62 +1,5 @@
 [
  {
-  "d": "2026-10-02",
-  "d2": "04.10",
-  "t": "festival",
-  "n": "Up In Smoke Festival 2026",
-  "a": "Šveitsi raskeim indoor-festival (stoner/doom/psych); laval Eesti bänd Kannabinõid (L 03.10). Ka Zeal & Ardor, 1000mods, Ufomammut, Slomosa, Tito & Tarantula jt",
-  "b": [
-   "Kannabinõid",
-   "Zeal & Ardor",
-   "1000mods",
-   "Ufomammut",
-   "Slomosa",
-   "Belzebong",
-   "Tito & Tarantula"
-  ],
-  "v": "Konzertfabrik Z7",
-  "c": "Euroopa",
-  "linn": "Pratteln, Šveits",
-  "g": [
-   "stoner",
-   "doom",
-   "psych"
-  ],
-  "sn": "Z7 Konzertfabrik",
-  "su": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
-  "pu": "https://z-7.ch/en/event/up-in-smoke-festival-2025-kopie/",
-  "hind": {
-   "praegu": "CHF 129.50 (3-päeva pilet)",
-   "mark": "uksed 16.00, algus 17.00; sleepover/camper piletid kohapeal",
-   "allikas": "z-7.ch, kontrollitud 07.07.2026"
-  },
-  "img": "pildid/upinsmokefestival2026.webp"
- },
- {
-  "d": "2026-10-04",
-  "t": "kontsert",
-  "n": "Dead By April + CyHra",
-  "b": [
-   "Dead By April",
-   "CyHra"
-  ],
-  "v": "Helitehas",
-  "c": "Tallinn",
-  "g": [
-   "metal",
-   "core",
-   "melodic",
-   "death"
-  ],
-  "sn": "Metal Storm",
-  "su": "https://metalstorm.net/events/event.php?event_id=236269",
-  "img": "pildid/deadbyaprilcyhra.webp",
-  "pu": "https://www.piletilevi.ee/piletid/F4XKRDGJOE/dead-by-april-swe",
-  "nb": "10.08.2026 sweep: piletilink lisatud (Piletilevi) | 02.10.2026 sweep: lisatud ürituse FB event `ou`-sse (korraldaja FB events-tabist); agregaator jääb `su`-le.",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1327980026192365/"
- },
- {
   "d": "2026-10-08",
   "t": "kontsert",
   "n": "Kaschalot | Viljandi Kitarrifestival",
@@ -1870,26 +1813,6 @@
   "lisatud": "2026-09-18",
   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja L Tips Agency Estonia, L Tips events-tabist) + Piletilevi Helitehase saalileht (N 11.03.2027 20:00). Piletilink P7BUP5V35S kinnitatud L Tips Agency FB-postitusest. Hind Piletilevist korjamata (fetch_prices katab ainult Fienta).",
   "img": "pildid/hblockxde.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-09-12",
-  "lisatud": "2026-09-18",
-  "t": "reliis",
-  "n": "käragrind — «käragrind»",
-  "a": "5-looline debüüt, 14 minutit: hauda pedodega · puud ja loodus · noored juba hauas · suur yahu · lõbulaul",
-  "b": [
-   "käragrind"
-  ],
-  "g": [
-   "grind",
-   "punk",
-   "core"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://karagrind.bandcamp.com/album/k-ragrind",
-  "nb": "lisatud sweepis 18.09.2026 Bandcampi Eesti punk-tag'i otsingust (sources.json bandcamp_otsing). Väljalaskekuupäev 12.09.2026 kinnitatud Bandcampi albumilehe 'released 12 September 2026' realt JA google.ee otsitulemuse kirjeldusest. Tallinn. ⚠ Ainult üks päris-allikas (Bandcamp) — bändil ei õnnestunud FB/IG lehte kinnitada, otsisin google.ee-st. Kuupäev on 6 päeva vana, seega lisatud = tänane (esilehe 'uued reliisid' riba, REEGLID §6).",
-  "img": "pildid/karagrindkaragrind.webp"
  },
  {
   "d": "2026-09-15",
