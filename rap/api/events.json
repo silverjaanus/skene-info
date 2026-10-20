@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 195,
+ "count": 194,
  "entries": [
   {
    "sait": "www",
@@ -666,7 +666,8 @@
     "allikas": "Fienta, kontrollitud 16.10.2026"
    },
    "lisatud": "2026-10-16",
-   "nb": "SILVERI OTSUS 15.10.2026 (\"üle heli sisse\") - sweep/otsused.json oid ule-heli-2026, rakendatud valik (b) üks katusekirje. Allikad: Fienta + FB event + ule-heli.ee. Korraldaja žanri ei nimeta; sildid experimental/ambient on toimetaja valik."
+   "nb": "SILVERI OTSUS 15.10.2026 (\"üle heli sisse\") - sweep/otsused.json oid ule-heli-2026, rakendatud valik (b) üks katusekirje. Allikad: Fienta + FB event + ule-heli.ee. Korraldaja žanri ei nimeta; sildid experimental/ambient on toimetaja valik.",
+   "img": "https://klubi.skene.info/pildid/uleheli2026.webp"
   },
   {
    "sait": "klubi",
@@ -1381,7 +1382,8 @@
    "pu": "https://gateme.com/event/104298",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Club Horse Race + HALL) + GateMe. Žanr ürituse tekstist. Koosseis avaldamata. | 09.10.2026 sweep: koosseis RA ürituselehelt (ra.co/events/2553575) — FB event + RA = kaks allikat.",
-   "img": "https://klubi.skene.info/pildid/heavenorhellhalloweenraveatclubhall.webp"
+   "img": "https://klubi.skene.info/pildid/heavenorhellhalloweenraveatclubhall.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -1419,23 +1421,6 @@
    "sait": "www",
    "d": "2026-10-30",
    "t": "kontsert",
-   "n": "ROCK TO RAVE",
-   "b": [],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/rock-to-rave-2/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "vu": "https://www.thekrypt.ee/"
-  },
-  {
-   "sait": "www",
-   "d": "2026-10-30",
-   "t": "kontsert",
    "n": "Sudden Lights (LV)",
    "a": "Läti indie-rock; TALK TO ME TOUR",
    "b": [
@@ -1455,24 +1440,6 @@
    "ou": "https://www.facebook.com/events/1551860096473388/",
    "on_": "Facebook event",
    "vu": "https://genklubi.ee/"
-  },
-  {
-   "sait": "www",
-   "d": "2026-10-30",
-   "t": "kontsert",
-   "n": "Tribal Halfa 2026 “What we do in the shadows” Mystic Dance Show",
-   "b": [],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal"
-   ],
-   "sn": "thekrypt.ee",
-   "su": "https://www.thekrypt.ee/event/rock-to-rave-2/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "lisatud": "2026-10-20",
-   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",
@@ -1963,7 +1930,8 @@
    "ou": "https://ra.co/events/2549210",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: RA event (koosseis + sildid Techno, House) + Mood + huvi.tallinn.ee. HALL FB events-tab ei näidanud seda (ainult 8 esimest). Pilet avaldamata.",
-   "img": "https://klubi.skene.info/pildid/helios5y.webp"
+   "img": "https://klubi.skene.info/pildid/helios5y.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -2202,7 +2170,8 @@
    "pu": "https://fienta.com/et/mod-club-umru",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (MOD.tln + Paavli) + RA event + Fienta. Žanr: PC Music produtsent/DJ (ürituse tekst), RA silt Club.",
-   "img": "https://klubi.skene.info/pildid/modclubumrupcmusic.webp"
+   "img": "https://klubi.skene.info/pildid/modclubumrupcmusic.webp",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "www",
@@ -2449,7 +2418,8 @@
    "ou": "https://www.facebook.com/events/2381785489223622/",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (IDA Radio) + IDA Radio FB events-tab + AllEvents. Žanr ürituse tekstist.",
-   "img": "https://klubi.skene.info/pildid/functionxsincriticaldzheimzninjaslavin.webp"
+   "img": "https://klubi.skene.info/pildid/functionxsincriticaldzheimzninjaslavin.webp",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "www",
@@ -2595,7 +2565,8 @@
    },
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Legendaarne Raadio) + Fienta piletileht (R 13.11 20:00 – 04:00). Žanr ürituse tekstist: „räpp ja reiv\". ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII rap/data/manual.json KUI klubi/data/manual.json failis — hoia n, d, ou mõlemas identsed. Klubi-poole silt: reivi osa (Killing Sinatra, NEOONDREED – techno).",
-   "img": "https://klubi.skene.info/pildid/naistekasrappjareiv.webp"
+   "img": "https://klubi.skene.info/pildid/naistekasrappjareiv.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
   },
   {
    "sait": "rap",
@@ -3102,7 +3073,8 @@
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: Fienta üritusleht (täiskoosseis, ajakava, koht Techno club HALL / Peetri 6, 18+) + huvi.tallinn.ee ürituseleht ja White Noise Eventsi FB-postitus. ⚠ OTSELINK: ürituse enda FB event ID-d ei õnnestunud kinnitada (otsisin google.ee-st ja FB lehtede otsingust) — `ou` on teadlikult tühi, sest piletimüüja ei tohi `ou`-l olla (REEGLID §3). Hinda Fienta lehel tekstina ei paista (ostuvoos) — fetch_prices korjab.",
    "pu": "https://fienta.com/et/overdrive-techno-dnb-raw-rave-imhappy-oryma-erabreak-peygan-more",
-   "img": "https://klubi.skene.info/pildid/overdrivetechnodnbrawrave.webp"
+   "img": "https://klubi.skene.info/pildid/overdrivetechnodnbrawrave.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "rap",
@@ -3928,6 +3900,37 @@
    "nb": "lisatud 09.10.2026 Silveri otsusega („jah“), kuigi koosseisus on peavoolupopp (Getter Jaani, Clicherik & Mäx) — peaesinejad 5MIINUST ja Suur Papa. Kaks allikat: FB event (Pulse Events + 5MIINUST) + GateMe piletileht (korraldaja Lepapuu OÜ). FB näitab aadressina Teguri 28A = Kammivabrik.",
    "img": "https://rap.skene.info/pildid/arcticpulsevol2blackice.webp",
    "vu": "https://kammivabrik.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-12-12",
+   "t": "klubi",
+   "n": "Beats From The Vault — Dark Souls Meeting // Club HALL",
+   "a": "BFTV talveõhtu HALLis, 22.00–06.00; MESILA = Kabel + Krematoorium, Külmkamber = chill; koosseis avaldamata",
+   "b": [],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "ebm",
+    "industrial",
+    "dark",
+    "electro"
+   ],
+   "sn": "bftv.ee",
+   "su": "https://www.bftv.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1111094117999382/",
+   "pu": "https://www.bftv.ee/",
+   "hind": {
+    "praegu": "10€ / 15€",
+    "mark": "10€ BFTV liikmele või plakatikupongiga; eelmüüki pole",
+    "allikas": "FB event + bftv.ee, kontrollitud 20.10.2026"
+   },
+   "koosseis_tba": 1,
+   "lisatud": "2026-10-20",
+   "nb": "lisatud 20.10.2026 Silveri palvel (vestlus: 'järgmine bftv peaks olema 12 detsember'). Kaks allikat: bftv.ee (12.12.26 HALL, 10/15€, no presale, FB-link) + ürituse FB event (L 12.12 22.00–06.00, Peetri 6; žanrid Techno Body Music/Dark-Electro/EBM/Industrial/Techno/Rhythmic Noise/Darkwave; 'LINE-UP - soooon!'). Nimi erineb 16.10 kirjest teadlikult (sama slug = sama pildifail). Täida koosseis, kui avaldatakse.",
+   "img": "https://klubi.skene.info/pildid/beatsfromthevaultdarksoulsmeetingclubhall.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",

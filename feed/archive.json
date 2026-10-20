@@ -3056,7 +3056,8 @@
    "pu": "https://gateme.com/et/halltallinn/104078-compress-rave-x-hall-only-techno-0708",
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks sõltumatut allikat: HALLi FB events-leht + ürituse enda FB event (koosseis, kellaajad, 18+) ning piletid GateMe'is (leiti eraldi agregaatorikäigus). Korraldaja CompressEvents | 07.08.2026: pildikorje EI andnud kaanepilti - FB kaas on 960x355 (suhe 2.70), mis ULETAB fetch_images MAX_SUHE piiri, ja GateMe og:image on saidi logo. Kirje jaab tuubimargiga.",
-   "img": "https://klubi.skene.info/pildid/compressxhallonlytechno.webp"
+   "img": "https://klubi.skene.info/pildid/compressxhallonlytechno.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -3414,7 +3415,8 @@
    "pu": "https://bftv.ee/",
    "yu": "https://www.youtube.com/beatsfromthevault",
    "nb": "duplikaatkirjed liidetud sweepis 26.07.2026 (sama FB event 2213429046145152); kinnitatud BFTV FB + HALL FB ürituste nimekiri",
-   "img": "https://klubi.skene.info/pildid/beatsfromthevaultdarksoulsmeetingsmformaeslive.webp"
+   "img": "https://klubi.skene.info/pildid/beatsfromthevaultdarksoulsmeetingsmformaeslive.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -3872,7 +3874,8 @@
    "su": "https://ra.co/events/ee/all",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/24443143705338081/",
-   "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade | 07.08.2026 sweep: RA koosseisunimekiri on kasvanud 19 artistini — lisatud Denzel, Joni DJ ja Tanel Mütt."
+   "nb": "koosseis avaldatud Resident Advisoril 25.07.2026 (16 artisti); N 14.08 23:00 – P 16.08 22:00; korraldaja HALL; 2. allikas korraldaja FB-teade | 07.08.2026 sweep: RA koosseisunimekiri on kasvanud 19 artistini — lisatud Denzel, Joni DJ ja Tanel Mütt.",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "rap",
@@ -4783,7 +4786,8 @@
    "pu": "https://gateme.com/et/halltallinn/104140-compressrave-x-hall-only-techno-2108/",
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad CompressEvents + HALL + Sugar Rody + pikkauch) ja GateMe Eesti-nimekiri, kus pilet on müügil. HALLi kogu programm on klubi-skoobis (sources.json). Silver oli 18.08 selle kirje otsust edasi lükanud (GateMe link saadetud) — nüüd kaks allikat koos, lisatud.",
-   "img": "https://klubi.skene.info/pildid/compressravexhallonlytechno.webp"
+   "img": "https://klubi.skene.info/pildid/compressravexhallonlytechno.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -4919,7 +4923,8 @@
     "allikas": "miinusprojekt.ee, kontrollitud 17.08.2026"
    },
    "nb": "lisatud 17.08.2026: allikad miinusprojekt.ee + FB event (D3 x Miinusprojekt) + GateMe 104116; D3 saidi kalendris 21.08 olemas",
-   "img": "https://klubi.skene.info/pildid/miinusprojektd3.webp"
+   "img": "https://klubi.skene.info/pildid/miinusprojektd3.webp",
+   "vu": "https://www.d-3.ee/"
   },
   {
    "sait": "klubi",
@@ -5036,7 +5041,8 @@
     "allikas": "Fienta, kontrollitud 13.07.2026"
    },
    "img": "https://klubi.skene.info/pildid/triploopinviteskaigalacticjp.webp",
-   "nb": " | 28.07.2026: RA venue-väli ütleb Paavli Kultuurivabrik, Fienta ütleb MOD — kirjes on MOD (Fienta = piletimüüja). Silveri kontrollida"
+   "nb": " | 28.07.2026: RA venue-väli ütleb Paavli Kultuurivabrik, Fienta ütleb MOD — kirjes on MOD (Fienta = piletimüüja). Silveri kontrollida",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "www",
@@ -5243,7 +5249,8 @@
     "mark": "early bird 15€, tavapilet 20€ (RA Tickets / otevent.com)",
     "allikas": "RA event + HALL FB, kontrollitud 21.08.2026"
    },
-   "pu": "https://ra.co/events/2515792"
+   "pu": "https://ra.co/events/2515792",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -6804,7 +6811,8 @@
    "img": "https://klubi.skene.info/pildid/kontrastwithmijahallxsvexcultureunseen.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1462806018967897/",
-   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) ja GateMe piletilink (pu) HALLi FB events-tabist. Fookus: hardgroove."
+   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) ja GateMe piletilink (pu) HALLi FB events-tabist. Fookus: hardgroove.",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "rap",
@@ -7245,7 +7253,8 @@
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event.",
-   "img": "https://klubi.skene.info/pildid/shiftatmod.webp"
+   "img": "https://klubi.skene.info/pildid/shiftatmod.webp",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "klubi",
@@ -7276,7 +7285,8 @@
    "img": "https://klubi.skene.info/pildid/scorchedearthskeemask.webp",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2060133962047773/",
-   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) HALLi FB events-tabist."
+   "nb": " | 28.08.2026 sweep: lisatud urituse FB event (ou) HALLi FB events-tabist.",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -7419,7 +7429,8 @@
     "allikas": "FB event, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: urituse leht zanrit SONAGA ei nimeta (kunstiakadeemia diskorite pidu IDA Radio baaris) - g-sildid on konservatiivsed, mitte lehelt tsiteeritud."
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: urituse leht zanrit SONAGA ei nimeta (kunstiakadeemia diskorite pidu IDA Radio baaris) - g-sildid on konservatiivsed, mitte lehelt tsiteeritud.",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "klubi",
@@ -7583,7 +7594,8 @@
     "praegu": "15–25€",
     "mark": "RA: 15/20/25€; 18+; algus 23.59",
     "allikas": "Resident Advisor event 2500210, kontrollitud 10.08.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -7612,7 +7624,8 @@
     "allikas": "FB event, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta; Haigla Pidu on tuntud techno/house-peosari, sildid seetottu konservatiivsed."
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta; Haigla Pidu on tuntud techno/house-peosari, sildid seetottu konservatiivsed.",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "klubi",
@@ -8079,7 +8092,8 @@
     "praegu": "tasuta",
     "mark": "FREE ENTRY ALL NIGHT",
     "allikas": "FB event + Paavli uudiskiri, kontrollitud 09.09.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "www",
@@ -8556,7 +8570,8 @@
    },
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026 RA snapshotist (sweep/ra_snapshot.json, tommatud 09.09). Kaks allikat: RA event 2530834 (korraldaja DANGER from Estonia, zanrisildid Experimental/Club, koht Bar IDA) + RA venue/korraldaja leht. Bar IDA ei ole veel sources.json-is eraldi allikana - lisatud koos selle sweepiga.",
-   "img": "https://klubi.skene.info/pildid/dangerfromestoniapamntsradio.webp"
+   "img": "https://klubi.skene.info/pildid/dangerfromestoniapamntsradio.webp",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "www",
@@ -8609,7 +8624,8 @@
    "ou": "https://www.facebook.com/events/1284010840358736/",
    "pu": "https://gateme.com/halltallinn/104157-halal-club-invites-stanislav-tolkachev-hybrid-set",
    "nb": "lisatud sweepis 28.08.2026. Kaks allikat: HALLi FB events-tab / urituse FB event (korraldajad Halal Club, Rada7.ee, HALL) + GateMe piletileht. Ulejaanud koosseis avaldamata.",
-   "img": "https://klubi.skene.info/pildid/halalclubinvitesstanislavtolkachev.webp"
+   "img": "https://klubi.skene.info/pildid/halalclubinvitesstanislavtolkachev.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -8727,7 +8743,8 @@
     "mark": "support 10€ (FB eventi kirjeldus)",
     "allikas": "FB event, kontrollitud 28.08.2026"
    },
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event (korraldajad Plastik + MOD.tln)."
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: MOD.tln FB events-tab + urituse FB event (korraldajad Plastik + MOD.tln).",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "klubi",
@@ -9001,7 +9018,8 @@
     "allikas": "FB event + GateMe, kontrollitud 21.08.2026"
    },
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: HALLi FB events-tab / ürituse FB event (korraldajad TJUUN IN + HALL) ja GateMe piletileht. Täiskoosseis võetud FB-eventi kirjeldusest: suur saal = Rebel Cause showcase, Mesila = Tjuun In residendid.",
-   "img": "https://klubi.skene.info/pildid/rebelcausetjuuninhall.webp"
+   "img": "https://klubi.skene.info/pildid/rebelcausetjuuninhall.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -9028,7 +9046,8 @@
     "allikas": "FB event, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta, ainult 'mava b2b klmn all night' - g on ainult 'club', ei leiutanud."
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR: leht zanrit ei nimeta, ainult 'mava b2b klmn all night' - g on ainult 'club', ei leiutanud.",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "www",
@@ -9085,7 +9104,8 @@
     "allikas": "paavli.ee uritusleht + FB event, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (korraldaja vabadus.ee) + paavli.ee sundmuste leht, mis annab sama taiskoosseisu. Taiskoosseisu reegel: koik viis nime lehelt."
+   "nb": "leitud sweepis 09.09.2026. Kaks allikat: MOD.tln FB event (korraldaja vabadus.ee) + paavli.ee sundmuste leht, mis annab sama taiskoosseisu. Taiskoosseisu reegel: koik viis nime lehelt.",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "www",
@@ -9410,7 +9430,8 @@
    "ou": "https://www.facebook.com/events/1769046797744420/",
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Masta Blasta + MOD.tln) + MOD.tln events-tab. Korraldaja on ka sources.json-is (ra.co/promoters/112333). Ürituse kirjeldus: „bass music … across the wider UK continuum“. DJ-koosseis pole veel avaldatud → koosseis_tba. Pilet/uksehind avaldamata. ⚠ RIKASTATUD 25.09.2026 postkastijooksus: DJ-koosseis avaldatud, `koosseis_tba` eemaldatud. KAKS SÕLTUMATUT ALLIKAT nimetavad samad neli nime: (1) venue/kaaskorraldaja Paavli Kultuurivabriku ENDA uudiskiri 24.09.2026 („Behind the decks: CÄROL, Kässar, HABUR and KONSAP. Doors at 23:00“) ja (2) Rada7.ee uudiskiri 24.09.2026 („puldis Cärol, Kässar, Habur ja Konsap“). Nimekuju võetud Rada7 tavakirjapildist. Žanrisilte EI muudetud — need on ürituse enda FB-lehe tekstist („bass music … across the wider UK continuum“), uudiskiri ei ole žanriallikas (REEGLID §1). Pilet/uksehind endiselt avaldamata.",
-   "img": "https://klubi.skene.info/pildid/mastablastamod.webp"
+   "img": "https://klubi.skene.info/pildid/mastablastamod.webp",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "klubi",
@@ -9436,7 +9457,8 @@
    "pu": "https://gateme.com/halltallinn/104060-sonic-impact",
    "lisatud": "2026-08-02",
    "nb": "lisatud sweepis 02.08.2026; kinnitatud HALL FB event + GateMe piletileht",
-   "img": "https://klubi.skene.info/pildid/sonicimpactsournoispllempl.webp"
+   "img": "https://klubi.skene.info/pildid/sonicimpactsournoispllempl.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -9602,7 +9624,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1584962266610851/",
    "lisatud": "2026-09-09",
-   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR on lehel SONASELGELT kirjas: 90ndate tracker-/moodulmuusika, 'raw modules, crunchy samples, frantic patterns' - Eesti arvuti-underground. Kaaskorraldaja Ilmar Kerm. Hinda lehel ei nimetatud."
+   "nb": "lisatud sweepis 09.09.2026 Silveri otsusega: kusisin, kas Bar IDA (Telliskivi 60a/5) nadalakava kureerida sisse nagu Fonoteegi ja MOD-i oma - vastus JAH. Bar IDA kava avaldatakse IDA Radio FB-lehe all; see leht EI OLNUD sources.json-is, seega oli kogu maja senini pime nurk. Kaks allikat: urituse enda FB event + IDA Radio events-tab (facebook.com/IDARadio/events). ZANR on lehel SONASELGELT kirjas: 90ndate tracker-/moodulmuusika, 'raw modules, crunchy samples, frantic patterns' - Eesti arvuti-underground. Kaaskorraldaja Ilmar Kerm. Hinda lehel ei nimetatud.",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "www",
@@ -9677,7 +9700,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1799615644404816/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja CompressEvents) + HALLi FB events-tab. DJ-koosseis ei ole lehel avaldatud → koosseis_tba. Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja CompressEvents) + HALLi FB events-tab. DJ-koosseis ei ole lehel avaldatud → koosseis_tba. Pilet/uksehind avaldamata.",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -9801,7 +9825,8 @@
     "praegu": "8 €",
     "mark": "early bird; üritusepäeva eelmüük 10 €, uksel 15 €",
     "allikas": "Fienta, kontrollitud 25.09.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "www",
@@ -10164,7 +10189,8 @@
    "hind": {
     "praegu": "5 € enne keskööd / 10 € pärast",
     "allikas": "FB event, kontrollitud 02.10.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "www",
@@ -10253,7 +10279,8 @@
    "pu": "https://gateme.com/halltallinn/104324-compressrave-x-hall",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (CompressEvents + HALL) + GateMe piletileht. Žanr ürituse nimest/tekstist („only techno all night long\").",
-   "img": "https://klubi.skene.info/pildid/compressravexhallonlytechno.webp"
+   "img": "https://klubi.skene.info/pildid/compressravexhallonlytechno.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -10283,7 +10310,8 @@
     "praegu": "10 EUR",
     "mark": "uksel",
     "allikas": "paavli.ee uritusleht, kontrollitud 09.09.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "www",
@@ -10566,7 +10594,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1380331124184564/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja IDA Radio) + IDA Radio FB events-tab. Jahtari on Leipzigi digital-dub plaadifirma. Uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja IDA Radio) + IDA Radio FB events-tab. Jahtari on Leipzigi digital-dub plaadifirma. Uksehind avaldamata.",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "www",
@@ -10927,7 +10956,8 @@
    "pu": "https://gateme.com/halltallinn/104317-afterpartyhall-dance-floor-of-democracy",
    "lisatud": "2026-10-02",
    "nb": "lisatud 02.10.2026 järelkontrollis (eelmises jooksus jäi tekst poolikult loetuks). Kaks allikat: FB event (HALL + Prantsuse Instituut jt) + GateMe piletileht. Žanr ürituse tekstist („the Estonian National Symphony Orchestra meets techno“, Tresori DJ). Dance Floor of Democracy konverentsi järelpidu.",
-   "img": "https://klubi.skene.info/pildid/afterpartyhalldancefloorofdemocracy.webp"
+   "img": "https://klubi.skene.info/pildid/afterpartyhalldancefloorofdemocracy.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "klubi",
@@ -11415,7 +11445,8 @@
    },
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Kaks allikat: HALLi FB events-tab/FB event (CompressEvents) + GateMe piletileht (korraldaja Lisetech OÜ, koosseis, „only techno“).",
-   "img": "https://klubi.skene.info/pildid/compressravexhallonlytechno.webp"
+   "img": "https://klubi.skene.info/pildid/compressravexhallonlytechno.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -11923,7 +11954,8 @@
    },
    "lisatud": "2026-09-09",
    "nb": "leitud sweepis 09.09.2026 RA snapshotist. Kaks allikat: RA event 2528562 (zanrisildid House/Garage, koht Bar IDA) + RA Eesti sundmuste loend. Peosari 4KORDA4.",
-   "img": "https://klubi.skene.info/pildid/4korda4mancenl.webp"
+   "img": "https://klubi.skene.info/pildid/4korda4mancenl.webp",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "klubi",
@@ -11951,7 +11983,8 @@
    "pu": "https://www.bftv.ee/",
    "lisatud": "2026-08-21",
    "nb": "lisatud sweepis 21.08.2026. Kaks allikat: BFTV FB events-tab + ürituse FB event (kaaskorraldajad HALL, Röntgen, 4-got-10). Koosseis on POOLIK — event ütleb 'Line-up.......loading'; teada on Kabel + Krematoorium (= MESILA laval) ja Külmkamber. Piletiviide www.bftv.ee. Kontrolli koosseisu järgmistes sweepides.",
-   "img": "https://klubi.skene.info/pildid/beatsfromthevaultdarksoulsmeeting.webp"
+   "img": "https://klubi.skene.info/pildid/beatsfromthevaultdarksoulsmeeting.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -12390,7 +12423,8 @@
     "allikas": "FB event, kontrollitud 02.10.2026"
    },
    "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (IDA Radio) + RA event. Žanr RA ürituselehelt (Techno, House)."
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (IDA Radio) + RA event. Žanr RA ürituselehelt (Techno, House).",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "www",
@@ -12596,7 +12630,8 @@
    "hind": {
     "praegu": "15–20 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -12687,7 +12722,8 @@
    "ou": "https://www.piletitasku.ee/et/event/9392",
    "pu": "https://www.piletitasku.ee/et/event/9392",
    "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)",
-   "img": "https://klubi.skene.info/pildid/camouflagede.webp"
+   "img": "https://klubi.skene.info/pildid/camouflagede.webp",
+   "vu": "https://concert.ee/en/teenus/vanemuise-kontserdisaal/"
   }
  ]
 }
