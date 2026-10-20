@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -1254,7 +1254,8 @@
    "su": "https://www.facebook.com/punknrollhell/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1158843837316570/",
-   "nb": "žanrid täpsustamata (DIY subkultuuriklubi õhtu); algus 17.00; lisatud 11.07.2026"
+   "nb": "žanrid täpsustamata (DIY subkultuuriklubi õhtu); algus 17.00; lisatud 11.07.2026",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "www",
@@ -1605,7 +1606,8 @@
    "su": "https://www.facebook.com/punknrollhell/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1005557088997331/",
-   "nb": "lisatud sweepis 19.07.2026 (Hell events); algus 19.00"
+   "nb": "lisatud sweepis 19.07.2026 (Hell events); algus 19.00",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "klubi",
@@ -2689,7 +2691,8 @@
    },
    "lisatud": "2026-07-31",
    "nb": "lisatud 31.07.2026; Silveri jazz-erand (vt 31.07 Tartu kirjet). Kinnitatud 2 allikaga: D3 oma ürituseleht + Fienta. Sama tuur/produktsioon kui 31.07 Tartus, sama korraldaja (Tammekindlus OÜ). Silveri otsus 31.07.2026: tüüp 'muu' (jääb saidi baasžanritest välja); žanrisildid jazz/eksperimentaal ei anna META-bucketit, seega kuvatakse nimekirja lõpus — see on teadlik.",
-   "img": "https://www.skene.info/pildid/mariafaustsoolokontsertooliblikasgregorkulla.webp"
+   "img": "https://www.skene.info/pildid/mariafaustsoolokontsertooliblikasgregorkulla.webp",
+   "vu": "https://www.d-3.ee/"
   },
   {
    "sait": "www",
@@ -3024,7 +3027,8 @@
    "su": "https://www.facebook.com/punknrollhell/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1583551966711930/",
-   "nb": "bändinimi ühtlustatud 26.07.2026 Bandcampi kirjapildiga (Kättemaksucuntor); FB-s stiliseeritud 'Kättemaksucvntor'"
+   "nb": "bändinimi ühtlustatud 26.07.2026 Bandcampi kirjapildiga (Kättemaksucuntor); FB-s stiliseeritud 'Kättemaksucvntor'",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "klubi",
@@ -4283,7 +4287,8 @@
    "su": "https://www.facebook.com/punknrollhell/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1689036142150759/",
-   "nb": "lisatud sweepis 19.07.2026 (Hell events) | 07.08.2026 sweep: Hell Tartu FB events-leht näitab TÄISKOOSSEISU 5 bändiga (varem 3) — lisatud Sitalaps ja Cunt Terrorist, nimi uuendatud."
+   "nb": "lisatud sweepis 19.07.2026 (Hell events) | 07.08.2026 sweep: Hell Tartu FB events-leht näitab TÄISKOOSSEISU 5 bändiga (varem 3) — lisatud Sitalaps ja Cunt Terrorist, nimi uuendatud.",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "www",
@@ -5316,7 +5321,8 @@
    },
    "lisatud": "2026-08-07",
    "nb": "lisatud 07.08.2026 nädalases sweepis. Kaks allikat: Hell Tartu FB events-leht + ürituse enda FB event (koosseis, kellaajad, uksehind). Bändide Bandcamp-lingid ürituse kirjelduses: stresssysteem.bandcamp.com, youthdeprivation.bandcamp.com",
-   "img": "https://www.skene.info/pildid/stresssystemnlyouthdeprivationnltaielikporno.webp"
+   "img": "https://www.skene.info/pildid/stresssystemnlyouthdeprivationnltaielikporno.webp",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "klubi",
@@ -6521,7 +6527,8 @@
    "ou": "https://www.facebook.com/events/1052123491068874/",
    "lisatud": "2026-08-14",
    "nb": "lisatud sweepis 14.08.2026; allikad: Hell FB events-tab + FB event (Tiigi 76a). Hinnainfot event-lehel ei olnud",
-   "img": "https://www.skene.info/pildid/backtoschoolnahakiinnhpodehumanizerngr.webp"
+   "img": "https://www.skene.info/pildid/backtoschoolnahakiinnhpodehumanizerngr.webp",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "rap",
@@ -7064,7 +7071,8 @@
    "su": "https://www.facebook.com/anemon12tln/events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2765050907225476/",
-   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Anemon12 (Ülase12) FB events-tab + urituse FB event; taiskava ja kellaajad FB eventi kirjeldusest (Väntajad 17.45, Beer Gardens 18.45, Aur 19.45, Präänikud 20.45, Nova Lux 22.00, Veli-Rekka & Rokut 23.00). Piletihinda pole avaldatud."
+   "nb": "lisatud sweepis 28.08.2026. Kaks allikat: Anemon12 (Ülase12) FB events-tab + urituse FB event; taiskava ja kellaajad FB eventi kirjeldusest (Väntajad 17.45, Beer Gardens 18.45, Aur 19.45, Präänikud 20.45, Nova Lux 22.00, Veli-Rekka & Rokut 23.00). Piletihinda pole avaldatud.",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "klubi",
@@ -8013,7 +8021,8 @@
     "allikas": "FB eventi kirjeldus, kontrollitud 09.09.2026"
    },
    "lisatud": "2026-09-09",
-   "nb": "⚠ PARANDUS 09.09.2026 — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. 04.09 sweep väitis „žanrit ei ole kuskil kirjas\" ja kirje jäi selle pärast välja. VÄIDE OLI VALE: žanr ON ürituse enda FB-kirjelduses kaks korda kirjas — „12.09 tuleb folkpunk muusikat erinevatest euroopanurkadest\" ja „Giz Medium on prantsusmaalt pärit folkpunk artist\". Tekst oli „See more\" taga (sama lõks nagu 08.09 Kuriks ja 05.08 Face Collector) — täistekst tuli DOM-ist. Folkpunk = punk, REEGLID §1 järgi selgelt peasaidi skoobis; sama profiil nagu 05.09 „Alanud on sügis\" kirjel samast majast. Kahe allika reegel täidetud: (1) FB event facebook.com/events/1090644030140827 (L 12.09.2026 19.00-23.00, Ülase tn 12, korraldaja Anemon12, 89 vastanut, hind ja uksekell kirjelduses) + (2) allevents.in sama kuupäev/kellaaeg/koht + Ülase12 oma IG (@ylase12) sama tekst. Esinejate omad lehed: busstoppress.bandcamp.com (Giz Medium, Bus Stop Press) ja qaribou.bandcamp.com/album/mu-korteris-on-gaasileke (Qaribou). Online-piletimüüki ei ole, hind on uksel → `pu` tühi. Silver saab tagasi pöörata (\"1b\" → kustuta + pane blokk tagasi)."
+   "nb": "⚠ PARANDUS 09.09.2026 — TÜHISTAB sama päeva vaikeotsuse (b) VÄLJA. 04.09 sweep väitis „žanrit ei ole kuskil kirjas\" ja kirje jäi selle pärast välja. VÄIDE OLI VALE: žanr ON ürituse enda FB-kirjelduses kaks korda kirjas — „12.09 tuleb folkpunk muusikat erinevatest euroopanurkadest\" ja „Giz Medium on prantsusmaalt pärit folkpunk artist\". Tekst oli „See more\" taga (sama lõks nagu 08.09 Kuriks ja 05.08 Face Collector) — täistekst tuli DOM-ist. Folkpunk = punk, REEGLID §1 järgi selgelt peasaidi skoobis; sama profiil nagu 05.09 „Alanud on sügis\" kirjel samast majast. Kahe allika reegel täidetud: (1) FB event facebook.com/events/1090644030140827 (L 12.09.2026 19.00-23.00, Ülase tn 12, korraldaja Anemon12, 89 vastanut, hind ja uksekell kirjelduses) + (2) allevents.in sama kuupäev/kellaaeg/koht + Ülase12 oma IG (@ylase12) sama tekst. Esinejate omad lehed: busstoppress.bandcamp.com (Giz Medium, Bus Stop Press) ja qaribou.bandcamp.com/album/mu-korteris-on-gaasileke (Qaribou). Online-piletimüüki ei ole, hind on uksel → `pu` tühi. Silver saab tagasi pöörata (\"1b\" → kustuta + pane blokk tagasi).",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "www",
@@ -8660,7 +8669,8 @@
    "ou": "https://www.facebook.com/events/2892340987805075/",
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Žanr kinnitatud bändide Bandcampist, mille lingid on ürituse enda kirjelduses: klostriid.bandcamp.com/album/klostriid sildid punk / hardcore / hardcore punk / metal (Kuressaare) ja oskarivasakmunand.bandcamp.com (O.V.M). Pilet ja uksehind ei ole avaldatud — Ülase12 on DIY-sotsiaalkeskus.",
-   "img": "https://www.skene.info/pildid/korralagedustraumapunktklostriidovm.webp"
+   "img": "https://www.skene.info/pildid/korralagedustraumapunktklostriidovm.webp",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "www",
@@ -9287,7 +9297,8 @@
    "ou": "https://www.facebook.com/events/2341620356656330/",
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event + Anemon12 events-tab. Žanr kontrollitud Haaveet Bandcampist (sildid rock, suomirock, rautalanka, surf; Helsingi) — kitarripõhine, seega www. Pilet/uksehind avaldamata.",
-   "img": "https://www.skene.info/pildid/haaveetfinnovaluxvolta.webp"
+   "img": "https://www.skene.info/pildid/haaveetfinnovaluxvolta.webp",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "www",
@@ -9643,7 +9654,8 @@
    "lisatud": "2026-09-04",
    "nb": "lisatud sweepis 04.09.2026 - see oli HANDOVER §4 'jalgimisel' punkt (Beneath Revalia 26.09 MOD/Paavli). Kaks allikat: MOD.tln FB events-tab + Humanity FB event. ERALDI KIRJE Viljandi 02.10 kirjest (eri kuupaev, eri venue, eri FB event 1415447317294805). | 11.09.2026 sweep RIKASTUS: leitud Fienta piletileht (https://fienta.com/et/beneath-revalia-the-livonian-abyss-tour-tallinn) → pu lisatud. ⚠ PARANDUS: senine b oli [\"Beneath Revalia\"], aga „Beneath Revalia“ on TUURI nimi — esineja on Humanity. Fienta ürituselehe eestikeelne tekst: „Tallinnas astuvad lisaks Humanityle veel tartlastest tegijad Shrapnelle ja Theoretik ning lätlastest Sarcophakiss.“",
    "pu": "https://fienta.com/et/beneath-revalia-the-livonian-abyss-tour-tallinn",
-   "img": "https://www.skene.info/pildid/beneathrevaliathelivoniantourtallinn.webp"
+   "img": "https://www.skene.info/pildid/beneathrevaliathelivoniantourtallinn.webp",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "klubi",
@@ -9954,7 +9966,8 @@
    "ou": "https://www.facebook.com/events/1793462062082892/",
    "lisatud": "2026-09-11",
    "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event + Anemon12 events-tab. Trigger (DE) on ürituse kirjelduse järgi 2006. aastast tegutsev, 90ndate grindcore'i juurtega projekt. Pilet/uksehind avaldamata.",
-   "img": "https://www.skene.info/pildid/decultivateczlilixelbecztriggerdechildbeaterkoni.webp"
+   "img": "https://www.skene.info/pildid/decultivateczlilixelbecztriggerdechildbeaterkoni.webp",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "www",
@@ -10035,7 +10048,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/829924156832270/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Hell, Tartu) + Hell, Tartu FB events-tab. Tiigi 76a. Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Secret Face Productions + Hell, Tartu) + Hell, Tartu FB events-tab. Tiigi 76a. Pilet/uksehind avaldamata.",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "www",
@@ -10092,7 +10106,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2252037512315293/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Koosseis ürituse pealkirjast (viis bändi). Pilet/uksehind avaldamata (Ülase12 on annetuspõhine DIY-keskus)."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Koosseis ürituse pealkirjast (viis bändi). Pilet/uksehind avaldamata (Ülase12 on annetuspõhine DIY-keskus).",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "klubi",
@@ -10785,7 +10800,8 @@
    "hind": {
     "praegu": "8 € esimesel tunnil / 10 €",
     "allikas": "FB event, kontrollitud 02.10.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "sait": "www",
@@ -10998,7 +11014,8 @@
    },
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Kuku-Kinomaja, „kolm Eesti punkbändi“) + Piletitasku piletileht (korraldaja Maaaluste Muusade Büroo OÜ, R 09.10 20.00 Tallinna Kinomaja). Leitud Rada7 events-tabist.",
-   "img": "https://www.skene.info/pildid/jmkenyrokcitytuvipoeg.webp"
+   "img": "https://www.skene.info/pildid/jmkenyrokcitytuvipoeg.webp",
+   "vu": "https://www.facebook.com/kinomajabarandstage"
   },
   {
    "sait": "rap",
@@ -11455,7 +11472,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2276807216194209/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Ürituse kirjeldus lingib iga bändi Bandcampi (Hauntees «Shadows Forming», Hello Killu, Buzhold «What It Meant»). Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + Anemon12/Ülase12 events-tab. Ürituse kirjeldus lingib iga bändi Bandcampi (Hauntees «Shadows Forming», Hello Killu, Buzhold «What It Meant»). Pilet/uksehind avaldamata.",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "www",
@@ -11716,7 +11734,8 @@
    "ou": "https://www.facebook.com/events/1770551210661045/",
    "lisatud": "2026-10-04",
    "nb": "lisatud 04.10.2026 Silveri sisendist (jäi sweepil märkamata, sest SAAR CULTi FB-lehte polnud sources.json-is — nüüd on). Kaks allikat: ürituse FB event (korraldaja SAAR CULT, täiskoosseis + tätoveerijad kirjelduses) + Mördi FB-postitus https://www.facebook.com/m8rtband/posts/1523546039798344/. Žanrid: Mört = black/forest punk'n'roll (Bandcamp), Borm Bubu = math rock/doom metal/jazz (Bandcamp, MuusikaPlaneet), Mobisa Mobisa = rock/stoner, Hukk = post-metal/doom/sludge, Model Citizen = post-punk, Mang Ont = black/doom (varasemad kirjed), Fumantum = dark ambient (klubi-artist, siin üks seitsmest — üks lava, seega üks kirje www-s). Pilet/uksehind avaldamata.",
-   "img": "https://www.skene.info/pildid/saarcult8.webp"
+   "img": "https://www.skene.info/pildid/saarcult8.webp",
+   "vu": "https://www.facebook.com/saarcult"
   },
   {
    "sait": "www",
@@ -11847,7 +11866,8 @@
    "hind": {
     "praegu": "10 € (ainult sularahas)",
     "allikas": "FB event, kontrollitud 02.10.2026"
-   }
+   },
+   "vu": "https://www.facebook.com/saarcult"
   },
   {
    "sait": "www",
@@ -11960,7 +11980,8 @@
    },
    "lisatud": "2026-10-09",
    "nb": "lisatud järelkäigus 09.10.2026 (Kinomaja FB events-tab näitas ainult möödunuid). Kaks allikat: Piletitasku (korraldaja Maaaluste Muusade Büroo OÜ: „legendaarne Tartu alternatiivrokiansambel DND“) + FB event (KuKu klubi).",
-   "img": "https://www.skene.info/pildid/dndtallinnakinomajas.webp"
+   "img": "https://www.skene.info/pildid/dndtallinnakinomajas.webp",
+   "vu": "https://www.facebook.com/kinomajabarandstage"
   },
   {
    "sait": "klubi",
@@ -12234,7 +12255,8 @@
    "ou": "https://www.facebook.com/events/1433455302218174/",
    "lisatud": "2026-10-04",
    "nb": "lisatud 04.10.2026 SAAR CULTi events-tabi läbivaatusel (Saar Cult 8 kontrolli käigus). Kaks allikat: ürituse FB event (korraldaja SAAR CULT) + Ethetricu IG-postitus 02.10.2026 https://www.instagram.com/ethetric.band/p/DeABzv4MJKo/ (16.10, Kopli 25, uksed 19.00). Žanr: The Weeping Abyss = depressive doom metal death/black/sludge mõjudega (FB/IG bio, Mood), Ethetric = metal (varasemad kirjed: death/black/core). Pilet avaldamata.",
-   "img": "https://www.skene.info/pildid/theweepingabyssethetric.webp"
+   "img": "https://www.skene.info/pildid/theweepingabyssethetric.webp",
+   "vu": "https://www.facebook.com/saarcult"
   },
   {
    "sait": "rap",
@@ -12392,7 +12414,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2587689351678799/",
    "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad Anemon12 + Fedja Skunk, kaks lehte) + Rada7.ee events-tab. Žanr ürituse tekstist: „CAUSE A RIOT, a melodic hardcore 4-piece band from Helsinki“. Piletiinfot lehel pole."
+   "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad Anemon12 + Fedja Skunk, kaks lehte) + Rada7.ee events-tab. Žanr ürituse tekstist: „CAUSE A RIOT, a melodic hardcore 4-piece band from Helsinki“. Piletiinfot lehel pole.",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "klubi",

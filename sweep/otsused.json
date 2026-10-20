@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "oid": "randevuu-12-suhe-2026-10-23",
+  "pealkiri": "Randevuu #12 @SUHE — R 23.10.2026 kl 20.00–04.00 (DJ 22.00), Suhe Baar, Manufaktuuri 3 Tallinn; 0 € kuni 22, 8 € kuni 00 (FB going), 12 €; 20+",
+  "otselink": "https://www.facebook.com/events/1546909533867822",
+  "kysimus": "Kas lisame klubi-saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi-saidile (tech house / afro house)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (popi-poolne peavoolu-baaripidu)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-10-23",
+  "kysitud": "2026-10-20",
+  "lingid": [
+   "https://www.facebook.com/events/1546909533867822",
+   "https://www.kluub.ee/et/events/tallinn/4eea6c4d-1d4c-4ca3-8aa6-1e22ccaae366"
+  ],
+  "kontekst": "Leitud 20.10.2026 postkastijooksu kluub.ee-kontrollis. Ürituse kirjeldus (kluub.ee kaudu, FB eventi tekst): 'Randevuu is an event series built around the playful side of contemporary dance music – pop, tech and afro house'; residendid Karro x Tiik x Lamp; korraldaja Suhe Baar. Tech/afro house on klubi skoobis, aga 'pop' + baari residendid viitab peavoolu-kommertsklubi poole (REEGLID §1). Kirjet pole üheski manual.json-is. Üritus on reedel, seega vaikeotsus (b) rakendub sisuliselt kohe, kui vastust enne R hommikut ei tule.",
+  "miks": "Sildid ütlevad tech house + afro house (klubi skoop), aga sari ise kirjeldab end „pop“-iks ja tegemist on baari residentide õhtuga — piir peavoolu-kommertsklubiga on lahtine.",
+  "lisatud": "2026-10-20"
+ }
+]

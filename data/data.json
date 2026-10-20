@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "entries": [
   {
    "d": "2026-09-15",
@@ -378,7 +378,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/914340584731667/",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Last Penance + Anemon12) + Anemon12/Ülase12 events-tab. Varssavi dark metal/hardcore (album «Heathens»). Pilet/uksehind avaldamata."
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Last Penance + Anemon12) + Anemon12/Ülase12 events-tab. Varssavi dark metal/hardcore (album «Heathens»). Pilet/uksehind avaldamata.",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "d": "2026-10-23",
@@ -461,7 +462,8 @@
    },
    "lisatud": "2026-10-09",
    "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: Piletitasku tuurileht + sibylvane.ee/shows (ja ürituse FB event). Tuur: 17.10 Sindi Rock, 23.10 Tallinn, 24.10 Tartu, 04.12 Viljandi, 05.12 Tõrva (eraldi kirje olemas), 11.12 Pärnu.",
-   "img": "pildid/sibylvanevortexautumntourtallinnainohajonneetfin.webp"
+   "img": "pildid/sibylvanevortexautumntourtallinnainohajonneetfin.webp",
+   "vu": "https://www.facebook.com/kinomajabarandstage"
   },
   {
    "d": "2026-10-23",
@@ -488,7 +490,38 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1104264962050657/",
    "lisatud": "2026-10-09",
-   "nb": "lisatud järelkäigus 09.10.2026. FB event (MAI SKIZO + Kära Kantsi korraldaja Oleg Knjazev). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata."
+   "nb": "lisatud järelkäigus 09.10.2026. FB event (MAI SKIZO + Kära Kantsi korraldaja Oleg Knjazev). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata. TÄIENDUS 20.10.2026 postkastijooksus: bänd kinnitas ürituse ise kontaktivormi kaudu (Pronto, 19.10.2026; „23.10.2026, Kära Kants, Rakvere“, žanrid „hard rock, industriaal, grunge, punk“) — see on teine, ürituse FB-st sõltumatu kinnitus. Pilet/hind ikka avaldamata."
+  },
+  {
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "Lawn Fight (SWE), Konnahaldjas, Miša_K3X",
+   "a": "Malmö midwest emo trio Lawn Fight (debüütalbum «Lingon», 2026); uksed 19.00, esimene bänd 20.00",
+   "b": [
+    "Lawn Fight (SWE)",
+    "Konnahaldjas",
+    "Miša_K3X"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "indie",
+    "punk",
+    "alt"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/3abfa34b-adf9-4501-a161-e34fb0e255bd",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2500618643771636/",
+   "hind": {
+    "praegu": "10 € / 7 € õpilastele",
+    "mark": "10 €, õpilastele 7 € („10/7* for schoolkidz“); online-piletit ei ole",
+    "allikas": "kluub.ee (ürituse kirjeldus)"
+   },
+   "lisatud": "2026-10-20",
+   "nb": "lisatud 20.10.2026 postkastijooksu kluub.ee-kontrollis. Kaks allikat: ürituse FB event (korraldajad Anemon12 + Lawn Fight; „three piece Midwest Emo-band from Malmö“, Ülase tn 12) + Anemon12 FB events-tab (R 19.00). Žanr ürituse enda kirjeldusest (midwest emo / melodic indie rock), kluub.ee sildid Indie, Rock, Punk. Lawn Fighti linktree näitab 22.10 Riiat — tuuri jätk. Hind 10/7 € kluub.ee-st, mis peegeldab FB kirjeldust.",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "d": "2026-10-23",
@@ -591,7 +624,8 @@
    },
    "lisatud": "2026-10-04",
    "nb": "lisatud 04.10.2026 SAAR CULTi events-tabi läbivaatusel (Saar Cult 8 kontrolli käigus). Kaks allikat: ürituse FB event (korraldajad Kaschalot + SAAR CULT + Wolfredt) + Fienta piletileht; lisaks MuusikaPlaneet https://muusikaplaneet.ee/2026/10/02/saarcult241026/. Žanr Fienta tekstist: Kaschalot = math-rock/post-rock/prog emo- ja hardcore-juurtega (sama bänd 08.10 Viljandi kirjes), Wolfredt = post-rock (kohati doom/post-metal), liigub tumedama shoegaze'i poole.",
-   "img": "pildid/kaschalotwolfredt.webp"
+   "img": "pildid/kaschalotwolfredt.webp",
+   "vu": "https://www.facebook.com/saarcult"
   },
   {
    "d": "2026-10-24",
@@ -873,7 +907,8 @@
     "allikas": "FB event, kontrollitud 02.10.2026"
    },
    "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Hell, Tartu) + Helli FB events-tab. Žanrid ürituse tekstist: Sitalaps grindcore, NGR crust/grind/noise, Dinner Christians grindviolence/sludge, Shrapnelle alt metal."
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Hell, Tartu) + Helli FB events-tab. Žanrid ürituse tekstist: Sitalaps grindcore, NGR crust/grind/noise, Dinner Christians grindviolence/sludge, Shrapnelle alt metal.",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "d": "2026-10-30",
@@ -926,6 +961,23 @@
    "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Endla Jazzklubi + Andres Roots) + Piletikeskus piletileht. Bluus → www (REEGLID §1).",
    "img": "pildid/andresroots30aastatlaval.webp",
    "vu": "https://www.endla.ee/teater/jazzklubi"
+  },
+  {
+   "d": "2026-10-30",
+   "t": "kontsert",
+   "n": "Tribal Halfa 2026 “What we do in the shadows” Mystic Dance Show",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/rock-to-rave-2/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-10-20",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "d": "2026-10-30",
@@ -1211,7 +1263,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2055813308434314/",
    "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Estoner + SAAR CULT + Face Collector) + Face Collectori FB events-tab. Žanr: Estoner = stoner/sludge metal (Bandcamp-sildid, Metal Storm), Face Collector = death/grind (varasemad kirjed). Pilet avaldamata. SAAR CULT on uus koht (sama kus SFP 14.10)."
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Estoner + SAAR CULT + Face Collector) + Face Collectori FB events-tab. Žanr: Estoner = stoner/sludge metal (Bandcamp-sildid, Metal Storm), Face Collector = death/grind (varasemad kirjed). Pilet avaldamata. SAAR CULT on uus koht (sama kus SFP 14.10).",
+   "vu": "https://www.facebook.com/saarcult"
   },
   {
    "d": "2026-11-06",
@@ -2034,7 +2087,8 @@
    },
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Ocean Districts + Mobisa Mobisa) + Fienta. Žanr Fienta tekstist: post-hardcore, post-rock, alternatiivrock.",
-   "img": "pildid/oceandistrictspulsaresitluskontsertmobisamobisa.webp"
+   "img": "pildid/oceandistrictspulsaresitluskontsertmobisamobisa.webp",
+   "vu": "https://www.facebook.com/saarcult"
   },
   {
    "d": "2026-11-26",
@@ -2646,7 +2700,8 @@
    "sn": "IG @lein_bm",
    "su": "https://www.instagram.com/p/Deoz-BhIPhM/",
    "lisatud": "2026-10-18",
-   "nb": "lisatud 18.10.2026 Silveri sisendist (Leina IG tuuripostitus 18.10, Tallinna koosseis: Lein, Northwind, Vasari, Grom). FB eventi ja piletilinki 18.10 veel polnud — SAAR CULTi FB events-tab ei näidanud. Žanrid: Lein = black metal (IG handle lein_bm), Grom = Eesti black metal (Krypti/huvi.tallinn.ee kirjeldused), Vasari = Lohja (FI) extreme/black metal (Last.fm bio); Northwindi päritolu/žanr EI ole otseallikast kinnitatud. Kellaaeg ja hind avaldamata."
+   "nb": "lisatud 18.10.2026 Silveri sisendist (Leina IG tuuripostitus 18.10, Tallinna koosseis: Lein, Northwind, Vasari, Grom). FB eventi ja piletilinki 18.10 veel polnud — SAAR CULTi FB events-tab ei näidanud. Žanrid: Lein = black metal (IG handle lein_bm), Grom = Eesti black metal (Krypti/huvi.tallinn.ee kirjeldused), Vasari = Lohja (FI) extreme/black metal (Last.fm bio); Northwindi päritolu/žanr EI ole otseallikast kinnitatud. Kellaaeg ja hind avaldamata.",
+   "vu": "https://www.facebook.com/saarcult"
   },
   {
    "d": "2026-12-19",
@@ -2669,7 +2724,8 @@
    "ou": "https://www.facebook.com/events/1654041912549043/",
    "pu": "https://www.ticketer.ee/maustetytot-d3-tallinn/",
    "nb": "lisatud 18.08.2026, SILVERI OTSUS 18.08: piiripealne žanr, läheb peasaidile siltidega rock/pop. Allikad Ticketer + FB event.",
-   "img": "pildid/maustetytotfin.webp"
+   "img": "pildid/maustetytotfin.webp",
+   "vu": "https://www.d-3.ee/"
   },
   {
    "d": "2026-12-19",
