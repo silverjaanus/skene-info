@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-21",
  "entries": [
   {
    "d": "2026-10-23",
@@ -25,7 +25,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1581962047410599/",
    "lisatud": "2026-09-04",
-   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1581962047410599: DJ-d Critikal, Bandit, Tarrvi (Bashment FM), Koldun; MC-d Typicalflow, Propazha, J.O.C + special guests. Peosari alates 1996. Hinda eventis ei nimetata."
+   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1581962047410599: DJ-d Critikal, Bandit, Tarrvi (Bashment FM), Koldun; MC-d Typicalflow, Propazha, J.O.C + special guests. Peosari alates 1996. Hinda eventis ei nimetata.",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
   },
   {
    "d": "2026-10-24",
@@ -75,7 +76,8 @@
    },
    "lisatud": "2026-10-09",
    "nb": "lisatud 09.10.2026 Silveri otsusega („jep“) — žanrit ega koosseisu üritus ei ütle, aga korraldaja on 5MIINUST (+ D3). Kaks allikat: FB event + GateMe piletileht.",
-   "img": "pildid/halloweenirammar.webp"
+   "img": "pildid/halloweenirammar.webp",
+   "vu": "https://www.d-3.ee/"
   },
   {
    "d": "2026-10-31",
@@ -117,7 +119,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1105078858557961/",
    "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS."
+   "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS.",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
   },
   {
    "d": "2026-11-13",
@@ -147,7 +150,8 @@
    },
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Legendaarne Raadio) + Fienta piletileht (R 13.11 20:00 – 04:00). Žanr ürituse tekstist: „räpp ja reiv\". ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII rap/data/manual.json KUI klubi/data/manual.json failis — hoia n, d, ou mõlemas identsed.",
-   "img": "pildid/naistekasrappjareiv.webp"
+   "img": "pildid/naistekasrappjareiv.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
   },
   {
    "d": "2026-11-13",
@@ -196,7 +200,8 @@
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: artisti oma leht azma.ee + Fienta piletileht. Žanr ürituse tekstist (räpparid, klassikaline hip-hop). FB eventi ei leidnud → ou tühi. | 16.10.2026 sweep: rikastatud (ou).",
    "img": "pildid/azmasuurjuubelikontsert.webp",
    "ou": "https://www.facebook.com/events/857342057404133/",
-   "on_": "Facebook event"
+   "on_": "Facebook event",
+   "vu": "https://www.d-3.ee/"
   },
   {
    "d": "2026-11-20",

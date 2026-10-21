@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-10-19",
+ "tommatud": "2026-10-21",
  "aken": {
-  "algus": "2026-10-19",
-  "lopp": "2026-12-18"
+  "algus": "2026-10-21",
+  "lopp": "2026-12-20"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 24,
+ "kirjeid": 29,
  "kirjed": [
   {
    "d": "2026-10-22",
@@ -20,6 +20,17 @@
     "Club"
    ],
    "url": "https://ra.co/events/2564309",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-22",
+   "n": "DIO RECORDS with VINYL SET BY KYKA",
+   "algus": "2026-10-22T20:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2564541",
    "pilet": false
   },
   {
@@ -68,6 +79,17 @@
    "pilet": false
   },
   {
+   "d": "2026-10-23",
+   "n": "DIO FRIDAYS • bar that turns into a club",
+   "algus": "2026-10-23T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2564546",
+   "pilet": false
+  },
+  {
    "d": "2026-10-24",
    "n": "GENKA & PAUL OJA: 30 YEARS ON STAGE",
    "algus": "2026-10-24T23:00:00.000",
@@ -95,6 +117,28 @@
    "pilet": false
   },
   {
+   "d": "2026-10-24",
+   "n": "DIO SOCIETY • Saturday nights at Maison",
+   "algus": "2026-10-24T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2564556",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-30",
+   "n": "TALLINN FASHION WEEK OFFICIAL AFTERPARTY · Maison Dio",
+   "algus": "2026-10-30T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2558555",
+   "pilet": false
+  },
+  {
    "d": "2026-10-30",
    "n": "HEAVEN OR HELL - Halloween rave at CLUB Hall",
    "algus": "2026-10-30T23:00:00.000",
@@ -115,17 +159,6 @@
   },
   {
    "d": "2026-10-30",
-   "n": "TALLINN FASHION WEEK OFFICIAL AFTERPARTY · Maison Dio",
-   "algus": "2026-10-30T21:00:00.000",
-   "v": "Maison Dio Tallinn",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [],
-   "url": "https://ra.co/events/2558555",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-30",
    "n": "UKF ESTONIA 2026: NERO (UK) - LUUDE (AUS) - HALLOWEEN",
    "algus": "2026-10-30T22:00:00.000",
    "v": "Kultuurikatel",
@@ -136,6 +169,38 @@
     "Bass"
    ],
    "url": "https://ra.co/events/2561213",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-30",
+   "n": "Lights Out: HALLOWEEN",
+   "algus": "2026-10-30T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House",
+    "Garage"
+   ],
+   "url": "https://ra.co/events/2564568",
+   "pilet": false
+  },
+  {
+   "d": "2026-10-30",
+   "n": "Paavli House of Horrors",
+   "algus": "2026-10-30T23:00:00.000",
+   "v": "Paavli Kultuurivabrik",
+   "ala": "Tallinn",
+   "b": [
+    "Slayphex Twins",
+    "DJ Shore Road",
+    "NORA (BR)"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2565802",
    "pilet": false
   },
   {
