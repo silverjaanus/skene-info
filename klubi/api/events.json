@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 194,
+ "count": 195,
  "entries": [
   {
    "sait": "www",
@@ -774,9 +774,15 @@
    "d": "2026-10-23",
    "t": "klubi",
    "n": "KONTRAST: Introversion (DE / Makatao)",
-   "a": "KONTRAST on ilma kindla muusikalise suunata peosari; koostöös SVE x Culture Unseen",
+   "a": "KONTRAST on ilma kindla muusikalise suunata peosari (5. kord), kaks lava: peasaal techno, MOD eklektilisem; koostoos SVE x Culture Unseen; uksed 23.00, 18+",
    "b": [
-    "Introversion (DE)"
+    "Introversion (DE)",
+    "Acid Grooves",
+    "Behki",
+    "Ekitech",
+    "Funkomatik",
+    "Luurel Varas",
+    "Micaela Saraceno"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -789,8 +795,9 @@
    "on_": "Resident Advisor",
    "ou": "https://ra.co/events/2535243",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2535243 (žanrid Techno/House) + paavli.ee sündmuste kava. Pilet/uksehind avaldamata.",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2535243 (žanrid Techno/House) + paavli.ee sündmuste kava. Pilet/uksehind avaldamata. | RIKASTATUD 21.10.2026 (postkast): taiskoosseis RA uritusel 2535243 + Paavli uudiskiri 21.10 (FB event https://www.facebook.com/events/1633299398139535) - kattuvad. Piletid RA kaudu; RA naitab hinda \"26\" valuutata -> hind jaetud lisamata.",
    "img": "https://klubi.skene.info/pildid/kontrastintroversiondemakatao.webp",
+   "pu": "https://ra.co/events/2535243",
    "vu": "https://www.kultuurivabrik.ee/"
   },
   {
@@ -3533,6 +3540,26 @@
    "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno",
    "img": "https://www.skene.info/pildid/masterbootrecordfulciarottenbit.webp",
    "vu": "https://www.tapper.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-03",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Zebra Island - «Club Ghost»",
+   "a": "Album, 10 lugu (eeltellimus). Muusika Rasmus Lill, Helina Risti, Ivar Mägi; produtsent Rasmus Lill; miks Martin Kikas (Ö Studio, Tartu), master Lauri Liivak",
+   "b": [
+    "Zebra Island"
+   ],
+   "g": [
+    "shoegaze",
+    "indie",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://seksound.bandcamp.com/album/club-ghost",
+   "lisatud": "2026-10-21",
+   "nb": "LISATUD 21.10.2026 postkastijooksus check_bandcamp.py alerti peale (Seksoundi Bandcamp). Bänd on www-skoobis Silveri 22.09 otsusega (singel «Fool's Gold», sildid samad). Allikas: labeli ENDA Bandcampi albumileht, eeltellimus 'releases 03 December 2026'; krediidid kattuvad singliga. ⚠ Teist sõltumatut allikat (Seksoundi FB/IG, ERR) 21.10 veel ei leidnud - kuupäev KONTROLLI üle väljalaskel (REEGLID §6 Bandcampi-lõks)."
   },
   {
    "sait": "klubi",

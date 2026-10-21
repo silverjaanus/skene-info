@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "entries": [
   {
    "d": "2026-09-15",
@@ -2287,6 +2287,25 @@
    "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno",
    "img": "pildid/masterbootrecordfulciarottenbit.webp",
    "vu": "https://www.tapper.ee/"
+  },
+  {
+   "d": "2026-12-03",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Zebra Island - «Club Ghost»",
+   "a": "Album, 10 lugu (eeltellimus). Muusika Rasmus Lill, Helina Risti, Ivar Mägi; produtsent Rasmus Lill; miks Martin Kikas (Ö Studio, Tartu), master Lauri Liivak",
+   "b": [
+    "Zebra Island"
+   ],
+   "g": [
+    "shoegaze",
+    "indie",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://seksound.bandcamp.com/album/club-ghost",
+   "lisatud": "2026-10-21",
+   "nb": "LISATUD 21.10.2026 postkastijooksus check_bandcamp.py alerti peale (Seksoundi Bandcamp). Bänd on www-skoobis Silveri 22.09 otsusega (singel «Fool's Gold», sildid samad). Allikas: labeli ENDA Bandcampi albumileht, eeltellimus 'releases 03 December 2026'; krediidid kattuvad singliga. ⚠ Teist sõltumatut allikat (Seksoundi FB/IG, ERR) 21.10 veel ei leidnud - kuupäev KONTROLLI üle väljalaskel (REEGLID §6 Bandcampi-lõks)."
   },
   {
    "d": "2026-12-04",

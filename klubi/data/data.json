@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "entries": [
   {
    "d": "2026-09-23",
@@ -230,9 +230,15 @@
    "d": "2026-10-23",
    "t": "klubi",
    "n": "KONTRAST: Introversion (DE / Makatao)",
-   "a": "KONTRAST on ilma kindla muusikalise suunata peosari; koostöös SVE x Culture Unseen",
+   "a": "KONTRAST on ilma kindla muusikalise suunata peosari (5. kord), kaks lava: peasaal techno, MOD eklektilisem; koostoos SVE x Culture Unseen; uksed 23.00, 18+",
    "b": [
-    "Introversion (DE)"
+    "Introversion (DE)",
+    "Acid Grooves",
+    "Behki",
+    "Ekitech",
+    "Funkomatik",
+    "Luurel Varas",
+    "Micaela Saraceno"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -245,8 +251,9 @@
    "on_": "Resident Advisor",
    "ou": "https://ra.co/events/2535243",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2535243 (žanrid Techno/House) + paavli.ee sündmuste kava. Pilet/uksehind avaldamata.",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2535243 (žanrid Techno/House) + paavli.ee sündmuste kava. Pilet/uksehind avaldamata. | RIKASTATUD 21.10.2026 (postkast): taiskoosseis RA uritusel 2535243 + Paavli uudiskiri 21.10 (FB event https://www.facebook.com/events/1633299398139535) - kattuvad. Piletid RA kaudu; RA naitab hinda \"26\" valuutata -> hind jaetud lisamata.",
    "img": "pildid/kontrastintroversiondemakatao.webp",
+   "pu": "https://ra.co/events/2535243",
    "vu": "https://www.kultuurivabrik.ee/"
   },
   {
