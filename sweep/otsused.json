@@ -1,1 +1,46 @@
-[]
+[
+ {
+  "oid": "holy-motors-heavens-night-2026",
+  "lisatud": "2026-10-22",
+  "kysimus": "Holy Motors — «Heaven's Night» (LP, Wharf Cat Records), ilmus 16.10.2026. Kas lisame www reliisina?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www reliisina (sildid shoegaze + indie + alt), d = 16.10.2026"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (dream-pop/new wave, mitte kitarripõhine alt)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-10-27",
+  "lingid": [
+   "https://open.spotify.com/album/0f1frSX9J6YyMZLkMDtLxs",
+   "https://stereogum.com/2503956/holy-motors-announce-new-album-heavens-night-hear-tough-crush/music",
+   "https://www.thelineofbestfit.com/news/holy-motors-to-return-with-new-album-heavens-night"
+  ],
+  "kontekst": "Leitud 22.10 Rada7.ee uudiskirjast (ütleb ilmumiseks 19.10; Stereogum ja Line of Best Fit ütlevad 16.10, label Wharf Cat). Tallinna bänd, saidil seni puudu ja sources.json-is pole. Žanr on piiripealne: press kirjeldab dream-pop'i ja 'pop and new wave' suunda; uudiskiri ei ole žanriallikas (REEGLID §1), artisti/labeli enda žanrisilte (Bandcamp) ei leidnud. Pretsedent: Town Flesh (Holy Motorsi liikmetega indie-viisik) on www-s sildiga indie. Kui (a), lisa ka Holy Motors sources.json-i."
+ },
+ {
+  "oid": "whomadewho-momentum5-2026-10-23",
+  "lisatud": "2026-10-22",
+  "kysimus": "WHOMADEWHO (DK) hybrid DJ set + Bombossa Brothers + Pyfel — Momentum 5 aastapidu R 23.10.2026 kl 23–05, Kruiisiterminal Tallinn, 40–45 € (VIP 90 €), 18+. Kas lisame klubi saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi saidile (sildid house + disco + electronic)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (Kruiisiterminali peavoolu-telg, nagu Einmusik/James Hype)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-10-23",
+  "lingid": [
+   "https://fienta.com/et/whomadewho"
+  ],
+  "kontekst": "Leitud 21.10 Fienta uudiskirjast. Fienta leht (korraldaja Movements Events OÜ / momentumofc.ee) kinnitab kuupäeva, koha, koosseisu ja hinna; žanrisõnad lehel: electronic music, indie, disco, hybrid DJ set. FB eventi ei leitud. sources.json märkus Kruiisiterminali kohta: 'kava valdavalt skoobiväline peavool — kontrolli iga üritus eraldi, vaikimisi välja'. WhoMadeWho on Innervisionsi melodic/indie-dance trio, mitte EDM — seepärast küsin, mitte ei jäta vaikselt välja. Kui vastus tuleb pärast 23.10, on küsimus aegunud."
+ }
+]
