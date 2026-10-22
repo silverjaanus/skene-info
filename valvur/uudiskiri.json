@@ -1,6 +1,12 @@
 {
  "kuupaev": "2026-10-22",
- "aeg": "2026-10-22T15:09+03:00",
- "seis": "saatmata",
- "pohjus": "sweep ei jooksnud tana (nadal/latest.json date = 2026-10-16)"
+ "aeg": "2026-10-22T15:24+03:00",
+ "seis": "dry_run_ok",
+ "ambrid": [
+  "send:metal+klubi:et 2 tellijat 40 kirjet",
+  "send:metal+rap+klubi:et 3 tellijat 44 kirjet",
+  "send:metal+rap:et 2 tellijat 35 kirjet",
+  "send:metal:et 35 tellijat 31 kirjet",
+  "send:rap+klubi:et 1 tellijat 13 kirjet"
+ ]
 }
