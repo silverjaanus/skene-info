@@ -97,7 +97,10 @@ def main():
     except Exception as e:
         katkesta(f"nadal/latest.json ei avane: {e}")
     if latest.get("date") != tana.isoformat():
-        katkesta(f"sweep ei jooksnud tana (nadal/latest.json date = {latest.get('date')})")
+        if a.dry:   # proovijooks: kontrolli ka MailerLite'i ahelat, kuigi sweep on vana
+            print(f"HOIATUS (dry): sweep ei jooksnud tana (latest.json date = {latest.get('date')})")
+        else:
+            katkesta(f"sweep ei jooksnud tana (nadal/latest.json date = {latest.get('date')})")
 
     # (b) dry-run
     r = subprocess.run([sys.executable, "scripts/send_weekly.py", "--repo", ".", "--dry-run"],
