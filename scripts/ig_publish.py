@@ -82,7 +82,9 @@ def main():
     tj = json.load(open(os.path.join(a.repo, "ig", "today.json"), encoding="utf-8"))
     st = tj.get("story")
     if tj.get("date") != today:
-        print(f"today.json on {tj.get('date')}, mitte {today} -- korje ei jooksnud? Ei postita."); return
+        # 22.10.2026: exit 1, mitte vaikne return -- 20.10 jai story nii vahele ja jooks oli roheline
+        sys.exit(f"VIGA: today.json on {tj.get('date')}, mitte {today} -- Andmekorje ei jooksnud "
+                 "voi kukkus. Story jai postitamata; kaivita parast korjet IG story workflow kasitsi.")
     if not st:
         print("Täna story't pole."); return
     if not st.get("postita"):

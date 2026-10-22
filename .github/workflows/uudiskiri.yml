@@ -1,0 +1,68 @@
+name: Uudiskiri
+
+# 22.10.2026: reedene uudiskiri saadetakse siit, mitte Claude'i ajastatud taskist
+# (16.10 blokeeris Claude'i oiguste kontroll saatmiskasu). Vt scripts/uudiskiri_gh.py.
+# GitHubi cron jaab tunde hiljaks, seega start on vara ja skript ootab kuni 11:45 Tallinna aja jargi.
+# Lopus kontrollitakse, kas Make'i karussell on Instagramis (valvur/ig.json).
+# Secretid: MAILERLITE_TOKEN, MAILERLITE_PREF_SECRET, IG_TOKEN.
+on:
+  schedule:
+    - cron: "17 4 * * 5"   # R 04:17 UTC (07:17 / 06:17 Tallinnas); saatmine ootab 11:45-ni
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "Ainult eelkontroll + dry-run (ei saada)"
+        type: boolean
+        default: true
+      kohe:
+        description: "Ara oota 11:45-ni"
+        type: boolean
+        default: true
+
+concurrency:
+  group: uudiskiri
+  cancel-in-progress: false
+
+jobs:
+  saada:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Oota kuni 11:45 (Tallinn)
+        if: ${{ github.event_name == 'schedule' || !inputs.kohe }}
+        run: python scripts/uudiskiri_gh.py --oota
+      - name: Värske repo
+        run: git pull --ff-only origin main
+      - name: Eelkontroll ja saatmine
+        id: saada
+        env:
+          ML: ${{ secrets.MAILERLITE_TOKEN }}
+          PREF: ${{ secrets.MAILERLITE_PREF_SECRET }}
+        run: |
+          printf '%s' "$ML" > mailerlite_token.txt
+          printf '%s' "$PREF" > mailerlite_pref_token.txt
+          python scripts/uudiskiri_gh.py ${{ (github.event_name == 'workflow_dispatch' && inputs.dry) && '--dry' || '' }}
+      - name: Oota Make'i postitust
+        if: ${{ always() && github.event_name == 'schedule' }}
+        run: sleep 900
+      - name: IG karusselli kontroll
+        id: ig
+        if: ${{ always() }}
+        continue-on-error: true
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python scripts/ig_karussell_kontroll.py
+      - name: Salvesta valvuri seis
+        if: ${{ always() }}
+        run: |
+          rm -f mailerlite_token.txt mailerlite_pref_token.txt
+          git config user.name "skene-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add valvur/ 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "valvur: uudiskiri + ig $(date -u +%F)" && git pull --rebase origin main && git push)
