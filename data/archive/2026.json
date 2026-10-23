@@ -3606,6 +3606,26 @@
    }
   },
   {
+   "d": "2026-09-15",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Zebra Island - «Fool's Gold»",
+   "a": "Singel; bändi esimene uus lugu pärast kümneaastast pausi. Muusika Rasmus Lill, Helina Risti, Ivar Mägi; sõnad Helina Risti; produtsent Rasmus Lill",
+   "b": [
+    "Zebra Island"
+   ],
+   "g": [
+    "shoegaze",
+    "indie",
+    "alt"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://seksound.bandcamp.com/track/fools-gold",
+   "lisatud": "2026-09-22",
+   "nb": "LISATUD 22.09.2026 Silveri otsusega (§4 punkt 5 = (b)): „sisse www-le, sildid shoegaze + indie + alt — shoegaze on www sildinimekirjas ja bändil on päris kitarrikoosseis“. Leitud Rada7.ee uudiskirjast 18.09. ⚠ KUUPÄEV RISTKONTROLLITUD (REEGLID §6 Bandcampi-lõks): Bandcampi lugu ütleb „released 15 September 2026“ ja Seksoundi enda FB/IG teade ütleb „RELEASE DATE: 15.09.2026“ — need kaks kattuvad, seega d = 15.09. SoundCloudi üleslaadimine on 14.09.2026 18:34 UTC (eellüles) ja allstarz.ee väidab 18. septembrit (hilisem ülevõte) — kumbagi EI kasutatud. Neli allikat: Bandcamp https://seksound.bandcamp.com/track/fools-gold · SoundCloud https://soundcloud.com/seksound/seks096-zebra-island-fools · ERR „Uue muusika reede“ 18.09 https://kultuur.err.ee/uue-muusika-reede · MuusikaPlaneet 22.09 (videoteade). Seksound = Pia Frausi liikmete 2004. a asutatud Tallinna label. ⚠ Kataloogikood SEKs096.",
+   "img": "pildid/zebraislandfoolsgold.webp"
+  },
+  {
    "d": "2026-09-16",
    "lisatud": "2026-09-02",
    "t": "muu",
@@ -5606,6 +5626,31 @@
    "ou": "https://www.facebook.com/events/2587689351678799/",
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad Anemon12 + Fedja Skunk, kaks lehte) + Rada7.ee events-tab. Žanr ürituse tekstist: „CAUSE A RIOT, a melodic hardcore 4-piece band from Helsinki“. Piletiinfot lehel pole.",
+   "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "d": "2026-10-22",
+   "t": "kontsert",
+   "n": "Last Penance (PL) + Embus + Thousand Hands",
+   "a": "algus 19.00; „three bands, zero mercy“",
+   "b": [
+    "Last Penance (PL)",
+    "Embus",
+    "Thousand Hands"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "core",
+    "dark"
+   ],
+   "sn": "Ülase12 / Anemon12 (FB events)",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/914340584731667/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Last Penance + Anemon12) + Anemon12/Ülase12 events-tab. Varssavi dark metal/hardcore (album «Heathens»). Pilet/uksehind avaldamata.",
    "vu": "https://www.facebook.com/anemon12tln"
   }
  ]

@@ -1,26 +1,6 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "entries": [
-  {
-   "d": "2026-09-15",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Zebra Island - «Fool's Gold»",
-   "a": "Singel; bändi esimene uus lugu pärast kümneaastast pausi. Muusika Rasmus Lill, Helina Risti, Ivar Mägi; sõnad Helina Risti; produtsent Rasmus Lill",
-   "b": [
-    "Zebra Island"
-   ],
-   "g": [
-    "shoegaze",
-    "indie",
-    "alt"
-   ],
-   "sn": "Bandcamp",
-   "su": "https://seksound.bandcamp.com/track/fools-gold",
-   "lisatud": "2026-09-22",
-   "nb": "LISATUD 22.09.2026 Silveri otsusega (§4 punkt 5 = (b)): „sisse www-le, sildid shoegaze + indie + alt — shoegaze on www sildinimekirjas ja bändil on päris kitarrikoosseis“. Leitud Rada7.ee uudiskirjast 18.09. ⚠ KUUPÄEV RISTKONTROLLITUD (REEGLID §6 Bandcampi-lõks): Bandcampi lugu ütleb „released 15 September 2026“ ja Seksoundi enda FB/IG teade ütleb „RELEASE DATE: 15.09.2026“ — need kaks kattuvad, seega d = 15.09. SoundCloudi üleslaadimine on 14.09.2026 18:34 UTC (eellüles) ja allstarz.ee väidab 18. septembrit (hilisem ülevõte) — kumbagi EI kasutatud. Neli allikat: Bandcamp https://seksound.bandcamp.com/track/fools-gold · SoundCloud https://soundcloud.com/seksound/seks096-zebra-island-fools · ERR „Uue muusika reede“ 18.09 https://kultuur.err.ee/uue-muusika-reede · MuusikaPlaneet 22.09 (videoteade). Seksound = Pia Frausi liikmete 2004. a asutatud Tallinna label. ⚠ Kataloogikood SEKs096.",
-   "img": "pildid/zebraislandfoolsgold.webp"
-  },
   {
    "d": "2026-09-18",
    "t": "reliis",
@@ -357,31 +337,6 @@
    "vu": "https://www.tapper.ee/"
   },
   {
-   "d": "2026-10-22",
-   "t": "kontsert",
-   "n": "Last Penance (PL) + Embus + Thousand Hands",
-   "a": "algus 19.00; „three bands, zero mercy“",
-   "b": [
-    "Last Penance (PL)",
-    "Embus",
-    "Thousand Hands"
-   ],
-   "v": "Ülase12",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "core",
-    "dark"
-   ],
-   "sn": "Ülase12 / Anemon12 (FB events)",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/914340584731667/",
-   "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Last Penance + Anemon12) + Anemon12/Ülase12 events-tab. Varssavi dark metal/hardcore (album «Heathens»). Pilet/uksehind avaldamata.",
-   "vu": "https://www.facebook.com/anemon12tln"
-  },
-  {
    "d": "2026-10-23",
    "t": "kontsert",
    "n": "PööLoY GLääNZ 37 + Aitäh Ema!",
@@ -526,8 +481,67 @@
   {
    "d": "2026-10-23",
    "t": "kontsert",
+   "n": "Kalopsia (LV) + Beer Gardens + Keitamiins + Strfll",
+   "a": "algus 19.00",
+   "b": [
+    "Kalopsia (LV)",
+    "Beer Gardens",
+    "Keitamiins",
+    "Strfll"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "punk",
+    "alt"
+   ],
+   "sn": "Hell, Tartu FB events-tab",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2567173650465928/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Hell, Tartu + Kalopsia + Sean Hinkle) + Helli FB events-tab. Žanr ürituse tekstist/korraldajalt: Kalopsia 'alternatiivne rokk' (Riia), Beer Gardens 'art/experimental-punk'. Pilet avaldamata.",
+   "vu": "https://www.facebook.com/punknrollhell/"
+  },
+  {
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "20/20 Filmifestival: Rautakylä vana parun // Mang Ont x Heidi Iivari",
+   "a": "tummfilm 'Rautakylä vana parun' (1923) – live-helitausta loob stoner rocki ansambel Mang Ont, kirjanduslik tõlgendus Heidi Iivari; algus 19.00",
+   "b": [
+    "Mang Ont",
+    "Heidi Iivari"
+   ],
+   "v": "Tartu Kirjanduse Maja",
+   "c": "Tartu",
+   "g": [
+    "stoner",
+    "doom",
+    "rock"
+   ],
+   "sn": "Kultuuriklubi Salong FB events-tab",
+   "su": "https://www.facebook.com/kultuuriklubisalong/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1431984328557774/",
+   "pu": "https://fienta.com/20-20-filmifestival-2026-2",
+   "hind": {
+    "praegu": "7 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Kultuuriklubi Salong) + Fienta piletileht. Žanr Fienta tekstist ('helitausta stoner rocki ansambel Mang Ont'). ⚠ piiripealne formaat: filmiseanss live-muusikaga, mitte tavakontsert.",
+   "img": "pildid/2020filmifestivalrautakylavanaparunmangontxheidiiivari.webp"
+  },
+  {
+   "d": "2026-10-23",
+   "t": "kontsert",
    "n": "BATTLE OF METAL — MEXICO vs ESTONIA",
-   "b": [],
+   "b": [
+    "People As Machines (MEX)",
+    "Wasteland 6",
+    "Runaoja"
+   ],
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
@@ -535,9 +549,17 @@
    ],
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%ad%f0%9d%92%90%f0%9d%92%8d%f0%9d%92%8c-%f0%9d%91%b4%f0%9d%92%86%f0%9d%92%95%f0%9d%92%82%f0%9d%92%8d-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82-2/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "vu": "https://www.thekrypt.ee/"
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1059142223649891/",
+   "vu": "https://www.thekrypt.ee/",
+   "a": "Mehhiko metal Tallinnas; People as Machines on jaganud lava Slipknoti, Slayeri ja SOAD-iga; 21.00–03.00",
+   "pu": "https://fienta.com/battle-of-metal-mexico-vs-estonia",
+   "hind": {
+    "praegu": "8 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "nb": "RIKASTUS sweepis 23.10.2026 (thekrypt.ee auto-kirje peale): FB event 'Mexican Metal in Tallinn - People as Machines(MEX) + Wasteland 6 (EST) + Runaoja (EST) + more' (Rockers Den, Permanent Blue, Eesti metallistid jt) + Fienta piletileht. Koosseis FB pealkirjast ('+ more' - täiskoosseis avaldamata).",
+   "img": "pildid/battleofmetalmexicovsestonia.webp"
   },
   {
    "d": "2026-10-24",
@@ -963,6 +985,36 @@
    "vu": "https://www.endla.ee/teater/jazzklubi"
   },
   {
+   "d": "2026-10-30",
+   "t": "kontsert",
+   "n": "Kantri Guidu Bänd + TV Motel + Konfliktor",
+   "a": "taasavatud Kinomaja alternatiivmuusika õhtu: lindpriisült, post-punk, shoegaze, alternatiivrokk ja psühhedeelia; Kantri Guidu Bänd esitleb albumit «Lappa kotte»; algus 21.00",
+   "b": [
+    "Kantri Guidu Bänd",
+    "TV Motel",
+    "Konfliktor"
+   ],
+   "v": "Kinomaja",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "shoegaze",
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "Piletitasku (Kinomaja asukohaleht)",
+   "su": "https://www.piletitasku.ee/et/location/1726",
+   "pu": "https://www.piletitasku.ee/et/event/10589",
+   "hind": {
+    "praegu": "11,20–16,20 €",
+    "allikas": "Piletitasku, kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Piletitasku Kinomaja asukohalehelt (sources.json kirje; Kinomaja FB events-tab näitab ainult möödunuid). Piletimüügi leht (REEGLID §3 erand): kuupäev, koht, koosseis ja žanr Piletitasku ürituse tekstist (korraldaja Kuuvarju Koda OÜ).",
+   "vu": "https://www.facebook.com/kinomajabarandstage"
+  },
+  {
    "d": "2026-10-31",
    "t": "kontsert",
    "n": "Rückwater (FIN) + Kingwhip + One Eye Out",
@@ -1206,6 +1258,38 @@
    "vu": "https://www.facebook.com/konservatoorium"
   },
   {
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "Laine Live: Human Natures (PT) + Qaribou + Cottonmoth",
+   "a": "Human Natures – dream-rock / indie / shoegaze (debüüt 'ELECTRIC DREAMS'); kohalik tugi Qaribou",
+   "b": [
+    "Human Natures (PT)",
+    "Qaribou",
+    "Cottonmoth"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "shoegaze",
+    "indie",
+    "rock",
+    "alt"
+   ],
+   "sn": "Uus Laine FB events-tab",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1608078270785512/",
+   "pu": "https://fienta.com/laine-live-human-natures-pt-qaribou",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Uus Laine, N 05.11 19.00) + Fienta piletileht. Žanr Fienta tekstist: 'dream-rock, indie pop, ambient and shoegaze', Qaribou 'indie rockers'.",
+   "img": "pildid/lainelivehumannaturesptqariboucottonmoth.webp",
+   "vu": "https://uuslaine.com/"
+  },
+  {
    "d": "2026-11-06",
    "t": "kontsert",
    "n": "Estoner (uue albumi esitlus) + Rats Will Feast (FIN) + Düsentroop + Face Collector",
@@ -1309,6 +1393,63 @@
   {
    "d": "2026-11-06",
    "t": "kontsert",
+   "n": "Surgent «Sin Eater» albumiesitlus Tallinnas + Preternatural (LV) + Strych:9",
+   "a": "uue albumi «Sin Eater» (ilmub 05.11) esitlus; algus 20.00",
+   "b": [
+    "Surgent",
+    "Preternatural (LV)",
+    "Strych:9"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/208786",
+   "pu": "https://fienta.com/208786",
+   "hind": {
+    "praegu": "alates 19 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Fienta avaliku API diffist. Piletimüügi leht (REEGLID §3 erand): koht, kuupäev ja koosseis Fientast; žanr samast tekstist ('progressiivse death metal'i bänd Surgent', 'Läti ekstreemmetal'i veteranid Preternatural'). Tartu esitlus 07.11 GenKlubis juba saidil.",
+   "img": "pildid/surgentsineateralbumiesitlustallinnaspreternaturallvstrych9.webp",
+   "vu": "https://www.tapper.ee/"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "EMO NIGHT 2026 - Tallinn",
+   "a": "live: Everfall, Pale Alison, Artifer, Bloodfeather, Parabol; vahepeal DJ-d emohittidega; algus 20.00",
+   "b": [
+    "Everfall",
+    "Pale Alison",
+    "Artifer",
+    "Bloodfeather",
+    "Parabol"
+   ],
+   "v": "Risk Baar",
+   "c": "Tallinn",
+   "g": [
+    "core",
+    "rock",
+    "metal",
+    "alt"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1095526582844094/",
+   "pu": "https://piletikiosk.ee/emo-night-2026-tallinn/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Parabol, Risk Baar, Artifer, bloodfeather jt) + piletikiosk.ee piletileht (link ürituse tekstis). Žanr ürituse tekstist: emo-hitid + LIVE bändid (Artifer 'modern heavy music', Pale Alison 'modern metal'). Tartu õhtu 04.12 eraldi kirjena.",
+   "img": "pildid/emonight2026tallinn.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
    "n": "Rock Friday: THE SOUND + RAIDER",
    "b": [
     "THE SOUND",
@@ -1317,13 +1458,22 @@
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
+    "rock",
     "metal"
    ],
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-the-sound-raider/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "vu": "https://www.thekrypt.ee/"
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1095896166526051/",
+   "vu": "https://www.thekrypt.ee/",
+   "a": "uksed 20.00, bändid 22.00, 00.00 tasuta afterparty",
+   "pu": "https://fienta.com/thesound-raider-thekrypt",
+   "hind": {
+    "praegu": "alates 13 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "nb": "RIKASTUS sweepis 23.10.2026 (thekrypt.ee auto-kirje peale): FB event (The Krypt, The Sound, Rada7.ee) + Fienta. The Sound = 'Estonian Pop-Rock Band', sari Rock Friday.",
+   "img": "pildid/rockfridaythesoundraider.webp"
   },
   {
    "d": "2026-11-07",
@@ -1493,6 +1643,29 @@
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. Fienta piletileht (REEGLID §3 piletimüüja-erand). Sildid samad mis teistel Tuberkuloited kirjetel.",
    "img": "pildid/thetuberkuloitedkuressaarekarikaturniiriafterparty.webp"
+  },
+  {
+   "d": "2026-11-07",
+   "t": "kontsert",
+   "n": "Aadu Sitapea 36 a. estraad «KOKKU VÕTE»",
+   "a": "uksed 19.00",
+   "b": [
+    "Aadu Sitapea"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk"
+   ],
+   "sn": "wunderbaar.ee",
+   "su": "https://wunderbaar.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2172675270335629/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Aadu_Sitapea + Wunderbaar) + wunderbaar.ee kava ('7. AADU SITAPEA 36 a. ESTRAAD KOKKU VÕTE', uksed 19.00). Žanr: esineja FB-leht 'Musician/band · Punk'. Pilet avaldamata.",
+   "img": "pildid/aadusitapea36aestraadkokkuvote.webp",
+   "vu": "https://wunderbaar.ee/"
   },
   {
    "d": "2026-11-08",
@@ -1682,6 +1855,32 @@
    "vu": "https://www.facebook.com/konservatoorium"
   },
   {
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Fuzzbitten Fall Tour 2026: Mount Palatine + Tectonic Shifts + Fhtagn + Thousand Hands",
+   "a": "'Fuzz, psych and crushingly heavy'; algus 19.00",
+   "b": [
+    "Mount Palatine (FI)",
+    "Tectonic Shifts (FI)",
+    "Fhtagn",
+    "Thousand Hands"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "stoner",
+    "doom",
+    "metal"
+   ],
+   "sn": "Secret Face Productions FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1118078020585975/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Tectonic Shifts, SAAR CULT, Secret Face Productions jt) + SAAR CULTi FB events-tab. Žanr ürituse tekstist: Mount Palatine 'heavy psych metal', Tectonic Shifts 'stonerdoom'. Tuuri Tartu kuupäev 14.11 Hellis eraldi kirjena. Pilet avaldamata.",
+   "vu": "https://www.facebook.com/saarcult"
+  },
+  {
    "d": "2026-11-14",
    "t": "festival",
    "n": "Shelter Helper 5",
@@ -1814,6 +2013,56 @@
    },
    "lisatud": "2026-10-16",
    "nb": "SILVERI OTSUS 16.10.2026 (\"pane kära kants sisse\") - sweep/otsused.json oid ocean-districts-rakvere-2026-11-14 valik (a). Kontaktivorm 15.10 (Ocean Districts); ainus allikas bändi FB event, Kära Kantsi grupp seda 16.10 ei näidanud. Sildid samad mis 21.11 SAAR CULT esitlusel."
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Heavy Saturday: Decibels (LV) + Stranded Jenny (LV) + Aurora Astra",
+   "a": "Stranded Jenny presents; algus 20.00",
+   "b": [
+    "Decibels (LV)",
+    "Stranded Jenny (LV)",
+    "Aurora Astra"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt",
+    "metal"
+   ],
+   "sn": "Sügis Productions FB events-tab",
+   "su": "https://www.facebook.com/sugisproductions/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/3514620765382646/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Stranded Jenny, Sügis Productions jt) + The Krypti ja Eesti metallistide FB events-tab. Žanr: Stranded Jenny = 'alternative-rock / post-grunge' (Läti), sari 'Heavy Saturday'. Pilet/uksehind lehel avaldamata; Fientas 23.10 seisuga ei olnud.",
+   "vu": "https://www.thekrypt.ee/"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Fuzzbitten Fall Tour 2026: Mount Palatine + Tectonic Shifts + Mang Ont (Tartu)",
+   "a": "algus 20.00",
+   "b": [
+    "Mount Palatine (FI)",
+    "Tectonic Shifts (FI)",
+    "Mang Ont"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "stoner",
+    "doom",
+    "metal"
+   ],
+   "sn": "Hell, Tartu FB events-tab",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2136956440550957/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Mang Ont + Hell, Tartu) + Helli FB events-tab; tuuri Tallinna kuupäev (13.11 SAAR CULT) eraldi FB event. Žanr: Mount Palatine 'heavy psych metal', Mang Ont 'stone age shaman doom'. Pilet avaldamata.",
+   "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
    "d": "2026-11-15",
@@ -2226,13 +2475,23 @@
    "v": "The Krypt",
    "c": "Tallinn",
    "g": [
+    "folk",
+    "pagan",
     "metal"
    ],
    "sn": "thekrypt.ee",
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%ad%f0%9d%92%90%f0%9d%92%8d%f0%9d%92%8c-%f0%9d%91%b4%f0%9d%92%86%f0%9d%92%95%f0%9d%92%82%f0%9d%92%8d-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82/",
-   "on_": "thekrypt.ee",
-   "ou": "https://www.thekrypt.ee/events",
-   "vu": "https://www.thekrypt.ee/"
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1580850257171741/",
+   "vu": "https://www.thekrypt.ee/",
+   "a": "uksed 20.00, show 22.00, 00.00 tasuta afterparty; Varang Nord = 'Viking/Folk/Death Metal band from Latvia'",
+   "pu": "https://fienta.com/varangnord-runaoja-thekrypt",
+   "hind": {
+    "praegu": "alates 13 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "nb": "RIKASTUS sweepis 23.10.2026 (thekrypt.ee auto-kirje peale): FB event (The Krypt, Rada7.ee, Varang Nord, Sügis Productions jt) + Fienta. Varang Nordi tuuri Viljandi kuupäev 27.11 eraldi kirjena.",
+   "img": "pildid/folkmetalsaturdayvarangnordlvrunaoja.webp"
   },
   {
    "d": "2026-11-30",
@@ -2305,7 +2564,8 @@
    "sn": "Bandcamp",
    "su": "https://seksound.bandcamp.com/album/club-ghost",
    "lisatud": "2026-10-21",
-   "nb": "LISATUD 21.10.2026 postkastijooksus check_bandcamp.py alerti peale (Seksoundi Bandcamp). Bänd on www-skoobis Silveri 22.09 otsusega (singel «Fool's Gold», sildid samad). Allikas: labeli ENDA Bandcampi albumileht, eeltellimus 'releases 03 December 2026'; krediidid kattuvad singliga. ⚠ Teist sõltumatut allikat (Seksoundi FB/IG, ERR) 21.10 veel ei leidnud - kuupäev KONTROLLI üle väljalaskel (REEGLID §6 Bandcampi-lõks)."
+   "nb": "LISATUD 21.10.2026 postkastijooksus check_bandcamp.py alerti peale (Seksoundi Bandcamp). Bänd on www-skoobis Silveri 22.09 otsusega (singel «Fool's Gold», sildid samad). Allikas: labeli ENDA Bandcampi albumileht, eeltellimus 'releases 03 December 2026'; krediidid kattuvad singliga. ⚠ Teist sõltumatut allikat (Seksoundi FB/IG, ERR) 21.10 veel ei leidnud - kuupäev KONTROLLI üle väljalaskel (REEGLID §6 Bandcampi-lõks).",
+   "img": "pildid/zebraislandclubghost.webp"
   },
   {
    "d": "2026-12-04",
@@ -2370,6 +2630,37 @@
    "linn": "Viljandi",
    "img": "pildid/sibylvanevortexautumntourviljandi.webp",
    "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "d": "2026-12-04",
+   "t": "kontsert",
+   "n": "EMO NIGHT 2026 - Tartu",
+   "a": "live: Everfall, Pale Alison, Artifer, Bloodfeather + HMD, Parabol; vahepeal DJ-d emohittidega; algus 20.00",
+   "b": [
+    "Everfall",
+    "Pale Alison",
+    "Artifer",
+    "Bloodfeather",
+    "HMD",
+    "Parabol"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "core",
+    "rock",
+    "metal",
+    "alt"
+   ],
+   "sn": "Genialistide Klubi FB events-tab",
+   "su": "https://www.facebook.com/GenKlubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1957791778510403/",
+   "pu": "https://piletikiosk.ee/emo-night-2026-tartu/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (Parabol, Genialistide Klubi, Pale Alison jt) + piletikiosk.ee piletileht. Tallinna õhtu 06.11 eraldi kirjena.",
+   "img": "pildid/emonight2026tartu.webp",
+   "vu": "https://genklubi.ee/"
   },
   {
    "d": "2026-12-05",
@@ -2467,7 +2758,8 @@
     "Epäkristus (FIN)",
     "Pedigree",
     "Tinner (AX)",
-    "Scythrow (FI)"
+    "Scythrow (FI)",
+    "Face Collector"
    ],
    "v": "The Krypt",
    "c": "Tallinn",
@@ -2479,12 +2771,16 @@
    "sn": "IG @sugisextremefest",
    "su": "https://www.instagram.com/sugisextremefest/",
    "koosseis_tba": 1,
-   "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb. | 09.10.2026 järelkäik: Fienta lehel koosseis +PEDIGREE (EE, industrial metal), +TINNER (AX, d-beat/crust); „more band announcements coming soon“. | 16.10.2026 sweep: rikastatud (ou, b+Scythrow (FI)).",
+   "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb. | 09.10.2026 järelkäik: Fienta lehel koosseis +PEDIGREE (EE, industrial metal), +TINNER (AX, d-beat/crust); „more band announcements coming soon“. | 16.10.2026 sweep: rikastatud (ou, b+Scythrow (FI)). | 23.10.2026 sweep (samm 2b): Fienta koosseisus ka FACE COLLECTOR (EE, death/grind) - lisatud b-sse; hind alates 35 € (Fienta).",
    "d2": "12.12",
    "pu": "https://fienta.com/et/sugis-extreme-fest-4",
    "img": "pildid/sugisextremefestiv.webp",
    "ou": "https://www.facebook.com/events/1599952971787970/",
    "on_": "Facebook event",
+   "hind": {
+    "praegu": "alates 35 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
    "vu": "https://www.thekrypt.ee/"
   },
   {

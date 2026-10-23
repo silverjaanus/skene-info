@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "entries": [
   {
    "d": "2026-09-23",
@@ -306,6 +306,77 @@
    "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 19.10.2026. Kaks allikat: FB event (korraldaja Kivi baar) + kluub.ee. Žanr ürituse enda tekstist: bassline, UK garage, dubstep, drum & bass."
   },
   {
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "PLANET GROOVE x HALL [MESILA]",
+   "a": "23.00–06.00, HALLi Mesila saal; Tallinna ja Tbilisi skeenesid ühendav sari",
+   "b": [],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2222471485278347/",
+   "pu": "https://gateme.com/halltallinn/104436",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Planet Groove Estonia + HALL) + GateMe piletileht. Žanr korraldajalt ('raw, dancefloor-first electronic music'; Planet Groove 'bridging house, disco and indie scenes'). Koosseis lehel nimetamata.",
+   "img": "pildid/planetgroovexhallmesila.webp",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "Bar IDA — Scream In Black",
+   "a": "22.00–04.00; goth, post-punk, darkwave, new wave, minimal wave, synth punk",
+   "b": [
+    "The Lunacy Of Flowers"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "darkwave",
+    "dark",
+    "electro"
+   ],
+   "sn": "idaidaida.net",
+   "su": "https://idaidaida.net/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1620192599504728/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (IDA Radio + The Lunacy Of Flowers) + idaidaida.net ürituste nimekiri. Žanr ürituse tekstist.",
+   "img": "pildid/baridascreaminblack.webp",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "WHOMADEWHO (Hybrid DJ Set) — Momentum 5",
+   "a": "Momentum 5. sünnipäev; Taani elektroonika-trio hübriid-DJ-set",
+   "b": [
+    "WhoMadeWho (DK)"
+   ],
+   "v": "Tallinna Kruiisiterminal",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/whomadewho",
+   "pu": "https://fienta.com/whomadewho",
+   "hind": {
+    "praegu": "alates 40 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Fienta API diffist; piletimüügi leht (REEGLID §3 erand). Žanr Fienta tekstist ('blending electronic music, indie, disco').",
+   "img": "pildid/whomadewhohybriddjsetmomentum5.webp"
+  },
+  {
    "d": "2026-10-24",
    "t": "klubi",
    "n": "DISCO DISCO GOOD GOOD",
@@ -404,6 +475,137 @@
    "vu": "https://uuslaine.com/"
   },
   {
+   "d": "2026-10-30",
+   "t": "klubi",
+   "n": "UKF ESTONIA 2026: HALLOWEEN",
+   "a": "22.00–04.00, 18+; õhtujuht Daxta (AUT)",
+   "b": [
+    "NERO (UK)",
+    "LUUDE (AUS)",
+    "Cartoon",
+    "Youphoria (AUT)",
+    "MHKL"
+   ],
+   "v": "Kultuurikatel",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2561213",
+   "on_": "Kultuurikatel",
+   "ou": "https://kultuurikatel.ee/sundmus/ukf-estonia-2026-halloween/",
+   "pu": "https://www.piletitasku.ee/et/event/10379",
+   "hind": {
+    "praegu": "alates 29 € (early bird)",
+    "mark": "early bird 29 €, priority 45 €, VIP 75 € (+ tasud)",
+    "allikas": "Piletitasku (google.ee kokkuvõte), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Allikad: RA snapshot (Drum & Bass, Bass) + kultuurikatel.ee ürituseleht + Piletitasku piletileht (koosseis).",
+   "img": "pildid/ukfestonia2026halloween.webp",
+   "vu": "https://kultuurikatel.ee/"
+  },
+  {
+   "d": "2026-10-30",
+   "t": "klubi",
+   "n": "Lights Out: HALLOWEEN",
+   "a": "23.00–04.00; house, UK garage – seekord tumedamas võtmes",
+   "b": [],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "garage"
+   ],
+   "sn": "Fonoteek FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1341738374564767/",
+   "pu": "https://gateme.com/event/104431",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Fonoteek) + RA https://ra.co/events/2564568 (House, Garage). Sama sarja varasemad korrad arhiivis.",
+   "img": "pildid/lightsouthalloween.webp",
+   "vu": "https://fonoteek.ee/"
+  },
+  {
+   "d": "2026-10-30",
+   "t": "klubi",
+   "n": "Paavli House of Horrors",
+   "a": "halloweeni kostüümipidu koos Peoministeeriumi ja VABADUs*-ega",
+   "b": [
+    "Slayphex Twins (UK)",
+    "Ines DaFerarri b2b Ingel",
+    "DJ Shore Road b2b HOSTILE",
+    "Oratoorium",
+    "Madeleine 3000 b2b hlntmbl",
+    "Princess Diana b2b DJ nutab"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "house"
+   ],
+   "sn": "MOD FB events-tab",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1056086970554728/",
+   "pu": "https://fienta.com/house-of-horrors-paavli",
+   "hind": {
+    "praegu": "alates 7 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Allikad: FB event + Fienta (koosseis) + RA https://ra.co/events/2565802 (Techno, House).",
+   "img": "pildid/paavlihouseofhorrors.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "d": "2026-10-30",
+   "t": "klubi",
+   "n": "IDA Halloween — Sepehr (NYC, USA)",
+   "a": "22.00–04.00; Iraani-Ameerika live-akt ja DJ New Yorgist",
+   "b": [
+    "Sepehr (US)"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "electro",
+    "techno"
+   ],
+   "sn": "idaidaida.net",
+   "su": "https://idaidaida.net/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1114034568014474/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (IDA Radio) + idaidaida.net ürituste nimekiri. Žanr ürituse tekstist ('electronic music' live act & DJ); täpsem silt electro/techno artisti profiili järgi - Silver võib üle vaadata.",
+   "img": "pildid/idahalloweensepehrnycusa.webp",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "d": "2026-10-30",
+   "t": "klubi",
+   "n": "Bat Sounds Mischief Night",
+   "a": "21.00; tumedad lained huba.club'i kummitusvillas",
+   "b": [],
+   "v": "huba.club",
+   "c": "Tartu",
+   "g": [
+    "darkwave",
+    "dark",
+    "ebm"
+   ],
+   "sn": "huba.club FB events-tab",
+   "su": "https://www.facebook.com/hubbaclubba/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1114162184658892/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (korraldajad huba.club + Bat Sounds) + huba.club FB events-tab. Žanr Bat Soundsi profiilist ürituse lehel (DARKWAVE / COLDWAVE / GOTH / EBM ...). ⚠ Eestikeelne tekst ütleb '30. novembri õhtul', ürituse päis R 30.10 21.00 - kasutasin päist."
+  },
+  {
    "d": "2026-10-31",
    "t": "kontsert",
    "n": "HALLORAVE: Planeet / Norty (UK) / Liisbeth",
@@ -426,6 +628,33 @@
    "ou": "https://www.facebook.com/events/1462329555784537/",
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Festar + Planeet + KXK Entertainment) + Planeedi FB events-tab. Žanr ürituse tekstist (Planeet = Eesti DnB)."
+  },
+  {
+   "d": "2026-10-31",
+   "t": "klubi",
+   "n": "HALLoween: Dance 'Till Death!",
+   "a": "HALLi ametlik halloweeni pidu, algus 23.00",
+   "b": [
+    "Köster",
+    "Micaela Saraceno",
+    "Katja Adrikova",
+    "pikkauch",
+    "Sugar Rody"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/957100054120143/",
+   "pu": "https://gateme.com/et/halltallinn/104333-halloween-dance-till-death",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (HALL) + RA https://ra.co/events/2566642 (Techno, IDM; koosseis RA-st).",
+   "img": "pildid/halloweendancetilldeath.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "d": "2026-11-06",
@@ -533,6 +762,34 @@
    "vu": "https://fonoteek.ee/"
   },
   {
+   "d": "2026-11-06",
+   "t": "klubi",
+   "n": "CHERRY ON TOP at MOD Club",
+   "a": "kureerib MALLA / MALLAMÁRET (Club Kaiku, Helsingi); algus bingoga, Fleur Amseri vinüülset",
+   "b": [
+    "MALLA / MALLAMÁRET (FI)",
+    "Fleur Amser",
+    "Micaela Saraceno",
+    "QSLAP"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2567447",
+   "pu": "https://fienta.com/cherry-on-top-at-mod-club",
+   "hind": {
+    "praegu": "alates 6 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: RA (koosseis Micaela Saraceno, QSLAP) + Fienta piletileht (kuraator, house). Ürituse FB eventi ei leidnud.",
+   "img": "pildid/cherryontopatmodclub.webp",
+   "vu": "https://www.facebook.com/Modtln"
+  },
+  {
    "d": "2026-11-07",
    "t": "kontsert",
    "n": "MOD CLUB: umru [pc music]",
@@ -583,8 +840,13 @@
    "on_": "Resident Advisor",
    "ou": "https://ra.co/events/2537635",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata. | 09.10.2026 sweep: täiskoosseis RA ürituselehelt (ra.co/events/2537635, snapshot 08.10).",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata. | 09.10.2026 sweep: täiskoosseis RA ürituselehelt (ra.co/events/2537635, snapshot 08.10). | 23.10.2026 sweep: pu + hind Fientast.",
    "img": "pildid/dreamscapeclubnightkode9ukhyperdub.webp",
+   "pu": "https://fienta.com/dreamscape-club-night-kode9-uk-hyperdub",
+   "hind": {
+    "praegu": "alates 15 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
    "vu": "https://www.kultuurivabrik.ee/"
   },
   {
@@ -696,6 +958,64 @@
    "vu": "https://helitehas.ee/"
   },
   {
+   "d": "2026-11-14",
+   "t": "klubi",
+   "n": "KUMA w/ DJ Pipe (UK) at HALL",
+   "a": "KAUGE festivali ülakorruse vaim Mesila saalis; algus 23.00",
+   "b": [
+    "DJ Pipe (UK)",
+    "alabama",
+    "Brett Rästas",
+    "Bricc",
+    "Cask"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1508518267752460/",
+   "pu": "https://fienta.com/kuma-dj-pipe",
+   "hind": {
+    "praegu": "alates 8 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Allikad: FB event (KUMA) + Fienta + RA https://ra.co/events/2566807 (Techno, House; koosseis).",
+   "img": "pildid/kumawdjpipeukathall.webp",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "klubi",
+   "n": "GILD at Maison Dio w/ Barseghian (LV) & Kepler",
+   "a": "algus 21.00; Barseghian aka Brave (LV)",
+   "b": [
+    "Barseghian (LV)",
+    "Kepler"
+   ],
+   "v": "Maison Dio",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/gild-at-maison-dio-w-barseghian-lv-kepler-14-11",
+   "pu": "https://fienta.com/gild-at-maison-dio-w-barseghian-lv-kepler-14-11",
+   "hind": {
+    "praegu": "alates 10 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Fienta API diffist; piletimüügi leht (REEGLID §3 erand). Gild on sources.json RA-korraldaja. Žanr Fienta tekstist ('good electronic dance music'; Fienta sildid house/techno).",
+   "img": "pildid/gildatmaisondiowbarseghianlvkepler.webp"
+  },
+  {
    "d": "2026-11-20",
    "t": "klubi",
    "n": "OVERDRIVE: Techno, DnB & Raw Rave",
@@ -783,6 +1103,53 @@
    "vu": "https://fonoteek.ee/"
   },
   {
+   "d": "2026-11-20",
+   "t": "klubi",
+   "n": "Bar IDA — Will Hofbauer (London / UK)",
+   "a": "22.00–04.00; produtsent ja DJ (whirm, AUS Music, Rhythm Section)",
+   "b": [
+    "Will Hofbauer (UK)"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "idaidaida.net",
+   "su": "https://idaidaida.net/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1130043912701327/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (IDA Radio) + idaidaida.net. Žanrisilt ürituse tekstis nimetatud labelite järgi (AUS Music, Rhythm Section) - piiripealne, Silver võib üle vaadata.",
+   "img": "pildid/baridawillhofbauerlondonuk.webp",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "d": "2026-11-20",
+   "t": "klubi",
+   "n": "PARADISO by Maison Dio w/ Marshall Jefferson",
+   "a": "disco house, vocal/soulful house; Chicago house'i pioneer Marshall Jefferson (US); algus 21.00",
+   "b": [
+    "Marshall Jefferson (US)"
+   ],
+   "v": "Maison Dio",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/paradiso-002",
+   "pu": "https://fienta.com/paradiso-002",
+   "hind": {
+    "praegu": "alates 25 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Fienta API diffist; piletimüügi leht (REEGLID §3 erand). Žanr Fienta tekstist.",
+   "img": "pildid/paradisobymaisondiowmarshalljefferson.webp"
+  },
+  {
    "d": "2026-11-21",
    "t": "kontsert",
    "n": "Fatboy Slim (UK)",
@@ -833,6 +1200,29 @@
     "praegu": "35–40 €",
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    }
+  },
+  {
+   "d": "2026-11-27",
+   "t": "klubi",
+   "n": "Attend with MANDIDEXTROUS (UK) + Sound In Noise",
+   "a": "23.00–04.00; speedbass / jungletek",
+   "b": [
+    "Mandidextrous (UK)",
+    "Sound In Noise"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Resident Advisor",
+   "su": "https://ra.co/events/2536031",
+   "pu": "https://www.gateme.com/et/helitehas/104248-attend-with-mandidextrous-uk-drum-and-bass-event/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: RA (Drum & Bass, Techno) + GateMe piletileht (korraldaja OÜ Events of ID). Helitehase FB events-tab ega helitehas.ee 23.10 seda ei näidanud.",
+   "img": "pildid/attendwithmandidextrousuksoundinnoise.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "d": "2026-11-28",
@@ -951,6 +1341,30 @@
    "vu": "https://uuslaine.com/"
   },
   {
+   "d": "2026-12-11",
+   "t": "klubi",
+   "n": "PLANEET uue albumi esitlus",
+   "a": "Planeedi kolmanda albumi esitlus; 22.00–04.00",
+   "b": [
+    "Planeet"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeet FB events-tab",
+   "su": "https://www.facebook.com/AudioPlaneet/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1009597548850557/",
+   "pu": "https://gateme.com/et/D3Tallinn/104415-planeet-uue-albumi-esitlus-i-d3-i-1112",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (korraldajad D3 + Planeet) + GateMe piletileht. Žanr: Planeet = Eesti DnB (pretsedent Minituumareiv 10.10, klubi arhiiv).",
+   "img": "pildid/planeetuuealbumiesitlus.webp",
+   "vu": "https://www.d-3.ee/"
+  },
+  {
    "d": "2026-12-12",
    "t": "klubi",
    "n": "Beats From The Vault — Dark Souls Meeting // Club HALL",
@@ -1058,6 +1472,36 @@
    "nb": "lisatud sweepis 16.10.2026. FB event (Selecta events + Planeet) + GateMe.",
    "img": "pildid/selectaandycuk.webp",
    "vu": "https://kultuurikatel.ee/"
+  },
+  {
+   "d": "2027-04-09",
+   "t": "klubi",
+   "n": "VAiP Events × THERAPY SESSIONS Tallinn 2027",
+   "a": "Therapy Drum & Bass Sessions; 18+; kohalik tugi TBA; algus 23.00",
+   "b": [
+    "The Panacea (DE)",
+    "Robyn Chaos (UK)",
+    "Merikan (IT)"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Vaip Events FB events-tab",
+   "su": "https://www.facebook.com/vaipevents/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1826747215124340/",
+   "pu": "https://fienta.com/therapy-sessions",
+   "hind": {
+    "praegu": "alates 20 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Vaip Events, Helitehas) + Fienta (koosseis, žanr).",
+   "img": "pildid/vaipeventstherapysessionstallinn2027.webp",
+   "vu": "https://helitehas.ee/"
   },
   {
    "d": "2027-04-16",

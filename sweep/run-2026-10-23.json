@@ -1,0 +1,353 @@
+{
+ "kuupaev": "2026-10-23",
+ "allikaid": 259,
+ "avatud": 174,
+ "skipitud": [
+  {
+   "url": "https://www.facebook.com/kinomajabarandstage/events?locale=et_EE",
+   "pohjus": "FB leht/event, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.facebook.com/mahtrarecords",
+   "pohjus": "FB leht/event, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "Nailboard Rock Shop",
+   "pohjus": "URL puudub (arhiveeritud allikas)"
+  },
+  {
+   "url": "https://howlsofwinter.eu/",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "FB leht/event, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://surjukommunaal.ee/",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.rockiklubi.ee/",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://fest.kabliku.com/",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://puhastebeer.com/ollepidu",
+   "pohjus": "curl HTTP 401 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://lonksbaar.ee",
+   "pohjus": "curl HTTP 000 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.kluub.ee/et/offline-club",
+   "pohjus": "curl HTTP 429 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.facebook.com/dieuhuitrecords",
+   "pohjus": "FB leht/event, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://legendaarne.ee/",
+   "pohjus": "curl HTTP 000 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://esthiphop.ee/",
+   "pohjus": "curl HTTP 000 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://eestihiphopfestival.ee/",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.bandsintown.com/c/tallinn-estonia/all-dates/genre/hip-hop",
+   "pohjus": "curl HTTP 403 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.bandsintown.com/all-dates/genre/metal?location=Tallinn%2C%20Estonia",
+   "pohjus": "curl HTTP 403 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "curl HTTP 000 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://somo.social",
+   "pohjus": "curl HTTP 403 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.piletimaailm.com/categories/1-muusika",
+   "pohjus": "curl HTTP 403 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://events.musicofourdesire.com/tallinn",
+   "pohjus": "curl HTTP 403 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.piletitasku.ee/et",
+   "pohjus": "curl HTTP 403 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://kilkimzaibu.com/en",
+   "pohjus": "curl HTTP 000 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.melnapiektdiena.lv",
+   "pohjus": "curl HTTP 400 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://www.facebook.com/events/tartu-laululava/tartu-rock-fest-2026/1398638792005915/",
+   "pohjus": "FB leht/event, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://exwrecords.com/",
+   "pohjus": "curl HTTP 403 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://townflesh.bandcamp.com/",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://mangont.bandcamp.com/",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://seksound.bandcamp.com/music",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=industrial&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=rap&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "FB leht/event, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://www.kluub.ee/et/tops",
+   "pohjus": "curl HTTP 429 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://ra.co/events/ee/all",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/235784",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/265290",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/151795",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/147536",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://genklubi.ee/events/",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://ilandsound.ee/en/",
+   "pohjus": "curl HTTP 200 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://copperleg.rae.ee/",
+   "pohjus": "curl HTTP 000 / JS-leht, brauseris avamata (ajapiirang)"
+  },
+  {
+   "url": "https://ra.co/clubs/268078",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/266488",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/277713",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/165290",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/229208",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/289641",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/135627",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/274650",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/171803",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/258847",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/256380",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/clubs/130421",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/114408",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/167566",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/34191",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/168166",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/112914",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/166316",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/114452",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/154074",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/117673",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/126462",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/182414",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/169601",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/152869",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/186216",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/190547",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/191300",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://ra.co/promoters/112333",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "Bandcamp JS/403 curlis; brauseris avamata (ajapiirang) - uued reliisid valvab check_bandcamp.py"
+  },
+  {
+   "url": "https://ra.co/clubs/291356",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 2026-10-22, TOOVOOG reegel 15)"
+  }
+ ],
+ "uusi": {
+  "www": 11,
+  "rap": 4,
+  "klubi": 17
+ },
+ "markus": "FB events-tabid sisemises brauseris (peidus paan -> screenshot 0.1 trikk; 8-kork lahenes); Fienta avalik API (EE 2887 yritust) diff; RA snapshot 22.10 diff; idaidaida.net, Piletitasku Kinomaja, GateMe, kluub.ee brauseris; muud veebilehed curliga (osa JS/403 jai avamata, vt skip). Rikastused: Battle of Metal / The Sound+Raider / Varang Nord Krypt (ou+pu+hind), SEF IV +Face Collector, Kode9 pu+hind, Funktsioon +3viga. Uued kirjed ilma FB-kaanepildita (fetch_images korjas Fienta/GateMe pildid)."
+}

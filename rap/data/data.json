@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "entries": [
   {
    "d": "2026-10-23",
@@ -29,6 +29,33 @@
    "vu": "https://www.facebook.com/LegendaarneRaadio"
   },
   {
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "MOMENT w Lil Till",
+   "a": "23.00–04.00, 18+; koosseis + TBA",
+   "b": [
+    "Lil Till",
+    "Evert Poom",
+    "Ots"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/D3Tallinn/104370-moment-w-lil-till-2310-d3/",
+   "pu": "https://gateme.com/et/D3Tallinn/104370-moment-w-lil-till-2310-d3/",
+   "hind": {
+    "praegu": "12 € (regular) / 25 € (priority)",
+    "mark": "early bird 10 € välja müüdud; late bird 15 €",
+    "allikas": "GateMe, kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 GateMe Eesti avalehelt. Piletimüügi leht (REEGLID §3 erand), korraldaja Manufaktuur OÜ. MOMENT-sari on rap-poolel pretsedent (Bali Baby / MOMENT 3.0); peaesineja Lil Till = Eesti räppar.",
+   "vu": "https://www.d-3.ee/"
+  },
+  {
    "d": "2026-10-24",
    "t": "kontsert",
    "n": "Funktsioon 20 @ Helitehas: Lil Till x Prodigyboys x Hayya",
@@ -36,7 +63,8 @@
    "b": [
     "Lil Till",
     "Prodigyboys",
-    "Hayya"
+    "Hayya",
+    "3viga"
    ],
    "v": "Helitehas",
    "c": "Tallinn",
@@ -49,9 +77,34 @@
    "ou": "https://www.facebook.com/events/2565100007645182/",
    "pu": "https://gateme.com/helitehas/104249-funktsioon-20-helitehas-lil-till-x-prodigyboys-x-hayya",
    "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Funktsioon + Helitehas) + helitehas.ee kava + GateMe. Žanr esinejatelt (Lil Till, Prodigyboys = Eesti räpp), ürituse tekst žanrit ei nimeta.",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Funktsioon + Helitehas) + helitehas.ee kava + GateMe. Žanr esinejatelt (Lil Till, Prodigyboys = Eesti räpp), ürituse tekst žanrit ei nimeta. | 23.10.2026 sweep: GateMe pealkiri nüüd \"... x HAYYA x 3VIGA\" - 3viga lisatud b-sse.",
    "img": "pildid/funktsioon20helitehasliltillxprodigyboysxhayya.webp",
    "vu": "https://helitehas.ee/"
+  },
+  {
+   "d": "2026-10-24",
+   "t": "kontsert",
+   "n": "GENKA & PAUL OJA 30 AASTAT LAVAL",
+   "a": "erikülaline Cool D; DJ Vaido Pannel; 23.00–05.00",
+   "b": [
+    "Genka",
+    "Paul Oja",
+    "Cool D",
+    "DJ Vaido Pannel"
+   ],
+   "v": "Venus Club",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Genka FB",
+   "su": "https://www.facebook.com/GenkaEstonia/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2549147915588277/",
+   "pu": "https://www.gateme.com/venusclub",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (korraldajad Venus Club + Genka) + RA https://ra.co/events/2557853. Eesti räppari peaesinetud pidu -> rap (REEGLID §1 pretsedent ARCTIC PULSE / halloweeni rämmar), kuigi Venus Club on kommertsklubi.",
+   "img": "pildid/genkapauloja30aastatlaval.webp"
   },
   {
    "d": "2026-10-30",
@@ -121,6 +174,33 @@
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS.",
    "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "d": "2026-11-07",
+   "t": "kontsert",
+   "n": "BAD ART live | DJ Virtoos & Koksa",
+   "a": "Saekaatri taasavamine, kaks lava; algus 22.00",
+   "b": [
+    "Bad Art",
+    "DJ Virtoos",
+    "Koksa"
+   ],
+   "v": "Ööklubi Saekaater",
+   "c": "mujal",
+   "linn": "Jõgeva",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/uusalgus",
+   "pu": "https://fienta.com/uusalgus",
+   "hind": {
+    "praegu": "alates 12 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Fienta API diffist; piletimüügi leht (REEGLID §3 erand). Bad Art = Eesti räppar (saidil juba RAJOONIKAS 20.11).",
+   "img": "pildid/badartlivedjvirtooskoksa.webp"
   },
   {
    "d": "2026-11-13",
@@ -227,6 +307,29 @@
    "nb": "lisatud sweepis 16.10.2026. paavli.ee ürituseleht + FB event + GateMe.",
    "img": "pildid/rajoonikassuurpapabadartlsteelo.webp",
    "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "d": "2026-11-20",
+   "t": "kontsert",
+   "n": "RAP MEETS ROCK: COOL D",
+   "a": "'Kui keegi ütleb Eesti räpp, siis kõik mõtlevad COOL D!'",
+   "b": [
+    "Cool D"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Kidrakuur FB events-tab",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1811680406543627/",
+   "pu": "https://sviby.com/short-url/pkiv85",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Kidrakuur Kultuuriklubi, Toomas Tommyboy Tilk, DJ Bandit) + Sviby piletileht (link ürituse lehel). FB näitab algusajaks 15.00 - kellaaeg kontrollimata, seetõttu a-väljal aega pole.",
+   "img": "pildid/rapmeetsrockcoold.webp",
+   "vu": "https://kidrakuur.ee/"
   },
   {
    "d": "2026-12-12",
