@@ -4445,9 +4445,33 @@
   "pu": "https://www.piletitasku.ee/et/event/10589",
   "hind": {
    "praegu": "11,20–16,20 €",
-   "allikas": "Piletitasku, kontrollitud 23.10.2026"
+   "allikas": "Piletitasku, kontrollitud 23.10.2026",
+   "mark": "eelmüük 10 € (+teenustasu), uksel 15 € (korraldaja tekst)"
   },
   "lisatud": "2026-10-23",
-  "nb": "lisatud sweepis 23.10.2026 Piletitasku Kinomaja asukohalehelt (sources.json kirje; Kinomaja FB events-tab näitab ainult möödunuid). Piletimüügi leht (REEGLID §3 erand): kuupäev, koht, koosseis ja žanr Piletitasku ürituse tekstist (korraldaja Kuuvarju Koda OÜ)."
+  "nb": "lisatud sweepis 23.10.2026 Piletitasku Kinomaja asukohalehelt (sources.json kirje; Kinomaja FB events-tab näitab ainult möödunuid). Piletimüügi leht (REEGLID §3 erand): kuupäev, koht, koosseis ja žanr Piletitasku ürituse tekstist (korraldaja Kuuvarju Koda OÜ). RIKASTATUD 23.10.2026 kontaktivormist (korraldaja poolelt): FB event `ou`, ajakava uksed 21.00, Kantri Guidu Bänd 21.30, TV Motel 22.30, Konfliktor 23.30; koostöös KuKuKino ja Ulmelungiga.",
+  "ou": "https://www.facebook.com/events/1881888456315738/",
+  "on_": "Facebook event"
+ },
+ {
+  "d": "2026-10-16",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Holy Motors — «Heaven's Night»",
+  "a": "album (LP), Wharf Cat Records",
+  "b": [
+   "Holy Motors"
+  ],
+  "g": [
+   "shoegaze",
+   "indie",
+   "alt"
+  ],
+  "sn": "Rada7.ee uudiskiri + Stereogum",
+  "su": "https://stereogum.com/2503956/holy-motors-announce-new-album-heavens-night-hear-tough-crush/music",
+  "on_": "Spotify",
+  "ou": "https://open.spotify.com/album/0f1frSX9J6YyMZLkMDtLxs",
+  "lisatud": "2026-10-23",
+  "nb": "SILVERI OTSUS 22.10.2026 ('2. lisa') = (a), sildid shoegaze + indie + alt otsustuspunkti järgi. Leitud Rada7 uudiskirjast 22.10 (ütles 19.10); ilmumiskuupäev 16.10 ja label Wharf Cat Stereogumi ja Line of Best Fiti järgi (https://www.thelineofbestfit.com/news/holy-motors-to-return-with-new-album-heavens-night). Tallinna bänd."
  }
 ]
