@@ -1,38 +1,13 @@
 {
- "tommatud": "2026-10-22",
+ "tommatud": "2026-10-23",
  "aken": {
-  "algus": "2026-10-22",
-  "lopp": "2026-12-21"
+  "algus": "2026-10-23",
+  "lopp": "2026-12-22"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 36,
+ "kirjeid": 34,
  "kirjed": [
-  {
-   "d": "2026-10-22",
-   "n": "URBAN NIGHT",
-   "algus": "2026-10-22T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2564309",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-22",
-   "n": "DIO RECORDS with VINYL SET BY KYKA",
-   "algus": "2026-10-22T20:00:00.000",
-   "v": "Maison Dio Tallinn",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [],
-   "url": "https://ra.co/events/2564541",
-   "pilet": false
-  },
   {
    "d": "2026-10-23",
    "n": "KONTRAST: Introversion ( DE / Makatao )",
@@ -233,6 +208,26 @@
   },
   {
    "d": "2026-10-31",
+   "n": "HALLoween: Hall's official Halloween party",
+   "algus": "2026-10-31T23:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Köster",
+    "Micaela Saraceno",
+    "Katja Adrikova",
+    "pikkauch",
+    "Sugar Rody"
+   ],
+   "g": [
+    "Techno",
+    "IDM"
+   ],
+   "url": "https://ra.co/events/2566642",
+   "pilet": true
+  },
+  {
+   "d": "2026-10-31",
    "n": "Klämmar x Halloween",
    "algus": "2026-10-31T23:00:00.000",
    "v": "Fonoteek",
@@ -254,26 +249,6 @@
    "g": [],
    "url": "https://ra.co/events/2561232",
    "pilet": false
-  },
-  {
-   "d": "2026-10-31",
-   "n": "HALLoween: Hall's official Halloween party",
-   "algus": "2026-10-31T23:00:00.000",
-   "v": "Hall",
-   "ala": "Tallinn",
-   "b": [
-    "Köster",
-    "Micaela Saraceno",
-    "Katja Adrikova",
-    "pikkauch",
-    "Sugar Rody"
-   ],
-   "g": [
-    "Techno",
-    "IDM"
-   ],
-   "url": "https://ra.co/events/2566642",
-   "pilet": true
   },
   {
    "d": "2026-10-31",
@@ -421,7 +396,7 @@
   },
   {
    "d": "2026-11-14",
-   "n": "KUMA with DJ Pipe, Mesila & more",
+   "n": "KUMA with DJ Pipe (UK) at Hall",
    "algus": "2026-11-14T23:00:00.000",
    "v": "Hall",
    "ala": "Tallinn",
