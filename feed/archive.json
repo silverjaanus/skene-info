@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 463,
+ "count": 479,
  "entries": [
   {
    "sait": "www",
@@ -12783,6 +12783,451 @@
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Last Penance + Anemon12) + Anemon12/Ülase12 events-tab. Varssavi dark metal/hardcore (album «Heathens»). Pilet/uksehind avaldamata.",
    "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "// OH MY DUB //",
+   "a": "uksed 20.00, DJ-d 22.00–05.00; bassline, UK garage, dubstep, drum & bass",
+   "b": [
+    "AJ Mutated (Mutated Forms)",
+    "Kalev K",
+    "Studios"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "bass",
+    "dnb",
+    "dub"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/2cd22f82-4bb4-4795-b23f-eef567d902d6",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1638815874701079",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee + FB event, kontrollitud 19.10.2026"
+   },
+   "lisatud": "2026-10-19",
+   "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 19.10.2026. Kaks allikat: FB event (korraldaja Kivi baar) + kluub.ee. Žanr ürituse enda tekstist: bassline, UK garage, dubstep, drum & bass."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "20/20 Filmifestival: Rautakylä vana parun // Mang Ont x Heidi Iivari",
+   "a": "tummfilm 'Rautakylä vana parun' (1923) – live-helitausta loob stoner rocki ansambel Mang Ont, kirjanduslik tõlgendus Heidi Iivari; algus 19.00",
+   "b": [
+    "Mang Ont",
+    "Heidi Iivari"
+   ],
+   "v": "Tartu Kirjanduse Maja",
+   "c": "Tartu",
+   "g": [
+    "stoner",
+    "doom",
+    "rock"
+   ],
+   "sn": "Kultuuriklubi Salong FB events-tab",
+   "su": "https://www.facebook.com/kultuuriklubisalong/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1431984328557774/",
+   "pu": "https://fienta.com/20-20-filmifestival-2026-2",
+   "hind": {
+    "praegu": "7 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Kultuuriklubi Salong) + Fienta piletileht. Žanr Fienta tekstist ('helitausta stoner rocki ansambel Mang Ont'). ⚠ piiripealne formaat: filmiseanss live-muusikaga, mitte tavakontsert.",
+   "img": "https://www.skene.info/pildid/2020filmifestivalrautakylavanaparunmangontxheidiiivari.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "BATTLE OF METAL — MEXICO vs ESTONIA",
+   "b": [
+    "People As Machines (MEX)",
+    "Wasteland 6",
+    "Runaoja"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%ad%f0%9d%92%90%f0%9d%92%8d%f0%9d%92%8c-%f0%9d%91%b4%f0%9d%92%86%f0%9d%92%95%f0%9d%92%82%f0%9d%92%8d-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82-2/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1059142223649891/",
+   "vu": "https://www.thekrypt.ee/",
+   "a": "Mehhiko metal Tallinnas; People as Machines on jaganud lava Slipknoti, Slayeri ja SOAD-iga; 21.00–03.00",
+   "pu": "https://fienta.com/battle-of-metal-mexico-vs-estonia",
+   "hind": {
+    "praegu": "8 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "nb": "RIKASTUS sweepis 23.10.2026 (thekrypt.ee auto-kirje peale): FB event 'Mexican Metal in Tallinn - People as Machines(MEX) + Wasteland 6 (EST) + Runaoja (EST) + more' (Rockers Den, Permanent Blue, Eesti metallistid jt) + Fienta piletileht. Koosseis FB pealkirjast ('+ more' - täiskoosseis avaldamata).",
+   "img": "https://www.skene.info/pildid/battleofmetalmexicovsestonia.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "BEATS 4 DA PEEPS",
+   "a": "Legendaarse hiphopi-peosari, algus 22.00",
+   "b": [
+    "Critikal",
+    "Bandit",
+    "Tarrvi (Bashment FM)",
+    "Koldun",
+    "Typicalflow",
+    "Propazha",
+    "J.O.C"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1581962047410599/",
+   "lisatud": "2026-09-04",
+   "nb": "leitud sweepis 04.09.2026 Legendaarne Raadio FB events-tabist (Krulli 2b). DJ-kava avaldamata. | 09.09.2026 sweep: KOOSSEIS TULI. Legendaarne Raadio FB event 1581962047410599: DJ-d Critikal, Bandit, Tarrvi (Bashment FM), Koldun; MC-d Typicalflow, Propazha, J.O.C + special guests. Peosari alates 1996. Hinda eventis ei nimetata.",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "Bar IDA — Scream In Black",
+   "a": "22.00–04.00; goth, post-punk, darkwave, new wave, minimal wave, synth punk",
+   "b": [
+    "The Lunacy Of Flowers"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "darkwave",
+    "dark",
+    "electro"
+   ],
+   "sn": "idaidaida.net",
+   "su": "https://idaidaida.net/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1620192599504728/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (IDA Radio + The Lunacy Of Flowers) + idaidaida.net ürituste nimekiri. Žanr ürituse tekstist.",
+   "img": "https://klubi.skene.info/pildid/baridascreaminblack.webp",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "Hõimupäevade klubiöö Tartus: Marko Haavisto ja Poutahaukat + Allan Vainola ja Unenäopüüdjad",
+   "a": "Fenno-Ugria hõimupäevade kontsertõhtu Tartus, 20.00–24.00 (Tallinna kontsert 24.10 eraldi kirjena)",
+   "b": [
+    "Marko Haavisto ja Poutahaukat (FIN)",
+    "Allan Vainola ja Unenäopüüdjad"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "alt",
+    "folk"
+   ],
+   "sn": "Genialistide Klubi FB events-tab",
+   "su": "https://www.facebook.com/GenKlubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28363277983308782/",
+   "pu": "https://fienta.com/et/marko-haavisto-ja-poutahaukat-allan-vainola-ja-unenaopuudjad-tartus-3",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Fenno-Ugria, Genialistide Klubi) + Fienta piletileht (R 23.10 20.00–24.00). Sama tuur kui Paavli 24.10 kirje (Silveri otsus 09.09.2026 „sisse“) — eraldi pilet, eraldi kirje.",
+   "img": "https://www.skene.info/pildid/hoimupaevadeklubiootartusmarkohaavistojapoutahaukatallanvainolajaunenaopuudjad.webp",
+   "vu": "https://genklubi.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "KONTRAST: Introversion (DE / Makatao)",
+   "a": "KONTRAST on ilma kindla muusikalise suunata peosari (5. kord), kaks lava: peasaal techno, MOD eklektilisem; koostoos SVE x Culture Unseen; uksed 23.00, 18+",
+   "b": [
+    "Introversion (DE)",
+    "Acid Grooves",
+    "Behki",
+    "Ekitech",
+    "Funkomatik",
+    "Luurel Varas",
+    "Micaela Saraceno"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "house"
+   ],
+   "sn": "Paavli Kultuurivabrik (paavli.ee)",
+   "su": "https://paavli.ee/sundmused/",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2535243",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2535243 (žanrid Techno/House) + paavli.ee sündmuste kava. Pilet/uksehind avaldamata. | RIKASTATUD 21.10.2026 (postkast): taiskoosseis RA uritusel 2535243 + Paavli uudiskiri 21.10 (FB event https://www.facebook.com/events/1633299398139535) - kattuvad. Piletid RA kaudu; RA naitab hinda \"26\" valuutata -> hind jaetud lisamata.",
+   "img": "https://klubi.skene.info/pildid/kontrastintroversiondemakatao.webp",
+   "pu": "https://ra.co/events/2535243",
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "Kalopsia (LV) + Beer Gardens + Keitamiins + Strfll",
+   "a": "algus 19.00",
+   "b": [
+    "Kalopsia (LV)",
+    "Beer Gardens",
+    "Keitamiins",
+    "Strfll"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "rock",
+    "punk",
+    "alt"
+   ],
+   "sn": "Hell, Tartu FB events-tab",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2567173650465928/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Hell, Tartu + Kalopsia + Sean Hinkle) + Helli FB events-tab. Žanr ürituse tekstist/korraldajalt: Kalopsia 'alternatiivne rokk' (Riia), Beer Gardens 'art/experimental-punk'. Pilet avaldamata.",
+   "vu": "https://www.facebook.com/punknrollhell/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "Lawn Fight (SWE), Konnahaldjas, Miša_K3X",
+   "a": "Malmö midwest emo trio Lawn Fight (debüütalbum «Lingon», 2026); uksed 19.00, esimene bänd 20.00",
+   "b": [
+    "Lawn Fight (SWE)",
+    "Konnahaldjas",
+    "Miša_K3X"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "indie",
+    "punk",
+    "alt"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/3abfa34b-adf9-4501-a161-e34fb0e255bd",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2500618643771636/",
+   "hind": {
+    "praegu": "10 € / 7 € õpilastele",
+    "mark": "10 €, õpilastele 7 € („10/7* for schoolkidz“); online-piletit ei ole",
+    "allikas": "kluub.ee (ürituse kirjeldus)"
+   },
+   "lisatud": "2026-10-20",
+   "nb": "lisatud 20.10.2026 postkastijooksu kluub.ee-kontrollis. Kaks allikat: ürituse FB event (korraldajad Anemon12 + Lawn Fight; „three piece Midwest Emo-band from Malmö“, Ülase tn 12) + Anemon12 FB events-tab (R 19.00). Žanr ürituse enda kirjeldusest (midwest emo / melodic indie rock), kluub.ee sildid Indie, Rock, Punk. Lawn Fighti linktree näitab 22.10 Riiat — tuuri jätk. Hind 10/7 € kluub.ee-st, mis peegeldab FB kirjeldust.",
+   "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "MAI SKIZO @ Kära Kants",
+   "a": "uue albumi «Valu mõte» tutvustus; plaadid ja merch kohapeal",
+   "b": [
+    "MAI SKIZO"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "punk",
+    "rock",
+    "post",
+    "goth",
+    "industrial",
+    "dark",
+    "alt"
+   ],
+   "sn": "MAI SKIZO FB events-tab",
+   "su": "https://www.facebook.com/MaiSkizo/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1104264962050657/",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026. FB event (MAI SKIZO + Kära Kantsi korraldaja Oleg Knjazev). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata. TÄIENDUS 20.10.2026 postkastijooksus: bänd kinnitas ürituse ise kontaktivormi kaudu (Pronto, 19.10.2026; „23.10.2026, Kära Kants, Rakvere“, žanrid „hard rock, industriaal, grunge, punk“) — see on teine, ürituse FB-st sõltumatu kinnitus. Pilet/hind ikka avaldamata."
+  },
+  {
+   "sait": "rap",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "MOMENT w Lil Till",
+   "a": "23.00–04.00, 18+; koosseis + TBA",
+   "b": [
+    "Lil Till",
+    "Evert Poom",
+    "Ots"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "GateMe",
+   "su": "https://gateme.com/et/D3Tallinn/104370-moment-w-lil-till-2310-d3/",
+   "pu": "https://gateme.com/et/D3Tallinn/104370-moment-w-lil-till-2310-d3/",
+   "hind": {
+    "praegu": "12 € (regular) / 25 € (priority)",
+    "mark": "early bird 10 € välja müüdud; late bird 15 €",
+    "allikas": "GateMe, kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 GateMe Eesti avalehelt. Piletimüügi leht (REEGLID §3 erand), korraldaja Manufaktuur OÜ. MOMENT-sari on rap-poolel pretsedent (Bali Baby / MOMENT 3.0); peaesineja Lil Till = Eesti räppar.",
+   "vu": "https://www.d-3.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "PLANET GROOVE x HALL [MESILA]",
+   "a": "23.00–06.00, HALLi Mesila saal; Tallinna ja Tbilisi skeenesid ühendav sari",
+   "b": [],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2222471485278347/",
+   "pu": "https://gateme.com/halltallinn/104436",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Planet Groove Estonia + HALL) + GateMe piletileht. Žanr korraldajalt ('raw, dancefloor-first electronic music'; Planet Groove 'bridging house, disco and indie scenes'). Koosseis lehel nimetamata.",
+   "img": "https://klubi.skene.info/pildid/planetgroovexhallmesila.webp",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "PööLoY GLääNZ 37 + Aitäh Ema!",
+   "a": "uksed 20.00, bändid 21.30",
+   "b": [
+    "PööLoY GLääNZ",
+    "Aitäh Ema!"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Konservatooriumi FB events-tab",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1952931089454398/",
+   "hind": {
+    "praegu": "15 € (sularahas)",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Konservatoorium + AITÄH EMA + PööLoY GLääNZ) + Konservatooriumi FB events-tab. Žanr ürituse tekstist: „Punki ja rokki terveks õhtuks!\"",
+   "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-23",
+   "t": "kontsert",
+   "n": "Sibyl Vane — VORTEX Autumn Tour @ Tallinn + Aino & Hajonneet (FIN)",
+   "a": "VORTEX-albumi sügistuur; koosseis Helena Randlaht, Meelis Tauk, Heiko Leesment, Kristo Otter",
+   "b": [
+    "Sibyl Vane",
+    "Aino & Hajonneet (FIN)"
+   ],
+   "v": "Kinomaja",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Piletitasku (Sibyl Vane VORTEX sügistuur)",
+   "su": "https://www.piletitasku.ee/et/performance/26121",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1089594000115148/",
+   "pu": "https://www.piletitasku.ee/et/event/10340",
+   "hind": {
+    "praegu": "21,20 € / 26,20 €",
+    "mark": "Piletitasku hinnad koos teenustasuga",
+    "allikas": "piletitasku.ee, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: Piletitasku tuurileht + sibylvane.ee/shows (ja ürituse FB event). Tuur: 17.10 Sindi Rock, 23.10 Tallinn, 24.10 Tartu, 04.12 Viljandi, 05.12 Tõrva (eraldi kirje olemas), 11.12 Pärnu.",
+   "img": "https://www.skene.info/pildid/sibylvanevortexautumntourtallinnainohajonneetfin.webp",
+   "vu": "https://www.facebook.com/kinomajabarandstage"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "Stereo @ Fonoteek",
+   "a": "Fonoteegi reedeõhtu, DJ-d 23.00–04.00",
+   "b": [],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Fonoteek FB events-tab + RA",
+   "su": "https://ra.co/events/2560085",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1628101482194327/",
+   "pu": "https://gateme.com/event/104408/",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. FB event (Fonoteek) + RA event (žanr RA lehelt: House) + GateMe. ⚠ Žanr ainult RA ürituselehe sildist.",
+   "img": "https://klubi.skene.info/pildid/stereofonoteek.webp",
+   "vu": "https://fonoteek.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-23",
+   "t": "klubi",
+   "n": "WHOMADEWHO (Hybrid DJ Set) — Momentum 5",
+   "a": "Momentum 5. sünnipäev; Taani elektroonika-trio hübriid-DJ-set",
+   "b": [
+    "WhoMadeWho (DK)"
+   ],
+   "v": "Tallinna Kruiisiterminal",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "disco"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/whomadewho",
+   "pu": "https://fienta.com/whomadewho",
+   "hind": {
+    "praegu": "alates 40 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Fienta API diffist; piletimüügi leht (REEGLID §3 erand). Žanr Fienta tekstist ('blending electronic music, indie, disco').",
+   "img": "https://klubi.skene.info/pildid/whomadewhohybriddjsetmomentum5.webp"
   }
  ]
 }
