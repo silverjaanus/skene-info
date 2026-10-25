@@ -1,1 +1,27 @@
-[]
+[
+ {
+  "oid": "gild-halloween-klubi-neli-2026-10-30",
+  "lisatud": "2026-10-25",
+  "kysimus": "GILD: Halloween Special — R 30.10.2026 kl 21–04, Klubi Neli (Tartu), 0–15 € (21–23 tasuta, 23–01 5 €, alates 01 9 €, Fast Track 15 €), 20+. Kas lisame klubi saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi saidile (sildid house + techno Gildi profiili järgi; Club Side hip-hop DJ nimetatakse a-väljas)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (Klubi Neli peavoolu-Halloween: lauabroneering, Fast Track, kostüümiauhinnad; žanr ürituse lehel nimetamata)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-10-29",
+  "lingid": [
+   "https://www.facebook.com/events/1789415305592991",
+   "https://gateme.com/et/klubineli/104456-gild-halloween-special-i-klubi-neli-i-3010/",
+   "https://www.kluub.ee/et/events/tartu/cb25bb58-7a1a-460c-bdf3-948721563b96",
+   "https://soundcloud.com/pm2theam",
+   "https://linktr.ee/gildclub"
+  ],
+  "kontekst": "Leitud 25.10 kluub.ee Tartu lehelt (samm 2c). Kaks allikat olemas (FB event + GateMe piletileht, korraldaja Music Academy OÜ). Line-up: Living Room (Funktion-One) Pyfel, Jojo, Fat Harry (GILD); Club Side (KV2) PM2THEAM (LV) — Riia hip-hop DJ/turntablist (SoundCloud: LV hip-hop teibid). Ürituse leht žanrit EI nimeta. Gild on sources.json-is RA-korraldaja; nende 14.11 Maison Dio õhtu on klubi saidil house/techno siltidega (Fienta tekst). Pyfel mängis ka WhoMadeWho Momentum 5 õhtul, mille Silver 22.10 sisse lasi (a). Kahtlus: kahe-saaliline peavoolu-Halloween, pool programmist hip-hop. Kui (a), lisa Klubi Neli (GateMe korraldajaleht) sources.json-i."
+ }
+]
