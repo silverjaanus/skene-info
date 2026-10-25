@@ -1,36 +1,5 @@
 [
  {
-  "d": "2026-10-10",
-  "t": "klubi",
-  "n": "STF 2026 & inklingroom & Paavli takeover: Aïsha Devi + Ayano Yokoyama & 34423",
-  "a": "Sõltumatu Tantsu Festivali klubiöö: Ayano Yokoyama ja 34423 etendus \" / \", seejärel Aïsha Devi live, siis Paavli ja inklingroomi DJ-kava; eel TAB 2026 paneel klubikultuurist arhitektuuris kell 20.00. Kell 21.00-03.00, 18+",
-  "b": [
-   "Aïsha Devi (CH)",
-   "Ayano Yokoyama & 34423",
-   "Shah Rud",
-   "Wash Electra"
-  ],
-  "v": "Paavli Kultuurivabrik",
-  "c": "Tallinn",
-  "g": [
-   "experimental",
-   "club"
-  ],
-  "sn": "Resident Advisor",
-  "su": "https://ra.co/events/2524841",
-  "on_": "Ürituse leht",
-  "ou": "https://paavli.ee/sundmused/stf-2026-inklingroom-paavli-takeover-aisha-devi-ayano-yokoyama-34423-tab-2026/",
-  "pu": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
-  "hind": {
-   "praegu": "25€ / 30€ / 35€",
-   "mark": "varajane / tava / hiline, 18+",
-   "allikas": "Fienta, kontrollitud 05.09.2026"
-  },
-  "nb": "lisatud postkastijooksus 05.09.2026 (HANDOVER §4 jälgimispunkt 04.09: \"lisa järgmises jooksus\"). Kolm allikat: paavli.ee oma ürituseleht + Fienta (L 10.10 21:00-03:00, Paavli Kultuurivabrik) + RA event 2524841. DJ-kava avaldamata (koosseis_tba). RA žanrisildid on \"Trance, Experimental\" - trance-silti EI pandud, sest see on RA korraldajasilt, mitte kontrollitud žanr. Vahe §4 punktist 5 (Glitch Please): see on 21-03 klubiöö DJ-kavaga, mitte istumiskontsert. Pilt: img_src osutab Fienta ürituselehele, sest paavli.ee og:image on saidi ÜLDPILT (Screenshot_13-1.webp), mitte plakat. | 09.10.2026 sweep: RA snapshot (ra.co/events/2524841) + paavli.ee → b += Shah Rud, Wash Electra.",
-  "img_src": "https://fienta.com/et/stf-2026-inklingroom-paavli-takeover-aisha-deivi-ayano-yokoyama-34423-tab",
-  "img": "pildid/stf2026inklingroompaavlitakeoveraishadeviayanoyokoyama34423.webp"
- },
- {
   "d": "2026-10-14",
   "t": "kontsert",
   "n": "Carbon Based Lifeforms (SWE)",
@@ -715,38 +684,6 @@
   "img": "pildid/modclubumrupcmusic.webp"
  },
  {
-  "d": "2026-10-10",
-  "t": "kontsert",
-  "n": "Minituumareiv: Planeet",
-  "a": "endine tuumaraketibaas Valgamaal; 22.00–04.00",
-  "b": [
-   "Planeet",
-   "Lang",
-   "Whirl",
-   "Kaido Kaasik",
-   "A:ari S"
-  ],
-  "v": "Raketibaas R-12",
-  "c": "mujal",
-  "linn": "Tsirguliina",
-  "g": [
-   "dnb",
-   "bass"
-  ],
-  "sn": "Planeedi FB events-tab",
-  "su": "https://www.facebook.com/AudioPlaneet/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1653611563147662/",
-  "pu": "https://fienta.com/et/minituumareiv",
-  "hind": {
-   "praegu": "15 € eelmüük / 20 € kohapeal",
-   "allikas": "FB event, kontrollitud 02.10.2026"
-  },
-  "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Raketibaas R-12 + Planeet) + Fienta. Žanr peaesinejalt (Planeet = Eesti DnB, vt HALLORAVE event-tekst); ürituse tekst ütleb ainult „reiv\".",
-  "img": "pildid/minituumareivplaneet.webp"
- },
- {
   "d": "2026-10-31",
   "t": "kontsert",
   "n": "HALLORAVE: Planeet / Norty (UK) / Liisbeth",
@@ -1054,38 +991,6 @@
   "img": "pildid/rocktorave.webp"
  },
  {
-  "d": "2026-10-10",
-  "t": "klubi",
-  "n": "COMPRESS RAVE x HALL (only techno)",
-  "a": "Mesila lava, L 10.10 23.00 – P 11.10 07.00",
-  "b": [
-   "Katja Adrikova",
-   "Sugar Rody",
-   "Meelis Vili",
-   "Brenna Ryan",
-   "YourMoveton",
-   "Bryan Vanem"
-  ],
-  "v": "HALL",
-  "c": "Tallinn",
-  "g": [
-   "techno"
-  ],
-  "sn": "GateMe (Eesti)",
-  "su": "https://gateme.com/et/Estonia/",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/4589571827854476/",
-  "pu": "https://gateme.com/et/halltallinn/104364-compress-rave-x-hall-only-techno/",
-  "hind": {
-   "praegu": "10 € (Regular Raver)",
-   "mark": "Rave Squad 4 piletit 40 €",
-   "allikas": "GateMe, kontrollitud 09.10.2026"
-  },
-  "lisatud": "2026-10-09",
-  "nb": "lisatud sweepis 09.10.2026. Kaks allikat: HALLi FB events-tab/FB event (CompressEvents) + GateMe piletileht (korraldaja Lisetech OÜ, koosseis, „only techno“).",
-  "img": "pildid/compressravexhallonlytechno.webp"
- },
- {
   "d": "2026-10-16",
   "t": "klubi",
   "n": "Plurrr @ Uus Laine",
@@ -1234,31 +1139,6 @@
   "lisatud": "2026-10-09",
   "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Fonoteek + Tripsy, „part of the Estonian minimal story“) + GateMe piletileht; RA snapshotis ka ra.co/events/2556652.",
   "img": "pildid/fedoxsilatbeksiallnightlong.webp"
- },
- {
-  "d": "2026-10-10",
-  "t": "klubi",
-  "n": "uju | Kohvik Tops",
-  "a": "DJ-õhtu, kell 21.00–03.00; ürituse enda kirjeldus: „dub, house +& jms“",
-  "b": [
-   "uju"
-  ],
-  "v": "Kohvik Tops",
-  "c": "Tallinn",
-  "g": [
-   "dub",
-   "house"
-  ],
-  "sn": "kluub.ee",
-  "su": "https://www.kluub.ee/et/events/tallinn/688d8ebf-147b-4a67-82ca-1fce01300087",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1621485039330626",
-  "hind": {
-   "praegu": "tasuta",
-   "allikas": "kluub.ee + FB event, kontrollitud 10.10.2026"
-  },
-  "lisatud": "2026-10-10",
-  "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 10.10.2026. Kaks allikat: ürituse FB event (korraldaja TOPS, Soo 15) + kluub.ee. Žanr ürituse enda tekstist."
  },
  {
   "d": "2026-10-16",
