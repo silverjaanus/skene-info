@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -613,38 +613,6 @@
    "vu": "https://www.tapper.ee/"
   },
   {
-   "sait": "klubi",
-   "d": "2026-10-22",
-   "d2": "25.10",
-   "t": "festival",
-   "n": "Üle Heli 2026",
-   "a": "Eksperimentaalse heli festival: 22.10 AVAavarus (Küberstuudio, Kismabande jt) Kanuti Gildi SAALis; 23.10 Modulatsioonipalee (Thomas Ankersmit Serge-süntidel, Ekke Västrik jt) Mustpeade majas; 24.10 Sfääriline õhtu + kl 22 Ööklubi ARS-i D hoovimajas; 25.10 Lõpukõver vanalinnas",
-   "b": [
-    "Thomas Ankersmit",
-    "Ekke Västrik",
-    "Küberstuudio",
-    "Kismabande"
-   ],
-   "v": "Kanuti Gildi SAAL, Mustpeade maja, ARS jt",
-   "c": "Tallinn",
-   "g": [
-    "experimental",
-    "ambient"
-   ],
-   "sn": "Fienta",
-   "su": "https://fienta.com/et/ule-heli-2026",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1964000258320104/",
-   "pu": "https://fienta.com/et/ule-heli-2026",
-   "hind": {
-    "praegu": "10–15 € (eelmüük), uksel 15–20 €; festivalipass 40 €",
-    "allikas": "Fienta, kontrollitud 16.10.2026"
-   },
-   "lisatud": "2026-10-16",
-   "nb": "SILVERI OTSUS 15.10.2026 (\"üle heli sisse\") - sweep/otsused.json oid ule-heli-2026, rakendatud valik (b) üks katusekirje. Allikad: Fienta + FB event + ule-heli.ee. Korraldaja žanri ei nimeta; sildid experimental/ambient on toimetaja valik.",
-   "img": "https://klubi.skene.info/pildid/uleheli2026.webp"
-  },
-  {
    "sait": "www",
    "d": "2026-10-25",
    "t": "kontsert",
@@ -855,6 +823,36 @@
     "mark": "tasuta sama nädala vere-/plasmadoonoritele (arstitõend) ja õudusekostüümis külalistele; eelmüüki pole",
     "allikas": "kluub.ee (FB eventi peegel), kontrollitud 25.10.2026"
    }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-30",
+   "t": "klubi",
+   "n": "GILD: Halloween Special",
+   "a": "21.00–04.00, 20+; Living Room (Funktion-One): Pyfel, Jojo, Fat Harry (GILD); Club Side (KV2): PM2THEAM (LV, hip-hop DJ/turntablist)",
+   "b": [
+    "Pyfel",
+    "Jojo",
+    "Fat Harry",
+    "PM2THEAM (LV)"
+   ],
+   "v": "Klubi Neli",
+   "c": "Tartu",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/cb25bb58-7a1a-460c-bdf3-948721563b96",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1789415305592991",
+   "pu": "https://gateme.com/et/klubineli/104456-gild-halloween-special-i-klubi-neli-i-3010/",
+   "hind": {
+    "praegu": "21–23 tasuta, 23–01 5 €, alates 01 9 €; Fast Track 15 €",
+    "allikas": "GateMe / FB event, kontrollitud 25.10.2026"
+   },
+   "lisatud": "2026-10-26",
+   "nb": "SILVERI OTSUS 25.10.2026 (\"las läheb sisse\") - sweep/otsused.json oid gild-halloween-klubi-neli-2026-10-30, valik (a). Allikad: FB event + GateMe (korraldaja Music Academy OÜ) + kluub.ee. Ürituse leht žanrit ei nimeta; sildid house/techno Gildi profiili järgi (toimetaja valik), Club Side on hip-hop."
   },
   {
    "sait": "klubi",

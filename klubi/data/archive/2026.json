@@ -5294,6 +5294,37 @@
    "vu": "https://concert.ee/en/teenus/vanemuise-kontserdisaal/"
   },
   {
+   "d": "2026-10-22",
+   "d2": "25.10",
+   "t": "festival",
+   "n": "Üle Heli 2026",
+   "a": "Eksperimentaalse heli festival: 22.10 AVAavarus (Küberstuudio, Kismabande jt) Kanuti Gildi SAALis; 23.10 Modulatsioonipalee (Thomas Ankersmit Serge-süntidel, Ekke Västrik jt) Mustpeade majas; 24.10 Sfääriline õhtu + kl 22 Ööklubi ARS-i D hoovimajas; 25.10 Lõpukõver vanalinnas",
+   "b": [
+    "Thomas Ankersmit",
+    "Ekke Västrik",
+    "Küberstuudio",
+    "Kismabande"
+   ],
+   "v": "Kanuti Gildi SAAL, Mustpeade maja, ARS jt",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "ambient"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/ule-heli-2026",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1964000258320104/",
+   "pu": "https://fienta.com/et/ule-heli-2026",
+   "hind": {
+    "praegu": "10–15 € (eelmüük), uksel 15–20 €; festivalipass 40 €",
+    "allikas": "Fienta, kontrollitud 16.10.2026"
+   },
+   "lisatud": "2026-10-16",
+   "nb": "SILVERI OTSUS 15.10.2026 (\"üle heli sisse\") - sweep/otsused.json oid ule-heli-2026, rakendatud valik (b) üks katusekirje. Allikad: Fienta + FB event + ule-heli.ee. Korraldaja žanri ei nimeta; sildid experimental/ambient on toimetaja valik.",
+   "img": "pildid/uleheli2026.webp"
+  },
+  {
    "d": "2026-10-23",
    "t": "klubi",
    "n": "KONTRAST: Introversion (DE / Makatao)",
