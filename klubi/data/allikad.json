@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "groups": [
   {
    "nimi": "Kohad",
@@ -311,6 +311,10 @@
     {
      "n": "HUNGR (Tallinn) FB",
      "u": "https://www.facebook.com/FeelTheHungr/events"
+    },
+    {
+     "n": "Klubi Neli (Tartu) — GateMe korraldajaleht",
+     "u": "https://gateme.com/et/klubineli/"
     },
     {
      "n": "Planeet (Audio Planeet)",

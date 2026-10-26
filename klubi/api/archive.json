@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 490,
+ "count": 491,
  "entries": [
   {
    "sait": "www",
@@ -13535,6 +13535,23 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud 09.10.2026. FB event (Three Leg Dog + Uus Laine). Žanr googeldatud Silveri palvel 09.10.2026: „psychedelic rock trio from Tallinn“ (bändi FB), et.wikipedia: Eesti ansambel, asutatud 2013; allstarz: Eesti stoner.",
    "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-25",
+   "t": "kontsert",
+   "n": "Halloween Flea Market vol. 3",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/halloween-flea-market-vol-3/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "vu": "https://www.thekrypt.ee/"
   }
  ]
 }

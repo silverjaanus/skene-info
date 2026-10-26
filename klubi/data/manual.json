@@ -612,35 +612,6 @@
   "on_": "Facebook event"
  },
  {
-  "d": "2026-10-09",
-  "d2": "11.10",
-  "t": "klubi",
-  "n": "HUNGR Closing Weekend: The Last Bite",
-  "a": "HUNGRi (Peetri 6) sulgemisnädalavahetus: R 09.10 The Last Queer Showcase (uksed 20.00; DJ-d, live, drag, performance), L 10.10 The Last Hungr Dance Party (uksed 23.00, open-ended klubiöö) — maja lõpetab tegevuse",
-  "b": [],
-  "koosseis_tba": 1,
-  "v": "HUNGR",
-  "c": "Tallinn",
-  "g": [
-   "techno",
-   "house",
-   "electro",
-   "experimental"
-  ],
-  "sn": "HUNGR (FB events)",
-  "su": "https://www.facebook.com/FeelTheHungr/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/2260883634764571/",
-  "lisatud": "2026-09-18",
-  "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event + HUNGRi FB events-tab ja maja enda postitus („as hungr gets closer to closing its doors“, 236 huvilist). Koosseis avaldamata → koosseis_tba. HUNGR oli sources.json-is ainult RA venue-lehena (ra.co/clubs/235784), mis eelseisvaid üritusi EI näita; FB events-tab lisatud sama sweepiga. | 02.10.2026 sweep: rikastatud Fienta piletilehega (pu + uksehinnad + kava); koosseis endiselt „lineup TBA soon\" → koosseis_tba jääb.",
-  "pu": "https://fienta.com/hungr-closing-weekend-the-last-bite",
-  "hind": {
-   "praegu": "uksel R 15 € / L 15 € / nädalavahetus 25 €",
-   "allikas": "Fienta tekst, kontrollitud 02.10.2026"
-  },
-  "img": "pildid/hungrclosingweekendthelastbite.webp"
- },
- {
   "d": "2026-10-17",
   "t": "kontsert",
   "n": "KLAP",
