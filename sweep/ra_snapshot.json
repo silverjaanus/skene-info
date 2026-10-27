@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-10-26",
+ "tommatud": "2026-10-27",
  "aken": {
-  "algus": "2026-10-26",
-  "lopp": "2026-12-25"
+  "algus": "2026-10-27",
+  "lopp": "2026-12-26"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 29,
+ "kirjeid": 30,
  "kirjed": [
   {
    "d": "2026-10-29",
@@ -384,6 +384,22 @@
     "Tech House"
    ],
    "url": "https://ra.co/events/2568575",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "Intorno al Disco W/ Noaxxx, Ric Piccolo & Koldun",
+   "algus": "2026-11-21T23:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Ric Piccolo"
+   ],
+   "g": [
+    "House",
+    "Italo Disco"
+   ],
+   "url": "https://ra.co/events/2570240",
    "pilet": false
   },
   {
