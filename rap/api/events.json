@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 201,
+ "count": 200,
  "entries": [
   {
    "sait": "www",
@@ -557,7 +557,8 @@
    "on_": "Spotify",
    "ou": "https://open.spotify.com/album/0f1frSX9J6YyMZLkMDtLxs",
    "lisatud": "2026-10-23",
-   "nb": "SILVERI OTSUS 22.10.2026 ('2. lisa') = (a), sildid shoegaze + indie + alt otsustuspunkti järgi. Leitud Rada7 uudiskirjast 22.10 (ütles 19.10); ilmumiskuupäev 16.10 ja label Wharf Cat Stereogumi ja Line of Best Fiti järgi (https://www.thelineofbestfit.com/news/holy-motors-to-return-with-new-album-heavens-night). Tallinna bänd."
+   "nb": "SILVERI OTSUS 22.10.2026 ('2. lisa') = (a), sildid shoegaze + indie + alt otsustuspunkti järgi. Leitud Rada7 uudiskirjast 22.10 (ütles 19.10); ilmumiskuupäev 16.10 ja label Wharf Cat Stereogumi ja Line of Best Fiti järgi (https://www.thelineofbestfit.com/news/holy-motors-to-return-with-new-album-heavens-night). Tallinna bänd.",
+   "img": "https://www.skene.info/pildid/holymotorsheavensnight.webp"
   },
   {
    "sait": "www",
@@ -630,37 +631,6 @@
    "su": "https://kultuur.err.ee/1610177200/margiiela-avaldas-teise-taispika-albumi-hall-ala",
    "nb": "leitud postkastijooksus 28.10.2026 Legendaarne Records uudiskirjast (27.10, https://mailchi.mp/a0fd1b332a04/margiiela). Kaks allikat: label Legendaarne Records (uudiskiri) + ERR kultuur 26.10.2026 („andis esmaspäeval välja“ = 26.10.2026). Voogedastuse otselinki ei leidnud – täienda sweepis (ou).",
    "img": "https://rap.skene.info/pildid/margiielahallala.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-10-27",
-   "t": "kontsert",
-   "n": "Amon Amarth + Soilwork + Orbit Culture",
-   "b": [
-    "Amon Amarth",
-    "Soilwork",
-    "Orbit Culture"
-   ],
-   "v": "Unibet Arena Black Box",
-   "c": "Tallinn",
-   "g": [
-    "melodic",
-    "death"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=228078",
-   "a": "uksed 17.30, algus 18.30; vanusepiirang puudub; Baltikumi ainus show",
-   "nb": "koht täpsustatud 28.07.2026 (Unibet Arena Black Box, mitte peasaal); allikas Piletilevi | 10.08.2026 sweep: piletilink lisatud (Piletilevi) | 10.09.2026 postkastijooks (Raskemuusikaliidu uudiskiri): hind + uksed 17.30 + vanusepiiranguta Piletilevi lehelt. ⚠ Uudiskiri väidab \"norm hind 69 €\", Piletilevi kuvab 77,20–87,90 € — ürituse ametlik piletileht võidab (REEGLID §3). ⚠ Piletilevi lehe tekstis seisab endiselt vana teade \"avalik müük algab 28. novembril\" (2025. a müügistart), see EI ole värske info. `ou` jääb tühjaks: Piletilevi on piletimüüja, mitte korraldaja (REEGLID §3); korraldaja Baltic Live Agency. | 02.10.2026 sweep: lisatud ürituse FB event `ou`-sse (korraldaja FB events-tabist); agregaator jääb `su`-le.",
-   "img": "https://www.skene.info/pildid/amonamarthsoilworkorbitculture.webp",
-   "pu": "https://www.piletilevi.ee/piletid/6JXC45L6H2/amon-amarth-orbit-culture-soilwork-2026",
-   "hind": {
-    "praegu": "77,20–87,90 €",
-    "mark": "Piletilevi kuvatav lõpphind (General Access nominaal alates 59 €, Fan Zone alates 79 €, lisandub agenditasu 4,40–6,60 €); Eesti Raskemuusikaliidu liikmetele kood \"LIIKMEHIND\" 59 € kuni septembri lõpuni",
-    "allikas": "Piletilevi, kontrollitud 10.09.2026"
-   },
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1562195731457255/",
-   "vu": "https://unibetarena.ee/"
   },
   {
    "sait": "klubi",
@@ -975,6 +945,7 @@
    "nb": "lisatud sweepis 23.10.2026 Piletitasku Kinomaja asukohalehelt (sources.json kirje; Kinomaja FB events-tab näitab ainult möödunuid). Piletimüügi leht (REEGLID §3 erand): kuupäev, koht, koosseis ja žanr Piletitasku ürituse tekstist (korraldaja Kuuvarju Koda OÜ). RIKASTATUD 23.10.2026 kontaktivormist (korraldaja poolelt): FB event `ou`, ajakava uksed 21.00, Kantri Guidu Bänd 21.30, TV Motel 22.30, Konfliktor 23.30; koostöös KuKuKino ja Ulmelungiga.",
    "ou": "https://www.facebook.com/events/1881888456315738/",
    "on_": "Facebook event",
+   "img": "https://www.skene.info/pildid/kantriguidubandtvmotelkonfliktor.webp",
    "vu": "https://www.facebook.com/kinomajabarandstage"
   },
   {
