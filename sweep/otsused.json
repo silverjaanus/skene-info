@@ -1,1 +1,25 @@
-[]
+[
+ {
+  "oid": "2026-10-28-etk13-mihkel-kuusk-muusikabingo",
+  "kysimus": "ETK 13: Mihkel Kuusk (live) + muusikabingo + DJ-d MVP & Dr. Philgood — R 06.11.2026 kl 20.30, Erinevate Tubade Klubi (Telliskivi 60a, Tallinn), 12–15 €. Kas lisame www-le alt/indie siltidega?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www-le (alt + indie), vormi žanriväli loeb (23.09 pretsedent)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja — muusikaviktoriin + elektronpopp + žanriinfota DJ-d, ei ole kitarripõhine alternatiiv"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-02",
+  "lingid": [
+   "https://www.facebook.com/events/1929662088008542",
+   "https://fienta.com/et/etk-13-mihkel-kuusk-live-muusikabingo",
+   "https://tmw.ee/artists/mihkel-kuusk"
+  ],
+  "kontekst": "Kontaktivorm 27.10.2026 (saatja Rasmus, korraldaja ETK; Zanrid: 'alt, indie'). Fienta kinnitab: R 06.11 20.30–02.00, 21.30 muusikabingo (Marta Püssa), 23.00 Mihkel Kuusk live, 00.00 väikses saalis MVP & Dr. Philgood; early 12 €, tavapilet 15 €, noortepilet 5 €. Fienta žanrit ei nimeta. tmw.ee järgi on Mihkel Kuusk elektronpopp eksperimentaalsete/laulja-laulukirjutaja elementidega. Korraldaja enda žanriväide loeb (REEGLID §1, 23.09), aga sisu on klubi juubeli-/viktoriiniõhtu, mitte kitarripõhine alternatiiv — skoop on Silveri otsus.",
+  "lisatud": "2026-10-28"
+ }
+]

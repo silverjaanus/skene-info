@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 199,
+ "count": 201,
  "entries": [
   {
    "sait": "www",
@@ -613,6 +613,25 @@
    "vu": "https://www.tapper.ee/"
   },
   {
+   "sait": "rap",
+   "rel": 1,
+   "d": "2026-10-26",
+   "lisatud": "2026-10-28",
+   "t": "reliis",
+   "n": "margiiela – „HALL ALA“",
+   "a": "teine stuudioalbum, 16 lugu (~50 min); külalistena Lil Till, Genka, Diwo, Alika, Cecilia, Chillin, Karjakoer jt; produktsioon Emildollaz, Pil, Liv ja margiiela ise (ka miks), master Markus Palo; vinüül Legendaarne veebipoes",
+   "b": [
+    "margiiela"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "ERR kultuur",
+   "su": "https://kultuur.err.ee/1610177200/margiiela-avaldas-teise-taispika-albumi-hall-ala",
+   "nb": "leitud postkastijooksus 28.10.2026 Legendaarne Records uudiskirjast (27.10, https://mailchi.mp/a0fd1b332a04/margiiela). Kaks allikat: label Legendaarne Records (uudiskiri) + ERR kultuur 26.10.2026 („andis esmaspäeval välja“ = 26.10.2026). Voogedastuse otselinki ei leidnud – täienda sweepis (ou).",
+   "img": "https://rap.skene.info/pildid/margiielahallala.webp"
+  },
+  {
    "sait": "www",
    "d": "2026-10-27",
    "t": "kontsert",
@@ -673,6 +692,7 @@
     "mark": "Fienta: toetajapilet 10 €; lehel ka „The event is donation based\"",
     "allikas": "Fienta + kluub.ee, kontrollitud 25.10.2026"
    },
+   "img": "https://klubi.skene.info/pildid/ruraltapesnohendrikkaljujarv.webp",
    "vu": "https://uuslaine.com/"
   },
   {
@@ -835,7 +855,8 @@
     "allikas": "GateMe / FB event, kontrollitud 25.10.2026"
    },
    "lisatud": "2026-10-26",
-   "nb": "SILVERI OTSUS 25.10.2026 (\"las läheb sisse\") - sweep/otsused.json oid gild-halloween-klubi-neli-2026-10-30, valik (a). Allikad: FB event + GateMe (korraldaja Music Academy OÜ) + kluub.ee. Ürituse leht žanrit ei nimeta; sildid house/techno Gildi profiili järgi (toimetaja valik), Club Side on hip-hop."
+   "nb": "SILVERI OTSUS 25.10.2026 (\"las läheb sisse\") - sweep/otsused.json oid gild-halloween-klubi-neli-2026-10-30, valik (a). Allikad: FB event + GateMe (korraldaja Music Academy OÜ) + kluub.ee. Ürituse leht žanrit ei nimeta; sildid house/techno Gildi profiili järgi (toimetaja valik), Club Side on hip-hop.",
+   "img": "https://klubi.skene.info/pildid/gildhalloweenspecial.webp"
   },
   {
    "sait": "klubi",
@@ -1158,6 +1179,44 @@
    "nb": "lisatud 09.10.2026 Silveri otsusega („jep“) — žanrit ega koosseisu üritus ei ütle, aga korraldaja on 5MIINUST (+ D3). Kaks allikat: FB event + GateMe piletileht.",
    "img": "https://rap.skene.info/pildid/halloweenirammar.webp",
    "vu": "https://www.d-3.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-31",
+   "t": "klubi",
+   "n": "360° Tartu: Halloween Rave",
+   "a": "kell 22.00–04.00, 18+; kaks lava: Main Stage techno / hard groove / rave, Underground Stage indie dance / groovy sounds",
+   "b": [
+    "DNKA",
+    "ERØS",
+    "HANS",
+    "INDRA SMITH",
+    "MAQ",
+    "NORA",
+    "QSLAP",
+    "VAAN",
+    "ORXRO",
+    "360° residendid"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/e2e43a4a-728e-41c7-bc14-4159ee794ca8",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1651771623285212",
+   "pu": "https://sviby.com/et/e/zud7ci",
+   "hind": {
+    "praegu": "8€",
+    "mark": "tavapilet; varajane 5€, hiline/uksel 10€; garderoob 2€",
+    "allikas": "kluub.ee (ürituse kirjeldus), kontrollitud 28.10.2026"
+   },
+   "lisatud": "2026-10-28",
+   "vu": "https://genklubi.ee/",
+   "nb": "lisatud postkastijooksus 28.10.2026 kluub.ee Tartu nimekirjast (samm 2c). Kaks allikat: kluub.ee ürituseleht (FB-eventist: koosseis lavade kaupa, žanrid „Techno, Hardgroove, Indie Dance“, hinnad, Sviby piletilink) + technobeatscloud.com (https://technobeatscloud.com/en/events/event/360-tartu-halloween-rave-genialistide-klubi-2026-10-31: L 31.10.2026 22.00, Genialistide Klubi, DNKA/Indra Smith/MaQ/Nora/QSLAP, alates 5€). FB event ja Sviby ei olnud masinloetavad. Sari 360° Tartu juba klubis (MERIMELL 18.09).",
+   "img": "https://klubi.skene.info/pildid/360tartuhalloweenrave.webp"
   },
   {
    "sait": "rap",

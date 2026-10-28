@@ -216,7 +216,8 @@
    "praegu": "10 € (toetajapilet)",
    "mark": "Fienta: toetajapilet 10 €; lehel ka „The event is donation based\"",
    "allikas": "Fienta + kluub.ee, kontrollitud 25.10.2026"
-  }
+  },
+  "img": "pildid/ruraltapesnohendrikkaljujarv.webp"
  },
  {
   "d": "2026-10-30",
@@ -245,7 +246,8 @@
    "allikas": "GateMe / FB event, kontrollitud 25.10.2026"
   },
   "lisatud": "2026-10-26",
-  "nb": "SILVERI OTSUS 25.10.2026 (\"las läheb sisse\") - sweep/otsused.json oid gild-halloween-klubi-neli-2026-10-30, valik (a). Allikad: FB event + GateMe (korraldaja Music Academy OÜ) + kluub.ee. Ürituse leht žanrit ei nimeta; sildid house/techno Gildi profiili järgi (toimetaja valik), Club Side on hip-hop."
+  "nb": "SILVERI OTSUS 25.10.2026 (\"las läheb sisse\") - sweep/otsused.json oid gild-halloween-klubi-neli-2026-10-30, valik (a). Allikad: FB event + GateMe (korraldaja Music Academy OÜ) + kluub.ee. Ürituse leht žanrit ei nimeta; sildid house/techno Gildi profiili järgi (toimetaja valik), Club Side on hip-hop.",
+  "img": "pildid/gildhalloweenspecial.webp"
  },
  {
   "d": "2026-11-06",
@@ -2101,5 +2103,42 @@
   "lisatud": "2026-10-23",
   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Vaip Events, Helitehas) + Fienta (koosseis, žanr).",
   "img": "pildid/vaipeventstherapysessionstallinn2027.webp"
+ },
+ {
+  "d": "2026-10-31",
+  "t": "klubi",
+  "n": "360° Tartu: Halloween Rave",
+  "a": "kell 22.00–04.00, 18+; kaks lava: Main Stage techno / hard groove / rave, Underground Stage indie dance / groovy sounds",
+  "b": [
+   "DNKA",
+   "ERØS",
+   "HANS",
+   "INDRA SMITH",
+   "MAQ",
+   "NORA",
+   "QSLAP",
+   "VAAN",
+   "ORXRO",
+   "360° residendid"
+  ],
+  "v": "Genialistide Klubi",
+  "c": "Tartu",
+  "g": [
+   "techno"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tartu/e2e43a4a-728e-41c7-bc14-4159ee794ca8",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1651771623285212",
+  "pu": "https://sviby.com/et/e/zud7ci",
+  "hind": {
+   "praegu": "8€",
+   "mark": "tavapilet; varajane 5€, hiline/uksel 10€; garderoob 2€",
+   "allikas": "kluub.ee (ürituse kirjeldus), kontrollitud 28.10.2026"
+  },
+  "lisatud": "2026-10-28",
+  "vu": "https://genklubi.ee/",
+  "nb": "lisatud postkastijooksus 28.10.2026 kluub.ee Tartu nimekirjast (samm 2c). Kaks allikat: kluub.ee ürituseleht (FB-eventist: koosseis lavade kaupa, žanrid „Techno, Hardgroove, Indie Dance“, hinnad, Sviby piletilink) + technobeatscloud.com (https://technobeatscloud.com/en/events/event/360-tartu-halloween-rave-genialistide-klubi-2026-10-31: L 31.10.2026 22.00, Genialistide Klubi, DNKA/Indra Smith/MaQ/Nora/QSLAP, alates 5€). FB event ja Sviby ei olnud masinloetavad. Sari 360° Tartu juba klubis (MERIMELL 18.09).",
+  "img": "pildid/360tartuhalloweenrave.webp"
  }
 ]
