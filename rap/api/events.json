@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 200,
+ "count": 201,
  "entries": [
   {
    "sait": "www",
@@ -1630,6 +1630,36 @@
    "lisatud": "2026-10-23",
    "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Parabol, Risk Baar, Artifer, bloodfeather jt) + piletikiosk.ee piletileht (link ürituse tekstis). Žanr ürituse tekstist: emo-hitid + LIVE bändid (Artifer 'modern heavy music', Pale Alison 'modern metal'). Tartu õhtu 04.12 eraldi kirjena.",
    "img": "https://www.skene.info/pildid/emonight2026tallinn.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "ETK 13: Mihkel Kuusk (live) + muusikabingo",
+   "a": "Erinevate Tubade Klubi 13. sünnipäev; uksed 20.30, 21.30 muusikabingo (Marta Püssa), 23.00 Mihkel Kuusk live, 00.00 väikses saalis DJ-d MVP & Dr. Philgood; kestab kuni 02.00",
+   "b": [
+    "Mihkel Kuusk",
+    "MVP",
+    "Dr. Philgood"
+   ],
+   "v": "Erinevate Tubade Klubi",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "indie"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/et/etk-13-mihkel-kuusk-live-muusikabingo",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1929662088008542",
+   "pu": "https://fienta.com/et/etk-13-mihkel-kuusk-live-muusikabingo",
+   "hind": {
+    "praegu": "12–15 €",
+    "allikas": "Fienta, kontrollitud 29.10.2026",
+    "mark": "early bird 12 €, tavapilet 15 €, Muusikalinna noortepilet 5 €"
+   },
+   "lisatud": "2026-10-29",
+   "nb": "SILVERI OTSUS 28.10.2026 ('läheb sisse') = (a), sildid alt + indie korraldaja vormi žanriväljast. Kontaktivorm 27.10 (korraldaja ETK). Kaks allikat: FB event + Fienta (kuupäev, ajakava, hinnad). Fienta žanrit ei nimeta."
   },
   {
    "sait": "www",
