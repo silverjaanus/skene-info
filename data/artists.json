@@ -79,6 +79,14 @@
         "hip hop"
       ]
     },
+    "360° residendid": {
+      "checked": "2026-10-30",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "hip hop"
+      ]
+    },
     "3H Company": {
       "checked": "2026-07-19",
       "domain": "rap",
@@ -87,6 +95,12 @@
         "abstract hip-hop",
         "rap"
       ]
+    },
+    "3viga": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "4-got-10": {
       "checked": "2026-07-25",
@@ -924,6 +938,12 @@
       "src": "none",
       "tags": []
     },
+    "Asheik": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Assemblage 23": {
       "checked": "2026-08-17",
       "domain": "klubi",
@@ -1257,6 +1277,12 @@
         "stoner",
         "awesomename"
       ]
+    },
+    "Benakanister": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Beneath Revalia": {
       "checked": "2026-08-21",
@@ -2306,6 +2332,21 @@
       "src": "none",
       "tags": []
     },
+    "DJ HEITI.ETS": {
+      "checked": "2026-10-30",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "noise",
+        "ambient",
+        "experimental",
+        "sampling",
+        "calming",
+        "vaporwave",
+        "broken transmission",
+        "signalwave"
+      ]
+    },
     "DJ Hyyru": {
       "checked": "2026-10-16",
       "domain": "klubi",
@@ -2361,6 +2402,12 @@
         "deu",
         "non-musician"
       ]
+    },
+    "DJ Mehkel": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "DJ Nanette Manoir": {
       "checked": "2026-09-09",
@@ -2430,6 +2477,12 @@
     },
     "DJ Robert Linna": {
       "checked": "2026-07-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "DJ Rouge Ruuž": {
+      "checked": "2026-10-30",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -2867,6 +2920,12 @@
         "soundtrack",
         "vgm"
       ]
+    },
+    "Dr. Philgood": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Dr. Smeđi Šećer": {
       "checked": "2026-09-25",
@@ -3336,6 +3395,12 @@
         "symphonic metal"
       ]
     },
+    "Evert Poom": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Evestus": {
       "checked": "2026-07-19",
       "domain": "klubi",
@@ -3456,6 +3521,12 @@
     },
     "Fakign (live)": {
       "checked": "2026-08-28",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Fat Harry": {
+      "checked": "2026-10-30",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -4103,6 +4174,17 @@
       "src": "none",
       "tags": []
     },
+    "HANS": {
+      "checked": "2026-10-30",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "hans",
+        "hans solo",
+        "hiphop",
+        "covers"
+      ]
+    },
     "HLZ": {
       "checked": "2026-08-21",
       "domain": "klubi",
@@ -4241,6 +4323,16 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Hasswald": {
+      "checked": "2026-10-30",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "raw black metal",
+        "black metal",
+        "estonia"
+      ]
     },
     "Hate": {
       "checked": "2026-07-13",
@@ -4470,6 +4562,17 @@
         "black metal",
         "metal",
         "punk"
+      ]
+    },
+    "Holy Motors": {
+      "checked": "2026-10-30",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "dream pop",
+        "indie pop",
+        "estonia",
+        "shoegaze"
       ]
     },
     "Holycen": {
@@ -4994,6 +5097,18 @@
       "src": "none",
       "tags": []
     },
+    "Jojo": {
+      "checked": "2026-10-30",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "pop",
+        "rnb",
+        "female vocalists",
+        "soul",
+        "jojo"
+      ]
+    },
     "Joni DJ": {
       "checked": "2026-08-07",
       "domain": "klubi",
@@ -5007,6 +5122,19 @@
         "pop",
         "special purpose artist",
         "jungle"
+      ]
+    },
+    "Joodikud ja Narkarid": {
+      "checked": "2026-10-30",
+      "domain": "rap",
+      "src": "musicbrainz",
+      "tags": [
+        "hip hop",
+        "gangsta rap",
+        "pop rap",
+        "hip hop rnb and dance hall",
+        "east coast hip hop",
+        "hardcore hip hop"
       ]
     },
     "Jooseppro": {
@@ -5479,6 +5607,14 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Kerzenlicht": {
+      "checked": "2026-10-30",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "black metal"
+      ]
     },
     "Kevin": {
       "checked": "2026-08-07",
@@ -6240,6 +6376,12 @@
         "metal"
       ]
     },
+    "Le Petit Chat": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "LeHANNA": {
       "checked": "2026-08-22",
       "domain": "unclear",
@@ -6605,6 +6747,18 @@
         "jungle"
       ]
     },
+    "MAQ": {
+      "checked": "2026-10-30",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "rap",
+        "hardcore",
+        "ehh",
+        "all",
+        "maq"
+      ]
+    },
     "MATĒRIA": {
       "checked": "2026-08-17",
       "domain": "klubi",
@@ -6686,6 +6840,16 @@
         "japan",
         "anime",
         "super robot"
+      ]
+    },
+    "MVP": {
+      "checked": "2026-10-30",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "jazz fusion",
+        "fusion",
+        "heavy metal"
       ]
     },
     "MYSTY": {
@@ -7464,6 +7628,12 @@
       "src": "none",
       "tags": []
     },
+    "Mordhorst Syndicate": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Motelli Skronkle": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -7591,6 +7761,12 @@
       "src": "none",
       "tags": []
     },
+    "NE'ER": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "NEOONDREED": {
       "checked": "2026-07-28",
       "domain": "unknown",
@@ -7631,6 +7807,20 @@
       "src": "none",
       "tags": []
     },
+    "NORA": {
+      "checked": "2026-10-30",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "hardcore",
+        "metalcore",
+        "drum and bass",
+        "hip hop",
+        "phonk",
+        "jungle",
+        "juke"
+      ]
+    },
     "Nahakiin": {
       "checked": "2026-08-14",
       "domain": "www",
@@ -7641,6 +7831,12 @@
         "estonia",
         "hardcore"
       ]
+    },
+    "Naked Reagan": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Napalm Death": {
       "checked": "2026-07-13",
@@ -7778,6 +7974,12 @@
         "raw black metal"
       ]
     },
+    "Nohkarid": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Noizmakaz": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -7902,6 +8104,27 @@
         "hip hop"
       ]
     },
+    "Nuclear Conflict (UA/LV)": {
+      "checked": "2026-10-30",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "japanese",
+        "j-pop",
+        "likedis auto"
+      ]
+    },
+    "Numbskull": {
+      "checked": "2026-10-30",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "new zealand",
+        "hardcore",
+        "nyhc",
+        "hardcore punk"
+      ]
+    },
     "Numento": {
       "checked": "2026-07-13",
       "domain": "www",
@@ -7968,6 +8191,12 @@
         "gangsta rap",
         "rap"
       ]
+    },
+    "ORXRO": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "ORYMA": {
       "checked": "2026-09-18",
@@ -8101,6 +8330,15 @@
       "src": "none",
       "tags": []
     },
+    "Ots": {
+      "checked": "2026-10-30",
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "baritone",
+        "singer"
+      ]
+    },
     "Oulun_Keskusta": {
       "checked": "2026-08-14",
       "domain": "www",
@@ -8182,6 +8420,27 @@
       "src": "none",
       "tags": []
     },
+    "PATAREI": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "PBM": {
+      "checked": "2026-10-30",
+      "domain": "rap",
+      "src": "lastfm",
+      "tags": [
+        "hooligans",
+        "uber alles silesia",
+        "silesia",
+        "polski rap",
+        "ruch chorzow",
+        "hoolie-hop",
+        "niebiescy",
+        "silesia terror"
+      ]
+    },
     "PEYGAN": {
       "checked": "2026-09-18",
       "domain": "unclear",
@@ -8208,6 +8467,12 @@
       "src": "none",
       "tags": []
     },
+    "PM2THEAM": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "PMDR": {
       "checked": "2026-09-18",
       "domain": "unknown",
@@ -8224,6 +8489,12 @@
         "rnb",
         "rap"
       ]
+    },
+    "PRODIGYBOYS": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "PX Band": {
       "checked": "2026-07-28",
@@ -9892,6 +10163,17 @@
         "groove metal"
       ]
     },
+    "Serotonin Zero": {
+      "checked": "2026-10-30",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "metal",
+        "hardcore",
+        "neocrust",
+        "black metal"
+      ]
+    },
     "Sever": {
       "checked": "2026-07-19",
       "domain": "www",
@@ -10804,6 +11086,12 @@
         "uk"
       ]
     },
+    "TV Motel": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Taak": {
       "checked": "2026-09-09",
       "domain": "www",
@@ -11555,6 +11843,12 @@
         "black metal"
       ]
     },
+    "Tumeaine": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Turik": {
       "checked": "2026-08-22",
       "domain": "unknown",
@@ -11811,6 +12105,12 @@
         "usbm"
       ]
     },
+    "Vaibonite": {
+      "checked": "2026-10-30",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Valk": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -11973,6 +12273,14 @@
         "melancholic",
         "finnish metal",
         "heavy metal"
+      ]
+    },
+    "Villu Tamme": {
+      "checked": "2026-10-30",
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "punk"
       ]
     },
     "Violetscape": {
@@ -13255,5 +13563,5 @@
       "tags": []
     }
   },
-  "updated": "2026-10-23"
+  "updated": "2026-10-30"
 }

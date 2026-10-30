@@ -6113,6 +6113,26 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1562195731457255/",
    "vu": "https://unibetarena.ee/"
+  },
+  {
+   "d": "2026-10-29",
+   "t": "kontsert",
+   "n": "Sudden Lights (LV)",
+   "a": "Läti indie-rock; TALK TO ME TOUR",
+   "b": [
+    "Sudden Lights (LV)"
+   ],
+   "v": "Fotografiska",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "suddenlights.lv",
+   "su": "https://www.suddenlights.lv/lv/concerts",
+   "nb": "lisatud 02.08.2026 Silveri otsusel. Tallinna kuupäev tuli välja alles bändi enda tuurikalendrist — sweep nägi ainult Tartu oma. Žanr indie-pop/rock, piiripealne, Silver otsustas 'läheb'.",
+   "img": "pildid/suddenlightslv.webp",
+   "vu": "https://tallinn.fotografiska.com/et"
   }
  ]
 }

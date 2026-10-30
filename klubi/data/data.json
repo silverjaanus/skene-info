@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "entries": [
   {
    "d": "2026-09-23",
@@ -194,6 +194,24 @@
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. released October 14, 2026 (Polar Wax); tech house, acid house, bleep techno.",
    "img": "pildid/wombatthebeepepplrxep1.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-10-16",
+   "lisatud": "2026-10-30",
+   "t": "reliis",
+   "n": "Vaibonite — «Binary EP»",
+   "a": "tech house / techno, instrumentaalne",
+   "b": [
+    "Vaibonite"
+   ],
+   "g": [
+    "techno",
+    "house"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://vaibonite.bandcamp.com/album/binary-ep",
+   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026)."
   },
   {
    "d": "2026-10-30",
@@ -634,8 +652,10 @@
     "allikas": "Fienta (API), kontrollitud 23.10.2026"
    },
    "lisatud": "2026-10-23",
-   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: RA (koosseis Micaela Saraceno, QSLAP) + Fienta piletileht (kuraator, house). Ürituse FB eventi ei leidnud.",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: RA (koosseis Micaela Saraceno, QSLAP) + Fienta piletileht (kuraator, house). Ürituse FB eventi ei leidnud. | 30.10.2026 sweep: rikastatud (ou, on_).",
    "img": "pildid/cherryontopatmodclub.webp",
+   "ou": "https://www.facebook.com/events/1589674182351134/",
+   "on_": "Facebook event",
    "vu": "https://www.facebook.com/Modtln"
   },
   {
@@ -783,6 +803,37 @@
    "vu": "https://www.klubigutenberg.ee/"
   },
   {
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "Beats From The Vault — Rakvere",
+   "a": "kell 22.00–04.00; tumemuusika tantsupidu, esimest korda Rakveres",
+   "b": [
+    "Cly/Suva",
+    "4-got-10",
+    "Numbskull"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "dark",
+    "ebm",
+    "darkwave"
+   ],
+   "sn": "Kära Kants FB grupi events-tab",
+   "su": "https://www.facebook.com/groups/112392415448166/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1116335844587618/",
+   "yu": "https://www.youtube.com/beatsfromthevault",
+   "hind": {
+    "praegu": "7€ klubikaardiga kuni südaööni / 9€",
+    "mark": "uksel",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (Oleg Knjazev, Anders Melts) + Kära Kantsi events-tab. BFTV sari on klubi-saidil (metal-blocklistis nimeblokk).",
+   "lisatud": "2026-10-30"
+  },
+  {
    "d": "2026-11-14",
    "t": "kontsert",
    "n": "HARD NATION 16 B-DAY x RAN-D (NL)",
@@ -863,6 +914,28 @@
    "lisatud": "2026-10-23",
    "nb": "lisatud sweepis 23.10.2026 Fienta API diffist; piletimüügi leht (REEGLID §3 erand). Gild on sources.json RA-korraldaja. Žanr Fienta tekstist ('good electronic dance music'; Fienta sildid house/techno).",
    "img": "pildid/gildatmaisondiowbarseghianlvkepler.webp"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "klubi",
+   "n": "PURGATOORIUM // DJ Rouge Ruuž",
+   "a": "uksed 20.00, DJ 23.00–05.00; meloodiline techno ja psytrance -> industrial, hard techno, schranz",
+   "b": [
+    "DJ Rouge Ruuž"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "psytrance",
+    "industrial"
+   ],
+   "sn": "Kivi baari FB events-tab",
+   "su": "https://www.facebook.com/kivibaar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1858667318448951/",
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab. Žanrid ürituse enda tekstist.",
+   "lisatud": "2026-10-30"
   },
   {
    "d": "2026-11-20",
@@ -1051,27 +1124,23 @@
    }
   },
   {
+   "rel": 1,
    "d": "2026-11-27",
-   "t": "klubi",
-   "n": "Attend with MANDIDEXTROUS (UK) + Sound In Noise",
-   "a": "23.00–04.00; speedbass / jungletek",
+   "lisatud": "2026-10-30",
+   "t": "reliis",
+   "n": "Squash — «Big Motion» (HEALER003)",
+   "a": "Healer Records; progressive / minimal / tech house; eeltellimus",
    "b": [
-    "Mandidextrous (UK)",
-    "Sound In Noise"
+    "Squash"
    ],
-   "v": "Helitehas",
-   "c": "Tallinn",
    "g": [
-    "dnb",
-    "bass"
+    "house",
+    "techno",
+    "minimal"
    ],
-   "sn": "Resident Advisor",
-   "su": "https://ra.co/events/2536031",
-   "pu": "https://www.gateme.com/et/helitehas/104248-attend-with-mandidextrous-uk-drum-and-bass-event/",
-   "lisatud": "2026-10-23",
-   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: RA (Drum & Bass, Techno) + GateMe piletileht (korraldaja OÜ Events of ID). Helitehase FB events-tab ega helitehas.ee 23.10 seda ei näidanud.",
-   "img": "pildid/attendwithmandidextrousuksoundinnoise.webp",
-   "vu": "https://helitehas.ee/"
+   "sn": "Bandcamp",
+   "su": "https://healerrecords.bandcamp.com/album/big-motion-healer003",
+   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel."
   },
   {
    "d": "2026-11-28",

@@ -476,7 +476,81 @@
   ],
   "sn": "ERR kultuur",
   "su": "https://kultuur.err.ee/1610177200/margiiela-avaldas-teise-taispika-albumi-hall-ala",
-  "nb": "leitud postkastijooksus 28.10.2026 Legendaarne Records uudiskirjast (27.10, https://mailchi.mp/a0fd1b332a04/margiiela). Kaks allikat: label Legendaarne Records (uudiskiri) + ERR kultuur 26.10.2026 („andis esmaspäeval välja“ = 26.10.2026). Voogedastuse otselinki ei leidnud – täienda sweepis (ou).",
-  "img": "pildid/margiielahallala.webp"
+  "nb": "leitud postkastijooksus 28.10.2026 Legendaarne Records uudiskirjast (27.10, https://mailchi.mp/a0fd1b332a04/margiiela). Kaks allikat: label Legendaarne Records (uudiskiri) + ERR kultuur 26.10.2026 („andis esmaspäeval välja“ = 26.10.2026). Voogedastuse otselinki ei leidnud – täienda sweepis (ou). | 30.10.2026 sweep: rikastatud (ou, on_).",
+  "img": "pildid/margiielahallala.webp",
+  "ou": "https://legendaarne.ee/margiiela-hall-ala-album-on-nuud-valjas/",
+  "on_": "Legendaarne Records"
+ },
+ {
+  "d": "2026-11-06",
+  "t": "kontsert",
+  "n": "Beebilõust live",
+  "a": "uksed 20.00, Beebilõust hoovis 23.00–23.45, pärast DJ HEITI.ETS retro tantsuõhtu kuni 05.00",
+  "b": [
+   "Beebilõust",
+   "DJ HEITI.ETS"
+  ],
+  "v": "Kivi baar",
+  "c": "Tartu",
+  "g": [
+   "räpp"
+  ],
+  "sn": "Kivi baari FB events-tab",
+  "su": "https://www.facebook.com/kivibaar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1517505706852335/",
+  "hind": {
+   "praegu": "5€ / ISIC & ESN 3€",
+   "mark": "kell 21.00–23.45",
+   "allikas": "FB event, kontrollitud 30.10.2026"
+  },
+  "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab. Žanr ürituse tekstist („teravad riimid“).",
+  "lisatud": "2026-10-30",
+  "img": "pildid/beebiloustlive.webp"
+ },
+ {
+  "d": "2026-11-13",
+  "t": "kontsert",
+  "n": "Benakanister",
+  "a": "uksed 20.00, DJ Mehkel 22.00, Benakanister live 23.00–00.00 + üllatusesinejad; album «Kroomitud» müügil",
+  "b": [
+   "Benakanister",
+   "DJ Mehkel"
+  ],
+  "v": "Kivi baar",
+  "c": "Tartu",
+  "g": [
+   "räpp"
+  ],
+  "sn": "Kivi baari FB events-tab",
+  "su": "https://www.facebook.com/kivibaar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2403780643755236/",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "",
+   "allikas": "FB event, kontrollitud 30.10.2026"
+  },
+  "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab.",
+  "lisatud": "2026-10-30",
+  "img": "pildid/benakanister.webp"
+ },
+ {
+  "rel": 1,
+  "d": "2026-10-28",
+  "lisatud": "2026-10-30",
+  "t": "reliis",
+  "n": "PRODIGYBOYS — «MOOSEKANDID»",
+  "a": "teine täispikk album, 13 lugu (~33 min); külalised Kermo Murel, triibupasta, Legend, maria kallastu; liigub universaalsema popmuusika suunas",
+  "b": [
+   "PRODIGYBOYS"
+  ],
+  "g": [
+   "räpp"
+  ],
+  "sn": "MuusikaPlaneet",
+  "su": "https://muusikaplaneet.ee/2026/10/28/moosekandid/",
+  "nb": "lisatud sweepis 30.10.2026. Allikas MuusikaPlaneet (avaldati 28.10.2026). ⚠ Album liigub popi suunas — kui Silver leiab, et see on peavool, eemalda.",
+  "img": "pildid/prodigyboysmoosekandid.webp"
  }
 ]

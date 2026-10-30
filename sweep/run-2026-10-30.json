@@ -1,0 +1,229 @@
+{
+ "kuupaev": "2026-10-30",
+ "allikaid": 261,
+ "avatud": 207,
+ "skipitud": [
+  {
+   "url": "https://mahtrarecords.bandcamp.com/music",
+   "pohjus": "Bandcampi konto - valvab check_bandcamp.py (Andmekorje)"
+  },
+  {
+   "url": "Nailboard Rock Shop",
+   "pohjus": "URL puudub sources.json-is"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61589996739004",
+   "pohjus": "Roots Session FB profiil ilma events-tabita (eelmised jooksud tühjad) - ajapiirang"
+  },
+  {
+   "url": "https://pergerus.eu/et/tarbariitus/",
+   "pohjus": "pergerus.eu TLS sert vigane (ERR_CERT_AUTHORITY_INVALID) - ei avanenud"
+  },
+  {
+   "url": "https://www.kluub.ee/et/offline-club",
+   "pohjus": "kluub.ee OFFLINE venue-leht - kluub.ee kaetud igapäevase postkastijooksuga"
+  },
+  {
+   "url": "https://fienta.com/et/ule-heli-2026",
+   "pohjus": "Üle Heli 2026 Fienta leht - üritus möödas (22.-25.10)"
+  },
+  {
+   "url": "https://open.spotify.com/artist/1HdUHMOL9c4UEdLJXcqzBX",
+   "pohjus": "Spotify - uute reliiside nimekirja ei anna; valvab Bandcamp/discover"
+  },
+  {
+   "url": "https://tuleb.ee",
+   "pohjus": "tuleb.ee TLS sert vigane (ERR_CERT_COMMON_NAME_INVALID) - ei avanenud"
+  },
+  {
+   "url": "https://allevents.in",
+   "pohjus": "allevents.in juurleht - avatud allevents.in/tallinn/raves (223)"
+  },
+  {
+   "url": "https://beyondtartu.bandcamp.com/",
+   "pohjus": "Bandcampi konto - valvab check_bandcamp.py (Andmekorje)"
+  },
+  {
+   "url": "https://fuzzolini.bandcamp.com/",
+   "pohjus": "Bandcampi konto - valvab check_bandcamp.py (Andmekorje)"
+  },
+  {
+   "url": "https://townflesh.bandcamp.com/",
+   "pohjus": "Bandcampi konto - valvab check_bandcamp.py (Andmekorje)"
+  },
+  {
+   "url": "https://mangont.bandcamp.com/",
+   "pohjus": "Bandcampi konto - valvab check_bandcamp.py (Andmekorje)"
+  },
+  {
+   "url": "https://seksound.bandcamp.com/music",
+   "pohjus": "Bandcampi konto - valvab check_bandcamp.py (Andmekorje)"
+  },
+  {
+   "url": "https://open.spotify.com/album/0f1frSX9J6YyMZLkMDtLxs",
+   "pohjus": "Spotify - uute reliiside nimekirja ei anna; valvab Bandcamp/discover"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "pohjus": "Bandcamp discover electronic/experimental - ajapiirang, techno/house tagid avatud"
+  },
+  {
+   "url": "https://bandcamp.com/discover/estonia?tags=experimental&s=new",
+   "pohjus": "Bandcamp discover electronic/experimental - ajapiirang, techno/house tagid avatud"
+  },
+  {
+   "url": "https://www.facebook.com/events/1919070542120379",
+   "pohjus": "üksik FB event (Wambola), möödunud - ajapiirang"
+  },
+  {
+   "url": "https://ra.co/events/ee/all",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/235784",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/265290",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/151795",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/147536",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/268078",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/266488",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/277713",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/165290",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/229208",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/289641",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/135627",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/274650",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/171803",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/258847",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/256380",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/clubs/130421",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/114408",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/167566",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/34191",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/168166",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/112914",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/166316",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/114452",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/154074",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/117673",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/126462",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/182414",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/169601",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/152869",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/186216",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/190547",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/191300",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://ra.co/promoters/112333",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  },
+  {
+   "url": "https://hidden-harmony.bandcamp.com/music",
+   "pohjus": "Bandcampi konto - valvab check_bandcamp.py (Andmekorje)"
+  },
+  {
+   "url": "https://ra.co/clubs/291356",
+   "pohjus": "ra.co -> sweep/ra_snapshot.json (tommatud 29.10.2026)"
+  }
+ ],
+ "uusi": {
+  "www": 11,
+  "rap": 3,
+  "klubi": 4
+ },
+ "markus": ""
+}

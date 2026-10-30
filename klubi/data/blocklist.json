@@ -105,5 +105,15 @@
   "d": "2026-09-01",
   "n": "Scvmfvcks - «United untitled»",
   "nb": "VÄLJA 22.09.2026, SILVERI OTSUS (§4 punkt 4 = (a)): „ei lisa kui nad nii jõudsalt tahavad eesti päritolu peita“. Reliis, 9 lugu, label ost euro, mis kirjeldab end „somewhere in Eastern Europe“. https://osteuro.bandcamp.com/album/united-untitled · https://osteuro.bandcamp.com/ . Kahe allika reegel oli täidetud (Rada7 uudiskiri + Bandcamp), takerdus AINULT geograafia taha: klubi on „ainult Eesti“. ⚠ osteuro.bandcamp.com EI ole sources.json-is, seega check_bandcamp seda ei valva ja bandcamp_seen.json-i ack ei ole vaja."
+ },
+ {
+  "d": "2026-11-27",
+  "n": "Attend with MANDIDEXTROUS (UK) + Sound In Noise",
+  "nb": "TÜHISTATUD — helitehas.ee kavas 30.10.2026 märge „TÜHISTATUD“; GateMe ürituse aeg muudetud 19.10 13:30 ja müük suletud. Kirje eemaldati klubi manual.json-ist sweepis 30.10.2026."
+ },
+ {
+  "d": "2026-10-31",
+  "n": "HALLoween: Hall's official Halloween party",
+  "nb": "DUPLIKAAT 30.10.2026: sweep lisas RA snapshotist sama ürituse teise nimega; kureeritud kirje on 'HALLoween: Dance 'Till Death!' (HALL FB + GateMe). Blokk kustutab kummituse."
  }
 ]
