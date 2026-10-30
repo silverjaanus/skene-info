@@ -1,20 +1,20 @@
 {
- "kuupaev": "2026-10-23",
- "aeg": "2026-10-23T12:27+03:00",
+ "kuupaev": "2026-10-30",
+ "aeg": "2026-10-30T12:57+02:00",
  "seis": "saadetud",
  "ambrid": [
-  "send:metal+klubi:et 2 tellijat 50 kirjet",
-  "send:metal+rap+klubi:et 3 tellijat 56 kirjet",
-  "send:metal+rap:et 2 tellijat 38 kirjet",
-  "send:metal:et 35 tellijat 32 kirjet",
-  "send:rap+klubi:et 1 tellijat 24 kirjet"
+  "send:metal+klubi:et 3 tellijat 62 kirjet",
+  "send:metal+rap+klubi:et 3 tellijat 70 kirjet",
+  "send:metal+rap:et 2 tellijat 49 kirjet",
+  "send:metal:et 35 tellijat 41 kirjet",
+  "send:rap+klubi:et 1 tellijat 29 kirjet"
  ],
  "kampaaniad": [
-  "202110345340257714",
-  "202110383055439478",
-  "202110419430540617",
-  "202110515925747033",
-  "202110551137978259"
+  "202750225653171240",
+  "202750262473918263",
+  "202750298160104777",
+  "202750392924112362",
+  "202750427262879200"
  ],
- "tellijaid": 43
+ "tellijaid": 44
 }
