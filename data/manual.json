@@ -4609,5 +4609,60 @@
   "su": "https://deilegium.bandcamp.com/album/long-ago",
   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
   "img": "pildid/deilegiumlongago.webp"
+ },
+ {
+  "d": "2026-11-05",
+  "t": "kontsert",
+  "n": "Kaisa Kuslapuu «vaŕo» albumiesitlus — Tallinn",
+  "a": "kell 19.00",
+  "b": [
+   "Kaisa Kuslapuu",
+   "Sam Gleason",
+   "Alan Mackie",
+   "Marti Tärn"
+  ],
+  "v": "Erinevate Tubade Klubi",
+  "c": "Tallinn",
+  "g": [
+   "indie",
+   "alt"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tallinn/164fbfb4-8087-44cb-8339-d648e6e2cfd9",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1640611844261558/",
+  "pu": "https://fienta.com/et/kaisa-kuslapuu-varo-albumiesitluskontsert-204674",
+  "hind": {
+   "praegu": "20€ / sooduspilet 18€",
+   "mark": "",
+   "allikas": "Fienta, kontrollitud 30.10.2026"
+  },
+  "lisatud": "2026-10-30",
+  "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr)."
+ },
+ {
+  "d": "2026-11-06",
+  "t": "kontsert",
+  "n": "Kaisa Kuslapuu «vaŕo» albumiesitlus — Tartu",
+  "a": "kell 19.00",
+  "b": [
+   "Kaisa Kuslapuu",
+   "Sam Gleason",
+   "Alan Mackie",
+   "Marti Tärn"
+  ],
+  "v": "Heino Elleri Muusikakool",
+  "c": "Tartu",
+  "g": [
+   "indie",
+   "alt"
+  ],
+  "sn": "Fienta",
+  "su": "https://fienta.com/et/kaisa-kuslapuu-varo-albumiesitluskontsert-204676",
+  "on_": "Heino Elleri Muusikakool",
+  "ou": "https://www.tmk.ee/events/kaisa-kuslapuu-varo-albumiesitluskontsert",
+  "pu": "https://fienta.com/et/kaisa-kuslapuu-varo-albumiesitluskontsert-204676",
+  "lisatud": "2026-10-30",
+  "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr). Kaks allikat: Fienta + tmk.ee ürituseleht. Hind kontrollimata."
  }
 ]
