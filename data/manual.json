@@ -1,31 +1,6 @@
 [
  {
   "d": "2026-10-15",
-  "t": "kontsert",
-  "n": "Malicious Death (FIN) + Sgt. Slime (FIN) + Hingerahu",
-  "a": "algus 20.00; kaks Soome thrash-bandi + Eesti heavy",
-  "b": [
-   "Malicious Death (FIN)",
-   "Sgt. Slime (FIN)",
-   "Hingerahu"
-  ],
-  "v": "Konservatoorium",
-  "c": "mujal",
-  "linn": "Viljandi",
-  "g": [
-   "thrash",
-   "metal",
-   "heavy"
-  ],
-  "sn": "Konservatoorium FB",
-  "su": "https://www.facebook.com/konservatoorium/events",
-  "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1452626903352793/",
-  "lisatud": "2026-09-04",
-  "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata."
- },
- {
-  "d": "2026-10-15",
   "d2": "18.11",
   "dd": [
    "2026-10-15",
@@ -4515,45 +4490,6 @@
  },
  {
   "rel": 1,
-  "d": "2026-09-03",
-  "lisatud": "2026-09-03",
-  "t": "reliis",
-  "n": "Esti Mation — «Welcome to the show»",
-  "a": "humoorikas power metal",
-  "b": [
-   "Esti Mation"
-  ],
-  "g": [
-   "power",
-   "metal"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://estimation.bandcamp.com/album/welcome-to-the-show",
-  "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
-  "img": "pildid/estimationwelcometotheshow.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-08-02",
-  "lisatud": "2026-08-02",
-  "t": "reliis",
-  "n": "klostriid — «klostriid»",
-  "a": "hardcore punk / metal, Kuressaare",
-  "b": [
-   "klostriid"
-  ],
-  "g": [
-   "punk",
-   "core",
-   "metal"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://klostriid.bandcamp.com/album/klostriid",
-  "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
-  "img": "pildid/klostriidklostriid.webp"
- },
- {
-  "rel": 1,
   "d": "2026-09-22",
   "lisatud": "2026-09-22",
   "t": "reliis",
@@ -4570,45 +4506,6 @@
   "su": "https://kevinifolkpunk.bandcamp.com/album/klassis-da-ja-t-lissaabas",
   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
   "img": "pildid/kevinklassisodajatoolissaabas.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-08-03",
-  "lisatud": "2026-08-03",
-  "t": "reliis",
-  "n": "Aur — «Demod»",
-  "a": "hardcore punk / post-hardcore",
-  "b": [
-   "Aur"
-  ],
-  "g": [
-   "punk",
-   "core"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://aurband.bandcamp.com/album/demod",
-  "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
-  "img": "pildid/aurdemod.webp"
- },
- {
-  "rel": 1,
-  "d": "2026-05-05",
-  "lisatud": "2026-05-05",
-  "t": "reliis",
-  "n": "Deilegium — «Long ago...»",
-  "a": "meloodiline black/death metal, Tallinn",
-  "b": [
-   "Deilegium"
-  ],
-  "g": [
-   "black",
-   "death",
-   "melodic"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://deilegium.bandcamp.com/album/long-ago",
-  "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
-  "img": "pildid/deilegiumlongago.webp"
  },
  {
   "d": "2026-11-05",
