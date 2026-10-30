@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "oid": "mediocris-uuslaine-2026-11-04",
+  "sait": "rap",
+  "uritus": "REINCARNATION: MEDIOCRIS — debüütalbumi esitluskontsert — K 04.11.2026 kl 20.00, Uus Laine, tasuta",
+  "link": "https://www.facebook.com/events/1733094121117755/",
+  "kysimus": "Kas lisame rap-saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "jah, rap-saidile"
+   },
+   {
+    "id": "b",
+    "tekst": "ei, jääb välja"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-04",
+  "miks": "Venekeelne räpp (artist ise: 'A rap performance in Russian'), kohalik debüütalbum, mitte Venemaa/Ukraina tuurikontsert — 09.10 otsus („RU/UA räpparite tuurikontserdid välja“) ei kata seda üheselt. Teine allikas: Uus Laine FB events-tab; piletimüüki pole (tasuta). Kell 21.00 boonusena DnB DJ-sett.",
+  "lingid": [
+   "https://www.facebook.com/events/1733094121117755/",
+   "https://www.facebook.com/uuslaine/events"
+  ],
+  "kontekst": "Leitud 30.10.2026 sweepis Uus Laine FB events-tabist. Ürituse tekst: 'A rap performance in Russian... My debut rap album explores...'. Event by Uus Laine. Ei lisatud, sest Silveri 09.10 pretsedent (venekeelsed RU/UA räpparite tuurid välja) on lähedane, aga see on kohaliku artisti albumiesitlus Uues Laines.",
+  "lisatud": "2026-10-30"
+ }
+]
