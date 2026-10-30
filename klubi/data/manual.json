@@ -2188,5 +2188,148 @@
   "sn": "Bandcamp",
   "su": "https://healerrecords.bandcamp.com/album/big-motion-healer003",
   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel."
+ },
+ {
+  "d": "2026-10-30",
+  "t": "klubi",
+  "n": "West Coast Swingaz | Kohvik Tops",
+  "a": "tasuta DJ-õhtu 21.00-03.00; 90ndate hingeline house, soul-funk-disco mõjutustega",
+  "b": [
+   "West Coast Swingaz"
+  ],
+  "v": "Kohvik Tops",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "disco"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tallinn/4a9655af-e0eb-4820-9e9e-3e40d6d65747",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1461817679177725",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "kluub.ee, kontrollitud 30.10.2026"
+  },
+  "lisatud": "2026-10-30",
+  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (TOPS + Tanel Matsalu, Soo 15) + kluub.ee. Žanr ürituse tekstist (house-gruuvid)."
+ },
+ {
+  "d": "2026-10-31",
+  "t": "klubi",
+  "n": "KIVI HALLOWEEN",
+  "a": "tasuta halloweenipidu 20.00-05.00; tume elektroonika, dnb/house/techno, 2000ndate Tartu techno-veteran Morten (16Volti)",
+  "b": [
+   "camelCase",
+   "Phan_Tom",
+   "Morten"
+  ],
+  "v": "Kivi baar",
+  "c": "Tartu",
+  "g": [
+   "techno",
+   "dnb",
+   "house",
+   "minimal"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tartu/9bd4ba62-2ff8-42a1-9f17-363bb665fa4b",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1745199979901271",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "kluub.ee, kontrollitud 30.10.2026"
+  },
+  "lisatud": "2026-10-30",
+  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (Event by Kivi baar) + kluub.ee. Žanrid ürituse tekstist."
+ },
+ {
+  "d": "2026-11-05",
+  "t": "kontsert",
+  "n": "Glitch Please: Edgy Palates & Mike McCormick / Maria Paiste & Sander Saarmets",
+  "a": "Glitch Please seeria; hääl ja süntees: Leedu eksperimentaalne vokaaltrio Edgy Palates + Mike McCormick reaalajas SuperCollideri-töötlusega („Manipulation Charm\"), Maria Paiste + Sander Saarmets improvisatsioon; 19.00-21.30, annetuspõhine",
+  "b": [
+   "Edgy Palates (LT)",
+   "Mike McCormick (CA/NO)",
+   "Maria Paiste",
+   "Sander Saarmets"
+  ],
+  "v": "Terminal Records&Bar",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "electro"
+  ],
+  "sn": "Rada7.ee uudiskiri 29.10.2026",
+  "su": "https://www.rada7.ee/uudiskiri/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1817000023095814",
+  "pu": "https://fienta.com/edgy-palates-lt-mike-mccormick-ca-no-maria-paiste-sander-saarmets",
+  "hind": {
+   "praegu": "annetus (toetajapilet 1-50+ €)",
+   "allikas": "Fienta, kontrollitud 30.10.2026"
+  },
+  "lisatud": "2026-10-30",
+  "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10)."
+ },
+ {
+  "d": "2026-11-13",
+  "t": "klubi",
+  "n": "Hämar Raamatukogu: Hea muusika pidu",
+  "a": "reede 13. pidu huba.club'is 22.00-03.00; cata (US): dnb, house, techno, UK garage, footwork; Metsiknaine (Tartu)",
+  "b": [
+   "Metsiknaine",
+   "cata (US)"
+  ],
+  "v": "huba.club",
+  "c": "Tartu",
+  "g": [
+   "dnb",
+   "house",
+   "techno"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tartu/e7bd4f9d-4ea0-499d-8cf2-9eacd4ca41a5",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/998488245924244",
+  "pu": "https://fienta.com/et/hamar-raamatukogu-hea-muusika-pidu",
+  "hind": {
+   "praegu": "6 € eelmüük / 8 € kohapeal (ainult sularaha)",
+   "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
+  },
+  "lisatud": "2026-10-30",
+  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus)."
+ },
+ {
+  "d": "2026-11-14",
+  "t": "klubi",
+  "n": "UNDERGROUND PENTHOUSE",
+  "a": "kõik DJ-setid vinüülilt + live: Wop Baob (live techno), Raakel Bloody Raakel; techno, electro, psytrance, digital hardcore; 20.00-04.00, ajakava TBA",
+  "b": [
+   "Wop Baob (live)",
+   "Raakel Bloody Raakel",
+   "Twisted Shaman",
+   "Mardus Guru",
+   "Miqq",
+   "Masin",
+   "Justin Casemon"
+  ],
+  "v": "huba.club",
+  "c": "Tartu",
+  "g": [
+   "techno",
+   "electro",
+   "psytrance"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tartu/f86614bb-4a4f-4aff-b96a-6023a7f72a07",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1674244060938482",
+  "hind": {
+   "praegu": "toetus 10 €",
+   "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
+  },
+  "lisatud": "2026-10-30",
+  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event + kluub.ee. Žanrid ürituse tekstist (DJ-de juures nimetatud)."
  }
 ]

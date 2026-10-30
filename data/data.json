@@ -631,7 +631,9 @@
    "a": "Halloweeni live: Eesti progeroki legend Phlox (keerukad rütmid + saksofon) ja Tallinna Surin (krautrock, post-rock, surf, punk, jazz)",
    "b": [
     "Phlox",
-    "Surin"
+    "Surin",
+    "Richard Jerbach",
+    "DJ Margo Pajula"
    ],
    "v": "Uus Laine",
    "c": "Tallinn",
@@ -649,7 +651,7 @@
     "allikas": "Fienta, kontrollitud 01.10.2026"
    },
    "lisatud": "2026-10-01",
-   "nb": "lisatud postkastijooksus 01.10.2026 (leitud Uus Laine kava kontrollimisel Fienta uudiskirja Alonette-kirje järel). Kaks allikat: Uus Laine veebikava (uuslaine.com, 31.10) + Fienta piletileht (korraldaja OÜ Uus Laine; žanrikirjeldus sealt). Ürituse FB-eventi venue kava ei lingi → ou tühi (Fienta ei tohi olla ou). Kellaaeg avaldamata. | 02.10.2026 sweep: leitud ürituse FB event (uuslaine.com lingib).",
+   "nb": "lisatud postkastijooksus 01.10.2026 (leitud Uus Laine kava kontrollimisel Fienta uudiskirja Alonette-kirje järel). Kaks allikat: Uus Laine veebikava (uuslaine.com, 31.10) + Fienta piletileht (korraldaja OÜ Uus Laine; žanrikirjeldus sealt). Ürituse FB-eventi venue kava ei lingi → ou tühi (Fienta ei tohi olla ou). Kellaaeg avaldamata. | 02.10.2026 sweep: leitud ürituse FB event (uuslaine.com lingib). RIKASTUS 30.10.2026 (postkastijooks, kluub.ee + Rada7): FB event `ou`; koosseisu lisandusid Richard Jerbach ja DJ Margo Pajula (FB eventi tekst).",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2090537124907780/",
    "img": "pildid/lainehalloweenlivephloxsurin.webp",
@@ -775,6 +777,41 @@
    "lisatud": "2026-10-15",
    "nb": "lisatud postkastijooksus 15.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + ürituse FB event (korraldajad CryBaby + Püssirohukelder; 31.10 kl 21, Lossi 28 Tartu, pilet 15 €). Žanr: CryBaby FB-leht 'Blues / Rock' (sama kui 10.10 Juuda kirjel). Online-piletilinki ei leitud.",
    "vu": "https://pyss.ee/"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Von Krahli 34. sünnipäev: I Am Bob + Vigri + Volta",
+   "a": "Von Krahli teatri 34. sünnipäev; päevane aktsioon „Jumalaga, Jussike!\" 12.00-st, live 21.00: I Am Bob (müra-/stoner rock), 22.00 Vigri (punk), 23.00 Volta („kogupere-smuutipunk\"); siis karaoke ja 00.34 PeldikuReiv (DJ-d)",
+   "b": [
+    "I Am Bob",
+    "Vigri",
+    "Volta",
+    "Holy Shit",
+    "Laxatiiv",
+    "Junnjunn"
+   ],
+   "v": "Von Krahl",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "stoner",
+    "punk",
+    "alt"
+   ],
+   "sn": "Rada7.ee uudiskiri 29.10.2026 + Fienta uudiskiri 29.10.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1457581172867762/",
+   "pu": "https://fienta.com/et/aktsioon-jumalaga-jussike-ja-von-krahli-34-sunnipaev",
+   "hind": {
+    "praegu": "peopilet 15 € (sissepääs 20.00-st)",
+    "mark": "terve päeva pilet 34 € / 20 € (alla 26, pensionär), toetajapilet 75 €",
+    "allikas": "Fienta, kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 + Fienta uudiskiri). Kaks allikat: Fienta piletileht (kuupäev, koht, koosseis, žanrisõnad „müra- ja stoner rocki projekt\", „pungigrupp\") + FB event Rada7 uudiskirjast. Žanr Fienta lehelt, mitte uudiskirjast.",
+   "vu": "https://vonkrahl.ee/"
   },
   {
    "d": "2026-10-31",
@@ -1125,6 +1162,27 @@
    "lisatud": "2026-10-29",
    "nb": "SILVERI OTSUS 28.10.2026 ('läheb sisse') = (a), sildid alt + indie korraldaja vormi žanriväljast. Kontaktivorm 27.10 (korraldaja ETK). Kaks allikat: FB event + Fienta (kuupäev, ajakava, hinnad). Fienta žanrit ei nimeta.",
    "img": "pildid/etk13mihkelkuusklivemuusikabingo.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Andres Roots: 30 aastat laval (Tartu)",
+   "a": "slaidkitarristi 30. lavajuubeli tuuri Tartu kontsert; 19.30-22.00",
+   "b": [
+    "Andres Roots"
+   ],
+   "v": "Contriber & Philly Joe's Tartu",
+   "c": "Tartu",
+   "g": [
+    "bluus"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/c4082b50-3681-4556-a495-5358ca10ed37",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1647682353527299",
+   "pu": "https://sviby.com/et/e/a1u6sj",
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (Contriber & Philly Joe's Tartu + Andres Roots, R 06.11 19.30-22.00, Kompanii 2) + kluub.ee; piletilink Sviby. Bluus -> www. Sama tuuri Pärnu kontsert 30.10 on eraldi kirje."
   },
   {
    "d": "2026-11-07",
