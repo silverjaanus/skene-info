@@ -115,6 +115,26 @@
   },
   {
    "rel": 1,
+   "d": "2026-05-05",
+   "lisatud": "2026-05-05",
+   "t": "reliis",
+   "n": "Deilegium — «Long ago...»",
+   "a": "meloodiline black/death metal, Tallinn",
+   "b": [
+    "Deilegium"
+   ],
+   "g": [
+    "black",
+    "death",
+    "melodic"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://deilegium.bandcamp.com/album/long-ago",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "pildid/deilegiumlongago.webp"
+  },
+  {
+   "rel": 1,
    "d": "2026-05-16",
    "lisatud": "2026-08-02",
    "t": "reliis",
@@ -1619,25 +1639,24 @@
    "img": "pildid/plaaditurgtourdeplaat2026.webp"
   },
   {
+   "rel": 1,
    "d": "2026-08-02",
+   "lisatud": "2026-08-02",
    "t": "reliis",
    "n": "klostriid — «klostriid»",
-   "a": "Kuressaare punk/hardcore-kollektiivi telefoniga filmitud demo; viies lugu «solaarne» on kaver Urmas Alendri samanimelisest palast",
+   "a": "hardcore punk / metal, Kuressaare",
    "b": [
     "klostriid"
    ],
    "g": [
     "punk",
-    "hardcore"
+    "core",
+    "metal"
    ],
    "sn": "Bandcamp",
-   "su": "https://klostriid.bandcamp.com/",
-   "on_": "Bandcamp",
-   "ou": "https://klostriid.bandcamp.com/",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti metal+punk tag-otsing). Bandcampi credits-rida: released August 2, 2026. Tag'id lehel: punk, hardcore, hardcore punk, metal punk, Kuressaare. 5 lugu, name-your-price. Koosseis kirjelduses: steven, juss, jaak ja rass",
-   "img": "pildid/klostriidklostriid.webp",
-   "rel": 1
+   "su": "https://klostriid.bandcamp.com/album/klostriid",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "pildid/klostriidklostriid.webp"
   },
   {
    "d": "2026-08-03",
@@ -1677,6 +1696,25 @@
    "pu": "https://fienta.com/et/kolmnurk-189716",
    "nb": "kontaktivormi sisend (Airi Triisberg, saadetud 2×); kinnitatud Fienta vastu 19.07.2026 (korraldaja Ostra MTÜ); Silveri otsus 19.07: lisada uue tüübiga 'muu' — pole kontsert, reliis ega merch",
    "img": "pildid/giidituurkolmnurk.webp"
+  },
+  {
+   "rel": 1,
+   "d": "2026-08-03",
+   "lisatud": "2026-08-03",
+   "t": "reliis",
+   "n": "Aur — «Demod»",
+   "a": "hardcore punk / post-hardcore",
+   "b": [
+    "Aur"
+   ],
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://aurband.bandcamp.com/album/demod",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "pildid/aurdemod.webp"
   },
   {
    "rel": 1,
@@ -3011,6 +3049,25 @@
    "nb": "lisatud sweepis 14.08.2026; allikad: Hell FB events-tab + FB event (Tiigi 76a). Hinnainfot event-lehel ei olnud",
    "img": "pildid/backtoschoolnahakiinnhpodehumanizerngr.webp",
    "vu": "https://www.facebook.com/punknrollhell/"
+  },
+  {
+   "rel": 1,
+   "d": "2026-09-03",
+   "lisatud": "2026-09-03",
+   "t": "reliis",
+   "n": "Esti Mation — «Welcome to the show»",
+   "a": "humoorikas power metal",
+   "b": [
+    "Esti Mation"
+   ],
+   "g": [
+    "power",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://estimation.bandcamp.com/album/welcome-to-the-show",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "pildid/estimationwelcometotheshow.webp"
   },
   {
    "d": "2026-09-04",

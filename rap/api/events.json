@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 224,
+ "count": 232,
  "entries": [
   {
    "sait": "www",
@@ -577,7 +577,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://vaibonite.bandcamp.com/album/binary-ep",
-   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026)."
+   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026).",
+   "img": "https://klubi.skene.info/pildid/vaibonitebinaryep.webp"
   },
   {
    "sait": "www",
@@ -1090,6 +1091,29 @@
    "vu": "https://kidrakuur.ee/"
   },
   {
+   "sait": "rap",
+   "d": "2026-10-30",
+   "t": "kontsert",
+   "n": "TÄHETUND: Solecline LIVE",
+   "a": "kell 20.00; algab Tähetunni raadiosaate avaliku lindistusega, siis Solecline live (räpist mõjutatud downtempo/trip-hop), pärast freestyle; DJ Lauri Täht",
+   "b": [
+    "Solecline",
+    "DJ Lauri Täht"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2627913437670193/",
+   "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + Legendaarse Raadio events-tab.",
+   "lisatud": "2026-10-30",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
    "sait": "klubi",
    "d": "2026-10-30",
    "t": "klubi",
@@ -1347,7 +1371,39 @@
     "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
    },
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + GateMe piletileht. Žanrit tekst ei nimeta; peaesineja PRODIGYBOYS (album «MOOSEKANDID» on rap-saidil) -> REEGLID §1 pretsedent: Eesti räppari peaesinetud pidu -> rap."
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + GateMe piletileht. Žanrit tekst ei nimeta; peaesineja PRODIGYBOYS (album «MOOSEKANDID» on rap-saidil) -> REEGLID §1 pretsedent: Eesti räppari peaesinetud pidu -> rap.",
+   "img": "https://rap.skene.info/pildid/halloweenxxxtravaganzasuhe.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Halloween at Fort Bar: Hirmuvalitseja + Asankheya + Daniels Pill + Abonent",
+   "a": "uksed 20.00, esimene bänd 21.00; kostüümis tervitusshot",
+   "b": [
+    "Hirmuvalitseja",
+    "Asankheya",
+    "Daniels Pill",
+    "Abonent"
+   ],
+   "v": "Fort bar",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Fort bari FB events-tab",
+   "su": "https://www.facebook.com/fortbar.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1671986647859571/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Ürituse leht bändide žanrit ei ütle; sildid üldised.",
+   "lisatud": "2026-10-30",
+   "vu": "https://www.facebook.com/fortbar.tallinn"
   },
   {
    "sait": "www",
@@ -1615,6 +1671,7 @@
    },
    "lisatud": "2026-10-30",
    "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 + Fienta uudiskiri). Kaks allikat: Fienta piletileht (kuupäev, koht, koosseis, žanrisõnad „müra- ja stoner rocki projekt\", „pungigrupp\") + FB event Rada7 uudiskirjast. Žanr Fienta lehelt, mitte uudiskirjast.",
+   "img": "https://www.skene.info/pildid/vonkrahli34sunnipaeviambobvigrivolta.webp",
    "vu": "https://vonkrahl.ee/"
   },
   {
@@ -1649,6 +1706,33 @@
    "lisatud": "2026-10-30",
    "img": "https://www.skene.info/pildid/serotoninzeroplvantajadeldereater.webp",
    "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-04",
+   "t": "kontsert",
+   "n": "REINCARNATION: MEDIOCRIS — debüütalbumi esitlus",
+   "a": "kell 20.00, tasuta; venekeelne räpp; 21.00 boonusena DnB DJ-sett",
+   "b": [
+    "Mediocris"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Uus Laine FB events-tab",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1733094121117755/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Otsustuspunkt mediocris-uuslaine-2026-11-04 -> (a). Kohaliku artisti albumiesitlus, mitte RU/UA tuur.",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -1708,7 +1792,8 @@
     "allikas": "Fienta, kontrollitud 30.10.2026"
    },
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10)."
+   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10).",
+   "img": "https://klubi.skene.info/pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
   },
   {
    "sait": "www",
@@ -1785,7 +1870,8 @@
    "ou": "https://www.facebook.com/events/1647682353527299",
    "pu": "https://sviby.com/et/e/a1u6sj",
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (Contriber & Philly Joe's Tartu + Andres Roots, R 06.11 19.30-22.00, Kompanii 2) + kluub.ee; piletilink Sviby. Bluus -> www. Sama tuuri Pärnu kontsert 30.10 on eraldi kirje."
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (Contriber & Philly Joe's Tartu + Andres Roots, R 06.11 19.30-22.00, Kompanii 2) + kluub.ee; piletilink Sviby. Bluus -> www. Sama tuuri Pärnu kontsert 30.10 on eraldi kirje.",
+   "img": "https://www.skene.info/pildid/andresroots30aastatlavaltartu.webp"
   },
   {
    "sait": "rap",
@@ -1808,6 +1894,31 @@
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS.",
    "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-06",
+   "t": "klubi",
+   "n": "Bar IDA: BASEDCORE",
+   "a": "kell 21.00–04.00",
+   "b": [
+    "Ra (Speedball)",
+    "Druz (Speedball)",
+    "Kirja (4KORDA4)"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "techno"
+   ],
+   "sn": "IDA Radio FB events-tab",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1115746747974959/",
+   "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + IDA Radio events-tab. Ürituse tekst žanrit selgelt ei nimeta (baselines, hard lines) — sildid Silveri otsusel, kontrolli.",
+   "lisatud": "2026-10-30",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "sait": "rap",
@@ -2486,6 +2597,30 @@
   },
   {
    "sait": "www",
+   "d": "2026-11-07",
+   "t": "kontsert",
+   "n": "Zebra Island «Club Ghost» esitluspidu",
+   "a": "kell 20.00–04.00; teise stuudioalbumi esitlus täies pikkuses (Seksound), kohapeal albumi füüsiline väljaanne",
+   "b": [
+    "Zebra Island"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "shoegaze",
+    "indie",
+    "alt"
+   ],
+   "sn": "IDA Radio FB events-tab",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1663187245317386/",
+   "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). Kaks allikat: FB event + IDA Radio events-tab. ⚠ FB event ütleb, et album ilmub 3. novembril; Seksoundi Bandcamp ütleb 3. detsember — reliisikirje kuupäev lahtine.",
+   "lisatud": "2026-10-30",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "www",
    "d": "2026-11-08",
    "t": "kontsert",
    "n": "Sari Schorr — Running Wild European Tour 2026",
@@ -2567,7 +2702,8 @@
     "allikas": "FB event, kontrollitud 30.10.2026"
    },
    "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (Oleg Knjazev, Anders Melts) + Kära Kantsi events-tab. BFTV sari on klubi-saidil (metal-blocklistis nimeblokk).",
-   "lisatud": "2026-10-30"
+   "lisatud": "2026-10-30",
+   "img": "https://klubi.skene.info/pildid/beatsfromthevaultrakvere.webp"
   },
   {
    "sait": "rap",
@@ -2741,7 +2877,8 @@
     "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
    },
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus)."
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus).",
+   "img": "https://klubi.skene.info/pildid/hamarraamatukoguheamuusikapidu.webp"
   },
   {
    "sait": "www",
@@ -3330,7 +3467,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1858667318448951/",
    "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab. Žanrid ürituse enda tekstist.",
-   "lisatud": "2026-10-30"
+   "lisatud": "2026-10-30",
+   "img": "https://klubi.skene.info/pildid/purgatooriumdjrougeruuz.webp"
   },
   {
    "sait": "www",
@@ -3987,6 +4125,32 @@
    "sait": "www",
    "d": "2026-11-27",
    "t": "kontsert",
+   "n": "August Urr + Korts ja Kaos",
+   "a": "kell 21.00–23.45; August Urr — iiri folk-punk-rock Pärnumaalt, Korts ja Kaos — punk/rock akordioniga",
+   "b": [
+    "August Urr",
+    "Korts ja Kaos"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk",
+    "folk",
+    "rock"
+   ],
+   "sn": "Wunderbaari FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1117503000827403/",
+   "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event (Wunderbaar) + Wunderbaari events-tab. Žanr ürituse tekstist.",
+   "lisatud": "2026-10-30",
+   "vu": "https://wunderbaar.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-27",
+   "t": "kontsert",
    "n": "Eriti Pruun Sügistuur: Ans. Andur ja Ouu Pärnus",
    "a": "Ans. Andur + Ouu ühine sügistuur (13.11 Viljandi, 14.11 Tallinn, 27.11 Pärnu, 28.11 Tartu)",
    "b": [
@@ -4010,32 +4174,6 @@
    "vu": "https://www.klubitempel.ee/"
   },
   {
-   "sait": "www",
-   "d": "2026-11-27",
-   "t": "kontsert",
-   "n": "Metallica night: PATAREI live",
-   "a": "uksed 20.00, bänd 22.00, 00.00 tasuta aftekas; PATAREI — Metallica tribuut",
-   "b": [
-    "PATAREI"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "metal",
-    "thrash",
-    "heavy"
-   ],
-   "sn": "The Krypt FB events-tab",
-   "su": "https://www.facebook.com/thekrypt.tallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1087118187484990/",
-   "pu": "https://fienta.com/et/metallica-night-patarei-thekrypt",
-   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (The Krypt, PATAREI, Sügis Productions jt) + Fienta piletileht.",
-   "lisatud": "2026-10-30",
-   "img": "https://www.skene.info/pildid/metallicanightpatareilive.webp",
-   "vu": "https://www.thekrypt.ee/"
-  },
-  {
    "sait": "klubi",
    "rel": 1,
    "d": "2026-11-27",
@@ -4053,7 +4191,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://healerrecords.bandcamp.com/album/big-motion-healer003",
-   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel."
+   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel.",
+   "img": "https://klubi.skene.info/pildid/squashbigmotionhealer003.webp"
   },
   {
    "sait": "www",
@@ -4297,8 +4436,9 @@
    "sn": "Bandcamp",
    "su": "https://seksound.bandcamp.com/album/club-ghost",
    "lisatud": "2026-10-21",
-   "nb": "LISATUD 21.10.2026 postkastijooksus check_bandcamp.py alerti peale (Seksoundi Bandcamp). Bänd on www-skoobis Silveri 22.09 otsusega (singel «Fool's Gold», sildid samad). Allikas: labeli ENDA Bandcampi albumileht, eeltellimus 'releases 03 December 2026'; krediidid kattuvad singliga. ⚠ Teist sõltumatut allikat (Seksoundi FB/IG, ERR) 21.10 veel ei leidnud - kuupäev KONTROLLI üle väljalaskel (REEGLID §6 Bandcampi-lõks).",
-   "img": "https://www.skene.info/pildid/zebraislandclubghost.webp"
+   "nb": "LISATUD 21.10.2026 postkastijooksus check_bandcamp.py alerti peale (Seksoundi Bandcamp). Bänd on www-skoobis Silveri 22.09 otsusega (singel «Fool's Gold», sildid samad). Allikas: labeli ENDA Bandcampi albumileht, eeltellimus 'releases 03 December 2026'; krediidid kattuvad singliga. ⚠ Teist sõltumatut allikat (Seksoundi FB/IG, ERR) 21.10 veel ei leidnud - kuupäev KONTROLLI üle väljalaskel (REEGLID §6 Bandcampi-lõks). | 30.10.2026: kuupäev EBAKINDEL — esitluspeo FB event (https://www.facebook.com/events/1663187245317386/) ütleb 3. november, Seksoundi Bandcamp 3. detsember. Silver: „kui me reliisi kuupäevas pole kindel, siis seda ei saa panna“ -> tba=1, kuni kinnitub.",
+   "img": "https://www.skene.info/pildid/zebraislandclubghost.webp",
+   "tba": 1
   },
   {
    "sait": "www",
@@ -4427,6 +4567,32 @@
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta täislineup | 28.07.2026: eemaldatud DUPLIKAAT-kirje (sama üritus oli manual.json-is topelt, t='kontsert' ja t='festival'); alles jäi festivali-kirje FB-event lingiga",
    "img": "https://www.skene.info/pildid/stormovertallinnmetalfestival.webp",
    "vu": "https://www.tapper.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-05",
+   "t": "kontsert",
+   "n": "Laine Live: Vaiko Eplik & Eliit",
+   "a": "kell 19.00; iga-aastane detsembrikontsert Uues Laines",
+   "b": [
+    "Vaiko Eplik",
+    "Eliit"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt",
+    "indie"
+   ],
+   "sn": "Uus Laine FB events-tab",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/787445144463361/",
+   "pu": "https://fienta.com/et/o/17330",
+   "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). Silver: „läheb sisse“. Ürituse tekst nimetab seda „Eesti parimaks popmuusikaks“ — skoobiotsus on Silveri oma. Pilet Uue Laine Fienta korraldajalehel.",
+   "lisatud": "2026-10-30",
+   "vu": "https://uuslaine.com/"
   },
   {
    "sait": "www",
@@ -5390,6 +5556,27 @@
    "vu": "https://www.kultuurivabrik.ee/"
   },
   {
+   "sait": "klubi",
+   "d": "2027-03-19",
+   "t": "klubi",
+   "n": "Pendulum DJ set (AUS)",
+   "a": "kell 22.00",
+   "b": [
+    "Pendulum (AUS) DJ set"
+   ],
+   "v": "Kruiisiterminal",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Baltic Live Agency FB events-tab",
+   "su": "https://www.facebook.com/balticliveagency/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/930790206581572/",
+   "lisatud": "2026-10-30",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Silver: sisse. Pilet/hind kontrollimata."
+  },
+  {
    "sait": "www",
    "d": "2027-03-25",
    "d2": "28.03",
@@ -5879,6 +6066,29 @@
    "nb": "lisatud sweepis 02.10.2026. Kaks allikat: tuska.fi (02.–04.07.2027, peaesinejad) + Tiketti piletileht. Välisfestival → teadlik headliner-valik (REEGLID §4).",
    "d2": "04.07",
    "img": "https://www.skene.info/pildid/tuska2027.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2027-07-04",
+   "t": "kontsert",
+   "n": "Danko Jones (CA)",
+   "a": "kell 19.00; Kanada hard rocki / rock'n'rolli trio",
+   "b": [
+    "Danko Jones (CA)"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "Baltic Live Agency FB events-tab",
+   "su": "https://www.facebook.com/balticliveagency/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1060672440332229/",
+   "nb": "lisatud 30.10.2026 (sweepis leitud, aga esialgu unustatud lisada). Kaks allikat: FB event (Baltic Live Agency + Helitehas) + helitehas.ee kava (04.07.27 Danko Jones).",
+   "lisatud": "2026-10-30",
+   "vu": "https://helitehas.ee/"
   },
   {
    "sait": "klubi",

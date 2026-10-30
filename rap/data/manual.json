@@ -581,6 +581,54 @@
    "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
   },
   "lisatud": "2026-10-30",
-  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + GateMe piletileht. Žanrit tekst ei nimeta; peaesineja PRODIGYBOYS (album «MOOSEKANDID» on rap-saidil) -> REEGLID §1 pretsedent: Eesti räppari peaesinetud pidu -> rap."
+  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + GateMe piletileht. Žanrit tekst ei nimeta; peaesineja PRODIGYBOYS (album «MOOSEKANDID» on rap-saidil) -> REEGLID §1 pretsedent: Eesti räppari peaesinetud pidu -> rap.",
+  "img": "pildid/halloweenxxxtravaganzasuhe.webp"
+ },
+ {
+  "d": "2026-10-30",
+  "t": "kontsert",
+  "n": "TÄHETUND: Solecline LIVE",
+  "a": "kell 20.00; algab Tähetunni raadiosaate avaliku lindistusega, siis Solecline live (räpist mõjutatud downtempo/trip-hop), pärast freestyle; DJ Lauri Täht",
+  "b": [
+   "Solecline",
+   "DJ Lauri Täht"
+  ],
+  "v": "Legendaarne Raadio & Baar",
+  "c": "Tallinn",
+  "g": [
+   "hip-hop",
+   "räpp"
+  ],
+  "sn": "Legendaarne Raadio FB events-tab",
+  "su": "https://www.facebook.com/LegendaarneRaadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2627913437670193/",
+  "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + Legendaarse Raadio events-tab.",
+  "lisatud": "2026-10-30"
+ },
+ {
+  "d": "2026-11-04",
+  "t": "kontsert",
+  "n": "REINCARNATION: MEDIOCRIS — debüütalbumi esitlus",
+  "a": "kell 20.00, tasuta; venekeelne räpp; 21.00 boonusena DnB DJ-sett",
+  "b": [
+   "Mediocris"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "räpp"
+  ],
+  "sn": "Uus Laine FB events-tab",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1733094121117755/",
+  "hind": {
+   "praegu": "tasuta",
+   "mark": "",
+   "allikas": "FB event, kontrollitud 30.10.2026"
+  },
+  "lisatud": "2026-10-30",
+  "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Otsustuspunkt mediocris-uuslaine-2026-11-04 -> (a). Kohaliku artisti albumiesitlus, mitte RU/UA tuur."
  }
 ]

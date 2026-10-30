@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 494,
+ "count": 497,
  "entries": [
   {
    "sait": "www",
@@ -212,6 +212,27 @@
    "su": "https://fuzzolini.bandcamp.com/album/beauty-exists-in-everyone-2",
    "nb": "lisatud 02.08.2026 kontaktivormi kaudu (Valter Nõmm, valter.nomm@gmail.com, 02.08 06:49 — saabus PÄRAST hommikust inbox-checki 05:06). Kuupäev 20.03.2026 loetud Bandcampi albumilehelt; žanrisõnastus ('post-punk, noise-rock, psychedelic rock') ja bändikirjeldus on saatja omad. NB: reliis on ~4,5 kuud vana, aga Silveri otsus 02.08: lisada, sest vanadele asjadele on nähtavust vaja. Vormil oli link katki kleebitud ('https://httpshttps://...://fb.me/...') — õige aadress tuvastatud käsitsi. | 02.08.2026 (inbox-check, hiline jooks): sama reliis tuli kontaktivormi kaudu TEIST korda. Kuupäev 20.03.2026 sai teise sõltumatu kinnituse — Discogsi vinüülikirje r36834973 (2026) ja 24.03.2026 ilmunud arvustus thoughtswordsaction.com-is —, seega kahe allika reegel on täidetud ja Bandcampi kuupäev EI ole platseholder (Tharaphita-lõks välistatud). Vormis olnud katkine link peitis ka fb.me/e/5GPBPtWLw = 03.04.2026 albumiesitlus Paavli Kultuurivabrikus — möödas, ei lisatud. NB vanuse kohta: archive_split.py _featured arvestab 30-päevast akent 'lisatud', mitte 'd' järgi, seega kirje püsib esilehel 02.08–01.09 ja kolib siis ise arhiivi.",
    "img": "https://www.skene.info/pildid/fuzzolinibeautyexistsineveryone.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-05-05",
+   "lisatud": "2026-05-05",
+   "t": "reliis",
+   "n": "Deilegium — «Long ago...»",
+   "a": "meloodiline black/death metal, Tallinn",
+   "b": [
+    "Deilegium"
+   ],
+   "g": [
+    "black",
+    "death",
+    "melodic"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://deilegium.bandcamp.com/album/long-ago",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "https://www.skene.info/pildid/deilegiumlongago.webp"
   },
   {
    "sait": "www",
@@ -2726,25 +2747,44 @@
   },
   {
    "sait": "www",
+   "rel": 1,
    "d": "2026-08-02",
+   "lisatud": "2026-08-02",
    "t": "reliis",
    "n": "klostriid — «klostriid»",
-   "a": "Kuressaare punk/hardcore-kollektiivi telefoniga filmitud demo; viies lugu «solaarne» on kaver Urmas Alendri samanimelisest palast",
+   "a": "hardcore punk / metal, Kuressaare",
    "b": [
     "klostriid"
    ],
    "g": [
     "punk",
-    "hardcore"
+    "core",
+    "metal"
    ],
    "sn": "Bandcamp",
-   "su": "https://klostriid.bandcamp.com/",
-   "on_": "Bandcamp",
-   "ou": "https://klostriid.bandcamp.com/",
-   "lisatud": "2026-08-07",
-   "nb": "lisatud 07.08.2026 nädalases sweepis (Bandcampi Eesti metal+punk tag-otsing). Bandcampi credits-rida: released August 2, 2026. Tag'id lehel: punk, hardcore, hardcore punk, metal punk, Kuressaare. 5 lugu, name-your-price. Koosseis kirjelduses: steven, juss, jaak ja rass",
-   "img": "https://www.skene.info/pildid/klostriidklostriid.webp",
-   "rel": 1
+   "su": "https://klostriid.bandcamp.com/album/klostriid",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "https://www.skene.info/pildid/klostriidklostriid.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-08-03",
+   "lisatud": "2026-08-03",
+   "t": "reliis",
+   "n": "Aur — «Demod»",
+   "a": "hardcore punk / post-hardcore",
+   "b": [
+    "Aur"
+   ],
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://aurband.bandcamp.com/album/demod",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "https://www.skene.info/pildid/aurdemod.webp"
   },
   {
    "sait": "www",
@@ -6561,6 +6601,26 @@
    "ou": "https://open.spotify.com/album/2EyFLtE5xhhVAyLTo5SDp6",
    "nb": "lisatud 04.09.2026 postkastijooksus — täidab 28.08 kirje märkuse ('EP võib väärida eraldi reliisikirjet, kui väljalaskekuupäev kinnitub'). Kaks allikat: Spotify albumileht (meta music:release_date 2026-09-02, 7 lugu) + Rada7.ee uudiskiri 04.09 ('üleeilsest internettides ka nauditav' = 02.09, langeb kokku). Kolmas kinnitus: esitluspeo FB event facebook.com/events/1067301815974527 (kirje 04.09 rap/manual.json-is). Masta Robusta = MC Lord / Öökülm / TMF / RLV Massive, peosarja Tümmisaun resident.",
    "img": "https://rap.skene.info/pildid/mastarobustareipaidridurezzidelradadel.webp"
+  },
+  {
+   "sait": "www",
+   "rel": 1,
+   "d": "2026-09-03",
+   "lisatud": "2026-09-03",
+   "t": "reliis",
+   "n": "Esti Mation — «Welcome to the show»",
+   "a": "humoorikas power metal",
+   "b": [
+    "Esti Mation"
+   ],
+   "g": [
+    "power",
+    "metal"
+   ],
+   "sn": "Bandcamp",
+   "su": "https://estimation.bandcamp.com/album/welcome-to-the-show",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
+   "img": "https://www.skene.info/pildid/estimationwelcometotheshow.webp"
   },
   {
    "sait": "klubi",

@@ -211,7 +211,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://vaibonite.bandcamp.com/album/binary-ep",
-   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026)."
+   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026).",
+   "img": "pildid/vaibonitebinaryep.webp"
   },
   {
    "d": "2026-10-30",
@@ -604,7 +605,8 @@
     "allikas": "Fienta, kontrollitud 30.10.2026"
    },
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10)."
+   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10).",
+   "img": "pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
   },
   {
    "d": "2026-11-06",
@@ -740,6 +742,30 @@
    "ou": "https://www.facebook.com/events/1589674182351134/",
    "on_": "Facebook event",
    "vu": "https://www.facebook.com/Modtln"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "klubi",
+   "n": "Bar IDA: BASEDCORE",
+   "a": "kell 21.00–04.00",
+   "b": [
+    "Ra (Speedball)",
+    "Druz (Speedball)",
+    "Kirja (4KORDA4)"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "techno"
+   ],
+   "sn": "IDA Radio FB events-tab",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1115746747974959/",
+   "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + IDA Radio events-tab. Ürituse tekst žanrit selgelt ei nimeta (baselines, hard lines) — sildid Silveri otsusel, kontrolli.",
+   "lisatud": "2026-10-30",
+   "vu": "https://www.facebook.com/IDARadio"
   },
   {
    "d": "2026-11-07",
@@ -914,7 +940,8 @@
     "allikas": "FB event, kontrollitud 30.10.2026"
    },
    "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (Oleg Knjazev, Anders Melts) + Kära Kantsi events-tab. BFTV sari on klubi-saidil (metal-blocklistis nimeblokk).",
-   "lisatud": "2026-10-30"
+   "lisatud": "2026-10-30",
+   "img": "pildid/beatsfromthevaultrakvere.webp"
   },
   {
    "d": "2026-11-13",
@@ -942,7 +969,8 @@
     "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
    },
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus)."
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus).",
+   "img": "pildid/hamarraamatukoguheamuusikapidu.webp"
   },
   {
    "d": "2026-11-14",
@@ -1046,7 +1074,8 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1858667318448951/",
    "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab. Žanrid ürituse enda tekstist.",
-   "lisatud": "2026-10-30"
+   "lisatud": "2026-10-30",
+   "img": "pildid/purgatooriumdjrougeruuz.webp"
   },
   {
    "d": "2026-11-14",
@@ -1283,7 +1312,8 @@
    ],
    "sn": "Bandcamp",
    "su": "https://healerrecords.bandcamp.com/album/big-motion-healer003",
-   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel."
+   "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel.",
+   "img": "pildid/squashbigmotionhealer003.webp"
   },
   {
    "d": "2026-11-28",
@@ -1510,6 +1540,26 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/965232562692927/",
    "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "d": "2027-03-19",
+   "t": "klubi",
+   "n": "Pendulum DJ set (AUS)",
+   "a": "kell 22.00",
+   "b": [
+    "Pendulum (AUS) DJ set"
+   ],
+   "v": "Kruiisiterminal",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Baltic Live Agency FB events-tab",
+   "su": "https://www.facebook.com/balticliveagency/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/930790206581572/",
+   "lisatud": "2026-10-30",
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Silver: sisse. Pilet/hind kontrollimata."
   },
   {
    "d": "2027-03-26",

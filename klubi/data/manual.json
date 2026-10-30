@@ -2128,7 +2128,8 @@
    "allikas": "FB event, kontrollitud 30.10.2026"
   },
   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (Oleg Knjazev, Anders Melts) + Kära Kantsi events-tab. BFTV sari on klubi-saidil (metal-blocklistis nimeblokk).",
-  "lisatud": "2026-10-30"
+  "lisatud": "2026-10-30",
+  "img": "pildid/beatsfromthevaultrakvere.webp"
  },
  {
   "d": "2026-11-14",
@@ -2150,7 +2151,8 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1858667318448951/",
   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab. Žanrid ürituse enda tekstist.",
-  "lisatud": "2026-10-30"
+  "lisatud": "2026-10-30",
+  "img": "pildid/purgatooriumdjrougeruuz.webp"
  },
  {
   "rel": 1,
@@ -2168,7 +2170,8 @@
   ],
   "sn": "Bandcamp",
   "su": "https://vaibonite.bandcamp.com/album/binary-ep",
-  "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026)."
+  "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026).",
+  "img": "pildid/vaibonitebinaryep.webp"
  },
  {
   "rel": 1,
@@ -2187,7 +2190,8 @@
   ],
   "sn": "Bandcamp",
   "su": "https://healerrecords.bandcamp.com/album/big-motion-healer003",
-  "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel."
+  "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel.",
+  "img": "pildid/squashbigmotionhealer003.webp"
  },
  {
   "d": "2026-10-30",
@@ -2270,7 +2274,8 @@
    "allikas": "Fienta, kontrollitud 30.10.2026"
   },
   "lisatud": "2026-10-30",
-  "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10)."
+  "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10).",
+  "img": "pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
  },
  {
   "d": "2026-11-13",
@@ -2298,7 +2303,8 @@
    "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
   },
   "lisatud": "2026-10-30",
-  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus)."
+  "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus).",
+  "img": "pildid/hamarraamatukoguheamuusikapidu.webp"
  },
  {
   "d": "2026-11-14",
@@ -2331,5 +2337,140 @@
   },
   "lisatud": "2026-10-30",
   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event + kluub.ee. Žanrid ürituse tekstist (DJ-de juures nimetatud)."
+ },
+ {
+  "d": "2026-11-05",
+  "t": "klubi",
+  "n": "Glitch Please: Edgy Palates & Mike McCormick / Maria Paiste & Sander Saarmets",
+  "a": "uksed 19.00; hääl ja süntees, improvisatsioon ja elektrooniline eksperiment",
+  "b": [
+   "Edgy Palates (LT)",
+   "Mike McCormick (CA/NO)",
+   "Maria Paiste",
+   "Sander Saarmets"
+  ],
+  "v": "Terminal Records&Bar",
+  "c": "Tallinn",
+  "g": [
+   "experimental",
+   "electro"
+  ],
+  "sn": "Helinihe FB events-tab",
+  "su": "https://www.facebook.com/profile.php?id=61589881223213&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1817000023095814/",
+  "hind": {
+   "praegu": "annetus",
+   "mark": "",
+   "allikas": "FB event, kontrollitud 30.10.2026"
+  },
+  "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + Helinihe ja Terminali events-tab.",
+  "lisatud": "2026-10-30",
+  "img": "pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
+ },
+ {
+  "d": "2026-11-06",
+  "t": "klubi",
+  "n": "Bar IDA: BASEDCORE",
+  "a": "kell 21.00–04.00",
+  "b": [
+   "Ra (Speedball)",
+   "Druz (Speedball)",
+   "Kirja (4KORDA4)"
+  ],
+  "v": "Bar IDA",
+  "c": "Tallinn",
+  "g": [
+   "bass",
+   "techno"
+  ],
+  "sn": "IDA Radio FB events-tab",
+  "su": "https://www.facebook.com/IDARadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1115746747974959/",
+  "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + IDA Radio events-tab. Ürituse tekst žanrit selgelt ei nimeta (baselines, hard lines) — sildid Silveri otsusel, kontrolli.",
+  "lisatud": "2026-10-30"
+ },
+ {
+  "d": "2026-11-13",
+  "t": "klubi",
+  "n": "Hämar Raamatukogu: Hea muusika pidu",
+  "a": "kell 22.00–03.00; reede 13. ebaõnnevastane pidu",
+  "b": [
+   "Metsiknaine",
+   "cata (US)"
+  ],
+  "v": "huba.club",
+  "c": "Tartu",
+  "g": [
+   "dnb",
+   "house",
+   "techno"
+  ],
+  "sn": "Huba Club FB events-tab",
+  "su": "https://www.facebook.com/hubbaclubba/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/998488245924244/",
+  "hind": {
+   "praegu": "6€ Fienta / 8€ uksel (ainult sularaha)",
+   "mark": "",
+   "allikas": "FB event, kontrollitud 30.10.2026"
+  },
+  "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + Huba events-tab. Žanrid DJ-tutvustustest (cata: dnb, house, techno, UKG, footwork).",
+  "lisatud": "2026-10-30",
+  "img": "pildid/hamarraamatukoguheamuusikapidu.webp"
+ },
+ {
+  "d": "2026-11-14",
+  "t": "klubi",
+  "n": "Underground Penthouse",
+  "a": "kell 20.00–04.00; kõik DJ-setid vinüülilt; live Wop Baob (ctrl-L & Egobomber) ja Raakel Bloody Raakel",
+  "b": [
+   "Wop Baob",
+   "Raakel Bloody Raakel",
+   "Twisted Shaman",
+   "Mardus Guru",
+   "Miqq",
+   "Masin",
+   "Justin Casemon"
+  ],
+  "v": "Kalevi 13 (3. korrus)",
+  "c": "Tartu",
+  "g": [
+   "techno",
+   "electro",
+   "psytrance"
+  ],
+  "sn": "Huba Club FB events-tab",
+  "su": "https://www.facebook.com/hubbaclubba/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1674244060938482/",
+  "hind": {
+   "praegu": "10€",
+   "mark": "toetus",
+   "allikas": "FB event, kontrollitud 30.10.2026"
+  },
+  "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + Huba ja Rada7 events-tab.",
+  "lisatud": "2026-10-30"
+ },
+ {
+  "d": "2027-03-19",
+  "t": "klubi",
+  "n": "Pendulum DJ set (AUS)",
+  "a": "kell 22.00",
+  "b": [
+   "Pendulum (AUS) DJ set"
+  ],
+  "v": "Kruiisiterminal",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Baltic Live Agency FB events-tab",
+  "su": "https://www.facebook.com/balticliveagency/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/930790206581572/",
+  "lisatud": "2026-10-30",
+  "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Silver: sisse. Pilet/hind kontrollimata."
  }
 ]
