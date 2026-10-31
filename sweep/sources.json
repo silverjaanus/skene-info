@@ -401,6 +401,12 @@
       "nb": "lisatud 23.09.2026 koos FB-lehega (REEGLID §3: üksik FB-URL on pime nurk). Esilehe sektsioon „Programm“ loetleb tulevased üritused kujul „DD.MM kellaaeg nimi“ ja lingib OTSE FB-üritusele (facebook.com/<id>) — mugav teine allikas kuupäeva ristkontrolliks. ⚠ Kava on lühike (2 kirjet 23.09 seisuga), nii et FB events-tab jääb põhiallikaks (REEGLID §3 püsireegel 13.09). Pood ise: https://www.terminal.ee"
     },
     {
+      "nimi": "Konk (Tartu, FB)",
+      "url": "https://www.facebook.com/profile.php?id=61593812049749&sk=events",
+      "tyyp": "pood/kultuuripunkt",
+      "nb": "lisatud 31.10.2026 postkastijooksus (kontaktivormi sisend: „Majapidu: Valter Nõmm“ L 07.11.2026, https://www.facebook.com/events/2043366193001946/). Plaadipood ja baar, Kastani 42 (Aparaaditehas), Tartu; IG @konkrecordsbar. Sari „Majapidu“ = DJ-/plaadiõhtud (06.11 Don Nuki, 07.11 Valter Nõmm). ⚠ Kava on SEGA, maja ise EI ole žanriallikas — iga üritus kaalu eraldi (REEGLID §1). Veebisaiti 31.10 ei leidnud; numbriline FB-URL, handle puudub."
+    },
+    {
       "nimi": "Wavy (Tartu, dnb/jungle)",
       "url": "https://www.facebook.com/Wavydnb/events",
       "tyyp": "promootor",
