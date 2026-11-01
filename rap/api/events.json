@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 201,
+ "count": 203,
  "entries": [
   {
    "sait": "www",
@@ -1615,6 +1615,35 @@
   {
    "sait": "www",
    "d": "2026-11-07",
+   "t": "kontsert",
+   "n": "OLLIE «If Demons Are Real, So Are Angels» debüütalbumi esitlus",
+   "a": "uksed 18.00, kontsert kuni 22.00; vanusepiiranguta",
+   "b": [
+    "OLLIE"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/8c02af93-c91e-46f4-8d10-8bbc26d8e389",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1800460284308291",
+   "pu": "https://www.piletitasku.ee/et/event/10403",
+   "hind": {
+    "praegu": "28–53 €",
+    "mark": "",
+    "allikas": "kluub.ee (Piletitasku leht), kontrollitud 01.11.2026"
+   },
+   "lisatud": "2026-11-01",
+   "nb": "Silveri otsus 01.11.2026 (\"mõlemad sisse\") - otsustuspunkt ollie-d3-2026-11-07 -> a. kluub.ee žanr \"Rock, live\"; Eesti Laulu artist.",
+   "vu": "https://www.d-3.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-07",
    "t": "reliis",
    "rel": 1,
    "n": "Ocean Districts — «Pulsar»",
@@ -1634,6 +1663,35 @@
    "lisatud": "2026-10-02",
    "nb": "lisatud sweepis 02.10.2026. Allikad: bändi Bandcamp („releases November 7, 2026\"; sildid atmospheric/progressive rock, post-rock, post-hardcore, progressive metal) + Bandcamp discover. Tulevane reliis.",
    "img": "https://www.skene.info/pildid/oceandistrictspulsar.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-07",
+   "t": "klubi",
+   "n": "PÖFFI PIDU TARTUS",
+   "a": "21.00–04.00, 20+; Living Room: PM2AM (LV); Club Side: Franz Malmsten b2b INGER, Muul",
+   "b": [
+    "PM2AM (LV)",
+    "Franz Malmsten",
+    "INGER",
+    "Muul"
+   ],
+   "v": "Klubi Neli",
+   "c": "Tartu",
+   "g": [
+    "house"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/3199dcb8-ba58-4355-be2b-35f9f3e96cae",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2142213293324285",
+   "pu": "https://gateme.com/et/klubineli/104458-poffi-pidu-tartus-i-klubi-neli-i-0711/",
+   "hind": {
+    "praegu": "21–23 tasuta, 23–01 5 €, alates 01 9 €; Fast Track 15 €",
+    "allikas": "kluub.ee / GateMe, kontrollitud 01.11.2026"
+   },
+   "lisatud": "2026-11-01",
+   "nb": "SILVERI OTSUS 01.11.2026 (\"mõlemad sisse\") - otsustuspunkt poffi-pidu-klubi-neli-2026-11-07 -> a. Ürituse leht žanrit ei nimeta; silt house = toimetaja valik (GILD 30.10 pretsedent, sama koht/formaat). ERAND, mitte pretsedent."
   },
   {
    "sait": "www",
