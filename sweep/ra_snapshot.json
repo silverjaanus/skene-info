@@ -1,86 +1,13 @@
 {
- "tommatud": "2026-10-31",
+ "tommatud": "2026-11-01",
  "aken": {
-  "algus": "2026-10-31",
-  "lopp": "2026-12-30"
+  "algus": "2026-11-01",
+  "lopp": "2026-12-31"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 27,
+ "kirjeid": 23,
  "kirjed": [
-  {
-   "d": "2026-10-31",
-   "n": "HALLoween: Hall's official Halloween party",
-   "algus": "2026-10-31T23:00:00.000",
-   "v": "Hall",
-   "ala": "Tallinn",
-   "b": [
-    "Köster",
-    "Micaela Saraceno",
-    "Katja Adrikova",
-    "pikkauch",
-    "Sugar Rody"
-   ],
-   "g": [
-    "Techno",
-    "IDM"
-   ],
-   "url": "https://ra.co/events/2566642",
-   "pilet": true
-  },
-  {
-   "d": "2026-10-31",
-   "n": "HALLOWEEN AT DIO",
-   "algus": "2026-10-31T21:00:00.000",
-   "v": "Maison Dio Tallinn",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [],
-   "url": "https://ra.co/events/2561232",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-31",
-   "n": "Klämmar x Halloween",
-   "algus": "2026-10-31T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2559419",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-31",
-   "n": "ONLY GIRLS AT THE BAR – HALLOWEEN",
-   "algus": "2026-10-31T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2567378",
-   "pilet": false
-  },
-  {
-   "d": "2026-10-31",
-   "n": "Halloween After Hours Doors 3.00",
-   "algus": "2026-10-31T23:59:00.000",
-   "v": "Club Nine",
-   "ala": "Tallinn",
-   "b": [
-    "Tarmo Kull"
-   ],
-   "g": [
-    "Techno"
-   ],
-   "url": "https://ra.co/events/2570773",
-   "pilet": false
-  },
   {
    "d": "2026-11-05",
    "n": "URBAN NIGHT",
@@ -128,22 +55,6 @@
   },
   {
    "d": "2026-11-06",
-   "n": "Rulers Of The Deep with Seamus Haji (UK)",
-   "algus": "2026-11-06T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [
-    "Seamus Haji",
-    "Rulers Of The Deep"
-   ],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2562697",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-06",
    "n": "HEVI: Teddy Killerz & Tantrum Desire",
    "algus": "2026-11-06T22:30:00.000",
    "v": "Helitehas",
@@ -156,6 +67,22 @@
     "Drum & Bass"
    ],
    "url": "https://ra.co/events/2516539",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "Rulers Of The Deep with Seamus Haji (UK)",
+   "algus": "2026-11-06T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [
+    "Seamus Haji",
+    "Rulers Of The Deep"
+   ],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2562697",
    "pilet": false
   },
   {
@@ -431,6 +358,20 @@
     "Gqom"
    ],
    "url": "https://ra.co/events/2494777",
+   "pilet": false
+  },
+  {
+   "d": "2026-12-31",
+   "n": "SPECIAL EVENT: SKY PLUS AFTERPARTY! - NEW YEARS EVE",
+   "algus": "2026-12-31T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2551721",
    "pilet": false
   }
  ]

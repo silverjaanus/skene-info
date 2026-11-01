@@ -5776,6 +5776,123 @@
    },
    "lisatud": "2026-10-30",
    "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (TOPS + Tanel Matsalu, Soo 15) + kluub.ee. Žanr ürituse tekstist (house-gruuvid)."
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "HALLORAVE: Planeet / Norty (UK) / Liisbeth",
+   "a": "Halloweeni reiv; algus 23.00",
+   "b": [
+    "Planeet",
+    "Norty (UK)",
+    "Liisbeth"
+   ],
+   "v": "Festar",
+   "c": "mujal",
+   "linn": "Võru",
+   "g": [
+    "dnb",
+    "bass"
+   ],
+   "sn": "Planeedi FB events-tab",
+   "su": "https://www.facebook.com/AudioPlaneet/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1462329555784537/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Festar + Planeet + KXK Entertainment) + Planeedi FB events-tab. Žanr ürituse tekstist (Planeet = Eesti DnB)."
+  },
+  {
+   "d": "2026-10-31",
+   "t": "klubi",
+   "n": "HALLoween: Dance 'Till Death!",
+   "a": "HALLi ametlik halloweeni pidu, algus 23.00",
+   "b": [
+    "Köster",
+    "Micaela Saraceno",
+    "Katja Adrikova",
+    "pikkauch",
+    "Sugar Rody"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/957100054120143/",
+   "pu": "https://gateme.com/et/halltallinn/104333-halloween-dance-till-death",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (HALL) + RA https://ra.co/events/2566642 (Techno, IDM; koosseis RA-st).",
+   "img": "pildid/halloweendancetilldeath.webp",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "klubi",
+   "n": "360° Tartu: Halloween Rave",
+   "a": "kell 22.00–04.00, 18+; kaks lava: Main Stage techno / hard groove / rave, Underground Stage indie dance / groovy sounds",
+   "b": [
+    "DNKA",
+    "ERØS",
+    "HANS",
+    "INDRA SMITH",
+    "MAQ",
+    "NORA",
+    "QSLAP",
+    "VAAN",
+    "ORXRO",
+    "360° residendid"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/e2e43a4a-728e-41c7-bc14-4159ee794ca8",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1651771623285212",
+   "pu": "https://sviby.com/et/e/zud7ci",
+   "hind": {
+    "praegu": "8€",
+    "mark": "tavapilet; varajane 5€, hiline/uksel 10€; garderoob 2€",
+    "allikas": "kluub.ee (ürituse kirjeldus), kontrollitud 28.10.2026"
+   },
+   "lisatud": "2026-10-28",
+   "vu": "https://genklubi.ee/",
+   "nb": "lisatud postkastijooksus 28.10.2026 kluub.ee Tartu nimekirjast (samm 2c). Kaks allikat: kluub.ee ürituseleht (FB-eventist: koosseis lavade kaupa, žanrid „Techno, Hardgroove, Indie Dance“, hinnad, Sviby piletilink) + technobeatscloud.com (https://technobeatscloud.com/en/events/event/360-tartu-halloween-rave-genialistide-klubi-2026-10-31: L 31.10.2026 22.00, Genialistide Klubi, DNKA/Indra Smith/MaQ/Nora/QSLAP, alates 5€). FB event ja Sviby ei olnud masinloetavad. Sari 360° Tartu juba klubis (MERIMELL 18.09).",
+   "img": "pildid/360tartuhalloweenrave.webp"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "klubi",
+   "n": "KIVI HALLOWEEN",
+   "a": "tasuta halloweenipidu 20.00-05.00; tume elektroonika, dnb/house/techno, 2000ndate Tartu techno-veteran Morten (16Volti)",
+   "b": [
+    "camelCase",
+    "Phan_Tom",
+    "Morten"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "techno",
+    "dnb",
+    "house",
+    "minimal"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/9bd4ba62-2ff8-42a1-9f17-363bb665fa4b",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1745199979901271",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee, kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (Event by Kivi baar) + kluub.ee. Žanrid ürituse tekstist."
   }
  ]
 }

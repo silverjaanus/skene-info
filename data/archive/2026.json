@@ -4021,6 +4021,26 @@
    "vu": "https://www.thekrypt.ee/"
   },
   {
+   "d": "2026-09-20",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Pantokraator — «William Shakespeare'i sonetid»",
+   "a": "Eesti rokiveterani uus album, 10 lugu: Shakespeare'i sonetid Harald Rajametsa tõlkes; triloogia 2. osa (1. osa «Déjà vu» 2025, 3. osa «Eesti» 2027); CD + LP; albumi müügitulu läheb vähifondile Kingitud Elu",
+   "b": [
+    "Pantokraator"
+   ],
+   "g": [
+    "rock"
+   ],
+   "sn": "panto.ee",
+   "su": "https://panto.ee/albums",
+   "on_": "Spotify",
+   "ou": "https://open.spotify.com/album/7yVhAbt7iF6CwDxlrNqN5p",
+   "lisatud": "2026-10-01",
+   "nb": "lisatud postkastijooksus 01.10.2026. Leitud Rada7.ee uudiskirjast 30.09 (Spotify-link). Kaks allikat: bändi enda leht panto.ee/albums (\"ilmus 20.09.2026\", CD + LP, Rahva Raamatu müügilingid) + Spotify albumileht (10 lugu, 20.09.2026). Üks neljast HANDOVER-is jälgitud Esitluspäev 6 reliisist (03.10 Tapper, Pantokraator annab seal intervjuu). Silt 'rock' bändi enda lehelt (\"Rock Band\"). Esitluskontserdid 21.10 Alexela ja 22.10 Vanemuise kontserdimaja EI ole lisatud — skoobiküsimus Silverile (HANDOVER §4).",
+   "img": "pildid/pantokraatorwilliamshakespeareisonetid.webp"
+  },
+  {
    "d": "2026-09-24",
    "t": "kontsert",
    "n": "Baltic BS Tour: Memoira (FIN) + EGRES (FIN) + Portread",
@@ -6393,6 +6413,267 @@
    "on_": "Facebook event",
    "img": "pildid/kantriguidubandtvmotelkonfliktor.webp",
    "vu": "https://www.facebook.com/kinomajabarandstage"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Rückwater (FIN) + Kingwhip + One Eye Out",
+   "a": "Tampere stoner-rock trio Rückwater koos Kingwhipi ja One Eye Outiga; algus 20.00",
+   "b": [
+    "Rückwater",
+    "Kingwhip",
+    "One Eye Out"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "stoner",
+    "rock"
+   ],
+   "sn": "Kidrakuur Kultuuriklubi (FB events)",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1715046549981367/",
+   "lisatud": "2026-09-11",
+   "nb": "lisatud sweepis 11.09.2026. Kaks allikat: ürituse FB event (kaaskorraldajad Kidrakuur, Kingwhip, One Eye Out) + Kidrakuuri events-tab. Rückwater on ürituse kirjelduse järgi Tamperest pärit stoner-rock trio, tegev 2010. aastast; Kingwhipi debüütalbum «Endless» ilmus 29.05.2026. Pilet/uksehind avaldamata.",
+   "img": "pildid/ruckwaterfinkingwhiponeeyeout.webp",
+   "vu": "https://kidrakuur.ee/"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Laine Halloween Live: Phlox + Surin",
+   "a": "Halloweeni live: Eesti progeroki legend Phlox (keerukad rütmid + saksofon) ja Tallinna Surin (krautrock, post-rock, surf, punk, jazz)",
+   "b": [
+    "Phlox",
+    "Surin",
+    "Richard Jerbach",
+    "DJ Margo Pajula"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "post",
+    "punk",
+    "alt"
+   ],
+   "sn": "uuslaine.com",
+   "su": "https://uuslaine.com/",
+   "pu": "https://fienta.com/et/laine-halloween-live-phlox-surin",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "Fienta, kontrollitud 01.10.2026"
+   },
+   "lisatud": "2026-10-01",
+   "nb": "lisatud postkastijooksus 01.10.2026 (leitud Uus Laine kava kontrollimisel Fienta uudiskirja Alonette-kirje järel). Kaks allikat: Uus Laine veebikava (uuslaine.com, 31.10) + Fienta piletileht (korraldaja OÜ Uus Laine; žanrikirjeldus sealt). Ürituse FB-eventi venue kava ei lingi → ou tühi (Fienta ei tohi olla ou). Kellaaeg avaldamata. | 02.10.2026 sweep: leitud ürituse FB event (uuslaine.com lingib). RIKASTUS 30.10.2026 (postkastijooks, kluub.ee + Rada7): FB event `ou`; koosseisu lisandusid Richard Jerbach ja DJ Margo Pajula (FB eventi tekst).",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2090537124907780/",
+   "img": "pildid/lainehalloweenlivephloxsurin.webp",
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "MAI SKIZO + Floryt Fenara = Halloween",
+   "a": "MAI SKIZO plaadituur («Valu mõte»); algus 20.00",
+   "b": [
+    "MAI SKIZO",
+    "Floryt Fenara"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "punk",
+    "rock",
+    "post",
+    "goth",
+    "industrial",
+    "dark",
+    "alt"
+   ],
+   "sn": "MAI SKIZO FB events-tab",
+   "su": "https://www.facebook.com/MaiSkizo/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1572539164673252/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (MAI SKIZO + Floryt Fenara + Konservatoorium) + MAI SKIZO ja Konservatooriumi FB events-tab. Sildid samad mis 16.10 Kurjam + MAI SKIZO kirjel (sama bänd). Pilet avaldamata.",
+   "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "SHADOWDANCE: Halloween Special",
+   "a": "live + DJ-d (post-punk, darkwave, industrial); algus 23.00",
+   "b": [
+    "The Lunacy Of Flowers",
+    "Gentle Ropes",
+    "Seanus",
+    "DJ Nio",
+    "DJ Alexandra"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "punk",
+    "darkwave",
+    "goth"
+   ],
+   "sn": "Uus Laine veebikava",
+   "su": "https://uuslaine.com/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1405966231645393/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Uus Laine) + uuslaine.com kava (lingib sama eventi). Žanr ürituse tekstist: „post-punk, darkwave ja industrial\". Oli 01.10 postkastijooksu järelnimekirjas.",
+   "img": "pildid/shadowdancehalloweenspecial.webp",
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Tharaphita «Öise taevaga üheks» plaadiesitlus + Süngehel + The Tyrants",
+   "a": "Tharaphita kuuenda albumi esitluskontsert; uksed 19.00",
+   "b": [
+    "Tharaphita",
+    "Süngehel",
+    "The Tyrants"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "black",
+    "pagan",
+    "metal"
+   ],
+   "sn": "Rockclub Tapper FB events-tab",
+   "su": "https://www.facebook.com/rockclubtapper/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1426733412746946/",
+   "pu": "https://fienta.com/et/tharaphita-oise-taevaga-uheks-plaadiesitluskontsert",
+   "hind": {
+    "praegu": "15 € eelmüük / 20 € kohapeal",
+    "allikas": "Fienta, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. Kaks allikat: FB event (Rockclub Tapper, The Tyrants jt) + Fienta piletileht (soojendajad Süngehel ja The Tyrants; LP 23.10 Nailboard Records). Leitud ka Fienta metal-otsingust.",
+   "img": "pildid/tharaphitaoisetaevagauheksplaadiesitlussungehelthetyrants.webp",
+   "vu": "https://www.tapper.ee/"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Jimi Hendrix 84 — CryBaby (Tartu)",
+   "a": "CryBaby tähistab Jimi Hendrixi 84. sünniaastapäeva, rock & roll; algus 21.00. CryBaby asutati 1992 Hendrixi 50. sünnipäeva tähistamiseks, traditsioon kestnud 34 aastat",
+   "b": [
+    "CryBaby"
+   ],
+   "v": "Püssirohukelder",
+   "c": "mujal",
+   "linn": "Tartu",
+   "g": [
+    "rock",
+    "bluus"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/07d16da5-487f-4ea4-b601-bc90e547f111",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1046829621531554",
+   "hind": {
+    "praegu": "15 €",
+    "mark": "kannumeestele tasuta",
+    "allikas": "FB event, kontrollitud 15.10.2026"
+   },
+   "lisatud": "2026-10-15",
+   "nb": "lisatud postkastijooksus 15.10.2026 (samm 2c, kluub.ee Tartu). Kaks allikat: kluub.ee + ürituse FB event (korraldajad CryBaby + Püssirohukelder; 31.10 kl 21, Lossi 28 Tartu, pilet 15 €). Žanr: CryBaby FB-leht 'Blues / Rock' (sama kui 10.10 Juuda kirjel). Online-piletilinki ei leitud.",
+   "vu": "https://pyss.ee/"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Von Krahli 34. sünnipäev: I Am Bob + Vigri + Volta",
+   "a": "Von Krahli teatri 34. sünnipäev; päevane aktsioon „Jumalaga, Jussike!\" 12.00-st, live 21.00: I Am Bob (müra-/stoner rock), 22.00 Vigri (punk), 23.00 Volta („kogupere-smuutipunk\"); siis karaoke ja 00.34 PeldikuReiv (DJ-d)",
+   "b": [
+    "I Am Bob",
+    "Vigri",
+    "Volta",
+    "Holy Shit",
+    "Laxatiiv",
+    "Junnjunn"
+   ],
+   "v": "Von Krahl",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "stoner",
+    "punk",
+    "alt"
+   ],
+   "sn": "Rada7.ee uudiskiri 29.10.2026 + Fienta uudiskiri 29.10.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1457581172867762/",
+   "pu": "https://fienta.com/et/aktsioon-jumalaga-jussike-ja-von-krahli-34-sunnipaev",
+   "hind": {
+    "praegu": "peopilet 15 € (sissepääs 20.00-st)",
+    "mark": "terve päeva pilet 34 € / 20 € (alla 26, pensionär), toetajapilet 75 €",
+    "allikas": "Fienta, kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 + Fienta uudiskiri). Kaks allikat: Fienta piletileht (kuupäev, koht, koosseis, žanrisõnad „müra- ja stoner rocki projekt\", „pungigrupp\") + FB event Rada7 uudiskirjast. Žanr Fienta lehelt, mitte uudiskirjast.",
+   "img": "pildid/vonkrahli34sunnipaeviambobvigrivolta.webp",
+   "vu": "https://vonkrahl.ee/"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Halloween at Fort Bar: Hirmuvalitseja + Asankheya + Daniels Pill + Abonent",
+   "a": "uksed 20.00, esimene bänd 21.00; kostüümis tervitusshot",
+   "b": [
+    "Hirmuvalitseja",
+    "Asankheya",
+    "Daniels Pill",
+    "Abonent"
+   ],
+   "v": "Fort bar",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Fort bari FB events-tab",
+   "su": "https://www.facebook.com/fortbar.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1671986647859571/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Ürituse leht bändide žanrit ei ütle; sildid üldised.",
+   "lisatud": "2026-10-30",
+   "vu": "https://www.facebook.com/fortbar.tallinn"
+  },
+  {
+   "d": "2026-10-31",
+   "t": "kontsert",
+   "n": "Monster Ball – Halloween Party in Tallinn 2026",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/monster-ball-halloween-party-in-tallinn-2026/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "vu": "https://www.thekrypt.ee/"
   }
  ]
 }
