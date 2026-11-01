@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "oid": "ollie-d3-2026-11-07",
+  "sait": "www",
+  "uritus": "OLLIE «If Demons Are Real, So Are Angels» debüütalbumi esitluskontsert — L 07.11.2026 kl 18.00–22.00, D3 (Telliskivi 62), Tallinn, 28–53 €",
+  "link": "https://www.facebook.com/events/1800460284308291",
+  "kysimus": "Kas lisame www-saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "jah, www (rock + alt)"
+   },
+   {
+    "id": "b",
+    "tekst": "ei, jääb välja (Eesti Laulu peavoolu-poprokk, REEGLID §1 Smilers/Shanon-klass)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-06",
+  "miks": "kluub.ee märgib žanriks „Rock, live\"; OLLIE on Eesti Laulu (2023 «Venom», 2024 favoriit) artist — rokilik heli, aga peavoolu-raadioartist. Piir peavoolu-poproki ja alt-roki vahel on sinu otsus.",
+  "lingid": [
+   "https://www.facebook.com/events/1800460284308291",
+   "https://www.piletitasku.ee/et/event/10403",
+   "https://www.kluub.ee/et/events/tallinn/8c02af93-c91e-46f4-8d10-8bbc26d8e389",
+   "https://en.wikipedia.org/wiki/Ollie_(singer)"
+  ],
+  "kontekst": "Leitud 01.11.2026 postkastijooksus kluub.ee Tallinna lehelt (samm 2c). Piletitasku leht meie tööriistale blokeeritud, hind ja aeg kluub.ee-st (28–53 €, uksed 18.00, vanusepiiranguta). Kui (a): ou = FB event, pu = Piletitasku, g = rock + alt.",
+  "lisatud": "2026-11-01"
+ },
+ {
+  "oid": "poffi-pidu-klubi-neli-2026-11-07",
+  "sait": "klubi",
+  "uritus": "PÖFFI PIDU TARTUS — L 07.11.2026 kl 21.00–04.00, Klubi Neli (Vallikraavi 4), Tartu; tasuta kuni 23.00, siis 5 € / 9 €, fast track 15 €, 20+",
+  "link": "https://www.facebook.com/events/2142213293324285",
+  "kysimus": "Kas lisame klubi-saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "jah, klubi (house; DJ-d PM2AM (LV), Franz Malmsten b2b INGER, Muul)"
+   },
+   {
+    "id": "b",
+    "tekst": "ei, jääb välja (filmifestivali järelpidu, žanrit ei nimetata)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-06",
+  "miks": "Kaks allikat olemas (kluub.ee + GateMe), aga kumbki ei nimeta žanrit — taskiprompti 2c järgi ei oleta. Klubi Neli GILD (house/techno) läks 25.10 sinu loal sisse; see on PÖFF-i peosari, mitte resident-õhtu.",
+  "lingid": [
+   "https://www.facebook.com/events/2142213293324285",
+   "https://gateme.com/et/klubineli/104458-poffi-pidu-tartus-i-klubi-neli-i-0711/",
+   "https://www.kluub.ee/et/events/tartu/3199dcb8-ba58-4355-be2b-35f9f3e96cae"
+  ],
+  "kontekst": "Leitud 01.11.2026 postkastijooksus kluub.ee Tartu lehelt (samm 2c). Living Room: PM2AM (LV); Club Side: Franz Malmsten b2b INGER, Muul. Korraldaja Klubi Neli. Kui (a): ou = FB event, pu = GateMe, hind astmeliselt; žanrisilt vajab sinu kinnitust.",
+  "lisatud": "2026-11-01"
+ }
+]
