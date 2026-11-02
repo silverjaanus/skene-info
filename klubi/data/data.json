@@ -1,51 +1,6 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "entries": [
-  {
-   "d": "2026-09-23",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Luurel Varas — «Prom Song»",
-   "a": "4-looline EP",
-   "b": [
-    "Luurel Varas"
-   ],
-   "g": [
-    "house",
-    "techno",
-    "bass"
-   ],
-   "sn": "Bandcamp discover (Eesti, house)",
-   "su": "https://bandcamp.com/discover/estonia?tags=house&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://luurelvaras.bandcamp.com/album/prom-song",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Allikad: artisti Bandcamp (released September 23, 2026; sildid bass music, house, techno) + Bandcamp discover.",
-   "img": "pildid/luurelvaraspromsong.webp"
-  },
-  {
-   "d": "2026-09-30",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Djerro — «Scrtz»",
-   "a": "8-looline album (Eesti Pops)",
-   "b": [
-    "Djerro"
-   ],
-   "g": [
-    "techno",
-    "minimal",
-    "ambient",
-    "dub"
-   ],
-   "sn": "Bandcamp discover (Eesti, techno)",
-   "su": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://eestipops.bandcamp.com/album/scrtz",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Allikad: labeli Bandcamp (released September 30, 2026; sildid ambient, drone, dubby minimal techno) + Bandcamp discover.",
-   "img": "pildid/djerroscrtz.webp"
-  },
   {
    "d": "2026-10-01",
    "t": "reliis",
@@ -241,7 +196,7 @@
     "allikas": "Fienta, kontrollitud 30.10.2026"
    },
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10).",
+   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10). | 02.11.2026: liidetud duplikaat (sama FB event 1817000023095814, sama Fienta pilet; teine kirje tuli Helinihe FB events-tabist Silveri 30.10 sweepi-otsusega).",
    "img": "pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
   },
   {
@@ -402,6 +357,33 @@
    "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + IDA Radio events-tab. Ürituse tekst žanrit selgelt ei nimeta (baselines, hard lines) — sildid Silveri otsusel, kontrolli.",
    "lisatud": "2026-10-30",
    "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "klubi",
+   "n": "Hard Techno Night #3",
+   "a": "23.00-07.00, Main Stage; hard techno / industrial techno, soovituslik tume nahkriietus",
+   "b": [
+    "KIRSMØDE",
+    "ORXRO"
+   ],
+   "v": "Club NINE",
+   "c": "Tallinn",
+   "g": [
+    "techno",
+    "industrial"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/b2b8b5f3-ae0f-43df-bdff-03bf9f074cb6",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1089896744039987",
+   "hind": {
+    "praegu": "10 €",
+    "mark": "uksel",
+    "allikas": "kluub.ee, kontrollitud 02.11.2026"
+   },
+   "lisatud": "2026-11-02",
+   "nb": "lisatud postkastijooksus 02.11.2026 (samm 2c). Allikad: kluub.ee + FB event (Club NINE, R 06.11 23.00-07.00, Tulika 9/11). Hind ainult kluub.ee-st, FB kirjeldus lühendatud; pilt puudub (pildisamm tegemata)."
   },
   {
    "d": "2026-11-07",
