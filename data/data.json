@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "entries": [
   {
    "d": "2026-09-18",
@@ -24,72 +24,6 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. maiskizo.ee: „18.09.2026 annab MAI SKIZO välja oma teise albumi“ + Spotify (2026, 13 lugu) + Plaadimägi LP. Leitud bändi FB eventist (MAI SKIZO @ Kära Kants 23.10 tutvustab albumit).",
    "img": "pildid/maiskizovalumote.webp"
-  },
-  {
-   "d": "2026-09-22",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Kevin — «Klassisõda ja töölissaabas»",
-   "a": "22-looline album",
-   "b": [
-    "Kevin"
-   ],
-   "g": [
-    "punk",
-    "folk"
-   ],
-   "sn": "Bandcamp discover (Eesti, punk)",
-   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://kevinifolkpunk.bandcamp.com/album/klassis-da-ja-t-lissaabas",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Allikad: artisti Bandcamp (released September 22, 2026; sildid folk punk, Tallinn) + Bandcamp discover.",
-   "img": "pildid/kevinklassisodajatoolissaabas.webp"
-  },
-  {
-   "d": "2026-09-29",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Lemon Trees — «Сны Люси»",
-   "a": "9-looline album (Tallinn)",
-   "b": [
-    "Lemon Trees"
-   ],
-   "g": [
-    "indie",
-    "shoegaze",
-    "post",
-    "alt"
-   ],
-   "sn": "Bandcamp discover (Eesti, rock)",
-   "su": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://lemontreestallinn.bandcamp.com/album/--3",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Allikad: bändi Bandcamp (released September 29, 2026; sildid indie rock, post-punk, shoegaze, dream pop) + Bandcamp discover. indie-kirjel juursilt alt olemas (REEGLID §9).",
-   "img": "pildid/lemontrees.webp"
-  },
-  {
-   "d": "2026-09-30",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Pluuto 200 — «Nelikvedu»",
-   "a": "4-looline EP",
-   "b": [
-    "Pluuto 200"
-   ],
-   "g": [
-    "punk",
-    "alt",
-    "rock"
-   ],
-   "sn": "Bandcamp discover (Eesti, punk)",
-   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://pluuto200.bandcamp.com/album/nelikvedu",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Allikad: bändi Bandcamp (released September 30, 2026; sildid punk, grunge, post-punk) + Bandcamp discover. Bänd on saidil varem (singel «Bobcat» 08.08).",
-   "img": "pildid/pluuto200nelikvedu.webp"
   },
   {
    "d": "2026-09-30",
@@ -306,28 +240,6 @@
    "img": "pildid/joodikudjanarkaridjoodikudjadisajanarkaridjavp.webp"
   },
   {
-   "d": "2026-10-20",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Estoner — «Black Metal Uus Lõpp»",
-   "a": "neljas stuudioalbum; esitluskontsert 06.11 SAAR CULT",
-   "b": [
-    "Estoner"
-   ],
-   "g": [
-    "stoner",
-    "sludge",
-    "metal"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/bands/album.php?album_id=211416",
-   "on_": "Bandcamp",
-   "ou": "https://estoner.bandcamp.com/album/black-metal-uus-l-pp",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Bandcamp (eeltellimus, „releases October 20, 2026\") + Metal Storm (stoner metal, 20 October 2026). ⚠ HANDOVER pidas Estonerit rap-saidi kandidaadiks — tegu on stoner/sludge metal bändiga, seega www.",
-   "img": "pildid/estonerblackmetaluuslopp.webp"
-  },
-  {
    "d": "2026-10-22",
    "t": "kontsert",
    "n": "Clowny Business: Agarwaen (FIN) + SOLD + Strych:9",
@@ -375,38 +287,6 @@
    "su": "https://tumeaine.bandcamp.com/album/k-ik-v-i-mitte-midagi",
    "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti metal-tag). Kaks allikat: Bandcamp (released October 23, 2026) + esitluskontserdi FB event 21.11 („ilmus 23. oktoobril 2026 vinüülil ja digitaalselt“).",
    "img": "pildid/tumeainekoikvoimittemidagi.webp"
-  },
-  {
-   "d": "2026-11-01",
-   "t": "kontsert",
-   "n": "Serotonin Zero (PL) + Väntajad + Eldereater",
-   "a": "uksed 19.00, esimene bänd 20.00; Serotonin Zero — blackened hardcore (Varssavi), Väntajad — raw grind, Eldereater — powerviolence",
-   "b": [
-    "Serotonin Zero (PL)",
-    "Väntajad",
-    "Eldereater"
-   ],
-   "v": "Ülase12",
-   "c": "Tallinn",
-   "g": [
-    "grind",
-    "core",
-    "black",
-    "punk"
-   ],
-   "sn": "Ülase12 FB events-tab",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2202077603679917/",
-   "hind": {
-    "praegu": "10€ / 7€ õpilased",
-    "mark": "uksel",
-    "allikas": "FB event, kontrollitud 30.10.2026"
-   },
-   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (Anemon12) + Rada7 FB events-tab. Žanrid ürituse enda tekstist.",
-   "lisatud": "2026-10-30",
-   "img": "pildid/serotoninzeroplvantajadeldereater.webp",
-   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "d": "2026-11-05",

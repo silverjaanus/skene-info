@@ -1925,49 +1925,6 @@
   "img": "pildid/estonerblackmetaluuslopp.webp"
  },
  {
-  "d": "2026-09-30",
-  "t": "reliis",
-  "rel": 1,
-  "n": "Pluuto 200 — «Nelikvedu»",
-  "a": "4-looline EP",
-  "b": [
-   "Pluuto 200"
-  ],
-  "g": [
-   "punk",
-   "alt",
-   "rock"
-  ],
-  "sn": "Bandcamp discover (Eesti, punk)",
-  "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
-  "on_": "Bandcamp",
-  "ou": "https://pluuto200.bandcamp.com/album/nelikvedu",
-  "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Allikad: bändi Bandcamp (released September 30, 2026; sildid punk, grunge, post-punk) + Bandcamp discover. Bänd on saidil varem (singel «Bobcat» 08.08).",
-  "img": "pildid/pluuto200nelikvedu.webp"
- },
- {
-  "d": "2026-09-22",
-  "t": "reliis",
-  "rel": 1,
-  "n": "Kevin — «Klassisõda ja töölissaabas»",
-  "a": "22-looline album",
-  "b": [
-   "Kevin"
-  ],
-  "g": [
-   "punk",
-   "folk"
-  ],
-  "sn": "Bandcamp discover (Eesti, punk)",
-  "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
-  "on_": "Bandcamp",
-  "ou": "https://kevinifolkpunk.bandcamp.com/album/klassis-da-ja-t-lissaabas",
-  "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Allikad: artisti Bandcamp (released September 22, 2026; sildid folk punk, Tallinn) + Bandcamp discover.",
-  "img": "pildid/kevinklassisodajatoolissaabas.webp"
- },
- {
   "d": "2026-11-07",
   "t": "reliis",
   "rel": 1,
@@ -1988,29 +1945,6 @@
   "lisatud": "2026-10-02",
   "nb": "lisatud sweepis 02.10.2026. Allikad: bändi Bandcamp („releases November 7, 2026\"; sildid atmospheric/progressive rock, post-rock, post-hardcore, progressive metal) + Bandcamp discover. Tulevane reliis.",
   "img": "pildid/oceandistrictspulsar.webp"
- },
- {
-  "d": "2026-09-29",
-  "t": "reliis",
-  "rel": 1,
-  "n": "Lemon Trees — «Сны Люси»",
-  "a": "9-looline album (Tallinn)",
-  "b": [
-   "Lemon Trees"
-  ],
-  "g": [
-   "indie",
-   "shoegaze",
-   "post",
-   "alt"
-  ],
-  "sn": "Bandcamp discover (Eesti, rock)",
-  "su": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
-  "on_": "Bandcamp",
-  "ou": "https://lemontreestallinn.bandcamp.com/album/--3",
-  "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Allikad: bändi Bandcamp (released September 29, 2026; sildid indie rock, post-punk, shoegaze, dream pop) + Bandcamp discover. indie-kirjel juursilt alt olemas (REEGLID §9).",
-  "img": "pildid/lemontrees.webp"
  },
  {
   "d": "2026-12-05",
@@ -4245,25 +4179,6 @@
   },
   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Ürituse leht bändide žanrit ei ütle; sildid üldised.",
   "lisatud": "2026-10-30"
- },
- {
-  "rel": 1,
-  "d": "2026-09-22",
-  "lisatud": "2026-09-22",
-  "t": "reliis",
-  "n": "Kevin — «Klassisõda ja töölissaabas»",
-  "a": "folk punk, Tallinn",
-  "b": [
-   "Kevin"
-  ],
-  "g": [
-   "punk",
-   "folk"
-  ],
-  "sn": "Bandcamp",
-  "su": "https://kevinifolkpunk.bandcamp.com/album/klassis-da-ja-t-lissaabas",
-  "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Vanem reliis (Bandcampi Eesti tag-otsing, sweep 30.10.2026): lisatud = väljalaskekuupäev, et kirje läheks arhiivi, mitte esilehele (REEGLID §6).",
-  "img": "pildid/kevinklassisodajatoolissaabas.webp"
  },
  {
   "d": "2026-11-05",

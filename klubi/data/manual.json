@@ -1,27 +1,5 @@
 [
  {
-  "d": "2026-10-18",
-  "t": "kontsert",
-  "n": "Camouflage (DE)",
-  "a": "Saksa süntpopi legend esmakordselt Tartus — «The Great Commandment», «Love Is A Shield», «Suspicious Love»",
-  "b": [
-   "Camouflage"
-  ],
-  "v": "Vanemuise Kontserdimaja",
-  "c": "Tartu",
-  "g": [
-   "electro",
-   "darkwave"
-  ],
-  "sn": "kontaktivorm",
-  "su": "https://concerts.hypebot.com/artist/c/21784-camouflage",
-  "on_": "Piletitasku",
-  "ou": "https://www.piletitasku.ee/et/event/9392",
-  "pu": "https://www.piletitasku.ee/et/event/9392",
-  "nb": "kontaktivormi sisend (Artist & Music Factory), esitatud skene.info vormi kaudu, žanri järgi (süntpop = elektrooniline baasžanr) klubi; kinnitatud Bandsintown/Hypebot tuurigraafiku (P 18.10 Tartu, Vanemuise kontserdimaja) + helitehas.ee ürituselehe («esmakordselt Tartus») vastu 19.07.2026; pilet Piletitasku (hinda lehelt kätte ei tulnud, ei märgitud)",
-  "img": "pildid/camouflagede.webp"
- },
- {
   "d": "2026-10-28",
   "t": "kontsert",
   "n": "Rural Tapes (NO) + Hendrik Kaljujärv",
@@ -675,51 +653,6 @@
   "lisatud": "2026-10-02",
   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Legendaarne Raadio) + Fienta piletileht (R 13.11 20:00 – 04:00). Žanr ürituse tekstist: „räpp ja reiv\". ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII rap/data/manual.json KUI klubi/data/manual.json failis — hoia n, d, ou mõlemas identsed. Klubi-poole silt: reivi osa (Killing Sinatra, NEOONDREED – techno).",
   "img": "pildid/naistekasrappjareiv.webp"
- },
- {
-  "d": "2026-09-30",
-  "t": "reliis",
-  "rel": 1,
-  "n": "Djerro — «Scrtz»",
-  "a": "8-looline album (Eesti Pops)",
-  "b": [
-   "Djerro"
-  ],
-  "g": [
-   "techno",
-   "minimal",
-   "ambient",
-   "dub"
-  ],
-  "sn": "Bandcamp discover (Eesti, techno)",
-  "su": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
-  "on_": "Bandcamp",
-  "ou": "https://eestipops.bandcamp.com/album/scrtz",
-  "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Allikad: labeli Bandcamp (released September 30, 2026; sildid ambient, drone, dubby minimal techno) + Bandcamp discover.",
-  "img": "pildid/djerroscrtz.webp"
- },
- {
-  "d": "2026-09-23",
-  "t": "reliis",
-  "rel": 1,
-  "n": "Luurel Varas — «Prom Song»",
-  "a": "4-looline EP",
-  "b": [
-   "Luurel Varas"
-  ],
-  "g": [
-   "house",
-   "techno",
-   "bass"
-  ],
-  "sn": "Bandcamp discover (Eesti, house)",
-  "su": "https://bandcamp.com/discover/estonia?tags=house&s=new",
-  "on_": "Bandcamp",
-  "ou": "https://luurelvaras.bandcamp.com/album/prom-song",
-  "lisatud": "2026-10-02",
-  "nb": "lisatud sweepis 02.10.2026. Allikad: artisti Bandcamp (released September 23, 2026; sildid bass music, house, techno) + Bandcamp discover.",
-  "img": "pildid/luurelvaraspromsong.webp"
  },
  {
   "d": "2026-12-05",
