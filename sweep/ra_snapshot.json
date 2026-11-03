@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-11-02",
+ "tommatud": "2026-11-03",
  "aken": {
-  "algus": "2026-11-02",
-  "lopp": "2027-01-01"
+  "algus": "2026-11-03",
+  "lopp": "2027-01-02"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 24,
+ "kirjeid": 28,
  "kirjed": [
   {
    "d": "2026-11-05",
@@ -20,19 +20,6 @@
     "Club"
    ],
    "url": "https://ra.co/events/2572666",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-06",
-   "n": "Laine Klubiöö: mi-el (UK)",
-   "algus": "2026-11-06T23:00:00.000",
-   "v": "Uus Laine",
-   "ala": "Tallinn",
-   "b": [
-    "mi-el"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2494767",
    "pilet": false
   },
   {
@@ -55,18 +42,32 @@
   },
   {
    "d": "2026-11-06",
-   "n": "HEVI: Teddy Killerz & Tantrum Desire",
-   "algus": "2026-11-06T22:30:00.000",
-   "v": "Helitehas",
+   "n": "Laine Klubiöö: mi-el (UK)",
+   "algus": "2026-11-06T23:00:00.000",
+   "v": "Uus Laine",
    "ala": "Tallinn",
    "b": [
-    "Teddy Killerz",
-    "Tantrum Desire"
+    "mi-el"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2494767",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "NIGHTVISION",
+   "algus": "2026-11-06T23:00:00.000",
+   "v": "Club Studio",
+   "ala": "Tallinn",
+   "b": [
+    "dj lumi",
+    "TELLEMRALF"
    ],
    "g": [
-    "Drum & Bass"
+    "House",
+    "Garage"
    ],
-   "url": "https://ra.co/events/2516539",
+   "url": "https://ra.co/events/2574990",
    "pilet": false
   },
   {
@@ -83,6 +84,22 @@
     "House"
    ],
    "url": "https://ra.co/events/2562697",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "HEVI: Teddy Killerz & Tantrum Desire",
+   "algus": "2026-11-06T22:30:00.000",
+   "v": "Helitehas",
+   "ala": "Tallinn",
+   "b": [
+    "Teddy Killerz",
+    "Tantrum Desire"
+   ],
+   "g": [
+    "Drum & Bass"
+   ],
+   "url": "https://ra.co/events/2516539",
    "pilet": false
   },
   {
@@ -116,6 +133,19 @@
    "pilet": false
   },
   {
+   "d": "2026-11-06",
+   "n": "Hard Techno Night",
+   "algus": "2026-11-06T23:00:00.000",
+   "v": "Club Nine",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2574670",
+   "pilet": false
+  },
+  {
    "d": "2026-11-07",
    "n": "MOD CLUB: umru [pc music]",
    "algus": "2026-11-07T23:59:00.000",
@@ -142,6 +172,30 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2572655",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-07",
+   "n": "DIO SOCIETY · Saturday nights",
+   "algus": "2026-11-07T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2574722",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-07",
+   "n": "Trance Capital",
+   "algus": "2026-11-07T23:00:00.000",
+   "v": "Club Nine",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Trance"
+   ],
+   "url": "https://ra.co/events/2575151",
    "pilet": false
   },
   {
