@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -91,7 +91,7 @@
     },
     {
      "n": "Club NINE (FB)",
-     "u": "https://www.facebook.com/search/top?q=Club%20NINE%20Tallinn"
+     "u": "https://www.facebook.com/ClubNineTallinn/events"
     },
     {
      "n": "Contriber & Philly Joe's Tartu (FB)",
@@ -140,6 +140,10 @@
     {
      "n": "Kära Kants (Rakvere)",
      "u": "https://www.facebook.com/groups/112392415448166/"
+    },
+    {
+     "n": "PoCo popkunstimuuseum (FB)",
+     "u": "https://www.facebook.com/search/top?q=PoCo%20popkunstimuuseum"
     },
     {
      "n": "Pubi Juudas",
@@ -449,6 +453,10 @@
     {
      "n": "Town Flesh (Bandcamp)",
      "u": "https://townflesh.bandcamp.com/"
+    },
+    {
+     "n": "Trancedeluxe (FB)",
+     "u": "https://www.facebook.com/search/top?q=Trancedeluxe"
     },
     {
      "n": "Violetscape",

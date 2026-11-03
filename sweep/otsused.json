@@ -1,1 +1,30 @@
-[]
+[
+ {
+  "oid": "2026-11-03-poco-bowie-x-3",
+  "lisatud": "2026-11-03",
+  "tahtaeg": "2026-11-08",
+  "kysimus": "Bowie x 3 — kolm Bowie plaadiõhtut PoCo popkunstimuuseumis (R 06.11, 13.11, 20.11 kl 20–22, Rotermanni 2, sissepääs BOWIE x SUKITA näituse piletiga 15 €). Kas lisame www-le (rock)?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "jah, kõik kolm www-le, silt rock"
+   },
+   {
+    "id": "b",
+    "tekst": "ei, jääb välja (DJ mängib plaate, peavoolu-klassik, muuseumiüritus)"
+   },
+   {
+    "id": "c",
+    "tekst": "ainult Sander Varuski õhtu 20.11 (R2 Popikroonikad kaaskorraldaja)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "lingid": [
+   "06.11 Kristo Rajasaare: https://www.facebook.com/events/4409613372633764/ · pilet https://www.piletilevi.ee/piletid/KQT3X7HGTM/bowie-x-3-kristo-rajasaare-bowie-algus-ja-armsaimad",
+   "13.11 DJ Rhythm Doctor: https://www.facebook.com/events/2855585781491142/ · pilet https://www.piletilevi.ee/piletid/EVALMS3H5U/bowie-x-3-dj-rhythm-doctor-confidants-and-familiars",
+   "20.11 Sander Varusk: https://www.facebook.com/events/1132862432472299/ · pilet https://www.piletilevi.ee/piletid/YXYDXY4BFU/bowie-x-3-sander-varusk-bowie-on-the-move",
+   "näitus/pilet: https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst"
+  ],
+  "kontekst": "Tuli 03.11.2026 kolme kontaktivormina skene.info vormilt (saatja Ott, ott@poco.art = korraldaja; Zanrid: rock). Kõik kolm kinnitatud kahest allikast: ürituse FB-leht (Event by PoCo popkunstimuuseum; 20.11 ka R2 Sander Varusk / Popikroonikad) + Piletilevi seerialeht 'Bowie x 3: Muusika ja kunst PoCo muuseumis'. Formaat: DJ/raadiomees mängib Bowie plaate (06.11 algusaastad ja lemmikud; 13.11 Bowie kaastöötajad ja mõjutajad; 20.11 kontseptuaalne õhtu Berliin/LA/Tokyo perioodidest), mitte live-kontsert. Kahtlus: korraldaja žanriväide (rock) loeb (REEGLID §1, 23.09), aga skoobis on alternatiivne kitarrimuusika ja peavoolu-klassikut ega plaadiõhtuid muuseumis pole seni lisatud; plaadipoe-erand kehtib DJ-kavale, kuid siin pole tegu plaadipoe/-turuga. Vaikeotsus b (välja), tagasipööratav."
+ }
+]

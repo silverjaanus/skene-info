@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 197,
+ "count": 198,
  "entries": [
   {
    "sait": "www",
@@ -830,27 +830,32 @@
    "d": "2026-11-06",
    "t": "klubi",
    "n": "CHERRY ON TOP at MOD Club",
-   "a": "kureerib MALLA / MALLAMÁRET (Club Kaiku, Helsingi); algus bingoga, Fleur Amseri vinüülset",
+   "a": "kureerib MALLA / MALLAMÁRET (Club Kaiku, Helsingi); algus bingoga, Fleur Amseri vinüülset; Bobby Oroza (Big Crown Records) DJ-sett + live, MALLA live, Micaxan b2b MALLAMÁRET, QSLAP b2b Rizio (techno), lõpetab Kalifornia-Keke",
    "b": [
     "MALLA / MALLAMÁRET (FI)",
+    "Bobby Oroza",
     "Fleur Amser",
-    "Micaela Saraceno",
-    "QSLAP"
+    "Micaxan",
+    "QSLAP",
+    "Rizio",
+    "Kalifornia-Keke"
    ],
    "v": "MOD",
    "c": "Tallinn",
    "g": [
-    "house"
+    "house",
+    "techno"
    ],
    "sn": "Resident Advisor",
    "su": "https://ra.co/events/2567447",
    "pu": "https://fienta.com/cherry-on-top-at-mod-club",
    "hind": {
-    "praegu": "alates 6 €",
-    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+    "praegu": "early bird 6 €, regular 12 €",
+    "mark": "uksel 15 €",
+    "allikas": "ürituse FB event, kontrollitud 03.11.2026"
    },
    "lisatud": "2026-10-23",
-   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: RA (koosseis Micaela Saraceno, QSLAP) + Fienta piletileht (kuraator, house). Ürituse FB eventi ei leidnud. | 30.10.2026 sweep: rikastatud (ou, on_).",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: RA (koosseis Micaela Saraceno, QSLAP) + Fienta piletileht (kuraator, house). Ürituse FB eventi ei leidnud. | 30.10.2026 sweep: rikastatud (ou, on_). | 03.11.2026 postkastijooks (Paavli uudiskiri): täiskoosseis + hinnad + techno-silt ürituse ENDA FB-lehelt (house/techno sõnastus seal); RA 'Micaela Saraceno' asendatud ürituse lehe nimega 'Micaxan' (eeldatavalt sama artist).",
    "img": "https://klubi.skene.info/pildid/cherryontopatmodclub.webp",
    "ou": "https://www.facebook.com/events/1589674182351134/",
    "on_": "Facebook event",
@@ -1366,7 +1371,8 @@
    "a": "Alonette (folk-pop 70ndate roki mõjudega, bändiga) + Leedu trio Crooked Mouth (post-industrial folk: neofolk, acid folk, post-punk)",
    "b": [
     "Alonette",
-    "Crooked Mouth (LT)"
+    "Crooked Mouth (LT)",
+    "Vaim Sarv"
    ],
    "v": "Uus Laine",
    "c": "Tallinn",
@@ -1387,7 +1393,7 @@
     "allikas": "Fienta, kontrollitud 01.10.2026"
    },
    "lisatud": "2026-10-01",
-   "nb": "lisatud 01.10.2026 Silveri otsusega („läheb“, otsustuspunkt 2026-10-01-alonette-crooked-mouth). Leitud Fienta uudiskirjast 30.09. Kaks allikat: Uus Laine veebikava (linkib FB eventi) + Fienta piletileht (korraldaja OÜ Uus Laine; žanrikirjeldus sealt). Kellaaeg avaldamata.",
+   "nb": "lisatud 01.10.2026 Silveri otsusega („läheb“, otsustuspunkt 2026-10-01-alonette-crooked-mouth). Leitud Fienta uudiskirjast 30.09. Kaks allikat: Uus Laine veebikava (linkib FB eventi) + Fienta piletileht (korraldaja OÜ Uus Laine; žanrikirjeldus sealt). Kellaaeg avaldamata. | 03.11.2026 postkastijooks (kluub.ee): koosseisu lisatud Vaim Sarv - ürituse FB-lehe pealkiri on nüüd \"Laine Live: Alonette + Crooked Mouth (LT) + Vaim Sarv\".",
    "img": "https://www.skene.info/pildid/lainelivealonettecrookedmouthlt.webp",
    "vu": "https://uuslaine.com/"
   },
@@ -1577,6 +1583,35 @@
    "on_": "Facebook event",
    "img": "https://www.skene.info/pildid/surgentoceandistrictsalbumiesitlusedtartusmobisamobisa.webp",
    "vu": "https://genklubi.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-07",
+   "t": "klubi",
+   "n": "TRANCE Capital",
+   "a": "trance ja hard dance terve öö; uksed 23.00, korraldajad Trancedeluxe + Club NINE",
+   "b": [
+    "ARTM",
+    "Hans",
+    "Zas",
+    "Martin Vilba"
+   ],
+   "v": "Club NINE",
+   "c": "Tallinn",
+   "g": [
+    "trance"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/3992704a-0118-41ea-872f-d331180e2a97",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28897218509932211/",
+   "hind": {
+    "praegu": "10 € (pärast 00.00)",
+    "mark": "enne keskööd ilmselt tasuta (kluub.ee: 0-10 €)",
+    "allikas": "ürituse FB event, kontrollitud 03.11.2026"
+   },
+   "lisatud": "2026-11-03",
+   "nb": "lisatud postkastijooksus 03.11.2026 (samm 2c). Kaks allikat: kluub.ee + ürituse FB event (Trancedeluxe + Club NINE, L 07.11 23.00, Tulika 9/11). Žanr ürituse tekstist: 'Trance and hard dance music all night' (underground-korraldaja, REEGLID §1 hard dance piir)."
   },
   {
    "sait": "www",

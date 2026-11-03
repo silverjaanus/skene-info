@@ -461,9 +461,22 @@
     },
     {
       "nimi": "Club NINE (FB)",
-      "url": "https://www.facebook.com/search/top?q=Club%20NINE%20Tallinn",
+      "url": "https://www.facebook.com/ClubNineTallinn/events",
       "tyyp": "venue",
-      "nb": "lisatud 02.11.2026 postkastijooksus (kluub.ee: Hard Techno Night #3 06.11). Tulika 9/11 Tallinn, 'Yes to Electronic Music'; ka trance-/peavooluõhtuid (TRANCE Capital) - klubi skoobis ainult techno/underground. FB handle leidmata - leia sweepis ja asenda /<handle>/events."
+      "nb": "lisatud 02.11.2026 postkastijooksus (kluub.ee: Hard Techno Night #3 06.11). Tulika 9/11 Tallinn, 'Yes to Electronic Music'; ka peavooluõhtuid - klubi skoobis techno/underground + trance/hard dance underground-korraldajalt (REEGLID §1: trance klubi nimekirjas, hard dance underground jääb sisse; TRANCE Capital 07.11 lisatud 03.11). FB handle leitud 03.11.2026."
+    },
+    {
+      "nimi": "Trancedeluxe (FB)",
+      "url": "https://www.facebook.com/search/top?q=Trancedeluxe",
+      "tyyp": "korraldaja",
+      "nb": "lisatud 03.11.2026 postkastijooksus (kluub.ee: TRANCE Capital 07.11 Club NINE, kaaskorraldaja). Trance/hard dance peosari. FB handle leidmata - leia sweepis ja asenda /<handle>/events."
+    },
+    {
+      "nimi": "PoCo popkunstimuuseum (FB)",
+      "url": "https://www.facebook.com/search/top?q=PoCo%20popkunstimuuseum",
+      "veeb": "https://poco.art",
+      "tyyp": "venue",
+      "nb": "lisatud 03.11.2026 postkastijooksus (kontaktivorm, saatja ott@poco.art: 'Bowie x 3' plaadiõhtud 06/13/20.11, Rotermanni 2). Popkunstimuuseum, muusikaõhtud näituste juurde (DJ/plaadid); skoop lahtine - vt HANDOVER §4 otsus 2026-11-03-poco-bowie-x-3. FB handle leidmata - leia sweepis ja asenda /<handle>/events."
     }
   ],
   "ig": [
