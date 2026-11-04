@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-11-03",
+ "tommatud": "2026-11-04",
  "aken": {
-  "algus": "2026-11-03",
-  "lopp": "2027-01-02"
+  "algus": "2026-11-04",
+  "lopp": "2027-01-03"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 28,
+ "kirjeid": 30,
  "kirjed": [
   {
    "d": "2026-11-05",
@@ -20,6 +20,19 @@
     "Club"
    ],
    "url": "https://ra.co/events/2572666",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "Laine Klubiöö: mi-el (UK)",
+   "algus": "2026-11-06T23:00:00.000",
+   "v": "Uus Laine",
+   "ala": "Tallinn",
+   "b": [
+    "mi-el"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2494767",
    "pilet": false
   },
   {
@@ -42,19 +55,6 @@
   },
   {
    "d": "2026-11-06",
-   "n": "Laine Klubiöö: mi-el (UK)",
-   "algus": "2026-11-06T23:00:00.000",
-   "v": "Uus Laine",
-   "ala": "Tallinn",
-   "b": [
-    "mi-el"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2494767",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-06",
    "n": "NIGHTVISION",
    "algus": "2026-11-06T23:00:00.000",
    "v": "Club Studio",
@@ -72,22 +72,6 @@
   },
   {
    "d": "2026-11-06",
-   "n": "Rulers Of The Deep with Seamus Haji (UK)",
-   "algus": "2026-11-06T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [
-    "Seamus Haji",
-    "Rulers Of The Deep"
-   ],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2562697",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-06",
    "n": "HEVI: Teddy Killerz & Tantrum Desire",
    "algus": "2026-11-06T22:30:00.000",
    "v": "Helitehas",
@@ -100,6 +84,22 @@
     "Drum & Bass"
    ],
    "url": "https://ra.co/events/2516539",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "Rulers Of The Deep with Seamus Haji (UK)",
+   "algus": "2026-11-06T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [
+    "Seamus Haji",
+    "Rulers Of The Deep"
+   ],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2562697",
    "pilet": false
   },
   {
@@ -199,6 +199,23 @@
    "pilet": false
   },
   {
+   "d": "2026-11-07",
+   "n": "QSLAP b2b MICAXSAN all night long",
+   "algus": "2026-11-07T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [
+    "QSLAP",
+    "Micaela Saraceno"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2575816",
+   "pilet": false
+  },
+  {
    "d": "2026-11-13",
    "n": "Dreamscape Club Night: Kode9 (UK / Hyperdub)",
    "algus": "2026-11-13T23:00:00.000",
@@ -258,6 +275,20 @@
     "House"
    ],
    "url": "https://ra.co/events/2566807",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-14",
+   "n": "Glitch Club",
+   "algus": "2026-11-14T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [
+    "Rony Rex",
+    "DJ WUF"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2576222",
    "pilet": false
   },
   {
