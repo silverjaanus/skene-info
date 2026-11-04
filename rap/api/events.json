@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 198,
+ "count": 200,
  "entries": [
   {
    "sait": "www",
@@ -726,6 +726,37 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. Bandcamp: „releases November 5, 2026“ (eeltellimus); sildid death metal, modern metal, Tallinn.",
    "img": "https://www.skene.info/pildid/surgentsineater.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "T-40: Ukareda/Krigul/Toomel/Ahven",
+   "a": "arhail-bluus; uksed 19.00, kontsert 20.00",
+   "b": [
+    "T-40",
+    "Raul Ukareda",
+    "Ülo Krigul",
+    "Argo Toomel",
+    "Reigo Ahven"
+   ],
+   "v": "Philly Joe's",
+   "c": "Tallinn",
+   "g": [
+    "bluus"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/80904721-b0ed-472a-ac15-721e46cd7301",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1654560622747418",
+   "pu": "https://piletikeskus.ee/et/e/d48dsz",
+   "hind": {
+    "praegu": "eelmüük 15/20/25 €, kohapeal 30 €, soodus 15 €",
+    "mark": "",
+    "allikas": "Piletikeskus, kontrollitud 04.11.2026"
+   },
+   "lisatud": "2026-11-04",
+   "nb": "lisatud postkastijooksus 04.11.2026 (kluub.ee samm 2c). Allikad: Piletikeskuse ürituseleht (N 05.11 20.00, Philly Joe's Jazziklubi, 'arhail-bluus', koosseis) + kluub.ee + FB event. Bluus -> www (Andres Roots / Philly Joe's Tartu 06.11 pretsedent)."
   },
   {
    "sait": "www",
@@ -2970,6 +3001,38 @@
    "nb": "lisatud sweepis 14.08.2026; kolm allikat: Baltic Live Agency FB event + Piletilevi (L 21.11.2026 21:00, Kalosseumi saal) + MuusikaPlaneet uudis. pu viitab Piletilevi saali-lehele (otse-eventi URL polnud otsingust loetav). NB samal õhtul Lane 8 Noblessneri Valukojas (kirje olemas)",
    "img": "https://klubi.skene.info/pildid/fatboyslimuk.webp",
    "vu": "https://pohjalatehas.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Klubi Rock 2026",
+   "a": "Klubi Rocki 20. juubel (esimene toimus 2006); 19.00-01.00; baar, tasumine sularahas",
+   "b": [
+    "Singer Vinger",
+    "Korts ja Kaos",
+    "Surju Kommunaal",
+    "Infrapuna",
+    "Seevald"
+   ],
+   "v": "Kilingi-Nõmme klubi",
+   "c": "mujal",
+   "linn": "Kilingi-Nõmme",
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.knklubi.ee/kalender/klubi-rock-2026/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1445267376932743/",
+   "hind": {
+    "praegu": "15 € (kohapeal, sularahas)",
+    "mark": "",
+    "allikas": "knklubi.ee ürituseleht + kontaktivorm, kontrollitud 04.11.2026"
+   },
+   "lisatud": "2026-11-04",
+   "nb": "lisatud postkastijooksus 04.11.2026 (kontaktivorm 03.11, www-vorm, žanrid 'punk, rock'). Kaks allikat: FB event (Kilingi-Nõmme klubi, L 21.11 19.00) + venue kalender knklubi.ee (21.11 19.00-01.00, sissepääs 15 €). Koosseis: FB-lehel esimesed 4 nähtavad ('See more' taga), Seevald vormist."
   },
   {
    "sait": "www",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -120,6 +120,10 @@
     {
      "n": "Kidrakuur",
      "u": "https://www.facebook.com/KidrakuurKultuuriklubi/events"
+    },
+    {
+     "n": "Kilingi-Nõmme klubi (FB)",
+     "u": "https://www.facebook.com/KNklubi/events"
     },
     {
      "n": "Kinomaja / KuKu Klubi",

@@ -26,5 +26,27 @@
    "näitus/pilet: https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst"
   ],
   "kontekst": "Tuli 03.11.2026 kolme kontaktivormina skene.info vormilt (saatja Ott, ott@poco.art = korraldaja; Zanrid: rock). Kõik kolm kinnitatud kahest allikast: ürituse FB-leht (Event by PoCo popkunstimuuseum; 20.11 ka R2 Sander Varusk / Popikroonikad) + Piletilevi seerialeht 'Bowie x 3: Muusika ja kunst PoCo muuseumis'. Formaat: DJ/raadiomees mängib Bowie plaate (06.11 algusaastad ja lemmikud; 13.11 Bowie kaastöötajad ja mõjutajad; 20.11 kontseptuaalne õhtu Berliin/LA/Tokyo perioodidest), mitte live-kontsert. Kahtlus: korraldaja žanriväide (rock) loeb (REEGLID §1, 23.09), aga skoobis on alternatiivne kitarrimuusika ja peavoolu-klassikut ega plaadiõhtuid muuseumis pole seni lisatud; plaadipoe-erand kehtib DJ-kavale, kuid siin pole tegu plaadipoe/-turuga. Vaikeotsus b (välja), tagasipööratav."
+ },
+ {
+  "oid": "2026-11-04-nightvision-studio",
+  "lisatud": "2026-11-04",
+  "tahtaeg": "2026-11-06",
+  "kysimus": "Nightvision at Studio — R 06.11 kl 23.00–04.00, Studio (Tallinn), 7–20 €. Kas lisame klubisse?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "jah, klubi (house/garage + techno/dub/hard bounce lavad)"
+   },
+   {
+    "id": "b",
+    "tekst": "ei, jääb välja (Juniper Islandi peavoolu-klubiõhtu, üks lava pop)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "lingid": [
+   "pilet (GateMe): https://gateme.com/studio/104490-nightvision-at-studio-0611/",
+   "kluub.ee Tallinn nimekiri 04.11.2026 (R 06.11, Studio, 7-20 €)"
+  ],
+  "kontekst": "Leitud kluub.ee samm 2c 04.11.2026. Ürituse tekst: 3 lava – UP: House/Garage (FUNKOMATIK b2b OLIVAR, LUMI b2b TELLEMRALF, RAHU), SMOKING ROOM: Techno/Dub/Hard Bounce (MARK SAMUEL b2b WILLEM DOWN), alumine korrus: Pop (KALAMEES RAY). Korraldaja Juniper Island. Uksed 23.00, 18+, pilet 7 € / ISIC 9 € / FB Going kuni 00.00 15 € / tavapilet 20 €. Kahtlus: žanr on klubi-skoobis, aga Studio't pole klubisse kunagi lisatud ja Juniper Island + pop-lava viitab peavoolu-kommertsklubile (REEGLID §1 välistab). Funkomatik on klubi manual.json-is juba esinejana olemas. FB eventi linki kluub.ee nimekirjast kätte ei saanud; kontrolli enne lisamist. Vaikeotsus b (välja), tagasipööratav – üritus aegub 06.11."
  }
 ]
