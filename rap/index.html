@@ -1502,7 +1502,10 @@ function relCard(e){
   const u=purl(e.img), link=surl(e.ou||e.su);
   const pilt=u?`<img src="${u}" alt="" loading="lazy" decoding="async">`
               :`<span class="relph">${markSvg(e)}</span>`;
-  const bd=(e.b&&e.b.length)?e.b.join(", "):"";
+  // Bandinimi alapealkirjana ainult siis, kui see pole pealkirjas juba olemas
+  // (reliisi pealkiri on kujul "Bänd — «Album»" -> nimi oleks topelt; Silver 05.11.2026).
+  const nl=(e.n||"").toLowerCase();
+  const bd=(e.b||[]).filter(x=>x&&nl.indexOf(String(x).toLowerCase())===-1).join(", ");
   const sisu=`${pilt}<span class="relc-t">${esc(e.n)}</span>`
     +(bd?`<span class="relc-b">${esc(bd)}</span>`:"");
   return link?`<a class="relc" href="${link}" target="_blank" rel="noopener">${sisu}</a>`
