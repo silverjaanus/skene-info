@@ -26,7 +26,8 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import CAT_ORDER, this_and_next_week, order_for_output, parse_d
+from common import (CAT_ORDER, this_and_next_week, order_for_output, parse_d,
+                    event_span, hiline_reliis)
 import make_weekly_email as gen
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -80,9 +81,16 @@ def kontrolli_kaitumine(repo, ref):
         sel = order_for_output(sel, ws)
         tag = "+".join(cats)
 
-        # 1) ukski kuvatav kuupaev ei tohi olla akna algusest varasem
+        # 1) ukski kuvatav kuupaev ei tohi olla akna algusest varasem.
+        #    Erand (05.11.2026): common.hiline_reliis() -- hiljem lisatud reliis
+        #    naitab teadlikult oma tegelikku (moodunud) ilmumiskuupaeva.
         for e in sel:
             disp = e.get("_disp") or e.get("d", "")
+            try:
+                if hiline_reliis(e, event_span(e)[0], ws):
+                    continue
+            except (KeyError, ValueError, TypeError):
+                pass
             if disp < ws.isoformat():
                 vead.append(f"[{tag}] '{e.get('n','?')}' kuvab {disp}, "
                             f"aken algab {ws} (moodunud alguskuupaev!)")
