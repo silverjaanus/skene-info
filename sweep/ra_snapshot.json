@@ -1,8 +1,8 @@
 {
- "tommatud": "2026-11-04",
+ "tommatud": "2026-11-05",
  "aken": {
-  "algus": "2026-11-04",
-  "lopp": "2027-01-03"
+  "algus": "2026-11-05",
+  "lopp": "2027-01-04"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
@@ -72,22 +72,6 @@
   },
   {
    "d": "2026-11-06",
-   "n": "HEVI: Teddy Killerz & Tantrum Desire",
-   "algus": "2026-11-06T22:30:00.000",
-   "v": "Helitehas",
-   "ala": "Tallinn",
-   "b": [
-    "Teddy Killerz",
-    "Tantrum Desire"
-   ],
-   "g": [
-    "Drum & Bass"
-   ],
-   "url": "https://ra.co/events/2516539",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-06",
    "n": "Rulers Of The Deep with Seamus Haji (UK)",
    "algus": "2026-11-06T23:00:00.000",
    "v": "Fonoteek",
@@ -100,6 +84,22 @@
     "House"
    ],
    "url": "https://ra.co/events/2562697",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-06",
+   "n": "HEVI: Teddy Killerz & Tantrum Desire",
+   "algus": "2026-11-06T22:30:00.000",
+   "v": "Helitehas",
+   "ala": "Tallinn",
+   "b": [
+    "Teddy Killerz",
+    "Tantrum Desire"
+   ],
+   "g": [
+    "Drum & Bass"
+   ],
+   "url": "https://ra.co/events/2516539",
    "pilet": false
   },
   {
