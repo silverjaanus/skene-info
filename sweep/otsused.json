@@ -1,52 +1,25 @@
 [
  {
-  "oid": "2026-11-03-poco-bowie-x-3",
-  "lisatud": "2026-11-03",
-  "tahtaeg": "2026-11-08",
-  "kysimus": "Bowie x 3 — kolm Bowie plaadiõhtut PoCo popkunstimuuseumis (R 06.11, 13.11, 20.11 kl 20–22, Rotermanni 2, sissepääs BOWIE x SUKITA näituse piletiga 15 €). Kas lisame www-le (rock)?",
+  "oid": "2026-11-05-mystica-maison-dio",
+  "lisatud": "2026-11-05",
+  "tahtaeg": "2026-11-10",
+  "kysimus": "Mystica @ Maison Dio by Bombossa Brothers — R 13.11 kl 23.00–04.00, Maison Dio (Rävala pst 12, Tallinn), 20 € eelmüük / 25 € uksel. Kas lisame klubisse?",
   "valikud": [
    {
     "id": "a",
-    "tekst": "jah, kõik kolm www-le, silt rock"
+    "tekst": "jah, klubi, silt house (Bombossa Brothers on Lane 8 21.11 soojendajana klubis juba sees)"
    },
    {
     "id": "b",
-    "tekst": "ei, jääb välja (DJ mängib plaate, peavoolu-klassik, muuseumiüritus)"
-   },
-   {
-    "id": "c",
-    "tekst": "ainult Sander Varuski õhtu 20.11 (R2 Popikroonikad kaaskorraldaja)"
+    "tekst": "ei, jääb välja (žanrit ürituse leht ei nimeta, Maison Dio 'müstiline pidu')"
    }
   ],
   "vaikeotsus": "b",
   "lingid": [
-   "06.11 Kristo Rajasaare: https://www.facebook.com/events/4409613372633764/ · pilet https://www.piletilevi.ee/piletid/KQT3X7HGTM/bowie-x-3-kristo-rajasaare-bowie-algus-ja-armsaimad",
-   "13.11 DJ Rhythm Doctor: https://www.facebook.com/events/2855585781491142/ · pilet https://www.piletilevi.ee/piletid/EVALMS3H5U/bowie-x-3-dj-rhythm-doctor-confidants-and-familiars",
-   "20.11 Sander Varusk: https://www.facebook.com/events/1132862432472299/ · pilet https://www.piletilevi.ee/piletid/YXYDXY4BFU/bowie-x-3-sander-varusk-bowie-on-the-move",
-   "näitus/pilet: https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst"
+   "FB event: https://www.facebook.com/events/1742140911261487",
+   "pilet (Fienta): https://fienta.com/et/mystica-maisondio",
+   "kluub.ee: https://www.kluub.ee/et/events/tallinn/ae02dcc6-8a7b-47b1-9e30-fff3af5cd185"
   ],
-  "kontekst": "Tuli 03.11.2026 kolme kontaktivormina skene.info vormilt (saatja Ott, ott@poco.art = korraldaja; Zanrid: rock). Kõik kolm kinnitatud kahest allikast: ürituse FB-leht (Event by PoCo popkunstimuuseum; 20.11 ka R2 Sander Varusk / Popikroonikad) + Piletilevi seerialeht 'Bowie x 3: Muusika ja kunst PoCo muuseumis'. Formaat: DJ/raadiomees mängib Bowie plaate (06.11 algusaastad ja lemmikud; 13.11 Bowie kaastöötajad ja mõjutajad; 20.11 kontseptuaalne õhtu Berliin/LA/Tokyo perioodidest), mitte live-kontsert. Kahtlus: korraldaja žanriväide (rock) loeb (REEGLID §1, 23.09), aga skoobis on alternatiivne kitarrimuusika ja peavoolu-klassikut ega plaadiõhtuid muuseumis pole seni lisatud; plaadipoe-erand kehtib DJ-kavale, kuid siin pole tegu plaadipoe/-turuga. Vaikeotsus b (välja), tagasipööratav."
- },
- {
-  "oid": "2026-11-04-nightvision-studio",
-  "lisatud": "2026-11-04",
-  "tahtaeg": "2026-11-06",
-  "kysimus": "Nightvision at Studio — R 06.11 kl 23.00–04.00, Studio (Tallinn), 7–20 €. Kas lisame klubisse?",
-  "valikud": [
-   {
-    "id": "a",
-    "tekst": "jah, klubi (house/garage + techno/dub/hard bounce lavad)"
-   },
-   {
-    "id": "b",
-    "tekst": "ei, jääb välja (Juniper Islandi peavoolu-klubiõhtu, üks lava pop)"
-   }
-  ],
-  "vaikeotsus": "b",
-  "lingid": [
-   "pilet (GateMe): https://gateme.com/studio/104490-nightvision-at-studio-0611/",
-   "kluub.ee Tallinn nimekiri 04.11.2026 (R 06.11, Studio, 7-20 €)"
-  ],
-  "kontekst": "Leitud kluub.ee samm 2c 04.11.2026. Ürituse tekst: 3 lava – UP: House/Garage (FUNKOMATIK b2b OLIVAR, LUMI b2b TELLEMRALF, RAHU), SMOKING ROOM: Techno/Dub/Hard Bounce (MARK SAMUEL b2b WILLEM DOWN), alumine korrus: Pop (KALAMEES RAY). Korraldaja Juniper Island. Uksed 23.00, 18+, pilet 7 € / ISIC 9 € / FB Going kuni 00.00 15 € / tavapilet 20 €. Kahtlus: žanr on klubi-skoobis, aga Studio't pole klubisse kunagi lisatud ja Juniper Island + pop-lava viitab peavoolu-kommertsklubile (REEGLID §1 välistab). Funkomatik on klubi manual.json-is juba esinejana olemas. FB eventi linki kluub.ee nimekirjast kätte ei saanud; kontrolli enne lisamist. Vaikeotsus b (välja), tagasipööratav – üritus aegub 06.11."
+  "kontekst": "Leitud kluub.ee samm 2c 05.11.2026. Kolm allikat olemas (kluub.ee + FB event + Fienta), korraldaja Maison Dio, line-up 'Bombossa Brothers & friends'. Kahtlus: ürituse tekst žanrit ei nimeta ('linna kõige müstilisem pidu', 'muusikaline rännak') -> taskiprompti 2c järgi žanrit ei arva. Hind kõrge (20-25 €), formaat lähemal kommerts-klubiõhtule. Vaikeotsus b."
  }
 ]

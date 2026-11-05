@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 200,
+ "count": 204,
  "entries": [
   {
    "sait": "www",
@@ -857,6 +857,33 @@
    "img": "https://rap.skene.info/pildid/beebiloustlive.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-11-06",
+   "t": "muu",
+   "n": "Bowie x 3: Kristo Rajasaare: Bowie algus ja armsaimad",
+   "a": "20.00–22.00; Bowie plaadiõhtu (DJ mängib plaate, mitte live-kontsert) BOWIE x SUKITA näituse raames; sissepääs näituse piletiga",
+   "b": [
+    "Kristo Rajasaare"
+   ],
+   "v": "PoCo popkunstimuuseum",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4409613372633764/",
+   "pu": "https://www.piletilevi.ee/piletid/KQT3X7HGTM/bowie-x-3-kristo-rajasaare-bowie-algus-ja-armsaimad",
+   "hind": {
+    "praegu": "15 € (näituse pilet)",
+    "mark": "",
+    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
+   },
+   "lisatud": "2026-11-05",
+   "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent."
+  },
+  {
    "sait": "klubi",
    "d": "2026-11-06",
    "t": "klubi",
@@ -1170,6 +1197,39 @@
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. FB event (Pubi Juudas) + GateMe piletileht. Žanr ürituse tekstist („Eesti rokkmuusika legend“).",
    "img": "https://www.skene.info/pildid/magneticbandgunnargraps75.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-06",
+   "t": "klubi",
+   "n": "Nightvision at Studio",
+   "a": "23.00–04.00, 18+; UP: House/Garage (Funkomatik b2b Olivar, Lumi b2b Tellemralf, Rahu); Smoking Room: Techno/Dub/Hard Bounce (Mark Samuel b2b Willem Down); alumine korrus: pop (Kalamees Ray)",
+   "b": [
+    "Funkomatik",
+    "Olivar",
+    "Lumi",
+    "Tellemralf",
+    "Rahu",
+    "Mark Samuel",
+    "Willem Down"
+   ],
+   "v": "Studio",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn",
+   "on_": "GateMe",
+   "ou": "https://gateme.com/studio/104490-nightvision-at-studio-0611/",
+   "pu": "https://gateme.com/studio/104490-nightvision-at-studio-0611/",
+   "hind": {
+    "praegu": "7 € / ISIC 9 € / FB Going kuni 00.00 15 € / tavapilet 20 €",
+    "allikas": "GateMe + kluub.ee, kontrollitud 04.11.2026"
+   },
+   "lisatud": "2026-11-05",
+   "nb": "SILVERI OTSUS 04.11.2026 (\"1. lisa\") - otsustuspunkt 2026-11-04-nightvision-studio -> a. Allikad: kluub.ee Tallinn nimekiri (04.11) + GateMe piletileht. Korraldaja Juniper Island; pop-lava ei kuulu skoopi, sildid house/techno lavade järgi. FB eventi ei leitud."
   },
   {
    "sait": "www",
@@ -1809,6 +1869,33 @@
    "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab.",
    "lisatud": "2026-10-30",
    "img": "https://rap.skene.info/pildid/benakanister.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "muu",
+   "n": "Bowie x 3: DJ Rhythm Doctor: Confidants and Familiars",
+   "a": "20.00–22.00; Bowie plaadiõhtu (DJ mängib plaate, mitte live-kontsert) BOWIE x SUKITA näituse raames; sissepääs näituse piletiga",
+   "b": [
+    "DJ Rhythm Doctor"
+   ],
+   "v": "PoCo popkunstimuuseum",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2855585781491142/",
+   "pu": "https://www.piletilevi.ee/piletid/EVALMS3H5U/bowie-x-3-dj-rhythm-doctor-confidants-and-familiars",
+   "hind": {
+    "praegu": "15 € (näituse pilet)",
+    "mark": "",
+    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
+   },
+   "lisatud": "2026-11-05",
+   "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent."
   },
   {
    "sait": "klubi",
@@ -2750,6 +2837,33 @@
    "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (IDA Radio) + idaidaida.net. Žanrisilt ürituse tekstis nimetatud labelite järgi (AUS Music, Rhythm Section) - piiripealne, Silver võib üle vaadata.",
    "img": "https://klubi.skene.info/pildid/baridawillhofbauerlondonuk.webp",
    "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-20",
+   "t": "muu",
+   "n": "Bowie x 3: Sander Varusk: Bowie on the Move",
+   "a": "20.00–22.00; Bowie plaadiõhtu (DJ mängib plaate, mitte live-kontsert) BOWIE x SUKITA näituse raames; sissepääs näituse piletiga",
+   "b": [
+    "Sander Varusk"
+   ],
+   "v": "PoCo popkunstimuuseum",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1132862432472299/",
+   "pu": "https://www.piletilevi.ee/piletid/YXYDXY4BFU/bowie-x-3-sander-varusk-bowie-on-the-move",
+   "hind": {
+    "praegu": "15 € (näituse pilet)",
+    "mark": "",
+    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
+   },
+   "lisatud": "2026-11-05",
+   "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent."
   },
   {
    "sait": "klubi",

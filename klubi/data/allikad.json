@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "groups": [
   {
    "nimi": "Kohad",
@@ -123,6 +123,10 @@
     {
      "n": "Peatus (Tallinn)",
      "u": "https://ra.co/clubs/135627"
+    },
+    {
+     "n": "Studio Tallinn (GateMe)",
+     "u": "https://gateme.com/studio/"
     },
     {
      "n": "TOLM (Tartu)",
