@@ -343,7 +343,43 @@ def in_window(e, ws, we):
     except (KeyError, ValueError, TypeError):
         print(f"HOIATUS: kirje vigase/puuduva kuupaevaga jaeti aknast valja: {e.get('n','?')} (d={e.get('d','?')!r})")
         return False
-    return s <= we and en >= ws
+    if s <= we and en >= ws:
+        return True
+    return hiline_reliis(e, s, ws)
+
+
+def band_rida(e):
+    """Bandide nimekiri kirja/pildi alamreale. 05.11.2026 (Silver): kui KOIK bandid
+    on pealkirjas juba olemas (nt reliis "Synghus — «Naljatooja»"), siis tuhi --
+    sama nime ei korrata. Ilma b-ta kirjel tagastab None (kutsuja kasutab `a`-d)."""
+    if is_release(e):
+        return []   # reliisil on bandinimi alati pealkirjas (Silver 05.11.2026)
+    b = [x for x in (e.get("b") or []) if str(x).strip()]
+    if not b:
+        return None
+    n = (e.get("n") or "").casefold()
+    if all(str(x).casefold() in n for x in b):
+        return []
+    return b
+
+
+HILINE_RELIIS_MAX_P = 30
+
+
+def hiline_reliis(e, s, ws):
+    """05.11.2026 (Silver, Synghus "Naljatooja"): reliis, mille ilmumiskuupaev
+    on ENNE akna algust, aga mis lisati parast eelmist reedet, laheb ikkagi
+    kirja/pildile -- muidu ei joua uhegi hiljem leitud reliis kunagi valja
+    (nii kadus 30.10 Joodikud ja Narkarid). Tingimus: lisatud RANGELT parast
+    eelmise akna algust (ws-7) -- eelmisel reedel lisatud/naidatud reliisi ei
+    korrata. Ule HILINE_RELIIS_MAX_P paeva vanu reliise ei votta."""
+    if not is_release(e) or s >= ws:
+        return False
+    try:
+        lis = date.fromisoformat(str(e.get("lisatud", ""))[:10])
+    except ValueError:
+        return False
+    return lis > ws - timedelta(days=7) and (ws - s).days <= HILINE_RELIIS_MAX_P
 
 
 # Eesti linnakategooriad + kategooriate (alamdomeenide) järjekord --

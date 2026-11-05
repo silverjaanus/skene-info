@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 204,
+ "count": 205,
  "entries": [
   {
    "sait": "www",
@@ -579,6 +579,28 @@
    "lisatud": "2026-10-30",
    "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Otsustuspunkt mediocris-uuslaine-2026-11-04 -> (a). Kohaliku artisti albumiesitlus, mitte RU/UA tuur.",
    "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-04",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Synghus — «Näljatooja»",
+   "a": "album, 7 eestikeelset lugu; eksperimentaalne doom / rituaalmetal (elektroonika, elektriorel, tenorsaksofon)",
+   "b": [
+    "Synghus"
+   ],
+   "g": [
+    "doom",
+    "metal"
+   ],
+   "sn": "Fairmus",
+   "su": "https://fairmus.com/app/releases/yryg7yfkrztn7eadctcr44ceby3dx4p3uz9bjkzrl9ws",
+   "on_": "synghus.band",
+   "ou": "https://synghus.band/",
+   "lisatud": "2026-11-05",
+   "nb": "Silveri soov 05.11.2026 (Silveri enda bänd; Silver töötab Fairmusis). Ilmumiskuupäev 04.11 Apple Musicu järgi; Fairmusi nädalakiri #45 (05.11) nimetab seda selle nädala uueks albumiks. Esile tõstetud uudiskirja intros (06.11) ja story's (07.11).",
+   "img": "https://www.skene.info/pildid/synghusnaljatooja.webp"
   },
   {
    "sait": "www",

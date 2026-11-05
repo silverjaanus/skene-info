@@ -1,0 +1,20 @@
+{
+ "_abi": [
+  "Story esiletoste (05.11.2026). Kui kirje 'kuupaev' == story paev, teeb make_ig_daily.py",
+  "eraldi slaidi ig/story-<kuupaev>-esile.jpg ja ig_publish.py postitab selle ENNE tavalist",
+  "TANA/HOMME story't. Moodas kirjed ei tee midagi. pilt = repo-suhteline tee (ruut)."
+ ],
+ "kirjed": [
+  {
+   "kuupaev": "2026-11-07",
+   "silt": "UUS ALBUM",
+   "artist": "Synghus",
+   "teos": "Näljatooja",
+   "alarida": "7 lugu · eksperimentaalne doom / rituaalmetal",
+   "cta": "Kuula Fairmusis",
+   "cta_alarida": "Eesti muusika voogedastus · fairmus.com",
+   "pilt": "ig/esile/synghus-naljatooja.jpg",
+   "kat": "metal"
+  }
+ ]
+}

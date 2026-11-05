@@ -33,7 +33,7 @@ except ImportError:
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
-                    in_window, today_local, in_scope, is_release, next_start,
+                    in_window, today_local, in_scope, is_release, next_start, band_rida,
                     order_for_output)
 
 # ---- palett (index.html :root) ----
@@ -228,15 +228,45 @@ TOP = SUB_Y + 40
 START_Y = TOP + 8
 ROW_LIMIT = (H - FOOT_H) - 16
 
+# 05.11.2026 (Silver): plaadikaas / plakat pisipildina rea paremas servas
+THUMB = 116
+THUMB_GAP = 22
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_THUMBS = {}
+
+def thumb(e):
+    """Kirje pisipilt (ruut THUMB px) voi None. Allikas: kirje `img` (pildid/*.webp)."""
+    p = e.get("img")
+    if not p:
+        return None
+    sub = {"rap": "rap", "klubi": "klubi"}.get(e.get("_cat"), "")   # alamsaitide pildid/
+    p = os.path.join(sub, p) if sub else p
+    if p not in _THUMBS:
+        try:
+            im = Image.open(os.path.join(REPO_ROOT, p)).convert("RGB")
+            w, h = im.size
+            s = min(w, h)
+            im = im.crop(((w - s) // 2, (h - s) // 2, (w - s) // 2 + s, (h - s) // 2 + s))
+            _THUMBS[p] = im.resize((THUMB, THUMB), Image.LANCZOS)
+        except Exception:
+            _THUMBS[p] = None
+    return _THUMBS[p]
+
+def body_w(e):
+    return BODY_W - (THUMB + THUMB_GAP if thumb(e) is not None else 0)
+
 def measure(d, fonts, e):
     """Uhe kirje rea korgus + ettearvutatud kujundus (font, pealkirjaread, bandid)."""
     tf = fonts["title"] if len(e.get("n", "")) < 40 else fonts["title_s"]
-    tlines = wrap(d, e.get("n", ""), tf, BODY_W, 2)
-    bands = " · ".join(e.get("b", [])) if e.get("b") else e.get("a", "")
+    tlines = wrap(d, e.get("n", ""), tf, body_w(e), 2)
+    br = band_rida(e)   # 05.11.2026: pealkirjas olevat bandi ei korrata
+    bands = " · ".join(br) if br is not None else e.get("a", "")
     h = 30 + len(tlines) * (tf.size + 3)
     if bands:
         h += fonts["bands"].size + 8
     h += fonts["venue"].size + 6
+    if thumb(e) is not None:
+        h = max(h, THUMB + 4)
     return max(h, 70) + 16, tf, tlines, bands
 
 def paginate(d, fonts, entries):
@@ -353,12 +383,18 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
         d.rectangle([X_BODY, ry, X_BODY + tw2 + 16, ry + 25], fill=col)
         d.text((X_BODY + 8, ry + 3), lbl, font=fonts["tag"], fill=PABER)
 
+        bw = body_w(e)
+        th = thumb(e)
+        if th is not None:
+            img.paste(th, (X_END - THUMB, ry + 2))
+        x_end = X_BODY + bw
+
         ty = ry + 32
         for ln in tlines:
             d.text((X_BODY, ty), ln, font=tf, fill=TINT)
             ty += tf.size + 3
         if bands:
-            d.text((X_BODY, ty + 2), ellip(d, bands, fonts["bands"], BODY_W),
+            d.text((X_BODY, ty + 2), ellip(d, bands, fonts["bands"], bw),
                    font=fonts["bands"], fill=HALL)
             ty += fonts["bands"].size + 8
 
@@ -376,12 +412,12 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
         pw = 0
         if pt:
             ptt = ("Pilet: " + pt) if e.get("t") not in ("reliis", "merch") else pt
-            ptt = ellip(d, ptt, fonts["price"], int(BODY_W * 0.5))  # hind max pool laiust
+            ptt = ellip(d, ptt, fonts["price"], int(bw * 0.5))  # hind max pool laiust
             pw = d.textlength(ptt, font=fonts["price"])
-        d.text((X_BODY, ty + 2), ellip(d, loc, fonts["venue"], BODY_W - (pw + 24 if pw else 0)),
+        d.text((X_BODY, ty + 2), ellip(d, loc, fonts["venue"], bw - (pw + 24 if pw else 0)),
                font=fonts["venue"], fill=TINT)
         if ptt:
-            d.text((X_END - pw, ty + 4), ptt, font=fonts["price"], fill=PAATINA)
+            d.text((x_end - pw, ty + 4), ptt, font=fonts["price"], fill=PAATINA)
 
         y += rh + gap
         d.line([(MARGIN, int(y) - 11), (W - MARGIN, int(y) - 11)], fill=JOON, width=1)
@@ -540,6 +576,8 @@ def main():
     ap.add_argument("--from", dest="frm", default=None)
     ap.add_argument("--days", type=int, default=7)
     args = ap.parse_args()
+    global REPO_ROOT
+    REPO_ROOT = args.repo   # pisipildid (kirje img) loetakse siit
 
     ref = parse_d(args.date) if args.date else today_local()
     if args.frm:

@@ -20,7 +20,7 @@ import urllib.request, urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
-                    in_window, today_local, in_scope, is_release, next_start,
+                    in_window, today_local, in_scope, is_release, next_start, band_rida,
                     order_for_output)
 
 # ---- palett (index.html :root) ----
@@ -167,6 +167,15 @@ def intro_block(lang, accent):
         btn_html=(lead_html + f'<a href="{btn["url"]}" style="display:inline-block;background:{accent};'
                   f'color:{PABER};font:700 13px/1 Arial,Helvetica,sans-serif;text-decoration:none;'
                   f'padding:11px 18px;">{btn["tekst"]}</a>')
+    # 05.11.2026: valikuline pilt (nt albumikaas) ploki alguses; INTRO["pilt"] = {url, link?, laius?}
+    # JPG/PNG (mitte webp -- Outlook ei nayita), absoluutne https-URL saidil.
+    pl=INTRO.get("pilt") or {}
+    img_html=""
+    if pl.get("url"):
+        w=int(pl.get("laius") or 240)
+        im=(f'<img src="{pl["url"]}" width="{w}" alt="{pl.get("alt","")}" '
+            f'style="display:block;width:{w}px;max-width:100%;height:auto;border:0;margin:0 0 14px;">')
+        img_html=(f'<a href="{pl["link"]}" style="text-decoration:none;">{im}</a>' if pl.get("link") else im)
     if not (head_html or paras or btn_html):
         return ""
     # NB asukoht: plokk on kirja ALGUSES, tumeda paise ja "Tulevad uritused"
@@ -175,7 +184,7 @@ def intro_block(lang, accent):
   <tr><td style="padding:22px 28px 0;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PABER};border-left:4px solid {accent};">
       <tr><td style="padding:18px 20px;">
-        {head_html}{paras}{btn_html}
+        {img_html}{head_html}{paras}{btn_html}
       </td></tr>
     </table>
   </td></tr>
@@ -217,7 +226,8 @@ def event_row(e, L, lang="et"):
         name=(f'<a href="{esc(link)}" style="color:{TINT};text-decoration:none;'
               f'border-bottom:1px solid {JOON};">{name}</a>')
     title=f'<div style="font:700 17px/1.3 Arial,Helvetica,sans-serif;color:{TINT};margin:6px 0 0;">{name}</div>'
-    bands=" &middot; ".join(esc(b) for b in e.get("b",[])) if e.get("b") else esc(e.get("a",""))
+    br=band_rida(e)   # 05.11.2026: pealkirjas olevat bandi ei korrata
+    bands=" &middot; ".join(esc(b) for b in br) if br is not None else esc(e.get("a",""))
     bands_html=(f'<div style="font:400 13px/1.4 \'Courier New\',monospace;color:{HALL};margin:3px 0 0;">{bands}</div>' if bands else "")
     venue=esc(e.get("v",""))
     linn=e.get("linn") or ("" if e.get("c")=="mujal" else e.get("c",""))

@@ -6,31 +6,37 @@
     "tekst = loend loikudest; lihtne HTML (<b>, <a>, <i>) on lubatud.",
     "nupp = valikuline; jata null-iks kui nuppu pole vaja."
   ],
-  "_markus": "Silveri soov 13.08.2026: VAHEMALT KOLM jargmist kirja (14.08, 21.08, 28.08) lahevad tagasisideplokiga; uuendusi voib samasse plokki juurde panna. Ara luhenda kuni-kuupaeva enne 28.08.",
+  "_markus": "Silveri soov 05.11.2026: 06.11 kirjas Synghuse albumi ilmumine Fairmusis + Fairmusi promo. Ainult see uks kiri (kuni 2026-11-06).",
   "aktiivne": true,
-  "kuni": "2026-08-28",
+  "kuni": "2026-11-06",
+  "pilt": {
+    "url": "https://www.skene.info/ig/esile/synghus-naljatooja-480.jpg",
+    "link": "https://fairmus.com/app/releases/yryg7yfkrztn7eadctcr44ceby3dx4p3uz9bjkzrl9ws",
+    "alt": "Synghus – Näljatooja",
+    "laius": 240
+  },
   "et": {
-    "pealkiri": "Paar uuendust — ja sinu arvamus kulub ära",
+    "pealkiri": "Uus album Fairmusis: Synghus „Näljatooja“",
     "tekst": [
-      "Saidil on nüüd avalik <b>API</b> — kogu kalender on saadaval masinloetava JSON-feedina, kui tahad andmeid oma skripti või vidinasse. Otspunktid ja väljade seletused leiad päisest lingi <a href=\"https://www.skene.info/api.html\">API</a> alt.",
-      "Peasaidi žanrivalikusse lisandus <b>funk/soul</b> — esimese pääsukesena on kalendris Lexsoul Dancemachine'i suve ainus Tallinna kontsert (21.08 Paavlis)."
+      "Eesti muusika voogedastusplatvormil <b>Fairmus</b> ilmus sel nädalal Synghuse album <b>„Näljatooja“</b>: seitse eestikeelset lugu, kus doom'i raskus kohtub elektroonika, elektrioreli ja tenorsaksofoniga.",
+      "Fairmusis jagatakse sinu tellimustasu ainult nende artistide vahel, keda sa päriselt kuulad. See on hea viis kohalikku muusikat toetada."
     ],
     "nupp": {
-      "tekst": "Anna tagasisidet &rarr;",
-      "url": "https://www.skene.info/tagasiside.html?s=www",
-      "saatetekst": "Ja kui leiad hetke, anna skene.info kohta tagasisidet — neli kiiret küsimust, võtab paar minutit."
+      "tekst": "Kuula Fairmusis &rarr;",
+      "url": "https://fairmus.com/app/releases/yryg7yfkrztn7eadctcr44ceby3dx4p3uz9bjkzrl9ws",
+      "saatetekst": "Album on ka teistel platvormidel, lingid leiad lehelt <a href=\"https://synghus.band/\">synghus.band</a>."
     }
   },
   "en": {
-    "pealkiri": "A couple of updates — and your opinion is welcome",
+    "pealkiri": "New album on Fairmus: Synghus – “Näljatooja”",
     "tekst": [
-      "The site now has a public <b>API</b> — the whole calendar is available as a machine-readable JSON feed, in case you want the data in your own script or widget. Endpoints and field descriptions are behind the <a href=\"https://www.skene.info/api.html\">API</a> link in the header.",
-      "<b>Funk/soul</b> joined the main site's genre filters — first up in the calendar is Lexsoul Dancemachine's only Tallinn concert of the summer (21 Aug at Paavli)."
+      "<b>“Näljatooja”</b> by Synghus came out this week on <b>Fairmus</b>, the Estonian music streaming platform: seven songs in Estonian where doom heaviness meets electronics, electric organ and tenor saxophone.",
+      "On Fairmus, your subscription is shared only among the artists you actually listen to. It's a good way to support local music."
     ],
     "nupp": {
-      "tekst": "Give feedback &rarr;",
-      "url": "https://www.skene.info/tagasiside.html?s=www",
-      "saatetekst": "And if you have a moment, give feedback on skene.info — four quick questions, takes a couple of minutes."
+      "tekst": "Listen on Fairmus &rarr;",
+      "url": "https://fairmus.com/app/releases/yryg7yfkrztn7eadctcr44ceby3dx4p3uz9bjkzrl9ws",
+      "saatetekst": "The album is on other platforms too, links at <a href=\"https://synghus.band/\">synghus.band</a>."
     }
   }
 }

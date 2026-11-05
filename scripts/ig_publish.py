@@ -92,31 +92,43 @@ def main():
 
     logp = os.path.join(a.repo, "ig", "postitatud.json")
     log = json.load(open(logp, encoding="utf-8")) if os.path.exists(logp) else {}
-    if today in log:
+    # 05.11.2026: story voib olla mitu slaidi (esiletoste + TANA/HOMME), postitame jarjest
+    images = st.get("images") or [st["image_url"]]
+    tehtud = log.get(today) or {}
+    if "image_url" in tehtud and "postitused" not in tehtud:   # vana logivorm
+        tehtud = {"postitused": [tehtud]}
+    juba = {x.get("image_url") for x in tehtud.get("postitused", [])}
+    jark = [u for u in images if u not in juba]
+    if not jark:
         print(f"Tänane story juba postitatud: {log[today]}"); return
     if a.dry_run:
-        print(f"DRY-RUN: postitaksin {st['image_url']}"); return
+        print(f"DRY-RUN: postitaksin järjest: {jark}"); return
 
-    c = call("POST", f"{VER}/{IG_USER_ID}/media",
-             {"image_url": st["image_url"], "media_type": "STORIES", "access_token": token})
-    cid = c["id"]
-    for _ in range(30):
-        s = call("GET", f"{VER}/{cid}", {"fields": "status_code", "access_token": token})
-        if s.get("status_code") == "FINISHED":
-            break
-        if s.get("status_code") in ("ERROR", "EXPIRED"):
-            sys.exit(f"VIGA: meedia töötlus {s}")
-        time.sleep(5)
-    p = call("POST", f"{VER}/{IG_USER_ID}/media_publish", {"creation_id": cid, "access_token": token})
+    def salvesta():
+        log[today] = tehtud
+        keep = sorted(log)[-30:]
+        with open(logp, "w", encoding="utf-8") as f:
+            json.dump({k: log[k] for k in keep}, f, ensure_ascii=False, indent=2)
+            f.write("\n")
 
-    log[today] = {"media_id": p.get("id"), "image_url": st["image_url"]}
-    keep = sorted(log)[-30:]
-    log = {k: log[k] for k in keep}
-    with open(logp, "w", encoding="utf-8") as f:
-        json.dump(log, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-    print(f"OK: story postitatud (media {p.get('id')})")
-    telegram_pilt(st["image_url"])
+    tehtud.setdefault("postitused", [])
+    for url in jark:
+        c = call("POST", f"{VER}/{IG_USER_ID}/media",
+                 {"image_url": url, "media_type": "STORIES", "access_token": token})
+        cid = c["id"]
+        for _ in range(30):
+            s = call("GET", f"{VER}/{cid}", {"fields": "status_code", "access_token": token})
+            if s.get("status_code") == "FINISHED":
+                break
+            if s.get("status_code") in ("ERROR", "EXPIRED"):
+                salvesta()
+                sys.exit(f"VIGA: meedia töötlus {s}")
+            time.sleep(5)
+        p = call("POST", f"{VER}/{IG_USER_ID}/media_publish", {"creation_id": cid, "access_token": token})
+        tehtud["postitused"].append({"media_id": p.get("id"), "image_url": url})
+        salvesta()
+        print(f"OK: story postitatud (media {p.get('id')}) {url}")
+        telegram_pilt(url)
 
 
 def telegram_pilt(url):

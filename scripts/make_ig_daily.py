@@ -135,6 +135,62 @@ def render_story(sections, day, out_path, repo):
     return out_path
 
 
+def load_esile(repo, day):
+    """data/ig_esile.json kirjed, mille kuupaev == day (05.11.2026)."""
+    p = os.path.join(repo, "data", "ig_esile.json")
+    if not os.path.exists(p):
+        return []
+    try:
+        kk = json.load(open(p, encoding="utf-8")).get("kirjed", [])
+    except Exception as ex:
+        print(f"HOIATUS: {p} pole loetav ({ex}) -- esiletostet ei tehta.")
+        return []
+    return [k for k in kk if k.get("kuupaev") == day.isoformat()]
+
+
+def render_esile(k, out_path, repo):
+    """Uks esile tostetud reliis eraldi story-slaidina (kaanepilt + CTA)."""
+    f = mwi.load_fonts()
+    big = mwi._display_font(150, 130)
+    art_f = mwi._font(mwi.SANS_B, 72)
+    teos_f = mwi._font(mwi.SANS_B, 54)
+    sub_f = mwi._font(mwi.SANS_R, 32)
+    img = Image.new("RGB", (W, H), mwi.TINT)
+    d = ImageDraw.Draw(img)
+    col = mwi.CAT_BRIGHT.get(k.get("kat", "metal"), mwi.CAT_BRIGHT["metal"])
+    logo_path = mwi.pick_logo(os.path.join(repo, "scripts", "assets", "logo"))
+    if logo_path:
+        lg = Image.open(logo_path).convert("RGBA").resize((96, 96), Image.LANCZOS)
+        img.paste(lg, (M, 230), lg)
+    gx = M + 96 + 26
+    for c in CAT_ORDER:
+        d.text((gx, 244), mwi.CAT_WORD[c], font=f["gword"], fill=mwi.CAT_BRIGHT[c])
+        gx += d.textlength(mwi.CAT_WORD[c], font=f["gword"]) + 24
+    d.text((M + 96 + 26, 322), "SKENE.INFO  ▪  Eesti UG-muusika ühest kohast", font=f["kicker"], fill=mwi.HDRMUTED)
+    d.text((M - 6, 390), k.get("silt", "UUS RELIIS"), font=big, fill=col)
+    side = 720
+    cy = 585
+    try:
+        cov = Image.open(os.path.join(repo, k["pilt"])).convert("RGB")
+        cov = cov.resize((side, side), Image.LANCZOS)
+        img.paste(cov, ((W - side) // 2, cy))
+    except Exception as ex:
+        print(f"HOIATUS: esile pilt puudub ({ex})")
+        d.rectangle([(W - side) // 2, cy, (W + side) // 2, cy + side], outline=mwi.HDRMUTED, width=3)
+    y = cy + side + 34
+    d.text((M, y), mwi.ellip(d, k.get("artist", ""), art_f, W - 2 * M), font=art_f, fill=mwi.PABER)
+    y += 86
+    d.text((M, y), mwi.ellip(d, "„" + k.get("teos", "") + "“", teos_f, W - 2 * M), font=teos_f, fill=mwi.PABER)
+    y += 72
+    d.text((M, y), mwi.ellip(d, k.get("alarida", ""), sub_f, W - 2 * M), font=sub_f, fill=mwi.HDRMUTED)
+    fy = H - 300
+    d.line([(M, fy), (W - M, fy)], fill=mwi.HDRMUTED, width=2)
+    d.text((M, fy + 26), k.get("cta", ""), font=f["foot_b"], fill=col)
+    d.text((M, fy + 70), k.get("cta_alarida", ""), font=f["foot_r"], fill=mwi.HDRMUTED)
+    img.save(out_path, "JPEG", quality=90)
+    return out_path
+
+
 def cleanup(ig_dir, today):
     rx = re.compile(r"^(story|reel|soovitus)-(\d{4}-\d{2}-\d{2}).*\.(jpg|mp4)$")
     for fn in os.listdir(ig_dir):
@@ -165,14 +221,26 @@ def main():
         allx = load_all(a.repo)
         t_items = order_for_output([e for e in allx if happens_on(e, today)], today)
         h_items = order_for_output([e for e in allx if happens_on(e, tomorrow)], tomorrow)
-        if t_items or h_items:
-            name = f"story-{today.isoformat()}.jpg"
-            render_story([("TÄNA", today, t_items), ("HOMME", tomorrow, h_items)],
-                         today, os.path.join(ig_dir, name), a.repo)
-            out["story"] = {"image_url": BASE_URL + name,
+        # 05.11.2026: esile tostetud slaidid (data/ig_esile.json) lahevad ENNE tavalist story't
+        esile = []
+        for i, k in enumerate(load_esile(a.repo, today)):
+            en = f"story-{today.isoformat()}-esile{'' if i == 0 else i + 1}.jpg"
+            render_esile(k, os.path.join(ig_dir, en), a.repo)
+            esile.append(BASE_URL + en)
+            print(f"OK esile: {k.get('artist')} - {k.get('teos')} -> ig/{en}")
+        if t_items or h_items or esile:
+            images = list(esile)
+            name = None
+            if t_items or h_items:
+                name = f"story-{today.isoformat()}.jpg"
+                render_story([("TÄNA", today, t_items), ("HOMME", tomorrow, h_items)],
+                             today, os.path.join(ig_dir, name), a.repo)
+                images.append(BASE_URL + name)
+            out["story"] = {"image_url": BASE_URL + name if name else images[0],
+                            "images": images,
                             "tana": len(t_items), "homme": len(h_items),
                             "postita": bool(seaded.get("story", False))}
-            print(f"OK story: täna {len(t_items)}, homme {len(h_items)} -> ig/{name}"
+            print(f"OK story: täna {len(t_items)}, homme {len(h_items)}, slaide {len(images)}"
                   + ("" if out["story"]["postita"] else "  (postitamine VÄLJAS, data/ig_seaded.json)"))
         else:
             print("Täna ega homme pole Eesti üritusi -- story jääb ära.")

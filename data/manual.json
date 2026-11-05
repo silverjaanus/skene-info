@@ -4400,5 +4400,26 @@
   },
   "lisatud": "2026-11-05",
   "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent."
+ },
+ {
+  "d": "2026-11-04",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Synghus — «Näljatooja»",
+  "a": "album, 7 eestikeelset lugu; eksperimentaalne doom / rituaalmetal (elektroonika, elektriorel, tenorsaksofon)",
+  "b": [
+   "Synghus"
+  ],
+  "g": [
+   "doom",
+   "metal"
+  ],
+  "sn": "Fairmus",
+  "su": "https://fairmus.com/app/releases/yryg7yfkrztn7eadctcr44ceby3dx4p3uz9bjkzrl9ws",
+  "on_": "synghus.band",
+  "ou": "https://synghus.band/",
+  "lisatud": "2026-11-05",
+  "nb": "Silveri soov 05.11.2026 (Silveri enda bänd; Silver töötab Fairmusis). Ilmumiskuupäev 04.11 Apple Musicu järgi; Fairmusi nädalakiri #45 (05.11) nimetab seda selle nädala uueks albumiks. Esile tõstetud uudiskirja intros (06.11) ja story's (07.11).",
+  "img": "pildid/synghusnaljatooja.webp"
  }
 ]
