@@ -46,6 +46,19 @@ jobs:
             else echo "::warning::GH_PAT puudub -- uus IG_TOKEN jai salvestamata"; fi
             rm -f "$f"
           fi
+      - name: Teata veast Telegrami
+        # 05.11.2026 (Silver): story kukkumisest kohe teada, mitte alles 18.05 valvuri kaudu
+        if: ${{ failure() }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: "1810496014"
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -n "$TELEGRAM_BOT_TOKEN" ] || { echo "TELEGRAM_BOT_TOKEN puudub"; exit 0; }
+          msg="⚠️ skene.info IG story kukkus ($(TZ=Europe/Tallinn date '+%d.%m %H:%M')). Kui logis on OAuthException 190, on IG token kehtetu: tee uus token ja pane GitHubi IG_TOKEN-isse. Logi: $RUN_URL"
+          curl -sS -o /dev/null -w "Telegram HTTP %{http_code}\n" \
+            --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" --data-urlencode "text=$msg" \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" || echo "Telegram ei onnestunud"
       - name: Logi commit
         # always(): mitme slaidi story pooleli jaamisel peab logi ikkagi salvestuma (05.11.2026)
         if: ${{ always() }}
