@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "entries": [
   {
    "rel": 1,
@@ -193,6 +193,33 @@
    "img": "pildid/benakanister.webp"
   },
   {
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "Bad Jam w/ Trigga @ Wunderbaar",
+   "a": "viimane Bad Jam Wunderbaaris; classic & upfront R&B, hip-hop, afro & dancehall; 22.00–04.00; 18+",
+   "b": [
+    "DJ Bad J",
+    "Trigga"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Wunderbaar FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28938778719064025/",
+   "hind": {
+    "praegu": "kuni 23.00 5 €, hiljem 10 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026; Bad Jam sari on rap-saidil",
+   "lisatud": "2026-11-06",
+   "vu": "https://wunderbaar.ee/"
+  },
+  {
    "d": "2026-11-14",
    "t": "kontsert",
    "n": "AZMA suur juubelikontsert",
@@ -271,6 +298,33 @@
    "vu": "https://kidrakuur.ee/"
   },
   {
+   "d": "2026-11-28",
+   "t": "kontsert",
+   "n": "Räpikas: LIVE Maxtract & Don Pedro",
+   "a": "algus 23.00",
+   "b": [
+    "Maxtract",
+    "Don Pedro",
+    "DJ Masta Robusta"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Masta Robusta FB events-tab",
+   "su": "https://www.facebook.com/MastaRobusta/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28996549440001940/",
+   "hind": {
+    "praegu": "10 €, Kära Kantsi liige 8 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026",
+   "lisatud": "2026-11-06"
+  },
+  {
    "d": "2026-12-12",
    "t": "kontsert",
    "n": "ARCTIC PULSE VOL. 2: BLACK ICE",
@@ -300,6 +354,28 @@
    "nb": "lisatud 09.10.2026 Silveri otsusega („jah“), kuigi koosseisus on peavoolupopp (Getter Jaani, Clicherik & Mäx) — peaesinejad 5MIINUST ja Suur Papa. Kaks allikat: FB event (Pulse Events + 5MIINUST) + GateMe piletileht (korraldaja Lepapuu OÜ). FB näitab aadressina Teguri 28A = Kammivabrik.",
    "img": "pildid/arcticpulsevol2blackice.webp",
    "vu": "https://kammivabrik.ee/"
+  },
+  {
+   "d": "2026-12-19",
+   "t": "kontsert",
+   "n": "Masta Robusta «Reipaid Ridu Rezzidel Radadel» EP + 12\" vinüüli esitluspidu",
+   "a": "21.00–02.00; EP + vinüüli esitlus ja live",
+   "b": [
+    "Masta Robusta"
+   ],
+   "v": "Konk",
+   "c": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Konk FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=61593812049749&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2268254493897060/",
+   "pu": "https://fienta.com/et/masta-robusta-ep-ja-12-vinuuli-esitluspidu",
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas Fienta",
+   "lisatud": "2026-11-06",
+   "img": "pildid/mastarobustareipaidridurezzidelradadelep12vinuuliesitluspidu.webp"
   },
   {
    "d": "2027-07-29",

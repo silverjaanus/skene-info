@@ -543,7 +543,8 @@
    "Scythrow (FI)",
    "Face Collector",
    "Nuclear Conflict (UA/LV)",
-   "The Tyrants"
+   "The Tyrants",
+   "Sznyt (PL)"
   ],
   "v": "The Krypt",
   "c": "Tallinn",
@@ -753,8 +754,9 @@
    "Faceless Entity (NL)",
    "Häxenzijrkell (DE)",
    "Folteraar (NL)",
-   "Kerzenlicht (FIN)",
-   "Hasswald"
+   "Höxofrëtekhänïmerjëhtrofslöträn (CH)",
+   "Hasswald",
+   "Kerzenlicht (FIN)"
   ],
   "v": "Rockclub Tapper",
   "c": "Tallinn",
@@ -766,7 +768,8 @@
   "nb": "Piletid: eelmüük septembris 2026, hinnad TBA; kava veel avaldamata | 07.08.2026 sweep: howlsofwinter.eu endiselt ainult \"Tickets: TBA (pre-sale starts in the September, prices TBA)\" — koosseisu ega piletiinfot pole. | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 24.08.2026: kuupaev PARANDATUD 04.–06.02 -> 04.–07.02.2027 ja koht kinnitatud (Rockclub Tapper) — VANARAUD FB event 820457767723378 (Thu 4 Feb – Sun 7 Feb 2027) + AllEvents Tallinn; howlsofwinter.eu ise ei kanna kuupaeva, ainult 'Tickets: TBA'. | ⚠ 09.09.2026 PARANDUS (Silveri leid): `v` oli endiselt \"TBA\", KUIGI selle kirje enda 24.08 nb utleb \"koht kinnitatud (Rockclub Tapper)\" - 24.08 sweep kirjutas jarelduse markmesse, aga EI kandnud seda vaartuse valja. Nuud v = Rockclub Tapper (FB event 820457767723378 naitab kohaks Rockclub Tapper, Vaari 4, Tallinn). SAMAS jooksus lisatud KOOSSEIS: FB eventis on viis nime (Vortex of End (FR), Curse Upon a Prayer (FI), Faceless Entity (NL), Häxenzijrkell (DE), Folteraar (NL)) + \"...more to be unveiled\" -> koosseis_tba JÄÄB. Piletid endiselt TBA (howlsofwinter.eu: \"pre-sale starts in the September, prices TBA\"). ÕPPETUND: 09.09 sweepi samm 2b nagi seda kirjet poolikute nimekirjas, aga EI AVANUD selle `ou`-d - juhend nouab su JA ou avamist, mina vaatasin ainult `su` (howlsofwinter.eu), mis on tuhi leht. | ⚠ 09.09.2026 TEINE PARANDUS samas kirjes: d2 oli 07.02, sest 24.08 sweep luges selle FB eventi LOPUAJAST (Feb 4 6 PM - Feb 7 1 AM). See on tapselt sama loks nagu Hard Rock Laagril: FB lopuaeg on viimase oo lopp, mitte kavapaev. FB eventi enda tekst utleb \"Three days of pure black metal underground\" ja algus on 04.02 -> kavapaevad on 04., 05. ja 06.02.2027. d2 parandatud 07.02 -> 06.02 (= algne 04.-06.02, mille 24.08 sweep ekslikult \"parandas\"). REEGEL: mitmepaevase urituse kestus votta korraldaja TEKSTIST, mitte FB timestamp'ist. | 02.10.2026 sweep: howlsofwinter.eu koosseisu lisandus NEGATIVE PLANE (US); FB event (Black Revalia) 04.–07.02.2027. | 30.10.2026 sweep: rikastatud (b).",
   "ou": "https://www.facebook.com/events/820457767723378",
   "on_": "Facebook event",
-  "koosseis_tba": 1
+  "koosseis_tba": 1,
+  "pu": "https://howlsofwinter.eu/tickets"
  },
  {
   "d": "2027-02-14",
@@ -962,7 +965,20 @@
   "t": "festival",
   "n": "Sweden Rock Festival 2027",
   "a": "Rootsi suurim hard rock / heavy metal festival; koosseis avaldamata",
-  "b": [],
+  "b": [
+   "Mötley Crüe",
+   "Queens of the Stone Age",
+   "Parkway Drive",
+   "Alice Cooper",
+   "Europe",
+   "Amon Amarth",
+   "Accept",
+   "Edguy",
+   "Bad Religion",
+   "Arch Enemy",
+   "Children of Bodom",
+   "Clutch"
+  ],
   "v": "Norje, Sölvesborg",
   "c": "Euroopa",
   "linn": "Sölvesborg",
@@ -975,8 +991,7 @@
   "su": "https://swedenrock.com/en/",
   "on_": "swedenrock.com",
   "ou": "https://swedenrock.com/en/",
-  "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-  "koosseis_tba": 1
+  "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 06.11.2026: headliner-valik swedenrock.com line-up lehelt."
  },
  {
   "d": "2027-06-10",
@@ -1013,7 +1028,16 @@
   "t": "festival",
   "n": "Graspop Metal Meeting 2027",
   "a": "Desseli suurfestival; koosseis avaldamata",
-  "b": [],
+  "b": [
+   "Mötley Crüe",
+   "Faith No More",
+   "blink-182",
+   "Evanescence",
+   "Helloween",
+   "Marilyn Manson",
+   "Parkway Drive",
+   "Slash ft. Myles Kennedy & The Conspirators"
+  ],
   "v": "Dessel",
   "c": "Euroopa",
   "linn": "Dessel",
@@ -1026,9 +1050,8 @@
   "su": "https://www.graspop.be/en/",
   "on_": "graspop.be",
   "ou": "https://www.graspop.be/en/",
-  "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
-  "img": "pildid/graspopmetalmeeting2027.webp",
-  "koosseis_tba": 1
+  "nb": "lisatud sweepis 28.07.2026; kuupaev ametliku lehe kehast. Koosseis TBA | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1). | 06.11.2026: headlinerid graspop.be line-up lehelt.",
+  "img": "pildid/graspopmetalmeeting2027.webp"
  },
  {
   "d": "2027-06-17",
@@ -2975,11 +2998,11 @@
  {
   "d": "2026-11-20",
   "t": "kontsert",
-  "n": "Heavy Friday: Metal Metuusala + Goodman & Viljanen (FI)",
+  "n": "Heavy Friday: Metal Metuusala + Postiljon",
   "a": "kaks tribüüt-/kaverbändi: Goodman & Viljanen (hard rock klassika akustiliselt) ja Metal Metuusala (80-90ndate hevi ja grunge); uksed 20.00, show 22.00, 00.00 tasuta aftekas",
   "b": [
    "Metal Metuusala",
-   "Goodman & Viljanen (FI)"
+   "Postiljon"
   ],
   "v": "The Krypt",
   "c": "Tallinn",
@@ -2991,13 +3014,13 @@
   "su": "https://www.facebook.com/thekrypt.tallinn/events",
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/3375441239511338/",
-  "pu": "https://fienta.com/et/goodmanviljanen-metalmetuusala-thekrypt",
+  "pu": "https://fienta.com/et/metalmetuusala-postiljon-thekrypt",
   "hind": {
    "praegu": "15 €",
    "allikas": "Fienta, kontrollitud 16.10.2026"
   },
   "lisatud": "2026-10-16",
-  "nb": "lisatud sweepis 16.10.2026. FB event (The Krypt + Sügis Productions) + Fienta. ⚠ Kaverbändid — Goodman & Viljanen 02.10 300 klubis lisati Silveri otsusega (b); sama telg, kui ei sobi, eemalda.",
+  "nb": "lisatud sweepis 16.10.2026. FB event (The Krypt + Sügis Productions) + Fienta. ⚠ Kaverbändid — Goodman & Viljanen 02.10 300 klubis lisati Silveri otsusega (b); sama telg, kui ei sobi, eemalda. | 06.11.2026: koosseis muutus — Goodman & Viljanen (FI) asemel Postiljon (Fienta uus leht; vana Fienta-leht 404).",
   "img": "pildid/heavyfridaymetalmetuusalagoodmanviljanenfi.webp"
  },
  {
@@ -3115,8 +3138,17 @@
   "t": "festival",
   "n": "Kilkim Žaibu XXVII",
   "a": "Balti kultuuri ja ekstreemmuusika festival Lėnase järve kaldal; koosseis avaldamata",
-  "b": [],
-  "koosseis_tba": 1,
+  "b": [
+   "Watain",
+   "Kataklysm",
+   "Sinister",
+   "Blood Red Throne",
+   "Cloak",
+   "Yoth Iria",
+   "Romuvos",
+   "Nahash",
+   "Tharaphita"
+  ],
   "v": "Ukmergė",
   "c": "Euroopa",
   "linn": "Ukmergė (Leedu)",
@@ -3131,7 +3163,7 @@
   "ou": "https://kilkimzaibu.com/en",
   "on_": "kilkimzaibu.com",
   "lisatud": "2026-10-16",
-  "nb": "lisatud sweepis 16.10.2026. Ametlik festivalisait (sources.json rahvusvaheline/baltikum): „2027 June 24 - 26, Ukmergė“, piletimüük käib. Koosseis TBA.",
+  "nb": "lisatud sweepis 16.10.2026. Ametlik festivalisait (sources.json rahvusvaheline/baltikum): „2027 June 24 - 26, Ukmergė“, piletimüük käib. Koosseis TBA. | 06.11.2026: koosseis kilkimzaibu.com avalehelt (valik).",
   "img": "pildid/kilkimzaibuxxvii.webp"
  },
  {
@@ -4187,7 +4219,8 @@
    "allikas": "Fienta, kontrollitud 30.10.2026"
   },
   "lisatud": "2026-10-30",
-  "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr)."
+  "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr).",
+  "img": "pildid/kaisakuslapuuvaroalbumiesitlustallinn.webp"
  },
  {
   "d": "2026-11-06",
@@ -4212,7 +4245,8 @@
   "ou": "https://www.tmk.ee/events/kaisa-kuslapuu-varo-albumiesitluskontsert",
   "pu": "https://fienta.com/et/kaisa-kuslapuu-varo-albumiesitluskontsert-204676",
   "lisatud": "2026-10-30",
-  "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr). Kaks allikat: Fienta + tmk.ee ürituseleht. Hind kontrollimata."
+  "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr). Kaks allikat: Fienta + tmk.ee ürituseleht. Hind kontrollimata.",
+  "img": "pildid/kaisakuslapuuvaroalbumiesitlustartu.webp"
  },
  {
   "d": "2026-11-07",
@@ -4260,7 +4294,8 @@
    "allikas": "kluub.ee (Piletitasku leht), kontrollitud 01.11.2026"
   },
   "lisatud": "2026-11-01",
-  "nb": "Silveri otsus 01.11.2026 (\"mõlemad sisse\") - otsustuspunkt ollie-d3-2026-11-07 -> a. kluub.ee žanr \"Rock, live\"; Eesti Laulu artist."
+  "nb": "Silveri otsus 01.11.2026 (\"mõlemad sisse\") - otsustuspunkt ollie-d3-2026-11-07 -> a. kluub.ee žanr \"Rock, live\"; Eesti Laulu artist.",
+  "img": "pildid/ollieifdemonsarerealsoareangelsdebuutalbumiesitlus.webp"
  },
  {
   "d": "2026-11-21",
@@ -4321,7 +4356,8 @@
    "allikas": "Piletikeskus, kontrollitud 04.11.2026"
   },
   "lisatud": "2026-11-04",
-  "nb": "lisatud postkastijooksus 04.11.2026 (kluub.ee samm 2c). Allikad: Piletikeskuse ürituseleht (N 05.11 20.00, Philly Joe's Jazziklubi, 'arhail-bluus', koosseis) + kluub.ee + FB event. Bluus -> www (Andres Roots / Philly Joe's Tartu 06.11 pretsedent)."
+  "nb": "lisatud postkastijooksus 04.11.2026 (kluub.ee samm 2c). Allikad: Piletikeskuse ürituseleht (N 05.11 20.00, Philly Joe's Jazziklubi, 'arhail-bluus', koosseis) + kluub.ee + FB event. Bluus -> www (Andres Roots / Philly Joe's Tartu 06.11 pretsedent).",
+  "img": "pildid/t40ukaredakrigultoomelahven.webp"
  },
  {
   "d": "2026-11-06",
@@ -4347,7 +4383,8 @@
    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
   },
   "lisatud": "2026-11-05",
-  "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent."
+  "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent.",
+  "img": "pildid/bowiex3kristorajasaarebowiealgusjaarmsaimad.webp"
  },
  {
   "d": "2026-11-13",
@@ -4373,7 +4410,8 @@
    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
   },
   "lisatud": "2026-11-05",
-  "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent."
+  "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent.",
+  "img": "pildid/bowiex3djrhythmdoctorconfidantsandfamiliars.webp"
  },
  {
   "d": "2026-11-20",
@@ -4399,7 +4437,8 @@
    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
   },
   "lisatud": "2026-11-05",
-  "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent."
+  "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent.",
+  "img": "pildid/bowiex3sandervaruskbowieonthemove.webp"
  },
  {
   "d": "2026-11-04",
@@ -4421,5 +4460,254 @@
   "lisatud": "2026-11-05",
   "nb": "Silveri soov 05.11.2026 (Silveri enda bänd; Silver töötab Fairmusis). Ilmumiskuupäev 04.11 Apple Musicu järgi; Fairmusi nädalakiri #45 (05.11) nimetab seda selle nädala uueks albumiks. Esile tõstetud uudiskirja intros (06.11) ja story's (07.11).",
   "img": "pildid/synghusnaljatooja.webp"
+ },
+ {
+  "d": "2026-11-14",
+  "t": "kontsert",
+  "n": "Terminal Live: Open Heart Surgery",
+  "a": "20.00–23.45; Tallinna altrokk/grunge nelik",
+  "b": [
+   "Open Heart Surgery"
+  ],
+  "v": "Terminal Records&Bar",
+  "c": "Tallinn",
+  "g": [
+   "alt",
+   "grunge",
+   "rock"
+  ],
+  "sn": "Fienta rock-otsing",
+  "su": "https://fienta.com/et?q=rock",
+  "pu": "https://fienta.com/et/terminal-live-open-heart-surgery",
+  "nb": "lisatud sweepis 06.11.2026; allikas Fienta piletileht (REEGLID §3 erand)",
+  "lisatud": "2026-11-06",
+  "img": "pildid/terminalliveopenheartsurgery.webp"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "kontsert",
+  "n": "Laine Live: Sonic Death",
+  "a": "garage rock / noise rock duo (Pariis, algselt Peterburi)",
+  "b": [
+   "Sonic Death"
+  ],
+  "v": "Uus Laine",
+  "c": "Tallinn",
+  "g": [
+   "garage",
+   "punk",
+   "noise"
+  ],
+  "sn": "Uus Laine FB events-tab",
+  "su": "https://www.facebook.com/uuslaine/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4700564973523748/",
+  "pu": "https://fienta.com/et/laine-live-sonic-death",
+  "nb": "lisatud sweepis 06.11.2026; 2. allikas Fienta",
+  "lisatud": "2026-11-06",
+  "img": "pildid/lainelivesonicdeath.webp"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "kontsert",
+  "n": "Metsatöll Viljandi Konservatooriumis",
+  "a": "uksed 19.00, bänd 21.00",
+  "b": [
+   "Metsatöll"
+  ],
+  "v": "Konservatoorium",
+  "c": "mujal",
+  "linn": "Viljandi",
+  "g": [
+   "folk",
+   "metal"
+  ],
+  "sn": "Konservatoorium FB events-tab",
+  "su": "https://www.facebook.com/konservatoorium/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2976397672698687/",
+  "pu": "https://www.piletilevi.ee/piletid/OYIKIZAM4R/metsatoll",
+  "hind": {
+   "praegu": "eelmüük 20 €, uksel 25 €",
+   "allikas": "FB event, 06.11.2026"
+  },
+  "nb": "lisatud sweepis 06.11.2026; 2. allikas Piletilevi",
+  "lisatud": "2026-11-06",
+  "img": "pildid/metsatollviljandikonservatooriumis.webp"
+ },
+ {
+  "d": "2026-12-04",
+  "t": "kontsert",
+  "n": "Metsatöll viimast korda Wunderbaaris",
+  "a": "uksed 19.00, bänd 21.00; Wunderbaar sulgeb aasta lõpus",
+  "b": [
+   "Metsatöll"
+  ],
+  "v": "Wunderbaar",
+  "c": "mujal",
+  "linn": "Pärnu",
+  "g": [
+   "folk",
+   "metal"
+  ],
+  "sn": "Wunderbaar FB events-tab",
+  "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1434580578323396/",
+  "pu": "https://www.piletilevi.ee/piletid/NT2LXL5PD6/metsatoll",
+  "hind": {
+   "praegu": "eelmüük 20 €, uksel 25 €",
+   "allikas": "FB event, 06.11.2026"
+  },
+  "nb": "lisatud sweepis 06.11.2026; 2. allikas Piletilevi",
+  "lisatud": "2026-11-06",
+  "img": "pildid/metsatollviimastkordawunderbaaris.webp"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "kontsert",
+  "n": "Tomorrow Was The War + The Primer + Shatter Me Whole",
+  "a": "19.00–23.00; uksed 19, Shatter Me Whole 20, The Primer 21, Tomorrow Was The War 22",
+  "b": [
+   "Tomorrow Was The War",
+   "The Primer",
+   "Shatter Me Whole"
+  ],
+  "v": "SAAR CULT",
+  "c": "Tallinn",
+  "g": [
+   "core",
+   "death",
+   "metal"
+  ],
+  "sn": "Fienta räpp-otsing",
+  "su": "https://fienta.com/et?q=r%C3%A4pp",
+  "on_": "Facebook event",
+  "ou": "https://fb.me/e/82eJJlXX8",
+  "pu": "https://fienta.com/et/twtw-saar-cult",
+  "hind": {
+   "praegu": "early bird 7 €, tavapilet 10 €, uksel 15 €",
+   "allikas": "Fienta, 06.11.2026"
+  },
+  "nb": "lisatud sweepis 06.11.2026; 2. allikas Metal Storm (Eesti üritused)",
+  "lisatud": "2026-11-06",
+  "img": "pildid/tomorrowwasthewartheprimershattermewhole.webp"
+ },
+ {
+  "d": "2026-12-26",
+  "t": "kontsert",
+  "n": "Sõpruse Puiestee + Vennaskond: aastalõpukontsert Tartus",
+  "a": "uksed 18.00; Reffiller 18.30, Sõpruse Puiestee 19.30, Vennaskond 21.00",
+  "b": [
+   "Sõpruse Puiestee",
+   "Vennaskond",
+   "Reffiller"
+  ],
+  "v": "Loomelava",
+  "c": "Tartu",
+  "g": [
+   "rock",
+   "punk"
+  ],
+  "sn": "Hetk FB events-tab",
+  "su": "https://www.facebook.com/Hetkelamused/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/3073711516293651/",
+  "pu": "https://www.piletitasku.ee/et/event/10628",
+  "nb": "lisatud sweepis 06.11.2026; 2. allikas Piletitasku",
+  "lisatud": "2026-11-06",
+  "img": "pildid/soprusepuiesteevennaskondaastalopukontserttartus.webp"
+ },
+ {
+  "d": "2027-01-09",
+  "t": "festival",
+  "n": "Pimedaim Öö",
+  "a": "algus 18.00; line-up täieneb („…and more TBA“)",
+  "b": [
+   "Silmus",
+   "Käptör"
+  ],
+  "v": "SAAR CULT",
+  "c": "Tallinn",
+  "g": [
+   "black",
+   "metal"
+  ],
+  "sn": "Secret Face Productions FB events-tab",
+  "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2022361878443798/",
+  "pu": "https://fienta.com/et/pimedaim-oo",
+  "hind": {
+   "praegu": "eelmüük 15 €, regular 20 € (aasta lõpuni), late/uksel 25 €",
+   "allikas": "FB event, 06.11.2026"
+  },
+  "nb": "lisatud sweepis 06.11.2026; 2. allikas Fienta",
+  "lisatud": "2026-11-06",
+  "img": "pildid/pimedaimoo.webp"
+ },
+ {
+  "d": "2026-10-10",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Tuisk — «Samblasängi»",
+  "a": "album, 9 lugu; atmosfääriline black metal",
+  "b": [
+   "Tuisk"
+  ],
+  "g": [
+   "black",
+   "metal"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://tuisk.bandcamp.com/album/samblas-ngi",
+  "nb": "lisatud sweepis 06.11.2026; Bandcamp: released October 10, 2026 (ka Warhorn Records)",
+  "lisatud": "2026-11-06",
+  "img": "pildid/tuisksamblasangi.webp"
+ },
+ {
+  "d": "2026-10-18",
+  "t": "reliis",
+  "rel": 1,
+  "n": "The Living Dead — «The Sacred and the Profane: Satanism's Rebellion Against Christian Faith»",
+  "a": "album, 6 lugu; black metal / DSBM",
+  "b": [
+   "The Living Dead"
+  ],
+  "g": [
+   "black",
+   "metal"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://thelivingdead2.bandcamp.com/album/the-sacred-and-the-profane-satanism-s-rebellion-against-christian-faith-tsatp",
+  "nb": "lisatud sweepis 06.11.2026; Bandcamp: released October 18, 2026; asukoht Estonia",
+  "lisatud": "2026-11-06",
+  "img": "pildid/thelivingdeadthesacredandtheprofanesatanismsrebellionagainstchristianfaith.webp"
+ },
+ {
+  "d": "2026-10-29",
+  "t": "reliis",
+  "rel": 1,
+  "n": "The 9:52 — «Long Division»",
+  "a": "album, 13 lugu; alt / pop-rock / punk rock (Tallinn)",
+  "b": [
+   "The 9:52"
+  ],
+  "g": [
+   "alt",
+   "rock",
+   "punk"
+  ],
+  "sn": "Bandcamp discover (Eesti)",
+  "su": "https://bandcamp.com/discover/estonia?tags=rock&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://952music952.bandcamp.com/album/long-division",
+  "nb": "lisatud sweepis 06.11.2026; Bandcamp: released October 29, 2026",
+  "lisatud": "2026-11-06",
+  "img": "pildid/the952longdivision.webp"
  }
 ]

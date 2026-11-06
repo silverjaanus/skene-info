@@ -601,5 +601,80 @@
   },
   "lisatud": "2026-10-30",
   "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Otsustuspunkt mediocris-uuslaine-2026-11-04 -> (a). Kohaliku artisti albumiesitlus, mitte RU/UA tuur."
+ },
+ {
+  "d": "2026-11-13",
+  "t": "klubi",
+  "n": "Bad Jam w/ Trigga @ Wunderbaar",
+  "a": "viimane Bad Jam Wunderbaaris; classic & upfront R&B, hip-hop, afro & dancehall; 22.00–04.00; 18+",
+  "b": [
+   "DJ Bad J",
+   "Trigga"
+  ],
+  "v": "Wunderbaar",
+  "c": "mujal",
+  "linn": "Pärnu",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Wunderbaar FB events-tab",
+  "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/28938778719064025/",
+  "hind": {
+   "praegu": "kuni 23.00 5 €, hiljem 10 €",
+   "allikas": "FB event, 06.11.2026"
+  },
+  "nb": "lisatud sweepis 06.11.2026; Bad Jam sari on rap-saidil",
+  "lisatud": "2026-11-06"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "kontsert",
+  "n": "Räpikas: LIVE Maxtract & Don Pedro",
+  "a": "algus 23.00",
+  "b": [
+   "Maxtract",
+   "Don Pedro",
+   "DJ Masta Robusta"
+  ],
+  "v": "Kära Kants",
+  "c": "mujal",
+  "linn": "Rakvere",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Masta Robusta FB events-tab",
+  "su": "https://www.facebook.com/MastaRobusta/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/28996549440001940/",
+  "hind": {
+   "praegu": "10 €, Kära Kantsi liige 8 €",
+   "allikas": "FB event, 06.11.2026"
+  },
+  "nb": "lisatud sweepis 06.11.2026",
+  "lisatud": "2026-11-06"
+ },
+ {
+  "d": "2026-12-19",
+  "t": "kontsert",
+  "n": "Masta Robusta «Reipaid Ridu Rezzidel Radadel» EP + 12\" vinüüli esitluspidu",
+  "a": "21.00–02.00; EP + vinüüli esitlus ja live",
+  "b": [
+   "Masta Robusta"
+  ],
+  "v": "Konk",
+  "c": "Tartu",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Konk FB events-tab",
+  "su": "https://www.facebook.com/profile.php?id=61593812049749&sk=events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2268254493897060/",
+  "pu": "https://fienta.com/et/masta-robusta-ep-ja-12-vinuuli-esitluspidu",
+  "nb": "lisatud sweepis 06.11.2026; 2. allikas Fienta",
+  "lisatud": "2026-11-06",
+  "img": "pildid/mastarobustareipaidridurezzidelradadelep12vinuuliesitluspidu.webp"
  }
 ]

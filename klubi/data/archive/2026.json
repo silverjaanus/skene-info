@@ -5938,6 +5938,36 @@
    },
    "lisatud": "2026-10-30",
    "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (Event by Kivi baar) + kluub.ee. Žanrid ürituse tekstist."
+  },
+  {
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "Glitch Please: Edgy Palates & Mike McCormick / Maria Paiste & Sander Saarmets",
+   "a": "Glitch Please seeria; hääl ja süntees: Leedu eksperimentaalne vokaaltrio Edgy Palates + Mike McCormick reaalajas SuperCollideri-töötlusega („Manipulation Charm\"), Maria Paiste + Sander Saarmets improvisatsioon; 19.00-21.30, annetuspõhine",
+   "b": [
+    "Edgy Palates (LT)",
+    "Mike McCormick (CA/NO)",
+    "Maria Paiste",
+    "Sander Saarmets"
+   ],
+   "v": "Terminal Records&Bar",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro"
+   ],
+   "sn": "Rada7.ee uudiskiri 29.10.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1817000023095814",
+   "pu": "https://fienta.com/edgy-palates-lt-mike-mccormick-ca-no-maria-paiste-sander-saarmets",
+   "hind": {
+    "praegu": "annetus (toetajapilet 1-50+ €)",
+    "allikas": "Fienta, kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10). | 02.11.2026: liidetud duplikaat (sama FB event 1817000023095814, sama Fienta pilet; teine kirje tuli Helinihe FB events-tabist Silveri 30.10 sweepi-otsusega).",
+   "img": "pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
   }
  ]
 }

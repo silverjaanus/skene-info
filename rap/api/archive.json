@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 539,
+ "count": 544,
  "entries": [
   {
    "sait": "www",
@@ -14879,6 +14879,164 @@
    "lisatud": "2026-10-30",
    "nb": "Silveri otsus 30.10.2026 (sweepi ülevaatus). Otsustuspunkt mediocris-uuslaine-2026-11-04 -> (a). Kohaliku artisti albumiesitlus, mitte RU/UA tuur.",
    "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "Dead Shape Figure (FI) + Surrogoat + Morbitech",
+   "a": "uksed 20.00, bändid 21.00",
+   "b": [
+    "Dead Shape Figure (FI)",
+    "Surrogoat",
+    "Morbitech"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1119478640614138/",
+   "hind": {
+    "praegu": "10 € sularahas / 13 € kaardiga",
+    "allikas": "FB event, kontrollitud 09.10.2026"
+   },
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026. FB event (Konservatoorium + Dead Shape Figure + Surrogoat); sama tuur kui 07.11 Krypt (Bandsintown). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata.",
+   "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "Glitch Please: Edgy Palates & Mike McCormick / Maria Paiste & Sander Saarmets",
+   "a": "Glitch Please seeria; hääl ja süntees: Leedu eksperimentaalne vokaaltrio Edgy Palates + Mike McCormick reaalajas SuperCollideri-töötlusega („Manipulation Charm\"), Maria Paiste + Sander Saarmets improvisatsioon; 19.00-21.30, annetuspõhine",
+   "b": [
+    "Edgy Palates (LT)",
+    "Mike McCormick (CA/NO)",
+    "Maria Paiste",
+    "Sander Saarmets"
+   ],
+   "v": "Terminal Records&Bar",
+   "c": "Tallinn",
+   "g": [
+    "experimental",
+    "electro"
+   ],
+   "sn": "Rada7.ee uudiskiri 29.10.2026",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1817000023095814",
+   "pu": "https://fienta.com/edgy-palates-lt-mike-mccormick-ca-no-maria-paiste-sander-saarmets",
+   "hind": {
+    "praegu": "annetus (toetajapilet 1-50+ €)",
+    "allikas": "Fienta, kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10). | 02.11.2026: liidetud duplikaat (sama FB event 1817000023095814, sama Fienta pilet; teine kirje tuli Helinihe FB events-tabist Silveri 30.10 sweepi-otsusega).",
+   "img": "https://klubi.skene.info/pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "Kaisa Kuslapuu «vaŕo» albumiesitlus — Tallinn",
+   "a": "kell 19.00",
+   "b": [
+    "Kaisa Kuslapuu",
+    "Sam Gleason",
+    "Alan Mackie",
+    "Marti Tärn"
+   ],
+   "v": "Erinevate Tubade Klubi",
+   "c": "Tallinn",
+   "g": [
+    "indie",
+    "alt"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/164fbfb4-8087-44cb-8339-d648e6e2cfd9",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1640611844261558/",
+   "pu": "https://fienta.com/et/kaisa-kuslapuu-varo-albumiesitluskontsert-204674",
+   "hind": {
+    "praegu": "20€ / sooduspilet 18€",
+    "mark": "",
+    "allikas": "Fienta, kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr).",
+   "img": "https://www.skene.info/pildid/kaisakuslapuuvaroalbumiesitlustallinn.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "Laine Live: Human Natures (PT) + Qaribou + Cottonmoth",
+   "a": "Human Natures – dream-rock / indie / shoegaze (debüüt 'ELECTRIC DREAMS'); kohalik tugi Qaribou",
+   "b": [
+    "Human Natures (PT)",
+    "Qaribou",
+    "Cottonmoth"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "shoegaze",
+    "indie",
+    "rock",
+    "alt"
+   ],
+   "sn": "Uus Laine FB events-tab",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1608078270785512/",
+   "pu": "https://fienta.com/laine-live-human-natures-pt-qaribou",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: FB event (Uus Laine, N 05.11 19.00) + Fienta piletileht. Žanr Fienta tekstist: 'dream-rock, indie pop, ambient and shoegaze', Qaribou 'indie rockers'.",
+   "img": "https://www.skene.info/pildid/lainelivehumannaturesptqariboucottonmoth.webp",
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-05",
+   "t": "kontsert",
+   "n": "T-40: Ukareda/Krigul/Toomel/Ahven",
+   "a": "arhail-bluus; uksed 19.00, kontsert 20.00",
+   "b": [
+    "T-40",
+    "Raul Ukareda",
+    "Ülo Krigul",
+    "Argo Toomel",
+    "Reigo Ahven"
+   ],
+   "v": "Philly Joe's",
+   "c": "Tallinn",
+   "g": [
+    "bluus"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/80904721-b0ed-472a-ac15-721e46cd7301",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1654560622747418",
+   "pu": "https://piletikeskus.ee/et/e/d48dsz",
+   "hind": {
+    "praegu": "eelmüük 15/20/25 €, kohapeal 30 €, soodus 15 €",
+    "mark": "",
+    "allikas": "Piletikeskus, kontrollitud 04.11.2026"
+   },
+   "lisatud": "2026-11-04",
+   "nb": "lisatud postkastijooksus 04.11.2026 (kluub.ee samm 2c). Allikad: Piletikeskuse ürituseleht (N 05.11 20.00, Philly Joe's Jazziklubi, 'arhail-bluus', koosseis) + kluub.ee + FB event. Bluus -> www (Andres Roots / Philly Joe's Tartu 06.11 pretsedent).",
+   "img": "https://www.skene.info/pildid/t40ukaredakrigultoomelahven.webp"
   }
  ]
 }

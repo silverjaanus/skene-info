@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "entries": [
   {
    "d": "2026-10-01",
@@ -168,36 +168,6 @@
    "su": "https://vaibonite.bandcamp.com/album/binary-ep",
    "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti techno-tag, released October 16, 2026).",
    "img": "pildid/vaibonitebinaryep.webp"
-  },
-  {
-   "d": "2026-11-05",
-   "t": "kontsert",
-   "n": "Glitch Please: Edgy Palates & Mike McCormick / Maria Paiste & Sander Saarmets",
-   "a": "Glitch Please seeria; hääl ja süntees: Leedu eksperimentaalne vokaaltrio Edgy Palates + Mike McCormick reaalajas SuperCollideri-töötlusega („Manipulation Charm\"), Maria Paiste + Sander Saarmets improvisatsioon; 19.00-21.30, annetuspõhine",
-   "b": [
-    "Edgy Palates (LT)",
-    "Mike McCormick (CA/NO)",
-    "Maria Paiste",
-    "Sander Saarmets"
-   ],
-   "v": "Terminal Records&Bar",
-   "c": "Tallinn",
-   "g": [
-    "experimental",
-    "electro"
-   ],
-   "sn": "Rada7.ee uudiskiri 29.10.2026",
-   "su": "https://www.rada7.ee/uudiskiri/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1817000023095814",
-   "pu": "https://fienta.com/edgy-palates-lt-mike-mccormick-ca-no-maria-paiste-sander-saarmets",
-   "hind": {
-    "praegu": "annetus (toetajapilet 1-50+ €)",
-    "allikas": "Fienta, kontrollitud 30.10.2026"
-   },
-   "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (Rada7 uudiskiri + kluub.ee). Allikad: Fienta piletileht (K 05.11 19.00-21.30, Terminal, „voice and synthesis ... electronic experimentation\") + FB event + kluub.ee. Glitch Please seeria on klubis (Rural Tapes 28.10, EIII 17.10). | 02.11.2026: liidetud duplikaat (sama FB event 1817000023095814, sama Fienta pilet; teine kirje tuli Helinihe FB events-tabist Silveri 30.10 sweepi-otsusega).",
-   "img": "pildid/glitchpleaseedgypalatesmikemccormickmariapaistesandersaarmets.webp"
   },
   {
    "d": "2026-11-06",
@@ -420,7 +390,29 @@
     "allikas": "GateMe + kluub.ee, kontrollitud 04.11.2026"
    },
    "lisatud": "2026-11-05",
-   "nb": "SILVERI OTSUS 04.11.2026 (\"1. lisa\") - otsustuspunkt 2026-11-04-nightvision-studio -> a. Allikad: kluub.ee Tallinn nimekiri (04.11) + GateMe piletileht. Korraldaja Juniper Island; pop-lava ei kuulu skoopi, sildid house/techno lavade järgi. FB eventi ei leitud."
+   "nb": "SILVERI OTSUS 04.11.2026 (\"1. lisa\") - otsustuspunkt 2026-11-04-nightvision-studio -> a. Allikad: kluub.ee Tallinn nimekiri (04.11) + GateMe piletileht. Korraldaja Juniper Island; pop-lava ei kuulu skoopi, sildid house/techno lavade järgi. FB eventi ei leitud.",
+   "img": "pildid/nightvisionatstudio.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "reliis",
+   "rel": 1,
+   "n": "dream1x — «Freedom / Aerospring»",
+   "a": "2-looline singel/EP",
+   "b": [
+    "dream1x"
+   ],
+   "g": [
+    "house",
+    "garage"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=house&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://dream1x.bandcamp.com/album/freedom-aerospring-2",
+   "nb": "lisatud sweepis 06.11.2026; Bandcamp: released November 6, 2026; sildid deep house, minimal house, garage, ukg",
+   "lisatud": "2026-11-06",
+   "img": "pildid/dream1xfreedomaerospring.webp"
   },
   {
    "d": "2026-11-07",
@@ -472,7 +464,8 @@
     "allikas": "kluub.ee / GateMe, kontrollitud 01.11.2026"
    },
    "lisatud": "2026-11-01",
-   "nb": "SILVERI OTSUS 01.11.2026 (\"mõlemad sisse\") - otsustuspunkt poffi-pidu-klubi-neli-2026-11-07 -> a. Ürituse leht žanrit ei nimeta; silt house = toimetaja valik (GILD 30.10 pretsedent, sama koht/formaat). ERAND, mitte pretsedent."
+   "nb": "SILVERI OTSUS 01.11.2026 (\"mõlemad sisse\") - otsustuspunkt poffi-pidu-klubi-neli-2026-11-07 -> a. Ürituse leht žanrit ei nimeta; silt house = toimetaja valik (GILD 30.10 pretsedent, sama koht/formaat). ERAND, mitte pretsedent.",
+   "img": "pildid/poffipidutartus.webp"
   },
   {
    "d": "2026-11-07",
@@ -501,6 +494,34 @@
    },
    "lisatud": "2026-11-03",
    "nb": "lisatud postkastijooksus 03.11.2026 (samm 2c). Kaks allikat: kluub.ee + ürituse FB event (Trancedeluxe + Club NINE, L 07.11 23.00, Tulika 9/11). Žanr ürituse tekstist: 'Trance and hard dance music all night' (underground-korraldaja, REEGLID §1 hard dance piir)."
+  },
+  {
+   "d": "2026-11-07",
+   "t": "klubi",
+   "n": "Planet Groove: House All Night Long [Mesila]",
+   "a": "23.00–06.00, HALL Mesila lava; hüpnootiline minimal house → kiire hard groove; 18+",
+   "b": [
+    "Fabio Diana (IT)",
+    "Acid Grooves (GE)",
+    "Lisette",
+    "Zaks",
+    "Sassbass b2b Bebe Veloure"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "minimal"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1303503465235241/",
+   "pu": "https://gateme.com/et/halltallinn/104519-planet-groove-x-hall",
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas GateMe HALL korraldajaleht",
+   "lisatud": "2026-11-06",
+   "img": "pildid/planetgroovehouseallnightlongmesila.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "d": "2026-11-13",
@@ -684,6 +705,33 @@
    "img": "pildid/hamarraamatukoguheamuusikapidu.webp"
   },
   {
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "COMPRESS RAVE x HALL (only techno)",
+   "a": "23.00–07.00, HALL Mesila lava; 18+",
+   "b": [
+    "Rawkored (LV)",
+    "Bery (GE)",
+    "Sugar Rody b2b Wataru Yoshimoto (JP)",
+    "Meelis Vili b2b L21 (GE)",
+    "Lisette"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1448929444082990/",
+   "pu": "https://gateme.com/et/halltallinn/104515-compress-rave-x-hall-only-techno",
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas GateMe",
+   "lisatud": "2026-11-06",
+   "img": "pildid/compressravexhallonlytechno.webp",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
    "d": "2026-11-14",
    "t": "kontsert",
    "n": "HARD NATION 16 B-DAY x RAN-D (NL)",
@@ -821,6 +869,62 @@
    "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event + kluub.ee. Žanrid ürituse tekstist (DJ-de juures nimetatud)."
   },
   {
+   "d": "2026-11-14",
+   "t": "klubi",
+   "n": "FRIENDS HOUSE 4",
+   "a": "23.00–05.00; techno, bounce, schranz, groove",
+   "b": [
+    "TR!NITY",
+    "Petricore",
+    "32 Block",
+    "Klaadman",
+    "D4rksen",
+    "Bebe Veloure"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "MOD FB events-tab",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2600599260412064/",
+   "nb": "lisatud sweepis 06.11.2026; korraldajad 32 BLOCK + MOD.tln",
+   "lisatud": "2026-11-06",
+   "vu": "https://www.facebook.com/Modtln"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "klubi",
+   "n": "Glitch Club: Rony Rex (FI)",
+   "a": "DJ-d 23.00–04.00; house, global club, indie dance, techno; 20+",
+   "b": [
+    "Rony Rex (FI)",
+    "DJ WUF (FI)",
+    "ileevi (FI)"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "Fonoteek FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1670416077864525/",
+   "pu": "https://gateme.com/event/104502",
+   "hind": {
+    "praegu": "FB going kuni 00.00 5 € (terve öö 7 €), tavapilet 10 €, noortepilet 3 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas RA 2576222 (ra_snapshot)",
+   "lisatud": "2026-11-06",
+   "img": "pildid/glitchclubronyrexfi.webp",
+   "vu": "https://fonoteek.ee/"
+  },
+  {
    "d": "2026-11-20",
    "t": "klubi",
    "n": "OVERDRIVE: Techno, DnB & Raw Rave",
@@ -955,6 +1059,71 @@
    "img": "pildid/paradisobymaisondiowmarshalljefferson.webp"
   },
   {
+   "d": "2026-11-20",
+   "t": "klubi",
+   "n": "KLAP @ MOD",
+   "a": "algus 23.00; 18+",
+   "b": [
+    "boipepperoni",
+    "Kermo Murel",
+    "QSLAP"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "MOD FB events-tab",
+   "su": "https://www.facebook.com/Modtln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1113566654772358/",
+   "pu": "https://fienta.com/et/klap-atmod-club",
+   "hind": {
+    "praegu": "MOD liige 5 €, early bird 10 €, regular 15 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026; sari oli klubis ka 17.10 (Fonoteek); 2. allikas Fienta",
+   "lisatud": "2026-11-06",
+   "img": "pildid/klapmod.webp",
+   "vu": "https://www.facebook.com/Modtln"
+  },
+  {
+   "d": "2026-11-20",
+   "d2": "21.11",
+   "t": "klubi",
+   "n": "Club NINE: 10 Years of Magic",
+   "a": "kaks ööd: R 20.11 progressive sound, L 21.11 tech & deep sound",
+   "b": [
+    "Type-O",
+    "Hando Tõnumaa",
+    "Tarmo Kull",
+    "Sten Roosvald",
+    "LAID",
+    "STIAN (NO)",
+    "Sound Architect",
+    "Antti"
+   ],
+   "v": "Club NINE",
+   "c": "Tallinn",
+   "g": [
+    "progressive",
+    "house",
+    "techno"
+   ],
+   "sn": "Club NINE FB events-tab",
+   "su": "https://www.facebook.com/ClubNineTallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1442732414625602/",
+   "pu": "https://www.ticketer.ee/10-years-of-magic-1",
+   "hind": {
+    "praegu": "eelmüük 2 ööd 10 €, ukselt 1 öö 10 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas RA 2568575 + Ticketer",
+   "lisatud": "2026-11-06",
+   "img": "pildid/clubnine10yearsofmagic.webp"
+  },
+  {
    "d": "2026-11-21",
    "t": "kontsert",
    "n": "Fatboy Slim (UK)",
@@ -1027,6 +1196,34 @@
    "img": "pildid/squashbigmotionhealer003.webp"
   },
   {
+   "d": "2026-11-27",
+   "t": "klubi",
+   "n": "// OH MY DUB //",
+   "a": "uksed 20.00, DJ-d 22.00; bassline, garage, dubstep, drum & bass; tasuta",
+   "b": [
+    "Fono",
+    "Kalev K",
+    "Studios"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "bass",
+    "dnb",
+    "dub"
+   ],
+   "sn": "Kivi baar FB events-tab",
+   "su": "https://www.facebook.com/kivibaar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2258385201394071/",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026; sari oli klubis ka 23.10",
+   "lisatud": "2026-11-06"
+  },
+  {
    "d": "2026-11-28",
    "t": "klubi",
    "n": "Pulsation Estonia 2026: Metrik (UK) + Subsonic (UK)",
@@ -1055,6 +1252,34 @@
    "ou": "https://www.facebook.com/events/1818048599199392/",
    "on_": "Facebook event",
    "vu": "https://helitehas.ee/"
+  },
+  {
+   "d": "2026-11-28",
+   "t": "klubi",
+   "n": "Jungle Beat Impact",
+   "a": "kolm korrust, kolm lava; erikülaline Lu:k (Eesti jungle'i pioneer); algus 21.00",
+   "b": [
+    "Lu:k",
+    "Street J",
+    "Killing Sinatra",
+    "Reglok",
+    "Marko & Ulme Tolm",
+    "Mardus Guru",
+    "Antti Mäss"
+   ],
+   "v": "Karja 1a",
+   "c": "mujal",
+   "linn": "Haapsalu",
+   "g": [
+    "jungle",
+    "dnb"
+   ],
+   "sn": "Reglok FB events-tab",
+   "su": "https://www.facebook.com/djreglok/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1367138398654760/",
+   "nb": "lisatud sweepis 06.11.2026",
+   "lisatud": "2026-11-06"
   },
   {
    "d": "2026-12-04",
@@ -1167,6 +1392,26 @@
    "vu": "https://www.d-3.ee/"
   },
   {
+   "d": "2026-12-11",
+   "t": "klubi",
+   "n": "Rawest presents: Twisted Christmas 2026",
+   "a": "23.00–05.00; hardstyle'i stiilid",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "Club NINE",
+   "c": "Tallinn",
+   "g": [
+    "hardstyle",
+    "hard dance"
+   ],
+   "sn": "Club NINE FB events-tab",
+   "su": "https://www.facebook.com/ClubNineTallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2260599827848684/",
+   "nb": "lisatud sweepis 06.11.2026; hardstyle = klubi (pretsedent Hard Nation 14.11)",
+   "lisatud": "2026-11-06"
+  },
+  {
    "d": "2026-12-12",
    "t": "klubi",
    "n": "Beats From The Vault — Dark Souls Meeting // Club HALL",
@@ -1222,6 +1467,29 @@
     "mark": "Early Bird",
     "allikas": "Fienta, kontrollitud 09.10.2026"
    },
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "d": "2027-02-12",
+   "t": "klubi",
+   "n": "Laine Klubiöö: Ahadadream (UK)",
+   "a": "Londoni DJ/produtsent, UK klubiskeene; perkussiivne trummikeskne klubimuusika",
+   "b": [
+    "Ahadadream (UK)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "bass"
+   ],
+   "sn": "Fienta (Uus Laine korraldajaleht)",
+   "su": "https://fienta.com/et/o/17330",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1644097363755318/",
+   "pu": "https://fienta.com/et/laine-klubioo-ahadadream-uk",
+   "nb": "lisatud sweepis 06.11.2026",
+   "lisatud": "2026-11-06",
+   "img": "pildid/laineklubiooahadadreamuk.webp",
    "vu": "https://uuslaine.com/"
   },
   {
@@ -1397,6 +1665,28 @@
    "nb": "lisatud sweepis 02.08.2026; kuupäev kinnitatud kahe allikaga: ametlik sait (title 15-18 JULY 2027) + ticketer.ee nimekiri; piletid Ticketeris (event-URL puudub veel loendist) | zanr 15.08.2026: RA 2026 zanrisildid House+Minimal (ra.co/events/2445948); sama joon 2024-2026 (Lee Burridge, Cabanne, Traumer, D Julz). TULETATUD eelmisest aastast, 2027 koosseis avaldamata | 24.08.2026: `tba` VOETUD MAHA — vali tahendab koodis 'kuupaev pole kinnitatud' (index.html fmt), mitte 'koosseis avaldamata'. Kuupaev on allikaga kinnitatud; koosseis on endiselt avaldamata (b tuhi = ulevaatuskoht, HANDOVER §1).",
    "img": "pildid/ilandsound2027.webp",
    "koosseis_tba": 1
+  },
+  {
+   "d": "2027-09-02",
+   "d2": "05.09",
+   "t": "festival",
+   "n": "Station Narva 2027",
+   "a": "10. muusika- ja linnafestival Narvas; festivalipassid müügil",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "Narva",
+   "c": "mujal",
+   "linn": "Narva",
+   "g": [
+    "electronic"
+   ],
+   "sn": "Rada7 FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1607124810756619/",
+   "pu": "https://shop.tmw.ee/product-category/station-narva",
+   "nb": "lisatud sweepis 06.11.2026; 2026. aasta väljaanne oli klubis",
+   "lisatud": "2026-11-06"
   }
  ]
 }
