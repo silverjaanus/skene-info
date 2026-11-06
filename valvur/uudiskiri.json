@@ -1,8 +1,7 @@
 {
  "kuupaev": "2026-11-06",
- "aeg": "2026-11-06T15:14+02:00",
- "seis": "saatmata",
- "pohjus": "saatmine poolik: 0/5 ambrit. ARA kaivita uuesti tervikuna -- lopeta puuduvad --only send:<kombo>:<keel> --skip-groups",
+ "aeg": "2026-11-06T15:20+02:00",
+ "seis": "saadetud",
  "ambrid": [
   "send:metal+klubi:et 3 tellijat 72 kirjet",
   "send:metal+rap+klubi:et 3 tellijat 80 kirjet",
@@ -10,6 +9,12 @@
   "send:metal:et 36 tellijat 44 kirjet",
   "send:rap+klubi:et 1 tellijat 36 kirjet"
  ],
- "kampaaniad": [],
- "logi": "OK struktuur: koik neli skripti kutsuvad order_for_output()-i, oma jarjestusloogikat pole.\nKAITUMISVIGA:\n  - [metal] kuupaevad ei ole kasvavas jarjekorras\n  - [metal+rap] kuupaevad ei ole kasvavas jarjekorras\n  - [metal+rap+klubi] kuupaevad ei ole kasvavas jarjekorras\n\nKOKKU 3 viga. Kiri EI OLE saatmiskolblik.\nEELSAMM: check_send_parity (jarjestus saatmistees == eelvaade)\nVIGA: eelsamm 'check_send_parity (jarjestus saatmistees == eelvaade)' kukkus (exit 1) -- SAATMINE KATKESTATUD. Paranda pohjus voi (ainult hadaolukorras) kasuta --skip-gates.\n"
+ "kampaaniad": [
+  "203393341584311409",
+  "203393380080682592",
+  "203393416691713660",
+  "203393568257083243",
+  "203393603047785778"
+ ],
+ "tellijaid": 45
 }
