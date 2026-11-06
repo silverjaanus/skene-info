@@ -1,28 +1,5 @@
 [
  {
-  "oid": "2026-11-05-mystica-maison-dio",
-  "lisatud": "2026-11-05",
-  "tahtaeg": "2026-11-10",
-  "kysimus": "Mystica @ Maison Dio by Bombossa Brothers — R 13.11 kl 23.00–04.00, Maison Dio (Rävala pst 12, Tallinn), 20 € eelmüük / 25 € uksel. Kas lisame klubisse?",
-  "valikud": [
-   {
-    "id": "a",
-    "tekst": "jah, klubi, silt house (Bombossa Brothers on Lane 8 21.11 soojendajana klubis juba sees)"
-   },
-   {
-    "id": "b",
-    "tekst": "ei, jääb välja (žanrit ürituse leht ei nimeta, Maison Dio 'müstiline pidu')"
-   }
-  ],
-  "vaikeotsus": "b",
-  "lingid": [
-   "FB event: https://www.facebook.com/events/1742140911261487",
-   "pilet (Fienta): https://fienta.com/et/mystica-maisondio",
-   "kluub.ee: https://www.kluub.ee/et/events/tallinn/ae02dcc6-8a7b-47b1-9e30-fff3af5cd185"
-  ],
-  "kontekst": "Leitud kluub.ee samm 2c 05.11.2026. Kolm allikat olemas (kluub.ee + FB event + Fienta), korraldaja Maison Dio, line-up 'Bombossa Brothers & friends'. Kahtlus: ürituse tekst žanrit ei nimeta ('linna kõige müstilisem pidu', 'muusikaline rännak') -> taskiprompti 2c järgi žanrit ei arva. Hind kõrge (20-25 €), formaat lähemal kommerts-klubiõhtule. Vaikeotsus b."
- },
- {
   "oid": "2026-11-06-etno-tehno-reiv-kaks-tuba",
   "lisatud": "2026-11-06",
   "tahtaeg": "2026-11-11",
