@@ -1,0 +1,29 @@
+name: IG karussell
+
+# 06.11.2026: nadala karussell otse Instagrami API-ga (oma Meta app, IG_TOKEN),
+# Make'ist soltumata. Kaivitatakse kasitsi voi uudiskirja workflow'st.
+# Skript ise kaitseb topeltpostituse eest (tanane CAROUSEL_ALBUM -> ei postita).
+on:
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "Ainult kontroll (ei postita)"
+        type: boolean
+        default: true
+
+concurrency:
+  group: ig-karussell
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Postita karussell
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python scripts/ig_karussell.py ${{ inputs.dry && '--dry-run' || '' }}

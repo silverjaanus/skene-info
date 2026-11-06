@@ -90,8 +90,15 @@ def build_caption(sel, rng):
     osa = f"{n_ev} üritust" if n_ev != 1 else "1 üritus"
     if n_rel:
         osa += f" ja {n_rel} uut reliisi" if n_rel != 1 else " ja 1 uus reliis"
+    # 06.11.2026: kehtiv esile_kuni-kirje saab captionis oma rea (vt common.order_for_output)
+    tana = today_local().isoformat()
+    esile = [e for e in sel if (e.get("esile_kuni") or "") >= tana][:1]
+    ee = ("\n\nNädala esiletõst: " + esile[0]["n"]
+          + (", uus album." if "album" in (esile[0].get("a") or "").lower() or "album" in esile[0]["n"].lower()
+             else ", uus reliis." if is_release(esile[0]) else ".")) if esile else ""
     cap = ("TULEVAD ÜRITUSED · " + rng
            + "\n" + osa + ": metal, rap ja klubi. Sirvi pilte →"
+           + ee
            + "\n\nTelli see nimekiri igal reedel oma postkasti: link on profiilis."
            + "\nKõik üritused ja piletid: skene.info"
            + "\nAnna tagasisidet: skene.info/tagasiside"

@@ -96,7 +96,11 @@ def kontrolli_kaitumine(repo, ref):
                             f"aken algab {ws} (moodunud alguskuupaev!)")
 
         # 2) kuvatavad kuupaevad peavad kasvama
-        kuup = [(e.get("_disp") or e.get("d", "")) for e in sel]
+        # 06.11.2026: kehtivad esile_kuni-kirjed on TEADLIKULT alguses (order_for_output),
+        # need jaavad kasvamise kontrollist valja
+        wsi = ws.isoformat()
+        kuup = [(e.get("_disp") or e.get("d", "")) for e in sel
+                if not (e.get("esile_kuni") and e["esile_kuni"] >= wsi)]
         if kuup != sorted(kuup):
             vead.append(f"[{tag}] kuupaevad ei ole kasvavas jarjekorras")
 
