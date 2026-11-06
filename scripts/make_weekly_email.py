@@ -260,13 +260,13 @@ def event_row(e, L, lang="et"):
               + (f'<span style="float:right;font-weight:400;">{price_html}</span>' if price_html else "")
               + '</div>')
     tu = thumb_url(e)
-    thumb_td = (f'\n        <td width="72" valign="top" style="width:72px;padding:14px 0 14px 12px;border-top:1px solid {JOON};">'
-                f'<a href="{esc(link or SITE_URL)}"><img src="{tu}" width="72" alt="" '
+    thumb_td = (f'\n        <td width="72" valign="top" class="thc" style="width:72px;padding:14px 0 14px 12px;border-top:1px solid {JOON};">'
+                f'<a href="{esc(link or SITE_URL)}"><img src="{tu}" width="72" alt="" class="thi" '
                 f'style="display:block;width:72px;height:auto;border:0;"></a></td>') if tu else \
                (f'\n        <td width="72" style="width:72px;border-top:1px solid {JOON};">&nbsp;</td>')
     return f"""
       <tr>
-        <td width="74" valign="top" style="padding:14px 0 14px 0;border-top:1px solid {JOON};">
+        <td width="74" valign="top" class="dtc" style="padding:14px 0 14px 0;border-top:1px solid {JOON};">
           <div style="font:700 20px/1 'Courier New',monospace;color:{TINT};">{datebig}</div>
           <div style="font:400 12px/1.4 'Courier New',monospace;color:{HALL};margin-top:3px;">{wl}</div>
         </td>
@@ -339,6 +339,9 @@ def build_html(entries, ws, we, lang, cats):
   .gw{{font-size:22px !important;letter-spacing:0 !important;}}
   .mlogo{{width:44px !important;height:44px !important;}}
   .mlogo-cell{{width:44px !important;padding-right:12px !important;}}
+  .thc{{width:52px !important;padding-left:8px !important;}}
+  .thi{{width:52px !important;}}
+  .dtc{{width:56px !important;}}
 }}
 </style></head>
 <body style="margin:0;padding:0;background:{PABER};">
