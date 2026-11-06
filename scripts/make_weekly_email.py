@@ -200,6 +200,22 @@ def price_text(e):
 def title_link(e):
     return e.get("ou") or e.get("su") or ""
 
+_REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_IMG_BASE = {"metal": "https://www.skene.info/", "rap": "https://www.skene.info/rap/",
+             "klubi": "https://www.skene.info/klubi/"}
+_IMG_DIR = {"metal": "", "rap": "rap", "klubi": "klubi"}
+
+def thumb_url(e):
+    """06.11.2026: kirje pisipilt meili jaoks (JPG, mitte WebP). None, kui JPG-d pole."""
+    img = e.get("img") or ""
+    if not img.endswith(".webp"):
+        return None
+    cat = e.get("_cat", "metal")
+    jpg = img[:-5] + ".jpg"
+    if not os.path.exists(os.path.join(_REPO, _IMG_DIR.get(cat, ""), jpg)):
+        return None
+    return _IMG_BASE.get(cat, _IMG_BASE["metal"]) + jpg
+
 def event_row(e, L, lang="et"):
     s,en=event_span(e)
     disp=parse_d(e["_disp"]) if e.get("_disp") else s
@@ -243,6 +259,11 @@ def event_row(e, L, lang="et"):
     loc_line=(f'<div style="font:700 14px/1.4 Arial,Helvetica,sans-serif;color:{TINT};margin:5px 0 0;">{loc}'
               + (f'<span style="float:right;font-weight:400;">{price_html}</span>' if price_html else "")
               + '</div>')
+    tu = thumb_url(e)
+    thumb_td = (f'\n        <td width="72" valign="top" style="width:72px;padding:14px 0 14px 12px;border-top:1px solid {JOON};">'
+                f'<a href="{esc(link or SITE_URL)}"><img src="{tu}" width="72" alt="" '
+                f'style="display:block;width:72px;height:auto;border:0;"></a></td>') if tu else \
+               (f'\n        <td width="72" style="width:72px;border-top:1px solid {JOON};">&nbsp;</td>')
     return f"""
       <tr>
         <td width="74" valign="top" style="padding:14px 0 14px 0;border-top:1px solid {JOON};">
@@ -251,7 +272,7 @@ def event_row(e, L, lang="et"):
         </td>
         <td valign="top" style="padding:14px 0 14px 14px;border-top:1px solid {JOON};">
           {tag}{title}{bands_html}{loc_line}
-        </td>
+        </td>{thumb_td}
       </tr>"""
 
 def daterange(ws,we,L):
@@ -262,6 +283,10 @@ def daterange(ws,we,L):
 
 def build_html(entries, ws, we, lang, cats):
     L=I18N[lang]
+    # 06.11.2026 (Silver): esile tostetud reliis on juba intro-plokis -> nimekirjas teist korda pole vaja
+    if INTRO:
+        wsi = ws.isoformat()
+        entries = [e for e in entries if not (e.get("esile_kuni") and e["esile_kuni"] >= wsi)]
     rows="".join(event_row(e, L, lang) for e in entries)
     n=len(entries); krje=L["entry_1"] if n==1 else L["entry_n"]
     rng=daterange(ws,we,L)
@@ -348,7 +373,7 @@ def build_html(entries, ws, we, lang, cats):
   <!-- uritused -->
   <tr><td style="padding:12px 28px 4px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{rows}
-      <tr><td colspan="2" style="border-top:1px solid {JOON};font-size:0;line-height:0;">&nbsp;</td></tr>
+      <tr><td colspan="3" style="border-top:1px solid {JOON};font-size:0;line-height:0;">&nbsp;</td></tr>
     </table>
   </td></tr>
 

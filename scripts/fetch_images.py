@@ -164,6 +164,8 @@ def salvesta(im, sihtfail):
     im = im.convert("RGB").resize(uus, Image.LANCZOS)
     sihtfail.parent.mkdir(parents=True, exist_ok=True)
     im.save(sihtfail, "WEBP", quality=80, method=5)
+    # 06.11.2026: uudiskirja jaoks ka JPG (vana Outlook ei naita WebP-d)
+    im.save(sihtfail.with_suffix(".jpg"), "JPEG", quality=82, optimize=True)
     return uus
 
 
