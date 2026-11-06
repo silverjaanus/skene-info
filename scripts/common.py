@@ -433,7 +433,12 @@ def order_for_output(entries, ws):
     for e in entries:
         e["_disp"] = next_start(e, ws)
     entries.sort(key=lambda e: (e.get("_disp") or e.get("d", ""), _cat_rank(e), e.get("t", "")))
-    return interleave_cats(entries)
+    out = interleave_cats(entries)
+    # 06.11.2026: kirje valjaga "esile_kuni": "YYYY-MM-DD" laheb nimekirja ALGUSESSE
+    # (karussell, kiri, caption), kuni akna algus <= esile_kuni. Aegub ise.
+    wsi = ws.isoformat() if hasattr(ws, "isoformat") else str(ws)
+    esile = [e for e in out if e.get("esile_kuni") and e["esile_kuni"] >= wsi]
+    return esile + [e for e in out if e not in esile]
 
 
 def interleave_cats(entries):

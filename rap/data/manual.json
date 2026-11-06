@@ -175,7 +175,9 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1392205469794718/",
   "lisatud": "2026-10-02",
-  "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Kadrina Kultuurikoda + Masta Robusta jt) + Masta Robusta FB events-tab. Žanr ürituse tekstist („korralik räpikontsert“). Koosseis „juba varsti“ → koosseis_tba."
+  "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Kadrina Kultuurikoda + Masta Robusta jt) + Masta Robusta FB events-tab. Žanr ürituse tekstist („korralik räpikontsert“). Koosseis „juba varsti“ → koosseis_tba.",
+  "img": "pildid/pilvepiirfofkin.webp",
+  "img_src": "fb:1392205469794718"
  },
  {
   "d": "2027-07-29",
@@ -300,7 +302,9 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1105078858557961/",
   "lisatud": "2026-10-16",
-  "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS."
+  "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS.",
+  "img": "pildid/badjamlegendaarneraadiobaar.webp",
+  "img_src": "fb:1105078858557961"
  },
  {
   "d": "2026-11-20",
@@ -626,7 +630,9 @@
    "allikas": "FB event, 06.11.2026"
   },
   "nb": "lisatud sweepis 06.11.2026; Bad Jam sari on rap-saidil",
-  "lisatud": "2026-11-06"
+  "lisatud": "2026-11-06",
+  "img": "pildid/badjamwtriggawunderbaar.webp",
+  "img_src": "fb:28938778719064025"
  },
  {
   "d": "2026-11-28",
@@ -676,5 +682,33 @@
   "nb": "lisatud sweepis 06.11.2026; 2. allikas Fienta",
   "lisatud": "2026-11-06",
   "img": "pildid/mastarobustareipaidridurezzidelradadelep12vinuuliesitluspidu.webp"
+ },
+ {
+  "d": "2026-12-18",
+  "t": "kontsert",
+  "n": "N&N, PRODIGYBOYS, LOTEY, JP&L at HELITEHAS",
+  "a": "kaks seanssi: 0+ kl 18.00 ja 16+ hiline seanss; piletid müügil alates 09.11 (tava 10-12 €, VIP 16-18 €, hind tõuseb)",
+  "b": [
+   "Noored ja Näljased",
+   "Prodigyboys",
+   "Lotey",
+   "Jooseppro & Lennu"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Helitehas FB events-tab",
+  "su": "https://www.facebook.com/events/2146926486031935/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1648847702923713/",
+  "pu": "https://gateme.com/et/helitehas/104518",
+  "hind": {
+   "praegu": "Hommik 10 €, Lõuna 12 €, Early VIP 16 €, Regular VIP 18 € (hiljem kallim)",
+   "allikas": "FB event 16+, 06.11.2026"
+  },
+  "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '2. sisse'); ou = 16+ FB event, su = 0+ FB event (GateMe 104517); 16+ kellaaeg FB-s ebaselge (3 AM), seepärast mitte märgitud",
+  "lisatud": "2026-11-06"
  }
 ]

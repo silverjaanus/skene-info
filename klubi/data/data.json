@@ -331,6 +331,8 @@
    "ou": "https://www.facebook.com/events/1115746747974959/",
    "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event + IDA Radio events-tab. Ürituse tekst žanrit selgelt ei nimeta (baselines, hard lines) — sildid Silveri otsusel, kontrolli.",
    "lisatud": "2026-10-30",
+   "img": "pildid/baridabasedcore.webp",
+   "img_src": "fb:1115746747974959",
    "vu": "https://www.facebook.com/IDARadio"
   },
   {
@@ -358,7 +360,9 @@
     "allikas": "kluub.ee, kontrollitud 02.11.2026"
    },
    "lisatud": "2026-11-02",
-   "nb": "lisatud postkastijooksus 02.11.2026 (samm 2c). Allikad: kluub.ee + FB event (Club NINE, R 06.11 23.00-07.00, Tulika 9/11). Hind ainult kluub.ee-st, FB kirjeldus lühendatud; pilt puudub (pildisamm tegemata)."
+   "nb": "lisatud postkastijooksus 02.11.2026 (samm 2c). Allikad: kluub.ee + FB event (Club NINE, R 06.11 23.00-07.00, Tulika 9/11). Hind ainult kluub.ee-st, FB kirjeldus lühendatud; pilt puudub (pildisamm tegemata).",
+   "img": "pildid/hardtechnonight3.webp",
+   "img_src": "fb:1089896744039987"
   },
   {
    "d": "2026-11-06",
@@ -493,7 +497,9 @@
     "allikas": "ürituse FB event, kontrollitud 03.11.2026"
    },
    "lisatud": "2026-11-03",
-   "nb": "lisatud postkastijooksus 03.11.2026 (samm 2c). Kaks allikat: kluub.ee + ürituse FB event (Trancedeluxe + Club NINE, L 07.11 23.00, Tulika 9/11). Žanr ürituse tekstist: 'Trance and hard dance music all night' (underground-korraldaja, REEGLID §1 hard dance piir)."
+   "nb": "lisatud postkastijooksus 03.11.2026 (samm 2c). Kaks allikat: kluub.ee + ürituse FB event (Trancedeluxe + Club NINE, L 07.11 23.00, Tulika 9/11). Žanr ürituse tekstist: 'Trance and hard dance music all night' (underground-korraldaja, REEGLID §1 hard dance piir).",
+   "img": "pildid/trancecapital.webp",
+   "img_src": "fb:28897218509932211"
   },
   {
    "d": "2026-11-07",
@@ -866,7 +872,9 @@
     "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
    },
    "lisatud": "2026-10-30",
-   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event + kluub.ee. Žanrid ürituse tekstist (DJ-de juures nimetatud)."
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event + kluub.ee. Žanrid ürituse tekstist (DJ-de juures nimetatud).",
+   "img": "pildid/undergroundpenthouse.webp",
+   "img_src": "fb:1674244060938482"
   },
   {
    "d": "2026-11-14",
@@ -892,6 +900,8 @@
    "ou": "https://www.facebook.com/events/2600599260412064/",
    "nb": "lisatud sweepis 06.11.2026; korraldajad 32 BLOCK + MOD.tln",
    "lisatud": "2026-11-06",
+   "img": "pildid/friendshouse4.webp",
+   "img_src": "fb:2600599260412064",
    "vu": "https://www.facebook.com/Modtln"
   },
   {

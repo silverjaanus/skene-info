@@ -350,7 +350,8 @@
    "ou": "https://synghus.band/",
    "lisatud": "2026-11-05",
    "nb": "Silveri soov 05.11.2026 (Silveri enda bänd; Silver töötab Fairmusis). Ilmumiskuupäev 04.11 Apple Musicu järgi; Fairmusi nädalakiri #45 (05.11) nimetab seda selle nädala uueks albumiks. Esile tõstetud uudiskirja intros (06.11) ja story's (07.11).",
-   "img": "pildid/synghusnaljatooja.webp"
+   "img": "pildid/synghusnaljatooja.webp",
+   "esile_kuni": "2026-11-06"
   },
   {
    "d": "2026-11-05",
@@ -451,30 +452,9 @@
     "allikas": "FB event, kontrollitud 16.10.2026"
    },
    "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad PööLoY GLääNZ + Oleg Knjazev) + Kära Kantsi grupi events-list. Žanr ürituse tekstist („tuleb ja rockib“)."
-  },
-  {
-   "d": "2026-11-06",
-   "t": "kontsert",
-   "n": "Jimi Hendrix 84 — CryBaby (Viljandi)",
-   "a": "CryBaby tähistab Jimi Hendrixi 84. sünniaastapäeva, rock & roll; uksed 20.00, algus 21.30",
-   "b": [
-    "CryBaby"
-   ],
-   "v": "Konservatoorium",
-   "c": "mujal",
-   "linn": "Viljandi",
-   "g": [
-    "rock",
-    "bluus"
-   ],
-   "sn": "Konservatoorium FB events-tab",
-   "su": "https://www.facebook.com/konservatoorium/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/29046245604969513/",
-   "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad CryBaby + Konservatoorium + Martti Muda). ⚠ FB asukohaväljal on ekslikult Püssirohukelder (Tartu kontserdi koopia), pealkiri ja kaaskorraldaja ütlevad Konservatoorium Viljandi. Sarnane Tartu kontsert 31.10 on eraldi kirje.",
-   "vu": "https://www.facebook.com/konservatoorium"
+   "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad PööLoY GLääNZ + Oleg Knjazev) + Kära Kantsi grupi events-list. Žanr ürituse tekstist („tuleb ja rockib“).",
+   "img": "pildid/pooloyglaanz37karakants.webp",
+   "img_src": "fb:1023951770721225"
   },
   {
    "d": "2026-11-06",
@@ -908,6 +888,8 @@
    "ou": "https://www.facebook.com/events/1663187245317386/",
    "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). Kaks allikat: FB event + IDA Radio events-tab. ⚠ FB event ütleb, et album ilmub 3. novembril; Seksoundi Bandcamp ütleb 3. detsember — reliisikirje kuupäev lahtine.",
    "lisatud": "2026-10-30",
+   "img": "pildid/zebraislandclubghostesitluspidu.webp",
+   "img_src": "fb:1663187245317386",
    "vu": "https://www.facebook.com/IDARadio"
   },
   {
@@ -929,7 +911,9 @@
    "su": "https://www.facebook.com/profile.php?id=61593812049749&sk=events",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2043366193001946/",
-   "nb": "lisatud 31.10.2026 postkastijooksus kontaktivormi kaudu (www vorm, saatja valter.nomm@gmail.com ehk esineja ise). Kaks allikat: ürituse FB-leht (L 07.11.2026 22:00–02:00, Kastani 42 Tartu, korraldajad Konk + Aparaaditehas + Valter Nõmm) + Konki FB events-tab (sama kuupäev/kellaaeg). Žanr ürituse ENDA kirjeldusest ja vormi Zanrid-väljalt („post-punk, noise-rock, psychedelic rock“) — www, sama pretsedent mis Terminal Arrivals: Valter Nõmm 26.09 (REEGLID §1, 23.09). Hinda allikad ei ütle — hind jäetud välja."
+   "nb": "lisatud 31.10.2026 postkastijooksus kontaktivormi kaudu (www vorm, saatja valter.nomm@gmail.com ehk esineja ise). Kaks allikat: ürituse FB-leht (L 07.11.2026 22:00–02:00, Kastani 42 Tartu, korraldajad Konk + Aparaaditehas + Valter Nõmm) + Konki FB events-tab (sama kuupäev/kellaaeg). Žanr ürituse ENDA kirjeldusest ja vormi Zanrid-väljalt („post-punk, noise-rock, psychedelic rock“) — www, sama pretsedent mis Terminal Arrivals: Valter Nõmm 26.09 (REEGLID §1, 23.09). Hinda allikad ei ütle — hind jäetud välja.",
+   "img": "pildid/majapiduvalternomm.webp",
+   "img_src": "fb:2043366193001946"
   },
   {
    "d": "2026-11-07",
@@ -1147,6 +1131,8 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud 09.10.2026. FB event (Ouu + Ans. Andur kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: Ans. Andur = Eesti indie rock'i ansambel (et.wikipedia), Ouu = indie-kollektiiv (Spotify bio). Tallinna kontserdi pilet Fienta 204809.",
    "linn": "Viljandi",
+   "img": "pildid/eritipruunsugistuuransandurjaouuviljandis.webp",
+   "img_src": "fb:1789793645700808",
    "vu": "https://www.facebook.com/konservatoorium"
   },
   {
@@ -1173,6 +1159,8 @@
    "ou": "https://www.facebook.com/events/1118078020585975/",
    "lisatud": "2026-10-23",
    "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Tectonic Shifts, SAAR CULT, Secret Face Productions jt) + SAAR CULTi FB events-tab. Žanr ürituse tekstist: Mount Palatine 'heavy psych metal', Tectonic Shifts 'stonerdoom'. Tuuri Tartu kuupäev 14.11 Hellis eraldi kirjena. Pilet avaldamata.",
+   "img": "pildid/fuzzbittenfalltour2026mountpalatinetectonicshiftsfhtagnthousandhands.webp",
+   "img_src": "fb:1118078020585975",
    "vu": "https://www.facebook.com/saarcult"
   },
   {
@@ -1262,6 +1250,8 @@
    "lisatud": "2026-09-18",
    "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Shelter Helper) + Tapperi FB events-tab / tapper.ee kava (pilet 30 €). Koosseis (Herald, Elukas, Hukk, Dreadpin, Janni Bravo) kinnitatud Mood/musicofourdesire ürituselehelt; FB-kirjeldus on sisselogimata kärbitud. | 25.09.2026 samm 2b (festivalide koosseisukontroll): ürituse FB event AVATUD TÄISPIKKUSES ja see EI NIMETA ÜHTEGI BÄNDI — korraldaja kirjutab sõnaselgelt „Rohkem infot jooksvalt“. Senised viis nime (Herald, Elukas, Hukk, Dreadpin, Janni Bravo) tulevad tapper.ee/kava-lt, aga kava EI OLE LÕPLIK → koosseis_tba tõstetud 1-le. tapper.ee/kava näitab 25.09 seisuga ainult lähiaja üritusi, Shelter Helperit seal veel ei ole. KONTROLLI UUESTI oktoobris/novembris.",
    "koosseis_tba": 1,
+   "img": "pildid/shelterhelper5.webp",
+   "img_src": "fb:2701978196885579",
    "vu": "https://www.tapper.ee/"
   },
   {
@@ -1337,6 +1327,8 @@
    "ou": "https://www.facebook.com/events/2025799574785824/",
    "lisatud": "2026-10-09",
    "nb": "lisatud 09.10.2026. FB event (Ouu + Ans. Andur kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: Ans. Andur = Eesti indie rock'i ansambel (et.wikipedia), Ouu = indie-kollektiiv (Spotify bio). Tallinna kontserdi pilet Fienta 204809.",
+   "img": "pildid/eritipruunsugistuuransandurjaouutallinnas.webp",
+   "img_src": "fb:2025799574785824",
    "vu": "https://uuslaine.com/"
   },
   {
@@ -1365,7 +1357,9 @@
     "allikas": "FB eventi tekst, kontrollitud 16.10.2026"
    },
    "lisatud": "2026-10-16",
-   "nb": "SILVERI OTSUS 16.10.2026 (\"pane kära kants sisse\") - sweep/otsused.json oid ocean-districts-rakvere-2026-11-14 valik (a). Kontaktivorm 15.10 (Ocean Districts); ainus allikas bändi FB event, Kära Kantsi grupp seda 16.10 ei näidanud. Sildid samad mis 21.11 SAAR CULT esitlusel."
+   "nb": "SILVERI OTSUS 16.10.2026 (\"pane kära kants sisse\") - sweep/otsused.json oid ocean-districts-rakvere-2026-11-14 valik (a). Kontaktivorm 15.10 (Ocean Districts); ainus allikas bändi FB event, Kära Kantsi grupp seda 16.10 ei näidanud. Sildid samad mis 21.11 SAAR CULT esitlusel.",
+   "img": "pildid/oceandistrictspulsaralbumiesitlusrakvere.webp",
+   "img_src": "fb:1478859237437292"
   },
   {
    "d": "2026-11-14",
@@ -1390,6 +1384,8 @@
    "ou": "https://www.facebook.com/events/3514620765382646/",
    "lisatud": "2026-10-23",
    "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Stranded Jenny, Sügis Productions jt) + The Krypti ja Eesti metallistide FB events-tab. Žanr: Stranded Jenny = 'alternative-rock / post-grunge' (Läti), sari 'Heavy Saturday'. Pilet/uksehind lehel avaldamata; Fientas 23.10 seisuga ei olnud.",
+   "img": "pildid/heavysaturdaydecibelslvstrandedjennylvauroraastra.webp",
+   "img_src": "fb:3514620765382646",
    "vu": "https://www.thekrypt.ee/"
   },
   {
@@ -1415,6 +1411,8 @@
    "ou": "https://www.facebook.com/events/2136956440550957/",
    "lisatud": "2026-10-23",
    "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Mang Ont + Hell, Tartu) + Helli FB events-tab; tuuri Tallinna kuupäev (13.11 SAAR CULT) eraldi FB event. Žanr: Mount Palatine 'heavy psych metal', Mang Ont 'stone age shaman doom'. Pilet avaldamata.",
+   "img": "pildid/fuzzbittenfalltour2026mountpalatinetectonicshiftsmangonttartu.webp",
+   "img_src": "fb:2136956440550957",
    "vu": "https://www.facebook.com/punknrollhell/"
   },
   {
