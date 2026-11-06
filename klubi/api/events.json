@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 222,
+ "count": 225,
  "entries": [
   {
    "sait": "www",
@@ -2330,6 +2330,33 @@
    "ou": "https://www.facebook.com/events/857342057404133/",
    "on_": "Facebook event",
    "vu": "https://www.d-3.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-14",
+   "t": "pidu",
+   "n": "ETNO-TEHNO REIV: MADRIÖÖ",
+   "a": "uksed 22.00, peaesinejad 01.00; regilaul + tume bassirohke techno; kostüümikood mardi-/kadripäev (sissepääs eeldab kostümeeritust)",
+   "b": [
+    "Hels ja Kütt",
+    "DJ F.K.S"
+   ],
+   "v": "Kaks Tuba",
+   "c": "mujal",
+   "linn": "Rapla",
+   "g": [
+    "techno"
+   ],
+   "sn": "Kaks Tuba FB events-tab",
+   "su": "https://www.facebook.com/events/2043184339678108/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2043184339678108/",
+   "hind": {
+    "praegu": "5 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '1. sisse') - ainult üks allikas (FB event), kahe allika reegel ERANDINA ületatud Silveri loal",
+   "lisatud": "2026-11-06"
   },
   {
    "sait": "www",
@@ -4713,6 +4740,36 @@
    "vu": "https://www.thekrypt.ee/"
   },
   {
+   "sait": "rap",
+   "d": "2026-12-18",
+   "t": "kontsert",
+   "n": "N&N, PRODIGYBOYS, LOTEY, JP&L at HELITEHAS",
+   "a": "kaks seanssi: 0+ kl 18.00 ja 16+ hiline seanss; piletid müügil alates 09.11 (tava 10-12 €, VIP 16-18 €, hind tõuseb)",
+   "b": [
+    "Noored ja Näljased",
+    "Prodigyboys",
+    "Lotey",
+    "Jooseppro & Lennu"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Helitehas FB events-tab",
+   "su": "https://www.facebook.com/events/2146926486031935/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1648847702923713/",
+   "pu": "https://gateme.com/et/helitehas/104518",
+   "hind": {
+    "praegu": "Hommik 10 €, Lõuna 12 €, Early VIP 16 €, Regular VIP 18 € (hiljem kallim)",
+    "allikas": "FB event 16+, 06.11.2026"
+   },
+   "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '2. sisse'); ou = 16+ FB event, su = 0+ FB event (GateMe 104517); 16+ kellaaeg FB-s ebaselge (3 AM), seepärast mitte märgitud",
+   "lisatud": "2026-11-06",
+   "vu": "https://helitehas.ee/"
+  },
+  {
    "sait": "www",
    "d": "2026-12-18",
    "t": "kontsert",
@@ -5495,6 +5552,29 @@
    "ou": "https://www.wave-gotik-treffen.de/english/",
    "nb": "lisatud 17.08.2026: kuupäev 14.–17.05.2027 ametlikult lehelt. b tühi TEADLIKULT — WGT avaldab koosseisu alles kevadel; mitte tba (kuupäev+koht kinnitatud)",
    "koosseis_tba": 1
+  },
+  {
+   "sait": "www",
+   "d": "2027-05-22",
+   "t": "kontsert",
+   "n": "Thirty Seconds to Mars (USA) - A Beautiful Lie vs This Is War",
+   "a": "kontserdiala avatud 19.00-23.30 (VIP 18.00); vanusepiirang puudub",
+   "b": [
+    "Thirty Seconds to Mars"
+   ],
+   "v": "Unibet Arena Kvartal",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Baltic Live Agency FB events-tab",
+   "su": "https://www.facebook.com/events/1821766218960572/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1821766218960572/",
+   "pu": "https://www.piletitasku.ee/et/event/10595",
+   "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '3. sisse') - piiripealne peavoolu areenirokk, erand; 2. allikas Piletitasku (korraldaja Baltic Live Agency)",
+   "lisatud": "2026-11-06"
   },
   {
    "sait": "www",
