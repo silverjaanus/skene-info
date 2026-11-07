@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "entries": [
   {
    "rel": 1,
@@ -38,56 +38,6 @@
    "su": "https://muusikaplaneet.ee/2026/10/28/moosekandid/",
    "nb": "lisatud sweepis 30.10.2026. Allikas MuusikaPlaneet (avaldati 28.10.2026). ⚠ Album liigub popi suunas — kui Silver leiab, et see on peavool, eemalda.",
    "img": "pildid/prodigyboysmoosekandid.webp"
-  },
-  {
-   "d": "2026-11-06",
-   "t": "klubi",
-   "n": "BAD JAM @ Legendaarne Raadio & Baar",
-   "a": "DJ Bad J: classic & blazin' upfront R&B, hip-hop, afro & dancehall; 22.00",
-   "b": [
-    "DJ Bad J"
-   ],
-   "v": "Legendaarne Raadio",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Legendaarne Raadio FB events-tab",
-   "su": "https://www.facebook.com/LegendaarneRaadio/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1105078858557961/",
-   "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (Legendaarne Raadio + DJ Bad J + Raivo Pedanik). Sama telg mis BEATS 4 DA PEEPS.",
-   "img": "pildid/badjamlegendaarneraadiobaar.webp",
-   "img_src": "fb:1105078858557961",
-   "vu": "https://www.facebook.com/LegendaarneRaadio"
-  },
-  {
-   "d": "2026-11-06",
-   "t": "kontsert",
-   "n": "Beebilõust live",
-   "a": "uksed 20.00, Beebilõust hoovis 23.00–23.45, pärast DJ HEITI.ETS retro tantsuõhtu kuni 05.00",
-   "b": [
-    "Beebilõust",
-    "DJ HEITI.ETS"
-   ],
-   "v": "Kivi baar",
-   "c": "Tartu",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Kivi baari FB events-tab",
-   "su": "https://www.facebook.com/kivibaar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1517505706852335/",
-   "hind": {
-    "praegu": "5€ / ISIC & ESN 3€",
-    "mark": "kell 21.00–23.45",
-    "allikas": "FB event, kontrollitud 30.10.2026"
-   },
-   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab. Žanr ürituse tekstist („teravad riimid“).",
-   "lisatud": "2026-10-30",
-   "img": "pildid/beebiloustlive.webp"
   },
   {
    "d": "2026-11-07",

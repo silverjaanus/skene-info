@@ -6917,6 +6917,280 @@
    "lisatud": "2026-11-04",
    "nb": "lisatud postkastijooksus 04.11.2026 (kluub.ee samm 2c). Allikad: Piletikeskuse ürituseleht (N 05.11 20.00, Philly Joe's Jazziklubi, 'arhail-bluus', koosseis) + kluub.ee + FB event. Bluus -> www (Andres Roots / Philly Joe's Tartu 06.11 pretsedent).",
    "img": "pildid/t40ukaredakrigultoomelahven.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Estoner (uue albumi esitlus) + Rats Will Feast (FIN) + Düsentroop + Face Collector",
+   "a": "Estoneri neljanda albumi «Black Metal Uus Lõpp» esitlus; algus 19.00",
+   "b": [
+    "Estoner",
+    "Rats Will Feast (FIN)",
+    "Düsentroop",
+    "Face Collector"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "stoner",
+    "sludge",
+    "metal",
+    "punk",
+    "death"
+   ],
+   "sn": "Face Collector FB events-tab",
+   "su": "https://www.facebook.com/facecollectorband/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2055813308434314/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Estoner + SAAR CULT + Face Collector) + Face Collectori FB events-tab. Žanr: Estoner = stoner/sludge metal (Bandcamp-sildid, Metal Storm), Face Collector = death/grind (varasemad kirjed). Pilet avaldamata. SAAR CULT on uus koht (sama kus SFP 14.10). | 30.10.2026 sweep: rikastatud (pu).",
+   "pu": "https://fienta.com/et/estoner-plaadiesitlus-rats-will-feast-fin-dusentroop-face-collector-at-saar-cult-tallinn",
+   "img": "pildid/estoneruuealbumiesitlusratswillfeastfindusentroopfacecollector.webp",
+   "vu": "https://www.facebook.com/saarcult"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Magnetic Band — Gunnar Graps 75",
+   "a": "Eesti rokkmuusika legend Magnetic Band viimase koosseisuga Gunnar Grapsi mälestuseks; algus 21.00",
+   "b": [
+    "Magnetic Band"
+   ],
+   "v": "Pubi Juudas",
+   "c": "mujal",
+   "linn": "Tõrva",
+   "g": [
+    "rock",
+    "heavy"
+   ],
+   "sn": "Pubi Juudas FB events-tab",
+   "su": "https://www.facebook.com/pubijuudas/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1658214545847314/",
+   "pu": "https://gateme.com/et/pubijuudas/104397-magnetic-band-gunnar-graps-75-i-torva-juudas/",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. FB event (Pubi Juudas) + GateMe piletileht. Žanr ürituse tekstist („Eesti rokkmuusika legend“).",
+   "img": "pildid/magneticbandgunnargraps75.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "PööLoY GLääNZ 37 @ Kära Kants",
+   "a": "bändi 37. sünnipäevakontsert, „vana kuld ja uuem hõbe“; kontserdi algus 23.00",
+   "b": [
+    "PööLoY GLääNZ"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "Kära Kants FB grupp (events)",
+   "su": "https://www.facebook.com/groups/112392415448166/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1023951770721225/",
+   "hind": {
+    "praegu": "7 € kannumeestele / 8 €",
+    "allikas": "FB event, kontrollitud 16.10.2026"
+   },
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. FB event (korraldajad PööLoY GLääNZ + Oleg Knjazev) + Kära Kantsi grupi events-list. Žanr ürituse tekstist („tuleb ja rockib“).",
+   "img": "pildid/pooloyglaanz37karakants.webp",
+   "img_src": "fb:1023951770721225"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Surgent «Sin Eater» albumiesitlus Tallinnas + Preternatural (LV) + Strych:9",
+   "a": "uue albumi «Sin Eater» (ilmub 05.11) esitlus; algus 20.00",
+   "b": [
+    "Surgent",
+    "Preternatural (LV)",
+    "Strych:9"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/208786",
+   "pu": "https://fienta.com/208786",
+   "hind": {
+    "praegu": "alates 19 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026 Fienta avaliku API diffist. Piletimüügi leht (REEGLID §3 erand): koht, kuupäev ja koosseis Fientast; žanr samast tekstist ('progressiivse death metal'i bänd Surgent', 'Läti ekstreemmetal'i veteranid Preternatural'). Tartu esitlus 07.11 GenKlubis juba saidil. | 30.10.2026 sweep: rikastatud (ou, on_).",
+   "img": "pildid/surgentsineateralbumiesitlustallinnaspreternaturallvstrych9.webp",
+   "ou": "https://www.facebook.com/events/2283695502469248/",
+   "on_": "Facebook event",
+   "vu": "https://www.tapper.ee/"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "EMO NIGHT 2026 - Tallinn",
+   "a": "live: Everfall, Pale Alison, Artifer, Bloodfeather, Parabol; vahepeal DJ-d emohittidega; algus 20.00",
+   "b": [
+    "Everfall",
+    "Pale Alison",
+    "Artifer",
+    "Bloodfeather",
+    "Parabol"
+   ],
+   "v": "Risk Baar",
+   "c": "Tallinn",
+   "g": [
+    "core",
+    "rock",
+    "metal",
+    "alt"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1095526582844094/",
+   "pu": "https://piletikiosk.ee/emo-night-2026-tallinn/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Parabol, Risk Baar, Artifer, bloodfeather jt) + piletikiosk.ee piletileht (link ürituse tekstis). Žanr ürituse tekstist: emo-hitid + LIVE bändid (Artifer 'modern heavy music', Pale Alison 'modern metal'). Tartu õhtu 04.12 eraldi kirjena.",
+   "img": "pildid/emonight2026tallinn.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Rock Friday: THE SOUND + RAIDER",
+   "b": [
+    "THE SOUND",
+    "RAIDER"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-the-sound-raider/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1095896166526051/",
+   "vu": "https://www.thekrypt.ee/",
+   "a": "uksed 20.00, bändid 22.00, 00.00 tasuta afterparty",
+   "pu": "https://fienta.com/thesound-raider-thekrypt",
+   "hind": {
+    "praegu": "alates 13 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "nb": "RIKASTUS sweepis 23.10.2026 (thekrypt.ee auto-kirje peale): FB event (The Krypt, The Sound, Rada7.ee) + Fienta. The Sound = 'Estonian Pop-Rock Band', sari Rock Friday.",
+   "img": "pildid/rockfridaythesoundraider.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "ETK 13: Mihkel Kuusk (live) + muusikabingo",
+   "a": "Erinevate Tubade Klubi 13. sünnipäev; uksed 20.30, 21.30 muusikabingo (Marta Püssa), 23.00 Mihkel Kuusk live, 00.00 väikses saalis DJ-d MVP & Dr. Philgood; kestab kuni 02.00",
+   "b": [
+    "Mihkel Kuusk",
+    "MVP",
+    "Dr. Philgood"
+   ],
+   "v": "Erinevate Tubade Klubi",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "indie"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/et/etk-13-mihkel-kuusk-live-muusikabingo",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1929662088008542",
+   "pu": "https://fienta.com/et/etk-13-mihkel-kuusk-live-muusikabingo",
+   "hind": {
+    "praegu": "12–15 €",
+    "allikas": "Fienta, kontrollitud 29.10.2026",
+    "mark": "early bird 12 €, tavapilet 15 €, Muusikalinna noortepilet 5 €"
+   },
+   "lisatud": "2026-10-29",
+   "nb": "SILVERI OTSUS 28.10.2026 ('läheb sisse') = (a), sildid alt + indie korraldaja vormi žanriväljast. Kontaktivorm 27.10 (korraldaja ETK). Kaks allikat: FB event + Fienta (kuupäev, ajakava, hinnad). Fienta žanrit ei nimeta.",
+   "img": "pildid/etk13mihkelkuusklivemuusikabingo.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Andres Roots: 30 aastat laval (Tartu)",
+   "a": "slaidkitarristi 30. lavajuubeli tuuri Tartu kontsert; 19.30-22.00",
+   "b": [
+    "Andres Roots"
+   ],
+   "v": "Contriber & Philly Joe's Tartu",
+   "c": "Tartu",
+   "g": [
+    "bluus"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/c4082b50-3681-4556-a495-5358ca10ed37",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1647682353527299",
+   "pu": "https://sviby.com/et/e/a1u6sj",
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event (Contriber & Philly Joe's Tartu + Andres Roots, R 06.11 19.30-22.00, Kompanii 2) + kluub.ee; piletilink Sviby. Bluus -> www. Sama tuuri Pärnu kontsert 30.10 on eraldi kirje.",
+   "img": "pildid/andresroots30aastatlavaltartu.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "kontsert",
+   "n": "Kaisa Kuslapuu «vaŕo» albumiesitlus — Tartu",
+   "a": "kell 19.00",
+   "b": [
+    "Kaisa Kuslapuu",
+    "Sam Gleason",
+    "Alan Mackie",
+    "Marti Tärn"
+   ],
+   "v": "Heino Elleri Muusikakool",
+   "c": "Tartu",
+   "g": [
+    "indie",
+    "alt"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/kaisa-kuslapuu-varo-albumiesitluskontsert-204676",
+   "on_": "Heino Elleri Muusikakool",
+   "ou": "https://www.tmk.ee/events/kaisa-kuslapuu-varo-albumiesitluskontsert",
+   "pu": "https://fienta.com/et/kaisa-kuslapuu-varo-albumiesitluskontsert-204676",
+   "lisatud": "2026-10-30",
+   "nb": "Silveri otsus 30.10.2026 (otsustuspunkt kuslapuu-varo-2026-11-05 -> a). Ürituse tekst: „liigub indie- ja popmuusika maailmas“; võrukeelne album, produtsent Sam Gleason (elektrikitarr). Kaks allikat: Fienta + tmk.ee ürituseleht. Hind kontrollimata.",
+   "img": "pildid/kaisakuslapuuvaroalbumiesitlustartu.webp"
+  },
+  {
+   "d": "2026-11-06",
+   "t": "muu",
+   "n": "Bowie x 3: Kristo Rajasaare: Bowie algus ja armsaimad",
+   "a": "20.00–22.00; Bowie plaadiõhtu (DJ mängib plaate, mitte live-kontsert) BOWIE x SUKITA näituse raames; sissepääs näituse piletiga",
+   "b": [
+    "Kristo Rajasaare"
+   ],
+   "v": "PoCo popkunstimuuseum",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4409613372633764/",
+   "pu": "https://www.piletilevi.ee/piletid/KQT3X7HGTM/bowie-x-3-kristo-rajasaare-bowie-algus-ja-armsaimad",
+   "hind": {
+    "praegu": "15 € (näituse pilet)",
+    "mark": "",
+    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
+   },
+   "lisatud": "2026-11-05",
+   "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent.",
+   "img": "pildid/bowiex3kristorajasaarebowiealgusjaarmsaimad.webp"
   }
  ]
 }

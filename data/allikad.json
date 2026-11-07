@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "groups": [
   {
    "nimi": "Korraldajad",
@@ -84,6 +84,10 @@
     {
      "n": "Baar Lonks (veebisait)",
      "u": "https://lonksbaar.ee"
+    },
+    {
+     "n": "Balta Chill (FB)",
+     "u": "https://www.facebook.com/search/top?q=Balta%20Chill"
     },
     {
      "n": "C.F.Hahn Pub (Pärnu)",
