@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 564,
+ "count": 568,
  "entries": [
   {
    "sait": "www",
@@ -15609,6 +15609,121 @@
    "ou": "https://www.facebook.com/events/2283695502469248/",
    "on_": "Facebook event",
    "vu": "https://www.tapper.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-07",
+   "t": "kontsert",
+   "n": "MOD CLUB: umru [pc music]",
+   "a": "+ local support; algus 23.59",
+   "b": [
+    "umru"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "club",
+    "electro"
+   ],
+   "sn": "RA",
+   "su": "https://ra.co/events/2545494",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/850413728094711/",
+   "pu": "https://fienta.com/et/mod-club-umru",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (MOD.tln + Paavli) + RA event + Fienta. Žanr: PC Music produtsent/DJ (ürituse tekst), RA silt Club.",
+   "img": "https://klubi.skene.info/pildid/modclubumrupcmusic.webp",
+   "vu": "https://www.facebook.com/Modtln"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-07",
+   "t": "klubi",
+   "n": "Planet Groove: House All Night Long [Mesila]",
+   "a": "23.00–06.00, HALL Mesila lava; hüpnootiline minimal house → kiire hard groove; 18+",
+   "b": [
+    "Fabio Diana (IT)",
+    "Acid Grooves (GE)",
+    "Lisette",
+    "Zaks",
+    "Sassbass b2b Bebe Veloure"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "minimal"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1303503465235241/",
+   "pu": "https://gateme.com/et/halltallinn/104519-planet-groove-x-hall",
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas GateMe HALL korraldajaleht",
+   "lisatud": "2026-11-06",
+   "img": "https://klubi.skene.info/pildid/planetgroovehouseallnightlongmesila.webp",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-07",
+   "t": "klubi",
+   "n": "PÖFFI PIDU TARTUS",
+   "a": "21.00–04.00, 20+; Living Room: PM2AM (LV); Club Side: Franz Malmsten b2b INGER, Muul",
+   "b": [
+    "PM2AM (LV)",
+    "Franz Malmsten",
+    "INGER",
+    "Muul"
+   ],
+   "v": "Klubi Neli",
+   "c": "Tartu",
+   "g": [
+    "house"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/3199dcb8-ba58-4355-be2b-35f9f3e96cae",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2142213293324285",
+   "pu": "https://gateme.com/et/klubineli/104458-poffi-pidu-tartus-i-klubi-neli-i-0711/",
+   "hind": {
+    "praegu": "21–23 tasuta, 23–01 5 €, alates 01 9 €; Fast Track 15 €",
+    "allikas": "kluub.ee / GateMe, kontrollitud 01.11.2026"
+   },
+   "lisatud": "2026-11-01",
+   "nb": "SILVERI OTSUS 01.11.2026 (\"mõlemad sisse\") - otsustuspunkt poffi-pidu-klubi-neli-2026-11-07 -> a. Ürituse leht žanrit ei nimeta; silt house = toimetaja valik (GILD 30.10 pretsedent, sama koht/formaat). ERAND, mitte pretsedent.",
+   "img": "https://klubi.skene.info/pildid/poffipidutartus.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-07",
+   "t": "klubi",
+   "n": "TRANCE Capital",
+   "a": "trance ja hard dance terve öö; uksed 23.00, korraldajad Trancedeluxe + Club NINE",
+   "b": [
+    "ARTM",
+    "Hans",
+    "Zas",
+    "Martin Vilba"
+   ],
+   "v": "Club NINE",
+   "c": "Tallinn",
+   "g": [
+    "trance"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/3992704a-0118-41ea-872f-d331180e2a97",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28897218509932211/",
+   "hind": {
+    "praegu": "10 € (pärast 00.00)",
+    "mark": "enne keskööd ilmselt tasuta (kluub.ee: 0-10 €)",
+    "allikas": "ürituse FB event, kontrollitud 03.11.2026"
+   },
+   "lisatud": "2026-11-03",
+   "nb": "lisatud postkastijooksus 03.11.2026 (samm 2c). Kaks allikat: kluub.ee + ürituse FB event (Trancedeluxe + Club NINE, L 07.11 23.00, Tulika 9/11). Žanr ürituse tekstist: 'Trance and hard dance music all night' (underground-korraldaja, REEGLID §1 hard dance piir).",
+   "img": "https://klubi.skene.info/pildid/trancecapital.webp",
+   "img_src": "fb:28897218509932211"
   }
  ]
 }
