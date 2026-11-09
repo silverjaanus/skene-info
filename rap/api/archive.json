@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 586,
+ "count": 589,
  "entries": [
   {
    "sait": "www",
@@ -10416,6 +10416,29 @@
   },
   {
    "sait": "klubi",
+   "d": "2026-10-01",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Zabytoe Slovo — «Words.» [PBG001]",
+   "a": "5-looline EP, Pobeg Records (Tallinn)",
+   "b": [
+    "Zabytoe Slovo"
+   ],
+   "g": [
+    "breaks",
+    "house",
+    "experimental"
+   ],
+   "sn": "Bandcamp discover (Eesti, electronic/techno/experimental)",
+   "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://pobegrecords.bandcamp.com/album/words-pbg001",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. released October 1, 2026; sildid breakbeat, lofi house, future garage, experimental.",
+   "img": "https://klubi.skene.info/pildid/zabytoeslovowordspbg001.webp"
+  },
+  {
+   "sait": "klubi",
    "d": "2026-10-02",
    "t": "klubi",
    "n": "Bar IDA: HIJACKED — boipepperoni & QSLAP",
@@ -10814,6 +10837,29 @@
    "vu": "https://kultuurikatel.ee/"
   },
   {
+   "sait": "klubi",
+   "d": "2026-10-02",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Thing — «Outer Levels»",
+   "a": "13-looline album (Tartu)",
+   "b": [
+    "Thing"
+   ],
+   "g": [
+    "dnb",
+    "jungle",
+    "ambient"
+   ],
+   "sn": "Bandcamp discover (Eesti, electronic/techno/experimental)",
+   "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://thingmusic.bandcamp.com/album/outer-levels",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid drum & bass, jungle, ambient electronic, future garage.",
+   "img": "https://klubi.skene.info/pildid/thingouterlevels.webp"
+  },
+  {
    "sait": "www",
    "d": "2026-10-02",
    "t": "reliis",
@@ -11173,6 +11219,29 @@
    "ou": "https://www.facebook.com/events/1391181926411244/",
    "lisatud": "2026-10-02",
    "nb": "lisatud 02.10.2026 Silveri otsusega (vastus „(a) klubi“; plaadilaadad on skoobis, sait korraldaja järgi – Psühhoteek, sama mis Psühhodisko pidu 03.10). Kaks allikat: FB event (Psühhoteek + Raul Kübarsepp jt) + Plaaditurgu FB events-tab. Sildid sama sarja peokirjelt (disco + experimental), DJ-kava avaldamata."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-06",
+   "t": "reliis",
+   "rel": 1,
+   "n": "y-Twokoop — «Alarm Collector»",
+   "a": "12-looline album (Tallinn)",
+   "b": [
+    "y-Twokoop"
+   ],
+   "g": [
+    "experimental",
+    "jungle",
+    "electro"
+   ],
+   "sn": "Bandcamp discover (Eesti, electronic/techno/experimental)",
+   "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://y2koop.bandcamp.com/album/alarm-collector",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid braindance, IDM, jungle.",
+   "img": "https://klubi.skene.info/pildid/ytwokoopalarmcollector.webp"
   },
   {
    "sait": "www",
