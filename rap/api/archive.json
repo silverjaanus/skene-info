@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 580,
+ "count": 586,
  "entries": [
   {
    "sait": "www",
@@ -8805,6 +8805,31 @@
    "img": "https://www.skene.info/pildid/maiskizouuealbumivalumoteavaldamine.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-09-18",
+   "t": "reliis",
+   "rel": 1,
+   "n": "MAI SKIZO — «Valu mõte»",
+   "a": "teine album, 13 lugu; LP Plaadimäes",
+   "b": [
+    "MAI SKIZO"
+   ],
+   "g": [
+    "punk",
+    "rock",
+    "post",
+    "goth",
+    "alt"
+   ],
+   "sn": "MAI SKIZO FB",
+   "su": "https://www.facebook.com/MaiSkizo/events",
+   "on_": "maiskizo.ee",
+   "ou": "https://maiskizo.ee/uus-album-valu-mote",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. maiskizo.ee: „18.09.2026 annab MAI SKIZO välja oma teise albumi“ + Spotify (2026, 13 lugu) + Plaadimägi LP. Leitud bändi FB eventist (MAI SKIZO @ Kära Kants 23.10 tutvustab albumit).",
+   "img": "https://www.skene.info/pildid/maiskizovalumote.webp"
+  },
+  {
    "sait": "klubi",
    "d": "2026-09-18",
    "t": "klubi",
@@ -10738,6 +10763,28 @@
    "vu": "https://www.kultuurivabrik.ee/"
   },
   {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Sunkiller — «Totality»",
+   "a": "5-looline album",
+   "b": [
+    "Sunkiller"
+   ],
+   "g": [
+    "metal",
+    "core"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://sunkillerband.bandcamp.com/album/totality",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid metalcore, modern metal. Esitluspäev 6 jälgitud reliis (HANDOVER) — nüüd ilmunud.",
+   "img": "https://www.skene.info/pildid/sunkillertotality.webp"
+  },
+  {
    "sait": "rap",
    "d": "2026-10-02",
    "t": "kontsert",
@@ -10765,6 +10812,28 @@
    "nb": "lisatud sweepis 22.08.2026 (laupäevane täiendusjooks). Kaks allikat: GateMe ürituseleht 104094 (korraldaja Manufaktuur OÜ, koosseis + hinnad) + korraldaja IG @rgpeod postitus 'RETS 26 TRIIBUPASTA | 02.10 | KULTUURIKATEL'. ⚠ Samal õhtul samas majas on eraldi hilisem pidu 'RETS 26 TRIIBUPASTA' (23.30) — see kirje katab 18.00 kontserdi.",
    "img": "https://rap.skene.info/pildid/triibupastaxnoorednaljased.webp",
    "vu": "https://kultuurikatel.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-02",
+   "t": "reliis",
+   "rel": 1,
+   "n": "TÄIELIK PORNO! — «Ja ongi nii!»",
+   "a": "10-looline album (Tartu)",
+   "b": [
+    "TÄIELIK PORNO!"
+   ],
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://t2ielikporno.bandcamp.com/album/ja-ongi-nii",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid crust, d-beat, hardcore punk, estonian punk.",
+   "img": "https://www.skene.info/pildid/taielikpornojaonginii.webp"
   },
   {
    "sait": "www",
@@ -11104,6 +11173,28 @@
    "ou": "https://www.facebook.com/events/1391181926411244/",
    "lisatud": "2026-10-02",
    "nb": "lisatud 02.10.2026 Silveri otsusega (vastus „(a) klubi“; plaadilaadad on skoobis, sait korraldaja järgi – Psühhoteek, sama mis Psühhodisko pidu 03.10). Kaks allikat: FB event (Psühhoteek + Raul Kübarsepp jt) + Plaaditurgu FB events-tab. Sildid sama sarja peokirjelt (disco + experimental), DJ-kava avaldamata."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-06",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Скрежет Стали — «Аленизм»",
+   "a": "9-looline album (Tallinn)",
+   "b": [
+    "Скрежет Стали"
+   ],
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://dmironov.bandcamp.com/album/--5",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid punk, punk rock; asukoht Tallinn.",
+   "img": "https://www.skene.info/pildid/20261006.webp"
   },
   {
    "sait": "www",
@@ -15009,6 +15100,28 @@
   {
    "sait": "www",
    "d": "2026-11-05",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Surgent — «Sin Eater»",
+   "a": "9-looline album (Tallinn), ilmub 05.11.2026",
+   "b": [
+    "Surgent"
+   ],
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://surgentband.bandcamp.com/album/sin-eater",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud sweepis 09.10.2026. Bandcamp: „releases November 5, 2026“ (eeltellimus); sildid death metal, modern metal, Tallinn.",
+   "img": "https://www.skene.info/pildid/surgentsineater.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-05",
    "t": "kontsert",
    "n": "T-40: Ukareda/Krigul/Toomel/Ahven",
    "a": "arhail-bluus; uksed 19.00, kontsert 20.00",
@@ -16059,6 +16172,32 @@
    "img": "https://www.skene.info/pildid/zebraislandclubghostesitluspidu.webp",
    "img_src": "fb:1663187245317386",
    "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-08",
+   "t": "kontsert",
+   "n": "Sari Schorr — Running Wild European Tour 2026",
+   "a": "USA bluusroki laulja esimene Eesti kontsert",
+   "b": [
+    "Sari Schorr (US)"
+   ],
+   "v": "Võru kultuurimaja Kannel",
+   "c": "mujal",
+   "linn": "Võru",
+   "g": [
+    "bluus",
+    "rock"
+   ],
+   "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/27934430142811833/",
+   "pu": "https://vorukannel.ee/sundmused/shari-shorr-running-wild",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Võru Kannel) + vorukannel.ee ürituseleht (piletid).",
+   "img": "https://www.skene.info/pildid/sarischorrrunningwildeuropeantour2026.webp",
+   "vu": "https://vorukannel.ee/"
   }
  ]
 }

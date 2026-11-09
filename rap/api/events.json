@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,33 +35,8 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 190,
+ "count": 186,
  "entries": [
-  {
-   "sait": "www",
-   "d": "2026-09-18",
-   "t": "reliis",
-   "rel": 1,
-   "n": "MAI SKIZO — «Valu mõte»",
-   "a": "teine album, 13 lugu; LP Plaadimäes",
-   "b": [
-    "MAI SKIZO"
-   ],
-   "g": [
-    "punk",
-    "rock",
-    "post",
-    "goth",
-    "alt"
-   ],
-   "sn": "MAI SKIZO FB",
-   "su": "https://www.facebook.com/MaiSkizo/events",
-   "on_": "maiskizo.ee",
-   "ou": "https://maiskizo.ee/uus-album-valu-mote",
-   "lisatud": "2026-10-09",
-   "nb": "lisatud sweepis 09.10.2026. maiskizo.ee: „18.09.2026 annab MAI SKIZO välja oma teise albumi“ + Spotify (2026, 13 lugu) + Plaadimägi LP. Leitud bändi FB eventist (MAI SKIZO @ Kära Kants 23.10 tutvustab albumit).",
-   "img": "https://www.skene.info/pildid/maiskizovalumote.webp"
-  },
   {
    "sait": "www",
    "d": "2026-09-30",
@@ -129,28 +104,6 @@
    "img": "https://klubi.skene.info/pildid/zabytoeslovowordspbg001.webp"
   },
   {
-   "sait": "www",
-   "d": "2026-10-02",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Sunkiller — «Totality»",
-   "a": "5-looline album",
-   "b": [
-    "Sunkiller"
-   ],
-   "g": [
-    "metal",
-    "core"
-   ],
-   "sn": "Bandcamp discover (Eesti)",
-   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://sunkillerband.bandcamp.com/album/totality",
-   "lisatud": "2026-10-09",
-   "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid metalcore, modern metal. Esitluspäev 6 jälgitud reliis (HANDOVER) — nüüd ilmunud.",
-   "img": "https://www.skene.info/pildid/sunkillertotality.webp"
-  },
-  {
    "sait": "klubi",
    "d": "2026-10-02",
    "t": "reliis",
@@ -174,28 +127,6 @@
    "img": "https://klubi.skene.info/pildid/thingouterlevels.webp"
   },
   {
-   "sait": "www",
-   "d": "2026-10-02",
-   "t": "reliis",
-   "rel": 1,
-   "n": "TÄIELIK PORNO! — «Ja ongi nii!»",
-   "a": "10-looline album (Tartu)",
-   "b": [
-    "TÄIELIK PORNO!"
-   ],
-   "g": [
-    "punk",
-    "core"
-   ],
-   "sn": "Bandcamp discover (Eesti)",
-   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://t2ielikporno.bandcamp.com/album/ja-ongi-nii",
-   "lisatud": "2026-10-09",
-   "nb": "lisatud sweepis 09.10.2026. released October 2, 2026; sildid crust, d-beat, hardcore punk, estonian punk.",
-   "img": "https://www.skene.info/pildid/taielikpornojaonginii.webp"
-  },
-  {
    "sait": "klubi",
    "d": "2026-10-06",
    "t": "reliis",
@@ -217,28 +148,6 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid braindance, IDM, jungle.",
    "img": "https://klubi.skene.info/pildid/ytwokoopalarmcollector.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-10-06",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Скрежет Стали — «Аленизм»",
-   "a": "9-looline album (Tallinn)",
-   "b": [
-    "Скрежет Стали"
-   ],
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "Bandcamp discover (Eesti)",
-   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://dmironov.bandcamp.com/album/--5",
-   "lisatud": "2026-10-09",
-   "nb": "lisatud sweepis 09.10.2026. released October 6, 2026; sildid punk, punk rock; asukoht Tallinn.",
-   "img": "https://www.skene.info/pildid/20261006.webp"
   },
   {
    "sait": "klubi",
@@ -622,28 +531,6 @@
    "esile_kuni": "2026-11-06"
   },
   {
-   "sait": "www",
-   "d": "2026-11-05",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Surgent — «Sin Eater»",
-   "a": "9-looline album (Tallinn), ilmub 05.11.2026",
-   "b": [
-    "Surgent"
-   ],
-   "g": [
-    "death",
-    "metal"
-   ],
-   "sn": "Bandcamp discover (Eesti)",
-   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
-   "on_": "Bandcamp",
-   "ou": "https://surgentband.bandcamp.com/album/sin-eater",
-   "lisatud": "2026-10-09",
-   "nb": "lisatud sweepis 09.10.2026. Bandcamp: „releases November 5, 2026“ (eeltellimus); sildid death metal, modern metal, Tallinn.",
-   "img": "https://www.skene.info/pildid/surgentsineater.webp"
-  },
-  {
    "sait": "klubi",
    "d": "2026-11-06",
    "t": "reliis",
@@ -664,32 +551,6 @@
    "nb": "lisatud sweepis 06.11.2026; Bandcamp: released November 6, 2026; sildid deep house, minimal house, garage, ukg",
    "lisatud": "2026-11-06",
    "img": "https://klubi.skene.info/pildid/dream1xfreedomaerospring.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-11-08",
-   "t": "kontsert",
-   "n": "Sari Schorr — Running Wild European Tour 2026",
-   "a": "USA bluusroki laulja esimene Eesti kontsert",
-   "b": [
-    "Sari Schorr (US)"
-   ],
-   "v": "Võru kultuurimaja Kannel",
-   "c": "mujal",
-   "linn": "Võru",
-   "g": [
-    "bluus",
-    "rock"
-   ],
-   "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
-   "su": "https://www.facebook.com/rada7.ee/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/27934430142811833/",
-   "pu": "https://vorukannel.ee/sundmused/shari-shorr-running-wild",
-   "lisatud": "2026-10-09",
-   "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Võru Kannel) + vorukannel.ee ürituseleht (piletid).",
-   "img": "https://www.skene.info/pildid/sarischorrrunningwildeuropeantour2026.webp",
-   "vu": "https://vorukannel.ee/"
   },
   {
    "sait": "www",
@@ -1280,6 +1141,41 @@
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    },
    "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Solidarity with Ukraine: heategevuskontsert",
+   "a": "algus 17.00; kõik tulud Solidarity Collectives talvekampaaniale (elekter, soojustus, magamiskotid Ukrainasse)",
+   "b": [
+    "Mittekunagimaa",
+    "Huiabella Fantastica",
+    "Thousand Hands",
+    "Väntajad",
+    "Laiendatud Perekond",
+    "STD",
+    "Meelu Keeme",
+    "BT",
+    "Klostriid"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/1945101d-a0c0-45c4-8614-210eadead3a5",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1839279490532282",
+   "hind": {
+    "praegu": "vähemalt 10€ (annetus)",
+    "mark": "uksel",
+    "allikas": "kluub.ee/FB event, kontrollitud 09.11.2026"
+   },
+   "nb": "lisatud postkastijooksul 09.11.2026 (samm 2c). Kaks allikat: kluub.ee + FB event (Anemon12, R 13.11 kell 17, Ülase 12). Koosseis kluub.ee-st (FB kirjelduse peegel). Žanr: ainult rock - ürituse enda tekst („tulge ROKKIMA“) + kluub.ee silt Rock; punk-silti EI pandud (REEGLID §1: maja profiilist ei tuletata). Teada bändid: Väntajad raw grind, Thousand Hands stoner/doom (sama päeva õhtul ka Saar Cultis, vt dupe_ok).",
+   "lisatud": "2026-11-09",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "klubi",
@@ -1885,7 +1781,7 @@
     "allikas": "Fienta, kontrollitud 07.07.2026"
    },
    "img": "https://www.skene.info/pildid/napalmdeathmasterbrat.webp",
-   "nb": "10.08.2026 sweep: Fienta ürituse pealkiri loetleb neljanda bändina Goatburner (FI) — lisatud koosseisu | 04.09.2026 sweep: paavli.ee ja Damn.Loud FB event nimetavad neljanda bandina GOATBURNER (FI) - lisatud; ou -> paavli.ee urituseleht.",
+   "nb": "10.08.2026 sweep: Fienta ürituse pealkiri loetleb neljanda bändina Goatburner (FI) — lisatud koosseisu | 04.09.2026 sweep: paavli.ee ja Damn.Loud FB event nimetavad neljanda bandina GOATBURNER (FI) - lisatud; ou -> paavli.ee urituseleht. | 09.11.2026 Paavli Kultuurivabriku uudiskiri: FB event https://www.facebook.com/events/26287437707604788 , koosseis sama (Napalm Death, Master, BRAT, Goatburner).",
    "on_": "Ametlik leht",
    "ou": "https://paavli.ee/sundmused/napalm-death-uk-master-us-brat-us-goatburner-fi-17-11-26-paavli-kultuurivabrik/",
    "vu": "https://www.kultuurivabrik.ee/"
@@ -3847,6 +3743,27 @@
    "nb": "lisatud 18.08.2026, SILVERI OTSUS 18.08: piiripealne žanr, läheb peasaidile siltidega rock/pop. Allikad Ticketer + FB event.",
    "img": "https://www.skene.info/pildid/maustetytotfin.webp",
    "vu": "https://www.d-3.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-19",
+   "t": "kontsert",
+   "n": "Metal Saturday: YOMI (LV) + INNERSPELL",
+   "b": [
+    "YOMI (LV)",
+    "INNERSPELL"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b4%f0%9d%92%86%f0%9d%92%95%f0%9d%92%82%f0%9d%92%8d-%f0%9d%91%ba%f0%9d%92%82%f0%9d%92%95%f0%9d%92%96%f0%9d%92%93%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-yomi-lv-innerspell/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-11-09",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",

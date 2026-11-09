@@ -325,7 +325,7 @@
    "allikas": "Fienta, kontrollitud 07.07.2026"
   },
   "img": "pildid/napalmdeathmasterbrat.webp",
-  "nb": "10.08.2026 sweep: Fienta ürituse pealkiri loetleb neljanda bändina Goatburner (FI) — lisatud koosseisu | 04.09.2026 sweep: paavli.ee ja Damn.Loud FB event nimetavad neljanda bandina GOATBURNER (FI) - lisatud; ou -> paavli.ee urituseleht.",
+  "nb": "10.08.2026 sweep: Fienta ürituse pealkiri loetleb neljanda bändina Goatburner (FI) — lisatud koosseisu | 04.09.2026 sweep: paavli.ee ja Damn.Loud FB event nimetavad neljanda bandina GOATBURNER (FI) - lisatud; ou -> paavli.ee urituseleht. | 09.11.2026 Paavli Kultuurivabriku uudiskiri: FB event https://www.facebook.com/events/26287437707604788 , koosseis sama (Napalm Death, Master, BRAT, Goatburner).",
   "on_": "Ametlik leht",
   "ou": "https://paavli.ee/sundmused/napalm-death-uk-master-us-brat-us-goatburner-fi-17-11-26-paavli-kultuurivabrik/"
  },
@@ -4280,6 +4280,39 @@
   "nb": "lisatud sweepis 06.11.2026; Bandcamp: released October 29, 2026",
   "lisatud": "2026-11-06",
   "img": "pildid/the952longdivision.webp"
+ },
+ {
+  "d": "2026-11-13",
+  "t": "kontsert",
+  "n": "Solidarity with Ukraine: heategevuskontsert",
+  "a": "algus 17.00; kõik tulud Solidarity Collectives talvekampaaniale (elekter, soojustus, magamiskotid Ukrainasse)",
+  "b": [
+   "Mittekunagimaa",
+   "Huiabella Fantastica",
+   "Thousand Hands",
+   "Väntajad",
+   "Laiendatud Perekond",
+   "STD",
+   "Meelu Keeme",
+   "BT",
+   "Klostriid"
+  ],
+  "v": "Ülase12",
+  "c": "Tallinn",
+  "g": [
+   "rock"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tallinn/1945101d-a0c0-45c4-8614-210eadead3a5",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1839279490532282",
+  "hind": {
+   "praegu": "vähemalt 10€ (annetus)",
+   "mark": "uksel",
+   "allikas": "kluub.ee/FB event, kontrollitud 09.11.2026"
+  },
+  "nb": "lisatud postkastijooksul 09.11.2026 (samm 2c). Kaks allikat: kluub.ee + FB event (Anemon12, R 13.11 kell 17, Ülase 12). Koosseis kluub.ee-st (FB kirjelduse peegel). Žanr: ainult rock - ürituse enda tekst („tulge ROKKIMA“) + kluub.ee silt Rock; punk-silti EI pandud (REEGLID §1: maja profiilist ei tuletata). Teada bändid: Väntajad raw grind, Thousand Hands stoner/doom (sama päeva õhtul ka Saar Cultis, vt dupe_ok).",
+  "lisatud": "2026-11-09"
  },
  {
   "d": "2027-05-22",

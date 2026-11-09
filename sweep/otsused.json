@@ -22,5 +22,27 @@
    "kluub.ee: https://www.kluub.ee/et/events/tartu/470098e8-4623-47a6-93e7-89f7e5882ef5"
   ],
   "kontekst": "Miks küsin: kluub.ee (FB eventi peegel) ütleb ainult „TIKSu djd“, kaks ruumi — üks kiirem, teine pehmem/sensuaalsem muusika; žanrit ega nimesid pole, hind TBA (esimesed paarkümmend piletit väga odavad). 20+, 21.00–04.00. REEGLID §1: žanrit ei arva."
+ },
+ {
+  "oid": "2026-11-09-benakanister-kivi-baar",
+  "lisatud": "2026-11-09",
+  "kysimus": "BENAKANISTER live + DJ Mehkel · R 13.11.2026 · Kivi Baar, Tartu — žanr teadmata. Lisame mõnele saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa (ütle, mis žanr/sait — www või klubi)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-12",
+  "lingid": [
+   "FB event: https://www.facebook.com/events/2403780643755236",
+   "kluub.ee: https://www.kluub.ee/et/events/tartu/a92ab90f-2505-499b-b1dc-4b15c80e4d13"
+  ],
+  "kontekst": "Miks küsin: ürituse leht (kluub.ee FB-peegel) ütleb ainult „Live“ — õuel tuli, 23–00 BENAKANISTER LIVE, ümber selle DJ MEHKEL; bänd müüb kohapeal albumit „KROOMITUD“. Tasuta, 20.00–05.00, Rüütli 13. Veebiotsing ei leidnud bändi ega albumi kohta midagi (Bandcampi/Spotifyt ei leidnud). REEGLID §1: žanrit ei arva. Vaikeotsus enne üritust (12.11), sest 5 päeva jääks ürituse järele."
  }
 ]

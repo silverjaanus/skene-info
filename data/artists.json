@@ -557,9 +557,13 @@
     },
     "Alan Mackie": {
       "checked": "2026-11-06",
-      "domain": "unknown",
-      "src": "none",
-      "tags": []
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "latin",
+        "latin urban",
+        "reggaeton"
+      ]
     },
     "Ale Castro": {
       "checked": "2026-08-28",
@@ -10837,9 +10841,11 @@
     },
     "Sassbass b2b Bebe Veloure": {
       "checked": "2026-11-06",
-      "domain": "unknown",
-      "src": "none",
-      "tags": []
+      "domain": "unclear",
+      "src": "musicbrainz",
+      "tags": [
+        "latin pop"
+      ]
     },
     "Satyricon": {
       "checked": "2026-07-19",
@@ -13607,9 +13613,18 @@
     },
     "Willem Down": {
       "checked": "2026-11-06",
-      "domain": "unknown",
-      "src": "none",
-      "tags": []
+      "domain": "www",
+      "src": "musicbrainz",
+      "tags": [
+        "metal",
+        "stoner rock",
+        "stoner metal",
+        "sludge metal",
+        "rock and indie",
+        "southern metal",
+        "blues metal",
+        "stoner sludge metal"
+      ]
     },
     "Within Temptation": {
       "checked": "2026-07-13",
