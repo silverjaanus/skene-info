@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "entries": [
   {
    "d": "2026-09-30",
@@ -549,6 +549,34 @@
    "nb": "lisatud postkastijooksul 09.11.2026 (samm 2c). Kaks allikat: kluub.ee + FB event (Anemon12, R 13.11 kell 17, Ülase 12). Koosseis kluub.ee-st (FB kirjelduse peegel). Žanr: ainult rock - ürituse enda tekst („tulge ROKKIMA“) + kluub.ee silt Rock; punk-silti EI pandud (REEGLID §1: maja profiilist ei tuletata). Teada bändid: Väntajad raw grind, Thousand Hands stoner/doom (sama päeva õhtul ka Saar Cultis, vt dupe_ok).",
    "lisatud": "2026-11-09",
    "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Kantri Guidu Bänd & Konfliktor Tartu kontsert",
+   "a": "mõlema bändi esimene Tartu kontsert: Kantri Guidu Bänd (lindpriisült — country, surf, garage rock, folkpunk; LP «Lappa kotte») ja Konfliktor (punk, alternatiivrokk, indie, psühhedeelia; EP «Diivanil elatud elu»); algus 21.00",
+   "b": [
+    "Kantri Guidu Bänd",
+    "Konfliktor"
+   ],
+   "v": "Lege bar & stage",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/legevaib/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2002483593771680",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "FB event, kontrollitud 10.11.2026",
+    "mark": "ürituse tekst: „algus 21:00 / Pilet 10“"
+   },
+   "lisatud": "2026-11-10",
+   "nb": "lisatud postkastijooksus 10.11.2026 kontaktivormist (09.11, www-vorm, „punk, alternative rock, schlager, indie, rock“). Kaks allikat: FB event (korraldajad Kantri Guidu, Konfliktor, LEGE) + LEGE FB events-tab. Žanrid ürituse enda tekstist. NB: FB event näitab aadressi Rüütli 5, Lege lehel muud üritused Küütri 7 — koht 'Lege bar & stage' mõlemal. Varasem kirje sama koosseisuga 30.10 Kinomaja (Tallinn) on eraldi üritus."
   },
   {
    "d": "2026-11-14",

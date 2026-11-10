@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 183,
+ "count": 184,
  "entries": [
   {
    "sait": "www",
@@ -838,6 +838,35 @@
    "lisatud": "2026-10-30",
    "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus). | 08.11.2026 postkastijooks: ÜHENDATUD topeltkirjega (sama FB event 998488245924244, lisatud 30.10 Silveri otsusega, sn Huba Club FB events-tab).",
    "img": "https://klubi.skene.info/pildid/hamarraamatukoguheamuusikapidu.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Kantri Guidu Bänd & Konfliktor Tartu kontsert",
+   "a": "mõlema bändi esimene Tartu kontsert: Kantri Guidu Bänd (lindpriisült — country, surf, garage rock, folkpunk; LP «Lappa kotte») ja Konfliktor (punk, alternatiivrokk, indie, psühhedeelia; EP «Diivanil elatud elu»); algus 21.00",
+   "b": [
+    "Kantri Guidu Bänd",
+    "Konfliktor"
+   ],
+   "v": "Lege bar & stage",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/legevaib/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2002483593771680",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "FB event, kontrollitud 10.11.2026",
+    "mark": "ürituse tekst: „algus 21:00 / Pilet 10“"
+   },
+   "lisatud": "2026-11-10",
+   "nb": "lisatud postkastijooksus 10.11.2026 kontaktivormist (09.11, www-vorm, „punk, alternative rock, schlager, indie, rock“). Kaks allikat: FB event (korraldajad Kantri Guidu, Konfliktor, LEGE) + LEGE FB events-tab. Žanrid ürituse enda tekstist. NB: FB event näitab aadressi Rüütli 5, Lege lehel muud üritused Küütri 7 — koht 'Lege bar & stage' mõlemal. Varasem kirje sama koosseisuga 30.10 Kinomaja (Tallinn) on eraldi üritus."
   },
   {
    "sait": "www",
