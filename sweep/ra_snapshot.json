@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-11-09",
+ "tommatud": "2026-11-10",
  "aken": {
-  "algus": "2026-11-09",
-  "lopp": "2027-01-08"
+  "algus": "2026-11-10",
+  "lopp": "2027-01-09"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 21,
+ "kirjeid": 23,
  "kirjed": [
   {
    "d": "2026-11-12",
@@ -66,6 +66,19 @@
   },
   {
    "d": "2026-11-13",
+   "n": "OI-EI",
+   "algus": "2026-11-13T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2581323",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-13",
    "n": "I LOVE 90´S – 90´s CLUB HITS SPECIAL",
    "algus": "2026-11-13T23:00:00.000",
    "v": "TBA - Venus Club",
@@ -110,6 +123,19 @@
    ],
    "g": [],
    "url": "https://ra.co/events/2576222",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-14",
+   "n": "Gild at Maison Dio with Barseghian (LV) & Kepler 14.11",
+   "algus": "2026-11-14T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2581310",
    "pilet": false
   },
   {
