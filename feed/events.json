@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -701,7 +701,8 @@
     "Type1",
     "Nikolajev",
     "Susanna Raiend",
-    "Wash Electra"
+    "Wash Electra",
+    "Adel Force"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -716,7 +717,7 @@
    "on_": "Resident Advisor",
    "ou": "https://ra.co/events/2537635",
    "lisatud": "2026-09-18",
-   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata. | 09.10.2026 sweep: täiskoosseis RA ürituselehelt (ra.co/events/2537635, snapshot 08.10). | 23.10.2026 sweep: pu + hind Fientast.",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata. | 09.10.2026 sweep: täiskoosseis RA ürituselehelt (ra.co/events/2537635, snapshot 08.10). | 23.10.2026 sweep: pu + hind Fientast. | RIKASTUS 11.11.2026 (postkastijooks): Paavli enda uudiskiri 11.11 lisab koosseisu Adel Force (RA-l veel TBA kohal); visuaalid ando.src, celestica, Keitlyn Kruus; uksed 23.00.",
    "img": "https://klubi.skene.info/pildid/dreamscapeclubnightkode9ukhyperdub.webp",
    "pu": "https://fienta.com/dreamscape-club-night-kode9-uk-hyperdub",
    "hind": {
@@ -1691,7 +1692,8 @@
    "n": "Paavli.Live: Gong (UK)",
    "a": "1969. aastal Daevid Alleni loodud psühhedeelse ja eksperimentaalse roki kollektiiv",
    "b": [
-    "Gong (UK)"
+    "Gong (UK)",
+    "Phlox"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -1704,7 +1706,7 @@
    "sn": "Fienta (Paavli Kultuurivabrik)",
    "su": "https://fienta.com/gong-tallinn",
    "pu": "https://fienta.com/gong-tallinn",
-   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht.",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht. | RIKASTUS 11.11.2026 (postkastijooks, Paavli uudiskiri 11.11 + Fienta ürituseleht): soojendab Tallinna instrumentaalne jazz-rock bänd Phlox; algus 19.00.",
    "img": "https://www.skene.info/pildid/paavlilivegonguk.webp",
    "on_": "Paavli Kultuurivabrik",
    "ou": "https://paavli.ee/sundmused/paavli%e2%80%a4live-gong-uk/",

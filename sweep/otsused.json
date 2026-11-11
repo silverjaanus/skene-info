@@ -24,13 +24,35 @@
   "kontekst": "Miks küsin: kluub.ee (FB eventi peegel) ütleb ainult „TIKSu djd“, kaks ruumi — üks kiirem, teine pehmem/sensuaalsem muusika; žanrit ega nimesid pole, hind TBA (esimesed paarkümmend piletit väga odavad). 20+, 21.00–04.00. REEGLID §1: žanrit ei arva."
  },
  {
-  "oid": "2026-11-09-benakanister-kivi-baar",
-  "lisatud": "2026-11-09",
-  "kysimus": "BENAKANISTER live + DJ Mehkel · R 13.11.2026 · Kivi Baar, Tartu — žanr teadmata. Lisame mõnele saidile?",
+  "oid": "2026-11-11-kojamees-kylalised",
+  "lisatud": "2026-11-11",
+  "kysimus": "PUNK ÖÖ — Kojamees and the Gäng · L 14.11.2026 · Trahter Postipoiss, Pärnu — kontaktivormi VEAPARANDUS: lisada erikülalised Surju Kommunaal ja Traumapunkt?",
   "valikud": [
    {
     "id": "a",
-    "tekst": "lisa (ütle, mis žanr/sait — www või klubi)"
+    "tekst": "lisa mõlemad b-sse (vormi väite põhjal, nb-s märge)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta praegune kirje („üllatuskülalised“) muutmata"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-13",
+  "lingid": [
+   "Fienta: https://fienta.com/et/punk-oo-kojamees-and-the-gang",
+   "Meie kirje allikas (vormist): https://fienta.com/et?q=punk"
+  ],
+  "kontekst": "Miks küsin: vorm (10.11 23:19, Liis Virkus, e-postita) väidab, et külalised on kirjas FB eventi juures, aga FB eventi linki ei antud ja ma ei leidnud seda. Fienta ütleb ainult „üllatuskülalised“; veebiotsing nimesid selle üritusega ei seosta → teine allikas puudub. NB Fienta kirjelduses on ka kirjaviga „1. novembril“ (kuupäev ise 14.11 20.00–02.00). Kui saad FB eventi lingi, lisan ka ou."
+ },
+ {
+  "oid": "2026-11-11-tolmu-rott-genialistid",
+  "lisatud": "2026-11-11",
+  "kysimus": "DJ MV TOLMU ROTT · N 12.11.2026 · Genialistide Klubi, Tartu — žanr segane (glitchcore/mashcore/digicore/electro punk vs sildid reggae/dancehall). Lisame klubi saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi saidile (sildid electro + experimental)"
    },
    {
     "id": "b",
@@ -40,9 +62,9 @@
   "vaikeotsus": "b",
   "tahtaeg": "2026-11-12",
   "lingid": [
-   "FB event: https://www.facebook.com/events/2403780643755236",
-   "kluub.ee: https://www.kluub.ee/et/events/tartu/a92ab90f-2505-499b-b1dc-4b15c80e4d13"
+   "FB event: https://www.facebook.com/events/2169416097112181",
+   "kluub.ee: https://www.kluub.ee/et/events/tartu/77948f19-87d9-4938-aa80-0ade602309c2"
   ],
-  "kontekst": "Miks küsin: ürituse leht (kluub.ee FB-peegel) ütleb ainult „Live“ — õuel tuli, 23–00 BENAKANISTER LIVE, ümber selle DJ MEHKEL; bänd müüb kohapeal albumit „KROOMITUD“. Tasuta, 20.00–05.00, Rüütli 13. Veebiotsing ei leidnud bändi ega albumi kohta midagi (Bandcampi/Spotifyt ei leidnud). REEGLID §1: žanrit ei arva. Vaikeotsus enne üritust (12.11), sest 5 päeva jääks ürituse järele."
+  "kontekst": "Miks küsin: tasuta DJ-õhtu 22.30–03.00. Kirjeldus lubab glitchcore/mashcore/digicore/electro punki, aga ametlikud sildid on reggae/dancehall („kui tuju on“). REEGLID §1: žanrit ei arva. Üritus on homme — vaikeotsus rakendub samal päeval."
  }
 ]
