@@ -484,33 +484,6 @@
    "img": "https://klubi.skene.info/pildid/dream1xfreedomaerospring.webp"
   },
   {
-   "sait": "www",
-   "d": "2026-11-11",
-   "t": "kontsert",
-   "n": "The Obsessed",
-   "b": [
-    "The Obsessed",
-    "Estoner"
-   ],
-   "v": "Von Krahl",
-   "c": "Tallinn",
-   "g": [
-    "doom"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=233881",
-   "img": "https://www.skene.info/pildid/theobsessed.webp",
-   "pu": "https://fienta.com/et/the-obsessed-us-von-krahl",
-   "nb": "10.08.2026 sweep: piletilink lisatud (Fienta) | 09.10.2026 järelkäik: FB event (UCE Agency, Rada7) — soojendaja Estoner lisatud, ou = FB event, pu Fienta.",
-   "hind": {
-    "praegu": "20–30 €",
-    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
-   },
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1505236101107317/",
-   "vu": "https://vonkrahl.ee/"
-  },
-  {
    "sait": "klubi",
    "d": "2026-11-13",
    "t": "klubi",
@@ -2981,6 +2954,27 @@
    "lisatud": "2026-11-06",
    "img": "https://www.skene.info/pildid/metsatollviimastkordawunderbaaris.webp",
    "vu": "https://wunderbaar.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-04",
+   "t": "kontsert",
+   "n": "Rock Friday: FEVERHEAT + RING",
+   "b": [
+    "FEVERHEAT",
+    "RING"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-feverheat-ring/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-11-12",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",

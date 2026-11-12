@@ -7620,6 +7620,32 @@
    "nb": "lisatud järelkäigus 09.10.2026. Kaks allikat: FB event (Võru Kannel) + vorukannel.ee ürituseleht (piletid).",
    "img": "pildid/sarischorrrunningwildeuropeantour2026.webp",
    "vu": "https://vorukannel.ee/"
+  },
+  {
+   "d": "2026-11-11",
+   "t": "kontsert",
+   "n": "The Obsessed",
+   "b": [
+    "The Obsessed",
+    "Estoner"
+   ],
+   "v": "Von Krahl",
+   "c": "Tallinn",
+   "g": [
+    "doom"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=233881",
+   "img": "pildid/theobsessed.webp",
+   "pu": "https://fienta.com/et/the-obsessed-us-von-krahl",
+   "nb": "10.08.2026 sweep: piletilink lisatud (Fienta) | 09.10.2026 järelkäik: FB event (UCE Agency, Rada7) — soojendaja Estoner lisatud, ou = FB event, pu Fienta.",
+   "hind": {
+    "praegu": "20–30 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   },
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1505236101107317/",
+   "vu": "https://vonkrahl.ee/"
   }
  ]
 }
