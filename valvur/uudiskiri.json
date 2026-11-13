@@ -1,20 +1,12 @@
 {
  "kuupaev": "2026-11-13",
- "aeg": "2026-11-13T13:36+02:00",
- "seis": "saadetud",
- "ambrid": [
-  "send:metal+klubi:et 3 tellijat 62 kirjet",
-  "send:metal+rap+klubi:et 4 tellijat 71 kirjet",
-  "send:metal+rap:et 2 tellijat 45 kirjet",
-  "send:metal:et 36 tellijat 36 kirjet",
-  "send:rap+klubi:et 1 tellijat 35 kirjet"
- ],
+ "aeg": "2026-11-13T14:18+02:00",
+ "seis": "juba_saadetud",
  "kampaaniad": [
-  "204021011383846888",
-  "204021050537674522",
-  "204021086875027228",
-  "204021190725993674",
-  "204021225636234762"
- ],
- "tellijaid": 46
+  "skene.info nädalakiri — 13.–22. november 2026 (sent, 204021225636234762)",
+  "skene.info nädalakiri — 13.–22. november 2026 (sent, 204021190725993674)",
+  "skene.info nädalakiri — 13.–22. november 2026 (sent, 204021086875027228)",
+  "skene.info nädalakiri — 13.–22. november 2026 (sent, 204021011383846888)",
+  "skene.info nädalakiri — 13.–22. november 2026 (sent, 204021050537674522)"
+ ]
 }
