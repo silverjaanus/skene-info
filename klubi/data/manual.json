@@ -1867,7 +1867,9 @@
    "allikas": "FB event, 06.11.2026"
   },
   "nb": "lisatud sweepis 06.11.2026; sari oli klubis ka 23.10",
-  "lisatud": "2026-11-06"
+  "lisatud": "2026-11-06",
+  "img": "pildid/ohmydub.webp",
+  "img_src": "fb:2258385201394071"
  },
  {
   "d": "2026-11-28",
@@ -1895,7 +1897,9 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/1367138398654760/",
   "nb": "lisatud sweepis 06.11.2026",
-  "lisatud": "2026-11-06"
+  "lisatud": "2026-11-06",
+  "img": "pildid/junglebeatimpact.webp",
+  "img_src": "fb:1367138398654760"
  },
  {
   "d": "2026-12-11",
@@ -2006,7 +2010,9 @@
    "allikas": "FB event, 06.11.2026"
   },
   "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '1. sisse') - ainult üks allikas (FB event), kahe allika reegel ERANDINA ületatud Silveri loal",
-  "lisatud": "2026-11-06"
+  "lisatud": "2026-11-06",
+  "img": "pildid/etnotehnoreivmadrioo.webp",
+  "img_src": "fb:2043184339678108"
  },
  {
   "d": "2026-11-13",
@@ -2036,6 +2042,99 @@
    "allikas": "klubineli.ee ürituseleht, kontrollitud 08.11.2026"
   },
   "lisatud": "2026-11-08",
-  "nb": "lisatud postkastijooksus 08.11.2026 (kluub.ee samm 2c). Kaks allikat: klubineli.ee ürituseleht (https://klubineli.ee/event/4-the-record-i-klubi-neli-i-13-11/) + kluub.ee (FB eventi peegel). Žanrid ürituse enda tekstist. Eraldi üritus Glitch Club: Rony Rex 14.11 Fonoteek (Tallinn)."
+  "nb": "lisatud postkastijooksus 08.11.2026 (kluub.ee samm 2c). Kaks allikat: klubineli.ee ürituseleht (https://klubineli.ee/event/4-the-record-i-klubi-neli-i-13-11/) + kluub.ee (FB eventi peegel). Žanrid ürituse enda tekstist. Eraldi üritus Glitch Club: Rony Rex 14.11 Fonoteek (Tallinn).",
+  "img": "pildid/4therecordronyrexb2bwuffi.webp"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "klubi",
+  "n": "MÜRK Limited @ HALL",
+  "a": "algus 23.59; „proper techno all-night-long“",
+  "b": [
+   "Artur Lääts",
+   "Harbinmoths",
+   "Hugo Mesi"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "techno"
+  ],
+  "sn": "HALL FB events-tab",
+  "su": "https://www.facebook.com/halltallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1108302332110044/",
+  "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (MÜRK, HALL, Hugo Mesi) + RA snapshot (koosseis). Pilet/hind avaldamata.",
+  "lisatud": "2026-11-13",
+  "img": "pildid/murklimitedhall.webp",
+  "img_src": "fb:1108302332110044"
+ },
+ {
+  "d": "2026-12-04",
+  "t": "klubi",
+  "n": "Tjuun In (27!) — Zero T (UK)",
+  "a": "algus 23.00; Tjuun Ini 27. sünnipäev",
+  "b": [
+   "Zero T (UK)",
+   "l.eazy",
+   "to-sha"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "HALL FB events-tab",
+  "su": "https://www.facebook.com/halltallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1125493503744421/",
+  "pu": "https://gateme.com/et/halltallinn/104533-tjuun-in-27-zero-t-residents",
+  "nb": "lisatud sweepis 13.11.2026. Allikad: FB event (Tjuun In + HALL) + GateMe piletileht. Koosseis eventi tekstist (residentide täisnimekiri lühendatud).",
+  "lisatud": "2026-11-13",
+  "img": "pildid/tjuunin27zerotuk.webp"
+ },
+ {
+  "d": "2027-03-12",
+  "t": "klubi",
+  "n": "Hybrid Minds (UK) — EU Tour",
+  "a": "23.00–04.00",
+  "b": [
+   "Hybrid Minds (UK)"
+  ],
+  "v": "D3",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Planeet FB events-tab",
+  "su": "https://www.facebook.com/AudioPlaneet/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1129724306430368/",
+  "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (D3, Hybrid Minds, Planeet kaaskorraldajad) + Planeedi FB events-tab. Pilet avaldamata.",
+  "lisatud": "2026-11-13"
+ },
+ {
+  "d": "2026-11-21",
+  "t": "klubi",
+  "n": "Bar IDA: Healer Records w/ Squash & Pätt",
+  "a": "20.00–04.00; Healer Recordsi debüütaasta kolmanda vinüüli peo",
+  "b": [
+   "Squash",
+   "Pätt"
+  ],
+  "v": "Bar IDA",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "electro"
+  ],
+  "sn": "IDA Radio FB events-tab",
+  "su": "https://www.facebook.com/IDARadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1183048127483271/",
+  "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event + IDA Radio FB events-tab. Seotud reliisikirje Squash «Big Motion» (HEALER003).",
+  "lisatud": "2026-11-13",
+  "img": "pildid/baridahealerrecordswsquashpatt.webp",
+  "img_src": "fb:1183048127483271"
  }
 ]

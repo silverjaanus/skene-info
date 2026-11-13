@@ -418,6 +418,12 @@
       "src": "none",
       "tags": []
     },
+    "Adel Force": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Aeden": {
       "checked": "2026-08-17",
       "domain": "klubi",
@@ -1210,6 +1216,18 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "BT": {
+      "checked": "2026-11-13",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "trance",
+        "electronic",
+        "dance",
+        "techno",
+        "electronica"
+      ]
     },
     "Baba Sy": {
       "checked": "2026-07-13",
@@ -2510,6 +2528,12 @@
         "melodic house"
       ]
     },
+    "DJ F.K.S": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "DJ Glitch Korts": {
       "checked": "2026-09-11",
       "domain": "unknown",
@@ -3177,6 +3201,12 @@
         "blues rock",
         "rhythm and blues"
       ]
+    },
+    "Dr.PhilGood": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "Dragonland": {
       "checked": "2026-07-13",
@@ -4772,6 +4802,12 @@
         "blackened speed metal"
       ]
     },
+    "Hels ja Kütt": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Hendrik Kaljujärv": {
       "checked": "2026-09-09",
       "domain": "unknown",
@@ -4957,6 +4993,17 @@
         "classic blues"
       ]
     },
+    "Hugo Mesi": {
+      "checked": "2026-11-13",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "acid",
+        "house",
+        "techno",
+        "rave"
+      ]
+    },
     "Huiabella Fantastica": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -4999,6 +5046,18 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Hybrid Minds": {
+      "checked": "2026-11-13",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "liquid funk",
+        "drum and bass",
+        "dnb",
+        "electronic",
+        "drum'n'bass"
+      ]
     },
     "Häire": {
       "checked": "2026-07-19",
@@ -5184,6 +5243,17 @@
       "src": "lastfm",
       "tags": [
         "death metal"
+      ]
+    },
+    "Indemon": {
+      "checked": "2026-11-13",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "thrash metal",
+        "death metal",
+        "finnish",
+        "death thrash metal"
       ]
     },
     "Indren": {
@@ -5508,6 +5578,21 @@
       "src": "none",
       "tags": []
     },
+    "Jooseppro & Lennu": {
+      "checked": "2026-11-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "rock",
+        "trance",
+        "electronic",
+        "soundtrack",
+        "classical",
+        "pop",
+        "special purpose artist",
+        "jungle"
+      ]
+    },
     "Jori Samarin": {
       "checked": "2026-08-14",
       "domain": "unknown",
@@ -5580,6 +5665,12 @@
         "pop rap",
         "english"
       ]
+    },
+    "Juurestik": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "K&M": {
       "checked": "2026-09-18",
@@ -6365,6 +6456,15 @@
         "soprano"
       ]
     },
+    "Korpsesoturi": {
+      "checked": "2026-11-13",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "death metal",
+        "finnish death metal"
+      ]
+    },
     "Korralagedus": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -6560,6 +6660,12 @@
       "src": "none",
       "tags": []
     },
+    "Kõdu (EE/IT)": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Kõrp": {
       "checked": "2026-08-07",
       "domain": "unknown",
@@ -6722,6 +6828,12 @@
         "kosovo",
         "folk"
       ]
+    },
+    "Laiendatud Perekond": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
     },
     "LaksFM": {
       "checked": "2026-09-09",
@@ -6960,6 +7072,17 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Likane Leppäne": {
+      "checked": "2026-11-13",
+      "domain": "rap",
+      "src": "lastfm",
+      "tags": [
+        "finnish",
+        "underground hip-hop",
+        "suomirap",
+        "noise rap"
+      ]
     },
     "Lil Till": {
       "checked": "2026-08-17",
@@ -7628,6 +7751,12 @@
       "src": "none",
       "tags": []
     },
+    "Marmormaze": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "Mars Red Sky": {
       "checked": "2026-07-13",
       "domain": "unknown",
@@ -7705,6 +7834,16 @@
       "tags": [
         "ambient",
         "new age"
+      ]
+    },
+    "Massengrab": {
+      "checked": "2026-11-13",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "hardcore",
+        "melodic hardcore",
+        "vegan"
       ]
     },
     "Masta Robusta": {
@@ -7826,6 +7965,18 @@
     },
     "Meelis Vili b2b L21": {
       "checked": "2026-10-02",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Meelis „Hainz“ Hainsoo": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "Meelu Keeme": {
+      "checked": "2026-11-13",
       "domain": "unknown",
       "src": "none",
       "tags": []
@@ -8673,6 +8824,15 @@
         "jungle"
       ]
     },
+    "Noored ja Näljased": {
+      "checked": "2026-11-13",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "estonia",
+        "estonian"
+      ]
+    },
     "Nooseweight": {
       "checked": "2026-09-09",
       "domain": "www",
@@ -8999,6 +9159,15 @@
       "domain": "unknown",
       "src": "none",
       "tags": []
+    },
+    "Osakond 79": {
+      "checked": "2026-11-13",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "punk",
+        "hardcore punk"
+      ]
     },
     "Ots": {
       "checked": "2026-10-30",
@@ -10676,6 +10845,18 @@
         "hip hop",
         "uk",
         "techno"
+      ]
+    },
+    "STD": {
+      "checked": "2026-11-13",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "pop punk",
+        "emo",
+        "indie",
+        "rock",
+        "punk"
       ]
     },
     "STIAN": {
@@ -12520,6 +12701,18 @@
         "dnb"
       ]
     },
+    "Thirty Seconds to Mars": {
+      "checked": "2026-11-13",
+      "domain": "www",
+      "src": "lastfm",
+      "tags": [
+        "alternative rock",
+        "rock",
+        "alternative",
+        "indie",
+        "emo"
+      ]
+    },
     "This.Is.Margus": {
       "checked": "2026-08-21",
       "domain": "unclear",
@@ -13710,6 +13903,15 @@
       "src": "none",
       "tags": []
     },
+    "Wuf": {
+      "checked": "2026-11-13",
+      "domain": "unclear",
+      "src": "lastfm",
+      "tags": [
+        "avant-garde jazz",
+        "jazz"
+      ]
+    },
     "Wyatt E.": {
       "checked": "2026-08-21",
       "domain": "www",
@@ -13952,6 +14154,17 @@
         "dream pop",
         "synthpop",
         "indie"
+      ]
+    },
+    "Zero T": {
+      "checked": "2026-11-13",
+      "domain": "klubi",
+      "src": "lastfm",
+      "tags": [
+        "drum and bass",
+        "liquid funk",
+        "dubstep",
+        "jungle"
       ]
     },
     "Zetod & Verska Naase": {
@@ -14327,6 +14540,12 @@
       "src": "none",
       "tags": []
     },
+    "l.eazy": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
     "majorlilkween": {
       "checked": "2026-08-28",
       "domain": "unclear",
@@ -14593,6 +14812,27 @@
       "src": "none",
       "tags": []
     },
+    "the.accountant": {
+      "checked": "2026-11-13",
+      "domain": "unknown",
+      "src": "none",
+      "tags": []
+    },
+    "to-sha": {
+      "checked": "2026-11-13",
+      "domain": "klubi",
+      "src": "musicbrainz",
+      "tags": [
+        "electronic",
+        "synthpop",
+        "pop",
+        "80s",
+        "dance",
+        "british",
+        "new wave",
+        "uk"
+      ]
+    },
     "triibupasta": {
       "checked": "2026-10-16",
       "domain": "unclear",
@@ -14684,5 +14924,5 @@
       "tags": []
     }
   },
-  "updated": "2026-11-06"
+  "updated": "2026-11-13"
 }

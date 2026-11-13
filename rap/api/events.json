@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 184,
+ "count": 199,
  "entries": [
   {
    "sait": "www",
@@ -146,6 +146,27 @@
    "img": "https://klubi.skene.info/pildid/p0larispolarplrx004.webp"
   },
   {
+   "sait": "rap",
+   "d": "2026-10-09",
+   "t": "reliis",
+   "rel": 1,
+   "n": "emaj6eflow — «Tuhk & Tolm» LP",
+   "a": "Tartu lüüriline hiphop / boombap",
+   "b": [
+    "emaj6eflow"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "Bandcamp discover (Eesti hip-hop)",
+   "su": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://emaj6eflow.bandcamp.com/album/tuhk-tolm-lp",
+   "nb": "lisatud sweepis 13.11.2026. Bandcamp: released October 9, 2026; asukoht Tartu; sildid lyrical hip-hop, boombap, estonian.",
+   "lisatud": "2026-11-13",
+   "img": "https://rap.skene.info/pildid/emaj6eflowtuhktolmlp.webp"
+  },
+  {
    "sait": "www",
    "d": "2026-10-10",
    "t": "reliis",
@@ -163,8 +184,9 @@
    "on_": "Bandcamp",
    "ou": "https://warhorn.bandcamp.com/album/samblas-ngi",
    "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. released October 10, 2026 (Warhorn); sildid atmospheric/pagan black metal.",
-   "img": "https://www.skene.info/pildid/tuisksamblasangi.webp"
+   "nb": "lisatud sweepis 16.10.2026. released October 10, 2026 (Warhorn); sildid atmospheric/pagan black metal. | 13.11.2026 sweep: ühendatud topeltkirjega (06.11, ou tuisk.bandcamp.com) — sama album.",
+   "img": "https://www.skene.info/pildid/tuisksamblasangi.webp",
+   "a": "album, 9 lugu; atmosfääriline black metal"
   },
   {
    "sait": "www",
@@ -484,6 +506,28 @@
    "img": "https://klubi.skene.info/pildid/dream1xfreedomaerospring.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-11-07",
+   "t": "reliis",
+   "rel": 1,
+   "n": "N.O.O.S — «Pieces of a Whole»",
+   "a": "instrumentaalne metal / metalcore Narva-Jõesuust",
+   "b": [
+    "N.O.O.S"
+   ],
+   "g": [
+    "metal",
+    "core"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://n00s.bandcamp.com/album/pieces-of-a-whole",
+   "nb": "lisatud sweepis 13.11.2026. Bandcamp: released November 7, 2026; sildid instrumental metal / alternative metal / instrumental metalcore; asukoht Narva-Jõesuu.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/noospiecesofawhole.webp"
+  },
+  {
    "sait": "klubi",
    "d": "2026-11-13",
    "t": "klubi",
@@ -512,7 +556,8 @@
     "allikas": "klubineli.ee ürituseleht, kontrollitud 08.11.2026"
    },
    "lisatud": "2026-11-08",
-   "nb": "lisatud postkastijooksus 08.11.2026 (kluub.ee samm 2c). Kaks allikat: klubineli.ee ürituseleht (https://klubineli.ee/event/4-the-record-i-klubi-neli-i-13-11/) + kluub.ee (FB eventi peegel). Žanrid ürituse enda tekstist. Eraldi üritus Glitch Club: Rony Rex 14.11 Fonoteek (Tallinn)."
+   "nb": "lisatud postkastijooksus 08.11.2026 (kluub.ee samm 2c). Kaks allikat: klubineli.ee ürituseleht (https://klubineli.ee/event/4-the-record-i-klubi-neli-i-13-11/) + kluub.ee (FB eventi peegel). Žanrid ürituse enda tekstist. Eraldi üritus Glitch Club: Rony Rex 14.11 Fonoteek (Tallinn).",
+   "img": "https://klubi.skene.info/pildid/4therecordronyrexb2bwuffi.webp"
   },
   {
    "sait": "rap",
@@ -840,7 +885,9 @@
     "mark": "ürituse tekst: „algus 21:00 / Pilet 10“"
    },
    "lisatud": "2026-11-10",
-   "nb": "lisatud postkastijooksus 10.11.2026 kontaktivormist (09.11, www-vorm, „punk, alternative rock, schlager, indie, rock“). Kaks allikat: FB event (korraldajad Kantri Guidu, Konfliktor, LEGE) + LEGE FB events-tab. Žanrid ürituse enda tekstist. NB: FB event näitab aadressi Rüütli 5, Lege lehel muud üritused Küütri 7 — koht 'Lege bar & stage' mõlemal. Varasem kirje sama koosseisuga 30.10 Kinomaja (Tallinn) on eraldi üritus."
+   "nb": "lisatud postkastijooksus 10.11.2026 kontaktivormist (09.11, www-vorm, „punk, alternative rock, schlager, indie, rock“). Kaks allikat: FB event (korraldajad Kantri Guidu, Konfliktor, LEGE) + LEGE FB events-tab. Žanrid ürituse enda tekstist. NB: FB event näitab aadressi Rüütli 5, Lege lehel muud üritused Küütri 7 — koht 'Lege bar & stage' mõlemal. Varasem kirje sama koosseisuga 30.10 Kinomaja (Tallinn) on eraldi üritus.",
+   "img": "https://www.skene.info/pildid/kantriguidubandkonfliktortartukontsert.webp",
+   "img_src": "fb:2002483593771680"
   },
   {
    "sait": "www",
@@ -1109,6 +1156,8 @@
    },
    "nb": "lisatud postkastijooksul 09.11.2026 (samm 2c). Kaks allikat: kluub.ee + FB event (Anemon12, R 13.11 kell 17, Ülase 12). Koosseis kluub.ee-st (FB kirjelduse peegel). Žanr: ainult rock - ürituse enda tekst („tulge ROKKIMA“) + kluub.ee silt Rock; punk-silti EI pandud (REEGLID §1: maja profiilist ei tuletata). Teada bändid: Väntajad raw grind, Thousand Hands stoner/doom (sama päeva õhtul ka Saar Cultis, vt dupe_ok).",
    "lisatud": "2026-11-09",
+   "img": "https://www.skene.info/pildid/solidaritywithukraineheategevuskontsert.webp",
+   "img_src": "fb:1839279490532282",
    "vu": "https://www.facebook.com/anemon12tln"
   },
   {
@@ -1171,6 +1220,55 @@
    "vu": "https://www.d-3.ee/"
   },
   {
+   "sait": "rap",
+   "d": "2026-11-14",
+   "t": "klubi",
+   "n": "Bar IDA — Prodigyboys (DJ-set)",
+   "a": "22.00–04.00; uue plaadi «Moosekandid» järel DJ-set, all night long",
+   "b": [
+    "Prodigyboys"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "IDA Radio FB events-tab",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2215303192703358/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event + IDA Radio FB events-tab.",
+   "lisatud": "2026-11-13",
+   "img": "https://rap.skene.info/pildid/baridaprodigyboysdjset.webp",
+   "img_src": "fb:2215303192703358",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-14",
+   "t": "klubi",
+   "n": "Check One Two @ Legendaarne Raadio",
+   "a": "algus 22.00; Eesti kõige kauem kestnud räpiteemaline sariüritus",
+   "b": [
+    "DJ Quest",
+    "Paul Oja"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2430071284197275/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (Legendaarne Raadio, DJ Quest, paul oja) + Legendaarne Raadio FB events-tab.",
+   "lisatud": "2026-11-13",
+   "img": "https://rap.skene.info/pildid/checkonetwolegendaarneraadio.webp",
+   "img_src": "fb:2430071284197275",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
    "sait": "klubi",
    "d": "2026-11-14",
    "t": "pidu",
@@ -1195,7 +1293,9 @@
     "allikas": "FB event, 06.11.2026"
    },
    "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '1. sisse') - ainult üks allikas (FB event), kahe allika reegel ERANDINA ületatud Silveri loal",
-   "lisatud": "2026-11-06"
+   "lisatud": "2026-11-06",
+   "img": "https://klubi.skene.info/pildid/etnotehnoreivmadrioo.webp",
+   "img_src": "fb:2043184339678108"
   },
   {
    "sait": "www",
@@ -1520,6 +1620,32 @@
    "sait": "www",
    "d": "2026-11-14",
    "t": "kontsert",
+   "n": "Osakond 79 + Postiljon @ BH Pub",
+   "a": "22.00–00.00; 1984. aastal loodud Tallinna punkansambel naaseb algkoosseisu liikmetega",
+   "b": [
+    "Osakond 79",
+    "Postiljon"
+   ],
+   "v": "BH Pub",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "Fienta punk-otsing",
+   "su": "https://fienta.com/et?q=punk",
+   "pu": "https://fienta.com/et/legendaarne-osakond-79-ja-noor-postiljon-liveatbh-pub",
+   "hind": {
+    "praegu": "registreerumisega",
+    "allikas": "Fienta, kontrollitud 13.11.2026"
+   },
+   "nb": "lisatud sweepis 13.11.2026 Fienta lehelt (REEGLID §3 piletimüügi erand).",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/osakond79postiljonbhpub.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-14",
+   "t": "kontsert",
    "n": "PUNK ÖÖ — Kojamees and the Gäng",
    "a": "Tarmo „Kojamees“ Kruusimäe (Vennaskonna algkoosseisu bassist, Kulo) + üllatuskülalised; 20.00–02.00",
    "b": [
@@ -1619,9 +1745,11 @@
    "sn": "Fienta rock-otsing",
    "su": "https://fienta.com/et?q=rock",
    "pu": "https://fienta.com/et/terminal-live-open-heart-surgery",
-   "nb": "lisatud sweepis 06.11.2026; allikas Fienta piletileht (REEGLID §3 erand)",
+   "nb": "lisatud sweepis 06.11.2026; allikas Fienta piletileht (REEGLID §3 erand) | 13.11.2026 sweep: Terminali FB event → ou.",
    "lisatud": "2026-11-06",
-   "img": "https://www.skene.info/pildid/terminalliveopenheartsurgery.webp"
+   "img": "https://www.skene.info/pildid/terminalliveopenheartsurgery.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1459317572794298/"
   },
   {
    "sait": "klubi",
@@ -1740,7 +1868,9 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1818039866049500/",
    "lisatud": "2026-10-09",
-   "nb": "lisatud järelkäigus 09.10.2026. FB event (Night Flies + Uus Laine kaaskorraldajad). Night Flies on saidil rockbändina (Krypt Rock Friday 09.10). ⚠ Kahe allika tõlgendus: venue + artist samal eventil.",
+   "nb": "lisatud järelkäigus 09.10.2026. FB event (Night Flies + Uus Laine kaaskorraldajad). Night Flies on saidil rockbändina (Krypt Rock Friday 09.10). ⚠ Kahe allika tõlgendus: venue + artist samal eventil. | 13.11.2026 sweep: Fienta piletileht → pu.",
+   "pu": "https://fienta.com/et/laine-live-night-flies",
+   "img": "https://www.skene.info/pildid/lainelivenightflies.webp",
    "vu": "https://uuslaine.com/"
   },
   {
@@ -1947,6 +2077,34 @@
    "vu": "https://www.facebook.com/Modtln"
   },
   {
+   "sait": "www",
+   "d": "2026-11-20",
+   "t": "kontsert",
+   "n": "Kurjam @ Kära Kants",
+   "a": "algus 23.00; Eesti punkbänd aastast 1996",
+   "b": [
+    "Kurjam"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "punk"
+   ],
+   "sn": "Kära Kantsi FB grupi events",
+   "su": "https://www.facebook.com/groups/112392415448166/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1692455535632383/",
+   "hind": {
+    "praegu": "12 €, Kära Kantsi liige kuni 23.00 10 € (sularahas)",
+    "allikas": "FB event, kontrollitud 13.11.2026"
+   },
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event + Kära Kantsi FB grupi events-tab.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/kurjamkarakants.webp",
+   "img_src": "fb:1692455535632383"
+  },
+  {
    "sait": "klubi",
    "d": "2026-11-20",
    "t": "kontsert",
@@ -1975,6 +2133,33 @@
     "allikas": "Fienta, kontrollitud 09.10.2026"
    },
    "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-20",
+   "t": "kontsert",
+   "n": "Mordhorst Syndicate (DE) + Seanus + Juurestik @ Ülase12",
+   "a": "algus 19.00; rokkpidu Ülase12-s",
+   "b": [
+    "Mordhorst Syndicate (DE)",
+    "Seanus",
+    "Juurestik"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Ülase12 (Anemon12) FB events-tab",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2504238713315001/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (Anemon12) + Ülase12 FB events-tab. Mordhorst Syndicate mängib 19.11 ka Viljandis (eraldi kirje).",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/mordhorstsyndicatedeseanusjuurestikulase12.webp",
+   "img_src": "fb:2504238713315001",
+   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "sait": "www",
@@ -2120,6 +2305,32 @@
   {
    "sait": "klubi",
    "d": "2026-11-21",
+   "t": "klubi",
+   "n": "Bar IDA: Healer Records w/ Squash & Pätt",
+   "a": "20.00–04.00; Healer Recordsi debüütaasta kolmanda vinüüli peo",
+   "b": [
+    "Squash",
+    "Pätt"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "electro"
+   ],
+   "sn": "IDA Radio FB events-tab",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1183048127483271/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event + IDA Radio FB events-tab. Seotud reliisikirje Squash «Big Motion» (HEALER003).",
+   "lisatud": "2026-11-13",
+   "img": "https://klubi.skene.info/pildid/baridahealerrecordswsquashpatt.webp",
+   "img_src": "fb:1183048127483271",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-21",
    "t": "kontsert",
    "n": "Fatboy Slim (UK)",
    "a": "Norman Cook esmakordselt Eestis — eksklusiivne show Kalosseumi saalis, algus 21.00; soojenduseks kohalikud DJd",
@@ -2172,7 +2383,9 @@
     "allikas": "knklubi.ee ürituseleht + kontaktivorm, kontrollitud 04.11.2026"
    },
    "lisatud": "2026-11-04",
-   "nb": "lisatud postkastijooksus 04.11.2026 (kontaktivorm 03.11, www-vorm, žanrid 'punk, rock'). Kaks allikat: FB event (Kilingi-Nõmme klubi, L 21.11 19.00) + venue kalender knklubi.ee (21.11 19.00-01.00, sissepääs 15 €). Koosseis: FB-lehel esimesed 4 nähtavad ('See more' taga), Seevald vormist."
+   "nb": "lisatud postkastijooksus 04.11.2026 (kontaktivorm 03.11, www-vorm, žanrid 'punk, rock'). Kaks allikat: FB event (Kilingi-Nõmme klubi, L 21.11 19.00) + venue kalender knklubi.ee (21.11 19.00-01.00, sissepääs 15 €). Koosseis: FB-lehel esimesed 4 nähtavad ('See more' taga), Seevald vormist.",
+   "img": "https://www.skene.info/pildid/klubirock2026.webp",
+   "img_src": "fb:1445267376932743"
   },
   {
    "sait": "www",
@@ -2397,7 +2610,9 @@
     "allikas": "FB event, 06.11.2026"
    },
    "nb": "lisatud sweepis 06.11.2026; sari oli klubis ka 23.10",
-   "lisatud": "2026-11-06"
+   "lisatud": "2026-11-06",
+   "img": "https://klubi.skene.info/pildid/ohmydub.webp",
+   "img_src": "fb:2258385201394071"
   },
   {
    "sait": "www",
@@ -2423,6 +2638,8 @@
    "ou": "https://www.facebook.com/events/1117503000827403/",
    "nb": "lisatud 30.10.2026 Silveri otsusega (sweepi ülevaatus). FB event (Wunderbaar) + Wunderbaari events-tab. Žanr ürituse tekstist.",
    "lisatud": "2026-10-30",
+   "img": "https://www.skene.info/pildid/augusturrkortsjakaos.webp",
+   "img_src": "fb:1117503000827403",
    "vu": "https://wunderbaar.ee/"
   },
   {
@@ -2449,7 +2666,34 @@
    "lisatud": "2026-10-09",
    "nb": "lisatud 09.10.2026. FB event (Ouu + Ans. Andur kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: Ans. Andur = Eesti indie rock'i ansambel (et.wikipedia), Ouu = indie-kollektiiv (Spotify bio). Tallinna kontserdi pilet Fienta 204809.",
    "linn": "Pärnu",
+   "img": "https://www.skene.info/pildid/eritipruunsugistuuransandurjaouuparnus.webp",
+   "img_src": "fb:1821314829025626",
    "vu": "https://www.klubitempel.ee/"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-27",
+   "t": "kontsert",
+   "n": "Legendaarne Live: Masta Robusta x Marmormaze",
+   "a": "algus 20.00",
+   "b": [
+    "Masta Robusta",
+    "Marmormaze"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Masta Robusta FB events-tab",
+   "su": "https://www.facebook.com/MastaRobusta/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/29861448380107629/",
+   "pu": "https://fienta.com/et/mastarobustaxmarmormaze",
+   "nb": "lisatud sweepis 13.11.2026. Allikad: FB event (Legendaarne Raadio + Masta Robusta) + Fienta piletileht.",
+   "lisatud": "2026-11-13",
+   "img": "https://rap.skene.info/pildid/legendaarnelivemastarobustaxmarmormaze.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
   },
   {
    "sait": "klubi",
@@ -2492,7 +2736,11 @@
    "sn": "Metal Storm (Eesti kontserdid)",
    "su": "https://metalstorm.net/events/events.php?e_where=e.country&e_what=Estonia",
    "lisatud": "2026-10-09",
-   "nb": "lisatud sweepis 09.10.2026. Kaks allikat: Varang Nordi FB-leht (tuurikuupäevad, „November 27 — Viljandi, Konservatoorium“) + Metal Storm sündmusteleht. Ürituse oma FB eventi/piletilinki ei leitud (Konservatooriumi FB events-tab näitas peidetud aknas ainult 8 esimest) → ou/pu tühjad, kontrolli järgmises sweepis.",
+   "nb": "lisatud sweepis 09.10.2026. Kaks allikat: Varang Nordi FB-leht (tuurikuupäevad, „November 27 — Viljandi, Konservatoorium“) + Metal Storm sündmusteleht. Ürituse oma FB eventi/piletilinki ei leitud (Konservatooriumi FB events-tab näitas peidetud aknas ainult 8 esimest) → ou/pu tühjad, kontrolli järgmises sweepis. | 13.11.2026 sweep: Konservatooriumi FB event leitud → ou.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/954185394054254/",
+   "img": "https://www.skene.info/pildid/varangnordlvvoicesoffreedomtour.webp",
+   "img_src": "fb:954185394054254",
    "vu": "https://www.facebook.com/konservatoorium"
   },
   {
@@ -2520,6 +2768,8 @@
    "pu": "https://ra.co/events/2537589",
    "lisatud": "2026-09-25",
    "nb": "leitud sweepis 25.09.2026 Fort bari FB events-tabist. Kaks allikat: urituse FB event (korraldajad Aircraft + Fort bar) + RA ureituseleht (L 28.11.2026 19.00–23.00, Fort Bar, Pikk 43; promootor Danyil Merkulov = artist ise), kuupaev ja koosseis kattuvad. ⚠ SAIDIVALIK ON SILVERI OTSUS 25.09.2026 („laheb metali lehele“) — urituse FB-leht zanrit ei utle ja RA pani ta elektroonika-poolele, seega sweep kusis ule. ZANR tuleb RA ureituselehe kirjeldusest, mille kirjutas artist ise: RA sildid „New Wave, Post-Punk“ + tekst „dream pop, shoegaze, synth-driven melancholy and dark electronic textures“, „atmospheric guitars, synthesizers, drum machines“. Aircraft asutatud Kiievis 2011 (Danyil Merkulov), praegu Berliinis. Hinda RA lehel ei nimetata (piletiwidgeti taga).",
+   "img": "https://www.skene.info/pildid/aircraftuadegentleropes.webp",
+   "img_src": "fb:1625942459052921",
    "vu": "https://www.facebook.com/fortbar.tallinn"
   },
   {
@@ -2577,7 +2827,9 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2197435884153881/",
    "lisatud": "2026-10-09",
-   "nb": "lisatud 09.10.2026. FB event (Ouu + Ans. Andur kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: Ans. Andur = Eesti indie rock'i ansambel (et.wikipedia), Ouu = indie-kollektiiv (Spotify bio). Tallinna kontserdi pilet Fienta 204809."
+   "nb": "lisatud 09.10.2026. FB event (Ouu + Ans. Andur kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: Ans. Andur = Eesti indie rock'i ansambel (et.wikipedia), Ouu = indie-kollektiiv (Spotify bio). Tallinna kontserdi pilet Fienta 204809.",
+   "img": "https://www.skene.info/pildid/eritipruunsugistuuransandurjaouutartus.webp",
+   "img_src": "fb:2197435884153881"
   },
   {
    "sait": "www",
@@ -2636,7 +2888,9 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1367138398654760/",
    "nb": "lisatud sweepis 06.11.2026",
-   "lisatud": "2026-11-06"
+   "lisatud": "2026-11-06",
+   "img": "https://klubi.skene.info/pildid/junglebeatimpact.webp",
+   "img_src": "fb:1367138398654760"
   },
   {
    "sait": "www",
@@ -2698,6 +2952,32 @@
    "sait": "klubi",
    "d": "2026-11-28",
    "t": "klubi",
+   "n": "MÜRK Limited @ HALL",
+   "a": "algus 23.59; „proper techno all-night-long“",
+   "b": [
+    "Artur Lääts",
+    "Harbinmoths",
+    "Hugo Mesi"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1108302332110044/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (MÜRK, HALL, Hugo Mesi) + RA snapshot (koosseis). Pilet/hind avaldamata.",
+   "lisatud": "2026-11-13",
+   "img": "https://klubi.skene.info/pildid/murklimitedhall.webp",
+   "img_src": "fb:1108302332110044",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-28",
+   "t": "klubi",
    "n": "Pulsation Estonia 2026: Metrik (UK) + Subsonic (UK)",
    "a": "White Noise Events x Slovakkia Pulsation; 22.00–06.00, Helitehas (kuni 1500 in, L'Acoustics)",
    "b": [
@@ -2751,7 +3031,9 @@
     "allikas": "FB event, 06.11.2026"
    },
    "nb": "lisatud sweepis 06.11.2026",
-   "lisatud": "2026-11-06"
+   "lisatud": "2026-11-06",
+   "img": "https://rap.skene.info/pildid/rapikaslivemaxtractdonpedro.webp",
+   "img_src": "fb:28996549440001940"
   },
   {
    "sait": "www",
@@ -2867,6 +3149,34 @@
    "sait": "www",
    "d": "2026-12-04",
    "t": "kontsert",
+   "n": "Death Rains Over Tallinn: Korpsesoturi + Indemon + Massengrab + Joy Palace",
+   "a": "algus 18.00; Secret Face Productions esitleb neli death metal bändi",
+   "b": [
+    "Korpsesoturi",
+    "Indemon",
+    "Massengrab",
+    "Joy Palace"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "death",
+    "metal"
+   ],
+   "sn": "Secret Face Productions FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1806963687181113/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (Secret Face Productions + SAAR CULT kaaskorraldajad) + SAAR CULTi FB events-tab. Pilet/hind eventis avaldamata.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/deathrainsovertallinnkorpsesoturiindemonmassengrabjoypalace.webp",
+   "img_src": "fb:1806963687181113",
+   "vu": "https://www.facebook.com/saarcult"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-04",
+   "t": "kontsert",
    "n": "EMO NIGHT 2026 - Tartu",
    "a": "live: Everfall, Pale Alison, Artifer, Bloodfeather + HMD, Parabol; vahepeal DJ-d emohittidega; algus 20.00",
    "b": [
@@ -2973,7 +3283,6 @@
    "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-feverheat-ring/",
    "on_": "thekrypt.ee",
    "ou": "https://www.thekrypt.ee/events",
-   "lisatud": "2026-11-12",
    "vu": "https://www.thekrypt.ee/"
   },
   {
@@ -3041,6 +3350,32 @@
    "nb": "leitud sweepis 25.07.2026; kinnitatud FB event + Fienta täislineup | 28.07.2026: eemaldatud DUPLIKAAT-kirje (sama üritus oli manual.json-is topelt, t='kontsert' ja t='festival'); alles jäi festivali-kirje FB-event lingiga",
    "img": "https://www.skene.info/pildid/stormovertallinnmetalfestival.webp",
    "vu": "https://www.tapper.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-12-04",
+   "t": "klubi",
+   "n": "Tjuun In (27!) — Zero T (UK)",
+   "a": "algus 23.00; Tjuun Ini 27. sünnipäev",
+   "b": [
+    "Zero T (UK)",
+    "l.eazy",
+    "to-sha"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1125493503744421/",
+   "pu": "https://gateme.com/et/halltallinn/104533-tjuun-in-27-zero-t-residents",
+   "nb": "lisatud sweepis 13.11.2026. Allikad: FB event (Tjuun In + HALL) + GateMe piletileht. Koosseis eventi tekstist (residentide täisnimekiri lühendatud).",
+   "lisatud": "2026-11-13",
+   "img": "https://klubi.skene.info/pildid/tjuunin27zerotuk.webp",
+   "vu": "https://www.facebook.com/halltallinn"
   },
   {
    "sait": "www",
@@ -3188,6 +3523,27 @@
    "img": "https://www.skene.info/pildid/sibylvanelivepubijuudas.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-12-11",
+   "t": "kontsert",
+   "n": "Karske reede: Kurjam @ LEGE",
+   "a": "algus 21.00",
+   "b": [
+    "Kurjam"
+   ],
+   "v": "Lege bar & stage",
+   "c": "Tartu",
+   "g": [
+    "punk"
+   ],
+   "sn": "LEGE FB events-tab",
+   "su": "https://www.facebook.com/legevaib/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1518548573440495/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (LEGE korraldaja) + LEGE FB events-tab. Pilet/hind eventis avaldamata.",
+   "lisatud": "2026-11-13"
+  },
+  {
    "sait": "klubi",
    "d": "2026-12-11",
    "t": "klubi",
@@ -3304,6 +3660,7 @@
     "Epäkristus (FIN)",
     "Pedigree",
     "Tinner (AX)",
+    "Kõdu (EE/IT)",
     "Scythrow (FI)",
     "Face Collector",
     "Nuclear Conflict (UA/LV)",
@@ -3319,8 +3676,7 @@
    ],
    "sn": "IG @sugisextremefest",
    "su": "https://www.instagram.com/sugisextremefest/",
-   "koosseis_tba": 1,
-   "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb. | 09.10.2026 järelkäik: Fienta lehel koosseis +PEDIGREE (EE, industrial metal), +TINNER (AX, d-beat/crust); „more band announcements coming soon“. | 16.10.2026 sweep: rikastatud (ou, b+Scythrow (FI)). | 23.10.2026 sweep (samm 2b): Fienta koosseisus ka FACE COLLECTOR (EE, death/grind) - lisatud b-sse; hind alates 35 € (Fienta). | 30.10.2026 sweep: rikastatud (b).",
+   "nb": "28.08.2026 sweep: TBA jaab kehtima. IG @sugisextremefest bio utleb endiselt ainult „Fourth edition: December 2026“, tapset kuupaeva ega koosseisu ei ole avaldatud; The Krypti FB events-tabis (kontrollitud 28.08) detsembri kirjet ei ole. Jargmine kontroll: jargmine sweep. | 02.10.2026 sweep (samm 2b): KUUPÄEV KINNITATUD — IG bio („4th edition: 11-12 December 2026\") + Fienta piletileht (R 11.12 18:00 → L 12.12); `tba` maha. Koosseisust avaldatud 2 nime (Draugveil, Epäkristus), „more band announcements coming soon\" → koosseis_tba jääb. | 09.10.2026 järelkäik: Fienta lehel koosseis +PEDIGREE (EE, industrial metal), +TINNER (AX, d-beat/crust); „more band announcements coming soon“. | 16.10.2026 sweep: rikastatud (ou, b+Scythrow (FI)). | 23.10.2026 sweep (samm 2b): Fienta koosseisus ka FACE COLLECTOR (EE, death/grind) - lisatud b-sse; hind alates 35 € (Fienta). | 30.10.2026 sweep: rikastatud (b). | 13.11.2026 sweep (2b): Fienta koosseisus 10 bändi → lisatud Kõdu (EE/IT); koosseis_tba maha; pu + ou.",
    "d2": "12.12",
    "pu": "https://fienta.com/et/sugis-extreme-fest-4",
    "img": "https://www.skene.info/pildid/sugisextremefestiv.webp",
@@ -3549,6 +3905,31 @@
    "sait": "www",
    "d": "2026-12-18",
    "t": "kontsert",
+   "n": "DND + Pettunud Kodanik + Meelis „Hainz“ Hainsoo",
+   "a": "uksed 20.00; DND aasta viimane kontsert, Hainz akustilise soolokavaga",
+   "b": [
+    "DND",
+    "Pettunud Kodanik",
+    "Meelis „Hainz“ Hainsoo"
+   ],
+   "v": "Genialistide Klubi",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Tour Motor",
+   "su": "https://tourmotor.net/event/dnd-pettunud-kodanik-meelis-hainz-hainsoo-genialistide-klubi-tartu-141",
+   "pu": "https://tourmotor.net/event/list/tickets/141",
+   "nb": "lisatud sweepis 13.11.2026 Tour Motori lehelt (REEGLID §3 piletimüügi erand; korraldaja Gramophonetree Records). Hind kontrollimata.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/dndpettunudkodanikmeelishainzhainsoo.webp",
+   "vu": "https://genklubi.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-18",
+   "t": "kontsert",
    "n": "Lein + Northwind + Vasari (FI) + Grom — Five Swords of Damnation Tour '26",
    "a": "Leina tuur; bändi ainus Eesti kontsert 2026. aasta lõpuni ja esimene täiskoosseisus kodulinna-kontsert üle aasta",
    "b": [
@@ -3566,7 +3947,9 @@
    "sn": "IG @lein_bm",
    "su": "https://www.instagram.com/p/Deoz-BhIPhM/",
    "lisatud": "2026-10-18",
-   "nb": "lisatud 18.10.2026 Silveri sisendist (Leina IG tuuripostitus 18.10, Tallinna koosseis: Lein, Northwind, Vasari, Grom). FB eventi ja piletilinki 18.10 veel polnud — SAAR CULTi FB events-tab ei näidanud. Žanrid: Lein = black metal (IG handle lein_bm), Grom = Eesti black metal (Krypti/huvi.tallinn.ee kirjeldused), Vasari = Lohja (FI) extreme/black metal (Last.fm bio); Northwindi päritolu/žanr EI ole otseallikast kinnitatud. Kellaaeg ja hind avaldamata.",
+   "nb": "lisatud 18.10.2026 Silveri sisendist (Leina IG tuuripostitus 18.10, Tallinna koosseis: Lein, Northwind, Vasari, Grom). FB eventi ja piletilinki 18.10 veel polnud — SAAR CULTi FB events-tab ei näidanud. Žanrid: Lein = black metal (IG handle lein_bm), Grom = Eesti black metal (Krypti/huvi.tallinn.ee kirjeldused), Vasari = Lohja (FI) extreme/black metal (Last.fm bio); Northwindi päritolu/žanr EI ole otseallikast kinnitatud. Kellaaeg ja hind avaldamata. | 13.11.2026 sweep: FB event leitud (Secret Face Productions + SAAR CULT) → ou.",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1009834855498051/",
    "vu": "https://www.facebook.com/saarcult"
   },
   {
@@ -3628,6 +4011,7 @@
    },
    "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '2. sisse'); ou = 16+ FB event, su = 0+ FB event (GateMe 104517); 16+ kellaaeg FB-s ebaselge (3 AM), seepärast mitte märgitud",
    "lisatud": "2026-11-06",
+   "img": "https://rap.skene.info/pildid/nnprodigyboysloteyjplathelitehas.webp",
    "vu": "https://helitehas.ee/"
   },
   {
@@ -3648,9 +4032,11 @@
    "sn": "Ticketer",
    "su": "https://www.ticketer.ee/villu-63-torva/",
    "pu": "https://www.ticketer.ee/villu-63-torva/",
-   "nb": "lisatud sweepis 30.10.2026 Ticketeri esilehelt (sama sari mis 12.12 Räpina). REEGLID §3 piletimüügi erand. Hind kontrollimata.",
+   "nb": "lisatud sweepis 30.10.2026 Ticketeri esilehelt (sama sari mis 12.12 Räpina). REEGLID §3 piletimüügi erand. Hind kontrollimata. | 13.11.2026 sweep: Pubi Juudase FB event → ou.",
    "lisatud": "2026-10-30",
-   "img": "https://www.skene.info/pildid/villu63torva.webp"
+   "img": "https://www.skene.info/pildid/villu63torva.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2123843698500365/"
   },
   {
    "sait": "rap",
@@ -4208,6 +4594,28 @@
   },
   {
    "sait": "klubi",
+   "d": "2027-03-12",
+   "t": "klubi",
+   "n": "Hybrid Minds (UK) — EU Tour",
+   "a": "23.00–04.00",
+   "b": [
+    "Hybrid Minds (UK)"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Planeet FB events-tab",
+   "su": "https://www.facebook.com/AudioPlaneet/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1129724306430368/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (D3, Hybrid Minds, Planeet kaaskorraldajad) + Planeedi FB events-tab. Pilet avaldamata.",
+   "lisatud": "2026-11-13",
+   "vu": "https://www.d-3.ee/"
+  },
+  {
+   "sait": "klubi",
    "d": "2027-03-19",
    "t": "klubi",
    "n": "Pendulum DJ set (AUS)",
@@ -4455,7 +4863,8 @@
    "ou": "https://www.facebook.com/events/1821766218960572/",
    "pu": "https://www.piletitasku.ee/et/event/10595",
    "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '3. sisse') - piiripealne peavoolu areenirokk, erand; 2. allikas Piletitasku (korraldaja Baltic Live Agency)",
-   "lisatud": "2026-11-06"
+   "lisatud": "2026-11-06",
+   "img": "https://www.skene.info/pildid/thirtysecondstomarsusaabeautifullievsthisiswar.webp"
   },
   {
    "sait": "www",

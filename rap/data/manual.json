@@ -552,7 +552,9 @@
    "allikas": "FB event, 06.11.2026"
   },
   "nb": "lisatud sweepis 06.11.2026",
-  "lisatud": "2026-11-06"
+  "lisatud": "2026-11-06",
+  "img": "pildid/rapikaslivemaxtractdonpedro.webp",
+  "img_src": "fb:28996549440001940"
  },
  {
   "d": "2026-12-19",
@@ -602,34 +604,95 @@
    "allikas": "FB event 16+, 06.11.2026"
   },
   "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '2. sisse'); ou = 16+ FB event, su = 0+ FB event (GateMe 104517); 16+ kellaaeg FB-s ebaselge (3 AM), seepärast mitte märgitud",
-  "lisatud": "2026-11-06"
+  "lisatud": "2026-11-06",
+  "img": "pildid/nnprodigyboysloteyjplathelitehas.webp"
  },
  {
-  "d": "2026-12-18",
-  "t": "kontsert",
-  "n": "N&N, PRODIGYBOYS, LOTEY, JP&L at HELITEHAS",
-  "a": "kaks seanssi: 0+ kl 18.00 ja 16+ hiline seanss; piletid müügil alates 09.11 (tava 10-12 €, VIP 16-18 €, hind tõuseb)",
+  "d": "2026-11-14",
+  "t": "klubi",
+  "n": "Check One Two @ Legendaarne Raadio",
+  "a": "algus 22.00; Eesti kõige kauem kestnud räpiteemaline sariüritus",
   "b": [
-   "Noored ja Näljased",
-   "Prodigyboys",
-   "Lotey",
-   "Jooseppro & Lennu"
+   "DJ Quest",
+   "Paul Oja"
   ],
-  "v": "Helitehas",
+  "v": "Legendaarne Raadio & Baar",
   "c": "Tallinn",
   "g": [
    "hiphop"
   ],
-  "sn": "Helitehas FB events-tab",
-  "su": "https://www.facebook.com/events/2146926486031935/",
+  "sn": "Legendaarne Raadio FB events-tab",
+  "su": "https://www.facebook.com/LegendaarneRaadio/events",
   "on_": "Facebook event",
-  "ou": "https://www.facebook.com/events/1648847702923713/",
-  "pu": "https://gateme.com/et/helitehas/104518",
-  "hind": {
-   "praegu": "Hommik 10 €, Lõuna 12 €, Early VIP 16 €, Regular VIP 18 € (hiljem kallim)",
-   "allikas": "FB event 16+, 06.11.2026"
-  },
-  "nb": "lisatud 06.11.2026 SILVERI OTSUSEL (vastus '2. sisse'); ou = 16+ FB event, su = 0+ FB event (GateMe 104517); 16+ kellaaeg FB-s ebaselge (3 AM), seepärast mitte märgitud",
-  "lisatud": "2026-11-06"
+  "ou": "https://www.facebook.com/events/2430071284197275/",
+  "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (Legendaarne Raadio, DJ Quest, paul oja) + Legendaarne Raadio FB events-tab.",
+  "lisatud": "2026-11-13",
+  "img": "pildid/checkonetwolegendaarneraadio.webp",
+  "img_src": "fb:2430071284197275"
+ },
+ {
+  "d": "2026-11-27",
+  "t": "kontsert",
+  "n": "Legendaarne Live: Masta Robusta x Marmormaze",
+  "a": "algus 20.00",
+  "b": [
+   "Masta Robusta",
+   "Marmormaze"
+  ],
+  "v": "Legendaarne Raadio & Baar",
+  "c": "Tallinn",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Masta Robusta FB events-tab",
+  "su": "https://www.facebook.com/MastaRobusta/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/29861448380107629/",
+  "pu": "https://fienta.com/et/mastarobustaxmarmormaze",
+  "nb": "lisatud sweepis 13.11.2026. Allikad: FB event (Legendaarne Raadio + Masta Robusta) + Fienta piletileht.",
+  "lisatud": "2026-11-13",
+  "img": "pildid/legendaarnelivemastarobustaxmarmormaze.webp"
+ },
+ {
+  "d": "2026-11-14",
+  "t": "klubi",
+  "n": "Bar IDA — Prodigyboys (DJ-set)",
+  "a": "22.00–04.00; uue plaadi «Moosekandid» järel DJ-set, all night long",
+  "b": [
+   "Prodigyboys"
+  ],
+  "v": "Bar IDA",
+  "c": "Tallinn",
+  "g": [
+   "hiphop"
+  ],
+  "sn": "IDA Radio FB events-tab",
+  "su": "https://www.facebook.com/IDARadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2215303192703358/",
+  "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event + IDA Radio FB events-tab.",
+  "lisatud": "2026-11-13",
+  "img": "pildid/baridaprodigyboysdjset.webp",
+  "img_src": "fb:2215303192703358"
+ },
+ {
+  "d": "2026-10-09",
+  "t": "reliis",
+  "rel": 1,
+  "n": "emaj6eflow — «Tuhk & Tolm» LP",
+  "a": "Tartu lüüriline hiphop / boombap",
+  "b": [
+   "emaj6eflow"
+  ],
+  "g": [
+   "hiphop"
+  ],
+  "sn": "Bandcamp discover (Eesti hip-hop)",
+  "su": "https://bandcamp.com/discover/estonia?tags=hip-hop&s=new",
+  "on_": "Bandcamp",
+  "ou": "https://emaj6eflow.bandcamp.com/album/tuhk-tolm-lp",
+  "nb": "lisatud sweepis 13.11.2026. Bandcamp: released October 9, 2026; asukoht Tartu; sildid lyrical hip-hop, boombap, estonian.",
+  "lisatud": "2026-11-13",
+  "img": "pildid/emaj6eflowtuhktolmlp.webp"
  }
 ]
