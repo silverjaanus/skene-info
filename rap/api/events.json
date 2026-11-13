@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 199,
+ "count": 203,
  "entries": [
   {
    "sait": "www",
@@ -2554,6 +2554,61 @@
   },
   {
    "sait": "www",
+   "d": "2026-11-22",
+   "t": "kontsert",
+   "n": "Skoone — Mexico Tour Aftermath (AV show)",
+   "a": "algus 19.00; live + Mehhiko tuuril filmitud materjal suurel ekraanil; külalisesinejad avalikustamisel",
+   "b": [
+    "Skoone"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Damn.Loud Agency FB events-tab",
+   "su": "https://www.facebook.com/we.are.too.damn.loud/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1437586191896785/",
+   "hind": {
+    "praegu": "annetuspõhine sissepääs",
+    "allikas": "FB event, kontrollitud 13.11.2026"
+   },
+   "nb": "lisatud 13.11.2026. Kaks allikat: FB event (Damn.Loud + Paavli) + Damn.Loud FB events-tab. Ürituse tekst: 80ndate hardcore punk. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/skoonemexicotouraftermathavshow.webp",
+   "img_src": "fb:1437586191896785",
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-26",
+   "t": "kontsert",
+   "n": "Likane Leppäne (FIN) + Avemaria + Halb Päev @ Ülase12",
+   "a": "algus 19.00",
+   "b": [
+    "Likane Leppäne (FIN)",
+    "Avemaria",
+    "Halb Päev"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "Ülase12 (Anemon12) FB events-tab",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1621591452222504/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (Anemon12 + Riste Sofie Käär) + Ülase12 FB events-tab. classify.py pakkus Likane Leppänele räppi (Soome noise-rap); jääb peasaidile. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/likaneleppanefinavemariahalbpaevulase12.webp",
+   "img_src": "fb:1621591452222504",
+   "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "sait": "www",
    "d": "2026-11-26",
    "t": "kontsert",
    "n": "Wyatt E. (BE) + Five The Hierophant (UK)",
@@ -2862,6 +2917,32 @@
    "img": "https://www.skene.info/pildid/folkmetalsaturdayvarangnordlvrunaoja.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-11-28",
+   "t": "kontsert",
+   "n": "HU? + EiK @ Kultuurikatel",
+   "a": "uksed 19.00; EiK 21.00, HU? 22.15; DJ-d Inga Vatsk-Laasner ja Paul Oja; VÄLJA MÜÜDUD",
+   "b": [
+    "HU?",
+    "EiK"
+   ],
+   "v": "Kultuurikatel",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2357104215115220/",
+   "nb": "lisatud 13.11.2026. Kaks allikat: FB event (HU?, Kultuurikatel jt) + Rada7 events-tab. Üritus on välja müüdud. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/hueikkultuurikatel.webp",
+   "img_src": "fb:2357104215115220",
+   "vu": "https://kultuurikatel.ee/"
+  },
+  {
    "sait": "klubi",
    "d": "2026-11-28",
    "t": "klubi",
@@ -3122,6 +3203,32 @@
    "a": "Itaalia elektroonilise metali projekt (chiptune + sünteesitud heavy metal), täiskoosseis kitarride, trummide ja CRT-monitoridega; Fulci = Lucio Fulci õudusfilmidele pühendatud death metal; arottenbit = Game Boy'ga tehtud sludge/hardcore/techno",
    "img": "https://www.skene.info/pildid/masterbootrecordfulciarottenbit.webp",
    "vu": "https://www.tapper.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-03",
+   "t": "kontsert",
+   "n": "Frankie Animal «Hearts» albumiesitlus",
+   "a": "uksed 20.00, Frankie Animal 21.00; kolmas täispikk album ilmus 11.11",
+   "b": [
+    "Frankie Animal"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1292189716366338/",
+   "pu": "https://sviby.com/et/e/9bdofd",
+   "nb": "lisatud 13.11.2026. Allikad: FB event (Frankie Animal + Paavli) + Sviby piletileht + Rada7 events-tab. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile.",
+   "lisatud": "2026-11-13",
+   "img": "https://www.skene.info/pildid/frankieanimalheartsalbumiesitlus.webp",
+   "img_src": "fb:1292189716366338",
+   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
