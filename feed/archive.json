@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 590,
+ "count": 611,
  "entries": [
   {
    "sait": "www",
@@ -16294,6 +16294,633 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1505236101107317/",
    "vu": "https://vonkrahl.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "4 THE RECORD: Rony Rex b2b Wuf (FI)",
+   "a": "Klubi Neli novembri 4 THE RECORD; uksed 21.00; Club Side: house ja techno, Living Room: disco, funk, house, alt-pop; 20+",
+   "b": [
+    "Rony Rex (FI)",
+    "Wuf (FI)",
+    "Dr.PhilGood",
+    "the.accountant"
+   ],
+   "v": "Klubi Neli",
+   "c": "Tartu",
+   "g": [
+    "house",
+    "techno",
+    "disco"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/2f246d3f-80c0-4678-9443-97ad23fbc2a1",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1120139770388773/",
+   "pu": "https://gateme.com/et/klubineli/104505-4-the-record-i-klubi-neli-i-1311/",
+   "hind": {
+    "praegu": "21-23 tasuta, 23-01 5 €, alates 01 9 €, Fast Track 15 €",
+    "allikas": "klubineli.ee ürituseleht, kontrollitud 08.11.2026"
+   },
+   "lisatud": "2026-11-08",
+   "nb": "lisatud postkastijooksus 08.11.2026 (kluub.ee samm 2c). Kaks allikat: klubineli.ee ürituseleht (https://klubineli.ee/event/4-the-record-i-klubi-neli-i-13-11/) + kluub.ee (FB eventi peegel). Žanrid ürituse enda tekstist. Eraldi üritus Glitch Club: Rony Rex 14.11 Fonoteek (Tallinn).",
+   "img": "https://klubi.skene.info/pildid/4therecordronyrexb2bwuffi.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "Bad Jam w/ Trigga @ Wunderbaar",
+   "a": "viimane Bad Jam Wunderbaaris; classic & upfront R&B, hip-hop, afro & dancehall; 22.00–04.00; 18+",
+   "b": [
+    "DJ Bad J",
+    "Trigga"
+   ],
+   "v": "Wunderbaar",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Wunderbaar FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/28938778719064025/",
+   "hind": {
+    "praegu": "kuni 23.00 5 €, hiljem 10 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026; Bad Jam sari on rap-saidil",
+   "lisatud": "2026-11-06",
+   "img": "https://rap.skene.info/pildid/badjamwtriggawunderbaar.webp",
+   "img_src": "fb:28938778719064025",
+   "vu": "https://wunderbaar.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "Beats From The Vault — Rakvere",
+   "a": "kell 22.00–04.00; tumemuusika tantsupidu, esimest korda Rakveres",
+   "b": [
+    "Cly/Suva",
+    "4-got-10",
+    "Numbskull"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "dark",
+    "ebm",
+    "darkwave"
+   ],
+   "sn": "Kära Kants FB grupi events-tab",
+   "su": "https://www.facebook.com/groups/112392415448166/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1116335844587618/",
+   "yu": "https://www.youtube.com/beatsfromthevault",
+   "hind": {
+    "praegu": "7€ klubikaardiga kuni südaööni / 9€",
+    "mark": "uksel",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (Oleg Knjazev, Anders Melts) + Kära Kantsi events-tab. BFTV sari on klubi-saidil (metal-blocklistis nimeblokk).",
+   "lisatud": "2026-10-30",
+   "img": "https://klubi.skene.info/pildid/beatsfromthevaultrakvere.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Benakanister",
+   "a": "uksed 20.00, DJ Mehkel 22.00, Benakanister live 23.00–00.00 + üllatusesinejad; album «Kroomitud» müügil",
+   "b": [
+    "Benakanister",
+    "DJ Mehkel"
+   ],
+   "v": "Kivi baar",
+   "c": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Kivi baari FB events-tab",
+   "su": "https://www.facebook.com/kivibaar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2403780643755236/",
+   "hind": {
+    "praegu": "tasuta",
+    "mark": "",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab.",
+   "lisatud": "2026-10-30",
+   "img": "https://rap.skene.info/pildid/benakanister.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "muu",
+   "n": "Bowie x 3: DJ Rhythm Doctor: Confidants and Familiars",
+   "a": "20.00–22.00; Bowie plaadiõhtu (DJ mängib plaate, mitte live-kontsert) BOWIE x SUKITA näituse raames; sissepääs näituse piletiga",
+   "b": [
+    "DJ Rhythm Doctor"
+   ],
+   "v": "PoCo popkunstimuuseum",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2855585781491142/",
+   "pu": "https://www.piletilevi.ee/piletid/EVALMS3H5U/bowie-x-3-dj-rhythm-doctor-confidants-and-familiars",
+   "hind": {
+    "praegu": "15 € (näituse pilet)",
+    "mark": "",
+    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
+   },
+   "lisatud": "2026-11-05",
+   "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent.",
+   "img": "https://www.skene.info/pildid/bowiex3djrhythmdoctorconfidantsandfamiliars.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "COMPRESS RAVE x HALL (only techno)",
+   "a": "23.00–07.00, HALL Mesila lava; 18+",
+   "b": [
+    "Rawkored (LV)",
+    "Bery (GE)",
+    "Sugar Rody b2b Wataru Yoshimoto (JP)",
+    "Meelis Vili b2b L21 (GE)",
+    "Lisette"
+   ],
+   "v": "HALL",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "HALL FB events-tab",
+   "su": "https://www.facebook.com/halltallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1448929444082990/",
+   "pu": "https://gateme.com/et/halltallinn/104515-compress-rave-x-hall-only-techno",
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas GateMe",
+   "lisatud": "2026-11-06",
+   "img": "https://klubi.skene.info/pildid/compressravexhallonlytechno.webp",
+   "vu": "https://www.facebook.com/halltallinn"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "Dreamscape Club Night: Kode9 (UK / Hyperdub)",
+   "a": "Dreamscape toob Tallinna Hyperdubi asutaja Kode9",
+   "b": [
+    "Kode9 (UK)",
+    "Silvia Kastel",
+    "Gary Gwadera",
+    "Type1",
+    "Nikolajev",
+    "Susanna Raiend",
+    "Wash Electra",
+    "Adel Force"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "bass",
+    "dub",
+    "electro",
+    "techno"
+   ],
+   "sn": "Paavli Kultuurivabrik (paavli.ee)",
+   "su": "https://paavli.ee/sundmused/",
+   "on_": "Resident Advisor",
+   "ou": "https://ra.co/events/2537635",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: RA ürituseleht 2537635 (žanrid Bass/Footwork) + paavli.ee sündmuste kava. Sama korraldaja teeb Dreamscape Festivali 12.–14.03.2027 (juba saidil). Pilet/uksehind avaldamata. | 09.10.2026 sweep: täiskoosseis RA ürituselehelt (ra.co/events/2537635, snapshot 08.10). | 23.10.2026 sweep: pu + hind Fientast. | RIKASTUS 11.11.2026 (postkastijooks): Paavli enda uudiskiri 11.11 lisab koosseisu Adel Force (RA-l veel TBA kohal); visuaalid ando.src, celestica, Keitlyn Kruus; uksed 23.00.",
+   "img": "https://klubi.skene.info/pildid/dreamscapeclubnightkode9ukhyperdub.webp",
+   "pu": "https://fienta.com/dreamscape-club-night-kode9-uk-hyperdub",
+   "hind": {
+    "praegu": "alates 15 €",
+    "allikas": "Fienta (API), kontrollitud 23.10.2026"
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Eriti Pruun Sügistuur: Ans. Andur ja Ouu Viljandis",
+   "a": "Ans. Andur + Ouu ühine sügistuur (13.11 Viljandi, 14.11 Tallinn, 27.11 Pärnu, 28.11 Tartu)",
+   "b": [
+    "Ans. Andur",
+    "Ouu"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "g": [
+    "indie",
+    "rock",
+    "alt"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1789793645700808/",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026. FB event (Ouu + Ans. Andur kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: Ans. Andur = Eesti indie rock'i ansambel (et.wikipedia), Ouu = indie-kollektiiv (Spotify bio). Tallinna kontserdi pilet Fienta 204809.",
+   "linn": "Viljandi",
+   "img": "https://www.skene.info/pildid/eritipruunsugistuuransandurjaouuviljandis.webp",
+   "img_src": "fb:1789793645700808",
+   "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Function X: S.I.N – Critical – Dzheimz & Ninja – Slavin",
+   "a": "90ndate lõpu / 2000ndate alguse Eesti jungle ja drum’n’bassi meenutusõhtu; 22.00–04.00",
+   "b": [
+    "S.I.N",
+    "Critical",
+    "Dzheimz & Ninja",
+    "Slavin"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "dnb",
+    "jungle"
+   ],
+   "sn": "AllEvents Tallinn (raves)",
+   "su": "https://allevents.in/tallinn/raves",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2381785489223622/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (IDA Radio) + IDA Radio FB events-tab + AllEvents. Žanr ürituse tekstist.",
+   "img": "https://klubi.skene.info/pildid/functionxsincriticaldzheimzninjaslavin.webp",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Fuzzbitten Fall Tour 2026: Mount Palatine + Tectonic Shifts + Fhtagn + Thousand Hands",
+   "a": "'Fuzz, psych and crushingly heavy'; algus 19.00",
+   "b": [
+    "Mount Palatine (FI)",
+    "Tectonic Shifts (FI)",
+    "Fhtagn",
+    "Thousand Hands"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "stoner",
+    "doom",
+    "metal"
+   ],
+   "sn": "Secret Face Productions FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=61562829254036&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1118078020585975/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Tectonic Shifts, SAAR CULT, Secret Face Productions jt) + SAAR CULTi FB events-tab. Žanr ürituse tekstist: Mount Palatine 'heavy psych metal', Tectonic Shifts 'stonerdoom'. Tuuri Tartu kuupäev 14.11 Hellis eraldi kirjena. Pilet avaldamata.",
+   "img": "https://www.skene.info/pildid/fuzzbittenfalltour2026mountpalatinetectonicshiftsfhtagnthousandhands.webp",
+   "img_src": "fb:1118078020585975",
+   "vu": "https://www.facebook.com/saarcult"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "Hämar Raamatukogu: Hea muusika pidu",
+   "a": "reede 13. pidu huba.club'is 22.00-03.00; cata (US): dnb, house, techno, UK garage, footwork; Metsiknaine (Tartu)",
+   "b": [
+    "Metsiknaine",
+    "cata (US)"
+   ],
+   "v": "huba.club",
+   "c": "Tartu",
+   "g": [
+    "dnb",
+    "house",
+    "techno"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tartu/e7bd4f9d-4ea0-499d-8cf2-9eacd4ca41a5",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/998488245924244",
+   "pu": "https://fienta.com/et/hamar-raamatukogu-hea-muusika-pidu",
+   "hind": {
+    "praegu": "6 € eelmüük / 8 € kohapeal (ainult sularaha)",
+    "allikas": "FB event (kluub.ee peegel), kontrollitud 30.10.2026"
+   },
+   "lisatud": "2026-10-30",
+   "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Allikad: FB event + Fienta piletileht + kluub.ee. Žanrid ürituse tekstist (cata tutvustus). | 08.11.2026 postkastijooks: ÜHENDATUD topeltkirjega (sama FB event 998488245924244, lisatud 30.10 Silveri otsusega, sn Huba Club FB events-tab).",
+   "img": "https://klubi.skene.info/pildid/hamarraamatukoguheamuusikapidu.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Kantri Guidu Bänd & Konfliktor Tartu kontsert",
+   "a": "mõlema bändi esimene Tartu kontsert: Kantri Guidu Bänd (lindpriisült — country, surf, garage rock, folkpunk; LP «Lappa kotte») ja Konfliktor (punk, alternatiivrokk, indie, psühhedeelia; EP «Diivanil elatud elu»); algus 21.00",
+   "b": [
+    "Kantri Guidu Bänd",
+    "Konfliktor"
+   ],
+   "v": "Lege bar & stage",
+   "c": "Tartu",
+   "g": [
+    "punk",
+    "rock",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/legevaib/upcoming_hosted_events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2002483593771680",
+   "hind": {
+    "praegu": "10 €",
+    "allikas": "FB event, kontrollitud 10.11.2026",
+    "mark": "ürituse tekst: „algus 21:00 / Pilet 10“"
+   },
+   "lisatud": "2026-11-10",
+   "nb": "lisatud postkastijooksus 10.11.2026 kontaktivormist (09.11, www-vorm, „punk, alternative rock, schlager, indie, rock“). Kaks allikat: FB event (korraldajad Kantri Guidu, Konfliktor, LEGE) + LEGE FB events-tab. Žanrid ürituse enda tekstist. NB: FB event näitab aadressi Rüütli 5, Lege lehel muud üritused Küütri 7 — koht 'Lege bar & stage' mõlemal. Varasem kirje sama koosseisuga 30.10 Kinomaja (Tallinn) on eraldi üritus.",
+   "img": "https://www.skene.info/pildid/kantriguidubandkonfliktortartukontsert.webp",
+   "img_src": "fb:2002483593771680"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Laine Live: Chauncy (DE/UA)",
+   "a": "Berliini alt-rock bänd; 19.00–23.00; korraldaja Art of Mosh",
+   "b": [
+    "Chauncy (DE/UA)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "Fienta rock-otsing",
+   "su": "https://fienta.com/et?q=rock",
+   "pu": "https://fienta.com/et/laine-live-chauncy-de-ua",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Art of Mosh OÜ): „alternative rock band based in Berlin ... heavy guitars“. | 30.10.2026 sweep: rikastatud (ou, on_).",
+   "img": "https://www.skene.info/pildid/lainelivechauncydeua.webp",
+   "ou": "https://www.facebook.com/events/2116800965889995/",
+   "on_": "Facebook event",
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Metal Friday: Portread + Mad Road",
+   "a": "Portreadi albumi «The Unthinkable» esmaesitlus; uksed 20.00, show 22.00",
+   "b": [
+    "Portread",
+    "Mad Road"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "symphonic",
+    "metal",
+    "heavy"
+   ],
+   "sn": "Eesti metallistid FB events-tab",
+   "su": "https://www.facebook.com/metallistid/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2161888684394713/",
+   "pu": "https://fienta.com/et/portread-madroad-thekrypt",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event + Fienta piletileht. Žanr Fienta tekstist (Portread = sümfooniline metal, Mad Road = heavy metal).",
+   "img": "https://www.skene.info/pildid/metalfridayportreadmadroad.webp",
+   "vu": "https://www.thekrypt.ee/"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Naistekas: räpp ja reiv",
+   "a": "kaheosaline: räpp (family friendly) + reiv (adults only); SinSilja videosingli «Kõhuplastika» esitlus; uksed 20.00",
+   "b": [
+    "SinSilja",
+    "Luulediiler",
+    "Tiiu",
+    "Killing Sinatra",
+    "NEOONDREED"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/naistekas-rapp-ja-reiv",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/27803554589321814/",
+   "pu": "https://fienta.com/et/naistekas-rapp-ja-reiv",
+   "hind": {
+    "praegu": "13 € kohapeal",
+    "allikas": "Fienta tekst, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Legendaarne Raadio) + Fienta piletileht (R 13.11 20:00 – 04:00). Žanr ürituse tekstist: „räpp ja reiv\". ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII rap/data/manual.json KUI klubi/data/manual.json failis — hoia n, d, ou mõlemas identsed.",
+   "img": "https://rap.skene.info/pildid/naistekasrappjareiv.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Naistekas: räpp ja reiv",
+   "a": "kaheosaline: räpp (family friendly) + reiv (adults only); SinSilja videosingli «Kõhuplastika» esitlus; uksed 20.00",
+   "b": [
+    "SinSilja",
+    "Luulediiler",
+    "Tiiu",
+    "Killing Sinatra",
+    "NEOONDREED"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "techno"
+   ],
+   "sn": "Fienta",
+   "su": "https://fienta.com/et/naistekas-rapp-ja-reiv",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/27803554589321814/",
+   "pu": "https://fienta.com/et/naistekas-rapp-ja-reiv",
+   "hind": {
+    "praegu": "13 € kohapeal",
+    "allikas": "Fienta tekst, kontrollitud 02.10.2026"
+   },
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Legendaarne Raadio) + Fienta piletileht (R 13.11 20:00 – 04:00). Žanr ürituse tekstist: „räpp ja reiv\". ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII rap/data/manual.json KUI klubi/data/manual.json failis — hoia n, d, ou mõlemas identsed. Klubi-poole silt: reivi osa (Killing Sinatra, NEOONDREED – techno).",
+   "img": "https://klubi.skene.info/pildid/naistekasrappjareiv.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Nohkarid + PBM",
+   "a": "uksed 21.00, PBM 21.30, Nohkarid 22.00; Nohkarid — funk-punk, PBM — klassikalise roki juurtega",
+   "b": [
+    "Nohkarid",
+    "PBM"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Kidrakuur FB events-tab",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1373062194908803/",
+   "hind": {
+    "praegu": "10€",
+    "mark": "ainult sularaha uksel",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kidrakuuri FB events-tab. Žanrid ürituse enda kirjeldusest.",
+   "lisatud": "2026-10-30",
+   "img": "https://www.skene.info/pildid/nohkaridpbm.webp",
+   "vu": "https://kidrakuur.ee/"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "PILVEPIIR #FOFKIN",
+   "a": "räpikontsert noortele Kevin Polli (Fofkin) mälestuseks; Kadrina huvikeskus 19.00–22.30; esinejad selguvad",
+   "b": [],
+   "koosseis_tba": 1,
+   "v": "Kadrina huvikeskus",
+   "c": "mujal",
+   "linn": "Kadrina",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Masta Robusta FB events-tab",
+   "su": "https://www.facebook.com/MastaRobusta/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1392205469794718/",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Kadrina Kultuurikoda + Masta Robusta jt) + Masta Robusta FB events-tab. Žanr ürituse tekstist („korralik räpikontsert“). Koosseis „juba varsti“ → koosseis_tba.",
+   "img": "https://rap.skene.info/pildid/pilvepiirfofkin.webp",
+   "img_src": "fb:1392205469794718"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Pink Turns Blue (DE)",
+   "a": "1985. aastast tegutsev Saksa post-punk / darkwave klassika, algus 19.00",
+   "b": [
+    "Pink Turns Blue"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "goth",
+    "darkwave",
+    "alt"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/pink-turns-blue-de/",
+   "on_": "Ametlik leht",
+   "ou": "https://paavli.ee/sundmused/pink-turns-blue-de/",
+   "pu": "https://fienta.com/et/pink-turns-blue-paavli-tallinn",
+   "lisatud": "2026-09-04",
+   "nb": "lisatud sweepis 04.09.2026. Kaks allikat: paavli.ee urituseleht + Fienta piletileht (ka Paavli Fienta org-leht 17595). ZANRIOTSUS: post-punk/darkwave kitarribandina peasaidile (REEGLID §1: gothic rock -> www); electro-industrial telg oleks klubi.",
+   "img": "https://www.skene.info/pildid/pinkturnsbluede.webp",
+   "hind": {
+    "praegu": "15–30 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-13",
+   "t": "kontsert",
+   "n": "Solidarity with Ukraine: heategevuskontsert",
+   "a": "algus 17.00; kõik tulud Solidarity Collectives talvekampaaniale (elekter, soojustus, magamiskotid Ukrainasse)",
+   "b": [
+    "Mittekunagimaa",
+    "Huiabella Fantastica",
+    "Thousand Hands",
+    "Väntajad",
+    "Laiendatud Perekond",
+    "STD",
+    "Meelu Keeme",
+    "BT",
+    "Klostriid"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/1945101d-a0c0-45c4-8614-210eadead3a5",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1839279490532282",
+   "hind": {
+    "praegu": "vähemalt 10€ (annetus)",
+    "mark": "uksel",
+    "allikas": "kluub.ee/FB event, kontrollitud 09.11.2026"
+   },
+   "nb": "lisatud postkastijooksul 09.11.2026 (samm 2c). Kaks allikat: kluub.ee + FB event (Anemon12, R 13.11 kell 17, Ülase 12). Koosseis kluub.ee-st (FB kirjelduse peegel). Žanr: ainult rock - ürituse enda tekst („tulge ROKKIMA“) + kluub.ee silt Rock; punk-silti EI pandud (REEGLID §1: maja profiilist ei tuletata). Teada bändid: Väntajad raw grind, Thousand Hands stoner/doom (sama päeva õhtul ka Saar Cultis, vt dupe_ok).",
+   "lisatud": "2026-11-09",
+   "img": "https://www.skene.info/pildid/solidaritywithukraineheategevuskontsert.webp",
+   "img_src": "fb:1839279490532282",
+   "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-13",
+   "t": "klubi",
+   "n": "Tartu Massive: PRIMATE (BE)",
+   "a": "jump-up drum & bass; 23.00–04.00, 18+",
+   "b": [
+    "Primate (BE)"
+   ],
+   "v": "Klubi Gutenberg",
+   "c": "Tartu",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1344435037602259/",
+   "pu": "https://www.ticketer.ee/tartumassive-primate",
+   "hind": {
+    "praegu": "13 € early bird",
+    "allikas": "Ticketer, kontrollitud 16.10.2026"
+   },
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. FB event (Tartu Massive jt) + Ticketer.",
+   "img": "https://klubi.skene.info/pildid/tartumassiveprimatebe.webp",
+   "vu": "https://www.klubigutenberg.ee/"
   }
  ]
 }

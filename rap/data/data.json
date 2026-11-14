@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "entries": [
   {
    "d": "2026-10-09",
@@ -58,115 +58,6 @@
    "su": "https://muusikaplaneet.ee/2026/10/28/moosekandid/",
    "nb": "lisatud sweepis 30.10.2026. Allikas MuusikaPlaneet (avaldati 28.10.2026). ⚠ Album liigub popi suunas — kui Silver leiab, et see on peavool, eemalda.",
    "img": "pildid/prodigyboysmoosekandid.webp"
-  },
-  {
-   "d": "2026-11-13",
-   "t": "kontsert",
-   "n": "Naistekas: räpp ja reiv",
-   "a": "kaheosaline: räpp (family friendly) + reiv (adults only); SinSilja videosingli «Kõhuplastika» esitlus; uksed 20.00",
-   "b": [
-    "SinSilja",
-    "Luulediiler",
-    "Tiiu",
-    "Killing Sinatra",
-    "NEOONDREED"
-   ],
-   "v": "Legendaarne Raadio & Baar",
-   "c": "Tallinn",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Fienta",
-   "su": "https://fienta.com/et/naistekas-rapp-ja-reiv",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/27803554589321814/",
-   "pu": "https://fienta.com/et/naistekas-rapp-ja-reiv",
-   "hind": {
-    "praegu": "13 € kohapeal",
-    "allikas": "Fienta tekst, kontrollitud 02.10.2026"
-   },
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Legendaarne Raadio) + Fienta piletileht (R 13.11 20:00 – 04:00). Žanr ürituse tekstist: „räpp ja reiv\". ⚠ MITMEŽANRI-ÜRITUS (REEGLID §1): kirje on teadlikult NII rap/data/manual.json KUI klubi/data/manual.json failis — hoia n, d, ou mõlemas identsed.",
-   "img": "pildid/naistekasrappjareiv.webp",
-   "vu": "https://www.facebook.com/LegendaarneRaadio"
-  },
-  {
-   "d": "2026-11-13",
-   "t": "kontsert",
-   "n": "PILVEPIIR #FOFKIN",
-   "a": "räpikontsert noortele Kevin Polli (Fofkin) mälestuseks; Kadrina huvikeskus 19.00–22.30; esinejad selguvad",
-   "b": [],
-   "koosseis_tba": 1,
-   "v": "Kadrina huvikeskus",
-   "c": "mujal",
-   "linn": "Kadrina",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Masta Robusta FB events-tab",
-   "su": "https://www.facebook.com/MastaRobusta/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1392205469794718/",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud 02.10.2026 järelkontrollis. Kaks allikat: FB event (Kadrina Kultuurikoda + Masta Robusta jt) + Masta Robusta FB events-tab. Žanr ürituse tekstist („korralik räpikontsert“). Koosseis „juba varsti“ → koosseis_tba.",
-   "img": "pildid/pilvepiirfofkin.webp",
-   "img_src": "fb:1392205469794718"
-  },
-  {
-   "d": "2026-11-13",
-   "t": "kontsert",
-   "n": "Benakanister",
-   "a": "uksed 20.00, DJ Mehkel 22.00, Benakanister live 23.00–00.00 + üllatusesinejad; album «Kroomitud» müügil",
-   "b": [
-    "Benakanister",
-    "DJ Mehkel"
-   ],
-   "v": "Kivi baar",
-   "c": "Tartu",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Kivi baari FB events-tab",
-   "su": "https://www.facebook.com/kivibaar/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2403780643755236/",
-   "hind": {
-    "praegu": "tasuta",
-    "mark": "",
-    "allikas": "FB event, kontrollitud 30.10.2026"
-   },
-   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kivi baari events-tab.",
-   "lisatud": "2026-10-30",
-   "img": "pildid/benakanister.webp"
-  },
-  {
-   "d": "2026-11-13",
-   "t": "klubi",
-   "n": "Bad Jam w/ Trigga @ Wunderbaar",
-   "a": "viimane Bad Jam Wunderbaaris; classic & upfront R&B, hip-hop, afro & dancehall; 22.00–04.00; 18+",
-   "b": [
-    "DJ Bad J",
-    "Trigga"
-   ],
-   "v": "Wunderbaar",
-   "c": "mujal",
-   "linn": "Pärnu",
-   "g": [
-    "räpp"
-   ],
-   "sn": "Wunderbaar FB events-tab",
-   "su": "https://www.facebook.com/profile.php?id=100078685784402&sk=events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/28938778719064025/",
-   "hind": {
-    "praegu": "kuni 23.00 5 €, hiljem 10 €",
-    "allikas": "FB event, 06.11.2026"
-   },
-   "nb": "lisatud sweepis 06.11.2026; Bad Jam sari on rap-saidil",
-   "lisatud": "2026-11-06",
-   "img": "pildid/badjamwtriggawunderbaar.webp",
-   "img_src": "fb:28938778719064025",
-   "vu": "https://wunderbaar.ee/"
   },
   {
    "d": "2026-11-14",
