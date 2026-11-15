@@ -7903,6 +7903,281 @@
    "nb": "lisatud postkastijooksus 10.11.2026 kontaktivormist (09.11, www-vorm, „punk, alternative rock, schlager, indie, rock“). Kaks allikat: FB event (korraldajad Kantri Guidu, Konfliktor, LEGE) + LEGE FB events-tab. Žanrid ürituse enda tekstist. NB: FB event näitab aadressi Rüütli 5, Lege lehel muud üritused Küütri 7 — koht 'Lege bar & stage' mõlemal. Varasem kirje sama koosseisuga 30.10 Kinomaja (Tallinn) on eraldi üritus.",
    "img": "pildid/kantriguidubandkonfliktortartukontsert.webp",
    "img_src": "fb:2002483593771680"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "festival",
+   "n": "Shelter Helper 5",
+   "a": "raskemuusika heategevusõhtu loomade varjupaikade toetuseks; uksed 17.00, lõpp 01.00; kohapeal Varjupaikade MTÜ vabatahtlikud ja tätoveerijad",
+   "b": [
+    "Herald",
+    "Elukas",
+    "Hukk",
+    "Dreadpin",
+    "Janni Bravo"
+   ],
+   "v": "Rockclub Tapper",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "rock",
+    "punk"
+   ],
+   "hind": {
+    "praegu": "30 €",
+    "mark": "pilet",
+    "allikas": "tapper.ee/kava"
+   },
+   "sn": "Rockclub Tapper (FB events) + tapper.ee/kava",
+   "su": "https://www.tapper.ee/kava",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2701978196885579/",
+   "lisatud": "2026-09-18",
+   "nb": "lisatud sweepis 18.09.2026. Kaks allikat: ürituse FB event (korraldaja Shelter Helper) + Tapperi FB events-tab / tapper.ee kava (pilet 30 €). Koosseis (Herald, Elukas, Hukk, Dreadpin, Janni Bravo) kinnitatud Mood/musicofourdesire ürituselehelt; FB-kirjeldus on sisselogimata kärbitud. | 25.09.2026 samm 2b (festivalide koosseisukontroll): ürituse FB event AVATUD TÄISPIKKUSES ja see EI NIMETA ÜHTEGI BÄNDI — korraldaja kirjutab sõnaselgelt „Rohkem infot jooksvalt“. Senised viis nime (Herald, Elukas, Hukk, Dreadpin, Janni Bravo) tulevad tapper.ee/kava-lt, aga kava EI OLE LÕPLIK → koosseis_tba tõstetud 1-le. tapper.ee/kava näitab 25.09 seisuga ainult lähiaja üritusi, Shelter Helperit seal veel ei ole. KONTROLLI UUESTI oktoobris/novembris.",
+   "koosseis_tba": 1,
+   "img": "pildid/shelterhelper5.webp",
+   "img_src": "fb:2701978196885579",
+   "vu": "https://www.tapper.ee/"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Estoner (uue albumi esitlus) + Düsentroop + Metropol",
+   "a": "«Black Metal Uus Lõpp» esitlus Viljandis",
+   "b": [
+    "Estoner",
+    "Düsentroop",
+    "Metropol"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "stoner",
+    "sludge",
+    "metal"
+   ],
+   "sn": "Rada7.ee FB events-tab (sisselogitud sisemine brauser)",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1466503588634550/",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026. FB event (Konservatoorium + Estoner); albumireliis juba saidil (20.10). ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata. | 30.10.2026 sweep: rikastatud (pu).",
+   "pu": "https://fienta.com/et/211349",
+   "img": "pildid/estoneruuealbumiesitlusdusentroopmetropol.webp",
+   "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "PUNK ÖÖ — Kojamees and the Gäng",
+   "a": "Tarmo „Kojamees“ Kruusimäe (Vennaskonna algkoosseisu bassist, Kulo) + üllatuskülalised; 20.00–02.00",
+   "b": [
+    "Kojamees and the Gäng"
+   ],
+   "v": "Trahter Postipoiss",
+   "c": "mujal",
+   "linn": "Pärnu",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "Fienta punk-otsing",
+   "su": "https://fienta.com/et?q=punk",
+   "pu": "https://fienta.com/et/punk-oo-kojamees-and-the-gang",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026 Silveri reegli järgi („kui on piletimüügi leht, siis pole kahte allikat vaja“, REEGLID §3). Allikas: Fienta (Parim Pidu OÜ / Trahter Postipoiss).",
+   "img": "pildid/punkookojameesandthegang.webp",
+   "vu": "https://postipoiss.ee/"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Eriti Pruun Sügistuur: Ans. Andur ja Ouu Tallinnas",
+   "a": "Ans. Andur + Ouu ühine sügistuur (13.11 Viljandi, 14.11 Tallinn, 27.11 Pärnu, 28.11 Tartu)",
+   "b": [
+    "Ans. Andur",
+    "Ouu"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "indie",
+    "rock",
+    "alt"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2025799574785824/",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026. FB event (Ouu + Ans. Andur kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: Ans. Andur = Eesti indie rock'i ansambel (et.wikipedia), Ouu = indie-kollektiiv (Spotify bio). Tallinna kontserdi pilet Fienta 204809.",
+   "img": "pildid/eritipruunsugistuuransandurjaouutallinnas.webp",
+   "img_src": "fb:2025799574785824",
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Ocean Districts „Pulsar“ albumiesitlus | Rakvere",
+   "a": "uue albumi „Pulsar“ esitlus; uued ja vanad lood; uksed 22.00, bänd 23.00",
+   "b": [
+    "Ocean Districts"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "linn": "Rakvere",
+   "g": [
+    "post",
+    "core",
+    "rock",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.facebook.com/events/1478859237437292",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1478859237437292",
+   "hind": {
+    "praegu": "8 €",
+    "allikas": "FB eventi tekst, kontrollitud 16.10.2026"
+   },
+   "lisatud": "2026-10-16",
+   "nb": "SILVERI OTSUS 16.10.2026 (\"pane kära kants sisse\") - sweep/otsused.json oid ocean-districts-rakvere-2026-11-14 valik (a). Kontaktivorm 15.10 (Ocean Districts); ainus allikas bändi FB event, Kära Kantsi grupp seda 16.10 ei näidanud. Sildid samad mis 21.11 SAAR CULT esitlusel.",
+   "img": "pildid/oceandistrictspulsaralbumiesitlusrakvere.webp",
+   "img_src": "fb:1478859237437292"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Heavy Saturday: Decibels (LV) + Stranded Jenny (LV) + Aurora Astra",
+   "a": "Stranded Jenny presents; algus 20.00",
+   "b": [
+    "Decibels (LV)",
+    "Stranded Jenny (LV)",
+    "Aurora Astra"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt",
+    "metal"
+   ],
+   "sn": "Sügis Productions FB events-tab",
+   "su": "https://www.facebook.com/sugisproductions/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/3514620765382646/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Stranded Jenny, Sügis Productions jt) + The Krypti ja Eesti metallistide FB events-tab. Žanr: Stranded Jenny = 'alternative-rock / post-grunge' (Läti), sari 'Heavy Saturday'. Pilet/uksehind lehel avaldamata; Fientas 23.10 seisuga ei olnud.",
+   "img": "pildid/heavysaturdaydecibelslvstrandedjennylvauroraastra.webp",
+   "img_src": "fb:3514620765382646",
+   "vu": "https://www.thekrypt.ee/"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Fuzzbitten Fall Tour 2026: Mount Palatine + Tectonic Shifts + Mang Ont (Tartu)",
+   "a": "algus 20.00",
+   "b": [
+    "Mount Palatine (FI)",
+    "Tectonic Shifts (FI)",
+    "Mang Ont"
+   ],
+   "v": "Hell",
+   "c": "Tartu",
+   "g": [
+    "stoner",
+    "doom",
+    "metal"
+   ],
+   "sn": "Hell, Tartu FB events-tab",
+   "su": "https://www.facebook.com/punknrollhell/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2136956440550957/",
+   "lisatud": "2026-10-23",
+   "nb": "lisatud sweepis 23.10.2026. Kaks allikat: ürituse FB event (korraldajad Mang Ont + Hell, Tartu) + Helli FB events-tab; tuuri Tallinna kuupäev (13.11 SAAR CULT) eraldi FB event. Žanr: Mount Palatine 'heavy psych metal', Mang Ont 'stone age shaman doom'. Pilet avaldamata.",
+   "img": "pildid/fuzzbittenfalltour2026mountpalatinetectonicshiftsmangonttartu.webp",
+   "img_src": "fb:2136956440550957",
+   "vu": "https://www.facebook.com/punknrollhell/"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Juuna sünnipäev: Väntajad + Aur",
+   "a": "uksed 19.00, viktoriin 20.00, Väntajad 21.00, Aur 22.00",
+   "b": [
+    "Väntajad",
+    "Aur"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "grind",
+    "punk",
+    "core"
+   ],
+   "sn": "Ülase12 FB events-tab",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1164425726147713/",
+   "hind": {
+    "praegu": "5€",
+    "mark": "uksel",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Anemon12 events-tab. Žanr bändide Bandcampist (Väntajad raw grind — 01.11 FB event; Aur hardcore punk/post-hardcore — aurband.bandcamp.com).",
+   "lisatud": "2026-10-30",
+   "img": "pildid/juunasunnipaevvantajadaur.webp",
+   "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Terminal Live: Open Heart Surgery",
+   "a": "20.00–23.45; Tallinna altrokk/grunge nelik",
+   "b": [
+    "Open Heart Surgery"
+   ],
+   "v": "Terminal Records&Bar",
+   "c": "Tallinn",
+   "g": [
+    "alt",
+    "grunge",
+    "rock"
+   ],
+   "sn": "Fienta rock-otsing",
+   "su": "https://fienta.com/et?q=rock",
+   "pu": "https://fienta.com/et/terminal-live-open-heart-surgery",
+   "nb": "lisatud sweepis 06.11.2026; allikas Fienta piletileht (REEGLID §3 erand) | 13.11.2026 sweep: Terminali FB event → ou.",
+   "lisatud": "2026-11-06",
+   "img": "pildid/terminalliveopenheartsurgery.webp",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1459317572794298/"
+  },
+  {
+   "d": "2026-11-14",
+   "t": "kontsert",
+   "n": "Osakond 79 + Postiljon @ BH Pub",
+   "a": "22.00–00.00; 1984. aastal loodud Tallinna punkansambel naaseb algkoosseisu liikmetega",
+   "b": [
+    "Osakond 79",
+    "Postiljon"
+   ],
+   "v": "BH Pub",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "Fienta punk-otsing",
+   "su": "https://fienta.com/et?q=punk",
+   "pu": "https://fienta.com/et/legendaarne-osakond-79-ja-noor-postiljon-liveatbh-pub",
+   "hind": {
+    "praegu": "registreerumisega",
+    "allikas": "Fienta, kontrollitud 13.11.2026"
+   },
+   "nb": "lisatud sweepis 13.11.2026 Fienta lehelt (REEGLID §3 piletimüügi erand).",
+   "lisatud": "2026-11-13",
+   "img": "pildid/osakond79postiljonbhpub.webp"
   }
  ]
 }

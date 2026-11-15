@@ -1,74 +1,13 @@
 {
- "tommatud": "2026-11-14",
+ "tommatud": "2026-11-15",
  "aken": {
-  "algus": "2026-11-14",
-  "lopp": "2027-01-13"
+  "algus": "2026-11-15",
+  "lopp": "2027-01-14"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 20,
+ "kirjeid": 18,
  "kirjed": [
-  {
-   "d": "2026-11-14",
-   "n": "KUMA with DJ Pipe (UK) at Hall",
-   "algus": "2026-11-14T23:00:00.000",
-   "v": "Hall",
-   "ala": "Tallinn",
-   "b": [
-    "DJ Pipe",
-    "alabama",
-    "Brett Rästas",
-    "Bricc",
-    "Cask"
-   ],
-   "g": [
-    "Techno",
-    "House"
-   ],
-   "url": "https://ra.co/events/2566807",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-14",
-   "n": "Glitch Club",
-   "algus": "2026-11-14T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [
-    "Rony Rex",
-    "DJ WUF"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2576222",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-14",
-   "n": "BIRTHDAY CLUB",
-   "algus": "2026-11-14T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2578890",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-14",
-   "n": "Gild at Maison Dio with Barseghian (LV) & Kepler 14.11",
-   "algus": "2026-11-14T21:00:00.000",
-   "v": "Maison Dio Tallinn",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2581310",
-   "pilet": false
-  },
   {
    "d": "2026-11-20",
    "n": "Laine Klubiöö: Tapes All Night Long",
@@ -169,6 +108,32 @@
   },
   {
    "d": "2026-11-21",
+   "n": "DIO SOCIETY • Saturday nights at Maison",
+   "algus": "2026-11-21T21:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2584625",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "Hybrid Minds: EU Tour 2027 (Tallinn)",
+   "algus": "2026-11-21T23:00:00.000",
+   "v": "D3",
+   "ala": "Tallinn",
+   "b": [
+    "Hybrid Minds"
+   ],
+   "g": [
+    "Drum & Bass"
+   ],
+   "url": "https://ra.co/events/2585335",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
    "n": "Intorno al Disco W/ Noax, Ric Piccolo & Koldun",
    "algus": "2026-11-21T23:00:00.000",
    "v": "Hall",
@@ -182,17 +147,6 @@
     "Italo Disco"
    ],
    "url": "https://ra.co/events/2570240",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-21",
-   "n": "DIO SOCIETY • Saturday nights at Maison",
-   "algus": "2026-11-21T21:00:00.000",
-   "v": "Maison Dio Tallinn",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [],
-   "url": "https://ra.co/events/2584625",
    "pilet": false
   },
   {
@@ -286,6 +240,19 @@
     "Gqom"
    ],
    "url": "https://ra.co/events/2494777",
+   "pilet": false
+  },
+  {
+   "d": "2026-12-11",
+   "n": "Planeet: Kosmosesse Kaasa Albumi Esitlus",
+   "algus": "2026-12-11T22:00:00.000",
+   "v": "D3",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Drum & Bass"
+   ],
+   "url": "https://ra.co/events/2585337",
    "pilet": false
   },
   {
