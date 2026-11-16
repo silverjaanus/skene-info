@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 632,
+ "count": 641,
  "entries": [
   {
    "sait": "www",
@@ -10415,6 +10415,49 @@
    "img": "https://www.skene.info/pildid/pluuto200nelikvedu.webp"
   },
   {
+   "sait": "www",
+   "d": "2026-09-30",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Tabloited — «Mässaja» (ft. KillBaba Kaare)",
+   "a": "singel",
+   "b": [
+    "Tabloited"
+   ],
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://tabloited.bandcamp.com/album/m-ssaja-ft-killbaba-kaare",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released September 30, 2026; sildid crossover, punk, melodic.",
+   "img": "https://www.skene.info/pildid/tabloitedmassajaftkillbabakaare.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-01",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Burn Still — «Straight Outta MySpace»",
+   "a": "demode ja kaverite kogumik",
+   "b": [
+    "Burn Still"
+   ],
+   "g": [
+    "metal",
+    "core"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://burnstill.bandcamp.com/album/straight-outta-myspace",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 1, 2026; sildid metalcore, demos, cover. Burn Still XX Anniversary 28.11 Paavli.",
+   "img": "https://www.skene.info/pildid/burnstillstraightouttamyspace.webp"
+  },
+  {
    "sait": "klubi",
    "d": "2026-10-01",
    "t": "reliis",
@@ -11321,6 +11364,50 @@
   },
   {
    "sait": "klubi",
+   "d": "2026-10-08",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Tomokii — «Derealization»",
+   "b": [
+    "Tomokii"
+   ],
+   "g": [
+    "dnb",
+    "jungle",
+    "ambient"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://tomokii.bandcamp.com/album/derealization",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 8, 2026; dnb, breakcore, jungle, ambient.",
+   "img": "https://klubi.skene.info/pildid/tomokiiderealization.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-09",
+   "t": "reliis",
+   "rel": 1,
+   "n": "8891 — «/,//,///,////_EP»",
+   "b": [
+    "8891"
+   ],
+   "g": [
+    "dnb",
+    "jungle",
+    "experimental"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://8891music.bandcamp.com/album/ep",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 9, 2026; dnb, jungle, experimental.",
+   "img": "https://klubi.skene.info/pildid/8891ep.webp"
+  },
+  {
+   "sait": "klubi",
    "d": "2026-10-09",
    "t": "klubi",
    "n": "Afterparty@HALL: Dance Floor of Democracy",
@@ -11483,6 +11570,27 @@
     "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
    },
    "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-09",
+   "t": "reliis",
+   "rel": 1,
+   "n": "P0LARIS — «Polar» (PLRX-004)",
+   "b": [
+    "P0LARIS"
+   ],
+   "g": [
+    "dnb",
+    "jungle"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=electronic&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://polarwax.bandcamp.com/album/polar-plrx-004",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 9, 2026 (Polar Wax); atmospheric/jungle dnb.",
+   "img": "https://klubi.skene.info/pildid/p0larispolarplrx004.webp"
   },
   {
    "sait": "rap",
@@ -12159,6 +12267,28 @@
   {
    "sait": "www",
    "d": "2026-10-10",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Tuisk — «Samblasängi»",
+   "b": [
+    "Tuisk"
+   ],
+   "g": [
+    "black",
+    "pagan"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://warhorn.bandcamp.com/album/samblas-ngi",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 10, 2026 (Warhorn); sildid atmospheric/pagan black metal. | 13.11.2026 sweep: ühendatud topeltkirjega (06.11, ou tuisk.bandcamp.com) — sama album.",
+   "img": "https://www.skene.info/pildid/tuisksamblasangi.webp",
+   "a": "album, 9 lugu; atmosfääriline black metal"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-10",
    "t": "kontsert",
    "n": "Vennaskond — Trahteris Postipoiss",
    "a": "18.00 Tõnu Trubetsky raamatuesitlus; 19.00 Lambivalgus, 20.00 Traumapunkt, 21.00 PööLoY GLääNZ, 22.00 Vennaskond, 00.30 DJ Danel Rinaldo; 18+",
@@ -12209,6 +12339,28 @@
    },
    "lisatud": "2026-10-10",
    "nb": "lisatud postkastijooksu kluub.ee kontrollis (samm 2c) 10.10.2026. Kaks allikat: ürituse FB event (korraldaja TOPS, Soo 15) + kluub.ee. Žanr ürituse enda tekstist."
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-12",
+   "t": "reliis",
+   "rel": 1,
+   "n": "dšihhingo — «lakkamatu küttimine»",
+   "b": [
+    "dšihhingo"
+   ],
+   "g": [
+    "death",
+    "sludge",
+    "metal"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://dihhingo.bandcamp.com/album/lakkamatu-k-ttimine",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 12, 2026; Tallinn; sildid death metal, sludge, experimental.",
+   "img": "https://www.skene.info/pildid/dsihhingolakkamatukuttimine.webp"
   },
   {
    "sait": "klubi",
@@ -12288,6 +12440,28 @@
     "allikas": "FB event, kontrollitud 02.10.2026"
    },
    "vu": "https://www.facebook.com/saarcult"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-10-14",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Wombat — «The Beep EP» (PLRX-EP1)",
+   "b": [
+    "Wombat"
+   ],
+   "g": [
+    "techno",
+    "house",
+    "acid"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=techno&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://polarwax.bandcamp.com/album/the-beep-ep-plrx-ep1",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 14, 2026 (Polar Wax); tech house, acid house, bleep techno.",
+   "img": "https://klubi.skene.info/pildid/wombatthebeepepplrxep1.webp"
   },
   {
    "sait": "www",
@@ -17519,6 +17693,37 @@
    "nb": "lisatud postkastijooksus 30.10.2026 (kluub.ee samm 2c). Kaks allikat: FB event + kluub.ee. Žanrid ürituse tekstist (DJ-de juures nimetatud). 06.11.2026: UHENDATUD topeltkirjega 'Underground Penthouse' (sama FB event 1674244060938482, Huba Club FB events-tab); aadress votetud sealt.",
    "img": "https://klubi.skene.info/pildid/undergroundpenthouse.webp",
    "img_src": "fb:1674244060938482"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-15",
+   "t": "kontsert",
+   "n": "Paavli.Live: Gong (UK)",
+   "a": "1969. aastal Daevid Alleni loodud psühhedeelse ja eksperimentaalse roki kollektiiv",
+   "b": [
+    "Gong (UK)",
+    "Phlox"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "psych",
+    "prog",
+    "eksperimentaal"
+   ],
+   "sn": "Fienta (Paavli Kultuurivabrik)",
+   "su": "https://fienta.com/gong-tallinn",
+   "pu": "https://fienta.com/gong-tallinn",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht. | RIKASTUS 11.11.2026 (postkastijooks, Paavli uudiskiri 11.11 + Fienta ürituseleht): soojendab Tallinna instrumentaalne jazz-rock bänd Phlox; algus 19.00.",
+   "img": "https://www.skene.info/pildid/paavlilivegonguk.webp",
+   "on_": "Paavli Kultuurivabrik",
+   "ou": "https://paavli.ee/sundmused/paavli%e2%80%a4live-gong-uk/",
+   "hind": {
+    "praegu": "25 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
   }
  ]
 }

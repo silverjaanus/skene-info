@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-11-15",
+ "tommatud": "2026-11-16",
  "aken": {
-  "algus": "2026-11-15",
-  "lopp": "2027-01-14"
+  "algus": "2026-11-16",
+  "lopp": "2027-01-15"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 18,
+ "kirjeid": 19,
  "kirjed": [
   {
    "d": "2026-11-20",
@@ -282,6 +282,19 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2551721",
+   "pilet": false
+  },
+  {
+   "d": "2027-01-15",
+   "n": "Laine Klubiöö: T.NO (NL)",
+   "algus": "2027-01-15T22:00:00.000",
+   "v": "Uus Laine",
+   "ala": "Tallinn",
+   "b": [
+    "T.NO"
+   ],
+   "g": [],
+   "url": "https://ra.co/events/2541149",
    "pilet": false
   }
  ]

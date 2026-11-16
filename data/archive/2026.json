@@ -4740,6 +4740,47 @@
    "img": "pildid/pluuto200nelikvedu.webp"
   },
   {
+   "d": "2026-09-30",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Tabloited — «Mässaja» (ft. KillBaba Kaare)",
+   "a": "singel",
+   "b": [
+    "Tabloited"
+   ],
+   "g": [
+    "punk"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=punk&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://tabloited.bandcamp.com/album/m-ssaja-ft-killbaba-kaare",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released September 30, 2026; sildid crossover, punk, melodic.",
+   "img": "pildid/tabloitedmassajaftkillbabakaare.webp"
+  },
+  {
+   "d": "2026-10-01",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Burn Still — «Straight Outta MySpace»",
+   "a": "demode ja kaverite kogumik",
+   "b": [
+    "Burn Still"
+   ],
+   "g": [
+    "metal",
+    "core"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://burnstill.bandcamp.com/album/straight-outta-myspace",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 1, 2026; sildid metalcore, demos, cover. Burn Still XX Anniversary 28.11 Paavli.",
+   "img": "pildid/burnstillstraightouttamyspace.webp"
+  },
+  {
    "d": "2026-10-02",
    "t": "kontsert",
    "n": "Beneath Revalia — The Livonian Tour",
@@ -5573,6 +5614,48 @@
    },
    "lisatud": "2026-10-09",
    "nb": "lisatud järelkäigus 09.10.2026. FB event (Valga Rockiklubi + Overcast Rain + Woundgiver kaaskorraldajad); rockiklubi.ee näitab „No events“. ⚠ Kahe allika tõlgendus: sama FB event, aga kaaskorraldajaks on nii venue kui artist(id) eraldi lehtedena (iseseisvad kinnitused) — Silver võib selle tõlgenduse tagasi lükata."
+  },
+  {
+   "d": "2026-10-10",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Tuisk — «Samblasängi»",
+   "b": [
+    "Tuisk"
+   ],
+   "g": [
+    "black",
+    "pagan"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=black-metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://warhorn.bandcamp.com/album/samblas-ngi",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 10, 2026 (Warhorn); sildid atmospheric/pagan black metal. | 13.11.2026 sweep: ühendatud topeltkirjega (06.11, ou tuisk.bandcamp.com) — sama album.",
+   "img": "pildid/tuisksamblasangi.webp",
+   "a": "album, 9 lugu; atmosfääriline black metal"
+  },
+  {
+   "d": "2026-10-12",
+   "t": "reliis",
+   "rel": 1,
+   "n": "dšihhingo — «lakkamatu küttimine»",
+   "b": [
+    "dšihhingo"
+   ],
+   "g": [
+    "death",
+    "sludge",
+    "metal"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://dihhingo.bandcamp.com/album/lakkamatu-k-ttimine",
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. released October 12, 2026; Tallinn; sildid death metal, sludge, experimental.",
+   "img": "pildid/dsihhingolakkamatukuttimine.webp"
   },
   {
    "d": "2026-10-14",
@@ -8178,6 +8261,36 @@
    "nb": "lisatud sweepis 13.11.2026 Fienta lehelt (REEGLID §3 piletimüügi erand).",
    "lisatud": "2026-11-13",
    "img": "pildid/osakond79postiljonbhpub.webp"
+  },
+  {
+   "d": "2026-11-15",
+   "t": "kontsert",
+   "n": "Paavli.Live: Gong (UK)",
+   "a": "1969. aastal Daevid Alleni loodud psühhedeelse ja eksperimentaalse roki kollektiiv",
+   "b": [
+    "Gong (UK)",
+    "Phlox"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "psych",
+    "prog",
+    "eksperimentaal"
+   ],
+   "sn": "Fienta (Paavli Kultuurivabrik)",
+   "su": "https://fienta.com/gong-tallinn",
+   "pu": "https://fienta.com/gong-tallinn",
+   "nb": "leitud sweepis 26.07.2026 (Fienta korraldajaleht + ürituseleht) | 09.09.2026 sweep: ou lisatud - paavli.ee uritusleht. | RIKASTUS 11.11.2026 (postkastijooks, Paavli uudiskiri 11.11 + Fienta ürituseleht): soojendab Tallinna instrumentaalne jazz-rock bänd Phlox; algus 19.00.",
+   "img": "pildid/paavlilivegonguk.webp",
+   "on_": "Paavli Kultuurivabrik",
+   "ou": "https://paavli.ee/sundmused/paavli%e2%80%a4live-gong-uk/",
+   "hind": {
+    "praegu": "25 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
   }
  ]
 }
