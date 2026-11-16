@@ -6,8 +6,36 @@
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 19,
+ "kirjeid": 29,
  "kirjed": [
+  {
+   "d": "2026-11-19",
+   "n": "THROWBACK THURSDAY",
+   "algus": "2026-11-19T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Pop",
+    "Club"
+   ],
+   "url": "https://ra.co/events/2585391",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-20",
+   "n": "Bad Bunny Party (Tallinn)",
+   "algus": "2026-11-20T23:00:00.000",
+   "v": "Club Privé",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Reggaeton",
+    "Dembow"
+   ],
+   "url": "https://ra.co/events/2585994",
+   "pilet": true
+  },
   {
    "d": "2026-11-20",
    "n": "Laine Klubiöö: Tapes All Night Long",
@@ -59,6 +87,22 @@
   },
   {
    "d": "2026-11-20",
+   "n": "Plastik invites: Healer Records",
+   "algus": "2026-11-20T21:00:00.000",
+   "v": "Plastik",
+   "ala": "Tallinn",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2585750",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-20",
    "n": "10 Years of Magic",
    "algus": "2026-11-20T23:00:00.000",
    "v": "Club Nine",
@@ -92,18 +136,16 @@
   },
   {
    "d": "2026-11-20",
-   "n": "10 Years of Magic",
+   "n": "HEAT IT UP",
    "algus": "2026-11-20T23:00:00.000",
-   "v": "Club Nine",
+   "v": "TBA - Venus Club",
    "ala": "Tallinn",
-   "b": [
-    "Tarmo Kull"
-   ],
+   "b": [],
    "g": [
-    "Progressive House",
-    "Tech House"
+    "Disco",
+    "Pop"
    ],
-   "url": "https://ra.co/events/2568575",
+   "url": "https://ra.co/events/2585395",
    "pilet": false
   },
   {
@@ -121,6 +163,54 @@
     "Italo Disco"
    ],
    "url": "https://ra.co/events/2570240",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-20",
+   "n": "Plastik invites: Healer Records",
+   "algus": "2026-11-20T21:00:00.000",
+   "v": "Plastik",
+   "ala": "Tallinn",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2585750",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "Bar IDA presents: Healer Records",
+   "algus": "2026-11-21T22:00:00.000",
+   "v": "Bar IDA",
+   "ala": "Tallinn",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2585752",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-20",
+   "n": "10 Years of Magic",
+   "algus": "2026-11-20T23:00:00.000",
+   "v": "Club Nine",
+   "ala": "Tallinn",
+   "b": [
+    "Tarmo Kull"
+   ],
+   "g": [
+    "Progressive House",
+    "Tech House"
+   ],
+   "url": "https://ra.co/events/2568575",
    "pilet": false
   },
   {
@@ -150,6 +240,34 @@
    "pilet": false
   },
   {
+   "d": "2026-11-21",
+   "n": "Teens K-Pop Party (Ages 13–17) - Tallinn",
+   "algus": "2026-11-21T17:00:00.000",
+   "v": "Paavli Kultuurivabrik",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Hip-Hop",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585207",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "ICEPEAK PRESENTS: WILD AFTER-SKI PARTY",
+   "algus": "2026-11-21T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585397",
+   "pilet": false
+  },
+  {
    "d": "2026-11-22",
    "n": "MOD LIVE: EVANORA:UNLIMITED [US]",
    "algus": "2026-11-22T19:00:00.000",
@@ -174,6 +292,19 @@
     "Techno"
    ],
    "url": "https://ra.co/events/2536031",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-27",
+   "n": "STEREO",
+   "algus": "2026-11-27T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2585621",
    "pilet": false
   },
   {
@@ -207,6 +338,20 @@
     "Techno"
    ],
    "url": "https://ra.co/events/2579573",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-28",
+   "n": "I LOVE K-POP - Tallinn's K-Pop Club Night",
+   "algus": "2026-11-28T23:00:00.000",
+   "v": "Club Privé",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Hip-Hop",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585208",
    "pilet": false
   },
   {
