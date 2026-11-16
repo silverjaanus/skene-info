@@ -917,9 +917,14 @@
    "su": "https://muusikaplaneet.ee/",
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/1644633487180578/",
-   "pu": "https://www.piletilevi.ee/saalid/pohjala-tehas",
+   "pu": "https://www.piletilevi.ee/fatboy-slim",
+   "hind": {
+    "praegu": "79 € (Late Bird) + 2 € teenustasu",
+    "mark": "Early Bird 59 €, Regular 69 €, VIP 99/109 € välja müüdud; 18+; soojendus DJ Critikal b2b Muudu",
+    "allikas": "Piletilevi, kontrollitud 16.11.2026"
+   },
    "lisatud": "2026-08-14",
-   "nb": "lisatud sweepis 14.08.2026; kolm allikat: Baltic Live Agency FB event + Piletilevi (L 21.11.2026 21:00, Kalosseumi saal) + MuusikaPlaneet uudis. pu viitab Piletilevi saali-lehele (otse-eventi URL polnud otsingust loetav). NB samal õhtul Lane 8 Noblessneri Valukojas (kirje olemas)",
+   "nb": "lisatud sweepis 14.08.2026; kolm allikat: Baltic Live Agency FB event + Piletilevi (L 21.11.2026 21:00, Kalosseumi saal) + MuusikaPlaneet uudis. pu parandatud 16.11.2026 otse-eventi lehele (leitud kluub.ee kaudu) + hind Piletilevist. NB samal õhtul Lane 8 Noblessneri Valukojas (kirje olemas)",
    "img": "https://klubi.skene.info/pildid/fatboyslimuk.webp",
    "vu": "https://pohjalatehas.ee/"
   },
