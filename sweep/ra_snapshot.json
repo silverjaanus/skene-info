@@ -72,18 +72,19 @@
   },
   {
    "d": "2026-11-20",
-   "n": "Plastik invites: Healer Records",
+   "n": "PARADISO by Maison Dio with Marshall Jefferson (US)",
    "algus": "2026-11-20T21:00:00.000",
-   "v": "Plastik",
+   "v": "Maison Dio Tallinn",
    "ala": "Tallinn",
    "b": [
-    "Squash"
+    "Marshall Jefferson",
+    "Philgood"
    ],
    "g": [
-    "Techno",
-    "House"
+    "House",
+    "Disco"
    ],
-   "url": "https://ra.co/events/2585750",
+   "url": "https://ra.co/events/2574664",
    "pilet": false
   },
   {
@@ -103,16 +104,18 @@
   },
   {
    "d": "2026-11-20",
-   "n": "HEAT IT UP",
-   "algus": "2026-11-20T23:00:00.000",
-   "v": "TBA - Venus Club",
+   "n": "Plastik invites: Healer Records",
+   "algus": "2026-11-20T21:00:00.000",
+   "v": "Plastik",
    "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
+   "b": [
+    "Squash"
    ],
-   "url": "https://ra.co/events/2585395",
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2585750",
    "pilet": false
   },
   {
@@ -133,35 +136,16 @@
   },
   {
    "d": "2026-11-20",
-   "n": "PARADISO by Maison Dio with Marshall Jefferson (US)",
-   "algus": "2026-11-20T21:00:00.000",
-   "v": "Maison Dio Tallinn",
+   "n": "HEAT IT UP",
+   "algus": "2026-11-20T23:00:00.000",
+   "v": "TBA - Venus Club",
    "ala": "Tallinn",
-   "b": [
-    "Marshall Jefferson",
-    "Philgood"
-   ],
+   "b": [],
    "g": [
-    "House",
-    "Disco"
+    "Disco",
+    "Pop"
    ],
-   "url": "https://ra.co/events/2574664",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-20",
-   "n": "Plastik invites: Healer Records",
-   "algus": "2026-11-20T21:00:00.000",
-   "v": "Plastik",
-   "ala": "Tallinn",
-   "b": [
-    "Squash"
-   ],
-   "g": [
-    "Techno",
-    "House"
-   ],
-   "url": "https://ra.co/events/2585750",
+   "url": "https://ra.co/events/2585395",
    "pilet": false
   },
   {
@@ -198,31 +182,19 @@
    "pilet": false
   },
   {
-   "d": "2026-11-21",
-   "n": "Teens K-Pop Party (Ages 13–17) - Tallinn",
-   "algus": "2026-11-21T17:00:00.000",
-   "v": "Paavli Kultuurivabrik",
+   "d": "2026-11-20",
+   "n": "Plastik invites: Healer Records",
+   "algus": "2026-11-20T21:00:00.000",
+   "v": "Plastik",
    "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Hip-Hop",
-    "Pop"
+   "b": [
+    "Squash"
    ],
-   "url": "https://ra.co/events/2585207",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-21",
-   "n": "ICEPEAK PRESENTS: WILD AFTER-SKI PARTY",
-   "algus": "2026-11-21T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
    "g": [
-    "Disco",
-    "Pop"
+    "Techno",
+    "House"
    ],
-   "url": "https://ra.co/events/2585397",
+   "url": "https://ra.co/events/2585750",
    "pilet": false
   },
   {
@@ -254,6 +226,20 @@
   },
   {
    "d": "2026-11-21",
+   "n": "Teens K-Pop Party (Ages 13–17) - Tallinn",
+   "algus": "2026-11-21T17:00:00.000",
+   "v": "Paavli Kultuurivabrik",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Hip-Hop",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585207",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
    "n": "Hybrid Minds: EU Tour 2027 (Tallinn)",
    "algus": "2026-11-21T23:00:00.000",
    "v": "D3",
@@ -265,6 +251,20 @@
     "Drum & Bass"
    ],
    "url": "https://ra.co/events/2585335",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "ICEPEAK PRESENTS: WILD AFTER-SKI PARTY",
+   "algus": "2026-11-21T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585397",
    "pilet": false
   },
   {
@@ -282,19 +282,6 @@
   },
   {
    "d": "2026-11-27",
-   "n": "STEREO",
-   "algus": "2026-11-27T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2585621",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-27",
    "n": "Attend with MANDIDEXTROUS (UK)",
    "algus": "2026-11-27T23:00:00.000",
    "v": "Helitehas",
@@ -305,6 +292,19 @@
     "Techno"
    ],
    "url": "https://ra.co/events/2536031",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-27",
+   "n": "STEREO",
+   "algus": "2026-11-27T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2585621",
    "pilet": false
   },
   {
