@@ -1,8 +1,8 @@
 {
- "tommatud": "2026-11-16",
+ "tommatud": "2026-11-17",
  "aken": {
-  "algus": "2026-11-16",
-  "lopp": "2027-01-15"
+  "algus": "2026-11-17",
+  "lopp": "2027-01-16"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
@@ -72,6 +72,22 @@
   },
   {
    "d": "2026-11-20",
+   "n": "Plastik invites: Healer Records",
+   "algus": "2026-11-20T21:00:00.000",
+   "v": "Plastik",
+   "ala": "Tallinn",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2585750",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-20",
    "n": "KLAP",
    "algus": "2026-11-20T23:00:00.000",
    "v": "MOD Club",
@@ -87,18 +103,16 @@
   },
   {
    "d": "2026-11-20",
-   "n": "Plastik invites: Healer Records",
-   "algus": "2026-11-20T21:00:00.000",
-   "v": "Plastik",
+   "n": "HEAT IT UP",
+   "algus": "2026-11-20T23:00:00.000",
+   "v": "TBA - Venus Club",
    "ala": "Tallinn",
-   "b": [
-    "Squash"
-   ],
+   "b": [],
    "g": [
-    "Techno",
-    "House"
+    "Disco",
+    "Pop"
    ],
-   "url": "https://ra.co/events/2585750",
+   "url": "https://ra.co/events/2585395",
    "pilet": false
   },
   {
@@ -136,37 +150,6 @@
   },
   {
    "d": "2026-11-20",
-   "n": "HEAT IT UP",
-   "algus": "2026-11-20T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2585395",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-21",
-   "n": "Intorno al Disco W/ Noax, Ric Piccolo & Koldun",
-   "algus": "2026-11-21T23:00:00.000",
-   "v": "Hall",
-   "ala": "Tallinn",
-   "b": [
-    "Ric Piccolo",
-    "noaxdjj"
-   ],
-   "g": [
-    "House",
-    "Italo Disco"
-   ],
-   "url": "https://ra.co/events/2570240",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-20",
    "n": "Plastik invites: Healer Records",
    "algus": "2026-11-20T21:00:00.000",
    "v": "Plastik",
@@ -195,6 +178,51 @@
     "House"
    ],
    "url": "https://ra.co/events/2585752",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "Intorno al Disco W/ Noax, Ric Piccolo & Koldun",
+   "algus": "2026-11-21T23:00:00.000",
+   "v": "Hall",
+   "ala": "Tallinn",
+   "b": [
+    "Ric Piccolo",
+    "noaxdjj"
+   ],
+   "g": [
+    "House",
+    "Italo Disco"
+   ],
+   "url": "https://ra.co/events/2570240",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "Teens K-Pop Party (Ages 13–17) - Tallinn",
+   "algus": "2026-11-21T17:00:00.000",
+   "v": "Paavli Kultuurivabrik",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Hip-Hop",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585207",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "ICEPEAK PRESENTS: WILD AFTER-SKI PARTY",
+   "algus": "2026-11-21T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585397",
    "pilet": false
   },
   {
@@ -240,34 +268,6 @@
    "pilet": false
   },
   {
-   "d": "2026-11-21",
-   "n": "Teens K-Pop Party (Ages 13–17) - Tallinn",
-   "algus": "2026-11-21T17:00:00.000",
-   "v": "Paavli Kultuurivabrik",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Hip-Hop",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2585207",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-21",
-   "n": "ICEPEAK PRESENTS: WILD AFTER-SKI PARTY",
-   "algus": "2026-11-21T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2585397",
-   "pilet": false
-  },
-  {
    "d": "2026-11-22",
    "n": "MOD LIVE: EVANORA:UNLIMITED [US]",
    "algus": "2026-11-22T19:00:00.000",
@@ -282,6 +282,19 @@
   },
   {
    "d": "2026-11-27",
+   "n": "STEREO",
+   "algus": "2026-11-27T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2585621",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-27",
    "n": "Attend with MANDIDEXTROUS (UK)",
    "algus": "2026-11-27T23:00:00.000",
    "v": "Helitehas",
@@ -292,19 +305,6 @@
     "Techno"
    ],
    "url": "https://ra.co/events/2536031",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-27",
-   "n": "STEREO",
-   "algus": "2026-11-27T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2585621",
    "pilet": false
   },
   {

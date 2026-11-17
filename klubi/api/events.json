@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 152,
+ "count": 153,
  "entries": [
   {
    "sait": "rap",
@@ -2813,6 +2813,24 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/2075150636748018/",
    "vu": "https://helitehas.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-20",
+   "t": "kontsert",
+   "n": "Dark Christmas Market",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/dark-christmas-market/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-11-17",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "www",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "entries": [
   {
    "d": "2026-10-15",
@@ -1795,6 +1795,23 @@
    "vu": "https://www.thekrypt.ee/"
   },
   {
+   "d": "2026-12-20",
+   "t": "kontsert",
+   "n": "Dark Christmas Market",
+   "b": [],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal"
+   ],
+   "sn": "thekrypt.ee",
+   "su": "https://www.thekrypt.ee/event/dark-christmas-market/",
+   "on_": "thekrypt.ee",
+   "ou": "https://www.thekrypt.ee/events",
+   "lisatud": "2026-11-17",
+   "vu": "https://www.thekrypt.ee/"
+  },
+  {
    "d": "2026-12-26",
    "t": "kontsert",
    "n": "Sõpruse Puiestee + Vennaskond: aastalõpukontsert Tartus",
@@ -2761,6 +2778,6 @@
   }
  ],
  "log": [
-  "krypt: 9"
+  "krypt: 10"
  ]
 }
