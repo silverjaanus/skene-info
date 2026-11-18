@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 153,
+ "count": 152,
  "entries": [
   {
    "sait": "rap",
@@ -386,38 +386,6 @@
    "pu": "https://www.piletilevi.ee/series/KURXMI47WG/kosmikud-pulmad-ja-matused-20",
    "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 02.08.2026 (Silveri otsus 'pane kõik kuupäevad'): kogu tuur loetud Piletilevi seeria-lehelt piletilevi.ee/series/KURXMI47WG — 13.11 Pärnu, 14.11 Järvakandi, 20.11 Tõrva, 21.11 Viljandi, 27.11 + 28.11 Tartu, 04.12 Tallinn (Viikate), 05.12 Helsingi (Korjaamo). d/d2 = 13.11–04.12 (Eesti osa); Helsingi kirjas ainult a-vallas, sest kalender on Eesti-keskne. Bänd Viikate 04.12 lisatud b-massiivi.",
    "img": "https://www.skene.info/pildid/kosmikudpulmadjamatused20.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-11-17",
-   "t": "kontsert",
-   "n": "Napalm Death + Master + Brat",
-   "b": [
-    "Napalm Death",
-    "Master",
-    "Brat",
-    "Goatburner (FI)"
-   ],
-   "a": "+ Goatburner (FIN); lineup täienes 11.07.2026 (Damn.Loud FB)",
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "grind",
-    "death"
-   ],
-   "sn": "Metal Storm",
-   "su": "https://metalstorm.net/events/event.php?event_id=234103",
-   "pu": "https://fienta.com/et/napalm-death-tallinn",
-   "hind": {
-    "praegu": "45€ / 49€ (Late Bird)",
-    "mark": "Early Bird 39€ välja müüdud; Supporter 65€; algus 19.00",
-    "allikas": "Fienta, kontrollitud 07.07.2026"
-   },
-   "img": "https://www.skene.info/pildid/napalmdeathmasterbrat.webp",
-   "nb": "10.08.2026 sweep: Fienta ürituse pealkiri loetleb neljanda bändina Goatburner (FI) — lisatud koosseisu | 04.09.2026 sweep: paavli.ee ja Damn.Loud FB event nimetavad neljanda bandina GOATBURNER (FI) - lisatud; ou -> paavli.ee urituseleht. | 09.11.2026 Paavli Kultuurivabriku uudiskiri: FB event https://www.facebook.com/events/26287437707604788 , koosseis sama (Napalm Death, Master, BRAT, Goatburner).",
-   "on_": "Ametlik leht",
-   "ou": "https://paavli.ee/sundmused/napalm-death-uk-master-us-brat-us-goatburner-fi-17-11-26-paavli-kultuurivabrik/",
-   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",
