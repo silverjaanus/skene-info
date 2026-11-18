@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 153,
+ "count": 154,
  "entries": [
   {
    "sait": "rap",
@@ -408,6 +408,32 @@
    "pu": "https://www.piletilevi.ee/series/KURXMI47WG/kosmikud-pulmad-ja-matused-20",
    "nb": "Tõrva kuupäev+pilet Piletilevist; Tartu (Genialistide) kaks kontserti 27.-28.11; kontrollitud 09.07.2026 | 02.08.2026 (Silveri otsus 'pane kõik kuupäevad'): kogu tuur loetud Piletilevi seeria-lehelt piletilevi.ee/series/KURXMI47WG — 13.11 Pärnu, 14.11 Järvakandi, 20.11 Tõrva, 21.11 Viljandi, 27.11 + 28.11 Tartu, 04.12 Tallinn (Viikate), 05.12 Helsingi (Korjaamo). d/d2 = 13.11–04.12 (Eesti osa); Helsingi kirjas ainult a-vallas, sest kalender on Eesti-keskne. Bänd Viikate 04.12 lisatud b-massiivi.",
    "img": "https://www.skene.info/pildid/kosmikudpulmadjamatused20.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-19",
+   "t": "klubi",
+   "n": "Femme Fatale: Klooren",
+   "a": "21.00-00.00; house, breakbeat ja kõik seal vahepeal, vaheldumisi chill ja vähem chill",
+   "b": [
+    "Klooren"
+   ],
+   "v": "TOPS",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "breaks"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/65c0254d-33a3-41a5-94aa-9c0a91dfb967",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2546363182525959",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee (FB eventi peegel), kontrollitud 18.11.2026"
+   },
+   "lisatud": "2026-11-18",
+   "nb": "lisatud postkastijooksus 18.11.2026 (samm 2c). Allikad: kluub.ee + FB event (TOPS, Soo 15). Žanr ürituse enda tekstist (house/breakbeat). Klooren = pealkirjas nimetatud DJ, eraldi koosseisu pole."
   },
   {
    "sait": "www",
@@ -1122,9 +1148,11 @@
    "d": "2026-11-22",
    "t": "kontsert",
    "n": "Skoone — Mexico Tour Aftermath (AV show)",
-   "a": "algus 19.00; live + Mehhiko tuuril filmitud materjal suurel ekraanil; külalisesinejad avalikustamisel",
+   "a": "algus 19.00; live + Mehhiko tuuril filmitud materjal suurel ekraanil; soojendus Avemaria ja Thousand Hands",
    "b": [
-    "Skoone"
+    "Skoone",
+    "Avemaria",
+    "Thousand Hands"
    ],
    "v": "Paavli Kultuurivabrik",
    "c": "Tallinn",
@@ -1140,7 +1168,7 @@
     "praegu": "annetuspõhine sissepääs",
     "allikas": "FB event, kontrollitud 13.11.2026"
    },
-   "nb": "lisatud 13.11.2026. Kaks allikat: FB event (Damn.Loud + Paavli) + Damn.Loud FB events-tab. Ürituse tekst: 80ndate hardcore punk. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile.",
+   "nb": "lisatud 13.11.2026. Kaks allikat: FB event (Damn.Loud + Paavli) + Damn.Loud FB events-tab. Ürituse tekst: 80ndate hardcore punk. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile. | 18.11.2026 postkastijooks: soojendus Avemaria + Thousand Hands - Paavli uudiskiri 17.11 + kultuurivabrik.ee/programm (#1437586191896785).",
    "lisatud": "2026-11-13",
    "img": "https://www.skene.info/pildid/skoonemexicotouraftermathavshow.webp",
    "img_src": "fb:1437586191896785",

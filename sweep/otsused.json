@@ -1,1 +1,25 @@
-[]
+[
+ {
+  "oid": "2026-11-18-evanora-unlimited-mod",
+  "kysimus": "MOD Live: Evanora:Unlimited (US) · P 22.11.2026 19.00 · MOD (Paavli Kultuurivabrik), Tallinn — Wikipedia: „experimental pop“, ammutab kõige rohkem noise-muusikast; multimeedia-/performance-projekt. Lisame klubi saidile (eksperimentaalne elektroonika)?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi saidile (sildid ainult ürituse lehe/ametliku kirjelduse järgi)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (baasžanr pop/performance, mitte elektroonika)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-21",
+  "lingid": [
+   "Paavli programm: https://www.kultuurivabrik.ee/programm#1027108143728113",
+   "FB event (id programmi lingist): https://www.facebook.com/events/1027108143728113",
+   "Wikipedia: https://en.wikipedia.org/wiki/Evanora_Unlimited"
+  ],
+  "kontekst": "Miks küsin: kaks allikat üritusele olemas (Paavli uudiskiri 17.11 + kultuurivabrik.ee programm, 'MOD LIVE'), hind avaldamata. Žanr ebaselge: uudiskiri kirjeldab ainult kontseptsiooni („erotic science fiction religious horror epic“), Wikipedia infokast 'Experimental pop', juhtlõik 'draws most heavily from noise music'. REEGLID §1: uudiskiri ei ole žanriallikas, žanrit ei arva.",
+  "lisatud": "2026-11-18"
+ }
+]
