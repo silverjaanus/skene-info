@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 642,
+ "count": 643,
  "entries": [
   {
    "sait": "www",
@@ -12489,6 +12489,36 @@
    "lisatud": "2026-09-04",
    "nb": "lisatud sweepis 04.09.2026. Kaks allikat: Konservatooriumi FB events-tab + sama FB event (korraldaja Konservatoorium). Zanrid tulevad urituse enda pealkirjast ('thrash, fin' / 'heavy, est'). Pilet avaldamata.",
    "vu": "https://www.facebook.com/konservatoorium"
+  },
+  {
+   "sait": "www",
+   "d": "2026-10-15",
+   "d2": "18.11",
+   "dd": [
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-18",
+    "2026-10-20",
+    "2026-11-18"
+   ],
+   "t": "kontsert",
+   "n": "PLACEBO — 30th Anniversary Tour",
+   "a": "Eesti kuupäeva EI OLE. Lähimad: 15.10 Vilnius (Twinsbet Arena), 16.10 Riia (Xiaomi Arēna), 18.10 Helsingi (Veikkaus Arena), 20.10 Stockholm (Annexet), 18.11 Łódź (Atlas Arena). Kaugemal ka Oslo 22.10, Kopenhaagen 24.10, Hamburg 26.10, Berliin 16.11",
+   "b": [
+    "Placebo"
+   ],
+   "v": "tuur",
+   "c": "Euroopa",
+   "linn": "Vilnius · Riia · Helsingi · Stockholm · Łódź",
+   "g": [
+    "alt",
+    "rock"
+   ],
+   "sn": "Songkick",
+   "su": "https://www.songkick.com/artists/324967-placebo/calendar",
+   "on_": "placeboworld.co.uk",
+   "ou": "https://www.placeboworld.co.uk/pages/tour",
+   "nb": "lisatud 02.08.2026 — ESIMENE KIRJE UUES KATEGOORIAS (Silveri ettepanek 02.08): kui suur bänd tuuritab ja Eesti kuupäeva ei ole, tee ÜKS kirje, mis loetleb ~5 lähimat riiki. d = varaseim, d2 = hiliseim neist viiest. Kuupäevad Songkicki tuurikalendrist; Vilniuse kuupäev tuli Bandsintownist (Songkickil seda ei olnud — Bandsintownil on sama üritus kahe kirjena, Twinsbet Arena / Arena Vilnius, ilmselt saali ümbernimetamine). Riia kinnitab ka bilesuserviss.lv."
   },
   {
    "sait": "klubi",
