@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 196,
+ "count": 197,
  "entries": [
   {
    "sait": "rap",
@@ -1014,6 +1014,32 @@
    "lisatud": "2026-11-19",
    "nb": "lisatud postkastijooksus 19.11.2026 (samm 2c). Kaks allikat: kluub.ee urituseleht + GateMe piletileht (R 20.11 21:00 @ Klubi Neli, 5 € pilet). Zanr kluub.ee siltidest Deep House/House. FB event ei avanenud serverist.",
    "img": "https://klubi.skene.info/pildid/rulersofthedeepklubineli.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-20",
+   "t": "klubi",
+   "n": "Ulmenthal x Martin Mänd @ Kohvik Tops",
+   "a": "22.00-03.00; nu-disco ja muu disko DJ-õhtu",
+   "b": [
+    "Ulmenthal",
+    "Martin Mänd"
+   ],
+   "v": "TOPS",
+   "c": "Tallinn",
+   "g": [
+    "disco"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/4388b56a-a026-42a4-b657-e37fcb435cd8",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1659087585869699",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee + FB event, kontrollitud 20.11.2026"
+   },
+   "lisatud": "2026-11-20",
+   "nb": "lisatud postkastijooksus 20.11.2026 (samm 2c). Allikad: kluub.ee + FB event (TOPS ja Ulmenthal, Soo 15; R 20.11 kell 22). Žanr ürituse enda tekstist (nu-disco)."
   },
   {
    "sait": "klubi",
