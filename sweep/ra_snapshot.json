@@ -1,27 +1,13 @@
 {
- "tommatud": "2026-11-19",
+ "tommatud": "2026-11-20",
  "aken": {
-  "algus": "2026-11-19",
-  "lopp": "2027-01-18"
+  "algus": "2026-11-20",
+  "lopp": "2027-01-19"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 29,
+ "kirjeid": 28,
  "kirjed": [
-  {
-   "d": "2026-11-19",
-   "n": "THROWBACK THURSDAY",
-   "algus": "2026-11-19T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Pop",
-    "Club"
-   ],
-   "url": "https://ra.co/events/2585391",
-   "pilet": false
-  },
   {
    "d": "2026-11-20",
    "n": "Bad Bunny Party (Tallinn)",
