@@ -408,6 +408,31 @@ def in_scope(e):
     return e.get("c") in EESTI or is_release(e)
 
 
+# 20.11.2026 (Silver): pealkiri "TULEVAD ÜRITUSED" oli vale -- nimekirjas on ka
+# reliisid ja merch (hiline_reliis toob need tihti lausa ESIMESTEKS ridadeks).
+# Kaks sonastust VAHELDUVAD nadalate kaupa, et iga reede poleks tapselt sama tekst.
+# AINUS allikas nadalapildi, captioni ja uudiskirja pealkirjale -- ara kirjuta
+# pealkirja generaatoritesse kasitsi sisse (sama oppetund mis order_for_output).
+NADALA_PEALKIRJAD = {
+    "et": ["Sel nädalal", "Üritused ja reliisid"],
+    "en": ["This week", "Events and releases"],
+}
+
+
+def nadala_pealkiri(ws, lang="et", on_reliise=True):
+    """Nadalapildi / captioni / uudiskirja pealkiri akna alguse `ws` jargi.
+
+    Valik soltub ISO-nadala numbrist (paaris -> 1. sonastus, paaritu -> 2.),
+    seega sama nadala pilt, caption ja kiri saavad alati SAMA pealkirja.
+    `on_reliise=False` (nt uhe teema kiri, kus sel nadalal reliise pole):
+    "Üritused ja reliisid" oleks vale -> alati 1. sonastus.
+    """
+    variandid = NADALA_PEALKIRJAD.get(lang) or NADALA_PEALKIRJAD["et"]
+    if not on_reliise:
+        return variandid[0]
+    return variandid[ws.isocalendar()[1] % len(variandid)]
+
+
 def _cat_rank(e):
     """CAT_ORDER indeks, mis EI kuku tundmatu kategooria peal (vana
     CAT_ORDER.index() viskas ValueError'i)."""

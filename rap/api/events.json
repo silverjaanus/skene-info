@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 190,
+ "count": 194,
  "entries": [
   {
    "sait": "rap",
@@ -443,6 +443,28 @@
    "lisatud": "2026-11-20",
    "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 13, 2026).",
    "img": "https://www.skene.info/pildid/ukskoigijakoikuheeestoigelpoolmahtrasoda.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-14",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Rivo Haavandi — «Oneless»",
+   "a": "15 lugu; Bandcampi sildid electronic, industrial metal, progressive metal, ambient, noise",
+   "b": [
+    "Rivo Haavandi"
+   ],
+   "g": [
+    "electro",
+    "industrial"
+   ],
+   "sn": "Bandcamp discover (Eesti)",
+   "su": "https://bandcamp.com/discover/estonia?tags=metal&s=new",
+   "on_": "Bandcamp",
+   "ou": "https://rivohaavandi.bandcamp.com/album/oneless",
+   "nb": "Silveri otsus 20.11.2026 (meilivastus 3b): klubi reliisiks (electro / industrial), oid 2026-11-20-rivo-haavandi-oneless. Kuupäev Bandcampi albumilehelt (released November 14, 2026). Baasžanr piiripealne (sildid ka industrial/progressive metal) — saidi valis Silver.",
+   "lisatud": "2026-11-20",
+   "img": "https://klubi.skene.info/pildid/rivohaavandioneless.webp"
   },
   {
    "sait": "www",
@@ -1331,6 +1353,35 @@
    "pu": "https://fienta.com/et/whitesparks15-thekrypt",
    "img": "https://www.skene.info/pildid/whitesparks15seeyounextfvll.webp",
    "vu": "https://www.thekrypt.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-22",
+   "t": "kontsert",
+   "n": "MOD Live: Evanora:Unlimited (US)",
+   "a": "kell 19.00; Oaklandi (USA) artisti Orion Ohana multimeedia- ja performance-projekt",
+   "b": [
+    "Evanora:Unlimited (US)"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "experimental"
+   ],
+   "sn": "Paavli Kultuurivabriku programm",
+   "su": "https://www.kultuurivabrik.ee/programm#1027108143728113",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1027108143728113",
+   "pu": "https://fienta.com/et/evanoraunlimitedmod",
+   "hind": {
+    "praegu": "uksel 20 €, eelmüügist soodsam",
+    "allikas": "ürituse FB event + Fienta, kontrollitud 20.11.2026"
+   },
+   "lisatud": "2026-11-20",
+   "nb": "Silveri otsus 20.11.2026 (meilivastus 1a; 19.11 „läheb sisse“), oid 2026-11-18-evanora-unlimited-mod. Kolm allikat: FB event (MOD.tln + Paavli Kultuurivabrik; P 22.11 kl 19.00) + kultuurivabrik.ee programm + Fienta. ⚠ Žanrit ürituse leht EI ütle; silt experimental on pandud Silveri otsuse alusel (küsimuse sõnastus „eksperimentaalne elektroonika“), mitte lehelt. Hind: uksehind 20 € on FB kirjelduses ja Fientas sama; eelmüügi astmed (FB: 10/15 €, MOD-i liikmele soodsam) võivad Fientas erineda, seepärast täpset eelmüügihinda kirjes pole.",
+   "img": "https://klubi.skene.info/pildid/modliveevanoraunlimitedus.webp",
+   "img_src": "fienta",
+   "vu": "https://www.facebook.com/Modtln"
   },
   {
    "sait": "www",
@@ -2591,6 +2642,38 @@
    "lisatud": "2026-11-20",
    "img": "https://rap.skene.info/pildid/prodigyboysmoosekandidalbumiesitluskontsert.webp",
    "vu": "https://www.d-3.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-12-05",
+   "t": "kontsert",
+   "n": "Provincial Beat I",
+   "a": "20.00–02.00; alternatiivmuusikapoe Provincial Beat uute ruumide avapidu. Kirikmäe (sünt-popp ja elektrooniline post-punk), Aare Ermus (luule helide taustal), Robert Linnard & Raffamaja (debüüt), Riia vinüüli-DJ-d Unkle Sampl3 & Unkle Rodion",
+   "b": [
+    "Kirikmäe",
+    "Aare Ermus",
+    "Robert Linnard & Raffamaja",
+    "Unkle Sampl3 & Unkle Rodion (LV)"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "electronic"
+   ],
+   "sn": "Konservatoorium FB events-tab",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1137378655683585/",
+   "hind": {
+    "praegu": "uksel 5 € sularahas, 7 € kaardiga",
+    "allikas": "ürituse FB event, kontrollitud 20.11.2026"
+   },
+   "lisatud": "2026-11-20",
+   "nb": "Silveri otsus 20.11.2026 (meilivastus 4b): klubi saidile (sünt / elektrooniline), oid 2026-11-20-provincial-beat-viljandi. Kaks allikat: FB event (Provincial Beat + Konservatoorium; L 05.12 kl 20.00–02.00) + Konservatooriumi FB events-tab. Täiskoosseis ja hind ürituse kirjeldusest. Žanri nimetab leht ainult Kirikmäe kohta.",
+   "img": "https://klubi.skene.info/pildid/provincialbeati.webp",
+   "img_src": "fb:1137378655683585",
+   "vu": "https://www.facebook.com/konservatoorium"
   },
   {
    "sait": "www",
@@ -4025,6 +4108,29 @@
    "on_": "Ametlik leht",
    "ou": "https://paavli.ee/sundmused/melrose-avenue-arankai-call-me-amour-%e2%94%82-paavli-kultuurivabrik-tallinn/",
    "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2027-02-19",
+   "t": "klubi",
+   "n": "Rudimental DJ set (UK)",
+   "a": "kell 21.00–03.00; peosari Moments Club Nights",
+   "b": [
+    "Rudimental (UK) DJ set"
+   ],
+   "v": "Kruiisiterminal",
+   "c": "Tallinn",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Baltic Live Agency FB events-tab",
+   "su": "https://www.facebook.com/balticliveagency/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1480098447370478/",
+   "pu": "https://www.piletitasku.ee/et/event/10617",
+   "lisatud": "2026-11-20",
+   "nb": "Silveri otsus 20.11.2026 (meilivastus 2a): sisse, oid 2026-11-20-rudimental-dj-kruiisiterminal. Kuupäev ja kellaaeg ürituse FB eventilt (R 19.02.2027 21.00–03.00, korraldajad Baltic Live Agency + Kruiisiterminal), žanr ürituse kirjeldusest (trumm ja bass). Piletilink FB eventilt; hind kontrollimata (Piletitasku leht automaatselt ei avanenud).",
+   "img": "https://klubi.skene.info/pildid/rudimentaldjsetuk.webp"
   },
   {
    "sait": "www",

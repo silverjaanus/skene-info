@@ -28,7 +28,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (CAT_ORDER, interleave_cats, parse_d, this_and_next_week, in_window,
                     today_local, in_scope, is_release, next_start,
-                    order_for_output)
+                    order_for_output, nadala_pealkiri)
 
 BASE_URL = "https://www.skene.info/nadal/"
 KUUD = ["jaanuar", "veebruar", "marts", "aprill", "mai", "juuni",
@@ -80,7 +80,7 @@ CAPTION_LIMIT = 2150  # IG piir on 2200; varu, et Make'i valemi kärbe (backstop
 HASHTAGS_LUHI = "#skeneinfo #eestimetal #eestirap #techno #tallinn"
 
 
-def build_caption(sel, rng):
+def build_caption(sel, rng, ws):
     """LÜHIKE caption (kasvuplaan, etapp 2, 09.10.2026): 2 rida konksu + uudiskirja
     kutse + 5 teemaviidet. Nimekiri ise on piltidel ja saidil -- pikk nimekiri
     captionis ei too salvestusi ega jagamisi. Vana pikk vorm: build_caption_pikk().
@@ -96,7 +96,7 @@ def build_caption(sel, rng):
     ee = ("\n\nNädala esiletõst: " + esile[0]["n"]
           + (", uus album." if "album" in (esile[0].get("a") or "").lower() or "album" in esile[0]["n"].lower()
              else ", uus reliis." if is_release(esile[0]) else ".")) if esile else ""
-    cap = ("TULEVAD ÜRITUSED · " + rng
+    cap = (nadala_pealkiri(ws, "et", bool(n_rel)).upper() + " · " + rng
            + "\n" + osa + ": metal, rap ja klubi. Sirvi pilte →"
            + ee
            + "\n\nTelli see nimekiri igal reedel oma postkasti: link on profiilis."
@@ -106,11 +106,11 @@ def build_caption(sel, rng):
     return cap, 0
 
 
-def build_caption_pikk(sel, rng):
+def build_caption_pikk(sel, rng, ws):
     """Paneb captioni kokku ja hoiab selle ISE alla IG piiri (13.08.2026):
     kui pikk, asendab viimased uritused reaga '+ veel N uritust' — mitte
     kunagi poolelt sonalt maha loigatud teksti."""
-    pea = "TULEVAD ÜRITUSED · " + rng
+    pea = nadala_pealkiri(ws, "et", any(is_release(e) for e in sel)).upper() + " · " + rng
     saba = ("\n\nKõik üritused ja piletid → skene.info"
             "\nAnna tagasisidet → skene.info/tagasiside"
             "\n\n" + HASHTAGS)
@@ -169,7 +169,7 @@ def main():
 
     rng = (f"{ws.day}. {KUUD_ET[ws.month - 1]} – "
            f"{we.day}. {KUUD_ET[we.month - 1]} {we.year}")
-    caption, peidetud = build_caption(sel, rng)
+    caption, peidetud = build_caption(sel, rng, ws)
     if peidetud:
         print(f"MARKUS: caption ulatas {CAPTION_LIMIT} piiri — {peidetud} viimast "
               f"kirjet asendatud reaga '+ veel {peidetud} üritust'.")

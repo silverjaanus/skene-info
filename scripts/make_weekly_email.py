@@ -21,7 +21,7 @@ import urllib.request, urllib.error
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
                     in_window, today_local, in_scope, is_release, next_start, band_rida,
-                    order_for_output)
+                    order_for_output, nadala_pealkiri)
 
 # ---- palett (index.html :root) ----
 PABER="#F3F0E7"; TINT="#1A1A1A"; HALL="#5A564C"; JOON="#8F8A7C"
@@ -68,7 +68,6 @@ I18N={
   "lang_attr":"et",
   "umbrella":"Eesti UG-muusika ühest kohast",
   "tagline":"Üritused, merch ja reliisid.",
-  "title":"Tulevad üritused",
   "site_cta":"Kõik üritused &amp; artistid &rarr; skene.info",
   "entry_1":"kirje","entry_n":"kirjet",
   "type":{"kontsert":"KONTSERT","festival":"FESTIVAL","klubi":"KLUBI","reliis":"UUS RELIIS","merch":"MERCH"},
@@ -91,7 +90,6 @@ I18N={
   "lang_attr":"en",
   "umbrella":"Estonian underground music in one place",
   "tagline":"Events, merch and releases.",
-  "title":"Upcoming events",
   "site_cta":"All events &amp; artists &rarr; skene.info",
   "entry_1":"entry","entry_n":"entries",
   "type":{"kontsert":"CONCERT","festival":"FESTIVAL","klubi":"CLUB","reliis":"NEW RELEASE","merch":"MERCH"},
@@ -289,6 +287,10 @@ def build_html(entries, ws, we, lang, cats):
         entries = [e for e in entries if not (e.get("esile_kuni") and e["esile_kuni"] >= wsi)]
     rows="".join(event_row(e, L, lang) for e in entries)
     n=len(entries); krje=L["entry_1"] if n==1 else L["entry_n"]
+    # 20.11.2026: pealkiri vaheldub nadalati -- ainus allikas common.nadala_pealkiri()
+    # (varem I18N "title" = "Tulevad üritused" / "Upcoming events"). Kiri, kus sel
+    # nadalal reliise pole, ei saa pealkirja "Üritused ja reliisid".
+    pealkiri=nadala_pealkiri(ws, lang, any(is_release(e) for e in entries))
     rng=daterange(ws,we,L)
     missing=[c for c in CAT_ORDER if c not in cats]
     # tume plakatipea: koik kolm zanrisona, tellitud teemad heledad, ulejaanud tuhmid (ja lingitud)
@@ -368,7 +370,7 @@ def build_html(entries, ws, we, lang, cats):
 {intro_html}
   <!-- pealkiri -->
   <tr><td style="padding:22px 28px 8px;">
-    <div style="font:800 32px/1.05 Arial,Helvetica,sans-serif;color:{TINT};letter-spacing:-.5px;">{L['title']}</div>
+    <div style="font:800 32px/1.05 Arial,Helvetica,sans-serif;color:{TINT};letter-spacing:-.5px;">{pealkiri}</div>
     <div style="font:400 14px/1.4 'Courier New',monospace;color:{accent};margin:8px 0 0;">{rng} &middot; {n} {krje}</div>
     <div style="margin:14px 0 2px;"><a href="{cta_url}" style="display:inline-block;font:700 12px/1 'Courier New',monospace;color:{PABER};background:{accent};text-decoration:none;padding:9px 14px;letter-spacing:.3px;">{cta_txt}</a></div>
   </td></tr>

@@ -34,7 +34,7 @@ except ImportError:
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (EESTI, CAT_ORDER, interleave_cats, parse_d, event_span, this_and_next_week,
                     in_window, today_local, in_scope, is_release, next_start, band_rida,
-                    order_for_output)
+                    order_for_output, nadala_pealkiri)
 
 # ---- palett (index.html :root) ----
 PABER      = (0xF3, 0xF0, 0xE7)
@@ -341,7 +341,8 @@ def render_page(rows, ws, we, total_n, page_no, n_pages, logo_path, out_path,
            font=fonts["kicker"], fill=HDRMUTED)
 
     # ---- pealkirjarida heledal ----
-    d.text((MARGIN, H2_Y), "TULEVAD ÜRITUSED", font=fonts["h2"], fill=TINT)
+    # pealkiri vaheldub nadalati -- ainus allikas common.nadala_pealkiri()
+    d.text((MARGIN, H2_Y), nadala_pealkiri(ws).upper(), font=fonts["h2"], fill=TINT)
     if ws.month == we.month:
         rng = f"{ws.day}.–{we.day}. {KUUD_GEN[ws.month]} {we.year}"
     else:
