@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 183,
+ "count": 190,
  "entries": [
   {
    "sait": "rap",
@@ -508,6 +508,36 @@
    "lisatud": "2026-11-20",
    "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 19, 2026).",
    "img": "https://klubi.skene.info/pildid/darthphaderandaazasaunasaundi.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-20",
+   "t": "klubi",
+   "n": "/diːp kʌts/ @ huba.club",
+   "b": [
+    "Kässar",
+    "Kalju999",
+    "DJTHZ909"
+   ],
+   "v": "huba.club",
+   "c": "Tartu",
+   "g": [
+    "house",
+    "minimal"
+   ],
+   "sn": "huba.club FB events-tab",
+   "su": "https://www.facebook.com/hubbaclubba/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2038549646838375/",
+   "a": "22.00–02.00; deep house, minimal, tech, bounce",
+   "hind": {
+    "praegu": "5 €",
+    "allikas": "ürituse leht, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: FB event + kluub.ee Tartu (žanr tagurpidi kirjutatud kirjelduses: „deep house minimal tech bounce“).",
+   "lisatud": "2026-11-20",
+   "img": "https://klubi.skene.info/pildid/dipktshubaclub.webp",
+   "img_src": "fb:2038549646838375"
   },
   {
    "sait": "klubi",
@@ -1161,6 +1191,36 @@
    }
   },
   {
+   "sait": "klubi",
+   "d": "2026-11-21",
+   "t": "klubi",
+   "n": "Lights Out @ Fonoteek",
+   "b": [
+    "Funkomatik",
+    "Olivar",
+    "Slin Remi"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Fonoteek FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1171299105563740/",
+   "a": "23.00–04.00; house, UK garage; 20+",
+   "pu": "https://gateme.com/et/fonoteek/104579-lights-out-i-2111-i-fonoteek",
+   "hind": {
+    "praegu": "FB going kuni 00.00 / terve öö 5 € / 7 €, tavapilet 10 €",
+    "allikas": "ürituse leht, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: FB event (Fonoteek + Muusikalinn Tallinn) + GateMe. Sari on klubi-saidil varem olnud (Lights Out 29.08, 19.09, 30.10).",
+   "lisatud": "2026-11-20",
+   "img": "https://klubi.skene.info/pildid/lightsoutfonoteek.webp",
+   "vu": "https://fonoteek.ee/"
+  },
+  {
    "sait": "www",
    "d": "2026-11-21",
    "t": "kontsert",
@@ -1530,6 +1590,36 @@
   },
   {
    "sait": "klubi",
+   "d": "2026-11-27",
+   "t": "klubi",
+   "n": "Piidivabrik @ Klubi Neli",
+   "b": [
+    "Muudu",
+    "Kurly Beats",
+    "Paap",
+    "Paula",
+    "Hurmet Ilus"
+   ],
+   "v": "Klubi Neli",
+   "c": "Tartu",
+   "g": [
+    "house",
+    "techno"
+   ],
+   "sn": "Klubi Neli GateMe",
+   "su": "https://gateme.com/et/klubineli/",
+   "a": "21.00–05.00; house, breakbeat, afro house, meloodiline techno, deep/progressive house",
+   "pu": "https://gateme.com/et/klubineli/104582-piidivabrik-i-klubi-neli-i-2711/",
+   "hind": {
+    "praegu": "eelmüük 5 €, hiljem 9 €, Fast Track 15 €",
+    "allikas": "ürituse leht, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Piletimüüja leht (REEGLID §3 erand: piletileht piisab) + Klubi Neli GateMe-koondleht; žanrid ürituse kirjeldusest.",
+   "lisatud": "2026-11-20",
+   "img": "https://klubi.skene.info/pildid/piidivabrikklubineli.webp"
+  },
+  {
+   "sait": "klubi",
    "rel": 1,
    "d": "2026-11-27",
    "lisatud": "2026-10-30",
@@ -1548,6 +1638,31 @@
    "su": "https://healerrecords.bandcamp.com/album/big-motion-healer003",
    "nb": "lisatud sweepis 30.10.2026 (Bandcampi Eesti house-tag, „releases November 27, 2026“). Kontrolli väljalaskel.",
    "img": "https://klubi.skene.info/pildid/squashbigmotionhealer003.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-27",
+   "t": "klubi",
+   "n": "Stereo @ Fonoteek",
+   "b": [
+    "MHKL",
+    "ARU"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Fonoteek FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1191932696509370/",
+   "a": "23.00–04.00; house music all night",
+   "pu": "https://gateme.com/fonoteek/104567-stereo-2711-fonoteek",
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: FB event + GateMe; RA 2585621. Sari varem saidil (25.09, 23.10).",
+   "lisatud": "2026-11-20",
+   "img": "https://klubi.skene.info/pildid/stereofonoteek.webp",
+   "vu": "https://fonoteek.ee/"
   },
   {
    "sait": "www",
@@ -2009,6 +2124,32 @@
    "vu": "https://www.facebook.com/saarcult"
   },
   {
+   "sait": "klubi",
+   "d": "2026-11-28",
+   "t": "klubi",
+   "n": "Äfters @ Klubi Neli",
+   "b": [
+    "QSLAP",
+    "24K (LV)"
+   ],
+   "v": "Klubi Neli",
+   "c": "Tartu",
+   "g": [
+    "house"
+   ],
+   "sn": "Klubi Neli GateMe",
+   "su": "https://gateme.com/et/klubineli/",
+   "a": "21.00–05.00; QSLAP (Living room, gruuv ja hüpnootilised rütmid), 24K (Club side)",
+   "pu": "https://gateme.com/et/klubineli/104583-afters-i-klubi-neli-i-2811/",
+   "hind": {
+    "praegu": "21–23 tasuta, 23–01 5 €, 01–05 9 €, Fast Track 15 €",
+    "allikas": "ürituse leht, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Piletimüüja leht (REEGLID §3 erand) + Klubi Neli GateMe-koondleht.",
+   "lisatud": "2026-11-20",
+   "img": "https://klubi.skene.info/pildid/aftersklubineli.webp"
+  },
+  {
    "sait": "www",
    "d": "2026-11-30",
    "t": "kontsert",
@@ -2426,6 +2567,30 @@
    "lisatud": "2026-10-16",
    "nb": "lisatud sweepis 16.10.2026. Fienta piletileht (piletimüüja-erand); žanr Fienta tekstist („Eesti punk-roki elav legend“, „rokkansambel“). ⚠ Piiripealne nostalgiaõhtu — kui peavoolu-telg, eemalda.",
    "img": "https://www.skene.info/pildid/legendideohtupropellersingervingerprettyaffairfi.webp"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-12-05",
+   "t": "kontsert",
+   "n": "PRODIGYBOYS «Moosekandid» albumi esitluskontsert",
+   "b": [
+    "PRODIGYBOYS"
+   ],
+   "v": "D3",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "D3 kava",
+   "su": "https://www.d-3.ee/events/",
+   "on_": "D3",
+   "ou": "https://www.d-3.ee/events/prodigyboys-moosekandid-albumi-esitluskontsert/",
+   "a": "19.00–22.00 esitluskontsert (0+), 23.00–04.00 afterparty (18+)",
+   "pu": "https://gateme.com/et/D3Tallinn/104540-prodigyboys-moosekandid-albumi-esitluskontsert-i-d3-i-0512/",
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: D3 ürituseleht + GateMe. Seotud reliisikirje PRODIGYBOYS «MOOSEKANDID» (28.10).",
+   "lisatud": "2026-11-20",
+   "img": "https://rap.skene.info/pildid/prodigyboysmoosekandidalbumiesitluskontsert.webp",
+   "vu": "https://www.d-3.ee/"
   },
   {
    "sait": "www",
@@ -4938,6 +5103,31 @@
    "nb": "leitud sweepis 04.09.2026 paavli.ee sundmuste lehelt. TEINE ALLIKAS PUUDU (Damn.Loud FB events-tab seda veel ei naita, pilet avaldamata) - vt HANDOVER §4. | 30.10.2026 sweep: rikastatud (pu).",
    "img": "https://www.skene.info/pildid/gutalaxcz.webp",
    "pu": "https://fienta.com/et/gutalax-paavli-tallinn",
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2027-11-16",
+   "t": "kontsert",
+   "n": "Paavli.Live: HENGE (UK)",
+   "b": [
+    "Henge (UK)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "alt"
+   ],
+   "sn": "paavli.ee",
+   "su": "https://paavli.ee/sundmused/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1143644054710623/",
+   "a": "kosmilise progeroki ja elektroonilise muusika kooslus",
+   "pu": "https://fienta.com/et/paavli-live-henge",
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: paavli.ee ürituseleht (https://paavli.ee/sundmused/paavli%e2%80%a4live-henge-uk/) + Fienta. Kuupäev 16.11.2027 lehe tekstist.",
+   "lisatud": "2026-11-20",
+   "img": "https://www.skene.info/pildid/paavlilivehengeuk.webp",
    "vu": "https://www.kultuurivabrik.ee/"
   }
  ]

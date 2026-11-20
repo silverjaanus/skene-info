@@ -1970,5 +1970,139 @@
   "lisatud": "2026-11-20",
   "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 18, 2026).",
   "img": "pildid/djpuuestoedits01.webp"
+ },
+ {
+  "d": "2026-11-21",
+  "t": "klubi",
+  "n": "Lights Out @ Fonoteek",
+  "b": [
+   "Funkomatik",
+   "Olivar",
+   "Slin Remi"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "Fonoteek FB events-tab",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1171299105563740/",
+  "a": "23.00–04.00; house, UK garage; 20+",
+  "pu": "https://gateme.com/et/fonoteek/104579-lights-out-i-2111-i-fonoteek",
+  "hind": {
+   "praegu": "FB going kuni 00.00 / terve öö 5 € / 7 €, tavapilet 10 €",
+   "allikas": "ürituse leht, kontrollitud 20.11.2026"
+  },
+  "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: FB event (Fonoteek + Muusikalinn Tallinn) + GateMe. Sari on klubi-saidil varem olnud (Lights Out 29.08, 19.09, 30.10).",
+  "lisatud": "2026-11-20",
+  "img": "pildid/lightsoutfonoteek.webp"
+ },
+ {
+  "d": "2026-11-27",
+  "t": "klubi",
+  "n": "Stereo @ Fonoteek",
+  "b": [
+   "MHKL",
+   "ARU"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "Fonoteek FB events-tab",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1191932696509370/",
+  "a": "23.00–04.00; house music all night",
+  "pu": "https://gateme.com/fonoteek/104567-stereo-2711-fonoteek",
+  "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: FB event + GateMe; RA 2585621. Sari varem saidil (25.09, 23.10).",
+  "lisatud": "2026-11-20",
+  "img": "pildid/stereofonoteek.webp"
+ },
+ {
+  "d": "2026-11-27",
+  "t": "klubi",
+  "n": "Piidivabrik @ Klubi Neli",
+  "b": [
+   "Muudu",
+   "Kurly Beats",
+   "Paap",
+   "Paula",
+   "Hurmet Ilus"
+  ],
+  "v": "Klubi Neli",
+  "c": "Tartu",
+  "g": [
+   "house",
+   "techno"
+  ],
+  "sn": "Klubi Neli GateMe",
+  "su": "https://gateme.com/et/klubineli/",
+  "a": "21.00–05.00; house, breakbeat, afro house, meloodiline techno, deep/progressive house",
+  "pu": "https://gateme.com/et/klubineli/104582-piidivabrik-i-klubi-neli-i-2711/",
+  "hind": {
+   "praegu": "eelmüük 5 €, hiljem 9 €, Fast Track 15 €",
+   "allikas": "ürituse leht, kontrollitud 20.11.2026"
+  },
+  "nb": "lisatud sweepi ülekontrollis 20.11.2026. Piletimüüja leht (REEGLID §3 erand: piletileht piisab) + Klubi Neli GateMe-koondleht; žanrid ürituse kirjeldusest.",
+  "lisatud": "2026-11-20",
+  "img": "pildid/piidivabrikklubineli.webp"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "klubi",
+  "n": "Äfters @ Klubi Neli",
+  "b": [
+   "QSLAP",
+   "24K (LV)"
+  ],
+  "v": "Klubi Neli",
+  "c": "Tartu",
+  "g": [
+   "house"
+  ],
+  "sn": "Klubi Neli GateMe",
+  "su": "https://gateme.com/et/klubineli/",
+  "a": "21.00–05.00; QSLAP (Living room, gruuv ja hüpnootilised rütmid), 24K (Club side)",
+  "pu": "https://gateme.com/et/klubineli/104583-afters-i-klubi-neli-i-2811/",
+  "hind": {
+   "praegu": "21–23 tasuta, 23–01 5 €, 01–05 9 €, Fast Track 15 €",
+   "allikas": "ürituse leht, kontrollitud 20.11.2026"
+  },
+  "nb": "lisatud sweepi ülekontrollis 20.11.2026. Piletimüüja leht (REEGLID §3 erand) + Klubi Neli GateMe-koondleht.",
+  "lisatud": "2026-11-20",
+  "img": "pildid/aftersklubineli.webp"
+ },
+ {
+  "d": "2026-11-20",
+  "t": "klubi",
+  "n": "/diːp kʌts/ @ huba.club",
+  "b": [
+   "Kässar",
+   "Kalju999",
+   "DJTHZ909"
+  ],
+  "v": "huba.club",
+  "c": "Tartu",
+  "g": [
+   "house",
+   "minimal"
+  ],
+  "sn": "huba.club FB events-tab",
+  "su": "https://www.facebook.com/hubbaclubba/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2038549646838375/",
+  "a": "22.00–02.00; deep house, minimal, tech, bounce",
+  "hind": {
+   "praegu": "5 €",
+   "allikas": "ürituse leht, kontrollitud 20.11.2026"
+  },
+  "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: FB event + kluub.ee Tartu (žanr tagurpidi kirjutatud kirjelduses: „deep house minimal tech bounce“).",
+  "lisatud": "2026-11-20",
+  "img": "pildid/dipktshubaclub.webp",
+  "img_src": "fb:2038549646838375"
  }
 ]

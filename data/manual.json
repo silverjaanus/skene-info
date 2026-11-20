@@ -4233,5 +4233,28 @@
   "lisatud": "2026-11-20",
   "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 1, 2026).",
   "img": "pildid/tallinnfilma3a3a3a.webp"
+ },
+ {
+  "d": "2027-11-16",
+  "t": "kontsert",
+  "n": "Paavli.Live: HENGE (UK)",
+  "b": [
+   "Henge (UK)"
+  ],
+  "v": "Paavli Kultuurivabrik",
+  "c": "Tallinn",
+  "g": [
+   "rock",
+   "alt"
+  ],
+  "sn": "paavli.ee",
+  "su": "https://paavli.ee/sundmused/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1143644054710623/",
+  "a": "kosmilise progeroki ja elektroonilise muusika kooslus",
+  "pu": "https://fienta.com/et/paavli-live-henge",
+  "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: paavli.ee ürituseleht (https://paavli.ee/sundmused/paavli%e2%80%a4live-henge-uk/) + Fienta. Kuupäev 16.11.2027 lehe tekstist.",
+  "lisatud": "2026-11-20",
+  "img": "pildid/paavlilivehengeuk.webp"
  }
 ]
