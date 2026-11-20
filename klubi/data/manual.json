@@ -2204,5 +2204,60 @@
   "nb": "Silveri otsus 20.11.2026 (meilivastus 4b): klubi saidile (sünt / elektrooniline), oid 2026-11-20-provincial-beat-viljandi. Kaks allikat: FB event (Provincial Beat + Konservatoorium; L 05.12 kl 20.00–02.00) + Konservatooriumi FB events-tab. Täiskoosseis ja hind ürituse kirjeldusest. Žanri nimetab leht ainult Kirikmäe kohta.",
   "img": "pildid/provincialbeati.webp",
   "img_src": "fb:1137378655683585"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "klubi",
+  "n": "G5 Speziale @ D3",
+  "a": "23.00–04.00; house; 18+",
+  "b": [
+   "kaarel",
+   "sass",
+   "nurk",
+   "tømi",
+   "kreis",
+   "noyze"
+  ],
+  "v": "D3",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "D3",
+  "su": "https://www.d-3.ee/events/g5-speziale/",
+  "pu": "https://gateme.com/et/D3Tallinn/104573-g5-speziale-i-2811-i-d3/",
+  "hind": {
+   "praegu": "eelmüük 11 €, Priority 15 €",
+   "mark": "uksel FB Going kuni 00.00 7 €, tavapilet 11 €",
+   "allikas": "ürituse leht (GateMe), kontrollitud 20.11.2026"
+  },
+  "lisatud": "2026-11-20",
+  "nb": "Silveri otsus 20.11.2026 (vestluses: „mõlemad sisse“), oid 2026-11-20-g5-speziale-d3. Kaks allikat: D3 ürituseleht + GateMe (L 28.11 kl 23.00–04.00, korraldaja Maalritsehh OÜ). Koosseis, žanr (house) ja hinnad ürituse kirjeldusest. G5 on Studio klubi sari; varasemad G5-peod olid rap-saidil.",
+  "img": "pildid/g5spezialed3.webp"
+ },
+ {
+  "d": "2026-12-18",
+  "t": "klubi",
+  "n": "Machine Nation 18.12",
+  "a": "23.59–08.00; Machine Nationi aasta viimane warehouse-pidu; 18+",
+  "b": [],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "techno"
+  ],
+  "sn": "GateMe",
+  "su": "https://gateme.com/et/halltallinn/104516-machine-nation-1812/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1938695570433585/",
+  "pu": "https://gateme.com/et/halltallinn/104516-machine-nation-1812/",
+  "hind": {
+   "praegu": "eelmüük 25 €",
+   "allikas": "ürituse leht (GateMe), kontrollitud 20.11.2026"
+  },
+  "lisatud": "2026-11-20",
+  "koosseis_tba": 1,
+  "nb": "Silveri otsus 20.11.2026 (vestluses: „mõlemad sisse“), oid 2026-11-20-machine-nation-hall. Kaks allikat: FB event (Merimell + Rada7.ee + HALL + Machine Nation; R 18.12 kl 23.45/23.59–08.00) + GateMe. Koosseis: „FULL LINE-UP: TBA“. ⚠ Žanrit ürituse leht EI nimeta; silt techno on Silveri otsuse alusel (valik a).",
+  "img": "pildid/machinenation1812.webp"
  }
 ]
