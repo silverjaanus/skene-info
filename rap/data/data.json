@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "entries": [
   {
    "d": "2026-10-09",
@@ -108,6 +108,30 @@
    "vu": "https://kidrakuur.ee/"
   },
   {
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Chainz Live: Maakuu «Kummuli» & Chainz «Laboratoorium» topelt-albumiesitlus",
+   "b": [
+    "Chainz",
+    "Maakuu"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1467024438726996/",
+   "a": "20.00–03.00",
+   "pu": "https://fienta.com/et/chainz-live-maakuu-kummuli-chainz-laboratoorium-topelt-albumiesitus",
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event + Fienta (q=räpp).",
+   "lisatud": "2026-11-20",
+   "img": "pildid/chainzlivemaakuukummulichainzlaboratooriumtopeltalbumiesitlus.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
    "d": "2026-11-27",
    "t": "kontsert",
    "n": "Legendaarne Live: Masta Robusta x Marmormaze",
@@ -130,6 +154,33 @@
    "lisatud": "2026-11-13",
    "img": "pildid/legendaarnelivemastarobustaxmarmormaze.webp",
    "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "d": "2026-11-27",
+   "t": "kontsert",
+   "n": "T-Parm «13 Sarvikut» EP esitlus",
+   "b": [
+    "T-Parm",
+    "Benakanister"
+   ],
+   "v": "Konk",
+   "c": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Konk FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=61593812049749&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1488082179920217/",
+   "a": "21.00–02.00; debüüt-EP esitlus, lisaks kolm üllatusartisti",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Konk + Aparaaditehas) + Konki FB events-tab.",
+   "lisatud": "2026-11-20",
+   "img": "pildid/tparm13sarvikutepesitlus.webp",
+   "img_src": "fb:1488082179920217"
   },
   {
    "d": "2026-11-28",
@@ -159,6 +210,54 @@
    "lisatud": "2026-11-06",
    "img": "pildid/rapikaslivemaxtractdonpedro.webp",
    "img_src": "fb:28996549440001940"
+  },
+  {
+   "d": "2026-12-04",
+   "t": "kontsert",
+   "n": "FOMO: Real Hip-Hop Is Back",
+   "b": [
+    "Shaggy (LV)",
+    "Bassofsky",
+    "Da Crew"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1877428257035480/",
+   "a": "algus 23.00; hip-hop / rap / RnB klubiõhtu; 18+",
+   "pu": "https://gateme.com/Paavlikultuurivabrik-stellar/104574-fomo-real-hip-hop-is-back",
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (FOMO + Paavli) + GateMe piletileht.",
+   "lisatud": "2026-11-20",
+   "img": "pildid/fomorealhiphopisback.webp",
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "d": "2026-12-06",
+   "t": "kontsert",
+   "n": "EiK | elav muusika & luulekogu esitlus",
+   "b": [
+    "EiK"
+   ],
+   "v": "Von Krahl",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/4539907379620619/",
+   "a": "20.00–22.00; bändiga, luulekogu „mis edasi, see alles selgineb“ esitlus",
+   "pu": "https://piletikeskus.ee/et/e/iff52a",
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event + Piletikeskus; Bandsintown liigitab hip-hopiks; EiK on räpisaidil ka varem (EiK LIVE 26.09).",
+   "lisatud": "2026-11-20",
+   "img": "pildid/eikelavmuusikaluulekoguesitlus.webp",
+   "vu": "https://vonkrahl.ee/"
   },
   {
    "d": "2026-12-12",
@@ -220,6 +319,41 @@
    "lisatud": "2026-11-06",
    "img": "pildid/nnprodigyboysloteyjplathelitehas.webp",
    "vu": "https://helitehas.ee/"
+  },
+  {
+   "d": "2026-12-18",
+   "t": "kontsert",
+   "n": "Hip Hop Hangout @ Kultuuriklubi Tempel",
+   "b": [
+    "5LOOPS",
+    "Loodikud",
+    "Majaka Mandela",
+    "Carlotta",
+    "DJ Kayot",
+    "Don Nuki",
+    "Sänk",
+    "sPOOM",
+    "Loodikud Krew"
+   ],
+   "v": "Kultuuriklubi Tempel",
+   "c": "mujal",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Loodikud FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=61565948540767&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/3132941123719775/",
+   "a": "algus 20.00; räpi-live’id + DJ-d",
+   "hind": {
+    "praegu": "5 €",
+    "mark": "toetus",
+    "allikas": "FB event, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Loodikud, Carlotta, Tempel) + Rada7 FB events-tab.",
+   "lisatud": "2026-11-20",
+   "linn": "Pärnu",
+   "vu": "https://www.klubitempel.ee/"
   },
   {
    "d": "2026-12-19",

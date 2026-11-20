@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 643,
+ "count": 646,
  "entries": [
   {
    "sait": "www",
@@ -17786,6 +17786,86 @@
    "on_": "Ametlik leht",
    "ou": "https://paavli.ee/sundmused/napalm-death-uk-master-us-brat-us-goatburner-fi-17-11-26-paavli-kultuurivabrik/",
    "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-19",
+   "t": "klubi",
+   "n": "Femme Fatale: Klooren",
+   "a": "21.00-00.00; house, breakbeat ja kõik seal vahepeal, vaheldumisi chill ja vähem chill",
+   "b": [
+    "Klooren"
+   ],
+   "v": "TOPS",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "breaks"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/65c0254d-33a3-41a5-94aa-9c0a91dfb967",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2546363182525959",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "kluub.ee (FB eventi peegel), kontrollitud 18.11.2026"
+   },
+   "lisatud": "2026-11-18",
+   "nb": "lisatud postkastijooksus 18.11.2026 (samm 2c). Allikad: kluub.ee + FB event (TOPS, Soo 15). Žanr ürituse enda tekstist (house/breakbeat). Klooren = pealkirjas nimetatud DJ, eraldi koosseisu pole."
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-19",
+   "t": "kontsert",
+   "n": "Laine Live: Night Flies",
+   "a": "kaks setti: 20.00 ja 21.30; uksed 19.00",
+   "b": [
+    "Night Flies"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "rock"
+   ],
+   "sn": "Uus Laine FB events-tab (sisselogitud)",
+   "su": "https://www.facebook.com/uuslaine/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1818039866049500/",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud järelkäigus 09.10.2026. FB event (Night Flies + Uus Laine kaaskorraldajad). Night Flies on saidil rockbändina (Krypt Rock Friday 09.10). ⚠ Kahe allika tõlgendus: venue + artist samal eventil. | 13.11.2026 sweep: Fienta piletileht → pu.",
+   "pu": "https://fienta.com/et/laine-live-night-flies",
+   "img": "https://www.skene.info/pildid/lainelivenightflies.webp",
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-19",
+   "t": "kontsert",
+   "n": "Mordhorst Syndicate (DE)",
+   "a": "uksed 20.00, bänd 22.00; hardcore punk Leipzigist",
+   "b": [
+    "Mordhorst Syndicate (DE)"
+   ],
+   "v": "Konservatoorium",
+   "c": "mujal",
+   "linn": "Viljandi",
+   "g": [
+    "punk",
+    "core"
+   ],
+   "sn": "Konservatooriumi FB events-tab",
+   "su": "https://www.facebook.com/konservatoorium/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1157178360164580/",
+   "hind": {
+    "praegu": "10€ sularaha / 13€ kaart",
+    "mark": "uksel",
+    "allikas": "FB event, kontrollitud 30.10.2026"
+   },
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event (Konservatoorium + bänd kaaskorraldajad) + Konservatooriumi events-tab.",
+   "lisatud": "2026-10-30",
+   "img": "https://www.skene.info/pildid/mordhorstsyndicatede.webp",
+   "vu": "https://www.facebook.com/konservatoorium"
   }
  ]
 }

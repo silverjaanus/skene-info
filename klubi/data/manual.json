@@ -1484,7 +1484,9 @@
   "on_": "Facebook event",
   "ou": "https://www.facebook.com/events/2260599827848684/",
   "nb": "lisatud sweepis 06.11.2026; hardstyle = klubi (pretsedent Hard Nation 14.11)",
-  "lisatud": "2026-11-06"
+  "lisatud": "2026-11-06",
+  "img": "pildid/rawestpresentstwistedchristmas2026.webp",
+  "img_src": "fb:2260599827848684"
  },
  {
   "d": "2027-02-12",
@@ -1752,6 +1754,251 @@
    "allikas": "kluub.ee + GateMe, 19.11.2026"
   },
   "lisatud": "2026-11-19",
-  "nb": "lisatud postkastijooksus 19.11.2026 (samm 2c). Kaks allikat: kluub.ee urituseleht + GateMe piletileht (R 20.11 21:00 @ Klubi Neli, 5 € pilet). Zanr kluub.ee siltidest Deep House/House. FB event ei avanenud serverist."
+  "nb": "lisatud postkastijooksus 19.11.2026 (samm 2c). Kaks allikat: kluub.ee urituseleht + GateMe piletileht (R 20.11 21:00 @ Klubi Neli, 5 € pilet). Zanr kluub.ee siltidest Deep House/House. FB event ei avanenud serverist.",
+  "img": "pildid/rulersofthedeepklubineli.webp"
+ },
+ {
+  "d": "2026-11-21",
+  "t": "klubi",
+  "n": "DnB Special Guest Night @ Kära Kants",
+  "b": [
+   "IDAONTHEDECKZ",
+   "Dr. Doctor"
+  ],
+  "v": "Kära Kants",
+  "c": "mujal",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Kära Kantsi FB grupi events-tab",
+  "su": "https://www.facebook.com/groups/112392415448166/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1118637500893323/",
+  "a": "23.00–04.00; 18+",
+  "hind": {
+   "praegu": "enne 23 tasuta, pärast 5 €",
+   "allikas": "FB event, kontrollitud 20.11.2026"
+  },
+  "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event + Kära Kantsi grupi events-tab.",
+  "lisatud": "2026-11-20",
+  "linn": "Rakvere",
+  "img": "pildid/dnbspecialguestnightkarakants.webp",
+  "img_src": "fb:1118637500893323"
+ },
+ {
+  "d": "2026-11-27",
+  "t": "klubi",
+  "n": "Compress Rave x HALL: Acid Techno Night",
+  "b": [
+   "Meelis Vili b2b L21 (GE)",
+   "Charch (GE)",
+   "QSLAP",
+   "Bertanxcan (TR)",
+   "Powerpuff"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "techno"
+  ],
+  "sn": "HALL FB events-tab",
+  "su": "https://www.facebook.com/halltallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1054018380984487/",
+  "a": "algus 23.00; acid techno; 18+",
+  "pu": "https://gateme.com/et/halltallinn/104571-compress-rave-x-hall-acid-techno-night",
+  "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (CompressEvents + HALL) + GateMe.",
+  "lisatud": "2026-11-20",
+  "img": "pildid/compressravexhallacidtechnonight.webp"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "klubi",
+  "n": "Bar IDA — Saaremets plays house all night long",
+  "b": [
+   "Raul Saaremets"
+  ],
+  "v": "Bar IDA",
+  "c": "Tallinn",
+  "g": [
+   "house"
+  ],
+  "sn": "IDA Radio FB events-tab",
+  "su": "https://www.facebook.com/IDARadio/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2568854300262910/",
+  "a": "22.00–04.00",
+  "hind": {
+   "praegu": "5 €",
+   "allikas": "FB event, kontrollitud 20.11.2026"
+  },
+  "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event + IDA Radio FB events-tab.",
+  "lisatud": "2026-11-20",
+  "img": "pildid/baridasaaremetsplayshouseallnightlong.webp",
+  "img_src": "fb:2568854300262910"
+ },
+ {
+  "d": "2026-12-12",
+  "t": "klubi",
+  "n": "ÖÖTjuunINg",
+  "b": [
+   "Kalev Rundu",
+   "JaanJaago",
+   "Kaspar Leivo",
+   "L.Eazy",
+   "To-Sha",
+   "Qba"
+  ],
+  "v": "Fonoteek",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Fonoteek FB events-tab",
+  "su": "https://www.facebook.com/fonoteekbar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2348953222522880/",
+  "a": "algus 23.00; Öötöö + Tjuun In, drum & bass",
+  "hind": {
+   "praegu": "5 € / 10 €",
+   "mark": "enne 00.00 5 € (FB going), pärast 10 €",
+   "allikas": "FB event, kontrollitud 20.11.2026"
+  },
+  "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Tjuun In, Fonoteek, Öötöö) + Fonoteegi FB events-tab.",
+  "lisatud": "2026-11-20"
+ },
+ {
+  "d": "2026-12-19",
+  "t": "klubi",
+  "n": "Selecta: Mozey (UK)",
+  "b": [
+   "Mozey (UK)"
+  ],
+  "v": "D3",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Resident Advisor",
+  "su": "https://ra.co/events/2579779",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1189954200363190/",
+  "a": "23.00–04.00; jump-up drum & bass",
+  "pu": "https://gateme.com/D3Tallinn/104427-selecta-mozey-uk-tallinn",
+  "nb": "lisatud sweepis 20.11.2026. Kolm allikat: FB event (Selecta + D3), RA (2579779), GateMe. 13.11 sweepil oli ainult RA — nüüd kinnitatud.",
+  "lisatud": "2026-11-20",
+  "img": "pildid/selectamozeyuk.webp"
+ },
+ {
+  "d": "2026-12-19",
+  "t": "klubi",
+  "n": "TRIPLOOP invites Kaspiann (FIN)",
+  "b": [
+   "Kaspiann (FIN)",
+   "Punch",
+   "Unitøne",
+   "Brenna Ryan"
+  ],
+  "v": "HALL",
+  "c": "Tallinn",
+  "g": [
+   "techno"
+  ],
+  "sn": "HALL FB events-tab",
+  "su": "https://www.facebook.com/halltallinn/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1909012816748721/",
+  "a": "algus 23.00; hüpnootiline / psühhedeeliline techno",
+  "pu": "https://gateme.com/halltallinn/104577-triploop-invites-kaspiann-fin",
+  "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (TRIPLOOP + HALL) + GateMe.",
+  "lisatud": "2026-11-20",
+  "img": "pildid/triploopinviteskaspiannfin.webp"
+ },
+ {
+  "d": "2027-02-12",
+  "t": "klubi",
+  "n": "Selecta x Helitehas B-Day",
+  "b": [],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "dnb"
+  ],
+  "sn": "Helitehas FB events-tab",
+  "su": "https://www.facebook.com/helitehas/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4718787808443770/",
+  "a": "22.00–04.00; Selecta 7 + Helitehas 8 sünnipäev, drum & bass",
+  "pu": "https://gateme.com/et/helitehas/104539-selecta-x-helitehas-b-day",
+  "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Selecta + Helitehas) + GateMe. Koosseis avaldamata.",
+  "lisatud": "2026-11-20",
+  "koosseis_tba": 1,
+  "img": "pildid/selectaxhelitehasbday.webp"
+ },
+ {
+  "d": "2026-11-20",
+  "t": "klubi",
+  "n": "Kaks Tuba x Meisterjaan",
+  "b": [
+   "Meisterjaan"
+  ],
+  "v": "Kaks Tuba",
+  "c": "mujal",
+  "g": [
+   "techno",
+   "electro"
+  ],
+  "sn": "Kaks Tuba FB events-tab",
+  "su": "https://www.facebook.com/kakstuba/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1917713109637048/",
+  "a": "23.00–04.00; Meisterjaan DJ-setiga („technot, võib-olla natuke elektrot“)",
+  "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Kaks Tuba + Meisterjaan) + Kaks Tuba FB events-tab.",
+  "lisatud": "2026-11-20",
+  "linn": "Rapla",
+  "img": "pildid/kakstubaxmeisterjaan.webp",
+  "img_src": "fb:1917713109637048"
+ },
+ {
+  "d": "2026-11-19",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Darth Phader & Andaaza — «Saunasaundi»",
+  "a": "Adelic Records (Tallinn); suomisaundi / psytrance / techno",
+  "b": [
+   "Darth Phader",
+   "Andaaza"
+  ],
+  "g": [
+   "psytrance",
+   "techno"
+  ],
+  "sn": "Bandcamp (Eesti tag-otsing)",
+  "su": "https://adelicrecords.bandcamp.com/album/saunasaundi",
+  "on_": "Bandcamp",
+  "ou": "https://adelicrecords.bandcamp.com/album/saunasaundi",
+  "lisatud": "2026-11-20",
+  "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 19, 2026).",
+  "img": "pildid/darthphaderandaazasaunasaundi.webp"
+ },
+ {
+  "d": "2026-11-18",
+  "t": "reliis",
+  "rel": 1,
+  "n": "DJ Puu — «esto edits 01»",
+  "a": "outsider house / lo-fi beats, Tallinn",
+  "b": [
+   "DJ Puu"
+  ],
+  "g": [
+   "house"
+  ],
+  "sn": "Bandcamp (Eesti tag-otsing)",
+  "su": "https://djpuu.bandcamp.com/album/esto-edits-01",
+  "on_": "Bandcamp",
+  "ou": "https://djpuu.bandcamp.com/album/esto-edits-01",
+  "lisatud": "2026-11-20",
+  "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 18, 2026).",
+  "img": "pildid/djpuuestoedits01.webp"
  }
 ]
