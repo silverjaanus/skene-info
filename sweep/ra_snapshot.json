@@ -10,22 +10,6 @@
  "kirjed": [
   {
    "d": "2026-11-21",
-   "n": "Bar IDA presents: Healer Records",
-   "algus": "2026-11-21T22:00:00.000",
-   "v": "Bar IDA",
-   "ala": "Tallinn",
-   "b": [
-    "Squash"
-   ],
-   "g": [
-    "Techno",
-    "House"
-   ],
-   "url": "https://ra.co/events/2585752",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-21",
    "n": "Intorno al Disco W/ Noax, Ric Piccolo & Koldun",
    "algus": "2026-11-21T23:00:00.000",
    "v": "Hall",
@@ -39,6 +23,22 @@
     "Italo Disco"
    ],
    "url": "https://ra.co/events/2570240",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-21",
+   "n": "Bar IDA presents: Healer Records",
+   "algus": "2026-11-21T22:00:00.000",
+   "v": "Bar IDA",
+   "ala": "Tallinn",
+   "b": [
+    "Squash"
+   ],
+   "g": [
+    "Techno",
+    "House"
+   ],
+   "url": "https://ra.co/events/2585752",
    "pilet": false
   },
   {
@@ -142,6 +142,19 @@
   },
   {
    "d": "2026-11-27",
+   "n": "STEREO",
+   "algus": "2026-11-27T23:00:00.000",
+   "v": "Fonoteek",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "House"
+   ],
+   "url": "https://ra.co/events/2585621",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-27",
    "n": "Attend with MANDIDEXTROUS (UK)",
    "algus": "2026-11-27T23:00:00.000",
    "v": "Helitehas",
@@ -152,19 +165,6 @@
     "Techno"
    ],
    "url": "https://ra.co/events/2536031",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-27",
-   "n": "STEREO",
-   "algus": "2026-11-27T23:00:00.000",
-   "v": "Fonoteek",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "House"
-   ],
-   "url": "https://ra.co/events/2585621",
    "pilet": false
   },
   {
