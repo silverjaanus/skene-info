@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "entries": [
   {
    "d": "2026-10-16",
@@ -311,145 +311,6 @@
    "lisatud": "2026-11-20",
    "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 18, 2026).",
    "img": "pildid/btbullshitlivetape.webp"
-  },
-  {
-   "d": "2026-11-20",
-   "t": "kontsert",
-   "n": "Mustasch (SWE)",
-   "a": "Rootsi hard rock'i üks jõulisemaid nimesid, Ralf Gyllenhammari juhtimisel; kaks Grammist, läbimurdealbum «Latest Version of the Truth» (2007); uus album lubatud 2026; algus 19.00",
-   "b": [
-    "Mustasch",
-    "Above My Head"
-   ],
-   "v": "Helitehas",
-   "c": "Tallinn",
-   "g": [
-    "rock",
-    "heavy",
-    "stoner"
-   ],
-   "sn": "Baltic Live Agency FB",
-   "su": "https://www.facebook.com/balticliveagency/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1413551483860652/",
-   "pu": "https://www.piletilevi.ee/piletid/3EJHJLGL23/mustasch-swe",
-   "hind": {
-    "praegu": "44€ / 69€ (VIP)",
-    "mark": "Early Bird 44€, VIP 69€ (kiirem sissepääs + VIP rõdu, eraldi baar/garderoob); + agenditasu 3,30–5,20€; uksed 19.00; vanusepiiranguta",
-    "allikas": "Piletilevi, kontrollitud 06.09.2026"
-   },
-   "nb": "leitud sweepis 25.07.2026; kinnitatud Baltic Live Agency FB event + helitehas.ee ürituseleht. 06.09.2026 postkastijooks: HANDOVER §4 jälgimispunkt („Helitehase FB events-tab ei näidanud 04.09\") SULETUD — Piletilevi ürituseleht on aktiivne, müük käib, kuupäev R 20.11.2026 19.00 Helitehas kinnitatud; hind lisatud. `su` viidi REEGLID §3 vormi (/events, mitte /upcoming_hosted_events). | 20.11.2026 sweep: erikülaline Above My Head (MuusikaPlaneet 18.11 uudis „Mustaschi reedese kontserdi erikülaliseks kinnitati kodumaine Above My Head“).",
-   "img": "pildid/mustaschswe.webp",
-   "vu": "https://helitehas.ee/"
-  },
-  {
-   "d": "2026-11-20",
-   "t": "kontsert",
-   "n": "Heavy Friday: Metal Metuusala + Postiljon",
-   "a": "kaks tribüüt-/kaverbändi: Goodman & Viljanen (hard rock klassika akustiliselt) ja Metal Metuusala (80-90ndate hevi ja grunge); uksed 20.00, show 22.00, 00.00 tasuta aftekas",
-   "b": [
-    "Metal Metuusala",
-    "Postiljon"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "heavy",
-    "rock"
-   ],
-   "sn": "The Krypt FB events-tab",
-   "su": "https://www.facebook.com/thekrypt.tallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/3375441239511338/",
-   "pu": "https://fienta.com/et/metalmetuusala-postiljon-thekrypt",
-   "hind": {
-    "praegu": "15 €",
-    "allikas": "Fienta, kontrollitud 16.10.2026"
-   },
-   "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (The Krypt + Sügis Productions) + Fienta. ⚠ Kaverbändid — Goodman & Viljanen 02.10 300 klubis lisati Silveri otsusega (b); sama telg, kui ei sobi, eemalda. | 06.11.2026: koosseis muutus — Goodman & Viljanen (FI) asemel Postiljon (Fienta uus leht; vana Fienta-leht 404).",
-   "img": "pildid/heavyfridaymetalmetuusalagoodmanviljanenfi.webp",
-   "vu": "https://www.thekrypt.ee/"
-  },
-  {
-   "d": "2026-11-20",
-   "t": "muu",
-   "n": "Bowie x 3: Sander Varusk: Bowie on the Move",
-   "a": "20.00–22.00; Bowie plaadiõhtu (DJ mängib plaate, mitte live-kontsert) BOWIE x SUKITA näituse raames; sissepääs näituse piletiga",
-   "b": [
-    "Sander Varusk"
-   ],
-   "v": "PoCo popkunstimuuseum",
-   "c": "Tallinn",
-   "g": [
-    "rock"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://www.piletilevi.ee/piletid/I6SC5XT5FA/bowie-x-sukita?sp=popkunst",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1132862432472299/",
-   "pu": "https://www.piletilevi.ee/piletid/YXYDXY4BFU/bowie-x-3-sander-varusk-bowie-on-the-move",
-   "hind": {
-    "praegu": "15 € (näituse pilet)",
-    "mark": "",
-    "allikas": "kontaktivorm/korraldaja + Piletilevi, kontrollitud 03.11.2026"
-   },
-   "lisatud": "2026-11-05",
-   "nb": "SILVERI OTSUS 04.11.2026 (\"2. lisa\") - otsustuspunkt 2026-11-03-poco-bowie-x-3 -> a (kõik kolm www-le, rock). Korraldaja PoCo (kontaktivorm ott@poco.art, Zanrid: rock). ERAND: plaadiõhtu muuseumis, mitte pretsedent.",
-   "img": "pildid/bowiex3sandervaruskbowieonthemove.webp"
-  },
-  {
-   "d": "2026-11-20",
-   "t": "kontsert",
-   "n": "Kurjam @ Kära Kants",
-   "a": "algus 23.00; Eesti punkbänd aastast 1996",
-   "b": [
-    "Kurjam"
-   ],
-   "v": "Kära Kants",
-   "c": "mujal",
-   "linn": "Rakvere",
-   "g": [
-    "punk"
-   ],
-   "sn": "Kära Kantsi FB grupi events",
-   "su": "https://www.facebook.com/groups/112392415448166/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1692455535632383/",
-   "hind": {
-    "praegu": "12 €, Kära Kantsi liige kuni 23.00 10 € (sularahas)",
-    "allikas": "FB event, kontrollitud 13.11.2026"
-   },
-   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event + Kära Kantsi FB grupi events-tab.",
-   "lisatud": "2026-11-13",
-   "img": "pildid/kurjamkarakants.webp",
-   "img_src": "fb:1692455535632383"
-  },
-  {
-   "d": "2026-11-20",
-   "t": "kontsert",
-   "n": "Mordhorst Syndicate (DE) + Seanus + Juurestik @ Ülase12",
-   "a": "algus 19.00; rokkpidu Ülase12-s",
-   "b": [
-    "Mordhorst Syndicate (DE)",
-    "Seanus",
-    "Juurestik"
-   ],
-   "v": "Ülase12",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "core"
-   ],
-   "sn": "Ülase12 (Anemon12) FB events-tab",
-   "su": "https://www.facebook.com/anemon12tln/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2504238713315001/",
-   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (Anemon12) + Ülase12 FB events-tab. Mordhorst Syndicate mängib 19.11 ka Viljandis (eraldi kirje).",
-   "lisatud": "2026-11-13",
-   "img": "pildid/mordhorstsyndicatedeseanusjuurestikulase12.webp",
-   "img_src": "fb:2504238713315001",
-   "vu": "https://www.facebook.com/anemon12tln"
   },
   {
    "d": "2026-11-21",
@@ -3114,6 +2975,6 @@
   }
  ],
  "log": [
-  "krypt: 10"
+  "krypt: 9"
  ]
 }
