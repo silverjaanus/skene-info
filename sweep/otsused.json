@@ -1,1 +1,98 @@
-[]
+[
+ {
+  "oid": "2026-11-22-rein-fuks",
+  "lisatud": "2026-11-22",
+  "tahtaeg": "2026-11-27",
+  "vaikeotsus": "b",
+  "kysimus": "Rein Fuks «Ma tegin ju nalja» (Seksound SEKs100, ilmub K 25.11.2026) — dreampop/indie pop/shoegaze. Kas lisame www-reliisina?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www-reliisina (g: indie, shoegaze, rock; rel+lisatud)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (popi poole kalduv indie)"
+   }
+  ],
+  "lingid": [
+   "https://seksound.bandcamp.com/album/ma-tegin-ju-nalja",
+   "https://www.seksound.com"
+  ],
+  "kontekst": "check_bandcamp.py tegi Andmekorje 22.11 punaseks (uus album Seksoundi Bandcampis). Bandcampi sildid: pop, dreampop, indie, indie pop, indie rock, shoegaze; 12 lugu, Rein Fuks teeb kõike ise (trummid, kitarrid, süntesaatorid, mellotron), külalisvokaal Kristel Eplik; vinüül 100 tk, saadetakse ~15.12. URL on juba bandcamp_seen.json-is, et CI roheliseks saada; vastus (a) → lisan kirje. Pretsedent: Club Ghost (Seksound) lisati 21.10, sest bänd oli Silveri 22.09 otsusega skoobis; Rein Fuksi kohta varasemat otsust pole."
+ },
+ {
+  "oid": "2026-11-22-gok2-luka",
+  "lisatud": "2026-11-22",
+  "tahtaeg": "2026-11-27",
+  "vaikeotsus": "c",
+  "kysimus": "Terminal Live: GØK2 & Luka — R 27.11.2026 21.00 Terminal Records&Bar, Tallinn (5–15 €). Millisele saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "klubi (g: electro, breaks)"
+   },
+   {
+    "id": "b",
+    "tekst": "www (g: punk, electro, alt)"
+   },
+   {
+    "id": "c",
+    "tekst": "jäta välja (elektropopp)"
+   }
+  ],
+  "lingid": [
+   "https://www.facebook.com/events/1497648022260429",
+   "https://fienta.com/et/terminal-live-goek2-luka",
+   "https://www.kluub.ee/et/events/tallinn/057f2bc0-510a-4120-9100-83b438bc0d8e"
+  ],
+  "kontekst": "Ürituse tekst: LUKA = elektroonilise popmuusika produtsent (glitch, süntesaatorid, popmeloodiad); GØK2 = Istanbulist pärit, Tallinnas tegutsev artist, segab elektropunki, breakcore'i, big beat'i ja nu metal'it. kluub.ee sildid: Live, Pop, Electro. Põhižanr on segane (elektroonika vs punk/metal), sellepärast küsin."
+ },
+ {
+  "oid": "2026-11-22-lasten-hautausmaa",
+  "lisatud": "2026-11-22",
+  "tahtaeg": "2026-11-27",
+  "vaikeotsus": "b",
+  "kysimus": "Lasten Hautausmaa Duo (FIN) + Nova Lux + Riste — L 28.11.2026 19.00 Anemon12 (Ülase 12), Tallinn (5/8 €). Kas lisame www-le?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www-le (g: alt, rock — Nova Lux põhjal)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (peaesineja on pop)"
+   }
+  ],
+  "lingid": [
+   "https://www.facebook.com/events/1627019615418994",
+   "https://www.kluub.ee/et/events/tallinn/9752fe8a-4819-4f24-bb9d-1eb2a86e1914",
+   "https://lastenhautausmaa.bandcamp.com/album/kes",
+   "https://novaluks.bandcamp.com/album/new-jersey",
+   "https://ristesofiekaar.bandcamp.com/album/supip-ev-lp-remaster-2026"
+  ],
+  "kontekst": "Bandcampi sildid: Lasten Hautausmaa = pop, death pop (Soome); Nova Lux = rock, alternative rock, depressive rock (Tallinn); Riste = acoustic, lo-fi, tweepop. Ajakava: 20.00 Riste, 21.00 Lasten Hautausmaa Duo, 22.00 Nova Lux. Kaks allikat olemas (FB event + kluub.ee), küsimus on ainult skoobis."
+ },
+ {
+  "oid": "2026-11-22-ida-plastik",
+  "lisatud": "2026-11-22",
+  "tahtaeg": "2026-11-27",
+  "vaikeotsus": "b",
+  "kysimus": "Bar IDA: Plastik all night long (+ kiimsask, mrt) — R 27.11.2026 20.00–04.00 IDA Radio, Telliskivi 60a (tasuta kuni 22.00, hiljem 5/7 €). Žanri pole kirjas. Kas lisame klubi-saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi-saidile (ütle žanrisilt)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (žanr teadmata)"
+   }
+  ],
+  "lingid": [
+   "https://www.facebook.com/events/2601908953591171",
+   "https://www.kluub.ee/et/events/tallinn/82312157-4930-4ef6-95f6-5cf87715ab5e"
+  ],
+  "kontekst": "Ürituse tekstis ja kluub.ee-s žanri ega žanrisilti pole. PLASTIK esines ka 18.09 MOD-is klubi-saidil oleval üritusel (ARCHIVE), aga REEGLID ütleb, et žanrit ei arva."
+ }
+]
