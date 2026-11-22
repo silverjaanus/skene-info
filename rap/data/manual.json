@@ -233,34 +233,6 @@
   "img": "pildid/rapmeetsrockcoold.webp"
  },
  {
-  "d": "2026-11-07",
-  "t": "kontsert",
-  "n": "BAD ART live | DJ Virtoos & Koksa",
-  "a": "Saekaatri taasavamine, kaks lava; algus 22.00",
-  "b": [
-   "Bad Art",
-   "DJ Virtoos",
-   "Koksa"
-  ],
-  "v": "Ööklubi Saekaater",
-  "c": "mujal",
-  "linn": "Jõgeva",
-  "g": [
-   "räpp",
-   "hiphop"
-  ],
-  "sn": "Fienta",
-  "su": "https://fienta.com/uusalgus",
-  "pu": "https://fienta.com/uusalgus",
-  "hind": {
-   "praegu": "alates 12 €",
-   "allikas": "Fienta (API), kontrollitud 23.10.2026"
-  },
-  "lisatud": "2026-10-23",
-  "nb": "lisatud sweepis 23.10.2026 Fienta API diffist; piletimüügi leht (REEGLID §3 erand). Bad Art = Eesti räppar (saidil juba RAJOONIKAS 20.11).",
-  "img": "pildid/badartlivedjvirtooskoksa.webp"
- },
- {
   "rel": 1,
   "d": "2026-10-26",
   "lisatud": "2026-10-28",

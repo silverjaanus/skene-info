@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "entries": [
   {
    "d": "2026-10-16",
@@ -311,170 +311,6 @@
    "lisatud": "2026-11-20",
    "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 18, 2026).",
    "img": "pildid/btbullshitlivetape.webp"
-  },
-  {
-   "d": "2026-11-21",
-   "t": "kontsert",
-   "n": "Laine Live: Belgrado (BCN)",
-   "b": [
-    "Belgrado (BCN)"
-   ],
-   "v": "Uus Laine",
-   "c": "Tallinn",
-   "g": [
-    "post",
-    "punk"
-   ],
-   "sn": "Uus Laine veebikava",
-   "su": "https://uuslaine.com/",
-   "pu": "https://fienta.com/et/laine-live-belgrado-bcn",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Fienta piletileht + uuslaine.com kava. Žanr Fienta tekstist (1980ndate Euroopa post-punk, Barcelona DIY). FB eventi ei leidnud (Uus Laine FB events-tab näitab akna peidus olekus ainult 8 esimest) → ou tühi. | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
-   "img": "pildid/lainelivebelgradobcn.webp",
-   "ou": "https://www.facebook.com/events/1045329701648631/",
-   "on_": "Facebook event",
-   "vu": "https://uuslaine.com/"
-  },
-  {
-   "d": "2026-11-21",
-   "t": "kontsert",
-   "n": "TUBERKULOITED x VENNASKOND x SÕPRUSE PUIESTEE",
-   "a": "algus 19.00; korraldaja Hetk / E&H Entertainment",
-   "b": [
-    "The Tuberkuloited",
-    "Vennaskond",
-    "Sõpruse Puiestee"
-   ],
-   "v": "Helitehas",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "rock"
-   ],
-   "sn": "helitehas.ee kava",
-   "su": "https://helitehas.ee/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/3703632376480636/",
-   "pu": "https://www.piletitasku.ee/et/performance/26243",
-   "lisatud": "2026-10-02",
-   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Hetk) + Piletitasku piletileht + helitehas.ee kava („Eesti punk ja rock\"). Sildid samad mis Tuberkuloited/Vennaskonna varasematel kirjetel.",
-   "img": "pildid/tuberkuloitedxvennaskondxsoprusepuiestee.webp",
-   "vu": "https://helitehas.ee/"
-  },
-  {
-   "d": "2026-11-21",
-   "t": "kontsert",
-   "n": "White Sparks 15 + See You Next Fvll",
-   "a": "White Sparks 15. sünnipäev; algus 19.00",
-   "b": [
-    "White Sparks",
-    "See You Next Fvll",
-    "Lemon Trees"
-   ],
-   "v": "The Krypt",
-   "c": "Tallinn",
-   "g": [
-    "post",
-    "rock"
-   ],
-   "sn": "The Krypt FB events-tab",
-   "su": "https://www.facebook.com/thekrypt.tallinn/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1140276728672856/",
-   "lisatud": "2026-10-09",
-   "nb": "lisatud 09.10.2026. FB event (White Sparks, Lemon Trees, The Krypt kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: „instrumental synth-led post rock trio from Tallinn“ (bändi FB). | 30.10.2026 sweep: rikastatud (pu, b).",
-   "pu": "https://fienta.com/et/whitesparks15-thekrypt",
-   "img": "pildid/whitesparks15seeyounextfvll.webp",
-   "vu": "https://www.thekrypt.ee/"
-  },
-  {
-   "d": "2026-11-21",
-   "t": "kontsert",
-   "n": "Ocean Districts «Pulsar» esitluskontsert + Mobisa Mobisa",
-   "a": "uue albumi „Pulsar“ Tallinna esitlus, tunnine set uue ja vana materjaliga; õhtu avab Mobisa Mobisa",
-   "b": [
-    "Ocean Districts",
-    "Mobisa Mobisa"
-   ],
-   "v": "SAAR CULT",
-   "c": "Tallinn",
-   "g": [
-    "post",
-    "core",
-    "rock",
-    "alt"
-   ],
-   "sn": "Rada7.ee FB events-tab",
-   "su": "https://www.facebook.com/rada7.ee/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/2380568782683420/",
-   "pu": "https://fienta.com/et/ocean-districts-pulsar-esitluskontsert-mobisa-mobisa-vinuuliesitlus",
-   "hind": {
-    "praegu": "alates 15 €",
-    "allikas": "Fienta, kontrollitud 16.10.2026"
-   },
-   "lisatud": "2026-10-16",
-   "nb": "lisatud sweepis 16.10.2026. FB event (Ocean Districts + Mobisa Mobisa) + Fienta. Žanr Fienta tekstist: post-hardcore, post-rock, alternatiivrock.",
-   "img": "pildid/oceandistrictspulsaresitluskontsertmobisamobisa.webp",
-   "vu": "https://www.facebook.com/saarcult"
-  },
-  {
-   "d": "2026-11-21",
-   "t": "kontsert",
-   "n": "Tumeaine «Kõik või mitte midagi» plaadiesitlus",
-   "a": "kell 20.00; doom-rock trio debüütalbumi esitlus, külalislauljad Ants „Ank“ Lill (Tharaphita), Killbaba (Räpina Jack), Mart Kalvet (ex-Taak), Janek Saareli (Hukkunud Hinged); erikülaline NE’ER",
-   "b": [
-    "Tumeaine",
-    "NE'ER"
-   ],
-   "v": "Kidrakuur",
-   "c": "Tallinn",
-   "g": [
-    "doom",
-    "stoner",
-    "rock"
-   ],
-   "sn": "Kidrakuur FB events-tab",
-   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1466468298688403/",
-   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kidrakuuri ja Rada7 FB events-tab. Žanr ürituse tekstist ja Bandcampist (doom metal / doom rock / stoner).",
-   "lisatud": "2026-10-30",
-   "img": "pildid/tumeainekoikvoimittemidagiplaadiesitlus.webp",
-   "vu": "https://kidrakuur.ee/"
-  },
-  {
-   "d": "2026-11-21",
-   "t": "kontsert",
-   "n": "Klubi Rock 2026",
-   "a": "Klubi Rocki 20. juubel (esimene toimus 2006); 19.00-01.00; baar, tasumine sularahas",
-   "b": [
-    "Singer Vinger",
-    "Korts ja Kaos",
-    "Surju Kommunaal",
-    "Infrapuna",
-    "Seevald"
-   ],
-   "v": "Kilingi-Nõmme klubi",
-   "c": "mujal",
-   "linn": "Kilingi-Nõmme",
-   "g": [
-    "rock",
-    "punk"
-   ],
-   "sn": "kontaktivorm",
-   "su": "https://www.knklubi.ee/kalender/klubi-rock-2026/",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1445267376932743/",
-   "hind": {
-    "praegu": "15 € (kohapeal, sularahas)",
-    "mark": "",
-    "allikas": "knklubi.ee ürituseleht + kontaktivorm, kontrollitud 04.11.2026"
-   },
-   "lisatud": "2026-11-04",
-   "nb": "lisatud postkastijooksus 04.11.2026 (kontaktivorm 03.11, www-vorm, žanrid 'punk, rock'). Kaks allikat: FB event (Kilingi-Nõmme klubi, L 21.11 19.00) + venue kalender knklubi.ee (21.11 19.00-01.00, sissepääs 15 €). Koosseis: FB-lehel esimesed 4 nähtavad ('See more' taga), Seevald vormist.",
-   "img": "pildid/klubirock2026.webp",
-   "img_src": "fb:1445267376932743"
   },
   {
    "d": "2026-11-22",
@@ -2975,6 +2811,6 @@
   }
  ],
  "log": [
-  "krypt: 9"
+  "krypt: 8"
  ]
 }

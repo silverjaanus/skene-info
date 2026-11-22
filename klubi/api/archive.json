@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "_meta": {
   "info": "skene.info avalik API - arhiiv (moodunud kirjed). Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 663,
+ "count": 676,
  "entries": [
   {
    "sait": "www",
@@ -17951,6 +17951,43 @@
   {
    "sait": "klubi",
    "d": "2026-11-20",
+   "d2": "21.11",
+   "t": "klubi",
+   "n": "Club NINE: 10 Years of Magic",
+   "a": "kaks ööd: R 20.11 progressive sound, L 21.11 tech & deep sound",
+   "b": [
+    "Type-O",
+    "Hando Tõnumaa",
+    "Tarmo Kull",
+    "Sten Roosvald",
+    "LAID",
+    "STIAN (NO)",
+    "Sound Architect",
+    "Antti"
+   ],
+   "v": "Club NINE",
+   "c": "Tallinn",
+   "g": [
+    "progressive",
+    "house",
+    "techno"
+   ],
+   "sn": "Club NINE FB events-tab",
+   "su": "https://www.facebook.com/ClubNineTallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1442732414625602/",
+   "pu": "https://www.ticketer.ee/10-years-of-magic-1",
+   "hind": {
+    "praegu": "eelmüük 2 ööd 10 €, ukselt 1 öö 10 €",
+    "allikas": "FB event, 06.11.2026"
+   },
+   "nb": "lisatud sweepis 06.11.2026; 2. allikas RA 2568575 + Ticketer",
+   "lisatud": "2026-11-06",
+   "img": "https://klubi.skene.info/pildid/clubnine10yearsofmagic.webp"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-20",
    "t": "klubi",
    "n": "FEDO x Silat Beksi all night long",
    "a": "Fonoteek x Tripsy",
@@ -18339,6 +18376,345 @@
    },
    "lisatud": "2026-11-20",
    "nb": "lisatud postkastijooksus 20.11.2026 (samm 2c). Allikad: kluub.ee + FB event (TOPS ja Ulmenthal, Soo 15; R 20.11 kell 22). Žanr ürituse enda tekstist (nu-disco)."
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-21",
+   "t": "klubi",
+   "n": "Bar IDA: Healer Records w/ Squash & Pätt",
+   "a": "20.00–04.00; Healer Recordsi debüütaasta kolmanda vinüüli peo",
+   "b": [
+    "Squash",
+    "Pätt"
+   ],
+   "v": "Bar IDA",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "electro"
+   ],
+   "sn": "IDA Radio FB events-tab",
+   "su": "https://www.facebook.com/IDARadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1183048127483271/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event + IDA Radio FB events-tab. Seotud reliisikirje Squash «Big Motion» (HEALER003).",
+   "lisatud": "2026-11-13",
+   "img": "https://klubi.skene.info/pildid/baridahealerrecordswsquashpatt.webp",
+   "img_src": "fb:1183048127483271",
+   "vu": "https://www.facebook.com/IDARadio"
+  },
+  {
+   "sait": "rap",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Chainz Live: Maakuu «Kummuli» & Chainz «Laboratoorium» topelt-albumiesitlus",
+   "b": [
+    "Chainz",
+    "Maakuu"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Legendaarne Raadio FB events-tab",
+   "su": "https://www.facebook.com/LegendaarneRaadio/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1467024438726996/",
+   "a": "20.00–03.00",
+   "pu": "https://fienta.com/et/chainz-live-maakuu-kummuli-chainz-laboratoorium-topelt-albumiesitus",
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event + Fienta (q=räpp).",
+   "lisatud": "2026-11-20",
+   "img": "https://rap.skene.info/pildid/chainzlivemaakuukummulichainzlaboratooriumtopeltalbumiesitlus.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-21",
+   "t": "klubi",
+   "n": "DnB Special Guest Night @ Kära Kants",
+   "b": [
+    "IDAONTHEDECKZ",
+    "Dr. Doctor"
+   ],
+   "v": "Kära Kants",
+   "c": "mujal",
+   "g": [
+    "dnb"
+   ],
+   "sn": "Kära Kantsi FB grupi events-tab",
+   "su": "https://www.facebook.com/groups/112392415448166/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1118637500893323/",
+   "a": "23.00–04.00; 18+",
+   "hind": {
+    "praegu": "enne 23 tasuta, pärast 5 €",
+    "allikas": "FB event, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event + Kära Kantsi grupi events-tab.",
+   "lisatud": "2026-11-20",
+   "linn": "Rakvere",
+   "img": "https://klubi.skene.info/pildid/dnbspecialguestnightkarakants.webp",
+   "img_src": "fb:1118637500893323"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Fatboy Slim (UK)",
+   "a": "Norman Cook esmakordselt Eestis — eksklusiivne show Kalosseumi saalis, algus 21.00; soojenduseks kohalikud DJd",
+   "b": [
+    "Fatboy Slim"
+   ],
+   "v": "Põhjala tehas (Kalosseumi saal)",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "breaks"
+   ],
+   "sn": "MuusikaPlaneet",
+   "su": "https://muusikaplaneet.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1644633487180578/",
+   "pu": "https://www.piletilevi.ee/fatboy-slim",
+   "hind": {
+    "praegu": "79 € (Late Bird) + 2 € teenustasu",
+    "mark": "Early Bird 59 €, Regular 69 €, VIP 99/109 € välja müüdud; 18+; soojendus DJ Critikal b2b Muudu",
+    "allikas": "Piletilevi, kontrollitud 16.11.2026"
+   },
+   "lisatud": "2026-08-14",
+   "nb": "lisatud sweepis 14.08.2026; kolm allikat: Baltic Live Agency FB event + Piletilevi (L 21.11.2026 21:00, Kalosseumi saal) + MuusikaPlaneet uudis. pu parandatud 16.11.2026 otse-eventi lehele (leitud kluub.ee kaudu) + hind Piletilevist. NB samal õhtul Lane 8 Noblessneri Valukojas (kirje olemas)",
+   "img": "https://klubi.skene.info/pildid/fatboyslimuk.webp",
+   "vu": "https://pohjalatehas.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Klubi Rock 2026",
+   "a": "Klubi Rocki 20. juubel (esimene toimus 2006); 19.00-01.00; baar, tasumine sularahas",
+   "b": [
+    "Singer Vinger",
+    "Korts ja Kaos",
+    "Surju Kommunaal",
+    "Infrapuna",
+    "Seevald"
+   ],
+   "v": "Kilingi-Nõmme klubi",
+   "c": "mujal",
+   "linn": "Kilingi-Nõmme",
+   "g": [
+    "rock",
+    "punk"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://www.knklubi.ee/kalender/klubi-rock-2026/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1445267376932743/",
+   "hind": {
+    "praegu": "15 € (kohapeal, sularahas)",
+    "mark": "",
+    "allikas": "knklubi.ee ürituseleht + kontaktivorm, kontrollitud 04.11.2026"
+   },
+   "lisatud": "2026-11-04",
+   "nb": "lisatud postkastijooksus 04.11.2026 (kontaktivorm 03.11, www-vorm, žanrid 'punk, rock'). Kaks allikat: FB event (Kilingi-Nõmme klubi, L 21.11 19.00) + venue kalender knklubi.ee (21.11 19.00-01.00, sissepääs 15 €). Koosseis: FB-lehel esimesed 4 nähtavad ('See more' taga), Seevald vormist.",
+   "img": "https://www.skene.info/pildid/klubirock2026.webp",
+   "img_src": "fb:1445267376932743"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Laine Live: Belgrado (BCN)",
+   "b": [
+    "Belgrado (BCN)"
+   ],
+   "v": "Uus Laine",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "punk"
+   ],
+   "sn": "Uus Laine veebikava",
+   "su": "https://uuslaine.com/",
+   "pu": "https://fienta.com/et/laine-live-belgrado-bcn",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: Fienta piletileht + uuslaine.com kava. Žanr Fienta tekstist (1980ndate Euroopa post-punk, Barcelona DIY). FB eventi ei leidnud (Uus Laine FB events-tab näitab akna peidus olekus ainult 8 esimest) → ou tühi. | 09.10.2026: FB event ou lisatud (Uus Laine events-tab).",
+   "img": "https://www.skene.info/pildid/lainelivebelgradobcn.webp",
+   "ou": "https://www.facebook.com/events/1045329701648631/",
+   "on_": "Facebook event",
+   "vu": "https://uuslaine.com/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-21",
+   "t": "klubi",
+   "n": "Lane 8: Europe Tour",
+   "b": [
+    "Lane 8",
+    "Bombossa Brothers",
+    "Pyfel"
+   ],
+   "v": "Noblessneri Valukoda",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "techno",
+    "melodic"
+   ],
+   "sn": "Facebook event",
+   "su": "https://www.facebook.com/events/1028764386206264",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1028764386206264",
+   "pu": "https://fienta.com/et/lane8",
+   "nb": "lisatud sweepis 28.07.2026 (FB event + Fienta). Piiripealne: suur nimi, aga baasžanr melodic/progressive house — sama loogika mis Netskyl",
+   "img": "https://klubi.skene.info/pildid/lane8europetour.webp",
+   "hind": {
+    "praegu": "35–40 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   }
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-11-21",
+   "t": "klubi",
+   "n": "Lights Out @ Fonoteek",
+   "b": [
+    "Funkomatik",
+    "Olivar",
+    "Slin Remi"
+   ],
+   "v": "Fonoteek",
+   "c": "Tallinn",
+   "g": [
+    "house"
+   ],
+   "sn": "Fonoteek FB events-tab",
+   "su": "https://www.facebook.com/fonoteekbar/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1171299105563740/",
+   "a": "23.00–04.00; house, UK garage; 20+",
+   "pu": "https://gateme.com/et/fonoteek/104579-lights-out-i-2111-i-fonoteek",
+   "hind": {
+    "praegu": "FB going kuni 00.00 / terve öö 5 € / 7 €, tavapilet 10 €",
+    "allikas": "ürituse leht, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: FB event (Fonoteek + Muusikalinn Tallinn) + GateMe. Sari on klubi-saidil varem olnud (Lights Out 29.08, 19.09, 30.10).",
+   "lisatud": "2026-11-20",
+   "img": "https://klubi.skene.info/pildid/lightsoutfonoteek.webp",
+   "vu": "https://fonoteek.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Ocean Districts «Pulsar» esitluskontsert + Mobisa Mobisa",
+   "a": "uue albumi „Pulsar“ Tallinna esitlus, tunnine set uue ja vana materjaliga; õhtu avab Mobisa Mobisa",
+   "b": [
+    "Ocean Districts",
+    "Mobisa Mobisa"
+   ],
+   "v": "SAAR CULT",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "core",
+    "rock",
+    "alt"
+   ],
+   "sn": "Rada7.ee FB events-tab",
+   "su": "https://www.facebook.com/rada7.ee/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2380568782683420/",
+   "pu": "https://fienta.com/et/ocean-districts-pulsar-esitluskontsert-mobisa-mobisa-vinuuliesitlus",
+   "hind": {
+    "praegu": "alates 15 €",
+    "allikas": "Fienta, kontrollitud 16.10.2026"
+   },
+   "lisatud": "2026-10-16",
+   "nb": "lisatud sweepis 16.10.2026. FB event (Ocean Districts + Mobisa Mobisa) + Fienta. Žanr Fienta tekstist: post-hardcore, post-rock, alternatiivrock.",
+   "img": "https://www.skene.info/pildid/oceandistrictspulsaresitluskontsertmobisamobisa.webp",
+   "vu": "https://www.facebook.com/saarcult"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "TUBERKULOITED x VENNASKOND x SÕPRUSE PUIESTEE",
+   "a": "algus 19.00; korraldaja Hetk / E&H Entertainment",
+   "b": [
+    "The Tuberkuloited",
+    "Vennaskond",
+    "Sõpruse Puiestee"
+   ],
+   "v": "Helitehas",
+   "c": "Tallinn",
+   "g": [
+    "punk",
+    "rock"
+   ],
+   "sn": "helitehas.ee kava",
+   "su": "https://helitehas.ee/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/3703632376480636/",
+   "pu": "https://www.piletitasku.ee/et/performance/26243",
+   "lisatud": "2026-10-02",
+   "nb": "lisatud sweepis 02.10.2026. Kaks allikat: FB event (Hetk) + Piletitasku piletileht + helitehas.ee kava („Eesti punk ja rock\"). Sildid samad mis Tuberkuloited/Vennaskonna varasematel kirjetel.",
+   "img": "https://www.skene.info/pildid/tuberkuloitedxvennaskondxsoprusepuiestee.webp",
+   "vu": "https://helitehas.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "Tumeaine «Kõik või mitte midagi» plaadiesitlus",
+   "a": "kell 20.00; doom-rock trio debüütalbumi esitlus, külalislauljad Ants „Ank“ Lill (Tharaphita), Killbaba (Räpina Jack), Mart Kalvet (ex-Taak), Janek Saareli (Hukkunud Hinged); erikülaline NE’ER",
+   "b": [
+    "Tumeaine",
+    "NE'ER"
+   ],
+   "v": "Kidrakuur",
+   "c": "Tallinn",
+   "g": [
+    "doom",
+    "stoner",
+    "rock"
+   ],
+   "sn": "Kidrakuur FB events-tab",
+   "su": "https://www.facebook.com/KidrakuurKultuuriklubi/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1466468298688403/",
+   "nb": "lisatud sweepis 30.10.2026. Kaks allikat: FB event + Kidrakuuri ja Rada7 FB events-tab. Žanr ürituse tekstist ja Bandcampist (doom metal / doom rock / stoner).",
+   "lisatud": "2026-10-30",
+   "img": "https://www.skene.info/pildid/tumeainekoikvoimittemidagiplaadiesitlus.webp",
+   "vu": "https://kidrakuur.ee/"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-21",
+   "t": "kontsert",
+   "n": "White Sparks 15 + See You Next Fvll",
+   "a": "White Sparks 15. sünnipäev; algus 19.00",
+   "b": [
+    "White Sparks",
+    "See You Next Fvll",
+    "Lemon Trees"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "post",
+    "rock"
+   ],
+   "sn": "The Krypt FB events-tab",
+   "su": "https://www.facebook.com/thekrypt.tallinn/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1140276728672856/",
+   "lisatud": "2026-10-09",
+   "nb": "lisatud 09.10.2026. FB event (White Sparks, Lemon Trees, The Krypt kaaskorraldajad). Žanr googeldatud Silveri palvel 09.10.2026: „instrumental synth-led post rock trio from Tallinn“ (bändi FB). | 30.10.2026 sweep: rikastatud (pu, b).",
+   "pu": "https://fienta.com/et/whitesparks15-thekrypt",
+   "img": "https://www.skene.info/pildid/whitesparks15seeyounextfvll.webp",
+   "vu": "https://www.thekrypt.ee/"
   }
  ]
 }
