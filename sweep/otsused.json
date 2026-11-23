@@ -1,1 +1,46 @@
-[]
+[
+ {
+  "oid": "2026-11-23-garaaz-genklubi",
+  "lisatud": "2026-11-23",
+  "tahtaeg": "2026-11-27",
+  "vaikeotsus": "b",
+  "kysimus": "Garaaž — R 27.11.2026 22.00–04.00 Genialistide Klubi, Tartu (TASUTA). Kitarrimuusika DJ-öö (alt-rock, indie, post/pop-punk, emo, garage rock). Kas lisame www-le?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www-le (g: alt, rock, punk, post; t: pidu)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (DJ-öö, mitte kontsert; ainult üks loetav allikas)"
+   }
+  ],
+  "lingid": [
+   "https://www.kluub.ee/et/events/tartu/e986645e-dee4-4144-9068-e4598d32cf64",
+   "https://www.facebook.com/events/1010600014781533"
+  ],
+  "kontekst": "Leitud kluub.ee Tartu lehelt (samm 2c, 23.11). Selectorid: Jaak Järvekülg, Ants Siim, Paul Sild (Mariin K.), Timo Tiivas (Motonormal, Oumeen), Henri Kutsar. kluub.ee sildid: Alternative, Indie, Post-Punk. Põhižanr on kitarrimuusika (www), aga formaat on DJ-öö — www-s pole kitarrimuusika DJ-õhtute pretsedenti. Teine allikas puudub: FB event ei avane ilma sisselogimiseta, Genialistide kodulehel/otsingus seda ei leitud."
+ },
+ {
+  "oid": "2026-11-23-manic-sulandi",
+  "lisatud": "2026-11-23",
+  "tahtaeg": "2026-11-27",
+  "vaikeotsus": "b",
+  "kysimus": "MANIC b2b SULANDI — R 27.11.2026 23.00–03.00 huba.club (Kalevi 13), Tartu (5/7 €). Žanri pole kirjas. Kas lisame klubi-saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi-saidile (ütle žanrisilt)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (žanr teadmata)"
+   }
+  ],
+  "lingid": [
+   "https://www.facebook.com/events/1628266008980277",
+   "https://www.kluub.ee/et/events/tartu/44439623-8fa7-4065-a155-d5e8c04df0a2"
+  ],
+  "kontekst": "Ürituse tekst on ainult 'manic sulandi support 5/7'; kluub.ee-s žanrisilti pole, veebiotsing DJ-de kohta ei andnud midagi. Sweep 20.11 jättis selle välja (žanr puudub), aga ei küsinud; nüüd küsin samm 2c järgi. huba.club /diːp kʌts/ 20.11 on klubi-saidil olemas."
+ }
+]
