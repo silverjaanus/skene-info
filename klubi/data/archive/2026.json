@@ -7390,6 +7390,34 @@
    "lisatud": "2026-11-20",
    "img": "pildid/lightsoutfonoteek.webp",
    "vu": "https://fonoteek.ee/"
+  },
+  {
+   "d": "2026-11-22",
+   "t": "kontsert",
+   "n": "MOD Live: Evanora:Unlimited (US)",
+   "a": "kell 19.00; Oaklandi (USA) artisti Orion Ohana multimeedia- ja performance-projekt",
+   "b": [
+    "Evanora:Unlimited (US)"
+   ],
+   "v": "MOD",
+   "c": "Tallinn",
+   "g": [
+    "experimental"
+   ],
+   "sn": "Paavli Kultuurivabriku programm",
+   "su": "https://www.kultuurivabrik.ee/programm#1027108143728113",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1027108143728113",
+   "pu": "https://fienta.com/et/evanoraunlimitedmod",
+   "hind": {
+    "praegu": "uksel 20 €, eelmüügist soodsam",
+    "allikas": "ürituse FB event + Fienta, kontrollitud 20.11.2026"
+   },
+   "lisatud": "2026-11-20",
+   "nb": "Silveri otsus 20.11.2026 (meilivastus 1a; 19.11 „läheb sisse“), oid 2026-11-18-evanora-unlimited-mod. Kolm allikat: FB event (MOD.tln + Paavli Kultuurivabrik; P 22.11 kl 19.00) + kultuurivabrik.ee programm + Fienta. ⚠ Žanrit ürituse leht EI ütle; silt experimental on pandud Silveri otsuse alusel (küsimuse sõnastus „eksperimentaalne elektroonika“), mitte lehelt. Hind: uksehind 20 € on FB kirjelduses ja Fientas sama; eelmüügi astmed (FB: 10/15 €, MOD-i liikmele soodsam) võivad Fientas erineda, seepärast täpset eelmüügihinda kirjes pole.",
+   "img": "pildid/modliveevanoraunlimitedus.webp",
+   "img_src": "fienta",
+   "vu": "https://www.facebook.com/Modtln"
   }
  ]
 }

@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "entries": [
-  {
-   "d": "2026-10-16",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Holy Motors — «Heaven's Night»",
-   "a": "album (LP), Wharf Cat Records",
-   "b": [
-    "Holy Motors"
-   ],
-   "g": [
-    "shoegaze",
-    "indie",
-    "alt"
-   ],
-   "sn": "Rada7.ee uudiskiri + Stereogum",
-   "su": "https://stereogum.com/2503956/holy-motors-announce-new-album-heavens-night-hear-tough-crush/music",
-   "on_": "Spotify",
-   "ou": "https://open.spotify.com/album/0f1frSX9J6YyMZLkMDtLxs",
-   "lisatud": "2026-10-23",
-   "nb": "SILVERI OTSUS 22.10.2026 ('2. lisa') = (a), sildid shoegaze + indie + alt otsustuspunkti järgi. Leitud Rada7 uudiskirjast 22.10 (ütles 19.10); ilmumiskuupäev 16.10 ja label Wharf Cat Stereogumi ja Line of Best Fiti järgi (https://www.thelineofbestfit.com/news/holy-motors-to-return-with-new-album-heavens-night). Tallinna bänd.",
-   "img": "pildid/holymotorsheavensnight.webp"
-  },
   {
    "rel": 1,
    "d": "2026-10-18",
@@ -311,36 +289,6 @@
    "lisatud": "2026-11-20",
    "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 18, 2026).",
    "img": "pildid/btbullshitlivetape.webp"
-  },
-  {
-   "d": "2026-11-22",
-   "t": "kontsert",
-   "n": "Skoone — Mexico Tour Aftermath (AV show)",
-   "a": "algus 19.00; live + Mehhiko tuuril filmitud materjal suurel ekraanil; soojendus Avemaria ja Thousand Hands",
-   "b": [
-    "Skoone",
-    "Avemaria",
-    "Thousand Hands"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "core"
-   ],
-   "sn": "Damn.Loud Agency FB events-tab",
-   "su": "https://www.facebook.com/we.are.too.damn.loud/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1437586191896785/",
-   "hind": {
-    "praegu": "annetuspõhine sissepääs",
-    "allikas": "FB event, kontrollitud 13.11.2026"
-   },
-   "nb": "lisatud 13.11.2026. Kaks allikat: FB event (Damn.Loud + Paavli) + Damn.Loud FB events-tab. Ürituse tekst: 80ndate hardcore punk. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile. | 18.11.2026 postkastijooks: soojendus Avemaria + Thousand Hands - Paavli uudiskiri 17.11 + kultuurivabrik.ee/programm (#1437586191896785).",
-   "lisatud": "2026-11-13",
-   "img": "pildid/skoonemexicotouraftermathavshow.webp",
-   "img_src": "fb:1437586191896785",
-   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "d": "2026-11-25",

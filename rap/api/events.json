@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "_meta": {
   "info": "skene.info avalik API - tulevased + varsked kirjed. Eesti alternatiivmuusika: kontserdid, festivalid, klubiohtud, reliisid, merch.",
   "kasutus": "Tasuta. Palume viidata allikale (skene.info) ja sailitada kirjete allikaviited (ou/su/pu). Kirjete andmed ET keeles.",
@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 177,
+ "count": 174,
  "entries": [
   {
    "sait": "rap",
@@ -57,29 +57,6 @@
    "nb": "lisatud sweepis 13.11.2026. Bandcamp: released October 9, 2026; asukoht Tartu; sildid lyrical hip-hop, boombap, estonian.",
    "lisatud": "2026-11-13",
    "img": "https://rap.skene.info/pildid/emaj6eflowtuhktolmlp.webp"
-  },
-  {
-   "sait": "www",
-   "d": "2026-10-16",
-   "t": "reliis",
-   "rel": 1,
-   "n": "Holy Motors — «Heaven's Night»",
-   "a": "album (LP), Wharf Cat Records",
-   "b": [
-    "Holy Motors"
-   ],
-   "g": [
-    "shoegaze",
-    "indie",
-    "alt"
-   ],
-   "sn": "Rada7.ee uudiskiri + Stereogum",
-   "su": "https://stereogum.com/2503956/holy-motors-announce-new-album-heavens-night-hear-tough-crush/music",
-   "on_": "Spotify",
-   "ou": "https://open.spotify.com/album/0f1frSX9J6YyMZLkMDtLxs",
-   "lisatud": "2026-10-23",
-   "nb": "SILVERI OTSUS 22.10.2026 ('2. lisa') = (a), sildid shoegaze + indie + alt otsustuspunkti järgi. Leitud Rada7 uudiskirjast 22.10 (ütles 19.10); ilmumiskuupäev 16.10 ja label Wharf Cat Stereogumi ja Line of Best Fiti järgi (https://www.thelineofbestfit.com/news/holy-motors-to-return-with-new-album-heavens-night). Tallinna bänd.",
-   "img": "https://www.skene.info/pildid/holymotorsheavensnight.webp"
   },
   {
    "sait": "klubi",
@@ -530,66 +507,6 @@
    "lisatud": "2026-11-20",
    "nb": "lisatud sweepis 20.11.2026. Kuupäev Bandcampi albumilehelt (released November 19, 2026).",
    "img": "https://klubi.skene.info/pildid/darthphaderandaazasaunasaundi.webp"
-  },
-  {
-   "sait": "klubi",
-   "d": "2026-11-22",
-   "t": "kontsert",
-   "n": "MOD Live: Evanora:Unlimited (US)",
-   "a": "kell 19.00; Oaklandi (USA) artisti Orion Ohana multimeedia- ja performance-projekt",
-   "b": [
-    "Evanora:Unlimited (US)"
-   ],
-   "v": "MOD",
-   "c": "Tallinn",
-   "g": [
-    "experimental"
-   ],
-   "sn": "Paavli Kultuurivabriku programm",
-   "su": "https://www.kultuurivabrik.ee/programm#1027108143728113",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1027108143728113",
-   "pu": "https://fienta.com/et/evanoraunlimitedmod",
-   "hind": {
-    "praegu": "uksel 20 €, eelmüügist soodsam",
-    "allikas": "ürituse FB event + Fienta, kontrollitud 20.11.2026"
-   },
-   "lisatud": "2026-11-20",
-   "nb": "Silveri otsus 20.11.2026 (meilivastus 1a; 19.11 „läheb sisse“), oid 2026-11-18-evanora-unlimited-mod. Kolm allikat: FB event (MOD.tln + Paavli Kultuurivabrik; P 22.11 kl 19.00) + kultuurivabrik.ee programm + Fienta. ⚠ Žanrit ürituse leht EI ütle; silt experimental on pandud Silveri otsuse alusel (küsimuse sõnastus „eksperimentaalne elektroonika“), mitte lehelt. Hind: uksehind 20 € on FB kirjelduses ja Fientas sama; eelmüügi astmed (FB: 10/15 €, MOD-i liikmele soodsam) võivad Fientas erineda, seepärast täpset eelmüügihinda kirjes pole.",
-   "img": "https://klubi.skene.info/pildid/modliveevanoraunlimitedus.webp",
-   "img_src": "fienta",
-   "vu": "https://www.facebook.com/Modtln"
-  },
-  {
-   "sait": "www",
-   "d": "2026-11-22",
-   "t": "kontsert",
-   "n": "Skoone — Mexico Tour Aftermath (AV show)",
-   "a": "algus 19.00; live + Mehhiko tuuril filmitud materjal suurel ekraanil; soojendus Avemaria ja Thousand Hands",
-   "b": [
-    "Skoone",
-    "Avemaria",
-    "Thousand Hands"
-   ],
-   "v": "Paavli Kultuurivabrik",
-   "c": "Tallinn",
-   "g": [
-    "punk",
-    "core"
-   ],
-   "sn": "Damn.Loud Agency FB events-tab",
-   "su": "https://www.facebook.com/we.are.too.damn.loud/events",
-   "on_": "Facebook event",
-   "ou": "https://www.facebook.com/events/1437586191896785/",
-   "hind": {
-    "praegu": "annetuspõhine sissepääs",
-    "allikas": "FB event, kontrollitud 13.11.2026"
-   },
-   "nb": "lisatud 13.11.2026. Kaks allikat: FB event (Damn.Loud + Paavli) + Damn.Loud FB events-tab. Ürituse tekst: 80ndate hardcore punk. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile. | 18.11.2026 postkastijooks: soojendus Avemaria + Thousand Hands - Paavli uudiskiri 17.11 + kultuurivabrik.ee/programm (#1437586191896785).",
-   "lisatud": "2026-11-13",
-   "img": "https://www.skene.info/pildid/skoonemexicotouraftermathavshow.webp",
-   "img_src": "fb:1437586191896785",
-   "vu": "https://www.kultuurivabrik.ee/"
   },
   {
    "sait": "www",

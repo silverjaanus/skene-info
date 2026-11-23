@@ -1,26 +1,13 @@
 {
- "tommatud": "2026-11-22",
+ "tommatud": "2026-11-23",
  "aken": {
-  "algus": "2026-11-22",
-  "lopp": "2027-01-21"
+  "algus": "2026-11-23",
+  "lopp": "2027-01-22"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 15,
+ "kirjeid": 14,
  "kirjed": [
-  {
-   "d": "2026-11-22",
-   "n": "MOD LIVE: EVANORA:UNLIMITED [US]",
-   "algus": "2026-11-22T19:00:00.000",
-   "v": "MOD Club",
-   "ala": "Tallinn",
-   "b": [
-    "Evanora Unlimited"
-   ],
-   "g": [],
-   "url": "https://ra.co/events/2547575",
-   "pilet": false
-  },
   {
    "d": "2026-11-26",
    "n": "THROWBACK THURSDAY",
