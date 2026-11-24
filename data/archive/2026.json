@@ -5369,6 +5369,28 @@
    "img": "pildid/tarbariitus.webp"
   },
   {
+   "d": "2026-10-09",
+   "t": "reliis",
+   "rel": 1,
+   "n": "Varjuta - „Storm of Disillusion“",
+   "a": "Album, 7 lugu (raw black metal, Eesti/UK artist; eestikeelsed lugude nimed). Mahtra Records + Wulfhere Productions, kassett 30 tk",
+   "b": [
+    "Varjuta"
+   ],
+   "v": "Mahtra Records",
+   "g": [
+    "black",
+    "metal"
+   ],
+   "sn": "Bandcamp (Mahtra Records)",
+   "su": "https://mahtrarecords.bandcamp.com/album/storm-of-disillusion",
+   "on_": "Bandcamp",
+   "ou": "https://mahtrarecords.bandcamp.com/album/storm-of-disillusion",
+   "lisatud": "2026-10-09",
+   "nb": "LISATUD 24.11.2026 postkastijooksus check_bandcamp.py alerti peale (Andmekorje 24.11 punane). Kaks allikat: Mahtra Recordsi Bandcampi albumileht + kaasväljaandja Wulfhere Productionsi albumileht https://wulfhereproductions.bandcamp.com/album/storm-of-disillusion - mõlemal 'released October 9, 2026', Mahtra diskograafias 'Oct 2026' (Bandcampi kuupäevaloks: kaks eri labelit sama kuupäevaga, aga mõlemad Bandcamp; Metal Archives 403). Vanem kui ~kuu -> lisatud = d (REEGLID §6), ei lähe esilehele. Bandcampi sildid: black metal, raw black metal, estonian metal, pagan/viking metal.",
+   "img": "pildid/varjutastormofdisillusion.webp"
+  },
+  {
    "d": "2026-10-10",
    "t": "kontsert",
    "n": "Doomed Saturday: Taak + Procession (LV)",

@@ -3683,7 +3683,8 @@
    "allikas": "Piletikeskus + FB event, kontrollitud 22.11.2026"
   },
   "lisatud": "2026-11-22",
-  "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus)."
+  "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus).",
+  "img": "pildid/jimihendrix84ikontsertukaredadvaigladlillepea.webp"
  },
  {
   "d": "2026-11-27",
@@ -3713,7 +3714,8 @@
    "allikas": "Piletikeskus + FB event, kontrollitud 22.11.2026"
   },
   "lisatud": "2026-11-22",
-  "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus)."
+  "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus).",
+  "img": "pildid/jimihendrix84iikontsertukaredadvaigladlillepea.webp"
  },
  {
   "d": "2026-11-28",
@@ -3743,7 +3745,8 @@
    "allikas": "Piletikeskus + FB event, kontrollitud 22.11.2026"
   },
   "lisatud": "2026-11-22",
-  "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus)."
+  "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus).",
+  "img": "pildid/jimihendrix84iiikontsertukaredadvaigladlillepea.webp"
  },
  {
   "d": "2026-11-25",
@@ -3762,7 +3765,8 @@
   "sn": "Bandcamp",
   "su": "https://seksound.bandcamp.com/album/ma-tegin-ju-nalja",
   "lisatud": "2026-11-22",
-  "nb": "LISATUD 22.11.2026 check_bandcamp.py alerti peale. Silveri otsus 22.11.2026 (vastus vestluses). Allikas: labeli enda Bandcampi albumileht (\"releases November 25, 2026\", datePublished 25 Nov 2026); seksound.com on sama Bandcampi peegel, mitte sõltumatu allikas. Bandcampi sildid: dreampop, indie pop, indie rock, shoegaze. Kuupäev kontrolli üle väljalaskel (REEGLID §6 Bandcampi-lõks)."
+  "nb": "LISATUD 22.11.2026 check_bandcamp.py alerti peale. Silveri otsus 22.11.2026 (vastus vestluses). Allikas: labeli enda Bandcampi albumileht (\"releases November 25, 2026\", datePublished 25 Nov 2026); seksound.com on sama Bandcampi peegel, mitte sõltumatu allikas. Bandcampi sildid: dreampop, indie pop, indie rock, shoegaze. Kuupäev kontrolli üle väljalaskel (REEGLID §6 Bandcampi-lõks).",
+  "img": "pildid/reinfuksmateginjunalja.webp"
  },
  {
   "d": "2026-11-28",
@@ -3822,5 +3826,27 @@
   },
   "lisatud": "2026-11-23",
   "nb": "leitud postkastijooksus 23.11.2026 (samm 2c, kluub.ee Tartu). Silveri otsus 23.11.2026 (e-kirja vastus '1a'): lisa www-le kui DJ-öö (t: muu, nagu Bowie plaadiõhtud). Teist sõltumatut allikat ei leitud (FB event vajab sisselogimist) — lisatud Silveri otsusel."
+ },
+ {
+  "d": "2026-10-09",
+  "t": "reliis",
+  "rel": 1,
+  "n": "Varjuta - „Storm of Disillusion“",
+  "a": "Album, 7 lugu (raw black metal, Eesti/UK artist; eestikeelsed lugude nimed). Mahtra Records + Wulfhere Productions, kassett 30 tk",
+  "b": [
+   "Varjuta"
+  ],
+  "v": "Mahtra Records",
+  "g": [
+   "black",
+   "metal"
+  ],
+  "sn": "Bandcamp (Mahtra Records)",
+  "su": "https://mahtrarecords.bandcamp.com/album/storm-of-disillusion",
+  "on_": "Bandcamp",
+  "ou": "https://mahtrarecords.bandcamp.com/album/storm-of-disillusion",
+  "lisatud": "2026-10-09",
+  "nb": "LISATUD 24.11.2026 postkastijooksus check_bandcamp.py alerti peale (Andmekorje 24.11 punane). Kaks allikat: Mahtra Recordsi Bandcampi albumileht + kaasväljaandja Wulfhere Productionsi albumileht https://wulfhereproductions.bandcamp.com/album/storm-of-disillusion - mõlemal 'released October 9, 2026', Mahtra diskograafias 'Oct 2026' (Bandcampi kuupäevaloks: kaks eri labelit sama kuupäevaga, aga mõlemad Bandcamp; Metal Archives 403). Vanem kui ~kuu -> lisatud = d (REEGLID §6), ei lähe esilehele. Bandcampi sildid: black metal, raw black metal, estonian metal, pagan/viking metal.",
+  "img": "pildid/varjutastormofdisillusion.webp"
  }
 ]
