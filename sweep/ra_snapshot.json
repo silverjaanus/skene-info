@@ -6,7 +6,7 @@
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 14,
+ "kirjeid": 16,
  "kirjed": [
   {
    "d": "2026-11-26",
@@ -37,20 +37,6 @@
   },
   {
    "d": "2026-11-27",
-   "n": "ELAMUS SPA PRESENTS: VENUS REWIND",
-   "algus": "2026-11-27T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2590587",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-27",
    "n": "Attend with MANDIDEXTROUS (UK)",
    "algus": "2026-11-27T23:00:00.000",
    "v": "Helitehas",
@@ -61,6 +47,20 @@
     "Techno"
    ],
    "url": "https://ra.co/events/2536031",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-27",
+   "n": "ELAMUS SPA PRESENTS: VENUS REWIND",
+   "algus": "2026-11-27T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2590587",
    "pilet": false
   },
   {
@@ -98,20 +98,6 @@
   },
   {
    "d": "2026-11-28",
-   "n": "TERMINAATOR LIVE",
-   "algus": "2026-11-28T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2590583",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-28",
    "n": "I LOVE K-POP - Tallinn's K-Pop Club Night",
    "algus": "2026-11-28T23:00:00.000",
    "v": "Club Privé",
@@ -122,6 +108,20 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2585208",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-28",
+   "n": "TERMINAATOR LIVE",
+   "algus": "2026-11-28T23:00:00.000",
+   "v": "TBA - Venus Club",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Disco",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2590583",
    "pilet": false
   },
   {
@@ -140,6 +140,17 @@
     "Electronica"
    ],
    "url": "https://ra.co/events/2512671",
+   "pilet": false
+  },
+  {
+   "d": "2026-12-05",
+   "n": "DIO INVITES · :DARREN",
+   "algus": "2026-12-05T23:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2592380",
    "pilet": false
   },
   {
@@ -168,6 +179,17 @@
     "Drum & Bass"
    ],
    "url": "https://ra.co/events/2585337",
+   "pilet": false
+  },
+  {
+   "d": "2026-12-11",
+   "n": "DIO INVITES · IIFACES",
+   "algus": "2026-12-11T22:00:00.000",
+   "v": "Maison Dio Tallinn",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [],
+   "url": "https://ra.co/events/2592441",
    "pilet": false
   },
   {
