@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 175,
+ "count": 177,
  "entries": [
   {
    "sait": "rap",
@@ -915,6 +915,31 @@
    "lisatud": "2026-11-13",
    "img": "https://rap.skene.info/pildid/legendaarnelivemastarobustaxmarmormaze.webp",
    "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-27",
+   "t": "kontsert",
+   "n": "Metallica night: Patarei",
+   "a": "Metallica tribüütbänd Patarei, 2 setti; uksed 20.00, bänd 22.00, 00.00 tasuta aftekas",
+   "b": [
+    "Patarei"
+   ],
+   "v": "The Krypt",
+   "c": "Tallinn",
+   "g": [
+    "metal",
+    "heavy",
+    "thrash"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://fienta.com/metallica-night-patarei-thekrypt",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1087118187484990",
+   "pu": "https://fienta.com/metallica-night-patarei-thekrypt",
+   "lisatud": "2026-11-24",
+   "nb": "lisatud postkastijooksus 24.11.2026 (kontaktivormi sisend Imanta Hütt, žanr vormilt „Metal“). Kaks allikat: FB event (The Krypt, Rada7.ee, PATAREI, Estonianmetal.com, Eesti metallistid, Sügis Productions) + Fienta piletileht (R 27.11 21.00–02.00). Tribüüdiõhtu pretsedent: Metallica & AC/DC night: Patarei + Coverage 28.08.2026 (arhiivis). Hinda Fienta tekst ei ütle.",
+   "vu": "https://www.thekrypt.ee/"
   },
   {
    "sait": "klubi",
@@ -2605,6 +2630,35 @@
    "lisatud": "2026-11-20",
    "linn": "Tõrva",
    "img": "https://www.skene.info/pildid/juudaseoomandaroneskaibald.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-12-12",
+   "t": "kontsert",
+   "n": "MAI SKIZO @ BH Pub",
+   "a": "«Valu mõte» albumituur — aasta viimane kontsert Tallinnas, pikk kava; algus 22.00. Kohapeal plaadid ja merch",
+   "b": [
+    "Mai Skizo"
+   ],
+   "v": "BH Pub",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "punk",
+    "goth",
+    "industrial",
+    "alt"
+   ],
+   "sn": "kontaktivorm",
+   "su": "https://maiskizo.ee/uudised",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1007023568508670",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event + maiskizo.ee, kontrollitud 24.11.2026"
+   },
+   "lisatud": "2026-11-24",
+   "nb": "lisatud postkastijooksus 24.11.2026 (kontaktivormi sisend Pronto/bänd ise). Kaks allikat: FB event (MAI SKIZO + BH Pub, Mustamäe tee 43) + bändi koduleht maiskizo.ee/uudised (22.11 teade). Žanr ürituse enda lehelt: post-punk, industriaal, grunge, gooti rokk."
   },
   {
    "sait": "www",

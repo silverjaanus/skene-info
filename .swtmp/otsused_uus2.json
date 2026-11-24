@@ -1,0 +1,34 @@
+[
+ {
+  "oid": "2026-11-20-g5-speziale-d3",
+  "kysimus": "G5 SPEZIALE · L 28.11.2026 23.00 · D3, Tallinn · GateMe — Studio klubi G5-sarja kuu viimane pidu, „saab house’i, saab crowdpleasereid“. Lisame klubi saidile?",
+  "valikud": [
+   {"id": "a", "tekst": "lisa klubi saidile (house)"},
+   {"id": "b", "tekst": "jäta välja (peavoolu-kommertsklubi sari, crowdpleaserid)"}
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-25",
+  "lingid": [
+   "D3 ürituseleht: https://www.d-3.ee/events/g5-speziale/",
+   "GateMe: https://gateme.com/et/D3Tallinn/104573-g5-speziale-i-2811-i-d3/"
+  ],
+  "kontekst": "Miks küsin: house on klubi-skoobis, aga G5 on Studio (peavoolu ööklubi) sari ja kirjeldus lubab „crowdpleasereid“ — REEGLID §1 peavoolu-kommertsklubi filter võib kehtida. Varasemad G5-peod olid räpisaidil koos räpparitega.",
+  "lisatud": "2026-11-20"
+ },
+ {
+  "oid": "2026-11-20-machine-nation-hall",
+  "kysimus": "Machine Nation 18.12 · R 18.12.2026 23.59–08.00 · HALL, Tallinn · GateMe — Merimelli „underground warehouse“ sari, aasta viimane; koosseis TBA, žanrit lehel ei nimetata. Lisame klubi saidile?",
+  "valikud": [
+   {"id": "a", "tekst": "lisa klubi saidile (koosseis_tba, silt techno)"},
+   {"id": "b", "tekst": "jäta välja, kuni žanr/koosseis avaldatakse"}
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-25",
+  "lingid": [
+   "FB event: https://www.facebook.com/events/1938695570433585/",
+   "GateMe: https://gateme.com/et/halltallinn/104516-machine-nation-1812/"
+  ],
+  "kontekst": "Miks küsin: suur üritus (577 FB-vastajat, HALL), kaks allikat olemas, aga ürituse leht ega GateMe ei ütle žanrit (REEGLID §1: žanrit ei tuletata maja/sarja profiilist).",
+  "lisatud": "2026-11-20"
+ }
+]

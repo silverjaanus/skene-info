@@ -1,0 +1,53 @@
+[
+ {
+  "oid": "2026-11-20-rudimental-dj-kruiisiterminal",
+  "kysimus": "Rudimental DJ set (UK) · R 19.02.2027 21.00 · Kruiisiterminal, Tallinn · Piletitasku — drum & bass / UK dance, aga suurte raadiohittide („These Days“, „Waiting All Night“) autor. Lisame klubi saidile?",
+  "valikud": [
+   {"id": "a", "tekst": "lisa klubi saidile (dnb)"},
+   {"id": "b", "tekst": "jäta välja (peavoolu-tantsumuusika täht, REEGLID §1 peavoolu-erand)"}
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-11-25",
+  "lingid": [
+   "FB event: https://www.facebook.com/events/1480098447370478/",
+   "Piletitasku: https://www.piletitasku.ee/et/event/10617",
+   "Avastusallikas: Baltic Live Agency FB events-tab https://www.facebook.com/balticliveagency/events"
+  ],
+  "kontekst": "Miks küsin: dnb on klubi-skoobis (Hybrid Minds 12.03 D3 on sees), aga Rudimental on edetabelitõusude ja Kruiisiterminali-mõõtu peavooluakt — REEGLID §1 peavoolu-erand (Käärijä/AvB-pretsedent) võib kehtida. 1,9K FB-vastajat.",
+  "lisatud": "2026-11-20"
+ },
+ {
+  "oid": "2026-11-20-rivo-haavandi-oneless",
+  "kysimus": "Rivo Haavandi — «Oneless» (reliis) · 14.11.2026 · Bandcamp — artist ise: „home-made electro“, sildid electronic + industrial metal / progressive metal / ambient / noise. Lisame reliisina — kuhu?",
+  "valikud": [
+   {"id": "a", "tekst": "lisa www reliisiks (industrial metal)"},
+   {"id": "b", "tekst": "lisa klubi reliisiks (electro / industrial)"},
+   {"id": "c", "tekst": "jäta välja"}
+  ],
+  "vaikeotsus": "c",
+  "tahtaeg": "2026-11-25",
+  "lingid": [
+   "Bandcamp: https://rivohaavandi.bandcamp.com/album/oneless",
+   "Avastusallikas: https://bandcamp.com/discover/estonia?tags=metal&s=new"
+  ],
+  "kontekst": "Miks küsin: baasžanr on piiripealne (REEGLID §1: industrial METAL → www, ELECTRO-industrial → klubi) ja artisti enda kirjeldus („electro“) räägib siltidele vastu. Ilmus 14.11.2026, ainult Bandcampis leitud.",
+  "lisatud": "2026-11-20"
+ },
+ {
+  "oid": "2026-11-20-provincial-beat-viljandi",
+  "kysimus": "Provincial Beat I · L 05.12.2026 20.00–02.00 · Konservatoorium, Viljandi — alternatiivmuusikapoe uue ruumi avapidu; kavas Kirikmäe (meloodiline sünt-popp + elektrooniline post-punk) jt. Lisame?",
+  "valikud": [
+   {"id": "a", "tekst": "lisa www (post-punk / alt)"},
+   {"id": "b", "tekst": "lisa klubi (sünt / elektrooniline)"},
+   {"id": "c", "tekst": "jäta välja"}
+  ],
+  "vaikeotsus": "c",
+  "tahtaeg": "2026-11-25",
+  "lingid": [
+   "FB event: https://www.facebook.com/events/1137378655683585/",
+   "Avastusallikas: Konservatooriumi FB events-tab https://www.facebook.com/konservatoorium/events"
+  ],
+  "kontekst": "Miks küsin: ürituse leht nimetab ainult ühe esineja žanri (sünt-popp + elektrooniline post-punk) — baasžanr piiripealne, ülejäänud kava jäi lugemata. Teine allikas: Konservatooriumi events-tab; hinda pole.",
+  "lisatud": "2026-11-20"
+ }
+]
