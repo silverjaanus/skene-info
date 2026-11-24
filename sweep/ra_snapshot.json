@@ -1,8 +1,8 @@
 {
- "tommatud": "2026-11-23",
+ "tommatud": "2026-11-24",
  "aken": {
-  "algus": "2026-11-23",
-  "lopp": "2027-01-22"
+  "algus": "2026-11-24",
+  "lopp": "2027-01-23"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
@@ -37,20 +37,6 @@
   },
   {
    "d": "2026-11-27",
-   "n": "Attend with MANDIDEXTROUS (UK)",
-   "algus": "2026-11-27T23:00:00.000",
-   "v": "Helitehas",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Drum & Bass",
-    "Techno"
-   ],
-   "url": "https://ra.co/events/2536031",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-27",
    "n": "ELAMUS SPA PRESENTS: VENUS REWIND",
    "algus": "2026-11-27T23:00:00.000",
    "v": "TBA - Venus Club",
@@ -61,6 +47,20 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2590587",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-27",
+   "n": "Attend with MANDIDEXTROUS (UK)",
+   "algus": "2026-11-27T23:00:00.000",
+   "v": "Helitehas",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Drum & Bass",
+    "Techno"
+   ],
+   "url": "https://ra.co/events/2536031",
    "pilet": false
   },
   {
@@ -98,20 +98,6 @@
   },
   {
    "d": "2026-11-28",
-   "n": "I LOVE K-POP - Tallinn's K-Pop Club Night",
-   "algus": "2026-11-28T23:00:00.000",
-   "v": "Club Privé",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Hip-Hop",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2585208",
-   "pilet": false
-  },
-  {
-   "d": "2026-11-28",
    "n": "TERMINAATOR LIVE",
    "algus": "2026-11-28T23:00:00.000",
    "v": "TBA - Venus Club",
@@ -122,6 +108,20 @@
     "Pop"
    ],
    "url": "https://ra.co/events/2590583",
+   "pilet": false
+  },
+  {
+   "d": "2026-11-28",
+   "n": "I LOVE K-POP - Tallinn's K-Pop Club Night",
+   "algus": "2026-11-28T23:00:00.000",
+   "v": "Club Privé",
+   "ala": "Tallinn",
+   "b": [],
+   "g": [
+    "Hip-Hop",
+    "Pop"
+   ],
+   "url": "https://ra.co/events/2585208",
    "pilet": false
   },
   {
