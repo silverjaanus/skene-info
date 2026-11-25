@@ -2084,5 +2084,61 @@
   },
   "lisatud": "2026-11-22",
   "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event (IDA Radio, Telliskivi 60a). Žanr ürituse tekstis puudub; silt house = Silveri otsus 22.11.2026 (vastus vestluses). | 23.11.2026: Silveri e-kirja vastus (\"4a\" + Kiimsaski taust: vinüülisetid minimal, house, dub-mõjutustega techno; muurileht.ee/dj-ankeet-kiimsask, idaidaida.net/shows/plastik) — sildid laiendatud: house, minimal, techno, dub."
+ },
+ {
+  "d": "2026-11-27",
+  "t": "klubi",
+  "n": "DNB Classics / Old School Special @ NINE",
+  "a": "23.00–06.00; DNB Estonia: old-school jungle ja klassikaline drum & bass; 18+",
+  "b": [
+   "G11",
+   "Noise b2b Chaotica",
+   "Rans",
+   "TKKR",
+   "Orxro",
+   "Morfiin",
+   "MC Nähtamatu"
+  ],
+  "v": "Club NINE",
+  "c": "Tallinn",
+  "g": [
+   "dnb",
+   "jungle"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tallinn/efbbace0-13e0-42a8-80c4-4b367d1e6d17",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1892194225110726",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "kluub.ee, kontrollitud 25.11.2026 (FB event hinda ei nimeta)"
+  },
+  "nb": "lisatud postkastijooksus 25.11.2026 (samm 2c). Kaks allikat: kluub.ee + FB event (drumandbassestonia, DNB Estonia). Žanr ürituse tekstist.",
+  "lisatud": "2026-11-25"
+ },
+ {
+  "d": "2026-11-28",
+  "t": "klubi",
+  "n": "Parallel Dreams #4 @ Club NINE",
+  "a": "23.00–07.00; Tauno Laasme, melodic house & techno",
+  "b": [
+   "Tauno Laasme"
+  ],
+  "v": "Club NINE",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "techno"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tallinn/1882f1ef-e38c-4714-8366-99e3e70c056a",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2150733589140114",
+  "hind": {
+   "praegu": "10 €",
+   "allikas": "FB event, kontrollitud 25.11.2026"
+  },
+  "nb": "lisatud postkastijooksus 25.11.2026 (samm 2c). Kaks allikat: kluub.ee + FB event (Club NINE). Žanr ürituse tekstist ('Music: Melodic House & Techno').",
+  "lisatud": "2026-11-25"
  }
 ]
