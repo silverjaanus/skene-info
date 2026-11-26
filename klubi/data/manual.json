@@ -2225,5 +2225,36 @@
   },
   "nb": "lisatud postkastijooksus 26.11.2026 (samm 2c, kluub.ee). Kaks allikat: kluub.ee + FB event ja GateMe piletileht (kellaaeg GateMe järgi). Nightvision-pretsedent: Silveri otsus 05.11 (Nightvision at Studio 06.11). Skoobis ainult UP-lava (house/garage).",
   "lisatud": "2026-11-26"
+ },
+ {
+  "d": "2026-12-04",
+  "t": "klubi",
+  "n": "PIIDIVABRIK goes MOD",
+  "b": [
+   "NOA",
+   "Hurmet Ilus",
+   "Kosoc",
+   "Qslap",
+   "Taavet Bristol",
+   "Paula",
+   "Paap"
+  ],
+  "v": "MOD",
+  "c": "Tallinn",
+  "g": [
+   "house",
+   "techno"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tallinn/93214d44-d1af-4f5d-8815-9bf3928aff0d",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/3010229952644703",
+  "a": "22.00–02.00; 18+; Saaremaa klubimuusika kollektiiv Piidivabrik külas MOD-is",
+  "hind": {
+   "praegu": "10 €",
+   "allikas": "kluub.ee ürituse leht, kontrollitud 26.11.2026"
+  },
+  "nb": "lisatud postkastijooksus 26.11.2026 Silveri otsusega ('pane siis sisse house ja techno', vastus 26.11 digestile). Kaks allikat: kluub.ee + FB event (korraldaja MOD). Üritusel endal žanrisilti pole ('kaasahaarav tantsumuusika'); sildid house/techno Silveri otsusel, Piidivabrik @ Klubi Neli 27.11 pretsedent.",
+  "lisatud": "2026-11-26"
  }
 ]

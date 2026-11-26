@@ -500,10 +500,15 @@
    "on_": "Facebook event",
    "ou": "https://www.facebook.com/events/992999307206729/",
    "a": "algus 19.00; albumiesitlus",
-   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Von Krahl, Rada7.ee jt) + Rada7 FB events-tab. Žanr Säde Semperi varasema reliisikirje järgi (pop punk / folk punk); Ulmenthal on East x West Recordsi artist.",
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Von Krahl, Rada7.ee jt) + Rada7 FB events-tab. Žanr Säde Semperi varasema reliisikirje järgi (pop punk / folk punk); Ulmenthal on East x West Recordsi artist. | 26.11.2026 postkastijooks: +Fienta piletileht (Fienta uudiskirjast), uksed 19.00, algus 20.00.",
    "lisatud": "2026-11-20",
    "img": "pildid/sadesemperpeomaagimaaniaesitlusulmenthal.webp",
    "img_src": "fb:992999307206729",
+   "pu": "https://fienta.com/et/sade-semper-peomaagi-maania-esitlus-ulmenthal-27-11-von-krahl",
+   "hind": {
+    "praegu": "eelmüük 15 €, uksel 20 €",
+    "allikas": "Fienta ürituse leht, kontrollitud 26.11.2026"
+   },
    "vu": "https://vonkrahl.ee/"
   },
   {
