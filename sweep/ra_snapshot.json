@@ -1,12 +1,12 @@
 {
- "tommatud": "2026-11-25",
+ "tommatud": "2026-11-26",
  "aken": {
-  "algus": "2026-11-25",
-  "lopp": "2027-01-24"
+  "algus": "2026-11-26",
+  "lopp": "2027-01-25"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 18,
+ "kirjeid": 19,
  "kirjed": [
   {
    "d": "2026-11-26",
@@ -154,6 +154,22 @@
     "Club"
    ],
    "url": "https://ra.co/events/2593765",
+   "pilet": false
+  },
+  {
+   "d": "2026-12-04",
+   "n": "NIGHTVISION",
+   "algus": "2026-12-04T23:00:00.000",
+   "v": "Club Studio",
+   "ala": "Tallinn",
+   "b": [
+    "TELLEMRALF"
+   ],
+   "g": [
+    "House",
+    "Garage"
+   ],
+   "url": "https://ra.co/events/2593974",
    "pilet": false
   },
   {
