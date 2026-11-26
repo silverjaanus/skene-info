@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "oid": "2026-11-26-piidivabrik-goes-mod",
+  "kysimus": "PIIDIVABRIK goes MOD - R 04.12.2026 22.00-02.00 MOD (Paavli 9, Tallinn), pilet 10 EUR, 18+. Line-up NOA, Hurmet Ilus, Kosoc, Qslap, Taavet Bristol, Paula, Paap. Uritus utleb ainult 'monusalt kaasahaarav tantsumuusika' - zanrisilti pole. Sama Saaremaa kollektiivi Piidivabrik @ Klubi Neli 27.11 on klubis sees (house, techno; osaliselt samad DJ-d Paap, Paula, Hurmet Ilus). Kas lisame klubi-saidile?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa klubi-saidile sildiga house, techno (Piidivabrik 27.11 pretsedent)"
+   },
+   {
+    "id": "b",
+    "tekst": "jata valja (zanr uritusel puudub - Bar IDA: Mava & Nebukat 25.11 pretsedent)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-12-01",
+  "lingid": [
+   "https://www.facebook.com/events/3010229952644703",
+   "https://www.kluub.ee/et/events/tallinn/93214d44-d1af-4f5d-8815-9bf3928aff0d",
+   "https://gateme.com/et/klubineli/104582-piidivabrik-i-klubi-neli-i-2711/",
+   "https://www.facebook.com/Modtln/events"
+  ],
+  "kontekst": "Leitud kluub.ee Tallinn lehelt (samm 2c, 26.11 kell 11). Kaks allikat olemas (kluub.ee + FB event, korraldaja MOD), puudu on ainult zanr. House/techno oleks tuletus 27.11 Klubi Neli ohtust - REEGLID 1 jargi kusin.",
+  "lisatud": "2026-11-26"
+ }
+]

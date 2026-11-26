@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 184,
+ "count": 185,
  "entries": [
   {
    "sait": "rap",
@@ -2007,6 +2007,37 @@
    "lisatud": "2026-11-06",
    "img": "https://www.skene.info/pildid/metsatollviimastkordawunderbaaris.webp",
    "vu": "https://wunderbaar.ee/"
+  },
+  {
+   "sait": "klubi",
+   "d": "2026-12-04",
+   "t": "klubi",
+   "n": "Nightvision at Studio",
+   "b": [
+    "Tellemralf",
+    "Olivar",
+    "Funkomatik",
+    "Rahu",
+    "Elmo"
+   ],
+   "v": "Studio",
+   "c": "Tallinn",
+   "g": [
+    "house",
+    "garage"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/aa5b4ef7-56ab-4ab6-9728-03acd28eace1",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2173741203537146",
+   "pu": "https://gateme.com/et/studio/104608-nightvision-at-studio-0412/",
+   "a": "23.00–05.00; UP-lava house / hard house / UK garage (alumine lava pop)",
+   "hind": {
+    "praegu": "7 € ISIC-ga kogu öö, 9 € FB Going kuni 00.00, 15 € tavapilet, 20 € Fasttrack",
+    "allikas": "GateMe ürituse leht, kontrollitud 26.11.2026"
+   },
+   "nb": "lisatud postkastijooksus 26.11.2026 (samm 2c, kluub.ee). Kaks allikat: kluub.ee + FB event ja GateMe piletileht (kellaaeg GateMe järgi). Nightvision-pretsedent: Silveri otsus 05.11 (Nightvision at Studio 06.11). Skoobis ainult UP-lava (house/garage).",
+   "lisatud": "2026-11-26"
   },
   {
    "sait": "www",
