@@ -44,5 +44,28 @@
   ],
   "kontekst": "Konk FB events-tabist 27.11. REEGLID §1: plaadilaadad on skoobis, aga iga kord eraldi üle vaadata; sait tuleb korraldajast/kavast. Konk on plaadipood-baar (ka T-Parm rap-üritus 27.11 seal), DJ-kava ega žanrit lehel ei ole.",
   "lisatud": "2026-11-27"
+ },
+ {
+  "oid": "2026-11-27-kriminaalne-elevant-kinomaja",
+  "kysimus": "Kriminaalne Elevant — R 27.11 (TÄNA) kl 21 multikas „Kapten Morten lollide laeval“, 22:30 bänd, Tallinna Kinomaja (Uus 3); balleti esietenduse afterparty, eelmüük 15 € / uksel 20 €. Žanr pole kummalgi lehel kirjas („instrumentaalvokaal ansambel“, Kaspar Jancise teatri- ja filmimuusika bänd; kaaskorraldajad Anarchy in EST ja Eesti punk). Kas lisame?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www (rock/punk — vasta enne kella 17 jooksu, siis jõuab täna õhtuks saidile)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (žanr ebaselge, teatri-/filmimuusika)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-12-02",
+  "lingid": [
+   "https://www.facebook.com/events/1877634637004337/",
+   "https://www.piletitasku.ee/et/event/10672",
+   "https://www.rada7.ee/uudiskiri/"
+  ],
+  "kontekst": "Rada7.ee uudiskirjast 26.11 („metalcore igavesti!“). Kaks allikat olemas (FB event + Piletitasku, kuupäev/kellaaeg/hind klapivad), aga REEGLID §1 järgi uudiskiri ei ole žanriallikas ja ürituse lehed žanrit ei nimeta. Kui otsus tuleb pärast tänast õhtut, on üritus möödas ja punkt sulgub iseenesest.",
+  "lisatud": "2026-11-27"
  }
 ]
