@@ -1,20 +1,12 @@
 {
  "kuupaev": "2026-11-27",
- "aeg": "2026-11-27T11:50+02:00",
- "seis": "saadetud",
- "ambrid": [
-  "send:metal+klubi:et 4 tellijat 82 kirjet",
-  "send:metal+rap+klubi:et 4 tellijat 89 kirjet",
-  "send:metal+rap:et 2 tellijat 55 kirjet",
-  "send:metal:et 38 tellijat 48 kirjet",
-  "send:rap+klubi:et 1 tellijat 41 kirjet"
- ],
+ "aeg": "2026-11-27T15:56+02:00",
+ "seis": "juba_saadetud",
  "kampaaniad": [
-  "205282601981707841",
-  "205282642799625678",
-  "205282680003102123",
-  "205282840103879749",
-  "205282875355956468"
- ],
- "tellijaid": 49
+  "skene.info nädalakiri — 27. november – 6. detsember 2026 (sent, 205282875355956468)",
+  "skene.info nädalakiri — 27. november – 6. detsember 2026 (sent, 205282840103879749)",
+  "skene.info nädalakiri — 27. november – 6. detsember 2026 (sent, 205282642799625678)",
+  "skene.info nädalakiri — 27. november – 6. detsember 2026 (sent, 205282680003102123)",
+  "skene.info nädalakiri — 27. november – 6. detsember 2026 (sent, 205282601981707841)"
+ ]
 }
