@@ -4430,5 +4430,27 @@
   "nb": "lisatud sweepis 27.11.2026. Kuupäev Bandcampi albumilehelt (released November 19, 2026).",
   "lisatud": "2026-11-27",
   "img": "pildid/riivountilwerealldead.webp"
+ },
+ {
+  "d": "2026-12-04",
+  "t": "kontsert",
+  "n": "Rock Friday: FEVERHEAT + RING",
+  "b": [
+   "FEVERHEAT",
+   "RING"
+  ],
+  "v": "The Krypt",
+  "c": "Tallinn",
+  "g": [
+   "metal"
+  ],
+  "sn": "thekrypt.ee",
+  "su": "https://www.thekrypt.ee/event/%f0%9d%91%b9%f0%9d%92%90%f0%9d%92%84%f0%9d%92%8c-%f0%9d%91%ad%f0%9d%92%93%f0%9d%92%8a%f0%9d%92%85%f0%9d%92%82%f0%9d%92%9a-feverheat-ring/",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/28994625416895969/",
+  "lisatud": "2026-11-20",
+  "nb": "manual-koopia thekrypt.ee auto-kirjest 27.11.2026 sweepis: lisatud ürituse FB event (ou) + kaanepilt; 2. allikas Fienta metal-otsing",
+  "img": "pildid/rockfridayfeverheatring.webp",
+  "img_src": "fb:28994625416895969"
  }
 ]
