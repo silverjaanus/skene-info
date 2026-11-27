@@ -548,7 +548,9 @@
   },
   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Loodikud, Carlotta, Tempel) + Rada7 FB events-tab.",
   "lisatud": "2026-11-20",
-  "linn": "Pärnu"
+  "linn": "Pärnu",
+  "img": "pildid/hiphophangoutkultuuriklubitempel.webp",
+  "img_src": "fb:3132941123719775"
  },
  {
   "d": "2026-11-27",
@@ -644,5 +646,57 @@
   "nb": "lisatud sweepi ülekontrollis 20.11.2026. Kaks allikat: D3 ürituseleht + GateMe. Seotud reliisikirje PRODIGYBOYS «MOOSEKANDID» (28.10).",
   "lisatud": "2026-11-20",
   "img": "pildid/prodigyboysmoosekandidalbumiesitluskontsert.webp"
+ },
+ {
+  "d": "2026-12-04",
+  "t": "klubi",
+  "n": "Taastusravila 3.0",
+  "a": "22.00–05.00, tasuta; Loodikud live kell 00.00",
+  "b": [
+   "Loodikud",
+   "Emaj6e Diskoh",
+   "Sänk",
+   "Loodikud DJ Krew",
+   "Condrad"
+  ],
+  "v": "Kivi baar",
+  "c": "Tartu",
+  "g": [
+   "hiphop",
+   "räpp"
+  ],
+  "sn": "Kivi baar FB events-tab",
+  "su": "https://www.facebook.com/kivibaar/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/2201746170729629/",
+  "hind": {
+   "praegu": "tasuta",
+   "allikas": "FB event, 27.11.2026"
+  },
+  "nb": "lisatud sweepis 27.11.2026; FB event (Loodikud + Kivi baar); Loodikud = Tartu räpikollektiiv (rap-allikas sources.json-is), Eesti räppari peaesinetud pidu → rap",
+  "lisatud": "2026-11-27",
+  "img": "pildid/taastusravila30.webp",
+  "img_src": "fb:2201746170729629"
+ },
+ {
+  "d": "2027-02-26",
+  "t": "kontsert",
+  "n": "Odetari (US)",
+  "a": "algus 19.00; USA räppar/produtsent; piletimüük Piletilevis alates 27.11 kell 10",
+  "b": [
+   "Odetari"
+  ],
+  "v": "Helitehas",
+  "c": "Tallinn",
+  "g": [
+   "räpp",
+   "hiphop"
+  ],
+  "sn": "L Tips Agency Estonia FB events-tab",
+  "su": "https://www.facebook.com/LTipsAgencyEstonia/events",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/4680233428964561/",
+  "nb": "lisatud sweepis 27.11.2026; FB event (L Tips + Helitehas) + helitehas.ee kava; välisartist Eestis (Bali Baby pretsedent)",
+  "lisatud": "2026-11-27"
  }
 ]

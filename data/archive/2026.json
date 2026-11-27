@@ -8780,6 +8780,97 @@
    "img": "pildid/skoonemexicotouraftermathavshow.webp",
    "img_src": "fb:1437586191896785",
    "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "d": "2026-11-26",
+   "t": "kontsert",
+   "n": "Wyatt E. (BE) + Five The Hierophant (UK)",
+   "a": "Belgia ritual-doom’i Euroopa sügistuur, algus 19.00",
+   "b": [
+    "Wyatt E. (BE)",
+    "Five The Hierophant (UK)"
+   ],
+   "v": "Paavli Kultuurivabrik",
+   "c": "Tallinn",
+   "g": [
+    "doom",
+    "post",
+    "eksperimentaal"
+   ],
+   "sn": "Metal Storm",
+   "su": "https://metalstorm.net/events/event.php?event_id=236314",
+   "on_": "Damn.Loud Agency",
+   "ou": "https://www.facebook.com/events/1563921728613490",
+   "lisatud": "2026-08-21",
+   "nb": "lisatud sweepis 21.08.2026. Kaks allikat: Metal Stormi Eesti-nimekiri (26.11.2026 Paavli Kultuurivabrik) + Damn.Loud Agency FB events-tab. Pilet avanes 22.08.2026 — Fienta ürituseleht (Paavli org 17595), lisatud pu. | Vana automaatkorje kirje 'Wyatt E.' (sama kuupäev/koht, ainult 'metal' silt) on blocklist'is — see manual-kirje asendab selle. | RIKASTATUD 22.09.2026 postkastijooksus (Paavli Kultuurivabriku uudiskiri 21.09): ou oli korraldaja events-tab, mis on REEGLID §3 järgi avastusallikas, MITTE kontroll-link — asendatud ürituse enda FB eventiga facebook.com/events/1563921728613490, mida kinnitavad NII uudiskiri KUI paavli.ee ürituseleht (paavli.ee/sundmused/wyatt-e-be-five-the-hierophant-uk/).",
+   "pu": "https://fienta.com/wyatte-five-the-hierophant-tallinn",
+   "img": "pildid/wyattebefivethehierophantuk.webp",
+   "hind": {
+    "praegu": "20 €",
+    "allikas": "Fienta (automaatne), kontrollitud 13.09.2026"
+   },
+   "vu": "https://www.kultuurivabrik.ee/"
+  },
+  {
+   "d": "2026-11-26",
+   "t": "kontsert",
+   "n": "Likane Leppäne (FIN) + Avemaria + Halb Päev @ Ülase12",
+   "a": "algus 19.00",
+   "b": [
+    "Likane Leppäne (FIN)",
+    "Avemaria",
+    "Halb Päev"
+   ],
+   "v": "Ülase12",
+   "c": "Tallinn",
+   "g": [
+    "punk"
+   ],
+   "sn": "Ülase12 (Anemon12) FB events-tab",
+   "su": "https://www.facebook.com/anemon12tln/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1621591452222504/",
+   "nb": "lisatud sweepis 13.11.2026. Kaks allikat: FB event (Anemon12 + Riste Sofie Käär) + Ülase12 FB events-tab. classify.py pakkus Likane Leppänele räppi (Soome noise-rap); jääb peasaidile. Silveri otsus 13.11.2026 vastuses ülevaatusmeilile. Rikastatud 22.11.2026: hind FB eventist; koht kannab nüüd nime Anemon12 (Ülase tn 12).",
+   "lisatud": "2026-11-13",
+   "img": "pildid/likaneleppanefinavemariahalbpaevulase12.webp",
+   "img_src": "fb:1621591452222504",
+   "hind": {
+    "praegu": "5 / 8 €",
+    "mark": "uksel",
+    "allikas": "FB event (kluub.ee peegel), kontrollitud 22.11.2026"
+   },
+   "vu": "https://www.facebook.com/anemon12tln"
+  },
+  {
+   "d": "2026-11-26",
+   "t": "kontsert",
+   "n": "Jimi Hendrix 84 I kontsert: Ukaredad, Vaiglad, Lillepea",
+   "a": "algus 21.00; Hendrixi-kava: Raul Ukareda, Raul Vaigla, Andrus Lillepea + erikülalised Carlos Ukareda ja Marie Vaigla",
+   "b": [
+    "Raul Ukareda",
+    "Raul Vaigla",
+    "Andrus Lillepea",
+    "Carlos Ukareda",
+    "Marie Vaigla"
+   ],
+   "v": "Philly Joe's",
+   "c": "Tallinn",
+   "g": [
+    "rock",
+    "bluus"
+   ],
+   "sn": "kluub.ee",
+   "su": "https://www.kluub.ee/et/events/tallinn/bc6cd501-d538-4ba7-93f6-da044abf36da",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/2184827645439332",
+   "pu": "https://piletikeskus.ee/et/e/7nhiuj",
+   "hind": {
+    "praegu": "eelmüük 20 € (BEBOP, piiratud) / 25 € (SWING) / 30 € (COOL JAZZ), soodus 20 €; kohapeal 35 € / soodus 25 €; toetajapilet 50 €",
+    "allikas": "Piletikeskus + FB event, kontrollitud 22.11.2026"
+   },
+   "lisatud": "2026-11-22",
+   "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus).",
+   "img": "pildid/jimihendrix84ikontsertukaredadvaigladlillepea.webp"
   }
  ]
 }

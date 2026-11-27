@@ -1,1 +1,48 @@
-[]
+[
+ {
+  "oid": "2026-11-27-robert-plant-sigulda",
+  "kysimus": "Robert Plant & Saving Grace with Suzi Dian — L 17.07.2027 kl 20, Siguldas Pilsdrupu Estrāde (Läti), piletid L Tips Agency kaudu. Kas lisame www rahvusvahelise kirjena?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www rahvusvaheline (Baltikumi suur rock-kontsert)"
+   },
+   {
+    "id": "b",
+    "tekst": "jäta välja (folk/bluusrock, mitte metal-skoop)"
+   }
+  ],
+  "vaikeotsus": "b",
+  "tahtaeg": "2026-12-02",
+  "lingid": [
+   "https://www.facebook.com/events/1141252308555136/"
+  ],
+  "kontekst": "Leitud L Tips Agency Estonia FB events-tabist 27.11 sweepil. Rahvusvaheline sektsioon katab Baltikumi suursündmused, aga Saving Grace on folk-/bluusrock ja L Tipsi samast nimekirjast jäeti peavoolu (Bryan Adams, Hurts) teadlikult välja. Teist allikat (piletileht) ei avatud.",
+  "lisatud": "2026-11-27"
+ },
+ {
+  "oid": "2026-11-27-konk-plaadi-taika",
+  "kysimus": "Jõululaupäeva Plaadi Täika — L 05.12 kl 12–16, Konk (Aparaaditehas, Kastani 42, Tartu), vinüülid, särgid, märgid, CD-d, mitu müüjat. Kas lisame?",
+  "valikud": [
+   {
+    "id": "a",
+    "tekst": "lisa www (plaadilaat skoobis)"
+   },
+   {
+    "id": "b",
+    "tekst": "lisa klubi"
+   },
+   {
+    "id": "c",
+    "tekst": "jäta välja (DJ-kava ega žanri pole)"
+   }
+  ],
+  "vaikeotsus": "c",
+  "tahtaeg": "2026-12-02",
+  "lingid": [
+   "https://www.facebook.com/events/933093566437321/"
+  ],
+  "kontekst": "Konk FB events-tabist 27.11. REEGLID §1: plaadilaadad on skoobis, aga iga kord eraldi üle vaadata; sait tuleb korraldajast/kavast. Konk on plaadipood-baar (ka T-Parm rap-üritus 27.11 seal), DJ-kava ega žanrit lehel ei ole.",
+  "lisatud": "2026-11-27"
+ }
+]
