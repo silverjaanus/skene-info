@@ -35,7 +35,7 @@
    "nb": "vabatekstiline markus"
   }
  },
- "count": 216,
+ "count": 217,
  "entries": [
   {
    "sait": "rap",
@@ -1076,6 +1076,32 @@
    "lisatud": "2026-11-22",
    "nb": "lisatud postkastijooksus 22.11.2026 (samm 2c). Allikad: kluub.ee + FB event + Piletikeskus (kuupäev/kellaaeg kontrollitud piletilehelt). Bluusrokk-Hendrixi-kava; pretsedent: Jimi Hendrix 84 — CryBaby 10.10 / 31.10 (rock+bluus).",
    "img": "https://www.skene.info/pildid/jimihendrix84iikontsertukaredadvaigladlillepea.webp"
+  },
+  {
+   "sait": "www",
+   "d": "2026-11-27",
+   "t": "kontsert",
+   "n": "Kriminaalne Elevant Tallinna Kinomajas",
+   "b": [
+    "Kriminaalne Elevant"
+   ],
+   "v": "Tallinna Kinomaja",
+   "c": "Tallinn",
+   "g": [
+    "alt"
+   ],
+   "sn": "Rada7.ee uudiskiri",
+   "su": "https://www.rada7.ee/uudiskiri/",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1877634637004337/",
+   "pu": "https://www.piletitasku.ee/et/event/10672",
+   "a": "21.00 multikas „Kapten Morten lollide laeval“, 22.30 Kriminaalne Elevant; balleti esietenduse afterparty",
+   "hind": {
+    "praegu": "eelmüük 15 €, uksel 20 €",
+    "allikas": "Piletitasku ürituse leht, kontrollitud 27.11.2026"
+   },
+   "nb": "lisatud 27.11.2026 Silveri otsusega (vastus vestluses: „Kriminaalne Elevant läheb sisse. alt žanr“). Kaks allikat: FB event (Kuku-Kinomaja, Kriminaalne Elevant jt) + Piletitasku. Avastatud Rada7.ee uudiskirjast 26.11. Žanrisilt alt = Silveri otsus.",
+   "lisatud": "2026-11-27"
   },
   {
    "sait": "rap",
