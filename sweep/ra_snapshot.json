@@ -1,27 +1,13 @@
 {
- "tommatud": "2026-11-26",
+ "tommatud": "2026-11-27",
  "aken": {
-  "algus": "2026-11-26",
-  "lopp": "2027-01-25"
+  "algus": "2026-11-27",
+  "lopp": "2027-01-26"
  },
  "allikas": "ra.co/graphql, area 184 (All Estonia)",
  "nb": "Toorandmed sweep-agendile: EI lahe automaatselt saidile. Skoop (peavoolu kommertsklubid VALJA), kahe allika reegel ja rikastamine jaavad kureerimise osaks.",
- "kirjeid": 19,
+ "kirjeid": 18,
  "kirjed": [
-  {
-   "d": "2026-11-26",
-   "n": "THROWBACK THURSDAY",
-   "algus": "2026-11-26T23:00:00.000",
-   "v": "TBA - Venus Club",
-   "ala": "Tallinn",
-   "b": [],
-   "g": [
-    "Disco",
-    "Pop"
-   ],
-   "url": "https://ra.co/events/2590590",
-   "pilet": false
-  },
   {
    "d": "2026-11-27",
    "n": "STEREO",
