@@ -4227,5 +4227,33 @@
   "nb": "manual-koopia thekrypt.ee auto-kirjest 27.11.2026 sweepis: lisatud ürituse FB event (ou) + kaanepilt; 2. allikas Fienta metal-otsing",
   "img": "pildid/rockfridayfeverheatring.webp",
   "img_src": "fb:28994625416895969"
+ },
+ {
+  "d": "2026-12-02",
+  "t": "kontsert",
+  "n": "T-40: Ukareda/Krigul/Toomel/Ahven",
+  "a": "algus 20.00 (uksed 19.00); arhailbluusi-kvartett: Raul Ukareda (kitarr), Ülo Krigul (Hammondi orel), Argo Toomel (bass), Reigo Ahven (trummid)",
+  "b": [
+   "Raul Ukareda",
+   "Ülo Krigul",
+   "Argo Toomel",
+   "Reigo Ahven"
+  ],
+  "v": "Philly Joe's",
+  "c": "Tallinn",
+  "g": [
+   "bluus"
+  ],
+  "sn": "kluub.ee",
+  "su": "https://www.kluub.ee/et/events/tallinn/c44910d5-3730-4939-8fb8-d444b186e0fe",
+  "on_": "Facebook event",
+  "ou": "https://www.facebook.com/events/1132040409528777",
+  "pu": "https://piletikeskus.ee/et/e/l7ewb1",
+  "hind": {
+   "praegu": "eelmüük 15 € (BEBOP, piiratud) / 20 € (SWING) / 25 € (COOL JAZZ); kohapeal 30 €, soodus 15 €; toetajapilet 50 €",
+   "allikas": "Piletikeskus + kluub.ee (FB eventi tekst), kontrollitud 28.11.2026"
+  },
+  "lisatud": "2026-11-28",
+  "nb": "lisatud postkastijooksus 28.11.2026 (samm 2c). Allikad: kluub.ee + Piletikeskus (kuupäev K 02.12.2026 kell 20:00 kontrollitud piletilehelt); FB event kluub.ee lingist. Bluus = www 8. metafilter; pretsedent: Jimi Hendrix 84 I-III (Ukareda, Philly Joe's, 26.-28.11)."
  }
 ]
