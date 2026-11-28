@@ -1392,6 +1392,26 @@
    "img": "pildid/genkapauloja30aastatlaval.webp"
   },
   {
+   "rel": 1,
+   "d": "2026-10-26",
+   "lisatud": "2026-10-28",
+   "t": "reliis",
+   "n": "margiiela – „HALL ALA“",
+   "a": "teine stuudioalbum, 16 lugu (~50 min); külalistena Lil Till, Genka, Diwo, Alika, Cecilia, Chillin, Karjakoer jt; produktsioon Emildollaz, Pil, Liv ja margiiela ise (ka miks), master Markus Palo; vinüül Legendaarne veebipoes",
+   "b": [
+    "margiiela"
+   ],
+   "g": [
+    "räpp"
+   ],
+   "sn": "ERR kultuur",
+   "su": "https://kultuur.err.ee/1610177200/margiiela-avaldas-teise-taispika-albumi-hall-ala",
+   "nb": "leitud postkastijooksus 28.10.2026 Legendaarne Records uudiskirjast (27.10, https://mailchi.mp/a0fd1b332a04/margiiela). Kaks allikat: label Legendaarne Records (uudiskiri) + ERR kultuur 26.10.2026 („andis esmaspäeval välja“ = 26.10.2026). Voogedastuse otselinki ei leidnud – täienda sweepis (ou). | 30.10.2026 sweep: rikastatud (ou, on_).",
+   "img": "pildid/margiielahallala.webp",
+   "ou": "https://legendaarne.ee/margiiela-hall-ala-album-on-nuud-valjas/",
+   "on_": "Legendaarne Records"
+  },
+  {
    "d": "2026-10-30",
    "t": "klubi",
    "n": "halloweeni rämmar",
@@ -1851,6 +1871,57 @@
    "lisatud": "2026-11-20",
    "img": "pildid/chainzlivemaakuukummulichainzlaboratooriumtopeltalbumiesitlus.webp",
    "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "d": "2026-11-27",
+   "t": "kontsert",
+   "n": "Legendaarne Live: Masta Robusta x Marmormaze",
+   "a": "algus 20.00",
+   "b": [
+    "Masta Robusta",
+    "Marmormaze"
+   ],
+   "v": "Legendaarne Raadio & Baar",
+   "c": "Tallinn",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Masta Robusta FB events-tab",
+   "su": "https://www.facebook.com/MastaRobusta/events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/29861448380107629/",
+   "pu": "https://fienta.com/et/mastarobustaxmarmormaze",
+   "nb": "lisatud sweepis 13.11.2026. Allikad: FB event (Legendaarne Raadio + Masta Robusta) + Fienta piletileht.",
+   "lisatud": "2026-11-13",
+   "img": "pildid/legendaarnelivemastarobustaxmarmormaze.webp",
+   "vu": "https://www.facebook.com/LegendaarneRaadio"
+  },
+  {
+   "d": "2026-11-27",
+   "t": "kontsert",
+   "n": "T-Parm «13 Sarvikut» EP esitlus",
+   "b": [
+    "T-Parm",
+    "Benakanister"
+   ],
+   "v": "Konk",
+   "c": "Tartu",
+   "g": [
+    "räpp"
+   ],
+   "sn": "Konk FB events-tab",
+   "su": "https://www.facebook.com/profile.php?id=61593812049749&sk=events",
+   "on_": "Facebook event",
+   "ou": "https://www.facebook.com/events/1488082179920217/",
+   "a": "21.00–02.00; debüüt-EP esitlus, lisaks kolm üllatusartisti",
+   "hind": {
+    "praegu": "tasuta",
+    "allikas": "FB event, kontrollitud 20.11.2026"
+   },
+   "nb": "lisatud sweepis 20.11.2026. Kaks allikat: FB event (Konk + Aparaaditehas) + Konki FB events-tab.",
+   "lisatud": "2026-11-20",
+   "img": "pildid/tparm13sarvikutepesitlus.webp",
+   "img_src": "fb:1488082179920217"
   }
  ]
 }

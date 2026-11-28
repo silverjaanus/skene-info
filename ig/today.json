@@ -1,4 +1,12 @@
 {
-  "date": "2026-11-27",
-  "story": null
+  "date": "2026-11-28",
+  "story": {
+    "image_url": "https://www.skene.info/ig/story-2026-11-28.jpg",
+    "images": [
+      "https://www.skene.info/ig/story-2026-11-28.jpg"
+    ],
+    "tana": 21,
+    "homme": 0,
+    "postita": true
+  }
 }
